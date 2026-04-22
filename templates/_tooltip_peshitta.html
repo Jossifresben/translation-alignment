@@ -1,0 +1,13 @@
+<div class="tooltip-inner peshitta-tooltip">
+  <div class="tt-token" dir="rtl">{{ entry.token }}</div>
+  <dl class="tt-fields">
+    <dt>Root</dt><dd>{{ entry.root or '—' }}</dd>
+    {% if entry.sister_roots %}
+      <dt>Sister roots</dt><dd>{{ entry.sister_roots | join(', ') }}</dd>
+    {% endif %}
+    {% if entry.cognates %}
+      <dt>Hebrew</dt><dd>{{ entry.cognates.get('hebrew', '—') }}</dd>
+      <dt>Arabic</dt><dd>{{ entry.cognates.get('arabic', '—') }}</dd>
+    {% endif %}
+  </dl>
+</div>

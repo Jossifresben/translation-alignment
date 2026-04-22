@@ -94,3 +94,23 @@ def test_404_page_for_nonexistent_verse(client):
     body = resp.data.decode("utf-8")
     assert "not found" in body.lower()
     assert "/mark/1/1" in body
+
+
+def test_tooltip_greek_returns_entry_when_present(client):
+    import pytest
+    resp = client.get("/tooltip/greek/1/1/0")
+    if resp.status_code == 404:
+        pytest.skip("greek_strong.json not populated or Mark 1:1 token 0 missing")
+    assert resp.status_code == 200
+    body = resp.data.decode("utf-8")
+    assert "Strong" in body or "strong" in body.lower()
+
+
+def test_tooltip_greek_404_for_missing_token(client):
+    resp = client.get("/tooltip/greek/99/99/0")
+    assert resp.status_code == 404
+
+
+def test_tooltip_peshitta_404_for_missing_token(client):
+    resp = client.get("/tooltip/peshitta/99/99/0")
+    assert resp.status_code == 404

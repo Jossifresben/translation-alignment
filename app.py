@@ -10,6 +10,7 @@ from flask import Flask, abort, render_template
 
 from translation_core.alignment import AlignmentStore
 from translation_core.corpora import CorpusRegistry
+from translation_core.enrichment import GreekEnrichment, PeshittaEnrichment
 from translation_core.rendering import render_tokens_html
 
 app = Flask(__name__)
@@ -18,6 +19,8 @@ app = Flask(__name__)
 _i18n: dict = {}
 _corpora: CorpusRegistry | None = None
 _alignments: AlignmentStore | None = None
+_greek_enrichment: GreekEnrichment | None = None
+_peshitta_enrichment: PeshittaEnrichment | None = None
 _initialized = False
 _init_lock = threading.Lock()
 
@@ -82,6 +85,9 @@ def _init() -> None:
                 _corpora.add(tid, label, csv_path)
 
         _alignments = AlignmentStore(root=DATA_DIR / "alignments")
+        global _greek_enrichment, _peshitta_enrichment
+        _greek_enrichment = GreekEnrichment(DATA_DIR / "enrichment" / "greek_strong.json")
+        _peshitta_enrichment = PeshittaEnrichment(DATA_DIR / "enrichment" / "peshitta_roots.json")
         _initialized = True
 
 
@@ -186,6 +192,22 @@ def _build_fallback(chapter: int, verse: int) -> dict | None:
             "schema_version": 1,
         },
     }
+
+
+@app.route("/tooltip/greek/<int:chapter>/<int:verse>/<int:token_idx>")
+def tooltip_greek(chapter: int, verse: int, token_idx: int):
+    entry = _greek_enrichment.lookup("Mark", chapter, verse, token_idx)
+    if entry is None:
+        return ("", 404)
+    return render_template("_tooltip_greek.html", entry=entry)
+
+
+@app.route("/tooltip/peshitta/<int:chapter>/<int:verse>/<int:token_idx>")
+def tooltip_peshitta(chapter: int, verse: int, token_idx: int):
+    entry = _peshitta_enrichment.lookup("Mark", chapter, verse, token_idx)
+    if entry is None:
+        return ("", 404)
+    return render_template("_tooltip_peshitta.html", entry=entry)
 
 
 if __name__ == "__main__":
