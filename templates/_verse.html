@@ -35,15 +35,39 @@
     {% endfor %}
   </div>
 
+  {% set highlighted = alignment.alignment | rejectattr("variant", "equalto", "aligned") | list %}
   {% set notes = alignment.alignment | selectattr("note") | list %}
-  {% if notes %}
+  {% if highlighted or notes %}
     <div class="commentary">
-      <h3>Variant notes</h3>
-      <ul>
-        {% for group in notes %}
-          <li><span class="variant-dot {{ group.variant }}"></span>{{ group.note }}</li>
-        {% endfor %}
-      </ul>
+      {% if highlighted %}
+        <section class="highlighted-section">
+          <h3>Highlighted variants</h3>
+          <ul class="highlighted-list">
+            {% for group in highlighted %}
+              <li>
+                <span class="variant-badge {{ group.variant }}">{{ group.variant }}</span>
+                {% for tid, label, dir in traditions %}
+                  {% if group.get(tid) %}
+                    <span class="hl-trad hl-{{ tid }}" dir="{{ dir }}">
+                      <span class="hl-label">{{ label }}</span><span class="hl-tokens">{% for idx in group[tid] %}{{ alignment.traditions[tid].tokens[idx] }}{% if not loop.last %} {% endif %}{% endfor %}</span>
+                    </span>
+                  {% endif %}
+                {% endfor %}
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+      {% if notes %}
+        <section class="notes-section">
+          <h3>Notes</h3>
+          <ul class="notes-list">
+            {% for group in notes %}
+              <li><span class="variant-dot {{ group.variant }}"></span>{{ group.note }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
     </div>
   {% endif %}
 </article>
