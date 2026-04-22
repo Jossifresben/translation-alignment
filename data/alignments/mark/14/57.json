@@ -46,14 +46,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܕܝܢ (dēn, 'but/now') for Greek Καί; stylistic variation in conjunction choice"
+      "type": "substitution",
+      "note": "Greek Καί and Latin Et both function as coordinating conjunctions. Peshitta omits the conjunction entirely, beginning directly with the subject ܐܢܫܝܢ ('some men'), a common Syriac stylistic preference in narrative sequences."
     },
     {
       "greek_nt": [
@@ -64,58 +63,52 @@
       ],
       "vulgate": [
         1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        4,
-        5
-      ],
-      "vulgate": [
-        3,
-        4
-      ],
-      "variant": "major",
-      "note": "Greek ἐψευδομαρτύρουν is single compound verb 'bore false witness'; Peshitta uses ܣܗܕܐ ܕܫܘܩܪܐ (testimony of falsehood), Vulgate falsum testimonium—both analytic constructions"
-    },
-    {
-      "greek_nt": [
-        4,
-        5
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        6,
-        7
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [],
-      "peshitta": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Peshitta inserts the postpositive particle ܕܝܢ ('but', 'now'), a characteristic Syriac discourse marker absent from both Greek and Latin witnesses. This particle provides narrative transition without altering the semantic content."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3,
+        4,
         5
       ],
-      "variant": "minor",
-      "note": "Vulgate ferebant (imperfect 'were bearing') makes explicit the durative aspect implicit in Greek imperfect ἐψευδομαρτύρουν; grouped with testimonium above for semantic unity"
+      "peshitta": [
+        4,
+        5,
+        3
+      ],
+      "vulgate": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek employs the compound verb ἐψευδομαρτύρουν with prepositional phrase κατ᾽ αὐτοῦ ('were bearing false witness against him'). Latin expands this into a three-word construction falsum testimonium ferebant adversus eum, analytically separating adjective, noun, and verb. Peshitta uses the construct phrase ܣܗܕܐ ܕܫܘܩܪܐ ܥܠܘܗܝ ('testimony of falsehood against him'), placing the prepositional phrase before the nominal construct—a distinct syntactic structure conveying identical meaning."
     },
     {
       "greek_nt": [
@@ -136,13 +129,14 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate adds colon (:) as punctuation before direct speech; not present in Greek or Peshitta manuscripts"
+      "type": "punctuation",
+      "note": "Vulgate adds a colon to introduce direct discourse. This punctuation mark reflects Latin editorial convention and has no equivalent in the Greek or Syriac manuscript traditions, which lack systematic punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.838626+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.043810+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

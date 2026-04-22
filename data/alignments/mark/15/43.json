@@ -97,7 +97,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses aorist participle ἐλθών (nominative masculine singular) modifying Joseph; Vulgate employs finite verb venit (perfect indicative third person singular); Peshitta uses ܐܬܐ (perfect third person masculine singular). All three convey completed action of coming, but Greek subordinates this action participially while Latin and Syriac coordinate it as main verb."
     },
     {
       "greek_nt": [
@@ -127,32 +129,25 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta includes demonstrative pronoun ܗܘ 'he' for emphasis; Greek uses article ὁ"
+      "type": "construction",
+      "note": "Greek employs article ὁ with prepositional phrase ἀπὸ Ἁριμαθαίας as substantival modifier; Vulgate uses simple prepositional phrase ab Arimathæa without article (Latin lacking definite articles); Peshitta inserts demonstrative pronoun ܗܘ ('that one') with relative particle ܕܡܢ ܪܡܬܐ, creating a relative clause construction typical of Syriac syntax."
     },
     {
       "greek_nt": [
-        5
+        5,
+        6
       ],
       "peshitta": [
-        5
+        5,
+        6
       ],
       "vulgate": [
-        4
+        4,
+        5
       ],
       "variant": "minor",
-      "note": "εὐσχήμων (prominent/honorable) vs ܡܝܩܪܐ (honored) vs nobilis (noble): synonymous descriptors"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
+      "type": "lexical",
+      "note": "Greek εὐσχήμων βουλευτής ('prominent council member') is rendered by Vulgate nobilis decurio (noble decurion, using Roman administrative terminology) and Peshitta ܡܝܩܪܐ ܒܘܠܘܛܐ (honored counselor, with Greek loanword βουλευτής transliterated). The Vulgate adapts to Roman context while Peshitta preserves Greek technical term."
     },
     {
       "greek_nt": [
@@ -185,7 +180,9 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect periphrastic construction ἦν προσδεχόμενος (was waiting, emphasizing ongoing state); Vulgate employs imperfect erat exspectans (was expecting, also periphrastic); Peshitta uses active participle ܡܣܟܐ with ܗܘܐ (was waiting). All three traditions express durative past action with equivalent periphrastic constructions."
     },
     {
       "greek_nt": [
@@ -202,7 +199,9 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs double article construction τὴν βασιλείαν τοῦ θεοῦ with accusative object and genitive modifier; Vulgate uses regnum Dei without articles (Latin lacking definite articles); Peshitta uses ܠܡܠܟܘܬܐ ܕܐܠܗܐ with prefixed preposition ܠ (to/for the kingdom) and genitive particle ܕ, creating construct chain typical of Semitic syntax."
     },
     {
       "greek_nt": [
@@ -216,31 +215,23 @@
         14
       ],
       "variant": "minor",
-      "note": "τολμήσας (having boldness) rendered as ܘܐܡܪܚ (and he dared) in Peshitta; Vulgate adds conjunction 'et' and uses adverb 'audacter'"
+      "type": "word-order",
+      "note": "Greek aorist participle τολμήσας ('having dared/boldness') precedes main verb εἰσῆλθεν; Vulgate places adverb audacter ('boldly') after conjunction et and before verb introivit, creating different emphasis; Peshitta uses ܘܐܡܪܚ ('and he dared/was bold') as coordinate finite verb. Greek subordinates the boldness as circumstantial participle, while Vulgate and Peshitta treat it more independently."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19,
         20
       ],
       "peshitta": [
+        15,
         16,
         17
       ],
       "vulgate": [
+        15,
         16,
         17
       ],
@@ -248,28 +239,17 @@
     },
     {
       "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        18
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        21,
         22
       ],
       "peshitta": [
         18
       ],
       "vulgate": [
+        18,
         19
       ],
-      "variant": "minor",
-      "note": "Peshitta combines conjunction and verb in single token ܘܫܐܠ"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -287,13 +267,14 @@
         21
       ],
       "variant": "minor",
-      "note": "Peshitta uses pronominal suffix on ܦܓܪܗ (his body) instead of separate article + genitive construction"
+      "type": "grammar",
+      "note": "Greek uses double article construction τὸ σῶμα τοῦ Ἰησοῦ (the body of Jesus) with accusative object and genitive modifier; Vulgate employs corpus Jesu without articles; Peshitta uses ܦܓܪܗ ܕܝܫܘܥ with pronominal suffix on 'body' (his body) plus genitive particle ܕ, creating possessive construction. The Peshitta's use of suffix pronoun adds slight emphasis on possession not explicit in Greek or Latin."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.848533+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.052767+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

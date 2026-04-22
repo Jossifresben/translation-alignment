@@ -93,74 +93,40 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
+        1,
         2,
         3
       ],
-      "variant": "aligned",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'illis' to mark direct speech, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. This reflects Latin scribal convention for introducing discourse."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5
       ],
       "peshitta": [
+        2,
         3
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek emphatic double pronoun ὑμεῖς αὐτοί rendered by Peshitta ܠܟܘܢ, omitted in Vulgate"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+      "vulgate": [
         4
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit verb ܢܐܙܠ 'let us go' not in Greek or Vulgate"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek employs a double-pronoun construction (δεῦτε ὑμεῖς αὐτοί) for emphatic force, literally 'Come, you yourselves.' The Peshitta mirrors this with ܬܘ ܠܟܘܢ ('Come, to you'), while the Vulgate uses the simple imperative 'Venite' without pronominal reinforcement."
     },
     {
       "greek_nt": [
@@ -174,11 +140,25 @@
         5
       ],
       "variant": "aligned",
-      "note": "κατ᾽ ἰδίαν = ܒܠܚܘܕܝܢ = seorsum, all meaning 'apart/alone'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses the preposition εἰς ('to, into') governing the destination. Peshitta employs a cohortative construction ܢܐܙܠ ('let us go') with ܠܕܒܪܐ ('to the wilderness'), making the motion verb explicit rather than implied. Vulgate uses 'in' with the accusative, semantically equivalent to Greek but syntactically distinct."
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
@@ -186,189 +166,108 @@
         5
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
       "variant": "minor",
-      "note": "Greek εἰς ἔρημον τόπον vs Peshitta ܠܕܒܪܐ (to wilderness) vs Vulgate in desertum locum; word order variation"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the adjective before the noun (ἔρημον τόπον / desertum locum), while Peshitta uses the construct state ܠܕܒܪܐ ('to-the-wilderness'), incorporating the notion of 'place' within the single lexeme. All three convey 'to a deserted place.'"
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
+        12,
         13
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        9,
+        10,
         11
       ],
       "variant": "aligned",
-      "note": "ὀλίγον = ܩܠܝܠ = pusillum, all 'a little'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic ܐܝܬ ܗܘܘ for Greek ἦσαν"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        9,
+        10,
         11
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple imperfect ἦσαν γάρ ('for they were'). Peshitta employs the periphrastic construction ܐܝܬ ܗܘܘ ܓܝܪ (literally 'there were, for'), a common Syriac idiom for existential statements. Vulgate mirrors Greek with 'Erant enim.'"
     },
     {
       "greek_nt": [
         16,
-        17
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        14,
-        15
-      ],
-      "variant": "minor",
-      "note": "Word order: Greek οἱ ἐρχόμενοι vs Peshitta ܕܐܙܠܝܢ (going first) vs Vulgate qui veniebant"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        19,
-        20
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "minor",
-      "note": "Greek ὑπάγοντες 'going away' vs Peshitta ܘܐܬܝܢ 'coming' vs Vulgate redibant 'returning'; semantic variation"
-    },
-    {
-      "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "minor",
-      "note": "Peshitta places ܣܓܝܐܐ 'many' before the participles, Greek and Vulgate after"
-    },
-    {
-      "greek_nt": [
-        22,
-        23
-      ],
-      "peshitta": [
-        15,
-        19,
-        20
-      ],
-      "vulgate": [
+        17,
+        18,
         19,
         20,
         21
       ],
-      "variant": "major",
-      "note": "Greek καὶ οὐδὲ 'and not even' vs Peshitta ܘܠܝܬ...ܐܦ ܠܐ 'and there was not...even not' vs Vulgate et nec 'and not'; Peshitta adds existential construction"
-    },
-    {
-      "greek_nt": [],
       "peshitta": [
-        16,
-        17,
-        18
+        12,
+        13,
+        14
       ],
       "vulgate": [
-        24
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
       ],
-      "variant": "major",
-      "note": "Peshitta adds ܗܘܐ ܠܗܘܢ ܐܬܪܐ 'there was to them a place' not in Greek; Vulgate has spatium 'space/opportunity' as object"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate use articulated participles with the adjective following (οἱ ἐρχόμενοι καὶ οἱ ὑπάγοντες πολλοί / qui veniebant et redibant multi). Peshitta fronts the adjective ܣܓܝܐܐ ('many') before the relative participles ܕܐܙܠܝܢ ܘܐܬܝܢ ('who were going and coming'), a typical Semitic word-order preference."
     },
     {
       "greek_nt": [
-        24
+        22,
+        23,
+        24,
+        25
       ],
       "peshitta": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
         21
       ],
       "vulgate": [
-        23
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        25
-      ],
-      "peshitta": [],
-      "vulgate": [
+        19,
+        20,
+        21,
+        22,
+        23,
         24
       ],
       "variant": "major",
-      "note": "Greek εὐκαίρουν 'they had opportunity' vs Vulgate habebant 'they had'; Peshitta lacks explicit verb, incorporated into negative construction"
+      "type": "expansion",
+      "note": "Greek uses the negative conjunction οὐδὲ with the infinitive φαγεῖν and the imperfect εὐκαίρουν ('not even to eat were they able'). Peshitta expands with ܘܠܝܬ ܗܘܐ ܠܗܘܢ ܐܬܪܐ ܐܦ ܠܐ ܠܡܐܟܠ ('and there was not to them a place, not even to eat'), adding the explicit noun ܐܬܪܐ ('place/opportunity'). Vulgate renders with 'nec spatium manducandi habebant' ('nor did they have space for eating'), likewise making 'spatium' explicit where Greek implies opportunity through the verb εὐκαιρέω."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.766557+00:00",
-    "confidence": 0.72,
+    "generated_at": "2026-04-22T12:17:07.982644+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

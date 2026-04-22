@@ -65,69 +65,34 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek conjunction καί omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek καί (G2532) is omitted in both Peshitta and Vulgate, which begin directly with the participial construction. This reflects a stylistic preference in translation, as the conjunction is redundant in narrative flow when the participial phrase itself signals continuation."
     },
     {
       "greek_nt": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ],
       "peshitta": [
-        0
+        0,
+        1,
+        2,
+        3
       ],
       "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2,
         3,
         4
       ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
       "variant": "minor",
-      "note": "Greek article + δέ + Ἰησοῦς; Peshitta/Vulgate use simple name without article or particle"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "minor",
-      "note": "Vulgate uses relative pronoun 'Quibus' (to whom) instead of simple dative pronoun"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4,
-        13
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation, absent in Greek/Peshitta manuscripts"
+      "type": "construction",
+      "note": "Greek employs a participial construction (ἀποκριθεὶς ὁ δὲ Ἰησοῦς εἶπεν) with postpositive δέ, while Peshitta uses finite verbs in sequence (ܥܢܐ ܝܫܘܥ ܘܐܡܪ, 'answered Jesus and said') and Vulgate uses a relative pronoun with participle (Quibus respondens Jesus, ait). All three convey identical semantics through different syntactic strategies typical of their respective languages."
     },
     {
       "greek_nt": [
@@ -148,28 +113,20 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek πρὸς τὴν σκληροκαρδίαν vs Peshitta ܠܘܩܒܠ ܩܫܝܘܬ ܠܒܟܘܢ vs Vulgate 'ad duritiam cordis'; Peshitta explicitly includes 'heart' (ܠܒܟܘܢ), Greek uses compound σκληροκαρδίαν"
+      "type": "lexical",
+      "note": "Greek σκληροκαρδία (G4641, 'hardness of heart') is a compound noun with article and prepositional phrase (πρὸς τὴν σκληροκαρδίαν ὑμῶν). Peshitta uses a construct chain (ܩܫܝܘܬ ܠܒܟܘܢ, 'hardness of-your-heart') with preposition ܠܘܩܒܠ ('because of'). Vulgate employs duritiam cordis ('hardness of-heart') with genitive vestri. All three traditions express the same causal relationship with morphologically distinct but semantically equivalent constructions."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        9,
         10
       ],
       "variant": "aligned"
@@ -177,33 +134,27 @@
     {
       "greek_nt": [
         13,
-        14
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
-        12
+        11,
+        12,
+        13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek and Vulgate both conclude with punctuation (Greek raised dot, Vulgate colon), while Peshitta has no terminal punctuation mark. The demonstrative pronoun placement is identical across all three (ταύτην / ܗܢܐ / istud), but Vulgate's final colon suggests continuation into the following verse, whereas Greek uses a medial stop."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.793306+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.008179+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

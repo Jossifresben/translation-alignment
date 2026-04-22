@@ -118,7 +118,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the copula first (Ἦσαν δὲ / Erant autem), while Peshitta places the auxiliary ܗܘܘ after the participle ܣܠܩܝܢ, reflecting typical Syriac periphrastic construction with the participle preceding the auxiliary."
     },
     {
       "greek_nt": [
@@ -133,7 +135,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase with article (ἐν τῇ ὁδῷ), Vulgate mirrors this (in via), while Peshitta employs the preposition ܒ with definite state noun ܒܐܘܪܚܐ without separate article, as Syriac marks definiteness morphologically rather than with a free-standing article."
     },
     {
       "greek_nt": [
@@ -147,7 +151,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses temporal participle ܟܕ + verb; Greek/Latin use simple participle"
+      "type": "construction",
+      "note": "Greek and Vulgate use present participles (ἀναβαίνοντες / ascendentes) without temporal marker, while Peshitta employs the temporal particle ܟܕ ('while/when') with the participle ܣܠܩܝܢ, making the temporal relationship more explicit through a subordinate clause construction."
     },
     {
       "greek_nt": [
@@ -172,64 +177,36 @@
         7
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation and conjunction 'et'; Peshitta omits conjunction"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after Jerosolymam, creating a stronger pause than the Greek comma, while Peshitta continues without punctuation. This reflects Latin rhetorical preference for marking major clause boundaries more explicitly than either Greek or Syriac."
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        6,
-        8,
-        9
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
+        11,
         12,
         13
       ],
       "peshitta": [
-        7
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "vulgate": [
+        8,
+        9,
         10
       ],
       "variant": "minor",
-      "note": "Greek uses article + name; Peshitta/Vulgate use name alone"
+      "type": "word-order",
+      "note": "Greek places the subject ὁ Ἰησοῦς after the verb and participle (ἦν προάγων αὐτοὺς ὁ Ἰησοῦς), Vulgate follows similar order (præcedebat illos Jesus), while Peshitta fronts the subject pronoun and name (ܗܘ ܝܫܘܥ) before the verb ܩܕܝܡ ܗܘܐ, reflecting Syriac preference for subject-initial clauses in narrative."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [],
-      "vulgate": [
-        11,
-        13,
-        14
-      ],
-      "variant": "minor",
-      "note": "Vulgate adds colons for punctuation; Peshitta uses ܘ prefix on verb"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
@@ -237,9 +214,13 @@
         12
       ],
       "vulgate": [
-        12
+        11,
+        12,
+        13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate again inserts a colon after stupebant, creating a tripartite structure with three major pauses, while Greek uses a semicolon and Peshitta continues with coordinating ܘ. The Vulgate's punctuation emphasizes the three distinct reactions (going up, being amazed, being afraid) as separate rhetorical units."
     },
     {
       "greek_nt": [
@@ -254,10 +235,12 @@
         16
       ],
       "vulgate": [
+        14,
         15
       ],
       "variant": "minor",
-      "note": "Peshitta expands with auxiliary verbs and temporal particle; Greek uses article + participle"
+      "type": "construction",
+      "note": "Greek uses article + δὲ + participle (οἱ δὲ ἀκολουθοῦντες) to mark a new subject, Vulgate uses coordinating et + participle (et sequentes), while Peshitta employs a full periphrastic construction with temporal ܟܕ and auxiliary verbs (ܘܐܙܠܝܢ ܗܘܘ ܒܬܪܗ ܟܕ), making the continuous action more explicit."
     },
     {
       "greek_nt": [
@@ -303,8 +286,9 @@
       "vulgate": [
         19
       ],
-      "variant": "omitted",
-      "note": "Greek πάλιν and Vulgate iterum ('again') absent in Peshitta"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek and Vulgate include the adverb πάλιν / iterum ('again'), referencing earlier passion predictions (Mark 8:31, 9:31), while Peshitta omits this temporal marker. The omission may reflect a Syriac tendency to avoid redundancy when context makes the repetition clear."
     },
     {
       "greek_nt": [
@@ -317,30 +301,23 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + numeral (τοὺς δώδεκα) as a substantive, Vulgate uses bare numeral duodecim, while Peshitta employs a possessive suffix construction ܠܬܪܥܣܪܬܗ ('to his twelve'), making the relationship to Jesus more explicit through the pronominal suffix."
     },
     {
       "greek_nt": [
-        25
-      ],
-      "peshitta": [
-        20
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        25,
         26,
         27
       ],
       "peshitta": [
+        20,
         21,
         22
       ],
       "vulgate": [
+        21,
         22,
         23
       ],
@@ -349,39 +326,31 @@
     {
       "greek_nt": [
         28,
-        29
-      ],
-      "peshitta": [
-        23,
-        24
-      ],
-      "vulgate": [
-        24,
-        25
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܡܕܡ ('something/thing') + participle; Greek uses article + participle; Vulgate uses relative pronoun + subjunctive"
-    },
-    {
-      "greek_nt": [
+        29,
         30,
         31
       ],
       "peshitta": [
+        23,
+        24,
         25,
         26
       ],
       "vulgate": [
+        24,
+        25,
         26,
         27
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses articular participle construction (τὰ μέλλοντα αὐτῷ συμβαίνειν), Vulgate employs relative clause with subjunctive (quæ essent ei eventura), while Peshitta uses indefinite pronoun ܡܕܡ ('something') with relative particle ܕ and active participle (ܡܕܡ ܕܥܬܝܕ ܕܢܗܘܐ ܠܗ). All three express futurity but through different syntactic strategies: Greek through μέλλω + infinitive, Latin through periphrastic subjunctive, Syriac through ܥܬܝܕ + infinitive."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.803073+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.012028+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -78,7 +78,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek 'καὶ ὅτε' (and when) vs Vulgate 'Et postquam' (and after) vs Peshitta 'ܘܟܕ' (and when) - temporal conjunction variation"
+      "type": "lexical",
+      "note": "Greek uses temporal conjunction ὅτε ('when') with καί; Vulgate employs postquam ('after'), making the temporal sequence more explicit; Peshitta uses ܘܟܕ (w-kad, 'and when'), closely mirroring the Greek construction."
     },
     {
       "greek_nt": [
@@ -93,7 +94,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -112,21 +114,12 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek includes definite article 'τὴν' before 'πορφύραν'; Vulgate and Peshitta omit article"
+      "type": "construction",
+      "note": "Greek uses article + noun (τὴν πορφύραν, 'the purple [robe]') with separate verb and object pronoun; Vulgate mirrors this with purpura in ablative; Peshitta employs a single verb form ܐܫܠܚܘܗܝ with pronominal suffix and follows with ܐܪܓܘܢܐ as direct object without article, reflecting typical Syriac economy of expression."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction between clauses, using only verbal prefix ܘ-"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10,
         11,
@@ -138,22 +131,15 @@
         6
       ],
       "vulgate": [
+        7,
         8,
         9,
         10,
         11
       ],
       "variant": "minor",
-      "note": "Greek includes definite article 'τὰ' and possessive pronoun 'αὐτοῦ'; Vulgate has possessive 'suis'; Peshitta uses pronominal suffix on 'ܡܐܢܘܗܝ'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta manuscripts"
+      "type": "construction",
+      "note": "Greek employs coordinating conjunction καί with full verb phrase ἐνέδυσαν αὐτὸν τὰ ἱμάτια αὐτοῦ (article + plural noun + possessive pronoun); Vulgate uses et induerunt eum vestimentis suis, maintaining the structure; Peshitta compresses this into ܘܐܠܒܫܘܗܝ ܡܐܢܘܗܝ (verb with pronominal suffix + noun with possessive suffix), omitting the article and employing characteristic Syriac synthetic morphology."
     },
     {
       "greek_nt": [
@@ -161,10 +147,11 @@
       ],
       "peshitta": [],
       "vulgate": [
-        13
+        12
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction, using only verbal prefix ܘ- on ܘܐܦܩܘܗܝ"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after vestimentis suis to mark a major discourse boundary before the crucifixion narrative; Greek uses simple conjunction καί; Peshitta continues without explicit punctuation marker, integrating the clauses more tightly."
     },
     {
       "greek_nt": [
@@ -175,10 +162,13 @@
         7
       ],
       "vulgate": [
+        13,
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses historical present ἐξάγουσιν ('they lead out'), a vivid narrative device; Vulgate employs matching present tense educunt; Peshitta uses ܘܐܦܩܘܗܝ (perfect with pronominal suffix), maintaining past-tense consistency with preceding verbs and incorporating the object pronoun morphologically."
     },
     {
       "greek_nt": [
@@ -195,13 +185,14 @@
         18
       ],
       "variant": "minor",
-      "note": "Greek 'ἵνα' + subjunctive vs Vulgate 'ut' + subjunctive vs Peshitta ܕ- prefix with imperfect - all express purpose clause with slight stylistic differences"
+      "type": "construction",
+      "note": "Greek employs purpose clause with ἵνα + subjunctive σταυρώσωσιν αὐτόν; Vulgate mirrors this with ut + subjunctive crucifigerent eum; Peshitta uses ܕܢܙܩܦܘܢܝܗܝ (d- + imperfect with object suffix), a functionally equivalent purpose construction but morphologically more compact, embedding the object pronoun within the verbal form."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.844048+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.049358+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

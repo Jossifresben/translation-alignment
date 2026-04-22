@@ -77,26 +77,38 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         2,
         3,
         4
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "note": "Greek uses double article construction 'τὸν τοῦ Ζεβεδαίου'; Peshitta uses construct state 'ܒܪ ܙܒܕܝ' (son of Zebedee); Vulgate uses simple genitive 'Zebedæi'"
+      "type": "construction",
+      "note": "Greek employs double article construction (τὸν τοῦ Ζεβεδαίου, 'the [son] of Zebedee') to mark patronymic relationship. Syriac uses the construct state ܒܪ ܙܒܕܝ ('son of Zebedee') without articles, while Vulgate uses simple genitive Zebedæi, omitting both article and explicit 'son' marker—all three convey identical patronymic meaning through language-specific syntactic conventions."
     },
     {
       "greek_nt": [
@@ -108,28 +120,40 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         7,
         8,
         9,
         10
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun + article + genitive; Peshitta uses pronominal suffix 'ܐܚܘܗܝ' (his brother); Vulgate uses simple noun + genitive"
+      "type": "construction",
+      "note": "Greek uses double article apposition (τὸν ἀδελφὸν τοῦ Ἰακώβου, 'the brother of James') with genitive construction. Syriac employs pronominal suffix on ܐܚܘܗܝ ('his brother') followed by genitive ܕܝܥܩܘܒ ('of James'), while Vulgate uses simple accusative fratrem with genitive Jacobi—syntactically distinct but semantically equivalent expressions of fraternal relationship."
     },
     {
       "greek_nt": [
@@ -139,8 +163,9 @@
       "vulgate": [
         7
       ],
-      "variant": "omitted",
-      "note": "Conjunction 'and' omitted in Peshitta before the verb"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek and Vulgate include coordinating conjunction (καὶ / et) before the verb phrase, creating explicit coordination between the naming of the brothers and the bestowal of the nickname. Syriac omits this conjunction, proceeding directly from the identification to the naming act—a stylistic difference that does not alter the narrative sequence."
     },
     {
       "greek_nt": [
@@ -152,7 +177,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -164,7 +190,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -177,7 +204,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek plural 'ὀνόματα' (names); Peshitta and Vulgate use singular 'ܫܡܐ'/'nomina' but Latin 'nomina' can be collective"
+      "type": "grammar",
+      "note": "Greek uses plural ὀνόματα ('names'), matching the dual recipients. Syriac employs singular ܫܡܐ ('name'), treating the shared nickname as a single appellative unit. Vulgate uses plural nomina, aligning with Greek—a minor morphological divergence reflecting different conceptualizations of the collective nickname without semantic consequence."
     },
     {
       "greek_nt": [
@@ -189,7 +217,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "All three traditions transliterate the Aramaic nickname with minor orthographic variation: Greek Βοανηργές, Syriac ܒܢܝ-ܪܓܫܝ (Bnay Regshi), Vulgate Boanerges. The Syriac form represents a partial translation-transliteration hybrid, incorporating the Semitic plural construct ܒܢܝ ('sons of') with the thunder-root, while Greek and Latin preserve fuller transliteration of the original Aramaic phrase."
     },
     {
       "greek_nt": [
@@ -203,31 +233,25 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses relative pronoun ὅ with copula ἐστιν ('which is') to introduce the translation. Vulgate mirrors this with quod est. Syriac employs the enclitic copula ܕܐܝܬܘܗܝ (d-itawhy, 'which is'), a single-word construction functionally equivalent to the Greek two-word phrase—syntactic variation without semantic divergence."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -235,14 +259,15 @@
       "vulgate": [
         16
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate adds terminal colon (:) marking the end of the explanatory clause, a punctuation convention absent in the Greek and Syriac manuscript traditions which lack systematic verse-final punctuation in early witnesses."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.742296+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.959635+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

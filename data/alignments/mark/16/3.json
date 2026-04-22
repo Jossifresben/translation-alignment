@@ -67,7 +67,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -81,7 +82,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܐܡܪܢ ܗܘܝ (were saying) for Greek imperfect ἔλεγον"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction (ܘܐܡܪܢ ܗܘܝ, 'and they were saying') using the auxiliary verb ܗܘܝ with the active participle, whereas Greek uses the simple imperfect ἔλεγον and Latin the imperfect dicebant. This is a characteristic Syriac syntactic pattern for expressing progressive aspect."
     },
     {
       "greek_nt": [
@@ -96,7 +98,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek πρὸς ἑαυτάς 'among themselves' vs Vulgate ad invicem 'to one another' vs Peshitta ܒܢܦܫܗܝܢ 'in their souls/selves' - stylistic variation"
+      "type": "lexical",
+      "note": "Greek πρὸς ἑαυτάς ('among themselves') and Latin ad invicem ('to one another') use reciprocal/reflexive constructions, while Syriac ܒܢܦܫܗܝܢ ('in their souls/selves') employs the idiomatic prepositional phrase with ܢܦܫܐ. All three convey the women speaking among themselves, but through different lexical strategies."
     },
     {
       "greek_nt": [],
@@ -106,28 +109,21 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܡܢ ܕܝܢ 'who then/now' as emphatic particle, absent in Greek and Vulgate"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon as punctuation marker for direct speech"
+      "type": "expansion",
+      "note": "The Peshitta inserts ܡܢ ܕܝܢ ('who then/now'), an emphatic interrogative particle combination not present in the Greek or Latin witnesses. This is a characteristic Syriac rhetorical intensification of the question that follows."
     },
     {
       "greek_nt": [
         4
       ],
-      "peshitta": [
-        3
-      ],
+      "peshitta": [],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate places a colon after invicem to mark the transition from narrative frame to direct speech, while Greek uses a raised dot (·) after ἑαυτάς. The Peshitta integrates the question without explicit punctuation marking the speech boundary, relying on syntactic cues."
     },
     {
       "greek_nt": [
@@ -139,7 +135,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -151,7 +148,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -164,7 +162,9 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the definite article with λίθον (τὸν λίθον, 'the stone'), specifying the particular stone blocking the tomb. Latin lapidem and Syriac ܟܐܦܐ lack the article, though both languages can express definiteness through context; here the anaphoric reference is understood from the preceding narrative (Mark 15:46)."
     },
     {
       "greek_nt": [
@@ -180,7 +180,8 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -195,22 +196,25 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܒܝܬ ܩܒܘܪܐ 'of the house of burial' is construct phrase vs Greek τοῦ μνημείου and Vulgate monumenti"
+      "type": "construction",
+      "note": "Greek uses a genitive construction with double article (τῆς θύρας τοῦ μνημείου, 'the door of the tomb'), Latin employs a simple genitive (ostio monumenti), while Syriac uses the construct state with ܕ (ܬܪܥܐ ܕܒܝܬ ܩܒܘܪܐ, literally 'door of house-of burial'). The Syriac ܕܒܝܬ represents a compound genitive construction typical of the language."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        14
+      ],
       "peshitta": [],
       "vulgate": [
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark as punctuation"
+      "variant": "aligned",
+      "type": "punctuation"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.850357+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.054629+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

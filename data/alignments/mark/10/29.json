@@ -110,80 +110,48 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek δὲ (postpositive conjunction) has no equivalent in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2,
         3,
         4
       ],
       "peshitta": [
+        0,
         1,
         2
       ],
       "vulgate": [
+        0,
         1,
-        2
-      ],
-      "variant": "minor",
-      "note": "Greek ἔφη ὁ Ἰησοῦς vs Peshitta ܝܫܘܥ ܘܐܡܪ (Jesus and-said) vs Vulgate Respondens Jesus ait; stylistic variation in verb placement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3,
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation, absent in Greek and Peshitta"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
+        2,
         3
       ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a participial construction (Ἀποκριθεὶς δὲ ἔφη ὁ Ἰησοῦς) with redundant finite verb, a Semitic pleonasm; Peshitta uses simple finite verbs (ܥܢܐ ܝܫܘܥ ܘܐܡܪ, 'answered Jesus and said'); Vulgate mirrors the Greek participial structure (Respondens Jesus ait) but adds a colon for punctuation. All three are semantically equivalent introductory formulae."
     },
     {
       "greek_nt": [
+        5,
         6,
         7
       ],
       "peshitta": [
+        3,
         4,
         5,
         6
       ],
       "vulgate": [
+        4,
         5,
-        6
+        6,
+        7
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit pronoun ܐܢܐ (I) where Greek and Vulgate use verb inflection"
+      "type": "gloss",
+      "note": "Peshitta inserts the explicit subject pronoun ܐܢܐ ('I') after the second ܐܡܪ, yielding 'Amen I say I to you,' a typical Syriac clarification of the speaker. Greek λέγω ὑμῖν and Vulgate dico vobis lack this pronoun, relying on verbal inflection. Vulgate adds a second colon for rhetorical punctuation."
     },
     {
       "greek_nt": [
@@ -193,7 +161,8 @@
       ],
       "peshitta": [
         7,
-        8
+        8,
+        9
       ],
       "vulgate": [
         8,
@@ -201,7 +170,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܠܝܬ ܐܢܫ (there-is-not man) vs Greek οὐδείς ἐστιν ὃς (no-one is who) vs Vulgate Nemo est qui; structural variation"
+      "type": "construction",
+      "note": "Greek uses a relative pronoun construction (οὐδείς ἐστιν ὃς, 'no one is who'); Peshitta employs a d-clause subordination (ܕܠܝܬ ܐܢܫ ܕܫܒܩ, 'that there is not a man who'); Vulgate uses a relative pronoun (Nemo est qui). The Peshitta's ܕܠܝܬ ('that there is not') reflects Syriac preference for negative existential constructions, semantically equivalent to Greek and Latin."
     },
     {
       "greek_nt": [
@@ -217,95 +187,61 @@
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        14
+        14,
+        15,
+        16
       ],
       "peshitta": [
-        12
+        12,
+        13,
+        14
       ],
       "vulgate": [
-        14
+        14,
+        15,
+        16
       ],
       "variant": "minor",
-      "note": "Order variation: Greek brothers-sisters, Peshitta/Vulgate brothers first, but Peshitta singular ܐܚܐ vs Greek plural"
+      "type": "word-order",
+      "note": "Greek lists brothers before sisters (ἀδελφοὺς ἢ ἀδελφάς); Peshitta and Vulgate follow the same sequence (ܐܚܐ ܐܘ ܐܚܘܬܐ / fratres aut sorores). However, the subsequent family members differ in order across traditions."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19,
         20
       ],
       "peshitta": [
+        15,
         16,
         17,
         18
       ],
       "vulgate": [
+        17,
         18,
         19,
         20
       ],
       "variant": "minor",
-      "note": "Order variation: Greek mother-father, Peshitta/Vulgate father-mother"
+      "type": "word-order",
+      "note": "Greek places mother before father (μητέρα ἢ πατέρα); Peshitta reverses this to father before mother (ܐܒܐ ܐܘ ܐܡܐ); Vulgate follows Greek order (patrem aut matrem). This reflects differing cultural or stylistic conventions in listing parental figures, with no semantic impact."
     },
     {
       "greek_nt": [
@@ -318,52 +254,35 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek and Peshitta include wife (γυναῖκα/ܐܢܬܬܐ), absent in Vulgate"
+      "type": "omission",
+      "note": "Greek includes γυναῖκα ('wife') in the list of forsaken relations; Peshitta retains ܐܢܬܬܐ ('wife'); Vulgate omits this term entirely. The Vulgate omission may reflect textual tradition (some Greek manuscripts also lack γυναῖκα) or theological sensitivity regarding marital abandonment, though the majority Greek and Peshitta witnesses attest it."
     },
     {
       "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        21
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        23,
         24
       ],
       "peshitta": [
+        21,
         22
       ],
       "vulgate": [
+        21,
         22
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        25
-      ],
-      "peshitta": [
-        23
-      ],
-      "vulgate": [
-        23
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        25,
         26
       ],
       "peshitta": [
+        23,
         24
       ],
       "vulgate": [
+        23,
         24
       ],
       "variant": "aligned"
@@ -371,51 +290,33 @@
     {
       "greek_nt": [
         27,
-        28
-      ],
-      "peshitta": [
-        25
-      ],
-      "vulgate": [
-        25,
-        26
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        29
-      ],
-      "peshitta": [
-        26
-      ],
-      "vulgate": [
-        27
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        28,
+        29,
         30,
         31,
         32
       ],
       "peshitta": [
+        25,
         26,
         27
       ],
       "vulgate": [
+        25,
+        26,
+        27,
         28,
         29
       ],
       "variant": "minor",
-      "note": "Peshitta ܡܛܠ ܣܒܪܬܝ (because-of my-gospel) with possessive suffix vs Greek/Vulgate article + noun"
+      "type": "construction",
+      "note": "Greek repeats the preposition ἕνεκεν twice ('for the sake of me and for the sake of the gospel'), with article τοῦ before εὐαγγελίου; Peshitta uses pronominal suffixes (ܡܛܠܬܝ ܘܡܛܠ ܣܒܪܬܝ, 'for my sake and for my gospel'), incorporating possessive pronouns; Vulgate mirrors Greek structure (propter me et propter Evangelium) but capitalizes Evangelium. The Peshitta's possessive construction ('my gospel') is more compact and reflects Semitic syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.802290+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.882885+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

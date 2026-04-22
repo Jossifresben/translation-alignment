@@ -63,26 +63,39 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses present tense ἀναβαίνει (historic present); Vulgate employs a present participle ascendens; Syriac uses the perfect ܣܠܩ. All three convey the same narrative action but with different aspectual nuances typical of each language's narrative style."
+    },
+    {
+      "greek_nt": [
         2,
         3,
         4
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2,
         3
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction with verb; Greek uses present tense, Vulgate uses participle"
+      "type": "grammar",
+      "note": "Greek uses the singular τὸ ὄρος with article and accusative preposition εἰς; Latin mirrors this with in montem (singular accusative); Syriac uses ܠܛܘܪܐ (singular with directional preposition), representing standard Semitic idiom for geographic features. All three traditions attest the singular 'mountain' against any plural variant."
     },
     {
       "greek_nt": [
@@ -95,7 +108,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Vulgate places conjunction after colon, separating clauses more distinctly"
+      "type": "word-order",
+      "note": "Greek and Syriac place the conjunction immediately after the first clause; Vulgate delays et until after the vocavit clause, creating a different syntactic rhythm while preserving the same semantic coordination."
     },
     {
       "greek_nt": [
@@ -107,8 +121,8 @@
       "vulgate": [
         4
       ],
-      "variant": "major",
-      "note": "Greek προσκαλέω (calls near/summons) vs Peshitta/Vulgate simple 'called'; Greek compound verb emphasizes summoning to himself"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -128,17 +142,20 @@
         9
       ],
       "variant": "minor",
-      "note": "Vulgate includes 'ad se' (to himself) explicitly; Greek αὐτός emphasizes personal agency"
+      "type": "construction",
+      "note": "Greek uses a relative clause with emphatic pronoun αὐτός in nominative position (οὓς ἤθελεν αὐτός); Vulgate expands this with ad se quos voluit ipse, adding the reflexive prepositional phrase; Syriac employs a simpler relative construction ܠܐܝܠܝܢ ܕܨܒܐ without the emphatic pronoun. The Vulgate's ad se makes the reflexive action more explicit than the Greek or Syriac."
     },
     {
       "greek_nt": [
         9
       ],
+      "peshitta": [],
       "vulgate": [
         10
       ],
-      "variant": "added",
-      "note": "Vulgate colon marks rhetorical pause not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ipse to mark a stronger pause before the result clause; Greek uses a comma; Syriac has no equivalent punctuation marker. This represents medieval Latin editorial practice rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -150,31 +167,43 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses ἀπῆλθον (aorist of ἀπέρχομαι, 'they went away/departed'); Vulgate uses venerunt (perfect of venio, 'they came'); Syriac uses ܐܬܘ (perfect of ܐܬܐ, 'they came'). Greek emphasizes movement from one location, while Latin and Syriac emphasize arrival at the destination—semantically equivalent but lexically distinct perspectives."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        12,
         13,
         14
       ],
-      "variant": "minor",
-      "note": "Greek ἀπέρχομαι (went away/departed) vs Peshitta/Vulgate simple 'came'; different perspective on movement"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.741764+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.958999+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

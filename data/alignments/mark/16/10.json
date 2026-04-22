@@ -58,7 +58,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -70,7 +71,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -82,7 +84,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀπήγγειλεν (ἀπαγγέλλω, 'announce, report') is rendered by Syriac ܣܒܪܬ (root SBR, 'proclaim good news, evangelize'), which carries a more specifically positive semantic nuance than the neutral Greek verb. Latin nuntiavit mirrors the Greek neutrality."
     },
     {
       "greek_nt": [
@@ -100,53 +104,37 @@
         3,
         4,
         5,
-        6,
-        7
+        6
       ],
       "variant": "minor",
-      "note": "Greek uses articular participle construction 'τοῖς μετ᾽ αὐτοῦ γενομένοις' (those having been with him); Peshitta uses relative clause 'ܠܗܢܘܢ ܕܥܡܗ ܗܘܘ' (to those who were with him); Vulgate uses relative clause 'his qui cum eo fuerant' (to those who had been with him). Functionally equivalent despite syntactic differences."
+      "type": "construction",
+      "note": "Greek employs an articular substantival participle construction (τοῖς μετ᾽ αὐτοῦ γενομένοις, 'to those having been with him'), which Latin replicates with a relative clause (his qui cum eo fuerant). Syriac uses a simpler relative construction (ܠܗܢܘܢ ܕܥܡܗ ܗܘܘ, 'to those who were with him'), omitting the semantic force of γίνομαι ('become, come to be') in favor of the stative ܗܘܘ ('were')."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6,
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses simple ܘ (waw) conjunction embedded in ܘܒܟܝܢ; Greek and Vulgate use explicit coordinating conjunctions καὶ and et"
-    },
-    {
-      "greek_nt": [
+        7,
+        8,
         9
       ],
       "peshitta": [
+        6,
+        7,
         8
       ],
       "vulgate": [
-        10
+        7,
+        8,
+        9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses present participles in the dative (πενθοῦσιν καὶ κλαίουσιν) to modify the substantival participle, creating a single participial phrase. Syriac employs a periphrastic construction with two instances of the auxiliary ܗܘܘ ('were') governing active participles (ܕܐܒܝܠܝܢ ܗܘܘ ܘܒܟܝܢ, 'who were mourning and weeping'), yielding a more analytic verbal structure. Latin mirrors the Greek with gerundive participles (lugentibus et flentibus)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.851991+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.055952+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

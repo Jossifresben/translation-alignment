@@ -96,7 +96,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -109,7 +110,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἐκεῖθεν is a single adverb; Peshitta expands to ܡܢ ܬܡܢ (preposition + demonstrative adverb, 'from there'), a standard Syriac construction for source-deixis. Vulgate inde mirrors the Greek economy."
     },
     {
       "greek_nt": [
@@ -121,8 +124,8 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "note": "Greek ἀναστὰς (having risen up) merged with conjunction in Peshitta ܘܩܡ; Vulgate exsurgens maintains participle"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -134,7 +137,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -153,19 +157,13 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + plural noun + genitive (εἰς τὰ ὅρια τῆς Ἰουδαίας, 'into the regions of Judea'); Vulgate mirrors with in fines Judææ (plural 'borders'); Peshitta employs singular ܠܬܚܘܡܐ ܕܝܗܘܕ ('to the border/territory of Judea'), a typical Syriac idiom treating geographic zones as collective singulars."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καὶ coordinating two geographic regions; Peshitta and Vulgate use simple juxtaposition"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11,
         12,
@@ -179,16 +177,9 @@
         7,
         8
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ τοῦ πέραν τοῦ Ἰορδάνου coordinates two genitive phrases ('and [the region] beyond the Jordan'); Vulgate ultra Jordanem uses a prepositional phrase without article; Peshitta ܠܥܒܪܐ ܕܝܘܪܕܢܢ ('to the crossing/region of the Jordan') employs a construct-state noun, semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -198,9 +189,12 @@
         8
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after Jordanem, marking a clause boundary not present in Greek or Peshitta. This reflects Latin rhetorical punctuation conventions rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -213,16 +207,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek συμπορεύονται (come together) vs Peshitta ܘܐܙܠܘ (went) vs Vulgate conveniunt (gather); semantic overlap but different nuance"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܠܬܡܢ (to there) adds locative emphasis not in Greek or Vulgate"
+      "type": "lexical",
+      "note": "Greek συμπορεύονται ('come together with', compound verb emphasizing joint movement); Vulgate conveniunt ('assemble, gather'); Peshitta ܘܐܙܠܘ ('and they went') uses a simpler verb of motion. All three convey crowds approaching Jesus, but with differing nuances of collective action."
     },
     {
       "greek_nt": [
@@ -234,28 +220,23 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         17
       ],
       "peshitta": [
-        11
+        11,
+        12
       ],
       "vulgate": [
         13
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܣܓܝܐܐ (many/great) adds emphasis to crowds not in Greek or Vulgate"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek ὄχλοι ('crowds', plural nominative); Vulgate turbæ (plural nominative); Peshitta ܟܢܫܐ ܣܓܝܐܐ ('crowds many/great') adds the adjective ܣܓܝܐܐ, an interpretive expansion emphasizing the size of the gathering not present in Greek or Latin witnesses."
     },
     {
       "greek_nt": [
@@ -263,22 +244,16 @@
         19
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
         14,
         15
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        16
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek πρὸς αὐτόν ('to him') follows the noun; Peshitta ܠܬܡܢ ܠܘܬܗ ('there to him') adds the locative adverb ܠܬܡܢ before the prepositional phrase, a Syriac stylistic preference for spatial deixis. Vulgate ad eum mirrors Greek word order."
     },
     {
       "greek_nt": [
@@ -288,9 +263,12 @@
         13
       ],
       "vulgate": [
+        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate again inserts a colon after eum, creating a tripartite clause structure (departure : gathering : teaching) not marked in Greek or Peshitta. This reflects Latin periodic style."
     },
     {
       "greek_nt": [
@@ -306,7 +284,9 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὡς εἰώθει ('as he was accustomed', pluperfect); Vulgate sicut consueverat (pluperfect); Peshitta ܐܝܟ ܕܡܥܕ ܗܘܐ ('as he was accustomed', periphrastic construction with participle + ܗܘܐ) uses a compound verbal phrase typical of Syriac aspectual marking. All three express habitual past action equivalently."
     },
     {
       "greek_nt": [
@@ -318,8 +298,8 @@
       "vulgate": [
         20
       ],
-      "variant": "minor",
-      "note": "Greek πάλιν appears twice (tokens 16, 23); Peshitta ܬܘܒ once; Vulgate iterum twice (tokens 12, 20) but different placement"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -332,7 +312,9 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐδίδασκεν (imperfect active); Vulgate docebat (imperfect); Peshitta ܘܡܠܦ ܗܘܐ (periphrastic imperfect: participle + auxiliary ܗܘܐ) employs the standard Syriac periphrastic construction for durative past action, semantically equivalent to Greek and Latin simple imperfects."
     },
     {
       "greek_nt": [
@@ -344,13 +326,14 @@
       "vulgate": [
         22
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.792658+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.007576+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

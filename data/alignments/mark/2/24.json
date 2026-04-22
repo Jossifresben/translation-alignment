@@ -58,12 +58,11 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ and Peshitta ܘ (waw) present; Vulgate omits conjunction"
+      "type": "omission",
+      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate, which begin the Pharisees' speech without a coordinating conjunction. This reflects a stylistic preference in both traditions to avoid redundant connectives when narrative flow is clear from context."
     },
     {
       "greek_nt": [
@@ -77,16 +76,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek has article οἱ; Peshitta and Vulgate lack article (normal for Semitic/Latin)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "added",
-      "note": "Vulgate adds autem (but/however) for stylistic transition"
+      "type": "word-order",
+      "note": "Greek uses the article + noun construction (οἱ Φαρισαῖοι) with the article preceding the verb; Vulgate places Pharisæi in initial position without an article (Latin lacking definite articles); Peshitta places ܦܪܝܫܐ after the verb. These represent standard word-order conventions in each language rather than semantic divergence."
     },
     {
       "greek_nt": [
@@ -99,18 +90,11 @@
       ],
       "vulgate": [
         2,
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,7 +106,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἴδε ('behold') is rendered by Peshitta ܚܙܝ ('see') and Vulgate Ecce ('behold'). While Greek and Latin use interjections, Syriac employs an imperative verb form of the root ḥzā ('to see'), a common Semitic idiom for drawing attention that is functionally equivalent to the Greek/Latin interjections."
     },
     {
       "greek_nt": [
@@ -134,7 +120,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -146,7 +133,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -161,7 +149,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek uses preposition ἐν + article + dative plural; Peshitta and Vulgate use simpler constructions (ܒܫܒܬܐ, sabbatis)"
+      "type": "construction",
+      "note": "Greek uses a prepositional phrase with article and dative plural (ἐν τοῖς σάββασιν, 'on the Sabbaths'); Vulgate employs dative plural without preposition or article (sabbatis); Peshitta uses preposition + singular noun (ܒܫܒܬܐ, 'on the Sabbath'). The Syriac singular is a collective idiom typical for recurring time periods, semantically equivalent to the Greek/Latin plurals."
     },
     {
       "greek_nt": [
@@ -174,7 +163,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek relative pronoun ὃ; Peshitta ܡܕܡ (something/what); Vulgate quod (which/what)"
+      "type": "construction",
+      "note": "Greek employs the relative pronoun ὃ ('that which') to introduce the relative clause; Vulgate uses quod in parallel construction; Peshitta inserts ܡܕܡ ('something/anything'), an indefinite pronoun that functions as the object of the relative clause introduced by ܕ. This represents a Syriac syntactic preference for explicit objects in relative constructions."
     },
     {
       "greek_nt": [
@@ -187,24 +177,17 @@
       ],
       "vulgate": [
         10,
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark as separate token"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.739003+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.955840+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

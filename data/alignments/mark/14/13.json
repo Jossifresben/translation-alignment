@@ -89,7 +89,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -102,7 +103,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܫܕܪ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -114,7 +115,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -132,7 +134,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek uses article τῶν; Peshitta uses partitive ܡܢ; Vulgate uses ex"
+      "type": "construction",
+      "note": "Greek uses the articular genitive construction τῶν μαθητῶν αὐτοῦ ('of the disciples of him'), while Peshitta employs the partitive preposition ܡܢ ('from') with a pronominal suffix on the noun ܬܠܡܝܕܘܗܝ ('his disciples'). Vulgate mirrors Greek with ex discipulis suis, using the partitive ex construction; all three convey 'two of his disciples' with equivalent semantics but distinct syntactic strategies."
     },
     {
       "greek_nt": [
@@ -144,7 +147,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -157,7 +161,7 @@
         7
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܡܪ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -167,46 +171,32 @@
         5
       ],
       "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        8,
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses a raised dot (·) after αὐτοῖς to mark the transition to direct speech, while Vulgate employs a colon (:) for the same function. Peshitta has no explicit punctuation marker here, relying on syntactic context; all three introduce the direct discourse identically in substance."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11,
         12
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        10,
         11,
         12
       ],
       "variant": "minor",
-      "note": "Greek uses εἰς + article; Peshitta uses ܠ prefix; Vulgate uses in"
+      "type": "construction",
+      "note": "Greek ὑπάγετε εἰς τὴν πόλιν uses the imperative with the preposition εἰς plus articular accusative ('go into the city'), mirrored exactly by Vulgate Ite in civitatem. Peshitta ܙܠܘ ܠܡܕܝܢܬܐ employs the preposition ܠ (lamed) with the emphatic state noun, a standard Syriac construction for direction; semantically equivalent but syntactically distinct in article usage."
     },
     {
       "greek_nt": [
@@ -219,7 +209,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܗܐ 'and behold' is more emphatic than simple καὶ"
+      "type": "expansion",
+      "note": "Peshitta inserts the presentative particle ܘܗܐ ('and behold'), a characteristic Semitic narrative device to heighten immediacy, absent from both Greek καὶ and Latin et. This is a stylistic expansion typical of Syriac translation technique, not altering the propositional content."
     },
     {
       "greek_nt": [
@@ -234,7 +225,8 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -246,7 +238,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -262,49 +255,35 @@
       "vulgate": [
         17,
         18,
-        19
+        19,
+        20
       ],
       "variant": "minor",
-      "note": "Greek κεράμιον (earthen pitcher); Peshitta ܡܐܢܐ (vessel/container); Vulgate lagenam (flask/jar) - synonymous terms"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        20
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "type": "construction",
+      "note": "Greek uses a substantival participle βαστάζων modifying ἄνθρωπος, with κεράμιον ὕδατος as the direct object ('a man carrying a pitcher of water'). Peshitta employs a relative clause ܕܫܩܝܠ ܡܐܢܐ ܕܡܝܐ ('who carries a vessel of water'), while Vulgate uses a present active participle bajulans with lagenam aquæ. All three convey identical semantics through different participial or relative constructions; Vulgate adds a colon after bajulans, segmenting the discourse."
     },
     {
       "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        20,
         21
       ],
       "peshitta": [
+        15,
         16
       ],
       "vulgate": [
+        21,
         22
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἀκολουθήσατε αὐτῷ ('follow him') uses the dative of the person followed, matched by Vulgate sequimini eum (accusative after deponent verb). Peshitta ܙܠܘ ܒܬܪܗ literally means 'go after him', using the preposition ܒܬܪ ('after') with pronominal suffix—a standard Syriac idiom for 'follow' that is more spatially explicit than the Greek/Latin lexemes but semantically equivalent."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.830345+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.036636+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

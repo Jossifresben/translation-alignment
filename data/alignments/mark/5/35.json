@@ -86,7 +86,8 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,7 +99,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,30 +119,25 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta expands 'archisynagogue' to 'house of the ruler of the synagogue' (ܕܒܝܬ ܪܒ ܟܢܘܫܬܐ)"
+      "type": "construction",
+      "note": "Greek uses article + compound noun ἀρχισυναγώγου ('ruler of synagogue'); Vulgate mirrors with single compound archisynagogo; Peshitta employs a construct chain ܕܒܝܬ ܪܒ ܟܢܘܫܬܐ ('from the house of the chief of the assembly'), a typical Syriac periphrastic rendering of the Greek compound."
     },
     {
       "greek_nt": [
-        7
+        7,
+        8
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
+        7,
         8
       ],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits the conjunction ὅτι/Quia introducing direct speech"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses participle λέγοντες with conjunction ὅτι introducing indirect discourse; Peshitta uses simple ܘܐܡܪܝܢ ܕ- construction; Vulgate inserts a colon after dicentes, marking the shift to direct speech more explicitly than the Greek or Syriac traditions."
     },
     {
       "greek_nt": [
@@ -155,7 +152,9 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs article + noun + possessive pronoun (ἡ θυγάτηρ σου) in three tokens; Syriac uses a single construct form ܕܒܪܬܟ with pronominal suffix; Vulgate uses two tokens (filia tua) without article, following Latin's articleless nominal system."
     },
     {
       "greek_nt": [
@@ -166,18 +165,12 @@
       ],
       "vulgate": [
         11,
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        12,
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation after 'mortua est'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses aorist indicative ἀπέθανεν (single token); Peshitta uses perfect ܡܝܬܬ (single token); Vulgate employs perfect passive mortua est (two tokens plus colon punctuation), reflecting Latin's analytic perfect construction versus the synthetic Greek and Syriac forms."
     },
     {
       "greek_nt": [
@@ -193,7 +186,8 @@
         15
       ],
       "variant": "minor",
-      "note": "Greek τί ἔτι = 'why still'; Peshitta ܠܡܢܐ ܡܟܝܠ = 'why now'; Vulgate 'quid ultra' = 'why further' - synonymous temporal expressions"
+      "type": "lexical",
+      "note": "Greek τί ἔτι ('why still') uses the same adverb ἔτι as verse-initial position; Syriac ܠܡܢܐ ܡܟܝܠ employs ܡܟܝܠ (a different temporal particle, 'now/therefore'); Vulgate quid ultra uses ultra ('further/beyond') rather than adhuc, avoiding lexical repetition from verse opening."
     },
     {
       "greek_nt": [
@@ -206,7 +200,9 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Greek σκύλλεις is second-person singular with implicit subject; Peshitta makes the subject explicit with ܡܥܡܠ ܐܢܬ ('you trouble'), adding the independent pronoun ܐܢܬ as a clarifying gloss typical of Syriac verbal syntax; Vulgate vexas remains implicit like Greek."
     },
     {
       "greek_nt": [
@@ -217,23 +213,16 @@
         15
       ],
       "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        17,
         18
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.759195+00:00",
+    "generated_at": "2026-04-22T12:17:07.976223+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

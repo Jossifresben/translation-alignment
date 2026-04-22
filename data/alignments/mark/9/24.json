@@ -78,80 +78,6 @@
   },
   "alignment": [
     {
-      "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits conjunction; Greek/Peshitta have coordinating conjunction"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0,
-        1
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek εὐθὺς and Peshitta ܘܒܪ ܫܥܬܗ ('and immediately') absent from Vulgate"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek κράξας and Peshitta ܩܥܐ ('having cried out') absent from Vulgate"
-    },
-    {
-      "greek_nt": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "peshitta": [
-        3,
-        4
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek 'the father of the child' and Peshitta ܐܒܘܗܝ ܕܛܠܝܐ absent from Vulgate"
-    },
-    {
-      "greek_nt": [
-        7,
-        8
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek μετὰ δακρύων ('with tears') and Peshitta ܟܕ ܒܟܐ ('while weeping') absent from Vulgate"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
@@ -165,6 +91,7 @@
         7,
         8,
         9,
+        10,
         11,
         12,
         13,
@@ -185,8 +112,84 @@
         28,
         29
       ],
-      "variant": "added",
-      "note": "Vulgate contains entirely different narrative: Jesus rebuking deaf/mute spirit; Greek/Peshitta have father's confession of faith"
+      "variant": "major",
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different verse (Mark 9:25), depicting Jesus rebuking the unclean spirit and commanding it to exit. The Greek and Peshitta instead preserve Mark 9:24, the father's confession of faith with tears. This represents a complete textual divergence, likely due to verse misalignment in the source data rather than a genuine variant tradition."
+    },
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εὐθὺς ('immediately') corresponds to Peshitta ܒܪ ܫܥܬܗ (bar šaʿteh, 'at his hour/moment'), both conveying temporal immediacy but through different idiomatic constructions—Greek using an adverb, Syriac a prepositional phrase with 'hour.'"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs double articulation (ὁ πατὴρ τοῦ παιδίου, 'the father of the child') with separate articles for both nouns, while Syriac uses a construct chain (ܐܒܘܗܝ ܕܛܠܝܐ, 'father-of the-child') with pronominal suffix—semantically identical but reflecting distinct syntactic norms of each language."
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase μετὰ δακρύων ('with tears', genitive plural) to modify the verb, whereas Syriac employs a temporal-circumstantial participle ܟܕ ܒܟܐ (kad bkā, 'while weeping')—both convey the father's tearful state but through different grammatical strategies."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -197,8 +200,9 @@
         9
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek πιστεύω and Peshitta ܡܗܝܡܢ ܐܢܐ ('I believe') absent from Vulgate"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek πιστεύω is a finite verb with implicit first-person subject, while Peshitta ܡܗܝܡܢ ܐܢܐ (mhaymen ʾnā) uses a participle plus explicit pronoun 'I'—a characteristic Syriac construction for present-tense predication, semantically equivalent but morphologically distinct."
     },
     {
       "greek_nt": [
@@ -208,39 +212,31 @@
         10
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek κύριε and Peshitta ܡܪܝ ('Lord') absent from Vulgate"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek βοήθει and Peshitta ܥܕܪ ('help') absent from Vulgate"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14,
         15
       ],
       "peshitta": [
+        11,
         12,
         13
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek μου τῇ ἀπιστίᾳ and Peshitta ܠܚܣܝܪܘܬ ܗܝܡܢܘܬܝ ('my unbelief/lack of faith') absent from Vulgate"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek βοήθει μου τῇ ἀπιστίᾳ ('help my unbelief', dative of respect) contrasts with Peshitta ܥܕܪ ܠܚܣܝܪܘܬ ܗܝܡܢܘܬܝ ('help the deficiency of my faith'), where Syriac employs ܚܣܝܪܘܬ ('lack, deficiency') rather than a direct cognate of ἀπιστία—both express inadequate faith but through different semantic frames (absence vs. deficiency)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.788840+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.003603+00:00",
+    "confidence": 0.45,
     "schema_version": 1
   }
 }

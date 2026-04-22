@@ -56,7 +56,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -71,40 +72,26 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek compound πρωτοκαθεδρίας rendered analytically in Peshitta (ܪܝܫ ܡܘܬܒܐ 'chief seat') and Vulgate (primis cathedris 'first seats')"
+      "type": "construction",
+      "note": "Greek uses the compound noun πρωτοκαθεδρίας ('first seats') as a single lexeme. Syriac employs a construct chain ܘܪܝܫ ܡܘܬܒܐ ('and head of seats'), while Vulgate expands to primis cathedris ('in first seats'), both analytically expressing what Greek conveys synthetically."
     },
     {
       "greek_nt": [
         2,
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses prepositional prefix ܒ- on noun; Greek/Vulgate use separate preposition ἐν/in with article"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
+        4,
+        5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "note": "Vulgate adds infinitive 'sedere' (to sit) not present in Greek or Peshitta"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Vulgate inserts the infinitive sedere ('to sit') between the prepositional phrase and its object, creating an explicit verbal construction absent in both Greek (ἐν ταῖς συναγωγαῖς, simple locative) and Peshitta (ܒܟܢܘܫܬܐ, 'in synagogues'). This expansion clarifies the action implied by 'first seats.'"
     },
     {
       "greek_nt": [
@@ -116,7 +103,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -131,31 +119,24 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek compound πρωτοκλισίας rendered analytically in Peshitta (ܪܝܫ ܣܡܟܐ 'chief reclining') and Vulgate (primos discubitus 'first reclinings')"
+      "type": "construction",
+      "note": "Greek πρωτοκλισίας ('first reclinings') is another synthetic compound. Syriac again uses a construct chain ܘܪܝܫ ܣܡܟܐ ('and head of reclinings'), while Vulgate renders primos discubitus ('first reclinings'), maintaining the analytical structure parallel to the first clause."
     },
     {
       "greek_nt": [
         7,
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses prepositional prefix ܒ- on noun; Greek/Vulgate use separate preposition ἐν/in with article"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -164,13 +145,14 @@
         12
       ],
       "variant": "added",
-      "note": "Vulgate punctuation colon, not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate adds a colon to mark the end of this clause, a punctuation convention absent in Greek manuscripts and Syriac tradition. This reflects Latin scribal practice for organizing discourse units."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.821283+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.027415+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

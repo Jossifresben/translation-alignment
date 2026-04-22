@@ -70,7 +70,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -82,7 +83,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -94,7 +96,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -109,18 +112,12 @@
       ],
       "vulgate": [
         3,
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        4,
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation mark (question mark) not present as token in Greek/Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article with genitive construction (ὁ κύριος τοῦ ἀμπελῶνος, 'the lord of the vineyard'), which Vulgate mirrors with dominus vineæ including interrogative punctuation. Peshitta uses construct state (ܡܪܐ ܟܪܡܐ, 'lord-of vineyard') without article, a standard Semitic nominal construction expressing the same possessive relationship."
     },
     {
       "greek_nt": [
@@ -130,23 +127,16 @@
         5
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
+        6,
         7
       ],
       "variant": "minor",
-      "note": "Greek and Vulgate use explicit conjunction; Peshitta uses asyndeton before first verb"
+      "type": "punctuation",
+      "note": "Vulgate inserts a comma after Veniet, creating a pause between the coming and the destruction, while Greek and Peshitta maintain continuous syntax with coordinating conjunction. This represents a stylistic punctuation choice rather than semantic divergence."
     },
     {
       "greek_nt": [
+        8,
         9,
         10,
         11
@@ -160,55 +150,38 @@
         8,
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
       "variant": "minor",
-      "note": "Peshitta incorporates conjunction into verb form (ܘܢܬܠܝܘܗܝ = 'and he will give it')"
+      "type": "expansion",
+      "note": "Peshitta adds the demonstrative pronoun ܠܗܢܘܢ ('those') before ܦܠܚܐ ('farmers'), making explicit the reference to the previously mentioned tenants. Greek uses the article τοὺς γεωργοὺς and Latin simply colonos without demonstrative, both relying on context for definiteness."
     },
     {
       "greek_nt": [
+        12,
         13,
         14,
-        15
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
-        11,
-        12
-      ],
-      "variant": "minor",
-      "note": "Peshitta includes pronominal suffix on verb (ܘܢܬܠܝܘܗܝ = 'and he will give it'), making object explicit"
-    },
-    {
-      "greek_nt": [
+        15,
         16
       ],
       "peshitta": [
+        9,
+        10,
         11
       ],
       "vulgate": [
+        10,
+        11,
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Peshitta employs a pronominal suffix on the verb ܘܢܬܠܝܘܗܝ ('and-he-will-give-it'), incorporating the direct object 'vineyard' pronominally before restating it explicitly as ܟܪܡܐ, a common Semitic resumptive construction. Greek and Latin use standard accusative direct objects (τὸν ἀμπελῶνα / vineam) without pronominal anticipation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.815224+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.022097+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

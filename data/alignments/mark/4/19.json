@@ -82,26 +82,39 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction, begins directly with 'cares'"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / et, beginning the clause asyndetically with ܘܪܢܝܐ ('cares'), which itself contains the conjunction waw prefixed to the noun. This represents a stylistic difference in how the Syriac handles the connective particle."
     },
     {
       "greek_nt": [
         1,
-        2,
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article αἱ with the plural noun μέριμναι; Vulgate employs the articleless plural ærumnæ; Peshitta uses ܘܪܢܝܐ (singular with prefixed conjunction), a typical Syriac idiom treating abstract mass-nouns as singular collectives."
+    },
+    {
+      "greek_nt": [
         3,
         4,
         5
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -112,7 +125,8 @@
         3
       ],
       "variant": "omitted",
-      "note": "Peshitta uses waw prefix on next word instead of separate conjunction"
+      "type": "omission",
+      "note": "The Peshitta omits the second coordinating conjunction καί / et before 'the deceit of riches,' instead using the prefixed waw on ܘܛܘܥܝܝ. This reflects Syriac's preference for incorporating conjunctions into the following word rather than as separate particles."
     },
     {
       "greek_nt": [
@@ -129,7 +143,8 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -140,7 +155,8 @@
         6
       ],
       "variant": "omitted",
-      "note": "Peshitta uses waw prefix on next word instead of separate conjunction"
+      "type": "omission",
+      "note": "The Peshitta again omits the third coordinating conjunction καί / et, using the prefixed waw on ܘܫܪܟܐ ('and the rest') to express coordination, consistent with Syriac syntactic norms."
     },
     {
       "greek_nt": [
@@ -161,7 +177,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek περὶ τὰ λοιπὰ (concerning other things) vs Peshitta ܫܪܟܐ ܐܚܪܢܝܬܐ (other remainder) vs Vulgate circa reliqua - stylistic variation in expressing 'other things'"
+      "type": "word-order",
+      "note": "Greek uses the prepositional phrase αἱ περὶ τὰ λοιπὰ ἐπιθυμίαι ('the desires concerning the other things'); Vulgate mirrors this with circa reliqua concupiscentiæ; Peshitta reverses the order to ܘܫܪܟܐ ܕܪܓܝܓܬܐ ܐܚܪܢܝܬܐ ('and the rest of other desires'), placing the head noun before its modifiers in typical Semitic construct-state fashion."
     },
     {
       "greek_nt": [
@@ -173,7 +190,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -185,7 +203,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -200,7 +219,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta adds pronominal suffix ܠܗ (to it) before 'word' for emphasis"
+      "type": "gloss",
+      "note": "The Peshitta inserts the pronominal suffix ܠܗ ('to it') before ܠܡܠܬܐ ('the word'), making the indirect object explicit. Greek and Latin use only the article + noun (τὸν λόγον / verbum) without an additional pronoun, relying on context for the object reference."
     },
     {
       "greek_nt": [
@@ -211,31 +231,43 @@
         13
       ],
       "variant": "omitted",
-      "note": "Peshitta uses waw prefix on next word instead of separate conjunction"
+      "type": "omission",
+      "note": "The Peshitta omits the fourth coordinating conjunction καί / et before the final clause, instead using the prefixed waw on ܘܕܠܐ ('and without') to express the coordination, maintaining its pattern of incorporating conjunctions into subsequent words."
     },
     {
       "greek_nt": [
-        22,
-        23
+        22
       ],
       "peshitta": [
         12,
-        13,
-        14
+        13
       ],
       "vulgate": [
         14,
-        15,
-        16
+        15
       ],
       "variant": "minor",
-      "note": "Greek ἄκαρπος γίνεται (becomes unfruitful) vs Peshitta ܕܠܐ ܦܐܪܐ ܗܘܝܐ (without fruit it becomes) vs Vulgate sine fructu efficitur - same meaning, different word order and construction"
+      "type": "construction",
+      "note": "Greek uses the single adjective ἄκαρπος ('unfruitful'); Vulgate employs the prepositional phrase sine fructu ('without fruit'); Peshitta uses the negative particle + noun construction ܘܕܠܐ ܦܐܪܐ ('and without fruit'), semantically equivalent but syntactically distinct from the Greek adjectival form."
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.748362+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.966060+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

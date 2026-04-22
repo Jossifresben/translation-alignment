@@ -76,8 +76,9 @@
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits initial conjunction"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction Καὶ / Et, beginning directly with the verb of speaking. This is a common Syriac stylistic preference, avoiding redundant conjunctions at discourse boundaries."
     },
     {
       "greek_nt": [
@@ -91,8 +92,9 @@
         1,
         3
       ],
-      "variant": "minor",
-      "note": "Greek uses two verbs (φημί + εἶπεν); Peshitta one (ܐܡܪ); Vulgate uses respondens + ait"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek employs a double verb construction (ἔφη... εἶπεν, 'was saying... said'), a Markan stylistic feature. The Vulgate renders this with a participle + finite verb (respondens... ait, 'answering, he said'), while the Peshitta uses a single verb (ܐܡܪ, 'said'), simplifying the redundancy."
     },
     {
       "greek_nt": [
@@ -104,7 +106,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,7 +120,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article + nominative (ὁ Ἰησοῦς) as subject; Latin employs the nominative proper name Jesus without article (Latin lacks articles); Syriac uses the bare proper name ܝܫܘܥ. All three identify the same subject but reflect differing grammatical systems."
     },
     {
       "greek_nt": [],
@@ -125,8 +130,9 @@
       "vulgate": [
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition from narrative frame to direct discourse. Neither Greek nor Syriac manuscripts employ this punctuation convention, though the discourse boundary is implicit."
     },
     {
       "greek_nt": [
@@ -139,8 +145,9 @@
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܠܐ ܗܘܐ (negative + copula); Greek οὐ; Vulgate Nonne (rhetorical negative)"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses the interrogative particle οὐ expecting affirmative answer; Latin mirrors this with Nonne. The Peshitta employs a negative existential construction (ܠܐ ܗܘܐ, 'is it not?'), using the verb 'to be' to form the rhetorical question—a syntactically distinct but semantically equivalent Semitic idiom."
     },
     {
       "greek_nt": [
@@ -154,7 +161,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -168,7 +176,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit pronoun ܐܢܬܘܢ with participle ܛܥܝܢ"
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you') after the participle ܛܥܝܢ ('erring'), making the second-person plural subject explicit. Greek and Latin leave the subject implicit in the verb morphology (πλανᾶσθε / erratis), a typical Syriac clarification strategy."
     },
     {
       "greek_nt": [
@@ -185,7 +194,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܕܠܐ ܝܕܥܝܢ ܐܢܬܘܢ with explicit pronoun; Greek μὴ εἰδότες; Vulgate non scientes"
+      "type": "gloss",
+      "note": "The Peshitta again adds the explicit pronoun ܐܢܬܘܢ ('you') with the participle ܝܕܥܝܢ ('knowing'), forming ܕܠܐ ܝܕܥܝܢ ܐܢܬܘܢ ('that you do not know'). Greek uses the articular participle μὴ εἰδότες and Latin the simple participle non scientes, both leaving the subject implicit."
     },
     {
       "greek_nt": [
@@ -198,7 +208,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the plural τὰς γραφὰς ('the Scriptures') with definite article; Latin uses the plural Scripturas without article (Latin lacks articles); Syriac uses the singular ܟܬܒܐ ('the Scripture/Writing'), a collective singular common in Semitic languages for referring to the body of sacred texts."
     },
     {
       "greek_nt": [
@@ -210,7 +222,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -224,7 +237,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Peshitta ܚܝܠܗ includes possessive suffix 'his power'; Greek/Vulgate use article + genitive construction"
+      "type": "construction",
+      "note": "Greek uses the article + accusative noun (τὴν δύναμιν, 'the power'); Latin uses the bare accusative virtutem; Syriac employs a pronominal suffix construction (ܚܝܠܗ, 'his power'), making the possessive relationship to God explicit through the third-person suffix rather than a following genitive."
     },
     {
       "greek_nt": [
@@ -235,24 +249,17 @@
         15
       ],
       "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        14,
         15
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark as separate token"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.818512+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.024694+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

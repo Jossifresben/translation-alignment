@@ -87,7 +87,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -99,7 +100,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (iterative/durative past), while Vulgate employs imperfect dicebat and Peshitta uses perfect ܘܐܡܪ (simple past). The aspectual distinction reflects Greek narrative style versus Semitic perfective aspect, though all convey past-tense speech introduction."
     },
     {
       "greek_nt": [
@@ -111,7 +114,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,7 +126,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek ὅτι and Vulgate colon mark direct discourse; Peshitta uses ܕ- prefix integrated into following particle"
+      "type": "punctuation",
+      "note": "Greek ὅτι and Vulgate colon mark indirect discourse formally, while Peshitta ܕ (embedded in ܕܠܡܐ) functions as subordinator without separate punctuation. The Syriac construction integrates the quotative particle into the interrogative, a typical Semitic syntactic compression."
     },
     {
       "greek_nt": [
@@ -134,7 +139,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μήτι / ܕܠܡܐ / Numquid — all rhetorical negatives expecting 'no'"
     },
     {
       "greek_nt": [
@@ -146,7 +153,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -159,7 +167,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article ὁ λύχνος (the lamp), Vulgate uses anarthrous lucerna, and Peshitta ܫܪܓܐ is definite by context. The Greek article emphasizes the generic/proverbial lamp, while Latin and Syriac rely on context for definiteness, a standard cross-linguistic variation in article usage."
     },
     {
       "greek_nt": [
@@ -171,7 +181,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἵνα introduces purpose clause with subjunctive τεθῇ; Vulgate ut with subjunctive ponatur mirrors this; Peshitta uses ܕ + imperfect ܢܬܬܣܝܡ embedded in prepositional phrase ܕܬܚܝܬ. The Syriac construction conflates purpose and location into a single subordinate structure, syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -187,8 +199,9 @@
         8,
         9
       ],
-      "variant": "minor",
-      "note": "Peshitta ܕܬܚܝܬ combines purpose marker with preposition; Greek and Vulgate separate ἵνα/ut from ὑπὸ/sub"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὑπὸ τὸν μόδιον / ܬܚܝܬ ܣܐܬܐ / sub modio"
     },
     {
       "greek_nt": [
@@ -200,7 +213,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -212,7 +226,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -228,7 +243,9 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὑπὸ τὴν κλίνην / ܬܚܝܬ ܥܪܣܐ / sub lecto"
     },
     {
       "greek_nt": [],
@@ -237,7 +254,8 @@
         14
       ],
       "variant": "minor",
-      "note": "Vulgate adds question mark punctuation not present as token in Greek/Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate inserts interrogative punctuation mark after lecto, segmenting the rhetorical question into two clauses. Greek uses semicolon (modern editorial convention) and Peshitta lacks explicit mid-sentence punctuation, continuing the question fluidly into the positive alternative."
     },
     {
       "greek_nt": [
@@ -251,7 +269,8 @@
         15
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܠܐ ܗܘܐ (negative + copula) for Greek οὐχ and Vulgate nonne; stylistic variation in rhetorical question formation"
+      "type": "construction",
+      "note": "Greek οὐχ (negative particle expecting affirmative answer) corresponds to Vulgate nonne (compound negative interrogative). Peshitta uses ܠܐ ܗܘܐ (negative + copula), a two-word construction functioning as emphatic rhetorical negative. All three convey the same pragmatic force but employ distinct morphosyntactic strategies."
     },
     {
       "greek_nt": [
@@ -263,7 +282,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -279,8 +299,9 @@
         17,
         18
       ],
-      "variant": "minor",
-      "note": "Peshitta ܕܥܠ combines purpose marker with preposition; Greek ἐπὶ and Vulgate super use separate preposition"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐπὶ τὴν λυχνίαν / ܕܥܠ ܡܢܪܬܐ / super candelabrum"
     },
     {
       "greek_nt": [
@@ -292,7 +313,8 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -301,13 +323,14 @@
         20
       ],
       "variant": "minor",
-      "note": "Vulgate final question mark punctuation"
+      "type": "punctuation",
+      "note": "Vulgate closes with interrogative punctuation mark, making explicit the question implied in Greek and Peshitta syntax. This reflects Latin scribal convention for clarity in rhetorical questions, whereas Greek and Syriac rely on particle placement (οὐχ ἵνα / ܠܐ ܗܘܐ ܕ) to signal interrogative force."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.748742+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.966445+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

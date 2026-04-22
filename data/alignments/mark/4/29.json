@@ -55,41 +55,34 @@
         1
       ],
       "peshitta": [
-        0,
-        2
+        0
       ],
       "vulgate": [
         0,
         1
       ],
       "variant": "minor",
-      "note": "Greek ὅταν δὲ vs Peshitta ܡܐ...ܕܝܢ vs Vulgate Et cum: stylistic variation in temporal-conjunctive construction"
+      "type": "substitution",
+      "note": "Greek employs ὅταν δὲ (temporal conjunction + particle); Peshitta uses ܡܐ alone (temporal 'when'); Vulgate renders with Et cum ('and when'), adding a coordinating conjunction absent in the Greek particle δέ but reflecting narrative flow."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "major",
-      "note": "Greek παραδίδωμι (deliver/yield) vs Peshitta ܕܫܡܢ (ripen/mature) vs Vulgate produxerit (bring forth): distinct semantic choices for fruit maturation"
-    },
-    {
-      "greek_nt": [
+        2,
         3,
         4
       ],
       "peshitta": [
+        1,
+        2,
         3
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek παραδοῖ ὁ καρπός (subjunctive aorist, 'when the fruit yields/delivers itself') is rendered by Vulgate produxerit fructus (perfect subjunctive, 'has brought forth fruit') and Peshitta ܕܫܡܢ ܕܝܢ ܦܐܪܐ ('when it ripens, the fruit'), reflecting different aspectual nuances of the same agricultural metaphor."
     },
     {
       "greek_nt": [
@@ -105,28 +98,21 @@
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀποστέλλει τὸ δρέπανον ('he sends the sickle') uses article + accusative object; Vulgate mittit falcem mirrors this structure; Peshitta ܐܬܝܐ ܡܓܠܐ ('comes the sickle') employs an intransitive construction where the sickle itself is the subject, a stylistic shift preserving the immediacy of harvest action."
     },
     {
       "greek_nt": [
@@ -142,19 +128,7 @@
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Greek παρίστημι (stand by/arrive) vs Peshitta ܕܡܛܝ (arrive/reach) vs Vulgate adest (is present): synonymous expressions for harvest arrival"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
@@ -162,15 +136,18 @@
         8
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek παρέστηκεν ὁ θερισμός (perfect active indicative, 'the harvest has arrived/stands ready') is rendered by Vulgate adest messis (present indicative, 'the harvest is present') and Peshitta ܕܡܛܝ ܚܨܕܐ ('that has arrived the harvest'), with Peshitta using a relative clause construction rather than main verb, subtly subordinating the harvest's arrival to the causal conjunction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.750286+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.967753+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

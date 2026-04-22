@@ -70,102 +70,70 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܬܐ"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses καὶ ἔρχεται (conjunction + verb); Peshitta combines both in the prefixed waw-consecutive form ܘܐܬܐ; Vulgate mirrors Greek structure with Et venit. Semantically equivalent despite morphological differences."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits second καί before 'finds'"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek repeats καὶ before εὑρίσκει (paratactic coordination); Peshitta uses asyndetic construction with ܐܫܟܚ (no conjunction); Vulgate follows Greek with et invenit. Stylistic variation in narrative sequencing."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        2,
         3,
         4
       ],
       "vulgate": [
-        5
+        4,
+        5,
+        6
       ],
       "variant": "minor",
-      "note": "Peshitta uses circumstantial particle ܟܕ + participle construction"
+      "type": "construction",
+      "note": "Greek uses accusative participle construction (αὐτοὺς καθεύδοντας); Peshitta employs the temporal particle ܟܕ with active participle (ܟܕ ܕܡܟܝܢ, 'while sleeping'); Vulgate uses accusative + present participle (eos dormientes). All three express contemporaneous action but with different syntactic strategies."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in ܘܐܡܪ"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses καὶ λέγει (conjunction + verb); Peshitta combines in ܘܐܡܪ (waw-consecutive); Vulgate mirrors Greek with Et ait. Morphological variation without semantic divergence."
     },
     {
       "greek_nt": [
@@ -179,16 +147,8 @@
         8
       ],
       "variant": "major",
-      "note": "Peshitta uses Aramaic Kepha (ܟܐܦܐ) vs Greek Petros; Vulgate uses Latin Petro"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "type": "substitution",
+      "note": "Greek uses τῷ Πέτρῳ ('to Peter') with the article; Peshitta substitutes ܠܟܐܦܐ ('to Cephas'), employing the Aramaic form of Peter's name; Vulgate uses simple Petro without article. The Peshitta's choice reflects Semitic naming conventions and may preserve an earlier Aramaic tradition."
     },
     {
       "greek_nt": [
@@ -198,6 +158,7 @@
         7
       ],
       "vulgate": [
+        9,
         10
       ],
       "variant": "aligned"
@@ -211,43 +172,29 @@
         9
       ],
       "vulgate": [
-        11
+        11,
+        12
       ],
       "variant": "minor",
-      "note": "Peshitta adds ethical dative ܠܟ (to you) for emphasis"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "type": "gloss",
+      "note": "Greek uses simple καθεύδεις ('are you sleeping?'); Peshitta adds the ethical dative ܠܟ ('to you/for yourself') in ܕܡܟܬ ܠܟ, intensifying the personal reproach; Vulgate uses dormis with interrogative punctuation. The Peshitta gloss heightens the rhetorical force of Jesus' question."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses οὐκ ἴσχυσας ('were you not able?', from ἰσχύω, 'to have strength'); Peshitta uses ܠܐ ܐܫܟܚܬ ('did you not find/manage?', from ܫܟܚ); Vulgate uses non potuisti ('were you not able?', from possum). Peshitta employs a cognate verb with slightly broader semantic range (find/be able) versus Greek/Latin focus on capacity."
     },
     {
       "greek_nt": [
@@ -272,24 +219,18 @@
         14
       ],
       "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        17,
         18
       ],
-      "variant": "added",
-      "note": "Vulgate adds final question mark punctuation"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses aorist infinitive γρηγορῆσαι ('to watch'); Peshitta uses the Ethpael infinitive ܠܡܬܬܥܪܘ ('to be awakened/to keep watch'), which carries reflexive/passive nuance; Vulgate uses simple infinitive vigilare. The Peshitta's stem choice emphasizes the disciples' need for self-arousal to vigilance."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.835460+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.040633+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

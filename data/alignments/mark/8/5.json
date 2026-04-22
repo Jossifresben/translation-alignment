@@ -59,7 +59,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -72,7 +73,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܫܐܠ combines conjunction and verb in single token"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -82,9 +83,12 @@
         1
       ],
       "vulgate": [
-        2
+        2,
+        3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after the object pronoun 'eos' to mark the direct discourse boundary, while Greek uses a raised dot (·) and Peshitta has no punctuation mark at this juncture."
     },
     {
       "greek_nt": [],
@@ -93,55 +97,30 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds explicit subject pronoun ܗܘ (he)"
+      "type": "gloss",
+      "note": "The Peshitta adds the independent pronoun ܗܘ ('he') as an explicit subject marker for the verb ܫܐܠ, a common Syriac stylistic feature to clarify agency in narrative discourse. Neither Greek nor Latin requires this pronoun, as the verb inflection suffices."
     },
     {
       "greek_nt": [
-        3
+        3,
+        4,
+        5
       ],
       "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
+        3,
+        4,
         5,
         6
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses existential ܐܝܬ ܠܟܘܢ (there is to you) for Greek ἔχετε"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3,
+        4,
+        5,
+        6,
         7
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation markers (colons, question mark)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses accusative πόσους ἄρτους with ἔχετε in a direct object construction; Syriac employs an existential predicate ܐܝܬ ܠܟܘܢ ('there is to you') with ܠܚܡܝܢ as subject, a typical Semitic possessive idiom. Latin mirrors the Greek structure with 'Quot panes habetis' but adds a question mark for punctuation."
     },
     {
       "greek_nt": [
@@ -149,41 +128,27 @@
         7
       ],
       "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Greek uses article + δέ; Vulgate uses relative pronoun Qui; Peshitta omits transitional element"
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "grammar",
+      "note": "Greek includes the article οἱ and the postpositive conjunction δὲ to mark the subject shift and contrast ('but they'), a standard Greek narrative device. Both Peshitta and Vulgate omit these particles, proceeding directly to the verb of response."
     },
     {
       "greek_nt": [
         8
       ],
       "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        7,
         8
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds indirect object pronoun ܠܗ (to him)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
+        8,
+        9,
         10
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἶπαν is a simple aorist third-person plural; Peshitta ܐܡܪܝܢ ܠܗ adds the prepositional phrase 'to him' as an explicit indirect object, clarifying the addressee. Vulgate 'Qui dixerunt' employs a relative pronoun 'Qui' as subject and adds a colon to introduce the direct quotation."
     },
     {
       "greek_nt": [
@@ -195,13 +160,14 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.779035+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.994497+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

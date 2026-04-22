@@ -66,7 +66,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -79,19 +80,11 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܢܗܘܘܢ combines conjunction and verb in single token"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article οἱ has no equivalent in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
@@ -100,21 +93,13 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
       "variant": "minor",
-      "note": "Peshitta lacks explicit preposition; Greek εἰς and Vulgate in both express 'into'"
+      "type": "construction",
+      "note": "Greek employs the article with the numeral (οἱ δύο, 'the two'), while Syriac uses the emphatic state with pronominal suffix (ܬܪܝܗܘܢ, 'the-two-of-them') and Latin uses the bare numeral (duo). All three convey definiteness through different grammatical strategies."
     },
     {
       "greek_nt": [
+        4,
         5,
         6
       ],
@@ -123,11 +108,13 @@
         3
       ],
       "vulgate": [
+        3,
         4,
         5
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek/Vulgate 'flesh one', Peshitta 'one flesh'"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the numeral after the noun (εἰς σάρκα μίαν / in carne una, 'into flesh one'), whereas Syriac inverts to numeral-noun order (ܚܕ ܒܣܪ, 'one flesh'). This reflects standard Semitic attributive syntax versus Greek/Latin post-positive adjective placement."
     },
     {
       "greek_nt": [
@@ -140,16 +127,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Consequential conjunctions: Greek ὥστε, Peshitta ܡܟܝܠ, Vulgate Itaque - stylistic variants"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate adds temporal adverb 'jam' (now/already) not in Greek or Peshitta"
+      "type": "lexical",
+      "note": "Greek ὥστε ('so that') is rendered by Syriac ܡܟܝܠ ('therefore, now') and Latin Itaque ('therefore'). The Syriac and Latin both emphasize logical consequence more strongly than the Greek consecutive particle, though all three signal inferential transition."
     },
     {
       "greek_nt": [
@@ -159,9 +138,12 @@
         5
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the compound negative adverb οὐκέτι ('no longer'), Syriac employs simple negation ܠܐ ('not'), and Vulgate adds the temporal adverb jam ('already, now') to non ('not'). The Vulgate's jam non construction parallels the Greek's temporal dimension more explicitly than the Syriac."
     },
     {
       "greek_nt": [
@@ -173,7 +155,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -185,7 +168,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -197,7 +181,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -212,13 +197,15 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate again use post-positive adjective order (μία σάρξ / una caro, 'one flesh'), while Syriac maintains Semitic numeral-first order (ܚܕ ܒܣܪ, 'one flesh'). This mirrors the earlier construction and reflects consistent syntactic preferences across the traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.793697+00:00",
-    "confidence": 0.88,
+    "generated_at": "2026-04-22T12:17:08.008541+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

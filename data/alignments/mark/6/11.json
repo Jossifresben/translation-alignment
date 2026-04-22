@@ -104,21 +104,32 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         1,
         2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "note": "Greek uses relative clause construction 'καὶ ὃς ἂν τόπος'; Peshitta/Vulgate use simpler 'and whoever/any place' construction"
+      "type": "construction",
+      "note": "Greek employs a relative pronoun with modal particle (ὃς ἂν τόπος) to express indefinite relative construction; Vulgate uses quicumque (compound indefinite relative); Peshitta uses ܡܢ (simple relative 'whoever') with implicit place reference, a more compact Semitic construction expressing the same indefinite conditional sense."
     },
     {
       "greek_nt": [
@@ -135,7 +146,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses subjunctive δέξηται with negation μή (singular verb agreeing with τόπος); Vulgate employs future perfect receperint (plural, treating the indefinite subject as collective); Peshitta uses imperfect ܢܩܒܠܘܢܟܘܢ with pronominal suffix, all three expressing the same protasis but with different aspectual nuances."
     },
     {
       "greek_nt": [
@@ -152,7 +165,8 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -162,7 +176,6 @@
       "peshitta": [
         6,
         7,
-        8,
         9,
         10
       ],
@@ -171,24 +184,38 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta adds explicit pronoun 'you' (ܐܢܬܘܢ) and uses temporal particle ܡܐ; Greek/Vulgate use participle only"
+      "type": "construction",
+      "note": "Greek uses present participle ἐκπορευόμενοι ἐκεῖθεν (adverbial, 'departing from there'); Vulgate mirrors with present participle exeuntes inde; Peshitta employs temporal particle ܡܐ with finite verb ܕܢܦܩܝܢ plus explicit subject pronoun ܐܢܬܘܢ and prepositional phrase ܡܢ ܬܡܢ—a typical Syriac preference for finite verbal constructions over participles."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta inserts explicit subject pronoun ܐܢܬܘܢ ('you'), which is grammatically unnecessary but stylistically preferred in Syriac to clarify the subject of the imperative that follows; neither Greek nor Latin requires or transmits this pronoun."
     },
     {
       "greek_nt": [
-        12
+        12,
+        13,
+        14
       ],
       "peshitta": [
-        11
+        11,
+        12
       ],
       "vulgate": [
-        10
+        10,
+        11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        13,
-        14,
         15,
         16,
         17,
@@ -196,18 +223,17 @@
         19
       ],
       "peshitta": [
-        12,
         13,
         14
       ],
       "vulgate": [
-        11,
         12,
         13,
         14
       ],
       "variant": "minor",
-      "note": "Greek elaborates with double article and ὑποκάτω; Peshitta/Vulgate more concise"
+      "type": "construction",
+      "note": "Greek uses articular prepositional phrase τὸν ὑποκάτω τῶν ποδῶν ὑμῶν ('the [dust] under your feet') with double article construction; Vulgate employs simple prepositional phrase de pedibus vestris ('from your feet'); Peshitta uses construct chain ܕܒܬܚܬܝܐ ܕܪܓܠܝܟܘܢ ('that is beneath your feet'), all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -223,23 +249,73 @@
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses εἰς μαρτύριον αὐτοῖς ('for testimony to them'); Vulgate mirrors with in testimonium illis; Peshitta employs ܠܣܗܕܘܬܗܘܢ with pronominal suffix ('for their testimony'), a more compact Semitic construction incorporating the dative pronoun into the noun itself rather than as a separate word."
     },
     {
       "greek_nt": [
         23,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
       ],
       "peshitta": [
         16,
         17,
         18,
-        19
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits entire 'Amen I say to you' formula and Sodom/Gomorrah comparison (textual variant)"
+      "type": "omission",
+      "note": "The entire second sentence (Mark 6:11b in some traditions) containing the Amen-saying about Sodom and Gomorrah is absent from the Vulgate. This verse is widely regarded as a Western non-interpolation or scribal harmonization toward Matthew 10:15, and its omission in the Vulgate reflects the shorter Markan text attested in key Alexandrian and Western witnesses (e.g., Codex Vaticanus, Codex Bezae)."
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        24,
+        25
+      ],
+      "peshitta": [
+        17,
+        18,
+        19
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Greek λέγω ὑμῖν uses first-person singular without explicit pronoun; Peshitta adds ܐܢܐ ('I') as explicit subject pronoun before ܠܟܘܢ ('to you'), a common Syriac stylistic preference for clarity in solemn pronouncements."
     },
     {
       "greek_nt": [
@@ -251,7 +327,8 @@
         21
       ],
       "vulgate": [],
-      "variant": "omitted"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -264,7 +341,8 @@
         23
       ],
       "vulgate": [],
-      "variant": "omitted"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -277,28 +355,39 @@
         25
       ],
       "vulgate": [],
-      "variant": "omitted"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        34,
+        34
+      ],
+      "peshitta": [
+        26
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         35,
         36,
         37
       ],
       "peshitta": [
-        26,
         27,
         28
       ],
       "vulgate": [],
-      "variant": "omitted"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.763066+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.880232+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

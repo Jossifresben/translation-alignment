@@ -79,7 +79,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -88,7 +89,18 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek interjection ἔα (ha/ah) omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "The Greek interjection ἔα ('ha!' or 'ah!') is omitted in both Peshitta and Vulgate. This exclamatory particle, expressing alarm or protest, may have been deemed redundant or untranslatable in the target languages, with the force of the demon's outcry carried by the following rhetorical question alone."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'dicens' to introduce direct speech, a Latin scribal convention not reflected in Greek or Syriac manuscript traditions. This is purely a formatting addition with no semantic import."
     },
     {
       "greek_nt": [
@@ -109,7 +121,7 @@
         5
       ],
       "variant": "aligned",
-      "note": "Idiomatic phrase 'What to us and to you' rendered consistently across traditions"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -124,18 +136,18 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        1,
-        8,
-        12
+        8
       ],
       "variant": "added",
-      "note": "Vulgate adds punctuation marks (colons, question marks) not present as tokens in Greek/Peshitta"
+      "type": "punctuation",
+      "note": "The Vulgate places a question mark after 'Nazarene', treating the vocative address as a separate interrogative clause. Greek manuscripts use a semicolon or no punctuation here, and Peshitta continues without break, suggesting the Vulgate's punctuation reflects Latin rhetorical style rather than the underlying Semitic or Greek syntax."
     },
     {
       "greek_nt": [
@@ -152,29 +164,52 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        12
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a second question mark after 'nos', segmenting the demon's speech into two distinct questions. Greek and Peshitta treat the entire utterance as a single rhetorical unit, with the question about destruction flowing directly into the confession of Jesus' identity without syntactic break."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek οἶδά is first-person singular with implicit subject; Peshitta makes the subject explicit with ܝܕܥ ܐܢܐ ('I know'), placing the pronoun after the verb in standard Syriac word order. Vulgate 'scio' mirrors Greek economy. This is a grammatical gloss typical of Syriac translation technique, clarifying the speaker without altering meaning."
+    },
+    {
+      "greek_nt": [
         12,
         13,
         14
       ],
       "peshitta": [
-        8,
-        9,
         10,
         11,
         12
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
       "variant": "minor",
-      "note": "Peshitta expands with explicit pronoun ܐܢܐ (I) and uses ܡܢ ܐܢܬ (who you-are) vs Greek τίς εἶ; Vulgate qui sis uses subjunctive"
+      "type": "construction",
+      "note": "Greek uses accusative σε + interrogative τίς + verb εἶ ('You / who / are') in three-word construction. Peshitta employs ܠܟ ܡܢ ܐܢܬ ('to-you / who / you-are'), a prepositional phrase with explicit subject pronoun. Vulgate compresses into indirect question 'qui sis' (subjunctive), a Latin idiom for 'who you are.' All three convey identical semantics through language-specific syntax."
     },
     {
       "greek_nt": [
@@ -191,14 +226,15 @@
         16,
         17
       ],
-      "variant": "aligned",
-      "note": "Greek article ὁ not replicated in Peshitta/Vulgate; Peshitta uses construct state ܩܕܝܫܗ"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the articular construction ὁ ἅγιος τοῦ θεοῦ ('the Holy-One of-the God') with double article, a Semitism emphasizing definiteness. Peshitta uses ܩܕܝܫܗ ܕܐܠܗܐ ('Holy-One-of God') with pronominal suffix on 'holy' and construct state, standard Syriac genitive. Vulgate 'Sanctus Dei' lacks articles (Latin has none), rendering the phrase as a title. The substantival force is identical across all three."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.729760+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.947165+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

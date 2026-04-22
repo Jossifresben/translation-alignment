@@ -91,67 +91,41 @@
         3
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the entire descent from the mountain clause, beginning directly with the command"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Vulgate omits the entire temporal clause 'And as they were descending from the mountain' (Greek καταβαινόντων αὐτῶν ἐκ τοῦ ὄρους; Peshitta ܘܟܕ ܢܚܬܝܢ ܡܢ ܛܘܪܐ), beginning instead with 'Et verbum continuerunt' ('And they kept the word'). This represents a substantive textual divergence in the Vulgate tradition, possibly reflecting a different Vorlage or editorial decision to compress the narrative frame."
     },
     {
       "greek_nt": [
         7,
         8,
-        9
-      ],
-      "peshitta": [
-        4,
-        5,
-        6
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the explicit command structure; Greek διεστείλατο and Peshitta ܡܦܩܕ ܗܘܐ both express 'he commanded them that'"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek μηδενὶ 'to no one' and Peshitta ܕܠܐܢܫ ܠܐ 'that to no one not' omitted in Vulgate restructuring"
-    },
-    {
-      "greek_nt": [
+        9,
+        10,
         11,
         12,
         13
       ],
       "peshitta": [
+        4,
+        5,
+        6,
+        7,
+        8,
         9,
         10,
         11
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek 'what they saw they should tell' and Peshitta 'they should say anything that they saw' omitted; Vulgate replaces with different content"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         0,
         1,
         2,
         3,
         4,
-        5,
-        6,
-        7,
-        8
+        5
       ],
-      "variant": "added",
-      "note": "Vulgate adds 'Et verbum continuerunt apud se: conquirentes quid esset' (And they kept the word to themselves, questioning what it meant) - major textual variant not present in Greek or Peshitta"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek διεστείλατο αὐτοῖς ἵνα μηδενὶ ἃ εἶδον διηγήσωνται ('He instructed them that to no one what they saw they should tell') and Peshitta ܡܦܩܕ ܗܘܐ ܠܗܘܢ ܕܠܐܢܫ ܠܐ ܢܐܡܪܘܢ ܡܕܡ ܕܚܙܘ (semantically parallel) are replaced in the Vulgate with 'Et verbum continuerunt apud se' ('And they kept the word among themselves'), a completely different construction focusing on the disciples' obedience rather than Jesus' command. The Vulgate then shifts to 'conquirentes quid esset' ('questioning what it meant'), introducing interpretive material absent from Greek and Peshitta."
     },
     {
       "greek_nt": [
@@ -167,8 +141,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "note": "Greek εἰ μὴ ὅταν 'except when', Peshitta ܐܠܐ ܐܢ ܡܐ 'but if when', Vulgate cum 'when' - all express temporal exception"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἰ μὴ ὅταν ('except when') and Peshitta ܐܠܐ ܐܢ ܡܐ (functionally equivalent exceptive-temporal construction) correspond to Vulgate 'cum' ('when'), which lacks the explicit exceptive force but conveys the temporal condition within the indirect question structure 'quid esset cum... resurrexerit' ('what it meant when he should rise')."
     },
     {
       "greek_nt": [
@@ -182,8 +157,9 @@
         17
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits explicit subject 'the Son of Man'; implied in verb resurrexerit"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Vulgate omits the christological title 'the Son of Man' (Greek ὁ υἱὸς τοῦ ἀνθρώπου; Peshitta ܒܪܗ ܕܐܢܫܐ), using instead an implicit third-person singular subject in 'resurrexerit' ('he should rise'). This represents a significant theological-textual divergence, as the Son of Man title is programmatic in Mark's Gospel and its absence alters the verse's christological emphasis."
     },
     {
       "greek_nt": [
@@ -202,12 +178,25 @@
         12
       ],
       "variant": "minor",
-      "note": "All three express resurrection from the dead; Peshitta ܕܩܡ ܡܢ ܡܝܬܐ uses active verb 'rises', Greek ἀναστῇ ἐκ νεκρῶν subjunctive 'may rise', Vulgate a mortuis resurrexerit perfect subjunctive 'will have risen' - slight aspectual differences"
+      "type": "word-order",
+      "note": "Greek ἐκ νεκρῶν ἀναστῇ ('from [the] dead he may rise') and Peshitta ܕܩܡ ܡܢ ܡܝܬܐ ('that he rise from [the] dead') place the prepositional phrase after the verb, whereas Vulgate 'a mortuis resurrexerit' ('from [the] dead he should rise') follows the same order. However, the Vulgate's perfect subjunctive 'resurrexerit' (versus Greek aorist subjunctive ἀναστῇ and Peshitta imperfect ܕܩܡ) introduces a nuance of completed action, though this is a minor aspectual difference within the temporal clause."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        6,
+        7,
+        8
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate inserts a colon and the participial clause 'conquirentes quid esset' ('questioning what it meant'), material entirely absent from both Greek and Peshitta. This expansion transforms the verse from a simple command-and-condition structure into a narrative comment on the disciples' incomprehension, possibly reflecting Latin exegetical tradition or harmonisation with broader Markan themes of misunderstanding (cf. Mark 9:32)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.786588+00:00",
+    "generated_at": "2026-04-22T12:30:02.749475+00:00",
     "confidence": 0.75,
     "schema_version": 1
   }

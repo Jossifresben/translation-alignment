@@ -66,102 +66,81 @@
         0
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܦܩܕ combines conjunction with verb 'commanded', while Greek separates καὶ + διεστείλατο"
+      "type": "lexical",
+      "note": "Greek καὶ ('and') is rendered by Peshitta ܘܦܩܕ (waw-prefixed 'he commanded'), conflating the conjunction with the main verb. Vulgate Et preserves the simple conjunction, matching Greek syntax more closely."
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "note": "Greek διεστείλατο 'instructed strictly' vs Vulgate præcepit 'commanded' vs Peshitta ܦܩܕ 'commanded' - semantic overlap with nuance"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܕܠܐ 'that not' combines purpose marker with negation, while Greek/Vulgate separate ἵνα μηδεὶς / ut nemo"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
       "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek διεστείλατο ('he strictly charged/instructed') and Vulgate præcepit ('he commanded') are semantically equivalent verbs of commanding. Peshitta incorporates this verb into the conjunction ܘܦܩܕ, creating a different syntactic structure where the command verb appears earlier in the clause."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek πολλὰ (adverbial accusative 'strictly/much'), Peshitta ܣܓܝ ('much/greatly'), and Vulgate vehementer ('vehemently/strongly') are cognate intensifiers with slightly different semantic ranges. Vulgate chooses the strongest register, while Greek and Peshitta use more neutral quantitative adverbs."
+    },
+    {
+      "greek_nt": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "peshitta": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "vulgate": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon, not present as token in Greek/Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek τοῦτο ends with a comma, continuing the sentence structure. Vulgate inserts a colon after sciret, creating a stronger pause before the second command. Peshitta ܗܕܐ maintains continuous syntax without marked punctuation, typical of Syriac manuscript tradition."
     },
     {
       "greek_nt": [
@@ -185,7 +164,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἶπεν ('he said/commanded') governs an infinitive construction (δοθῆναι). Peshitta ܘܐܡܪ ('and he said') is followed by a d-clause with finite verb ܕܢܬܠܘܢ ('that they should give'), reflecting Syriac preference for finite subordinate clauses. Vulgate dixit with infinitive dari mirrors Greek syntax."
     },
     {
       "greek_nt": [
@@ -197,7 +178,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek δοθῆναι (aorist passive infinitive 'to be given') and Vulgate dari (present passive infinitive) both use passive voice. Peshitta ܕܢܬܠܘܢ employs active voice plural ('that they should give'), making the implicit agents (the parents/disciples) grammatically explicit as subject."
     },
     {
       "greek_nt": [
@@ -226,8 +209,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.760485+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.977609+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

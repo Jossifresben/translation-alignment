@@ -78,7 +78,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,7 +91,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the verb ἤμην/eram immediately after the temporal phrase, while Peshitta postpones ܗܘܝܬ until after the prepositional phrase ܠܘܬܟܘܢ, reflecting typical Syriac VSO word order preference."
     },
     {
       "greek_nt": [
@@ -104,8 +107,8 @@
         2,
         3
       ],
-      "variant": "minor",
-      "note": "Greek πρὸς ὑμᾶς vs Peshitta ܠܘܬܟܘܢ vs Vulgate apud vos - stylistic variation in expressing 'with/among you'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -120,7 +123,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐν τῷ ἱερῷ with definite article; Latin mirrors this with in templo; Syriac employs ܒܗܝܟܠܐ with the emphatic state suffix serving as the functional equivalent of the article."
     },
     {
       "greek_nt": [
@@ -135,7 +140,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses participial construction ܟܕ ܡܠܦ ܐܢܐ (while teaching I) with explicit pronoun, Greek uses simple participle διδάσκων"
+      "type": "construction",
+      "note": "Greek uses the present participle διδάσκων; Latin employs the gerund docens; Peshitta expands with the temporal particle ܟܕ plus active participle ܡܠܦ and explicit subject pronoun ܐܢܐ, a typical Syriac periphrastic construction for circumstantial clauses."
     },
     {
       "greek_nt": [
@@ -154,7 +160,8 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -168,7 +175,8 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -180,7 +188,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -193,7 +202,9 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Vulgate use the plural αἱ γραφαί/Scripturæ ('the Scriptures'); Peshitta uses the singular ܟܬܒܐ ('the Scripture/writing'), a common Syriac idiom treating collective scriptural witness as a singular mass noun."
     },
     {
       "greek_nt": [],
@@ -203,13 +214,14 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܗܘܬ ܗܕܐ (this was/happened) - explanatory addition not present in Greek or Vulgate"
+      "type": "expansion",
+      "note": "Peshitta adds the demonstrative construction ܗܘܬ ܗܕܐ ('this was/happened'), making explicit the implied subject of the ἵνα-clause and providing a smoother transition. Neither Greek nor Latin attest this clarifying phrase."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.837488+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.042557+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -70,7 +70,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,8 +84,9 @@
         1,
         2
       ],
-      "variant": "aligned",
-      "note": "Greek aorist middle, Syriac perfect, Vulgate perfect passive with auxiliary"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist middle ἐπελάθοντο (deponent, 'they forgot'); Vulgate employs the perfect passive participle obliti sunt ('having forgotten, they were'); Peshitta uses the active perfect ܛܥܘ. All three convey completed action but differ in voice and aspectual nuance."
     },
     {
       "greek_nt": [
@@ -97,7 +99,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek infinitive before noun, Vulgate after"
+      "type": "word-order",
+      "note": "Greek and Peshitta place the infinitive immediately after the verb of forgetting (λαβεῖν / ܕܢܣܒܘܢ), while Vulgate postpones sumere to after the direct object panes, reflecting Latin stylistic preference for verb-final infinitive complements."
     },
     {
       "greek_nt": [
@@ -109,22 +112,13 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἄρτους (plural accusative 'loaves') and Latin panes (plural accusative) contrast with Peshitta ܠܚܡܐ (singular 'bread'), a typical Syriac collective usage for mass nouns denoting provisions."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6
       ],
@@ -132,10 +126,11 @@
         3
       ],
       "vulgate": [
+        6,
         7
       ],
       "variant": "aligned",
-      "note": "Greek εἰ μή, Syriac ܐܠܐ, Vulgate nisi all express 'except/only'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -147,7 +142,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -159,8 +155,9 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܓܪܝܨܬܐ (loaf/cake) vs Greek/Vulgate ἄρτος/panem (bread)"
+      "variant": "major",
+      "type": "lexical",
+      "note": "Greek ἄρτον and Latin panem both mean 'loaf (of bread)', whereas Peshitta ܓܪܝܨܬܐ specifically denotes a 'round cake' or 'biscuit', a more precise term for a particular bread form. This may reflect a cultural-linguistic specification in the Syriac tradition."
     },
     {
       "greek_nt": [
@@ -175,8 +172,9 @@
         10,
         11
       ],
-      "variant": "aligned",
-      "note": "Negative verb constructions: Greek οὐκ εἶχον, Syriac ܠܝܬ ܗܘܐ, Vulgate non habebant"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the imperfect οὐκ εἶχον ('they were not having'); Latin employs non habebant (imperfect indicative); Peshitta uses the negative existential ܠܝܬ ܗܘܐ (lit. 'there was not'), a periphrastic construction typical of Syriac negation with stative verbs."
     },
     {
       "greek_nt": [
@@ -190,7 +188,7 @@
         12
       ],
       "variant": "aligned",
-      "note": "Greek μεθ᾽ ἑαυτῶν (with themselves), Syriac ܥܡܗܘܢ (with them), Vulgate secum (with them)"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -205,7 +203,8 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -213,14 +212,15 @@
       "vulgate": [
         5
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not present in Greek or Syriac"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after sumere, marking a syntactic break between the main clause and the exceptive clause. Neither Greek nor Peshitta manuscripts transmit equivalent punctuation at this juncture, though the sense remains unchanged."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.780414+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.995878+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

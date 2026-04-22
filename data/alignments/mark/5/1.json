@@ -52,7 +52,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -64,44 +65,37 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܐܬܐ combines conjunction and verb; Greek/Vulgate separate"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses third-person plural ἦλθον ('they came'), while Peshitta employs third-person singular ܘܐܬܐ ('and he came'), reflecting Syriac's tendency toward singular verbs with collective or implied subjects. Vulgate venerunt mirrors the Greek plural."
     },
     {
       "greek_nt": [
         2,
         3,
-        4
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned",
-      "note": "εἰς τὸ πέραν = ܠܥܒܪܐ = trans: 'to the other side'"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
+        2,
         3,
         4
       ],
       "variant": "minor",
-      "note": "Greek θαλάσσης (sea), Peshitta ܕܝܡܐ (of sea), Vulgate fretum maris (strait of sea) - stylistic variation"
+      "type": "construction",
+      "note": "Greek employs a prepositional phrase with article and noun (εἰς τὸ πέραν τῆς θαλάσσης, 'to the other side of the sea'); Vulgate uses trans fretum maris ('across the strait of the sea') with a different lexeme (fretum for θάλασσα); Peshitta uses a construct chain ܠܥܒܪܐ ܕܝܡܐ ('to-the-crossing of-the-sea'), a typical Syriac genitive construction expressing the same spatial relationship."
     },
     {
       "greek_nt": [
         7,
         8,
-        9
+        9,
+        10
       ],
       "peshitta": [
         3
@@ -111,11 +105,10 @@
         6
       ],
       "variant": "aligned",
-      "note": "εἰς τὴν χώραν = ܠܐܬܪܐ = in regionem: 'to/into the region'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        10,
         11
       ],
       "peshitta": [
@@ -125,12 +118,13 @@
         7
       ],
       "variant": "major",
-      "note": "Textual variant: Greek Γερασηνῶν (Gerasenes), Peshitta ܕܓܕܪܝܐ (Gadarenes), Vulgate Gerasenorum - different geographical referents"
+      "type": "substitution",
+      "note": "Greek reads Γερασηνῶν ('Gerasenes'), while Peshitta reads ܕܓܕܪܝܐ ('Gadarenes'), reflecting the well-known textual variant between Gerasa and Gadara in the Synoptic demoniac pericope. Vulgate Gerasenorum follows the Greek tradition, whereas the Peshitta aligns with the Matthean parallel (Matt 8:28) and certain Greek witnesses that read Γαδαρηνῶν."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.753669+00:00",
+    "generated_at": "2026-04-22T12:17:07.969828+00:00",
     "confidence": 0.85,
     "schema_version": 1
   }

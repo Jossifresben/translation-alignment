@@ -70,7 +70,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Vulgate uses ablative absolute 'Quo audito' vs Greek participle; Peshitta uses simple waw-consecutive"
+      "type": "construction",
+      "note": "Greek uses conjunction καὶ plus aorist participle ἀκούσαντες ('and having heard'); Peshitta employs simple perfect ܘܫܡܥܘ ('and they heard'); Vulgate uses ablative absolute Quo audito ('which having been heard'). All three express temporal anteriority but through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -85,7 +86,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article and noun before the possessive pronoun (οἱ μαθηταὶ αὐτοῦ); Peshitta uses a bound form with pronominal suffix ܬܠܡܝܕܘܗܝ ('his-disciples'), a standard Semitic construction; Vulgate follows Greek word order (discipuli ejus). Semantically identical despite structural differences."
     },
     {
       "greek_nt": [
@@ -101,23 +104,14 @@
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction before 'took'; uses waw-prefix on verb instead"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        5,
         6
       ],
       "variant": "aligned"
@@ -136,7 +130,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek πτῶμα (corpse/fallen body) vs Vulgate corpus vs Peshitta ܫܠܕܗ (body/corpse); slight lexical variation"
+      "type": "lexical",
+      "note": "Greek uses πτῶμα ('corpse, fallen body'), emphasizing the violent death; Peshitta employs ܫܠܕܗ ('his body/corpse'); Vulgate uses corpus ('body'). The Greek term is more specific to a body resulting from violent death, while the Syriac and Latin terms are more neutral, though all refer to John the Baptist's remains."
     },
     {
       "greek_nt": [],
@@ -145,21 +140,12 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after corpus ejus, creating a stronger pause before the burial clause. Neither Greek nor Peshitta manuscripts indicate such punctuation at this juncture, maintaining continuous narrative flow with simple conjunction."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction before 'placed'; uses waw-prefix on verb instead"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13
       ],
@@ -167,6 +153,7 @@
         5
       ],
       "vulgate": [
+        10,
         11,
         12
       ],
@@ -187,13 +174,14 @@
         14
       ],
       "variant": "minor",
-      "note": "Peshitta uses construct phrase 'house of burial' (ܒܒܝܬ ܩܒܘܪܐ) vs Greek/Vulgate simple 'tomb/monument'"
+      "type": "construction",
+      "note": "Greek uses preposition ἐν with dative article and noun (ἐν τῷ μνημείῳ, 'in the tomb'); Peshitta employs the compound preposition ܒܒܝܬ ܩܒܘܪܐ (literally 'in house-of burial'), a characteristic Semitic construct-state formation; Vulgate uses in monumento. The Peshitta's periphrastic construction is idiomatic but semantically equivalent to the Greek and Latin prepositional phrases."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.766287+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.982333+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

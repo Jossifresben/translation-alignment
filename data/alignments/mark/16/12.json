@@ -74,33 +74,26 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek δὲ (postpositive conjunction) vs Vulgate autem; both mark transition"
+      "type": "word-order",
+      "note": "Greek uses μετὰ δὲ ταῦτα with postpositive δέ; Vulgate adds autem ('however') as a third element after Post hæc; Peshitta employs the simpler ܒܬܪ ܗܠܝܢ without a contrastive particle. All three convey 'after these things' with minor stylistic variation in the conjunction."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        3,
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -108,13 +101,15 @@
       ],
       "peshitta": [
         7,
-        8
+        8,
+        9
       ],
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "note": "Peshitta uses two participles (ܟܕ ܡܗܠܟܝܢ) for Greek single participle περιπατοῦσιν"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek uses a single participle περιπατοῦσιν ('walking'); Latin mirrors this with ambulantibus. Peshitta expands with a temporal clause ܟܕ ܡܗܠܟܝܢ ܘܐܙܠܝܢ ('while walking and going'), employing two synonymous participles in hendiadys to emphasize the action of traveling."
     },
     {
       "greek_nt": [
@@ -128,7 +123,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek verb position differs from Peshitta/Vulgate"
+      "type": "word-order",
+      "note": "Greek places the verb ἐφανερώθη after the dative participle; Peshitta fronts the verb ܐܬܚܙܝ immediately after the temporal phrase for emphasis; Vulgate splits the passive construction ostensus est across two tokens. All convey 'he was revealed/appeared' with different syntactic positioning."
     },
     {
       "greek_nt": [
@@ -145,20 +141,20 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         11
       ],
-      "peshitta": [
-        9
-      ],
+      "peshitta": [],
       "vulgate": [
         12
       ],
-      "variant": "minor",
-      "note": "Greek πορευομένοις vs Peshitta ܘܐܙܠܝܢ (with conjunction) vs Vulgate euntibus; synonymous motion verbs"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek employs a second participle πορευομένοις ('going') alongside περιπατοῦσιν to create a participial doublet; Vulgate mirrors this with euntibus. Peshitta omits this redundant element, having already expressed the motion through its expanded hendiadys ܡܗܠܟܝܢ ܘܐܙܠܝܢ earlier in the verse."
     },
     {
       "greek_nt": [
@@ -173,7 +169,8 @@
         14
       ],
       "variant": "minor",
-      "note": "Greek ἀγρόν (field/country) vs Peshitta ܠܩܪܝܬܐ (village) vs Vulgate villam (village); semantic difference in destination"
+      "type": "lexical",
+      "note": "Greek εἰς ἀγρόν ('into the field/countryside') and Vulgate in villam ('into the village/estate') represent different lexical choices for the destination; Peshitta ܠܩܪܝܬܐ ('to the village') aligns semantically with the Vulgate against the Greek's more general rural designation."
     },
     {
       "greek_nt": [],
@@ -181,14 +178,15 @@
       "vulgate": [
         15
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate concludes with a colon, signaling continuation into the following narrative; Greek and Peshitta use standard sentence-final punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.852321+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.056203+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

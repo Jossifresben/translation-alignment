@@ -48,7 +48,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ omitted in both Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate. The Peshitta uses ܕܝܢ (dēn, 'but/now') as a discourse marker instead, while the Vulgate begins directly with the verb, treating this as an independent sentence rather than a continuation."
     },
     {
       "greek_nt": [
@@ -61,7 +62,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple ἦσαν ('were'); Peshitta employs the periphrastic construction ܐܝܬܝܗܘܢ ܗܘܘ (ītayhōn hwaw, 'they were existing'), a characteristic Syriac idiom for existential predication. Vulgate uses simple Erant, mirroring the Greek structure."
     },
     {
       "greek_nt": [],
@@ -71,31 +74,25 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "note": "Peshitta ܕܝܢ and Vulgate autem are discourse particles not present in Greek"
+      "variant": "added",
+      "type": "expansion",
+      "note": "Peshitta inserts ܕܝܢ (dēn, 'but/now') and Vulgate inserts autem ('moreover/but') as discourse connectives. These are stylistic additions not present in the Greek, serving to mark the transition or provide mild contrast with the preceding narrative."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "minor",
-      "note": "Greek article οἱ omitted in Peshitta, rendered as qui in Vulgate"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses articular aorist participle οἱ φαγόντες ('those having eaten'); Vulgate employs relative pronoun + perfect indicative qui manducaverunt ('who ate'); Peshitta uses relative particle ܕ + perfect ܐܟܠܘ (d-ēkal, 'who ate'). All three express the same substantival relative construction with different grammatical strategies."
     },
     {
       "greek_nt": [
@@ -106,7 +103,9 @@
         4
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses article + plural τοὺς ἄρτους ('the loaves'); Peshitta uses singular ܠܚܡܐ (laḥmā, 'bread/the bread'), a typical Syriac collective singular for mass nouns. Vulgate omits the direct object entirely, incorporating it implicitly within the verb manducaverunt, a Latin stylistic preference for brevity."
     },
     {
       "greek_nt": [
@@ -115,39 +114,33 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek ὡσεί (about) omitted in both Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek ὡσεὶ ('about/approximately') is omitted in both Peshitta and Vulgate, which present the number as exact rather than approximate. This may reflect a tendency in translation to simplify numerical expressions or a different textual tradition."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        4,
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
+        5,
+        6,
         7
       ],
       "vulgate": [
+        4,
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses compound numeral + noun (πεντακισχίλιοι ἄνδρες, 'five-thousand men'); Peshitta and Vulgate both decompose the numeral into constituent parts (ܚܡܫܐ ܐܠܦܝܢ ܓܒܪܝܢ / quinque millia virorum, 'five thousands of-men'), following Semitic and Latin numerical syntax respectively. The word order reflects each language's natural expression of large numbers."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.770175+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:07.984635+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

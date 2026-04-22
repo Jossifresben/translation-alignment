@@ -80,7 +80,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,10 +91,11 @@
         0
       ],
       "vulgate": [
-        4
+        1
       ],
       "variant": "minor",
-      "note": "Greek participle γενομένης incorporated into Peshitta ܘܗܘܐ; Vulgate uses cum + accidisset for temporal clause"
+      "type": "construction",
+      "note": "Greek employs a genitive absolute construction (γενομένης ἡμέρας) where Peshitta uses a finite verb with waw-consecutive (ܘܗܘܐ ܝܘܡܐ) and Vulgate uses a temporal cum-clause (cum dies accidisset). All three express the same temporal relationship but through different syntactic strategies characteristic of their respective languages."
     },
     {
       "greek_nt": [
@@ -105,7 +107,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -118,7 +121,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek εὐκαίρου (opportune) vs Peshitta ܝܕܝܥܐ (known/notable) vs Vulgate opportunus; semantic overlap but different nuance"
+      "type": "lexical",
+      "note": "Greek εὔκαιρος ('opportune, favorable') is rendered by Peshitta ܝܕܝܥܐ ('known, well-known') and Vulgate opportunus ('opportune'). The Syriac choice emphasizes the day's notoriety or public recognition rather than its strategic timing, representing a subtle semantic shift in how the occasion's significance is characterized."
     },
     {
       "greek_nt": [
@@ -128,9 +132,11 @@
         3
       ],
       "vulgate": [
-        1
+        4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅτε introduces a temporal clause, Peshitta uses ܟܕ (temporal particle), while Vulgate incorporates the temporal notion into the cum-clause structure begun earlier (accidisset). The Vulgate thus integrates what Greek expresses through two separate constructions into a single subordinate clause."
     },
     {
       "greek_nt": [
@@ -142,7 +148,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -159,7 +166,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Greek τοῖς γενεσίοις αὐτοῦ (on his birthday) vs Peshitta ܒܒܝܬ ܝܠܕܗ (in the house of his birth) vs Vulgate natalis sui; Peshitta uses prepositional phrase"
+      "type": "construction",
+      "note": "Greek uses article + dative plural noun + possessive pronoun (τοῖς γενεσίοις αὐτοῦ, 'on his birthday celebrations'), Vulgate employs a genitive construction (natalis sui, 'of his birthday'), while Peshitta uses a prepositional phrase with beth + construct state (ܒܒܝܬ ܝܠܕܗ, 'in the house of his birth'). The Syriac idiom literally references the 'house/occasion of birth' rather than the birthday itself, a characteristic Semitic construction."
     },
     {
       "greek_nt": [
@@ -171,7 +179,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -184,7 +193,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a simple aorist active indicative (ἐποίησεν), Vulgate mirrors this with perfect active indicative (fecit), while Peshitta employs a periphrastic construction with active participle + auxiliary verb (ܥܒܕ ܗܘܐ). The Syriac periphrastic form is a standard narrative past tense construction, functionally equivalent to the Greek and Latin simple past forms."
     },
     {
       "greek_nt": [
@@ -198,7 +209,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs article + noun + possessive pronoun (τοῖς μεγιστᾶσιν αὐτοῦ, 'for his great men'), Vulgate uses a single dative noun (principibus, 'for princes'), while Peshitta uses a prefixed preposition + noun with pronominal suffix (ܠܪܘܪܒܢܘܗܝ, 'for his nobles'). All three express the same dative relationship but through language-specific morphological strategies."
     },
     {
       "greek_nt": [
@@ -210,7 +223,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -223,7 +237,9 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses article + dative plural noun (τοῖς χιλιάρχοις, 'for the military tribunes'), Vulgate uses dative plural (tribunis), while Peshitta incorporates the conjunction and preposition into a single prefixed form (ܘܠܟܝܠܝܪܟܐ). The Syriac represents typical agglutinative morphology where Greek and Latin use separate particles."
     },
     {
       "greek_nt": [
@@ -235,33 +251,27 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         18,
-        19
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20,
         21
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + adjective + article + genitive place name (τοῖς πρώτοις τῆς Γαλιλαίας, 'for the leading men of Galilee'), Vulgate uses adjective + genitive (primis Galilææ), while Peshitta employs prefixed preposition + noun + genitive construct (ܘܠܪܫܐ ܕܓܠܝܠܐ, 'and for the heads of Galilee'). All three express the same social class but with varying degrees of article usage and syntactic complexity."
     },
     {
       "greek_nt": [],
@@ -269,14 +279,15 @@
       "vulgate": [
         16
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate adds a colon to mark the end of the temporal clause and transition to the narrative sequel. Neither Greek nor Peshitta manuscripts typically employ such punctuation at this juncture, reflecting Latin editorial conventions rather than textual variance."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.764861+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.980831+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

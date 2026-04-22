@@ -83,7 +83,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek uses καὶ ὁ δὲ (and/now); Peshitta ܘ (and); Vulgate autem (but/now) - stylistic variation in discourse markers"
+      "type": "substitution",
+      "note": "Greek employs a double conjunction καὶ ὁ δέ ('and … but/now') for narrative transition; Peshitta uses simple waw-conjunction ܘ; Vulgate inserts adversative autem ('however'), a stylistic preference in Latin narrative prose."
     },
     {
       "greek_nt": [
@@ -95,7 +96,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places Ἰησοῦς after the conjunctions; Peshitta and Vulgate front the subject name (ܝܫܘܥ / Jesus) immediately after the conjunction, reflecting VSO vs. SVO word-order preferences."
     },
     {
       "greek_nt": [
@@ -117,31 +120,24 @@
         2
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illi to mark direct speech, a Latin scribal convention absent in Greek and Syriac manuscripts which rely on context or lectional marks."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [
-        3
-      ],
+      "peshitta": [],
       "vulgate": [
         5
       ],
-      "variant": "major",
-      "note": "Greek ὕπαγε (go away/depart); Peshitta ܚܙܝ (see/behold); Vulgate Vade (go) - Peshitta uses imperative 'see' instead of 'go'"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek ὕπαγε ('go') and Vulgate Vade are present; Peshitta omits this imperative entirely, proceeding directly to the faith-statement, possibly viewing the command as redundant after the healing declaration."
     },
     {
       "greek_nt": [
@@ -171,7 +167,9 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses perfect active σέσωκέν σε ('has saved/healed you'); Vulgate employs perfect active fecit with accusative + adjective (te salvum fecit, 'made you whole'); Peshitta uses simple perfect ܐܚܝܬܟ ('healed you'). All convey completed action but via different syntactic frames."
     },
     {
       "greek_nt": [
@@ -195,19 +193,24 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εὐθύς ('immediately') and Vulgate confestim ('at once') are close synonyms; Peshitta ܡܚܕܐ ('immediately') is cognate but the Syriac term can also mean 'suddenly', introducing slight semantic nuance."
     },
     {
       "greek_nt": [
         14
       ],
       "peshitta": [
-        7
+        7,
+        8
       ],
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀνέβλεψεν ('he looked up / received sight') is a single aorist verb; Vulgate vidit mirrors this with simple perfect; Peshitta uses ethpeal ܐܬܚܙܝ ܠܗ ('it was seen to him'), a passive/reflexive construction typical of Syriac for sensory verbs, with dative pronoun ܠܗ marking the experiencer."
     },
     {
       "greek_nt": [
@@ -219,42 +222,35 @@
       "vulgate": [
         14
       ],
-      "variant": "minor",
-      "note": "Conjunction placement varies: Greek καὶ before following verb; Peshitta ܘ prefixed to verb ܘܐܙܠ"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܠܗ (to him) as indirect object with 'saw'"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        16,
-        17
+        16
       ],
       "peshitta": [
         9,
         10
       ],
       "vulgate": [
-        15,
-        16
+        15
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܐܙܠ ܗܘܐ (was going) for Greek imperfect ἠκολούθει"
+      "type": "grammar",
+      "note": "Greek ἠκολούθει is imperfect ('was following'), suggesting durative action; Vulgate sequebatur is also imperfect; Peshitta ܘܐܙܠ ܗܘܐ ('and he was going') uses periphrastic perfect with ܗܘܐ, which can denote either completed or ongoing past action depending on context—here likely durative but morphologically distinct."
     },
     {
       "greek_nt": [
+        17,
         18
       ],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek includes redundant Ἰησοῦ after pronoun αὐτῷ; omitted in Peshitta and Vulgate"
+      "vulgate": [
+        16
+      ],
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek includes both the pronoun αὐτῷ ('him') and the explicit name Ἰησοῦ in dative, creating a double reference (possibly a scribal gloss or emphasis); Vulgate retains only the pronoun eum; Peshitta omits both, leaving the object of 'following' implicit—a common Syriac ellipsis when the antecedent is clear from context."
     },
     {
       "greek_nt": [
@@ -274,8 +270,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.807072+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.015219+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

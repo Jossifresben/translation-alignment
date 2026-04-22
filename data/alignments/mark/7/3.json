@@ -70,58 +70,30 @@
   "alignment": [
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
         0,
-        2
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned",
-      "note": "Conjunction 'and' linking Pharisees and Jews; Peshitta uses waw prefix"
-    },
-    {
-      "greek_nt": [
+        1,
+        2,
+        3,
         4,
         5,
         6
       ],
       "peshitta": [
         0,
-        2
+        1,
+        2,
+        3
       ],
       "vulgate": [
+        0,
+        1,
+        2,
         3,
         4
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek 'all the Jews', Peshitta 'all Jews', Vulgate 'all Jews'"
+      "type": "word-order",
+      "note": "Greek places Pharisees before 'all the Jews' (οἱ Φαρισαῖοι καὶ πάντες οἱ Ἰουδαῖοι), while Peshitta reverses the order (ܟܠܗܘܢ ܝܗܘܕܝܐ ܘܦܪܝܫܐ, 'all the Jews and Pharisees'). Vulgate follows Greek word order (Pharisæi enim, et omnes Judæi), though both Syriac and Latin traditions preserve the semantic equivalence of the Greek construction."
     },
     {
       "greek_nt": [
@@ -131,115 +103,84 @@
       "peshitta": [
         4,
         5,
+        6,
         7
       ],
       "vulgate": [
         5
       ],
       "variant": "minor",
-      "note": "Conditional negation: Greek 'ἐὰν μή', Peshitta 'ܐܢ ܗܘ...ܠܐ' (if...not), Vulgate 'nisi'"
+      "type": "expansion",
+      "note": "Peshitta expands the conditional construction with ܐܢ ܗܘ ܕܒܛܝܠܐܝܬ ('if it be that carelessly/idly'), adding an adverbial qualifier absent in both Greek ἐὰν μή and Latin nisi. This expansion clarifies the manner of non-washing, emphasizing negligence rather than mere omission."
     },
     {
       "greek_nt": [
         9
       ],
-      "peshitta": [
-        6
-      ],
+      "peshitta": [],
       "vulgate": [
         6
       ],
       "variant": "major",
-      "note": "Greek πυγμῇ 'with fist/carefully', Peshitta ܕܒܛܝܠܐܝܬ 'diligently/carefully', Vulgate 'crebro' (frequently) - different interpretations of ritual washing manner"
+      "type": "substitution",
+      "note": "Greek πυγμῇ ('with a fist', a hapax legomenon of uncertain meaning, possibly 'with the fist' or 'up to the wrist') is rendered by Vulgate crebro ('frequently/diligently'), reflecting a different interpretive tradition. Peshitta omits any equivalent, incorporating the sense into the preceding adverb ܕܒܛܝܠܐܝܬ, resulting in a substantive divergence in how the washing requirement is characterized."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܡܛܠ ܕܐܚܝܕܝܢ 'because holding' with causal particle, Greek/Vulgate use participle alone"
-    },
-    {
-      "greek_nt": [
+        15,
         16,
-        17
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19
       ],
       "peshitta": [
+        12,
+        13,
+        14,
         15
       ],
       "vulgate": [
-        13
+        11,
+        12,
+        13,
+        14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a participial construction (κρατοῦντες τὴν παράδοσιν, 'holding the tradition') to express causality, while Peshitta uses a prepositional phrase with ܡܛܠ ܕܐܚܝܕܝܢ ('because they hold'). Vulgate mirrors Greek syntax with the present participle tenentes, though all three traditions convey identical semantic content regarding adherence to ancestral tradition."
     },
     {
       "greek_nt": [],
@@ -247,14 +188,14 @@
       "vulgate": [
         14
       ],
-      "variant": "minor",
-      "note": "Vulgate colon punctuation mark, not present in Greek/Peshitta tokens"
+      "variant": "aligned",
+      "type": "punctuation"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.772716+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.987556+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -85,46 +85,21 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits John's speech introduction, beginning instead with Jesus' response"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the dative pronoun 'to him'"
-    },
-    {
-      "greek_nt": [
+        1,
+        2,
         3,
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits John as speaker"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
-      "peshitta": [],
+      "peshitta": [
+        0,
+        1,
+        2
+      ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek participle 'saying' has no equivalent in Peshitta or Vulgate"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Vulgate omits John's entire speech introduction, beginning instead with Jesus' response. Greek preserves the full narrative frame with Ἔφη δὲ αὐτῷ ὁ Ἰωάννης λέγων, and Peshitta similarly attests ܐܡܪ ܠܗ ܝܘܚܢܢ ('John said to him'). This represents a major textual divergence in the Vulgate tradition, which conflates or repositions the pericope."
     },
     {
       "greek_nt": [
@@ -134,66 +109,23 @@
         3
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the vocative 'Teacher/Rabbi'"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek διδάσκαλε and Peshitta ܪܒܝ (both 'Teacher/Rabbi') are absent from the Vulgate, which omits the vocative address entirely as part of its larger omission of John's speech."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'we saw' from John's report"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
+        4,
         5
       ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9,
-        10
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'est enim' (for there is)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        11
-      ],
-      "variant": "added",
-      "note": "Vulgate adds relative pronoun 'qui' (who)"
-    },
-    {
-      "greek_nt": [
-        13,
-        14
-      ],
-      "peshitta": [
-        6,
-        7
-      ],
-      "vulgate": [
-        12,
-        13
-      ],
+      "vulgate": [],
       "variant": "major",
-      "note": "Vulgate 'faciat virtutem' (does a miracle) vs Greek/Peshitta 'casting out demons' - semantic shift from specific exorcism to general miracle"
+      "type": "omission",
+      "note": "Greek εἴδομέν τινα ('we saw someone') and Peshitta ܚܙܝܢ ܐܢܫ are omitted in the Vulgate, which does not preserve John's report of the sighting but instead begins with Jesus' prohibition."
     },
     {
       "greek_nt": [
@@ -208,9 +140,29 @@
       "vulgate": [
         14,
         15,
-        16
+        16,
+        17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐν τῷ ὀνόματί σου ('in your name') with article and dative; Peshitta employs the bound form ܒܫܡܟ ('in-your-name') as a single morphological unit; Vulgate mirrors Greek structure with in nomine meo but shifts the possessive to first person (Jesus speaking rather than being addressed)."
+    },
+    {
+      "greek_nt": [
+        13,
+        14
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐκβάλλοντα δαιμόνια ('casting out demons') and Peshitta ܕܡܦܩ ܫܐܕܐ use cognate exorcism terminology; Vulgate substitutes faciat virtutem ('performs a miracle/mighty work'), a broader semantic category that generalizes the specific act of demon expulsion."
     },
     {
       "greek_nt": [
@@ -220,13 +172,15 @@
         18
       ],
       "peshitta": [
+        10,
         11,
         12,
         13
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the relative clause 'who does not follow us'"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek relative clause ὃς οὐκ ἀκολουθεῖ ἡμῖν ('who does not follow us') and Peshitta ܥܠ ܕܠܐ ܢܩܦ ܠܢ ('because he does not follow us') are absent from the Vulgate, which omits the disciples' complaint about the outsider's non-affiliation."
     },
     {
       "greek_nt": [
@@ -235,12 +189,17 @@
         21
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'and we forbade him'"
+      "vulgate": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek καὶ ἐκωλύομεν αὐτόν ('and we were forbidding him') and Peshitta ܘܟܠܝܢܝܗܝ ('and we forbade him') report the disciples' past action; Vulgate replaces this with Jesus' command Nolite prohibere eum ('Do not forbid him'), shifting from narrative report to direct prohibition and repositioning the verse as Jesus' response rather than John's complaint."
     },
     {
       "greek_nt": [
@@ -250,38 +209,15 @@
         25
       ],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the causal clause 'because he was not following us'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         0,
         1,
         2,
-        3
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'Jesus autem ait :' (But Jesus said) - introduces Jesus' response not present in this Greek/Peshitta verse"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'Nolite prohibere eum :' (Do not forbid him) - Jesus' command from following verse"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
+        8,
+        9,
+        10,
+        11,
         17,
         18,
         19,
@@ -291,14 +227,15 @@
         23,
         24
       ],
-      "variant": "added",
-      "note": "Vulgate adds 'et possit cito male loqui de me :' (and can quickly speak evil of me) - continuation of Jesus' response"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ὅτι οὐκ ἠκολούθει ἡμῖν ('because he was not following us') provides the causal clause for the disciples' prohibition; Vulgate omits this entirely and instead supplies Jesus' full response (Jesus autem ait... nemo est enim qui faciat virtutem in nomine meo, et possit cito male loqui de me), representing a wholesale textual rearrangement where the Vulgate verse corresponds to a different portion of the pericope than the Greek and Peshitta."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.790677+00:00",
-    "confidence": 0.4,
+    "generated_at": "2026-04-22T12:17:08.005774+00:00",
+    "confidence": 0.65,
     "schema_version": 1
   }
 }

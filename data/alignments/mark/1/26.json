@@ -53,18 +53,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2
       ],
@@ -72,11 +61,13 @@
         0
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܫܕܬܗ combines conjunction + verb + object pronoun in single token"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a participial construction (καὶ σπαράξαν αὐτόν, 'and having convulsed him') with explicit object pronoun; Syriac uses a finite verb with pronominal suffix (ܘܫܕܬܗ, 'and it threw him'); Vulgate mirrors Greek with gerundive discerpens eum. All three express the same action but with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -93,70 +84,44 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the subject τὸ πνεῦμα τὸ ἀκάθαρτον ('the unclean spirit') with double article after the participle; Syriac and Vulgate position the subject (ܪܘܚܐ ܛܢܦܬܐ / spiritus immundus) immediately after the initial verb, creating a more direct SVO structure. Greek's hyperbaton emphasizes the participial action before naming the agent."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܩܥܬ combines conjunction + verb in single token"
-    },
-    {
-      "greek_nt": [
+        7,
+        8,
         9,
         10
       ],
       "peshitta": [
+        3,
         4,
         5
       ],
       "vulgate": [
+        5,
+        6,
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a second aorist participle (φωνῆσαν φωνῇ μεγάλῃ, 'having cried with a loud voice') with cognate accusative construction; Syriac employs a finite verb (ܘܩܥܬ ܒܩܠܐ ܪܡܐ, 'and it cried with a loud voice'); Vulgate uses gerundive exclamans voce magna. The cognate-accusative idiom (φωνέω + φωνή) is preserved semantically in all three but realized through different grammatical structures."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܢܦܩܬ includes conjunction prefix"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
@@ -165,8 +130,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.730034+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:07.947538+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

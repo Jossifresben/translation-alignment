@@ -68,7 +68,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -80,8 +81,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܡܪ"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (iterative or durative past action), while Peshitta ܘܐܡܪ employs the simple perfect (completed action) and Vulgate dicebat uses imperfect, mirroring the Greek aspectual nuance. The Peshitta's choice reflects Syriac preference for perfective aspect in narrative discourse."
     },
     {
       "greek_nt": [
@@ -91,18 +93,12 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after eis to mark direct discourse explicitly, whereas Greek uses a raised dot (·) and Peshitta employs no punctuation. This reflects Latin scribal convention for introducing quoted speech."
     },
     {
       "greek_nt": [
@@ -115,7 +111,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article τὸ with σάββατον (definite nominative neuter), Vulgate uses bare Sabbatum (no article in Latin), and Peshitta prefixes the relative particle ܕ ('that/which') to ܫܒܬܐ, creating a nominal clause construction typical of Syriac syntax where Greek uses article + noun."
     },
     {
       "greek_nt": [
@@ -131,7 +129,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase διὰ τὸν ἄνθρωπον with article + accusative; Latin mirrors this with propter hominem (no article); Syriac employs ܡܛܠ ܒܪܢܫܐ without article, as Syriac lacks the Greek article system and determines definiteness contextually."
     },
     {
       "greek_nt": [
@@ -141,18 +141,12 @@
         5
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds comma punctuation as separate token"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb ἐγένετο sentence-finally (verb-final word order), Peshitta uses ܐܬܒܪܝܬ ('was created') in the same position, while Vulgate employs factum est with the participle preceding the auxiliary, reflecting Latin preference for participle + esse constructions in passive voice."
     },
     {
       "greek_nt": [
@@ -163,30 +157,23 @@
       ],
       "vulgate": [
         9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        10
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and negation in single token ܘܠܐ"
+      "type": "agreement"
     },
     {
-      "greek_nt": [],
-      "peshitta": [
-        7
+      "greek_nt": [
+        10
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds copula ܗܘܐ for emphasis or clarity"
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek οὐχ (proclitic form of οὐ before rough breathing) and Latin non are simple negators, while Peshitta ܘܠܐ combines the conjunction waw with the negator, creating 'and not' as a single orthographic unit—a standard Syriac idiom for contrastive negation."
     },
     {
       "greek_nt": [
@@ -194,12 +181,15 @@
         12
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun (ὁ ἄνθρωπος, nominative with article for subject), Latin uses bare homo (no article), and Peshitta inserts the copula ܗܘܐ ('was') before ܒܪܢܫܐ to create an explicit nominal sentence, a syntactic requirement in Syriac for negated nominal predication."
     },
     {
       "greek_nt": [
@@ -215,13 +205,15 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs διὰ τὸ σάββατον (preposition + article + accusative noun), Latin uses propter sabbatum (no article), and Peshitta uses ܡܛܠ ܫܒܬܐ (preposition + bare noun). The Vulgate's final period versus Greek's period reflects identical punctuation; all three traditions agree semantically despite article presence/absence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.739551+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.956473+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

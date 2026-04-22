@@ -82,7 +82,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -96,7 +97,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "The Peshitta inserts the emphatic particle ܐܦ ('even, also') before the pronoun ܠܗܘ ('him'), intensifying the statement. Greek uses the crasis κἀκεῖνον (καὶ + ἐκεῖνον), while Latin employs simple et illum; both lack the emphatic force of the Syriac particle."
     },
     {
       "greek_nt": [
@@ -108,7 +111,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -117,7 +121,8 @@
         7
       ],
       "variant": "added",
-      "note": "Vulgate punctuation colon, no semantic content"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after occiderunt, creating a stronger pause before the enumeration of many other servants. Neither the Greek nor the Peshitta tradition employs punctuation at this juncture, maintaining continuous narrative flow."
     },
     {
       "greek_nt": [
@@ -137,7 +142,8 @@
         10
       ],
       "variant": "major",
-      "note": "Peshitta restructures: 'and to many servants others he sent' vs. Greek/Vulgate 'and many others'"
+      "type": "word-order",
+      "note": "The Peshitta restructures the clause, placing the verb ܫܕܪ ('he sent') after the object ܥܒܕܐ ܐܚܪܢܐ ('other servants'), creating a chiastic pattern with the opening verb. Greek and Latin maintain standard SVO order (καὶ πολλοὺς ἄλλους / et plures alios), but the Syriac's verb-final construction emphasizes the repeated sending action."
     },
     {
       "greek_nt": [],
@@ -146,7 +152,8 @@
         11
       ],
       "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "type": "punctuation",
+      "note": "The Vulgate again inserts a colon before the μὲν...δὲ construction, segmenting the two participial clauses more sharply than the Greek or Peshitta, which employ no punctuation here."
     },
     {
       "greek_nt": [
@@ -163,7 +170,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Greek μὲν particle omitted in Peshitta/Vulgate; semantic equivalence maintained"
+      "type": "construction",
+      "note": "Greek uses the correlative construction οὓς μὲν δέροντες (relative pronoun + particle + participle). Latin renders this with quosdam cædentes (indefinite pronoun + participle), omitting the correlative particle. Peshitta employs ܘܡܢܗܘܢ ܡܚܘ ('and from them they beat'), using a partitive prepositional phrase rather than a relative clause—semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -181,13 +189,15 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek repeats the relative pronoun οὓς with the contrastive particle δὲ. Latin substitutes alios vero ('others truly'), using an adjective rather than a pronoun. Peshitta mirrors the Greek structure with ܡܢܗܘܢ ܕܝܢ ('from them however'), maintaining the partitive construction established in the first clause—a stylistic preference for parallelism."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.814581+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.021475+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

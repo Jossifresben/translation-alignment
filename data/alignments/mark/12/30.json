@@ -105,7 +105,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,8 +118,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction with verb"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses future indicative ἀγαπήσεις ('you will love'), while Peshitta employs an imperfect subjunctive ܕܬܪܚܡ ('that you may love') with the conjunction ܘ prefixed, creating a purpose clause construction. Vulgate diliges mirrors the Greek future tense, though both convey the same imperatival force from the Deuteronomic source (Deut 6:5)."
     },
     {
       "greek_nt": [
@@ -137,7 +139,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek uses article + accusative construction; Syriac and Latin more compact"
+      "type": "construction",
+      "note": "Greek employs double accusative with article (κύριον τὸν θεόν σου, 'the Lord, the God of you'), while Peshitta uses a simple construct chain ܠܡܪܝܐ ܐܠܗܟ ('to-the-Lord your-God') with pronominal suffix. Vulgate follows Greek word order but omits the second article, yielding Dominum Deum tuum. All three traditions semantically align with the Shema formula."
     },
     {
       "greek_nt": [
@@ -158,22 +161,13 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐξ ὅλης τῆς καρδίας σου with article and genitive construction; Peshitta employs ܡܢ ܟܠܗ ܠܒܟ ('from all-of-it your-heart') with enclitic pronoun ܗ on ܟܠ; Vulgate ex toto corde tuo uses ablative without article. The Syriac construction is more compact, integrating the totality marker directly into the quantifier."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13,
         14,
@@ -186,28 +180,19 @@
         8
       ],
       "vulgate": [
+        9,
         10,
         11,
         12,
         13
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction with preposition"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ ἐξ ὅλης τῆς ψυχῆς σου repeats the full prepositional structure; Peshitta ܘܡܢ ܟܠܗ ܢܦܫܟ continues the pattern with coordinating ܘ; Vulgate et ex tota anima tua mirrors Greek but adds comma punctuation. All three maintain parallel fourfold structure, though Syriac is syntactically more economical."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19,
         20,
@@ -220,28 +205,18 @@
         11
       ],
       "vulgate": [
+        14,
         15,
         16,
         17,
         18
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction with preposition"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        23,
         24,
         25,
         26,
@@ -254,64 +229,41 @@
         14
       ],
       "vulgate": [
+        19,
         20,
         21,
         22,
         23
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction with preposition"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ ἐξ ὅλης τῆς ἰσχύος σου maintains the article-genitive pattern; Peshitta ܘܡܢ ܟܠܗ ܚܝܠܟ continues its compact construct form; Vulgate et ex tota virtute tua adds final punctuation (period). The fourth element (strength/might) is unique to Mark's version of the Shema among the Synoptics, and all three traditions attest it faithfully."
     },
     {
       "greek_nt": [
-        29
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        24
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        25
-      ],
-      "variant": "added",
-      "note": "Vulgate adds copula 'est' for clarity"
-    },
-    {
-      "greek_nt": [
-        30
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        26
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        29,
+        30,
         31
       ],
       "peshitta": [
-        16
+        15,
+        16,
+        17
       ],
       "vulgate": [
+        24,
+        25,
+        26,
         27
       ],
-      "variant": "minor",
-      "note": "Word order variation: Greek/Vulgate place adjective before noun; Peshitta reverses"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses demonstrative pronoun αὕτη with predicate adjective πρώτη and noun ἐντολή ('this [is the] first commandment'), employing nominal sentence structure. Peshitta ܗܢܘ ܦܘܩܕܢܐ ܩܕܡܝܐ uses the independent pronoun ܗܢܘ ('this [is]') with attributive adjective following the noun. Vulgate Hoc est primum mandatum supplies the copula est explicitly, making the predication overt where Greek and Syriac leave it implicit. This reflects differing conventions for nominal predication across the three languages."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.819547+00:00",
+    "generated_at": "2026-04-22T12:17:08.025784+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

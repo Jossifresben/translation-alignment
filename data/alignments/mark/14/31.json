@@ -91,8 +91,7 @@
     },
     {
       "greek_nt": [
-        2,
-        4
+        2
       ],
       "peshitta": [
         2
@@ -101,128 +100,80 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek uses compound adverb ἐκπερισσῶς + μᾶλλον for emphasis; Peshitta and Vulgate use single intensifiers"
+      "type": "lexical",
+      "note": "Greek ἐκπερισσῶς ('overexceedingly') is intensified beyond Vulgate amplius ('more') and Peshitta ܝܬܝܪܐܝܬ ('exceedingly'), though all three convey emphatic speech. The Greek compound reflects Markan stylistic hyperbole."
     },
     {
       "greek_nt": [
-        3
+        3,
+        4
       ],
       "peshitta": [
         3,
         4
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "construction",
+      "note": "Greek uses imperfect ἐλάλει with adverb μᾶλλον ('he was saying more'); Peshitta employs periphrastic perfect ܐܡܪ ܗܘܐ ('he had been saying'); Vulgate uses simple imperfect loquebatur with colon punctuation. All express iterative past action but with different aspectual nuances."
     },
     {
       "greek_nt": [
-        5
+        5,
+        6,
+        7
       ],
       "peshitta": [
-        5
+        5,
+        6,
+        7
       ],
       "vulgate": [
         5,
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7
+        6,
+        7,
+        8
       ],
       "variant": "minor",
-      "note": "Greek δεῖ (impersonal necessity) vs Vulgate oportuerit (personal construction)"
+      "type": "word-order",
+      "note": "Greek conditional ἐὰν δέῃ με ('if it be necessary for me') places the pronoun after the verb; Vulgate si oportuerit me reverses to verb-final; Peshitta ܕܐܢ ܢܗܘܐ ܠܝ ('if it should be to me') uses prepositional dative construction. Semantically equivalent despite syntactic variation."
     },
     {
       "greek_nt": [
-        7
+        8,
+        9
       ],
       "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        8
+        8,
+        9
       ],
       "vulgate": [
         9,
-        10
-      ],
-      "variant": "minor",
-      "note": "Greek compound συναποθανεῖν vs Vulgate simul commori (adverb + verb)"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek compound verb συναποθανεῖν σοι ('to die together with you') uses simple dative; Vulgate expands to simul commori tibi with adverb simul + infinitive; Peshitta ܠܡܡܬ ܥܡܟ ('to die with you') uses prepositional phrase. The Vulgate's simul makes the 'togetherness' explicit where Greek encodes it in the prefix συν-."
     },
     {
       "greek_nt": [
         10,
-        11
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "minor",
-      "note": "Greek accusative σε vs Peshitta prepositional ܒܟ (with you) vs Vulgate accusative te"
-    },
-    {
-      "greek_nt": [
+        11,
+        12,
         13
       ],
       "peshitta": [
-        11
+        10,
+        11,
+        12
       ],
       "vulgate": [
+        12,
+        13,
         14
       ],
       "variant": "aligned"
@@ -234,7 +185,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds vocative ܡܪܝ (my Lord) not present in Greek or Vulgate"
+      "type": "gloss",
+      "note": "Peshitta adds vocative ܡܪܝ ('my Lord') as direct address, absent in both Greek and Vulgate. This represents Syriac liturgical or devotional expansion, making Peter's oath more explicitly reverential."
     },
     {
       "greek_nt": [
@@ -251,28 +203,21 @@
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ὡσαύτως δὲ καὶ ('likewise now also') uses three particles; Vulgate Similiter autem et mirrors this structure; Peshitta ܘܐܟܘܬܗ ܐܦ ('and likewise also') reduces to two connectives with coordinating waw. Functionally identical transitional phrases."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
+        16,
         17
       ],
       "vulgate": [
+        18,
         19
       ],
       "variant": "aligned"
@@ -280,8 +225,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.833402+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.039619+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -97,20 +97,21 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0
+        1
       ],
       "vulgate": [
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta combines 'began' into compound verb ܘܫܪܝ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,7 +123,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -136,19 +138,20 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐν παραβολαῖς ('in parables'); Syriac employs the singular ܒܡܬܠܐ ('in a parable'), a typical Semitic idiom treating the collective as singular; Latin mirrors the Greek plural construction in parabolis."
     },
     {
       "greek_nt": [
         5
       ],
-      "peshitta": [
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -156,34 +159,27 @@
       "vulgate": [
         6
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon as punctuation marker"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition from narrative frame to parable content, a punctuation convention absent in the Greek and Peshitta manuscripts which lack systematic punctuation."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         4,
-        5
+        5,
+        7
       ],
       "vulgate": [
+        7,
         9
       ],
-      "variant": "minor",
-      "note": "Peshitta uses 'one man' (ܓܒܪܐ ܚܕ) for indefinite article construction"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek places the object ἀμπελῶνα before the subject ἄνθρωπος; Peshitta inserts the indefinite ܚܕ ('one') and reorders to ܓܒܪܐ ܚܕ ܢܨܒ ܟܪܡܐ ('a man one planted a vineyard'), following Semitic VSO syntax; Vulgate inverts to Vineam pastinavit homo, placing the object first for rhetorical emphasis."
     },
     {
       "greek_nt": [
@@ -196,210 +192,104 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek φυτεύω vs Latin pastinavit (cultivate/prepare) vs Syriac ܢܨܒ (plant)"
+      "type": "lexical",
+      "note": "Greek φυτεύω ('plant') and Latin pastinare ('prepare ground, plant') denote agricultural planting; Syriac ܢܨܒ ('set, establish') is a broader term for founding or establishing, semantically overlapping but lexically distinct from the Greek-Latin cognate pair."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܐܚܕܪܗ combines conjunction and verb"
-    },
-    {
-      "greek_nt": [
+        9,
+        10,
         11
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        10,
+        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek περιέθηκεν φραγμόν ('placed around a fence') uses a compound verb with accusative object; Syriac ܘܐܚܕܪܗ ܣܝܓܐ ('and surrounded it with a hedge') employs a simple verb with pronominal suffix; Latin circumdedit sepem mirrors the Greek construction with compound verb and direct object."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds prepositional phrase ܒܗ 'in it' for clarity"
-    },
-    {
-      "greek_nt": [
+        12,
+        13,
         14
       ],
       "peshitta": [
+        10,
+        11,
         12
       ],
       "vulgate": [
+        13,
+        14,
         15
       ],
       "variant": "minor",
-      "note": "Greek ὑπολήνιον (wine vat) vs Latin lacum (pit/vat) - semantic overlap"
+      "type": "construction",
+      "note": "Greek ὤρυξεν ὑπολήνιον ('dug a wine vat') lacks explicit locative; Peshitta inserts ܒܗ ('in it') as a locative prepositional phrase ܘܚܦܪ ܒܗ ܡܥܨܪܬܐ ('and dug in it a winepress'), making the spatial relationship explicit; Latin fodit lacum ('dug a trough/vat') follows Greek syntax without the locative."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds second prepositional phrase ܒܗ 'in it'"
-    },
-    {
-      "greek_nt": [
+        15,
+        16,
         17
       ],
       "peshitta": [
+        13,
+        14,
         15
       ],
       "vulgate": [
+        16,
+        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ᾠκοδόμησεν πύργον ('built a tower') uses simple verb-object construction; Peshitta again inserts locative ܒܗ yielding ܘܒܢܐ ܒܗ ܡܓܕܠܐ ('and built in it a tower'), maintaining parallel structure with the previous clause; Latin ædificavit turrim follows Greek without the locative marker."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
+        18,
+        19,
+        20,
         21
+      ],
+      "peshitta": [
+        16,
+        17
+      ],
+      "vulgate": [
+        19,
+        20,
+        21,
+        22
       ],
       "variant": "aligned",
-      "note": "Object pronoun incorporated into Peshitta verb ܘܐܘܚܕܗ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        22
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        22
-      ],
-      "peshitta": [
-        18
-      ],
-      "vulgate": [
-        23
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        22,
         23
       ],
       "peshitta": [
         18
       ],
       "vulgate": [
+        23,
         24,
         25
       ],
-      "variant": "minor",
-      "note": "Vulgate uses periphrastic 'peregre profectus est' vs Greek simple verb ἀποδημέω"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἀπεδήμησεν ('went abroad, traveled away') is a single compound verb; Syriac ܘܚܙܩ ('and departed, went away') uses a simpler lexeme without the foreign-travel nuance; Latin expands to the periphrastic peregre profectus est ('set out on a journey abroad'), making the foreign-travel sense explicit through the adverb peregre."
     },
     {
       "greek_nt": [],
@@ -407,14 +297,15 @@
       "vulgate": [
         26
       ],
-      "variant": "added",
-      "note": "Vulgate adds period as sentence terminator"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate concludes the verse with a period, a punctuation convention marking sentence termination absent in Greek and Peshitta manuscript traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.813808+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:31:37.376077+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

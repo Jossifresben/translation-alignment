@@ -67,7 +67,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -80,7 +81,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܡܪ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,36 +91,20 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'illis' to mark direct discourse, while Greek uses a raised dot (·) and Peshitta has no punctuation marker. This reflects Latin scribal convention for introducing quoted speech rather than a textual variant."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        2,
         3,
         4
       ],
@@ -127,30 +112,24 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta explicitly includes pronoun ܐܢܬܘܢ (you) as separate token; Greek has it in verb ending; Vulgate in verb ending"
+      "type": "gloss",
+      "note": "The Peshitta explicitly supplies the subject pronoun ܐܢܬܘܢ ('you') after the verb ܝܕܥܝܢ, making grammatically explicit what is implicit in the Greek verb ending οἴδατε and Latin Nescitis. This represents typical Syriac preference for overt pronominal subjects in interrogative constructions."
     },
     {
       "greek_nt": [
-        5
+        5,
+        6
       ],
       "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
         5
       ],
-      "vulgate": [],
       "variant": "minor",
-      "note": "Greek article τὴν and Peshitta object marker ܠܗ have no Vulgate equivalent"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
+      "type": "construction",
+      "note": "Greek employs the article τὴν with accusative παραβολὴν; Peshitta uses the proclitic object marker ܠܗ + ܠܡܬܠܐ (double-l construction typical of Syriac definiteness marking); Latin omits the article entirely, as Classical Latin lacks a definite article system. All three convey definite reference to 'this parable.'"
     },
     {
       "greek_nt": [
@@ -160,18 +139,12 @@
         7
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        6,
         7
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate places an interrogative mark after 'hanc' to close the first question, while Greek uses a semicolon (;) and Peshitta lacks punctuation. This reflects differing scribal conventions for marking rhetorical questions in each tradition."
     },
     {
       "greek_nt": [
@@ -183,7 +156,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -196,12 +170,11 @@
         9
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and interrogative in ܘܐܝܟܢܐ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        10,
-        11
+        10
       ],
       "peshitta": [
         9
@@ -210,10 +183,12 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek uses article τὰς with πάσας; Peshitta and Vulgate have single tokens without article"
+      "type": "word-order",
+      "note": "Greek places πάσας before the article-noun phrase τὰς παραβολὰς (attributive position); Peshitta ܟܠܗܘܢ precedes ܡܬܠܐ in construct state; Latin 'omnes parabolas' follows standard Latin adjective-noun order. All three express 'all the parables' with identical semantics but tradition-specific syntax."
     },
     {
       "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
@@ -222,7 +197,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the article τὰς with plural παραβολὰς (definite); Peshitta employs the singular emphatic state ܡܬܠܐ with plural quantifier ܟܠܗܘܢ (collective singular idiom); Latin uses plural 'parabolas' without article. The Syriac singular-for-plural construction is a standard Semitic idiom for generic or collective reference."
     },
     {
       "greek_nt": [
@@ -232,24 +209,18 @@
         11
       ],
       "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        12,
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds final question mark punctuation as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate closes with an interrogative mark after 'cognoscetis,' while Greek uses a semicolon and Peshitta has no punctuation. All three traditions attest the future indicative verb (γνώσεσθε / ܬܕܥܘܢ / cognoscetis) in a rhetorical question, with punctuation differences reflecting scribal convention rather than textual variation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.747296+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:07.965032+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

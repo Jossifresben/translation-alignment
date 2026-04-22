@@ -92,7 +92,8 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -104,7 +105,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -120,21 +122,12 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta specifies 'in his face' (ܒܦܪܨܘܦܗ) while Greek has dative 'upon him'; Vulgate follows Greek construction"
+      "type": "word-order",
+      "note": "Greek ἐμπτύειν αὐτῷ uses dative of indirect object ('to spit upon him'), while Peshitta ܪܩܝܢ ܒܦܪܨܘܦܗ employs prepositional phrase 'in his face', making the target explicit. Vulgate conspuere eum follows Greek syntax with accusative object."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "omitted",
-      "note": "Peshitta uses participial construction without explicit conjunction"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7,
         8,
@@ -145,26 +138,18 @@
         5
       ],
       "vulgate": [
+        5,
         6,
         7,
         8
       ],
       "variant": "minor",
-      "note": "Greek 'cover his face' vs Peshitta 'cover his eyes' (ܐܦܘܗܝ); Vulgate 'velare faciem ejus' follows Greek"
+      "type": "construction",
+      "note": "Greek περικαλύπτειν αὐτοῦ τὸ πρόσωπον uses genitive construction with article ('to cover his face'), Vulgate velare faciem ejus mirrors this with possessive genitive, while Peshitta ܘܡܚܦܝܢ ܐܦܘܗܝ employs direct object with pronominal suffix—syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "omitted",
-      "note": "Peshitta continues participial chain without conjunction"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
@@ -173,26 +158,17 @@
         7
       ],
       "vulgate": [
+        9,
         10,
         11,
         12
       ],
-      "variant": "minor",
-      "note": "Greek κολαφίζω 'strike with fist', Peshitta ܡܩܦܚܝܢ 'buffet', Vulgate 'colaphis cædere' instrumental construction"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [],
-      "vulgate": [
-        13
-      ],
-      "variant": "omitted",
-      "note": "Peshitta continues participial construction"
-    },
-    {
-      "greek_nt": [
+        13,
         14,
         15
       ],
@@ -200,11 +176,13 @@
         8
       ],
       "vulgate": [
+        13,
         14,
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -217,31 +195,20 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         17,
         18,
-        19
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
         19,
-        20
-      ],
-      "variant": "minor",
-      "note": "Greek 'the officers', Peshitta 'guards' (ܕܚܫܐ), Vulgate 'ministri'; synonymous terms for temple/court servants"
-    },
-    {
-      "greek_nt": [
         20,
         21,
         22
       ],
       "peshitta": [
+        10,
         11,
         12,
         13,
@@ -249,18 +216,21 @@
         15
       ],
       "vulgate": [
+        19,
+        20,
         21,
         22,
         23
       ],
       "variant": "major",
-      "note": "Greek ῥαπίσμασιν ἔλαβον 'received with slaps'; Peshitta ܡܚܝܢ ܗܘܘ ܠܗ ܥܠ ܦܟܘܗܝ 'were striking him on his cheeks' (periphrastic imperfect, specifies location); Vulgate 'alapis cædebant' imperfect 'were striking with slaps'. Peshitta adds anatomical detail and uses different verbal construction"
+      "type": "substitution",
+      "note": "Greek οἱ ὑπηρέται ῥαπίσμασιν αὐτὸν ἔλαβον ('the officers received him with blows') uses λαμβάνω with instrumental dative, a Semitic idiom. Peshitta ܘܕܚܫܐ ܡܚܝܢ ܗܘܘ ܠܗ ܥܠ ܦܟܘܗܝ ('and the guards were striking him upon his cheeks') employs periphrastic construction with anatomical specification. Vulgate ministri alapis eum cædebant ('servants were beating him with slaps') uses imperfect tense and ablative of means, clarifying the Greek idiom into standard Latin syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.839931+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.045073+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

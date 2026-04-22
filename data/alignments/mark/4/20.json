@@ -90,7 +90,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -106,51 +107,35 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܗܠܝܢ ܐܢܘܢ (these are) vs Greek ἐκεῖνοί εἰσιν (those are); demonstrative choice differs"
+      "type": "word-order",
+      "note": "The Peshitta postpones the demonstrative pronoun and copula (ܗܠܝܢ ܐܢܘܢ) until after the participial clause, whereas Greek and Latin place ἐκεῖνοί εἰσιν / hi sunt at the head of the sentence. This reflects typical Syriac preference for topic-comment structure with delayed copula."
     },
     {
       "greek_nt": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "peshitta": [
+        1,
+        2,
         3
       ],
-      "peshitta": [],
       "vulgate": [
-        3
-      ],
-      "variant": "omitted",
-      "note": "Greek article οἱ and Vulgate relative qui have no Peshitta equivalent; Syriac uses direct construction"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5,
         6,
         7,
         8
       ],
-      "peshitta": [
-        1,
-        2
-      ],
-      "vulgate": [
-        4,
-        5,
-        6
-      ],
       "variant": "minor",
-      "note": "Word order: Greek ἐπὶ τὴν γῆν τὴν καλὴν vs Peshitta ܕܒܐܪܥܐ ܛܒܬܐ (in-good-soil); preposition differs (ἐπί vs ܒ)"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        7,
-        8
-      ],
-      "variant": "aligned"
+      "type": "construction",
+      "note": "Greek employs an articular substantival participle construction (οἱ ἐπὶ τὴν γῆν τὴν καλὴν σπαρέντες) with double article for emphasis on 'good soil.' Latin mirrors this with a relative clause (qui super terram bonam seminati sunt). Syriac uses a prepositional phrase with passive participle (ܕܒܐܪܥܐ ܛܒܬܐ ܐܙܕܪܥܘ) without articles, reflecting its anarthrous grammar—semantically equivalent but syntactically streamlined."
     },
     {
       "greek_nt": [
@@ -161,7 +146,8 @@
         9
       ],
       "variant": "omitted",
-      "note": "Greek οἵτινες and Vulgate qui (relative pronouns) omitted in Peshitta; uses participial construction"
+      "type": "omission",
+      "note": "Greek οἵτινες (qualitative relative pronoun 'such as') and Latin qui (simple relative) introduce the relative clause explicitly. The Peshitta omits any relative marker, employing instead a direct participial construction (ܕܫܡܥܝܢ 'who hear') with the relative particle ܕ prefixed to the verb—a common Syriac strategy that collapses the relative pronoun into the verbal prefix."
     },
     {
       "greek_nt": [
@@ -177,47 +163,28 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "minor",
-      "note": "Greek παραδέχονται vs Vulgate suscipiunt vs Peshitta ܡܩܒܠܝܢ; synonymous verbs for 'receive/accept'"
+      "type": "lexical",
+      "note": "Greek παραδέχονται (G3858, 'receive, accept') and Latin suscipiunt both denote receptive acceptance. Syriac ܡܩܒܠܝܢ (from ܩܒܠ) is the standard cognate for 'receive,' semantically aligned but reflecting the Semitic root QBL versus the Greek compound παρα-δέχομαι."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17
       ],
       "peshitta": [
@@ -225,84 +192,47 @@
         10
       ],
       "vulgate": [
+        14,
         15
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܘܝܗܒܝܢ ܦܐܪܐ (and-give fruit) vs Greek compound καρποφοροῦσιν; analytical vs synthetic expression"
+      "type": "lexical",
+      "note": "Greek καρποφοροῦσιν (compound verb 'bear fruit') and Latin fructificant (denominative from fructus) are single-word expressions. Syriac employs a periphrastic construction ܘܝܗܒܝܢ ܦܐܪܐ ('and they give fruit'), using the verb YHB 'give' + noun—a typical Semitic idiom for fruit-bearing, semantically equivalent but analytically structured."
     },
     {
       "greek_nt": [
         18,
-        19
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        16,
-        17
-      ],
-      "variant": "minor",
-      "note": "Greek ἓν τριάκοντα (one thirty) vs Peshitta ܒܬܠܬܝܢ (in-thirty) vs Vulgate unum triginta; preposition differs"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits conjunction before 'sixty'"
-    },
-    {
-      "greek_nt": [
+        19,
+        20,
         21,
-        22
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        18,
-        19
-      ],
-      "variant": "minor",
-      "note": "Greek ἓν ἑξήκοντα vs Peshitta ܘܒܫܬܝܢ (and-in-sixty); preposition and numeral construction"
-    },
-    {
-      "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        22,
+        23,
         24,
         25
       ],
       "peshitta": [
+        11,
+        12,
         13
       ],
       "vulgate": [
+        16,
+        17,
+        18,
+        19,
+        20,
         21,
         22
       ],
       "variant": "minor",
-      "note": "Greek ἓν ἑκατόν vs Peshitta ܘܒܡܐܐ (and-in-hundred); preposition and numeral construction"
+      "type": "construction",
+      "note": "Greek repeats ἓν ('one') before each yield figure (τριάκοντα, ἑξήκοντα, ἑκατόν) with coordinating καί, as does Latin (unum triginta, unum sexaginta, et unum centum). Syriac omits the distributive 'one' entirely, using only the preposition ܒ ('in/by') prefixed to each numeral (ܒܬܠܬܝܢ ܘܒܫܬܝܢ ܘܒܡܐܐ), a more compact idiomatic expression of proportional yield without loss of meaning."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.748539+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.966271+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

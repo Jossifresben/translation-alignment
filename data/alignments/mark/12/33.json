@@ -113,14 +113,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܕܢܪܚܡܝܘܗܝ includes conjunction + infinitive + pronoun as single token; Vulgate uses 'Et ut' construction"
+      "type": "substitution",
+      "note": "Greek καὶ ('and') is rendered as Vulgate Et ('and'), while Peshitta incorporates the conjunction into the verbal form ܘܕܢܪܚܡܝܘܗܝ. This reflects typical Syriac morphological economy where conjunctions prefix to verbs."
     },
     {
       "greek_nt": [
@@ -129,23 +128,16 @@
         3
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
         1,
         2
       ],
-      "variant": "minor",
-      "note": "Greek articular infinitive τὸ ἀγαπᾶν αὐτὸν; Vulgate passive subjunctive 'ut diligatur'; Peshitta active infinitive with suffix pronoun"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܐܢܫ 'a person/one' as explicit subject, absent in Greek and Vulgate"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses articular infinitive construction (τὸ ἀγαπᾶν αὐτὸν, 'the loving him'); Vulgate employs ut + passive subjunctive (ut diligatur, 'that he be loved'); Peshitta uses ܘܕܢܪܚܡܝܘܗܝ ܐܢܫ ('and that one love him'), inserting an indefinite subject ܐܢܫ ('someone/one') absent in Greek and Latin. The Syriac construction makes the implicit agent explicit."
     },
     {
       "greek_nt": [
@@ -164,7 +156,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἐξ ὅλης τῆς καρδίας uses preposition + adjective + article + noun; Syriac ܡܢ ܟܠܗ ܠܒܐ employs preposition + adjective-with-suffix + noun (no article, as Syriac lacks definite articles); Vulgate ex toto corde mirrors Greek structure but with ablative case. The semantic content is identical despite morphosyntactic differences."
     },
     {
       "greek_nt": [
@@ -242,7 +236,9 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek repeats the articular infinitive construction (καὶ τὸ ἀγαπᾶν); Vulgate uses simple infinitive (et diligere); Peshitta employs prefixed conjunction + imperfect verb ܘܕܢܪܚܡ ('and that he love'), maintaining parallelism with the first clause but without repeating the indefinite subject."
     },
     {
       "greek_nt": [
@@ -255,7 +251,9 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek τὸν πλησίον uses article + adverbial accusative ('the neighbour'); Vulgate proximum is simple accusative; Peshitta ܩܪܝܒܗ ('his neighbour') adds a third-person possessive suffix, making the relationship more explicit."
     },
     {
       "greek_nt": [
@@ -270,7 +268,9 @@
         21,
         22
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὡς ἑαυτόν ('as himself') uses reflexive pronoun; Vulgate tamquam seipsum employs intensive reflexive; Peshitta ܐܝܟ ܢܦܫܗ ('like his soul/self') uses ܢܦܫܐ with possessive suffix, a common Semitic idiom for reflexive meaning. All three express identical semantics through language-specific reflexive strategies."
     },
     {
       "greek_nt": [
@@ -294,7 +294,9 @@
       "vulgate": [
         24
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἐστιν follows the comparative adjective; Vulgate est follows majus in standard Latin word order; Peshitta ܗܝ ('it is') appears after the adjective ܝܬܝܪܐ, with feminine gender agreeing with an implied feminine subject (the act of loving). All three place the copula post-adjectivally but with different gender agreements."
     },
     {
       "greek_nt": [
@@ -311,7 +313,9 @@
         25,
         26
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek πάντων τῶν ὁλοκαυτωμάτων uses genitive of comparison with double article (πάντων + τῶν); Vulgate omnibus holocautomatibus employs ablative of comparison without article; Peshitta ܡܢ ܟܠܗܘܢ ܝܩܕܐ uses preposition ܡܢ + adjective + noun, the standard Semitic comparative construction. All express 'more than all burnt offerings' through language-specific comparative syntax."
     },
     {
       "greek_nt": [
@@ -326,13 +330,15 @@
         27,
         28
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ τῶν θυσιῶν repeats the article and uses genitive plural; Vulgate et sacrificiis continues the ablative construction; Peshitta ܘܕܒܚܐ uses simple conjunction + singular noun, a typical Syriac collective singular for plural meaning. The semantic range is identical despite number variation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.820095+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.026334+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

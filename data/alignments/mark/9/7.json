@@ -63,134 +63,6 @@
   },
   "alignment": [
     {
-      "greek_nt": [
-        0,
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Vulgate omits the entire cloud/voice scene; represents a different verse (Mark 9:8 vs 9:7)"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Cloud not present in Vulgate text"
-    },
-    {
-      "greek_nt": [
-        3,
-        4
-      ],
-      "peshitta": [
-        2,
-        3,
-        4
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Overshadowing them not in Vulgate"
-    },
-    {
-      "greek_nt": [
-        5,
-        6
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek conjunction and verb omitted in Peshitta's more compact construction"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Voice not in Vulgate text"
-    },
-    {
-      "greek_nt": [
-        8,
-        9,
-        10
-      ],
-      "peshitta": [
-        6,
-        7
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12,
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Peshitta uses demonstrative pronoun without explicit copula"
-    },
-    {
-      "greek_nt": [
-        14,
-        15,
-        16
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        17,
-        18
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        19,
-        20
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
@@ -206,13 +78,160 @@
         9
       ],
       "variant": "major",
-      "note": "Vulgate represents entirely different content: disciples looking around and seeing only Jesus (Mark 9:8), not the Transfiguration voice (9:7)"
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different verse (Mark 9:8: 'And immediately looking around, they saw no one anymore except Jesus alone with them'), whereas the Greek and Peshitta attest Mark 9:7 (the divine voice from the cloud). This represents a critical textual displacement or versification error in the supplied Vulgate witness."
+    },
+    {
+      "greek_nt": [
+        0,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        2,
+        3,
+        4
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a present participle with dative object (ἐπισκιάζουσα αὐτοῖς, 'overshadowing them'); Peshitta employs a finite verb construction with prepositional phrase (ܘܡܛܠܐ ܗܘܬ ܥܠܝܗܘܢ, 'and it was overshadowing upon them'), semantically equivalent but syntactically distinct."
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek repeats the conjunction and verb (καὶ ἐγένετο, 'and there was') to introduce the voice; Peshitta omits this repetition, proceeding directly from the cloud to the voice with a simple conjunction (ܘܩܠܐ, 'and a voice'), reflecting typical Semitic paratactic economy."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses a feminine participle agreeing with φωνή (λέγουσα, 'saying'); Peshitta uses a masculine relative particle (ܕܐܡܪ, 'that said'), reflecting the masculine gender of ܩܠܐ in Syriac, a routine grammatical concordance difference."
+    },
+    {
+      "greek_nt": [
+        12,
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a two-word copular construction (οὗτός ἐστιν, 'this is'); Peshitta uses the demonstrative pronoun alone (ܗܢܘ, 'this [is]'), with the copula implicit, a standard Semitic nominal sentence pattern."
+    },
+    {
+      "greek_nt": [
+        14,
+        15,
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        17,
+        18
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta adds the prepositional phrase ܠܗ ('to him' / 'his'), functioning as an ethical dative or possessive intensifier modifying 'beloved', absent in the Greek witness but reflecting Semitic stylistic preference for pronominal reinforcement."
+    },
+    {
+      "greek_nt": [
+        19,
+        20
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.786307+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T12:17:08.000968+00:00",
+    "confidence": 0.72,
     "schema_version": 1
   }
 }

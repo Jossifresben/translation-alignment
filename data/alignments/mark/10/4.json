@@ -59,7 +59,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs article + postpositive conjunction (οἱ δέ); Peshitta mirrors this with pronoun + postpositive particle (ܗܢܘܢ ܕܝܢ); Vulgate uses only the relative pronoun Qui, omitting an explicit adversative particle—stylistically equivalent but syntactically streamlined."
     },
     {
       "greek_nt": [
@@ -72,88 +74,58 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate separates the verb dixerunt from the following quotation with a colon, making the punctuation mark a discrete token; Greek and Peshitta integrate punctuation into the verb token itself (εἶπαν· / ܐܡܪܝܢ)."
     },
     {
       "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        3,
+        4,
         5
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds dative pronoun 'to us' (ܠܢ), making explicit the indirect object"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
       "vulgate": [
-        7
+        3,
+        4
       ],
-      "variant": "minor",
-      "note": "Word order variation: Greek places infinitive after noun phrase, Peshitta before"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Peshitta inserts the dative pronoun ܠܢ ('to us') after the verb ܐܦܣ ('permitted'), making explicit the indirect object implied in Greek ἐπέτρεψεν and Latin permisit. This expansion clarifies the recipients of Moses' permission, a typical Syriac explicitation strategy."
     },
     {
       "greek_nt": [
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
+        6,
         7,
         8
       ],
       "vulgate": [
         5,
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
-        8
+        6,
+        7
       ],
       "variant": "minor",
-      "note": "Peshitta uses waw-consecutive (ܘܢܫܪܐ) without separate conjunction"
+      "type": "word-order",
+      "note": "Greek places the infinitive γράψαι after the noun phrase βιβλίον ἀποστασίου ('to write a certificate of divorce'); Peshitta reverses this to ܕܢܟܬܘܒ ܟܬܒܐ ܕܫܘܒܩܢܐ ('that he write a document of release'), fronting the infinitive in a subordinate clause construction. Vulgate follows Greek word order (libellum repudii scribere) but uses a gerund rather than infinitive."
     },
     {
       "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
+        8,
         9
       ],
       "variant": "aligned"
@@ -161,8 +133,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.793174+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.008064+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -80,8 +80,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "περιβλεψάμενος and circumspiciens both express 'looking around'; Peshitta ܘܚܪ combines conjunction and verb"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -105,7 +104,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Greek uses double spatial emphasis (περὶ αὐτὸν κύκλῳ); Vulgate in circuitu ejus; Peshitta more compact with relative clause construction"
+      "type": "construction",
+      "note": "Greek employs a double participial construction (περιβλεψάμενος + καθημένους) with prepositional phrase περὶ αὐτὸν κύκλῳ ('around him in a circle'); Vulgate mirrors this with circumspiciens + sedebant + in circuitu ejus; Peshitta simplifies to a relative clause construction ܒܐܝܠܝܢ ܕܝܬܒܝܢ ܠܘܬܗ ('in those who were sitting near him'), omitting the redundant circular imagery while preserving the core sense."
     },
     {
       "greek_nt": [
@@ -118,8 +118,9 @@
         8,
         9
       ],
-      "variant": "aligned",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ait to mark direct discourse, a Latin scribal convention absent in Greek and Syriac manuscripts which use no punctuation or rely on contextual markers."
     },
     {
       "greek_nt": [
@@ -146,7 +147,9 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article ἡ with μήτηρ μου ('the mother of mine'), a Semitic-influenced construction; Vulgate omits the article (mater mea) following classical Latin norms; Peshitta ܐܡܝ ('my mother') uses a pronominal suffix, the standard Syriac possessive construction, semantically equivalent but morphologically distinct."
     },
     {
       "greek_nt": [
@@ -159,7 +162,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Peshitta repeats demonstrative ܘܗܐ (and behold) for parallelism; Greek and Vulgate use simple conjunction"
+      "type": "idiom",
+      "note": "Peshitta repeats the presentative particle ܘܗܐ ('and behold') before 'my brothers,' creating a parallel bicolon structure typical of Syriac rhetorical style; Greek and Latin use simple conjunction καὶ / et without repetition of the deictic marker."
     },
     {
       "greek_nt": [
@@ -174,12 +178,14 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article οἱ with ἀδελφοί μου ('the brothers of mine'); Vulgate omits the article (fratres mei) per Latin usage; Peshitta ܐܚܝ ('my brothers') uses pronominal suffix, mirroring the construction in the previous clause for stylistic parallelism."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.745027+00:00",
+    "generated_at": "2026-04-22T12:17:07.962693+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

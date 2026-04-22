@@ -47,21 +47,20 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "note": "Coordinating conjunction; Peshitta ܘܡܚܕܐ combines 'and' + 'immediately'"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Peshitta ܘܡܚܕܐ conflates the conjunction ܘ ('and') with the temporal adverb ܡܚܕܐ ('immediately'), creating a single compound token where Greek and Latin use two separate words (Καὶ εὐθὺς / Et statim)."
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         1
       ],
       "variant": "aligned",
-      "note": "Temporal adverb 'immediately'; Peshitta ܘܡܚܕܐ is compound form"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -74,33 +73,25 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article before πνεῦμα (τὸ πνεῦμα), maintaining standard Greek article-noun order; Peshitta ܪܘܚܐ and Vulgate Spiritus lack the article, as Syriac uses the emphatic state and Latin has no article system, but both traditions position the subject before the verb whereas Greek places it after the temporal adverb."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned",
-      "note": "Object pronoun; Peshitta suffix -ܗ on verb ܐܦܩܬܗ"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        3
+        3,
+        4
       ],
-      "variant": "aligned",
-      "note": "Main verb 'drives out/expels'; Peshitta ܐܦܩܬܗ includes pronominal suffix"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek maintains verb-final order with object preceding (αὐτὸν ἐκβάλλει); Peshitta ܐܦܩܬܗ incorporates the pronominal suffix directly onto the verb (Aphel perfect 3fs with 3ms object suffix), creating a single-token verb-object unit; Vulgate follows Greek word order (expulit eum) but with verb preceding object, reflecting Latin's freer word order conventions."
     },
     {
       "greek_nt": [
@@ -115,14 +106,15 @@
         5,
         6
       ],
-      "variant": "aligned",
-      "note": "Prepositional phrase 'into the wilderness'; Peshitta ܠܡܕܒܪܐ uses ܠ prefix"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase with article (εἰς τὴν ἔρημον); Vulgate mirrors this structure (in desertum) without article; Peshitta employs the preposition ܠ prefixed directly to the emphatic-state noun ܡܕܒܪܐ, a typical Syriac construction that conflates preposition and definiteness marking into a single orthographic unit."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.727990+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:07.944680+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -75,24 +75,35 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Vulgate uses 'Et cum' (temporal conjunction 'and when') where Greek and Peshitta employ simple coordinating conjunction καὶ / ܘ ('and'). The Latin construction introduces a temporal-causal nuance not explicit in the source traditions."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs aorist participle προελθών (nominative singular masculine); Vulgate uses pluperfect subjunctive processisset within the cum-clause; Peshitta integrates the verb into the initial conjunction ܘܩܪܒ. All convey 'having gone forward' but with differing aspectual profiles."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
-        2,
         3
       ],
-      "variant": "minor",
-      "note": "Greek προελθὼν μικρόν, Peshitta ܩܪܒ ܩܠܝܠ (approached a little), Vulgate cum processisset paululum; all express 'went forward a little' with slight stylistic variation"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -112,7 +123,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek ἔπιπτεν ἐπὶ τῆς γῆς (imperfect), Peshitta ܘܢܦܠ ܥܠ ܐܪܥܐ (perfect), Vulgate procidit super terram (perfect); aspectual difference but same meaning"
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔπιπτεν ('was falling'), suggesting iterative or durative action; Peshitta and Vulgate employ perfective forms (ܘܢܦܠ, procidit), presenting the action as completed. Greek also includes the article τῆς before γῆς, absent in Syriac and Latin, a typical Greek definiteness marker."
     },
     {
       "greek_nt": [
@@ -138,58 +150,42 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܡܨܠܐ ܗܘܐ (was praying) matching Greek imperfect προσηύχετο; Vulgate uses simple imperfect orabat"
+      "type": "construction",
+      "note": "Greek uses imperfect προσηύχετο ('was praying'); Peshitta employs periphrastic construction ܡܨܠܐ ܗܘܐ (participle + auxiliary 'was praying'); Vulgate uses simple imperfect orabat. All express continuous past action, but Syriac employs a two-word analytic structure where Greek and Latin use synthetic forms."
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9,
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        9,
+        10,
         11,
         12
       ],
-      "variant": "minor",
-      "note": "Greek εἰ δυνατόν ἐστιν, Peshitta ܡܫܟܚܐ (possible/able), Vulgate si fieri posset; word order and construction vary but semantically equivalent"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek employs ἵνα + conditional clause εἰ δυνατόν ἐστιν ('that if it is possible'); Vulgate mirrors this with ut + si fieri posset ('that if it could be done'); Peshitta uses simple conditional ܕܐܢ ܡܫܟܚܐ ('if possible') without the purpose conjunction, creating a more direct conditional structure. The Vulgate's fieri posset employs passive infinitive + imperfect subjunctive where Greek uses adjective + present indicative."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14,
         15
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        13,
         14,
         15
       ],
@@ -206,13 +202,15 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek includes article ἡ before ὥρα (nominative); Vulgate omits the article (hora, nominative); Peshitta uses emphatic state ܫܥܬܐ, functionally equivalent to the Greek article. All three traditions agree on nominative case for the subject of the verb 'pass.'"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.835115+00:00",
-    "confidence": 0.88,
+    "generated_at": "2026-04-22T12:17:08.040303+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

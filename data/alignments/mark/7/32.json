@@ -65,7 +65,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -78,7 +79,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܝܬܝܘ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,45 +91,39 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         3
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
         3
       ],
       "variant": "minor",
-      "note": "Peshitta adds ܚܕ 'one' as indefinite article"
+      "type": "word-order",
+      "note": "Greek κωφὸν (deaf) precedes μογιλάλον (speech-impaired), while Vulgate surdum precedes mutum, maintaining Greek order. Peshitta ܚܪܫܐ (deaf) is followed by the numeral ܚܕ (one), creating a different syntactic structure before the second adjective."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction before second adjective"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "major",
-      "note": "Greek μογιλάλον 'speech-impaired' vs Peshitta ܦܐܩܐ 'mute' vs Vulgate mutum 'mute'; semantic shift from difficulty speaking to inability"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek μογιλάλον (G3424, 'speaking with difficulty') is rendered by Vulgate mutum ('mute') and Peshitta ܦܐܩܐ ('stammerer/mute'). The Vulgate simplifies the rare Greek term to a more common Latin equivalent, while Syriac preserves the nuance of impaired rather than absent speech."
     },
     {
       "greek_nt": [
@@ -140,7 +135,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -153,8 +149,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܒܥܐ ܗܘܘ combines conjunction, verb, and auxiliary"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek παρακαλοῦσιν (present active indicative) and Vulgate deprecabantur (imperfect) differ in tense-aspect. Peshitta ܘܒܥܐ ܗܘܘ employs the periphrastic construction (participle + auxiliary) typical of Syriac to express past progressive action, functionally equivalent to the Latin imperfect."
     },
     {
       "greek_nt": [
@@ -166,7 +163,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -179,7 +177,7 @@
         9
       ],
       "variant": "aligned",
-      "note": "Peshitta ܕ particle functions as ἵνα/ut"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -192,7 +190,7 @@
         10
       ],
       "variant": "aligned",
-      "note": "Peshitta ܕܢܣܝܡ combines particle and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -204,7 +202,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -217,13 +216,15 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article τὴν with χεῖρα (accusative singular), while Vulgate manum and Peshitta ܐܝܕܐ lack articles, following the conventions of Latin and Syriac respectively, which do not require articles in this construction despite semantic equivalence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.777499+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.992791+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

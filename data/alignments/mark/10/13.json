@@ -78,7 +78,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܡܩܪܒܝܢ ܗܘܘ (were bringing) for Greek imperfect"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction (ܡܩܪܒܝܢ ܗܘܘ, active participle + auxiliary) to render the Greek imperfect προσέφερον, whereas the Vulgate uses a simple imperfect (offerebant). All three convey ongoing past action, but through different grammatical strategies typical of their respective languages."
     },
     {
       "greek_nt": [
@@ -106,18 +107,7 @@
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6
       ],
@@ -126,11 +116,13 @@
         5
       ],
       "vulgate": [
+        4,
         5,
         6
       ],
       "variant": "major",
-      "note": "Greek ἅψηται αὐτῶν 'touch them' vs Peshitta ܕܢܩܪܘܒ ܠܗܘܢ 'draw near to them' vs Vulgate tangeret illos 'touch them'; Peshitta uses different verb root (approach/draw near)"
+      "type": "substitution",
+      "note": "Greek and Vulgate preserve the purpose clause with ἅψηται/tangeret ('that he might touch them'), specifying physical contact. The Peshitta substitutes ܕܢܩܪܘܒ ܠܗܘܢ ('that he might draw near to them' or 'approach them'), using a verb of proximity rather than tactile contact, possibly reflecting a theological or cultural preference for less anthropomorphic language regarding Jesus's blessing."
     },
     {
       "greek_nt": [
@@ -146,7 +138,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article and adversative particle before the noun (οἱ δὲ μαθηταί), Vulgate inverts to noun-then-particle (Discipuli autem), and Peshitta uses a possessive suffix construction (ܬܠܡܝܕܘܗܝ ܕܝܢ, 'his disciples but'). All three convey the same adversative transition, but word order reflects syntactic norms of each language."
     },
     {
       "greek_nt": [
@@ -160,7 +154,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic ܟܐܝܢ ܗܘܘ (were rebuking) for Greek aorist ἐπετίμησαν"
+      "type": "construction",
+      "note": "The Peshitta again employs a periphrastic construction (ܟܐܝܢ ܗܘܘ, active participle + auxiliary) for the Greek aorist ἐπετίμησαν and Latin imperfect comminabantur. The Greek aorist emphasizes punctiliar action, the Latin imperfect suggests ongoing rebuke, and the Syriac periphrastic is aspectually ambiguous but contextually rendered as durative."
     },
     {
       "greek_nt": [
@@ -175,14 +170,15 @@
       "vulgate": [
         10
       ],
-      "variant": "minor",
-      "note": "Peshitta expands with ܒܗܠܝܢ ܕܡܩܪܒܝܢ ܠܗܘܢ 'those who were bringing them' vs Greek substantival participle προσφέρουσιν vs Vulgate offerentibus"
+      "variant": "major",
+      "type": "expansion",
+      "note": "The Peshitta expands the object of rebuke with ܒܗܠܝܢ ܕܡܩܪܒܝܢ ܠܗܘܢ ('in/against those who were bringing them'), making explicit both the demonstrative ('those') and the relative clause with repeated pronominal suffix. Greek uses a dative substantival participle (αὐτοῖς προσφέρουσιν, 'those bringing [them]'), and Vulgate a simple present participle (offerentibus, 'those offering'). The Syriac expansion clarifies the referent but adds syntactic weight absent in the Greek and Latin."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.794472+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.009226+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

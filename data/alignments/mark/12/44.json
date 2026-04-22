@@ -88,7 +88,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -100,7 +101,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,7 +124,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses articular participle τοῦ περισσεύοντος ('that which is abounding') with dative αὐτοῖς; Vulgate employs a relative clause with finite verb (quod abundabat illis); Peshitta uses a relative construction ܡܕܡ ܕܝܬܝܪ ('what is surplus'). All three express the same semantic content through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -134,7 +138,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -143,7 +148,8 @@
         8
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after miserunt to mark the transition from the general statement about the wealthy to the specific case of the widow. Neither Greek nor Peshitta manuscripts employ punctuation at this juncture, though the adversative particles (δέ, ܕܝܢ) serve a similar discourse-marking function."
     },
     {
       "greek_nt": [
@@ -155,7 +161,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -167,7 +174,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -186,7 +194,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Peshitta uses construct state ܚܣܝܪܘܬܗ (her poverty) without separate pronoun; Greek and Vulgate use article + noun + pronoun"
+      "type": "construction",
+      "note": "Greek employs the articular noun phrase ἐκ τῆς ὑστερήσεως αὐτῆς ('out of her poverty') with genitive pronoun; Vulgate mirrors this with de penuria sua; Peshitta uses the bound-state construction ܡܢ ܚܣܝܪܘܬܗ ('from her-poverty') with pronominal suffix, a typical Semitic strategy avoiding separate possessive pronouns."
     },
     {
       "greek_nt": [
@@ -207,7 +216,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Peshitta expands with ܟܠ ܡܕܡ (all/everything) + relative clause; Greek uses πάντα ὅσα; Vulgate omnia quae - all semantically equivalent"
+      "type": "construction",
+      "note": "Greek uses πάντα ὅσα εἶχεν ('all as-much-as she-had'), a correlative construction with the relative pronoun ὅσα; Vulgate employs omnia quæ habuit, a standard relative clause; Peshitta expands with ܟܠ ܡܕܡ ܕܐܝܬ ܗܘܐ ܠܗ ('all thing that was to-her'), using the existential particle ܐܝܬ with the verb ܗܘܐ and prepositional phrase—a periphrastic Syriac idiom for possession."
     },
     {
       "greek_nt": [
@@ -219,7 +229,8 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -238,13 +249,14 @@
         20
       ],
       "variant": "minor",
-      "note": "Greek ὅλον τὸν βίον (whole livelihood) vs Peshitta ܟܠܗ ܩܢܝܢܗ (all her possessions) vs Vulgate totum victum (whole sustenance) - synonymous expressions with slight semantic nuance"
+      "type": "construction",
+      "note": "Greek uses the articular accusative phrase ὅλον τὸν βίον αὐτῆς ('all the livelihood of-her') with separate possessive genitive; Vulgate mirrors with totum victum suum using the possessive adjective; Peshitta employs ܟܠܗ ܩܢܝܢܗ ('all-her possession-her') with double pronominal marking (suffix on both ܟܠ and ܩܢܝܢ), a characteristic Syriac emphatic construction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.822070+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.028189+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

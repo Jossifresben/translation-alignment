@@ -89,7 +89,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,7 +102,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -114,7 +116,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article with plural ἡμέραι (nominative feminine plural); Peshitta employs ܒܝܘܡܬܐ with the preposition ܒ ('in the days'), a typical Syriac construction; Vulgate uses the bare plural dies without article, following Latin norms."
     },
     {
       "greek_nt": [
@@ -126,7 +130,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -138,7 +143,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -153,7 +159,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek uses two demonstratives (οἵα...τοιαύτη); Peshitta uses ܐܟܘܬܗ (like it); Vulgate uses tales quales (such as)"
+      "type": "construction",
+      "note": "Greek employs two correlative qualitative pronouns (οἵα ... τοιαύτη, 'such as ... the like') to express the unprecedented nature of the tribulation; Peshitta uses a single prepositional phrase ܐܟܘܬܗ ('like it'); Vulgate mirrors Greek structure with tales quales ('such ... as such'), though condensed."
     },
     {
       "greek_nt": [
@@ -168,7 +175,8 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -183,7 +191,8 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -195,7 +204,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -214,7 +224,8 @@
         14
       ],
       "variant": "minor",
-      "note": "Greek has relative clause ἣν ἔκτισεν ὁ θεὸς with article; Peshitta uses ܕܒܪܐ ܐܠܗܐ (that God created); Vulgate quam condidit Deus"
+      "type": "construction",
+      "note": "Greek uses a relative clause with explicit subject (ἣν ἔκτισεν ὁ θεὸς, 'which God created'); Vulgate employs a similar relative construction (quam condidit Deus); Peshitta uses a participial construction ܕܒܪܐ ܐܠܗܐ ('that God created'), a common Semitic alternative to relative clauses."
     },
     {
       "greek_nt": [
@@ -231,7 +242,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Greek ἕως τοῦ νῦν with article; Peshitta ܥܕܡܐ ܠܗܫܐ; Vulgate usque nunc without article"
+      "type": "grammar",
+      "note": "Greek employs ἕως with the articular adverb τοῦ νῦν ('until the now'); Vulgate uses usque nunc without article (Latin lacks articles); Peshitta uses ܥܕܡܐ ܠܗܫܐ ('until now') with the preposition ܠ, a standard Syriac temporal construction."
     },
     {
       "greek_nt": [
@@ -241,8 +253,9 @@
         15
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits conjunction before final negative clause"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Peshitta both include the conjunction καὶ / ܘ ('and') to coordinate the final negative clause; Vulgate omits an explicit coordinating conjunction, using neque alone to express 'and not' or 'nor', a stylistic preference in Latin."
     },
     {
       "greek_nt": [
@@ -259,13 +272,14 @@
         18
       ],
       "variant": "minor",
-      "note": "Greek uses double negative οὐ μὴ γένηται (emphatic future negation); Peshitta ܘܠܐ ܢܗܘܐ; Vulgate neque fient (simple future negative)"
+      "type": "grammar",
+      "note": "Greek employs the emphatic double negative οὐ μὴ with subjunctive γένηται to express strong future negation ('certainly will not happen'); Peshitta uses ܘܠܐ ܢܗܘܐ ('and not will be'), a simple future negative; Vulgate uses neque fient ('nor will they be'), treating the subject as plural (dies) rather than singular event."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.825164+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.031123+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

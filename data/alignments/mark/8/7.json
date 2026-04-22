@@ -51,134 +51,85 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
         0,
         1
       ],
       "vulgate": [
-        0
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܘܐܝܬ ܗܘܘ (and there were) for Greek εἶχον (they had), stylistic variation in expressing possession"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "omitted",
-      "note": "Greek εἶχον and Vulgate habebant absorbed into Peshitta existential construction"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple conjunction καὶ with imperfect εἶχον ('and they had'); Syriac employs existential construction ܘܐܝܬ ܗܘܘ ('and there were to them'); Vulgate uses Et habebant. All three express possession but through different syntactic strategies typical of each language."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
+        3,
         4
-      ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon, no semantic content"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܐܦ (and also) adds emphasis compared to simple καί/et"
+      "type": "punctuation",
+      "note": "Greek marks clause boundary with raised dot (ὀλίγα·); Vulgate inserts full colon after paucos, creating stronger syntactic break before the blessing action. Peshitta has no explicit punctuation marker here, continuing the narrative flow without pause."
     },
     {
       "greek_nt": [
+        4,
+        5,
         6
       ],
       "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܥܠܝܗܘܢ (upon them) vs Greek αὐτὰ (them) vs Vulgate ipsos (them themselves), slight emphasis variation"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
+        4,
+        5,
         6
       ],
       "vulgate": [
+        5,
+        6,
         7
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Syriac adds emphatic particle ܘܐܦ ('and also/even') and prepositional phrase ܥܠܝܗܘܢ ('upon them') before the verb ܒܪܟ, making the blessing's object explicit through preposition rather than direct accusative. Greek uses aorist participle εὐλογήσας with direct object αὐτὰ; Vulgate employs finite verb benedixit with direct object ipsos. The Syriac construction emphasizes the act of blessing 'over' the fish as a distinct liturgical gesture."
     },
     {
       "greek_nt": [
         7,
+        8,
         9,
         10
       ],
       "peshitta": [
+        7,
         8,
         9
       ],
       "vulgate": [
+        8,
         9,
         10
       ],
       "variant": "major",
-      "note": "Greek εἶπεν καὶ ταῦτα παρατιθέναι (said also these to set before) vs Vulgate jussit apponi (commanded to be set) vs Peshitta ܕܢܣܝܡܘܢ ܐܢܘܢ (that they set them); Vulgate intensifies to 'commanded' while Peshitta uses purpose clause"
+      "type": "substitution",
+      "note": "Greek uses εἶπεν ('he said') with infinitive παρατιθέναι and demonstrative ταῦτα, yielding 'he said also these to be set before [them].' Vulgate substitutes jussit ('he commanded/ordered') with infinitive apponi, a stronger directive verb. Syriac employs ܘܐܡܪ ܕܢܣܝܡܘܢ ܐܢܘܢ ('and he said that they should set them'), using subordinate clause with imperfect plural verb rather than infinitive, and pronominal suffix rather than demonstrative—semantically equivalent but syntactically restructured."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.779350+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.994844+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

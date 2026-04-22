@@ -79,11 +79,33 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Vulgate omits the definite article, beginning directly with 'Mulier' (woman), whereas Greek retains the article Ἡ and Peshitta uses the demonstrative pronoun ܗܝ ('she/that one'). This is a stylistic difference reflecting Latin's lack of a definite article system."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         2
       ],
       "vulgate": [
@@ -93,86 +115,49 @@
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
         3,
-        4
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses participial construction 'ܟܕ ܕܚܝܠܐ' (while fearing) vs Greek aorist participle"
-    },
-    {
-      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
+        3,
+        4,
         5
       ],
       "vulgate": [
+        2,
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses two aorist participles (φοβηθεῖσα καὶ τρέμουσα, 'having been frightened and trembling') coordinated by καί. Syriac employs a temporal particle ܟܕ ('while/when') governing two adjectives (ܕܚܝܠܐ ܘܪܬܝܬܐ, 'afraid and trembling'). Latin uses two present participles (timens et tremens) without subordinating particle. All three convey simultaneous states but with different syntactic strategies."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7,
-        8
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
         6,
         7,
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10
       ],
       "peshitta": [
+        6,
+        7,
+        8,
         9
       ],
       "vulgate": [
+        5,
+        6,
+        7,
+        8,
         9,
         10
       ],
       "variant": "minor",
-      "note": "Greek 'ἐπ᾽ αὐτῇ' (upon her) vs Peshitta 'ܠܗ' (to her) vs Vulgate 'in se' (in herself) - prepositional variation"
+      "type": "construction",
+      "note": "Greek uses a perfect participle εἰδυῖα ('knowing') with relative pronoun ὃ and perfect verb γέγονεν ἐπ᾽ αὐτῇ ('what has happened to her'). Syriac employs a d-clause construction ܕܝܕܥܬ ܡܐ ܕܗܘܐ ܠܗ with the preposition ܠܗ ('to her') rather than ἐπ᾽ αὐτῇ ('upon her'). Latin mirrors Greek structure with sciens quod factum esset in se, using pluperfect subjunctive in indirect discourse. The prepositional variation (ἐπί vs. ܠ vs. in) reflects idiomatic differences in expressing the recipient of an action."
     },
     {
       "greek_nt": [
@@ -203,7 +188,8 @@
         15
       ],
       "variant": "minor",
-      "note": "Vulgate adds 'ante' (before) making explicit what Greek/Peshitta imply in the verb"
+      "type": "construction",
+      "note": "Greek uses καὶ προσέπεσεν αὐτῷ ('and fell down before him') with dative of person. Syriac combines verb and prepositional phrase into a single compound form ܢܦܠܬ ܩܕܡܘܗܝ ('she fell before him') with pronominal suffix. Latin expands with procidit ante eum, using the preposition ante with accusative. All convey prostration but with different case government and prepositional choices."
     },
     {
       "greek_nt": [
@@ -236,13 +222,15 @@
         19,
         20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses πᾶσαν τὴν ἀλήθειαν (accusative adjective + article + noun, 'all the truth'). Syriac employs ܟܠܗ ܫܪܪܐ with the pronominal suffix on ܟܠܗ ('all of it, the truth'), a typical Semitic construct. Latin omnem veritatem omits the article (lacking in Latin) but retains the adjective-noun order. The semantic content is identical despite structural variation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.758881+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.975874+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

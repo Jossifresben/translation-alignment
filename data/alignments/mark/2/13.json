@@ -63,13 +63,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning the pericope asyndetically. This may reflect a Syriac stylistic preference for unmarked narrative resumption after a section break."
     },
     {
       "greek_nt": [
@@ -83,7 +83,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Vulgate uses compound perfect 'egressus est' vs Greek aorist; Peshitta combines conjunction with verb"
+      "type": "construction",
+      "note": "Greek uses the simple aorist ἐξῆλθεν; Vulgate employs a compound perfect construction (egressus est) with the participle + auxiliary, a standard Latin rendering of Greek aorist; Peshitta uses the simple perfect ܘܢܦܩ. All three convey completed past action with equivalent semantics."
     },
     {
       "greek_nt": [
@@ -112,45 +113,36 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek παρά 'beside' vs Peshitta/Vulgate 'to/at' (ܠܘܬ/ad); Greek article omitted in other traditions"
+      "type": "construction",
+      "note": "Greek uses the preposition παρά with the accusative article τὴν θάλασσαν ('beside the sea'); Vulgate mirrors this with ad mare; Peshitta uses ܠܘܬ ܝܡܐ, a prepositional phrase meaning 'to/toward the sea'. The Syriac lacks the definite article, treating ܝܡܐ as a proper geographic referent (the Sea of Galilee)."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Greek includes a second coordinating conjunction καί before πᾶς ὁ ὄχλος, creating a paratactic structure. Both Peshitta and Vulgate omit this conjunction, integrating the crowd's arrival more tightly with the preceding clause."
     },
     {
       "greek_nt": [
         7,
-        8
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Greek article ὁ with πᾶς omitted in Peshitta/Vulgate; Peshitta/Vulgate combine 'and all' into single token"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article-adjective-article-noun construction (πᾶς ὁ ὄχλος, 'all the crowd'); Vulgate uses omnisque turba with the enclitic -que ('and all the crowd'); Peshitta uses ܘܟܠܗ ܟܢܫܐ with the pronominal suffix on ܟܠܗ ('and all-of-it the-crowd'). The Syriac construction is idiomatic, using the suffix to mark totality."
     },
     {
       "greek_nt": [
@@ -164,7 +156,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction with auxiliary ܗܘܘ for imperfect aspect"
+      "type": "construction",
+      "note": "Greek uses the imperfect ἤρχετο (singular verb with collective subject); Vulgate uses the imperfect veniebat (singular); Peshitta employs the participial construction ܐܬܝܢ ܗܘܘ (plural participle + plural auxiliary 'were coming'), treating the collective noun as grammatically plural, a typical Syriac idiom."
     },
     {
       "greek_nt": [
@@ -184,13 +177,13 @@
       "greek_nt": [
         13
       ],
-      "peshitta": [
-        9
-      ],
+      "peshitta": [],
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Vulgate use an explicit conjunction (καί / et) to coordinate the teaching clause; Peshitta omits the conjunction, using simple juxtaposition (ܘܡܠܦ ܗܘܐ follows directly), a common Syriac asyndetic narrative pattern."
     },
     {
       "greek_nt": [
@@ -204,7 +197,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction with auxiliary ܗܘܐ; Peshitta combines conjunction with verb"
+      "type": "construction",
+      "note": "Greek uses the imperfect ἐδίδασκεν; Vulgate uses the imperfect docebat; Peshitta employs the periphrastic construction ܘܡܠܦ ܗܘܐ (active participle + auxiliary 'was teaching'), functionally equivalent to the Greek and Latin imperfects but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -221,8 +215,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.736729+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.953123+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

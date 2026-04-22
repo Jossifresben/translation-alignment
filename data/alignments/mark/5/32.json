@@ -46,7 +46,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -58,7 +59,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a single imperfect verb περιεβλέπετο ('he was looking around'); Peshitta employs a periphrastic construction ܘܚܐܪ ܗܘܐ (perfect + auxiliary 'was'), yielding the same progressive aspect through different syntactic means."
     },
     {
       "greek_nt": [
@@ -70,66 +73,35 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "major",
-      "note": "Peshitta uses interrogative ܡܢܘ 'who' instead of definite article; substantive semantic shift from 'the one who' to 'who'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds interrogative pronoun ܡܢܘ 'who', making the clause a question"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
+        4,
         5
       ],
       "peshitta": [
+        3,
+        4,
         5
       ],
       "vulgate": [
+        3,
+        4,
+        5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "note": "Vulgate adds relative pronoun 'quæ' for explicit relative clause construction"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses the feminine article + demonstrative + participle (τὴν τοῦτο ποιήσασαν, 'the one having done this'); Vulgate employs a relative clause (eam quæ hoc fecerat, 'her who had done this'); Peshitta substitutes an interrogative construction ܡܢܘ ܗܕܐ ܥܒܕ ('who did this'), transforming the substantival participle into an indirect question while preserving the semantic intent of identifying the woman."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.758719+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.975767+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

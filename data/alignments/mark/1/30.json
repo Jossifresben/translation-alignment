@@ -61,28 +61,20 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek article + δέ vs. Syriac ܘ (waw-conjunction) vs. Latin autem; functional equivalents with stylistic differences"
+      "type": "construction",
+      "note": "Greek uses article + postpositive conjunction (ἡ δὲ); Syriac employs prefixed conjunction ܘ ('and') directly on the noun; Vulgate places the conjunction postpositively (autem) after the verb, reflecting Latin stylistic preference for delayed connectives."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        2,
         3
       ],
       "variant": "aligned"
@@ -99,7 +91,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek κατέκειτο (imperfect) vs. Peshitta ܪܡܝܐ ܗܘܬ (participle + copula) vs. Vulgate Decumbebat (imperfect); same semantic content, different verbal constructions"
+      "type": "construction",
+      "note": "Greek uses imperfect κατέκειτο ('was lying [sick]'); Syriac employs participial construction ܪܡܝܐ ܗܘܬ (lit. 'cast/lying she-was'); Vulgate uses simple imperfect decumbebat ('was lying down'). All three express durative past state, but through different aspectual strategies."
     },
     {
       "greek_nt": [
@@ -115,47 +108,31 @@
     },
     {
       "greek_nt": [
-        6
+        6,
+        7
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "omitted",
-      "note": "Greek εὐθύς and Latin statim ('immediately') present; Peshitta omits temporal adverb"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek καὶ εὐθὺς ('and immediately') and Vulgate et statim are fully attested; Syriac ܘܐܡܪܘ omits the temporal adverb, proceeding directly from conjunction to verb. This may reflect Syriac narrative economy or a Vorlage variant."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        8,
         9
       ],
       "variant": "aligned"
@@ -180,14 +157,15 @@
       "vulgate": [
         5
       ],
-      "variant": "added",
-      "note": "Vulgate colon (:) is punctuation, not lexical content"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after febricitans, creating a stronger syntactic break between the descriptive clause and the report to Jesus. Greek and Syriac maintain continuous syntax without such punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.730719+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.948220+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

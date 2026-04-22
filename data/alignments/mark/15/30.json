@@ -50,7 +50,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Vulgate uses periphrastic 'salvum fac' (make safe) for imperative σῶσον; temetipsum is emphatic reflexive vs. σεαυτόν/ܢܦܫܟ"
+      "type": "construction",
+      "note": "Greek uses aorist imperative σῶσον with reflexive pronoun σεαυτόν; Vulgate employs periphrastic construction salvum fac temetipsum (literally 'make yourself safe'), a Latin idiom for the same imperatival force. Peshitta ܦܨܐ ܢܦܫܟ mirrors the Greek structure with imperative + reflexive object."
     },
     {
       "greek_nt": [
@@ -61,7 +62,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Greek καὶ and Peshitta ܘ (waw) coordinate the two imperatives; Vulgate uses participial construction without explicit conjunction"
+      "type": "word-order",
+      "note": "Greek καὶ and Peshitta ܘ (waw) coordinate the two imperatives with an explicit conjunction; Vulgate omits the conjunction, using asyndetic coordination with the participle descendens, a stylistic preference in Latin for participial constructions following imperatives."
     },
     {
       "greek_nt": [
@@ -74,38 +76,31 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek participle καταβάς vs. Peshitta imperative ܚܘܬ vs. Vulgate gerund descendens; functional equivalence with stylistic variation"
+      "type": "grammar",
+      "note": "Greek employs aorist participle καταβάς (masculine nominative singular, agreeing with implied subject); Vulgate uses present active participle descendens; Peshitta ܘܚܘܬ is an imperative form ('and come down'), converting the Greek participial construction into a second coordinate command, thereby intensifying the dual imperatival force."
     },
     {
       "greek_nt": [
         4,
-        5
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.845450+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.050769+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

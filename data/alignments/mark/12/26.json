@@ -118,7 +118,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the postpositive δέ after περί; Syriac ܕܝܢ and Latin autem both follow their respective nouns (ܡܝܬܐ / mortuis), reflecting standard postpositive placement in each language. Semantically equivalent."
     },
     {
       "greek_nt": [
@@ -132,7 +134,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ὅτι + finite verb ἐγείρονται ('that they rise'); Latin mirrors this with quod resurgant (subjunctive); Syriac employs a participial construction ܕܩܝܡܝܢ ('who rise'), a relative clause without explicit conjunction. Functionally identical."
     },
     {
       "greek_nt": [
@@ -165,7 +169,9 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐν τῇ βίβλῳ Μωϋσέως uses the articular noun βίβλῳ ('book'); Latin in libro Moysi mirrors this structure; Syriac ܒܟܬܒܐ ܕܡܘܫܐ uses the emphatic state ܟܬܒܐ, functionally equivalent to the Greek article. All three traditions attest the same prepositional phrase."
     },
     {
       "greek_nt": [
@@ -182,7 +188,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek ἐπὶ τοῦ βάτου 'at the bush' vs Peshitta ܡܢ ܣܢܝܐ 'from the bush' vs Vulgate super rubum 'concerning the bush' - prepositional variation"
+      "type": "construction",
+      "note": "Greek ἐπὶ τοῦ βάτου ('at the [passage about the] bush') uses a prepositional phrase with article; Latin super rubum employs a simple prepositional phrase without article; Syriac ܡܢ ܣܢܝܐ ('from the bush') uses ܡܢ, indicating source or reference point. All three refer to the burning bush pericope (Exodus 3), but with different prepositional nuances."
     },
     {
       "greek_nt": [
@@ -224,8 +231,9 @@
         16,
         17
       ],
-      "variant": "minor",
-      "note": "Greek λέγων participle omitted in Peshitta; Vulgate adds inquiens with colon for direct speech marker"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek λέγων (present participle, 'saying') is omitted in the Peshitta but expanded in the Vulgate to inquiens + colon punctuation. The Vulgate's inquiens serves as an explicit quotation marker, while the Peshitta proceeds directly to the divine speech without a participle. This reflects Latin stylistic preference for formal quotation introductions."
     },
     {
       "greek_nt": [
@@ -236,11 +244,11 @@
         15
       ],
       "vulgate": [
-        18,
-        19
+        18
       ],
       "variant": "major",
-      "note": "Peshitta doubles ܐܢܐ ܐܢܐ 'I am I am' for emphasis; Vulgate adds sum 'I am' as copula; Greek has simple ἐγὼ"
+      "type": "expansion",
+      "note": "The Peshitta doubles the first-person pronoun ܐܢܐ ܐܢܐ ('I, I' or 'I am I'), intensifying the divine self-identification beyond the Greek ἐγώ and Latin Ego. This may reflect Syriac liturgical or theological emphasis on the divine name formula, echoing Exodus 3:14."
     },
     {
       "greek_nt": [
@@ -253,24 +261,17 @@
         17
       ],
       "vulgate": [
+        19,
         20,
         21
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        25
-      ],
-      "peshitta": [],
-      "vulgate": [
-        22
-      ],
       "variant": "minor",
-      "note": "Conjunction incorporated into Peshitta ܘܐܠܗܗ (waw prefix) rather than separate token"
+      "type": "construction",
+      "note": "Greek repeats the article ὁ θεὸς before each patriarch's name; Latin includes sum ('I am') after Ego, then uses Deus with each name; Syriac uses pronominal suffixes ܐܠܗܗ ('his God') attached to ܐܠܗܐ, a construction unavailable in Greek or Latin. All three affirm the triadic formula but with language-specific syntax."
     },
     {
       "greek_nt": [
+        25,
         26,
         27,
         28
@@ -280,24 +281,17 @@
         19
       ],
       "vulgate": [
+        22,
         23,
         24
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        29
-      ],
-      "peshitta": [],
-      "vulgate": [
-        25
-      ],
       "variant": "minor",
-      "note": "Conjunction incorporated into Peshitta ܘܐܠܗܗ (waw prefix) rather than separate token"
+      "type": "construction",
+      "note": "Greek καὶ ὁ θεὸς Ἰσαάκ repeats the article and noun; Latin et Deus Isaac mirrors this; Syriac ܘܐܠܗܗ ܕܐܝܣܚܩ uses the conjunction ܘ plus pronominal suffix, maintaining the possessive construction established in the first clause. Syntactic variation without semantic divergence."
     },
     {
       "greek_nt": [
+        29,
         30,
         31,
         32
@@ -307,17 +301,20 @@
         21
       ],
       "vulgate": [
+        25,
         26,
         27,
         28
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ends with a semicolon after Ἰακώβ; Vulgate uses a question mark after Jacob, explicitly marking the entire quotation as interrogative; Syriac lacks overt punctuation in the manuscript tradition but contextually functions as a question. The Vulgate's punctuation clarifies the rhetorical force of Jesus' citation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.818842+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.025060+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

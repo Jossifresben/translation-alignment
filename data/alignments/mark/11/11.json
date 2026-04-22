@@ -87,45 +87,28 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1,
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "note": "Peshitta combines conjunction and verb in ܘܥܠ; Greek separates εἰσῆλθεν εἰς"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
+        3,
         4,
         5
       ],
       "peshitta": [
-        1
+        1,
+        2
       ],
-      "vulgate": [],
+      "vulgate": [
+        1,
+        2
+      ],
       "variant": "minor",
-      "note": "Greek includes article ὁ with Ἰησοῦς; Vulgate omits; Peshitta places Jesus before Jerusalem"
+      "type": "word-order",
+      "note": "Greek places the subject ὁ Ἰησοῦς after the prepositional phrase εἰς Ἱεροσόλυμα, whereas both Peshitta and Vulgate position the subject (ܝܫܘܥ / Iesu) immediately after the verb, yielding a more standard SVO order. The Greek construction emphasizes the destination before identifying the agent."
     },
     {
       "greek_nt": [
@@ -142,42 +125,37 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek καὶ εἰς τὸ ἱερόν with article; Peshitta ܠܗܝܟܠܐ direct; Vulgate in templum"
+      "type": "construction",
+      "note": "Greek employs a second coordinate clause with καὶ εἰς τὸ ἱερόν to specify entry into the temple precinct. Peshitta compresses this into a single prepositional phrase ܠܗܝܟܠܐ ('to the temple') without coordinating conjunction, while Vulgate uses in templum with the preposition in rather than repeating introivit, creating a more compact Latin construction."
     },
     {
       "greek_nt": [
         10
       ],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Greek and Vulgate include coordinating conjunction; Peshitta omits before verb"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        7
+        6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the aorist middle participle περιβλεψάμενος ('having looked around') with πάντα as direct object. Vulgate mirrors this with circumspectis omnibus (ablative absolute). Peshitta employs the simple perfect ܘܚܙܐ ܟܠܡܕܡ ('and he saw everything'), using a finite verb rather than participial construction, though semantically equivalent."
     },
     {
       "greek_nt": [
@@ -202,7 +180,43 @@
         13
       ],
       "variant": "minor",
-      "note": "Greek genitive absolute ὀψίας ἤδη οὔσης τῆς ὥρας; Peshitta temporal clause ܟܕ ܗܘܐ ܕܝܢ ܥܕܢܐ ܕܪܡܫܐ; Vulgate cum jam vespera esset hora - stylistic variation"
+      "type": "construction",
+      "note": "Greek employs a genitive absolute construction (ὀψίας ἤδη οὔσης τῆς ὥρας) to express the temporal circumstance. Vulgate uses cum with the subjunctive (cum iam vespera esset hora), a standard Latin temporal clause. Peshitta constructs this with the temporal particle ܟܕ followed by ܗܘܐ ܕܝܢ ܥܕܢܐ ܕܪܡܫܐ ('when it was the time of evening'), employing ܕܝܢ as a discourse marker absent from the Greek and Latin."
+    },
+    {
+      "greek_nt": [
+        18,
+        19,
+        20
+      ],
+      "peshitta": [
+        11,
+        12
+      ],
+      "vulgate": [
+        14,
+        15,
+        16
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        21,
+        22,
+        23
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        17,
+        18
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -211,72 +225,14 @@
         5
       ],
       "variant": "minor",
-      "note": "Vulgate punctuation colon after templum, not present in Greek or Peshitta"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        19
-      ],
-      "peshitta": [],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        21,
-        22
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after templum, creating a stronger syntactic break between Jesus's entry into the temple and his subsequent actions. Neither Greek nor Peshitta manuscripts reflect this punctuation division, maintaining a continuous narrative flow."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.809027+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.016991+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

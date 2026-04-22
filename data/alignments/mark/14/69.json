@@ -63,57 +63,11 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ and Peshitta ܘ (conjunction prefix on ܘܚܙܬܗ) present; Vulgate omits coordinating conjunction"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Peshitta and Vulgate place 'again' (ܬܘܒ/Rursus) at beginning; Greek πάλιν appears mid-clause"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "added",
-      "note": "Vulgate adds autem (transitional particle) with no Greek or Peshitta equivalent"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "added",
-      "note": "Vulgate adds cum (when/as) creating temporal subordination absent in Greek and Peshitta"
-    },
-    {
-      "greek_nt": [
-        3,
-        4
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        3,
-        4
-      ],
-      "variant": "aligned"
+      "type": "omission",
+      "note": "Greek καὶ is omitted in both Peshitta and Vulgate. The Peshitta begins with the verb ܘܚܙܬܗ ('and she saw him'), incorporating the conjunction into the verbal form, while the Vulgate opens with the adverb Rursus, rendering the narrative transition differently."
     },
     {
       "greek_nt": [
@@ -127,7 +81,35 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article and noun (ἡ παιδίσκη) before the participle, establishing the subject first. Peshitta reverses this order, placing the verb ܘܚܙܬܗ before the subject ܥܠܝܡܬܐ ܗܝ. Vulgate uses ancilla without article (Latin lacking definite articles) and positions it after the participle vidisset, creating a different syntactic flow while preserving the semantic content."
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle ἰδοῦσα with accusative object αὐτὸν. Peshitta employs a single verbal form ܘܚܙܬܗ ('and she saw him') with pronominal suffix, integrating subject, verb, and object into one token. Vulgate mirrors Greek structure with cum vidisset illum (temporal clause with pluperfect subjunctive), though the tense differs slightly from Greek aorist."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Vulgate inserts the conjunction autem ('moreover, however'), which has no equivalent in either Greek or Peshitta. This particle strengthens the adversative or continuative sense of the narrative transition, a characteristic Latin stylistic preference."
     },
     {
       "greek_nt": [
@@ -140,6 +122,20 @@
         6
       ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "major",
+      "type": "word-order",
+      "note": "The adverb 'again' (πάλιν / ܬܘܒ / Rursus) appears in different positions across all three traditions: Vulgate places it sentence-initially, Peshitta positions it after the opening verb but before the subject, and Greek locates it after the main verb ἤρξατο. This reflects distinct rhetorical strategies for emphasizing the repetition of the servant girl's accusation."
     },
     {
       "greek_nt": [
@@ -165,40 +161,44 @@
       "vulgate": [
         8
       ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + perfect participle (τοῖς παρεστῶσιν, 'to those standing by') as a substantival construction. Peshitta employs a relative clause structure ܠܐܝܠܝܢ ܕܩܝܡܝܢ ('to those who were standing'), using the relative particle ܕ. Vulgate renders with a single present participle circumstantibus ('to those standing around'), lacking the article and using a different spatial nuance (circum- 'around')."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses ὅτι to introduce indirect discourse without punctuation break. Vulgate inserts a colon before Quia, creating a dramatic pause and shifting to direct discourse format. Peshitta omits any equivalent marker, using the particle ܕܐܦ ('that also/even') to introduce the content, blending the transition more smoothly into the reported speech."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation before direct speech"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
       "peshitta": [
         8
       ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Peshitta adds the emphatic particle ܕܐܦ ('that also/even'), intensifying the accusation by stressing Peter's inclusion among Jesus' disciples. Neither Greek ὅτι nor Latin Quia carries this emphatic force, representing a Peshitta interpretive expansion that heightens the rhetorical impact of the servant girl's identification."
     },
     {
       "greek_nt": [
@@ -212,7 +212,9 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐξ αὐτῶν ('from/of them') with partitive genitive. Peshitta employs the preposition ܡܢ with pronominal suffix ܡܢܗܘܢ, a direct structural equivalent. Vulgate mirrors Greek with ex illis, though illis (ablative demonstrative) differs slightly in register from Greek αὐτῶν (personal pronoun genitive), the former being more formal or distancing."
     },
     {
       "greek_nt": [
@@ -229,8 +231,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.840591+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.045751+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

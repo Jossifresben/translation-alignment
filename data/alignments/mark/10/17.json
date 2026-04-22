@@ -90,37 +90,30 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1,
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
         1,
         2,
-        3
-      ],
-      "variant": "minor",
-      "note": "Vulgate uses cum + pluperfect subjunctive construction; Peshitta simple participle"
-    },
-    {
-      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
+        1,
+        2,
+        3,
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a genitive absolute construction (ἐκπορευομένου αὐτοῦ εἰς ὁδὸν); Vulgate employs a cum-temporal clause with pluperfect subjunctive (cum egressus esset in viam); Syriac renders with a simple finite verb (ܪܕܐ ܒܐܘܪܚܐ, 'he went on the road'). All three convey the same temporal-circumstantial sense but through distinct syntactic strategies."
     },
     {
       "greek_nt": [
@@ -132,7 +125,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -144,19 +138,12 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καί before kneeling omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9
       ],
@@ -172,7 +159,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta 'fell on his knees' vs Greek/Vulgate 'knelt before him'; stylistic variation"
+      "type": "construction",
+      "note": "Greek uses a single compound verb γονυπετήσας ('having knelt down to') with accusative object. Vulgate expands this into an ablative absolute construction (genu flexo ante eum, 'with knee bent before him'). Syriac employs a finite verb plus prepositional phrase (ܢܦܠ ܥܠ ܒܘܪܟܘܗܝ, 'he fell upon his knees'), a typical Semitic idiom for prostration."
     },
     {
       "greek_nt": [
@@ -189,7 +177,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Peshitta adds periphrastic construction with ܗܘܐ; Vulgate rogabat"
+      "type": "construction",
+      "note": "Greek uses imperfect ἐπηρώτα with accusative pronoun (αὐτόν). Syriac adds the periphrastic construction ܡܫܐܠ ܗܘܐ ܠܗ ('was asking him'), employing the auxiliary ܗܘܐ to mark progressive aspect. Vulgate uses simple imperfect rogabat eum, semantically equivalent but without periphrasis."
     },
     {
       "greek_nt": [],
@@ -198,7 +187,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܘܐܡܪ 'and said' before direct speech"
+      "type": "expansion",
+      "note": "Peshitta inserts ܘܐܡܪ ('and he said') to introduce direct speech, a common Semitic narrative convention not present in the Greek or Latin witnesses. This addition clarifies the transition to quoted speech but does not alter the semantic content."
     },
     {
       "greek_nt": [],
@@ -207,55 +197,40 @@
         14
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon to mark the beginning of direct discourse, a punctuation convention absent in the Greek and Syriac manuscript traditions. This is a scribal/editorial feature rather than a textual variant."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        15,
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        14,
         15
       ],
       "vulgate": [
+        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -267,7 +242,8 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -282,7 +258,8 @@
         20,
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -295,7 +272,8 @@
         22
       ],
       "variant": "minor",
-      "note": "Greek κληρονομήσω 'inherit' vs Vulgate percipiam 'receive/obtain'; Peshitta ܕܐܬܪ incorporated with purpose clause"
+      "type": "lexical",
+      "note": "Greek uses κληρονομέω ('inherit'), emphasizing legal succession and possession. Vulgate employs percipiam ('receive, obtain'), focusing on acquisition rather than inheritance. Syriac ܕܐܬܪ ('that I may inherit') aligns semantically with the Greek, though the conjunction ܕ is shared with the preceding purpose clause, creating a tighter syntactic bond than in Greek or Latin."
     },
     {
       "greek_nt": [],
@@ -304,13 +282,14 @@
         23
       ],
       "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "type": "punctuation",
+      "note": "Vulgate adds a question mark to close the interrogative sentence, a punctuation convention not present in Greek or Syriac manuscript traditions. This is an editorial feature of the printed Vulgate text."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.795182+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.009824+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

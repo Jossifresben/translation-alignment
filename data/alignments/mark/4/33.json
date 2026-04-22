@@ -59,8 +59,9 @@
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits initial conjunction; Greek καί and Vulgate Et present"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction Καὶ / Et, beginning the sentence asyndetically with ܒܡܬܠܐ ('in parables'), a common Syriac stylistic preference that avoids redundant connectives when narrative flow is clear from context."
     },
     {
       "greek_nt": [
@@ -79,7 +80,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܒܡܬܠܐ ܕܐܝܟ ܗܠܝܢ 'in parables like these' with demonstrative, Greek τοιαύταις παραβολαῖς πολλαῖς 'such many parables', Vulgate talibus multis parabolis; word order and demonstrative vs. adjective variation"
+      "type": "word-order",
+      "note": "Greek places the demonstrative before the noun (τοιαύταις παραβολαῖς πολλαῖς, 'such parables many'), while Peshitta fronts the prepositional phrase and uses a relative construction (ܒܡܬܠܐ ܕܐܝܟ ܗܠܝܢ, 'in parables that [are] like these'); Vulgate follows Greek word order (talibus multis parabolis) but all three convey identical semantic content."
     },
     {
       "greek_nt": [
@@ -92,7 +94,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -101,7 +104,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds explicit subject ܝܫܘܥ 'Jesus'; absent in Greek and Vulgate"
+      "type": "expansion",
+      "note": "The Peshitta explicitly names the subject ܝܫܘܥ ('Jesus'), whereas Greek and Vulgate rely on the third-person singular verb (ἐλάλει / loquebatur) with implied subject from prior context. This represents a typical Syriac clarification strategy to avoid ambiguity in extended discourse."
     },
     {
       "greek_nt": [
@@ -113,7 +117,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -126,7 +131,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the definite article with accusative noun (τὸν λόγον, 'the word'); Vulgate employs the bare accusative verbum; Peshitta uses the emphatic state ܡܬܠܐ ('the parable/word') without separate article. All three traditions mark definiteness through different morphological strategies but convey identical reference."
     },
     {
       "greek_nt": [
@@ -138,7 +145,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -151,7 +159,9 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Vulgate use simple imperfect forms (ἠδύναντο / poterant, 'they were able'), while Peshitta employs a periphrastic construction with participle + auxiliary (ܕܡܫܟܚܝܢ ܗܘܘ, 'who were being-able'), a standard Syriac aspectual strategy for expressing continuous past ability."
     },
     {
       "greek_nt": [
@@ -163,7 +173,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -171,14 +182,15 @@
       "vulgate": [
         10
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate adds a colon after audire, signaling the end of a major clause and anticipating the following verse's contrast (χωρὶς δὲ παραβολῆς / sine parabola autem). Greek uses a period; Peshitta punctuation varies by manuscript tradition but typically marks a full stop here."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.751505+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.968370+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -65,37 +65,17 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܡܪܝܢ"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
+        1,
         2
       ],
       "variant": "aligned"
@@ -111,18 +91,12 @@
       ],
       "vulgate": [
         3,
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        4,
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (οἱ μαθηταὶ αὐτοῦ); Latin mirrors this with noun + possessive (discipuli sui); Syriac employs a construct state with pronominal suffix (ܬܠܡܝܕܘܗܝ), a typical Semitic compression expressing the same possessive relationship more economically."
     },
     {
       "greek_nt": [
@@ -136,7 +110,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta makes subject pronoun ܐܢܬ explicit, Greek/Vulgate encode in verb"
+      "type": "gloss",
+      "note": "Peshitta adds explicit subject pronoun ܐܢܬ ('you') after the verb ܚܙܐ, a common Syriac stylistic feature for emphasis or clarity, whereas Greek βλέπεις and Latin Vides encode the subject in verbal morphology alone."
     },
     {
       "greek_nt": [
@@ -183,23 +158,15 @@
         12
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Peshitta again makes subject pronoun ܐܢܬ explicit with verb ܘܐܡܪ"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta again inserts explicit subject pronoun ܐܢܬ ('you') with the verb ܘܐܡܪ, paralleling its earlier addition; Greek λέγεις and Latin dicis rely on verbal inflection. Vulgate punctuates with a colon, structurally separating the quoted question."
     },
     {
       "greek_nt": [
@@ -215,25 +182,18 @@
       "vulgate": [
         13,
         14,
-        15
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܩܪܒ (approach/draw near) for Greek ἅπτω/Latin tetigit (touch); semantic overlap but different nuance"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        15,
         16
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation as separate token"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἥψατο (aorist of ἅπτω, 'touched') and Latin tetigit (perfect of tango) denote completed action; Syriac ܩܪܒ (qreb, 'drew near, approached') uses a semantically broader verb that can imply physical contact but primarily means proximity. This reflects a common Syriac lexical choice where context disambiguates tactile contact."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.758556+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.879847+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

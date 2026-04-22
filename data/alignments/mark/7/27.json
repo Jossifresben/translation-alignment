@@ -87,7 +87,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek uses article + καί; Peshitta/Vulgate use simple relative pronoun (ܘ/Qui)"
+      "type": "substitution",
+      "note": "Greek uses article + conjunction (ὁ καὶ) as a narrative connective; Peshitta employs simple waw-consecutive (ܘܐܡܪ); Vulgate uses relative pronoun Qui, creating a relative clause construction. All three function as discourse markers introducing Jesus's speech."
     },
     {
       "greek_nt": [
@@ -98,7 +99,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits explicit subject 'Jesus'"
+      "type": "omission",
+      "note": "The Vulgate omits the explicit subject 'Jesus' (Ἰησοῦς / ܝܫܘܥ), relying on the relative pronoun Qui to carry the referent from the preceding narrative context. Greek and Peshitta both name Jesus explicitly as the speaker."
     },
     {
       "greek_nt": [
@@ -110,7 +112,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -120,18 +123,12 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses a raised dot (αὐτῇ·) to mark the end of the narrative frame; Vulgate employs a colon after illi to introduce direct speech; Peshitta integrates the pronoun ܠܗ without punctuation. The divergence reflects differing conventions for marking direct discourse boundaries."
     },
     {
       "greek_nt": [
@@ -143,7 +140,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -155,7 +153,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -167,7 +166,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -180,7 +180,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses article + noun (τὰ τέκνα, neuter plural accusative); Peshitta and Vulgate omit the article (ܒܢܝܐ / filios), reflecting the absence of definite articles in Syriac and the optional nature of articles in Latin. All three refer to 'the children' contextually."
     },
     {
       "greek_nt": [],
@@ -189,43 +191,28 @@
         8
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after saturari filios to mark a rhetorical pause before the explanatory clause. Neither Greek nor Peshitta employ punctuation at this juncture, maintaining continuous syntax."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
+        11,
         12
       ],
       "peshitta": [
-        8
+        7,
+        8,
+        9
       ],
       "vulgate": [
-        10
+        9,
+        10,
+        11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the negation before the causal particle (οὐ γάρ ἐστιν); Peshitta mirrors this order (ܠܐ ܗܘܬ ܓܝܪ); Vulgate inverts to non est enim, placing the copula before the causal conjunction. The semantic content remains identical across all three traditions."
     },
     {
       "greek_nt": [
@@ -237,7 +224,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -249,7 +237,9 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek λαβεῖν (G2983, 'to take/receive') is rendered by Peshitta ܕܢܣܒ (same semantic range) and Vulgate sumere ('to take up'). Vulgate's choice of sumere over the more common accipere may emphasize the act of appropriation rather than passive reception."
     },
     {
       "greek_nt": [
@@ -262,7 +252,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -275,7 +266,9 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses article + genitive plural (τῶν τέκνων) to express possession; Peshitta employs construct state (ܕܒܢܝܐ, 'd-' prefix marking genitive relation); Vulgate uses genitive plural filiorum. All three express 'of the children' with tradition-specific genitive constructions."
     },
     {
       "greek_nt": [
@@ -287,7 +280,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -300,8 +294,9 @@
       "vulgate": [
         18
       ],
-      "variant": "minor",
-      "note": "Greek κυνάριοις (little dogs, diminutive) vs Peshitta ܠܟܠܒܐ/Vulgate canibus (dogs); semantic nuance difference"
+      "variant": "major",
+      "type": "lexical",
+      "note": "Greek uses the diminutive κυναρίοις (G2952, 'little dogs/puppies') with dative article τοῖς; Peshitta employs ܠܟܠܒܐ (simple 'dogs' with preposition); Vulgate uses canibus (generic 'dogs'). The Greek diminutive may soften the metaphor or reflect household pets, whereas Peshitta and Vulgate use the unmarked term for dogs."
     },
     {
       "greek_nt": [
@@ -313,13 +308,14 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.776735+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.991917+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

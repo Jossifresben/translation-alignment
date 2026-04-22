@@ -59,7 +59,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "substitution",
+      "note": "The Vulgate reads 'Et respondens' (And answering) where Greek and Peshitta have 'And he asked' (καὶ ἐπηρώτησεν / ܘܡܫܐܠ). This represents a complete textual divergence, as the Vulgate transmits the response of a man from the crowd (v. 17) rather than Jesus' question to the scribes (v. 16)."
     },
     {
       "greek_nt": [
@@ -70,8 +72,9 @@
         1
       ],
       "vulgate": [],
-      "variant": "major",
-      "note": "Greek ἐπηρώτησεν 'asked' vs Vulgate 'respondens...dixit' (answered/said); Peshitta ܡܫܐܠ ܗܘܐ uses periphrastic past 'was asking'; Vulgate reflects different verse (Mark 9:17 response, not 9:16 question)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a simple aorist verb ἐπηρώτησεν; Peshitta employs the periphrastic construction ܡܫܐܠ ܗܘܐ (was asking) with the auxiliary verb ܗܘܐ, a common Syriac idiom for past progressive aspect."
     },
     {
       "greek_nt": [
@@ -81,9 +84,14 @@
       "peshitta": [
         2
       ],
-      "vulgate": [],
+      "vulgate": [
+        2,
+        3,
+        4
+      ],
       "variant": "major",
-      "note": "Greek 'them [the] scribes' (accusative object); Peshitta ܠܣܦܪܐ 'to the scribes'; Vulgate omits scribes entirely, has 'unus de turba' (one from the crowd)"
+      "type": "substitution",
+      "note": "Greek and Peshitta identify the addressees as 'the scribes' (γραμματεῖς / ܠܣܦܪܐ), while the Vulgate reads 'unus de turba' (one from the crowd), reflecting the textual divergence where the Vulgate transmits an entirely different verse."
     },
     {
       "greek_nt": [
@@ -93,20 +101,29 @@
         3
       ],
       "vulgate": [],
-      "variant": "major",
-      "note": "Greek τί 'what' and Peshitta ܡܢܐ 'what' align; Vulgate verse is completely different content (father's response about mute spirit)"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         5
       ],
       "peshitta": [
-        4,
+        4
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek συζητεῖτε (disputing, debating) is rendered by Peshitta ܕܪܫܝܢ (seeking, inquiring), a semantic shift from contentious debate to neutral inquiry, though both convey questioning activity."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
         5
       ],
       "vulgate": [],
-      "variant": "major",
-      "note": "Greek συζητεῖτε 'are you disputing'; Peshitta ܕܪܫܝܢ ܐܢܬܘܢ 'are you inquiring/seeking'; Vulgate has narrative content instead"
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta adds the explicit subject pronoun ܐܢܬܘܢ (you), a common Syriac clarification where Greek relies on verbal inflection alone to indicate the second-person plural."
     },
     {
       "greek_nt": [
@@ -123,10 +140,6 @@
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        1,
-        2,
-        3,
-        4,
         5,
         6,
         7,
@@ -141,13 +154,14 @@
         16
       ],
       "variant": "major",
-      "note": "Vulgate contains Mark 9:17 (father's response about son with mute spirit) instead of 9:16 (Jesus' question to scribes); complete verse mismatch"
+      "type": "substitution",
+      "note": "The Vulgate transmits entirely different content ('dixit: Magister, attuli filium meum ad te habentem spiritum mutum'), corresponding to Mark 9:17 rather than 9:16. This represents a verse-level textual divergence where the Vulgate witness conflates or substitutes verses."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.787532+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.002276+00:00",
+    "confidence": 0.75,
     "schema_version": 1
   }
 }

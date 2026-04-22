@@ -64,7 +64,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -77,7 +78,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Greek ἐποίησεν and Vulgate fecit both express 'appointed/made'; Peshitta ܘܓܒܐ combines conjunction with verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -89,7 +90,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,16 +103,19 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek relative clause 'whom also apostles He named' absent in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "The Greek NA28 includes the relative clause οὓς καὶ ἀποστόλους ὠνόμασεν ('whom also He named apostles'), which is absent from both the Peshitta and Vulgate traditions. This clause is textually disputed in the Greek manuscript tradition and appears to be a later harmonization with Luke 6:13."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        2
+        2,
+        3
       ],
       "variant": "added",
-      "note": "Vulgate 'ut' (that) introduces purpose clause, restructuring Greek syntax"
+      "type": "construction",
+      "note": "The Vulgate inserts ut essent ('that they might be') as an explicit purpose clause governing duodecim, creating a parallel construction with the subsequent ut mitteret. The Greek uses ἵνα ὦσιν for the first purpose clause, while the Peshitta employs the simple prefix ܕ (d-) with the imperfect, yielding a more compact syntax."
     },
     {
       "greek_nt": [
@@ -120,10 +125,10 @@
       "peshitta": [
         2
       ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the conjunction ἵνα with subjunctive ὦσιν ('that they may be'), while Syriac uses the prefix ܕ with imperfect ܢܗܘܘܢ (dnehwon), a standard Semitic purpose construction. Both express identical purpose semantics through language-specific grammatical means."
     },
     {
       "greek_nt": [
@@ -137,16 +142,8 @@
         5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon, no semantic content"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -156,34 +153,28 @@
         4
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate places a colon after illo, creating a stronger syntactic break between the two purpose clauses, whereas Greek uses simple καί coordination. The Syriac ܘ (w-) mirrors the Greek coordinating function without the Vulgate's punctuational emphasis."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned",
-      "note": "Second ἵνα purpose clause; Peshitta uses ܘܕ prefix on verb"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek repeats ἵνα with subjunctive ἀποστέλλῃ for the second purpose clause; Latin mirrors this with ut mitteret (imperfect subjunctive in indirect discourse); Syriac continues the ܕ-prefix construction (ܘܕܢܫܕܪ, wdneshdar), maintaining syntactic parallelism through a single conjunction prefix rather than clause repetition."
     },
     {
       "greek_nt": [
@@ -195,7 +186,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -207,13 +199,14 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.741893+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.959193+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

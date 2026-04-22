@@ -90,18 +90,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2
       ],
@@ -110,22 +99,33 @@
         1
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "aligned",
-      "note": "ἀπ᾽ ἀγορᾶς = ܘܡܢ ܫܘܩܐ = a foro; 'from the market'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek δέ (postpositive conjunction) is omitted in both Peshitta and Vulgate. This particle functions as a discourse marker in Greek but lacks direct equivalents in Syriac and Latin syntax, where the clause transition is unmarked."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek δὲ ὅταν ἔλθωσιν 'when they come' omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek ὅταν ἔλθωσιν ('when they come') is absent in both Peshitta and Vulgate. The temporal clause is elided, with both traditions proceeding directly to the conditional washing requirement, creating a more compressed syntactic structure."
     },
     {
       "greek_nt": [
@@ -142,7 +142,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek ἐὰν μὴ βαπτίσωνται = Peshitta ܐܠܐ ܥܡܕܝܢ = Vulgate nisi baptizentur; word order and conditional construction vary"
+      "type": "construction",
+      "note": "Greek uses a double conditional construction (ἐὰν μὴ βαπτίσωνται, 'unless they wash'); Vulgate employs nisi + subjunctive (nisi baptizentur); Peshitta uses ܐܠܐ ܥܡܕܝܢ ('except they are baptized'), a functionally equivalent negative conditional idiom in Syriac."
     },
     {
       "greek_nt": [
@@ -157,16 +158,8 @@
         5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -176,9 +169,12 @@
         6
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after comedunt, creating a stronger pause before the catalogue of traditions. Greek and Peshitta use simple conjunction (καί / ܘ) without marked punctuation, maintaining smoother syntactic flow."
     },
     {
       "greek_nt": [
@@ -186,15 +182,16 @@
         13
       ],
       "peshitta": [
-        7,
-        6
+        6,
+        7
       ],
       "vulgate": [
         9,
         10
       ],
       "variant": "minor",
-      "note": "Peshitta reverses order: ܘܣܓܝܐܬܐ ܐܚܪܢܝܬܐ 'many other' vs Greek ἄλλα πολλά 'other many'"
+      "type": "word-order",
+      "note": "Greek places the adjective after the noun (ἄλλα πολλά); Peshitta reverses to ܣܓܝܐܬܐ ܐܚܪܢܝܬܐ ('many other'); Vulgate follows Greek order (alia multa). This reflects standard adjective-placement conventions in each language."
     },
     {
       "greek_nt": [
@@ -204,11 +201,10 @@
         8
       ],
       "vulgate": [
-        11,
-        14
+        11
       ],
-      "variant": "minor",
-      "note": "Vulgate splits copula: sunt...tradita sunt"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -220,7 +216,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -230,9 +227,12 @@
         10
       ],
       "vulgate": [
-        13
+        13,
+        14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek παρέλαβον ('they received') is rendered by Vulgate tradita sunt ('were handed down'), a passive construction emphasizing transmission. Peshitta ܕܩܒܠܘ uses active voice matching Greek semantics but with slightly different aspectual nuance."
     },
     {
       "greek_nt": [],
@@ -241,7 +241,8 @@
         15
       ],
       "variant": "added",
-      "note": "Vulgate adds illis 'to them' not in Greek or Peshitta"
+      "type": "expansion",
+      "note": "Vulgate adds illis ('to them'), making the indirect object explicit. Neither Greek nor Peshitta includes this pronoun, relying on context to identify the recipients of the tradition."
     },
     {
       "greek_nt": [
@@ -253,7 +254,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -265,7 +267,8 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -277,19 +280,19 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         20
       ],
-      "peshitta": [
-        14
-      ],
+      "peshitta": [],
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -302,19 +305,18 @@
         20
       ],
       "variant": "aligned",
-      "note": "ξεστῶν (Latin loanword sextarius) = ܩܣܛܐ = urceorum"
+      "type": "agreement"
     },
     {
       "greek_nt": [
         22
       ],
-      "peshitta": [
-        15
-      ],
+      "peshitta": [],
       "vulgate": [
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -327,20 +329,20 @@
       "vulgate": [
         22
       ],
-      "variant": "aligned",
-      "note": "χαλκίων 'bronze vessels' = ܡܐܢܝ ܢܚܫܐ 'vessels of bronze' = æramentorum"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek χαλκίων ('bronze vessels') is a single genitive plural noun. Peshitta expands to ܘܕܡܐܢܝ ܢܚܫܐ ('and of vessels of bronze'), using a construct chain with explicit material specification. Vulgate æramentorum mirrors Greek compactness with a single compound noun."
     },
     {
       "greek_nt": [
         24
       ],
-      "peshitta": [
-        17
-      ],
+      "peshitta": [],
       "vulgate": [
         23
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -350,24 +352,18 @@
         17
       ],
       "vulgate": [
-        24
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        24,
         25
       ],
-      "variant": "added",
-      "note": "Vulgate final colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate concludes with a colon after lectorum, creating formal closure to the catalogue. Greek uses a paragraph marker (¶) and Peshitta has no special punctuation, reflecting differing manuscript conventions for section demarcation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.772900+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:26:01.880876+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

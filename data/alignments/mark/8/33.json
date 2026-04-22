@@ -100,7 +100,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses article + δέ (ὁ δέ) for subject-marking and transition; Peshitta employs pronoun + particle (ܗܘ ܕܝܢ); Vulgate uses relative pronoun Qui alone, absorbing both functions into a single lexeme."
     },
     {
       "greek_nt": [
@@ -116,26 +118,19 @@
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "minor",
-      "note": "Peshitta omits coordinating conjunction before participle"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek coordinates two participles with καί (ἐπιστραφεὶς καὶ ἰδών); Vulgate mirrors this with et videns; Peshitta uses asyndetic coordination (ܘܚܪ, 'and he saw') without repeating the conjunction, a typical Syriac stylistic compression."
     },
     {
       "greek_nt": [
@@ -150,7 +145,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs article + noun + possessive pronoun (τοὺς μαθητὰς αὐτοῦ); Vulgate uses noun + possessive adjective (discipulos suos); Peshitta attaches the pronominal suffix directly to the noun (ܒܬܠܡܝܕܘܗܝ, 'in-his-disciples'), reflecting standard Semitic possessive morphology."
     },
     {
       "greek_nt": [
@@ -167,8 +164,9 @@
         7,
         8
       ],
-      "variant": "minor",
-      "note": "Peshitta uses Simon instead of Peter; Vulgate uses comminatus (threatened) for epitimaō"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses ἐπετίμησεν τῷ Πέτρῳ ('he rebuked Peter') with dative object; Peshitta reads ܘܟܐܐ ܒܫܡܥܘܢ ('and he rebuked Simeon'), employing the Semitic name form; Vulgate expands to comminatus est Petro ('he threatened Peter'), using a stronger verb (comminor) than the Greek ἐπιτιμάω, though both convey stern rebuke."
     },
     {
       "greek_nt": [
@@ -182,7 +180,9 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction + historical present (καὶ λέγει); Vulgate employs present participle dicens; Peshitta uses simple perfect ܘܐܡܪ ('and he said'), converting the vivid present to narrative past, a common Peshitta tendency."
     },
     {
       "greek_nt": [
@@ -200,7 +200,9 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek orders ὕπαγε ὀπίσω μου ('go behind me'); Vulgate mirrors this as Vade retro me; Peshitta reads ܙܠ ܠܟ ܠܒܣܬܪܝ ('go to-you to-my-back'), inserting the ethical dative ܠܟ (untranslated in Greek/Latin) for emphasis, a Syriac idiom."
     },
     {
       "greek_nt": [
@@ -218,37 +220,31 @@
       "greek_nt": [
         17
       ],
-      "peshitta": [],
-      "vulgate": [
-        15
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses relative particle d- instead of causal conjunction"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
       "peshitta": [
         12
       ],
       "vulgate": [
-        16
+        15
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
+        18,
         19
       ],
       "peshitta": [
+        12,
         13,
         14
       ],
       "vulgate": [
+        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Greek uses negated verb οὐ φρονεῖς ('you do not think'); Vulgate non sapis mirrors this; Peshitta reads ܕܠܐ ܪܢܐ ܐܢܬ ('that not you-think you'), adding the independent pronoun ܐܢܬ for subject emphasis, a common Syriac clarification absent in Greek and Latin."
     },
     {
       "greek_nt": [
@@ -264,7 +260,9 @@
         19,
         20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses double article construction τὰ τοῦ θεοῦ ('the [things] of God'); Vulgate employs relative clause quæ Dei sunt ('which are of God'); Peshitta uses simple genitive ܕܐܠܗܐ ('of God'), omitting the substantivizing article, relying on context to supply 'things'."
     },
     {
       "greek_nt": [
@@ -293,12 +291,14 @@
         23,
         24
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses double article τὰ τῶν ἀνθρώπων ('the [things] of men'); Vulgate employs relative clause quæ sunt hominum ('which are of men'); Peshitta reads ܕܒܢܝ ܐܢܫܐ ('of sons-of man'), using the idiomatic Semitic construct phrase for 'humanity' and omitting the substantivizing article."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.783558+00:00",
+    "generated_at": "2026-04-22T12:17:07.998740+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

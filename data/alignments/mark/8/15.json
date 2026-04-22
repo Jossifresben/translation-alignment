@@ -68,7 +68,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -80,8 +81,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܦܩܕ combines conjunction and command verb"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek διαστέλλω ('to charge, instruct solemnly') is rendered by Syriac ܦܩܕ ('to command') and Latin præcipio ('to order, warn'), both emphasizing the imperatival force rather than the iterative imperfect nuance of the Greek verb."
     },
     {
       "greek_nt": [
@@ -93,7 +95,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -107,8 +110,9 @@
         3,
         4
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܐܡܪ ܠܗܘܢ = 'and said to them'; Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a participial construction (λέγων, 'saying') with punctuation mark; Syriac employs a finite verb ܘܐܡܪ ܠܗܘܢ ('and he said to them'); Vulgate uses the gerund dicens with colon punctuation, creating three syntactically distinct but semantically equivalent introductory formulae."
     },
     {
       "greek_nt": [
@@ -125,73 +129,57 @@
         7
       ],
       "variant": "minor",
-      "note": "Greek uses two synonymous imperatives (ὁρᾶτε, βλέπετε); Peshitta ܚܙܘ ܐܙܕܗܪܘ parallels this; Vulgate 'Videte et cavete' uses coordinating conjunction"
+      "type": "expansion",
+      "note": "Greek employs a double imperative (ὁρᾶτε βλέπετε, 'watch out, take heed') for rhetorical emphasis; Syriac mirrors this with ܚܙܘ ܐܙܕܗܪܘ ('see, be warned'); Vulgate inserts the conjunction et between Videte and cavete, making the pairing more explicit and less asyndetic than the Greek original."
     },
     {
       "greek_nt": [
         6,
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned",
-      "note": "Preposition 'from': Greek ἀπὸ τῆς, Peshitta ܡܢ, Vulgate 'a'"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9,
         10
       ],
       "peshitta": [
+        6,
         7,
         8
       ],
       "vulgate": [
+        8,
         9,
         10
       ],
-      "variant": "aligned",
-      "note": "First occurrence: 'leaven of the Pharisees'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the preposition ἀπό with double article construction (τῆς ζύμης τῶν Φαρισαίων, 'the leaven of the Pharisees'); Syriac employs the preposition ܡܢ with construct state (ܚܡܝܪܐ ܕܦܪܝܫܐ, 'leaven of Pharisees') without article; Vulgate uses a fermento with genitive pharisæorum, reflecting Latin's articleless noun system."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13,
         14
       ],
       "peshitta": [
+        9,
         10,
         11
       ],
       "vulgate": [
+        11,
         12,
         13
       ],
       "variant": "minor",
-      "note": "Second occurrence: Greek repeats article τῆς; Peshitta uses pronominal suffix ܚܡܝܪܗ ('his leaven'); Vulgate omits article"
+      "type": "construction",
+      "note": "Greek repeats the full noun phrase with article (καὶ τῆς ζύμης Ἡρῴδου, 'and the leaven of Herod'); Syriac uses a pronominal suffix on the second occurrence (ܘܡܢ ܚܡܝܪܗ ܕܗܪܘܕܣ, 'and from his-leaven of Herod'), a typical Semitic economy; Vulgate employs et with anarthrous fermento Herodis, maintaining parallelism without repeating the article or preposition a."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.780551+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.996062+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -79,7 +79,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -91,8 +92,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Greek ἀγγαρεύω and Latin angariare both denote forced requisition; Peshitta ܫܚܪܘ shares this semantic field"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀγγαρεύουσιν (technical term for Roman military requisition) is rendered by Peshitta ܫܚܪܘ (general 'compel/press into service') and Vulgate angariaverunt (Latin loanword from Greek ἀγγαρεύω), reflecting different degrees of technical precision in conveying forced labor."
     },
     {
       "greek_nt": [
@@ -109,61 +111,45 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܚܕ ܕܥܒܪ ܗܘܐ (one who was passing) vs. Greek/Latin participial forms"
+      "type": "construction",
+      "note": "Greek uses present participle παράγοντά with indefinite pronoun τινα; Vulgate mirrors this with prætereuntem quempiam; Peshitta employs a relative clause construction ܚܕ ܕܥܒܪ ܗܘܐ ('one who was passing') with periphrastic perfect, syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
         6,
-        7
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses periphrastic ܕܐܬܐ ܗܘܐ (who was coming) vs. Greek/Latin simple participles"
-    },
-    {
-      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
+        6,
+        7,
         8,
         9
       ],
       "vulgate": [
+        6,
         7,
         8
       ],
       "variant": "minor",
-      "note": "Greek ἀπ' ἀγροῦ (from field/country) vs. Peshitta ܡܢ ܩܪܝܬܐ (from village) vs. Latin de villa (from farm/estate): semantic overlap with minor lexical variation"
+      "type": "lexical",
+      "note": "Greek ἀπ᾽ ἀγροῦ ('from the field/country') and Vulgate de villa ('from the country estate') use singular; Peshitta ܡܢ ܩܪܝܬܐ ('from the village/town') employs a more specific urban term, possibly reflecting a different understanding of Simon's point of origin or a lexical preference for settled habitation over agricultural land."
     },
     {
       "greek_nt": [
@@ -176,98 +162,66 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun τὸν πατέρα in apposition; Vulgate mirrors with patrem; Peshitta employs pronominal suffix ܐܒܘܗܝ ('his father'), a typical Semitic construction replacing the Greek article with possessive morphology."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
+        12,
         13
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        10,
+        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place patrem before the sons' names (Ἀλεξάνδρου καὶ Ῥούφου / Alexandri et Rufi); Peshitta reverses the order, placing ܐܒܘܗܝ after the relative clause but maintaining the genitive relationship through the construct state, a stylistic variation without semantic impact."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         16,
-        17
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
         14
       ],
       "vulgate": [
+        15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τὸν σταυρὸν αὐτοῦ and Vulgate crucem ejus use article/possessive pronoun with genitive ('his cross'); Peshitta ܙܩܝܦܗ employs a pronominal suffix on the noun itself ('his-cross'), a standard Semitic construction that collapses the Greek two-word phrase into a single morphological unit."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.844187+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.049520+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

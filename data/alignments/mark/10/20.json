@@ -56,51 +56,37 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses article + δέ (ὁ δέ, 'but he'); Vulgate employs At ille ('but he'), a standard Latin adversative construction; Peshitta uses pronoun + ܕܝܢ (ܗܘ ܕܝܢ), the typical Syriac adversative particle. All three convey the same contrastive function with language-specific particles."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a participial construction (ἀποκριθεὶς ἔφη, 'answering, he said'); Peshitta uses two finite verbs connected by waw (ܥܢܐ ܘܐܡܪ, 'he answered and said'), a characteristic Semitic hendiadys; Vulgate uses a gerund + finite verb (respondens ait), mirroring the Greek structure. Semantically equivalent across all three traditions."
     },
     {
       "greek_nt": [
@@ -114,7 +100,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Vulgate adds explicit colon punctuation"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illi to mark direct speech, a Latin scribal convention not reflected in Greek or Syriac manuscripts. The colon functions as a punctuation marker without semantic content."
     },
     {
       "greek_nt": [
@@ -148,43 +135,28 @@
         8
       ],
       "peshitta": [
-        8
+        8,
+        9
       ],
       "vulgate": [
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit object pronoun ܐܢܝܢ 'them' for clarity"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta adds the pronominal suffix ܐܢܝܢ ('them') as an explicit direct object after ܢܛܪܬ ('I have kept'), making the referent of 'these all' grammatically explicit. Greek ἐφυλαξάμην and Latin observavi both govern their objects (ταῦτα πάντα / hæc omnia) without requiring an additional pronoun, but Syriac syntax prefers the resumptive element for clarity."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        10,
         11,
         12
       ],
@@ -193,8 +165,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.795713+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.010337+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -53,29 +53,22 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek μοιχεῖαι (adulteries) omitted in both Peshitta and Vulgate; Vulgate has 'furta' (thefts) instead, which appears earlier in the vice list"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "added",
-      "note": "Peshitta ܥܠܘܒܘܬܐ and Vulgate 'furta' (thefts) not present in this position in Greek; corresponds to κλοπαί earlier in Mark 7:22"
+      "type": "omission",
+      "note": "Greek μοιχεῖαι ('adulteries') is absent from both the Peshitta and Vulgate witnesses at this position. The Peshitta begins the vice list with ܥܠܘܒܘܬܐ ('adultery/fornication'), which may represent a conflation or repositioning of this term, though it appears to align more closely with Greek πλεονεξίαι in sequence."
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "note": "Greek πλεονεξίαι (covetousness) aligned with Vulgate 'avaritiæ'; Peshitta may conflate with ܒܝܫܘܬܐ"
+      "type": "lexical",
+      "note": "Greek πλεονεξίαι ('covetousness, greed') is rendered by Peshitta ܥܠܘܒܘܬܐ ('adultery/fornication') and Vulgate avaritiæ ('avarice, greed'). The Peshitta appears to have transposed or conflated the semantic field of sexual immorality with covetousness, while the Vulgate preserves the economic vice."
     },
     {
       "greek_nt": [
@@ -87,7 +80,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -99,7 +93,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -111,7 +106,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -126,7 +122,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -138,7 +135,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -150,7 +148,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -162,13 +161,24 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Vulgate inserts furta ('thefts') at the head of the vice list, a term absent from both the Greek NA28 and the Peshitta. This may reflect harmonisation with parallel Synoptic vice catalogues or represent a Western textual tradition."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.775942+00:00",
-    "confidence": 0.7,
+    "generated_at": "2026-04-22T12:17:07.991029+00:00",
+    "confidence": 0.72,
     "schema_version": 1
   }
 }

@@ -74,7 +74,8 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb of speaking. This is a characteristic Syriac stylistic preference for asyndetic narrative transitions where Greek and Latin retain coordinating conjunctions."
     },
     {
       "greek_nt": [
@@ -86,7 +87,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -100,7 +102,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after illis to mark direct discourse, a punctuation convention absent in the Greek and Peshitta manuscript traditions. This represents Latin scribal practice rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -112,7 +115,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -121,7 +125,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek ἀλλαχοῦ (elsewhere/another way) not explicitly rendered in Peshitta or Vulgate"
+      "type": "omission",
+      "note": "Greek ἀλλαχοῦ ('elsewhere, to another place') is omitted in both Peshitta and Vulgate. The adverb is semantically redundant given the following prepositional phrase specifying destination, and both traditions streamline by eliminating this pleonasm."
     },
     {
       "greek_nt": [
@@ -143,30 +148,24 @@
         9
       ],
       "variant": "major",
-      "note": "Greek κωμοπόλεις (market towns) vs Peshitta ܠܩܘܪܝܐ ܘܠܡܕܝܢܬܐ (villages and cities) vs Vulgate vicos et civitates (villages and cities); substantive lexical difference"
+      "type": "expansion",
+      "note": "Greek uses the rare compound κωμοπόλεις ('market-towns') modified by the participial phrase τὰς ἐχομένας ('the neighboring [ones]'). The Peshitta expands to a doublet ܠܩܘܪܝܐ ܘܠܡܕܝܢܬܐ ('to villages and to cities'), clarifying the semantic range. The Vulgate similarly expands with proximos vicos et civitates ('neighboring villages and cities'), making explicit the distinction implicit in the Greek compound noun."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits ἵνα/ut purpose conjunction"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs ἵνα καί ('so that also') as a purpose clause with emphatic particle. Syriac uses ܕܐܦ (d-'ap, 'that also'), a single conjunction conflating purpose and emphasis. Latin ut et mirrors the Greek structure exactly, maintaining both the subordinator and the emphatic particle as separate lexemes."
     },
     {
       "greek_nt": [
@@ -178,7 +177,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -188,44 +188,30 @@
         8
       ],
       "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        13,
         14
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation before final clause"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a second colon after prædicem, creating a pause before the causal clause. Greek and Peshitta maintain continuous syntax without this punctuation break, reflecting different rhetorical segmentation practices in the Latin tradition."
     },
     {
       "greek_nt": [
         13,
-        14
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        15,
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        15,
+        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -238,13 +224,14 @@
         18
       ],
       "variant": "minor",
-      "note": "Greek ἐξῆλθον (I came out) vs Vulgate veni (I came); slight semantic nuance"
+      "type": "lexical",
+      "note": "Greek ἐξῆλθον ('I came out/forth') uses a compound verb emphasizing departure from a point of origin. Syriac ܐܬܝܬ ('I came') and Latin veni ('I came') employ simple verbs of motion without the prefix, focusing on arrival rather than departure. This represents a subtle shift in aspectual perspective while maintaining semantic equivalence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.731901+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.949520+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

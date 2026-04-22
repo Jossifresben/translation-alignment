@@ -69,7 +69,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -81,7 +82,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -93,7 +95,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -105,7 +108,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -115,138 +119,76 @@
         4
       ],
       "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        4,
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds interrogative punctuation mark after first question"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Vulgate adds interrogative punctuation after fient, creating a two-question structure rather than the single compound question of Greek and Peshitta."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܘܡܢܐ (and what) as compound conjunction-interrogative, Greek/Vulgate separate καὶ/et"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
+        6,
         7,
         8
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        6,
+        7,
+        8,
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds erit (will be) for clarity"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses καὶ τί τὸ σημεῖον (conjunction + interrogative + article + noun); Peshitta employs ܘܡܢܐ ܐܬܐ (conjunction + interrogative-noun compound); Vulgate mirrors Greek structure with et quod signum erit. All three are semantically equivalent but syntactically distinct in their interrogative formulations."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
-        13
+        10
       ],
       "variant": "major",
-      "note": "Greek μέλλῃ (be about to), Peshitta ܕܩܪܝܒܢ (draw near), Vulgate incipient (begin) show semantic variation in temporal aspect"
+      "type": "substitution",
+      "note": "Greek ὅταν μέλλῃ ('when [they] are about to') uses the auxiliary verb μέλλω to express imminence; Peshitta ܡܐ ܕܩܪܝܒܢ ('when [they] draw near') employs a spatial-temporal metaphor of proximity; Vulgate quando alone lacks the imminence marker, creating a simpler temporal clause. The Peshitta's choice reflects Semitic idiom for eschatological nearness."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
+        12,
         13
       ],
       "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
+        9,
+        10,
         11
       ],
       "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
+        12,
+        13,
+        14,
         15
       ],
-      "variant": "added",
-      "note": "Vulgate adds final interrogative punctuation mark"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places πάντα ('all') after the infinitive συντελεῖσθαι; Peshitta places ܟܠܗܝܢ ('all') before the infinitive ܠܡܫܬܠܡܘ, following typical Syriac word order (modifier precedes head); Vulgate inserts incipient ('begin') before consummari, adding a nuance of inception not explicit in Greek or Peshitta, and concludes with final interrogative punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.822845+00:00",
+    "generated_at": "2026-04-22T12:17:08.028816+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

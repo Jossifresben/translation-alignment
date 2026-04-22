@@ -104,7 +104,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -116,7 +117,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -129,7 +131,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs article + noun (ὁ βασιλεύς) in standard attributive position; Syriac and Latin place the title after the proper name (ܡܠܟܐ / rex), reflecting Semitic and Latin titular conventions respectively."
     },
     {
       "greek_nt": [
@@ -141,7 +145,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -151,78 +156,47 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds 'about Jesus' (ܥܠ ܝܫܘܥ) as object of hearing, absent in Greek and Vulgate"
+      "type": "expansion",
+      "note": "The Peshitta inserts ܥܠ ܝܫܘܥ ('about Jesus') as the explicit object of hearing, clarifying the referent of 'his name' in the following clause. Neither the Greek nor the Vulgate transmit this expansion, leaving the object implicit."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
+        5,
         6,
         7
       ],
-      "variant": "aligned"
+      "peshitta": [
+        5,
+        6,
+        8
+      ],
+      "vulgate": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate encloses the causal clause in parentheses (manifestum enim factum est nomen ejus), treating it as an editorial aside. Greek and Syriac integrate the clause without such punctuation, maintaining narrative flow. The semantic content remains identical across all three traditions."
     },
     {
       "greek_nt": [
         8,
-        9
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
-        7
-      ],
-      "vulgate": [
+        7,
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        10
+        8,
+        9
       ],
-      "variant": "added",
-      "note": "Vulgate adds closing parenthesis for parenthetical clause"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta adds the pronominal suffix ܠܗ ('to him') as an explicit dative of reference, clarifying that the name became known 'to Herod.' Greek uses the genitive αὐτοῦ ('his [name]') and Vulgate ejus, both referring to Jesus; Syriac's construction slightly shifts the focus to Herod as recipient of the knowledge."
     },
     {
       "greek_nt": [
@@ -234,7 +208,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -248,7 +223,18 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܐܡܪ ܗܘܐ (was saying) vs. Greek imperfect ἔλεγον"
+      "type": "grammar",
+      "note": "Greek uses the imperfect plural ἔλεγον ('they were saying'), indicating multiple speakers or popular opinion. Vulgate employs the singular imperfect dicebat ('he was saying'), attributing the statement to Herod alone. Peshitta uses ܐܡܪ ܗܘܐ (perfect + auxiliary), which can be read as either singular or collective, though context suggests singular agreement with Herod."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        12
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after dicebat to introduce direct discourse. Greek uses ὅτι as a quotative marker without additional punctuation; Syriac employs no explicit marker, transitioning directly to the reported speech."
     },
     {
       "greek_nt": [
@@ -256,36 +242,29 @@
       ],
       "peshitta": [],
       "vulgate": [
-        12,
         13
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation; Greek ὅτι (that) introduces indirect discourse, Peshitta lacks explicit marker"
+      "type": "construction",
+      "note": "Greek and Vulgate use explicit quotative markers (ὅτι / Quia) to introduce indirect discourse. Syriac omits any conjunction, employing asyndetic construction typical of Semitic narrative style, where the shift to reported speech is unmarked."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
         16
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular participle ὁ βαπτίζων ('the one baptizing') as a substantival epithet. Vulgate employs the nominal title Baptista. Syriac uses the participial noun ܡܥܡܕܢܐ ('the baptizer'), functionally equivalent to the Greek construction but morphologically distinct."
     },
     {
       "greek_nt": [
@@ -297,7 +276,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -313,8 +293,9 @@
         17,
         18
       ],
-      "variant": "minor",
-      "note": "Peshitta uses idiomatic ܡܢ ܒܝܬ ܡܝܬܐ (from house of dead) vs. Greek ἐκ νεκρῶν and Vulgate a mortuis"
+      "variant": "major",
+      "type": "idiom",
+      "note": "Greek uses ἐκ νεκρῶν ('from [the] dead'), a standard prepositional phrase. Vulgate mirrors this with a mortuis. Syriac employs the idiomatic construction ܡܢ ܒܝܬ ܡܝܬܐ ('from the house of the dead'), a Semitic circumlocution for Sheol or the realm of the dead, reflecting indigenous eschatological vocabulary."
     },
     {
       "greek_nt": [],
@@ -323,21 +304,12 @@
         19
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a second colon after mortuis, creating a rhetorical pause before the causal explanation. Neither Greek nor Syriac employ such punctuation, maintaining continuous syntax from resurrection to its consequence."
     },
     {
       "greek_nt": [
-        20
-      ],
-      "peshitta": [],
-      "vulgate": [
-        20
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction before causal clause"
-    },
-    {
-      "greek_nt": [
+        20,
         21,
         22
       ],
@@ -346,34 +318,29 @@
         19
       ],
       "vulgate": [
+        20,
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        23,
         24,
         25
       ],
       "peshitta": [
-        20
-      ],
-      "vulgate": [
-        22
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        23
-      ],
-      "peshitta": [
+        20,
         21
       ],
       "vulgate": [
+        22,
         23
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb ἐνεργοῦσιν before the subject αἱ δυνάμεις ('the powers operate'), employing verb-subject order. Vulgate inverts to subject-verb (virtutes operantur). Syriac uses ܚܝܠܐ ܡܣܬܥܪܝܢ (noun + participle), with the singular collective noun ܚܝܠܐ ('power') governing a plural participle, a typical Semitic construction for abstract collectives."
     },
     {
       "greek_nt": [
@@ -387,13 +354,14 @@
         24,
         25
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.763522+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.880454+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

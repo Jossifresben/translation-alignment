@@ -57,7 +57,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -67,8 +68,9 @@
       "vulgate": [
         2
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits the adverb 'already' (ἤδη/jam)"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the temporal adverb ἤδη / jam ('already'), which Greek and Latin use to emphasize the lateness of the hour. This is a stylistic reduction, as the temporal clause ܟܕ ܗܘܐ ܪܡܫܐ ('when it was evening') sufficiently conveys the timing without the intensifier."
     },
     {
       "greek_nt": [
@@ -85,7 +87,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek genitive absolute, Vulgate temporal cum-clause, Peshitta temporal kad-clause"
+      "type": "construction",
+      "note": "Greek uses a genitive absolute construction (ὀψίας γενομένης, 'evening having arrived'); Latin employs a cum-clause with factum (cum sero esset factum, 'when it had become late'); Syriac uses a temporal ܟܕ-clause with simple verb (ܟܕ ܗܘܐ ܪܡܫܐ, 'when it was evening'). All three express the same temporal circumstance through tradition-specific syntactic patterns."
     },
     {
       "greek_nt": [
@@ -95,8 +98,9 @@
       "vulgate": [
         6
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits causal conjunction ἐπεί/quia, using simple relative construction"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the causal conjunction ἐπεὶ / quia ('since/because'), moving directly from the temporal clause to the explanatory material. The causal relationship remains implicit in the Syriac syntax through simple juxtaposition of the clauses."
     },
     {
       "greek_nt": [
@@ -110,7 +114,8 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -129,14 +134,15 @@
         11,
         12
       ],
-      "variant": "aligned",
-      "note": "Explanatory clause defining Preparation Day as day before Sabbath"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a relative clause with neuter singular pronoun (ὅ ἐστιν προσάββατον, 'which is [the day] before Sabbath'); Latin mirrors this structure (quod est ante sabbatum); Syriac employs a ܕ-clause with prepositional phrase (ܕܐܝܬܝܗ ܩܕܡ ܫܒܬܐ, 'which is before Sabbath'). All three provide the same explanatory gloss for παρασκευή / parasceve / ܥܪܘܒܬܐ through functionally equivalent relative constructions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.848379+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.052649+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

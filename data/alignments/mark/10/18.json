@@ -72,7 +72,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek article + δέ (postpositive conjunction) vs. Latin autem; Peshitta omits both as typical Semitic style"
+      "type": "omission",
+      "note": "The Peshitta omits the Greek article-conjunction phrase Ὁ δὲ (nominative article + postpositive δέ), which the Vulgate renders as autem. Syriac typically lacks the article and often omits Greek postpositives when the discourse flow is clear from context."
     },
     {
       "greek_nt": [
@@ -84,7 +85,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Vulgate places 'Jesus' (Jesus) in initial position before autem, whereas Greek and Peshitta position the subject after the conjunction/particle. This reflects Latin stylistic preference for fronting proper names in narrative speech introductions."
     },
     {
       "greek_nt": [
@@ -106,18 +109,12 @@
         1
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after ei to mark the transition to direct discourse, a punctuation convention absent in Greek manuscripts (which use a raised dot or no mark) and irrelevant to Syriac orthography."
     },
     {
       "greek_nt": [
@@ -133,29 +130,21 @@
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         4,
-        5
+        5,
+        6
       ],
       "vulgate": [
+        6,
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܩܪܐ ܐܢܬ (call + you) with explicit subject pronoun; Greek/Latin use verb alone"
+      "type": "gloss",
+      "note": "The Peshitta explicitly supplies the second-person pronoun ܐܢܬ ('you') as subject of the verb ܩܪܐ ('call'), making explicit what is implicit in the Greek verb ending λέγεις and Latin dicis. This is a typical Syriac clarifying gloss for emphasis or disambiguation."
     },
     {
       "greek_nt": [
@@ -165,39 +154,24 @@
         7
       ],
       "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        8,
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate places a question mark after bonum, segmenting the rhetorical question from the following assertion. Greek manuscripts use a semicolon (αὐτῷ·) or no punctuation; Peshitta lacks punctuation marks entirely, relying on syntactic structure."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        10,
         11
       ],
       "variant": "aligned"
@@ -214,38 +188,33 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the conditional construction εἰ μή ('if not' = 'except'), which Peshitta mirrors with ܐܠܐ ܐܢ (a double-particle exception formula), while Vulgate employs the single conjunction nisi. All three express the same exceptive logic but through tradition-specific syntactic patterns."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14,
         15
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek retains the article ὁ before θεός ('the God'), emphasizing definiteness; both Peshitta (ܐܠܗܐ) and Vulgate (Deus) omit the article, as Syriac uses the emphatic state and Latin lacks articles. The semantic force (monotheistic uniqueness) remains identical across all three traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.795385+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.010015+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

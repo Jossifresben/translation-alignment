@@ -71,23 +71,16 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [],
       "vulgate": [
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek εὐθέως 'immediately' absent in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "The Peshitta omits both the conjunction καὶ and the temporal adverb εὐθέως ('immediately'), beginning directly with the gathering. The Vulgate retains only the conjunction (et), omitting the temporal marker, likely for stylistic concision."
     },
     {
       "greek_nt": [],
@@ -101,7 +94,8 @@
         6
       ],
       "variant": "added",
-      "note": "Vulgate adds 'et auditum est quod in domo esset' (and it was heard that he was in the house), absent in Greek and Peshitta"
+      "type": "expansion",
+      "note": "The Vulgate inserts an entire introductory clause (et auditum est quod in domo esset, 'and it was heard that he was in the house') not present in either the Greek or Peshitta. This expansion provides narrative context for the subsequent gathering, possibly reflecting Western textual tradition or editorial clarification."
     },
     {
       "greek_nt": [],
@@ -109,74 +103,31 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "construction",
+      "note": "The Vulgate's second et coordinates the added introductory clause with the main gathering verb, a syntactic necessity absent from the Greek and Peshitta which lack the expansion."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        10,
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
         4,
         5,
-        6
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "minor",
-      "note": "Peshitta expands 'to have space' with 'could hold them' (ܐܫܟܚ ܐܚܕ ܐܢܘܢ)"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8,
         9,
@@ -184,16 +135,27 @@
         11
       ],
       "peshitta": [
+        2,
+        3,
+        4,
+        5,
+        6,
         7,
         8,
         9
       ],
       "vulgate": [
+        10,
+        11,
+        12,
+        13,
         14,
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ὥστε μηκέτι χωρεῖν μηδὲ τὰ πρὸς τὴν θύραν (result clause with double negation: 'so that no longer to have space, not even [the areas] at the door'). Peshitta employs ܐܝܟܢܐ ܕܠܐ ܐܫܟܚ ܐܚܕ ܐܢܘܢ ܐܦܠܐ ܩܕܡ ܬܪܥܐ ('such that not one could hold them, not even before the door'), using a personal construction with 'hold/contain'. Vulgate renders ita ut non caperet neque ad januam ('so that it did not hold [them], not even at the door'), using impersonal caperet. All three convey spatial impossibility but through distinct syntactic strategies."
     },
     {
       "greek_nt": [
@@ -205,7 +167,8 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -219,7 +182,8 @@
         18
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܡܡܠܠ ܗܘܐ (was speaking)"
+      "type": "grammar",
+      "note": "Greek ἐλάλει is imperfect active indicative ('he was speaking'). Peshitta ܘܡܡܠܠ ܗܘܐ uses periphrastic construction (participle + ܗܘܐ) to express continuous past action, a standard Syriac equivalent. Vulgate loquebatur is likewise imperfect, showing aspectual agreement across all three traditions despite morphological differences."
     },
     {
       "greek_nt": [
@@ -231,7 +195,9 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek αὐτοῖς (dative 'to them') and Vulgate eis (dative) use simple pronominal objects. Peshitta ܥܡܗܘܢ employs the preposition ܥܡ ('with') + pronominal suffix, reflecting Syriac preference for prepositional phrases over bare datives, though semantically equivalent in this context."
     },
     {
       "greek_nt": [
@@ -244,13 +210,14 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.733810+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.951148+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

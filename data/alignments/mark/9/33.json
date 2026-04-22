@@ -77,7 +77,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the arrival at Capernaum, beginning instead with the disciples' silence"
+      "type": "omission",
+      "note": "The Vulgate omits the entire arrival clause 'And they came to Capernaum' (Greek Καὶ ἦλθον εἰς Καφαρναούμ; Peshitta ܘܐܬܘ ܠܟܦܪܢܚܘܡ), beginning instead with the disciples' silence ('At illi tacebant'), thereby restructuring the narrative sequence to focus immediately on the disciples' response rather than the geographic transition."
     },
     {
       "greek_nt": [
@@ -94,7 +95,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the house setting; Peshitta uses 'when they entered the house' vs Greek 'in the house having been'"
+      "type": "omission",
+      "note": "The Vulgate omits the temporal-locative clause 'and in the house having been' (Greek καὶ ἐν τῇ οἰκίᾳ γενόμενος; Peshitta ܘܟܕ ܥܠܘ ܠܒܝܬܐ 'and when they entered the house'), collapsing the narrative setting into the subsequent dialogue without specifying the indoor location."
     },
     {
       "greek_nt": [
@@ -108,19 +110,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits Jesus' question entirely, replacing with 'they were silent'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'At illi tacebant' (But they were silent) with no Greek/Peshitta parallel"
+      "type": "omission",
+      "note": "The Vulgate omits Jesus' direct question to the disciples (Greek ἐπηρώτα αὐτούς 'he was asking them'; Peshitta ܡܫܐܠ ܗܘܐ ܠܗܘܢ), instead presenting only the disciples' silence and the content of their prior dispute, thereby transforming a dialogue scene into narrative exposition."
     },
     {
       "greek_nt": [
@@ -131,7 +122,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek/Peshitta 'What' omitted in Vulgate's indirect discourse"
+      "type": "omission",
+      "note": "The Vulgate omits the interrogative pronoun τί / ܕܡܢܐ ('what'), which in Greek and Peshitta introduces Jesus' direct question about the disciples' discussion; the Latin instead uses 'siquidem' ('for indeed') to introduce explanatory narration rather than quoted speech."
     },
     {
       "greek_nt": [
@@ -146,40 +138,47 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         15,
-        16
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        7,
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17
       ],
       "peshitta": [
+        12,
         9,
         10
       ],
       "vulgate": [
+        7,
+        8,
         9
       ],
-      "variant": "major",
-      "note": "Greek 'were you discussing' vs Peshitta 'were you thinking' vs Vulgate 'they disputed'; Vulgate changes to past indicative third person"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the reflexive prepositional phrase πρὸς ἑαυτούς ('among yourselves') before the verb διελογίζεσθε ('were you discussing'); Peshitta uses ܒܝܢܬܟܘܢ ('among you') after the participial construction ܡܬܚܫܒܝܢ ܗܘܝܬܘܢ; Vulgate employs 'inter se' ('among themselves') mid-clause before 'disputaverunt', reflecting typical Latin verb-final tendency in subordinate constructions."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate uniquely opens with 'At illi tacebant' ('But they were silent'), adding an explicit statement of the disciples' silence not present in Greek or Peshitta, which both proceed directly to Jesus' question or the content of the dispute; this addition transforms the narrative structure from question-and-silence to silence-then-explanation."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        4,
         10,
         11,
         12,
@@ -187,13 +186,14 @@
         14
       ],
       "variant": "added",
-      "note": "Vulgate adds explicit content of dispute 'quis eorum major esset' (who of them was greater), absent from Greek/Peshitta question"
+      "type": "expansion",
+      "note": "The Vulgate adds the explanatory clause 'siquidem in via inter se disputaverunt: quis eorum major esset' ('for indeed on the way they had disputed among themselves: who of them was greater'), making explicit the content of the disciples' argument that Greek and Peshitta leave implicit or address through Jesus' question; this expansion provides narrative closure absent in the other traditions' verse segmentation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.789974+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T12:17:08.004980+00:00",
+    "confidence": 0.72,
     "schema_version": 1
   }
 }

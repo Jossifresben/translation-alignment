@@ -86,7 +86,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -99,7 +100,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܩܪܒ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,7 +118,8 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -137,43 +139,35 @@
         8
       ],
       "variant": "minor",
-      "note": "Vulgate uses relative clause 'qui audierat illos conquirentes' vs. Greek/Peshitta participial construction"
+      "type": "construction",
+      "note": "Greek uses a genitive absolute construction (ἀκούσας αὐτῶν συζητούντων) with a participle governing a genitive participle; Vulgate employs a relative clause (qui audierat illos conquirentes) with finite verb plus accusative-participle construction; Peshitta mirrors the Greek participial structure with ܘܫܡܥ ܐܢܘܢ ܕܕܪܫܝܢ, using a d-clause for the dependent participle."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9,
-        10
-      ],
-      "variant": "minor",
-      "note": "Vulgate adds conjunction 'et' before 'videns'"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10,
         11,
         12
       ],
       "peshitta": [
+        7,
         8,
         9,
         10,
         11
       ],
       "vulgate": [
+        9,
+        10,
         11,
         12,
         13,
         14
       ],
       "variant": "major",
-      "note": "Peshitta adds ܦܬܓܡܐ (word/answer) not present in Greek or Vulgate"
+      "type": "expansion",
+      "note": "Peshitta adds ܦܬܓܡܐ ('word, answer, response') as the direct object of 'answered,' making explicit what is implicit in Greek and Latin. This expansion clarifies the semantic object of the verb ἀπεκρίθη/responderit, a characteristic Syriac idiom for verbs of speech requiring an explicit object."
     },
     {
       "greek_nt": [
@@ -187,7 +181,8 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -211,13 +206,14 @@
         21
       ],
       "variant": "minor",
-      "note": "Peshitta lacks explicit copula (ἐστὶν/esset); Vulgate uses indirect question construction 'quod esset...mandatum' vs. Greek direct question"
+      "type": "word-order",
+      "note": "Greek and Peshitta place the interrogative pronoun first (ποία/ܐܝܢܘ 'which'), followed by the copula and noun phrase; Vulgate restructures with an indirect question introduced by quod ('what'), placing the copula (esset) before the adjective primum, reflecting Latin indirect-discourse syntax requiring the subjunctive mood."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.819222+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.025432+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

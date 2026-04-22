@@ -70,7 +70,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,7 +84,23 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܩܪܒ combines conjunction and approach verb"
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs two aorist participles (προσελθών, κρατήσας) followed by the main verb ἤγειρεν, creating a temporal sequence. Peshitta reverses the order, placing 'took hold' (ܐܚܕܗ) before 'raised up' (ܘܐܩܝܡܗ), while Vulgate mirrors the Greek structure with accedens...elevavit...apprehensa, though the participial syntax differs slightly."
     },
     {
       "greek_nt": [
@@ -99,24 +116,11 @@
       "vulgate": [
         4,
         5,
-        6
+        6,
+        7
       ],
-      "variant": "minor",
-      "note": "Word order variation: Greek has participle κρατήσας after ἤγειρεν, Peshitta places ܐܚܕܗ ܒܐܝܕܗ before ܘܐܩܝܡܗ, Vulgate follows Greek order with apprehensa manu"
-    },
-    {
-      "greek_nt": [
-        2,
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2,
-        3
-      ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -128,7 +132,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -141,34 +146,27 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܡܚܕܐ combines conjunction and adverb 'immediately'; Vulgate continuo placed before verb"
+      "type": "word-order",
+      "note": "Greek places the adverb εὐθέως ('immediately') after the verb ἀφῆκεν, while Vulgate positions continuo before dimisit. Peshitta integrates the immediacy concept within ܘܡܚܕܐ ('and immediately'), which precedes the verb, reflecting typical Semitic adverbial placement."
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
         10,
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
         11,
         12
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        10,
+        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -180,48 +178,32 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
-        14
-      ],
       "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܘܡܫܡܫܐ ܗܘܬ (was ministering)"
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        15,
         16
       ],
       "peshitta": [
+        7,
+        8,
         9
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the imperfect διηκόνει (simple verb form) with dative pronoun αὐτοῖς. Peshitta employs a periphrastic construction ܡܫܡܫܐ ܗܘܬ (participle + auxiliary 'was'), a common Syriac pattern for expressing continuous past action. Vulgate uses the simple imperfect ministrabat, aligning with Greek syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.730895+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.948367+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

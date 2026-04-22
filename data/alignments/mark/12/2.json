@@ -80,8 +80,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܫܕܪ"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -97,45 +96,42 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs the preposition πρὸς with article and noun (πρὸς τοὺς γεωργούς); Vulgate mirrors this with ad agricolas; Syriac uses the preposition ܠܘܬ followed directly by the noun ܦܠܚܐ without an article, reflecting typical Semitic syntax where definiteness is contextually determined rather than morphologically marked."
     },
     {
       "greek_nt": [
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
         4,
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
+        5,
         6
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta places servant earlier in clause"
+      "type": "word-order",
+      "note": "Greek places the temporal phrase τῷ καιρῷ before the direct object δοῦλον; Vulgate reverses this order with in tempore following servum; Syriac positions the temporal phrase ܒܙܒܢܐ after the direct object ܥܒܕܗ, demonstrating characteristic Syriac preference for verb-object-modifier sequencing."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
+      "peshitta": [
+        5
+      ],
       "vulgate": [
         7
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits purpose conjunction ἵνα/ut, using direct construction"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the purpose conjunction ἵνα with subjunctive λάβῃ; Vulgate employs ut with subjunctive acciperet; Syriac integrates the purpose marker ܕ (d-) as a prefix to the following prepositional phrase ܕܡܢ, creating a more compact construction typical of Semitic syntax."
     },
     {
       "greek_nt": [
@@ -151,7 +147,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܕܡܢ (d-men) combining relative and preposition; Greek repeats article with γεωργῶν"
+      "type": "construction",
+      "note": "Greek employs παρὰ τῶν γεωργῶν ('from the farmers') with the genitive article and repeated noun; Vulgate uses ab agricolis, repeating the noun from verse-initial position; Syriac omits the second reference to the farmers entirely, relying on contextual clarity from the earlier mention of ܦܠܚܐ, a typical Semitic ellipsis pattern."
     },
     {
       "greek_nt": [
@@ -169,36 +166,29 @@
       "greek_nt": [
         13,
         14,
-        15
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        11,
-        12
-      ],
-      "variant": "minor",
-      "note": "Peshitta incorporates preposition in ܕܡܢ construction; Greek uses ἀπό separately"
-    },
-    {
-      "greek_nt": [
+        15,
         16,
         17
       ],
       "peshitta": [
+        5,
+        6,
         7
       ],
       "vulgate": [
+        11,
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ἀπὸ τῶν καρπῶν τοῦ ἀμπελῶνος with double article construction (partitive genitive 'from the fruits of the vineyard'); Vulgate employs de fructu vineæ with singular fructu; Syriac integrates the entire prepositional phrase into the earlier purpose clause with ܕܡܢ ܦܐܪܐ ܕܟܪܡܐ, using construct-state syntax (ܕܟܪܡܐ modifying ܦܐܪܐ) and positioning it before the verb ܢܣܒ rather than after."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.814101+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.020994+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -62,7 +62,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -74,8 +75,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܥܢܐ combines conjunction and verb 'and he answered'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle (ἀποκριθεὶς) with a finite verb (λέγει), a Semitic pleonasm common in the Gospels. Peshitta employs two coordinate finite verbs (ܘܥܢܐ ܘܐܡܪ, 'and he answered and said'), mirroring the Greek construction idiomatically. Vulgate uses a single participle (respondens) with finite verb (ait), condensing the expression into classical Latin style."
     },
     {
       "greek_nt": [
@@ -87,7 +89,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -97,50 +100,35 @@
         1
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek λέγει includes a raised dot (·) as punctuation within the token. Vulgate separates the verb (ait) from the colon (:) as distinct tokens, reflecting Latin manuscript punctuation conventions. Peshitta integrates the verb ܘܐܡܪ without separate punctuation marking."
     },
     {
       "greek_nt": [
         4,
-        5
-      ],
-      "peshitta": [
-        3,
-        4
-      ],
-      "vulgate": [
         5,
-        6
-      ],
-      "variant": "minor",
-      "note": "Greek τίς ἐστιν vs Peshitta ܡܢ ܗܝ vs Vulgate Quæ est; feminine interrogative with copula"
-    },
-    {
-      "greek_nt": [
         6,
         7,
         8
       ],
       "peshitta": [
+        3,
+        4,
         5
       ],
       "vulgate": [
+        5,
+        6,
         7,
         8
       ],
-      "variant": "aligned",
-      "note": "Greek article ἡ not represented in Peshitta or Vulgate"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs the interrogative pronoun τίς with copula ἐστιν and definite article ἡ before μήτηρ ('Who is the mother'), following standard Greek word order. Peshitta uses ܡܢ ܗܝ ܐܡܝ ('Who [is] she, my mother'), placing the pronoun ܗܝ before the noun and omitting an explicit copula (typical Semitic nominal sentence structure). Vulgate Quæ est mater mea mirrors Greek syntax with interrogative-copula-noun order but uses the feminine interrogative Quæ."
     },
     {
       "greek_nt": [
@@ -152,7 +140,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -170,22 +159,27 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta repeats ܘܡܢ ܐܢܘܢ 'and who are they'; Greek/Vulgate use article with noun"
+      "type": "construction",
+      "note": "Greek repeats the interrogative structure with article οἱ and noun ἀδελφοί μου ('the brothers of mine'), maintaining parallelism with the first clause. Peshitta uses ܘܡܢ ܐܢܘܢ ܐܚܝ ('and who [are] they, my brothers'), repeating the interrogative ܡܢ and employing the independent pronoun ܐܢܘܢ ('they') for emphasis, a typical Semitic construction. Vulgate condenses to fratres mei without repeating the interrogative or copula, relying on the coordinating conjunction to carry the question forward."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        8
+      ],
       "vulgate": [
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark as separate token"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.744884+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.962523+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

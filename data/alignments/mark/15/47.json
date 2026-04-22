@@ -49,63 +49,66 @@
   "alignment": [
     {
       "greek_nt": [
-        1
+        0,
+        1,
+        2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article ἡ with postpositive δέ, a standard Greek construction; Syriac and Latin lack the article (Syriac ܡܪܝܡ ܕܝܢ, Latin Maria autem), as neither language requires articles with proper names in this syntactic position."
     },
     {
       "greek_nt": [
-        0,
-        2,
         3,
         4
       ],
       "peshitta": [
-        0,
         2
       ],
       "vulgate": [
-        0,
         2
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article ἡ before the epithet Μαγδαληνή, a typical Greek attributive construction; Syriac ܡܓܕܠܝܬܐ and Latin Magdalene function as appositional epithets without articles, reflecting the morphosyntactic norms of their respective languages."
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3,
+        4
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses waw-prefix conjunction attached to following name"
-    },
-    {
-      "greek_nt": [
         7,
-        6,
         8
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "minor",
-      "note": "Peshitta adds demonstrative pronoun ܗܝ (she/that one) for clarity; Vulgate Joseph vs Greek Ἰωσῆτος (Joses) represents name variant"
+      "type": "construction",
+      "note": "Greek ἡ Ἰωσῆτος uses the article with a genitive patronymic ('the [one] of Joses'); Syriac ܗܝ ܕܝܘܣܐ employs the independent pronoun ܗܝ ('she') with a genitive relative construction, making the relationship more explicit; Latin Joseph uses the genitive alone without article or pronoun, relying on apposition."
     },
     {
       "greek_nt": [
@@ -117,7 +120,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐθεώρουν (imperfect of θεωρέω, 'were watching/observing') emphasizes continuous observation; Syriac ܚܙܝ (perfect of ܚܙܐ, 'saw/beheld') and Latin aspiciebant (imperfect of aspicio, 'were looking at') are semantically equivalent, though the Syriac perfect may carry perfective nuance in context."
     },
     {
       "greek_nt": [
@@ -141,12 +146,14 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek τέθειται is perfect passive indicative ('has been laid'), emphasizing the completed state; Syriac ܕܐܬܬܣܝܡ uses the ethpeal (reflexive-passive) perfect with the relative particle ܕ, mirroring the Greek construction; Latin poneretur is imperfect passive subjunctive in indirect question, reflecting Latin's sequence-of-tenses rules rather than a semantic divergence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.849277+00:00",
+    "generated_at": "2026-04-22T12:17:08.054025+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

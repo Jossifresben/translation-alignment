@@ -84,31 +84,24 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ opening conjunction omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek καὶ opening the clause is omitted in both Peshitta and Vulgate. This initial conjunction links the second seed-type to the preceding narrative; its absence in the translations suggests they treat this as a new independent clause rather than a continuation."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -120,7 +113,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -136,19 +130,22 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
-      "greek_nt": [
-        7
-      ],
+      "greek_nt": [],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καὶ before ὅπου omitted in Peshitta and Vulgate"
+      "vulgate": [
+        10
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after 'multam' to mark the end of the relative clause, creating a stronger syntactic break before the main clause resumes. Neither Greek nor Peshitta manuscripts employ comparable punctuation at this juncture."
     },
     {
       "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
@@ -157,7 +154,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses καὶ ὅπου ('and where') as a compound conjunction introducing a relative clause. Peshitta and Vulgate employ simple relative pronouns (ܐܝܟܐ / ubi) without the coordinating conjunction, yielding a more compact syntactic structure with identical semantic force."
     },
     {
       "greek_nt": [
@@ -171,66 +170,42 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek οὐκ εἶχεν uses imperfect tense; Vulgate non habuit employs perfect tense; Peshitta ܕܠܝܬ uses a negative existential particle. All three convey past negation of possession, but the aspectual nuances differ: Greek emphasizes durative state, Latin completed action, Syriac simple non-existence."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon not present in Greek or Peshitta"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܘܒܪ (and immediately) vs Greek καὶ εὐθὺς vs Vulgate et statim - stylistic variation"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        11,
         12
       ],
       "variant": "minor",
-      "note": "Peshitta ܫܥܬܗ (its hour/time) adds possessive suffix not explicit in Greek εὐθὺς or Vulgate statim"
+      "type": "idiom",
+      "note": "Greek καὶ εὐθὺς ('and immediately') and Vulgate et statim are direct equivalents. Peshitta ܘܒܪ ܫܥܬܗ ('and in its hour') is an idiomatic Syriac temporal expression meaning 'immediately,' employing a construct-state phrase rather than a simple adverb."
     },
     {
       "greek_nt": [
@@ -243,76 +218,62 @@
         13,
         14
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        15
-      ],
       "variant": "minor",
-      "note": "Greek διὰ τὸ vs Peshitta ܡܛܠ vs Vulgate quoniam - causal constructions with slight stylistic differences"
+      "type": "construction",
+      "note": "Greek ἐξανέτειλεν is a single aorist verb ('it sprang up'). Vulgate exortum est uses a perfect passive participle with auxiliary verb, a periphrastic construction typical of later Latin. Peshitta ܒܠܨ employs a simple perfect verb, semantically aligned with Greek but morphologically distinct."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        20
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate places a final colon after 'terræ,' marking the verse's conclusion. This punctuation choice reflects Latin liturgical and rhetorical conventions for clause demarcation, absent in the Greek and Peshitta manuscript traditions."
     },
     {
       "greek_nt": [
+        16,
         17,
         18,
         19
       ],
       "peshitta": [
+        12,
         13,
         14
       ],
       "vulgate": [
+        15,
         16,
         17
       ],
       "variant": "minor",
-      "note": "Greek articular infinitive τὸ μὴ ἔχειν vs Peshitta ܕܠܝܬ ܗܘܐ (that there was not) vs Vulgate non habebat - different syntactic constructions for negated possession"
+      "type": "construction",
+      "note": "Greek διὰ τὸ μὴ ἔχειν uses an articular infinitive construction with prepositional phrase ('because of the not having'). Vulgate quoniam non habebat employs a finite causal clause with imperfect verb. Peshitta ܡܛܠ ܕܠܝܬ ܗܘܐ uses a causal particle with negative existential plus auxiliary, structurally closer to Vulgate but retaining Syriac's characteristic existential negation."
     },
     {
       "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        20,
         21
       ],
       "peshitta": [
+        15,
         16
       ],
       "vulgate": [
+        18,
         19
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        20
-      ],
-      "variant": "added",
-      "note": "Vulgate adds final punctuation colon not present in Greek or Peshitta"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.745986+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.963601+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -83,14 +83,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܕܝܢ (dēn, 'but/now') for Greek καὶ; Vulgate Et aligns with Greek"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καὶ / Et, beginning the clause asyndetically with ܐܚܪܢܐ ܕܝܢ ('but another'), whereas Greek and Latin retain the coordinating conjunction linking this clause to the preceding parable elements."
     },
     {
       "greek_nt": [
@@ -102,7 +101,18 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts the contrastive particle ܕܝܢ ('but', 'however') after ܐܚܪܢܐ, creating an adversative construction absent in both Greek and Latin, which emphasizes the contrast between the failed sowings and the successful one."
     },
     {
       "greek_nt": [
@@ -114,36 +124,40 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         3,
         4,
-        5
-      ],
-      "peshitta": [
-        3,
-        4
-      ],
-      "vulgate": [
-        3,
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7
       ],
       "peshitta": [
+        3,
+        4,
         5
       ],
       "vulgate": [
+        3,
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a double-article construction (εἰς τὴν γῆν τὴν καλήν) with the adjective in attributive position, while both Peshitta (ܥܠ ܐܪܥܐ ܛܒܬܐ) and Vulgate (in terram bonam) use single-article constructions with postpositive adjectives—semantically equivalent but syntactically streamlined."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The conjunction καὶ before ἐδίδου is absent in the Peshitta, which uses asyndetic coordination (ܘܣܠܩ ܘܪܒܐ ܘܝܗܒ), and the Vulgate inserts a colon punctuation mark instead, creating a structural break before the fruit-bearing description."
     },
     {
       "greek_nt": [],
@@ -152,19 +166,35 @@
         6
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'bonam' to mark a major syntactic division between the sowing and the fruit-bearing, a punctuation choice absent in Greek and Peshitta manuscripts."
     },
     {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
+      "greek_nt": [],
+      "peshitta": [],
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate adds the conjunction 'et' before 'dabat', creating explicit coordination where Greek uses καὶ and Peshitta employs the prefixed waw on the verb itself (ܘܝܗܒ)."
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the imperfect ἐδίδου ('was yielding') emphasizing durative action, while Vulgate employs the imperfect 'dabat' mirroring this aspect; Peshitta uses the perfect ܘܝܗܒ, which in Syriac can convey either perfective or durative nuance depending on context."
     },
     {
       "greek_nt": [
@@ -182,46 +212,22 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta combines ἀναβαίνοντα καὶ αὐξανόμενα into ܘܣܠܩ ܘܪܒܐ (and grew up and increased); Vulgate ascendentem et crescentem preserves Greek structure"
+      "type": "construction",
+      "note": "Greek employs two present participles in neuter plural (ἀναβαίνοντα καὶ αὐξανόμενα) modifying καρπόν, creating a participial phrase; Vulgate mirrors this with 'ascendentem et crescentem'; Peshitta uses finite verbs with waw-consecutive (ܘܣܠܩ ܘܪܒܐ, 'and it grew up and increased'), a characteristic Semitic construction replacing Greek participial syntax."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9,
+        14,
         15
       ],
-      "peshitta": [
-        8
-      ],
+      "peshitta": [],
       "vulgate": [
-        8,
+        13,
         14
       ],
-      "variant": "minor",
-      "note": "Greek uses two verbs ἐδίδου...ἔφερεν (was yielding...was bearing); Peshitta uses single ܘܝܗܒ; Vulgate dabat...afferebat preserves Greek dual structure"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the third verb phrase καὶ ἔφερεν ('and was bearing'), collapsing the three-verb sequence into two (ܘܣܠܩ ܘܪܒܐ ܘܝܗܒ), while Greek and Vulgate maintain the triadic structure with ἐδίδου...ἔφερεν / dabat...afferebat as distinct imperfect verbs."
     },
     {
       "greek_nt": [
@@ -236,21 +242,13 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the distributive construction ἓν τριάκοντα ('one thirty[-fold]'), Vulgate mirrors with 'unum triginta'; Peshitta employs the existential particle ܐܝܬ with a relative clause (ܐܝܬ ܕܬܠܬܝܢ, 'there is [that] of thirty'), a characteristic Syriac idiom for expressing distributive or partitive relationships."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits conjunction before 'sixty'"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20
       ],
@@ -262,22 +260,12 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        21,
         22,
         23
       ],
@@ -286,16 +274,18 @@
         15
       ],
       "vulgate": [
+        19,
         20,
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.746471+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.964108+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

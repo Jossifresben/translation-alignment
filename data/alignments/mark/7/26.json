@@ -82,7 +82,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek article + δέ; Peshitta pronoun + ܕܝܢ; Vulgate omits connective particle"
+      "type": "word-order",
+      "note": "Greek places the article and conjunction before the noun (ἡ δὲ γυνὴ); Peshitta mirrors this order with pronoun + particle + noun (ܗܝ ܕܝܢ ܐܢܬܬܐ); Vulgate omits both article and conjunction, beginning directly with the noun (mulier), a typical Latin stylistic preference."
     },
     {
       "greek_nt": [
@@ -95,7 +96,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple imperfect ἦν ('was'); Peshitta employs a compound construction ܐܝܬܝܗ ܗܘܬ (existential particle + past tense auxiliary); Vulgate uses the imperfect Erat, all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -105,10 +108,12 @@
         5
       ],
       "vulgate": [
+        1,
         3
       ],
       "variant": "major",
-      "note": "Greek Ἑλληνίς (Gentile/Greek) vs Peshitta ܚܢܦܬܐ (pagan/heathen) vs Vulgate gentilis (Gentile); semantic overlap but distinct connotations"
+      "type": "substitution",
+      "note": "Greek Ἑλληνίς ('Greek woman, Gentile') is rendered in Peshitta as ܚܢܦܬܐ ('pagan, heathen'), a more explicitly religious designation. Vulgate uses gentilis ('Gentile'), positioned after mulier with enim ('for, indeed'), creating a causal or explanatory nuance absent in the Greek and Peshitta."
     },
     {
       "greek_nt": [
@@ -126,44 +131,28 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek compound Συροφοινίκισσα τῷ γένει; Peshitta analytic ܡܢ ܦܘܢܝܩܐ ܕܣܘܪܝܐ (from Phoenicia of Syria); Vulgate Syrophœnissa genere"
+      "type": "construction",
+      "note": "Greek uses a single compound ethnic designation Συροφοινίκισσα with the dative phrase τῷ γένει ('by race'); Peshitta expands this into a prepositional phrase ܡܢ ܦܘܢܝܩܐ ܕܣܘܪܝܐ ('from Phoenicia of Syria'), making the geographic relationship explicit; Vulgate compresses to Syrophœnissa genere, mirroring the Greek structure but omitting the article."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses periphrastic ܗܘܬ (was) with participle ܒܥܝܐ; Greek/Vulgate use simple imperfect"
-    },
-    {
-      "greek_nt": [
+        8,
+        9,
         10
       ],
       "peshitta": [
+        9,
+        10,
         11
       ],
       "vulgate": [
+        6,
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the imperfect ἠρώτα ('was asking') with conjunction καί; Peshitta employs ܘܒܥܝܐ ܗܘܬ (conjunction + participle + auxiliary), creating a periphrastic past progressive; Vulgate uses the simple imperfect rogabat with Et, all expressing continuous past action but through different grammatical means."
     },
     {
       "greek_nt": [
@@ -180,34 +169,27 @@
     {
       "greek_nt": [
         12,
-        13
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
-        12
+        12,
+        13
       ],
       "vulgate": [
+        10,
         11
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܢܦܩ (that he cast out) precedes demon; Greek/Vulgate verb follows object"
+      "type": "word-order",
+      "note": "Greek places the article before the noun and separates the verb (τὸ δαιμόνιον ἐκβάλῃ); Peshitta integrates the verb with the noun in a single clause (ܕܢܦܩ ܫܐܕܐ, 'that he cast out the demon'); Vulgate follows Greek word order (dæmonium ejiceret) but without the article, typical of Latin syntax."
     },
     {
       "greek_nt": [
         15,
         16,
-        17
+        17,
+        18
       ],
       "peshitta": [
         14,
@@ -215,18 +197,7 @@
       ],
       "vulgate": [
         12,
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
+        13,
         14
       ],
       "variant": "aligned"
@@ -234,7 +205,7 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.776564+00:00",
+    "generated_at": "2026-04-22T12:17:07.991734+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

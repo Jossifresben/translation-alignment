@@ -67,7 +67,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -80,50 +81,34 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܕܒܪ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
         2,
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5,
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3,
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8,
         9
       ],
       "peshitta": [
+        2,
+        3,
         4
       ],
       "vulgate": [
+        2,
+        3,
+        4,
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs repeated definite articles before each name (τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ τὸν Ἰωάννην), a characteristic Koine construction emphasizing individuation. Latin mirrors this with polysyndetic coordination but omits articles (Petrum, et Jacobum, et Joannem). Syriac uses simple accusative markers (ܠܟܐܦܐ ܘܠܝܥܩܘܒ ܘܠܝܘܚܢܢ) without articles, as Semitic languages lack the Greek article system—semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -136,8 +121,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܥܡܗ = 'with him' as single token"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the prepositional phrase μετ᾽ αὐτοῦ ('with Him') after the list of disciples. Latin secum appears in the same post-nominal position. Syriac ܥܡܗ ('with him') precedes the list of names, reflecting typical Semitic verb-complement-object ordering—a stylistic difference without semantic impact."
     },
     {
       "greek_nt": [],
@@ -146,7 +132,8 @@
         8
       ],
       "variant": "added",
-      "note": "Vulgate colon is punctuation, not semantic content"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after secum, creating a rhetorical pause before the emotional description that follows. Neither the Greek nor the Peshitta tradition marks this juncture with punctuation, treating the clause sequence as continuous narrative."
     },
     {
       "greek_nt": [
@@ -158,7 +145,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -171,7 +159,7 @@
         10
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܫܪܝ combines conjunction and 'began'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -184,7 +172,8 @@
         11
       ],
       "variant": "minor",
-      "note": "ἐκθαμβέω (amazed/awestruck) vs pavere (fear/dread) - semantic overlap but different nuance"
+      "type": "lexical",
+      "note": "Greek ἐκθαμβεῖσθαι (G1568, 'to be greatly awe-struck/amazed') denotes overwhelming astonishment with connotations of terror. Latin pavere ('to tremble, be terrified') emphasizes the fear component. Syriac ܠܡܬܟܡܪܘ (ethpe'el infinitive, 'to be grieved/troubled') focuses on interior distress—cognate traditions selecting different facets of Jesus's emotional state, though all convey profound agitation."
     },
     {
       "greek_nt": [
@@ -196,7 +185,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -208,14 +198,15 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܠܡܬܬܥܩܘ combines conjunction and infinitive"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀδημονεῖν (G0085, 'to be deeply distressed/troubled') describes existential anguish or anxiety. Latin tædere ('to be weary, disgusted, troubled') conveys weariness and loathing. Syriac ܠܡܬܬܥܩܘ (ethpa'al infinitive, 'to be pressed/oppressed') emphasizes crushing pressure or constraint—three lexically distinct renderings of Jesus's Gethsemane distress, each highlighting a different phenomenological dimension of his suffering."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.834517+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.039965+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

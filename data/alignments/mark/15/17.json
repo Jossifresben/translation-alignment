@@ -48,13 +48,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / et, incorporating it into the prefixed waw on ܘܐܠܒܫܘܗܝ. This is a standard Syriac morphological convention where the conjunction is bound to the verb rather than standing as a separate token."
     },
     {
       "greek_nt": [
@@ -69,7 +69,7 @@
         2
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb with pronominal suffix"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -81,7 +81,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -93,7 +94,23 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Peshitta places the conjunction ܘ ('and') on the verb ܓܕܠܘ ('they twisted/plaited'), creating a different syntactic flow. Greek and Latin maintain separate conjunctions (καί / et) before the second main verb περιτιθέασιν / imponunt, while Syriac front-loads the conjunction onto the participial action."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses an aorist participle πλέξαντες ('having twisted') in attributive position after the main verb; Latin mirrors this with plectentes in the same post-verbal position. The Peshitta employs a finite verb ܓܕܠܘ ('they twisted') in coordinate construction before the main verb ܣܡܘ ('they placed'), reflecting Syriac preference for parataxis over participial subordination."
     },
     {
       "greek_nt": [
@@ -101,7 +118,6 @@
         6
       ],
       "peshitta": [
-        2,
         3,
         4
       ],
@@ -109,21 +125,8 @@
         5,
         6
       ],
-      "variant": "major",
-      "note": "Peshitta uses two verbs (ܘܓܕܠܘ ܣܡܘ 'they twisted and placed') where Greek has single verb περιτιθέασιν with participle πλέξαντες"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        7
-      ],
       "variant": "aligned",
-      "note": "Greek participle πλέξαντες corresponds to Peshitta ܘܓܕܠܘ and Vulgate plectentes"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -138,13 +141,25 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use an attributive adjective + noun construction (ἀκάνθινον στέφανον / spineam coronam, 'thorny crown'). The Peshitta employs a construct-state genitive phrase ܟܠܝܠܐ ܕܟܘܒܐ ('crown of thorns'), a standard Semitic nominal construction semantically equivalent but syntactically distinct from the Greek-Latin adjectival pattern."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate concludes the verse with a period after coronam, marking a full stop. Greek and Peshitta manuscripts typically continue without such punctuation, though this reflects Latin editorial convention rather than a textual variant."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.843629+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.048931+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

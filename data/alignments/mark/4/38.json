@@ -86,14 +86,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܕܝܢ (dēn, 'but/now') for Greek καί; Vulgate Et aligns with καί"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καὶ / Et, beginning instead with the contrastive particle ܕܝܢ (dēn, 'but/now'). This reflects a Syriac stylistic preference for adversative transitions over simple coordination at narrative junctures."
     },
     {
       "greek_nt": [
@@ -105,7 +104,19 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the intensive pronoun (αὐτὸς / ipse) in different positions relative to the verb, while Peshitta uses the independent pronoun ܗܘ (hū) in initial position. All three convey emphatic subject reference with equivalent force."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts the contrastive particle ܕܝܢ (dēn, 'but/now') to mark a narrative shift, replacing the Greek καὶ with a more explicit adversative connector. Neither Greek nor Latin transmit this particle here."
     },
     {
       "greek_nt": [],
@@ -114,7 +125,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicitly names ܝܫܘܥ (Yeshua/Jesus); absent in Greek and Vulgate"
+      "type": "gloss",
+      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ, Yešūʿ) as the subject, whereas Greek and Latin rely on the pronoun αὐτὸς / ipse. This represents a typical Syriac clarifying expansion for narrative continuity."
     },
     {
       "greek_nt": [
@@ -126,7 +138,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -143,7 +156,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta ܒܚܪܬܗ ܕܣܦܝܢܬܐ ('in the stern of the ship') expands with explicit 'ship'; Greek/Vulgate use article + πρύμνῃ/puppi"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐν τῇ πρύμνῃ ('in the stern'); Vulgate mirrors with in puppi; Peshitta employs construct chain ܒܚܪܬܗ ܕܣܦܝܢܬܐ ('in-the-end of-the-ship'), a characteristic Semitic genitive construction expressing the same locative sense."
     },
     {
       "greek_nt": [
@@ -160,19 +174,23 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek ἐπὶ τὸ προσκεφάλαιον ('on the cushion'), Peshitta ܥܠ ܒܣܕܝܐ ('on pillow'), Vulgate super cervical ('on cushion'); word order differs"
+      "type": "word-order",
+      "note": "Greek places the cushion phrase (ἐπὶ τὸ προσκεφάλαιον) after the location; Peshitta reverses the order, placing ܥܠ ܒܣܕܝܐ ('on the-cushion') before the stern reference; Vulgate follows Greek order with super cervical. All three attest the same two locative elements in different sequences."
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [
-        5
+        5,
+        6
       ],
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses present participle καθεύδων; Vulgate employs present participle dormiens; Peshitta uses periphrastic construction ܕܡܟ ܗܘܐ (active participle + auxiliary verb), a standard Syriac equivalent for Greek participial constructions."
     },
     {
       "greek_nt": [],
@@ -180,8 +198,8 @@
       "vulgate": [
         8
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, no textual equivalent"
+      "variant": "aligned",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
@@ -193,7 +211,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -207,7 +226,8 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -219,7 +239,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -234,7 +255,8 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -242,8 +264,8 @@
       "vulgate": [
         15
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, no textual equivalent"
+      "variant": "aligned",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
@@ -256,7 +278,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Peshitta ܪܒܢ (rabban, 'our master') vs Greek διδάσκαλε ('teacher') vs Vulgate Magister ('master/teacher'); semantic overlap with cultural nuance"
+      "type": "lexical",
+      "note": "Greek uses διδάσκαλε ('Teacher'); Vulgate renders Magister (direct equivalent); Peshitta employs ܪܒܢ (rabban, 'our master/rabbi'), a Semitic honorific cognate with Hebrew רַבִּי but with first-person plural possessive suffix, reflecting Aramaic linguistic context."
     },
     {
       "greek_nt": [
@@ -276,7 +299,8 @@
         20
       ],
       "variant": "minor",
-      "note": "Greek οὐ μέλει σοι ('does it not concern you'), Peshitta ܠܐ ܒܛܝܠ ܠܟ ('is it not idle/concern to you'), Vulgate non ad te pertinet ('does it not pertain to you'); idiomatic variations"
+      "type": "construction",
+      "note": "Greek uses impersonal verb construction οὐ μέλει σοι ('does it not concern you'); Vulgate expands with non ad te pertinet ('does it not pertain to you'), adding the preposition ad; Peshitta employs ܠܐ ܒܛܝܠ ܠܟ ('not idle/neglectful to-you'), a different lexical root but semantically equivalent idiom for expressing concern."
     },
     {
       "greek_nt": [
@@ -288,7 +312,8 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -302,7 +327,8 @@
         22
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܐܒܕܝܢ ܚܢܢ ('that we perish we') includes explicit pronoun ܚܢܢ; Greek/Vulgate use verbal inflection only"
+      "type": "word-order",
+      "note": "Greek and Vulgate use first-person plural verb alone (ἀπολλύμεθα / perimus); Peshitta adds explicit subject pronoun ܚܢܢ ('we') after the verb ܕܐܒܕܝܢ, a typical Syriac clarifying construction though the verb already encodes person-number."
     },
     {
       "greek_nt": [],
@@ -310,14 +336,14 @@
       "vulgate": [
         23
       ],
-      "variant": "added",
-      "note": "Vulgate question mark punctuation, no textual equivalent"
+      "variant": "aligned",
+      "type": "punctuation"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.752652+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.969205+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -56,7 +56,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek καὶ opens the clause as a coordinating conjunction; Peshitta ܘ (waw-conjunctive) is prefixed to the verb ܐܡܪ, creating a single orthographic unit; Vulgate Et stands independently. All three traditions attest the conjunction, but Syriac morphology integrates it into the verbal form."
     },
     {
       "greek_nt": [
@@ -69,7 +71,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Greek ἀναβλέψας 'having looked up' corresponds to Syriac ܚܪ and Latin aspiciens"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,11 +85,14 @@
         3
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ait to mark direct discourse, a Latin scribal convention absent in Greek and Syriac manuscript traditions. The colon does not alter semantic content but reflects Latin rhetorical punctuation practice."
     },
     {
       "greek_nt": [
-        3
+        3,
+        6,
+        9
       ],
       "peshitta": [
         2,
@@ -96,8 +101,9 @@
       "vulgate": [
         4
       ],
-      "variant": "minor",
-      "note": "Peshitta makes pronoun ܐܢܐ explicit; Greek/Latin use verb inflection"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek employs a double-verb construction (βλέπω... ὅτι... ὁρῶ) with ὅτι functioning as a recitative or causal particle, creating syntactic redundancy for emphasis ('I see... that... I see'). Both Peshitta (ܚܙܐ ܐܢܐ) and Vulgate (Video) streamline to a single finite verb plus explicit first-person pronoun (Syriac ܐܢܐ). The Greek ὅτι-clause structure is unattested in the Syriac and Latin witnesses, suggesting either textual simplification or a different Vorlage."
     },
     {
       "greek_nt": [
@@ -111,42 +117,36 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "note": "Greek article τοὺς not reflected in Vulgate; Peshitta ܒܢܝ ܐܢܫܐ is construct phrase 'sons of men'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the definite article τοὺς with ἀνθρώπους (accusative plural); Peshitta employs the construct state ܒܢܝ ܐܢܫܐ ('sons of men'), a Semitic idiom for 'human beings'; Vulgate uses the bare plural homines without article. All three denote the same referent, but Syriac reflects native Semitic syntax while Greek and Latin follow their respective article systems."
     },
     {
       "greek_nt": [
+        7
+      ],
+      "peshitta": [
         6
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek ὅτι 'for/that' omitted in Peshitta and Vulgate"
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        7,
         8
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "aligned",
-      "note": "Comparative particle + trees: ὡς δένδρα / ܐܝܟ ܐܝܠܢܐ / velut arbores"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek ὁρῶ 'I see' (second occurrence) omitted in Peshitta and Vulgate"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek δένδρα is neuter plural accusative; Peshitta ܐܝܠܢܐ is masculine singular (collective or singular exemplar); Vulgate arbores is feminine plural accusative. The Syriac singular reflects a common Semitic idiom treating mass or collective nouns as grammatically singular, whereas Greek and Latin preserve the distributive plural."
     },
     {
       "greek_nt": [
@@ -158,14 +158,15 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "note": "Participle 'walking': περιπατοῦντας / ܕܡܗܠܟܝܢ / ambulantes"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a present active participle περιπατοῦντας (accusative plural masculine) modifying the implicit object of ὁρῶ; Peshitta employs a relative clause with ܕ + active participle ܡܗܠܟܝܢ; Vulgate uses a present active participle ambulantes (accusative plural). Greek and Latin share participial syntax; Syriac opts for a relative construction, a stylistic preference in Syriac narrative prose."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.781906+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.997469+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

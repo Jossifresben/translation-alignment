@@ -131,31 +131,25 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        3,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Peshitta place the infinitive immediately after the main verb (ἤρξατο διδάσκειν / ܫܪܝ ܠܡܠܦܘ), while the Vulgate postpones docere until after the prepositional phrase (cœpit in synagoga docere), a stylistic preference in Latin prose."
     },
     {
       "greek_nt": [
@@ -168,46 +162,32 @@
       ],
       "vulgate": [
         4,
-        5
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek 'in the synagogue', Vulgate 'in synagoga', Peshitta uses single compound form"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        5,
         7
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular prepositional phrase ἐν τῇ συναγωγῇ with definite article; Peshitta employs the bare prepositional phrase ܒܟܢܘܫܬܐ without article (Syriac lacks the Greek article system); Vulgate mirrors Greek structure with in synagoga, though the colon after synagoga is a punctuation addition not present in Greek or Syriac manuscripts."
     },
     {
       "greek_nt": [
         8,
         9,
-        10
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8,
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        8,
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the articular substantive οἱ πολλοὶ ἀκούοντες (the many hearing) with present participle; Peshitta uses the relative clause construction ܘܣܓܝܐܐ ܕܫܡܥܘ (and many who heard) with perfect tense; Vulgate follows Greek with multi audientes (present participle), though without the article."
     },
     {
       "greek_nt": [
@@ -219,7 +199,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -230,7 +211,8 @@
         14
       ],
       "variant": "added",
-      "note": "Vulgate adds 'in doctrina ejus' (in his teaching), not present in Greek or Peshitta"
+      "type": "expansion",
+      "note": "The Vulgate inserts in doctrina ejus (in his teaching) between the verb of astonishment and the participle 'saying,' specifying the object of amazement. Neither the Greek ἐξεπλήσσοντο λέγοντες nor the Peshitta ܐܬܕܡܪܘ ܘܐܡܪܝܢ contains this prepositional phrase, proceeding directly to the direct discourse."
     },
     {
       "greek_nt": [
@@ -241,98 +223,39 @@
         10
       ],
       "vulgate": [
-        15
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses periphrastic construction 'were saying' with auxiliary verb"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        15,
         16
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the simple present participle λέγοντες; Peshitta employs the periphrastic construction ܘܐܡܪܝܢ ܗܘܘ (and they were saying) with imperfect auxiliary, emphasizing durative aspect; Vulgate uses the simple present participle dicentes with added colon for punctuation."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
+        15,
         16
       ],
       "peshitta": [
-        13
+        11,
+        12,
+        13,
+        14
       ],
       "vulgate": [
-        19
-      ],
-      "variant": "minor",
-      "note": "Word order: Greek 'these things', Peshitta places demonstrative before, Vulgate 'haec'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds dative pronoun 'to him' not explicit in Greek or Vulgate at this position"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        20
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'omnia' (all things)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        17,
+        18,
+        19,
+        20,
         21
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek orders πόθεν τούτῳ ταῦτα (whence to-this-one these-things); Peshitta reverses to ܐܝܡܟܐ ܠܗ ܗܠܝܢ ܠܗܢܐ (whence to-him these to-this-one), with double dative marking; Vulgate adds omnia (all) after hæc and closes with a question mark, expanding the Greek demonstrative ταῦτα for emphasis."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        22
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19,
         20
@@ -343,130 +266,95 @@
         17
       ],
       "vulgate": [
+        22,
         23,
         24,
         25
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         21,
-        22
+        22,
+        23
       ],
       "peshitta": [
-        18
+        18,
+        19
       ],
       "vulgate": [
         26,
         27,
-        28
-      ],
-      "variant": "minor",
-      "note": "Vulgate uses relative pronoun 'quae' twice with copula 'est', Greek uses article-participle construction"
-    },
-    {
-      "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        19
-      ],
-      "vulgate": [
+        28,
         29
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular aorist passive participle ἡ δοθεῖσα τούτῳ (the [wisdom] having-been-given to-this-one) as a relative clause equivalent; Peshitta employs the relative particle with finite verb ܕܐܬܝܗܒܬ ܠܗ (which was-given to-him); Vulgate uses the relative pronoun quæ with finite passive verb data est illi, mirroring Peshitta's finite construction rather than Greek's participial one."
     },
     {
       "greek_nt": [
-        24
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek conjunction 'ὅτι' (for/that) omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
+        24,
         25
       ],
       "peshitta": [],
       "vulgate": [
         30
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses ὅτι καὶ (that even) to introduce the clause about miracles; Peshitta omits any conjunction, proceeding directly to ܕܚܝܠܐ (miracles) with asyndetic construction; Vulgate uses et (and) alone, omitting the causal/explanatory force of Greek ὅτι."
     },
     {
       "greek_nt": [
         26,
-        27
-      ],
-      "peshitta": [
-        20
-      ],
-      "vulgate": [
-        31
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        27,
         28
       ],
       "peshitta": [
+        20,
         21,
         22
       ],
       "vulgate": [
+        31,
         32
       ],
       "variant": "minor",
-      "note": "Peshitta uses comparative construction 'like these', Greek/Vulgate use demonstrative 'such'"
+      "type": "word-order",
+      "note": "Greek places the demonstrative after the noun (αἱ δυνάμεις τοιαῦται, the miracles such); Peshitta uses the comparative construction ܕܚܝܠܐ ܕܐܝܟ ܗܠܝܢ (miracles which [are] like these), employing a relative clause; Vulgate inverts to virtutes tales (miracles such), placing the adjective immediately after the noun."
     },
     {
       "greek_nt": [
         29,
         30,
         31,
-        32
+        32,
+        33
       ],
       "peshitta": [
-        23
+        23,
+        24
       ],
       "vulgate": [
         33,
         34,
         35,
-        36
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        33
-      ],
-      "peshitta": [
-        24
-      ],
-      "vulgate": [
-        37
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        36,
+        37,
         38
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase διὰ τῶν χειρῶν αὐτοῦ (through the hands of-him) with present middle participle γινόμεναι (being-done); Peshitta employs the simple prepositional phrase ܒܐܝܕܘܗܝ (by-his-hands) with imperfect verb ܢܗܘܘܢ (they-happen); Vulgate uses the relative clause quæ per manus ejus efficiuntur (which through hands of-him are-accomplished) with passive finite verb, and closes with a question mark absent in Greek and Peshitta punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.760856+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:26:01.880028+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

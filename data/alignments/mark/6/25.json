@@ -87,7 +87,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καὶ ('and') is rendered by Peshitta ܘܡܚܕܐ ('and immediately'), conflating the conjunction with the temporal adverb. Vulgate Cumque ('and when') introduces a temporal-causal nuance absent in the Greek."
     },
     {
       "greek_nt": [
@@ -108,7 +110,6 @@
         4
       ],
       "peshitta": [
-        0,
         2
       ],
       "vulgate": [
@@ -117,7 +118,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܡܚܕܐ (and immediately) combines conjunction with adverb; Greek εὐθὺς μετὰ σπουδῆς and Vulgate statim cum festinatione both use adverb + prepositional phrase for 'immediately with haste'"
+      "type": "word-order",
+      "note": "Greek εὐθὺς μετὰ σπουδῆς ('immediately with haste') places the temporal adverb before the prepositional phrase; Vulgate statim cum festinatione mirrors this order. Peshitta ܒܒܛܝܠܘܬܐ ('with haste') omits an explicit equivalent to εὐθὺς, having already incorporated immediacy into ܘܡܚܕܐ at token 0."
     },
     {
       "greek_nt": [
@@ -137,30 +139,33 @@
     },
     {
       "greek_nt": [
-        8
+        8,
+        9
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        7
+        7,
+        8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses two finite verbs (ᾐτήσατο λέγουσα, 'she asked saying') with a participle; Vulgate petivit dicens mirrors this construction. Peshitta ܘܐܡܪܐ ('and she said') employs a single verb, omitting an explicit equivalent to αἰτέω, though the request is implicit in context."
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "minor",
-      "note": "Peshitta ܘܐܡܪܐ ܠܗ includes dative pronoun 'to him' not explicit in Greek λέγουσα; Vulgate dicens follows Greek more closely"
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta adds ܠܗ ('to him') as an explicit indirect object, clarifying that the daughter addresses the king. Neither Greek nor Vulgate include this pronoun, relying on narrative context."
     },
     {
       "greek_nt": [
@@ -173,7 +178,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta ܨܒܝܐ ܐܢܐ ('I desire I') makes the first-person subject explicit with the independent pronoun ܐܢܐ, a typical Syriac emphatic construction. Greek θέλω and Vulgate Volo encode the subject in verbal morphology alone."
     },
     {
       "greek_nt": [
@@ -183,8 +190,9 @@
       "vulgate": [
         11
       ],
-      "variant": "minor",
-      "note": "Peshitta uses direct construction without conjunction ἵνα/ut; Syriac ܕ- prefix on verb serves similar function"
+      "variant": "omitted",
+      "type": "construction",
+      "note": "Greek ἵνα introduces a purpose clause ('that you may give'); Vulgate ut mirrors this subordinating conjunction. Peshitta omits an explicit subordinator, using the prefix ܕ- on the verb ܕܬܬܠ to mark the dependent clause, a standard Syriac construction."
     },
     {
       "greek_nt": [
@@ -198,28 +206,20 @@
         12
       ],
       "variant": "minor",
-      "note": "Greek ἐξαυτῆς 'at once' rendered as Peshitta ܒܗܕܐ ܫܥܬܐ 'in this hour' and Vulgate protinus 'immediately'; synonymous temporal expressions"
+      "type": "expansion",
+      "note": "Greek ἐξαυτῆς ('at once') is a single adverb; Vulgate protinus is likewise a single temporal adverb. Peshitta ܒܗܕܐ ܫܥܬܐ ('in this hour') expands the temporal reference into a prepositional phrase, a more explicit idiom for immediacy."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        13,
         14
       ],
       "variant": "aligned"
@@ -271,8 +271,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.765590+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.981655+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -99,27 +99,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -137,22 +128,12 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta includes demonstrative pronoun ܗܢܘܢ (those) not present in Greek/Vulgate"
+      "type": "word-order",
+      "note": "Greek employs article + numeral + noun (τοὺς πέντε ἄρτους); Peshitta uses demonstrative + numeral + noun (ܗܢܘܢ ܚܡܫܐ ܠܚܡܝܢ); Vulgate uses numeral + noun (quinque panibus) without article. All three convey identical referential meaning with stylistic variation typical of each language's article system."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7,
         8
@@ -162,10 +143,12 @@
         5
       ],
       "vulgate": [
+        4,
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -183,7 +166,9 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀναβλέψας εἰς τὸν οὐρανόν ('having looked up to heaven') uses the compound verb ἀναβλέπω; Vulgate intuens in cælum employs the simple verb intueri ('gazing into'); Peshitta ܘܚܪ ܒܫܡܝܐ uses the root ܚܪ ('to look'). All three denote upward gaze but with different lexical choices reflecting translation style."
     },
     {
       "greek_nt": [
@@ -195,22 +180,12 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
         16,
         17
@@ -220,25 +195,17 @@
         10
       ],
       "vulgate": [
+        11,
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses aorist κατέκλασεν with repeated article τοὺς ἄρτους ('the loaves'); Peshitta ܘܩܨܐ ܠܚܡܐ employs singular collective noun ('the bread'); Vulgate fregit panes uses plural without article. The Peshitta's singular is a typical Syriac idiom for mass distribution of bread, semantically equivalent to the Greek and Latin plurals."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20,
         21,
@@ -249,11 +216,13 @@
         12
       ],
       "vulgate": [
+        14,
         15,
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -272,7 +241,8 @@
         21
       ],
       "variant": "minor",
-      "note": "Vulgate adds 'ante' (before) not in Greek/Peshitta; Vulgate colon is punctuation"
+      "type": "expansion",
+      "note": "Greek uses ἵνα + subjunctive παρατιθῶσιν αὐτοῖς ('that they might set before them'); Peshitta employs ܕܢܣܝܡܘܢ ܠܗܘܢ (d- + imperfect, 'that they might place to them'); Vulgate expands with ut ponerent ante eos, adding the preposition ante ('before') to make the spatial relationship explicit, whereas Greek and Syriac encode this in the verb παρατίθημι / ܣܝܡ."
     },
     {
       "greek_nt": [],
@@ -280,23 +250,13 @@
       "vulgate": [
         22
       ],
-      "variant": "omitted",
-      "note": "Vulgate colon is editorial punctuation, not textual content"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon (:) to mark a major syntactic break before the second clause about the fish. Neither Greek nor Peshitta manuscripts transmit punctuation at this juncture, though the καί in Greek [26] serves as the clause connector."
     },
     {
       "greek_nt": [
-        26
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        23
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        26,
         27,
         28,
         29
@@ -307,41 +267,36 @@
         17
       ],
       "vulgate": [
+        23,
         24,
         25
       ],
       "variant": "minor",
-      "note": "Peshitta includes demonstrative ܘܗܢܘܢ (and those) for emphasis"
+      "type": "word-order",
+      "note": "Greek καὶ τοὺς δύο ἰχθύας places conjunction + article + numeral + noun; Peshitta ܘܗܢܘܢ ܬܪܝܢ ܢܘܢܝܢ uses conjunction + demonstrative + numeral + noun; Vulgate et duos pisces omits article/demonstrative. The Peshitta's demonstrative ܗܢܘܢ ('those') provides anaphoric reference to the previously mentioned fish, a stylistic feature absent in Greek and Latin here."
     },
     {
       "greek_nt": [
-        30
-      ],
-      "peshitta": [
-        18
-      ],
-      "vulgate": [
-        26
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        30,
         31
       ],
       "peshitta": [
+        18,
         19
       ],
       "vulgate": [
+        26,
         27
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐμέρισεν πᾶσιν ('He divided among all') uses aorist active with dative πᾶσιν; Peshitta ܦܠܓܘ ܠܟܠܗܘܢ employs perfect active with prepositional phrase; Vulgate divisit omnibus mirrors Greek structure with perfect tense and dative. The Peshitta's use of the preposition ܠ- instead of bare dative is standard Syriac syntax, semantically identical to the Greek and Latin dative constructions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.769734+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.984215+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -74,7 +74,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -86,7 +87,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -100,7 +102,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -115,7 +118,8 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -127,32 +131,26 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb ἐκόπασεν before the subject ὁ ἄνεμος, while Peshitta and Vulgate integrate the verb with the conjunction (ܘܫܠܝܬ ܪܘܚܐ / cessavit ventus), reflecting typical Semitic and Latin VSO/SVO patterns versus Greek's flexible word order for emphasis."
     },
     {
       "greek_nt": [
@@ -164,7 +162,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -180,7 +179,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek λίαν ἐκ περισσοῦ (exceedingly beyond measure) vs Peshitta ܘܛܒ (and greatly) vs Vulgate plus magis (more greatly) - stylistic intensification variants"
+      "type": "lexical",
+      "note": "Greek employs the emphatic double adverbial construction λίαν ἐκ περισσοῦ ('exceedingly beyond measure'); Vulgate renders this with plus magis ('more greatly'), a Latin intensifying doublet; Peshitta uses the single adverb ܛܒ ('very'), a stylistic simplification that conveys the same intensive force with less redundancy."
     },
     {
       "greek_nt": [
@@ -194,32 +194,27 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἐν ἑαυτοῖς ('in themselves') and Latin intra se ('within themselves') use reflexive prepositional phrases to denote internal amazement; Peshitta employs ܒܢܦܫܗܘܢ ('in their souls/selves'), a characteristic Syriac idiom using ܢܦܫܐ (soul) to express the reflexive, semantically equivalent but lexically distinct."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        6,
-        7
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19
       ],
       "peshitta": [
+        6,
+        7,
         8
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καὶ ἐθαύμαζον (and were marveling) and Peshitta ܘܬܗܝܪܝܢ (and wondering) omitted in Vulgate, which ends with stupebant"
+      "vulgate": [
+        14
+      ],
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek preserves two verbs in asyndetic coordination: ἐξίσταντο καὶ ἐθαύμαζον ('they were amazed and marveled'), emphasizing dual aspects of the disciples' reaction. Peshitta maintains both verbs with the periphrastic construction ܡܬܕܡܪܝܢ ܗܘܘ ܘܬܗܝܪܝܢ ('they were astonished and amazed'). Vulgate, however, omits the second verb entirely, rendering only stupebant ('they were astonished'), a streamlining that reduces the rhetorical intensity of the original."
     },
     {
       "greek_nt": [],
@@ -227,14 +222,14 @@
       "vulgate": [
         15
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present as token in other traditions"
+      "variant": "aligned",
+      "type": "punctuation"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.771339+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.985905+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

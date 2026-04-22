@@ -76,13 +76,15 @@
         0
       ],
       "peshitta": [
-        1
+        1,
+        2
       ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܕܝܢ (dēn, 'but/now') where Greek has καὶ ('and'); Vulgate Et aligns with Greek"
+      "type": "substitution",
+      "note": "Greek καὶ ('and') is rendered by Peshitta ܕܝܢ ܐܦ ('but also'), which adds mild adversative force and emphasis. The Vulgate Et mirrors the Greek conjunction straightforwardly."
     },
     {
       "greek_nt": [
@@ -94,16 +96,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܐܦ (ʾap, 'also/even') for emphasis, absent in Greek and Vulgate"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -116,7 +110,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after eis to mark direct discourse, whereas Greek uses a raised dot (·) and Peshitta employs no explicit punctuation marker at this juncture."
     },
     {
       "greek_nt": [
@@ -128,7 +124,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -141,7 +138,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article + dative plural τοῖς σάββασιν ('on the Sabbaths'), while Peshitta ܒܫܒܬܐ and Vulgate sabbatis employ the bare dative/locative without article, a standard Semitic and Latin idiom for temporal expressions."
     },
     {
       "greek_nt": [
@@ -156,7 +155,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses infinitive construction ܠܡܥܒܕ ܕܛܒ ('to do good'); Vulgate benefacere is single compound verb"
+      "type": "construction",
+      "note": "Greek ἀγαθὸν ποιῆσαι ('to do good') uses adjective + infinitive; Peshitta ܠܡܥܒܕ ܕܛܒ employs infinitive + relative particle ܕ + adjective; Vulgate benefacere collapses the phrase into a single compound infinitive."
     },
     {
       "greek_nt": [
@@ -168,7 +168,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -182,7 +183,18 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek κακοποιῆσαι is compound verb; Peshitta ܕܒܝܫ ('evil'); Vulgate male ('badly') with punctuation"
+      "type": "construction",
+      "note": "Greek κακοποιῆσαι is a single compound infinitive ('to do evil'); Peshitta ܕܒܝܫ uses the relative particle ܕ + adjective construction parallel to the preceding clause; Vulgate male is an adverb requiring ellipsis of facere from context, creating a more compressed interrogative structure."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        9
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts an interrogative question mark after male, segmenting the double question into two distinct clauses, whereas Greek and Peshitta treat the entire verse as a single compound interrogative."
     },
     {
       "greek_nt": [
@@ -194,7 +206,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -208,7 +221,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Greek σῶσαι (infinitive 'to save'); Peshitta ܠܡܚܝܘ ('to make live'); Vulgate salvam facere (adjective + verb construction)"
+      "type": "construction",
+      "note": "Greek σῶσαι is a simple infinitive ('to save'); Peshitta ܠܡܚܝܘ mirrors this with the infinitive; Vulgate salvam facere uses adjective + infinitive periphrasis ('to make safe'), a Latin idiom for the same semantic content."
     },
     {
       "greek_nt": [
@@ -220,7 +234,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -233,7 +248,9 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ἀποκτεῖναι ends with a semicolon, Peshitta ܠܡܘܒܕܘ has no explicit punctuation, and Vulgate perdere is followed by an interrogative question mark, reinforcing the segmented double-question structure introduced earlier in the Vulgate tradition."
     },
     {
       "greek_nt": [
@@ -245,10 +262,11 @@
         15
       ],
       "vulgate": [
-        16,
-        17
+        16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek οἱ δὲ uses the article + adversative particle ('but they'); Peshitta ܗܢܘܢ ܕܝܢ employs the demonstrative pronoun + particle ('those, however'); Vulgate At illi uses the adversative conjunction + pronoun. All three convey the same adversative transition but with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -259,16 +277,18 @@
         17
       ],
       "vulgate": [
+        17,
         18
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܫܬܝܩܝܢ ܗܘܘ (participle + auxiliary 'were being silent'); Greek and Vulgate use simple imperfect"
+      "type": "grammar",
+      "note": "Greek ἐσιώπων is an imperfect active indicative ('they were being silent'); Peshitta ܫܬܝܩܝܢ ܗܘܘ uses the participle + auxiliary verb construction (periphrastic imperfect); Vulgate tacebant is a simple imperfect. All three express durative past action, but through different morphological means."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.740323+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.957370+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

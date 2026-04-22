@@ -68,38 +68,30 @@
         0
       ],
       "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
         0,
         1
       ],
       "vulgate": [
-        1
+        0
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܟܐܝܢ ܗܘܘ (were rebuking) vs. Greek imperfect ἐπετίμων"
+      "type": "grammar",
+      "note": "The Peshitta employs a periphrastic construction ܘܟܐܝܢ ܗܘܘ (wə-kāʾēn hwaw, 'and they were') to render the Greek imperfect ἐπετίμων, making the auxiliary verb explicit where Greek and Latin use synthetic verb forms."
     },
     {
       "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -111,7 +103,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -123,7 +116,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -135,7 +129,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -150,7 +145,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the article + δέ construction (ὁ δέ, 'but he'), Latin employs the adversative At ille ('but he'), and Syriac uses the pronoun ܗܘ with the postpositive particle ܕܝܢ (dēn)—all functionally equivalent contrastive constructions with slight stylistic variation."
     },
     {
       "greek_nt": [
@@ -164,7 +161,9 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the dative of degree πολλῷ with the comparative adverb μᾶλλον ('much more'), which Latin mirrors with multo magis; Syriac uses the single adverb ܝܬܝܪܐܝܬ (yattīrāʾīt, 'exceedingly'), a synthetic form expressing the same intensification."
     },
     {
       "greek_nt": [
@@ -178,25 +177,20 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic ܩܥܐ ܗܘܐ (was crying) vs. Greek simple imperfect ἔκραζεν"
+      "type": "grammar",
+      "note": "The Peshitta again uses a periphrastic construction ܩܥܐ ܗܘܐ (qāʿē hwā, 'he was crying out') to render the Greek imperfect ἔκραζεν, while Greek and Latin employ synthetic imperfect forms (ἔκραζεν / clamabat)."
     },
     {
       "greek_nt": [],
       "peshitta": [
         10
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܘܐܡܪ (and said) before direct speech"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         11
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation before direct speech"
+      "type": "expansion",
+      "note": "The Peshitta adds the verb ܘܐܡܪ (wə-ʾmar, 'and he said'), introducing the direct speech explicitly, while the Greek uses a colon after ἔκραζεν and the Vulgate uses a colon after clamabat to mark the transition to direct discourse without an additional verb of speaking."
     },
     {
       "greek_nt": [
@@ -211,37 +205,30 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        13,
         14
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.806450+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.014569+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

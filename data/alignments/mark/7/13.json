@@ -69,49 +69,27 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek ἀκυροῦντες (making void), Syriac ܡܣܠܝܢ (rejecting/nullifying), Latin rescindentes (annulling) are synonymous but use different semantic fields"
+      "type": "lexical",
+      "note": "Greek ἀκυροῦντες ('making void, nullifying') is rendered by Syriac ܡܣܠܝܢ (from ܣܠܐ, 'to reject, despise') and Latin rescindentes ('annulling, abrogating'). All three convey invalidation but with distinct semantic nuances: Greek emphasizes rendering ineffective, Syriac emphasizes rejection, and Latin emphasizes legal abrogation."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article τὸν not represented in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article τοῦ not represented in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
+        1,
+        2,
+        3,
         4
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the articular construction τὸν λόγον τοῦ θεοῦ with double article (accusative + genitive). Syriac uses the construct state ܡܠܬܐ ܕܐܠܗܐ without articles. Latin follows Greek syntax with verbum Dei but omits the article equivalent, as classical Latin lacks definite articles."
     },
     {
       "greek_nt": [
@@ -129,7 +107,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek dative τῇ παραδόσει ὑμῶν vs Syriac ܡܛܠ ܡܫܠܡܢܘܬܐ (because of tradition) vs Latin per traditionem vestram (through your tradition) show stylistic variation in prepositional construction"
+      "type": "construction",
+      "note": "Greek uses dative of means τῇ παραδόσει ὑμῶν ('by your tradition'). Syriac employs the preposition ܡܛܠ ('because of, on account of') with construct state ܡܫܠܡܢܘܬܐ, expressing causality rather than pure instrumentality. Latin per traditionem vestram uses the accusative with per, indicating agency or means, closer to Greek but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -143,7 +122,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a relative clause ᾗ παρεδώκατε ('which you handed down') with feminine dative singular relative pronoun agreeing with παραδόσει. Syriac employs a d-relative construction ܕܐܫܠܡܬܘܢ directly attached to the noun. Latin quam tradidistis uses accusative feminine singular relative pronoun, reflecting different case government but semantically equivalent."
     },
     {
       "greek_nt": [],
@@ -152,16 +133,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta includes explicit pronoun ܐܢܬܘܢ (you) after first verb, not in Greek or Latin"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon not present in Greek or Peshitta"
+      "type": "gloss",
+      "note": "Syriac inserts the explicit subject pronoun ܐܢܬܘܢ ('you') after the participle ܡܣܠܝܢ, a common Syriac stylistic feature for emphasis or clarity. Greek and Latin leave the subject implicit in the participial and finite verb forms respectively."
     },
     {
       "greek_nt": [
@@ -189,7 +162,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek παρόμοια τοιαῦτα (similar such things), Syriac ܘܕܕܡܝܢ ܠܗܠܝܢ (and those resembling these), Latin similia hujusmodi (similar of this kind) show stylistic variation in expressing similarity"
+      "type": "word-order",
+      "note": "Greek παρόμοια τοιαῦτα ('similar such [things]') uses two adjectives in attributive position. Syriac ܘܕܕܡܝܢ ܠܗܠܝܢ ('and those resembling these') employs a participial construction with demonstrative. Latin similia hujusmodi ('similar of this kind') uses adjective + genitive demonstrative, all expressing the same concept with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -222,13 +196,24 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta includes explicit pronoun ܐܢܬܘܢ (you) after final verb, not in Greek or Latin"
+      "type": "gloss",
+      "note": "Syriac adds a second explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܥܒܕܝܢ ('you do'), creating an emphatic frame around the clause. This repetition is characteristic of Syriac rhetorical style but absent from Greek and Latin, where the verb ending suffices."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after tradidistis, creating a stronger pause before the final clause. This punctuation choice, absent in Greek and Syriac witnesses, may reflect Latin rhetorical convention or scribal interpretation of the verse's logical structure."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.774515+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.989392+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

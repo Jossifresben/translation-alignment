@@ -56,7 +56,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܝܕܥ ܗܘܐ (knew + was) for Greek imperfect ἐγίνωσκεν"
+      "type": "grammar",
+      "note": "The Peshitta employs a periphrastic construction ܝܕܥ ܗܘܐ (yda' hwā, 'he was knowing') using the perfect participle with the auxiliary verb, whereas Greek uses the simple imperfect ἐγίνωσκεν and Latin the simple imperfect Sciebat. All three express continuous past knowledge with equivalent aspectual force."
     },
     {
       "greek_nt": [
@@ -77,7 +78,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicitly names Pilate (ܦܝܠܛܘܣ) as subject, absent in Greek and Vulgate"
+      "type": "gloss",
+      "note": "The Peshitta explicitly names the subject ܦܝܠܛܘܣ (Pīlaṭōs, 'Pilate'), making grammatically explicit what is contextually implicit in both the Greek and Latin traditions. This represents a typical Syriac clarifying expansion for narrative flow."
     },
     {
       "greek_nt": [
@@ -87,8 +89,9 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "note": "Greek ὅτι and Vulgate quod (that) omitted in Peshitta, which uses direct construction"
+      "variant": "omitted",
+      "type": "construction",
+      "note": "Greek and Latin employ the conjunction ὅτι/quod to introduce indirect discourse ('that'), whereas Syriac omits any equivalent conjunction, moving directly from ܓܝܪ to the causal clause ܕܡܢ ܚܣܡܐ. This reflects differing syntactic conventions for reported speech in Syriac."
     },
     {
       "greek_nt": [
@@ -107,28 +110,19 @@
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned",
-      "note": "Object pronoun integrated into Peshitta verb ܐܫܠܡܘܗܝ (delivered-him)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Peshitta uses a single verbal form with pronominal suffix ܐܫܠܡܘܗܝ ('they-delivered-him'), incorporating both verb and object, whereas Greek παραδεδώκεισαν αὐτὸν and Latin tradidissent eum express verb and object as separate tokens. This is a standard morphological difference between Semitic and Indo-European languages."
     },
     {
       "greek_nt": [
@@ -148,8 +142,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.842714+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.047881+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

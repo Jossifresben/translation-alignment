@@ -87,7 +87,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -96,7 +97,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek αὐτὸν (accusative subject of infinitive) omitted in Peshitta and Vulgate due to different syntactic construction"
+      "type": "omission",
+      "note": "Greek employs articular infinitive construction (διὰ τὸ αὐτὸν... δεδέσθαι) with explicit accusative subject αὐτόν; both Peshitta and Vulgate omit the pronoun, using finite verbal constructions that render the subject implicit in the verb morphology."
     },
     {
       "greek_nt": [
@@ -110,43 +112,27 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta expands πολλάκις with ܕܟܠ ܐܡܬܝ (whenever/every time), more explicit temporal construction"
+      "type": "expansion",
+      "note": "Greek πολλάκις ('often') and Vulgate sæpe are simple adverbs; Peshitta expands to ܕܟܠ ܐܡܬܝ ('whenever, every time'), a temporal clause construction that conveys iterative aspect more explicitly through syntax rather than lexical adverb alone."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
+        5,
         6
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        2,
+        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek lists πέδαις καὶ ἁλύσεσιν ('shackles and chains'); Vulgate reverses to compedibus et catenis; Peshitta follows Greek order (ܒܣܘܛܡܐ ܘܒܫܫܠܬܐ) but repeats the preposition ܒ ('with') before each noun, a typical Semitic distributive construction."
     },
     {
       "greek_nt": [
@@ -159,7 +145,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses perfect passive infinitive δεδέσθαι; Vulgate employs perfect passive participle vinctus in ablative absolute; Peshitta uses imperfect passive participle ܡܬܐܣܪ with auxiliary ܗܘܐ, forming a periphrastic past habitual construction semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -168,7 +156,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Coordinating καὶ before διεσπάσθαι implicit in Peshitta/Vulgate word order"
+      "type": "omission",
+      "note": "Greek καί coordinates the two infinitives (δεδέσθαι... διεσπάσθαι); Peshitta and Vulgate restructure the syntax such that this coordinating conjunction is absorbed into their respective finite/participial constructions and does not surface as a discrete token."
     },
     {
       "greek_nt": [
@@ -187,46 +176,30 @@
         6,
         7
       ],
-      "variant": "minor",
-      "note": "Greek ὑπ᾽ αὐτοῦ (by him) explicit agent; Peshitta/Vulgate use passive without explicit agent"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek employs perfect passive infinitive διεσπάσθαι with agent phrase ὑπ᾽ αὐτοῦ ('by him') followed by direct object τὰς ἁλύσεις; Vulgate uses pluperfect active indicative dirupisset catenas (subject-verb-object, no agent phrase needed); Peshitta reverses to object-verb order (ܫܫܠܬܐ ܡܬܒܪ ܗܘܐ, 'the chains were being broken'), employing passive participle with auxiliary, and omits explicit agent as contextually recoverable."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
-        16
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17
       ],
       "peshitta": [
+        10,
         11,
         12
       ],
       "vulgate": [
+        8,
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek coordinates with καὶ τὰς πέδας συντετρῖφθαι (object-verb); Vulgate uses et compedes comminuisset (conjunction-object-verb); Peshitta employs ܘܣܘܛܡܐ ܡܦܣܩ ܗܘܐ (conjunction-object-participle-auxiliary), maintaining the Semitic preference for fronted objects in coordinate clauses describing sequential actions."
     },
     {
       "greek_nt": [
@@ -238,20 +211,21 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         19
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -264,19 +238,21 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperfect ἴσχυεν ('was able'); Vulgate employs imperfect poterat; Peshitta uses active participle ܡܫܟܚ with auxiliary ܗܘܐ, forming a periphrastic imperfect construction that mirrors the Greek/Latin aspectual value through analytic rather than synthetic morphology."
     },
     {
       "greek_nt": [
         21
       ],
-      "peshitta": [
-        17
-      ],
+      "peshitta": [],
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Vulgate retain explicit accusative pronoun αὐτόν/eum as object of the infinitive δαμάσαι/domare; Peshitta attaches the third masculine singular object suffix directly to the infinitive ܠܡܟܒܫܗ ('-him'), a standard Semitic pronominal suffixation pattern that renders a separate pronoun token unnecessary."
     },
     {
       "greek_nt": [
@@ -288,7 +264,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -297,13 +274,14 @@
         16
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek/Peshitta manuscripts"
+      "type": "punctuation",
+      "note": "Vulgate adds colon (:) as verse-final punctuation; neither Greek nor Peshitta manuscripts transmit equivalent punctuation at this juncture, though this reflects Latin scribal convention rather than textual variance."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.754092+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.970736+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

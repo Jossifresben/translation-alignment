@@ -99,7 +99,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -112,23 +113,13 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta incorporates article into noun form"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article οἱ with γραμματεῖς (nominative plural); Syriac ܘܣܦܪܐ and Latin scribæ lack the article, as neither language requires it for definite reference in this syntactic context."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5
       ],
@@ -136,10 +127,12 @@
         1
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned",
-      "note": "Peshitta incorporates article into noun form"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses καὶ τῶν Φαρισαίων with genitive article construction (partitive or appositional); Latin mirrors this with et pharisæi (nominative coordination); Syriac ܘܦܪܝܫܐ employs simple coordination without article, reflecting typical Semitic asyndetic style."
     },
     {
       "greek_nt": [
@@ -148,7 +141,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ before participle omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek includes a third καὶ before ἰδόντες, creating a triadic coordination structure (scribes and Pharisees and having-seen). Both Peshitta and Vulgate omit this conjunction, treating the participle as directly modifying the subject without additional coordination."
     },
     {
       "greek_nt": [
@@ -162,17 +156,22 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses temporal particle ܟܕ with finite verb; Greek/Latin use participle"
+      "type": "construction",
+      "note": "Greek uses aorist participle ἰδόντες (having seen); Latin employs present participle videntes (seeing); Syriac uses temporal particle ܟܕ with perfect verb ܚܙܐܘܗܝ (when they saw him), making the temporal relationship more explicit through a subordinate clause rather than participial construction."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅτι introduces indirect discourse after a verb of perception; Latin quia functions identically; Syriac ܕ (attached to ܕܠܥܣ) serves the same subordinating function but is morphologically bound to the following verb, reflecting typical Syriac syntax."
     },
     {
       "greek_nt": [
@@ -184,57 +183,32 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         10,
-        11
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek 'sinners and tax collectors', Peshitta/Vulgate reverse"
-    },
-    {
-      "greek_nt": [
+        11,
+        12,
+        13,
         14
       ],
       "peshitta": [
-        6
-      ],
-      "vulgate": [
+        5,
+        6,
+        7,
         8
       ],
-      "variant": "aligned"
+      "vulgate": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places ἁμαρτωλῶν before τελωνῶν (sinners and tax-collectors); both Peshitta (ܡܟܣܐ ܘܥܡ ܚܛܝܐ) and Vulgate (publicanis et peccatoribus) reverse this order to tax-collectors and sinners. This represents a minor stylistic variation with no semantic impact."
     },
     {
       "greek_nt": [
@@ -246,33 +220,25 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         16,
-        17
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned",
-      "note": "Peshitta incorporates possessive suffix into noun"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses dative τοῖς μαθηταῖς αὐτοῦ with article and possessive pronoun; Latin employs dative discipulis ejus with possessive; Syriac ܠܬܠܡܝܕܘܗܝ uses pronominal suffix -ܘܗܝ directly attached to the noun, a standard Semitic construction eliminating the need for separate possessive."
     },
     {
       "greek_nt": [],
@@ -280,8 +246,9 @@
       "vulgate": [
         14
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ejus to mark the transition to direct speech, a Latin editorial convention not reflected in Greek or Syriac manuscript traditions."
     },
     {
       "greek_nt": [
@@ -295,92 +262,49 @@
         15
       ],
       "variant": "minor",
-      "note": "Greek τί ὅτι, Peshitta ܡܢܘ, Vulgate Quare - stylistic variation in interrogative"
+      "type": "construction",
+      "note": "Greek uses interrogative τί ὅτι (why that = why is it that); Latin Quare (wherefore/why) is a single adverb; Syriac ܡܢܘ (who/what/why) employs a simple interrogative particle. All three express the same causal question with different syntactic strategies."
     },
     {
       "greek_nt": [
         21,
-        22
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        24
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        22,
+        23,
+        24,
         25
       ],
       "peshitta": [
+        12,
+        13,
         14
       ],
       "vulgate": [
+        16,
+        17,
+        18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek repeats the earlier word order μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν (with tax-collectors and sinners); Peshitta maintains its earlier order ܥܡ ܡܟܣܐ ܘܚܛܝܐ (with tax-collectors and sinners); Vulgate maintains cum publicanis et peccatoribus. The traditions are internally consistent but differ from each other in noun sequence."
     },
     {
       "greek_nt": [
-        26
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        27
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        26,
+        27,
         28
       ],
       "peshitta": [
+        15,
         16
       ],
       "vulgate": [
+        20,
+        21,
         22
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -390,7 +314,8 @@
         24
       ],
       "variant": "added",
-      "note": "Vulgate adds 'Magister vester' (your Teacher) - significant expansion"
+      "type": "expansion",
+      "note": "Vulgate adds Magister vester (your Teacher) as the explicit subject of the question, clarifying who is eating and drinking. Neither Greek nor Peshitta includes this vocative expansion; both rely on context to identify Jesus as the implied subject of the third-person verbs."
     },
     {
       "greek_nt": [],
@@ -398,14 +323,15 @@
       "vulgate": [
         25
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate concludes with a question mark, an editorial convention. Greek uses a semicolon-paragraph marker (;¶) and Syriac lacks explicit punctuation, both reflecting manuscript traditions predating modern punctuation systems."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.737287+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.954122+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

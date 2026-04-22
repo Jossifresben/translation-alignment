@@ -81,7 +81,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -96,43 +97,27 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         3,
-        4
+        4,
+        5
       ],
       "peshitta": [
-        3
-      ],
-      "vulgate": [
         3,
         4
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+      "vulgate": [
+        3,
+        4,
         5
       ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "note": "Greek ἴδωσιν (perceive/see) vs Vulgate videant (see) - semantic overlap with βλέπωσιν"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek distinguishes βλέπω ('look physically') from εἴδω/ὁράω ('perceive, understand') to express the paradox of seeing without perceiving. Peshitta uses the same root ܚܙܐ twice (ܢܚܙܘܢ ܘܠܐ ܢܚܙܘܢ), collapsing the semantic distinction into a single verb with negation, while Vulgate mirrors the Greek distinction with videant...et non videant, maintaining the paradoxical construction through repetition of the same Latin verb."
     },
     {
       "greek_nt": [
@@ -142,9 +127,12 @@
         5
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after the first clause (videant :) and repeats the conjunction et before the second clause, creating stronger rhetorical punctuation. Greek and Peshitta use simple καὶ/ܘܟܕ without such marked pause, maintaining smoother syntactic flow between the parallel clauses."
     },
     {
       "greek_nt": [
@@ -159,33 +147,26 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
         10,
         11
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        10,
+        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -193,8 +174,9 @@
       "vulgate": [
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate again inserts a colon after intelligant to mark the transition to the purpose clause, creating a three-part structure with heightened rhetorical emphasis. Greek and Peshitta proceed directly to μήποτε/ܕܠܡܐ without punctuational break."
     },
     {
       "greek_nt": [
@@ -206,7 +188,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -218,45 +201,48 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
+        14,
+        15,
         16
       ],
-      "variant": "minor",
-      "note": "Peshitta uses single verb ܘܢܫܬܒܩܘܢ (and-be-forgiven) where Greek/Vulgate separate conjunction from verb"
-    },
-    {
-      "greek_nt": [
-        15,
+      "peshitta": [
+        12,
+        13
+      ],
+      "vulgate": [
         16,
         17,
         18
       ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the conjunction καὶ before the passive verb ἀφεθῇ with dative αὐτοῖς following, creating the sequence 'and-be-forgiven to-them'. Peshitta uses the Ethpeal ܘܢܫܬܒܩܘܢ ܠܗܘܢ ('and-they-be-forgiven to-them') with active plural morphology. Vulgate mirrors Greek word order (et dimittantur eis) but uses plural passive subjunctive, aligning more closely with Peshitta's plural conception while maintaining Greek syntax."
+    },
+    {
+      "greek_nt": [
+        17,
+        18
+      ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        17,
-        18,
         19
       ],
       "variant": "minor",
-      "note": "Greek uses article τὰ + ἁμαρτήματα; Peshitta/Vulgate lack article; word order varies (Greek: be-forgiven to-them the sins; Peshitta: to-them their-sins; Vulgate: be-forgiven to-them sins)"
+      "type": "grammar",
+      "note": "Greek uses the neuter plural article τὰ with ἁμαρτήματα ('the sins'), treating sins as a definite collective object. Peshitta employs the pronominal suffix construction ܚܛܗܝܗܘܢ ('their-sins'), making possession explicit. Vulgate uses bare plural peccata without article, following Latin's lack of definite articles while semantically aligning with the Greek definite sense through context."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.747119+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.964814+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

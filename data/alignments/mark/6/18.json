@@ -68,7 +68,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܐܡܪ ܗܘܐ (was saying) for Greek imperfect ἔλεγεν"
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (simple past continuous); Peshitta employs periphrastic construction ܐܡܪ ܗܘܐ (was saying) with auxiliary verb; Vulgate uses imperfect dicebat. All three express iterative or durative past action, but Syriac makes the aspectual nuance explicit through analytic construction."
     },
     {
       "greek_nt": [
@@ -93,7 +94,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article ὁ with proper name Ἰωάννης, a standard Greek construction for known individuals; Syriac and Latin lack articles before proper names, following their respective grammatical norms."
     },
     {
       "greek_nt": [
@@ -106,18 +109,23 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses dative with article τῷ Ἡρῴδῃ; Syriac employs preposition ܠ (to) with proper name ܗܪܘܕܣ; Latin uses simple dative Herodi. All express indirect object, but through different case-marking strategies."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
+      "peshitta": [
+        5
+      ],
       "vulgate": [
         4
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits ὅτι/colon, using direct discourse marker ܕ- instead"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ὅτι introduces indirect discourse; Syriac ܕ serves identical function; Vulgate inserts colon punctuation before the quotation rather than using a subordinating conjunction, treating John's words as direct rather than indirect speech."
     },
     {
       "greek_nt": [
@@ -132,7 +140,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses negative particle οὐκ with impersonal verb ἔξεστίν (it is lawful); Syriac combines negative ܕܠܐ with adjective ܫܠܝܛ (permitted); Latin employs non with impersonal licet. All three express prohibition of legality, but Syriac uses adjectival predicate where Greek and Latin use verbal constructions."
     },
     {
       "greek_nt": [
@@ -157,7 +167,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܬܣܒ (that you take) uses subjunctive construction vs. Greek infinitive ἔχειν"
+      "type": "construction",
+      "note": "Greek uses infinitive ἔχειν (to have) complementing ἔξεστίν; Syriac employs ܕ + imperfect ܬܣܒ (that you take/marry), a finite subordinate clause; Latin uses infinitive habere. Syriac finite construction is typical for purpose/result clauses in that tradition."
     },
     {
       "greek_nt": [
@@ -170,36 +181,31 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses definite article τὴν with γυναῖκα (the wife); Syriac ܐܢܬܬ and Latin uxorem lack articles, as both languages employ definiteness through context and construct-state (Syriac) or case inflection (Latin) rather than separate articles."
     },
     {
       "greek_nt": [
         13,
-        14
+        14,
+        15
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [],
-      "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned",
-      "note": "Peshitta encodes possessive suffix on ܐܚܘܟ (your brother) rather than separate pronoun"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses genitive construction τοῦ ἀδελφοῦ σου (of the brother of you) with article; Latin employs genitive fratris tui mirroring Greek structure; Syriac uses construct-state ܐܚܘܟ (brother-your), a single bound form encoding both possession and the nominal relationship without separate article or preposition."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.764379+00:00",
+    "generated_at": "2026-04-22T12:17:07.980373+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

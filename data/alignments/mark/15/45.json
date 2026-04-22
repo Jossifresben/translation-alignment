@@ -50,7 +50,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses simple conjunction καὶ ('and'); Peshitta employs temporal conjunction ܘܟܕ ('and when'); Vulgate uses cum ('when') with no coordinating conjunction. The Peshitta and Vulgate both emphasize the temporal sequence more explicitly than the Greek."
     },
     {
       "greek_nt": [
@@ -69,7 +71,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta omits explicit reference to centurion source; Greek ἀπὸ τοῦ κεντυρίωνος and Vulgate a centurione both specify the source of knowledge"
+      "type": "construction",
+      "note": "Greek uses aorist participle γνοὺς with prepositional phrase ἀπὸ τοῦ κεντυρίωνος ('having known from the centurion'); Vulgate mirrors this with perfect participle cognovisset a centurione. Peshitta uses finite verb ܝܠܦ ('he learned') without explicitly naming the centurion as source, creating a more compressed construction that assumes the centurion from context."
     },
     {
       "greek_nt": [
@@ -94,7 +97,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek πτῶμα (literally 'fallen thing, corpse') and Latin corpus ('body') are neutral terms; Syriac ܦܓܪܗ ('his body') adds a possessive suffix, making the reference to Jesus's body more explicit and personal, a characteristic Syriac stylistic feature in narrative."
     },
     {
       "greek_nt": [
@@ -112,8 +117,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.848907+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.053099+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

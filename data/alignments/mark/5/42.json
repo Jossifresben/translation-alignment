@@ -75,7 +75,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -87,7 +88,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εὐθύς ('immediately') and Latin confestim are temporal adverbs; Peshitta ܒܪ ܫܥܬܗ ('in that hour') uses a prepositional phrase construction, semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -99,7 +102,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -112,7 +116,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the neuter article + diminutive τὸ κοράσιον; Peshitta ܛܠܝܬܐ and Vulgate puella are both feminine, reflecting natural gender rather than grammatical neuter."
     },
     {
       "greek_nt": [
@@ -124,7 +130,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -138,21 +145,41 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction (participle + auxiliary) for imperfect tense"
+      "type": "construction",
+      "note": "Greek περιεπάτει (imperfect active) and Latin ambulabat (imperfect) are simple verb forms; Peshitta ܘܡܗܠܟܐ ܗܘܬ employs a periphrastic construction (participle + auxiliary), a common Syriac idiom for progressive aspect."
     },
     {
-      "greek_nt": [
-        7
-      ],
+      "greek_nt": [],
       "peshitta": [
         6,
         7
       ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta inserts ܐܝܬܝܗ ܗܘܬ ('she was'), an existential copula construction absent in Greek and Latin, likely added for syntactic clarity in the Syriac clause structure."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ambulabat, creating a stronger syntactic break before the explanatory clause; neither Greek nor Peshitta manuscripts transmit equivalent punctuation here."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [],
       "vulgate": [
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses existential particle ܐܝܬܝܗ + copula for emphasis"
+      "type": "omission",
+      "note": "Greek ἦν and Latin erat supply the copula for the age clause; Peshitta omits an explicit copula, relying on nominal sentence structure typical of Semitic syntax."
     },
     {
       "greek_nt": [
@@ -165,7 +192,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Vulgate autem vs. Greek/Peshitta γάρ/ܓܝܪ - stylistic particle choice"
+      "type": "lexical",
+      "note": "Greek γάρ and Peshitta ܓܝܪ (loanword from Greek) are explanatory particles; Latin autem ('moreover') shifts slightly toward adversative nuance, though functionally equivalent in context."
     },
     {
       "greek_nt": [
@@ -182,17 +210,18 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta uses construct state 'daughter of years twelve' vs. Greek genitive 'of years twelve'"
+      "type": "idiom",
+      "note": "Greek ἐτῶν δώδεκα (genitive of measure) and Latin annorum duodecim mirror each other; Peshitta ܒܪܬ ܫܢܝܢ ܬܪܬܥܣܪܐ ('daughter of twelve years') uses the construct-state idiom ܒܪܬ, a Semitic age-expression formula."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        6,
         11
       ],
       "variant": "added",
-      "note": "Vulgate adds colons for punctuation, not present in Greek/Peshitta manuscripts"
+      "type": "punctuation",
+      "note": "Vulgate inserts a second colon before the final clause, creating tripartite punctuation structure; Greek and Peshitta use simple conjunction without equivalent pause."
     },
     {
       "greek_nt": [
@@ -204,7 +233,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -218,7 +248,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction (participle + auxiliary) for aorist"
+      "type": "construction",
+      "note": "Greek ἐξέστησαν (aorist active) and Latin obstupuerunt are simple finite verbs; Peshitta ܘܡܬܕܡܪܝܢ ܗܘܘ uses periphrastic construction (participle + auxiliary ܗܘܘ), again reflecting Syriac preference for analytic verb forms."
     },
     {
       "greek_nt": [
@@ -227,7 +258,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek εὐθὺς (immediately) omitted in Peshitta and Vulgate, possibly for stylistic reasons to avoid repetition"
+      "type": "omission",
+      "note": "Greek repeats εὐθύς ('immediately') before the final clause, emphasizing the instantaneous reaction; both Peshitta and Vulgate omit this second temporal marker, avoiding redundancy."
     },
     {
       "greek_nt": [
@@ -242,13 +274,15 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐκστάσει μεγάλῃ uses dative of manner (cognate accusative construction); Latin stupore magno employs ablative of manner; Peshitta ܕܘܡܪܐ ܪܒܐ uses construct-state noun + adjective, all expressing identical semantics through tradition-specific syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.760298+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.977412+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

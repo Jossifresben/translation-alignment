@@ -61,35 +61,37 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction καὶ plus aorist participle εἰσελθοῦσαι (feminine plural, 'having entered'); Vulgate mirrors this with Et plus present participle introëuntes; Syriac employs a single finite verb ܘܥܠܝܢ (w-ʿlayn, 'and they entered'), converting the Greek participial construction into a main verb."
     },
     {
       "greek_nt": [
-        1,
         2,
         3,
         4
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        1,
         2,
         3
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction with participle (ܘܥܠܝܢ); Greek separates καὶ εἰσελθοῦσαι; Peshitta uses construct state ܠܒܝܬ ܩܒܘܪܐ 'to house of burial' vs Greek εἰς τὸ μνημεῖον"
+      "type": "construction",
+      "note": "Greek uses preposition εἰς plus article τὸ and noun μνημεῖον ('into the tomb'); Vulgate follows with in monumentum; Syriac employs the bound-state construction ܠܒܝܬ ܩܒܘܪܐ (l-bayt qḇūrā, 'to the house of burial'), a typical Semitic genitive phrase lacking the definite article."
     },
     {
       "greek_nt": [
@@ -141,8 +143,9 @@
         7,
         8
       ],
+      "note": "Greek uses ἐν τοῖς δεξιοῖς (literally 'in/among the right [parts]', neuter plural substantive); Vulgate renders in dextris (ablative plural, 'on the right'); Syriac uses ܡܢ ܝܡܝܢܐ (men yamīnā, 'from the right', singular), a prepositional phrase with singular noun—semantically equivalent but syntactically distinct from the Greek plural construction.",
       "variant": "minor",
-      "note": "Greek ἐν τοῖς δεξιοῖς (plural 'on the right side') vs Peshitta ܡܢ ܝܡܝܢܐ and Vulgate 'in dextris' - stylistic variation in expressing location"
+      "type": "grammar"
     },
     {
       "greek_nt": [
@@ -158,58 +161,40 @@
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        10,
         11
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
         11
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "minor",
-      "note": "Greek ἐξεθαμβήθησαν 'were greatly amazed' vs Peshitta ܘܬܡܗ 'and they marveled' vs Vulgate 'obstupuerunt' 'were astonished' - synonymous expressions of amazement with slight intensity variation"
+      "type": "lexical",
+      "note": "Greek ἐξεθαμβήθησαν (exethambēthēsan, 'they were utterly astonished', intensive compound verb) and Vulgate obstupuerunt ('they were stunned') both convey strong amazement; Syriac ܘܬܡܗ (w-tamah, 'and they marveled') uses a simpler, less intensive verb, though the semantic range overlaps with wonder and astonishment."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.850972+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.054953+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

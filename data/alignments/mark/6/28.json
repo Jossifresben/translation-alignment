@@ -71,7 +71,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,7 +84,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -97,7 +99,8 @@
         3
       ],
       "variant": "omitted",
-      "note": "Peshitta omits explicit mention of 'the head of him', implied from context"
+      "type": "omission",
+      "note": "The Peshitta omits the explicit mention of 'the head of him' (τὴν κεφαλὴν αὐτοῦ / caput ejus), incorporating this referent implicitly within the verb ܐܝܬܝ ('brought [it]'). This represents a typical Syriac economy of expression where the direct object is understood from narrative context."
     },
     {
       "greek_nt": [
@@ -111,7 +114,8 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -121,45 +125,32 @@
         2
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'disco' to mark a major syntactic break before the second clause, while Greek and Peshitta use simple coordination (καὶ / ܘ). This reflects Latin rhetorical punctuation practice rather than a textual variant."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits pronoun 'it', object understood from verb"
-    },
-    {
-      "greek_nt": [
+        8,
+        9,
         10,
         11
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        8,
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article with the dative noun (τῷ κορασίῳ) to specify the recipient; Latin uses the bare dative 'puellæ'; Peshitta uses the preposition ܠ with the definite noun ܠܛܠܝܬܐ. All three constructions are functionally equivalent dative-of-recipient expressions, differing only in morphosyntactic realization."
     },
     {
       "greek_nt": [
@@ -171,7 +162,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -185,58 +177,36 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek repeats the articular noun phrase (τὸ κοράσιον) as subject; Latin uses the bare noun 'puella'; Peshitta employs the independent pronoun ܘܗܝ ('and she') followed by the noun ܛܠܝܬܐ in apposition. The Syriac construction represents a characteristic Semitic resumptive-pronoun pattern for topic continuity."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Both Peshitta and Vulgate omit pronoun 'it', object understood"
-    },
-    {
-      "greek_nt": [
+        15,
+        16,
         17,
         18,
         19
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        13,
         14,
         15
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the article with both the verb's object (αὐτὴν) and the dative recipient (τῇ μητρὶ αὐτῆς); Latin omits the object pronoun entirely ('dedit matri suæ'), relying on verb transitivity; Peshitta uses the verb ܝܗܒܬ with the prepositional phrase ܠܐܡܗ ('to her mother'), incorporating the possessive suffix directly. These represent three typologically distinct strategies for encoding the same transfer event."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.766093+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.982171+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -92,18 +92,12 @@
       ],
       "vulgate": [
         0,
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        1,
         2
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek combines conjunction and verb (καὶ ἔλεγεν) with a single colon; Vulgate separates them with a colon after dixit, creating a more formal pause before the direct speech. Peshitta uses simple waw-consecutive without punctuation marker."
     },
     {
       "greek_nt": [
@@ -129,7 +123,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek uses article + vocative πατήρ; Peshitta ܐܒܝ 'my father' adds possessive; Vulgate pater is simple vocative"
+      "type": "construction",
+      "note": "Greek employs the vocative article ὁ πατήρ (a Semitic-influenced construction); Syriac uses the possessive suffix ܐܒܝ ('my father'), making the relationship explicit; Latin uses simple vocative pater without article or possessive, following classical Latin norms."
     },
     {
       "greek_nt": [
@@ -147,137 +142,89 @@
         5,
         6,
         7,
-        8
-      ],
-      "variant": "minor",
-      "note": "Word order differs: Greek 'all things possible to-you'; Peshitta 'all thing possible you'; Vulgate 'all to-you possible are'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        8,
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the dative pronoun σοι at the end (πάντα δυνατά σοι); Syriac inserts the indefinite ܡܕܡ ('anything') and places the subject pronoun ܐܢܬ ('you') after the participle ܡܫܟܚ ('able'); Vulgate front-loads the dative tibi and adds the copula sunt, yielding omnia tibi possibilia sunt—three syntactically distinct but semantically equivalent constructions."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10,
-        11
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
         11,
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        8
+        7,
+        8,
+        9,
+        10
       ],
       "vulgate": [
+        10,
+        11,
+        12,
         13,
-        14
-      ],
-      "variant": "minor",
-      "note": "Word order: Greek 'from me' follows cup; Peshitta 'from-me' precedes cup; Vulgate 'from me' follows cup"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        14,
         15
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses aorist imperative παρένεγκε with article-noun-demonstrative-prepositional phrase (τὸ ποτήριον τοῦτο ἀπ᾽ ἐμοῦ); Syriac employs aphel imperative ܐܥܒܪ with preposition-suffix ܡܢܝ preceding the noun ܟܣܐ ܗܢܐ; Vulgate uses present imperative transfer with noun-demonstrative-preposition-pronoun (calicem hunc a me), adding a colon for rhetorical pause. All three convey identical petition with tradition-specific syntax."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
         16,
         17,
         18
       ],
       "peshitta": [
+        11,
         12,
         13,
         14
       ],
       "vulgate": [
+        16,
         17,
         18,
         19,
         20
       ],
       "variant": "minor",
-      "note": "Greek 'not what I want'; Peshitta 'not my-will mine'; Vulgate 'not what I want' with explicit volo"
+      "type": "construction",
+      "note": "Greek uses ἀλλ᾽ οὐ τί ἐγὼ θέλω (adversative + negative + interrogative pronoun + emphatic pronoun + verb); Syriac employs ܐܠܐ ܠܐ ܨܒܝܢܝ ܕܝܠܝ (adversative + negative + noun 'my will' + possessive pronoun), nominalizing the clause; Vulgate uses sed non quod ego volo (adversative + negative + relative pronoun + pronoun + verb), mirroring Greek structure but with relative quod instead of interrogative τί."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20,
         21
       ],
       "peshitta": [
+        15,
         16
       ],
       "vulgate": [
+        21,
         22,
         23
       ],
       "variant": "minor",
-      "note": "Greek 'what you'; Peshitta 'yours' (possessive); Vulgate 'what you' with explicit tu"
+      "type": "construction",
+      "note": "Greek repeats ἀλλὰ τί σύ (adversative + interrogative + pronoun); Syriac uses ܐܠܐ ܕܝܠܟ (adversative + possessive pronoun 'yours'), again nominalizing; Vulgate mirrors Greek with sed quod tu (adversative + relative + pronoun). The Peshitta's possessive construction (ܕܝܠܝ / ܕܝܠܟ) contrasts 'my [will]' vs. 'your [will]' without repeating the verb, a typical Syriac ellipsis."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.835266+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.040462+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

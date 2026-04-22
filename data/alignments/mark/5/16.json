@@ -70,7 +70,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek uses καὶ...δέ (continuative + contrastive), Peshitta ܘ (simple conjunction), Vulgate Et (simple conjunction)"
+      "type": "substitution",
+      "note": "Greek employs two coordinating conjunctions (καὶ ... δὲ) for stylistic variation, while Peshitta and Vulgate each use a single conjunction (ܘ / Et). This represents a typical Greek literary doublet reduced to simpler coordination in translation."
     },
     {
       "greek_nt": [
@@ -109,7 +110,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses article + participle construction (οἱ ἰδόντες) with the article preceding; Vulgate employs a relative pronoun + finite verb (qui viderant); Peshitta uses demonstrative + relative particle + verb (ܗܢܘܢ ܕܚܙܘ). All three express 'those who saw' but through language-specific syntactic patterns."
     },
     {
       "greek_nt": [
@@ -134,7 +137,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Peshitta use simple finite verbs (ἐγένετο / ܗܘܐ), while Vulgate employs a passive periphrastic construction (factum esset) with subjunctive mood in indirect discourse, reflecting Latin syntactic preference for subordinate clause mood."
     },
     {
       "greek_nt": [
@@ -152,7 +157,8 @@
         11
       ],
       "variant": "major",
-      "note": "Greek τῷ δαιμονιζομένῳ (dative participle 'to the one being demonized'), Peshitta ܠܗܘ ܕܫܐܕܘܗܝ (relative clause 'to him who had demons'), Vulgate ei qui dæmonium habuerat (relative clause with pluperfect 'to him who had had a demon')"
+      "type": "substitution",
+      "note": "Greek uses the present participle δαιμονιζομένῳ ('to the one being demonized') with article; Peshitta employs a relative clause with noun ܕܫܐܕܘܗܝ ('who had demons'); Vulgate expands to a relative clause with perfect verb habuerat ('who had had a demon'), making the possession temporally explicit and using the singular dæmonium versus Greek's implied plurality."
     },
     {
       "greek_nt": [
@@ -165,7 +171,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܐܦ adds emphatic particle 'and also'"
+      "type": "lexical",
+      "note": "Peshitta uses the emphatic conjunction ܘܐܦ ('and also/even') where Greek and Latin employ simple coordination (καὶ / et), adding mild emphasis to the second element of the narrative."
     },
     {
       "greek_nt": [
@@ -182,13 +189,15 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase περὶ τῶν χοίρων ('concerning the pigs') with article; Vulgate mirrors this with de porcis; Peshitta employs ܥܠ ܗܢܘܢ ܚܙܝܪܐ with demonstrative ܗܢܘܢ ('concerning those pigs'), making the reference slightly more deictic but semantically equivalent."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.756112+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.973010+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

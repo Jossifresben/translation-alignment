@@ -72,9 +72,12 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "The Vulgate inserts the adversative particle 'autem' (moreover/but) after 'Secundum', creating a mild contrastive transition absent in both the Greek καὶ δευτέρα and the Peshitta ܘܕܬܪܝܢ, which employ simple conjunctive constructions. This represents Latin stylistic preference for explicit discourse markers."
     },
     {
       "greek_nt": [
@@ -97,42 +100,26 @@
       ],
       "vulgate": [
         3,
-        4
-      ],
-      "variant": "minor",
-      "note": "Vulgate adds copula 'est' + pronoun 'illi' for clarity; Peshitta uses pronominal suffix"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        4,
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the demonstrative pronoun αὕτη (this [is]) with implied copula; Peshitta employs the prepositional phrase ܠܗ (to it/like it); Vulgate makes the copula explicit with 'est illi' and adds a colon for punctuation. All three convey equivalence but through different syntactic strategies—Greek elliptical, Syriac prepositional, Latin explicit predication."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6,
         7
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        6,
         7,
         8
       ],
@@ -140,24 +127,15 @@
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        9,
         10
       ],
       "variant": "aligned"
@@ -177,32 +155,25 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta uses preposition 'ܡܢ' (from/than) with demonstrative; Greek and Vulgate use genitive construction"
+      "type": "word-order",
+      "note": "The Peshitta places the comparative adjective ܕܪܒ (greater) after the noun ܦܘܩܕܢܐ ܐܚܪܢܐ (another commandment), requiring the preposition ܡܢ (than) plus demonstrative ܗܠܝܢ (these). Greek and Latin position the comparative before the genitive/ablative (μείζων τούτων / Majus horum), reflecting standard Greek and Latin comparative syntax versus Syriac's analytic construction."
     },
     {
       "greek_nt": [
-        12
+        12,
+        13
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
+        13,
         14
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta places 'commandment' earlier in clause"
+      "type": "word-order",
+      "note": "Greek places the adjective ἄλλη before the noun ἐντολὴ (another commandment); Peshitta reverses this to ܦܘܩܕܢܐ ܐܚܪܢܐ (commandment another), following typical Semitic noun-adjective order. Vulgate mirrors Greek attributive position with 'aliud mandatum', demonstrating Greek influence on Latin word order in this construction."
     },
     {
       "greek_nt": [
@@ -216,22 +187,15 @@
         15,
         16
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'autem' (but/moreover) as transitional particle"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the standard negated copula οὐκ ἔστιν (there is not); Latin mirrors this with 'non est'. Peshitta uses the negative existential particle ܠܝܬ, a single lexeme functioning as both negation and copula, representing a distinctively Semitic grammatical strategy for expressing non-existence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.819743+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.025963+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

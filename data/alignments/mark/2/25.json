@@ -80,176 +80,129 @@
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits initial conjunction"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb. This is a common Syriac stylistic preference, avoiding redundant conjunctions where context sufficiently links clauses."
     },
     {
       "greek_nt": [
         1
       ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek includes the emphatic pronoun αὐτός ('he himself') before the verb, which neither the Peshitta nor the Vulgate render explicitly. The emphasis is absorbed into the verbal conjugation in both target languages."
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        1,
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb λέγει before the indirect object αὐτοῖς; Syriac mirrors this (ܐܡܪ ܠܗܘܢ); Latin inverts to ait illis. The Vulgate's colon after illis marks the beginning of direct discourse, a punctuation convention absent in the Greek and Peshitta manuscripts."
+    },
+    {
+      "greek_nt": [],
       "peshitta": [
         2
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicitly names Jesus as subject; Greek/Vulgate use pronoun"
+      "type": "expansion",
+      "note": "The Peshitta inserts the explicit subject ܝܫܘܥ ('Jesus'), clarifying the speaker. Neither the Greek nor the Vulgate name Jesus here, relying on narrative context from the preceding verse."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2,
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        4
+        4,
+        5
       ],
       "peshitta": [
         3,
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses double negative ܠܐ ܡܡܬܘܡ; all convey 'never'"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
+        7,
         8
       ],
       "peshitta": [
+        6,
+        7,
         8
       ],
       "vulgate": [
+        6,
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        9,
         10,
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        13
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܟܦܢ combines conjunction and verb; Greek/Vulgate separate"
+      "type": "construction",
+      "note": "Greek uses a temporal clause with ὅτε + aorist ἔσχεν ('when he had need'); Syriac employs the temporal particle ܟܕ with a single verb ܐܣܬܢܩ ('when he was in need'), collapsing the noun-verb construction into a verbal form. Latin mirrors the Greek structure with quando necessitatem habuit, maintaining the noun + verb phrase."
     },
     {
       "greek_nt": [
+        12,
+        13,
         14
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek coordinates with καὶ ἐπείνασεν αὐτός ('and he himself hungered'), placing the emphatic pronoun after the verb. Syriac uses ܘܟܦܢ ܗܘ ('and hungered he'), mirroring the post-verbal pronoun. Latin employs et esuriit ipse, also post-verbal but with ipse for emphasis, though the Vulgate lacks the second conjunction before the final clause."
     },
     {
       "greek_nt": [
         15,
         16,
         17,
-        18
+        18,
+        19
       ],
       "peshitta": [
         13
@@ -262,14 +215,15 @@
         19,
         20
       ],
-      "variant": "minor",
-      "note": "Peshitta uses compact ܘܕܥܡܗ 'and those with him'; Greek/Vulgate more analytical with article, preposition, pronoun"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses a full articular prepositional phrase καὶ οἱ μετ᾽ αὐτοῦ ('and those with him'), requiring five tokens including the article, preposition, and pronoun. Syriac compresses this into a single construct-state phrase ܘܕܥܡܗ ('and-those-with-him'), a typical Semitic economy. Latin expands with a relative clause et qui cum eo erant ('and those who were with him'), adding the verb erant for syntactic completeness and closing with a question mark absent in the Greek punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.739152+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.956037+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

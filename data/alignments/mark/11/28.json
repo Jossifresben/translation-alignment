@@ -79,7 +79,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -91,8 +92,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܡܪܝܢ"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγον ('they were saying'), indicating continuous or repeated action in past time. Latin dicunt employs historical present ('they say'), a vivid narrative device. Peshitta ܘܐܡܪܝܢ uses the perfect with waw-consecutive, functionally equivalent to Greek imperfect in narrative sequence."
     },
     {
       "greek_nt": [
@@ -104,7 +106,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -113,7 +116,8 @@
         3
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ei to mark the beginning of direct discourse. Neither Greek nor Peshitta manuscripts employ punctuation at this juncture, though Greek uses a raised dot (·) after αὐτῷ in some witnesses."
     },
     {
       "greek_nt": [
@@ -130,33 +134,27 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐν ποίᾳ ἐξουσίᾳ ('by what authority'); Latin mirrors this with In qua potestate. Peshitta employs the interrogative ܒܐܝܢܐ ܫܘܠܛܢܐ ('by which authority'), a direct calque but without the article, as Syriac lacks the definite article in this construction."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
+        4,
         5,
         6
       ],
       "vulgate": [
+        7,
         8
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit subject pronoun ܐܢܬ (you)"
+      "type": "gloss",
+      "note": "Peshitta adds explicit subject pronoun ܐܢܬ ('you') after the verb ܥܒܕ, a common Syriac clarification where Greek and Latin rely on verbal inflection alone. The demonstrative ܗܠܝܢ ('these things') corresponds to Greek ταῦτα and Latin hæc."
     },
     {
       "greek_nt": [],
@@ -165,7 +163,8 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "type": "punctuation",
+      "note": "Vulgate places a question mark after facis, dividing the compound question into two separate interrogatives. Greek and Peshitta treat this as a single bipartite question connected by ἢ / ܘ ('or'), without internal punctuation."
     },
     {
       "greek_nt": [
@@ -177,7 +176,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἢ is a disjunctive particle ('or'); Peshitta ܘ is the standard conjunctive waw but functions disjunctively in interrogative contexts. Latin et ('and') appears conjunctive but in double-question constructions serves as a disjunctive equivalent, a classical Latin idiom."
     },
     {
       "greek_nt": [
@@ -190,7 +191,7 @@
         11
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and interrogative in ܘܡܢܘ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -202,7 +203,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -214,7 +216,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -230,46 +233,28 @@
         14,
         15
       ],
-      "variant": "aligned",
-      "note": "Greek includes definite article τὴν absent in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        16
-      ],
       "variant": "minor",
-      "note": "Greek ἵνα (purpose) vs Peshitta ܕ and Vulgate ut (both purpose/result)"
+      "type": "word-order",
+      "note": "Greek places the article τὴν before ἐξουσίαν ταύτην ('this authority'), standard Koine word order. Latin hanc potestatem reverses demonstrative and noun, classical Latin preference. Peshitta ܫܘܠܛܢܐ ܗܢܐ follows Semitic noun-demonstrative order, lacking the article as Syriac has no definite article."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and demonstrative in ܕܗܠܝܢ"
-    },
-    {
-      "greek_nt": [
+        15,
+        16,
         17
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        16,
+        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἵνα introduces a purpose/result clause with subjunctive ποιῇς ('that you may do'). Latin ut ista facias mirrors this construction exactly. Peshitta uses the relative particle ܕ with imperfect ܬܥܒܕ, a standard Syriac equivalent for Greek ἵνα-clauses, semantically identical but syntactically a relative construction."
     },
     {
       "greek_nt": [],
@@ -278,13 +263,14 @@
         19
       ],
       "variant": "added",
-      "note": "Vulgate adds final question mark punctuation"
+      "type": "punctuation",
+      "note": "Vulgate closes with a question mark after facias, marking the end of the entire interrogative sequence. Greek uses a semicolon (;) which functions as a question mark in Greek orthography. Peshitta manuscripts typically lack punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.812363+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.019484+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

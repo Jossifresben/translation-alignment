@@ -52,7 +52,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple conjunction καί; Peshitta employs temporal conjunction ܘܟܕ ('and when'); Vulgate uses cum with pluperfect subjunctive, creating a temporal-causal subordinate clause. All three convey sequential narrative action but with differing syntactic strategies."
     },
     {
       "greek_nt": [
@@ -66,40 +68,31 @@
         2
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses temporal construction ܘܟܕ ܥܒܪܘ ܥܒܪܐ 'and when they crossed the crossing'; Vulgate cum transfretassent 'when they had crossed'; Greek participle διαπεράσαντες ἐπὶ τὴν γῆν 'having passed over to the land'"
+      "type": "construction",
+      "note": "Greek uses aorist participle διαπεράσαντες with prepositional phrase ἐπὶ τὴν γῆν ('having crossed over to the land'); Peshitta employs finite verb ܥܒܪܘ with cognate accusative ܥܒܪܐ ('they crossed a crossing'), a Semitic intensifying construction; Vulgate uses single compound verb transfretassent ('they had crossed the strait'). The Peshitta's cognate accusative is idiomatic and semantically equivalent to the Greek participial construction."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7
       ],
       "peshitta": [
+        3,
         4,
         5
       ],
       "vulgate": [
+        3,
         4,
         5,
         6
       ],
-      "variant": "minor",
-      "note": "Peshitta ܠܐܪܥܐ ܕܓܢܣܪ 'to the land of Genesar' conflates Greek εἰς Γεννησαρὲτ with earlier ἐπὶ τὴν γῆν; Vulgate in terram Genesareth preserves both elements"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -112,13 +105,14 @@
         8
       ],
       "variant": "omitted",
-      "note": "Peshitta omits καὶ προσωρμίσθησαν 'and they drew to shore' / Vulgate et applicuerunt"
+      "type": "omission",
+      "note": "Greek and Vulgate attest the clause 'and they drew to shore' (καὶ προσωρμίσθησαν / et applicuerunt), describing the mooring action. The Peshitta omits this entirely, ending the verse with arrival at Gennesaret. This represents a substantive textual difference, possibly reflecting a shorter Vorlage or deliberate abbreviation in the Syriac tradition."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.771680+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.986271+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

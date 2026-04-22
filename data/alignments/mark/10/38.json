@@ -101,40 +101,22 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek article ὁ δέ vs Peshitta ܗܘ ܕܝܢ vs Vulgate autem; stylistic variation in adversative particle"
+      "type": "word-order",
+      "note": "Greek uses article + δέ + proper name (Ὁ δὲ Ἰησοῦς); Peshitta employs pronoun + particle + verb (ܗܘ ܕܝܢ ܐܡܪ, 'He then said'); Vulgate follows Greek word order with proper name first (Jesus autem ait). All three convey the same adversative transition, but Syriac prefers pronominal anaphora."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -143,137 +125,87 @@
       ],
       "peshitta": [
         4,
-        5
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        5,
         6
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬܘܢ (you)"
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta adds explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܝܕܥܝܢ, a typical Syriac clarification where Greek οὐκ οἴδατε and Latin Nescitis encode the subject in verbal morphology alone."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
-        8
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        7,
+        8,
         9
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬܘܢ (you) after verb"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
+        6,
+        7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta again supplies explicit subject pronoun ܐܢܬܘܢ ('you') after ܫܐܠܝܢ ('ask'), mirroring the pattern in the previous clause. Greek τί αἰτεῖσθε and Latin quid petatis rely on verbal inflection for person-number marking."
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [
-        10
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        10,
         11
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬܘܢ (you) after modal verb"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        12
-      ],
       "vulgate": [
-        10
+        9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta inserts ܐܢܬܘܢ ('you') as explicit subject after ܡܫܟܚܝܢ ('are able'), continuing the Syriac preference for overt pronominal subjects. Greek δύνασθε and Latin potestis encode the subject morphologically."
     },
     {
       "greek_nt": [
+        10,
         11,
         12
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses infinitive πιεῖν + article + noun (τὸ ποτήριον); Peshitta employs a d- subordinate clause ܕܬܫܬܘܢ ('that you drink') + noun ܟܣܐ; Vulgate uses infinitive bibere + noun calicem. Syriac prefers finite subordination where Greek and Latin use infinitival complementation."
     },
     {
       "greek_nt": [
         13,
-        14
+        14,
+        15
       ],
       "peshitta": [
         14,
+        15,
         16
       ],
       "vulgate": [
         12,
-        13
-      ],
-      "variant": "minor",
-      "note": "Peshitta splits pronoun ܕܐܢܐ...ܐܢܐ around verb; Greek/Vulgate use relative clause"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs relative pronoun ὃ + pronoun ἐγὼ + verb πίνω; Peshitta uses d- relative ܕܐܢܐ + participle ܫܬܐ + resumptive pronoun ܐܢܐ; Vulgate uses quem + ego + bibo. Syriac's double pronominal structure (ܕܐܢܐ ... ܐܢܐ) is a characteristic Semitic relative-clause construction."
     },
     {
       "greek_nt": [
@@ -286,48 +218,41 @@
         15
       ],
       "variant": "minor",
-      "note": "Peshitta ܘ (and) vs Greek ἤ/Vulgate aut (or); coordinating vs disjunctive conjunction"
+      "type": "lexical",
+      "note": "Greek ἤ ('or') and Latin aut are simple disjunctive conjunctions; Peshitta ܘܡܥܡܘܕܝܬܐ prefixes waw ('and') to 'baptism', yielding 'and the baptism' rather than 'or the baptism'. This may reflect Syriac stylistic preference for coordinating conjunctions in parallel constructions."
     },
     {
       "greek_nt": [
         17,
         18
       ],
-      "peshitta": [
-        17
-      ],
+      "peshitta": [],
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek τὸ βάπτισμα ('the baptism') includes the article; Vulgate baptismo is ablative without article (Latin lacks articles); Peshitta ܡܥܡܘܕܝܬܐ ('baptism') is definite by morphology (emphatic state). The article is structurally omitted in Syriac because definiteness is encoded in the noun form itself."
     },
     {
       "greek_nt": [
         19,
-        20
+        20,
+        21
       ],
       "peshitta": [
         18,
+        19,
         20
       ],
       "vulgate": [
         17,
-        18
+        18,
+        19
       ],
       "variant": "minor",
-      "note": "Peshitta splits pronoun ܕܐܢܐ...ܐܢܐ around verb; Greek/Vulgate use relative clause"
-    },
-    {
-      "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        19
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
+      "type": "construction",
+      "note": "Greek relative ὃ + pronoun ἐγὼ + passive verb βαπτίζομαι; Peshitta d- relative ܕܐܢܐ + active verb ܥܡܕ + resumptive ܐܢܐ; Vulgate quo + ego + passive baptizor. Syriac uses active voice where Greek and Latin use passive, a common Semitic idiom for expressing the same theological reality."
     },
     {
       "greek_nt": [
@@ -337,24 +262,16 @@
         21
       ],
       "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        20,
         21
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "aligned"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.804607+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.013023+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -63,7 +63,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -75,8 +76,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܐܙܠ combines conjunction and verb in single token"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀπῆλθεν ('he departed') and Syriac ܘܐܙܠ ('and he went') share the conjunction with the verb, while Latin separates Et from abiit. The Syriac verb ܐܙܠ is semantically broader than Greek ἀπέρχομαι, which emphasizes departure from a location."
     },
     {
       "greek_nt": [
@@ -90,7 +92,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -99,7 +102,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicitly names ܝܫܘܥ (Jesus) as subject; Greek and Vulgate use pronoun only"
+      "type": "gloss",
+      "note": "The Peshitta explicitly names ܝܫܘܥ ('Jesus') as the subject, clarifying the pronominal reference in Greek αὐτοῦ and Latin illo. This represents a typical Syriac tendency to disambiguate pronouns with proper names for clarity."
     },
     {
       "greek_nt": [
@@ -111,33 +115,26 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        5
+        5,
+        6
       ],
       "peshitta": [
         3,
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܘܕܒܝܩ ܗܘܐ (was adhering/following)"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the imperfect ἠκολούθει with dative αὐτῷ; Latin mirrors this with sequebatur eum. Syriac employs a periphrastic construction ܘܕܒܝܩ ܗܘܐ ܠܗ ('and was clinging/adhering to him'), using the active participle ܕܒܝܩ with the auxiliary ܗܘܐ and prepositional phrase ܠܗ, expressing continuous action through a different syntactic structure."
     },
     {
       "greek_nt": [
@@ -152,7 +149,8 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -164,39 +162,32 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        10
+        10,
+        11
       ],
       "peshitta": [
         8,
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic ܘܚܒܨܝܢ ܗܘܘ (were pressing)"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the imperfect συνέθλιβον with accusative αὐτόν; Latin comprimebant eum parallels this structure. Syriac again employs a periphrastic construction ܘܚܒܨܝܢ ܗܘܘ ܠܗ ('and were pressing him'), with active participle ܚܒܨܝܢ, plural auxiliary ܗܘܘ, and prepositional object ܠܗ, representing the same semantic content through characteristic Syriac verbal syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.757393+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.974594+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

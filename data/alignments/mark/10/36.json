@@ -46,25 +46,17 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "note": "Greek article ὁ and Latin ille both mark subject; Peshitta omits as Semitic languages typically do"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [],
       "vulgate": [
-        0
+        0,
+        1
       ],
-      "variant": "minor",
-      "note": "Greek δέ (continuative) and Latin At (adversative) differ slightly; Peshitta has no explicit conjunction"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the Greek article ὁ and conjunction δέ, beginning directly with the verb. The Vulgate preserves both with 'At ille' (adversative conjunction + demonstrative pronoun), maintaining the Greek's contrastive force."
     },
     {
       "greek_nt": [
@@ -76,7 +68,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -86,18 +79,12 @@
         1
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
       "variant": "minor",
-      "note": "Vulgate punctuation colon; not present in Greek or Peshitta manuscripts"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'eis' to mark direct discourse, a Latin scribal convention absent in Greek manuscripts. The Peshitta and Greek use inherent punctuation (Greek high point in αὐτοῖς·)."
     },
     {
       "greek_nt": [
@@ -109,7 +96,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -123,37 +111,24 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta makes explicit subject pronoun ܐܢܬܘܢ (you) where Greek and Latin encode it in verb morphology"
+      "type": "gloss",
+      "note": "The Peshitta makes the second-person plural subject explicit with ܐܢܬܘܢ ('you'), a typical Syriac clarification where Greek and Latin rely on verbal inflection alone (θέλετέ / vultis)."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek με (accusative 'me') explicit; Peshitta and Vulgate omit as understood from context"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
       "variant": "minor",
-      "note": "Vulgate ut introduces subjunctive construction; Greek and Peshitta use direct construction"
+      "type": "construction",
+      "note": "Greek uses accusative-infinitive construction (με ποιήσω, 'me to do'); Latin employs subjunctive with 'ut' (ut faciam, 'that I may do'); Peshitta uses simple imperfect ܐܥܒܕ without explicit subordination marker—three syntactically distinct but semantically equivalent constructions."
     },
     {
       "greek_nt": [
@@ -163,24 +138,18 @@
         6
       ],
       "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        9,
         10
       ],
       "variant": "minor",
-      "note": "Vulgate question mark; punctuation not in original manuscripts"
+      "type": "punctuation",
+      "note": "The Vulgate places the interrogative mark after 'vobis' as a separate token, whereas Greek integrates it into ὑμῖν; and Peshitta lacks explicit punctuation tokens in the manuscript tradition."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.804291+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.012752+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

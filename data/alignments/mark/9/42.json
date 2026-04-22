@@ -102,9 +102,13 @@
         0,
         1
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the introductory 'And whoever' clause entirely; represents a different verse (Mark 9:43 vs 9:42)"
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different verse (Mark 9:43 on cutting off the hand), not the Greek/Peshitta warning about causing little ones to stumble (Mark 9:42). This represents a major textual divergence, likely a versification or manuscript tradition error in the input data."
     },
     {
       "greek_nt": [
@@ -117,7 +121,8 @@
         2
       ],
       "variant": "major",
-      "note": "Greek/Peshitta 'cause to stumble' vs Vulgate 'scandalize you' - different subject and object; Vulgate is verse 9:43"
+      "type": "substitution",
+      "note": "Greek σκανδαλίσῃ ('cause to stumble') and Peshitta ܕܢܟܫܠ (d-nakhshel, 'cause to stumble') align semantically, but Vulgate scandalizaverit applies to a different subject ('if your hand causes you to stumble'), confirming the verse mismatch."
     },
     {
       "greek_nt": [
@@ -132,9 +137,14 @@
         5,
         6
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'one of these little ones' - different verse context"
+      "vulgate": [
+        3,
+        4,
+        5
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἕνα τῶν μικρῶν τούτων ('one of these little ones') and Peshitta ܠܚܕ ܡܢ ܗܠܝܢ ܙܥܘܪܐ (l-ḥad men hālen z'ūrē, 'one of these little ones') align precisely. Vulgate te manus tua ('your hand') refers to a completely different object, confirming the verse is Mark 9:43, not 9:42."
     },
     {
       "greek_nt": [
@@ -147,9 +157,14 @@
         7,
         8
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'who believe in me' - different verse"
+      "vulgate": [
+        6,
+        7,
+        8
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek τῶν πιστευόντων εἰς ἐμέ ('who believe in Me') and Peshitta ܕܡܗܝܡܢܝܢ ܒܝ (d-mhaymnin bi, 'who believe in Me') align with identical participial construction. Vulgate abscide illam ('cut it off') belongs to the hand-cutting pericope, not the stumbling-block warning."
     },
     {
       "greek_nt": [
@@ -163,9 +178,14 @@
         10,
         11
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'it is better for him rather' - verse mismatch"
+      "vulgate": [
+        9,
+        10,
+        11
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek καλόν ἐστιν αὐτῷ μᾶλλον ('better it is for him rather') uses comparative adverb μᾶλλον post-verbally; Peshitta ܦܩܚ ܗܘܐ ܠܗ (pqaḥ hwā leh, 'better it-would-be for-him') employs periphrastic construction with enclitic pronoun; Vulgate bonum est tibi ('good it-is for-you') omits the comparative intensifier but conveys equivalent meaning."
     },
     {
       "greek_nt": [
@@ -175,31 +195,58 @@
         12
       ],
       "vulgate": [
-        1
+        12,
+        13,
+        14,
+        15,
+        16
       ],
       "variant": "major",
-      "note": "Greek/Peshitta conditional 'if' vs Vulgate 'si' in different syntactic context"
+      "type": "substitution",
+      "note": "Greek εἰ ('if') introduces the conditional protasis; Peshitta ܐܠܘ (elū, 'if/would that') functions identically. Vulgate debilem introire in vitam ('to enter life maimed') belongs to the hand-cutting verse's apodosis, not the millstone conditional."
     },
     {
       "greek_nt": [
         17,
         18,
+        19
+      ],
+      "peshitta": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "vulgate": [
+        17,
+        18,
         19,
+        20
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek περίκειται μύλος ὀνικὸς ('is placed a millstone of-donkey') uses the compound adjective ὀνικός to specify a large donkey-driven mill. Peshitta ܪܡܝܐ ܗܘܬ ܪܚܝܐ ܕܚܡܪܐ (rmyā hwat rḥyā d-ḥmārā, 'were-cast millstone of-donkey') employs passive participle + auxiliary, with ܕܚܡܪܐ as genitive construct. Vulgate duas manus habentem ire ('having two hands to go') continues the hand-cutting verse, not the millstone image."
+    },
+    {
+      "greek_nt": [
         20,
         21,
         22,
         23
       ],
       "peshitta": [
-        13,
-        14,
-        15,
-        16,
         17
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits millstone around neck imagery - verse 9:42 vs 9:43"
+      "vulgate": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek περὶ τὸν τράχηλον αὐτοῦ ('around the neck of-him') uses prepositional phrase with article; Peshitta ܒܨܘܪܗ (b-ṣawreh, 'on-his-neck') employs preposition ܒ + pronominal suffix, a more compact Syriac idiom. Vulgate in gehennam in ignem inextinguibilem ('into Gehenna, into unquenchable fire') describes the destination of the hand-cutting verse, not the millstone's placement."
     },
     {
       "greek_nt": [
@@ -214,46 +261,15 @@
         19
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'cast into the sea' - different verse entirely"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25
-      ],
-      "variant": "added",
-      "note": "Vulgate contains entirely different content about cutting off hand and entering life vs gehenna (Mark 9:43) - wrong verse provided"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ βέβληται εἰς τὴν θάλασσαν ('and he-has-been-cast into the sea') uses perfect passive indicative with prepositional phrase. Peshitta ܘܫܕܐ ܒܝܡܐ (w-shdē b-yamā, 'and-cast in-the-sea') employs active participle coordinated with preceding passive, typical Syriac parataxis. Vulgate omits this clause entirely, as the verse transmitted is Mark 9:43, which ends with the Gehenna reference."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.791401+00:00",
-    "confidence": 0.1,
+    "generated_at": "2026-04-22T12:17:08.006326+00:00",
+    "confidence": 0.45,
     "schema_version": 1
   }
 }

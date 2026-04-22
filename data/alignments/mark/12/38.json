@@ -80,7 +80,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the conjunction Καὶ at the beginning of the sentence, while Syriac incorporates it into a compound prepositional phrase ܘܒܝܘܠܦܢܗ ('and in his teaching'), creating a more compact syntactic unit. Latin follows Greek word order with initial Et."
     },
     {
       "greek_nt": [
@@ -92,7 +94,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the dative pronoun αὐτοῖς ('to them') before the prepositional phrase, while Syriac ܠܗܘܢ and Vulgate eis position it after the verb, reflecting different conventions for clitic pronoun placement in each language."
     },
     {
       "greek_nt": [
@@ -110,7 +114,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction + prepositional phrase into single compound ܘܒܝܘܠܦܢܗ"
+      "type": "construction",
+      "note": "Greek uses a prepositional phrase with article (ἐν τῇ διδαχῇ αὐτοῦ, 'in the teaching of him'); Latin mirrors this structure (in doctrina sua); Syriac employs a bound construct with prefixed preposition ܒܝܘܠܦܢܗ ('in-teaching-his'), a characteristic Semitic nominal construction."
     },
     {
       "greek_nt": [
@@ -121,19 +126,12 @@
         2
       ],
       "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܐܡܪ ܗܘܐ (was saying) for Greek imperfect"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        1,
         6
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν ('he was saying'), indicating continuous past action; Syriac employs the periphrastic construction ܐܡܪ ܗܘܐ (perfect + auxiliary) to express the same durative aspect; Vulgate dicebat uses Latin imperfect, with punctuation colon added for rhetorical emphasis."
     },
     {
       "greek_nt": [
@@ -145,32 +143,26 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         8,
-        9
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses ἀπὸ τῶν γραμματέων with the partitive genitive article τῶν; Syriac ܡܢ ܣܦܪܐ uses the preposition ܡܢ with determined state noun (no separate article); Vulgate a scribis employs ablative without article, as Latin lacks definite articles."
     },
     {
       "greek_nt": [
@@ -184,34 +176,28 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses articular participle τῶν θελόντων ('the ones desiring') as a substantival relative construction; Latin employs relative pronoun qui volunt ('who wish'); Syriac uses the relative particle ܕ with finite verb ܕܨܒܝܢ ('who desire'), reflecting standard Syriac relative clause syntax."
     },
     {
       "greek_nt": [
         13,
-        14
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        12,
-        13
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses compound preposition ܕܒܐܣܛܠܐ for Greek ἐν στολαῖς"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        12,
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek separates preposition ἐν from noun στολαῖς and places infinitive περιπατεῖν at the end; Syriac uses compound prepositional phrase ܕܒܐܣܛܠܐ ('that-in-robes') with prefixed ܕ marking the infinitival complement, followed by verb ܢܗܠܟܘܢ; Latin follows Greek structure with in stolis ambulare."
     },
     {
       "greek_nt": [
@@ -223,8 +209,8 @@
       "vulgate": [
         15
       ],
-      "variant": "minor",
-      "note": "Peshitta ܘܪܚܡܝܢ (and loving) vs Greek καί (and) + accusative object; Syriac uses participle construction"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -236,7 +222,9 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses the noun ἀσπασμοὺς ('greetings', accusative plural object of an implied verb); Syriac employs the active participle ܘܪܚܡܝܢ ('and loving/desiring'), parallel to the previous participle, making the scribes the subject of loving greetings; Vulgate uses passive infinitive salutari ('to be greeted'), making the scribes recipients rather than agents."
     },
     {
       "greek_nt": [
@@ -251,13 +239,15 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses plural ἐν ταῖς ἀγοραῖς ('in the marketplaces') with article; Syriac uses singular ܒܫܘܩܐ ('in the marketplace'), a typical Semitic collective singular for public spaces; Vulgate in foro employs singular ablative without article, following Latin conventions for place expressions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.821090+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.027241+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

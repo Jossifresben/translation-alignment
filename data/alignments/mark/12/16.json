@@ -80,7 +80,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta postpones subject pronoun to end of response clause"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the subject pronoun and conjunction at the beginning of the clause (οἱ δὲ / At illi), while Peshitta defers the subject pronoun and particle (ܗܢܘܢ ܕܝܢ) until after the response verb, reflecting typical Syriac verb-initial word order in narrative."
     },
     {
       "greek_nt": [
@@ -94,7 +95,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses aorist ἤνεγκαν without explicit object pronoun; Peshitta adds the pronominal suffix ܠܗ ('to him') making the indirect object explicit; Vulgate similarly adds ei as dative pronoun, both clarifying the recipient of the brought coin."
     },
     {
       "greek_nt": [
@@ -104,33 +107,35 @@
       "vulgate": [
         4
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction before direct speech"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek καὶ and Vulgate Et mark the transition to Jesus's question with a coordinating conjunction; Peshitta omits any conjunction here, moving directly from the bringing of the coin to the question, a common Syriac asyndetic construction in dialogue sequences."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
-        6,
+        5,
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illis to mark the beginning of direct speech; neither Greek nor Peshitta manuscripts employ equivalent punctuation at this juncture, though Greek uses a raised dot (·) after αὐτοῖς in some witnesses."
     },
     {
       "greek_nt": [
@@ -142,7 +147,9 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses genitive interrogative τίνος ('of whom'); Peshitta employs ܕܡܢܘ with the relative particle ܕ prefixed to the interrogative; Vulgate uses possessive adjective Cujus est with explicit copula, making the possessive relationship more explicit than the Greek genitive construction."
     },
     {
       "greek_nt": [],
@@ -151,44 +158,37 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate adds copula 'est' for clarity in interrogative"
+      "type": "expansion",
+      "note": "Vulgate supplies the copula est ('is') to complete the nominal sentence Cujus est imago, whereas Greek employs a verbless nominal construction (τίνος ἡ εἰκών) and Peshitta likewise omits any copula, both languages allowing zero-copula in present-tense predication."
     },
     {
       "greek_nt": [
         7,
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses double article construction (ἡ εἰκὼν αὕτη) with demonstrative following the noun; Peshitta uses determined state ܨܠܡܐ with postpositive demonstrative ܗܢܐ; Vulgate uses bare noun imago with demonstrative hæc, all three expressing 'this image' with tradition-specific determiner strategies."
     },
     {
       "greek_nt": [
         10
       ],
-      "peshitta": [
-        7
-      ],
+      "peshitta": [],
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -199,47 +199,49 @@
         7
       ],
       "vulgate": [
-        13,
-        14
+        13
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13,
-        14
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [],
       "variant": "minor",
-      "note": "Greek article+particle construction; Peshitta pronoun+particle; Vulgate integrates into verb"
+      "type": "grammar",
+      "note": "Greek employs article + noun (ἡ ἐπιγραφή) in articular construction; Peshitta uses determined state ܘܟܬܒܐ with coordinating waw; Vulgate uses bare noun inscriptio, reflecting Latin's lack of definite articles and reliance on context for determination."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate places a question mark after inscriptio to close Jesus's interrogative; Greek uses a semicolon (;) as question marker after ἐπιγραφή; Peshitta manuscripts typically lack formal punctuation at this point, relying on syntactic context to signal the question's end."
     },
     {
       "greek_nt": [
-        15
+        13,
+        14,
+        15,
+        16
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16
       ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses full nominal subject with conjunction and verb (οἱ δὲ εἶπαν αὐτῷ); Peshitta employs bare verb ܐܡܪܘ with plural inflection encoding the subject; Vulgate uses Dicunt ei with third-person plural verb and dative pronoun, all three expressing 'they said to him' with varying degrees of explicitness."
+    },
+    {
+      "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        16,
         17
       ],
       "variant": "minor",
-      "note": "Peshitta omits indirect object pronoun, contextually clear"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon before Cæsaris to mark the beginning of the respondents' direct speech; Greek and Peshitta lack equivalent punctuation, with Greek using a raised dot after αὐτῷ in some manuscripts."
     },
     {
       "greek_nt": [
@@ -251,13 +253,14 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.816444+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.023190+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

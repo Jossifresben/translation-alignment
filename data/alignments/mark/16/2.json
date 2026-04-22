@@ -61,30 +61,24 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek καὶ and Vulgate Et both conjunctions; Peshitta omits initial conjunction"
+      "type": "substitution",
+      "note": "Greek καὶ and Vulgate Et both function as narrative continuatives. Peshitta omits the conjunction, beginning instead with the temporal adverb ܒܫܦܪܐ ('in the morning'), a stylistic preference in Syriac narrative sequencing."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "note": "Greek λίαν (very) and Vulgate valde (very) intensify early; Peshitta lacks intensifier"
-    },
-    {
-      "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek employs the adverbial doublet λίαν πρωῒ ('very early'), mirrored by Vulgate valde mane. Peshitta uses the single temporal noun ܒܫܦܪܐ ('in the morning/dawn'), a semantically equivalent but lexically simpler construction typical of Syriac temporal expressions."
     },
     {
       "greek_nt": [],
@@ -93,7 +87,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta ܕܝܢ (dēn, 'but/now') is a discourse particle absent in Greek and Vulgate"
+      "type": "gloss",
+      "note": "Peshitta inserts the postpositive particle ܕܝܢ ('now, then'), a common Syriac narrative marker absent from both Greek and Latin witnesses. This functions as a discourse connector without altering the semantic content."
     },
     {
       "greek_nt": [
@@ -110,7 +105,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular construction τῇ μιᾷ τῶν σαββάτων ('on the first [day] of the week'), with dative article and genitive plural. Vulgate simplifies to una sabbatorum (ablative of time without article). Peshitta employs ܒܚܕ ܒܫܒܐ ('on one in the week'), a prepositional phrase with ܒ- marking temporal location—syntactically distinct but semantically aligned."
     },
     {
       "greek_nt": [
@@ -122,7 +119,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -139,7 +137,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Greek ἐπὶ τὸ μνημεῖον (to the tomb), Peshitta ܠܒܝܬ ܩܒܘܪܐ (to house of burial), Vulgate ad monumentum; semantically equivalent with stylistic variation"
+      "type": "construction",
+      "note": "Greek ἐπὶ τὸ μνημεῖον uses the preposition ἐπί with accusative article. Vulgate ad monumentum employs ad + accusative. Peshitta uses the compound prepositional phrase ܠܒܝܬ ܩܒܘܪܐ ('to the house of burial'), a characteristic Syriac construct-state idiom for 'tomb'—semantically equivalent but structurally divergent."
     },
     {
       "greek_nt": [
@@ -158,13 +157,14 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek genitive absolute ἀνατείλαντος τοῦ ἡλίου, Peshitta temporal clause ܟܕ ܕܢܚ ܫܡܫܐ, Vulgate ablative absolute orto jam sole; same temporal meaning with syntactic variation; Vulgate adds jam (already)"
+      "type": "construction",
+      "note": "Greek employs a genitive absolute construction ἀνατείλαντος τοῦ ἡλίου ('the sun having risen'), with aorist participle. Vulgate uses the ablative absolute orto jam sole ('the sun now having risen'), inserting the temporal adverb jam. Peshitta renders with the temporal particle ܟܕ + perfect verb ܕܢܚ ܫܡܫܐ ('when the sun had risen')—functionally equivalent temporal clauses with tradition-specific syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.850166+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.054456+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

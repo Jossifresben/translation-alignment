@@ -93,8 +93,9 @@
         0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits initial conjunction, begins with subject 'Joseph'"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Vulgate omits the initial conjunction καί / ܘ ('and'), beginning the sentence asyndetically with 'Joseph autem' where the adversative particle 'autem' provides transition. Greek and Peshitta retain the coordinating conjunction linking this action to the preceding narrative."
     },
     {
       "greek_nt": [],
@@ -105,7 +106,8 @@
         0
       ],
       "variant": "added",
-      "note": "Peshitta and Vulgate explicitly name Joseph as subject; Greek implies from context"
+      "type": "gloss",
+      "note": "Both Peshitta and Vulgate explicitly name Joseph (ܝܘܣܦ / Joseph) as the subject, whereas the Greek relies on the implied subject from the participial construction ἀγοράσας. This represents a clarifying expansion typical of translation into languages requiring explicit subjects."
     },
     {
       "greek_nt": [],
@@ -114,7 +116,8 @@
         1
       ],
       "variant": "added",
-      "note": "Vulgate adds 'autem' (moreover/however) as transitional particle"
+      "type": "gloss",
+      "note": "The Vulgate inserts the adversative particle 'autem' to mark narrative transition, a stylistic feature absent from both Greek and Peshitta. This particle provides cohesion in Latin prose where Greek uses simple conjunction and Peshitta uses waw-consecutive."
     },
     {
       "greek_nt": [
@@ -126,7 +129,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -138,7 +142,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -150,7 +155,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -164,7 +170,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle with explicit object (καθελὼν αὐτόν), Vulgate mirrors this with a present participle and pronoun (deponens eum), while Peshitta employs a finite verb with pronominal suffix (ܘܐܚܬܗ 'and-he-took-down-him'). All three convey identical semantics through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -180,7 +188,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a finite verb with dative article-noun phrase (ἐνείλησεν τῇ σινδόνι 'wrapped in-the linen-cloth'), Vulgate uses finite verb with ablative (involvit sindone), while Peshitta uses verb with prepositional phrase (ܘܟܪܟܗ ܒܗ 'and-wrapped-him in-it'). The Peshitta pronominal reference creates anaphoric cohesion to the previously mentioned linen."
     },
     {
       "greek_nt": [
@@ -192,7 +202,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -206,98 +217,74 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Vulgate use finite verb with explicit object pronoun (ἔθηκεν αὐτόν / posuit eum), while Peshitta employs a single verb with pronominal suffix (ܘܣܡܗ 'and-placed-him'), representing typical Semitic economy of expression versus Indo-European analytic structure."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         14,
-        15
+        15,
+        16,
+        17,
+        18
       ],
       "peshitta": [
         8,
-        9
-      ],
-      "vulgate": [
-        14,
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "minor",
-      "note": "Greek λατομέω (hewn/cut), Latin excisum (cut out), Peshitta nqyr (carved); synonymous terms"
-    },
-    {
-      "greek_nt": [
-        17,
-        18
-      ],
-      "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        14,
+        15,
+        16,
         17,
         18
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        20
-      ],
       "variant": "minor",
-      "note": "Greek προσκυλίω (roll to/against), Latin advolvit (roll toward); slight prepositional nuance"
+      "type": "construction",
+      "note": "Greek uses a relative clause with periphrastic perfect passive construction (ὃ ἦν λελατομημένον ἐκ πέτρας 'which was having-been-hewn out-of rock'), Vulgate employs a relative clause with pluperfect passive (quod erat excisum de petra), while Peshitta uses a participial relative construction (ܕܢܩܝܪ ܗܘܐ ܒܫܘܥܐ 'that-hewn was in-rock'). All convey the same completed-state semantics through tradition-specific grammatical means."
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -309,42 +296,36 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         22,
         23,
-        24
-      ],
-      "peshitta": [
-        13,
-        14
-      ],
-      "vulgate": [
-        22,
-        23
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        24,
         25,
         26
       ],
       "peshitta": [
+        13,
+        14,
         15
       ],
       "vulgate": [
+        22,
+        23,
         24
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase with double article construction (ἐπὶ τὴν θύραν τοῦ μνημείου 'upon the door of-the tomb'), Vulgate employs preposition with accusative and genitive noun (ad ostium monumenti), while Peshitta uses preposition with construct-state noun phrase (ܥܠ ܬܪܥܗ ܕܩܒܪܐ 'upon door-of tomb'). The Peshitta's pronominal suffix on 'door' creates possessive relationship without repeating the noun, typical Semitic construct-chain syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.849027+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.053206+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

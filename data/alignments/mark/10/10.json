@@ -56,8 +56,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "note": "Conjunction 'and' - Peshitta incorporates into verb form ܘܫܐܠܘܗܝ"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Peshitta incorporates the conjunction ܘ ('and') into the verbal form ܘܫܐܠܘܗܝ ('and they asked him'), placing the verb at the head of the clause, whereas Greek and Latin maintain conjunction-then-prepositional-phrase word order before introducing the verb later in the sentence."
     },
     {
       "greek_nt": [
@@ -72,8 +73,8 @@
         1,
         2
       ],
-      "variant": "minor",
-      "note": "Greek εἰς τὴν οἰκίαν (into the house) vs Peshitta ܒܒܝܬܐ (in the house) - directional vs locative"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -85,7 +86,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places πάλιν ('again') immediately after the prepositional phrase εἰς τὴν οἰκίαν, while Peshitta ܬܘܒ and Vulgate iterum both position the adverb after the locative phrase but before the subject, reflecting different stylistic preferences for adverbial placement within the clause."
     },
     {
       "greek_nt": [
@@ -100,7 +103,8 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -116,7 +120,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the articular demonstrative construction περὶ τοῦ τούτου ('concerning this [matter]') with neuter gender; Vulgate employs de eodem ('concerning the same [thing]'), also neuter; Peshitta uses ܥܠ ܗܕܐ ('concerning this'), with feminine demonstrative ܗܕܐ, likely reflecting Syriac grammatical gender conventions for abstract referents rather than a substantive semantic difference."
     },
     {
       "greek_nt": [
@@ -131,13 +137,14 @@
         9
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta places verb+object first, Greek places verb near end"
+      "type": "word-order",
+      "note": "Greek places the imperfect verb ἐπηρώτων and its object αὐτόν at the end of the clause; Vulgate mirrors this with interrogaverunt eum in final position; Peshitta front-loads the entire verbal complex ܘܫܐܠܘܗܝ (verb + object suffix) at the clause head, a characteristic Syriac VSO pattern versus Greek/Latin SVO tendencies in this context."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.794051+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.008805+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

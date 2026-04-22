@@ -50,8 +50,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܐܝܬ ܗܘܐ for Greek ἦν"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple imperfect ἦν ('was'); Peshitta employs the periphrastic construction ܐܝܬ ܗܘܐ (existential particle + perfect), a standard Syriac idiom for past states; Vulgate mirrors Greek with simple imperfect Erat."
     },
     {
       "greek_nt": [
@@ -67,24 +68,15 @@
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        2,
         3
       ],
       "variant": "aligned"
@@ -96,7 +88,8 @@
         4
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after hora tertia, creating a stronger syntactic break between the time notation and the crucifixion clause. Neither Greek nor Peshitta manuscripts transmit punctuation at this juncture, treating the verse as a single continuous statement."
     },
     {
       "greek_nt": [
@@ -109,7 +102,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses temporal particle ܟܕ (when) vs. Greek καὶ (and) and Vulgate et (and)"
+      "type": "construction",
+      "note": "Greek uses coordinating conjunction καὶ ('and'); Peshitta employs temporal particle ܟܕ ('when/while'), recasting the clause as a temporal subordinate construction; Vulgate follows Greek with coordinating et."
     },
     {
       "greek_nt": [
@@ -128,8 +122,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.844767+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.050065+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

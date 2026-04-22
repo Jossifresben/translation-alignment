@@ -63,7 +63,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -73,19 +74,12 @@
         0
       ],
       "vulgate": [
-        1
-      ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܐܡܪ combines conjunction and verb"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        1,
         2
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after dicebat to mark the direct discourse, while Greek uses a raised dot (·) and Peshitta integrates the verb without punctuation. This reflects Latin scribal convention for introducing speech."
     },
     {
       "greek_nt": [
@@ -97,8 +91,9 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "note": "Greek πῶς (how) vs Vulgate Cui (to what/whom); Peshitta ܠܡܢܐ (to what)"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek πῶς ('how') introduces a manner question, while Vulgate Cui ('to what') and Peshitta ܠܡܢܐ ('to what') both employ dative-of-comparison constructions. The Vulgate and Peshitta reframe the question from method to object of comparison, a substantive semantic shift."
     },
     {
       "greek_nt": [
@@ -110,7 +105,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -127,16 +123,8 @@
         5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -146,9 +134,12 @@
         5
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate places a question mark after Dei to close the first question, then begins the second with aut. Greek ἢ and Peshitta ܘܒܐܝܢܐ continue the sentence without punctuation break, treating both clauses as a single compound question."
     },
     {
       "greek_nt": [
@@ -162,20 +153,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek ἐν τίνι (in which) vs Vulgate cui (to which); Peshitta ܘܒܐܝܢܐ combines both"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek αὐτὴν before παραβολῇ, Vulgate illud after parabolæ, Peshitta suffix on verb"
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐν τίνι ('in which') with dative case, while Vulgate employs bare dative cui ('to which') and Peshitta uses the prefixed preposition ܒܐܝܢܐ ('in which'). All three express instrumental/locative dative semantics through different syntactic means."
     },
     {
       "greek_nt": [
@@ -187,7 +166,23 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places παραβολῇ in dative after the interrogative, Vulgate places parabolæ in genitive before the verb, and Peshitta places ܡܬܠܐ before the verb. The word order reflects each language's typical syntax for indirect questions."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek αὐτὴν ('it') appears before the noun παραβολῇ, Vulgate illud ('it') appears after comparabimus, and Peshitta incorporates the pronominal suffix directly on the verb ܢܡܬܠܝܗ ('we shall liken it'). These represent three distinct strategies for pronominal reference."
     },
     {
       "greek_nt": [
@@ -197,24 +192,17 @@
         7
       ],
       "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Greek θῶμεν (let us place/present) vs Vulgate comparabimus (shall we compare); Peshitta ܢܡܬܠܝܗ (let us liken it)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds final question mark punctuation"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek θῶμεν ('let us place/set') uses a general verb of positioning, while Vulgate comparabimus ('we shall compare') and Peshitta ܢܡܬܠܝܗ ('we shall liken') both employ verbs specifically denoting comparison. The Latin and Syriac choices make the comparative function more explicit."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.750797+00:00",
+    "generated_at": "2026-04-22T12:26:01.879396+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

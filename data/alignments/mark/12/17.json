@@ -76,23 +76,16 @@
       "greek_nt": [
         0,
         1,
+        2,
         3
       ],
       "peshitta": [],
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "note": "Greek uses participial construction 'Καὶ ἀποκριθεὶς...δὲ'; Vulgate 'Respondens autem' mirrors this; Peshitta omits the participial answering formula entirely"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article ὁ has no equivalent in Peshitta or Vulgate"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek employs a redundant participial construction (Καὶ ἀποκριθεὶς ὁ δὲ) typical of Semitic narrative style, literally 'And answering, and [he].' The Peshitta omits this entirely, proceeding directly to the verb ܐܡܪ ('he said'). The Vulgate retains only the participle Respondens autem, collapsing the Greek's double conjunction into a single adversative particle."
     },
     {
       "greek_nt": [
@@ -104,7 +97,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -114,10 +108,11 @@
         0
       ],
       "vulgate": [
-        0,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Peshitta places the verb ܐܡܪ ('said') before the subject ܝܫܘܥ ('Jesus'), reflecting standard Syriac VSO word order, whereas Greek and Latin both follow SV order (Ἰησοῦς εἶπεν / Jesus dixit)."
     },
     {
       "greek_nt": [
@@ -127,19 +122,12 @@
         1
       ],
       "vulgate": [
-        4
+        4,
+        5
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5,
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation, absent in Greek and Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after illis, marking a formal pause before the dominical saying. Greek uses a raised dot (·) and Peshitta has no punctuation; all three traditions agree semantically on the indirect object 'to them.'"
     },
     {
       "greek_nt": [
@@ -154,8 +142,9 @@
         9,
         10
       ],
-      "variant": "minor",
-      "note": "Greek uses article τὰ + genitive Καίσαρος; Peshitta uses construct state ܕܩܣܪ; Vulgate expands with relative clause 'quæ sunt Cæsaris'"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses an articular genitive construction (τὰ Καίσαρος, 'the things of Caesar') without a copula. The Vulgate expands this into a full relative clause with explicit copula (quæ sunt Cæsaris, 'which are of Caesar'). The Peshitta employs a simple genitive particle ܕܩܣܪ ('of Caesar') without article or relative pronoun, the most economical rendering."
     },
     {
       "greek_nt": [
@@ -167,7 +156,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -177,18 +167,12 @@
         5
       ],
       "vulgate": [
-        11
+        11,
+        12
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'igitur' (therefore) for rhetorical emphasis, absent in Greek and Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate again inserts a colon after Cæsari, creating a balanced bicolon structure absent in the Greek and Peshitta. All three traditions agree on the dative 'to Caesar.'"
     },
     {
       "greek_nt": [
@@ -200,7 +184,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -216,8 +201,9 @@
         15,
         16
       ],
-      "variant": "minor",
-      "note": "Greek uses article τὰ + genitive τοῦ θεοῦ; Peshitta uses construct state ܘܕܐܠܗܐ (prefixed with waw); Vulgate expands with relative clause 'quæ sunt Dei'"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek repeats the articular genitive structure (τὰ τοῦ θεοῦ, 'the things of God') with double article. The Vulgate again expands to a relative clause (quæ sunt Dei). The Peshitta conflates this with the preceding conjunction into a single bound form ܘܕܐܠܗܐ ('and of God'), omitting any article or relative structure."
     },
     {
       "greek_nt": [
@@ -230,7 +216,8 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -242,7 +229,8 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -256,7 +244,8 @@
         19
       ],
       "variant": "minor",
-      "note": "Greek ἐξεθαύμαζον (imperfect); Peshitta uses periphrastic construction ܘܬܡܗܘ ܗܘܘ (were marveling); Vulgate 'mirabantur' (imperfect)"
+      "type": "grammar",
+      "note": "Greek uses the compound verb ἐξεθαύμαζον (imperfect, 'they were marveling greatly'). The Peshitta employs a periphrastic construction ܘܬܡܗܘ ܗܘܘ ('and they were marveling'), using the auxiliary ܗܘܘ to form the past continuous. The Vulgate uses the simple imperfect mirabantur. All three convey iterative or durative aspect."
     },
     {
       "greek_nt": [
@@ -270,13 +259,15 @@
         20,
         21
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses ἐπ᾽ αὐτῷ ('at/upon him') with the preposition ἐπί governing the dative. Latin employs super eo with the ablative, a semantic equivalent. Syriac uses the preposition ܒܗ ('in/at him'), a common idiom for the object of wonder, slightly more locative than the Greek/Latin constructions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.816634+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.023395+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

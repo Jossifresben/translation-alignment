@@ -55,7 +55,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Peshitta combines the conjunction with the verb in a single participial form ܘܡܬܚܫܒܝܢ ('and they were reasoning'), whereas Greek and Latin separate the conjunction from the main verb. This reflects typical Syriac preference for synthetic verbal constructions."
     },
     {
       "greek_nt": [
@@ -69,7 +71,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܡܬܚܫܒܝܢ ܗܘܘ (were reasoning) vs. Greek imperfect διελογίζοντο"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction with the participle ܡܬܚܫܒܝܢ plus auxiliary ܗܘܘ to render the Greek imperfect διελογίζοντο, while the Vulgate uses the simple imperfect cogitabant. All three convey ongoing past action but through different grammatical strategies."
     },
     {
       "greek_nt": [
@@ -86,7 +89,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta ܚܕ ܥܡ ܚܕ (one with one) is more literal than Greek πρὸς ἀλλήλους or Vulgate ad alterutrum"
+      "type": "idiom",
+      "note": "Greek πρὸς ἀλλήλους ('with one another') and Latin ad alterutrum employ reciprocal pronouns, whereas Syriac uses the distributive idiom ܚܕ ܥܡ ܚܕ (literally 'one with one'), a standard Semitic construction for mutual action that is semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -107,7 +111,8 @@
         5
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present as token in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition to direct discourse, a feature of Latin manuscript tradition not present in Greek or Syriac witnesses. This represents scribal punctuation practice rather than textual variation."
     },
     {
       "greek_nt": [
@@ -147,13 +152,14 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta ܠܝܬ ܠܢ (not to-us) uses existential negation with pronominal suffix vs. Greek οὐκ ἔχουσιν (not they-have) and Vulgate non habemus (not we-have); also person shift from 3rd plural to 1st plural"
+      "type": "grammar",
+      "note": "Greek uses third-person plural οὐκ ἔχουσιν ('they do not have'), Latin employs first-person plural non habemus ('we do not have'), and Syriac uses the existential negative ܠܝܬ with first-person suffix ܠܢ ('there is not to us'). The shift from third to first person in Latin and Syriac represents the disciples' self-reference in direct speech, while Greek maintains narrative perspective."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.780674+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.996219+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

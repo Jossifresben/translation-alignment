@@ -81,7 +81,6 @@
         2
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
@@ -90,7 +89,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta includes auxiliary ܗܘܐ (was) for periphrastic construction"
+      "type": "grammar",
+      "note": "The Peshitta employs a periphrastic construction with ܗܘܐ (hwā, 'was') + participle ܡܫܟܚ (mškaḥ, 'able'), a standard Syriac idiom for past imperfective aspect. Greek and Latin use simple imperfect forms (ἐδύνατο / poterat) without auxiliary verbs."
     },
     {
       "greek_nt": [
@@ -106,22 +106,12 @@
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6
       ],
       "peshitta": [
+        3,
         5,
         6,
         7,
@@ -129,10 +119,12 @@
       ],
       "vulgate": [
         4,
-        5
+        5,
+        6
       ],
       "variant": "major",
-      "note": "Peshitta expands 'no miracle' with emphatic ܐܦ ܠܐ ܚܕ ܚܝܠܐ (not even one miracle); Greek οὐδεμίαν δύναμιν and Vulgate virtutem ullam are semantically equivalent"
+      "type": "expansion",
+      "note": "The Peshitta inserts an emphatic double-negative construction ܐܦ ܠܐ ܚܕ ܚܝܠܐ ('not even one mighty work'), intensifying the negation beyond Greek οὐδεμίαν δύναμιν ('no work of power') and Latin virtutem ullam ('any work of power'). This represents a characteristic Syriac rhetorical amplification."
     },
     {
       "greek_nt": [
@@ -150,55 +142,39 @@
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
       ],
       "peshitta": [
         11,
-        14
+        12,
+        13
       ],
       "vulgate": [
-        10
+        8,
+        9
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܥܠ ܣܡ (upon-placed) uses preposition + verb; Greek ἐπιθεὶς and Vulgate impositis are participial forms"
+      "type": "word-order",
+      "note": "Greek places the adjective ὀλίγοις ('few') before the noun ἀρρώστοις ('sick'), as does Latin (paucos infirmos). The Peshitta reverses this order with ܕܥܠ ܟܪܝܗܐ ܩܠܝܠ ('upon sick few'), following standard Syriac syntax where quantifiers typically follow their head nouns."
     },
     {
       "greek_nt": [
+        11,
         12,
         13
       ],
       "peshitta": [
+        14,
         15
       ],
       "vulgate": [
+        10,
         11
       ],
       "variant": "minor",
-      "note": "Greek τὰς χεῖρας (the hands, plural) vs Peshitta ܐܝܕܗ (his hand, singular with suffix) vs Vulgate manibus (hands, plural)"
+      "type": "construction",
+      "note": "Greek uses an aorist participle ἐπιθεὶς τὰς χεῖρας ('having laid the hands') with the article, creating a circumstantial participial phrase. Latin employs an ablative absolute impositis manibus ('hands having been laid'). Syriac uses a simple finite verb ܣܡ ܐܝܕܗ ('he laid his hand'), with singular 'hand' rather than plural, a typical Syriac idiom for bodily members in collective action."
     },
     {
       "greek_nt": [
@@ -218,14 +194,15 @@
       "vulgate": [
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate adds a colon to mark the end of the pericope, a scribal convention not present in Greek or Syriac manuscript traditions of this verse."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.761637+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.978453+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

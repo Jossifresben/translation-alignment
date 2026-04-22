@@ -48,7 +48,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -62,7 +63,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Vulgate uses 'cum venerit' (when he comes) with temporal conjunction, Greek uses aorist participle ἐλθών"
+      "type": "construction",
+      "note": "Greek uses an aorist participle (ἐλθών) in a genitive absolute construction; Vulgate employs a finite temporal clause with cum + subjunctive (cum venerit), a standard Latin rendering of Greek participial constructions. Both express the same temporal-conditional sense."
     },
     {
       "greek_nt": [
@@ -76,7 +78,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta uses prepositional phrase 'ܡܢ ܫܠܝܐ' (from quietness/suddenly), Greek and Vulgate use adverbs"
+      "type": "lexical",
+      "note": "Greek ἐξαίφνης ('suddenly') and Vulgate repente are direct equivalents; Peshitta uses the prepositional phrase ܡܢ ܫܠܝܐ (men šelyā, 'from quietness/unexpectedly'), a Syriac idiom conveying the same semantic force of suddenness through a different lexical strategy."
     },
     {
       "greek_nt": [
@@ -88,7 +91,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -100,7 +104,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -115,13 +120,14 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses circumstantial clause 'ܟܕ ܕܡܟܝܢ ܐܢܬܘܢ' (while you are sleeping) with explicit pronoun, Greek and Vulgate use participles"
+      "type": "gloss",
+      "note": "Greek and Vulgate use simple present participles (καθεύδοντας / dormientes); Peshitta expands with the circumstantial particle ܟܕ (kad, 'while') plus finite participle ܕܡܟܝܢ and explicit subject pronoun ܐܢܬܘܢ ('you'), a characteristic Syriac periphrastic construction that makes the participial subject explicit where Greek and Latin leave it implicit in the accusative."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.827906+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.033946+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -104,7 +104,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses present tense γίνεται ('it happens') with καί; Vulgate employs the perfect passive factum est ('it came to pass') with a temporal clause structure; Peshitta uses the simple perfect ܘܗܘܐ. All three express the same narrative transition but with different aspectual nuances."
     },
     {
       "greek_nt": [
@@ -122,7 +124,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek uses articular infinitive construction; Peshitta uses temporal particle ܕܟܕ; Vulgate uses cum + subjunctive"
+      "type": "construction",
+      "note": "Greek employs articular infinitive construction ἐν τῷ κατακεῖσθαι αὐτόν ('in the [act of] him reclining'); Vulgate uses cum with subjunctive (cum accumberet, 'when he was reclining'); Peshitta uses temporal particle ܕܟܕ with active participle ܣܡܝܟ. Syntactically distinct but semantically equivalent temporal clauses."
     },
     {
       "greek_nt": [
@@ -140,7 +143,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta combines preposition + house + pronoun into single compound ܒܒܝܬܗ"
+      "type": "word-order",
+      "note": "Greek uses prepositional phrase ἐν τῇ οἰκίᾳ αὐτοῦ with article and possessive pronoun; Vulgate mirrors this with in domo illius; Peshitta employs the bound form ܒܒܝܬܗ ('in-his-house') as a single lexical unit with pronominal suffix, typical of Semitic economy."
     },
     {
       "greek_nt": [
@@ -149,62 +153,28 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ introducing result clause not explicitly rendered in Peshitta/Vulgate"
+      "type": "punctuation",
+      "note": "Greek καί marks the transition to the main clause after the temporal subordinate clause. Both Peshitta and Vulgate omit this conjunction, moving directly to the subject of the main clause, reflecting different punctuation conventions for complex sentence structure."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
+        12,
+        13,
         14
       ],
       "peshitta": [
+        4,
+        5,
         6
       ],
       "vulgate": [
+        8,
+        9,
+        10,
         11
       ],
       "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'simul' (together) not present in Greek or Peshitta"
     },
     {
       "greek_nt": [
@@ -215,111 +185,64 @@
         8
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the compound verb συνανέκειντο ('were reclining together with'); Vulgate employs simul discumbebant (adverb + verb, 'together were reclining'); Peshitta uses participial construction ܣܡܝܟܝܢ ܗܘܘ (active participle + auxiliary). All convey shared reclining but with different morphological strategies."
     },
     {
       "greek_nt": [
         16,
-        17
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
-        14,
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
+        18,
         19,
         20,
         21
       ],
       "peshitta": [
+        9,
+        10,
         11,
         12
       ],
       "vulgate": [
+        14,
+        15,
+        16,
         17,
         18
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        19
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not textual"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses dative case with article (τῷ Ἰησοῦ καὶ τοῖς μαθηταῖς αὐτοῦ) to express accompaniment; Vulgate employs cum + ablative (cum Jesu et discipulis ejus); Peshitta uses the preposition ܥܡ repeated before each object (ܥܡ ܝܫܘܥ ܘܥܡ ܬܠܡܝܕܘܗܝ), a characteristic Syriac distributive construction for emphasis."
     },
     {
       "greek_nt": [
-        22
-      ],
-      "peshitta": [
-        13,
-        14
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        24
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        22
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        25
-      ],
-      "peshitta": [],
-      "vulgate": [
+        22,
         23,
         24
       ],
+      "peshitta": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "vulgate": [
+        19,
+        20,
+        21,
+        22
+      ],
       "variant": "minor",
-      "note": "Vulgate adds relative pronoun 'qui et' for smoother Latin syntax"
+      "type": "construction",
+      "note": "Greek uses simple imperfect ἦσαν γὰρ πολλοί ('for they were many'); Vulgate adds colon punctuation and mirrors the structure (erant enim multi); Peshitta employs existential particle ܐܝܬܝܗܘܢ with auxiliary ܗܘܘ and causal ܓܝܪ, creating a periphrastic construction typical of Syriac existential predication."
     },
     {
       "greek_nt": [
+        25,
         26,
         27
       ],
@@ -328,16 +251,20 @@
         18
       ],
       "vulgate": [
+        23,
+        24,
         25,
         26
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperfect ἠκολούθουν with dative αὐτῷ ('they were following him'); Vulgate employs relative pronoun qui with imperfect sequebantur and accusative eum ('who also were following him'), adding et for emphasis; Peshitta uses perfect ܘܐܬܘ with prepositional phrase ܒܬܪܗ ('and they came after him'), expressing completed action rather than ongoing process."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.737065+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.953852+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

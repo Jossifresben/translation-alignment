@@ -110,7 +110,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,7 +123,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -134,7 +136,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -149,7 +152,8 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -161,7 +165,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -169,14 +174,16 @@
         7
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
         6,
-        7
+        7,
+        8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses accusative plural ἀσκοὺς παλαιούς with adjective following noun; Peshitta employs construct state ܒܙܩܐ ܒܠܝܬܐ (wineskins old); Vulgate mirrors Greek word order with utres veteres but adds punctuation (colon) creating a clause break absent in Greek and Syriac."
     },
     {
       "greek_nt": [
@@ -190,8 +197,9 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "note": "Greek εἰ δὲ μή (conditional 'if not/otherwise'), Peshitta ܕܠܐ (lest), Vulgate alioquin (otherwise) - stylistic variation in conditional construction"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek employs the conditional construction εἰ δὲ μή ('but if not, otherwise') expressing consequence; Peshitta uses simple negative ܕܠܐ ('lest'); Vulgate substitutes the adverb alioquin ('otherwise'), condensing the Greek three-word phrase into a single lexeme with equivalent semantic force."
     },
     {
       "greek_nt": [
@@ -213,23 +221,13 @@
         11,
         12
       ],
-      "variant": "minor",
-      "note": "Greek has fuller articulation with repeated articles and explicit subject 'the new wine'; Peshitta and Vulgate more concise"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek provides a fully articulated clause with double article construction: ῥήξει ὁ οἶνος ὁ νέος τοὺς ἀσκούς ('the new wine will burst the wineskins'), emphasizing both subject and object with definite articles. Peshitta compresses to ܚܡܪܐ ܡܨܪܐ ܠܙܩܐ ('wine bursts wineskins') without articles or the adjective 'new'. Vulgate further condenses to dirumpet vinum utres ('will burst wine [the] wineskins'), omitting the adjective novum and using fewer articles than Greek."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20,
         21
@@ -239,26 +237,17 @@
         14
       ],
       "vulgate": [
+        13,
         14,
         15
       ],
       "variant": "major",
-      "note": "Greek ἀπόλλυται 'is destroyed/perishes', Peshitta ܡܬܐܫܕ 'is poured out/spilled', Vulgate effundetur 'will be poured out' - semantic difference in wine's fate"
+      "type": "lexical",
+      "note": "Greek uses ἀπόλλυται ('is destroyed/perishes') for the wine's fate; Peshitta employs ܡܬܐܫܕ ('is poured out/spilled'), focusing on physical spillage rather than destruction; Vulgate uses effundetur ('will be poured out'), aligning semantically with Peshitta against Greek, suggesting independent translation choices or textual influence between Latin and Syriac traditions."
     },
     {
       "greek_nt": [
-        22
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        22,
         23,
         24,
         25
@@ -268,21 +257,14 @@
         12
       ],
       "vulgate": [
+        16,
         17,
-        18
-      ],
-      "variant": "minor",
-      "note": "Greek ἀπολοῦνται future 'will perish', Peshitta ܐܒܕܢ 'perish/are destroyed', Vulgate peribunt future 'will perish' - tense variation"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8,
+        18,
         19
       ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation, not present in Greek or Peshitta manuscripts"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the wineskins' destruction after the wine's fate with future tense ἀπολοῦνται ('will perish'); Peshitta reverses the order, mentioning wineskins first with ܙܩܐ ܐܒܕܢ ('wineskins perish'); Vulgate follows Greek order with utres peribunt and adds a colon for punctuation, creating a stronger clause boundary than the Greek conjunction καί."
     },
     {
       "greek_nt": [
@@ -294,7 +276,8 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -309,7 +292,8 @@
         21,
         22
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -321,7 +305,8 @@
       "vulgate": [
         23
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -329,7 +314,6 @@
         31
       ],
       "peshitta": [
-        19,
         20
       ],
       "vulgate": [
@@ -337,7 +321,8 @@
         25
       ],
       "variant": "minor",
-      "note": "Greek καινούς 'new/fresh', Peshitta ܚܕܬܬܐ 'new', Vulgate novos 'new' - Greek uses different word for 'new' (καινός vs νέος) emphasizing quality"
+      "type": "lexical",
+      "note": "Greek uses καινούς ('new' in the sense of fresh/unused) to describe the wineskins; Peshitta employs ܚܕܬܬܐ (emphatic form of 'new'); Vulgate uses novos ('new'), the same adjective used earlier for the wine, whereas Greek distinguishes between νέος (new wine, temporally recent) and καινός (new wineskins, qualitatively fresh)."
     },
     {
       "greek_nt": [
@@ -350,13 +335,14 @@
         26,
         27
       ],
-      "variant": "minor",
-      "note": "Greek βλητέον verbal adjective 'must be put', Peshitta ܪܡܝܢ active participle 'putting/they put', Vulgate mitti debet passive infinitive + auxiliary 'must be put' - modal construction varies"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek employs the verbal adjective βλητέον ('must be put'), a rare impersonal construction expressing necessity; Peshitta uses the active plural participle ܪܡܝܢ ('they put/cast'), shifting from impersonal obligation to active agency; Vulgate renders with passive infinitive mitti debet ('must be put'), preserving the Greek sense of necessity but using a different syntactic structure (infinitive + auxiliary verb rather than verbal adjective)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.738601+00:00",
+    "generated_at": "2026-04-22T12:26:01.878239+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

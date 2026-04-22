@@ -94,7 +94,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -108,7 +109,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܓܚܟܝܢ ܗܘܘ (were laughing) for Greek imperfect κατεγέλων"
+      "type": "grammar",
+      "note": "The Peshitta employs a periphrastic construction ܘܓܚܟܝܢ ܗܘܘ (wə-gaḥkīn hwaw, 'and they were laughing'), using the auxiliary verb ܗܘܘ to express the imperfect aspect, whereas Greek uses the simple imperfect κατεγέλων and Latin the imperfect irridebant without auxiliary."
     },
     {
       "greek_nt": [
@@ -120,31 +122,24 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -156,7 +151,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist active participle ἐκβαλών (nominative masculine singular) in a circumstantial construction, while Latin employs the ablative absolute ejectis omnibus (perfect passive participle with its object), creating a syntactically distinct but semantically equivalent temporal clause."
     },
     {
       "greek_nt": [
@@ -168,7 +165,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -180,7 +178,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -197,22 +196,12 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun + article + genitive; Peshitta and Vulgate use construct state/genitive without repeated article"
+      "type": "word-order",
+      "note": "Greek employs the article-noun-article-genitive construction (τὸν πατέρα τοῦ παιδίου), Latin uses the bare accusative patrem with the genitive puellæ postponed to token 11, and Peshitta uses the pronominal suffix construction ܠܐܒܘܗ ܕܛܠܝܬܐ ('to-her-father of-the-girl'), reflecting typical Semitic possessive syntax."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14
       ],
@@ -220,26 +209,17 @@
         10
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
       "variant": "minor",
-      "note": "Word order variation: Vulgate places puellæ (genitive) after matrem"
+      "type": "word-order",
+      "note": "The Vulgate places et matrem puellæ together with the genitive puellæ modifying both patrem and matrem, creating structural ambiguity resolved by context. Greek and Peshitta maintain clearer syntactic boundaries with separate article phrases (Greek καὶ τὴν μητέρα) and conjunctive structures (Peshitta ܘܠܐܡܗ with pronominal suffix)."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16,
         17,
         18
@@ -249,36 +229,29 @@
         12
       ],
       "vulgate": [
+        12,
         13,
         14,
         15
       ],
       "variant": "minor",
-      "note": "Vulgate expands with relative clause 'qui secum erant' for Greek τοὺς μετ᾽ αὐτοῦ"
+      "type": "construction",
+      "note": "Greek uses the articular prepositional phrase τοὺς μετ᾽ αὐτοῦ ('those with him'), Latin employs a relative clause qui secum erant ('who were with him'), and Peshitta uses the demonstrative with prepositional phrase ܘܠܗܢܘܢ ܕܥܡܗ ('and to-those who-with-him'), each tradition expressing the same referent through its characteristic syntactic pattern."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
+        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -290,14 +263,14 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         22,
         23,
-        24,
-        25
+        24
       ],
       "peshitta": [
         15,
@@ -306,17 +279,31 @@
       ],
       "vulgate": [
         19,
-        20,
+        20
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb ἦν before the subject τὸ παιδίον, Latin inverts to puella erat, and Peshitta uses the participial construction ܕܪܡܝܐ ܗܘܬ ܛܠܝܬܐ ('who-lying was the-girl'), with the participle preceding the auxiliary and subject following, reflecting each tradition's preferred clause structure for relative-temporal clauses."
+    },
+    {
+      "greek_nt": [
+        25
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
         21
       ],
       "variant": "minor",
-      "note": "Greek ἀνακείμενον (reclining) vs Peshitta ܕܪܡܝܐ (lying) vs Vulgate jacens (lying); semantic overlap but different nuance"
+      "type": "lexical",
+      "note": "Greek uses the present participle ἀνακείμενον ('reclining', from ἀνάκειμαι, typically denoting reclining at table), Latin employs the present participle jacens ('lying', from jaceo, a more general term for lying down), and Peshitta uses the passive participle ܪܡܝܐ (rəmyā, 'laid, lying'), each selecting a culturally appropriate term for the girl's posture in death."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.759952+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.977062+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

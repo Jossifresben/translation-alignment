@@ -123,7 +123,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek καί vs Peshitta ܘܟܕ (temporal 'when') vs Vulgate At (adversative); stylistic variation in conjunction"
+      "type": "substitution",
+      "note": "Greek καὶ ('and') is rendered by Syriac ܘܟܕ ('and when'), which adds a temporal nuance, while Latin uses At ('but'), introducing a mild adversative contrast absent in the Greek."
     },
     {
       "greek_nt": [
@@ -136,7 +137,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἐξελθοῦσαι (aorist participle 'having gone out') precedes the main verb; Syriac ܘܢܦܩ ('and they went out') follows the verb ܥܪܩ ('they fled'); Latin illæ exeuntes mirrors Greek word order with participle before main verb."
     },
     {
       "greek_nt": [
@@ -145,7 +148,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek adverb ταχὺ 'quickly' absent in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek adverb ταχὺ ('quickly') is omitted in both Peshitta and Vulgate, possibly deemed redundant given the urgency implied by 'fled.'"
     },
     {
       "greek_nt": [
@@ -157,7 +161,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἔφυγον ('they fled') appears after the participle and adverb; Syriac ܥܪܩ ('they fled') precedes ܘܢܦܩ ('and they went out'), reversing the sequence; Latin fugerunt follows Greek order."
     },
     {
       "greek_nt": [
@@ -171,168 +177,11 @@
       ],
       "vulgate": [
         4,
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        5,
         6
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation marker, no semantic equivalent"
-    },
-    {
-      "greek_nt": [
-        7,
-        9
-      ],
-      "peshitta": [
-        6,
-        7,
-        8
-      ],
-      "vulgate": [
-        7,
-        9
-      ],
-      "variant": "minor",
-      "note": "Greek εἶχεν αὐτὰς vs Peshitta ܐܚܝܕ ܗܘܐ ܠܗܝܢ (periphrastic construction) vs Vulgate invaserat eas; same meaning, different syntax"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "minor",
-      "note": "Greek ἔκστασις 'amazement' vs Peshitta ܪܬܝܬܐ 'trembling' vs Vulgate pavor 'fear'; semantic overlap but different nuances"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        13
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        14,
-        15
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [
-        15,
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        14,
-        15
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses negative particle ܠܐ with verb; Greek and Vulgate use negative pronouns with positive verb"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        18
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        16,
-        17
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        18
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -341,7 +190,89 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta ܫܡܥ 'heard' has no parallel in Greek or Vulgate; may reflect interpretive expansion"
+      "type": "expansion",
+      "note": "Peshitta inserts ܫܡܥ ('having heard'), absent in both Greek and Latin, possibly harmonising with a tradition that the women heard something (the angel's message) before fleeing."
+    },
+    {
+      "greek_nt": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "vulgate": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses ἔκστασις ('amazement, ecstasy') alongside τρόμος ('trembling'); Syriac employs ܬܗܪܐ ('wonder') and ܪܬܝܬܐ ('trembling'); Latin uses tremor et pavor ('trembling and fear'), substituting pavor for ἔκστασις, emphasising terror over astonishment."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        14,
+        15,
+        16
+      ],
+      "peshitta": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "vulgate": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs double negative οὐδενὶ οὐδὲν ('to no one nothing'); Syriac uses ܘܠܐܢܫ ܡܕܡ ܠܐ ('and to anyone anything not'), placing the negation ܠܐ after the object; Latin nemini quidquam dixerunt mirrors Greek structure with negatives before the verb."
+    },
+    {
+      "greek_nt": [
+        17,
+        18
+      ],
+      "peshitta": [
+        16,
+        17,
+        18
+      ],
+      "vulgate": [
+        19,
+        20
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐφοβοῦντο (imperfect middle-passive 'they were being afraid') conveys ongoing state; Syriac ܕܚܝܠܢ ܗܘܝ (perfect + auxiliary 'they had feared') uses a compound construction; Latin timebant (imperfect active) aligns with Greek tense-aspect."
     },
     {
       "greek_nt": [
@@ -383,13 +314,14 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek longer ending (16:9-20 alternative) entirely absent from Peshitta and Vulgate; textual variant"
+      "type": "omission",
+      "note": "The so-called 'Shorter Ending' (Mark 16:8b, tokens 19–52) is absent in both Peshitta and Vulgate witnesses here. This passage, attested in some Greek manuscripts (L Ψ 099 0112 etc.), reports that the women promptly told Peter's circle and that Jesus sent out the gospel from east to west; its omission reflects the textual tradition ending at 16:8a."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.851592+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.055574+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

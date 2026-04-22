@@ -69,7 +69,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -81,7 +82,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -93,31 +95,23 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
+        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -131,7 +125,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ἔλθητε εἰς (aorist subjunctive + preposition 'enter into'); Vulgate mirrors this with intretis in; Peshitta employs the simple verb ܬܥܠܘܢ ('you enter') with the preposition incorporated into the following prepositional phrase, a typical Syriac construction."
     },
     {
       "greek_nt": [
@@ -143,7 +139,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -155,7 +152,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek μέν and Vulgate quidem are contrastive particles; Peshitta omits explicit particle"
+      "type": "omission",
+      "note": "Greek employs the article τὸ with the particle μὲν to introduce the first member of a μὲν...δὲ construction; Vulgate retains quidem ('indeed') to mark the contrast; Peshitta omits any corresponding particle, relying on the adversative ܐܠܐ ('but') in the second clause to signal the antithesis."
     },
     {
       "greek_nt": [
@@ -167,7 +165,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -182,7 +181,8 @@
         11
       ],
       "variant": "major",
-      "note": "Peshitta ܨܒܝܐ ܘܡܛܝܒܐ (willing and ready) expands Greek πρόθυμον with doublet; Vulgate promptus est adds copula"
+      "type": "expansion",
+      "note": "Greek uses the single adjective πρόθυμον ('willing, eager'); Vulgate mirrors this with promptus est; Peshitta expands with two coordinated adjectives ܨܒܝܐ ܘܡܛܝܒܐ ('willing and ready'), a characteristic Syriac doublet that intensifies the semantic force of the Greek original."
     },
     {
       "greek_nt": [
@@ -193,10 +193,11 @@
         8
       ],
       "vulgate": [
-        12
+        13
       ],
       "variant": "minor",
-      "note": "Greek δέ and Vulgate vero are contrastive; Peshitta ܐܠܐ (but) functions similarly"
+      "type": "substitution",
+      "note": "Greek uses the article ἡ with the adversative particle δὲ to introduce the second member of the contrast; Vulgate employs vero ('truly, however'); Peshitta uses the strong adversative ܐܠܐ ('but'), which is semantically equivalent but syntactically more emphatic than Greek δὲ."
     },
     {
       "greek_nt": [
@@ -208,7 +209,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -220,13 +222,14 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.835659+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.040833+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

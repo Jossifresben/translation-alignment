@@ -73,7 +73,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek/Vulgate place participle first, Peshitta places verb after temporal phrase"
+      "type": "word-order",
+      "note": "Greek and Latin place the participle 'having risen' (Ἀναστὰς / Surgens) at the head of the clause, while Syriac postpones the finite verb ܩܡ until after the temporal adverbials, reflecting typical Syriac VSO word order versus Greek/Latin fronted participial constructions."
     },
     {
       "greek_nt": [
@@ -89,30 +90,23 @@
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3,
         4
       ],
       "peshitta": [
+        0,
         2,
         3
       ],
       "vulgate": [
+        2,
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses adverb + adjective + genitive (πρωῒ πρώτῃ σαββάτου, 'early on the first of the week'); Syriac employs prepositional phrase + cardinal in construct (ܒܫܦܪܐ ܒܚܕ ܒܫܒܐ, 'in the morning on one in the week'); Latin mirrors Greek structure (mane prima sabbati). All three express identical temporal meaning through differing syntactic strategies."
     },
     {
       "greek_nt": [
@@ -153,7 +147,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek includes definite article τῇ before Μαγδαληνῇ; Peshitta/Vulgate lack article"
+      "type": "grammar",
+      "note": "Greek employs the article τῇ before the epithet Μαγδαληνῇ (dative feminine singular), a standard Greek construction for proper names with epithets. Syriac and Latin lack articles and render the name in simple apposition (ܠܡܪܝܡ ܡܓܕܠܝܬܐ / Mariæ Magdalene), reflecting the absence of definite articles in both languages."
     },
     {
       "greek_nt": [
@@ -161,15 +156,15 @@
         11
       ],
       "peshitta": [
-        9,
-        14
+        9
       ],
       "vulgate": [
         9,
         10
       ],
       "variant": "minor",
-      "note": "Prepositional phrase structure varies: Greek παρ᾽ ἧς, Vulgate de qua, Peshitta ܗܝ...ܡܢܗ (split construction)"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase + relative pronoun (παρ᾽ ἧς, 'from whom'); Latin employs preposition + relative (de qua); Syriac uses the independent pronoun ܗܝ ('she') as a resumptive element introducing the relative clause, a characteristic Semitic strategy for relativization without a distinct relative particle in this context."
     },
     {
       "greek_nt": [
@@ -182,37 +177,40 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs pluperfect ἐκβεβλήκει ('he had cast out'), indicating anteriority; Latin uses pluperfect ejecerat, mirroring Greek aspectual nuance. Syriac employs the perfect ܐܦܩ with the auxiliary ܗܘܐ (ܐܦܩ ܗܘܐ), a periphrastic construction functionally equivalent to the pluperfect, though Syriac lacks a morphological pluperfect tense."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "Syriac adds the prepositional phrase ܡܢܗ ('from her') as an explicit object marker after the verb, clarifying the source from which the demons were expelled. Greek and Latin leave this implicit in the relative clause structure (παρ᾽ ἧς / de qua already establishes the relationship), making the Syriac addition a stylistic clarification rather than a semantic divergence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.851830+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.055783+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -43,18 +43,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
@@ -62,10 +51,12 @@
         1
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܐܡܪ ܗܘܐ (was saying) for Greek imperfect ἔλεγεν"
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (iterative/durative past); Peshitta employs perfect ܐܡܪ ܗܘܐ (periphrastic construction); Vulgate uses imperfect dicebat. All convey past habitual action, but the Syriac periphrastic form is a distinct grammatical strategy for expressing the same aspectual nuance."
     },
     {
       "greek_nt": [
@@ -75,8 +66,9 @@
       "vulgate": [
         2
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits explicit dative pronoun 'to them'; Vulgate retains colon as punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek and Vulgate mark direct discourse with punctuation (αὐτοῖς· / colon); Peshitta omits explicit punctuation marker, integrating the saying syntactically without graphical separation. This reflects differing manuscript conventions rather than semantic divergence."
     },
     {
       "greek_nt": [
@@ -88,7 +80,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses relative pronoun ὃς (nominative masculine singular); Vulgate mirrors with qui; Peshitta employs ܡܢ (indefinite relative 'whoever'), a common Syriac strategy for generalizing relative clauses. Semantically equivalent but syntactically distinct constructions."
     },
     {
       "greek_nt": [
@@ -102,7 +96,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses existential ܕܐܝܬ ܠܗ (there is to him) for Greek ἔχει (has)"
+      "type": "construction",
+      "note": "Greek ἔχει and Vulgate habet use finite verb 'has'; Peshitta uses existential particle ܕܐܝܬ ܠܗ ('there is to him'), a characteristic Semitic possessive construction. Both express possession but through different syntactic frameworks."
     },
     {
       "greek_nt": [
@@ -114,7 +109,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ὦτα is accusative neuter plural; Vulgate aures is accusative feminine plural; Peshitta ܐܕܢܐ appears singular (collective or dual construct). The Syriac may reflect the dual number (two ears) or employ singular for collective sense, a common Semitic idiom for paired body parts."
     },
     {
       "greek_nt": [
@@ -143,8 +140,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.746664+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:07.964320+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

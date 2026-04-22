@@ -77,7 +77,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,7 +91,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܕܠܐ combines conjunction and negation"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -103,7 +104,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta word order: verb follows object"
+      "type": "word-order",
+      "note": "The Peshitta places the verb ܥܐܠ ('enters') after the destination phrase ܠܠܒܗ ('to his heart'), whereas Greek and Latin position the verb before the destination (εἰσπορεύεται... εἰς τὴν καρδίαν / intrat in cor). This reflects typical Syriac VSO word order versus Greek/Latin SVO patterns."
     },
     {
       "greek_nt": [
@@ -113,11 +115,11 @@
         2
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses pronominal suffix on ܠܠܒܗ; Vulgate ejus is possessive"
+      "type": "grammar",
+      "note": "Greek uses the genitive pronoun αὐτοῦ ('of him') as a possessive modifier, while Syriac employs a pronominal suffix on ܠܠܒܗ ('to-his-heart') and Latin uses the possessive ejus. All three express identical possessive semantics through different morphological strategies."
     },
     {
       "greek_nt": [
@@ -132,7 +134,8 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -144,7 +147,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -160,104 +164,79 @@
         8
       ],
       "variant": "aligned",
-      "note": "Peshitta ܠܟܪܣܗ includes pronominal suffix"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds copula ܗܘܐ not present in Greek or Vulgate"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13,
         14
       ],
       "peshitta": [],
       "vulgate": [
+        10,
         11,
         12
       ],
       "variant": "major",
-      "note": "Greek/Vulgate explicit 'into the sewer'; Peshitta omits, uses passive ܘܡܫܬܕܐ 'is cast out'"
+      "type": "omission",
+      "note": "The Peshitta omits the entire phrase καὶ εἰς τὸν ἀφεδρῶνα ('and into the sewer/latrine'), which is present in both Greek and Latin (et in secessum). This omission may reflect scribal sensitivity to graphic physiological detail or represent a distinct Vorlage tradition."
     },
     {
       "greek_nt": [
         15
       ],
-      "peshitta": [
-        6
-      ],
+      "peshitta": [],
       "vulgate": [
-        9,
         13
       ],
-      "variant": "minor",
-      "note": "Peshitta ܘܡܫܬܕܐ is passive; Greek/Vulgate active 'goes out/exits'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds prepositional phrase ܒܬܕܟܝܬܐ 'in purity/latrine' not in Greek or Vulgate"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἐκπορεύεται ('goes out') and Latin exit are replaced in the Peshitta by ܘܡܫܬܕܐ ('and is cast out/expelled'), which appears earlier in the clause structure. The Peshitta employs a passive construction where Greek/Latin use active voice, altering both syntax and theological nuance regarding agency in the digestive process."
     },
     {
       "greek_nt": [
         16
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses a present active participle καθαρίζων ('purifying') modifying the subject, while Latin mirrors this with the present participle purgans. The Peshitta employs a prepositional phrase ܒܬܕܟܝܬܐ ܕܡܕܟܝܐ ('in purity/cleansing that purifies'), transforming the participial construction into a nominal phrase with a relative clause, fundamentally restructuring the syntax while preserving the semantic content."
     },
     {
       "greek_nt": [
         17,
-        18
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the neuter plural πάντα τὰ βρώματα ('all the foods'), Latin employs omnes escas (feminine plural), while Syriac uses the singular ܟܠܗ ܡܐܟܘܠܬܐ ('all food/the whole food'). The Syriac singular represents a collective noun idiom typical of Semitic languages, semantically equivalent to the Greek/Latin plurals."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta inserts the copula ܗܘܐ ('it is/was') as an auxiliary verb, a common Syriac grammatical feature absent from the Greek and Latin, which rely on the main verb alone. This represents stylistic expansion rather than semantic divergence."
     },
     {
       "greek_nt": [],
@@ -265,14 +244,15 @@
       "vulgate": [
         17
       ],
-      "variant": "added",
-      "note": "Vulgate adds interrogative marker '?' not in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate uniquely terminates the verse with an interrogative mark (?), transforming the declarative statement in Greek and Peshitta into a rhetorical question. This punctuation choice reflects Latin interpretive tradition regarding Jesus's pedagogical method in this discourse."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.775447+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.990546+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

@@ -95,7 +95,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the entire conditional clause about the eye causing stumbling; represents a different verse (Mark 9:48 vs 9:47)"
+      "type": "omission",
+      "note": "The Vulgate omits the entire protasis of the conditional sentence present in both Greek and Peshitta. The Vulgate text provided appears to be from Mark 9:48 (the refrain 'where their worm does not die and the fire is not quenched'), not Mark 9:47, indicating a textual dislocation or versification error in the manuscript tradition."
     },
     {
       "greek_nt": [
@@ -109,7 +110,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the imperative to cast out the eye"
+      "type": "omission",
+      "note": "Greek ἔκβαλε αὐτόν ('cast it out') is rendered in Peshitta with the emphatic construction ܚܨܝܗ ܦܩܚ ܗܘ (literally 'pluck it out, it is'), adding the pronoun ܗܘ for emphasis. The Vulgate omits this imperative entirely, continuing the textual displacement noted above."
     },
     {
       "greek_nt": [
@@ -121,8 +123,9 @@
         7
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'it is better for you' construction"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the impersonal construction καλόν σέ ἐστιν ('it is good for you'), while Peshitta uses the prepositional phrase ܠܟ ('for you') without an explicit copula or adjective, relying on context. The Vulgate omits this comparative clause entirely due to the broader textual displacement."
     },
     {
       "greek_nt": [
@@ -133,8 +136,9 @@
         9
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'with one eye' phrase"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the compound adjective μονόφθαλμον ('one-eyed') as a predicate accusative, whereas Peshitta employs the prepositional phrase ܕܒܚܕܐ ܥܝܢܟ ('with one eye'), a more analytic construction typical of Syriac syntax."
     },
     {
       "greek_nt": [
@@ -151,8 +155,8 @@
         12
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'to enter into the kingdom of God'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -162,8 +166,8 @@
         13
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the comparative conjunction 'than'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -179,8 +183,9 @@
         18
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'having two eyes' phrase"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the accusative participle construction δύο ὀφθαλμοὺς ἔχοντα ('having two eyes'), while Peshitta employs a temporal/circumstantial clause ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܥܝܢܝܢ ('while there are to you two eyes'), using the existential particle ܐܝܬ with a prepositional phrase—a characteristic Syriac idiom for possession."
     },
     {
       "greek_nt": [
@@ -194,8 +199,9 @@
         20
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'to be cast into gehenna'"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the passive infinitive βληθῆναι εἰς τὴν γέενναν ('to be cast into Gehenna'), while Peshitta employs the active verb ܬܦܠ ܒܓܗܢܐ ('you fall into Gehenna'). This shift from passive to active voice with second-person subject is a common Peshitta rendering strategy, making the consequence more direct and personal."
     },
     {
       "greek_nt": [
@@ -205,11 +211,9 @@
       "peshitta": [
         21
       ],
-      "vulgate": [
-        6
-      ],
-      "variant": "major",
-      "note": "Greek/Peshitta have 'of fire' modifying gehenna; Vulgate has 'ignis' in different context (fire that is not extinguished)"
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -221,17 +225,19 @@
         3,
         4,
         5,
+        6,
         7,
         8
       ],
       "variant": "added",
-      "note": "Vulgate adds Isaiah 66:24 quotation 'where their worm does not die and the fire is not extinguished' - represents Mark 9:48, not 9:47"
+      "type": "substitution",
+      "note": "The Vulgate text 'ubi vermis eorum non moritur, et ignis non extinguitur' ('where their worm does not die, and the fire is not quenched') represents Mark 9:48, not 9:47. This is either a versification error in the source data or reflects a manuscript tradition that conflates or displaces the Isaianic refrain (cf. Isaiah 66:24) to this position, omitting the conditional sentence about the eye entirely."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.792163+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T12:17:08.007082+00:00",
+    "confidence": 0.65,
     "schema_version": 1
   }
 }

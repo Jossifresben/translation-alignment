@@ -85,7 +85,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,7 +99,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܡܪ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -108,9 +109,12 @@
         1
       ],
       "vulgate": [
-        2
+        2,
+        3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'eis' to mark the beginning of direct discourse, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker at this juncture."
     },
     {
       "greek_nt": [],
@@ -119,16 +123,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicitly names Jesus (ܝܫܘܥ) as subject; absent in Greek and Latin"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "minor",
-      "note": "Vulgate colon punctuation marker"
+      "type": "expansion",
+      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the speaker, an expansion absent from both the Greek and Latin traditions. This represents a typical Syriac tendency to clarify implicit subjects in narrative discourse."
     },
     {
       "greek_nt": [
@@ -140,21 +136,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5,
-        6
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek perfect passive δέδοται, Peshitta ܝܗܝܒ, Vulgate datum est"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -166,7 +149,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -179,34 +163,43 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article τὸ with μυστήριον (singular); Peshitta uses the emphatic state ܐܪܙܐ without article; Vulgate has no article. All three convey definiteness through different morphological strategies."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the perfect passive δέδοται after the infinitive γνῶναι; Peshitta fronts the passive participle ܝܗܝܒ before the infinitive ܠܡܕܥ; Vulgate uses 'datum est' after 'nosse'. The word order reflects each language's preferred syntax for passive constructions with infinitival complements."
     },
     {
       "greek_nt": [
         8,
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "major",
-      "note": "Peshitta ܕܡܠܟܘܬܗ includes possessive suffix 'his kingdom' vs. Greek/Latin 'the kingdom'"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a double-articulated genitive construction (τῆς βασιλείας τοῦ θεοῦ) with two articles; Peshitta employs a construct chain with pronominal suffix ܕܡܠܟܘܬܗ ܕܐܠܗܐ ('of his kingdom of God'); Vulgate mirrors Greek structure without articles (regni Dei). The Peshitta's possessive suffix creates a slightly different syntactic relationship."
     },
     {
       "greek_nt": [],
@@ -214,74 +207,46 @@
       "vulgate": [
         11
       ],
-      "variant": "minor",
-      "note": "Vulgate colon punctuation marker"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a second colon after 'Dei' to mark the transition to the contrasting clause about outsiders, a punctuation choice absent from Greek and Peshitta manuscripts."
     },
     {
       "greek_nt": [
         12,
-        14
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned",
-      "note": "Greek ἐκείνοις τοῖς, Peshitta ܠܒܪܝܐ, Vulgate illis"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
+        14,
         15
       ],
       "peshitta": [
-        9
+        9,
+        10
       ],
       "vulgate": [
+        12,
+        13,
         14,
         15,
         16
       ],
-      "variant": "minor",
-      "note": "Greek ἔξω (outside), Peshitta ܠܒܪܝܐ (to outsiders), Vulgate qui foris sunt (who are outside) - stylistic variation"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses the demonstrative ἐκείνοις with adversative δὲ and article τοῖς plus adverb ἔξω ('to those outside'); Peshitta employs the simple prepositional phrase ܠܒܪܝܐ ܕܝܢ ('but to outsiders'); Vulgate expands with a relative clause 'illis autem qui foris sunt' ('to those who are outside'). The Vulgate's relative construction makes the outsider status more explicit than the Greek adverbial phrase or Syriac prepositional construction."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
+        17,
         18
       ],
       "variant": "aligned",
-      "note": "Peshitta ܒܡܬܠܐ combines preposition and noun"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -295,8 +260,9 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned",
-      "note": "Greek τὰ πάντα, Peshitta ܟܠ ܡܕܡ (all things), Vulgate omnia"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular neuter plural τὰ πάντα ('all things'); Peshitta employs the distributive construction ܟܠ ܡܕܡ (literally 'every thing'); Vulgate has simple 'omnia'. The Peshitta's distributive idiom emphasizes individuation while Greek and Latin use collective expressions."
     },
     {
       "greek_nt": [
@@ -308,7 +274,8 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -316,14 +283,15 @@
       "vulgate": [
         21
       ],
-      "variant": "minor",
-      "note": "Vulgate final colon punctuation marker"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate concludes the verse with a final colon, marking the end of this discourse unit before the Isaiah quotation that follows in verse 12."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.746918+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.964604+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

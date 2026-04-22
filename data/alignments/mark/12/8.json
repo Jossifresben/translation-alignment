@@ -44,44 +44,23 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        1,
-        2
+        0,
+        1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܢܣܒܘ combines conjunction + verb; Vulgate apprehendentes eum separates participle and pronoun"
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        2,
         3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "minor",
-      "note": "Greek αὐτὸν and Vulgate eum explicit; Peshitta incorporates pronoun as suffix in ܩܛܠܘܗܝ"
-    },
-    {
-      "greek_nt": [
-        2
       ],
       "peshitta": [
         1
@@ -89,16 +68,19 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs a participle-plus-finite-verb construction (λαβόντες ἀπέκτειναν) with explicit object pronoun αὐτόν; Peshitta and Vulgate integrate the object pronominally (ܩܛܠܘܗܝ as suffix, occiderunt with eum preceding). All three traditions convey identical semantics but differ in syntactic packaging."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        4
+        2
       ],
       "variant": "added",
-      "note": "Vulgate punctuation colon not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after eum, creating a rhetorical pause between the killing and the expulsion. Neither Greek nor Peshitta manuscripts attest punctuation at this juncture, maintaining continuous narrative flow."
     },
     {
       "greek_nt": [
@@ -110,11 +92,13 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        5
+        5,
+        6
       ],
       "peshitta": [
         2
@@ -122,17 +106,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܐܦܩܘܗܝ combines conjunction + verb + pronominal suffix"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "minor",
-      "note": "Greek αὐτὸν explicit; Peshitta incorporates as suffix -ܘܗܝ in ܘܐܦܩܘܗܝ; Vulgate omits"
+      "type": "construction",
+      "note": "Greek uses finite verb ἐξέβαλον with separate object pronoun αὐτόν; Peshitta employs ܘܐܦܩܘܗܝ with pronominal suffix -ܘܗܝ encoding the third-person masculine singular object; Vulgate ejecerunt stands alone, relying on eum from the previous clause. Syntactic variation without semantic divergence."
     },
     {
       "greek_nt": [
@@ -149,14 +125,15 @@
         7,
         8
       ],
-      "variant": "aligned",
-      "note": "Greek ἔξω τοῦ ἀμπελῶνος; Peshitta ܠܒܪ ܡܢ ܟܪܡܐ uses preposition ܡܢ; Vulgate extra vineam omits article"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs prepositional phrase ἔξω τοῦ ἀμπελῶνος with genitive article; Peshitta uses ܠܒܪ ܡܢ ܟܪܡܐ, a compound preposition (ܠܒܪ ܡܢ 'outside from') typical of Syriac spatial expressions; Vulgate mirrors Greek structure with extra vineam. All three denote identical spatial relation but through tradition-specific prepositional idioms."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.815091+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.021969+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

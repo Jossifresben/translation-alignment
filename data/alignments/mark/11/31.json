@@ -79,7 +79,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek καὶ, Peshitta ܘ (waw), Vulgate 'At' (adversative) - stylistic variation in conjunction"
+      "type": "substitution",
+      "note": "Greek καὶ ('and') is rendered by Vulgate At ('but'), introducing a mild adversative nuance absent in the Greek coordinating conjunction. Peshitta ܘ retains the simple conjunctive sense."
     },
     {
       "greek_nt": [
@@ -91,7 +92,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -105,7 +107,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek πρὸς ἑαυτούς 'with themselves', Peshitta ܒܢܦܫܗܘܢ 'in their souls', Vulgate 'secum' - idiomatic equivalents"
+      "type": "idiom",
+      "note": "Greek πρὸς ἑαυτούς ('with themselves') uses a prepositional phrase with reflexive pronoun; Peshitta ܒܢܦܫܗܘܢ ('in their souls/selves') employs the idiomatic ܢܦܫܐ construction; Vulgate secum uses the reflexive cum-compound, all expressing internal deliberation with slight stylistic variation."
     },
     {
       "greek_nt": [
@@ -115,18 +118,12 @@
         2
       ],
       "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        4,
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek λέγοντες is a participial construction ('saying'); Peshitta ܘܐܡܪܘ uses a finite verb with coordinating waw; Vulgate dicentes mirrors the Greek participle but adds a colon for direct discourse punctuation."
     },
     {
       "greek_nt": [
@@ -136,7 +133,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek τί εἴπωμεν 'What shall we say?' omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek includes the deliberative question τί εἴπωμεν ('What shall we say?') before the conditional clause. Both Peshitta and Vulgate omit this introductory question, proceeding directly to the conditional statement ἐὰν εἴπωμεν."
     },
     {
       "greek_nt": [
@@ -150,19 +148,12 @@
       ],
       "vulgate": [
         6,
-        7
-      ],
-      "variant": "minor",
-      "note": "Peshitta adds ܠܗ 'to him' (indirect object) not explicit in Greek/Vulgate"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐὰν εἴπωμεν uses a conditional particle with subjunctive; Peshitta ܕܐܢ ܢܐܡܪ ܠܗ adds the indirect object pronoun ܠܗ ('to him'), making the addressee explicit; Vulgate Si dixerimus adds a colon for punctuation but otherwise mirrors Greek structure."
     },
     {
       "greek_nt": [
@@ -177,7 +168,8 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -188,83 +180,55 @@
         9
       ],
       "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Peshitta adds ܠܢ 'to us' making indirect object explicit"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Greek ἐρεῖ ('he will say') is a simple future verb; Peshitta ܐܡܪ ܠܢ adds the indirect object pronoun ܠܢ ('to us'), making the recipients explicit; Vulgate dicet adds a colon for punctuation, structurally mirroring Greek."
     },
     {
       "greek_nt": [
         12,
-        13
+        13,
+        14
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
-      "peshitta": [],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek διὰ τί οὖν ('because of what therefore') uses a prepositional phrase with inferential particle; Peshitta ܘܠܡܢܐ ('and why') employs a simpler interrogative with coordinating waw; Vulgate Quare ergo ('why therefore') retains the inferential particle, closer to Greek structure."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16,
         17
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        15,
         16,
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        17,
         18
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark as separate token"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek οὐκ ἐπιστεύσατε αὐτῷ places the negative particle before the verb and dative pronoun after; Peshitta ܠܐ ܗܝܡܢܬܘܢܝܗܝ attaches the object pronoun as a suffix to the verb; Vulgate non credidistis ei mirrors Greek word order with separate dative pronoun and question mark."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.813117+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.019981+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

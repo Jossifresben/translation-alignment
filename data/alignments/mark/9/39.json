@@ -67,43 +67,19 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article and conjunction omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Jesus as subject explicit in Greek and Peshitta, omitted in Vulgate"
-    },
-    {
-      "greek_nt": [
+        1,
+        2,
         3
       ],
       "peshitta": [
-        0
+        0,
+        1,
+        2
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Verb 'said' present in Greek and Peshitta, omitted in Vulgate"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds 'to them' (ܠܗܘܢ), absent in Greek and Vulgate"
+      "type": "omission",
+      "note": "The Vulgate omits the entire introductory formula 'But Jesus said' (Greek Ὁ δὲ Ἰησοῦς εἶπεν, Peshitta ܐܡܪ ܠܗܘܢ ܝܫܘܥ), beginning instead with the relative pronoun 'qui' to continue the discourse from the preceding verse without a fresh speech introduction."
     },
     {
       "greek_nt": [
@@ -117,7 +93,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Command 'do not forbid him' present in Greek and Peshitta, completely omitted in Vulgate"
+      "type": "omission",
+      "note": "The Vulgate omits Jesus's direct command 'Do not forbid him' (Greek μὴ κωλύετε αὐτόν, Peshitta ܠܐ ܬܟܠܘܢܝܗܝ), proceeding directly to the explanatory maxim that follows in the other traditions."
     },
     {
       "greek_nt": [
@@ -129,47 +106,31 @@
       "peshitta": [
         5,
         6,
-        7
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek 'no one for there is who' and Peshitta 'there is not for anyone' omitted in Vulgate"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
+        7,
         8
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Verb 'will do/does' omitted in Vulgate"
+      "type": "omission",
+      "note": "The Vulgate omits the entire clause 'for no one there is who' (Greek οὐδεὶς γάρ ἐστιν ὃς, Peshitta ܠܝܬ ܓܝܪ ܐܢܫ ܕ), which in the Greek and Peshitta introduces the rationale for not forbidding the exorcist."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek δύναμιν (miracle/power) and Peshitta ܚܝܠܐ omitted in Vulgate"
-    },
-    {
-      "greek_nt": [
+        11,
+        12,
         13,
         14,
         15,
         16
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Phrase 'in my name' present in Greek and Peshitta, omitted in Vulgate"
+      "type": "omission",
+      "note": "The Vulgate omits the clause 'will do a work of power in My name' (Greek ποιήσει δύναμιν ἐπὶ τῷ ὀνόματί μου, Peshitta ܕܥܒܕ ܚܝܠܐ ܒܫܡܝ), which describes the miracle-working activity performed in Jesus's name."
     },
     {
       "greek_nt": [
@@ -188,7 +149,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek 'and will be able readily to speak evil of me' and Peshitta equivalent omitted in Vulgate"
+      "type": "omission",
+      "note": "The Vulgate omits the concluding clause 'and will be able readily to speak evil of Me' (Greek καὶ δυνήσεται ταχὺ κακολογῆσαί με, Peshitta ܘܡܫܟܚ ܥܓܠ ܐܡܪ ܥܠܝ ܕܒܝܫ), which provides the logical conclusion that one performing miracles in Jesus's name cannot quickly turn to reviling him."
     },
     {
       "greek_nt": [],
@@ -204,14 +166,15 @@
         7,
         8
       ],
-      "variant": "major",
-      "note": "Vulgate contains entirely different saying: 'qui enim non est adversum vos pro vobis est' (for whoever is not against you is for you) - appears to be from different verse or textual tradition"
+      "variant": "added",
+      "type": "substitution",
+      "note": "The Vulgate substitutes an entirely different maxim 'qui enim non est adversum vos, pro vobis est' ('for whoever is not against you is for you'), which appears in Luke 9:50 but not in the Markan parallel attested by Greek and Peshitta witnesses. This represents a major harmonisation toward the Lukan tradition, replacing Mark's argument about miracle-working with a general principle of non-opposition."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.790891+00:00",
-    "confidence": 0.4,
+    "generated_at": "2026-04-22T12:17:08.005932+00:00",
+    "confidence": 0.95,
     "schema_version": 1
   }
 }

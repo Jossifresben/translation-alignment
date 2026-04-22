@@ -85,60 +85,44 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1
+        1,
+        2
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
-        1
+        1,
+        2
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܦܩܕ combines conjunction and verb"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
+      "type": "agreement"
     },
     {
       "greek_nt": [
         3,
-        4
+        4,
+        5
       ],
       "peshitta": [
         2,
+        3,
         4
       ],
       "vulgate": [
         3,
-        4
-      ],
-      "variant": "aligned",
-      "note": "ἵνα μηδέν = ܕܠܐ ܡܕܡ = ne quid (that nothing)"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs ἵνα with subjunctive (ἵνα μηδὲν αἴρωσιν) to express purpose; Latin uses ne with subjunctive (ne quid tollerent); Syriac uses ܕܠܐ with imperfect (ܕܠܐ ܢܫܩܠܘܢ ܡܕܡ). All three constructions are functionally equivalent negative purpose clauses, differing only in the syntactic apparatus native to each language."
     },
     {
       "greek_nt": [
@@ -153,7 +137,7 @@
         7
       ],
       "variant": "aligned",
-      "note": "εἰς ὁδόν = ܠܐܘܪܚܐ = in via (for the journey)"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -167,8 +151,9 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "note": "εἰ μή = ܐܠܐ ܐܢ = nisi (except/only)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the conditional εἰ μή ('if not, except'); Latin employs nisi ('except'); Syriac uses ܐܠܐ ܐܢ ('but if'), a double-particle construction. All three express the same exceptive logic but through language-specific idioms for restrictive exception."
     },
     {
       "greek_nt": [
@@ -180,7 +165,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -190,30 +176,29 @@
         9
       ],
       "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek μόνον and Syriac ܒܠܚܘܕ function as adverbial modifiers ('only, alone'); the Vulgate inserts a colon after tantum, creating a stronger syntactic break that separates the exception from the subsequent prohibitions. This punctuation choice reflects Latin rhetorical style but does not alter the semantic content."
     },
     {
       "greek_nt": [
-        12
+        12,
+        13
       ],
       "peshitta": [
-        10
+        12,
+        13
       ],
       "vulgate": [
-        12
+        14,
+        15
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek and Syriac list the prohibited items in the order bag–bread–money (πήραν, ἄρτον, χαλκόν / ܬܪܡܠܐ, ܠܚܡܐ, ܢܚܫܐ), while the Vulgate reverses the first two to bread–bag (panem, peram). This reordering may reflect Latin stylistic preference or harmonization with parallel Synoptic accounts (cf. Matt 10:9-10, Luke 9:3), where the sequence varies across manuscripts."
     },
     {
       "greek_nt": [
@@ -225,73 +210,40 @@
         11
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "minor",
-      "note": "Greek/Peshitta order: no bread, no bag; Vulgate reverses: no bag, no bread"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        12,
-        13
+        16,
+        17,
+        18,
+        19,
+        20
       ],
       "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [
         14,
-        15
-      ],
-      "variant": "minor",
-      "note": "Greek/Peshitta order: no bread, no bag; Vulgate reverses: no bag, no bread"
-    },
-    {
-      "greek_nt": [
+        15,
         16
-      ],
-      "peshitta": [
-        14
       ],
       "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
         18,
         19
       ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        17,
-        18
-      ],
-      "variant": "aligned",
-      "note": "εἰς τὴν ζώνην = ܒܟܝܣܝܗܘܢ = in zona (in belt/purse)"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned",
-      "note": "χαλκόν = ܢܚܫܐ = æs (copper/money)"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek specifies μὴ εἰς τὴν ζώνην χαλκόν ('nor money in the belt'), using ζώνη (belt/girdle) as the location for carrying coins. Latin mirrors this with neque in zona æs. Syriac substitutes ܒܟܝܣܝܗܘܢ ('in their purses/money-belts'), using a more explicit term for a money container. The Syriac lexeme ܟܝܣܐ is semantically closer to 'purse' than 'belt,' representing a functional equivalent rather than a direct cognate."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.762357+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.978963+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

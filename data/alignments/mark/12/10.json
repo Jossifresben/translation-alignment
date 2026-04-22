@@ -69,7 +69,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -82,7 +83,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -94,7 +96,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -104,18 +107,12 @@
         3
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after legistis to mark the transition from the rhetorical question to the scriptural quotation, whereas Greek uses a raised dot (·) and Peshitta employs no explicit punctuation marker at this juncture."
     },
     {
       "greek_nt": [
@@ -127,7 +124,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek λίθον and Latin Lapidem both denote 'stone,' while Syriac employs ܟܐܦܐ (kēpā), the cognate term that also underlies the name Cephas (cf. John 1:42), reflecting a Semitic lexical choice for the same referent."
     },
     {
       "greek_nt": [
@@ -138,7 +137,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek and Vulgate use relative pronoun; Peshitta uses relative particle ܕ attached to following word"
+      "type": "construction",
+      "note": "Greek and Latin employ a relative pronoun (ὃν / quem) to introduce the relative clause modifying 'stone,' whereas Syriac uses a participial construction with the relative particle ܕ (d-) prefixed directly to the verb, a typical Semitic syntactic pattern."
     },
     {
       "greek_nt": [
@@ -150,7 +150,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -163,7 +164,9 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the article + present participle (οἱ οἰκοδομοῦντες, 'the ones building') to substantivize the builders; Latin employs a present participle without article (ædificantes); Syriac uses the simple noun ܒܢܝܐ ('builders'), all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -175,7 +178,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -188,30 +192,24 @@
         10,
         11
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
       "variant": "minor",
-      "note": "Greek εἰς and Vulgate in express direction; Peshitta uses ܠ prefix on following noun"
+      "type": "grammar",
+      "note": "Greek uses the aorist passive ἐγενήθη ('became') as a single synthetic form; Latin employs the perfect passive periphrastic factus est (participle + auxiliary); Syriac uses the simple perfect ܗܘܬ, all expressing completed action with slight morphological variation."
     },
     {
       "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -221,24 +219,18 @@
         10
       ],
       "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        14,
         15
       ],
-      "variant": "added",
-      "note": "Vulgate adds closing punctuation colon"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate closes the quotation with a colon, marking the end of the Psalm 118:22 citation; Greek uses a raised dot (·); Syriac has no explicit closing punctuation, reflecting differing scribal conventions for demarcating quoted material."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.815369+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.022261+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

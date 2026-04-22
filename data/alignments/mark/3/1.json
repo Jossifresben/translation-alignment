@@ -72,14 +72,12 @@
         1
       ],
       "peshitta": [
-        0,
-        2
+        0
       ],
       "vulgate": [
         1
       ],
-      "variant": "added",
-      "note": "Peshitta explicitly adds 'Jesus' as subject; Greek and Vulgate use implicit subject from context"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -92,6 +90,16 @@
         2
       ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the verb 'entered,' whereas both Greek and Latin leave the subject implicit from context. This represents a typical Syriac clarifying expansion for narrative continuity."
     },
     {
       "greek_nt": [
@@ -115,7 +123,8 @@
         5
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'synagogam' to mark a major syntactic break before the second clause. Neither Greek nor Peshitta manuscripts typically employ such mid-verse punctuation at this juncture."
     },
     {
       "greek_nt": [
@@ -131,48 +140,36 @@
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
+        4,
+        5,
         6
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperfect ἦν + adverb ἐκεῖ ('was there'); Peshitta employs the compound existential ܘܐܝܬ ܗܘܐ ܬܡܢ (wa-ʾīṯ hwā tammān, 'and there was there'), a standard Syriac periphrastic construction. Latin mirrors Greek structure with erat ibi. All three convey identical locative-existential semantics."
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [
-        7
+        7,
+        8
       ],
       "vulgate": [
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds 'one' (ܚܕ) as indefinite article; Greek and Vulgate use anarthrous construction"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "The Peshitta adds the numeral ܚܕ (ḥaḏ, 'one') after ܓܒܪܐ ('man'), yielding 'a certain man' or 'one man.' Greek ἄνθρωπος and Latin homo are anarthrous indefinites without numerical specification, though semantically equivalent."
     },
     {
       "greek_nt": [
@@ -191,13 +188,14 @@
         12
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek uses participle 'having' + adjective 'withered' + article + 'hand'; Peshitta uses relative particle + adjective + possessive 'his hand'; Vulgate uses participle + noun + adjective"
+      "type": "word-order",
+      "note": "Greek employs a participial construction with accusative object preceding the participle: ἐξηραμμένην ἔχων τὴν χεῖρα ('having the hand withered'). Latin preserves this with habens manum aridam. Peshitta uses a relative clause with adjective-first order: ܕܝܒܝܫܐ ܐܝܕܗ (d-yabīšā ʾīḏēh, 'whose hand [was] withered'), a typical Semitic attributive structure."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.739832+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:28:15.325943+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

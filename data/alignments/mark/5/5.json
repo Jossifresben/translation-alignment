@@ -77,7 +77,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -85,14 +86,14 @@
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "note": "Greek 'διὰ παντός' (through all), Peshitta 'ܘܒܟܠ ܙܒܢ' (and in all time), Vulgate 'semper' (always) - synonymous temporal expressions"
+      "type": "substitution",
+      "note": "Greek uses the prepositional phrase διὰ παντός ('through all [time]') to express continuity; Peshitta employs ܙܒܢ ('time') with ܒܟܠ ('in all'); Vulgate uses the adverb semper ('always'). All three convey continuous action but through different grammatical constructions."
     },
     {
       "greek_nt": [
@@ -110,7 +111,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek 'night and day', Peshitta 'in night and in day', Vulgate 'day and night'"
+      "type": "word-order",
+      "note": "Greek orders 'night and day' (νυκτὸς καὶ ἡμέρας); Peshitta mirrors this with ܒܠܠܝܐ ܘܒܐܝܡܡܐ; Vulgate inverts to 'day and night' (die ac nocte), a stylistic preference common in Latin prose."
     },
     {
       "greek_nt": [
@@ -127,7 +129,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek 'ἐν τοῖς μνήμασιν' (in the tombs), Peshitta 'ܒܒܝܬ ܩܒܘܪܐ' (in house of burial), Vulgate 'in monumentis' - stylistic variation for burial places"
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐν τοῖς μνήμασιν ('in the tombs') with definite article; Peshitta employs the construct state ܒܒܝܬ ܩܒܘܪܐ ('in house-of burial'); Vulgate uses in monumentis ('in monuments'). The Peshitta's construct phrase is a typical Semitic idiom for expressing possession or association."
     },
     {
       "greek_nt": [
@@ -139,7 +142,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -155,7 +159,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction with prepositional phrase 'ܘܒܛܘܪܐ' (and in mountains)"
+      "type": "grammar",
+      "note": "Greek and Vulgate use the plural (ἐν τοῖς ὄρεσιν / in montibus, 'in the mountains'); Peshitta uses the singular ܘܒܛܘܪܐ ('and in the mountain'), a typical Syriac idiom for geographic mass nouns where singular form conveys collective meaning."
     },
     {
       "greek_nt": [
@@ -169,7 +174,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta uses compound verbal construction 'ܐܝܬܘܗܝ ܗܘܐ' (he was being)"
+      "type": "construction",
+      "note": "Greek uses the simple imperfect ἦν ('he was'); Peshitta employs the periphrastic construction ܐܝܬܘܗܝ ܗܘܐ (literally 'he-was being'), a common Syriac way of expressing continuous past action; Vulgate uses erat ('he was'), matching the Greek structure."
     },
     {
       "greek_nt": [
@@ -183,7 +189,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction 'ܘܩܥܐ ܗܘܐ' (and he was crying)"
+      "type": "construction",
+      "note": "Greek uses the present participle κράζων ('crying out') with the imperfect ἦν to form a periphrastic construction; Peshitta uses ܘܩܥܐ ܗܘܐ ('and he-was crying'), employing the active participle with auxiliary; Vulgate uses the present participle clamans, matching Greek syntax."
     },
     {
       "greek_nt": [
@@ -195,7 +202,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -208,7 +216,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Greek 'κατακόπτων' (cutting), Peshitta 'ܡܨܠܦ' (wounding/cutting), Vulgate 'concidens' (striking) - semantic overlap with slight nuance"
+      "type": "lexical",
+      "note": "Greek κατακόπτων means 'cutting' or 'gashing'; Peshitta ܡܨܠܦ carries the sense of 'wounding' or 'lacerating'; Vulgate concidens means 'cutting' or 'striking'. All three are cognate terms expressing self-harm but with slightly different semantic ranges."
     },
     {
       "greek_nt": [
@@ -220,7 +229,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -232,13 +242,14 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.754294+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.970980+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

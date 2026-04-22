@@ -56,33 +56,65 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
-      "peshitta": [
-        0,
-        1
-      ],
-      "vulgate": [
-        0,
-        1
-      ],
-      "variant": "aligned"
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "grammar",
+      "note": "Greek employs the article Οἱ with the nominative plural subject στρατιῶται, a standard Greek construction. Both Peshitta and Vulgate omit the article, as neither Syriac nor Latin requires articles with definite subjects in this syntactic position."
     },
     {
       "greek_nt": [
-        3,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,7 +130,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the adverb ἔσω ('inside') with the genitive article-noun phrase τῆς αὐλῆς to express motion into the courtyard. Latin employs the preposition in with the accusative atrium, while Syriac uses the preposition ܠܓܘ ('into') with the noun ܕܪܬܐ—all three express identical spatial semantics through language-specific prepositional constructions."
     },
     {
       "greek_nt": [
@@ -114,7 +148,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek uses relative clause 'which is praetorium'; Peshitta uses copular construction; Vulgate uses simple genitive 'atrium praetorii'"
+      "type": "construction",
+      "note": "Greek provides an explanatory relative clause ὅ ἐστιν πραιτώριον ('which is [the] Praetorium') to gloss the term αὐλῆς for a non-Palestinian audience. Syriac mirrors this with the relative particle ܕܐܝܬܝܗ ('which is') followed by ܦܪܛܘܪܝܢ. Latin simply appends the genitive prætorii directly to atrium without a relative clause, treating 'atrium of the praetorium' as a compound designation rather than an explanatory gloss."
     },
     {
       "greek_nt": [
@@ -126,7 +161,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -138,7 +174,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -154,13 +191,15 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the adjective ὅλην ('whole') with the article τὴν and noun σπεῖραν in the accusative feminine singular. Latin totam cohortem mirrors this structure exactly. Syriac ܠܟܠܗ ܐܣܦܝܪ employs the preposition ܠ ('to/for') with the adjective ܟܠܗ ('all of it') and the loanword ܐܣܦܝܪ (from Latin spira/cohors), reflecting Syriac's preference for prepositional marking of direct objects with definite or totality-marked nouns."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.843508+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.048771+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -79,38 +79,23 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the entire verse; this is the refrain 'where their worm does not die and the fire is not quenched' from v.48"
-    },
-    {
-      "greek_nt": [
+        1,
         2,
         3,
-        4
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "omitted"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6
       ],
       "peshitta": [
+        0,
+        1,
         2,
         3
       ],
       "vulgate": [],
-      "variant": "omitted"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Vulgate omits the entire protasis ('And if your foot causes you to stumble') present in both Greek and Peshitta. The Vulgate text provided appears to be from Mark 9:48, the refrain about the undying worm and unquenchable fire, rather than the foot-amputation saying of Mark 9:45."
     },
     {
       "greek_nt": [
@@ -121,102 +106,60 @@
         4
       ],
       "vulgate": [],
-      "variant": "omitted"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek ἀπόκοψον αὐτόν ('cut it off') and Peshitta ܦܣܘܩܝܗ ('cut it off') are absent from the Vulgate witness, which transmits a different verse entirely."
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [],
-      "variant": "omitted"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [],
-      "variant": "omitted"
-    },
-    {
-      "greek_nt": [
+        10,
+        11,
         12,
         13,
         14,
-        15
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [],
-      "variant": "omitted"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [],
-      "variant": "omitted"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "omitted"
-    },
-    {
-      "greek_nt": [
-        18,
-        19,
-        20
-      ],
-      "peshitta": [
         15,
         16
       ],
-      "vulgate": [],
-      "variant": "omitted"
-    },
-    {
-      "greek_nt": [
-        21
-      ],
       "peshitta": [
-        12,
-        13,
-        14
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "vulgate": [],
-      "variant": "omitted"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The comparative clause 'it is better for you to enter life lame' (Greek καλόν ἐστίν σε εἰσελθεῖν εἰς τὴν ζωὴν χωλόν; Peshitta ܦܩܚ ܗܘ ܠܟ ܕܬܥܘܠ ܠܚܝܐ ܚܓܝܣܐ) is entirely absent from the Vulgate text, which instead provides the Isaiah 66:24 refrain found in Mark 9:48."
     },
     {
       "greek_nt": [
+        17,
+        18,
+        19,
+        20,
+        21,
         22,
         23,
         24,
         25
       ],
       "peshitta": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
         17,
         18
       ],
       "vulgate": [],
-      "variant": "omitted"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The alternative clause 'than having two feet to be cast into Gehenna' (Greek ἢ τοὺς δύο πόδας ἔχοντα βληθῆναι εἰς τὴν γέενναν; Peshitta ܐܘ ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܪܓܠܝܢ ܬܦܠ ܒܓܗܢܐ) is absent from the Vulgate, which transmits Mark 9:48 instead of 9:45."
     },
     {
       "greek_nt": [
@@ -226,13 +169,6 @@
         29,
         30
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek phrase 'into the unquenchable fire' omitted in Peshitta; Vulgate substitutes entirely different refrain about worm and fire"
-    },
-    {
-      "greek_nt": [],
       "peshitta": [],
       "vulgate": [
         0,
@@ -245,14 +181,15 @@
         7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds refrain 'ubi vermis eorum non moritur et ignis non extinguitur' (where their worm does not die and the fire is not quenched), which appears in Greek at v.48"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek concludes with the prepositional phrase εἰς τὸ πῦρ τὸ ἄσβεστον ('into the unquenchable fire'), while the Vulgate substitutes the entire Isaiah 66:24 refrain 'ubi vermis eorum non moritur, et ignis non extinguitur' ('where their worm does not die and the fire is not quenched'). The Peshitta omits any concluding eschatological description. This represents a textual variant: some Greek manuscripts include the refrain after v. 45 (as in the Vulgate tradition), while the critical text (NA28/SBLGNT) relegates it to v. 48 only."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.791868+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.006837+00:00",
+    "confidence": 0.55,
     "schema_version": 1
   }
 }

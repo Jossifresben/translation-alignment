@@ -80,7 +80,8 @@
         1
       ],
       "variant": "omitted",
-      "note": "Peshitta omits the temporal adverb 'immediately/protinus'; Greek εὐθύς and Latin protinus present but Syriac lacks equivalent"
+      "type": "omission",
+      "note": "The Peshitta omits the temporal adverb εὐθύς / protinus ('immediately'), a characteristic Markan feature. This omission may reflect Syriac stylistic preference to avoid redundancy, as the narrative flow already implies immediacy through the sequential verb forms ܘܢܦܩܘ ܘܐܬܘ ('and they went out and they came')."
     },
     {
       "greek_nt": [
@@ -99,68 +100,42 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek uses participle ἐξελθόντες with prepositional phrase; Peshitta and Vulgate use finite verb forms (ܢܦܩܘ/egredientes); stylistic variation in verbal construction"
+      "type": "construction",
+      "note": "Greek employs a participial construction (ἐκ τῆς συναγωγῆς ἐξελθόντες, 'having gone out from the synagogue') with the main verb ἦλθον following. Latin mirrors this with egredientes de synagoga. Syriac uses coordinate finite verbs ܘܢܦܩܘ ܡܢ ܟܢܘܫܬܐ ('and they went out from the assembly'), a typical Semitic paratactic structure expressing the same sequence of actions."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8,
         9
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        5,
         6,
         7
       ],
-      "variant": "major",
-      "note": "Peshitta ܠܒܝܬܗ 'to his house' includes possessive suffix referring to Simon; Greek τὴν οἰκίαν and Latin domum lack possessive, making ownership explicit only through following genitive"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the verb ἦλθον with prepositional phrase εἰς τὴν οἰκίαν ('they came into the house'); Latin venerunt in domum parallels this structure. Syriac ܘܐܬܘ ܠܒܝܬܗ employs a pronominal suffix on 'house' (ܠܒܝܬܗ, 'to his house'), anticipating the possessor Simon, whereas Greek and Latin use the genitive construction following the noun."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
+        11,
         12
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        8,
+        9,
         10
       ],
       "variant": "aligned"
@@ -179,36 +154,17 @@
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
+        15,
         16
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        12,
+        13,
         14
       ],
       "variant": "aligned"
@@ -216,8 +172,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.730570+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.948077+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

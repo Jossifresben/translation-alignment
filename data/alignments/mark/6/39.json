@@ -58,7 +58,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -71,7 +72,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܦܩܕ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,7 +84,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,7 +100,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Vulgate uses causative construction 'ut accumbere facerent' vs. Greek/Peshitta simple infinitive"
+      "type": "construction",
+      "note": "Greek uses a simple infinitive ἀνακλῖναι ('to recline'), while the Vulgate employs a causative construction accumbere facerent ('to make [them] recline'), rendering the command more explicitly as causing the action rather than directly ordering it. The Peshitta ܕܢܣܡܟܘܢ uses a subjunctive construction parallel to the Greek infinitive."
     },
     {
       "greek_nt": [
@@ -110,7 +113,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -126,48 +130,34 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek/Peshitta use reduplication for distributive sense; Vulgate uses 'secundum contubernia' (according to groups)"
+      "type": "idiom",
+      "note": "Greek employs the distributive reduplication συμπόσια συμπόσια (accusative neuter plural repeated) to express 'in groups' or 'by companies,' a Semitic-style construction. The Peshitta mirrors this with ܣܡܟܝܢ ܣܡܟܝܢ (participle repeated), maintaining the distributive idiom. The Vulgate renders secundum contubernia ('according to companies'), using a prepositional phrase rather than reduplication, achieving the same distributive sense through Latin idiom."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
+        7,
+        8,
         9,
         10
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the articular construction ἐπὶ τῷ χλωρῷ χόρτῳ ('on the green grass') with article, preposition, and two attributive modifiers in dative singular. The Vulgate super viride fœnum mirrors this structure with article-equivalent positioning. The Peshitta ܥܠ ܥܣܒܐ ('on grass') omits both the article and the adjective 'green,' a typical Semitic economy where the context implies freshness; Syriac commonly omits articles and descriptive adjectives present in Greek."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.769460+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.983958+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

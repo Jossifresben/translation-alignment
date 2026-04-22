@@ -69,7 +69,8 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction καὶ/Et"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καὶ / Et ('and'), beginning directly with the temporal adverb ܗܝܕܝܢ ('then'). This may reflect a stylistic preference for asyndetic construction at the start of a new pericope or discourse unit."
     },
     {
       "greek_nt": [
@@ -81,31 +82,24 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,7 +111,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -129,7 +124,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Peshitta places the verb ܢܐܡܪ ('shall say') before the indirect object ܠܟܘܢ ('to you'), whereas Greek and Latin position the verb after the dative pronoun. This reflects standard Syriac VSO word order versus Greek/Latin flexibility."
     },
     {
       "greek_nt": [],
@@ -138,7 +135,8 @@
         6
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after dixerit to mark the transition to direct speech. Neither the Greek nor the Peshitta employ punctuation at this juncture, relying instead on the interjection ἴδε / ܕܗܐ / Ecce to signal the quotation."
     },
     {
       "greek_nt": [
@@ -153,32 +151,25 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "minor",
-      "note": "Greek article ὁ rendered as copula ܗܘ in Peshitta, est in Vulgate"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the article ὁ with χριστός in a nominal predicate construction ('the Christ'); Syriac employs the independent pronoun ܗܘ ('he [is]') as copula with ܡܫܝܚܐ; Latin uses the verb est ('is') with Christus. All three express the same predication but via different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -189,7 +180,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Greek ἢ and Peshitta ܘܗܐ (and behold) vs. Vulgate comma; stylistic variation in disjunction"
+      "type": "substitution",
+      "note": "Greek uses the disjunctive particle ἤ ('or'); Peshitta uses the conjunction ܘ ('and') with the interjection ܗܐ ('behold'), yielding 'and behold' rather than 'or behold'. The Vulgate omits any conjunction before the second ecce, creating asyndeton for rhetorical emphasis."
     },
     {
       "greek_nt": [
@@ -203,36 +195,30 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐκεῖ and Latin illic both mean 'there'; Syriac ܗܪܬܡܢ is a compound adverb meaning 'from there' or 'yonder', adding a slight directional nuance not present in the Greek or Latin witnesses."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.825524+00:00",
+    "generated_at": "2026-04-22T12:17:08.031498+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

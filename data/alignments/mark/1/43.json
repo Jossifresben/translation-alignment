@@ -42,7 +42,8 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction, begins with ܘܟܐܐ (and rebuked)"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning the clause asyndetically. This may reflect a Syriac stylistic preference for parataxis without explicit connectives, or represent a variant Vorlage lacking the conjunction."
     },
     {
       "greek_nt": [
@@ -55,7 +56,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs an aorist participle ἐμβριμησάμενος (having sternly warned); Latin renders with finite verb comminatus est (he threatened); Syriac uses ܘܟܐܐ (and he rebuked), a finite verb with conjunction. All three convey stern warning but differ syntactically in subordination versus coordination."
     },
     {
       "greek_nt": [
@@ -78,7 +81,8 @@
         4
       ],
       "variant": "omitted",
-      "note": "Peshitta omits εὐθύς/statim (immediately)"
+      "type": "omission",
+      "note": "The Peshitta omits the temporal adverb εὐθύς / statim (immediately), a characteristic Markan term. This omission may reflect a tendency in the Peshitta tradition to streamline Mark's rapid narrative pacing, or represent a textual variant lacking the adverb."
     },
     {
       "greek_nt": [
@@ -96,18 +100,19 @@
       "greek_nt": [
         5
       ],
-      "peshitta": [],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "note": "Peshitta incorporates pronominal suffix in verb ܘܐܦܩܗ; Greek/Vulgate use separate pronoun"
+      "variant": "aligned"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.732641+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.950451+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

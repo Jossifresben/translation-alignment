@@ -45,7 +45,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -58,7 +59,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Vulgate 'At' (but) vs Greek δέ (and/but); stylistic variation in adversative particle"
+      "type": "word-order",
+      "note": "Greek δέ and Syriac ܕܝܢ occupy post-subject position as expected in their respective syntaxes, while Latin At fronts the adversative conjunction, a stylistic preference in classical Latin narrative prose."
     },
     {
       "greek_nt": [
@@ -70,7 +72,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -80,18 +83,12 @@
         3
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present as token in Greek/Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after clamaverunt to introduce direct speech, a scribal convention absent in Greek and Syriac manuscripts which rely on context alone to signal the quotation boundary."
     },
     {
       "greek_nt": [
@@ -105,13 +102,15 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperative σταύρωσον with separate accusative pronoun αὐτόν; Syriac employs a single verbal form ܙܩܘܦܝܗܝ with suffixed third-person object pronoun; Latin mirrors Greek structure with imperative Crucifige and separate accusative eum—functionally equivalent but morphologically distinct strategies."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.843128+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.048311+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

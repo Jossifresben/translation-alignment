@@ -98,7 +98,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -112,7 +113,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses aorist participle περιβλεψάμενος with accusative object αὐτούς; Vulgate mirrors this with circumspiciens eos; Peshitta employs the verb ܚܪ ('looked') with pronominal suffix ܒܗܘܢ ('at them'), a typical Syriac construction avoiding separate object pronouns."
     },
     {
       "greek_nt": [
@@ -126,25 +129,12 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        3,
-        4,
-        5
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses participial construction 'while it grieved him' (ܟܕ ܟܪܝܐ ܠܗ) vs. Greek/Latin single participle"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7,
         8,
@@ -153,18 +143,23 @@
         11
       ],
       "peshitta": [
+        3,
+        4,
+        5,
         6,
         7,
         8
       ],
       "vulgate": [
+        5,
         6,
         7,
         8,
         9
       ],
       "variant": "major",
-      "note": "Greek πώρωσις 'hardness/callousness' vs. Vulgate cæcitate 'blindness' - significant semantic difference in metaphor"
+      "type": "substitution",
+      "note": "Greek πώρωσις ('hardness, callousness') and Peshitta ܩܫܝܘܬ ('hardness') are semantically aligned, but Vulgate substitutes cæcitate ('blindness'), a metaphorical shift from hardness to spiritual blindness. The Peshitta uses the temporal particle ܟܕ ('while') to introduce the participial clause, whereas Greek and Latin employ present participles (συλλυπούμενος / contristatus) without temporal markers."
     },
     {
       "greek_nt": [
@@ -181,7 +176,8 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -190,7 +186,8 @@
         12
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon (:) to mark direct speech, a punctuation convention absent in Greek and Peshitta manuscripts of this period."
     },
     {
       "greek_nt": [
@@ -208,46 +205,28 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperative ἔκτεινον with article-noun-pronoun (τὴν χεῖρα σου); Vulgate mirrors this with Extende manum tuam; Peshitta employs the imperative ܦܫܘܛ with noun-suffix ܐܝܕܟ ('your hand'), a more compact Semitic construction incorporating the possessive directly into the noun."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20
       ],
       "peshitta": [
         14
       ],
       "vulgate": [
+        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        21,
         22,
         23,
         24,
@@ -258,12 +237,15 @@
         16
       ],
       "vulgate": [
+        18,
         19,
         20,
         21,
         22
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek preserves the full clause καὶ ἀπεκατεστάθη ἡ χεὶρ αὐτοῦ ('and his hand was restored'), and Vulgate expands with restituta est manus illi (passive construction with dative of advantage). Peshitta condenses to ܘܬܩܢܬ ܐܝܕܗ ('and his hand was made whole'), omitting the comparative clause entirely and using a simpler verbal form."
     },
     {
       "greek_nt": [
@@ -275,13 +257,14 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek phrase 'sound as the other' (ὑγιὴς ὡς ἡ ἄλλη) omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek alone preserves the comparative clause ὑγιὴς ὡς ἡ ἄλλη ('sound as the other [hand]'), emphasizing complete restoration. Both Peshitta and Vulgate omit this comparison, concluding the narrative with the simple statement of healing without the explicit comparison to the other hand."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.740510+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.957599+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

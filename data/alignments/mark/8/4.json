@@ -69,29 +69,21 @@
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction; begins directly with verb"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the conjunction Καὶ / Et ('And'), beginning directly with the verb ܐܡܪܝܢ ('they said'). This is a common Syriac stylistic preference to avoid redundant conjunctions in narrative sequences."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        1,
         2
       ],
       "variant": "aligned"
@@ -107,20 +99,31 @@
       ],
       "vulgate": [
         3,
-        4
+        4,
+        5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an articulated noun phrase with possessive pronoun (οἱ μαθηταὶ αὐτοῦ, 'the disciples of him'); Vulgate mirrors this with discipuli sui; Peshitta employs a single construct form with pronominal suffix (ܬܠܡܝܕܘܗܝ, 'his-disciples'), a typical Semitic compression."
     },
     {
       "greek_nt": [
         6
       ],
       "peshitta": [],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek ὅτι introduces indirect discourse; both Peshitta and Vulgate omit this conjunction, using direct quotation after a colon (Vulgate) or proceeding directly to the interrogative (Peshitta). This reflects differing conventions for reported speech."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
       "vulgate": [
         5
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits recitative ὅτι; Vulgate uses colon punctuation"
+      "variant": "aligned",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
@@ -146,7 +149,8 @@
         7
       ],
       "variant": "major",
-      "note": "Peshitta expands 'these' to 'all these'; different word order and emphasis"
+      "type": "expansion",
+      "note": "Greek and Vulgate use the simple demonstrative τούτους / illos ('these [people]'); Peshitta expands with ܠܗܠܝܢ ܟܠܗܘܢ ('all these'), adding the quantifier ܟܠܗܘܢ ('all') for emphasis. This intensifies the disciples' sense of the crowd's magnitude."
     },
     {
       "greek_nt": [
@@ -161,7 +165,9 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb before the subject (δυνήσεταί τις, 'will-be-able anyone'); Peshitta and Vulgate reverse this to subject-verb order (ܡܫܟܚ ܐܢܫ / quis poterit). The semantic content is identical; the difference reflects Greek vs. Semitic/Latin syntactic norms."
     },
     {
       "greek_nt": [
@@ -172,7 +178,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Vulgate omits 'here' as redundant with 'in solitudine'"
+      "type": "omission",
+      "note": "Greek and Peshitta retain the locative adverb ὧδε / ܗܪܟܐ ('here'); Vulgate omits it, relying on the prepositional phrase in solitudine to convey location. This is a stylistic compression in the Latin."
     },
     {
       "greek_nt": [
@@ -197,7 +204,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek genitive ἄρτων vs Vulgate ablative panibus; same semantic function"
+      "type": "word-order",
+      "note": "Greek places ἄρτων ('with bread') after the infinitive χορτάσαι; Peshitta places ܠܚܡܐ before the infinitive ܕܢܣܒܥ; Vulgate places panibus after saturare. All three convey instrumental 'with bread,' but word order varies according to each language's syntactic preferences for infinitival complements."
     },
     {
       "greek_nt": [
@@ -211,22 +219,26 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a prepositional phrase ἐπ᾽ ἐρημίας ('in [the] wilderness', genitive); Vulgate mirrors this with in solitudine (ablative of place); Peshitta uses the preposition ܒ with ܚܘܪܒܐ ('in the desert'). All are semantically equivalent locative expressions with minor morphosyntactic variation."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        16
+      ],
       "peshitta": [],
       "vulgate": [
         14
       ],
-      "variant": "omitted",
-      "note": "Vulgate question mark is punctuation, not lexical"
+      "variant": "aligned",
+      "type": "punctuation"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.778889+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.994315+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

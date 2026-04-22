@@ -93,7 +93,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Vulgate uses ablative absolute 'Quo audito' (which having been heard) vs. Greek/Peshitta finite verb"
+      "type": "construction",
+      "note": "Greek uses finite verb with conjunction (Καὶ ἤκουσαν); Vulgate employs ablative absolute construction (Quo audito, 'which having been heard'); Syriac mirrors Greek with ܘܫܡܥܘ. The Latin construction is more compressed and literary, while Greek and Syriac maintain paratactic narrative style."
     },
     {
       "greek_nt": [
@@ -108,22 +109,13 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate use article + noun (οἱ ἀρχιερεῖς / principes sacerdotum); Syriac employs construct state ܪܒܝ ܟܗܢܐ ('chiefs of priests'), a standard Semitic genitive construction without separate article."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6
       ],
@@ -131,9 +123,12 @@
         3
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek coordinates with conjunction and repeated article (καὶ οἱ γραμματεῖς); Vulgate uses simple conjunction (et scribæ); Syriac employs asyndetic coordination with ܘܣܦܪܐ, omitting the article as Semitic languages typically do not mark definiteness redundantly in coordinated noun phrases."
     },
     {
       "greek_nt": [
@@ -148,33 +143,26 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܒܥܝܢ ܗܘܘ (were seeking) with auxiliary verb"
+      "type": "grammar",
+      "note": "Greek uses imperfect indicative ἐζήτουν; Vulgate uses imperfect indicative quærebant; Syriac employs periphrastic construction ܘܒܥܝܢ ܗܘܘ (participle + auxiliary 'were seeking'), a characteristic Syriac way of expressing progressive past action."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        7,
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -182,76 +170,51 @@
       "vulgate": [
         10
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [
-        11
-      ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic ܕܚܠܝܢ ܗܘܘ (were fearing)"
+      "type": "punctuation",
+      "note": "Vulgate inserts colon after perderent to mark major clause boundary before causal explanation; Greek uses semicolon (modern editorial); Syriac has no equivalent punctuation mark in manuscript tradition."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
+        13,
         14
       ],
       "peshitta": [
+        8,
+        9,
+        10,
         11
       ],
       "vulgate": [
+        11,
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἐφοβοῦντο with postpositive γάρ; Vulgate uses imperfect timebant with enim; Syriac employs periphrastic ܕܚܠܝܢ ܗܘܘ ܓܝܪ (participle + auxiliary + particle), again reflecting Syriac preference for analytic verbal constructions over synthetic Greek/Latin forms."
     },
     {
       "greek_nt": [
         15,
-        16
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "minor",
-      "note": "Greek πᾶς γὰρ, Peshitta ܡܛܠ ܕܟܠܗ (because all), Vulgate quoniam (because) - slight variation in causal construction"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
         18
       ],
       "peshitta": [
+        12,
+        13,
         14
       ],
       "vulgate": [
+        14,
         15,
         16
       ],
       "variant": "minor",
-      "note": "Greek ὁ ὄχλος (the crowd), Peshitta ܥܡܐ (people), Vulgate universa turba (whole crowd) - synonymous terms"
+      "type": "substitution",
+      "note": "Greek uses πᾶς ὁ ὄχλος ('all the crowd') with repeated γάρ; Vulgate uses universa turba ('the whole crowd') with quoniam introducing causal clause; Syriac uses ܡܛܠ ܕܟܠܗ ܥܡܐ ('because all the people'), substituting ܥܡܐ (people/nation) for ὄχλος (crowd), a common Syriac lexical choice emphasizing collective identity."
     },
     {
       "greek_nt": [
@@ -265,50 +228,33 @@
         17
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic ܬܡܝܗܝܢ ܗܘܘ (were amazed)"
+      "type": "grammar",
+      "note": "Greek uses singular imperfect ἐξεπλήσσετο agreeing with ὄχλος; Vulgate uses singular imperfect admirabatur agreeing with turba; Syriac uses plural participle ܬܡܝܗܝܢ ܗܘܘ ('were amazed'), employing constructio ad sensum to agree with the plural semantic sense of 'people' rather than grammatical singular."
     },
     {
       "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        20,
         21,
-        22
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        22,
         23
       ],
       "peshitta": [
         17
       ],
       "vulgate": [
+        18,
+        19,
         20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐπὶ τῇ διδαχῇ αὐτοῦ with dative article; Vulgate uses super doctrina ejus; Syriac uses simple prepositional phrase ܒܝܘܠܦܢܗ with pronominal suffix, employing ܒ ('in/at') rather than a direct equivalent of ἐπί, reflecting Syriac idiomatic usage for expressing reaction to teaching."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.810451+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.018030+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

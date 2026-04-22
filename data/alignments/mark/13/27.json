@@ -82,7 +82,8 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction καὶ/Et"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et ('and'), beginning directly with the temporal adverb ܗܝܕܝܢ ('then'). This may reflect a Syriac stylistic preference for asyndetic construction at the start of eschatological pronouncements."
     },
     {
       "greek_nt": [
@@ -121,7 +122,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article τοὺς with ἀγγέλους αὐτοῦ ('the angels of him'); Latin mirrors this with angelos suos; Syriac uses a pronominal suffix construction ܡܠܐܟܘܗܝ ('his-angels') without a separate article, a typical Semitic bound-state idiom."
     },
     {
       "greek_nt": [
@@ -145,7 +148,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐπισυνάξει (compound verb 'gather-together') is rendered by Syriac ܘܢܟܢܫ (simple verb 'gather') and Latin congregabit ('gather together'). The Peshitta uses a less intensified lexeme, though the semantic range overlaps substantially."
     },
     {
       "greek_nt": [
@@ -161,7 +166,8 @@
         8
       ],
       "variant": "major",
-      "note": "Peshitta ܠܓܒܘܗܝ 'his chosen ones' differs from Greek ἐκλεκτούς 'elect'; semantic overlap but distinct lexical choice"
+      "type": "substitution",
+      "note": "Greek τοὺς ἐκλεκτοὺς αὐτοῦ ('the elect of him') and Latin electos suos both use the technical term for 'chosen ones.' Syriac ܠܓܒܘܗܝ ('his-chosen-ones') employs ܓܒܐ, which can mean 'chosen' but also 'select' or 'elite,' a lexical choice with slightly broader semantic range than the Greek ἐκλεκτός."
     },
     {
       "greek_nt": [
@@ -180,7 +186,9 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐκ τῶν τεσσάρων ἀνέμων uses the partitive genitive with article ('from the four winds'); Latin a quatuor ventis mirrors this; Syriac ܡܢ ܐܪܒܥܬܝܗܝܢ ܪܘܚܐ employs a pronominal suffix on the numeral ('from their-four winds'), a Semitic construct-state pattern semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -198,7 +206,9 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀπ᾽ ἄκρου γῆς ('from [the] extremity of earth') and Latin a summo terræ ('from [the] summit of earth') use different spatial metaphors (ἄκρον = 'extremity,' summum = 'highest point'). Syriac ܡܢ ܪܫܗ ܕܐܪܥܐ ('from the head of earth') employs ܪܫܐ ('head'), a common Semitic idiom for 'beginning' or 'extremity,' aligning semantically with Greek but lexically distinct."
     },
     {
       "greek_nt": [
@@ -211,7 +221,9 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἕως ('until') is a simple preposition; Latin usque ad is a compound prepositional phrase ('up to'); Syriac ܘܥܕܡܐ ('and-until') prefixes a conjunction, creating a slightly more emphatic temporal-spatial marker, though all three convey the same terminus ad quem."
     },
     {
       "greek_nt": [
@@ -226,13 +238,15 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἄκρου οὐρανοῦ ('extremity of heaven') and Latin summum cæli ('summit of heaven') again diverge in spatial metaphor (extremity vs. summit). Syriac ܠܪܫܗ ܕܫܡܝܐ ('to the head of heaven') repeats the ܪܫܐ idiom, maintaining internal parallelism with the preceding phrase but differing lexically from both Greek and Latin."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.826396+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.032454+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

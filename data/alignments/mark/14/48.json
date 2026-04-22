@@ -67,14 +67,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܕܝܢ (dēn, 'but/now') for Greek καί; stylistic variation in discourse particle"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning instead with the pronoun ܗܘ ('he') followed by the contrastive particle ܕܝܢ ('but, now'). This represents a stylistic preference in Syriac narrative syntax, where the subject pronoun + ܕܝܢ construction replaces the Greek coordinating conjunction."
     },
     {
       "greek_nt": [
@@ -86,7 +85,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,40 +101,36 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses pronoun ܗܘ + name; Greek uses article + name; both identify Jesus"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
+      "type": "word-order",
+      "note": "The Peshitta fronts the subject pronoun ܗܘ ('he') before the name ܝܫܘܥ, creating the construction 'he—Jesus,' whereas Greek uses the article + name (ὁ Ἰησοῦς) and Vulgate simply 'Jesus.' This represents typical Syriac topicalization strategy, with the resumptive pronoun anticipating the proper name."
     },
     {
       "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts the contrastive particle ܕܝܢ ('but, now') after the subject pronoun, a discourse marker absent from both Greek and Latin. This particle signals a narrative transition or mild adversative nuance typical of Syriac storytelling conventions."
+    },
+    {
+      "greek_nt": [
+        4,
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present as token in Greek/Peshitta"
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        3,
+        4,
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a single verb εἶπεν with dative pronoun αὐτοῖς; Peshitta employs the coordinate construction ܘܐܡܪ ܠܗܘܢ ('and-said to-them') with prefixed conjunction; Vulgate inserts a colon after illis, creating a punctuational break absent in the other traditions. All three convey identical semantics through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -149,7 +145,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὡς ἐπί ('as against') is rendered by Peshitta ܐܝܟ ܕܥܠ ('like that-upon') and Vulgate Tamquam ad ('just-as toward'). The Vulgate's tamquam intensifies the comparative force slightly beyond the Greek ὡς, while Syriac ܐܝܟ ܕ- uses a relative construction ('like that which') rather than a simple preposition."
     },
     {
       "greek_nt": [
@@ -161,7 +159,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -173,7 +172,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -187,7 +187,9 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the preposition μετά with genitive plural μαχαιρῶν ('with swords'); Vulgate mirrors this with cum gladiis; Peshitta employs the prefixed preposition ܒ- directly attached to the singular noun ܒܣܝܦܐ ('with-sword'), using the singular in a collective sense. This reflects a common Syriac idiom where singular nouns denote classes or pluralities."
     },
     {
       "greek_nt": [
@@ -201,7 +203,9 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ ξύλων ('and clubs') uses a coordinating conjunction with genitive plural; Vulgate et lignis parallels this structure; Peshitta ܘܒܚܘܛܪܐ ('and-with-club') prefixes both the conjunction ܘ and the preposition ܒ to a singular noun used collectively. The Syriac construction economizes by fusing conjunction and preposition, avoiding repetition of the prepositional phrase structure."
     },
     {
       "greek_nt": [
@@ -213,24 +217,18 @@
       ],
       "vulgate": [
         14,
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        15,
         16
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation, not present as token in Greek/Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist infinitive συλλαβεῖν με ('to capture me') as a purpose clause; Vulgate comprehendere me mirrors this with Latin infinitive; Peshitta ܕܬܐܚܕܘܢܢܝ employs a ܕ- prefixed imperfect verb with first-person object suffix ('that-you-may-seize-me'), creating a subjunctive purpose clause. The Syriac construction integrates the object pronoun as a verbal suffix rather than a separate word."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.837335+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.042368+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

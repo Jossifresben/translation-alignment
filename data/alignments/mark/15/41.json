@@ -80,31 +80,25 @@
         0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits relative pronoun, begins with 'et'"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [
-        0
-      ],
       "variant": "minor",
-      "note": "Greek καί vs Vulgate 'et' at different structural positions"
+      "type": "substitution",
+      "note": "Greek uses the relative pronoun αἳ ('who') to introduce the clause; Peshitta employs the demonstrative ܗܢܝܢ ('these'); Vulgate omits any introductory pronoun, beginning directly with the conjunction 'et'."
     },
     {
       "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses καί + temporal ὅτε ('and when'); Peshitta employs the compound temporal particle ܕܟܕ ('when'); Vulgate uses 'et cum' ('and when'), mirroring the Greek structure more closely than the Peshitta."
     },
     {
       "greek_nt": [
@@ -131,7 +125,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the preposition ἐν with article and dative (ἐν τῇ Γαλιλαίᾳ); Vulgate mirrors this with 'in Galilæa'; Peshitta uses the prefixed preposition ܒ directly attached to the noun without a separate article, reflecting standard Syriac syntax where the definite state is marked morphologically."
     },
     {
       "greek_nt": [
@@ -147,20 +143,13 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperfect ἠκολούθουν with dative pronoun αὐτῷ; Vulgate employs 'sequebantur eum' (imperfect with accusative); Peshitta uses the participle ܢܩܝܦܢ with auxiliary ܗܘܝ and pronominal suffix ܠܗ, a periphrastic construction typical of Syriac narrative past tense."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
@@ -169,6 +158,7 @@
         8
       ],
       "vulgate": [
+        7,
         8,
         9
       ],
@@ -176,16 +166,7 @@
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14
       ],
@@ -194,49 +175,35 @@
         10
       ],
       "vulgate": [
+        10,
         11,
         12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [],
-      "vulgate": [
-        13
       ],
       "variant": "minor",
-      "note": "Greek article αἱ vs Vulgate relative pronoun 'quae'"
+      "type": "word-order",
+      "note": "Greek places the conjunction before the adjectives (καὶ ἄλλαι πολλαί); Vulgate mirrors this order ('et aliæ multæ'); Peshitta reverses the adjective order (ܘܐܚܪܢܝܬܐ ܣܓܝܐܬܐ, 'and other many'), a stylistic preference within Semitic syntax."
     },
     {
       "greek_nt": [
-        16
+        15,
+        16,
+        17
       ],
       "peshitta": [
         11,
-        12
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        13,
         14,
         15,
-        16
+        16,
+        17
       ],
       "variant": "minor",
-      "note": "Vulgate 'simul cum eo' expands Greek simple dative αὐτῷ"
+      "type": "construction",
+      "note": "Greek uses the articular aorist participle αἱ συναναβᾶσαι αὐτῷ ('those having come up with him'); Vulgate employs a relative clause with 'quæ simul cum eo ascenderant'; Peshitta uses the relative particle ܕ with perfect verb ܣܠܩ ܗܘܝ and prepositional phrase ܥܡܗ, functionally equivalent but syntactically distinct from the Greek participial construction."
     },
     {
       "greek_nt": [
@@ -249,13 +216,15 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the preposition εἰς with accusative Ἱεροσόλυμα (directional 'to Jerusalem'); Vulgate employs the accusative 'Jerosolymam' without preposition (Latin accusative of motion toward); Peshitta uses the prefixed preposition ܠ attached to ܐܘܪܫܠܡ, the standard Syriac directional marker."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.848114+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.052484+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -65,7 +65,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -77,8 +78,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܫܕܪܘ combines conjunction and verb"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses present tense ἀποστέλλουσιν (historic present for vividness), while Peshitta and Vulgate employ past tense (ܘܫܕܪܘ / mittunt), normalizing the narrative temporality to simple past."
     },
     {
       "greek_nt": [
@@ -92,7 +94,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -104,7 +107,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -120,7 +124,8 @@
         6
       ],
       "variant": "major",
-      "note": "Peshitta ܣܦܪܐ 'scribes' vs Greek Φαρισαίων 'Pharisees' - substantive lexical difference"
+      "type": "substitution",
+      "note": "Peshitta substitutes ܣܦܪܐ ('scribes') for Greek Φαρισαίων ('Pharisees'), a substantive lexical divergence that alters the identity of the delegation. Greek and Vulgate agree on 'Pharisees,' suggesting Peshitta reflects either a variant Vorlage or interpretive harmonization with synoptic parallels where scribes appear alongside Herodians."
     },
     {
       "greek_nt": [
@@ -132,7 +137,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -140,7 +146,6 @@
         9
       ],
       "peshitta": [
-        5,
         6,
         7
       ],
@@ -148,7 +153,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic ܕܒܝܬ ܗܪܘܕܣ 'of the house of Herod' for Herodians"
+      "type": "construction",
+      "note": "Greek and Vulgate use the gentilicized plural Ἡρῳδιανῶν / herodianis ('Herodians'), while Peshitta employs the periphrastic construction ܕܒܝܬ ܗܪܘܕܣ ('those of the house of Herod'), a Semitic idiom expressing party affiliation through household terminology rather than a derived ethnic adjective."
     },
     {
       "greek_nt": [
@@ -160,7 +166,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -173,7 +180,7 @@
         10
       ],
       "variant": "aligned",
-      "note": "Peshitta incorporates pronoun as suffix on verb ܕܢܨܘܕܘܢܝܗܝ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -186,7 +193,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek ἀγρεύω 'trap/ensnare' vs Vulgate caperent 'catch/seize' - slight semantic nuance"
+      "type": "lexical",
+      "note": "Greek ἀγρεύσωσιν ('ensnare, hunt') and Syriac ܕܢܨܘܕܘܢܝܗܝ ('trap, hunt') share the hunting metaphor, while Vulgate caperent ('seize, capture') uses a more general term for apprehension, slightly flattening the metaphorical register but preserving the hostile intent."
     },
     {
       "greek_nt": [
@@ -199,13 +207,15 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple dative λόγῳ ('by a word'), Peshitta mirrors this with ܒܡܠܬܐ (prepositional phrase 'in/by a word'), while Vulgate expands to the prepositional phrase in verbo ('in a word'), making the instrumental relationship syntactically explicit through the preposition."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.815882+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.022772+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

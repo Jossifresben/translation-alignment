@@ -78,7 +78,8 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits Greek καὶ / Latin Et; begins with ܚܪ ܕܝܢ (but then)"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning instead with the particle ܕܝܢ (dēn, 'but/now'), which functions as a discourse marker rather than a simple coordinating conjunction."
     },
     {
       "greek_nt": [
@@ -90,8 +91,8 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "note": "Peshitta ܚܪ (looked) lacks the περι- prefix of Greek περιβλεψάμενος (looked around); Vulgate circumspiciens preserves the compound"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -100,7 +101,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܕܝܢ (but/now), a common Syriac discourse marker"
+      "type": "expansion",
+      "note": "The Peshitta inserts the discourse particle ܕܝܢ (dēn, 'but/now') to mark narrative transition, a common Syriac stylistic feature absent from both Greek and Latin witnesses."
     },
     {
       "greek_nt": [
@@ -113,7 +115,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article ὁ with Ἰησοῦς; Vulgate and Peshitta lack articles (Latin has no article system; Syriac uses the emphatic state ܝܫܘܥ without separate article)."
     },
     {
       "greek_nt": [
@@ -125,7 +129,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -142,7 +147,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta ܒܬܠܡܝܕܘܗܝ (to his disciples) uses preposition ܒ- where Greek uses dative article τοῖς; word order varies"
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (τοῖς μαθηταῖς αὐτοῦ); Vulgate mirrors this with noun + possessive (discipulis suis); Peshitta employs a single bound form ܒܬܠܡܝܕܘܗܝ with pronominal suffix, a more compact Semitic construction."
     },
     {
       "greek_nt": [],
@@ -151,32 +157,25 @@
         6
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition to direct discourse, a punctuation convention absent from Greek and Peshitta manuscript traditions."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "note": "Greek πῶς (how) vs Peshitta ܟܡܐ (how much) vs Latin Quam (how); slight semantic nuance"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Peshitta use interrogative + adverb (πῶς δυσκόλως / ܟܡܐ ܥܛܠܐ, 'how difficultly'); Vulgate inverts to exclamatory adverb + adjective (Quam difficile, 'how difficult'), shifting from adverbial to adjectival construction."
     },
     {
       "greek_nt": [
@@ -196,8 +195,9 @@
         10,
         11
       ],
-      "variant": "minor",
-      "note": "Greek οἱ τὰ χρήματα ἔχοντες (those having riches) vs Peshitta ܠܐܝܠܝܢ ܕܐܝܬ ܠܗܘܢ ܢܟܣܐ (those who have possessions) uses existential construction; Vulgate qui pecunias habent restructures word order"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses substantival article + article + noun + participle (οἱ τὰ χρήματα ἔχοντες, 'those having the riches'); Vulgate employs relative pronoun + noun + verb (qui pecunias habent, 'who have riches'); Peshitta uses demonstrative + existential + prepositional phrase + noun (ܠܐܝܠܝܢ ܕܐܝܬ ܠܗܘܢ ܢܟܣܐ, 'to those who there-is to-them possessions'), reflecting distinct syntactic strategies across the three traditions."
     },
     {
       "greek_nt": [
@@ -216,7 +216,9 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses preposition + article + noun + article + genitive (εἰς τὴν βασιλείαν τοῦ θεοῦ); Vulgate mirrors with preposition + noun + genitive (in regnum Dei); Peshitta uses preposition + construct chain (ܠܡܠܟܘܬܐ ܕܐܠܗܐ), lacking articles but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -228,7 +230,9 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb at the end (εἰσελεύσονται, future indicative); Peshitta positions the verb earlier in the clause (ܕܢܥܠܘܢ, imperfect with d- prefix); Vulgate places it at the end (introibunt, future), reflecting Greek word order but with Latin morphology."
     },
     {
       "greek_nt": [],
@@ -237,13 +241,14 @@
         16
       ],
       "variant": "added",
-      "note": "Vulgate adds exclamation mark punctuation"
+      "type": "punctuation",
+      "note": "The Vulgate adds an exclamation mark to heighten the rhetorical force of Jesus' statement, a punctuation choice not reflected in Greek or Peshitta manuscript traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.796200+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.010812+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

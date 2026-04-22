@@ -82,28 +82,19 @@
     {
       "greek_nt": [
         0,
+        1,
         2
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
-      "note": "Greek uses καὶ...δέ (continuative + contrastive), Peshitta/Vulgate use simple conjunction"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
+      "type": "grammar",
+      "note": "Greek employs two conjunctions (Καὶ... δὲ) with imperfect tense (ἔλεγεν, 'was saying'), suggesting iterative or durative action. Peshitta uses simple perfect (ܘܐܡܪ, 'and he said'), and Vulgate uses imperfect (dicebat) but only one conjunction (Et), yielding a stylistically simpler construction with the same semantic force."
     },
     {
       "greek_nt": [
@@ -136,10 +127,12 @@
       ],
       "peshitta": [],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits ὅτι/Quia introducing direct discourse"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses recitative ὅτι to introduce direct discourse; Vulgate employs Quia (causal/declarative 'because/that') with a colon for punctuation. Peshitta omits any introductory particle, moving directly to the negation ܠܝܬ, a common Syriac construction for direct speech after verbs of saying."
     },
     {
       "greek_nt": [
@@ -153,7 +146,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the standard negated copula οὐκ ἔστιν ('is not'); Vulgate mirrors this with non est. Peshitta employs the negative existential particle ܠܝܬ ('there is not'), a distinct lexeme that functions as a single-word negation of existence, semantically equivalent but morphologically different."
     },
     {
       "greek_nt": [
@@ -178,8 +173,9 @@
         9,
         10
       ],
-      "variant": "minor",
-      "note": "Greek ἄτιμος (without honor) vs Vulgate sine honore (without honor) vs Peshitta ܕܨܥܝܪ (despised/small); semantic overlap but different lexical choices"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἄτιμος ('without honor, dishonored') is rendered in Vulgate as the prepositional phrase sine honore ('without honor'), a direct semantic equivalent. Peshitta substitutes ܕܨܥܝܪ ('who is despised, belittled'), a cognate of the root ܨܥܪ meaning 'to be small, insignificant,' which shifts the nuance from lack of honor to active contempt or diminishment."
     },
     {
       "greek_nt": [
@@ -211,32 +207,54 @@
         14
       ],
       "variant": "major",
-      "note": "Greek πατρίς (hometown/fatherland), Peshitta ܡܕܝܢܬܗ (his city), Vulgate patria (homeland); Peshitta more specific"
+      "type": "lexical",
+      "note": "Greek πατρίς ('homeland, native place') and Vulgate patria ('fatherland, homeland') denote the broader geographic or ethnic region of origin. Peshitta uses ܡܕܝܢܬܗ ('his city'), specifying an urban locale rather than a regional or ethnic homeland, a lexical substitution that narrows the semantic scope to a specific municipal context."
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         18,
         19,
         20,
         21
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        19,
         20,
         21,
         22
       ],
-      "variant": "minor",
-      "note": "Word order variation: Greek/Vulgate place relatives before household, Peshitta reverses; συγγενεῦσιν vs ܐܚܝܢܘܗܝ (brothers/kinsmen) vs cognatione show lexical variation"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek and Vulgate list 'relatives' (συγγενεῦσιν / cognatione) as the second locale, followed by 'household' (οἰκίᾳ / domo) as the third. Peshitta reverses this order, placing ܒܝܬ ܐܚܝܢܘܗܝ ('house of his brothers/kinsmen') second and ܒܒܝܬܗ ('in his house') third, creating a chiastic or inverted sequence that may reflect Syriac rhetorical preference for moving from broader kinship to immediate household."
     },
     {
       "greek_nt": [
-        22,
+        22
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         23,
         24,
         25,
@@ -246,26 +264,16 @@
         11
       ],
       "vulgate": [
-        15,
         16,
         17,
         18
       ],
       "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark (not in Greek/Peshitta)"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.761366+00:00",
+    "generated_at": "2026-04-22T12:17:07.978269+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

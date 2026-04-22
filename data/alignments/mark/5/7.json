@@ -88,7 +88,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,7 +102,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and participle in single token ܘܩܥܐ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -116,7 +117,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -128,7 +130,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -136,8 +139,9 @@
       "vulgate": [
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'dixit' to mark the beginning of direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts which use no formal punctuation marker at this juncture."
     },
     {
       "greek_nt": [
@@ -158,7 +162,7 @@
         9
       ],
       "variant": "aligned",
-      "note": "Idiomatic phrase 'What to me and to you' across all traditions"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -170,36 +174,30 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         10,
         11,
-        12
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [
-        11,
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14
       ],
       "peshitta": [
+        8,
+        9,
         10
       ],
       "vulgate": [
+        11,
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs double articulation (τοῦ θεοῦ τοῦ ὑψίστου) with two definite articles framing the genitive construction, while Latin and Syriac use simpler constructions without article repetition. The Syriac ܡܪܝܡܐ (mraymā, 'Most High') follows the construct chain ܒܪܗ ܕܐܠܗܐ directly, mirroring the Latin word order (Filii Dei altissimi) rather than the Greek's emphatic double-article structure."
     },
     {
       "greek_nt": [],
@@ -207,40 +205,32 @@
       "vulgate": [
         14
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate places a question mark after 'altissimi' to close the interrogative clause, a punctuation feature not present in Greek or Syriac textual traditions of this period."
     },
     {
       "greek_nt": [
         15,
-        16
+        16,
+        17,
+        18
       ],
       "peshitta": [
         11,
         12,
-        13
-      ],
-      "vulgate": [
-        15,
-        16
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܡܘܡܐ ܐܢܐ (I adjure/swear) with explicit first-person pronoun"
-    },
-    {
-      "greek_nt": [
-        17,
-        18
-      ],
-      "peshitta": [
+        13,
         14
       ],
       "vulgate": [
+        15,
+        16,
         17,
         18
       ],
       "variant": "minor",
-      "note": "Greek uses accusative τὸν θεόν, Vulgate per Deum (by God), Peshitta ܒܐܠܗܐ (by God)"
+      "type": "construction",
+      "note": "Greek uses the accusative τὸν θεόν as the object of adjuration (ὁρκίζω σε τὸν θεόν, 'I adjure you [by] God'), while Latin employs the prepositional phrase 'per Deum' making the instrumental relationship explicit. Syriac ܡܘܡܐ ܐܢܐ ܠܟ ܒܐܠܗܐ uses the preposition ܒ (b-, 'by/in') with ܐܠܗܐ, paralleling the Latin construction and clarifying the means of adjuration more explicitly than the Greek accusative."
     },
     {
       "greek_nt": [
@@ -257,12 +247,13 @@
         20,
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.754592+00:00",
+    "generated_at": "2026-04-22T12:17:07.971474+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

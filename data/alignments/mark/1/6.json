@@ -87,7 +87,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek uses both καὶ and δὲ for continuative-contrastive function; Peshitta ܕܝܢ and Vulgate Et are single particles"
+      "type": "substitution",
+      "note": "Greek employs two conjunctions (καὶ ... δὲ) for narrative transition; Peshitta uses the single adversative particle ܕܝܢ (dēn); Vulgate uses simple Et. All three mark discourse shift but with differing stylistic weight."
     },
     {
       "greek_nt": [
@@ -114,7 +115,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses independent pronoun ܗܘ for emphasis; Greek uses article ὁ; Vulgate has no article"
+      "type": "word-order",
+      "note": "Greek places the article ὁ before Ἰωάννης (standard Greek syntax); Peshitta fronts the pronoun ܗܘ (hū) for topicalization, then names ܝܘܚܢܢ; Vulgate omits the article entirely (Latin lacks definite articles). Semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -143,7 +145,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses construct chain ܠܒܘܫܐ ܕܣܥܪܐ ܕܓܡܠܐ (garment of hair of camel); Greek and Vulgate use direct genitive constructions"
+      "type": "construction",
+      "note": "Greek uses accusative direct object τρίχας καμήλου ('hair of camel'); Peshitta inserts the noun ܠܒܘܫܐ (lḇūšā, 'garment') as head, yielding 'garment of hair of camel'—an expansion clarifying the material; Vulgate mirrors Greek structure with ablative pilis cameli. Peshitta's addition is explicative, not substantive."
     },
     {
       "greek_nt": [
@@ -163,6 +166,7 @@
         10
       ],
       "peshitta": [
+        9,
         10,
         11
       ],
@@ -170,16 +174,9 @@
         7,
         8
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds auxiliary verb ܗܘܐ (was) with participle ܘܐܣܝܪ for periphrastic construction"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses passive perfect participle ἐνδεδυμένος with accusative ζώνην δερματίνην ('having clothed himself with a leather belt'); Peshitta employs active participle ܐܣܝܪ (ʾsīr, 'girded') with ܥܪܩܬܐ ܕܡܫܟܐ ('belt of leather/skin'), plus auxiliary ܗܘܐ for periphrastic construction. Vulgate uses ablative zona pellicea. All three convey the same image with tradition-specific syntax."
     },
     {
       "greek_nt": [
@@ -197,7 +194,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta uses single prepositional phrase ܒܚܨܘܗܝ (on his loins) with pronominal suffix; Greek and Vulgate use fuller prepositional constructions"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase περὶ τὴν ὀσφὺν αὐτοῦ ('around his waist'); Vulgate mirrors with circa lumbos ejus; Peshitta employs the bound form ܒܚܨܘܗܝ (b-ḥaṣaw-hī, 'at-his-loins') with pronominal suffix, a typical Semitic compression. Semantically identical."
     },
     {
       "greek_nt": [
@@ -207,8 +205,9 @@
       "vulgate": [
         12
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction before eating clause, using nominal construction instead"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek and Vulgate use conjunction καὶ/et to introduce the diet clause; Peshitta omits the conjunction, instead using the bound noun ܘܡܐܟܘܠܬܗ ('and-his-food') with waw-prefix to mark the new clause. Stylistic variation without semantic loss."
     },
     {
       "greek_nt": [
@@ -223,7 +222,8 @@
         17
       ],
       "variant": "major",
-      "note": "Greek uses participle ἐσθίων; Peshitta uses nominal construction ܘܡܐܟܘܠܬܗ ܐܝܬܝܗ ܗܘܬ (and his food was); Vulgate uses finite verb edebat at end"
+      "type": "construction",
+      "note": "Greek uses present participle ἐσθίων ('eating') coordinated with the preceding periphrastic construction; Vulgate places finite verb edebat ('he was eating') at clause-end; Peshitta restructures entirely with nominal clause ܘܡܐܟܘܠܬܗ ܐܝܬܝܗ ܗܘܬ ('and-his-food it-was'), converting the Greek participial phrase into a copular predication. This is a substantive syntactic reframing."
     },
     {
       "greek_nt": [
@@ -263,13 +263,14 @@
         16
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܕܒܫܐ ܕܒܪܐ uses construct chain (honey of the field); Greek μέλι ἄγριον and Vulgate mel silvestre use adjective-noun constructions"
+      "type": "word-order",
+      "note": "Greek places adjective ἄγριον after noun μέλι ('honey wild'); Vulgate inverts to mel silvestre ('honey wild'); Peshitta uses construct chain ܘܕܒܫܐ ܕܒܪܐ ('and-honey of-the-field/wild'), with ܕܒܪܐ (d-ḇarā) functioning as genitive modifier. All three denote wild honey; word order reflects each tradition's syntactic norms."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.726897+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.943239+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

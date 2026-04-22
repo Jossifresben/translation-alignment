@@ -86,7 +86,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -99,7 +100,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in ܘܐܡܪ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -111,7 +112,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -124,7 +126,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article ὁ with Ἰησοῦς (nominative with article), a standard Greek construction; Syriac and Latin lack articles and use the bare proper name, reflecting their respective grammatical systems."
     },
     {
       "greek_nt": [
@@ -133,18 +137,12 @@
       "peshitta": [
         3
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek ὅτι and Peshitta ܕ introduce direct discourse; Vulgate uses colon punctuation"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after 'Jesus' to mark direct discourse, while Greek uses ὅτι as a conjunction introducing indirect discourse; Peshitta employs the particle ܕ (d-) prefixed to ܟܠܟܘܢ, functioning as a complementizer without punctuation break."
     },
     {
       "greek_nt": [
@@ -156,8 +154,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܕܟܠܟܘܢ combines particle and 'all of you'"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Peshitta prefixes the universal quantifier to the pronoun as a single bound form ܕܟܠܟܘܢ ('that-all-of-you'), whereas Greek and Latin separate πάντες/Omnes as independent lexemes, reflecting differing strategies for emphasis and syntactic cohesion."
     },
     {
       "greek_nt": [
@@ -169,7 +168,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -183,7 +183,8 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -201,16 +202,9 @@
         10,
         11
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate adds second colon punctuation mark"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses prepositional phrase ἐν τῇ νυκτὶ ταύτῃ with article and demonstrative following the noun; Syriac reverses to demonstrative-noun order ܒܗܢܐ ܠܠܝܐ ('in-this night'); Latin follows Greek order (in nocte ista), but all three convey identical temporal reference."
     },
     {
       "greek_nt": [
@@ -220,10 +214,12 @@
         9
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "minor",
-      "note": "Greek ὅτι 'for/because', Peshitta ܓܝܪ 'for', Vulgate quia 'because' - stylistic variation in causal conjunction"
+      "type": "lexical",
+      "note": "Greek ὅτι and Syriac ܓܝܪ (gēr, 'for') both introduce the scriptural citation causally, while Vulgate uses quia ('because') preceded by a colon, making the causal relationship more explicit through punctuation."
     },
     {
       "greek_nt": [
@@ -234,34 +230,40 @@
       ],
       "vulgate": [
         14,
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        15,
         16
       ],
-      "variant": "added",
-      "note": "Vulgate adds third colon punctuation mark before quotation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek γέγραπται is a perfect passive periphrastic ('it has been written'); Syriac ܟܬܝܒ is a simple passive participle; Vulgate expands to scriptum est with explicit copula, all conveying the same scriptural authority formula but with differing verbal aspect and explicitness."
     },
     {
       "greek_nt": [
-        16,
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         17,
         18
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article τὸν with ποιμένα (accusative definite); Syriac ܠܪܥܝܐ employs the prefixed preposition-article ܠ ('to-the'); Latin pastorem lacks an article, as Latin has no article system, but the definiteness is contextually understood from the Zechariah 13:7 quotation."
     },
     {
       "greek_nt": [
@@ -273,7 +275,8 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -284,10 +287,12 @@
         13
       ],
       "vulgate": [
-        20
+        20,
+        21
       ],
-      "variant": "minor",
-      "note": "Peshitta ܐܡܪܘܗܝ 'his lambs' adds possessive suffix; Greek/Vulgate use article with 'sheep/oves'"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek τὰ πρόβατα ('the sheep', neuter plural) and Latin oves ('sheep', feminine plural) both use common livestock terminology; Syriac ܐܡܪܘܗܝ ('his lambs', with possessive suffix) substitutes a diminutive/affectionate term and adds a possessive pronoun not present in Greek or Latin, intensifying the pastoral imagery and the shepherd's ownership."
     },
     {
       "greek_nt": [
@@ -300,22 +305,13 @@
         20
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb ܘܢܬܒܕܪܘܢ; verb 'scatter' aligned across all three"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        21
-      ],
-      "variant": "added",
-      "note": "Vulgate 'oves' already counted; this is the noun 'sheep' completing the phrase"
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.832697+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.038993+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

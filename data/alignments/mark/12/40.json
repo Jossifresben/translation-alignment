@@ -68,7 +68,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs article + participle (οἱ κατεσθίοντες) as a substantival construction; Latin uses relative pronoun + finite verb (qui devorant); Peshitta uses demonstrative + participle (ܗܢܘܢ ܕܐܟܠܝܢ). All three express the same substantival participial sense but through tradition-specific syntactic patterns."
     },
     {
       "greek_nt": [
@@ -81,7 +83,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses plural τὰς οἰκίας ('the houses'); both Peshitta ܒܬܐ and Vulgate domos employ plural forms, though Syriac often uses singular collective nouns for such constructions. Here all three traditions attest plurality, representing distributive action across multiple widows' estates."
     },
     {
       "greek_nt": [
@@ -103,7 +107,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καί omitted in Peshitta and Vulgate; syntactic restructuring"
+      "type": "omission",
+      "note": "Greek καὶ ('and') is absent in both Peshitta and Vulgate, which proceed directly from the relative clause to the prepositional phrase. The Syriac and Latin traditions treat the 'devouring houses' and 'lengthy prayers' as a single integrated accusation rather than two coordinated offenses, reflecting a tighter syntactic construction."
     },
     {
       "greek_nt": [
@@ -117,31 +122,25 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek πρόφασις rendered as Syriac ܒܥܠܬܐ and Latin sub obtentu (prepositional phrase)"
+      "type": "lexical",
+      "note": "Greek πρόφασις (dative προφάσει, 'pretext, pretense') is rendered by Peshitta ܒܥܠܬܐ ('by means of, on account of') and Vulgate sub obtentu ('under the pretext of'). Latin employs a two-word prepositional phrase where Greek uses a single noun in the dative of means, while Syriac uses a cognate prepositional construction—all conveying instrumental pretense."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the adjective before the participle (μακρὰ προσευχόμενοι, 'at length praying'); Peshitta reverses this to participle + noun (ܕܡܘܪܟܝܢ ܨܠܘܬܗܘܢ, 'who lengthen their prayers'); Vulgate uses adjective + noun (prolixæ orationis, 'of lengthy prayer'). The Syriac construction employs a verbal form modifying a possessed noun, while Latin nominalizes the entire phrase as a genitive object of obtentu."
     },
     {
       "greek_nt": [],
@@ -149,8 +148,8 @@
       "vulgate": [
         8
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta"
+      "variant": "aligned",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
@@ -178,33 +177,26 @@
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
-        9
+        9,
+        10
       ],
       "vulgate": [
+        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the comparative adjective before the noun (περισσότερον κρίμα, 'more excessive judgment'); Peshitta and Vulgate both reverse this to noun + adjective (ܕܝܢܐ ܝܬܝܪܐ / prolixius judicium). Latin prolixius echoes the earlier prolix- root from 'lengthy prayer,' creating a wordplay absent in Greek and Syriac, though all three convey intensified eschatological judgment."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.821422+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.027532+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

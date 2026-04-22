@@ -93,7 +93,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses καὶ ὅταν ('and when') with a temporal conjunction; Peshitta employs ܘܡܐ (wəmā, 'and when'), a compound temporal particle; Vulgate renders with et cum ('and when'), mirroring the Greek structure but using the Latin temporal conjunction cum."
     },
     {
       "greek_nt": [
@@ -106,7 +108,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses aorist passive subjunctive σπαρῇ ('it may be sown'); Peshitta employs the ethpeal perfect ܕܐܙܕܪܥܬ ('that it has been sown'); Vulgate uses perfect passive participle seminatum fuerit ('it will have been sown'), reflecting Latin's preference for participial constructions in temporal clauses."
     },
     {
       "greek_nt": [
@@ -118,7 +122,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -132,7 +137,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -144,34 +150,27 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         7,
-        8
+        8,
+        9
       ],
       "peshitta": [
         5,
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses preposition ܡܢ (from) with ܟܠܗܘܢ (all); Greek uses genitive πάντων with article"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses genitive construction πάντων τῶν λαχάνων ('than all the garden plants') with article; Peshitta employs preposition ܡܢ ܟܠܗܘܢ ܝܪܩܘܢܐ (men kulhōn yarqōnē, 'than all vegetables') with pronominal suffix; Vulgate uses ablative of comparison omnibus oleribus ('than all vegetables') without article, following standard Latin comparative syntax."
     },
     {
       "greek_nt": [
@@ -185,57 +184,43 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        14
-      ],
       "variant": "minor",
-      "note": "Greek ὥστε (so that) vs Peshitta ܐܝܟ (like/as) vs Vulgate ita (thus); functional equivalence with stylistic variation"
+      "type": "word-order",
+      "note": "Greek places adjective after noun (κλάδους μεγάλους, 'branches great'); Peshitta uses singular ܣܘܟܐ ܪܘܪܒܬܐ (sōkē rawrəḇtē, 'branches great') with emphatic plural adjective; Vulgate follows Greek word order with ramos magnos, though Latin typically prefers adjective-before-noun in elevated prose."
     },
     {
       "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        14,
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses consecutive ὥστε with infinitive δύνασθαι ('so that to be able'); Peshitta employs comparative particle ܐܝܟ ܕܬܫܟܚ ('such that it is able'), using a finite verb construction; Vulgate renders with ita ut possint ('so that they are able'), shifting to plural subject to agree with aves rather than maintaining the impersonal infinitive."
     },
     {
       "greek_nt": [
@@ -253,7 +238,8 @@
         19
       ],
       "variant": "minor",
-      "note": "Peshitta uses compound form ܕܒܛܠܠܗ (in-its-shadow) vs Greek prepositional phrase ὑπὸ τὴν σκιὰν αὐτοῦ"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ὑπὸ τὴν σκιὰν αὐτοῦ ('under the shadow of it') with article and pronoun; Peshitta employs bound construction ܕܒܛܠܠܗ (dəḇəṭellēh, 'in-its-shadow') with pronominal suffix, a typical Semitic genitive construction; Vulgate mirrors Greek with sub umbra ejus, maintaining the prepositional structure."
     },
     {
       "greek_nt": [
@@ -269,7 +255,9 @@
         20,
         21
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses articular construction τὰ πετεινὰ τοῦ οὐρανοῦ ('the birds of the heaven') with double article; Peshitta employs simple construct state ܦܪܚܬܐ ('birds'), omitting the genitive phrase 'of heaven' as contextually understood; Vulgate renders aves cæli ('birds of heaven') without article, following Latin's lack of definite articles."
     },
     {
       "greek_nt": [
@@ -281,12 +269,13 @@
       "vulgate": [
         22
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.751289+00:00",
+    "generated_at": "2026-04-22T12:17:07.968181+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

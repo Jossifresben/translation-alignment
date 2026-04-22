@@ -71,7 +71,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek καὶ and Peshitta ܘ both function as simple conjunctions ('and'), while Vulgate uses Et cum ('and when'), introducing a temporal nuance that slightly shifts the syntactic relationship to the following participle."
     },
     {
       "greek_nt": [
@@ -85,36 +87,29 @@
         2
       ],
       "variant": "minor",
-      "note": "Vulgate uses cum + pluperfect subjunctive; Peshitta merges conjunction with verb"
+      "type": "construction",
+      "note": "Greek employs an aorist participle ἰδόντες (nominative plural masculine); Vulgate uses cum + pluperfect subjunctive vidissent, creating a temporal-causal clause; Peshitta incorporates the verb into the initial ܘܚܙܘ (perfect 3pl 'and they saw'), making it the main verb rather than a subordinate participle."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3,
         4,
         5
       ],
       "peshitta": [
+        1,
         2,
         3
       ],
       "vulgate": [
+        3,
         4,
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -123,26 +118,13 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek ὅτι introducing content clause omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek ὅτι introduces a content clause ('that [they were eating]'), making the eating itself the object of seeing. Both Peshitta and Vulgate omit this conjunction, restructuring the syntax so that the manner of eating (with unwashed hands) is expressed through different subordinate constructions (Syriac ܟܕ ܠܐ, Latin communibus manibus)."
     },
     {
       "greek_nt": [
         7,
         8
-      ],
-      "peshitta": [],
-      "vulgate": [
-        7,
-        8
-      ],
-      "variant": "major",
-      "note": "Peshitta omits 'defiled/common hands' phrase entirely; restructures with negative particle"
-    },
-    {
-      "greek_nt": [
-        9,
-        10,
-        11
       ],
       "peshitta": [
         6,
@@ -151,38 +133,47 @@
         9
       ],
       "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an attributive adjective phrase κοιναῖς χερσίν ('with defiled hands'); Vulgate mirrors this with communibus manibus; Peshitta employs a circumstantial clause ܟܕ ܠܐ ܡܫܓܢ ܐܝܕܝܗܘܢ ('while not having washed their hands'), making the negation explicit and using a verbal construction rather than an adjective."
+    },
+    {
+      "greek_nt": [
+        9,
+        10,
+        11
+      ],
+      "peshitta": [],
+      "vulgate": [
         9,
         10,
         11,
         12
       ],
-      "variant": "minor",
-      "note": "Greek parenthetical explanation 'that is, unwashed'; Peshitta uses temporal clause 'when not washing their hands'; Vulgate follows Greek structure"
+      "variant": "major",
+      "type": "gloss",
+      "note": "Greek includes a parenthetical gloss τοῦτ᾽ ἔστιν ἀνίπτοις ('that is, unwashed') to explain the technical term κοιναῖς for a Greek-speaking audience unfamiliar with Jewish purity terminology. Vulgate preserves this explanatory phrase as id est non lotis. Peshitta omits the gloss entirely, as the Syriac-speaking audience would understand the ritual washing context without explanation, and the negative construction ܠܐ ܡܫܓܢ already conveys 'unwashed' directly."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb ἐσθίουσιν after the description of defiled hands, creating a suspended syntax; Vulgate follows this order with manducare panes; Peshitta fronts the eating clause ܕܐܟܠܝܢ ܠܚܡܐ immediately after 'disciples', then adds the hand-washing detail as a circumstantial modifier, reflecting typical Syriac preference for verb-early word order in relative constructions."
     },
     {
       "greek_nt": [
@@ -194,13 +185,14 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.772564+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.987355+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

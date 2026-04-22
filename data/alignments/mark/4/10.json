@@ -65,8 +65,9 @@
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits initial conjunction; Greek καί and Latin Et both present"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction Καὶ / Et, beginning directly with the temporal clause ܟܕ. This is a common Syriac stylistic preference, avoiding redundant conjunctions at verse openings."
     },
     {
       "greek_nt": [
@@ -84,7 +85,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek ὅτε δὲ ἐγένετο uses temporal conjunction + particle + verb; Peshitta ܟܕ ܗܘܘ ܕܝܢ uses temporal particle + copula + particle; Vulgate cum esset uses temporal conjunction + subjunctive"
+      "type": "construction",
+      "note": "Greek employs a temporal clause with ὅτε δὲ ἐγένετο ('when now it happened'); Vulgate uses cum esset ('when he was'); Peshitta uses ܟܕ ܗܘܘ ܕܝܢ ('when they were'), shifting to plural subject to match the following plural verb. All three express the same temporal transition with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -97,7 +99,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek κατὰ μόνας (prepositional phrase, 'utterly alone') is rendered by Vulgate singularis (adjective, 'solitary') and Peshitta ܒܠܚܘܕܝܗܘܢ (prepositional phrase with pronominal suffix, 'by themselves'). The Syriac plural suffix anticipates the plural subject construction, while Greek and Latin maintain singular focus on Jesus."
     },
     {
       "greek_nt": [
@@ -111,43 +115,35 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         8,
         9,
-        10
+        10,
+        11,
+        12,
+        13
       ],
       "peshitta": [
         5,
-        6
+        6,
+        7,
+        8
       ],
       "vulgate": [
         6,
         7,
         8,
         9,
-        10
-      ],
-      "variant": "minor",
-      "note": "Greek οἱ περὶ αὐτὸν (article + prep + pronoun); Peshitta ܗܢܘܢ ܕܥܡܗ (demonstrative + relative + prep-suffix); Vulgate hi qui cum eo erant (demonstrative + relative clause)"
-    },
-    {
-      "greek_nt": [
-        11,
-        12,
-        13
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
+        10,
         11
       ],
       "variant": "minor",
-      "note": "Greek σὺν τοῖς δώδεκα (prep + article + numeral); Peshitta ܥܡ ܬܪܥܣܪܬܗ (prep + numeral-suffix); Vulgate duodecim (numeral alone, incorporated into relative clause)"
+      "type": "construction",
+      "note": "Greek uses a complex nominal phrase with article and prepositional phrases: οἱ περὶ αὐτὸν σὺν τοῖς δώδεκα ('those around him with the Twelve'). Vulgate expands this into a relative clause: hi qui cum eo erant duodecim ('those who were with him, the Twelve'). Peshitta employs a more compact construction: ܗܢܘܢ ܕܥܡܗ ܥܡ ܬܪܥܣܪܬܗ ('those who [were] with him with his Twelve'), using a relative particle and pronominal suffix. All three distinguish between a broader group and the Twelve, but with different syntactic architectures."
     },
     {
       "greek_nt": [
@@ -162,13 +158,14 @@
         12
       ],
       "variant": "major",
-      "note": "Greek τὰς παραβολάς (plural accusative 'the parables'); Peshitta ܡܬܠܐ ܗܘ (singular 'this parable'); Vulgate parabolam (singular accusative 'the parable')"
+      "type": "grammar",
+      "note": "Greek and Peshitta use the plural τὰς παραβολάς / ܡܬܠܐ ܗܘ ('the parables'), referring to multiple parables in the preceding discourse. Vulgate uses the singular parabolam ('the parable'), possibly focusing on the immediately preceding Parable of the Sower as the primary referent. The Peshitta's ܗܘ functions as a demonstrative ('that parable'), creating a definite singular construction despite the plural noun form."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.746790+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.964445+00:00",
+    "confidence": 0.75,
     "schema_version": 1
   }
 }

@@ -72,20 +72,32 @@
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses present middle-passive indicative συνάγονται ('are gathered together'), emphasizing ongoing or habitual action. Vulgate employs the present active participle convenientes ('gathering'), while Peshitta uses the Ethpael perfect ܘܐܬܟܢܫܘ ('and they gathered'), treating the action as completed — a typical Semitic aspectual preference."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun; Peshitta/Vulgate incorporate conjunction into verb/participle"
+      "type": "word-order",
+      "note": "Greek places the article before the noun (οἱ ἀπόστολοι); Vulgate inverts to Apostoli (noun-first, capitalizing for emphasis); Peshitta ܫܠܝܚܐ lacks the article, as Syriac typically omits definite articles in contexts where Greek requires them."
     },
     {
       "greek_nt": [
@@ -111,8 +123,9 @@
         4
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits conjunction before main verb"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek and Peshitta use coordinating conjunctions (καὶ / ܘ) to introduce the reporting verb. Vulgate omits the conjunction, embedding renuntiaverunt asyndetically after the participial phrase convenientes Apostoli — a stylistic preference for subordination over parataxis."
     },
     {
       "greek_nt": [
@@ -131,23 +144,33 @@
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         11,
         12,
         13
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
       "variant": "minor",
-      "note": "Greek πάντα καὶ ὅσα (all things and how much) vs. Peshitta/Vulgate ܟܠ ܡܐ/omnia quae (all that); stylistic compression"
+      "type": "construction",
+      "note": "Greek employs the conjunction καὶ plus the correlative pronoun ὅσα ('and how much / whatever') governing the verb ἐποίησαν. Peshitta uses the relative particle ܡܐ ܕ ('that which') without an overt conjunction, embedding the clause more tightly. Vulgate uses the relative pronoun quæ ('which things') with asyndeton, omitting the conjunction before the relative clause."
     },
     {
       "greek_nt": [
@@ -165,13 +188,14 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek repeats καὶ ὅσα structure; Peshitta uses ܘܟܠ ܡܐ; Vulgate compresses to et docuerant"
+      "type": "construction",
+      "note": "Greek repeats the full structure καὶ ὅσα ἐδίδαξαν ('and whatever they taught'), maintaining parallelism with the preceding clause. Peshitta mirrors this with ܘܟܠ ܡܐ ܕܐܠܦܘ. Vulgate, however, reduces the second clause to et docuerant, omitting the relative pronoun and treating the verb as a simple coordinate — a compression typical of Latin's preference for brevity over Semitic-style repetition."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.766427+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.982485+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -81,7 +81,8 @@
         12,
         13,
         14,
-        15
+        15,
+        16
       ],
       "peshitta": [
         0,
@@ -102,7 +103,8 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Complete textual mismatch: Greek and Peshitta contain Mark 9:13 about Elijah; Vulgate contains Mark 9:14 about Jesus returning to disciples and seeing scribes. This represents a verse boundary error or different verse segmentation in the source data."
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different verse (Mark 9:14, describing Jesus coming to the disciples and finding a crowd with scribes), while both Greek and Peshitta preserve Mark 9:13 (Jesus' statement about Elijah having come and suffering). This represents a complete textual displacement, likely due to manuscript confusion or versification error in the Vulgate witness provided."
     },
     {
       "greek_nt": [],
@@ -125,12 +127,13 @@
         14
       ],
       "variant": "added",
-      "note": "Vulgate text 'Et veniens ad discipulos suos...' (And coming to his disciples...) has no correspondence in the provided Greek/Peshitta tokens, which describe a different verse entirely."
+      "type": "substitution",
+      "note": "The Vulgate text 'Et veniens ad discipulos suos, vidit turbam magnam circa eos, et scribas conquirentes cum illis' corresponds to Mark 9:14 in standard editions, describing Jesus' arrival at the disciples and the crowd scene. This verse is absent from both the Greek and Peshitta tokens provided, which instead contain Mark 9:13 about Elijah's coming and suffering."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.787205+00:00",
+    "generated_at": "2026-04-22T12:17:08.001881+00:00",
     "confidence": 0.95,
     "schema_version": 1
   }

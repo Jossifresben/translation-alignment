@@ -95,7 +95,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta adds ܟܠ 'all/every' and places ܓܝܪ 'for' after the relative; Greek ἐάν conditional particle omitted in Vulgate"
+      "type": "word-order",
+      "note": "The Peshitta places the particle ܓܝܪ ('for') after the relative clause ܟܠ ܡܢ ܕܨܒܐ, whereas Greek positions γὰρ immediately after the relative pronoun ὃς. The Vulgate omits an explicit equivalent for ἐὰν, absorbing the conditional sense into the future-perfect voluerit."
     },
     {
       "greek_nt": [
@@ -113,30 +114,22 @@
       "greek_nt": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
         3,
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
+        4,
         5,
         6
       ],
-      "variant": "minor",
-      "note": "Vulgate uses periphrastic 'salvam facere' for Greek σῶσαι; Peshitta ܕܢܚܐ 'to save/give life'"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses the infinitive σῶσαι ('to save') with accusative object τὴν ψυχὴν αὐτοῦ. Latin employs a periphrastic construction animam suam salvam facere ('to make his life safe'), treating salvam as a predicate adjective. Syriac uses a simple Peal infinitive ܕܢܚܐ ܢܦܫܗ ('that he save his life'), omitting the article and employing a d- prefix for the infinitive clause."
     },
     {
       "greek_nt": [
@@ -148,18 +141,10 @@
       ],
       "vulgate": [
         7,
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        8,
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as token"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -175,34 +160,28 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek ὃς δ᾽ ἂν (relative + adversative + conditional particle) rendered as Peshitta ܘܟܠ 'and all/every', Vulgate 'qui autem'"
+      "type": "substitution",
+      "note": "Greek employs the contrastive particle δ᾽ ἂν ('but whoever') with the modal particle ἄν. Latin uses autem ('however'). Syriac repeats the universal quantifier ܘܟܠ ('and everyone'), creating parallelism with the opening clause rather than explicit contrast."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14,
         15,
         16
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        12,
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the future indicative ἀπολέσει with article τὴν and pronoun αὐτοῦ. Latin employs the future-perfect perdiderit. Syriac uses the Aphel imperfect ܕܢܘܒܕ ܢܦܫܗ with pronominal suffix, lacking an independent article."
     },
     {
       "greek_nt": [
@@ -216,33 +195,27 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἕνεκεν ἐμοῦ ('on account of me') and Latin propter me are prepositional phrases. Syriac ܡܛܠܬܝ employs a bound form with first-person pronominal suffix, a more compact construction typical of Semitic languages."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20,
         21
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        17,
         18
       ],
       "variant": "minor",
-      "note": "Peshitta ܣܒܪܬܝ 'my gospel' with possessive suffix; Greek/Vulgate use article + noun"
+      "type": "construction",
+      "note": "Greek uses καὶ τοῦ εὐαγγελίου with the genitive article. Latin mirrors this with et Evangelium (accusative after propter understood from the previous clause). Syriac employs a second prepositional phrase ܘܡܛܠ ܣܒܪܬܝ ('and on account of my gospel'), using a possessive suffix where Greek and Latin have the anarthrous noun."
     },
     {
       "greek_nt": [
@@ -251,7 +224,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek demonstrative οὗτος 'this one' omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek includes the demonstrative pronoun οὗτος ('this one') as the subject of σώσει, providing emphatic resumption of the relative clause. Both Peshitta and Vulgate omit this demonstrative, allowing the verb alone to carry the subject reference."
     },
     {
       "greek_nt": [
@@ -266,14 +240,15 @@
         20,
         21
       ],
-      "variant": "minor",
-      "note": "Vulgate again uses periphrastic 'salvam faciet' for Greek σώσει"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses the future indicative σώσει with object pronoun αὐτήν. Latin again employs the periphrastic salvam faciet eam ('will make it safe'), parallel to the earlier salvam facere construction. Syriac uses the simple Aphel imperfect ܢܚܝܗ ('he will give it life'), with pronominal suffix, semantically equivalent but syntactically distinct from both Greek and Latin."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.784390+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.999120+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

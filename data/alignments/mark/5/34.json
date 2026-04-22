@@ -106,18 +106,12 @@
         3
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after the indirect object pronoun 'ei', creating a stronger pause before the vocative address. Greek uses a raised dot (·) after αὐτῇ, while Peshitta has no explicit punctuation marker, reflecting differing scribal conventions for marking direct speech boundaries."
     },
     {
       "greek_nt": [
@@ -144,7 +138,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs an articular construction (ἡ πίστις σου, 'the faith of you') with article + noun + possessive pronoun. Syriac uses a single bound form ܗܝܡܢܘܬܟܝ ('your-faith') with pronominal suffix, a typical Semitic synthetic construction. Latin mirrors the Greek analytic structure (fides tua) but without the article, as Latin lacks definite articles."
     },
     {
       "greek_nt": [
@@ -160,7 +156,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek perfect tense σέσωκέν vs Peshitta/Vulgate periphrastic constructions; Vulgate uses salvam fecit (made safe/whole)"
+      "type": "construction",
+      "note": "Greek uses the perfect active indicative σέσωκέν σε ('has saved you'), emphasizing completed action with ongoing results. Syriac employs the Aphel perfect ܐܚܝܬܟܝ ('has made-you-live/healed-you') with incorporated object suffix. Latin uses a periphrastic perfect construction 'te salvam fecit' (literally 'has made you safe'), placing the accusative pronoun before the predicate adjective, a word order reflecting Latin rhetorical emphasis."
     },
     {
       "greek_nt": [],
@@ -168,34 +165,28 @@
       "vulgate": [
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a second colon after 'fecit', creating a tripartite structure (address : declaration : commands). This punctuation choice divides the healing declaration from the dismissal commands more sharply than in Greek or Syriac, where the flow is continuous."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        12,
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the prepositional phrase εἰς εἰρήνην ('into peace') with the verb of motion ὕπαγε. Syriac employs the bound phrase ܒܫܠܡܐ ('in-peace'), using the preposition ܒ (beth) where Greek uses εἰς, reflecting the Semitic idiom 'go in peace' (cf. Hebrew בְּשָׁלוֹם). Latin follows Greek syntax with 'vade in pace', using the static preposition 'in' rather than a directional one, a calque of the Semitic construction that became standard in Christian Latin."
     },
     {
       "greek_nt": [
@@ -215,13 +206,16 @@
         15
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the present imperative ἴσθι ὑγιής ('be healthy'), a copular construction with predicate adjective. Syriac incorporates this into the preceding conjunction with ܘܗܘܝܬܝ ܚܠܝܡܐ ('and-be-you healthy'), using the feminine imperative with pronominal suffix. Latin employs 'esto sana', mirroring Greek structure but using the future imperative 'esto' rather than present, a construction emphasizing the perduring nature of the command."
     },
     {
       "greek_nt": [
@@ -239,13 +233,14 @@
         19,
         20
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.759038+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:07.976045+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

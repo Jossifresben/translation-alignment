@@ -81,7 +81,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -94,7 +95,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܡܪ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -104,105 +105,58 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'illis' to mark direct discourse, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. This reflects Latin scribal convention for introducing quoted speech."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5
       ],
       "peshitta": [
+        2,
         3,
         4
       ],
       "vulgate": [
+        4,
         5,
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        6,
         7
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses interrogative τί with adjective δειλοί and copula ἐστε ('Why fearful are you?'); Peshitta employs ܠܡܢܐ ܕܚܘܠܬܢܝܢ ܐܢܬܘܢ with explicit pronoun; Vulgate mirrors Greek word order with 'Quid timidi estis' plus interrogative punctuation. All three are semantically equivalent despite minor syntactic variation."
     },
     {
       "greek_nt": [
         6,
-        7
+        7,
+        8,
+        9,
+        10
       ],
       "peshitta": [
         5,
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Greek οὔπω πῶς (not yet how) vs Peshitta ܗܟܢ ܘܠܡܢܐ (thus and why) vs Vulgate necdum (not yet) - stylistic variation"
-    },
-    {
-      "greek_nt": [
+        6,
+        7,
         8,
         9
       ],
-      "peshitta": [
-        7,
-        8
-      ],
       "vulgate": [
-        9
-      ],
-      "variant": "aligned",
-      "note": "Greek οὐκ ἔχετε (not have) vs Peshitta ܠܝܬ ܒܟܘܢ (not in you) vs Vulgate habetis - same negation of possession"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        8,
+        9,
+        10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek οὔπω πῶς οὐκ ἔχετε πίστιν ('Still not how do you not have faith?') presents a complex double-negative construction. Peshitta restructures as ܗܟܢ ܘܠܡܢܐ ܠܝܬ ܒܟܘܢ ܗܝܡܢܘܬܐ ('Thus and why is there not in you faith?'), using ܗܟܢ ('thus/so') and existential negation ܠܝܬ. Vulgate simplifies to 'necdum habetis fidem' ('not yet do you have faith'), eliminating the πῶς interrogative entirely. These represent three distinct rhetorical strategies for Jesus's rebuke."
     },
     {
       "greek_nt": [],
@@ -231,13 +185,14 @@
         32
       ],
       "variant": "added",
-      "note": "Vulgate includes continuation from Mark 4:41 not present in Greek or Peshitta of this verse"
+      "type": "expansion",
+      "note": "The Vulgate appends Mark 4:41 ('et timuerunt timore magno, et dicebant ad alterutrum: Quis, putas, est iste, quia et ventus et mare obediunt ei?') to this verse, conflating two distinct pericopes. Neither the Greek NA28 nor the Peshitta include the disciples' subsequent fearful response and question about Jesus's identity here; these traditions treat 4:40 and 4:41 as separate verses. This reflects Clementine Vulgate versification diverging from critical Greek editions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.753070+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.969551+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

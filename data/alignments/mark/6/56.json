@@ -106,18 +106,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2
       ],
@@ -125,10 +114,11 @@
         0
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "aligned",
-      "note": "ὅπου ἂν = ܐܝܟܐ = quocumque (wherever)"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -141,62 +131,37 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܕܥܐܠ ܗܘܐ"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperfect indicative εἰσεπορεύετο alone; Peshitta employs periphrastic construction ܕܥܐܠ ܗܘܐ (participle + auxiliary 'was'); Vulgate uses simple imperfect introibat. All three express iterative past action with equivalent semantics."
     },
     {
       "greek_nt": [
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
       ],
       "peshitta": [
-        3
-      ],
-      "vulgate": [
         3,
         4
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
       "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7,
-        8
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
+        3,
+        4,
+        5,
         6,
         7,
         8,
         9
       ],
-      "variant": "minor",
-      "note": "Vulgate expands with villas aut civitates vs. Greek πόλεις; Peshitta ܘܠܡܕܝܢܬܐ covers cities"
-    },
-    {
-      "greek_nt": [
-        9,
-        10,
-        11
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek ἢ εἰς ἀγροὺς (or into fields) omitted in Peshitta and Vulgate"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek lists three destination types with repeated preposition εἰς: villages (κώμας), cities (πόλεις), and fields (ἀγροὺς). Vulgate expands to three types with varied vocabulary: vicos, villas, civitates. Peshitta omits the third category entirely, listing only villages (ܠܩܘܪܝܐ) and cities (ܘܠܡܕܝܢܬܐ), possibly viewing 'fields' as redundant or subsumed under rural settlements."
     },
     {
       "greek_nt": [
@@ -212,7 +177,7 @@
         11
       ],
       "variant": "aligned",
-      "note": "ἐν ταῖς ἀγοραῖς = ܒܫܘܩܐ = in plateis (in marketplaces)"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -225,8 +190,9 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic ܣܝܡܝܢ ܗܘܘ"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐτίθεσαν (simple imperfect) and Vulgate ponebant (simple imperfect) contrast with Peshitta's periphrastic ܣܝܡܝܢ ܗܘܘ (participle + auxiliary). This is a characteristic Syriac construction for expressing continuous past action, semantically equivalent to the Greek and Latin simple imperfects."
     },
     {
       "greek_nt": [
@@ -239,7 +205,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -251,7 +218,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -264,8 +232,9 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned",
-      "note": "Peshitta periphrastic ܘܒܥܝܢ ܗܘܘ"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek παρεκάλουν (simple imperfect) and Vulgate deprecabantur (simple imperfect deponent) contrast with Peshitta's periphrastic ܘܒܥܝܢ ܗܘܘ (already counted with conjunction in token 9, auxiliary in 10). Again, Syriac employs its characteristic periphrastic construction for continuous past action."
     },
     {
       "greek_nt": [
@@ -277,7 +246,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -289,7 +259,8 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -301,8 +272,9 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned",
-      "note": "κἂν = ܕܐܦܢ = vel (if only, even)"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek κἂν (crasis of καὶ ἐάν, 'even if/at least') is rendered by Vulgate vel ('or/even') and Peshitta ܕܐܦܢ ('if even/at least'). All three convey the concessional-conditional nuance, though Vulgate's vel is slightly weaker in force than the Greek and Syriac particles."
     },
     {
       "greek_nt": [
@@ -316,32 +288,23 @@
         19
       ],
       "variant": "aligned",
-      "note": "κρασπέδου = ܟܢܦܐ = fimbriam (fringe/edge)"
+      "type": "agreement"
     },
     {
       "greek_nt": [
         25,
-        26
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        26,
         27
       ],
       "peshitta": [
         14
       ],
       "vulgate": [
+        20,
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -353,7 +316,8 @@
       "vulgate": [
         22
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -365,7 +329,8 @@
       "vulgate": [
         23
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -379,8 +344,9 @@
       "vulgate": [
         24
       ],
-      "variant": "aligned",
-      "note": "ὅσοι ἂν = ܘܟܠܗܘܢ ܐܝܠܝܢ = quotquot (as many as)"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὅσοι ἂν ('as many as') is rendered by Vulgate quotquot (indefinite relative, 'however many') and Peshitta ܘܟܠܗܘܢ ܐܝܠܝܢ ('and all those who'). The Syriac uses a universal quantifier + relative pronoun construction, semantically equivalent but syntactically more explicit than the Greek and Latin indefinite relatives."
     },
     {
       "greek_nt": [
@@ -393,8 +359,9 @@
       "vulgate": [
         25
       ],
-      "variant": "aligned",
-      "note": "Peshitta periphrastic ܕܩܪܒܝܢ ܗܘܘ"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἥψαντο (aorist middle) and Vulgate tangebant (imperfect active) differ in aspect (punctiliar vs. iterative), while Peshitta employs periphrastic ܕܩܪܒܝܢ ܗܘܘ (participle + auxiliary). The Vulgate's imperfect aligns with the iterative sense of the context; Greek aorist may be constative, summarizing multiple touches."
     },
     {
       "greek_nt": [
@@ -406,7 +373,8 @@
       "vulgate": [
         26
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -420,14 +388,15 @@
         27,
         28
       ],
-      "variant": "aligned",
-      "note": "Peshitta periphrastic ܡܬܐܣܝܢ ܗܘܘ; Vulgate salvi fiebant"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐσῴζοντο (imperfect passive, 'were being saved/healed') is rendered by Vulgate salvi fiebant (imperfect of fio with predicate adjective, 'were becoming well') and Peshitta ܡܬܐܣܝܢ ܗܘܘ (periphrastic ethpael participle + auxiliary, 'were being healed'). All three express continuous past passive action; Vulgate uses a stative construction while Greek and Syriac employ true passives."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.772138+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.880662+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

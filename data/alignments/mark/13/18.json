@@ -48,7 +48,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -61,31 +62,24 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek δέ vs Latin vero: both adversative/continuative particles, stylistic choice"
+      "type": "lexical",
+      "note": "Greek δέ and Syriac ܕܝܢ are standard continuative particles, while Latin vero ('truly, indeed') carries slightly stronger adversative force, though all three function as discourse connectives here."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
+        2,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the negative μή immediately after the conjunction ἵνα (ἵνα μή), Syriac contracts them into ܕܠܐ, and Latin separates ut from non by the temporal adverb hieme, creating different surface word orders for the same negative purpose clause."
     },
     {
       "greek_nt": [
@@ -97,7 +91,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -110,7 +105,8 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Greek has explicit subject 'your flight' (ἡ φυγὴ ὑμῶν); Peshitta has pronominal suffix on noun (ܥܪܘܩܝܟܘܢ 'your-flight'); Vulgate omits subject entirely, leaving verb fiant without explicit subject"
+      "type": "substitution",
+      "note": "Greek uses the articular noun phrase ἡ φυγὴ ὑμῶν ('the flight of you', nominative subject) and Syriac employs the suffixed noun ܥܪܘܩܝܟܘܢ ('your-flight', also nominative). Latin omits any explicit subject noun, leaving the verb fiant ('they may happen') without a stated subject, relying on context to supply 'these things' from the preceding discourse."
     },
     {
       "greek_nt": [
@@ -123,13 +119,14 @@
         3
       ],
       "variant": "minor",
-      "note": "Word order variation: Vulgate places temporal phrase (hieme) before negated verb, Greek/Peshitta place it at end"
+      "type": "word-order",
+      "note": "Greek χειμῶνος (genitive of time, 'in winter') appears clause-finally, Syriac ܒܣܬܘܐ (prepositional phrase, 'in winter') likewise stands at the end, but Latin hieme (ablative of time without preposition) is fronted immediately after ut, creating a chiastic word-order pattern relative to the Greek and Syriac."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.825052+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.031015+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -44,43 +44,37 @@
   },
   "alignment": [
     {
-      "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
+      "greek_nt": [],
+      "peshitta": [],
       "vulgate": [
+        0,
+        1,
+        2,
+        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate inserts 'Tu es Filius Dei' ('You are the Son of God'), likely a harmonisation with the preceding verse (Mark 3:11) or parallel accounts, making explicit the content of the demons' confession. Neither the Greek nor the Peshitta attest this clause here."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܘܣܓܝ combines conjunction + adverb; Vulgate 'vehementer' intensifies differently than Greek πολλὰ"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2
       ],
       "peshitta": [
+        0,
         1,
         2
       ],
       "vulgate": [
+        5,
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic ܟܐܐ ܗܘܐ (was rebuking); Vulgate 'comminabatur' (was threatening) is semantically stronger than Greek ἐπετίμα"
+      "type": "lexical",
+      "note": "Greek πολλὰ ἐπετίμα ('much/sternly He was rebuking') uses an adverbial accusative with imperfect tense; Peshitta ܘܣܓܝ ܟܐܐ ܗܘܐ ('and much He was rebuking') employs a periphrastic construction with the participle; Vulgate vehementer comminabatur ('vehemently He was threatening') intensifies with an adverb and shifts the verb to 'threaten' rather than 'rebuke'—semantically equivalent but lexically distinct."
     },
     {
       "greek_nt": [
@@ -120,25 +114,15 @@
         9,
         10
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "variant": "added",
-      "note": "Vulgate includes 'Tu es Filius Dei' from previous verse context, not present in Greek or Peshitta for this verse"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a double accusative construction with ποιέω (αὐτὸν φανερὸν ποιήσωσιν, 'make Him manifest'); Peshitta employs a single causative verb ܢܓܠܘܢܝܗܝ ('reveal Him'); Vulgate uses manifestarent illum ('make manifest Him'), mirroring the Greek structure. All three express the same prohibition against revealing Jesus' identity, but through different syntactic strategies."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.741642+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.958874+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

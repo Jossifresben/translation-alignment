@@ -60,32 +60,25 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
       "variant": "aligned",
-      "note": "Peshitta ܘܫܐܕܐ combines conjunction + demons in single token"
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the adjective πολλὰ after the noun δαιμόνια (demons many), while Peshitta ܘܫܐܕܐ ܣܓܝܐܐ and Vulgate dæmonia multa follow the same noun-adjective order. This represents standard Semitic vs. Greek attributive adjective positioning."
     },
     {
       "greek_nt": [
@@ -98,8 +91,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܡܦܩܝܢ ܗܘܘ (participle + auxiliary) for Greek imperfect"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple imperfect ἐξέβαλλον, while Peshitta employs a periphrastic construction ܡܦܩܝܢ ܗܘܘ (participle + auxiliary 'were'), a characteristic Syriac durative past formation. Vulgate ejiciebant mirrors the Greek synthetic form."
     },
     {
       "greek_nt": [
@@ -111,7 +105,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -124,8 +119,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܡܫܚܝܢ ܗܘܘ combines conjunction + periphrastic verb; Greek/Vulgate separate conjunction from verb"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἤλειφον (simple imperfect) corresponds to Peshitta periphrastic ܘܡܫܚܝܢ ܗܘܘ and Vulgate ungebant. The Syriac again employs the participial construction for durative aspect, while Greek and Latin use synthetic imperfect forms."
     },
     {
       "greek_nt": [
@@ -137,32 +133,26 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐλαίῳ (olive oil, dative) and Vulgate oleo (ablative of means) denote specifically olive oil, while Peshitta ܒܡܫܚܐ uses a more general term for 'ointment/oil' that can encompass various unguents, though contextually equivalent."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
-        7
+        7,
+        8
       ],
       "vulgate": [
+        7,
         8
       ],
       "variant": "minor",
-      "note": "Peshitta ܟܪܝܗܐ (sick/ill) vs Greek ἄρρωστος (sick/weak); word order differs (Peshitta: oil + sick + many)"
+      "type": "word-order",
+      "note": "Greek πολλοὺς ἀρρώστους (many sick-ones) places the quantifier before the adjective, while Peshitta ܟܪܝܗܐ ܣܓܝܐܐ (sick-ones many) and Vulgate multos ægros follow adjective-quantifier order, reflecting different attributive conventions."
     },
     {
       "greek_nt": [
@@ -174,7 +164,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -187,14 +178,15 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܡܐܣܝܢ ܗܘܘ combines conjunction + periphrastic verb for Greek ἐθεράπευον"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐθεράπευον (simple imperfect) and Vulgate sanabant align in using synthetic verb forms, while Peshitta ܘܡܐܣܝܢ ܗܘܘ employs the periphrastic construction (participle + auxiliary) for the third time in this verse, demonstrating consistent Syriac preference for analytic durative past expression."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.763380+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.979601+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

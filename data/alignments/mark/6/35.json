@@ -82,7 +82,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -104,7 +105,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek uses genitive absolute construction; Peshitta uses temporal clause with ܗܘܐ; Vulgate uses cum + subjunctive fieret"
+      "type": "construction",
+      "note": "Greek employs a genitive absolute construction (ὥρας πολλῆς γενομένης) with aorist participle; Peshitta uses a temporal clause with perfect verb (ܗܘܐ ܥܕܢܐ ܣܓܝܐܐ); Vulgate renders with cum + subjunctive (cum hora multa fieret), all expressing the same temporal notion of 'when much time had passed.'"
     },
     {
       "greek_nt": [
@@ -118,7 +120,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -133,7 +136,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article and possessive pronoun separately (οἱ μαθηταὶ αὐτοῦ); Peshitta uses a single bound form with pronominal suffix (ܬܠܡܝܕܘܗܝ 'his-disciples'); Vulgate employs a possessive genitive (discipuli ejus), all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -145,44 +150,46 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit indirect object pronoun ܠܗ 'to him'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         11
       ],
-      "peshitta": [
-        9
-      ],
+      "peshitta": [],
       "vulgate": [
         10
       ],
       "variant": "minor",
-      "note": "Vulgate uses colon punctuation; Peshitta uses ܕ particle; Greek uses ὅτι"
+      "type": "punctuation",
+      "note": "Greek uses ὅτι to introduce indirect discourse; Vulgate employs a colon for punctuation; Peshitta omits any explicit marker, using ܕ- prefix on the demonstrative to introduce the clause, a typical Syriac construction for reported speech."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -190,22 +197,16 @@
         15
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
-        13
-      ],
-      "variant": "minor",
-      "note": "Greek uses article + noun; Peshitta uses demonstrative ܗܢܐ + noun; Vulgate uses demonstrative hic"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        13,
         14
       ],
-      "variant": "added",
-      "note": "Vulgate adds demonstrative hic for emphasis"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article and noun after the predicate adjective (ἔρημός ἐστιν ὁ τόπος); Peshitta fronts the demonstrative-noun phrase (ܕܗܢܐ ܐܬܪܐ 'this place') before the predicate; Vulgate follows Greek word order (Desertus est locus hic), though all convey identical propositional content."
     },
     {
       "greek_nt": [
@@ -217,7 +218,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -235,7 +237,18 @@
         18
       ],
       "variant": "major",
-      "note": "Vulgate adds præteriit 'has passed' making explicit what Greek/Peshitta imply; substantive addition changing nuance from 'it is late' to 'the hour has passed'"
+      "type": "substitution",
+      "note": "Greek and Peshitta state 'already the hour is late' (ἤδη ὥρα πολλή / ܘܥܕܢܐ ܣܓܝ), a nominal clause indicating lateness of the hour. Vulgate substitutes with 'and already the hour has passed' (et jam hora præteriit), using the verb praetereo to express temporal progression rather than mere lateness, a substantive semantic shift."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta adds the prepositional phrase ܠܗ ('to him') after the verb of saying, making the indirect object explicit; neither Greek nor Vulgate include this element, as it is understood from context."
     },
     {
       "greek_nt": [],
@@ -243,13 +256,14 @@
       "vulgate": [
         19
       ],
-      "variant": "added",
-      "note": "Vulgate adds closing colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate closes the verse with a colon, a punctuation choice not reflected in Greek or Peshitta manuscripts, likely editorial rather than textual."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.768637+00:00",
+    "generated_at": "2026-04-22T12:17:07.983271+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

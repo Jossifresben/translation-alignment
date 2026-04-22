@@ -65,57 +65,41 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses pronominal suffix -ܘܗܝ 'him' where Greek/Vulgate use article + participle"
+      "type": "construction",
+      "note": "Greek uses article + present participle (οἱ προάγοντες); Vulgate employs relative pronoun + imperfect indicative (qui præibant); Peshitta uses demonstrative pronoun + perfect verb with pronominal suffix (ܗܢܘܢ ܕܩܕܡܘܗܝ 'those who preceded him'). All three express the same substantival participial construction but with tradition-specific syntax."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        3,
         4,
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses prepositional phrase ܕܒܬܪܗ 'after him' with pronominal suffix"
+      "type": "construction",
+      "note": "Greek repeats the article + participle structure (οἱ ἀκολουθοῦντες); Vulgate mirrors with qui sequebantur; Peshitta uses demonstrative + prepositional phrase with suffix (ܗܢܘܢ ܕܒܬܪܗ 'those after him'). The Peshitta's prepositional construction (ܒܬܪ 'after') is semantically equivalent to the Greek/Latin participial forms but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -129,7 +113,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܩܥܝܢ ܗܘܘ (participle + auxiliary) for imperfect"
+      "type": "grammar",
+      "note": "Greek uses simple imperfect ἔκραζον; Latin clamabant mirrors this; Peshitta employs periphrastic construction ܩܥܝܢ ܗܘܘ (participle + auxiliary 'were crying'), a common Syriac idiom for expressing continuous past action."
     },
     {
       "greek_nt": [
@@ -139,101 +124,73 @@
         6
       ],
       "vulgate": [
-        7
+        7,
+        8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek λέγοντες has medial punctuation (colon); Vulgate dicentes is followed by a colon as separate token; Peshitta ܘܐܡܪܝܢ lacks punctuation marker. The Vulgate's explicit colon token reflects Latin manuscript tradition of marking direct discourse."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
       "vulgate": [
-        8,
+        9,
         10
       ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation, absent in Greek/Peshitta manuscripts"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ὡσαννά has comma; Vulgate Hosanna is followed by a separate colon token; Peshitta ܐܘܫܥܢܐ has no punctuation. The Vulgate's additional colon reflects liturgical emphasis in Latin manuscript tradition."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        8,
         9,
         10
       ],
       "vulgate": [
+        11,
         12,
         13
       ],
       "variant": "minor",
-      "note": "Peshitta uses independent pronoun ܗܘ where Greek/Vulgate use article + participle; all convey substantival participle"
+      "type": "construction",
+      "note": "Greek uses perfect passive participle + article + present participle (εὐλογημένος ὁ ἐρχόμενος); Vulgate employs perfect passive participle + relative clause (benedictus qui venit); Peshitta uses passive participle + pronoun + relative participle (ܒܪܝܟ ܗܘ ܕܐܬܐ). The Peshitta's independent pronoun ܗܘ makes the subject explicit, while Greek and Latin rely on participial agreement."
     },
     {
       "greek_nt": [
         12,
-        13
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        14,
-        15
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses pronominal suffix ܒܫܡܗ 'in his name' where Greek/Vulgate use prepositional phrase"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        14,
+        15,
+        16,
         17
       ],
-      "variant": "added",
-      "note": "Vulgate final colon for punctuation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition + dative noun + genitive (ἐν ὀνόματι κυρίου); Vulgate mirrors this (in nomine Domini) and adds closing colon; Peshitta employs prepositional phrase with pronominal suffix + genitive construct (ܒܫܡܗ ܕܡܪܝܐ 'in-his-name of-the-Lord'). The Peshitta's bound pronominal suffix creates a tighter syntactic unit than the Greek/Latin analytic construction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.808691+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.016732+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -47,7 +47,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek 'And He appointed the Twelve' omitted in both Peshitta and Vulgate; both traditions begin directly with the naming of Simon"
+      "type": "omission",
+      "note": "The Greek clause καὶ ἐποίησεν τοὺς δώδεκα ('And he appointed the Twelve') is absent from both the Peshitta and Vulgate witnesses. This omission may reflect a shorter textual tradition or deliberate editorial streamlining to focus on the naming of Simon."
     },
     {
       "greek_nt": [
@@ -59,32 +60,25 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "The Peshitta uses ܘܫܡܝ (wa-šammī, 'and he named'), a direct verbal form, while Greek employs καὶ ἐπέθηκεν ὄνομα ('and he placed a name') and Latin uses imposuit nomen ('he imposed a name'). The Syriac construction is more concise, collapsing the verb-object phrase into a single lexeme."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned",
-      "note": "Greek ἐπέθηκεν, Syriac ܘܫܡܝ (and he named), Latin imposuit all express 'gave/imposed name'"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
+        1,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places ἐπέθηκεν ὄνομα before the dative τῷ Σίμωνι; Vulgate mirrors this with imposuit...nomen before Simoni; Peshitta places ܫܡܐ (šmā, 'name') after the verb and recipient ܠܫܡܥܘܢ, reflecting standard Syriac VSO word order."
     },
     {
       "greek_nt": [
@@ -110,7 +104,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek Πέτρον (Peter, Greek form), Syriac ܟܐܦܐ (Kepha, Aramaic 'rock'), Latin Petrus; semantic equivalents but culturally distinct forms"
+      "type": "lexical",
+      "note": "Greek Πέτρον and Latin Petrus both transliterate the Greek 'rock' (πέτρα); Peshitta uses ܟܐܦܐ (Kēp̄ā), the native Aramaic cognate meaning 'rock' (cf. John 1:42, Cephas). This reflects the Syriac tradition's preference for the Semitic form over Hellenistic transliteration."
     },
     {
       "greek_nt": [],
@@ -118,14 +113,15 @@
       "vulgate": [
         5
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate adds a colon after Petrus, marking a clause boundary before the subsequent list of apostles. Neither Greek nor Peshitta manuscripts typically employ such punctuation at this juncture."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.742178+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.959509+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

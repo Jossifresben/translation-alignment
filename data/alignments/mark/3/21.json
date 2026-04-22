@@ -66,16 +66,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'cum' (when) for temporal subordination"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -85,9 +77,12 @@
         0
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle (ἀκούσαντες); Vulgate employs a temporal clause with cum + pluperfect subjunctive (cum audissent); Syriac integrates the verb into the main clause with waw-consecutive. All three convey temporal anteriority but through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -102,7 +97,8 @@
         3
       ],
       "variant": "major",
-      "note": "Greek 'οἱ παρ᾽ αὐτοῦ' (those belonging to him) vs Peshitta 'ܐܚܝܢܘܗܝ' (his brothers) vs Vulgate 'sui' (his own people); Peshitta specifies kinship explicitly"
+      "type": "substitution",
+      "note": "Greek οἱ παρ᾽ αὐτοῦ ('those belonging to him') is deliberately vague, likely referring to family or associates. Peshitta explicitly reads ܐܚܝܢܘܗܝ ('his brothers'), a clarifying gloss. Vulgate sui ('his own people') preserves the Greek ambiguity but in Latin idiom."
     },
     {
       "greek_nt": [
@@ -114,7 +110,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -128,7 +125,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -136,8 +134,9 @@
       "vulgate": [
         7
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon before the explanatory clause, marking a stronger discourse break than Greek or Syriac punctuation conventions typically signal."
     },
     {
       "greek_nt": [
@@ -151,7 +150,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction 'ܐܡܪܝܢ ܗܘܘ' (were saying) matching Greek imperfect"
+      "type": "grammar",
+      "note": "Greek ἔλεγον is imperfect active indicative; Syriac ܐܡܪܝܢ ܗܘܘ uses the periphrastic construction (participle + auxiliary) to express continuous past action; Vulgate dicebant mirrors the Greek imperfect. Semantically equivalent, morphologically distinct."
     },
     {
       "greek_nt": [
@@ -163,7 +163,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -171,25 +172,28 @@
       "vulgate": [
         10
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate again inserts a colon before the ὅτι-clause, creating a two-stage discourse structure absent in Greek and Syriac witnesses."
     },
     {
       "greek_nt": [
         10
       ],
-      "peshitta": [],
+      "peshitta": [
+        7
+      ],
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         11
       ],
       "peshitta": [
-        7,
         8,
         9
       ],
@@ -200,13 +204,14 @@
         15
       ],
       "variant": "major",
-      "note": "Greek 'ἐξέστη' (he is out of his mind) vs Peshitta 'ܕܡܢ ܗܘܢܗ ܢܦܩ' (that from his mind he went out) vs Vulgate 'in furorem versus est' (into madness he has been turned); different idioms for insanity"
+      "type": "substitution",
+      "note": "Greek ἐξέστη ('he is out of his mind') is a single verb denoting mental derangement. Syriac ܕܡܢ ܗܘܢܗ ܢܦܩ ('that from his mind he has gone out') uses a prepositional phrase + verb, literalizing the metaphor. Vulgate in furorem versus est ('he has been turned into madness') employs a passive periphrastic construction with furorem, intensifying the semantic force toward 'rage' or 'frenzy' rather than mere insanity."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.742941+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.960297+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

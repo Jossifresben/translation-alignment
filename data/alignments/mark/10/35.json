@@ -81,7 +81,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -97,8 +98,9 @@
         2,
         3
       ],
-      "variant": "aligned",
-      "note": "Greek προσπορεύονται + dative, Peshitta ܩܪܒܘ ܠܘܬܗ, Vulgate accedunt ad eum - all express 'approach/come to him'"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek προσπορεύονται (compound verb 'come toward') is rendered by Syriac ܩܪܒܘ ܠܘܬܗ (simple verb + prepositional phrase 'drew near to him') and Latin accedunt ad eum (simple verb + prepositional phrase 'approach to him'), both semantically equivalent but syntactically analytic rather than synthetic."
     },
     {
       "greek_nt": [
@@ -110,7 +112,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,7 +125,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -134,41 +138,27 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         6,
-        7
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article οἱ and numeral δύο 'the two' omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
+        8,
         9
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek includes the article οἱ and the numeral δύο ('the two') before υἱοὶ Ζεβεδαίου, emphasizing their dual identity as sons of Zebedee. Both Peshitta (ܒܢܝ ܙܒܕܝ) and Vulgate (filii Zebedæi) omit the article and numeral, presenting a more concise appositive construction."
     },
     {
       "greek_nt": [
@@ -182,8 +172,8 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "note": "Greek λέγοντες αὐτῷ (participle + dative), Peshitta ܘܐܡܪܝܢ ܠܗ (verb + prep), Vulgate dicentes (participle without explicit object)"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -192,7 +182,8 @@
         10
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present as token in other traditions"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon (:) after dicentes to mark the transition to direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts which rely on context alone."
     },
     {
       "greek_nt": [
@@ -204,44 +195,27 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         13
       ],
       "peshitta": [
-        9
+        9,
+        10
       ],
       "vulgate": [
         12
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit pronoun ܚܢܢ 'we' for emphasis, absent in Greek and Vulgate"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        13
-      ],
       "variant": "minor",
-      "note": "Greek ἵνα (purpose/result), Peshitta ܕܟܠ (relative 'that all/whatever'), Vulgate ut (purpose) - slight syntactic variation"
+      "type": "gloss",
+      "note": "Peshitta adds the independent pronoun ܚܢܢ ('we') after the verb ܨܒܝܢ ('we desire'), making the subject explicit for emphasis or clarity. Greek θέλομεν and Latin volumus encode the subject in verbal morphology alone, requiring no separate pronoun."
     },
     {
       "greek_nt": [
+        14,
         15,
         16
       ],
@@ -249,10 +223,12 @@
         11
       ],
       "vulgate": [
+        13,
         14
       ],
       "variant": "minor",
-      "note": "Greek ὃ ἐὰν (relative + conditional), Peshitta ܕܟܠ (compound relative), Vulgate quodcumque (indefinite relative) - stylistic differences in expressing 'whatever'"
+      "type": "construction",
+      "note": "Greek employs a three-part subordinate construction (ἵνα ὃ ἐὰν 'that whatever if') to introduce the indefinite relative clause. Peshitta uses the single particle ܕܟܠ ('that all/whatever'), a more compact Syriac idiom. Vulgate mirrors Greek structure with ut quodcumque ('that whatever'), preserving the compound indefinite relative."
     },
     {
       "greek_nt": [
@@ -265,7 +241,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -277,7 +254,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -289,13 +267,14 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.804073+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.012541+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

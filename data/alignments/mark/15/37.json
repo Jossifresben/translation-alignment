@@ -49,7 +49,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs article + postpositive conjunction (ὁ δὲ); Peshitta mirrors with pronoun + conjunction (ܗܘ ܕܝܢ); Vulgate uses only the adversative conjunction autem, omitting the article/pronoun as Latin style typically does not require explicit subject pronouns."
     },
     {
       "greek_nt": [
@@ -65,31 +67,23 @@
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "major",
-      "note": "Greek ἀφεὶς (having uttered/released) vs Peshitta ܩܥܐ (cried out) vs Vulgate emissa (having sent forth) represent different verbal aspects of the same action"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5
       ],
       "peshitta": [
+        3,
         4,
         5
       ],
       "vulgate": [
+        2,
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses the aorist participle ἀφεὶς (from ἀφίημι, 'having let go/uttered') with φωνὴν μεγάλην ('a loud cry'), emphasizing the act of releasing or emitting the cry. Peshitta substitutes the finite verb ܩܥܐ ('he cried out') with prepositional phrase ܒܩܠܐ ܪܡܐ ('with a loud voice'), recasting the participial construction as a main verb. Vulgate employs the perfect passive participle emissa ('having been sent forth') with voce magna, maintaining the participial structure but shifting to passive voice, which subtly alters the agency of the utterance."
     },
     {
       "greek_nt": [
@@ -102,13 +96,14 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܫܠܡ (and finished/completed) adds conjunctive nuance absent in Greek ἐξέπνευσεν and Latin expiravit"
+      "type": "lexical",
+      "note": "Greek ἐξέπνευσεν (from ἐκπνέω, 'breathed out') and Latin expiravit (from expiro, cognate meaning) are direct lexical equivalents. Peshitta ܘܫܠܡ (from ܫܠܡ, 'he finished/completed/died') employs a Semitic idiom for death that emphasizes completion or fulfillment rather than the physiological act of breathing, representing a culturally distinct but semantically equivalent expression."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.847278+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.051869+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

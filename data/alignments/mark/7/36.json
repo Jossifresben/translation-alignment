@@ -71,7 +71,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -84,7 +85,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek διαστέλλω (instruct/command) vs Vulgate praecipio (command); Syriac ܙܗܪ combines conjunction with verb"
+      "type": "lexical",
+      "note": "Greek διαστέλλω ('to charge strictly, command') is rendered by Syriac ܙܗܪ (zahar, 'to warn, admonish') and Latin praecipio ('to instruct, order'). The Syriac root emphasizes caution or warning, while Greek and Latin focus on authoritative command, though all convey Jesus's directive to silence."
     },
     {
       "greek_nt": [
@@ -96,44 +98,28 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "omitted",
-      "note": "Peshitta lacks explicit conjunction marker equivalent to ἵνα/ne"
-    },
-    {
-      "greek_nt": [
-        4
+        3,
+        4,
+        5
       ],
       "peshitta": [
         2,
-        3
+        3,
+        4
       ],
       "vulgate": [
-        4
+        3,
+        4,
+        5
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܕܠܐܢܫ ܠܐ (to-no-one not) for Greek μηδενί; word order variation"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
+      "type": "construction",
+      "note": "Greek uses ἵνα + subjunctive (ἵνα μηδενὶ λέγωσιν, 'that to no one they should speak'); Syriac employs ܕ + negative + imperfect (ܕܠܐܢܫ ܠܐ ܢܐܡܪܘܢ, 'that to anyone not they should speak'); Latin uses ne + dative + subjunctive (ne cui dicerent, 'that to anyone they should not speak'). All three express negative purpose, but with tradition-specific syntactic strategies."
     },
     {
       "greek_nt": [
@@ -147,7 +133,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅσον δέ ('but as much as') and Latin Quanto autem ('but by how much') both employ correlative comparative constructions. Syriac ܘܟܡܐ ܕ ('and as much as') uses a simpler relative structure without the adversative particle, though the semantic force remains proportional comparison."
     },
     {
       "greek_nt": [
@@ -157,42 +145,27 @@
         6
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits explicit subject pronoun (implicit in verb); Greek αὐτός and Peshitta ܕܗܘ present"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek αὐτός ('he himself') and Syriac ܗܘ ('he') explicitly mark the subject pronoun for emphasis. The Vulgate omits the pronoun, relying on verbal inflection (præcipiebat) to convey the third-person subject, a standard Latin stylistic preference."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
         7,
-        8
-      ],
-      "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        10
+        8,
+        9
       ],
-      "variant": "added",
-      "note": "Vulgate adds 'tanto' to complete correlative construction Quanto...tanto"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect διεστέλλετο (singular verb) with dative αὐτοῖς. Syriac employs the participle ܡܙܗܪ with the periphrastic construction ܗܘܐ ܠܗܘܢ ('was warning to them'), a characteristic Syriac way of expressing continuous past action. Latin præcipiebat illis mirrors the Greek imperfect structure."
     },
     {
       "greek_nt": [
@@ -202,8 +175,9 @@
         10
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits explicit subject pronoun (implicit in verb)"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek αὐτοί ('they themselves') and Syriac ܗܢܘܢ ('they') provide emphatic subject pronouns to heighten the contrast between Jesus's command and the crowd's response. Latin omits the pronoun, encoding subject in the verb prædicabant, consistent with Latin's pro-drop syntax."
     },
     {
       "greek_nt": [
@@ -214,11 +188,13 @@
         11
       ],
       "vulgate": [
+        10,
         11,
         12
       ],
       "variant": "minor",
-      "note": "Greek uses double comparative μᾶλλον περισσότερον; Peshitta single ܝܬܝܪ; Vulgate magis plus"
+      "type": "construction",
+      "note": "Greek uses double comparative adverbs μᾶλλον περισσότερον ('more exceedingly') for rhetorical intensification. Syriac employs the single adverb ܝܬܝܪ ('more, exceedingly'). Latin expands with tanto magis plus ('by so much more, the more'), completing the correlative structure initiated by Quanto autem, creating a balanced Latin period absent in Greek and Syriac."
     },
     {
       "greek_nt": [
@@ -231,7 +207,9 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐκήρυσσον (imperfect active, 'they were proclaiming') is matched by Latin prædicabant (imperfect active). Syriac uses the participle ܡܟܪܙܝܢ with auxiliary ܗܘܘ ('they were proclaiming'), the standard Syriac periphrastic construction for past continuous aspect."
     },
     {
       "greek_nt": [],
@@ -239,14 +217,15 @@
       "vulgate": [
         14
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek/Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate concludes with a colon (:), signaling continuation into the following verse, whereas Greek uses a period and Syriac employs no explicit punctuation marker. This reflects Latin manuscript tradition's rhetorical linking of pericopes."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.778045+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.993412+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

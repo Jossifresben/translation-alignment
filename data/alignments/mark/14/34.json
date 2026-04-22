@@ -69,7 +69,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -82,7 +83,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܡܪ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -92,111 +93,66 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'illis' to mark direct discourse, while Greek uses a raised dot (·) and Syriac has no explicit punctuation marker. This reflects Latin scribal convention for introducing quotations rather than a textual variant."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
-        3
+        2,
+        3,
+        4
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Syriac employs a tripartite construction (ܟܪܝܐ ܗܝ ܠܗ 'grieved is to-it') with an anticipatory pronoun ܠܗ, a typical Semitic resumptive structure. Greek and Latin use simple predicate adjective constructions (περίλυπός ἐστιν / Tristis est) without the pronominal element."
     },
     {
       "greek_nt": [
         5,
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܠܢܦܫܝ includes possessive suffix"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܠܗ is dative particle, possibly emphatic or stylistic"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the definite article ἡ with ψυχή to mark definiteness, which Latin mirrors with word order (anima mea). Syriac ܠܢܦܫܝ employs the pronominal suffix directly on the noun with the preposition ܠ, a construction that conflates the possessive and dative functions absent in Greek's article-noun-pronoun sequence."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
         8,
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        8,
+        9,
+        10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἕως θανάτου uses a simple preposition with genitive; Syriac ܥܕܡܐ ܠܡܘܬܐ employs the compound preposition ܥܕܡܐ with ܠ governing the noun; Latin expands to 'usque ad mortem' with the compound preposition 'usque ad' plus accusative, followed by a second colon for rhetorical emphasis. All three convey 'unto death' but with tradition-specific prepositional idioms."
     },
     {
       "greek_nt": [
@@ -209,7 +165,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Greek μείνατε (remain/abide) vs Peshitta ܩܘܘ (endure/wait) vs Vulgate sustinete (endure/wait) - semantic overlap but different nuance"
+      "type": "lexical",
+      "note": "Greek μείνατε (aorist imperative of μένω 'remain/abide') is rendered by Syriac ܩܘܘ (Pael imperative of ܩܘܐ 'wait/endure') and Latin 'sustinete' (imperative of sustineo 'sustain/endure'). The Syriac and Latin choices emphasize patient endurance over static remaining, a subtle semantic shift from the Greek's spatial connotation."
     },
     {
       "greek_nt": [
@@ -221,7 +178,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -233,7 +191,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -246,13 +205,13 @@
         15
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܬܬܥܝܪܘ combines conjunction and verb"
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.834891+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.040134+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -81,32 +81,23 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [
-        0,
-        1
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "minor",
-      "note": "Greek article + δέ vs Syriac pronoun + ܕܝܢ vs Latin Et; stylistic variation in discourse marker"
-    },
-    {
-      "greek_nt": [
+        1,
         2,
         3
       ],
       "peshitta": [
+        0,
+        1,
         2
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "minor",
-      "note": "Greek uses participial construction ἀποκριθεὶς εἶπεν; Peshitta single verb ܐܡܪ; Vulgate respondens ait mirrors Greek structure"
+      "type": "omission",
+      "note": "Greek employs the redundant Semitic construction ἀποκριθεὶς εἶπεν ('answering, he said'), whereas both Peshitta and Vulgate use a single verb of speaking (ܐܡܪ / ait), reflecting a more economical idiom in translation."
     },
     {
       "greek_nt": [
@@ -119,60 +110,46 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illis to mark direct discourse, a scribal convention absent in Greek and Peshitta manuscript traditions."
     },
     {
       "greek_nt": [
         5,
         6,
-        7
+        7,
+        8
       ],
       "peshitta": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "vulgate": [
         5,
         6,
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
+        7,
         8
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction between clauses; asyndetic construction"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek καὶ λέγουσιν and Vulgate Et dixerunt use coordinating conjunction plus finite verb; Peshitta ܐܡܪܝܢ employs asyndetic construction (no conjunction), a common Syriac narrative pattern for rapid dialogue shifts."
     },
     {
       "greek_nt": [
@@ -185,31 +162,26 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate again inserts a colon (ei :) to mark the disciples' reply, whereas Greek and Peshitta use no punctuation marker between verb and indirect object."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses aorist participle ἀπελθόντες plus subjunctive ἀγοράσωμεν (deliberative question); Peshitta employs two coordinate imperfects (ܢܐܙܠ ܢܙܒܢ, 'let us go, let us buy'); Vulgate uses present participle Euntes plus subjunctive emamus—all three express the same deliberative sense with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -225,7 +197,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Word order: Greek δηναρίων διακοσίων (genitive-numeral) vs Peshitta ܕܡܐܬܝܢ ܕܝܢܪܝܢ vs Vulgate ducentis denariis (ablative construction)"
+      "type": "word-order",
+      "note": "Greek places the genitive δηναρίων διακοσίων (denarii two-hundred) in natural attributive order; Vulgate inverts to ducentis denariis (two-hundred denarii); Peshitta mirrors Greek order ܕܡܐܬܝܢ ܕܝܢܪܝܢ—stylistic variation with no semantic impact."
     },
     {
       "greek_nt": [
@@ -241,46 +214,30 @@
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [],
-      "vulgate": [
-        18
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction before final clause"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
-        19
-      ],
-      "peshitta": [
-        15,
-        16
-      ],
-      "vulgate": [
         19,
         20
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
       "peshitta": [
+        15,
+        16,
         17
       ],
       "vulgate": [
+        18,
+        19,
+        20,
         21
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses future indicative δώσομεν plus infinitive φαγεῖν ('we will give them to eat'); Vulgate mirrors this with dabimus + infinitive manducare; Peshitta employs imperfect ܘܢܬܠ ܠܗܘܢ ܠܥܣܝܢ ('and let us give them to eat'), continuing the cohortative mood from the prior clause—semantically equivalent but syntactically distinct."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.769053+00:00",
+    "generated_at": "2026-04-22T12:17:07.983621+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

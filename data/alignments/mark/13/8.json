@@ -88,7 +88,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐγερθήσεται ('will be raised') and Syriac ܢܩܘܡ ('will arise') share the semantic field of rising/standing up, while Latin Exsurget employs the compound ex-surgere ('rise up from'), all conveying the same eschatological uprising but with slightly different lexical roots."
     },
     {
       "greek_nt": [
@@ -119,22 +121,12 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek ἐπ᾽ ἔθνος vs Vulgate contra gentem: stylistic preposition choice"
+      "type": "lexical",
+      "note": "Greek uses ἐπί with elided form ἐπ᾽ ('upon/against'), Syriac employs ܥܠ ('upon/against'), and Latin uses contra ('against'). All three prepositions convey hostility, but Latin makes the adversarial sense more explicit through contra rather than a spatial preposition."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7,
         8
@@ -145,70 +137,43 @@
         7
       ],
       "vulgate": [
+        5,
         6,
         7,
         8
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܡܠܟܘ prefixes conjunction to first kingdom; Greek ἐπὶ vs Vulgate super: stylistic preposition choice"
+      "type": "lexical",
+      "note": "The second prepositional phrase shows variation: Greek retains ἐπί, Syriac continues with ܥܠ (maintaining parallelism with the first clause), while Latin shifts to super ('over/upon'), introducing slight stylistic variation in the repeated structure while preserving semantic equivalence."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
-        11
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [
-        10,
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13
       ],
       "peshitta": [
+        8,
+        9,
         10,
         11
       ],
       "vulgate": [
+        9,
+        10,
+        11,
         12,
         13
       ],
       "variant": "minor",
-      "note": "Peshitta ܒܕܘܟܐ ܕܘܟܐ (place place) uses reduplication for distributive sense; Greek κατὰ τόπους and Vulgate per loca use preposition + plural"
+      "type": "construction",
+      "note": "Greek κατὰ τόπους ('throughout places') and Latin per loca employ prepositional phrases, while Syriac uses the distributive construction ܒܕܘܟܐ ܕܘܟܐ ('in place place'), a characteristic Semitic idiom expressing distribution through noun repetition rather than a preposition governing a plural object."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
         16
       ],
@@ -217,6 +182,7 @@
         13
       ],
       "vulgate": [
+        14,
         15
       ],
       "variant": "aligned"
@@ -230,8 +196,9 @@
         14
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καὶ ταραχαί (and disturbances) and Peshitta ܘܫܓܘܫܝܐ present; omitted in Vulgate"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek includes καὶ ταραχαί ('and disturbances/tumults'), which the Peshitta renders as ܘܫܓܘܫܝܐ ('and commotions'), but the Vulgate entirely omits this third element of the catastrophe list. This represents a substantive textual variant, possibly reflecting different Greek Vorlagen or deliberate abbreviation in the Latin tradition."
     },
     {
       "greek_nt": [
@@ -251,13 +218,14 @@
         18
       ],
       "variant": "minor",
-      "note": "Peshitta adds copula ܐܢܝܢ (they are) for emphasis; word order varies: Greek ἀρχὴ ὠδίνων ταῦτα vs Peshitta ܗܠܝܢ ܪܫܐ ܐܢܝܢ ܕܚܒܠܐ vs Vulgate Initium dolorum hæc"
+      "type": "word-order",
+      "note": "Greek places the demonstrative last (ἀρχὴ ὠδίνων ταῦτα, 'beginning of birth-pains these'), Latin follows this order (Initium dolorum hæc), while Syriac fronts the demonstrative (ܗܠܝܢ ܪܫܐ ܐܢܝܢ ܕܚܒܠܐ, 'these [are] the beginning of birth-pains'), employing the copular pronoun ܐܢܝܢ to create a nominal sentence structure typical of Syriac syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.823506+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.029454+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

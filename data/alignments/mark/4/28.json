@@ -64,12 +64,16 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        2,
+        3
+      ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "note": "Greek αὐτομάτη 'of itself' and Latin ultro 'spontaneously' present; Peshitta omits this adverbial modifier"
+      "type": "lexical",
+      "note": "Greek αὐτομάτη ('of itself, spontaneously') is rendered by Peshitta ܡܝܬܝܐ ܠܗ ('brings to itself'), a periphrastic construction conveying agency rather than spontaneity. Vulgate ultro ('freely, of its own accord') preserves the Greek semantic emphasis on autonomous action."
     },
     {
       "greek_nt": [
@@ -94,22 +98,21 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article-noun phrase ἡ γῆ after the conjunction γάρ; Peshitta and Vulgate position the noun (ܐܪܥܐ / terra) before the conjunction, reflecting standard Semitic and Latin word order for postpositive particles."
     },
     {
       "greek_nt": [
         4
       ],
       "peshitta": [
-        2,
-        3,
         4
       ],
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "note": "Peshitta expands with ܡܝܬܝܐ ܠܗ ܠܦܐܪܐ 'brings to it fruit' using periphrastic construction; Greek/Latin use single verb"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -123,7 +126,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܠܘܩܕܡ ܗܘܐ 'and first it was' uses verbal construction; Greek/Latin use adverb"
+      "type": "construction",
+      "note": "Greek πρῶτον (adverbial accusative 'first') and Vulgate primum are simple adverbs; Peshitta employs ܘܠܘܩܕܡ ܗܘܐ ('and beforehand it was'), a verbal construction with the copula ܗܘܐ, creating a temporal clause rather than an adverbial modifier."
     },
     {
       "greek_nt": [
@@ -147,7 +151,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εἶτα ('then, next') is matched by Vulgate deinde; Peshitta uses ܘܒܬܪܗ ('and after it'), a prepositional phrase with pronominal suffix, making the temporal sequence more explicit through anaphoric reference."
     },
     {
       "greek_nt": [
@@ -173,7 +179,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta ܐܚܪܝܬ ܕܝܢ 'but finally/lastly' uses emphatic construction; Greek/Latin simple εἶτα/deinde"
+      "type": "expansion",
+      "note": "Greek repeats εἶτα; Vulgate mirrors with deinde; Peshitta expands to ܐܚܪܝܬ ܕܝܢ ('but lastly'), adding the contrastive particle ܕܝܢ and using ܐܚܪܝܬ ('finally') to emphasize the climactic third stage of growth, a stylistic intensification absent from Greek and Latin."
     },
     {
       "greek_nt": [
@@ -188,7 +195,9 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the adjective before the noun (πλήρης σῖτον / plenum frumentum, 'full grain'); Peshitta reverses to ܚܛܬܐ ܡܫܡܠܝܬܐ ('grain complete'), following standard Semitic attributive adjective placement after the substantive."
     },
     {
       "greek_nt": [
@@ -203,13 +212,15 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐν τῷ στάχυϊ ('in the ear') with article; Vulgate mirrors this with in spica; Peshitta employs the bound form ܒܫܒܠܐ ('in-the-ear'), a single morphological unit without separate article, reflecting Semitic construct-state syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.749909+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.967578+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

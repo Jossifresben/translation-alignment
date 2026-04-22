@@ -59,27 +59,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -93,64 +85,41 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܫܪܝ ܗܘܐ (began + was) for Greek aorist ἤρξατο"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction ܫܪܝ ܗܘܐ (šrī hwā, 'began' + auxiliary 'was') to render Greek ἤρξατο, a common Syriac idiom for inceptive aspect. The Greek aorist and Latin perfect cœpit express the same inceptive meaning without auxiliary verbs."
     },
     {
       "greek_nt": [
-        3
+        3,
+        4,
+        5
       ],
       "peshitta": [
-        4
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
+        4,
         5
       ],
       "vulgate": [
-        4
+        3,
+        4,
+        5
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܝܡܐ includes conjunction prefix"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        5
+        6
       ],
       "peshitta": [
-        5
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
         6
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark before direct speech"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [],
       "vulgate": [
+        6,
         7
       ],
       "variant": "minor",
-      "note": "Greek ὅτι recitative vs Vulgate Quia; Peshitta omits conjunction before direct speech"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after jurare to mark the transition to direct discourse, treating ὅτι recitativum as punctuation rather than translating it. Greek ὅτι and Syriac ܕ (d-) function as complementizers introducing the oath's content without punctuation breaks."
     },
     {
       "greek_nt": [
@@ -164,41 +133,39 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the negative particle οὐκ with finite verb οἶδα; Syriac employs the compound negative particle ܕܠܐ (d-lā, 'that-not') with the participle ܝܕܥ, a standard Syriac construction for negated complements. Latin nescio lexicalizes the negation within the verb itself ('not-know')."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        8
+      ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit first-person pronoun ܐܢܐ (I); Greek and Latin use verbal inflection"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܐ ('I'), which is implicit in the Greek first-person verb οἶδα and the Latin nescio. This represents typical Syriac preference for overt subject pronouns in emphatic or contrastive contexts."
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -213,12 +180,14 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a relative pronoun ὃν with second-person plural verb λέγετε ('whom you say'); Syriac uses the relative particle ܕ with verb ܐܡܪܝܢ plus explicit pronoun ܐܢܬܘܢ ('that you [pl.] say'); Latin uses quem with dicitis. All three express the same relative clause structure with minor morphosyntactic variation reflecting each language's typology."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.840954+00:00",
+    "generated_at": "2026-04-22T12:17:08.046141+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

@@ -84,28 +84,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and participle in single token ܘܢܦܩ"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses conjunction καὶ plus aorist participle ἐξελθών (nominative singular masculine); Vulgate mirrors this with Et exiens (present participle); Peshitta employs the single prefixed form ܘܢܦܩ (waw-consecutive perfect), a typical Semitic construction collapsing conjunction and finite verb into one token."
     },
     {
       "greek_nt": [
@@ -122,7 +113,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek has article + Jesus after verb; Vulgate places Jesus after object; Peshitta follows Greek order without article"
+      "type": "word-order",
+      "note": "Greek places the subject Ἰησοῦς after the verb εἶδεν with definite article ὁ (postpositive subject); Vulgate inverts to vidit...Jesus (verb-object-subject); Peshitta follows Semitic VSO order ܝܫܘܥ ܚܙܐ (Jesus saw), placing the subject before the verb without an article (Syriac lacks the definite article as a separate morpheme)."
     },
     {
       "greek_nt": [
@@ -138,7 +130,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Adjective-noun order: Greek/Peshitta have adjective-noun; Vulgate has noun-adjective"
+      "type": "word-order",
+      "note": "Greek uses adjective-noun order πολὺν ὄχλον (accusative singular masculine); Vulgate employs noun-adjective turbam multam (classical Latin post-positive adjective); Peshitta uses noun-adjective ܟܢܫܐ ܣܓܝܐܐ, mirroring Latin word order but with Semitic morphology (emphatic state noun plus attributive adjective)."
     },
     {
       "greek_nt": [
@@ -148,52 +141,36 @@
         5
       ],
       "vulgate": [
+        6,
         7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        8,
-        9
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction and verb in ܘܐܬܪܚܡ; Vulgate uses compound past tense"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after Jesus, creating a stronger syntactic break before the compassion clause; Greek and Peshitta use simple conjunction καὶ / ܘ without punctuation, maintaining paratactic flow typical of Semitic narrative style."
     },
     {
       "greek_nt": [
+        8,
         9,
         10
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        8,
+        9,
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐσπλαγχνίσθη (aorist passive deponent, 'was moved with compassion in the viscera') is a distinctively NT Greek term; Peshitta ܘܐܬܪܚܡ employs the Ethpael of ܪܚܡ ('had mercy/compassion'), a common Semitic root; Vulgate misertus est uses the deponent perfect of misereor, semantically equivalent but lacking the visceral imagery of σπλαγχνίζω."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
@@ -201,10 +178,11 @@
         8
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "aligned",
-      "note": "Peshitta uses participial construction ܕܕܡܝܢ ܗܘܘ for Greek imperfect"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -216,8 +194,9 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "note": "Peshitta incorporates comparison particle in ܕܕܡܝܢ"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὡς introduces a comparative particle ('like/as'); Vulgate sicut is the direct Latin equivalent; Peshitta embeds the comparison within the relative clause ܕܕܡܝܢ ܗܘܘ ('who were resembling'), using the verb ܕܡܐ rather than a separate comparative particle—a typical Syriac construction for similes."
     },
     {
       "greek_nt": [
@@ -229,111 +208,59 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         15,
-        16
-      ],
-      "peshitta": [
-        10,
-        11
-      ],
-      "vulgate": [
         16,
         17
       ],
-      "variant": "minor",
-      "note": "Peshitta uses negative existential ܕܠܝܬ ܠܗܘܢ (lit. 'who there-is-not to-them') vs. Greek negative participle"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
       "peshitta": [
+        10,
+        11,
         12
       ],
       "vulgate": [
+        16,
+        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses negative participle μὴ ἔχοντα ποιμένα (neuter plural nominative agreeing with πρόβατα); Vulgate employs non habentes pastorem (masculine plural present participle in ad sensum agreement with oves); Peshitta uses the negative existential particle ܕܠܝܬ ܠܗܘܢ ܪܥܝܐ ('who there-is-not to-them a-shepherd'), a distinctively Semitic possessive construction with dative of possession rather than a verb 'to have.'"
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        19
+        18,
+        19,
+        20,
+        21,
+        22
       ],
       "peshitta": [
         13,
-        14
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܘܫܪܝ ܗܘܐ for Greek aorist"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits explicit object pronoun 'them', implied in Latin verb"
-    },
-    {
-      "greek_nt": [
-        22
-      ],
-      "peshitta": [
+        14,
+        15,
+        16,
         17
       ],
       "vulgate": [
+        19,
+        20,
+        21,
         22
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἤρξατο διδάσκειν uses the ingressive aorist of ἄρχω plus complementary infinitive ('began to teach'); Vulgate cœpit docere mirrors this exactly with perfect plus infinitive; Peshitta ܘܫܪܝ ܗܘܐ ܠܡܠܦܘ employs the periphrastic construction with auxiliary ܗܘܐ plus lamadh infinitive, a characteristic Syriac way of expressing inceptive aspect. All three traditions place the object pronoun after the infinitive, though Peshitta uses the enclitic ܐܢܘܢ where Greek and Latin use accusative αὐτούς/eos (implied in multa)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.768318+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.983086+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

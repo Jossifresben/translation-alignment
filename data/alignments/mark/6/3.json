@@ -97,39 +97,23 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2
       ],
       "peshitta": [
-        1
-      ],
-      "vulgate": [
+        0,
+        1,
         2
       ],
-      "variant": "aligned"
+      "vulgate": [
+        0,
+        1,
+        2
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the negative particle first (οὐχ οὗτός ἐστιν), while Peshitta uses inverted word order (ܠܐ ܗܘܐ ܗܢܐ, 'not is this') and Vulgate employs the compound interrogative Nonne ('Is it not?'). All three express the same rhetorical question but with tradition-specific syntax."
     },
     {
       "greek_nt": [
@@ -142,7 +126,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article ὁ with τέκτων ('the carpenter'), a standard Greek construction for definite nouns. Syriac ܢܓܪܐ and Latin faber lack articles, as neither language requires them for definiteness in this context."
     },
     {
       "greek_nt": [
@@ -159,7 +145,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs double articulation (ὁ υἱὸς τῆς Μαρίας, 'the son of the Mary') with genitive article, a characteristic Greek construction. Syriac ܒܪܗ ܕܡܪܝܡ and Latin filius Mariæ use simple construct/genitive forms without articles, reflecting their respective grammatical norms."
     },
     {
       "greek_nt": [
@@ -174,7 +162,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek includes δέ (now/and) as discourse marker; Peshitta/Vulgate use simple conjunction"
+      "type": "construction",
+      "note": "Greek uses καὶ ἀδελφὸς δέ ('and brother now'), employing both καί and the postpositive δέ for emphasis. Syriac ܘܐܚܘܗܝ ('and his brother') uses a simple conjunction with pronominal suffix. Latin frater uses no conjunction, treating it as apposition to the preceding phrase."
     },
     {
       "greek_nt": [
@@ -184,23 +173,15 @@
         7
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8
       ],
-      "variant": "minor",
-      "note": "Peshitta uses construct chain without explicit conjunction before second name"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
@@ -210,87 +191,59 @@
         9
       ],
       "variant": "minor",
-      "note": "Name variant: Greek Ἰωσῆτος, Peshitta ܝܘܣܐ (Yose), Vulgate Joseph"
+      "type": "lexical",
+      "note": "The name Ἰωσῆτος (Joses) appears in Greek, while Syriac has ܝܘܣܐ (Yose) and Vulgate has Joseph. These represent variant forms of the same Hebrew name Yosef, with Greek preserving a diminutive or Hellenized form, Syriac a shortened Aramaic form, and Latin the standard form."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "note": "Peshitta continues construct chain without conjunction"
-    },
-    {
-      "greek_nt": [
+        15,
         16
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "minor",
-      "note": "Peshitta continues construct chain without conjunction"
-    },
-    {
-      "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        13
+        12,
+        13,
+        14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ends the first rhetorical question after Σίμωνος with a semicolon, treating the brothers' list as part of the initial question. Vulgate places a full stop (question mark) here, creating two distinct questions. Syriac continues without punctuation break, maintaining a single flowing question."
     },
     {
       "greek_nt": [
         19,
-        20
+        20,
+        21
       ],
       "peshitta": [
-        11
+        11,
+        12
       ],
       "vulgate": [
         15,
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds demonstrative particle ܗܐ (behold/lo)"
-    },
-    {
-      "greek_nt": [
-        21
-      ],
-      "peshitta": [],
-      "vulgate": [
+        16,
         21
       ],
       "variant": "minor",
-      "note": "Peshitta verb implied in context, not explicit"
+      "type": "construction",
+      "note": "Greek uses καὶ οὐκ εἰσίν ('and are not'), continuing with simple negation. Vulgate employs nonne...sunt ('are they not?'), repeating the compound interrogative from the verse opening. Syriac uses ܘܠܐ ܗܐ ('and not behold'), adding the presentative particle ܗܐ for rhetorical emphasis."
     },
     {
       "greek_nt": [
@@ -305,85 +258,56 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article αἱ with ἀδελφαὶ αὐτοῦ ('the sisters of him'), employing both article and possessive pronoun. Syriac ܐܚܘܬܗ uses only the pronominal suffix (his-sisters), while Latin sorores ejus mirrors the Greek structure with possessive pronoun but no article."
     },
     {
       "greek_nt": [
-        25
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        25,
         26,
         27
       ],
       "peshitta": [
+        14,
         15
       ],
       "vulgate": [
-        20
+        19,
+        20,
+        22
       ],
       "variant": "minor",
-      "note": "Greek πρὸς ἡμᾶς (with us), Peshitta ܠܘܬܢ (with us), Vulgate nobiscum (with us) - stylistic variation"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned",
-      "note": "Vulgate sunt explicit; Greek/Peshitta have verb earlier in clause"
+      "type": "idiom",
+      "note": "Greek uses ὧδε πρὸς ἡμᾶς ('here with us'), a prepositional phrase. Latin employs hic nobiscum ('here with-us'), using the compound preposition. Syriac ܬܢܢ ܠܘܬܢ ('here among-us') uses a different preposition (ܠܘܬ) that emphasizes proximity or presence among a group."
     },
     {
       "greek_nt": [
-        28
-      ],
-      "peshitta": [],
-      "vulgate": [
-        23
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        29
-      ],
-      "peshitta": [
-        16,
-        17
-      ],
-      "vulgate": [
-        24
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        28,
+        29,
         30,
         31
       ],
       "peshitta": [
+        16,
+        17,
         18
       ],
       "vulgate": [
+        23,
+        24,
         25,
         26
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the imperfect ἐσκανδαλίζοντο ('they were being offended'), emphasizing ongoing or iterative action. Syriac ܡܬܟܫܠܝܢ ܗܘܘ employs the participle with auxiliary verb (were stumbling), a periphrastic construction. Latin scandalizabantur uses the simple imperfect, semantically equivalent to the Greek but morphologically simpler."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.761125+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.978073+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -89,7 +89,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,8 +102,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and participle in single token ܘܥܢܘ"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Peshitta combines the Greek participle ἀποκριθέντες ('answering') with the finite verb into a single compound form ܘܥܢܘ ('and they answered'), reflecting typical Syriac preference for finite verbal constructions over participial phrases. The Vulgate preserves the Greek participial structure with 'respondentes'."
     },
     {
       "greek_nt": [
@@ -117,7 +119,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek uses article + dative; Peshitta uses double prepositional prefix ܠܗ ܠܝܫܘܥ; Vulgate simple dative"
+      "type": "grammar",
+      "note": "Greek uses the dative article τῷ with Ἰησοῦ (dative case); Peshitta employs the preposition ܠ ('to') with the name ܠܝܫܘܥ; Vulgate uses the bare dative 'Jesu' without article, as Latin lacks definite articles."
     },
     {
       "greek_nt": [
@@ -129,7 +132,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -137,8 +141,9 @@
       "vulgate": [
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark direct speech, a punctuation convention absent in the Greek and Peshitta manuscript traditions which use different discourse markers."
     },
     {
       "greek_nt": [
@@ -152,7 +157,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -162,24 +168,34 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "note": "Peshitta omits coordinating conjunction before Jesus's response"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Vulgate use coordinating conjunctions (καὶ / Et) to introduce Jesus's response; the Peshitta omits the conjunction, proceeding directly to the verb ܐܡܪ, a common Syriac asyndetic construction in narrative transitions."
     },
     {
       "greek_nt": [
         8,
-        9,
-        10
+        9
       ],
-      "peshitta": [
-        6
-      ],
+      "peshitta": [],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
-      "note": "Greek uses article + name + participle; Peshitta simple verb ܐܡܪ; Vulgate participle + name"
+      "type": "grammar",
+      "note": "Greek employs the nominative article ὁ with Ἰησοῦς for emphasis or subject marking; Vulgate uses the bare name 'Jesus'; Peshitta omits the subject entirely, relying on verbal inflection to indicate third-person singular, a typical Semitic pro-drop feature."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist participle ἀποκριθεὶς ('answering'); Vulgate mirrors this with 'respondens'; Peshitta omits the participial construction entirely, incorporating the answering action into the main verb ܐܡܪ ('he said'), reflecting Syriac preference for finite verbal economy."
     },
     {
       "greek_nt": [
@@ -192,7 +208,7 @@
         9
       ],
       "variant": "aligned",
-      "note": "Greek λέγει aligned with Peshitta ܐܡܪ (same token as previous group) and Vulgate ait"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -204,7 +220,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -212,8 +229,9 @@
       "vulgate": [
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate again inserts a colon before Jesus's direct speech, a Latin punctuation convention not reflected in the Greek or Peshitta textual traditions."
     },
     {
       "greek_nt": [
@@ -227,7 +245,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Greek οὐδὲ (neither); Peshitta ܐܦ ܠܐ (also not); Vulgate neque (neither)"
+      "type": "lexical",
+      "note": "Greek uses the compound negative οὐδὲ ('neither/nor'); Vulgate employs 'Neque' (equivalent); Peshitta uses the emphatic particle ܐܦ ('also/even') combined with the negative ܠܐ, creating a two-word construction that intensifies the negation differently than the Greek compound."
     },
     {
       "greek_nt": [
@@ -241,7 +260,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Peshitta repeats pronoun ܐܢܐ for emphasis (tokens 10 and 12)"
+      "type": "word-order",
+      "note": "Greek places ἐγὼ ('I') immediately after οὐδὲ for emphasis; Vulgate follows with 'ego' in the same position; Peshitta splits the pronoun ܐܢܐ, placing it both after the negative (position 10) and repeating it after the verb ܐܡܪ (position 12), a Syriac emphatic doubling construction."
     },
     {
       "greek_nt": [
@@ -253,7 +273,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -265,7 +286,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -282,7 +304,8 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -294,7 +317,8 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -308,13 +332,14 @@
         20
       ],
       "variant": "minor",
-      "note": "Peshitta adds final pronoun ܐܢܐ after verb ܥܒܕ for emphasis"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the verb at the end (ποιῶ / faciam); Peshitta uses verb-subject order (ܥܒܕ ܐܢܐ, 'do I'), with the pronoun ܐܢܐ following the verb, reflecting standard Syriac VSO/VS syntax versus Greek/Latin SOV patterns in subordinate clauses."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.813556+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.020565+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

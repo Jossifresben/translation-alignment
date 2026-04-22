@@ -67,6 +67,29 @@
       "variant": "aligned"
     },
     {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate inserts 'veniunt ad domum' ('they come to the house'), providing a locative setting absent from both the Greek and Peshitta. This expansion likely reflects Western textual tradition or editorial clarification of the narrative context."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "added",
+      "type": "construction",
+      "note": "The Vulgate employs a coordinating conjunction 'et' to link the house-arrival clause with the crowd-gathering clause, creating a compound sentence structure not present in the Greek or Peshitta."
+    },
+    {
       "greek_nt": [
         1
       ],
@@ -76,8 +99,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "note": "Greek συνέρχεται, Peshitta ܐܬܟܢܫܘ (ethkanashu), Vulgate convenit all express 'gather/come together'"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses singular συνέρχεται ('comes together', 3rd person singular) with collective noun ὄχλος; Peshitta uses plural ܐܬܟܢܫܘ ('they gathered'); Vulgate uses singular convenit, mirroring Greek syntax but with different aspectual nuance (present vs. perfect)."
     },
     {
       "greek_nt": [
@@ -102,20 +126,17 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs article + noun (ὁ ὄχλος); Peshitta uses bare noun ܟܢܫܐ (definiteness contextually determined); Vulgate uses bare turba. The semantic content is identical but syntactic marking of definiteness differs across traditions."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        1,
-        2,
-        3,
-        4,
-        5
+        9
       ],
-      "variant": "added",
-      "note": "Vulgate adds 'veniunt ad domum :' (they come to the house), absent in Greek and Peshitta"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -125,10 +146,11 @@
         3
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὥστε ('so that', result clause marker) corresponds to Peshitta ܐܝܟܢܐ ('such that, how') and Vulgate ita ut ('so that'). All three introduce consecutive result clauses but employ tradition-specific conjunctive idioms."
     },
     {
       "greek_nt": [
@@ -146,6 +168,18 @@
       "greek_nt": [
         7
       ],
+      "peshitta": [],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses infinitive δύνασθαι ('to be able') with accusative subject αὐτούς; Peshitta employs imperfect ܢܫܟܚܘܢ ܗܘܘ ('they were able', periphrastic construction with auxiliary ܗܘܘ); Vulgate uses subjunctive possent. All express inability but through different modal constructions."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
       "peshitta": [
         5,
         6
@@ -153,17 +187,7 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "note": "Greek δύνασθαι (infinitive), Peshitta ܢܫܟܚܘܢ ܗܘܘ (imperfect with auxiliary), Vulgate possent (imperfect subjunctive)"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek αὐτοὺς (them/they) has no explicit equivalent in Peshitta or Vulgate, implied by verb forms"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -173,8 +197,7 @@
       "vulgate": [
         13
       ],
-      "variant": "minor",
-      "note": "Greek μηδὲ (not even), Vulgate neque; Peshitta lacks explicit particle, sense conveyed contextually"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -203,8 +226,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.742796+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:33:31.027120+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

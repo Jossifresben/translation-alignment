@@ -76,53 +76,38 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the conjunction δὲ second (postpositive); Syriac ܕܝܢ follows the same pattern; Latin autem appears third after the prepositional phrase, reflecting Latin stylistic preference for delaying conjunctions."
     },
     {
       "greek_nt": [
         2,
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "note": "Greek uses article + noun; Peshitta and Vulgate use bare noun"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        1,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the article + genitive noun + demonstrative (τῆς ἡμέρας ἐκείνης); Syriac employs the emphatic state noun + demonstrative pronoun (ܝܘܡܐ ܗܘ); Latin uses the bare noun + demonstrative (die illo). All three express 'that day' with equivalent definiteness through different grammatical strategies."
     },
     {
       "greek_nt": [
@@ -134,7 +119,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἤ ('or') is rendered by Syriac ܘܥܠ (literally 'and concerning'), which functions as a coordinating conjunction in this context; Latin vel is a direct semantic equivalent. The Syriac construction repeats the preposition ܥܠ for stylistic parallelism."
     },
     {
       "greek_nt": [
@@ -142,149 +129,101 @@
         7
       ],
       "peshitta": [
-        5
+        5,
+        6
       ],
       "vulgate": [
         5
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun; Peshitta and Vulgate use bare noun"
+      "type": "construction",
+      "note": "Greek repeats the article (τῆς ὥρας); Syriac uses the emphatic state noun + feminine demonstrative pronoun (ܫܥܬܐ ܗܝ); Latin uses the bare noun hora without article or demonstrative. The Syriac demonstrative provides definiteness parallel to the Greek article."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        7,
         8,
         9
       ],
       "vulgate": [
+        6,
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses negation + verb (ܠܐ ܝܕܥ); Greek and Vulgate integrate negation differently"
+      "type": "word-order",
+      "note": "Greek places the negative pronoun before the verb (οὐδεὶς οἶδεν); Syriac uses the indefinite ܐܢܫ ('anyone') followed by the negative particle ܠܐ and verb (ܐܢܫ ܠܐ ܝܕܥ), a standard Syriac negation pattern; Latin nemo scit mirrors the Greek order. All three express 'no one knows' with equivalent semantics."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
-        12
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "minor",
-      "note": "Greek uses article + noun; Peshitta and Vulgate use bare noun"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14,
         15
       ],
       "peshitta": [
+        10,
+        11,
         12
       ],
       "vulgate": [
+        8,
+        9,
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the negative conjunction + double article + noun + article + prepositional phrase (οὐδὲ οἱ ἄγγελοι οἱ ἐν οὐρανῷ); Syriac employs the compound negative ܐܦܠܐ + noun + genitive construct (ܡܠܐܟܐ ܕܫܡܝܐ, 'angels of heaven'); Latin uses neque + noun + prepositional phrase (angeli in cælo). The Syriac construct state and Latin prepositional phrase both render the Greek attributive participial construction with functional equivalence."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
         18
       ],
       "peshitta": [
+        13,
         14
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun; Peshitta and Vulgate use bare noun"
+      "type": "construction",
+      "note": "Greek uses the negative conjunction + article + noun (οὐδὲ ὁ υἱὸς); Syriac uses the compound negative + emphatic state noun (ܘܠܐ ܒܪܐ); Latin uses neque + noun (Filius). The Syriac and Latin omit the article, which is absent in both languages' nominal systems, while maintaining equivalent definiteness through context."
     },
     {
       "greek_nt": [
         19,
-        20
-      ],
-      "peshitta": [
-        15,
-        16
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        20,
         21,
         22
       ],
       "peshitta": [
+        15,
+        16,
         17
       ],
       "vulgate": [
+        14,
         15
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun; Peshitta and Vulgate use bare noun"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds demonstrative pronoun ܗܝ (that) for ܫܥܬܐ (hour), absent in Greek and Vulgate"
+      "type": "construction",
+      "note": "Greek uses the exceptive construction εἰ μὴ + article + noun (εἰ μὴ ὁ πατήρ); Syriac employs ܐܠܐ ܐܢ + noun (ܐܒܐ), a standard Syriac exceptive idiom; Latin uses nisi + noun (Pater). All three express 'except the Father' with equivalent restrictive force, though the Syriac uses a two-particle construction (ܐܠܐ ܐܢ) where Greek and Latin use single particles."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.827195+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.033240+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

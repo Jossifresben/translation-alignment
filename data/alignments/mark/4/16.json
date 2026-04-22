@@ -78,7 +78,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -94,7 +95,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses demonstrative ܗܠܝܢ ܐܢܘܢ (these are) with different word order"
+      "type": "word-order",
+      "note": "The Peshitta postpones the demonstrative pronoun and copula (ܗܠܝܢ ܐܢܘܢ) to follow the relative clause, whereas Greek and Latin place οὗτοί εἰσιν / hi sunt at the head of the sentence. This reflects typical Syriac preference for topic-comment structure with delayed predication."
     },
     {
       "greek_nt": [
@@ -105,7 +107,8 @@
         3
       ],
       "variant": "omitted",
-      "note": "Peshitta omits 'likewise/similarly' adverb"
+      "type": "omission",
+      "note": "The Peshitta omits the adverb ὁμοίως / similiter ('likewise'), which in Greek and Latin signals the parallel structure of the parable's second soil-type. Syriac relies on the coordinating conjunction ܘ and syntactic parallelism to convey the comparison."
     },
     {
       "greek_nt": [
@@ -126,7 +129,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an articular substantival participle construction (οἱ ἐπὶ τὰ πετρώδη σπειρόμενοι, 'those being sown upon the rocky places'); Latin mirrors this with a relative clause (qui super petrosa seminantur); Syriac employs a passive Ethpeal participle with prepositional phrase (ܕܥܠ ܫܘܥܐ ܐܙܕܪܥܘ, 'who upon the rocky-ground were-sown'), achieving semantic equivalence through different syntactic means."
     },
     {
       "greek_nt": [],
@@ -135,7 +140,8 @@
         8
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after seminantur to mark the transition from the identification of the seed-type to the description of their response. Neither Greek nor Peshitta manuscripts employ comparable punctuation at this juncture, though the syntactic break is implicit in the relative pronoun οἳ / ܕܡܐ."
     },
     {
       "greek_nt": [
@@ -149,23 +155,36 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the aorist subjunctive ἀκούσωσιν in a temporal clause with ὅταν, expressing indefinite future action; Latin uses the perfect subjunctive audierint with cum, a functional equivalent in temporal-conditional contexts; Syriac uses the perfect ܕܫܡܥܘ, which in this context functions as a gnomic or habitual perfect ('whenever they hear'), semantically aligned but morphologically distinct."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -177,7 +196,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -192,7 +212,8 @@
         15
       ],
       "variant": "minor",
-      "note": "Greek μετὰ χαρᾶς (with joy) vs Vulgate cum gaudio vs Peshitta ܒܚܕܘܬܐ - prepositional variation"
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase μετὰ χαρᾶς ('with joy', genitive of accompaniment); Latin employs cum gaudio (ablative of manner); Syriac uses the prepositional phrase ܒܚܕܘܬܐ (beth of instrument/manner). All three express the same adverbial modification of manner, differing only in the morphosyntactic realization of the prepositional government."
     },
     {
       "greek_nt": [
@@ -204,7 +225,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -216,7 +238,8 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -225,13 +248,14 @@
         18
       ],
       "variant": "added",
-      "note": "Vulgate adds final colon punctuation"
+      "type": "punctuation",
+      "note": "The Vulgate appends a final colon after illud, marking the end of the sentence and preparing for the subsequent verse. This is a Latin scribal convention not reflected in Greek or Peshitta manuscript traditions, which typically use spacing or paragraph markers rather than internal punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.747824+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.965506+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

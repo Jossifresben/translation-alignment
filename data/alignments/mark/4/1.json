@@ -117,28 +117,23 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction, uses ܕܝܢ (dēn) instead"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning instead with ܬܘܒ ܕܝܢ ('again, however'), which combines the adverb with a contrastive particle. This reflects a stylistic preference in Syriac for ܕܝܢ to mark narrative transitions rather than simple καί."
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
         1
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܕܝܢ (dēn) 'but/now' as discourse marker"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "The Peshitta renders πάλιν ('again') with ܬܘܒ ܕܝܢ ('again, however'), adding the contrastive particle ܕܝܢ which has no equivalent in the Greek or Latin. This is a characteristic Syriac narrative marker that adds mild adversative nuance absent from the simple adverb in the other traditions."
     },
     {
       "greek_nt": [
@@ -151,7 +146,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple aorist ἤρξατο ('he began'), Latin mirrors with cœpit, but Peshitta employs the periphrastic construction ܫܪܝ ܗܘܐ (literally 'began he-was'), a standard Syriac way of expressing inceptive aspect with the auxiliary ܗܘܐ. Semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -181,16 +178,20 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܥܠ ܝܕ 'beside/by' (lit. 'upon hand of'), Greek παρά, Vulgate ad"
+      "type": "idiom",
+      "note": "Greek παρὰ τὴν θάλασσαν ('beside the sea') and Latin ad mare employ simple prepositions. Peshitta uses the compound prepositional phrase ܥܠ ܝܕ ܝܡܐ (literally 'upon the hand of the sea'), a Semitic idiom meaning 'beside/along' that is more elaborate than the Greek or Latin constructions."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        6
+      ],
       "peshitta": [],
       "vulgate": [
         6
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "omitted",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after mare to mark a major clause boundary, reflecting Latin rhetorical punctuation practice. Neither the Greek nor the Peshitta traditions employ punctuation at this juncture, treating the narrative as continuous."
     },
     {
       "greek_nt": [
@@ -216,7 +217,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek present passive, Peshitta ethpeal perfect, Vulgate perfect passive participle"
+      "type": "grammar",
+      "note": "Greek uses the present passive συνάγεται ('is gathered', singular agreeing with ὄχλος), Peshitta uses the ethpeal ܘܐܬܟܢܫܘ (plural, treating the crowd as collective individuals). Latin employs the perfect passive congregata est (feminine singular agreeing with turba), reflecting different aspectual and number conventions across the three traditions."
     },
     {
       "greek_nt": [
@@ -234,28 +236,20 @@
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "minor",
-      "note": "Greek πλεῖστος 'very great', Peshitta ܣܓܝܐܐ 'many', Vulgate multa 'much'"
+      "type": "word-order",
+      "note": "Greek places the adjective after the noun (ὄχλος πλεῖστος), Latin follows the same order (turba multa), but Peshitta reverses to ܟܢܫܐ ܣܓܝܐܐ (noun-adjective), which is the standard Syriac attributive construction. The Vulgate also substitutes multa ('much/great') for the superlative πλεῖστος ('very great'), a minor lexical shift."
     },
     {
       "greek_nt": [
@@ -268,25 +262,20 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὥστε ('so that') is rendered by Peshitta ܐܝܟ ('as/so that') and Latin ita ut ('thus that'). The Peshitta uses a simpler comparative particle, while Latin employs a two-word correlative construction, both conveying result but with different syntactic weight."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek explicit pronoun αὐτόν omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
         16,
         17
       ],
       "peshitta": [
         13,
+        15,
         16
       ],
       "vulgate": [
@@ -294,7 +283,8 @@
         17
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek 'into boat having-entered', Peshitta 'ascend in-boat', Vulgate 'boat ascending'"
+      "type": "construction",
+      "note": "Greek uses accusative + participle construction (αὐτὸν εἰς πλοῖον ἐμβάντα, 'him having embarked into a boat'), Latin mirrors with accusative + participle (navim ascendens), but Peshitta restructures with a purpose clause ܕܢܣܩ ... ܒܣܦܝܢܬܐ ('that he might ascend ... in the boat'), employing the subjunctive rather than a participial construction."
     },
     {
       "greek_nt": [],
@@ -303,7 +293,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܠܗ 'to him' ethical dative"
+      "type": "gloss",
+      "note": "The Peshitta inserts the dative pronoun ܠܗ ('for him/to him') before 'in the boat', an explanatory addition clarifying that Jesus entered the boat for his own purpose. This pronoun has no equivalent in the Greek or Latin and represents a typical Syriac clarifying gloss."
     },
     {
       "greek_nt": [
@@ -316,7 +307,9 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular infinitive τὸ καθῆσθαι ('the sitting', purpose/result), Latin uses the simple infinitive sederet (subjunctive in result clause), and Peshitta uses the imperfect ܢܬܒ ('he might sit'), reflecting three different ways of expressing purpose: Greek nominal, Latin subjunctive, Syriac imperfect."
     },
     {
       "greek_nt": [
@@ -359,7 +352,9 @@
         22,
         23
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses the attributive construction πᾶς ὁ ὄχλος ('all the crowd'), Latin omnis turba mirrors this, but Peshitta employs ܘܟܠܗ ܟܢܫܐ (literally 'and-all-of-it crowd'), using a pronominal suffix on 'all' rather than the article, a standard Syriac construction for totality that differs syntactically from the Greek article + adjective pattern."
     },
     {
       "greek_nt": [
@@ -377,7 +372,8 @@
         25
       ],
       "variant": "minor",
-      "note": "Greek πρὸς τὴν θάλασσαν 'toward the sea', Peshitta ܥܠ ܝܕ ܝܡܐ 'beside the sea', Vulgate circa mare 'around the sea'"
+      "type": "substitution",
+      "note": "Greek πρὸς τὴν θάλασσαν ('toward/by the sea') is rendered by Peshitta with the same compound idiom as earlier, ܥܠ ܝܕ ܝܡܐ ('upon the hand of the sea'). Latin substitutes circa mare ('around the sea'), which conveys a different spatial relationship (surrounding rather than alongside), representing a minor interpretive shift in the crowd's positioning."
     },
     {
       "greek_nt": [
@@ -393,7 +389,9 @@
         26,
         27
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἐπὶ τῆς γῆς ('on the land') places the prepositional phrase after πρὸς τὴν θάλασσαν, Latin super terram follows the same sequence. Peshitta reverses the order, placing ܥܠ ܐܪܥܐ ('on the land') before the second occurrence of ܥܠ ܝܕ ܝܡܐ ('by the sea'), creating a chiastic spatial description (land-sea vs. sea-land) that emphasizes the contrast differently."
     },
     {
       "greek_nt": [
@@ -407,7 +405,8 @@
         28
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܩܐܡ ܗܘܐ 'was standing' vs Greek/Vulgate ἦσαν/erat 'was/were'"
+      "type": "construction",
+      "note": "Greek uses the simple imperfect ἦσαν ('they were'), Latin erat (singular agreeing with turba). Peshitta employs the periphrastic ܩܐܡ ܗܘܐ (literally 'standing he-was'), using the participle 'standing' with the auxiliary to emphasize the durative aspect of the crowd's position, adding a nuance of posture absent from the Greek and Latin simple verbs."
     },
     {
       "greek_nt": [],
@@ -416,12 +415,13 @@
         29
       ],
       "variant": "added",
-      "note": "Vulgate adds final colon punctuation"
+      "type": "punctuation",
+      "note": "The Vulgate concludes with a colon, marking the end of the pericope and signaling a major discourse boundary before the parable teaching that follows. Neither the Greek nor Peshitta traditions employ terminal punctuation here, treating the verse as transitional rather than conclusive."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.745307+00:00",
+    "generated_at": "2026-04-22T12:26:01.879150+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

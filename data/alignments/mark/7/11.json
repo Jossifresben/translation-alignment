@@ -81,7 +81,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -93,61 +94,40 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         2
       ],
       "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        2,
         3
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds redundant pronoun ܐܢܬܘܢ for emphasis"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta adds a redundant subject pronoun ܐܢܬܘܢ ('you') after the verb ܐܡܪܝܢ ('say'), creating emphasis through repetition. The Vulgate colon marks direct discourse; Greek uses a raised dot (here transcribed as colon), both functioning as punctuation rather than lexical divergence."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -159,7 +139,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -172,7 +153,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article τῷ with dative πατρί; Syriac uses the preposition ܠ with a pronominal suffix ܠܐܒܘܗܝ ('to his father'), making the possessive relationship explicit. Latin patri with comma implies dative without article, following Latin's articleless grammar."
     },
     {
       "greek_nt": [
@@ -184,7 +167,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -197,7 +181,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article τῇ with dative μητρί; Syriac employs ܠܐܡܗ ('to his mother') with pronominal suffix, paralleling the construction for 'father'. Latin matri follows the same articleless dative pattern as patri, with comma marking the end of the recipient list."
     },
     {
       "greek_nt": [
@@ -209,7 +195,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -224,71 +211,39 @@
         13
       ],
       "variant": "major",
-      "note": "Greek and Vulgate include parenthetical gloss 'which is a gift'; Peshitta omits explanation"
+      "type": "omission",
+      "note": "The Peshitta omits the parenthetical gloss ὅ ἐστιν δῶρον ('which is a gift'), present in both Greek and Latin (quod est donum). This explanatory clause translates the Aramaic loanword κορβᾶν/Corban for Greek and Latin audiences unfamiliar with the technical term for temple offerings; the Syriac tradition, using the cognate ܩܘܪܒܢܝ, requires no such explanation."
     },
     {
       "greek_nt": [
         15,
-        16
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "minor",
-      "note": "Greek ὃ ἐὰν 'whatever if' vs Peshitta ܡܕܡ 'anything' vs Vulgate quodcumque 'whatsoever' - stylistic variation"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
-        18
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        15,
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        17
-      ],
-      "variant": "added",
-      "note": "Vulgate adds explicit dative tibi 'to you' for clarity"
-    },
-    {
-      "greek_nt": [
+        18,
         19
       ],
       "peshitta": [
+        11,
+        12,
         13
       ],
       "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        14,
+        15,
+        16,
+        17,
+        18,
         19
       ],
-      "variant": "added",
-      "note": "Vulgate adds closing colon punctuation"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek constructs a relative clause with ὃ ἐὰν ἐξ ἐμοῦ ὠφεληθῇς ('whatever from me you might be profited'), using the indefinite relative pronoun and aorist passive subjunctive. Latin mirrors this with quodcumque ex me tibi profuerit, adding the explicit dative pronoun tibi ('to you') and using future perfect indicative. Syriac radically simplifies to ܡܕܡ ܕܡܢܝ ܬܐܬܪ ('anything that from me you-profit'), employing the indefinite ܡܕܡ and a terse relative construction without the conditional particle, resulting in a more direct statement."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.774191+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.989009+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

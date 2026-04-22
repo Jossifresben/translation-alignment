@@ -64,3 +64,20 @@ def test_confidence_out_of_range_fails(valid_alignment):
     valid_alignment["meta"]["confidence"] = 1.5
     with pytest.raises(AlignmentValidationError, match="confidence"):
         validate_alignment(valid_alignment)
+
+
+def test_type_field_is_optional(valid_alignment):
+    # No type field — should pass
+    validate_alignment(valid_alignment)
+
+
+def test_valid_type_passes(valid_alignment):
+    valid_alignment["alignment"][0]["type"] = "agreement"
+    valid_alignment["alignment"][1]["type"] = "construction"
+    validate_alignment(valid_alignment)
+
+
+def test_invalid_type_fails(valid_alignment):
+    valid_alignment["alignment"][0]["type"] = "bogus"
+    with pytest.raises(AlignmentValidationError, match="type"):
+        validate_alignment(valid_alignment)

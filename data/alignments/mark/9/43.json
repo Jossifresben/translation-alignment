@@ -84,27 +84,21 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek conjunction καὶ omitted in both Peshitta and Vulgate; Vulgate verse is textually different (Mark 9:44 interpolation)"
+      "type": "omission",
+      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate. The Vulgate verse corresponds to a different Greek textual unit (Mark 9:44, a disputed verse absent from critical editions), while the Peshitta begins the conditional clause without a coordinating conjunction."
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Conditional particle present in Greek/Peshitta but Vulgate represents different verse entirely"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        0,
         1
       ],
       "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܕܝܢ (dēn, 'but/now') added for stylistic transition"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἐάν ('if') is rendered by Peshitta ܐܢ ܕܝܢ ('but if'), introducing a contrastive particle ܕܝܢ absent from the Greek. The Vulgate omits the conditional entirely, as it transmits a different verse (Mark 9:44)."
     },
     {
       "greek_nt": [
@@ -116,8 +110,7 @@
         3
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Cause-to-stumble clause absent from Vulgate (different verse)"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -130,7 +123,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Greek article + noun + pronoun vs Peshitta pronominal suffix on ܐܝܕܟ (your hand)"
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (ἡ χείρ σου, 'the hand of you'); Peshitta employs a pronominal suffix on the noun (ܐܝܕܟ, 'your-hand'), a standard Semitic construction eliminating the need for separate article and possessive."
     },
     {
       "greek_nt": [
@@ -147,26 +141,19 @@
       "greek_nt": [
         9,
         10,
-        11
+        11,
+        12
       ],
       "peshitta": [
         6,
         7,
-        8
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek καλόν ἐστίν σε vs Peshitta ܦܩܚ ܗܘ ܠܟ; different word order and construction for 'it is better for you'"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
+        8,
         9
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an impersonal construction with copula (καλόν ἐστίν σε κυλλὸν, 'good it-is for-you crippled'); Peshitta employs an active participle with copula (ܦܩܚ ܗܘ ܠܟ ܦܫܝܓܐ, 'better is-it for-you maimed'), expressing the same comparative sense through different syntactic means."
     },
     {
       "greek_nt": [
@@ -196,27 +183,20 @@
       "greek_nt": [
         18,
         19,
-        20
-      ],
-      "peshitta": [
-        16,
-        17
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        20,
         21
       ],
       "peshitta": [
         13,
         14,
-        15
+        15,
+        16,
+        17
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Greek participle ἔχοντα vs Peshitta ܟܕ ܐܝܬ ܠܟ (when there is to you); different syntactic construction"
+      "type": "construction",
+      "note": "Greek uses accusative article + numeral + noun + participle (τὰς δύο χεῖρας ἔχοντα, 'the two hands having'); Peshitta employs a temporal particle + existential verb + dative pronoun + numeral + noun (ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܐܝܕܝܢ, 'while there-are to-you two hands'), a periphrastic construction semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -241,13 +221,6 @@
         30
       ],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek phrase 'into the unquenchable fire' omitted in Peshitta"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         0,
         1,
@@ -260,12 +233,13 @@
         8
       ],
       "variant": "major",
-      "note": "Vulgate represents Mark 9:44 interpolation ('where their worm does not die and the fire is not quenched'), not present in critical Greek text or Peshitta at this location"
+      "type": "substitution",
+      "note": "Greek concludes with εἰς τὸ πῦρ τὸ ἄσβεστον ('into the fire the unquenchable'), which the Peshitta omits entirely. The Vulgate instead transmits 'ubi vermis eorum non moritur, et ignis non extinguitur' ('where their worm does not die, and the fire is not quenched'), corresponding to the disputed Mark 9:44, a verse absent from critical Greek editions but present in the Western textual tradition. This represents a major textual divergence between manuscript families."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.791565+00:00",
+    "generated_at": "2026-04-22T12:17:08.006502+00:00",
     "confidence": 0.75,
     "schema_version": 1
   }

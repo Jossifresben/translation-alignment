@@ -73,7 +73,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -86,7 +87,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܬܘ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,7 +99,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -111,7 +113,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek χωρίον 'place/field' vs Vulgate prædium 'estate/farm' - stylistic variation"
+      "type": "lexical",
+      "note": "Greek χωρίον ('place, plot') and Syriac ܠܕܘܟܬܐ ('place') are generic locatives, whereas Latin prædium specifically denotes 'estate, farm, landed property,' reflecting a more precise rendering of the agricultural context of Gethsemane."
     },
     {
       "greek_nt": [
@@ -128,7 +131,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek relative clause 'of which the name' vs Peshitta/Vulgate relative pronoun + 'called/name'"
+      "type": "construction",
+      "note": "Greek employs a relative clause with article (οὗ τὸ ὄνομα, 'of which the name'); Latin mirrors this with cui nomen ('to which [is] name'); Syriac uses a relative pronoun plus passive participle (ܐܝܕܐ ܕܡܬܩܪܝܐ, 'which is called'), a standard Semitic construction for naming formulae."
     },
     {
       "greek_nt": [
@@ -140,7 +144,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -152,7 +157,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -165,7 +171,7 @@
         8
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܡܪ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -180,7 +186,9 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + dative noun + possessive pronoun (τοῖς μαθηταῖς αὐτοῦ, 'to the disciples of him'); Latin employs noun + possessive adjective (discipulis suis); Syriac attaches a pronominal suffix directly to the noun (ܠܬܠܡܝܕܘܗܝ, 'to-his-disciples'), the typical Semitic possessive construction."
     },
     {
       "greek_nt": [],
@@ -189,7 +197,8 @@
         11
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark direct discourse, a Latin scribal convention not reflected in Greek or Syriac manuscripts, which rely on context or verb of speaking to signal quotation boundaries."
     },
     {
       "greek_nt": [
@@ -201,7 +210,9 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καθίσατε ('sit down,' aorist imperative of καθίζω) and Latin sedete (present imperative of sedeo) both denote sitting; Syriac ܬܒܘ (imperative of ܝܬܒ) is the cognate Semitic root, semantically identical but morphologically distinct."
     },
     {
       "greek_nt": [
@@ -213,7 +224,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -225,27 +237,38 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἕως ('until, while') and Syriac ܥܕ ('until') are temporal conjunctions governing the subjunctive; Latin donec ('until, while') is functionally equivalent but governs the subjunctive orem, whereas Greek uses the aorist subjunctive προσεύξωμαι."
     },
     {
       "greek_nt": [
         16
       ],
       "peshitta": [
-        10,
-        11
+        10
       ],
       "vulgate": [
         15
       ],
-      "variant": "minor",
-      "note": "Peshitta uses participle + pronoun construction; Greek/Vulgate use subjunctive alone"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "Syriac adds the independent pronoun ܐܢܐ ('I') after the verb ܡܨܠܐ ('I pray'), a common Semitic stylistic feature for emphasis or clarity, though the verb already encodes first-person singular; neither Greek nor Latin require or transmit this pronoun."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.833775+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.039783+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

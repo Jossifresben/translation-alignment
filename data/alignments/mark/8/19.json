@@ -77,7 +77,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -88,31 +89,24 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds demonstrative 'these' (ܗܠܝܢ); Greek/Vulgate use article only"
+      "type": "expansion",
+      "note": "The Peshitta inserts the demonstrative pronoun ܗܠܝܢ ('these') to specify the loaves, making explicit what is implicit in the Greek article τοὺς. The Vulgate omits any demonstrative or article, rendering the construction more economically."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -124,23 +118,13 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         5,
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
@@ -148,70 +132,37 @@
         6
       ],
       "vulgate": [
+        4,
         5,
         6
       ],
       "variant": "minor",
-      "note": "Greek compound πεντακισχιλίους vs. Peshitta/Vulgate two-word construction 'five thousand'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "type": "construction",
+      "note": "Greek uses the preposition εἰς with article and compound numeral πεντακισχιλίους ('into the five thousand'); Latin mirrors this with in + accusative; Syriac employs the preposition ܠ with the simple construction ܚܡܫܐ ܐܠܦܝܢ ('five thousands'), omitting the article—a typical Semitic pattern for definite numerical expressions."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
+        9,
+        10,
         11
       ],
       "peshitta": [
+        7,
+        8,
+        9,
         10,
         11
       ],
       "vulgate": [
+        8,
+        9,
+        10,
         11
       ],
       "variant": "minor",
-      "note": "Peshitta uses temporal particle ܟܕ 'when/while' with participle ܡܠܝܢ; Greek/Vulgate use simple adjective"
+      "type": "construction",
+      "note": "Greek employs a single attributive adjective phrase (πόσους κοφίνους κλασμάτων πλήρεις, 'how many baskets full of fragments'); Syriac inserts a second temporal particle ܟܕ ('when/while') before ܡܠܝܢ ('full'), creating a circumstantial clause construction; Latin follows Greek word order with quot cophinos fragmentorum plenos but uses the genitive fragmentorum where Greek uses the genitive κλασμάτων—both traditions employ parallel genitive constructions, while Syriac's ܕܩܨܝܐ ('of fragments') with ܟܕ ܡܠܝܢ restructures the syntax."
     },
     {
       "greek_nt": [
@@ -221,51 +172,30 @@
         12
       ],
       "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        12,
         13
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation question mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek marks the interrogative with a semicolon after ἤρατε; Vulgate inserts a colon after sustulistis and adds an explicit question mark, creating a two-part punctuation structure; Syriac follows Greek in treating the question as a single unit without internal punctuation."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        13,
         14
       ],
       "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        14,
+        15,
         16
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses λέγουσιν αὐτῷ with a raised dot (·) to introduce direct speech; Latin employs Dicunt ei with a colon, creating a more formal punctuation break; Syriac ܐܡܪܝܢ ܠܗ follows Greek in using minimal punctuation to introduce the response."
     },
     {
       "greek_nt": [
@@ -277,13 +207,14 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.781141+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.996697+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

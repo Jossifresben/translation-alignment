@@ -57,86 +57,42 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek ὃς (who/whoever) and Peshitta ܡܢ (who) present; Vulgate appears to be from a different verse (Mark 9:41 vs 9:40)"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
-        3
+        0
       ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek γὰρ (for) and Peshitta ܗܟܝܠ (therefore/then) are discourse particles; Vulgate text is completely different verse"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
+      "vulgate": [
+        0,
         1
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses relative pronoun ὃς with explanatory particle γάρ ('for whoever'); Peshitta employs indefinite relative ܡܢ ('whoever'); Vulgate uses compound indefinite Quisquis with enim ('for'), mirroring Greek structure more closely than Syriac."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
+        3,
         4,
         5
       ],
       "peshitta": [
+        1,
+        2,
+        3,
         4
       ],
       "vulgate": [],
-      "variant": "minor",
-      "note": "Greek καθ᾽ ἡμῶν (against us) vs Peshitta ܠܘܩܒܠܟܘܢ (against you); person shift 1pl→2pl"
-    },
-    {
-      "greek_nt": [
-        6,
-        7
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek ὑπὲρ ἡμῶν (for us) vs Peshitta ܚܠܦܝܟܘܢ (for you); person shift 1pl→2pl"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek and Peshitta attest the negative construction 'who is not against us' (οὐκ ἔστιν καθ᾽ ἡμῶν / ܕܠܐ ܗܘܐ ܠܘܩܒܠܟܘܢ). The Vulgate transmits an entirely different verse (Mark 9:41, the cup-of-water saying), indicating either a manuscript tradition conflating verses or a scribal error in the provided Vulgate tokens."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        0,
-        1,
         2,
         3,
         4,
@@ -157,14 +113,29 @@
         19,
         20
       ],
-      "variant": "major",
-      "note": "Vulgate text is entirely from Mark 9:41 (cup of water saying), not Mark 9:40 (whoever is not against us)"
+      "variant": "added",
+      "type": "expansion",
+      "note": "Vulgate includes the complete text of Mark 9:41 ('Whoever gives you a cup of water in my name, because you are Christ's, amen I say to you, he will not lose his reward'), which is absent from both Greek and Peshitta witnesses for this verse (Mark 9:40). This represents either a versification discrepancy or textual corruption in the supplied Vulgate data."
+    },
+    {
+      "greek_nt": [
+        6,
+        7,
+        8
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.791052+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.006066+00:00",
+    "confidence": 0.45,
     "schema_version": 1
   }
 }

@@ -85,7 +85,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,7 +99,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek ἀναστενάξας (sighed deeply) vs Peshitta ܐܬܬܢܚ (groaned/sighed) vs Vulgate ingemiscens (groaning) - synonymous expressions"
+      "type": "lexical",
+      "note": "Greek ἀναστενάξας ('having sighed deeply') and Latin ingemiscens ('groaning') both denote audible distress, but the Peshitta ܘܐܬܬܢܚ ('and he sighed/groaned') is conflated with the conjunction, reflecting a single Syriac verb form where Greek uses a participle."
     },
     {
       "greek_nt": [
@@ -112,7 +114,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the dative construction τῷ πνεύματι αὐτοῦ ('in his spirit') with article and possessive pronoun; Latin uses the ablative spiritu without article or possessive; Syriac ܒܪܘܚܗ ('in his spirit') mirrors the Greek structure with pronominal suffix but lacks the article, a typical Semitic pattern."
     },
     {
       "greek_nt": [
@@ -122,18 +126,12 @@
         2
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek λέγει has an embedded punctuation mark (·); Vulgate separates ait from the following question with a colon (:); Peshitta ܘܐܡܪ ('and he said') continues without punctuation, reflecting different scribal conventions for introducing direct speech."
     },
     {
       "greek_nt": [
@@ -145,7 +143,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -163,7 +162,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek article-noun-demonstrative vs Peshitta noun-generation-this vs Vulgate noun-demonstrative"
+      "type": "word-order",
+      "note": "Greek places the article ἡ before γενεὰ αὕτη ('this generation'); Vulgate omits the article and uses generatio ista in natural Latin order; Peshitta ܐܬܐ ܫܪܒܬܐ ܗܕܐ ('sign generation this') employs Semitic word order with the demonstrative following the noun, and uses ܐܬܐ ('sign') before ܫܪܒܬܐ ('generation'), anticipating the object of the verb."
     },
     {
       "greek_nt": [
@@ -175,74 +175,46 @@
       "vulgate": [
         9
       ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        5,
+        6,
+        7
+      ],
+      "vulgate": [
+        8,
+        10
+      ],
       "variant": "minor",
-      "note": "Word order: Greek places verb before object, Peshitta and Vulgate after interrogative"
+      "type": "word-order",
+      "note": "Greek σημεῖον appears at the end of the question with a semicolon; Vulgate places signum before the verb quærit and closes with a question mark (?); Peshitta front-loads ܐܬܐ ('sign') at the beginning of the clause (already aligned above), reflecting typical Syriac topicalization of the direct object."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "added",
-      "note": "Vulgate adds question mark as separate token"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta explicitly includes first-person pronoun ܐܢܐ (I), implicit in Greek/Vulgate verb forms"
-    },
-    {
-      "greek_nt": [
+        12,
+        13,
         14
       ],
       "peshitta": [
+        8,
+        9,
+        10,
         11
       ],
       "vulgate": [
+        11,
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Greek ἀμὴν λέγω ὑμῖν ('Amen I say to you') and Latin Amen dico vobis are structurally identical; Peshitta ܐܡܝܢ ܐܡܪ ܐܢܐ ܠܟܘܢ ('Amen say I to you') adds the independent pronoun ܐܢܐ ('I') for emphasis, a common Syriac stylistic feature when the subject is already marked on the verb."
     },
     {
       "greek_nt": [
@@ -255,7 +227,8 @@
         14
       ],
       "variant": "major",
-      "note": "Greek εἰ (if) as oath formula meaning 'surely not' vs Peshitta ܕܠܐ (that not) explicit negation vs Vulgate si (if) - different syntactic strategies for emphatic negation"
+      "type": "substitution",
+      "note": "Greek εἰ functions as a Hebraic oath formula meaning 'surely not' (elliptical negative oath); Latin si dabitur preserves the conditional 'if' but loses the idiomatic force; Peshitta ܕܠܐ ('that not') makes the negation explicit with the negative particle ܠܐ, transforming the elliptical oath into a direct negative statement ('that there will not be given'), a clarifying interpretive rendering."
     },
     {
       "greek_nt": [
@@ -267,16 +240,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds pronominal suffix ܠܗ (to it) for emphasis"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -285,6 +250,7 @@
         19
       ],
       "peshitta": [
+        14,
         15,
         16,
         17
@@ -293,25 +259,30 @@
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τῇ γενεᾷ ταύτῃ ('to this generation') uses dative case with article and postpositive demonstrative; Latin generationi isti mirrors this with dative and demonstrative; Peshitta ܠܗ ܐܬܐ ܠܫܪܒܬܐ ܗܕܐ ('to it sign to generation this') inserts the resumptive pronoun ܠܗ ('to it') before repeating ܐܬܐ ('sign') and ܠܫܪܒܬܐ ܗܕܐ ('to this generation'), a Semitic double-marking construction for emphasis and clarity."
     },
     {
       "greek_nt": [
         20
       ],
       "peshitta": [
-        15
+        15,
+        16,
+        17
       ],
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.780106+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.995547+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

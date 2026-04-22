@@ -53,8 +53,9 @@
         0,
         1
       ],
-      "variant": "aligned",
-      "note": "Greek crasis κἀκεῖνοι = καὶ ἐκεῖνοι; Vulgate separates as 'et illi'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the crasis κἀκεῖνοι (καὶ + ἐκεῖνοι) combining conjunction and demonstrative pronoun into a single token. Latin separates these as 'et illi', while Syriac uses the simple conjunction-pronoun ܘܗܢܘܢ. All three convey 'and they' with identical semantics but different morphological strategies."
     },
     {
       "greek_nt": [
@@ -66,7 +67,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -79,7 +81,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta ܐܡܪܘ (said/told) vs Greek ἀπήγγειλαν (announced/reported); Vulgate nuntiaverunt closer to Greek"
+      "type": "lexical",
+      "note": "Greek ἀπαγγέλλω ('announce, report') is rendered by Syriac ܐܡܪܘ (root ܐܡܪ, 'say, tell') and Latin 'nuntiaverunt' ('announced'). The Peshitta employs a more general verb of speech, while Greek and Latin use specialized verbs of formal announcement, though all convey the act of reporting the resurrection appearance."
     },
     {
       "greek_nt": [
@@ -92,7 +95,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -100,8 +104,9 @@
       "vulgate": [
         5
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta tokens"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'ceteris' to mark a stronger pause before the negative clause. Neither the Greek nor Peshitta traditions employ punctuation at this juncture, maintaining continuous syntax from the reporting to the disbelief."
     },
     {
       "greek_nt": [
@@ -114,8 +119,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "note": "Greek οὐδὲ = Peshitta ܐܦ ܠܐ (also not) = Vulgate nec"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the single negative conjunction οὐδέ ('neither, nor'), Latin employs 'nec' (equivalent negative conjunction), while Syriac uses the compound negative ܐܦ ܠܐ ('also not', emphatic negation). The Peshitta's two-token construction adds slight emphasis but conveys the same semantic force as the Greek and Latin single-token negatives."
     },
     {
       "greek_nt": [
@@ -127,7 +133,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -139,13 +146,14 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.852462+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.056368+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

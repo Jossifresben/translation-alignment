@@ -54,17 +54,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐὰν and Latin si both introduce a conditional protasis, but the Peshitta ܘܐܢ combines the conjunction ܘ ('and') with the conditional particle ܐܢ, reflecting typical Semitic paratactic style where coordinating and subordinating functions merge."
     },
     {
       "greek_nt": [
@@ -91,7 +103,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐφ᾽ ἑαυτήν ('against itself') uses the preposition ἐπί with accusative reflexive; Latin super semetipsam employs super with an intensified reflexive pronoun; Syriac ܥܠ ܢܦܫܗ uses ܥܠ ('upon/against') with ܢܦܫܗ ('its soul/self'), a standard Semitic reflexive idiom—all semantically equivalent but lexically distinct."
     },
     {
       "greek_nt": [
@@ -103,47 +117,53 @@
       "vulgate": [
         5
       ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek μερισθῇ (aorist passive subjunctive of μερίζω, 'to divide') and Latin dispertiatur (present passive subjunctive of dispertior) both denote division; Syriac ܢܬܦܠܓ (ethpeal of ܦܠܓ) is cognate with Hebrew פלג and conveys the same semantic range, though the Syriac employs the reflexive-passive stem typical of Northwest Semitic."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
         7
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek δυνήσεται (future middle indicative of δύναμαι, 'will be able') contrasts with Latin potest (present indicative of possum, 'is able') and Syriac ܡܫܟܚ (participle of ܫܟܚ, 'able/finding'), reflecting different aspectual choices: Greek future, Latin gnomic present, Syriac participial construction—functionally equivalent in this modal context."
     },
     {
       "greek_nt": [
         8,
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἡ οἰκία ἐκείνη uses the article plus demonstrative ἐκείνη ('that house'); Latin domus illa mirrors this with the demonstrative illa; Syriac ܒܝܬܐ ܗܘ employs the pronoun ܗܘ ('that [one]') as a post-positive demonstrative, a typical Semitic construction where the demonstrative follows the noun without an article (Syriac lacks the definite article)."
     },
     {
       "greek_nt": [
@@ -160,8 +180,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.743561+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T12:17:07.961077+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

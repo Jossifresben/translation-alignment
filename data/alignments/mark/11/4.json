@@ -75,7 +75,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek uses double καί with δέ; Peshitta simple ܘ; Vulgate 'Et abeuntes' (and going away)"
+      "type": "substitution",
+      "note": "Greek employs a double conjunction καὶ...δὲ καὶ ('and...now and'), creating a narrative transition with mild contrast. Peshitta simplifies to ܘܐܙܠܘ (w-'ezal-w, 'and they went'), omitting the contrastive particle. Vulgate uses Et abeuntes ('And going'), rendering the participial construction without the contrastive nuance."
     },
     {
       "greek_nt": [
@@ -129,7 +130,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek πρὸς τὴν θύραν (toward/at the door); Peshitta ܥܠ ܬܪܥܐ (on/at door); Vulgate 'ante januam' (before door) - slight prepositional variation"
+      "type": "lexical",
+      "note": "Greek πρὸς τὴν θύραν ('toward/at the door') uses the directional preposition πρός with accusative. Peshitta ܥܠ ܬܪܥܐ ('al tar'ā, 'upon/at the door') employs ܥܠ, typically 'upon' but here locative. Vulgate ante januam ('before the door') uses ante, emphasizing position in front of rather than mere proximity—a subtle spatial distinction."
     },
     {
       "greek_nt": [
@@ -157,16 +159,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek ἐπὶ τοῦ ἀμφόδου (on the street/crossroad); Peshitta ܒܫܘܩܐ (in the market/street); Vulgate 'in bivio' (at the crossroads)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "lexical",
+      "note": "Greek ἐπὶ τοῦ ἀμφόδου ('upon the street/lane') uses ἄμφοδον, a rare term denoting a narrow street or alley between buildings. Peshitta ܒܫܘܩܐ (b-šūqā, 'in the market/street') employs the common term for marketplace or public thoroughfare. Vulgate in bivio ('at the crossroads/fork') interprets the location as a junction of two roads, a distinct topographical reading."
     },
     {
       "greek_nt": [
@@ -176,22 +170,33 @@
         8
       ],
       "vulgate": [
+        10,
         11
       ],
       "variant": "minor",
-      "note": "Greek simple καί; Peshitta ܘܟܕ (and when); Vulgate 'et' - temporal nuance in Peshitta"
+      "type": "construction",
+      "note": "Greek uses simple conjunction καὶ ('and') to introduce the next clause. Peshitta employs ܘܟܕ (w-kaḏ, 'and when'), a temporal-circumstantial construction that frames the untying as contemporaneous action. Vulgate inserts a colon for punctuation, then et ('and'), maintaining Greek's coordinative structure but with stronger pause."
     },
     {
       "greek_nt": [
-        16,
+        16
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         17
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "aligned"
@@ -199,8 +204,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.807904+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.015935+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -75,20 +75,12 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek ἀλλά and Vulgate Sed both adversative; Peshitta lacks explicit adversative conjunction"
+      "type": "substitution",
+      "note": "Greek Ἀλλ᾽ ('But') and Vulgate Sed ('But') are adversative conjunctions marking transition; Peshitta omits an explicit adversative, relying on the discourse particle ܕܝܢ (dēn) in token [1] to signal the shift."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        1,
         2,
         3,
         4
@@ -98,11 +90,13 @@
         2
       ],
       "vulgate": [
+        1,
         2,
         3
       ],
       "variant": "minor",
-      "note": "Peshitta ܒܗܢܘܢ includes demonstrative + preposition; Greek has separate article ταῖς"
+      "type": "word-order",
+      "note": "Greek uses prepositional phrase ἐν ἐκείναις ταῖς ἡμέραις ('in those days') with article and demonstrative; Vulgate mirrors this with in illis diebus; Peshitta fronts the demonstrative ܒܗܢܘܢ ܝܘܡܬܐ ('in-those days'), a typical Semitic construction placing the demonstrative before the noun without intervening article."
     },
     {
       "greek_nt": [],
@@ -111,7 +105,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta ܕܝܢ (dēn) is discourse particle, no Greek/Vulgate equivalent"
+      "type": "gloss",
+      "note": "Peshitta inserts the discourse particle ܕܝܢ (dēn, 'now/then'), a common Syriac transitional marker absent from both Greek and Latin witnesses, serving to articulate the narrative flow."
     },
     {
       "greek_nt": [
@@ -129,34 +124,37 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs μετὰ τὴν θλῖψιν ἐκείνην ('after the tribulation that') with article, noun, and demonstrative; Vulgate post tribulationem illam mirrors this structure; Peshitta uses ܒܬܪ ܐܘܠܨܢܐ ('after tribulation') without demonstrative or article, a more compact Semitic construction where context supplies definiteness."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta inserts the demonstrative pronoun ܗܘ (hū, 'that/it'), functioning as a resumptive element to mark the subject transition to 'the sun,' a stylistic feature absent from Greek and Latin."
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܗܘ is demonstrative pronoun 'that'; Greek/Vulgate use article"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ὁ ἥλιος σκοτισθήσεται uses the article with future passive verb; Vulgate sol contenebrabitur omits the article (Latin lacks definite articles); Peshitta ܫܡܫܐ ܢܚܫܟ ('sun will-darken') uses the emphatic state (functionally definite) with active verb, a typical Semitic preference for active voice where Greek employs passive."
     },
     {
       "greek_nt": [
@@ -168,60 +166,35 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ and Vulgate et are coordinating conjunctions; Peshitta ܘܣܗܪܐ ('and-moon') uses the prefixed conjunction ܘ (w-), a bound morpheme typical of Semitic syntax, creating a tighter syntactic bond than the free-standing Greek and Latin particles."
     },
     {
       "greek_nt": [
         13,
-        14
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܘܣܗܪܐ includes conjunction ܘ prefixed to noun; Greek/Vulgate separate"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
+        15,
+        16,
         17,
         18,
         19
       ],
       "peshitta": [
+        8,
+        9,
+        10,
         11
       ],
       "vulgate": [
+        10,
+        11,
+        12,
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -230,13 +203,14 @@
         15
       ],
       "variant": "added",
-      "note": "Vulgate colon is punctuation, not lexical"
+      "type": "punctuation",
+      "note": "Vulgate adds a colon (:) to mark the end of this clause and signal the continuation of the apocalyptic discourse in the following verse, a punctuation convention absent from Greek and Peshitta manuscript traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.825973+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.031969+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

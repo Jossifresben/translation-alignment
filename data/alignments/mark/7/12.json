@@ -66,15 +66,13 @@
       "greek_nt": [
         1
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
-        1,
-        2
+        1
       ],
       "variant": "minor",
-      "note": "Greek οὐκέτι (no longer) vs Peshitta ܘܠܐ (and not) vs Vulgate ultra non (no longer); Peshitta uses simple negation while Greek/Vulgate emphasize temporal cessation"
+      "type": "substitution",
+      "note": "Greek οὐκέτι ('no longer') is rendered by Vulgate ultra non ('no more'), a synonymous Latin construction. Peshitta incorporates the negation into the compound particle ܘܠܐ without a separate temporal adverb, treating the prohibition as absolute rather than emphasizing temporal cessation."
     },
     {
       "greek_nt": [
@@ -85,9 +83,12 @@
         2
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta explicitly supplies the subject pronoun ܐܢܬܘܢ ('you [plural]'), making grammatically overt what is implicit in the Greek second-person plural verb ἀφίετε and Latin dimittitis. This represents typical Syriac preference for explicit pronominal subjects in emphatic or contrastive contexts."
     },
     {
       "greek_nt": [
@@ -103,27 +104,20 @@
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
-        4
+        4,
+        5
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the negative pronoun οὐδὲν ('nothing') before the infinitive ποιῆσαι, while Vulgate reverses this to quidquam facere ('anything to do'), and Peshitta uses ܕܢܥܒܕ ܡܕܡ (infinitive + indefinite pronoun). All three convey identical semantics through different syntactic arrangements of the verbal complement and its object."
     },
     {
       "greek_nt": [
@@ -138,7 +132,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the articular dative τῷ πατρὶ αὐτοῦ ('for the father of him') with a separate possessive pronoun; Vulgate uses the bare dative patri suo with a possessive adjective; Peshitta uses the bound form ܠܐܒܘܗܝ with a pronominal suffix, the standard Semitic possessive construction. These represent language-specific strategies for expressing the same dative-of-advantage relationship."
     },
     {
       "greek_nt": [
@@ -164,13 +160,15 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek repeats the full articular dative construction τῇ μητρὶ αὐτοῦ ('for the mother of him'); Vulgate uses the bare dative matri without repeating the possessive (understood from context); Peshitta again employs the bound form with pronominal suffix ܠܐܡܗ. The variation reflects differing conventions for handling coordinated possessive phrases across the three traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.774389+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.989213+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

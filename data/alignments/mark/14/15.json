@@ -62,7 +62,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܗܐ 'and behold' is more emphatic than simple καὶ/Et"
+      "type": "substitution",
+      "note": "The Peshitta uses ܘܗܐ (w-hā, 'and behold'), a presentative particle common in Semitic narrative, where Greek and Latin employ the simple conjunction καί / Et. This reflects a stylistic preference for dramatic presentation in Syriac."
     },
     {
       "greek_nt": [
@@ -73,55 +74,41 @@
         1
       ],
       "variant": "omitted",
-      "note": "Peshitta omits explicit subject pronoun, implied in verb ܡܚܘܐ"
+      "type": "omission",
+      "note": "The Peshitta omits the intensive pronoun αὐτός / ipse ('he himself'), which Greek and Latin use for emphasis. Syriac conveys the same emphasis through the presentative ܗܐ and verb morphology alone."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
-        1
+        1,
+        2
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀνάγαιον ('upper room') and Syriac ܥܠܝܬܐ ('upper chamber') are cognate architectural terms, while Latin cœnaculum specifically denotes a dining room or banquet hall, adding a functional nuance absent in the Greek and Syriac."
     },
     {
       "greek_nt": [
@@ -133,7 +120,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐστρωμένον ('furnished, spread with carpets/cushions') and Latin stratum ('spread, laid out') emphasize physical preparation, while Syriac ܕܡܫܘܝܐ ('that is level, prepared') focuses on readiness or suitability, a semantic shift from furnishing to functional state."
     },
     {
       "greek_nt": [
@@ -144,16 +133,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Vulgate omits ἕτοιμον/ܘܡܛܝܒܐ 'ready', possibly viewing it as redundant with stratum"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate colon is punctuation, not lexical content"
+      "type": "word-order",
+      "note": "Greek ἕτοιμον ('ready') appears as a separate adjective following ἐστρωμένον, while Syriac ܘܡܛܝܒܐ ('and prepared') is coordinated with ܕܡܫܘܝܐ via conjunction. The Vulgate omits an equivalent for ἕτοιμον entirely, treating stratum as sufficient."
     },
     {
       "greek_nt": [
@@ -161,10 +142,12 @@
       ],
       "peshitta": [],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits second conjunction, asyndetic construction"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after stratum, creating a stronger syntactic break between the description of the room and the command to prepare. Greek uses καί to coordinate clauses smoothly; Syriac has no explicit conjunction here, relying on asyndetic transition."
     },
     {
       "greek_nt": [
@@ -176,7 +159,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -188,7 +172,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -200,13 +185,14 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.830744+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.037064+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

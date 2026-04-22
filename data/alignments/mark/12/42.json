@@ -57,8 +57,9 @@
         0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits coordinating conjunction, uses cum + subjunctive construction instead"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek καὶ and Peshitta ܘ both function as simple conjunctions ('and'), while the Vulgate employs the temporal conjunction cum ('when'), slightly altering the narrative flow from coordination to temporal subordination."
     },
     {
       "greek_nt": [
@@ -68,11 +69,31 @@
         0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "note": "Vulgate uses cum venisset (temporal clause) vs. Greek/Peshitta simple participle"
+      "type": "word-order",
+      "note": "Greek uses an aorist participle ἐλθοῦσα ('having come') in attributive position before the noun; Vulgate employs a finite verb venisset ('she came') in a temporal clause; Peshitta incorporates the verb into the conjunction ܘܐܬܬ ('and she came'), reflecting typical Syriac narrative style with waw-consecutive construction."
+    },
+    {
+      "greek_nt": [
+        2,
+        3,
+        4
+      ],
+      "peshitta": [
+        1,
+        2,
+        3
+      ],
+      "vulgate": [
+        3,
+        4,
+        5
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three traditions attest 'one poor widow' with identical semantic content but different word order: Greek places the numeral before the noun (μία χήρα πτωχὴ), Peshitta places it between the two nouns (ܐܪܡܠܬܐ ܚܕܐ ܡܣܟܢܬܐ), and Vulgate places it after the first noun (vidua una pauper), reflecting each language's natural attributive adjective placement conventions."
     },
     {
       "greek_nt": [],
@@ -81,35 +102,8 @@
         2
       ],
       "variant": "added",
-      "note": "Vulgate adds autem (adversative particle)"
-    },
-    {
-      "greek_nt": [
-        2,
-        3
-      ],
-      "peshitta": [
-        1,
-        2
-      ],
-      "vulgate": [
-        3,
-        4
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek 'one widow', Peshitta 'widow one', Vulgate 'widow one'"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
+      "type": "expansion",
+      "note": "The Vulgate inserts the adversative particle autem ('however', 'moreover'), which has no equivalent in either the Greek or Peshitta traditions. This addition serves to heighten the contrast between the widow's action and the preceding context, a characteristic feature of Latin narrative style."
     },
     {
       "greek_nt": [
@@ -121,7 +115,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -137,7 +132,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Different coin terminology: Greek lepta, Peshitta mnyn, Vulgate minuta; all refer to smallest coins"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the noun before the numeral (λεπτὰ δύο / duo minuta, 'lepta two' / 'two minuta'), while Peshitta reverses this order (ܬܪܝܢ ܡܢܝܢ, 'two coins'), following standard Syriac syntax where numerals typically precede their counted nouns."
     },
     {
       "greek_nt": [
@@ -154,14 +150,15 @@
         10,
         11
       ],
-      "variant": "aligned",
-      "note": "Explanatory clause equating local coin to Roman quadrans/šmwnʾ"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a relative pronoun with copula (ὅ ἐστιν κοδράντης, 'which is a kodrantes'); Vulgate mirrors this structure exactly (quod est quadrans); Peshitta uses a relative particle with pronominal suffix (ܕܐܝܬܝܗܘܢ ܫܡܘܢܐ, 'which they-are a shamuna'), incorporating the plural pronoun to agree with 'two coins' — a syntactic difference that does not affect the semantic equivalence of the explanatory gloss."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.821761+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.027873+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

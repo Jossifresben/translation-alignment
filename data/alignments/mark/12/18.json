@@ -68,7 +68,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -80,8 +81,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܬܘ"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses historical present ἔρχονται ('they come'), while Peshitta and Vulgate employ past tense (ܘܐܬܘ 'and they came', venerunt 'they came'), a common stylistic leveling in translation traditions that prefer narrative consistency over vivid present-tense narration."
     },
     {
       "greek_nt": [
@@ -93,7 +95,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the subject Σαδδουκαῖοι immediately after the verb, while Vulgate postpones sadducæi until after the prepositional phrase ad eum, creating a chiastic effect. Peshitta follows Greek word order with ܙܕܘܩܝܐ in second position."
     },
     {
       "greek_nt": [
@@ -107,7 +111,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -119,46 +124,30 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8,
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8,
-        9
-      ],
       "variant": "aligned",
-      "note": "Peshitta uses negative particle ܠܝܬ (there is not) for Greek μὴ εἶναι"
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "peshitta": [
+        4,
+        5,
+        6
+      ],
+      "vulgate": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs an accusative-infinitive construction (λέγουσιν ἀνάστασιν μὴ εἶναι, 'saying resurrection not to be'), which Vulgate mirrors exactly (dicunt resurrectionem non esse). Peshitta uses a nominal clause with negated existential particle (ܕܐܡܪܝܢ ܕܩܝܡܬܐ ܠܝܬ, 'who say that resurrection there-is-not'), a syntactically distinct but semantically equivalent Semitic construction."
     },
     {
       "greek_nt": [],
@@ -166,8 +155,9 @@
       "vulgate": [
         10
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after the relative clause describing the Sadducees' belief, creating a stronger syntactic break before the main verb interrogabant. Greek and Peshitta continue without punctuation, maintaining closer syntactic cohesion between the participial/relative description and the main narrative action."
     },
     {
       "greek_nt": [
@@ -179,7 +169,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -192,8 +183,9 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܡܫܐܠܝܢ ܗܘܘ (were asking) for Greek imperfect"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἐπηρώτων ('they were questioning'), Vulgate employs imperfect interrogabant, while Peshitta uses a periphrastic construction ܘܡܫܐܠܝܢ ܗܘܘ (participle + auxiliary 'were asking'), a characteristic Syriac method for expressing progressive past action that mirrors Greek aspectual nuance."
     },
     {
       "greek_nt": [
@@ -205,7 +197,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -217,7 +210,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -225,14 +219,15 @@
       "vulgate": [
         15
       ],
-      "variant": "added",
-      "note": "Vulgate adds final colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate concludes with a colon to introduce direct speech, while Greek uses a raised dot (·) and Peshitta continues without explicit punctuation marker, reflecting differing scribal conventions for marking discourse boundaries in the respective manuscript traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.817146+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.023597+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

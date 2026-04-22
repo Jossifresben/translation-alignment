@@ -64,7 +64,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -76,7 +77,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,38 +92,31 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܡܐܣܐ ܗܘܐ (was healing) vs. Greek/Latin aorist"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction (ܡܐܣܐ ܗܘܐ, 'was healing') using the participle with the verb 'to be', whereas Greek uses the simple aorist ἐθεράπευσεν and Latin the imperfect sanabat. The Peshitta's periphrastic form emphasizes durative or iterative aspect, while Greek focuses on the summary action and Latin on the ongoing process."
     },
     {
       "greek_nt": [
         3,
-        4
+        4,
+        5
       ],
       "peshitta": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "vulgate": [
         3,
         4,
-        5
-      ],
-      "variant": "minor",
-      "note": "Greek ὥστε ἐπιπίπτειν, Peshitta ܥܕܡܐ ܕܢܗܘܘܢ ܢܦܠܝܢ (until they were falling), Vulgate ita ut irruerent; stylistic variation in result clause"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
+        5,
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ὥστε with infinitive ἐπιπίπτειν αὐτῷ ('so as to press upon him'); Latin mirrors this with ita ut plus subjunctive irruerent in eum ('so that they rushed upon him'); Peshitta employs ܥܕܡܐ ܕܢܗܘܘܢ ܢܦܠܝܢ ܥܠܘܗܝ ('until they were falling upon him'), a temporal-consecutive construction. All three express result, but through different syntactic strategies reflecting each language's idiom."
     },
     {
       "greek_nt": [
@@ -139,7 +134,8 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -153,14 +149,15 @@
         12,
         13
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits the relative clause ὅσοι εἶχον μάστιγας / quotquot habebant plagas (as many as had diseases)"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Peshitta omits the entire relative clause ὅσοι εἶχον μάστιγας ('as many as had diseases'), which is present in both Greek and Vulgate (quotquot habebant plagas). This omission removes the explicit identification of those pressing forward as the afflicted, leaving the motivation for touching Jesus implicit rather than stated."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.741322+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.958549+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

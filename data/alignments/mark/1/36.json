@@ -46,14 +46,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "major",
-      "note": "Greek καὶ κατεδίωξεν 'and pursued/went after' vs Peshitta ܘܒܥܝܢ 'and they sought' vs Vulgate 'Et prosecutus' - different verbs with distinct semantic nuances"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek καὶ and Latin Et both introduce the clause coordinatively, while Peshitta incorporates the conjunction within the verbal form ܘܒܥܝܢ ('and they sought'), a typical Syriac synthetic construction."
     },
     {
       "greek_nt": [
@@ -68,7 +67,8 @@
         2
       ],
       "variant": "major",
-      "note": "Greek aorist κατεδίωξεν (singular) vs Peshitta ܒܥܝܢ ܗܘܘ (plural periphrastic) vs Vulgate prosecutus est (singular perfect); number and aspect differ"
+      "type": "substitution",
+      "note": "Greek κατεδίωξεν (aorist of καταδιώκω, 'pursued/went after') is rendered in Peshitta as ܘܒܥܝܢ ܗܘܘ (periphrastic perfect 'were seeking'), a semantic shift from pursuit to search. Vulgate prosecutus est maintains the Greek sense of active pursuit, though using a different Latin verb (prosequor)."
     },
     {
       "greek_nt": [
@@ -93,22 +93,13 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article ὁ with Σίμων (nominative singular with article), while Peshitta ܫܡܥܘܢ and Vulgate Simon lack articles, reflecting the absence of definite articles in Syriac and the optional nature of articles with proper names in Latin."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7,
         8
@@ -117,19 +108,21 @@
         4
       ],
       "vulgate": [
+        5,
         6,
         7,
         8,
         9
       ],
       "variant": "minor",
-      "note": "Greek οἱ μετ᾽ αὐτοῦ 'those with him' vs Peshitta ܘܕܥܡܗ 'and those with him' (compound form) vs Vulgate qui cum illo erant 'who were with him' - same meaning, different syntactic structures"
+      "type": "construction",
+      "note": "Greek uses καὶ οἱ μετ᾽ αὐτοῦ (article + prepositional phrase, 'and those with him'); Vulgate mirrors this with et qui cum illo erant (relative clause with explicit copula); Peshitta employs the compact construct phrase ܘܕܥܡܗ ('and-those-with-him'), a single bound form typical of Semitic economy."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.731638+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.949228+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

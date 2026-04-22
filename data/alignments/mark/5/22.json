@@ -61,24 +61,16 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [],
-      "vulgate": [],
+      "vulgate": [
+        0
+      ],
       "variant": "omitted",
-      "note": "Greek ἰδού (behold) omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek ἰδού (interjection, 'behold') is omitted in the Peshitta, which begins directly with the verb ܘܐܬܐ ('and he came'). The Vulgate retains the conjunction Et but omits the demonstrative particle, representing a stylistic streamlining common in Latin translation practice."
     },
     {
       "greek_nt": [
@@ -90,36 +82,29 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         3,
-        4
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        1,
         4,
         5,
         6
       ],
       "vulgate": [
+        2,
         3,
         4
       ],
-      "variant": "minor",
-      "note": "Peshitta expands with ܡܢ ܪܒܝ ܟܢܘܫܬܐ (from the leaders of the synagogue); Greek/Vulgate use compound noun"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek places the name-phrase (ὀνόματι Ἰάϊρος) after the title (εἷς τῶν ἀρχισυναγώγων), while Syriac inverts the order, placing the name-phrase (ܕܫܡܗ ܝܘܐܪܫ, 'whose name [was] Jairus') before the title (ܡܢ ܪܒܝ ܟܢܘܫܬܐ, 'from the leaders of the synagogue'). Latin follows Greek word order (quidam de archisynagogis nomine Jairus), though using a partitive construction (de + ablative) rather than the Greek genitive plural."
     },
     {
       "greek_nt": [
@@ -134,8 +119,8 @@
         5,
         6
       ],
-      "variant": "major",
-      "note": "Word order differs: Peshitta places name before title (ܕܫܡܗ ܝܘܐܪܫ ܡܢ ܪܒܝ), Greek/Vulgate place title before name"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -147,7 +132,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -161,7 +147,9 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle (ἰδὼν αὐτόν, 'having seen him') with explicit object pronoun; Syriac employs a temporal clause introduced by ܘܟܕ ('and when') with the object pronoun suffixed to the verb (ܚܙܝܗܝ); Latin mirrors Greek with a present participle (videns eum). The Syriac construction is syntactically distinct but semantically equivalent, representing a typical Semitic preference for finite verbal clauses over participial constructions."
     },
     {
       "greek_nt": [
@@ -173,7 +161,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -191,13 +180,15 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the preposition πρὸς with accusative article and noun (πρὸς τοὺς πόδας αὐτοῦ, 'at the feet of him'), requiring a separate possessive genitive pronoun. Syriac uses the preposition ܠܘܬ ('toward') with the noun bearing a pronominal suffix (ܪܓܠܘܗܝ, 'his-feet'), a standard Semitic bound-form construction. Latin ad pedes ejus follows Greek structure but with the genitive pronoun postposed, typical of Latin syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.757036+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.974243+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

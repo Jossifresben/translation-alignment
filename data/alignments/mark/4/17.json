@@ -76,13 +76,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καὶ / et, beginning the clause asyndetically with ܘܠܝܬ ('and there is not'), which itself contains a prefixed waw. This represents a stylistic difference in clause connection rather than a semantic divergence."
     },
     {
       "greek_nt": [
@@ -90,15 +90,14 @@
         2
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         1,
         2
       ],
-      "variant": "minor",
-      "note": "Peshitta uses negative existential ܘܠܝܬ ܠܗܘܢ (and-not-there to-them) vs Greek οὐκ ἔχουσιν (not they-have)"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -110,7 +109,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -125,7 +125,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta ܒܢܦܫܗܘܢ (in-themselves/souls) vs Greek ἐν ἑαυτοῖς; Vulgate in se matches Greek reflexive"
+      "type": "lexical",
+      "note": "Greek ἐν ἑαυτοῖς ('in themselves') and Latin in se employ reflexive pronouns, while Peshitta uses ܒܢܦܫܗܘܢ (b-naphshehon, 'in their souls/selves'), a Semitic idiom using 'soul' (ܢܦܫܐ) as the reflexive marker. All three convey internal rootlessness with equivalent semantic force."
     },
     {
       "greek_nt": [
@@ -137,7 +138,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -152,7 +154,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the adjective πρόσκαιροί with copula εἰσιν ('they are temporary'); Latin mirrors this with temporales sunt. Peshitta employs a genitive construction ܕܙܒܢܐ ܐܢܘܢ (d-zabna enon, 'of time they are'), expressing temporariness through a nominal phrase rather than an adjective—syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [],
@@ -161,7 +165,8 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after temporales sunt, creating a stronger syntactic break before the temporal clause. Neither Greek nor Peshitta manuscripts transmit punctuation at this juncture, though the semantic division is implicit in all three traditions."
     },
     {
       "greek_nt": [
@@ -174,7 +179,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek εἶτα (then), Peshitta ܘܡܐ (and-when), Vulgate deinde (thereafter) - slight temporal nuance differences"
+      "type": "lexical",
+      "note": "Greek εἶτα ('then'), Latin deinde ('thereafter'), and Peshitta ܘܡܐ (w-ma, 'and when') all mark temporal sequence, but the Peshitta form introduces a temporal-conditional nuance ('and whenever') that slightly shifts the aspectual profile from simple succession to iterative possibility."
     },
     {
       "greek_nt": [
@@ -186,7 +192,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the genitive absolute γενομένης ('having happened'), Latin uses the perfect participle orta ('having arisen'), while Peshitta uses the perfect ܕܗܘܐ (d-hwa, 'that happened'). All three express anterior action, but Peshitta embeds this in a relative clause rather than an absolute construction."
     },
     {
       "greek_nt": [
@@ -198,7 +206,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -210,7 +219,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -222,7 +232,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -238,7 +249,9 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the prepositional phrase διὰ τὸν λόγον with the accusative article τόν, Latin employs propter verbum (accusative without article, as Latin lacks articles), and Peshitta uses ܡܛܠ ܡܠܬܐ (meṭul meltha, 'because of the word') with the emphatic state. The Greek article specifies 'the word' (i.e., the gospel message previously mentioned), which Peshitta's emphatic state also conveys, while Latin's bare accusative is contextually definite."
     },
     {
       "greek_nt": [
@@ -250,7 +263,8 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -262,12 +276,13 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.748015+00:00",
+    "generated_at": "2026-04-22T12:17:07.965699+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

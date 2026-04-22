@@ -54,14 +54,14 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        3
-      ],
+      "peshitta": [],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
-      "note": "Greek κατά (at/according to) vs Peshitta ܒܟܠ (in every) vs Vulgate Per (through/during) - stylistic variation in temporal expression"
+      "type": "substitution",
+      "note": "Greek κατά ('at, during') is rendered by Vulgate as Per diem ('through/throughout the day'), making the temporal aspect more explicit. Peshitta omits any direct equivalent, incorporating the temporal sense into the verbal construction ܡܥܕ ܗܘܐ ('was accustomed')."
     },
     {
       "greek_nt": [
@@ -73,7 +73,29 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Peshitta adds the periphrastic construction ܡܥܕ ܗܘܐ ('was accustomed') to render the Greek imperfect ἀπέλυεν, making the habitual aspect more explicit through an auxiliary verb construction typical of Syriac narrative style."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Peshitta inserts ܒܟܠ ('in every/each'), intensifying the distributive sense of the custom. Neither Greek nor Latin includes this quantifier, though the iterative imperfect tense implies regularity."
     },
     {
       "greek_nt": [
@@ -85,26 +107,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        0,
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܡܥܕ ܗܘܐ (was accustomed) as periphrastic construction"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'diem' (day) - 'per diem festum' = on the feast day"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,7 +121,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple imperfect ἀπέλυεν ('he was releasing'); Vulgate employs the periphrastic solebat dimittere ('he was accustomed to release'), making the habitual aspect explicit through a modal construction. Peshitta uses the infinitive ܠܡܫܪܐ ('to release') governed by the earlier auxiliary ܡܥܕ ܗܘܐ."
     },
     {
       "greek_nt": [
@@ -129,7 +135,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -141,7 +148,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the numeral before the noun (ἕνα δέσμιον / unum ex vinctis); Peshitta inverts this to ܐܣܝܪܐ ܚܕ (noun-numeral), following standard Syriac attributive word order for numerals."
     },
     {
       "greek_nt": [
@@ -151,18 +160,12 @@
         7
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'ex' (from among) for partitive construction 'unum ex vinctis'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple noun δέσμιον ('prisoner'); Vulgate employs the partitive construction ex vinctis ('from among the bound ones'), emphasizing selection from a group. Peshitta uses ܐܣܝܪܐ ('prisoner'), semantically equivalent to Greek but without the partitive nuance."
     },
     {
       "greek_nt": [
@@ -177,13 +180,14 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.842135+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.047202+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

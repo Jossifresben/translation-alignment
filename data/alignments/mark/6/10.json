@@ -81,8 +81,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܡܪ"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (iterative/continuous past action), while Vulgate employs imperfect dicebat with identical aspectual force. Peshitta ܘܐܡܪ uses the perfect conjugation, which in Syriac narrative typically functions as a simple past without the Greek's iterative nuance."
     },
     {
       "greek_nt": [
@@ -92,18 +93,12 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after eis to mark direct discourse, a Latin scribal convention absent in Greek and Syriac manuscript traditions. The Peshitta ܠܗܘܢ and Greek αὐτοῖς are functionally identical dative pronouns."
     },
     {
       "greek_nt": [
@@ -116,61 +111,46 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "note": "Greek ὅπου ἐὰν, Peshitta ܕܠܐܝܢܐ, Vulgate Quocumque all express 'wherever'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the compound conjunction ὅπου ἐάν ('wherever' + conditional particle) to express indefinite location. Vulgate uses the single compound relative Quocumque, while Peshitta uses ܕܠܐܝܢܐ (d- + interrogative 'which'), a standard Syriac construction for indefinite relatives—all three semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
+        3,
         4,
         5
       ],
       "vulgate": [
         5,
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta includes explicit pronoun ܐܢܬܘܢ (you) where Greek has verbal inflection"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Peshitta places 'house' before verb, Greek and Vulgate after"
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܕܥܐܠܝܢ, a typical Syriac clarification where Greek and Latin rely on verbal inflection alone (εἰσέλθητε, introieritis). This represents Syriac preference for explicit subjects in subordinate clauses rather than a textual variant."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses adverb + imperative (ἐκεῖ μένετε); Vulgate mirrors this with illic manete. Peshitta employs ܬܡܢ ܗܘܘ (literally 'there be'), using the imperative of the verb 'to be' rather than a verb of remaining—a Syriac idiom for continuous presence that differs syntactically but not semantically."
     },
     {
       "greek_nt": [
@@ -183,8 +163,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "note": "Greek ἕως ἂν, Peshitta ܥܕܡܐ, Vulgate donec all express 'until'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the compound temporal conjunction ἕως ἂν (preposition + modal particle) to express indefinite future time. Vulgate employs the single conjunction donec, while Peshitta uses ܥܕܡܐ (a simple temporal preposition)—all three convey 'until' with subjunctive/indefinite force, but through different morphological strategies."
     },
     {
       "greek_nt": [
@@ -197,8 +178,9 @@
       "vulgate": [
         11
       ],
-      "variant": "minor",
-      "note": "Peshitta again includes explicit pronoun ܐܢܬܘܢ (you) with verb"
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta again inserts the explicit subject pronoun ܐܢܬܘܢ ('you') after ܕܢܦܩܝܢ ('you go out'), paralleling its earlier addition. Greek ἐξέλθητε and Vulgate exeatis encode the subject in verbal morphology, while Syriac prefers redundant pronominal subjects in temporal clauses."
     },
     {
       "greek_nt": [
@@ -211,8 +193,9 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses preposition ܡܢ + ܬܡܢ for 'from there', Greek and Vulgate use single adverb"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple adverb ἐκεῖθεν ('from there'), as does Vulgate with inde. Peshitta employs a prepositional phrase ܡܢ ܬܡܢ (literally 'from there'), making the ablative sense explicit through the preposition ܡܢ—a typical Syriac analytical construction where Greek and Latin use synthetic forms."
     },
     {
       "greek_nt": [],
@@ -220,14 +203,15 @@
       "vulgate": [
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds final colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate closes the verse with a second colon, marking the end of direct discourse—a Latin scribal convention without equivalent in Greek or Syriac manuscript traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.762881+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.979254+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

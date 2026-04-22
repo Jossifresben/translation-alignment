@@ -83,7 +83,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -96,23 +97,14 @@
         1,
         2
       ],
-      "variant": "aligned",
-      "note": "Vulgate uses periphrastic 'scriptum est' for Greek perfect passive"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses perfect passive γέγραπται (single verb); Vulgate employs periphrastic scriptum est (participle + auxiliary); Peshitta uses passive participle ܕܟܬܝܒ with implied copula — all semantically equivalent expressions of 'it is written.'"
     },
     {
       "greek_nt": [
         2,
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits preposition 'in', uses direct construction with proper name"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5,
         6
@@ -122,19 +114,14 @@
         3
       ],
       "vulgate": [
+        3,
         4,
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        5,
         6
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs double article construction ἐν τῷ Ἠσαΐᾳ τῷ προφήτῃ ('in the Isaiah the prophet'); Vulgate mirrors this with in Isaia propheta; Peshitta uses prepositional phrase ܒܐܫܥܝܐ ܢܒܝܐ ('in Isaiah prophet') without articles, following typical Semitic syntax where definiteness is contextual."
     },
     {
       "greek_nt": [
@@ -146,32 +133,25 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        8
+        8,
+        9
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
+        8,
         9
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta places verb before pronoun"
+      "type": "word-order",
+      "note": "Greek places pronoun before verb (ἐγὼ ἀποστέλλω); Vulgate follows this order (ego mitto); Peshitta inverts to verb-subject (ܡܫܕܪ ܐܢܐ), reflecting standard Syriac VSO word order for emphasis on the action."
     },
     {
       "greek_nt": [
@@ -186,7 +166,9 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (τὸν ἄγγελόν μου); Vulgate employs noun + possessive (angelum meum); Peshitta uses construct state ܡܠܐܟܝ ('my-messenger'), a single bound form typical of Semitic possessive constructions."
     },
     {
       "greek_nt": [
@@ -203,32 +185,24 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
+        15,
         16
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines relative pronoun and verb in single token ܕܢܬܩܢ"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs relative pronoun + future verb (ὃς κατασκευάσει); Vulgate mirrors with qui præparabit; Peshitta uses d-relative particle + imperfect verb ܕܢܬܩܢ, a standard Syriac relative construction expressing future purpose or result."
     },
     {
       "greek_nt": [
@@ -243,8 +217,9 @@
         17,
         18
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines 'your way' with pronominal suffix in single token"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive (τὴν ὁδόν σου); Vulgate employs noun + possessive (viam tuam); Peshitta uses construct state with pronominal suffix ܐܘܪܚܟ ('your-way'), a single bound form eliminating the need for separate possessive pronoun."
     },
     {
       "greek_nt": [
@@ -256,14 +231,15 @@
         19,
         20
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits redundant 'before you' phrase present in Greek and Vulgate"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek and Vulgate include the redundant prepositional phrase ἔμπροσθέν σου / ante te ('before you'), creating emphasis through repetition after πρὸ προσώπου σου / ante faciem tuam. The Peshitta omits this pleonastic construction, ending with ܐܘܪܚܟ ('your way'), likely viewing the repetition as unnecessary in Syriac idiom."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.726052+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.942195+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

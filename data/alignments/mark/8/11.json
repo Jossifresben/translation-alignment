@@ -75,7 +75,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -88,7 +89,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Greek ἐξῆλθον, Peshitta ܘܢܦܩܘ, Vulgate exierunt all express 'went out'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,7 +102,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the definite article οἱ with Φαρισαῖοι (nominative plural); Syriac ܦܪܝܫܐ and Latin pharisæi lack the article, a routine difference reflecting Latin and Syriac's less systematic use of articles with proper collective nouns."
     },
     {
       "greek_nt": [
@@ -113,7 +116,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -126,63 +130,45 @@
         4
       ],
       "variant": "aligned",
-      "note": "Greek ἤρξαντο, Peshitta ܘܫܪܝܘ, Vulgate cœperunt all express 'began'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "note": "Greek συζητεῖν 'to dispute', Peshitta ܠܡܒܥܐ 'to seek/inquire', Vulgate conquirere 'to seek out' show stylistic variation"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
         6,
         7
       ],
-      "variant": "aligned",
-      "note": "Greek αὐτῷ (dative), Peshitta ܥܡܗ 'with him', Vulgate cum eo 'with him'"
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        5,
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek συζητεῖν αὐτῷ ('to dispute with him') is rendered by Syriac ܠܡܒܥܐ ܥܡܗ ('to seek/inquire with him') and Latin conquirere cum eo ('to seek together with him'). The Syriac and Latin prefer a less confrontational lexeme than the Greek's 'dispute,' though the semantic range overlaps in context."
     },
     {
       "greek_nt": [
-        8
+        8,
+        9,
+        10
       ],
       "peshitta": [
         5,
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned",
-      "note": "Greek ζητοῦντες, Peshitta ܘܫܐܠܝܢ ܗܘܘ (periphrastic), Vulgate quærentes all express 'seeking/asking'"
-    },
-    {
-      "greek_nt": [
-        9,
-        10
-      ],
-      "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        8,
         9,
         10
       ],
-      "variant": "aligned",
-      "note": "Greek παρ᾽ αὐτοῦ 'from him', Peshitta ܠܗ 'to/from him', Vulgate ab illo 'from him'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a present participle ζητοῦντες παρ᾽ αὐτοῦ ('seeking from him'); Syriac employs a periphrastic construction ܘܫܐܠܝܢ ܗܘܘ ܠܗ ('and they were asking him'), with ܗܘܘ as auxiliary; Latin uses a present participle quærentes ab illo. All three convey simultaneous action, but Syriac's periphrastic form is a characteristic Semitic construction."
     },
     {
       "greek_nt": [
@@ -194,7 +180,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -210,40 +197,33 @@
         12,
         13
       ],
-      "variant": "aligned",
-      "note": "Greek ἀπὸ τοῦ οὐρανοῦ, Peshitta ܡܢ ܫܡܝܐ, Vulgate de cælo all express 'from heaven'"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀπὸ τοῦ οὐρανοῦ includes the definite article τοῦ with οὐρανοῦ (genitive singular); Syriac ܡܢ ܫܡܝܐ and Latin de cælo omit the article. This reflects the Greek tendency to articulate prepositional phrases more consistently than Syriac or Latin."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        11,
-        12
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned",
-      "note": "Greek πειράζοντες, Peshitta ܟܕ ܡܢܣܝܢ (with temporal particle), Vulgate tentantes all express 'testing/tempting'"
-    },
-    {
-      "greek_nt": [
+        15,
         16
       ],
       "peshitta": [
+        11,
+        12,
         13
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a present participle πειράζοντες αὐτόν ('testing him'); Syriac employs a temporal clause ܟܕ ܡܢܣܝܢ ܠܗ ('while testing him'), with ܟܕ marking simultaneity; Latin uses a present participle tentantes eum. The Syriac temporal construction is syntactically distinct but semantically equivalent to the Greek and Latin participial phrases."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.779930+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.995378+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

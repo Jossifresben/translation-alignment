@@ -83,7 +83,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ omitted in Peshitta and Vulgate; Peshitta uses ܕܝܢ (dēn) as discourse marker instead"
+      "type": "omission",
+      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate. The Peshitta substitutes the contrastive particle ܕܝܢ (dēn, 'but/now'), while the Vulgate uses the ablative absolute construction (Quo statim cognito) without a coordinating conjunction, creating a more formal Latin periodic structure."
     },
     {
       "greek_nt": [
@@ -93,7 +94,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek εὐθὺς ('immediately') appears after καὶ; Vulgate statim appears sentence-initially within the ablative absolute (Quo statim cognito). The Peshitta lacks an explicit temporal adverb here, though the immediacy may be implied contextually."
     },
     {
       "greek_nt": [
@@ -105,7 +108,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -119,7 +123,18 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek article ὁ omitted in Peshitta and Vulgate; word order variation"
+      "type": "word-order",
+      "note": "Greek places the subject ὁ Ἰησοῦς after the participle ἐπιγνοὺς; Peshitta fronts ܝܫܘܥ sentence-initially before ܕܝܢ and the verb; Vulgate places Jesus within the ablative absolute construction. All three traditions identify the same subject but employ different syntactic strategies for emphasis and flow."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "substitution",
+      "note": "Peshitta inserts the contrastive particle ܕܝܢ (dēn, 'but/now'), which has no equivalent in the Greek or Vulgate. This is a characteristic Syriac narrative device marking a shift in focus or action, functionally replacing Greek καὶ with a more nuanced connective."
     },
     {
       "greek_nt": [
@@ -134,16 +149,19 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular dative τῷ πνεύματι αὐτοῦ ('in/by his spirit'); Vulgate employs the ablative spiritu suo without article (Latin lacks articles); Peshitta uses ܒܪܘܚܗ (b-rūḥēh, 'in-his-spirit') with pronominal suffix. All three convey instrumental or locative sense, but Greek's article emphasizes definiteness absent in the other traditions."
     },
     {
       "greek_nt": [],
-      "peshitta": [
-        1
+      "peshitta": [],
+      "vulgate": [
+        0
       ],
-      "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܕܝܢ (dēn) as contrastive/continuative particle"
+      "type": "construction",
+      "note": "Vulgate's ablative absolute construction begins with Quo ('which'), a relative pronoun referring anaphorically to the preceding context (the scribes' reasoning). Neither Greek nor Peshitta employs such a relative construction here; both use finite verbal forms (Greek participle ἐπιγνοὺς, Peshitta perfect ܝܕܥ) without explicit anaphoric linkage."
     },
     {
       "greek_nt": [
@@ -155,23 +173,33 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         9
       ],
-      "peshitta": [
-        4
-      ],
+      "peshitta": [],
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek οὕτως ('thus/in this way') and Vulgate sic ('thus') are adverbial; Peshitta lacks an explicit adverb here, instead using the demonstrative pronoun ܕܗܠܝܢ (d-hālēn, 'that these things') as the object of the verb, achieving similar semantic force through different syntactic means."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek αὐτοὶ ('they themselves') is an emphatic nominative pronoun reinforcing the subject of διαλογίζονται. Neither Peshitta nor Vulgate includes this emphatic pronoun; both rely on verbal inflection alone (Peshitta ܡܬܪܥܝܢ, Vulgate cogitarent) to mark the third-person plural subject."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
@@ -180,7 +208,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -195,16 +224,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek ἐν ἑαυτοῖς vs Peshitta ܒܢܦܫܗܘܢ (in their souls) vs Vulgate intra se; semantic equivalents with stylistic variation"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0
-      ],
-      "variant": "added",
-      "note": "Vulgate adds Quo (ablative of relative) as stylistic connector"
+      "type": "lexical",
+      "note": "Greek ἐν ἑαυτοῖς ('within themselves') uses the reflexive pronoun; Vulgate intra se mirrors this with the reflexive se; Peshitta ܒܢܦܫܗܘܢ (b-nafšhōn, 'in their souls/selves') employs ܢܦܫܐ (naphšā, 'soul'), a common Syriac idiom for reflexive interiority. All three convey internal reasoning, but Peshitta's lexical choice reflects Semitic anthropological vocabulary."
     },
     {
       "greek_nt": [
@@ -216,7 +237,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -228,7 +250,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -237,7 +260,8 @@
         13
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon (:) to mark the transition from narrative to direct speech. Greek uses a raised dot (·) after αὐτοῖς, and Peshitta employs no explicit punctuation marker in the manuscript tradition, relying on syntactic cues (ܘܐܡܪ ܠܗܘܢ, 'and he said to them') to signal the speech boundary."
     },
     {
       "greek_nt": [
@@ -249,7 +273,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -261,20 +286,32 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ταῦτα ('these things') precedes the verb διαλογίζεσθε; Vulgate ista likewise precedes cogitatis; Peshitta ܗܠܝܢ (hālēn, 'these') follows the verb ܡܬܪܥܝܢ and the explicit subject pronoun ܐܢܬܘܢ ('you'). The word-order difference reflects Syriac's preference for verb-subject-object sequencing in interrogatives."
     },
     {
       "greek_nt": [
         18
       ],
       "peshitta": [
-        10,
-        11
+        10
       ],
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "Peshitta explicitly includes the subject pronoun ܐܢܬܘܢ ('you [plural]'), which is grammatically unnecessary since the verb ܡܬܪܥܝܢ already encodes second-person plural. This is a common Syriac stylistic feature for emphasis or clarity, absent in Greek and Vulgate where verbal inflection suffices."
     },
     {
       "greek_nt": [
@@ -289,19 +326,21 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐν ταῖς καρδίαις ('in the hearts') uses the articular dative plural with article; Vulgate in cordibus omits the article (Latin lacks articles); Peshitta ܒܠܒܟܘܢ (b-lebbkōn, 'in-your-heart') uses the singular ܠܒܐ (lebbā, 'heart') with second-plural pronominal suffix, a typical Syriac idiom treating collective nouns as singular. All three convey the same locative sense with minor morphological variation."
     },
     {
       "greek_nt": [
         22
       ],
-      "peshitta": [
-        13
-      ],
+      "peshitta": [],
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὑμῶν ('of you') is a genitive pronoun modifying καρδίαις; Vulgate vestris ('your') is a possessive adjective agreeing with cordibus; Peshitta incorporates the possessive as a pronominal suffix on ܒܠܒܟܘܢ ('-your' in b-lebbkōn). All three mark second-person plural possession, but through different morphological strategies (analytic Greek/Latin vs. synthetic Syriac)."
     },
     {
       "greek_nt": [],
@@ -310,13 +349,14 @@
         20
       ],
       "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "type": "punctuation",
+      "note": "Vulgate closes the interrogative with a question mark (?). Greek uses a semicolon (;) as the interrogative marker, and Peshitta manuscripts typically lack explicit punctuation, relying on the interrogative particle ܡܢܐ (mānā, 'what/why') to signal the question."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.735726+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.877505+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

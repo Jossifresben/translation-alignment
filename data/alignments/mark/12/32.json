@@ -74,38 +74,22 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [],
-      "vulgate": [
-        0
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction at verse opening"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the conjunction καὶ before the verb εἶπεν, while Peshitta omits an explicit conjunction (asyndeton). Vulgate retains the conjunction Et. All three traditions place the indirect object pronoun before the subject, though Greek uses the article ὁ with γραμματεύς where Syriac and Latin do not."
     },
     {
       "greek_nt": [
@@ -120,7 +104,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun; Peshitta uses pronoun + noun; Vulgate noun only"
+      "type": "construction",
+      "note": "Greek employs the article ὁ with γραμματεύς (nominative subject); Peshitta uses the independent pronoun ܗܘ ('he') followed by ܣܦܪܐ ('scribe') in an appositive construction; Vulgate uses scriba without article. The Syriac construction emphasizes the subject through pronoun fronting, a common Semitic discourse strategy."
     },
     {
       "greek_nt": [],
@@ -129,46 +114,40 @@
         4
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after scriba to mark direct speech, a punctuation convention absent in the Greek and Peshitta manuscript traditions. This reflects Latin scribal practice rather than a textual variant."
     },
     {
       "greek_nt": [
-        5
+        5,
+        6
       ],
       "peshitta": [
-        4
-      ],
-      "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6
+        7,
+        8
       ],
       "peshitta": [
-        5
+        6
       ],
       "vulgate": [
-        6
+        7,
+        8
       ],
       "variant": "minor",
-      "note": "Greek διδάσκαλε vs Peshitta ܪܒܝ (rabbi) vs Vulgate Magister - synonymous titles"
-    },
-    {
-      "greek_nt": [
-        7,
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7,
-        8
-      ],
-      "variant": "aligned"
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐπ᾽ ἀληθείας ('according to truth') with genitive; Vulgate mirrors this with in veritate (ablative of manner); Peshitta employs the prepositional phrase ܒܫܪܪܐ ('in truth') with beth preposition. All three convey the same adverbial sense, but through different prepositional constructions typical of each language."
     },
     {
       "greek_nt": [
@@ -180,7 +159,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -193,7 +173,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek ὅτι as conjunction; Peshitta ܕ particle; Vulgate quia - functional equivalents"
+      "type": "grammar",
+      "note": "Greek ὅτι introduces indirect discourse; Peshitta ܕ serves the same function; Vulgate quia likewise. The Peshitta particle ܕ is cliticized to the following word ܕܚܕ, reflecting standard Syriac orthographic practice for the subordinating conjunction."
     },
     {
       "greek_nt": [
@@ -211,46 +192,29 @@
         13
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek 'one is God' vs Peshitta 'one he' (copula implicit) vs Vulgate 'one is God'"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the copula between the numeral and the noun (εἷς ἐστιν θεὸς / unus est Deus); Peshitta uses ܚܕ ܗܘ ('one he-is') with the copula pronoun ܗܘ following the predicate adjective, then implies 'God' from context or places it in the broader clause structure. This reflects standard Syriac predicate-copula word order."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
-        16
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        15,
-        16
-      ],
-      "variant": "minor",
-      "note": "Greek οὐκ ἔστιν (negative + copula) vs Peshitta ܘܠܝܬ (negative existential) vs Vulgate non est"
-    },
-    {
-      "greek_nt": [
+        16,
         17
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        14,
+        15,
+        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the negative existential construction καὶ οὐκ ἔστιν ἄλλος ('and there is not another'); Vulgate mirrors this with et non est alius; Peshitta employs the negative existential particle ܘܠܝܬ ('and there is not') with ܐܚܪܝܢ ('another'), a more compact Semitic construction that omits the explicit copula verb."
     },
     {
       "greek_nt": [
@@ -265,13 +229,15 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek πλὴν αὐτοῦ ('besides him') uses the preposition πλήν with genitive; Vulgate præter eum employs præter with accusative; Peshitta uses ܠܒܪ ܡܢܗ ('outside from him'), a compound prepositional phrase (ܠܒܪ 'outside' + ܡܢ 'from'). All three express exception/exclusion, but through different prepositional lexemes characteristic of each language's idiom."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.819893+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.026136+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

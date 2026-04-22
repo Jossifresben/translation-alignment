@@ -72,7 +72,8 @@
         0
       ],
       "variant": "major",
-      "note": "Vulgate contains entirely different verse content (Peter's response about tabernacles) rather than the appearance of Elijah and Moses"
+      "type": "substitution",
+      "note": "The Vulgate replaces the narrative continuation καὶ ὤφθη ('And appeared') with Et respondens Petrus ait Jesu ('And Peter answering said to Jesus'), introducing Peter's speech from verse 5. This represents a complete substitution of the verse content, likely a scribal error or verse conflation in the Vulgate manuscript tradition."
     },
     {
       "greek_nt": [
@@ -85,44 +86,26 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the appearance vision entirely"
+      "type": "omission",
+      "note": "The Vulgate omits the passive verb ὤφθη ('appeared') and indirect object αὐτοῖς ('to them'), which are present in both Greek and Peshitta (ܘܐܬܚܙܝܘ ܠܗܘܢ). The Vulgate's substitution of Peter's response eliminates the theophanic vision report entirely."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        23
-      ],
-      "variant": "major",
-      "note": "Elijah mentioned in different contexts: vision appearance vs. tabernacle proposal"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek σὺν vs Peshitta ܘ (waw) for conjunction with Moses"
-    },
-    {
-      "greek_nt": [
+        3,
+        4,
         5
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
-        20
+        20,
+        23
       ],
       "variant": "major",
-      "note": "Moses mentioned in different contexts: vision appearance vs. tabernacle proposal"
+      "type": "word-order",
+      "note": "Greek lists Elijah first with Moses (Ἠλίας σὺν Μωϋσεῖ), while Peshitta reverses the order (ܐܠܝܐ ܘܡܘܫܐ 'Elijah and Moses') using a coordinating conjunction rather than the preposition σύν. The Vulgate, within Peter's speech, mentions Moysi before Eliæ in the tabernacle proposal, reflecting a different narrative context entirely."
     },
     {
       "greek_nt": [
@@ -135,8 +118,9 @@
         5
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the conversation between Moses/Elijah and Jesus"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek employs a periphrastic construction (καὶ ἦσαν συλλαλοῦντες 'and they were talking') with finite verb plus participle. Peshitta uses the temporal particle ܟܕ with active participle ܡܡܠܠܝܢ ('while talking'), a characteristic Syriac construction. The Vulgate omits this clause entirely due to verse substitution."
     },
     {
       "greek_nt": [
@@ -151,7 +135,8 @@
         4
       ],
       "variant": "major",
-      "note": "Jesus referenced in different grammatical roles: dative object of conversation vs. vocative address"
+      "type": "substitution",
+      "note": "Greek and Peshitta agree on the prepositional phrase 'with Jesus' (τῷ Ἰησοῦ / ܥܡ ܝܫܘܥ) as the object of conversation. The Vulgate's Jesu appears in vocative case within Peter's direct address ('Rabbi'), representing a completely different syntactic and narrative function."
     },
     {
       "greek_nt": [],
@@ -180,13 +165,14 @@
         24
       ],
       "variant": "added",
-      "note": "Vulgate contains Peter's entire response about building three tabernacles, absent from Greek and Peshitta"
+      "type": "harmonisation",
+      "note": "The Vulgate inserts the entirety of Peter's response from Mark 9:5 (respondens Petrus ait... et faciamus tria tabernacula...), including vocative Rabbi, the proposal to build three tabernacles, and all associated syntax. This appears to be a scribal conflation or misplacement of verse 5 into verse 4's position."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.785921+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.000482+00:00",
+    "confidence": 0.75,
     "schema_version": 1
   }
 }

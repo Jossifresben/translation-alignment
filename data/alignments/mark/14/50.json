@@ -38,11 +38,22 @@
         0
       ],
       "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "substitution",
+      "note": "Greek καὶ ('and') is replaced by Peshitta ܗܝܕܝܢ ('then') and Vulgate Tunc ('then'), both marking temporal sequence rather than simple conjunction. This represents a minor stylistic shift from coordinative to temporal discourse marking."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         0
       ],
-      "variant": "major",
-      "note": "Greek καὶ (and/then) vs Peshitta ܗܝܕܝܢ (then) vs Vulgate Tunc (then): Peshitta and Vulgate use temporal adverb, Greek uses conjunction"
+      "variant": "added",
+      "type": "substitution",
+      "note": "Peshitta ܗܝܕܝܢ and Vulgate Tunc substitute for Greek καὶ, elevating the narrative transition from simple coordination to explicit temporal sequence ('then' rather than 'and')."
     },
     {
       "greek_nt": [],
@@ -54,7 +65,8 @@
         2
       ],
       "variant": "added",
-      "note": "Peshitta ܬܠܡܝܕܘܗܝ (his disciples) and Vulgate discipuli ejus explicitly name the subject, absent in Greek"
+      "type": "expansion",
+      "note": "Both Peshitta ܬܠܡܝܕܘܗܝ ('his disciples') and Vulgate discipuli ejus explicitly identify the subject as 'disciples,' whereas Greek uses only the implicit subject πάντες ('all [they]'). This expansion clarifies the referent, likely reflecting liturgical or catechetical concerns."
     },
     {
       "greek_nt": [
@@ -68,7 +80,8 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -79,7 +92,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek πάντες and Vulgate omnes (all) explicit; Peshitta implies plurality through verb form"
+      "type": "word-order",
+      "note": "Greek πάντες appears in final position after the verb ἔφυγον, while Vulgate omnes precedes fugerunt. Peshitta lacks an explicit equivalent, incorporating the universal scope into the plural verb ܘܥܪܩܘ. All three convey totality but through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -91,13 +105,14 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.837623+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.884795+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

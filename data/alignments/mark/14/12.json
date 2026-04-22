@@ -89,7 +89,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -106,7 +107,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta incorporates conjunction into first word ܘܒܝܘܡܐ; Vulgate uses ablative 'primo die' vs Greek dative"
+      "type": "construction",
+      "note": "Greek uses the articular construction τῇ πρώτῃ ἡμέρᾳ (dative with article); Peshitta employs the prepositional phrase ܒܝܘܡܐ ܩܕܡܝܐ ('on-the-day first'), incorporating the preposition into the noun; Vulgate uses ablative primo die without article, reflecting Latin's lack of definite articles."
     },
     {
       "greek_nt": [
@@ -119,223 +121,118 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "minor",
-      "note": "Greek ὅτε (when), Peshitta ܕܒܗ (in which), Vulgate quando (when) - stylistic variation"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
-        4
-      ],
-      "vulgate": [
+        3,
+        4,
+        5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܝܗܘܕܝܐ 'the Jews' as subject of sacrifice, absent in Greek and Vulgate"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
       "vulgate": [
-        7
+        4,
+        5,
+        6
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "expansion",
+      "note": "The Peshitta inserts ܝܗܘܕܝܐ ('the Jews') as the explicit subject of the sacrificial verb ܕܒܚܝܢ, clarifying who performs the Passover sacrifice. Neither the Greek ἔθυον (impersonal third plural 'they sacrificed') nor the Vulgate immolabant (similarly impersonal) specifies the agent, making this a Peshitta expansion for interpretive clarity."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
+        11,
         12,
         13,
         14
       ],
       "peshitta": [
+        7,
+        8,
         9
       ],
       "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        7,
+        8,
+        9,
         10
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present as token in other traditions"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the subject after the verb (λέγουσιν αὐτῷ οἱ μαθηταὶ αὐτοῦ); Peshitta and Vulgate both front the verb but differ in pronoun placement. The Vulgate inserts a colon after discipuli, marking the transition to direct speech with punctuation absent in the Greek and Peshitta traditions."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16
       ],
       "peshitta": [
+        10,
         11,
         12
       ],
       "vulgate": [
+        11,
         12
       ],
       "variant": "minor",
-      "note": "Peshitta makes pronoun ܐܢܬ explicit where Greek/Vulgate have it in verb inflection"
+      "type": "gloss",
+      "note": "The Peshitta adds the independent pronoun ܐܢܬ ('you') after the verb ܨܒܐ ('you desire'), making the subject explicit. Greek θέλεις and Vulgate vis encode the second-person subject morphologically without requiring an independent pronoun, making the Peshitta addition a stylistic gloss typical of Syriac syntax."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "minor",
-      "note": "Greek participle ἀπελθόντες vs Peshitta/Vulgate finite subjunctive forms"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14
-      ],
-      "variant": "added",
-      "note": "Vulgate adds coordinating 'et' before paremus, absent in Greek and Peshitta"
-    },
-    {
-      "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
-        14
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        13,
+        14,
         15
       ],
       "vulgate": [
-        16
+        13,
+        14,
+        15
       ],
       "variant": "minor",
-      "note": "Peshitta ܠܟ and Vulgate 'tibi' make dative 'for you' explicit, implied in Greek context"
+      "type": "construction",
+      "note": "Greek uses an aorist participle ἀπελθόντες ('having gone') followed by subjunctive ἑτοιμάσωμεν ('we may prepare'); Vulgate mirrors this with subjunctive eamus ('we may go') and paremus ('we may prepare'). Peshitta employs two imperfect verbs ܕܢܐܙܠ ܢܛܝܒ ('that-we-go we-prepare') with the dative pronoun ܠܟ ('for you') added, making the beneficiary explicit where Greek and Latin leave it implicit."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [],
-      "vulgate": [
-        17
-      ],
-      "variant": "minor",
-      "note": "Greek ἵνα and Vulgate 'ut' purpose clause; Peshitta uses ܕ prefix on verb without separate conjunction"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
+        20,
         21,
         22
       ],
       "peshitta": [
+        16,
         17
       ],
       "vulgate": [
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        16,
+        17,
+        18,
+        19,
         20
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation, not present as token in other traditions"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the purpose clause ἵνα φάγῃς τὸ πάσχα ('that you may eat the Passover'); Vulgate employs ut manduces Pascha with identical structure. Peshitta restructures with the dative pronoun ܠܟ ('for you') governing the infinitive ܕܬܐܟܘܠ ('that-you-eat'), integrating the beneficiary pronoun already introduced in the previous clause, resulting in a more compact Syriac construction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.830122+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.036448+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

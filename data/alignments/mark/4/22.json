@@ -69,30 +69,23 @@
       "greek_nt": [
         0,
         1,
-        2
+        2,
+        3
       ],
       "peshitta": [
-        0,
-        1
-      ],
-      "vulgate": [
         0,
         1,
         2
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
       "vulgate": [
+        0,
+        1,
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs οὐ γάρ ἐστιν τί (negation + particle + verb + indefinite pronoun); Peshitta uses ܠܝܬ ܓܝܪ ܡܕܡ (negative existential + particle + indefinite), a standard Syriac construction; Vulgate mirrors Greek word order with Non est enim aliquid. All three express identical semantics despite minor syntactic variation."
     },
     {
       "greek_nt": [
@@ -104,37 +97,30 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         5,
         6,
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5,
-        6
-      ],
-      "variant": "major",
-      "note": "Greek ὃ ἐὰν μὴ (relative + conditional + negative) vs Peshitta ܕܠܐ (simple negative relative) vs Vulgate quod non (simple negative relative); Greek construction more emphatic"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
-        7
+        5,
+        6,
+        7,
+        8
       ],
-      "variant": "minor",
-      "note": "Greek ἵνα φανερωθῇ (purpose clause with subjunctive) vs Peshitta/Vulgate simple verb forms; semantic equivalence with stylistic difference"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses a complex conditional-purpose construction (ὃ ἐὰν μὴ ἵνα φανερωθῇ, 'which [exists] only in order that it be manifested'), employing a relative pronoun, conditional particle, double negative, and purpose clause. Peshitta simplifies to ܕܠܐ ܢܬܓܠܐ ('that it not be revealed'), a straightforward negative purpose clause lacking the conditional nuance. Vulgate preserves the Greek relative structure (quod non manifestetur) but omits ἐὰν μή, yielding a simpler relative clause of purpose."
     },
     {
       "greek_nt": [
@@ -144,9 +130,12 @@
         6
       ],
       "vulgate": [
-        9
+        9,
+        10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek οὐδέ and Peshitta ܘܠܐ function as coordinating conjunctions ('nor/and not'). Vulgate inserts a colon before nec, marking a stronger rhetorical pause and treating the second clause as a parallel restatement rather than seamless continuation."
     },
     {
       "greek_nt": [
@@ -156,10 +145,10 @@
         7
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -171,53 +160,37 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13,
-        14
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        13,
-        14
-      ],
       "variant": "minor",
-      "note": "Greek ἀλλ᾽ ἵνα (adversative + purpose) vs Peshitta ܘܠܐ (simple conjunction + negative) represents structural difference; Peshitta continues negative parallelism rather than adversative turn"
+      "type": "lexical",
+      "note": "Greek ἀπόκρυφον (G614, 'secret, hidden thing') and Vulgate occultum are precise cognates. Peshitta ܒܛܘܫܝܐ derives from the root ܛܫܐ ('to hide'), forming a nominal meaning 'in hiddenness/secrecy'—semantically equivalent but employing a prepositional phrase rather than a standalone adjective."
     },
     {
       "greek_nt": [
+        13,
+        14,
         15,
         16,
         17
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        13,
+        14,
         15,
         16,
         17
       ],
       "variant": "major",
-      "note": "Greek ἔλθῃ εἰς φανερόν (come into manifestation) vs Peshitta ܡܬܓܠܐ (be revealed, passive) vs Vulgate in palam veniat (come into open); Peshitta uses passive voice while Greek/Vulgate use active motion verb"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, no semantic content"
+      "type": "construction",
+      "note": "Greek and Vulgate employ parallel purpose constructions: ἀλλ᾽ ἵνα ἔλθῃ εἰς φανερόν / sed ut in palam veniat ('but in order that it come into the open'), using adversative conjunction + purpose clause + verb of motion + prepositional phrase. Peshitta radically simplifies to ܘܠܐ ܡܬܓܠܐ ('and it is not revealed'), a coordinate negative clause lacking both the adversative force and the telic nuance, instead presenting a flat negation that reverses the Greek/Latin affirmation of inevitable disclosure."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.748942+00:00",
+    "generated_at": "2026-04-22T12:17:07.966666+00:00",
     "confidence": 0.75,
     "schema_version": 1
   }

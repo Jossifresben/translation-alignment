@@ -48,45 +48,32 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        1
+      ],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction, uses ܕܝܢ (dēn) 'but/now' instead"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses simple conjunction Καὶ; Peshitta employs ܕܝܢ (dēn, 'but/now'), a typical Syriac discourse marker for narrative transition; Vulgate mirrors Greek with Et. The Peshitta particle adds mild adversative or continuative nuance absent in the Greek."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܕܝܢ (dēn) 'but/now' as discourse marker"
-    },
-    {
-      "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
+        0,
         2
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the indefinite pronoun τις after the noun γυνή; Peshitta places ܚܕܐ (ḥḏā, 'one/a certain') after ܐܢܬܬܐ ('woman'); Vulgate uses relative pronoun quæ, restructuring the clause. All three convey 'a certain woman' but with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -100,33 +87,26 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta uses compound form ܕܐܝܬܝܗ ܗܘܬ (d-ītayh hwat) for periphrastic past"
+      "type": "construction",
+      "note": "Greek uses present participle οὖσα ('being'); Peshitta employs periphrastic construction ܕܐܝܬܝܗ ܗܘܬ (d-īṯayh hwāṯ, relative particle + existential verb + past tense auxiliary), yielding 'who was'; Vulgate uses simple imperfect erat. The Peshitta's compound verbal form is a characteristic Syriac periphrastic pattern."
     },
     {
       "greek_nt": [
         4,
-        5
+        5,
+        6
       ],
       "peshitta": [
-        5
+        5,
+        6
       ],
       "vulgate": [
         4,
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -142,13 +122,14 @@
         8
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek 'twelve years', Peshitta/Vulgate 'years twelve'"
+      "type": "word-order",
+      "note": "Greek places numeral δώδεκα before noun ἔτη ('twelve years'); Peshitta inverts to ܫܢܝܢ ܬܪܬܥܣܪܐ (šnīn treṭṭaʿsar, 'years twelve'); Vulgate follows Greek order (annis duodecim). Syriac typically places numerals after counted nouns, reflecting Semitic syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.757545+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.974753+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

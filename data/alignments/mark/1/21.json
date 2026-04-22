@@ -52,73 +52,40 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1,
+        2,
+        3
       ],
       "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2
       ],
-      "peshitta": [
-        1
-      ],
       "vulgate": [
-        1
+        0,
+        1,
+        2,
+        3
       ],
       "variant": "minor",
-      "note": "Peshitta ܥܠܘ 'they went up' vs. Greek εἰσπορεύονται 'they enter'; topographical perspective differs"
+      "type": "grammar",
+      "note": "Greek uses historical present plural εἰσπορεύονται ('they go') where Peshitta employs perfect ܥܠܘ ('they went up/entered') and Vulgate uses historical present ingrediuntur. The Peshitta's 'went up' reflects typical Semitic idiom for approaching a town, while Greek and Latin use neutral 'enter/go into.'"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation, not present in Greek or Peshitta"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "omitted",
-      "note": "Peshitta ܘܟܕ conflates initial conjunction; no second καί equivalent"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -131,7 +98,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses dative plural τοῖς σάββασιν with article (literally 'on the Sabbaths'), a Hebraic plural of time. Both Peshitta ܒܫܒܐ and Vulgate sabbatis render the temporal dative without article, though Vulgate preserves the plural form while Peshitta uses singular—a typical Syriac idiom for recurring time periods."
     },
     {
       "greek_nt": [
@@ -149,7 +118,8 @@
         9
       ],
       "variant": "major",
-      "note": "Peshitta ܒܟܢܘܫܬܗܘܢ 'in their assembly' with possessive suffix; Greek/Vulgate use article + noun without possessive"
+      "type": "substitution",
+      "note": "Greek uses aorist participle εἰσελθὼν εἰς τὴν συναγωγήν ('having entered into the synagogue') as a temporal subordinate clause. Vulgate mirrors this with ingressus in synagogam. Peshitta radically restructures with ܒܟܢܘܫܬܗܘܢ ('in their assembly/synagogue'), incorporating a pronominal suffix 'their' not present in Greek or Latin, and omitting the separate verb of entry—collapsing location and action into a single prepositional phrase."
     },
     {
       "greek_nt": [
@@ -160,23 +130,17 @@
         5
       ],
       "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds explicit object pronoun 'eos' (them), absent in Greek and Peshitta"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses imperfect ἐδίδασκεν ('he was teaching') as main verb. Peshitta employs periphrastic construction ܡܠܦ ܗܘܐ (participle + auxiliary 'was teaching'), semantically equivalent but syntactically distinct. Vulgate adds explicit object pronoun eos ('them'), making the audience explicit where Greek and Peshitta leave it implied, and repositions the verb after the locative phrase rather than as sentence-final."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.729338+00:00",
+    "generated_at": "2026-04-22T12:17:07.946690+00:00",
     "confidence": 0.75,
     "schema_version": 1
   }

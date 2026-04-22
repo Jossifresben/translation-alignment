@@ -64,7 +64,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -72,7 +73,6 @@
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
@@ -80,7 +80,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek uses compound verb προσκαλέω; Peshitta ܩܪܐ and Vulgate convoco are simple equivalents"
+      "type": "word-order",
+      "note": "Greek uses aorist middle participle προσκαλεσάμενος with accusative object αὐτούς; Latin mirrors this with perfect passive participle convocatis plus dative eis; Peshitta employs active perfect ܘܩܪܐ ܐܢܘܢ with direct object marker, semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [],
@@ -89,7 +90,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicitly names Jesus (ܝܫܘܥ) as subject; absent in Greek and Vulgate"
+      "type": "gloss",
+      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the calling and speaking, whereas Greek and Latin leave the subject implicit from narrative context. This represents a typical Syriac clarifying expansion for readability."
     },
     {
       "greek_nt": [
@@ -103,7 +105,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐν παραβολαῖς (prepositional phrase with dative plural) and Latin in parabolis are structurally parallel; Syriac ܘܒܡܬܠܐ uses the singular form with prefixed preposition, a common Semitic idiom treating the abstract noun collectively."
     },
     {
       "greek_nt": [
@@ -116,18 +120,12 @@
       ],
       "vulgate": [
         5,
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        6,
         7
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses imperfect ἔλεγεν with dative αὐτοῖς followed by raised dot (·); Latin dicebat illis is followed by a colon introducing direct discourse; Peshitta ܐܡܪ ܠܗܘܢ employs perfect tense without explicit punctuation marker. The Vulgate's colon formally marks the transition to quoted speech."
     },
     {
       "greek_nt": [
@@ -139,7 +137,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -151,7 +150,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -163,7 +163,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -175,7 +176,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -185,24 +187,18 @@
         10
       ],
       "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        12,
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ἐκβάλλειν (present active infinitive) ends with semicolon (;) marking the rhetorical question; Latin ejicere is followed by a separate question mark (?); Peshitta ܠܡܦܩܘ uses the infinitive with ܠ prefix. The Vulgate's explicit question mark represents later Latin punctuation convention."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.743277+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:07.960691+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

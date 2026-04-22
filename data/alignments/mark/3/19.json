@@ -47,80 +47,55 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1
+        1,
+        2
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
-        1
+        1,
+        2
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction with name in single token ܘܝܗܘܕܐ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
-      "peshitta": [],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
+        3,
         4
       ],
       "variant": "minor",
-      "note": "Greek καὶ (also/even) present in Greek and Vulgate but omitted in Peshitta"
+      "type": "construction",
+      "note": "Greek employs a relative pronoun with emphatic καί (ὃς καί, 'who also/even'); Vulgate mirrors this with qui et; Peshitta uses the simple demonstrative pronoun ܗܘ ('he') without the emphatic particle, achieving the same referential function through a more economical construction."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        5,
         6
       ],
       "variant": "aligned",
-      "note": "Peshitta combines verb and object pronoun in single token ܕܐܫܠܡܗ"
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -130,13 +105,14 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܘܐܬܘ ܠܒܝܬܐ (and they came to the house), transitional phrase not in Greek or Vulgate"
+      "type": "expansion",
+      "note": "The Peshitta uniquely adds ܘܐܬܘ ܠܒܝܬܐ ('and they came to the house'), transitioning directly into the narrative of Mark 3:20. Neither the Greek NA28 nor the Vulgate include this clause at the conclusion of the apostolic list, maintaining a sharper pericope boundary between the appointment of the Twelve and the subsequent house scene."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.742664+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.960031+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

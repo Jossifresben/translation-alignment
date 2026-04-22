@@ -75,7 +75,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek καὶ ἰδοῦσα vs Vulgate et cum vidisset - stylistic variation in conjunction placement"
+      "type": "construction",
+      "note": "Greek uses coordinating conjunction καὶ with aorist participle ἰδοῦσα; Vulgate employs temporal cum with pluperfect subjunctive vidisset, a classical Latin construction for past circumstantial action; Peshitta uses simple perfect ܚܙܬܗ without explicit conjunction, typical of Syriac narrative style."
     },
     {
       "greek_nt": [
@@ -87,7 +88,8 @@
         3
       ],
       "variant": "omitted",
-      "note": "Peshitta omits explicit mention of Peter's name, using pronominal suffix on verb"
+      "type": "omission",
+      "note": "The Peshitta omits explicit mention of Peter's name, relying on pronominal suffix in ܚܙܬܗ ('she saw him') to carry the referent from context. Greek and Latin both name Πέτρον/Petrum explicitly as direct object."
     },
     {
       "greek_nt": [
@@ -100,7 +102,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses middle participle θερμαινόμενον ('warming himself'); Vulgate adds reflexive pronoun se to calefacientem for clarity; Peshitta employs active participle ܕܫܚܢ without reflexive marker, as Syriac middle voice is often implicit in context."
     },
     {
       "greek_nt": [
@@ -115,7 +119,8 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -130,7 +135,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation; Peshitta includes pronominal object suffix"
+      "type": "punctuation",
+      "note": "Vulgate inserts colon after ait to mark direct speech boundary, a Latin scribal convention. Greek uses raised dot (·) with historical present λέγει; Peshitta ܘܐܡܪܐ ܠܗ ('and she said to him') includes dative pronoun, making indirect object explicit."
     },
     {
       "greek_nt": [
@@ -145,46 +151,39 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         10,
         11,
         12,
+        13,
         14,
         15
       ],
       "peshitta": [
         8,
         9,
+        10,
         11
       ],
       "vulgate": [
         12,
         13,
-        14
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek 'with the Nazarene Jesus' vs Peshitta/Vulgate 'with Jesus Nazarene'"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek places verb ἦσθα after prepositional phrase μετὰ τοῦ Ναζαρηνοῦ τοῦ Ἰησοῦ, with Jesus in apposition to 'the Nazarene.' Vulgate and Peshitta both front the verb (eras/ܗܘܝܬ) and reverse the order to 'with Jesus the Nazarene' (cum Jesu Nazareno/ܥܡ ܝܫܘܥ ܢܨܪܝܐ), treating 'Nazarene' as adjectival modifier rather than substantive with article. This reflects differing syntactic preferences: Greek article + substantive + genitive apposition vs. Latin/Syriac noun + attributive adjective."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.840287+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.045401+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

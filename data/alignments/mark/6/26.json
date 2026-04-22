@@ -69,7 +69,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -77,7 +78,6 @@
         2
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
@@ -86,7 +86,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta expands with ܠܗ (to him) + ܣܓܝ (greatly); Vulgate uses contristatus est (was saddened)"
+      "type": "construction",
+      "note": "Greek uses an adjectival participle construction (περίλυπος γενόμενος, 'having become very sorrowful'); Peshitta employs a finite verb with intensifier (ܟܪܝܬ ܠܗ ܣܓܝ, 'it grieved him greatly'); Vulgate uses a passive perfect participle (contristatus est, 'was saddened'). All three convey the king's distress but through distinct syntactic strategies."
     },
     {
       "greek_nt": [
@@ -97,18 +98,12 @@
         3
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after 'rex' to mark a major syntactic break before the causal clause, creating a two-part sentence structure. Greek and Peshitta maintain continuous syntax without such punctuation, though the semantic division remains implicit."
     },
     {
       "greek_nt": [
@@ -126,88 +121,65 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta includes ܕܝܢ (dyn, 'but/now') as discourse marker; Vulgate uses jusjurandum (oath) singular vs Greek plural ὅρκους"
+      "type": "lexical",
+      "note": "Greek uses the plural ὅρκους ('oaths'); Peshitta uses the singular ܡܘܡܬܐ ('oath') with the particle ܕܝܢ ('indeed/now') for emphasis; Vulgate employs the compound jusjurandum ('sworn oath'), a more formal legal register. The Peshitta's singular reflects a Semitic idiom treating collective concepts as singular mass nouns."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        7,
         8,
         9,
         10
       ],
       "variant": "minor",
-      "note": "Vulgate adds simul (together) before discumbentes; Peshitta ܣܡܝܟܐ (reclining ones) is more concise"
+      "type": "lexical",
+      "note": "Greek uses the substantival participle τοὺς ἀνακειμένους ('those reclining [at table]'); Peshitta uses ܣܡܝܟܐ ('those reclining'), a cognate construction; Vulgate expands to simul discumbentes ('those reclining together'), adding the adverb 'simul' to emphasize the communal dining context, which is implicit in the Greek and Syriac."
     },
     {
       "greek_nt": [
         11,
-        12
+        12,
+        13
       ],
       "peshitta": [
         9,
-        10
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        11,
         13
       ],
       "variant": "major",
-      "note": "Greek ἀθετῆσαι (to refuse/reject her request); Peshitta ܕܢܓܠܙܝܗ (to shame/disappoint her); Vulgate contristare (to sadden her) - different semantic nuances"
+      "type": "substitution",
+      "note": "Greek uses ἀθετῆσαι ('to refuse/reject/annul'); Peshitta uses ܕܢܓܠܙܝܗ ('to expose/shame her'); Vulgate uses contristare ('to sadden/grieve her'). The Vulgate's reading represents a significant semantic shift, focusing on emotional impact rather than the act of refusal, possibly influenced by the earlier contristatus est or reflecting a variant textual tradition."
     },
     {
       "greek_nt": [
         14
       ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
       "peshitta": [],
       "vulgate": [
+        12,
         14
       ],
-      "variant": "added",
-      "note": "Vulgate adds final colon punctuation mark as token"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the object pronoun αὐτήν at the end of the clause; Peshitta incorporates the pronominal suffix directly into the verb ܕܢܓܠܙܝܗ ('-her'), typical of Semitic verb morphology; Vulgate places eam ('her') before the infinitive contristare and adds a closing colon for punctuation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.765776+00:00",
+    "generated_at": "2026-04-22T12:17:07.981844+00:00",
     "confidence": 0.75,
     "schema_version": 1
   }

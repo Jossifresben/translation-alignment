@@ -49,39 +49,110 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different verse here (Mark 9:16: 'Et interrogavit eos: Quid inter vos conquiritis?'), representing a textual dislocation or manuscript tradition error. Greek and Peshitta both attest Mark 9:15, describing the crowd's reaction to seeing Jesus, while the Vulgate has jumped to Jesus' question in the following verse."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek εὐθύς ('immediately') and Peshitta ܒܪ ܫܥܬܗ ('at once, immediately') both mark the temporal immediacy of the crowd's reaction. The Vulgate omits this adverbial phrase entirely due to its transmission of a different verse."
+    },
+    {
+      "greek_nt": [
         2,
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         5,
-        6,
-        7,
-        8,
-        9,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle with explicit object (ἰδόντες αὐτόν, 'having seen him'), while Peshitta employs a finite verb with pronominal suffix (ܚܙܐܘܗܝ, 'they-saw-him'), a typical Syriac preference for finite verbal forms over participial constructions."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐξεθαμβήθησαν ('they were greatly amazed') conveys intense astonishment, while Peshitta ܘܬܘܗܘ ('and they marveled') uses a cognate root expressing wonder but with slightly less intensive force, though both describe the crowd's startled reaction."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a present participle προστρέχοντες ('running toward') coordinated with the main verb, while Peshitta uses a coordinate finite verb ܘܪܗܛܘ ('and they ran'), reflecting Syriac's tendency toward paratactic finite verb sequences rather than Greek's participial subordination."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
         7,
         8
       ],
       "vulgate": [],
-      "variant": "major",
-      "note": "Vulgate contains entirely different content: 'And he asked them: What are you discussing among yourselves?' vs. Greek/Peshitta: 'And immediately all the crowd seeing him were amazed and running to him greeted him.' This represents a major textual variant or verse misalignment."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἠσπάζοντο αὐτόν ('they were greeting him') uses the standard verb for formal greeting, while Peshitta ܫܐܠܘ ܒܫܠܡܗ ('they asked in his peace/welfare') employs an idiomatic Semitic construction literally meaning 'they inquired about his peace,' the conventional Syriac expression for greeting."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        0,
         1,
         2,
         3,
@@ -91,14 +162,15 @@
         7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate question 'Et interrogavit eos: Quid inter vos conquiritis?' has no parallel in Greek or Peshitta for this verse."
+      "variant": "major",
+      "type": "substitution",
+      "note": "The Vulgate's 'interrogavit eos: Quid inter vos conquiritis?' ('he asked them: What are you discussing among yourselves?') represents Mark 9:16 rather than 9:15, indicating either a versification error in the manuscript tradition or a scribal leap forward in the narrative sequence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.787438+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.002121+00:00",
+    "confidence": 0.95,
     "schema_version": 1
   }
 }

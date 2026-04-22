@@ -54,7 +54,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses article + δέ (ὁ δέ, 'but he'); Vulgate employs the adversative conjunction 'At' with demonstrative pronoun 'ille'; Peshitta uses pronoun ܗܘ with particle ܕܝܢ — all three convey adversative transition but with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -71,32 +73,25 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek uses participle καταλιπών with article; Vulgate uses perfect participle rejecta; Peshitta uses finite verb ܫܒܩ with direct object"
+      "type": "construction",
+      "note": "Greek employs aorist participle καταλιπών with article-noun phrase (τὴν σινδόνα); Vulgate uses perfect passive participle 'rejecta sindone' (ablative absolute construction); Peshitta uses finite verb ܫܒܩ with direct object ܣܕܘܢܐ — semantically equivalent but syntactically distinct participial vs. finite constructions."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek and Peshitta place 'naked' before verb, Vulgate places nudus before profugit but after sindone"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
-        4
-      ],
-      "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places adjective γυμνός before main verb ἔφυγεν; Vulgate mirrors this order ('nudus profugit'); Peshitta reverses the sequence with coordinating waw (ܘܥܪܩ ܥܪܛܠ, 'and-he-fled naked'), reflecting typical Syriac verb-initial preference in narrative."
     },
     {
       "greek_nt": [
@@ -109,13 +104,14 @@
         7
       ],
       "variant": "omitted",
-      "note": "Peshitta omits the prepositional phrase 'from them'; Greek ἀπ' αὐτῶν and Vulgate ab eis both present"
+      "type": "omission",
+      "note": "Greek and Vulgate explicitly state the source of flight with prepositional phrase (ἀπ᾽ αὐτῶν / 'ab eis', 'from them'); Peshitta omits this phrase entirely, leaving the direction of flight implicit from narrative context — a minor stylistic compression."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.837859+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.043004+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -75,21 +75,14 @@
       "peshitta": [
         0,
         1,
+        2,
         3,
         4
       ],
       "vulgate": [],
-      "variant": "major",
-      "note": "Vulgate completely omits the introductory clause about entering the house; begins with Jesus' response instead"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܕܝܢ (dēn, 'but/now') as discourse marker"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Vulgate omits the entire introductory temporal clause ('And when he entered into a house') present in both Greek and Peshitta. The Vulgate begins instead with Jesus's direct response ('Et dixit illis'), creating a different narrative structure that moves immediately to the teaching about prayer and fasting."
     },
     {
       "greek_nt": [
@@ -102,7 +95,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'his disciples' as subject"
+      "type": "omission",
+      "note": "The Vulgate omits the subject phrase 'the disciples of him' (οἱ μαθηταὶ αὐτοῦ / ܬܠܡܝܕܘܗܝ), leaving the indirect object 'illis' to carry the reference. Greek uses article + noun + possessive pronoun; Peshitta uses a single construct form with pronominal suffix."
     },
     {
       "greek_nt": [
@@ -113,7 +107,9 @@
         7
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Vulgate omits the adverbial phrase 'in private' (κατ᾽ ἰδίαν / ܒܠܚܘܕܝܗܘܢ). Greek uses prepositional phrase; Syriac employs a compound adverb with pronominal suffix ('by themselves alone')."
     },
     {
       "greek_nt": [
@@ -123,8 +119,23 @@
       "peshitta": [
         5
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek and Peshitta preserve the disciples' question ('were asking him' / ܫܐܠܘܗܝ), while the Vulgate substitutes Jesus's answer formula 'Et dixit illis' ('And he said to them'), fundamentally altering the narrative voice from interrogative to declarative discourse."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition to direct discourse, a punctuation convention absent in the Greek and Peshitta manuscript traditions."
     },
     {
       "greek_nt": [
@@ -134,8 +145,9 @@
         8
       ],
       "vulgate": [],
-      "variant": "minor",
-      "note": "Greek ὅτι (hoti, 'that/why') vs Peshitta ܠܡܢܐ (lmānā, 'why'); both introduce question"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Vulgate omits the interrogative particle introducing the disciples' question. Greek ὅτι here functions as recitative/interrogative ('Why'); Peshitta ܠܡܢܐ is the direct interrogative ('why'); the Vulgate restructures entirely as a statement rather than a question."
     },
     {
       "greek_nt": [
@@ -145,7 +157,9 @@
         9
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Vulgate omits the emphatic first-person pronoun 'we ourselves' (ἡμεῖς / ܚܢܢ) present in both Greek and Peshitta, which emphasizes the disciples' personal inability in contrast to Jesus's successful exorcism."
     },
     {
       "greek_nt": [
@@ -157,7 +171,9 @@
         11
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Vulgate omits the negated verb of ability ('were not able' / οὐκ ἠδυνήθημεν / ܠܐ ܐܫܟܚܢ), replacing the disciples' question about their failure with Jesus's teaching about the requirements for this type of exorcism."
     },
     {
       "greek_nt": [
@@ -168,16 +184,14 @@
         12
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Vulgate omits the infinitive phrase 'to cast it out' (ἐκβαλεῖν αὐτό / ܠܡܦܩܘܬܗ), which in Greek and Peshitta completes the disciples' question about their inability to perform the exorcism."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
         4,
         5,
         6,
@@ -190,14 +204,15 @@
         13,
         14
       ],
-      "variant": "major",
-      "note": "Vulgate represents entirely different verse content (Jesus' answer about prayer and fasting), not the disciples' question. This appears to be a textual variant or verse misalignment."
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate adds an entire dominical saying absent from both Greek and Peshitta: 'Hoc genus in nullo potest exire, nisi in oratione et jejunio' ('This kind can go out by nothing except prayer and fasting'). This represents a major textual tradition attested in some later Greek manuscripts (cf. the Western text and Byzantine tradition) but absent from the earliest Alexandrian witnesses (NA28 brackets or omits Mark 9:29b in critical editions)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.789395+00:00",
-    "confidence": 0.4,
+    "generated_at": "2026-04-22T12:17:08.004324+00:00",
+    "confidence": 0.75,
     "schema_version": 1
   }
 }

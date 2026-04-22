@@ -61,134 +61,67 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article and conjunction δὲ have no equivalent in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Vulgate completely replaces Jesus' response with the father's cry of faith (Mark 9:24)"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek εἶπεν and Peshitta ܐܡܪ align; Vulgate has different verse content"
-    },
-    {
-      "greek_nt": [
+        1,
+        2,
+        3,
         4
       ],
       "peshitta": [
-        1
+        0,
+        1,
+        2
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Greek αὐτῷ and Peshitta ܠܗ align as dative 'to him'; Vulgate has different verse"
+      "type": "omission",
+      "note": "The Vulgate omits Jesus' response entirely, instead transmitting the father's reply from Mark 9:24. This represents a major textual dislocation: the Greek and Peshitta preserve verse 23 (Jesus' statement about faith), while the Vulgate skips directly to verse 24 (the father's cry). The Vulgate's exclamans pater pueri cum lacrimis corresponds to εὐθὺς κράξας ὁ πατὴρ τοῦ παιδίου in Greek 9:24, not present in the input Greek tokens for 9:23."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article τὸ (substantivizing the conditional clause) omitted in Peshitta"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek εἰ and Peshitta ܐܢ both conditional 'if'; Vulgate verse mismatch"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4,
-        5
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek δύνῃ matches Peshitta ܡܫܟܚ ܐܢܬ 'you are able'; Vulgate different verse"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek πιστεῦσαι matches Peshitta ܕܬܗܝܡܢ 'to believe'; Vulgate different verse"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
+        5,
+        6,
         7,
         8
       ],
+      "peshitta": [
+        3,
+        4,
+        5,
+        6
+      ],
       "vulgate": [],
       "variant": "major",
-      "note": "Greek πάντα matches Peshitta ܟܠ ܡܕܡ 'all things'; Vulgate different verse"
+      "type": "construction",
+      "note": "Greek employs the articular construction τὸ εἰ δύνῃ πιστεῦσαι ('the [matter of] if you are able to believe'), a substantivized conditional clause. Peshitta renders this as a straightforward conditional ܐܢ ܡܫܟܚ ܐܢܬ ܕܬܗܝܡܢ ('if you are able to believe'), adding the explicit subject pronoun ܐܢܬ ('you') for clarity. The Vulgate omits this clause entirely due to its transmission of verse 24 instead of verse 23."
     },
     {
       "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
+        7,
+        8,
         9,
         10
       ],
       "vulgate": [],
-      "variant": "major",
-      "note": "Greek δυνατὰ matches Peshitta ܡܫܟܚ ܕܢܗܘܐ 'are possible'; Vulgate different verse"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek uses the compact πάντα δυνατά ('all things [are] possible'), with the copula implied. Peshitta expands this to ܟܠ ܡܕܡ ܡܫܟܚ ܕܢܗܘܐ ('everything is able to be'), making the verbal construction explicit with both ܡܫܟܚ ('is able') and the infinitive ܕܢܗܘܐ ('to be'). This represents typical Syriac preference for explicit verbal forms over Greek nominal constructions."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek τῷ matches Peshitta ܠܡܢ 'to the one'; Vulgate different verse"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [],
-      "variant": "major",
-      "note": "Greek πιστεύοντι matches Peshitta ܕܡܗܝܡܢ 'believing'; Vulgate different verse"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -211,13 +144,14 @@
         14
       ],
       "variant": "major",
-      "note": "Vulgate contains Mark 9:24 (father's response) instead of Mark 9:23 (Jesus' statement); complete verse substitution"
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different verse (Mark 9:24, the father's response) rather than Jesus' statement in 9:23. The Latin text Et continuo exclamans pater pueri, cum lacrimis aiebat: Credo, Domine; adjuva incredulitatem meam corresponds to the Greek of the subsequent verse, representing either a versification error in the input data or a witness to a textual tradition that conflates or reorders these pericopes."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.788668+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.003298+00:00",
+    "confidence": 0.45,
     "schema_version": 1
   }
 }

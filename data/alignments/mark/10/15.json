@@ -74,7 +74,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -86,7 +87,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,7 +100,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Peshitta inserts the explicit subject pronoun ܐܢܐ ('I') between the verb and the indirect object, a common Semitic construction for emphasis, whereas Greek and Latin rely on verbal inflection alone to indicate the first-person subject."
     },
     {
       "greek_nt": [],
@@ -107,7 +111,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds explicit pronoun ܐܢܐ 'I' with verb"
+      "type": "gloss",
+      "note": "The Peshitta adds the independent pronoun ܐܢܐ ('I') as an explicit subject, typical of Syriac syntax for emphasis or clarity, though the Greek verb λέγω already encodes first-person singular and the Vulgate dico likewise requires no overt subject."
     },
     {
       "greek_nt": [],
@@ -116,7 +121,8 @@
         3
       ],
       "variant": "added",
-      "note": "Vulgate adds colon for punctuation"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after vobis to mark the transition from the introductory formula to the substantive declaration, a punctuation convention absent in the Greek and Peshitta manuscript traditions."
     },
     {
       "greek_nt": [
@@ -130,7 +136,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek ὃς ἂν (relative + particle) vs. Syriac ܕܟܠ 'whoever' vs. Latin quisquis; stylistic variation in indefinite relative construction"
+      "type": "construction",
+      "note": "Greek employs the relative pronoun ὃς with the modal particle ἂν to form an indefinite relative clause ('whoever'); Latin uses the compound indefinite pronoun Quisquis; Syriac uses the universal quantifier ܕܟܠ ('that all/everyone who'), each achieving the same indefinite generality through language-specific means."
     },
     {
       "greek_nt": [
@@ -142,7 +149,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -154,33 +162,27 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         7,
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the definite article τὴν with βασιλείαν and the genitive article τοῦ with θεοῦ, a construction mirrored in neither the Vulgate (which lacks articles) nor the Peshitta (which uses the construct state ܡܠܟܘܬܐ ܕܐܠܗܐ without separate articles), though all three convey 'the kingdom of God' semantically."
     },
     {
       "greek_nt": [
@@ -193,7 +195,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek ὡς vs. Syriac ܐܝܟ vs. Latin velut; synonymous comparative particles"
+      "type": "lexical",
+      "note": "Greek ὡς and Syriac ܐܝܟ are cognate comparative particles; Latin velut ('just as, like') is a synonym of sicut but carries a slightly more literary register, though all three function identically as markers of comparison."
     },
     {
       "greek_nt": [
@@ -205,7 +208,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -219,7 +223,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek double negative οὐ μὴ (emphatic) vs. Syriac/Latin single negative; stylistic difference in negation strength"
+      "type": "grammar",
+      "note": "Greek employs the emphatic double negative οὐ μὴ with the aorist subjunctive εἰσέλθῃ to express strong futurity or prohibition; Latin uses the simple negative non with the future indicative intrabit; Syriac uses the single negative ܠܐ with the imperfect ܢܥܘܠ, each tradition's standard construction for emphatic negation of future action."
     },
     {
       "greek_nt": [
@@ -231,7 +236,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -245,13 +251,15 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the preposition εἰς with the accusative pronoun αὐτήν ('into it'); Latin mirrors this with in + accusative illud; Syriac uses the prefixed preposition ܠ attached directly to the pronominal suffix ܗ ('to-it'), a more compact construction typical of Semitic languages but semantically equivalent."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.794832+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.009543+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

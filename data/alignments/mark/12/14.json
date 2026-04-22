@@ -130,21 +130,42 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses the article οἱ ('the [ones]') with the participle; Peshitta employs the demonstrative pronoun ܗܢܘܢ ('these'); Vulgate uses the relative pronoun Qui ('who'). All three function as subject markers for the participial clause, but differ in deixis and definiteness."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek καὶ ('and') coordinates the participle with the main verb; Peshitta uses ܕܝܢ ('but, now'), a discourse marker signaling narrative progression; Vulgate omits any conjunction, allowing the participle venientes to stand in asyndeton with the main verb."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
-        1,
         2
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "note": "Peshitta adds ܕܝܢ (dēn, 'but/now') as discourse marker; Greek καὶ ἐλθόντες vs Vulgate venientes"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -156,11 +177,23 @@
       ],
       "vulgate": [
         2,
-        3,
+        3
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek λέγουσιν αὐτῷ ('they say to him') and Vulgate dicunt ei mirror each other; Peshitta ܘܫܐܠܘܗܝ ('and they asked him') uses a verb of questioning rather than neutral speech, making the interrogative force explicit from the outset."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [
         4
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܫܐܠܘܗܝ combines 'and they asked him'; Vulgate adds colon punctuation"
+      "type": "punctuation",
+      "note": "Greek and Vulgate both mark the end of the narrative introduction with punctuation (Greek · colon, Vulgate : colon); Peshitta integrates the vocative directly without punctuation break, reflecting different conventions for direct speech demarcation."
     },
     {
       "greek_nt": [
@@ -172,7 +205,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -186,7 +220,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta makes pronoun ܚܢܢ (we) explicit; Greek/Vulgate implicit in verb"
+      "type": "word-order",
+      "note": "Greek οἴδαμεν ('we know') and Vulgate scimus place the verb first; Peshitta ܝܕܥܝܢ ܚܢܢ inverts to verb + explicit subject pronoun ('know we'), a typical Syriac construction emphasizing the subject through post-verbal position."
     },
     {
       "greek_nt": [
@@ -196,8 +231,9 @@
       "vulgate": [
         7
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits ὅτι/quia conjunction"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ὅτι and Vulgate quia both employ a subordinating conjunction introducing the content clause; Peshitta uses the relative particle ܕ (prefixed to ܫܪܝܪ), a standard Syriac construction for indirect discourse that does not require a separate conjunction token."
     },
     {
       "greek_nt": [
@@ -212,7 +248,9 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἀληθὴς εἶ ('true you-are') and Peshitta ܕܫܪܝܪ ܐܢܬ ('true you-[are]') place the predicate adjective before the copula/pronoun; Vulgate verax es inverts to adjective + copula, but the semantic content remains identical across all three."
     },
     {
       "greek_nt": [
@@ -224,7 +262,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -244,11 +283,23 @@
       "vulgate": [
         11,
         12,
-        13,
+        13
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek οὐ μέλει σοι περὶ οὐδενός ('it is not a care to you concerning anyone') uses an impersonal verb construction; Vulgate non curas quemquam ('you do not care for anyone') employs a personal verb with accusative object; Peshitta ܘܠܐ ܫܩܝܠ ܐܢܬ ܨܦܬܐ ܠܐܢܫ ('and not you-take face/partiality for anyone') uses an idiomatic expression with the verb 'take' + 'face'. All three convey impartiality but through distinct syntactic frames."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [],
+      "vulgate": [
         14
       ],
       "variant": "minor",
-      "note": "Greek οὐ μέλει σοι περὶ οὐδενός vs Peshitta ܘܠܐ ܫܩܝܠ ܐܢܬ ܨܦܬܐ ܠܐܢܫ (you do not take regard for anyone) vs Vulgate non curas quemquam; semantic equivalence with stylistic variation"
+      "type": "punctuation",
+      "note": "Greek marks the clause boundary with a raised dot (·); Vulgate uses a colon (:); Peshitta continues without punctuation, treating the explanatory γάρ clause as syntactically continuous with the preceding assertion."
     },
     {
       "greek_nt": [
@@ -264,7 +315,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Vulgate nec enim vs Greek οὐ γὰρ vs Peshitta ܠܐ ܓܝܪ; word order variation"
+      "type": "word-order",
+      "note": "Greek οὐ γὰρ ('not for') and Peshitta ܠܐ ܓܝܪ maintain the negative + causal particle order; Vulgate nec enim ('neither for') uses nec (a compound negative-coordinating conjunction) instead of simple non, slightly strengthening the negative force while preserving the explanatory function."
     },
     {
       "greek_nt": [
@@ -277,7 +329,9 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Greek βλέπεις ('you look') and Vulgate vides are second-person singular verbs; Peshitta ܚܐܪ ܐܢܬ ('look you') adds the explicit subject pronoun ܐܢܬ, a common Syriac practice for emphasis or clarity, though the verb alone would suffice grammatically."
     },
     {
       "greek_nt": [
@@ -296,7 +350,8 @@
         20
       ],
       "variant": "minor",
-      "note": "Greek εἰς πρόσωπον ἀνθρώπων vs Peshitta ܒܦܪܨܘܦܐ ܕܒܢܝ ܐܢܫܐ (in face of sons of men) vs Vulgate in faciem hominum; Peshitta uses construct 'sons of men'"
+      "type": "construction",
+      "note": "Greek εἰς πρόσωπον ἀνθρώπων ('into [the] face of men') uses the preposition εἰς + accusative; Vulgate in faciem hominum mirrors this with in + accusative; Peshitta ܒܦܪܨܘܦܐ ܕܒܢܝ ܐܢܫܐ ('in [the] face of sons-of men') uses ܒ ('in') + genitive construct phrase. The Peshitta's 'sons of men' (ܕܒܢܝ ܐܢܫܐ) is a Semitic idiom for 'human beings,' semantically equivalent to Greek/Latin ἀνθρώπων/hominum."
     },
     {
       "greek_nt": [
@@ -308,7 +363,8 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -323,7 +379,8 @@
         23
       ],
       "variant": "minor",
-      "note": "Greek ἐπ᾽ ἀληθείας (on basis of truth) vs Peshitta ܒܫܪܪܐ (in truth) vs Vulgate in veritate; prepositional variation"
+      "type": "construction",
+      "note": "Greek ἐπ᾽ ἀληθείας ('on [the basis of] truth') uses ἐπί + genitive to express the standard or basis; Vulgate in veritate ('in truth') employs in + ablative, a functional equivalent; Peshitta ܒܫܪܪܐ ('in/by truth') uses the preposition ܒ, which can denote instrument, manner, or sphere. All three convey teaching grounded in truth, but through different prepositional semantics."
     },
     {
       "greek_nt": [
@@ -340,7 +397,9 @@
         24,
         25
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek τὴν ὁδὸν τοῦ θεοῦ ('the way of God') uses double article construction (article + noun + article + genitive); Vulgate viam Dei omits articles (Latin lacks them); Peshitta ܐܘܪܚܐ ܕܐܠܗܐ ('way of God') uses the Syriac construct state (determined noun + ܕ + genitive), functionally equivalent to the Greek genitive but without separate article tokens."
     },
     {
       "greek_nt": [
@@ -354,7 +413,8 @@
         26
       ],
       "variant": "minor",
-      "note": "Peshitta makes pronoun ܐܢܬ (you) explicit again"
+      "type": "gloss",
+      "note": "Greek διδάσκεις ('you teach') and Vulgate doces are simple second-person verbs; Peshitta ܡܠܦ ܐܢܬ ('teach you') again supplies the explicit subject pronoun ܐܢܬ for emphasis, paralleling the earlier construction at token 17."
     },
     {
       "greek_nt": [
@@ -366,7 +426,9 @@
       "vulgate": [
         27
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔξεστιν ('it is lawful/permitted') is an impersonal verb expressing legal permissibility; Vulgate Licet ('it is permitted') is semantically identical; Peshitta ܫܠܝܛ ('it is allowed/lawful') uses a different root but conveys the same deontic modality. All three introduce the question of legal obligation."
     },
     {
       "greek_nt": [
@@ -378,7 +440,8 @@
       "vulgate": [
         28
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -391,8 +454,9 @@
       "vulgate": [
         29
       ],
-      "variant": "minor",
-      "note": "Peshitta ܟܣܦ ܪܫܐ (silver of head/poll tax) expands Greek κῆνσον/Vulgate tributum"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek κῆνσον (Latin loanword 'census,' meaning 'poll-tax') and Vulgate tributum ('tribute') each use a single term; Peshitta ܟܣܦ ܪܫܐ ('silver [of the] head') employs a two-word construct phrase literally meaning 'head-silver,' a Semitic calque for poll-tax. This is an explanatory expansion clarifying the nature of the tax through native Syriac idiom."
     },
     {
       "greek_nt": [
@@ -404,7 +468,8 @@
       "vulgate": [
         30
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -413,42 +478,38 @@
       ],
       "peshitta": [
         32,
-        33
-      ],
-      "vulgate": [
-        31,
-        32
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        33,
         34,
         35,
         36,
         37
       ],
       "vulgate": [
-        33,
-        34
+        31,
+        32,
+        33
       ],
       "variant": "major",
-      "note": "Peshitta adds full repetition ܐܘ ܠܐ ܢܬܠ ܐܘ ܠܐ ܢܬܠ (or shall we not give, or shall we not give); Vulgate has dabimus (shall we give) making question explicit; Greek has simple ἢ οὔ"
+      "type": "expansion",
+      "note": "Greek ἢ οὔ ('or not?') and Vulgate an non dabimus ('or shall we not give?') both pose a simple binary question; Peshitta ܐܘ ܠܐ ܢܬܠ ܐܘ ܠܐ ܢܬܠ ('or not shall-we-give or not shall-we-give') doubles the disjunctive phrase, creating an emphatic rhetorical structure. This repetition intensifies the either/or force of the question, a stylistic expansion not present in Greek or Latin."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        35
+      ],
       "peshitta": [],
       "vulgate": [
         34
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek and Vulgate both close the verse with a question mark (Greek ; / Vulgate ?); Peshitta's punctuation system does not employ a distinct question mark, relying instead on interrogative particles and context to signal the question."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.816043+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:26:01.883916+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

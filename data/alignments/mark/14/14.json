@@ -87,7 +87,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -104,7 +105,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction with locative; Greek uses ὅπου ἐάν construction"
+      "type": "construction",
+      "note": "Greek employs a compound conditional construction (ὅπου ἐὰν εἰσέλθῃ, 'wherever he may enter') with subjunctive mood; Syriac uses a simple relative clause (ܠܐܝܟܐ ܕܥܐܠ, 'to where he enters'); Latin mirrors the Greek with quocumque introierit (future perfect indicative in a generalizing relative clause). All three express the same indefinite location semantically."
     },
     {
       "greek_nt": [
@@ -116,7 +118,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -132,7 +135,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek οἰκοδεσπότῃ vs Peshitta ܡܪܐ ܒܝܬܐ (lord of house) vs Vulgate domino domus; same semantic unit, different word order"
+      "type": "lexical",
+      "note": "Greek uses the compound οἰκοδεσπότῃ ('master of the house'); Syriac employs a two-word construct phrase ܠܡܪܐ ܒܝܬܐ (literally 'to lord [of] house'); Latin uses domino domus (genitive construction 'lord of the house'). All three convey identical meaning through different morphological strategies."
     },
     {
       "greek_nt": [
@@ -143,7 +147,8 @@
         6
       ],
       "variant": "omitted",
-      "note": "Peshitta omits ὅτι/quia introducing indirect discourse"
+      "type": "omission",
+      "note": "Greek ὅτι and Latin quia both introduce indirect discourse ('that the Teacher says'); Syriac omits the complementizer entirely, moving directly from the imperative 'say' to the title ܪܒܢ ('our Rabbi'), a typical Semitic asyndetic construction in reported speech."
     },
     {
       "greek_nt": [
@@ -157,7 +162,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܪܒܢ (rabbi/teacher) vs Greek ὁ διδάσκαλος vs Vulgate magister"
+      "type": "lexical",
+      "note": "Greek uses ὁ διδάσκαλος ('the Teacher') with definite article; Syriac employs ܪܒܢ ('our Rabbi'), a possessive form that adds intimacy and reflects Semitic honorific usage; Latin uses magister without article (Latin lacking articles). The Syriac choice reflects cultural-linguistic preference for possessive constructions with titles of respect."
     },
     {
       "greek_nt": [
@@ -169,7 +175,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -178,7 +185,8 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon (:) to mark the transition from narrative frame to direct quotation, a Latin scribal convention not represented in Greek or Syriac manuscripts, which rely on context and verb forms to signal discourse boundaries."
     },
     {
       "greek_nt": [
@@ -192,7 +200,8 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -209,7 +218,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Greek κατάλυμά (guest room) vs Peshitta ܒܝܬ ܡܫܪܝܐ (house of lodging) vs Vulgate refectio (dining room); semantic variation"
+      "type": "lexical",
+      "note": "Greek κατάλυμά μου ('my guest room') uses a term for lodging/inn; Syriac ܒܝܬ ܡܫܪܝܐ ('house of lodging/dwelling') employs a construct phrase with ܡܫܪܝܐ (from root ŠRY, 'to dwell'); Latin refectio mea ('my dining room/refectory') emphasizes the meal function. The Syriac and Latin choices reflect interpretive glosses specifying the room's purpose."
     },
     {
       "greek_nt": [
@@ -221,67 +231,42 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         17,
-        18
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "major",
-      "note": "Word order: Greek places πάσχα before μετὰ τῶν μαθητῶν; Peshitta and Vulgate place Passover after disciples phrase"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20,
         21,
-        22
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [
-        16,
-        17,
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        22,
         23
       ],
       "peshitta": [
-        11
+        11,
+        12,
+        13,
+        14
       ],
       "vulgate": [
-        19
-      ],
-      "variant": "major",
-      "note": "Peshitta places verb ܕܐܟܘܠ earlier in clause structure (after ܐܝܟܐ); Greek and Vulgate place at end"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        15,
+        16,
+        17,
+        18,
+        19,
         20
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek places the object τὸ πάσχα ('the Passover') before the prepositional phrase μετὰ τῶν μαθητῶν μου ('with my disciples') and verb φάγω ('I may eat'), following standard Greek OV word order. Syriac inverts to VO order: ܕܐܟܘܠ ܥܡ ܬܠܡܝܕܝ ܦܨܚܐ ('that I eat with my disciples [the] Passover'), placing the verb first and object last, typical of Syriac relative clauses. Latin follows Greek order (Pascha cum discipulis meis manducem) but uses subjunctive manducem where Greek has aorist subjunctive, both expressing purpose/result."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.830546+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.036882+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

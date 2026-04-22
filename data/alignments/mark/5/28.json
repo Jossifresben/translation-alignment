@@ -58,8 +58,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses auxiliary ܗܘܬ (was) with participle ܐܡܪܐ for imperfect tense"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (continuous past action); Peshitta employs perfect ܐܡܪܐ ܗܘܬ (completed state with auxiliary); Vulgate uses imperfect dicebat. All convey iterative or continuous past speech, but Syriac marks the perfective aspect explicitly with the auxiliary verb."
     },
     {
       "greek_nt": [
@@ -82,7 +83,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon for direct discourse; Peshitta uses ܕ particle (included in ܕܐܦܢ)"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after enim to mark the transition to direct discourse, while Greek uses the conjunction ὅτι and Peshitta employs ܕ- prefix on the conditional particle. The punctuation reflects Latin rhetorical convention for introducing quoted speech."
     },
     {
       "greek_nt": [
@@ -95,8 +97,9 @@
         3,
         4
       ],
-      "variant": "aligned",
-      "note": "Greek ἐάν, Syriac ܕܐܦܢ, Latin 'Quia si' all express conditional"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐάν and Syriac ܕܐܦܢ are single conditional particles; Vulgate splits into Quia si, where Quia introduces the clause and si marks the condition. This reflects Latin's preference for explicit causal-conditional layering."
     },
     {
       "greek_nt": [
@@ -110,21 +113,12 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܩܪܒܐ ܐܢܐ (I approach/draw near) vs. Greek ἅπτω/Latin tango (touch); semantic overlap"
+      "type": "word-order",
+      "note": "Greek places the verb ἅψωμαι before the object; Syriac inverts to object-verb (ܠܠܒܘܫܗ ܩܪܒܐ) with explicit subject pronoun ܐܢܐ; Vulgate follows Greek verb-object order (tetigero vestimentum). Syriac's VSO tendency and pronoun insertion are typical of its syntax."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "note": "Greek κἂν (even), Latin 'vel' (even/or); Peshitta lacks explicit particle but sense implied"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7
       ],
@@ -132,10 +126,12 @@
         4
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned",
-      "note": "Greek τῶν ἱματίων (the garments), Syriac ܠܠܒܘܫܗ (to his garment, singular with suffix), Latin vestimentum (singular)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the crasis κἂν (καὶ ἐάν) with genitive plural article τῶν ἱματίων ('even the garments'); Vulgate employs vel vestimentum with singular collective noun; Syriac uses singular ܠܠܒܘܫܗ with pronominal suffix. All three express 'even his clothing,' but Syriac and Latin prefer singular collective forms over Greek's distributive plural."
     },
     {
       "greek_nt": [
@@ -147,8 +143,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "note": "Possessive: Greek αὐτοῦ, Syriac pronominal suffix -ܗ, Latin ejus"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -162,14 +157,15 @@
         9,
         10
       ],
-      "variant": "aligned",
-      "note": "Greek σωθήσομαι (I will be saved/healed), Syriac ܚܝܐ ܐܢܐ (I will live), Latin salva ero (I will be saved); semantic equivalence in context"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek σωθήσομαι ('I will be saved/healed') is rendered with Syriac ܚܝܐ ܐܢܐ ('I will live') and Latin salva ero ('I will be saved'). Syriac's choice of 'live' emphasizes physical restoration over the soteriological connotations preserved in Greek and Latin, reflecting a more concrete medical idiom."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.758050+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.975158+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

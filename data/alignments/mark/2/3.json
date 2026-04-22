@@ -56,7 +56,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -69,7 +70,8 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܬܘ combines conjunction and verb in single token"
+      "type": "agreement",
+      "note": "ἔρχονται / ܐܬܘ / venerunt"
     },
     {
       "greek_nt": [
@@ -88,7 +90,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses two verbs (ܐܬܘ ܠܘܬܗ + ܘܐܝܬܝܘ ܠܗ) for Greek φέροντες πρὸς αὐτόν; Vulgate uses ad eum ferentes"
+      "type": "construction",
+      "note": "Greek uses a single participle φέροντες with prepositional phrase πρὸς αὐτόν; Peshitta employs two finite verbs ܐܬܘ ܠܘܬܗ ܘܐܝܬܝܘ ܠܗ ('they came to him and brought to him'), expanding the construction for clarity. Vulgate mirrors Greek syntax with ferentes ad eum, maintaining the participial structure."
     },
     {
       "greek_nt": [
@@ -100,7 +103,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "παραλυτικόν / ܡܫܪܝܐ / paralyticum"
     },
     {
       "greek_nt": [
@@ -122,13 +127,14 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek uses passive participle αἰρόμενον ὑπὸ τεσσάρων; Peshitta uses active construction ܟܕ ܫܩܝܠܝܢ ܠܗ ܒܝܬ ܐܪܒܥܐ (while carrying him by four); Vulgate uses relative clause qui a quatuor portabatur"
+      "type": "word-order",
+      "note": "Greek places the passive participle αἰρόμενον before the agent phrase ὑπὸ τεσσάρων; Vulgate inverts this with relative clause qui a quatuor portabatur, placing the agent before the verb. Peshitta uses temporal particle ܟܕ with active participle ܫܩܝܠܝܢ ܠܗ ܒܝܬ ܐܪܒܥܐ ('while they were carrying him, [the] four'), treating the four as subject rather than agent, a characteristic Syriac construction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.734496+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.951345+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

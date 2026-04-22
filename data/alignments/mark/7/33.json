@@ -79,7 +79,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -94,7 +95,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction with verb; Greek/Vulgate separate pronoun"
+      "type": "construction",
+      "note": "Greek ἀπολαβόμενος αὐτόν uses an aorist middle participle with direct object; Syriac ܘܢܓܕܗ incorporates the pronominal suffix directly on the verb; Vulgate apprehendens eum mirrors the Greek construction with a present active participle and separate pronoun."
     },
     {
       "greek_nt": [
@@ -110,7 +112,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀπὸ τοῦ ὄχλου ('from the crowd') and Syriac ܡܢ ܟܢܫܐ are cognate constructions; Vulgate de turba uses turba (a collective noun for 'throng') rather than the more common populus, semantically equivalent but lexically distinct."
     },
     {
       "greek_nt": [
@@ -123,7 +127,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -142,14 +147,16 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses singular 'finger' with suffix; Greek/Vulgate plural 'fingers'"
+      "type": "grammar",
+      "note": "Greek ἔβαλεν τοὺς δακτύλους αὐτοῦ uses the plural δακτύλους ('fingers'); Syriac ܨܒܥܬܗ employs the singular with pronominal suffix (a typical Syriac idiom for body parts in distributive contexts); Vulgate digitos suos mirrors the Greek plural construction."
     },
     {
       "greek_nt": [
         12,
         13,
         14,
-        15
+        15,
+        16
       ],
       "peshitta": [
         6
@@ -157,31 +164,12 @@
       "vulgate": [
         9,
         10,
-        11
-      ],
-      "variant": "minor",
-      "note": "Greek/Vulgate use plural 'ears'; Peshitta dual form with pronominal suffix"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation not present in Greek/Peshitta"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek εἰς τὰ ὦτα αὐτοῦ uses the neuter plural ὦτα ('ears'); Syriac ܒܐܕܢܘܗܝ employs the dual form (a preserved Semitic grammatical category for paired body parts); Vulgate in auriculas ejus uses the diminutive auriculas rather than aures, possibly for stylistic variation."
     },
     {
       "greek_nt": [
@@ -191,52 +179,39 @@
         7
       ],
       "vulgate": [
+        13,
         14
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction with participle; Greek/Vulgate separate"
+      "type": "construction",
+      "note": "Greek πτύσας is an aorist active participle ('having spit'); Syriac ܘܪܩ uses a coordinate finite verb with waw-conjunction; Vulgate exspuens is a present active participle, and the colon punctuation (token 13) marks a syntactic break absent in the Greek manuscript tradition."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20,
         21
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        15,
         16,
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        17,
         18
       ],
-      "variant": "added",
-      "note": "Vulgate adds final colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ἥψατο τῆς γλώσσης αὐτοῦ and Syriac ܘܩܪܒ ܠܠܫܢܗ are semantically aligned; Vulgate tetigit linguam ejus mirrors the Greek, but the final colon (token 18) introduces a pause not present in the Greek or Syriac textual witnesses, likely reflecting later Latin liturgical practice."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.777644+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.992960+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -61,61 +61,46 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1,
+        2,
+        3,
+        4,
         5
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
-        1
+        1,
+        2,
+        3,
+        4
       ],
       "variant": "minor",
-      "note": "Greek uses article + participle 'the one being'; Peshitta uses pronoun ܗܘ; Vulgate uses relative pronoun 'qui'"
+      "type": "construction",
+      "note": "Greek uses an article + prepositional phrase with participle (ὁ εἰς τὸν ἀγρὸν ὤν, 'the one being in the field'); Latin employs a relative clause (qui in agro erit, 'who will be in the field'); Syriac uses a relative particle with prepositional phrase (ܕܒܚܩܠܐ ܗܘ, 'who in-the-field he-is'). All three constructions are semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2,
-        3,
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -130,51 +115,34 @@
         7
       ],
       "variant": "minor",
-      "note": "Greek εἰς τὰ ὀπίσω 'to the things back' vs. Peshitta ܠܒܣܬܪܗ 'to his back/behind' vs. Vulgate 'retro'; stylistic variation for 'back/backward'"
+      "type": "construction",
+      "note": "Greek uses a prepositional phrase with article and adverb (εἰς τὰ ὀπίσω, 'to the [things] behind'); Latin uses a simple adverb (retro, 'back'); Syriac employs a prepositional phrase with pronominal suffix (ܠܒܣܬܪܗ, 'to-his-back'). The Syriac construction personalizes the direction with a possessive suffix, while Greek and Latin use more abstract spatial expressions."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
-        13
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "minor",
-      "note": "Greek ἱμάτιον 'outer garment' vs. Peshitta ܠܒܫܗ 'his garment' vs. Vulgate 'vestimentum'; minor lexical variation for 'garment/clothing'"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        8,
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses ἱμάτιον (outer garment, cloak) while Syriac uses ܠܒܫܗ (generic 'his clothing'); Latin vestimentum is similarly generic. The Greek term is more specific, referring to the outer garment as opposed to the inner tunic (χιτών), though all three convey the essential meaning of retrieving one's garment."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.824811+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.030797+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

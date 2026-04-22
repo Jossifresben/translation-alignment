@@ -64,31 +64,23 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0,
-        1
-      ],
-      "variant": "minor",
-      "note": "Greek ἐγένετο (it came to pass) rendered as temporal conjunction in Peshitta ܘܟܕ (and when); Vulgate uses Et dum (and while)"
-    },
-    {
-      "greek_nt": [
+        1,
         2,
         3,
         4
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek employs the Semitic construction καὶ ἐγένετο ἐν τῷ + infinitive (γίνομαι with articular infinitive) to introduce the temporal clause. Vulgate renders this with the classical Latin temporal conjunction dum + indicative (dum seminat). Peshitta uses the native Syriac temporal particle ܘܟܕ + perfect verb, eliminating the Greek pleonasm entirely—a characteristic Syriac simplification of Septuagintal-style syntax."
     },
     {
       "greek_nt": [
@@ -102,7 +94,8 @@
         3
       ],
       "variant": "major",
-      "note": "Greek ὃ μὲν (some/the one) vs Peshitta ܐܝܬ (there is/was) vs Vulgate aliud (another); different syntactic strategies for partitive construction"
+      "type": "substitution",
+      "note": "Greek uses the relative pronoun ὃ with the particle μέν ('some [of it]') to introduce the distributive series. Vulgate substitutes the indefinite pronoun aliud ('another [portion]'), making the distribution explicit. Peshitta employs the existential particle ܐܝܬ ('there is/was') with a following relative clause, a standard Syriac construction for indefinite subjects—semantically equivalent but syntactically distinct from both Greek and Latin."
     },
     {
       "greek_nt": [
@@ -132,28 +125,19 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek παρὰ τὴν ὁδόν (beside the road) vs Peshitta ܥܠ ܝܕ ܐܘܪܚܐ (on/by hand of road) vs Vulgate circa viam (around the road); slight prepositional variation"
+      "type": "construction",
+      "note": "Greek παρὰ τὴν ὁδόν ('alongside the road') and Vulgate circa viam ('around the road') both use prepositional phrases with accusative objects. Peshitta uses ܥܠ ܝܕ ܐܘܪܚܐ (literally 'upon the side of the road'), a compound prepositional construction typical of Syriac spatial idiom—the three traditions convey identical locative meaning through different syntactic strategies."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
+        7,
         8
       ],
       "variant": "aligned"
@@ -172,28 +156,20 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek τὰ πετεινὰ τοῦ οὐρανοῦ ('the birds of heaven') and Vulgate volucres cæli ('birds of heaven') both preserve the Hebraic genitive construction. Peshitta uses the bare noun ܦܪܚܬܐ ('birds') without the qualifying phrase, a typical Syriac ellipsis where context makes the celestial origin of birds self-evident—the omission is stylistic rather than theologically significant."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
+        11,
         12
       ],
       "variant": "aligned"
@@ -202,19 +178,19 @@
       "greek_nt": [
         19
       ],
-      "peshitta": [
-        9
-      ],
+      "peshitta": [],
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek αὐτό and Vulgate illud both supply the neuter singular accusative pronoun as direct object of the verb 'devoured.' Peshitta incorporates the pronominal suffix directly onto the verb ܘܐܟܠܬܗ ('-it' as bound morpheme), following standard Syriac verb morphology where object pronouns are suffixed rather than freestanding—a grammatical difference with no semantic impact."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.745835+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.963427+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

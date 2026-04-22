@@ -115,7 +115,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -126,7 +127,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek γὰρ and Peshitta ܓܝܪ present; Vulgate omits explanatory particle"
+      "type": "omission",
+      "note": "Greek γὰρ and Peshitta ܓܝܪ both transmit the causal particle 'for,' while the Vulgate omits it entirely. This is a minor stylistic divergence typical of Latin's preference for asyndeton in solemn pronouncements."
     },
     {
       "greek_nt": [
@@ -138,7 +140,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -151,7 +154,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit pronoun ܐܢܐ (I) with verb; Greek and Vulgate use inflected verb alone"
+      "type": "word-order",
+      "note": "Greek ὑμῖν follows λέγω directly; Peshitta ܠܟܘܢ follows ܐܡܪ ܐܢܐ (with explicit subject pronoun); Vulgate vobis follows dico. The Peshitta inserts the independent pronoun ܐܢܐ ('I') for emphasis, a common Semitic construction, while Greek and Latin rely on verbal inflection alone."
     },
     {
       "greek_nt": [],
@@ -160,7 +164,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds explicit first-person pronoun ܐܢܐ"
+      "type": "gloss",
+      "note": "Peshitta adds the independent pronoun ܐܢܐ ('I') as subject of the verb, making explicit what is implicit in the Greek first-person singular λέγω and Latin dico. This is a characteristic Syriac stylistic feature for emphasis or clarity."
     },
     {
       "greek_nt": [
@@ -170,7 +175,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek ὅτι introduces the content clause; Vulgate uses quia (semantic equivalent). Peshitta omits an explicit conjunction here, using ܕܡܢ (d-man, 'that whoever') to merge the conjunction with the relative pronoun in a single Semitic construction."
     },
     {
       "greek_nt": [
@@ -183,8 +190,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "note": "Greek ὃς ἂν, Peshitta ܕܡܢ, Vulgate quicumque all express 'whoever'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the indefinite relative construction ὃς ἂν ('whoever'); Latin uses quicumque (compound indefinite relative); Peshitta uses ܕܡܢ (d-man), a Semitic relative particle + interrogative pronoun construction. All three express indefinite agency but through language-specific syntactic strategies."
     },
     {
       "greek_nt": [
@@ -196,7 +204,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -212,16 +221,21 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses article + dative noun + demonstrative (τῷ ὄρει τούτῳ); Vulgate reverses to demonstrative + dative noun (huic monti); Peshitta uses preposition + noun + demonstrative (ܠܛܘܪܐ ܗܢܐ). The Syriac lacks the definite article as a separate morpheme, encoding definiteness through context and the demonstrative."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        10
+      ],
       "peshitta": [],
       "vulgate": [
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek τούτῳ· and Vulgate colon (:) both mark the transition to direct speech. Peshitta has no overt punctuation marker here, relying on the syntactic structure of the ܕ-clause to signal the quotation."
     },
     {
       "greek_nt": [
@@ -233,7 +247,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἄρθητι is aorist passive imperative second singular; Vulgate Tollere is passive infinitive (in indirect discourse construction); Peshitta ܕܐܫܬܩܠ is ethpeal (passive) imperfect third singular in a ܕ-clause. The Vulgate shifts from direct command to indirect discourse, while Peshitta uses a subjunctive-like construction typical of Syriac purpose/result clauses."
     },
     {
       "greek_nt": [
@@ -245,7 +261,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -258,7 +275,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta combines 'and cast' into single verb ܘܦܠ; Greek and Vulgate use separate conjunction and verb"
+      "type": "grammar",
+      "note": "Greek βλήθητι is aorist passive imperative; Vulgate mittere is passive infinitive (continuing the indirect discourse); Peshitta ܘܦܠ ('and fall') is peal active imperative, merging the passive sense of 'be cast' into the active 'fall.' This reflects Syriac's tendency to use active verbs where Greek and Latin prefer passive constructions."
     },
     {
       "greek_nt": [
@@ -273,31 +291,23 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
         12
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -309,7 +319,9 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek διακριθῇ ('be divided, doubt') and Peshitta ܢܬܦܠܓ (ethpeal of PLG, 'be divided') are cognate concepts. Vulgate hæsitaverit ('hesitate, waver') is a semantic equivalent but uses a different Latin root, emphasizing the psychological state of wavering rather than internal division."
     },
     {
       "greek_nt": [
@@ -326,7 +338,9 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐν τῇ καρδίᾳ αὐτοῦ ('in his heart'); Vulgate mirrors this with in corde suo; Peshitta uses the bound form ܒܠܒܗ (b-lebb-eh, 'in-heart-his'), a single-word construction with pronominal suffix. All three are semantically identical but reflect different morphological strategies for expressing possession and location."
     },
     {
       "greek_nt": [
@@ -338,7 +352,8 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -350,7 +365,8 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -362,7 +378,8 @@
       "vulgate": [
         22
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -378,7 +395,8 @@
         24
       ],
       "variant": "minor",
-      "note": "Greek λαλεῖ vs Peshitta/Vulgate use of 'say'; Peshitta adds ܡܕܡ (something/what)"
+      "type": "construction",
+      "note": "Greek ὃ λαλεῖ ('what he says') uses the relative pronoun + present indicative; Vulgate quodcumque dixerit uses compound indefinite relative + perfect subjunctive; Peshitta ܡܕܡ ܕܐܡܪ (meddem d-amar, 'anything that he says') uses the indefinite pronoun + relative particle. The Vulgate's perfect subjunctive and compound relative emphasize the completed nature of the speech act, while Greek and Syriac use simpler present-tense constructions."
     },
     {
       "greek_nt": [],
@@ -387,21 +405,22 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds demonstrative pronoun ܗܘ"
+      "type": "gloss",
+      "note": "Peshitta inserts the independent pronoun ܗܘ ('he') as subject, making explicit the agent implied in the Greek third-person verb λαλεῖ and Latin dixerit. This is a typical Syriac clarification strategy in subordinate clauses."
     },
     {
       "greek_nt": [
         29
       ],
       "peshitta": [
-        17,
         21
       ],
       "vulgate": [
         25
       ],
       "variant": "minor",
-      "note": "Greek γίνεται (present) vs Peshitta ܕܗܘܐ...ܢܗܘܐ and Vulgate fiat (subjunctive); structural variation"
+      "type": "grammar",
+      "note": "Greek γίνεται is present middle/passive indicative ('takes place, happens'); Vulgate fiat is present subjunctive ('let it happen, may it be'); Peshitta ܢܗܘܐ is imperfect third singular ('it will be'). The Vulgate's subjunctive mood aligns with the indirect discourse structure, while Greek uses indicative in the ὅτι-clause, and Syriac employs the imperfect with future/modal sense."
     },
     {
       "greek_nt": [
@@ -416,7 +435,9 @@
         26,
         27
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb before the indirect object (ἔσται αὐτῷ); Vulgate reverses to fiet ei; Peshitta integrates both into the preceding clause structure (ܢܗܘܐ ܠܗ, 'it-will-be to-him'). The Peshitta merges the two Greek clauses (γίνεται and ἔσται αὐτῷ) into a single verbal idea, reflecting Semitic preference for verbal economy."
     },
     {
       "greek_nt": [
@@ -430,13 +451,14 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Greek ὃ ἐὰν εἴπῃ and Peshitta ܡܕܡ ܕܐܡܪ repeat 'whatever he says'; Vulgate omits this final clause entirely"
+      "type": "omission",
+      "note": "Greek concludes with the indefinite relative clause ὃ ἐὰν εἴπῃ ('whatever he may say'); Peshitta repeats ܡܕܡ ܕܐܡܪ ('anything that he says'), creating a resumptive or emphatic doubling of the earlier clause. The Vulgate omits this final clause entirely, ending at fiet ei, possibly viewing it as redundant after quodcumque dixerit. This represents a substantive textual divergence in the verse's conclusion."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.811175+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:26:01.883465+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

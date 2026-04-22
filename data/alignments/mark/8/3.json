@@ -83,19 +83,24 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ἐάν (conditional particle) with subjunctive; Peshitta employs ܗܘ (emphatic particle) following ܘܐܢ; Vulgate uses si with future perfect indicative. All three express the same protasis but with tradition-specific conditional constructions."
     },
     {
       "greek_nt": [
         2
       ],
       "peshitta": [
-        2
+        2,
+        3
       ],
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta inserts an explicit first-person pronoun ܐܢܐ ('I') as subject of the verb ܕܫܪܐ ('send away'), whereas Greek ἀπολύσω and Latin dimisero encode the subject morphologically in the verb ending. This is a typical Syriac clarifying gloss."
     },
     {
       "greek_nt": [
@@ -108,15 +113,6 @@
         3
       ],
       "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit first-person pronoun ܐܢܐ (I)"
     },
     {
       "greek_nt": [
@@ -130,7 +126,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses participial construction ܟܕ ܨܝܡܝܢ (while fasting) vs. Greek/Latin adjective"
+      "type": "construction",
+      "note": "Greek νήστεις (accusative adjective) and Latin jejunos (accusative adjective) function as predicative complements. Peshitta uses a circumstantial clause ܟܕ ܨܝܡܝܢ ('while fasting'), a syntactically distinct but semantically equivalent construction typical of Syriac participial usage."
     },
     {
       "greek_nt": [
@@ -173,16 +170,9 @@
         9,
         10
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        11
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article τῇ with ὁδῷ (dative singular, 'on the way'); Latin mirrors this with in via (ablative without article, as Latin lacks articles); Peshitta uses ܒܐܘܪܚܐ (emphatic state functioning as definite). All three express definiteness through tradition-specific morphosyntactic means."
     },
     {
       "greek_nt": [
@@ -191,9 +181,12 @@
       "peshitta": [
         11
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek καί vs. Peshitta ܓܝܪ (for) - different connective particle; Vulgate omits"
+      "vulgate": [
+        18
+      ],
+      "variant": "major",
+      "type": "punctuation",
+      "note": "Greek καί coordinates the two clauses as a compound sentence. Peshitta uses ܓܝܪ ('for'), making the second clause explanatory/causal. Vulgate places a colon after via, treating the final clause as an independent explanatory statement rather than a coordinated element, fundamentally altering the syntactic relationship."
     },
     {
       "greek_nt": [
@@ -205,16 +198,9 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        13
-      ],
-      "variant": "added",
-      "note": "Vulgate adds explicit enim (for) where Greek has καί and Peshitta has ܓܝܪ earlier"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek τινες αὐτῶν ('some of them') places the indefinite pronoun before the partitive genitive. Peshitta ܐܢܫܐ ܡܢܗܘܢ reverses this order ('men from them'). Vulgate quidam ex eis follows Greek word order. The semantic content is identical despite the syntactic reordering."
     },
     {
       "greek_nt": [
@@ -224,8 +210,8 @@
         12
       ],
       "vulgate": [
-        14,
-        15
+        15,
+        16
       ],
       "variant": "aligned"
     },
@@ -255,12 +241,22 @@
         18
       ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after via, creating a stronger syntactic break than the Greek semicolon or Peshitta's continuous flow with ܓܝܪ. This punctuation choice reflects Latin rhetorical convention and affects the clause relationship as noted above."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.778713+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.994099+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

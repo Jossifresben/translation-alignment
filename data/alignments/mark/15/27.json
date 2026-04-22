@@ -66,7 +66,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -80,7 +81,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the preposition σὺν with dative pronoun (σὺν αὐτῷ), while Syriac uses the preposition ܥܡ with pronominal suffix (ܥܡܗ) and Latin uses cum with ablative pronoun (cum eo). All three constructions are semantically equivalent expressions of accompaniment, differing only in morphological realization."
     },
     {
       "greek_nt": [
@@ -93,67 +96,45 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܙܩܦܘ combines conjunction + verb; Greek/Vulgate separate them"
+      "type": "word-order",
+      "note": "The Peshitta places the verb ܘܙܩܦܘ ('and they crucified') at the beginning of the clause with the conjunction, while Greek and Latin position σταυροῦσιν/crucifigunt after the prepositional phrase. This reflects typical Syriac VSO word order versus Greek/Latin preference for postponing the verb in coordinate clauses."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        4,
+        5,
         6
       ],
-      "variant": "added",
-      "note": "Vulgate colon is punctuation, not lexical"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after latrones, creating a pause before the specification of position. Greek uses a comma and Peshitta has no punctuation at this juncture, but all three traditions convey identical semantic content regarding the two robbers."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8
       ],
       "peshitta": [
+        4,
         5,
         6
       ],
       "vulgate": [
+        7,
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -165,54 +146,47 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Vulgate uses 'alium' (another) vs Greek/Peshitta 'one'; stylistic variation"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
       "peshitta": [
+        7,
         8,
         9
       ],
       "vulgate": [
+        11,
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek repeats ἕνα ('one') for the second robber, while Latin substitutes alium ('another/the other'), a stylistic variation avoiding repetition. Syriac uses ܘܚܕ (wa-ḥaḏ, 'and one'), maintaining parallelism with the first clause. The semantic content is identical across all three traditions."
     },
     {
       "greek_nt": [
         13
       ],
       "peshitta": [
-        6,
         9
       ],
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.845008+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.050324+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

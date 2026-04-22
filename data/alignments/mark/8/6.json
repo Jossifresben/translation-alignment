@@ -91,7 +91,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -103,7 +104,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -116,7 +118,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses article + dative noun (τῷ ὄχλῳ); Vulgate employs bare dative (turbæ); Peshitta uses preposition + noun (ܠܟܢܫܐ, 'to the crowd'). All three convey the indirect object identically, differing only in morphosyntactic realization."
     },
     {
       "greek_nt": [
@@ -129,7 +133,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek ἀναπίπτω (recline) vs Syriac ܣܡܟ (lean/recline) vs Latin discumbere (recline at table); synonymous terms for dining posture"
+      "type": "lexical",
+      "note": "Greek ἀναπίπτω ('to recline') and Latin discumbere both denote formal meal posture; Syriac ܢܣܬܡܟܘܢ ('to recline/lean') is the standard cognate. The Vulgate infinitive construction mirrors Greek syntax more closely than the Peshitta's d- + imperfect subjunctive."
     },
     {
       "greek_nt": [
@@ -145,7 +150,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs prepositional phrase with article (ἐπὶ τῆς γῆς); Latin uses super + accusative (super terram) without article; Syriac uses ܥܠ ܐܪܥܐ ('on [the] ground'), lacking the definite article present in Greek. Semantic equivalence maintained across all three despite article variation."
     },
     {
       "greek_nt": [
@@ -157,28 +164,40 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         10,
         11,
         12
       ],
       "peshitta": [
-        5,
         6,
         7,
         8
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
       "variant": "minor",
-      "note": "Peshitta includes demonstrative pronoun ܗܢܘܢ (those) not present in Greek or Vulgate"
+      "type": "word-order",
+      "note": "Greek places article before numeral (τοὺς ἑπτὰ ἄρτους); Vulgate omits article and inverts order (septem panes); Peshitta inserts demonstrative pronoun ܗܢܘܢ ('those') before numeral, yielding 'those seven loaves'. The Syriac demonstrative functions as a definiteness marker equivalent to the Greek article."
     },
     {
       "greek_nt": [
@@ -191,8 +210,9 @@
         10,
         11
       ],
-      "variant": "major",
-      "note": "Greek εὐχαριστέω (give thanks) vs Syriac ܒܪܟ (bless) vs Latin gratias agere (give thanks); theological distinction between blessing and thanksgiving"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εὐχαριστέω ('to give thanks') is rendered by Syriac ܒܪܟ ('to bless') and Latin gratias agens ('giving thanks'). The Peshitta substitutes the blessing formula common in Jewish meal contexts, while Greek and Latin preserve the thanksgiving terminology; both are liturgically equivalent but lexically distinct."
     },
     {
       "greek_nt": [
@@ -204,7 +224,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -216,25 +237,39 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        16,
+        16
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect tense ἐδίδου ('he was giving'), indicating iterative or durative action; Latin dabat mirrors this with its own imperfect; Syriac ܘܝܗܒ employs the perfect, which can function as a simple past or perfective aspect. The Peshitta's aspectual choice slightly flattens the Greek's emphasis on ongoing distribution."
+    },
+    {
+      "greek_nt": [
         17,
         18,
         19
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        14,
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses article + dative plural + possessive pronoun (τοῖς μαθηταῖς αὐτοῦ); Latin employs dative + possessive (discipulis suis); Syriac uses preposition + noun with pronominal suffix (ܠܬܠܡܝܕܘܗܝ, 'to his disciples'). All three mark possession and indirect object identically in function, differing only in morphological strategy."
     },
     {
       "greek_nt": [
@@ -248,7 +283,8 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -260,29 +296,42 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        23,
+        23
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         24,
         25
       ],
       "peshitta": [
-        14,
         15
       ],
       "vulgate": [
-        20,
         21
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses article + dative (τῷ ὄχλῳ); Latin employs bare dative (turbæ); Syriac uses preposition + noun (ܠܟܢܫܐ). This mirrors the earlier pattern at the verse opening, maintaining consistent morphosyntactic divergence across traditions while preserving semantic identity."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.779174+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.994630+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

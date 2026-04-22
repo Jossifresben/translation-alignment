@@ -66,7 +66,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -79,7 +80,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek aorist εἶπεν vs. Vulgate present dicit; Peshitta ܘܐܡܪ combines conjunction and verb"
+      "type": "grammar",
+      "note": "Greek uses aorist εἶπεν ('he said'), while Vulgate employs historical present dicit ('he says'), a stylistic variation common in Latin Gospel narratives to heighten vividness. Peshitta ܘܐܡܪ conflates conjunction and verb in a single token."
     },
     {
       "greek_nt": [
@@ -94,47 +96,31 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (τοῖς μαθηταῖς αὐτοῦ); Vulgate mirrors with noun + possessive (discipulis suis); Syriac employs a single bound form with pronominal suffix (ܠܬܠܡܝܕܘܗܝ 'to-his-disciples'), a typical Semitic construct-state compression."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
+        6,
         7,
         8
       ],
       "peshitta": [
         2,
-        3
+        3,
+        4
       ],
       "vulgate": [
+        4,
+        5,
         6,
         7
       ],
       "variant": "major",
-      "note": "Greek προσκαρτερῇ 'wait upon/attend' vs. Peshitta ܕܢܩܪܒܘܢ ܠܗ 'bring near to him' vs. Vulgate deserviret sibi 'serve him'; different semantic nuances of readiness"
+      "type": "substitution",
+      "note": "Greek προσκαρτερῇ ('wait upon, attend constantly') conveys persistent readiness; Vulgate deserviret ('serve, be at service') emphasizes functional service; Peshitta ܕܢܩܪܒܘܢ ܠܗ ܣܦܝܢܬܐ ('that they bring near to him a boat') uses a causative construction focusing on the disciples' action of positioning the vessel rather than the boat's ongoing attendance. This represents a substantive semantic shift in agency and aspect."
     },
     {
       "greek_nt": [
@@ -150,46 +136,28 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
+        13,
         14,
         15
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        10,
         11,
         12
       ],
       "variant": "minor",
-      "note": "Greek θλίβωσιν 'press/crush' vs. Peshitta ܢܚܒܨܘܢܝܗܝ 'press/squeeze' vs. Vulgate comprimerent 'compress'; synonymous verbs with slight stylistic variation"
+      "type": "construction",
+      "note": "Greek employs a second ἵνα clause with negative μὴ θλίβωσιν αὐτόν ('that they not press upon him'); Vulgate uses ne comprimerent eum with imperfect subjunctive; Peshitta integrates the negative particle directly into a single d-clause (ܕܠܐ ܢܚܒܨܘܢܝܗܝ), reflecting Syriac preference for compact subordination without repeating the conjunction."
     },
     {
       "greek_nt": [],
@@ -197,14 +165,15 @@
       "vulgate": [
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present as token in other traditions"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate adds a colon to mark the end of the pericope, a punctuation convention absent in Greek and Syriac manuscript traditions of this era."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.741174+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.958379+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

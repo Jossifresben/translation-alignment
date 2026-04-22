@@ -72,92 +72,48 @@
     {
       "greek_nt": [
         0,
-        1
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "peshitta": [
-        0
-      ],
-      "vulgate": [
         0,
         1
       ],
-      "variant": "minor",
-      "note": "Greek uses participle ἀποκριθεὰς + finite verb; Peshitta and Vulgate use single verb forms"
-    },
-    {
-      "greek_nt": [
+      "vulgate": [
+        0,
+        1,
         2,
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Subject 'Jesus' explicit in Greek, implicit in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Peshitta omits the participial phrase ἀποκριθεὶς ὁ Ἰησοῦς ('answering, Jesus'), rendering only ܘܐܡܪ ܠܗ ('and he said to her'). The Vulgate preserves the Greek construction with Et respondens dixit ei, maintaining the Semitic pleonastic answering formula common in the Gospels."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8,
         9
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        5,
+        6,
         7,
         8,
         9
       ],
       "variant": "minor",
-      "note": "Greek εἰς τὸν αἰῶνα vs. Peshitta ܘܠܥܠܡ vs. Vulgate in æternum; stylistic variation for 'forever'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܘܠܥܠܡ and Vulgate 'non amplius' add emphatic negation not in Greek μηκέτι alone"
+      "type": "word-order",
+      "note": "Greek uses μηκέτι εἰς τὸν αἰῶνα ('no more unto the age'); Peshitta reverses to ܡܟܝܠ ܘܠܥܠܡ ('from now and forever'); Vulgate expands with Jam non amplius in æternum ('now not further unto eternity'), adding the temporal adverb amplius for emphasis."
     },
     {
       "greek_nt": [
@@ -171,7 +127,8 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -183,7 +140,9 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places μηδεὶς ('no one') after the prepositional phrase; Peshitta ܐܢܫ and Vulgate quisquam appear in different syntactic positions, though all three convey the same indefinite negative subject."
     },
     {
       "greek_nt": [
@@ -195,7 +154,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -208,46 +168,30 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the optative φάγοι (volitive/prohibitive); Peshitta employs the negative particle ܠܐ with imperfect ܢܐܟܘܠ ('let him not eat'); Vulgate uses the subjunctive manducet. All three express the same prohibitive force through tradition-specific modal constructions."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
+        16,
         17,
         18,
         19
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        15,
+        16,
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -257,13 +201,14 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds 'and they came to Jerusalem' (ܘܐܬܘ ܠܐܘܪܫܠܡ), not present in Greek or Vulgate"
+      "type": "expansion",
+      "note": "The Peshitta uniquely adds ܘܐܬܘ ܠܐܘܪܫܠܡ ('and they came to Jerusalem') at the end of this verse, anticipating the narrative transition that appears in Greek and Latin only at the beginning of verse 15. This represents a scribal harmonisation or editorial smoothing of the pericope boundary."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.809665+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.017328+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

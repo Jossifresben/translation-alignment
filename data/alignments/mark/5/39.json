@@ -72,7 +72,8 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -84,7 +85,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,58 +100,51 @@
         4
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'illis' to mark direct discourse, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. This reflects Latin scribal convention for introducing quoted speech rather than a textual variant."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
         4,
         5
       ],
+      "peshitta": [
+        3,
+        4
+      ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "minor",
-      "note": "Peshitta uses participle + pronoun construction; Greek/Vulgate use single verb"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you'), which is grammatically unnecessary in Syriac but serves as an emphatic clarification. Greek and Latin encode the second-person plural within the verbal morphology (θορυβεῖσθε, turbamini) without requiring an overt pronoun."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction before weeping"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
+        7,
         8,
         9
       ],
       "variant": "minor",
-      "note": "Vulgate adds question mark as separate token"
+      "type": "punctuation",
+      "note": "Greek uses a semicolon after κλαίετε to separate the two rhetorical questions; Vulgate employs a question mark after 'ploratis' for the same purpose; Peshitta has no punctuation between the clauses. The semantic content is identical, but punctuation conventions differ across manuscript traditions."
     },
     {
       "greek_nt": [
@@ -162,34 +157,27 @@
       "vulgate": [
         10
       ],
-      "variant": "major",
-      "note": "Greek neuter παιδίον vs Peshitta/Vulgate feminine ܛܠܝܬܐ/puella reflects gender difference"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the neuter diminutive παιδίον ('little child'), Vulgate employs the feminine 'puella' ('girl'), and Peshitta uses the feminine ܛܠܝܬܐ ('girl'). The Vulgate and Peshitta specify the child's gender based on narrative context (Jairus's daughter), while Greek retains a gender-neutral term; this represents contextual specification rather than textual divergence."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        11,
         12,
         13
       ],
       "variant": "minor",
-      "note": "Vulgate uses copula 'est' + perfect participle; Greek/Peshitta use simple past"
+      "type": "construction",
+      "note": "Greek and Peshitta use simple negation with the verb (οὐκ ἀπέθανεν, ܠܐ ܡܝܬܬ), while Vulgate employs a periphrastic construction with the copula 'est' plus the perfect participle 'mortua' ('is dead'). This reflects Latin preference for analytic verbal forms but conveys identical meaning."
     },
     {
       "greek_nt": [
@@ -201,27 +189,37 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         13
       ],
       "peshitta": [
-        11,
-        12
+        11
       ],
       "vulgate": [
         15
       ],
-      "variant": "minor",
-      "note": "Peshitta adds feminine pronoun ܗܝ for agreement with ܛܠܝܬܐ"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta appends the feminine pronoun ܗܝ ('she') as subject of the verb ܕܡܟܐ ('sleeps'), making explicit what is encoded in the Greek verbal ending (καθεύδει, third singular) and the Latin verb 'dormit'. This represents typical Syriac preference for overt pronominal subjects in predicate constructions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.759789+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.976891+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

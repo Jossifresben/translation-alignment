@@ -92,7 +92,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -104,7 +105,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -119,7 +121,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek 'καὶ εὐθύς' (and immediately), Peshitta 'ܒܪ ܫܥܬܗ' (son of his hour = immediately), Vulgate 'statim' (immediately) - stylistic variation in expressing immediacy"
+      "type": "expansion",
+      "note": "Greek uses καὶ εὐθύς ('and immediately'); Peshitta expands with ܒܪ ܫܥܬܗ ('son of his hour', idiomatic for 'immediately'); Vulgate uses statim alone, positioned before the verb. All three convey immediate action but with different lexical and syntactic strategies."
     },
     {
       "greek_nt": [],
@@ -128,7 +131,8 @@
         3
       ],
       "variant": "added",
-      "note": "Vulgate adds 'ille' (that one/he) as explicit subject"
+      "type": "expansion",
+      "note": "Vulgate inserts the demonstrative pronoun ille ('that one', 'he') as an explicit subject for surrexit, clarifying the referent. Neither Greek nor Peshitta require an overt subject pronoun due to verb morphology."
     },
     {
       "greek_nt": [],
@@ -137,16 +141,8 @@
         4
       ],
       "variant": "added",
-      "note": "Vulgate punctuation colon"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "added",
-      "note": "Vulgate adds coordinating 'et' before participle"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ille, marking a syntactic break before the participial phrase. This punctuation choice reflects Latin rhetorical style and has no equivalent in Greek or Peshitta manuscript traditions."
     },
     {
       "greek_nt": [
@@ -159,10 +155,22 @@
         4
       ],
       "vulgate": [
+        5,
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle ἄρας τὸν κράβαττον ('having taken up the mat'); Peshitta employs a finite verb ܘܫܩܠ ܥܪܣܗ ('and he took up his bed') with pronominal suffix; Vulgate uses ablative absolute sublato grabato ('the mat having been taken up'). All convey simultaneous action but through distinct syntactic constructions."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -174,7 +182,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -189,37 +198,37 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        8
-      ],
+      "greek_nt": [],
+      "peshitta": [],
       "vulgate": [
-        11,
-        12
+        11
       ],
-      "variant": "minor",
-      "note": "Greek 'ὥστε' (so that), Peshitta 'ܐܝܟܢܐ' (such that), Vulgate 'ita ut' (so that) - synonymous result constructions"
+      "variant": "added",
+      "type": "word-order",
+      "note": "Vulgate places the adverb ita ('thus', 'so') before the result clause ut mirarentur, anticipating the manner of the crowd's reaction. Greek ὥστε and Peshitta ܐܝܟܢܐ introduce the result clause without a preceding manner adverb in this position."
     },
     {
       "greek_nt": [
+        10,
         11,
         12
       ],
       "peshitta": [
+        8,
         9,
         10
       ],
       "vulgate": [
+        12,
         13,
         14
       ],
-      "variant": "minor",
-      "note": "Greek 'ἐξίστασθαι' (to be amazed/astonished), Peshitta 'ܕܢܬܕܡܪܘܢ' (to marvel), Vulgate 'mirarentur' (to wonder) - synonymous expressions of amazement"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -231,7 +240,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -248,7 +258,8 @@
         17
       ],
       "variant": "minor",
-      "note": "Greek 'δοξάζειν' (to glorify), Peshitta 'ܘܢܫܒܚܘܢ' (to praise), Vulgate 'honorificent' (to honor) - semantic overlap with slight nuance"
+      "type": "lexical",
+      "note": "Greek δοξάζειν τὸν θεόν ('to glorify God') uses the standard verb for ascribing glory; Peshitta ܘܢܫܒܚܘܢ ܠܐܠܗܐ employs the cognate Semitic root ŠBḤ ('to praise'); Vulgate honorificent Deum uses a compound verb emphasizing honor-giving. All three are semantically equivalent expressions of worship but reflect distinct lexical traditions."
     },
     {
       "greek_nt": [
@@ -262,16 +273,8 @@
         18
       ],
       "variant": "minor",
-      "note": "Peshitta uses 'ܟܕ ܐܡܪܝܢ' (while saying) vs Greek/Vulgate participle 'λέγοντας'/'dicentes'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        19
-      ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "type": "construction",
+      "note": "Greek uses the present participle λέγοντας ('saying'); Peshitta employs the temporal particle ܟܕ with finite verb ܐܡܪܝܢ ('while they were saying'); Vulgate uses the present participle dicentes. Greek and Latin share participial syntax; Syriac prefers a subordinate temporal clause."
     },
     {
       "greek_nt": [
@@ -281,53 +284,39 @@
         15
       ],
       "vulgate": [
+        19,
         20
       ],
       "variant": "minor",
-      "note": "Greek 'ὅτι' (that), Peshitta 'ܕܠܐ' (that not), Vulgate 'Quia' (because/that) - Peshitta incorporates negation earlier"
+      "type": "punctuation",
+      "note": "Greek ὅτι introduces direct discourse without punctuation; Peshitta ܕܠܐ ('that not') begins the negative clause directly; Vulgate inserts a colon after dicentes before Quia, marking the quotation boundary explicitly. The colon reflects Latin manuscript convention for direct speech."
     },
     {
       "greek_nt": [
-        19
+        19,
+        20,
+        21
       ],
       "peshitta": [
+        15,
+        16,
+        17,
         18
       ],
       "vulgate": [
-        22
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek 'οὕτως οὐδέποτε εἴδομεν' (thus never saw), Peshitta 'ܠܐ ܡܡܬܘܡ ܚܙܝܢ ܗܟܢܐ' (not ever saw thus), Vulgate 'numquam sic vidimus' (never thus saw)"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
+        21,
+        22,
         23
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places οὕτως ('thus') before οὐδέποτε εἴδομεν ('never did we see'); Peshitta reverses the order with ܕܠܐ ܡܡܬܘܡ ܚܙܝܢ ܗܟܢܐ ('that not ever we saw thus'); Vulgate uses numquam sic vidimus ('never thus did we see'), placing sic after the negative. All convey 'never have we seen such a thing' but with different emphatic structures."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.736512+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.952889+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

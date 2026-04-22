@@ -82,12 +82,22 @@
         0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits initial conjunction; Peshitta includes ܘ (and) prefixed to Jesus"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Vulgate omits the initial conjunction καί / ܘ ('and'), beginning the sentence asyndetically with 'Jesus autem.' This stylistic choice reflects Latin preference for adversative particles over simple coordination at paragraph boundaries."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article ὁ before Ἰησοῦς, a standard Greek construction absent in both Syriac (which lacks articles) and Latin (where proper names typically appear without articles)."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
@@ -96,7 +106,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -105,7 +116,8 @@
         1
       ],
       "variant": "added",
-      "note": "Vulgate adds 'autem' (but/however) for stylistic transition"
+      "type": "expansion",
+      "note": "The Vulgate inserts the adversative particle 'autem' ('however,' 'moreover'), marking a discourse transition not explicitly present in the Greek or Peshitta. This reflects Latin stylistic convention for narrative segmentation."
     },
     {
       "greek_nt": [
@@ -123,7 +135,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase μετὰ τῶν μαθητῶν αὐτοῦ with article and possessive pronoun; Peshitta employs preposition ܥܡ with pronominal suffix on the noun (ܬܠܡܝܕܘܗܝ); Vulgate uses 'cum discipulis suis' with possessive adjective. All three express identical semantics through language-specific possessive constructions."
     },
     {
       "greek_nt": [
@@ -137,7 +151,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܐܙܠ ܠܗ (went away) vs Greek ἀνεχώρησεν (withdrew); Vulgate secessit (withdrew)"
+      "type": "lexical",
+      "note": "Greek ἀνεχώρησεν ('withdrew') is rendered by Peshitta ܐܙܠ ܠܗ (literally 'went away,' with ethical dative ܠܗ intensifying the departure) and Vulgate 'secessit' ('withdrew'). The Peshitta construction uses a common Semitic idiom (verb + ethical dative) to convey the nuance of deliberate withdrawal."
     },
     {
       "greek_nt": [
@@ -153,7 +168,8 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -161,8 +177,9 @@
       "vulgate": [
         8
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon marking clause break"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'mare,' creating a stronger syntactic break before the following clause. This punctuation choice reflects Latin rhetorical structure and is absent in Greek and Peshitta manuscript traditions."
     },
     {
       "greek_nt": [
@@ -174,7 +191,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -189,7 +207,9 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the adjective before the noun (πολὺ πλῆθος); Peshitta reverses this order (ܥܡܐ ܣܓܝܐܐ, 'crowd great'); Vulgate follows Greek order ('multa turba'). The Peshitta word order reflects standard Semitic attributive adjective placement (noun-adjective), while Greek and Latin follow their respective conventions."
     },
     {
       "greek_nt": [
@@ -205,7 +225,8 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -217,27 +238,18 @@
         12
       ],
       "vulgate": [
+        14,
         16,
         17,
         18
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܢܩܦܗ ܗܘܐ (was following/surrounding him) with periphrastic construction; Vulgate word order places verb after geographic references"
+      "type": "construction",
+      "note": "Greek uses aorist active ἠκολούθησεν with dative object αὐτῷ; Peshitta employs perfect ܢܩܦܗ ܗܘܐ (periphrastic construction with auxiliary ܗܘܐ); Vulgate uses perfect active 'secuta est' with accusative 'eum.' The Peshitta periphrastic perfect emphasizes the completed state of the action, while Greek aorist focuses on the punctiliar event."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20,
         21,
         22
@@ -247,15 +259,18 @@
         14
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek coordinates the second geographic source with καὶ ἀπὸ τῆς Ἰουδαίας following the verb; Vulgate places both geographic sources ('a Galilæa et Judæa') before the verb 'secuta est,' creating a more compact Latin construction. Peshitta follows Greek word order with ܘܡܢ ܝܗܘܕ after the verb."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.740835+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.957978+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

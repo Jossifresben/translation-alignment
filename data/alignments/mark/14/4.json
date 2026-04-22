@@ -78,7 +78,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,7 +91,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -102,7 +104,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -112,7 +115,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds 'from the disciples' (ܡܢ ܬܠܡܝܕܐ), specifying who was indignant"
+      "type": "expansion",
+      "note": "The Peshitta adds ܡܢ ܬܠܡܝܕܐ ('from [among] the disciples'), explicitly identifying the indignant parties as disciples. Neither the Greek nor the Vulgate specifies the identity of τινες/quidam ('some'), leaving the referent deliberately vague."
     },
     {
       "greek_nt": [
@@ -126,12 +130,14 @@
         4
       ],
       "variant": "minor",
-      "note": "Vulgate uses 'indigne ferentes' (bearing indignantly) vs Greek participle ἀγανακτοῦντες"
+      "type": "construction",
+      "note": "Greek uses a present participle ἀγανακτοῦντες ('being indignant'); Vulgate employs an adverb + participle construction (indigne ferentes, 'bearing indignantly'); Syriac uses an ethpeel perfect ܕܐܬܒܐܫ ('who were displeased'). All three convey indignation but through different grammatical strategies."
     },
     {
       "greek_nt": [
         4,
-        5
+        5,
+        6
       ],
       "peshitta": [
         7,
@@ -141,19 +147,9 @@
         5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek πρὸς ἑαυτούς ('among themselves') uses a prepositional phrase; Vulgate intra semetipsos mirrors this with Latin reflexive; Syriac ܠܗܘܢ ܒܢܦܫܗܘܢ ('to them in their souls') employs the idiomatic Semitic construction with ܢܦܫܐ ('soul/self') to express internal reaction."
     },
     {
       "greek_nt": [
@@ -163,9 +159,11 @@
         9
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -173,8 +171,8 @@
       "vulgate": [
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "aligned",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
@@ -188,7 +186,8 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -204,7 +203,9 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article ἡ before ἀπώλεια αὕτη ('the waste this'); Vulgate and Peshitta both use demonstrative + noun order (ista perditio / ܐܒܕܢܐ ܕܗܢܐ) without a separate article, reflecting typical Latin and Syriac syntax where the demonstrative incorporates definiteness."
     },
     {
       "greek_nt": [
@@ -217,7 +218,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -231,7 +233,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek verb at end, Peshitta after 'why', Vulgate 'facta est' at end"
+      "type": "word-order",
+      "note": "Greek places the verb γέγονεν at the end of the clause (standard Greek interrogative word order); Syriac ܗܘܐ appears mid-clause after the interrogative; Vulgate facta est follows the noun phrase. All three use perfect/resultative aspect but differ in syntactic positioning."
     },
     {
       "greek_nt": [],
@@ -239,14 +242,14 @@
       "vulgate": [
         17
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "aligned",
+      "type": "punctuation"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.828736+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.034687+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

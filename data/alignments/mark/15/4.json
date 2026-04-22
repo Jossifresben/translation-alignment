@@ -70,8 +70,9 @@
         0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article omitted in Peshitta and Vulgate"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek includes the article ὁ with δέ; Vulgate omits the article (Latin lacks articles); Peshitta uses the demonstrative pronoun ܗܘ ('he'), which functions as both article and pronoun in Syriac syntax."
     },
     {
       "greek_nt": [
@@ -95,7 +96,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Vulgate places 'Pilatus' in initial position before the conjunction 'autem', whereas Greek and Peshitta follow the conjunction-then-subject pattern typical of Semitic and Koine narrative style."
     },
     {
       "greek_nt": [
@@ -111,26 +114,19 @@
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
+        3,
         4
       ],
       "variant": "minor",
-      "note": "Greek αὐτόν explicit; Peshitta incorporates pronoun in verb suffix"
+      "type": "construction",
+      "note": "Greek uses imperfect ἐπηρώτα with separate object pronoun αὐτόν; Peshitta incorporates the pronominal suffix directly onto the verb ܫܐܠܗ ('asked-him'); Vulgate uses perfect interrogavit with separate object eum, reflecting Latin's preference for perfective aspect in historical narrative."
     },
     {
       "greek_nt": [
@@ -143,117 +139,61 @@
       "vulgate": [
         5,
         6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7,
-        8
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
-        7,
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "major",
-      "note": "Greek οὐδέν 'nothing'; Peshitta ܦܬܓܡܐ 'word/matter'; Vulgate quidquam 'anything' - semantic variation in negation scope"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬ 'you'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10
       ],
       "variant": "minor",
-      "note": "Vulgate punctuation mark"
+      "type": "construction",
+      "note": "Greek employs the present participle λέγων without explicit object; Peshitta uses finite verb ܘܐܡܪ ('and-he-said') with prepositional object ܠܗ ('to-him'); Vulgate uses present participle dicens with colon punctuation, all expressing the same quotative function with slight syntactic variation."
     },
     {
       "greek_nt": [
+        7,
+        8,
+        9,
         10
       ],
       "peshitta": [
-        11
+        7,
+        8,
+        9,
+        10
       ],
       "vulgate": [
-        11
+        7,
+        8,
+        9,
+        10
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate adds preposition 'in' for idiomatic Latin construction"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses double negative οὐκ ἀποκρίνῃ οὐδέν ('not answer nothing') with imperative ἴδε; Peshitta renders ܠܐ ܡܦܢܐ ܐܢܬ ܦܬܓܡܐ ('not answering you a-word'), making the subject pronoun ܐܢܬ explicit and using the noun ܦܬܓܡܐ ('word/matter') instead of the neuter pronoun; Vulgate uses Non respondes quidquam ('not answer anything') with interrogative punctuation rather than imperative, fundamentally altering the rhetorical force from command to question."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
+        11,
+        12,
         13
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
       "peshitta": [
+        11,
+        12,
+        13,
         14
       ],
       "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
+        11,
+        12,
+        13,
+        14,
         15
       ],
       "variant": "minor",
-      "note": "Greek κατηγορέω 'accuse'; Peshitta ܡܣܗܕܝܢ 'testify/witness against' - synonymous legal terminology"
+      "type": "construction",
+      "note": "Greek uses interrogative πόσα with genitive pronoun σου and verb κατηγοροῦσιν in simple accusative construction; Peshitta employs ܟܡܐ ܡܣܗܕܝܢ ܥܠܝܟ ('how-many testifying against-you'), using the preposition ܥܠܝܟ for the accusation target; Vulgate inserts preposition 'in' before quantis, creating the construction 'in quantis te accusant' ('in how many things they accuse you'), which is more emphatic than the Greek direct object construction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.841832+00:00",
+    "generated_at": "2026-04-22T12:17:08.046925+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

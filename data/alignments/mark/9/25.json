@@ -120,7 +120,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the entire opening clause about Jesus seeing the crowd running together; begins with the spirit's departure"
+      "type": "omission",
+      "note": "The Vulgate omits the entire introductory clause present in both Greek and Peshitta describing Jesus seeing the crowd running together. The Vulgate begins instead with the demon's violent departure, representing a major textual divergence that shifts narrative focus from Jesus's perception to the exorcism's immediate aftermath."
     },
     {
       "greek_nt": [
@@ -138,7 +139,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits Jesus rebuking the unclean spirit"
+      "type": "omission",
+      "note": "The Vulgate omits Jesus's rebuke of the unclean spirit (Greek ἐπετίμησεν τῷ πνεύματι τῷ ἀκαθάρτῳ; Peshitta ܟܐܐ ܒܗܝ ܪܘܚܐ ܛܢܦܬܐ), proceeding directly to the demon's exit. This represents a substantive narrative omission of the exorcistic command that precipitates the spirit's departure in the Greek and Syriac witnesses."
     },
     {
       "greek_nt": [
@@ -151,7 +153,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'saying to it'"
+      "type": "omission",
+      "note": "The Vulgate omits the participial phrase 'saying to it' (Greek λέγων αὐτῷ; Peshitta ܘܐܡܪ ܠܗ) that introduces Jesus's direct address to the spirit, eliminating the formal speech introduction present in both Greek and Syriac traditions."
     },
     {
       "greek_nt": [
@@ -170,7 +173,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the vocative address to the mute and deaf spirit"
+      "type": "omission",
+      "note": "The Vulgate omits Jesus's vocative address to the spirit as 'mute and deaf spirit' (Greek τὸ ἄλαλον καὶ κωφὸν τὸ πνεῦμα; Peshitta ܪܘܚܐ ܚܪܫܬܐ ܕܠܐ ܡܡܠܠܐ). This characterization of the demon's nature, present in both Greek and Syriac, is entirely absent from the Latin witness, representing a significant theological and descriptive omission."
     },
     {
       "greek_nt": [
@@ -186,7 +190,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'I command you'"
+      "type": "omission",
+      "note": "The Vulgate omits the emphatic command formula 'I myself command you' (Greek ἐγὼ ἐπιτάσσω σοι; Peshitta ܐܢܐ ܦܩܕ ܐܢܐ ܠܟܝ), which in both Greek and Syriac establishes Jesus's authoritative first-person pronouncement over the demon."
     },
     {
       "greek_nt": [
@@ -198,9 +203,14 @@
         22,
         23
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the command to come out of him"
+      "vulgate": [
+        6,
+        7,
+        8
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "The Vulgate transforms Jesus's command 'come out of him' (Greek ἔξελθε ἐξ αὐτοῦ; Peshitta ܦܘܩܝ ܡܢܗ) into a narrative statement 'it came out from him' (exiit ab eo), converting direct discourse into third-person narration and eliminating the imperatival force present in both Greek and Syriac witnesses."
     },
     {
       "greek_nt": [
@@ -218,7 +228,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the prohibition against re-entering"
+      "type": "omission",
+      "note": "The Vulgate omits Jesus's prohibition against the spirit's return (Greek καὶ μηκέτι εἰσέλθῃς εἰς αὐτόν; Peshitta ܘܬܘܒ ܠܐ ܬܥܠܝܢ ܠܗ, 'and no more enter into him'), a command present in both Greek and Syriac that prevents demonic re-possession, similar to the formula in Matthew 12:45 and Luke 11:26."
     },
     {
       "greek_nt": [],
@@ -229,13 +240,11 @@
         2,
         3,
         4,
-        5,
-        6,
-        7,
-        8
+        5
       ],
       "variant": "added",
-      "note": "Vulgate adds description of spirit crying out and convulsing the boy before departing"
+      "type": "expansion",
+      "note": "The Vulgate adds a dramatic description of the demon's violent departure ('And crying out and greatly tearing him,' Et exclamans et multum discerpens eum) not present in either Greek or Syriac at this point in the narrative, though such details appear later in the Greek text (v. 26). This represents either a harmonization with the subsequent verse or a distinct textual tradition."
     },
     {
       "greek_nt": [],
@@ -256,13 +265,14 @@
         21
       ],
       "variant": "added",
-      "note": "Vulgate adds aftermath: boy became like dead, many said he was dead"
+      "type": "expansion",
+      "note": "The Vulgate uniquely adds the aftermath description 'and he became as dead, so that many said: He is dead' (et factus est sicut mortuus, ita ut multi dicerent: Quia mortuus est), material entirely absent from both Greek and Syriac witnesses at this verse. This expansion anticipates narrative elements that appear in verse 26 of the Greek text, suggesting either textual conflation or a distinct Latin Vorlage."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.789010+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.003817+00:00",
+    "confidence": 0.65,
     "schema_version": 1
   }
 }

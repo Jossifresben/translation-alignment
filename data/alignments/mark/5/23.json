@@ -85,21 +85,22 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܒܥܐ ܗܘܐ (was beseeching) vs. Greek imperfect παρακαλεῖ and Latin imperfect deprecabatur"
+      "type": "grammar",
+      "note": "The Peshitta employs a periphrastic construction with the auxiliary ܗܘܐ (hwā, 'was') plus the active participle ܒܥܐ (bʿā, 'beseeching'), yielding a progressive past tense. Greek uses the simple present παρακαλεῖ, while Latin uses the imperfect deprecabatur, both conveying ongoing action but through different aspectual systems."
     },
     {
       "greek_nt": [
@@ -111,7 +112,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -123,7 +125,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -136,11 +139,11 @@
       ],
       "vulgate": [
         4,
-        5,
-        6
+        5
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation and uses Quoniam for ὅτι; Peshitta ܘܐܡܪ ܠܗ (and said to him) vs. Greek λέγων ὅτι"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after dicens to mark the transition to direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts. The Peshitta uses the indirect object pronoun ܠܗ (leh, 'to him') where Greek employs the recitative ὅτι; both introduce the content of the speech but through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -152,11 +155,16 @@
         6
       ],
       "vulgate": [
+        6,
         7,
-        8
+        8,
+        9,
+        10,
+        11
       ],
-      "variant": "minor",
-      "note": "Greek uses diminutive θυγάτριον with article; Peshitta ܒܪܬܝ (my daughter) is simple possessive; Vulgate filia mea matches Peshitta structure"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses the diminutive τὸ θυγάτριόν μου ('my little daughter'), a term of endearment emphasizing the child's youth and the father's affection. The Peshitta employs the simple possessive ܒܪܬܝ (barti, 'my daughter') without diminutive force. The Vulgate renders this as filia mea in extremis est, restructuring the clause entirely: where Greek has the idiomatic ἐσχάτως ἔχει ('is at the extremity'), Latin expands to a prepositional phrase in extremis est ('is in extremities'), making the periphrastic construction explicit."
     },
     {
       "greek_nt": [
@@ -167,13 +175,10 @@
         7,
         8
       ],
-      "vulgate": [
-        9,
-        10,
-        11
-      ],
-      "variant": "minor",
-      "note": "Greek ἐσχάτως ἔχει (is at the point of death, lit. 'has extremely'); Peshitta ܒܝܫܐܝܬ ܥܒܝܕܐ (is badly done/made); Vulgate in extremis est (is in extremity)"
+      "vulgate": [],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἐσχάτως ἔχει is a Semitic idiom meaning 'is at the point of death' (literally 'holds lastly'). The Peshitta renders this with the adverbial ܒܝܫܐܝܬ ܥܒܝܕܐ (bīšāʾīt ʿbīdā, 'badly done/afflicted'), a more explicit description of severe illness. The Vulgate incorporates this into the previous clause (in extremis est), leaving no separate tokens here—a structural divergence reflecting Latin's preference for subordination over parataxis."
     },
     {
       "greek_nt": [
@@ -187,7 +192,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Greek ἵνα ἐλθὼν (that having come) uses purpose clause with participle; Peshitta ܬܐ (come) is imperative; Vulgate veni (come) is also imperative"
+      "type": "construction",
+      "note": "Greek uses ἵνα with the aorist participle ἐλθών ('that having come') to express purpose, a participial construction. The Peshitta employs the imperative ܬܐ (tā, 'come'), a more direct command form typical of Syriac syntax. The Vulgate uses the imperative veni, aligning with the Peshitta's directness but diverging from the Greek subordinate structure."
     },
     {
       "greek_nt": [
@@ -208,7 +214,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Greek ἐπιθῇς τὰς χεῖρας (lay the hands, plural); Peshitta ܣܝܡ ܐܝܕܟ (lay your hand, singular); Vulgate impone manum (lay hand, singular)"
+      "type": "grammar",
+      "note": "Greek uses the plural τὰς χεῖρας ('the hands') with the subjunctive ἐπιθῇς ('you may lay'), while the Peshitta uses the singular ܐܝܕܟ (ʾīdāk, 'your hand') with the imperative ܣܝܡ (sīm, 'place'). The Vulgate employs the singular manum with the imperative impone, aligning with the Peshitta against the Greek. This reflects a common Semitic idiom where singular 'hand' is used collectively for the act of laying on hands."
     },
     {
       "greek_nt": [
@@ -223,7 +230,9 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek σωθῇ (from σῴζω) carries the dual sense of 'be saved/healed,' which the Vulgate renders with salva sit ('may be saved'). The Peshitta uses ܘܬܬܚܠܡ (wəteṯḥlam, 'and may be healed'), employing a root specifically denoting physical healing rather than the broader soteriological term, thus disambiguating the semantic range in favor of medical restoration."
     },
     {
       "greek_nt": [
@@ -237,13 +246,14 @@
         20,
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.757177+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.974409+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

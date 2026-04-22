@@ -69,7 +69,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses article + postpositive conjunction (Οἱ δέ); Latin employs adversative conjunction + pronoun (At illi); Peshitta uses demonstrative pronoun + conjunction (ܗܢܘܢ ܕܝܢ). All three mark contrastive topic shift, but through different grammatical strategies typical of each language."
     },
     {
       "greek_nt": [
@@ -80,12 +82,10 @@
         2
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
-      "variant": "minor",
-      "note": "Vulgate uses 'ut' + subjunctive construction; Peshitta incorporates pronoun suffix on verb"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -100,44 +100,37 @@
         5
       ],
       "vulgate": [
+        2,
         5,
         6,
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses 'waters' (ܡܝܐ) for 'sea'; Greek article omitted in Syriac and Latin"
+      "type": "word-order",
+      "note": "Greek places the participial phrase (ἐπὶ τῆς θαλάσσης περιπατοῦντα) after the object pronoun; Vulgate fronts the temporal clause with ut + subjunctive before the participle (ut viderunt eum ambulantem supra mare); Peshitta embeds the participle within a relative construction (ܕܡܗܠܟ ܥܠ ܡܝܐ). All convey simultaneous action but with differing syntactic packaging."
     },
     {
       "greek_nt": [
         8,
-        9
-      ],
-      "peshitta": [
-        6,
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Peshitta adds reflexive pronoun ܠܗܘܢ 'to themselves'; Vulgate omits ὅτι complementizer"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        6,
+        7,
         8,
         9,
         10
       ],
       "vulgate": [
+        8,
         9,
         10
       ],
       "variant": "minor",
-      "note": "Peshitta expands with ܕܚܙܘܐ ܗܘ ܕܓܠܐ 'vision/apparition that is revealed'; all traditions convey 'ghost/phantom'"
+      "type": "gloss",
+      "note": "Peshitta inserts the ethical dative ܠܗܘܢ ('to/for themselves') after the verb ܘܣܒܪܘ, a Syriac idiom emphasizing the disciples' subjective perception. Greek ἔδοξαν ὅτι and Latin putaverunt express the same thought without this reflexive nuance."
     },
     {
       "greek_nt": [
@@ -156,8 +149,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.771003+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.985541+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

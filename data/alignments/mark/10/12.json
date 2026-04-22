@@ -57,7 +57,8 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -69,8 +70,9 @@
       "vulgate": [
         2
       ],
-      "variant": "major",
-      "note": "Greek αὐτή (she/pronoun) vs Peshitta ܐܢܬܬܐ (woman/noun) vs Vulgate uxor (wife/noun); substantive lexical difference"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the pronoun αὐτή ('she') while Peshitta and Vulgate employ the noun ܐܢܬܬܐ / uxor ('woman, wife'), making the subject explicit rather than pronominal—a stylistic preference with no semantic difference."
     },
     {
       "greek_nt": [
@@ -89,7 +91,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek ἀπολύσασα τὸν ἄνδρα αὐτῆς (having divorced her husband) vs Peshitta ܬܫܪܐ ܒܥܠܗ (releases her lord/husband) vs Vulgate dimiserit virum suum; stylistic variation in expressing divorce"
+      "type": "construction",
+      "note": "Greek employs a participial construction (ἀπολύσασα τὸν ἄνδρα αὐτῆς, 'having divorced her husband') with article and possessive pronoun; Vulgate uses finite verb with direct object (dimiserit virum suum); Peshitta uses finite verb with pronominal suffix on the object (ܬܫܪܐ ܒܥܠܗ, 'she divorces her-husband')—three syntactically distinct but semantically equivalent renderings."
     },
     {
       "greek_nt": [
@@ -101,7 +104,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,7 +121,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek γαμήσῃ ἄλλον (marry another) vs Peshitta ܘܬܗܘܐ ܠܐܚܪܢܐ (and becomes to another) vs Vulgate alii nupserit (marry to another); Peshitta uses ܗܘܐ (become) idiomatically for marriage"
+      "type": "construction",
+      "note": "Greek uses γαμέω with accusative object ἄλλον ('marry another [man]'); Vulgate employs nubo with dative alii ('be married to another'); Peshitta uses ܗܘܐ ܠ ('become to') with ܠܐܚܪܢܐ—three distinct idiomatic constructions for marriage, each culturally appropriate to its linguistic tradition."
     },
     {
       "greek_nt": [
@@ -129,13 +134,14 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.794350+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.009105+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

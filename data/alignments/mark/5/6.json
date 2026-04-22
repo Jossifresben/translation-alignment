@@ -63,7 +63,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek uses Καὶ...δὲ (And...now) with participle; Peshitta ܟܕ...ܕܝܢ (when...now); Vulgate uses simple participle with autem. Stylistic variation in temporal-adversative construction."
+      "type": "construction",
+      "note": "Greek employs a participial construction with two coordinating conjunctions (Καὶ ἰδὼν δὲ), creating a pleonastic effect typical of Markan style. Syriac mirrors this with ܟܕ ܚܙܐ ܕܝܢ (temporal particle + verb + postpositive conjunction), while Latin simplifies to a single participle with autem (Videns autem), eliminating the initial conjunction."
     },
     {
       "greek_nt": [
@@ -76,7 +77,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the definite article with the proper name (τὸν Ἰησοῦν), a standard Greek construction. Both Syriac (ܠܝܫܘܥ with object marker) and Latin (Jesum) lack the article, as neither language employs articles with proper names in this syntactic context."
     },
     {
       "greek_nt": [
@@ -113,8 +116,9 @@
       "vulgate": [
         6
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction before 'worshiped'; asyndetic construction common in Syriac narrative."
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek and Latin retain the coordinating conjunction (καὶ / et) before the second verb, maintaining explicit parataxis. Syriac omits the conjunction, employing asyndetic coordination (ܪܗܛ ܣܓܕ), a common Semitic stylistic feature where sequential actions are juxtaposed without explicit connectives."
     },
     {
       "greek_nt": [
@@ -137,14 +141,15 @@
       "vulgate": [
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon as punctuation marker; not present in Greek or Peshitta manuscripts."
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate adds a colon after eum, marking a major discourse boundary before the demon's speech in the following verse. Neither the Greek nor Syriac manuscripts employ equivalent punctuation at this juncture, though modern editions may vary."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.754468+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.971319+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

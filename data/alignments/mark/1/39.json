@@ -63,7 +63,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek begins with conjunction Καὶ followed by finite verb ἦλθεν, while Peshitta and Vulgate place the conjunction before the participle (ܘܡܟܪܙ / Et...prædicans), reflecting different strategies for coordinating the participial construction with the preceding narrative."
     },
     {
       "greek_nt": [
@@ -76,7 +78,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek aorist ἦλθεν vs. Peshitta/Vulgate periphrastic imperfect (ܗܘܐ + participle / erat + gerund) for durative action"
+      "type": "construction",
+      "note": "Greek uses aorist ἦλθεν ('he came/went') with present participle κηρύσσων to express durative action; Peshitta employs periphrastic construction ܗܘܐ with active participle; Vulgate uses imperfect erat with gerund prædicans, all conveying ongoing action but through distinct aspectual systems."
     },
     {
       "greek_nt": [
@@ -107,7 +110,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܒܟܠܗܝܢ (in all of them) as prefix to synagogues, merging Greek εἰς τὰς with ὅλην; Vulgate separates in synagogis eorum"
+      "type": "word-order",
+      "note": "Greek places the geographic qualifier εἰς ὅλην τὴν Γαλιλαίαν after εἰς τὰς συναγωγὰς αὐτῶν, creating two prepositional phrases; Peshitta reverses this order (ܒܟܠܗܝܢ ܟܢܘܫܬܗܘܢ ܒܟܠܗ ܓܠܝܠܐ 'in all their synagogues in all Galilee'); Vulgate follows Greek word order but restructures the syntax with in synagogis eorum, et in omni Galilæa."
     },
     {
       "greek_nt": [
@@ -126,8 +130,7 @@
         8,
         9
       ],
-      "variant": "minor",
-      "note": "Greek repeats εἰς for emphasis; Peshitta uses single ܒܟܠܗ; Vulgate et in omni maintains coordination"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -169,8 +172,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.732071+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.949748+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

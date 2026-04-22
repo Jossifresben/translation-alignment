@@ -94,7 +94,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the temporal introduction 'And after six days' entirely, beginning instead with description of garments"
+      "type": "omission",
+      "note": "The Vulgate omits the entire temporal clause 'And after six days' (Καὶ μετὰ ἡμέρας ἓξ / ܘܒܬܪ ܫܬܐ ܝܘܡܝܢ), beginning instead with the description of Jesus' garments. This represents a major textual divergence, as the Greek and Peshitta both attest the chronological marker linking this pericope to the preceding narrative."
     },
     {
       "greek_nt": [
@@ -108,45 +109,29 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'Jesus takes along' clause"
+      "type": "omission",
+      "note": "The Vulgate omits 'Jesus takes along' (παραλαμβάνει ὁ Ἰησοῦς / ܕܒܪ ܝܫܘܥ), the main verb and subject of the Greek and Peshitta narrative introduction. The Latin text appears to begin mid-pericope, lacking the entire setup of the Transfiguration scene."
     },
     {
       "greek_nt": [
         7,
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits Peter"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10,
-        11
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits James"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13,
         14
       ],
       "peshitta": [
+        5,
+        6,
         7
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits John"
+      "type": "omission",
+      "note": "The Vulgate omits the enumeration of the three disciples (Peter, James, and John) present at the Transfiguration. Greek employs repeated article + accusative construction (τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ τὸν Ἰωάννην); Peshitta uses prefixed preposition ܠ with coordinating ܘ, both traditions agreeing against the Vulgate's complete omission."
     },
     {
       "greek_nt": [
@@ -165,7 +150,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'and brings them up to a high mountain'"
+      "type": "omission",
+      "note": "The Vulgate omits the ascent to the high mountain (καὶ ἀναφέρει αὐτοὺς εἰς ὄρος ὑψηλόν / ܘܐܣܩ ܐܢܘܢ ܠܛܘܪܐ ܪܡܐ). Greek uses the compound verb ἀναφέρει ('brings up'); Syriac employs the simple verb ܐܣܩ ('he brought up'), both conveying the spatial movement absent from the Latin."
     },
     {
       "greek_nt": [
@@ -178,7 +164,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'apart/alone by themselves'"
+      "type": "omission",
+      "note": "The Vulgate omits the privacy clause. Greek uses the prepositional phrase κατ᾽ ἰδίαν μόνους ('apart, alone'), a double emphasis on seclusion; Peshitta renders this with the single compound ܒܠܚܘܕܝܗܘܢ ('by themselves alone'), semantically equivalent but syntactically more compact."
     },
     {
       "greek_nt": [
@@ -193,7 +180,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'And he was transfigured before them'"
+      "type": "omission",
+      "note": "The Vulgate omits the transfiguration proper (καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν / ܘܐܬܚܠܦ ܠܥܢܝܗܘܢ). Greek employs the passive aorist μετεμορφώθη ('he was transfigured'); Syriac uses the ethpeal ܐܬܚܠܦ ('he was changed'), both indicating divine passive transformation before the disciples."
     },
     {
       "greek_nt": [],
@@ -220,13 +208,14 @@
         18
       ],
       "variant": "added",
-      "note": "Vulgate contains entirely different content describing garments becoming splendid and white as snow, which a fuller cannot make so white on earth - this appears to be from a different verse (Mark 9:3)"
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different verse describing Jesus' garments becoming radiant and white as snow, beyond what any fuller on earth could whiten them (Et vestimenta ejus facta sunt splendentia...). This corresponds to Mark 9:3 in Greek and Peshitta manuscripts, indicating the Vulgate has substituted verse 3 for verse 2, a major versification or textual displacement."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.785650+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.000146+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

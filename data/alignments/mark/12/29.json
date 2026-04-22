@@ -73,26 +73,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "note": "Greek δὲ and Latin autem are discourse particles; Peshitta omits"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses postpositive δέ with aorist passive ἀπεκρίθη; Peshitta employs simple active ܐܡܪ ('he said'); Vulgate inserts adversative autem with active respondit, stylistically emphasizing the response."
     },
     {
       "greek_nt": [
@@ -105,7 +98,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article + subject (ὁ Ἰησοῦς) after the verb; Peshitta follows with bare ܝܫܘܥ post-verbally; Vulgate fronts Jesus as the emphatic subject before autem, a Latin stylistic preference."
     },
     {
       "greek_nt": [
@@ -127,19 +122,19 @@
       "vulgate": [
         5
       ],
-      "variant": "minor",
-      "note": "Greek ὅτι and Latin Quia introduce direct discourse; Peshitta uses unmarked quotation"
+      "variant": "omitted",
+      "type": "construction",
+      "note": "Greek ὅτι introduces indirect discourse; Vulgate mirrors this with Quia; Peshitta omits any subordinating conjunction, employing asyndetic direct quotation typical of Syriac narrative style."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        4,
-        10,
-        19
+        4
       ],
       "variant": "added",
-      "note": "Vulgate adds colons as punctuation markers not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ei to mark the beginning of the quotation; neither Greek nor Peshitta manuscripts employ punctuation at this juncture."
     },
     {
       "greek_nt": [
@@ -150,10 +145,11 @@
         3
       ],
       "vulgate": [
-        6,
-        9
+        6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses predicate adjective πρώτη with copula ἐστίν following; Peshitta employs ܩܕܡܝ ('first') as a fronted predicate without explicit copula; Vulgate primum agrees with Greek word order but omits the copula, relying on ellipsis."
     },
     {
       "greek_nt": [
@@ -171,28 +167,30 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek uses πασῶν τῶν ἐντολῶν (genitive plural); Peshitta ܡܢ ܟܠܗܘܢ ܦܘܩܕܢܐ (partitive); Vulgate omnium mandatum (genitive plural with singular noun)"
+      "type": "construction",
+      "note": "Greek uses genitive partitive construction πασῶν τῶν ἐντολῶν ('of all the commandments'); Peshitta employs prepositional phrase ܡܢ ܟܠܗܘܢ ܦܘܩܕܢܐ ('from all commandments'); Vulgate uses genitive omnium mandatum, omitting the article and rendering the noun singular for collective sense."
     },
     {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
+      "greek_nt": [],
+      "peshitta": [],
       "vulgate": [
-        11
+        9
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts est after mandatum to supply the elided copula from the Greek construction, then adds a colon to introduce the Shema quotation; Greek and Peshitta lack both."
     },
     {
       "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        11,
         12
       ],
       "variant": "aligned"
@@ -214,7 +212,8 @@
         15
       ],
       "variant": "major",
-      "note": "Greek κύριος ὁ θεὸς ἡμῶν (Lord the God of us); Peshitta ܡܪܝܐ ܐܠܗܢ (Lord our-God); Vulgate Dominus Deus tuus (Lord God your) - possessive pronoun differs: Greek/Peshitta 1pl vs Vulgate 2sg"
+      "type": "substitution",
+      "note": "Greek reads κύριος ὁ θεὸς ἡμῶν ('the Lord our God', first-person plural); Peshitta has ܡܪܝܐ ܐܠܗܢ ('the Lord our God', first-person plural suffix); Vulgate substitutes Dominus Deus tuus ('the Lord your God', second-person singular), harmonizing with the Deuteronomy 6:4 Vulgate tradition rather than the LXX reading preserved in Greek Mark."
     },
     {
       "greek_nt": [
@@ -233,13 +232,24 @@
         18
       ],
       "variant": "minor",
-      "note": "Greek κύριος εἷς ἐστιν; Peshitta ܡܪܝܐ ܚܕ ܗܘ; Vulgate Deus unus est - Vulgate uses Deus instead of repeating Dominus"
+      "type": "word-order",
+      "note": "Greek places the copula ἐστιν sentence-finally after εἷς; Peshitta uses enclitic ܗܘ post-positionally after ܚܕ; Vulgate fronts Deus before unus est, creating a chiastic emphasis on the divine name absent in the Semitic witnesses."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        19
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate closes the quotation with a colon, a scribal convention not present in Greek or Peshitta manuscript traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.819357+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.025597+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

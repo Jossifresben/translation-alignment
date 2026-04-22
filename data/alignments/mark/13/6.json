@@ -64,7 +64,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -76,7 +77,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -88,7 +90,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -106,7 +109,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek uses preposition ἐπὶ + article + dative; Peshitta uses ܒ prefix on noun with pronominal suffix; Vulgate uses simple 'in nomine meo'"
+      "type": "construction",
+      "note": "Greek employs the prepositional phrase ἐπὶ τῷ ὀνόματί μου with article and dative case; Latin mirrors this with in nomine meo using ablative; Syriac uses the bound form ܒܫܡܝ (b-shemi, 'in-my-name') as a single morphological unit with pronominal suffix, a typical Semitic construction avoiding the article."
     },
     {
       "greek_nt": [
@@ -118,7 +122,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -130,7 +135,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -146,7 +152,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܕܐܢܐ ܐܢܐ with repetition of pronoun; Greek ἐγώ εἰμι; Vulgate 'ego sum' with colon punctuation"
+      "type": "grammar",
+      "note": "The Peshitta repeats the independent pronoun ܐܢܐ ܐܢܐ (ʾenā ʾenā, 'I I') for emphatic effect, mirroring the Greek ἐγώ εἰμι construction but with doubled pronoun rather than pronoun-plus-verb. Latin ego sum follows Greek syntax exactly with explicit subject pronoun and copula."
     },
     {
       "greek_nt": [],
@@ -154,8 +161,9 @@
       "vulgate": [
         10
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after sum to mark the end of direct speech, a punctuation convention absent in Greek manuscripts and Syriac tradition. This reflects Latin scribal practice for clarifying discourse boundaries but does not alter semantic content."
     },
     {
       "greek_nt": [
@@ -168,7 +176,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta prefixes conjunction ܘ to 'many' (ܘܠܣܓܝܐܐ); Greek and Vulgate use separate conjunction"
+      "type": "word-order",
+      "note": "Greek καὶ and Latin et appear as separate coordinating conjunctions; Syriac prefixes the conjunction ܘ (w-) directly to the following word ܘܠܣܓܝܐܐ (w-l-saggīʾē, 'and-to-many'), reflecting standard Syriac morphology where conjunctions attach as proclitics rather than standing as independent tokens."
     },
     {
       "greek_nt": [
@@ -180,7 +189,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -192,13 +202,15 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek πλανήσουσιν (planēsousin, 'they will lead astray') and Syriac ܢܛܥܘܢ (neṭʿōn, 'they will deceive') are semantic cognates; Latin seducent ('they will lead away/seduce') employs a compound verb with se- prefix, emphasizing the notion of leading aside from truth, a slightly stronger connotation than the Greek simplex verb."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.823160+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.029118+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

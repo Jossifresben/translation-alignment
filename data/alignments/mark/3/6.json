@@ -66,8 +66,9 @@
         0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits coordinating conjunction; Peshitta ܘ- prefix present"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Vulgate omits the coordinating conjunction (Greek Καὶ, Peshitta ܘ-), beginning instead with the participle Exeuntes. This is a stylistic choice common in Latin narrative prose, where asyndeton or participial constructions replace explicit conjunctions."
     },
     {
       "greek_nt": [
@@ -88,7 +89,8 @@
         1
       ],
       "variant": "added",
-      "note": "Vulgate adds 'autem' (but/however) as transitional particle"
+      "type": "expansion",
+      "note": "The Vulgate inserts the adversative particle autem ('however', 'moreover'), which has no equivalent in the Greek or Peshitta. This is a Latin stylistic convention to mark narrative transition or contrast with the preceding pericope."
     },
     {
       "greek_nt": [
@@ -101,7 +103,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article with the noun (οἱ Φαρισαῖοι); Peshitta and Vulgate lack articles (ܦܪܝܫܐ, pharisæi), reflecting the absence of definite articles in Syriac and the optional use in Latin. The semantic content remains identical."
     },
     {
       "greek_nt": [
@@ -115,7 +119,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta ܒܪ ܫܥܬܗ (lit. 'son of his hour') is idiomatic for 'immediately'; semantically aligned with εὐθύς and statim"
+      "type": "lexical",
+      "note": "Greek εὐθὺς ('immediately') and Vulgate statim ('at once') are direct temporal adverbs. Peshitta uses the idiomatic phrase ܒܪ ܫܥܬܗ (lit. 'son of his hour'), a Semitic idiom meaning 'immediately'. All three convey the same urgency but through different linguistic strategies."
     },
     {
       "greek_nt": [
@@ -133,7 +138,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܒܝܬ ܗܪܘܕܣ (house of Herod) vs. Greek/Vulgate Herodians; stylistic variation for same group"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase μετὰ τῶν Ἡρῳδιανῶν ('with the Herodians'); Vulgate mirrors this with cum Herodianis. Peshitta employs ܥܡ ܕܒܝܬ ܗܪܘܕܣ ('with [those of] the house of Herod'), a periphrastic construction typical of Syriac for rendering Greek ethnic/political designations."
     },
     {
       "greek_nt": [],
@@ -142,7 +148,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܘܡܠܟܐ (and counsel/plan), possibly explicating the nature of consultation"
+      "type": "expansion",
+      "note": "The Peshitta adds ܘܡܠܟܐ ('and counsel'), creating a hendiadys or doublet with the following verb. This may be an interpretive expansion clarifying that they 'took counsel' or a scribal harmonization, as neither Greek nor Vulgate attest this additional noun here."
     },
     {
       "greek_nt": [
@@ -157,7 +164,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Greek συμβούλιον ἐδίδουν (were giving counsel) vs. Peshitta ܢܣܒܘ (took) vs. Vulgate consilium faciebant (were making counsel); synonymous constructions"
+      "type": "construction",
+      "note": "Greek uses the imperfect periphrastic συμβούλιον ἐδίδουν ('were giving counsel', i.e., 'were holding a council'); Vulgate employs consilium faciebant ('were making counsel'), a synonymous Latin idiom. Peshitta uses the simple verb ܢܣܒܘ ('they took'), a more direct Semitic construction for the same action."
     },
     {
       "greek_nt": [
@@ -175,35 +183,28 @@
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        10,
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek repeats the pronoun αὐτόν in the purpose clause (ὅπως αὐτὸν ἀπολέσωσιν, 'how they might destroy him'); Vulgate likewise repeats eum (quomodo eum perderent). Peshitta attaches the pronominal suffix directly to the verb ܕܢܘܒܕܘܢܝܗܝ ('-him' as suffix), avoiding repetition—a standard Semitic syntactic economy."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.740690+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:26:01.878771+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

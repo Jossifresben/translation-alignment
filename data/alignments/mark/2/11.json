@@ -67,7 +67,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit pronoun ܐܢܐ 'I' (emphatic); Vulgate includes colon as punctuation"
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܐ ('I') after the verb ܐܡܪ ('say'), a common Syriac stylistic feature for emphasis or clarity, whereas Greek λέγω and Latin dico leave the first-person subject implicit in the verbal inflection."
     },
     {
       "greek_nt": [
@@ -86,9 +87,12 @@
         3
       ],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καί before 'take up' omitted in Peshitta and Vulgate (asyndeton)"
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the conjunction coordinating the second imperative (Greek καί, Latin et), employing asyndetic construction typical of Semitic narrative style, where successive imperatives are juxtaposed without explicit connectives."
     },
     {
       "greek_nt": [
@@ -106,19 +110,19 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (τὸν κράβαττόν σου) and Latin mirrors this with accusative noun + possessive (grabatum tuum); Syriac employs a bound-state construction ܥܪܣܟ ('your-mat'), fusing noun and pronominal suffix into a single morphological unit, reflecting standard Semitic possessive syntax."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek includes a second coordinating conjunction καί before the final imperative ὕπαγε, creating a three-part asyndetic series (arise, take, and go); both Peshitta and Vulgate omit this conjunction, treating the final command as directly sequential to the preceding clause."
     },
     {
       "greek_nt": [
@@ -139,13 +143,14 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܙܠ combines conjunction with verb; ܠܒܝܬܟ combines preposition+noun+suffix (more synthetic structure)"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase with article (εἰς τὸν οἶκόν σου) and Latin follows with preposition + accusative noun + possessive (in domum tuam); Syriac employs the prefixed preposition ܠ directly attached to the bound-state noun ܠܒܝܬܟ ('to-your-house'), a morphologically compact construction standard in Semitic languages that eliminates the need for separate articles."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.736380+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.952754+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

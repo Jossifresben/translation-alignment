@@ -121,7 +121,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs the article ὁ with postpositive δέ, a standard Greek construction absent in Syriac and Latin. The Peshitta places the particle ܕܝܢ immediately after the subject, while the Vulgate uses autem in second position, both mirroring their respective syntactic norms."
     },
     {
       "greek_nt": [
@@ -136,7 +138,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist participle ἐμβλέψας with dative αὐτῷ ('having looked upon him'); Latin employs the perfect participle intuitus with accusative eum; Syriac uses the simple perfect ܚܪ ܒܗ ('he looked at him'). All three convey the same action but with different participial versus finite verb strategies."
     },
     {
       "greek_nt": [
@@ -150,21 +154,13 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἠγάπησεν αὐτόν and Latin dilexit eum both use explicit accusative pronouns, whereas Syriac ܘܐܚܒܗ incorporates the pronominal suffix directly on the verb, a standard Semitic construction. The semantic content is identical."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction before 'said'"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9
       ],
@@ -173,12 +169,14 @@
         6
       ],
       "vulgate": [
+        6,
         7,
         8,
         9
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after ei to mark the beginning of direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts. Greek uses a raised dot (·) after αὐτῷ, while Syriac has no explicit punctuation marker here."
     },
     {
       "greek_nt": [
@@ -198,7 +196,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon; word order variation (tibi deest vs. σε ὑστερεῖ)"
+      "type": "word-order",
+      "note": "Greek places the pronoun σε between the subject ἕν and the verb ὑστερεῖ; Syriac uses ܚܕܐ ܚܣܝܪܐ ܠܟ with the prepositional phrase ܠܟ ('to you') at the end; Latin employs tibi deest with the dative preceding the verb. The Vulgate again adds a colon for punctuation. All convey 'one thing is lacking to you.'"
     },
     {
       "greek_nt": [
@@ -228,7 +227,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Peshitta expands 'as much as you have' to 'all/everything that you have'"
+      "type": "expansion",
+      "note": "Greek uses the relative pronoun ὅσα with the verb ἔχεις ('as much as you have'); Latin employs quæcumque habes ('whatever you have'); Syriac expands with ܟܠ ܡܕܡ ܕܐܝܬ ܠܟ ('all/everything that there is to you'), adding the universal quantifier ܟܠ and the existential particle ܕܐܝܬ. The Peshitta's construction is more explicit but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -244,88 +244,78 @@
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [],
-      "vulgate": [
+        17,
         18
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction before 'give'"
-    },
-    {
-      "greek_nt": [
-        18,
-        19,
-        20
-      ],
       "peshitta": [
-        16,
-        17
+        16
       ],
       "vulgate": [
-        19,
-        20
+        18,
+        19
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        21
-      ],
-      "peshitta": [],
-      "vulgate": [
-        21
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits conjunction before 'you will have'"
-    },
-    {
-      "greek_nt": [
-        22,
-        23
-      ],
-      "peshitta": [
-        18,
         19,
         20
       ],
+      "peshitta": [
+        17
+      ],
       "vulgate": [
-        22,
-        23
+        20
       ],
       "variant": "minor",
-      "note": "Peshitta includes dative pronoun 'to you' with verb"
+      "type": "lexical",
+      "note": "Greek uses τοῖς πτωχοῖς ('to the poor') with the article; Latin employs pauperibus without an article (Latin lacks articles); Syriac uses ܠܡܣܟܢܐ ('to the poor/needy'), a cognate term. The Syriac singular form ܡܣܟܢܐ functions as a collective noun, semantically equivalent to the Greek and Latin plurals."
     },
     {
       "greek_nt": [
+        21,
+        22,
+        23,
         24,
         25
       ],
       "peshitta": [
+        18,
+        19,
+        20,
         21
       ],
       "vulgate": [
+        21,
+        22,
+        23,
         24,
         25,
         26
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation"
+      "type": "punctuation",
+      "note": "Greek καὶ ἕξεις θησαυρὸν ἐν οὐρανῷ ends with a period; Syriac ܘܬܗܘܐ ܠܟ ܣܝܡܬܐ ܒܫܡܝܐ inserts the prepositional phrase ܠܟ ('to you') for emphasis; Latin et habebis thesaurum in cælo concludes with a colon to introduce the final command. The Syriac and Latin constructions are stylistically distinct but semantically aligned with the Greek."
     },
     {
       "greek_nt": [
         26,
-        27
+        27,
+        28,
+        29
       ],
       "peshitta": [
-        24
+        24,
+        25
       ],
       "vulgate": [
         27,
-        28
+        28,
+        29
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses καὶ δεῦρο, ἀκολούθει μοι ('and come, follow me') with two imperatives; Latin employs et veni, sequere me, mirroring the Greek structure; Syriac reverses the order with ܘܬܐ ܒܬܪܝ ('and come after me'), using a single verb with a prepositional phrase. The Syriac construction is more compact but conveys the same command."
     },
     {
       "greek_nt": [
@@ -339,28 +329,14 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Vulgate omits 'taking up the cross' phrase entirely"
-    },
-    {
-      "greek_nt": [
-        28,
-        29
-      ],
-      "peshitta": [
-        25
-      ],
-      "vulgate": [
-        29,
-        30
-      ],
-      "variant": "minor",
-      "note": "Peshitta 'after me' vs. Greek/Vulgate 'follow me'; word order variation"
+      "type": "omission",
+      "note": "The phrase ἄρας τὸν σταυρόν ('having taken up the cross') appears in the Greek text and is rendered in Syriac as ܘܣܒ ܨܠܝܒܐ ('and take up the cross'), but is entirely absent from the Vulgate tradition. This omission is attested in several early Greek manuscripts (including Codex Sinaiticus and Vaticanus) and represents a significant Western textual variant, likely due to harmonization pressures or scribal judgment that the cross-bearing command was intrusive from parallel passages (cf. Mark 8:34)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.795849+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.010460+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

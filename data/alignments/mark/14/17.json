@@ -44,8 +44,9 @@
         0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καί and Peshitta ܘܟܕ present; Vulgate omits conjunction, begins with temporal ablative absolute"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek καὶ and Peshitta ܘܟܕ both introduce the temporal clause, but Syriac employs the compound conjunction ܟܕ ('when') fused with the copula, creating a tighter temporal nexus than Greek's simple coordinating conjunction. Vulgate omits any coordinating particle, beginning directly with the temporal ablative absolute."
     },
     {
       "greek_nt": [
@@ -62,7 +63,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek genitive absolute ὀψίας γενομένης; Peshitta temporal clause ܟܕ ܗܘܐ ܪܡܫܐ; Vulgate ablative absolute 'Vespere facto' with autem as connective"
+      "type": "construction",
+      "note": "Greek uses a genitive absolute construction (ὀψίας γενομένης, 'evening having arrived'); Syriac employs a temporal clause with finite verb ܗܘܐ ܪܡܫܐ ('it became evening'); Vulgate uses an ablative absolute (Vespere facto) with the adversative particle autem. All three express identical temporal semantics through tradition-specific syntactic patterns."
     },
     {
       "greek_nt": [
@@ -78,35 +80,27 @@
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        4,
         5
       ],
       "variant": "minor",
-      "note": "Greek uses article τῶν with δώδεκα; Peshitta ܬܪܥܣܪܬܗ includes possessive suffix 'his twelve'; Vulgate uses bare 'duodecim'"
+      "type": "grammar",
+      "note": "Greek employs the article τῶν with the substantivized numeral δώδεκα ('the Twelve'), a standard Greek construction for the apostolic group. Syriac ܬܪܥܣܪܬܗ attaches a third-person possessive suffix ('his twelve'), making the relationship to Jesus explicit. Latin cum duodecim omits both article and possessive, using the bare numeral in a prepositional phrase—semantically equivalent but syntactically distinct across all three traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.831045+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.037392+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

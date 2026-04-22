@@ -71,26 +71,39 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καί omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek opens with καὶ (G2532, 'and'), a typical Markan connective linking this pericope to the preceding narrative. Both Peshitta and Vulgate omit this conjunction, beginning instead with the subject pronoun or relative clause."
     },
     {
       "greek_nt": [
         1,
-        2,
-        3
+        2
       ],
       "peshitta": [
         0,
-        1,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + postpositive δέ (ἡ δέ, 'and she'); Peshitta employs pronoun + postpositive particle (ܗܝ ܕܝܢ); Vulgate uses a relative pronoun (Quæ, 'who'). All three mark the subject and narrative transition, but Vulgate's relative construction subordinates this clause to the implied antecedent in the prior verse."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
         2
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
-      "note": "Vulgate uses relative pronoun 'Quae' with temporal 'cum'; Peshitta uses pronoun + particle; Greek uses article + particle + participle"
+      "type": "construction",
+      "note": "Greek employs an aorist active participle (ἐξελθοῦσα, 'having gone out'); Peshitta uses a finite perfect verb (ܢܦܩܬ); Vulgate uses cum + pluperfect subjunctive (cum exisset, 'when she had gone out'), creating a temporal subordinate clause. The Vulgate construction explicitly marks anteriority, while Greek and Peshitta rely on context."
     },
     {
       "greek_nt": [
@@ -102,7 +115,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,7 +131,8 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -126,7 +141,8 @@
         6
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation as token"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon to mark direct speech, a Latin scribal convention not reflected in Greek or Peshitta manuscripts, which rely on context or minimal punctuation to signal dialogue."
     },
     {
       "greek_nt": [
@@ -138,7 +154,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -150,7 +167,9 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses aorist middle subjunctive (αἰτήσωμαι, 'shall I ask for myself'), emphasizing the daughter's agency; Peshitta employs an imperfect form with pronominal suffix (ܐܫܐܠܝܘܗܝ, 'shall I ask him'); Vulgate uses present subjunctive (petam, 'shall I ask'). The Greek middle voice nuance is not preserved in the other traditions."
     },
     {
       "greek_nt": [],
@@ -159,7 +178,8 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate adds question mark punctuation as token"
+      "type": "punctuation",
+      "note": "Vulgate places a question mark after petam, explicitly marking the interrogative mood; Greek uses a semicolon (modern editorial convention), and Peshitta relies on word order and context without punctuation."
     },
     {
       "greek_nt": [
@@ -175,19 +195,19 @@
         11
       ],
       "variant": "minor",
-      "note": "Vulgate 'At illa' uses adversative conjunction + demonstrative; Greek uses article + δέ; Peshitta uses verb + pronoun"
+      "type": "construction",
+      "note": "Greek uses article + postpositive δέ (ἡ δέ, 'and she'); Peshitta employs a finite verb with pronominal object (ܐܡܪܐ ܠܗ, 'she said to her'); Vulgate uses adversative conjunction + demonstrative pronoun (At illa, 'but she'). The Vulgate's At introduces mild contrast, absent in Greek and Peshitta."
     },
     {
       "greek_nt": [
         12
       ],
-      "peshitta": [
-        7
-      ],
+      "peshitta": [],
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -196,7 +216,8 @@
         13
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation as token"
+      "type": "punctuation",
+      "note": "Vulgate inserts a second colon to mark the mother's direct speech, paralleling the earlier colon after the daughter's question; Greek and Peshitta do not employ such punctuation."
     },
     {
       "greek_nt": [
@@ -209,38 +230,42 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16,
         17
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a genitive articular participle (τοῦ βαπτίζοντος, 'the [one] baptizing') to modify Ἰωάννου; Peshitta employs a substantival participle (ܡܥܡܕܢܐ, 'the baptizer') in apposition; Vulgate uses a genitive proper noun (Baptistæ, 'of the Baptist'), treating 'Baptist' as a title rather than a participial descriptor. All three identify John by his baptizing activity, but the syntactic realization differs."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        16
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate concludes with a period, marking the end of the sentence; Greek uses a period (modern editorial), and Peshitta relies on context without explicit sentence-final punctuation in manuscripts."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.765427+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.981422+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

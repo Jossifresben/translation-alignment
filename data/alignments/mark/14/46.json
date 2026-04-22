@@ -55,7 +55,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses article + postpositive conjunction (οἱ δέ); Vulgate employs adversative conjunction 'At' with demonstrative pronoun 'illi'; Peshitta mirrors Greek structure with demonstrative ܗܢܘܢ + ܕܝܢ. All three convey the same adversative transition but through tradition-specific particles."
     },
     {
       "greek_nt": [
@@ -77,22 +79,12 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܐܪܡܝܘ ܥܠܘܗܝ ܐܝܕܝܐ (threw upon him hands) with pronominal suffix on preposition; Vulgate uses manus injecerunt in eum with separate prepositional phrase; Greek ἐπέβαλον τὰς χεῖρας αὐτῶν αὐτῷ shows possessive genitive and dative. All express 'laid hands on him' idiomatically."
+      "type": "construction",
+      "note": "Greek employs the idiom ἐπιβάλλω + accusative object (τὰς χεῖρας αὐτῶν) + dative indirect object (αὐτῷ), literally 'cast their hands upon him.' Vulgate uses 'manus injecerunt in eum' with prepositional phrase. Peshitta compresses the construction: ܐܪܡܝܘ ܥܠܘܗܝ ܐܝܕܝܐ ('cast upon-him hands'), incorporating the pronominal suffix directly onto the preposition, omitting a separate possessive pronoun for 'their.'"
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9
       ],
@@ -100,17 +92,18 @@
         5
       ],
       "vulgate": [
+        6,
         7,
         8
       ],
-      "variant": "minor",
-      "note": "Peshitta ܘܐܚܕܘܗܝ (and-seized-him) uses single verb with pronominal suffix; Greek ἐκράτησαν αὐτόν and Vulgate tenuerunt eum use separate pronoun. Semantically identical."
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.837060+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.042120+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

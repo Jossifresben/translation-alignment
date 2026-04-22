@@ -71,7 +71,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -84,8 +85,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction with auxiliary ܗܘܘ"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The Peshitta employs a periphrastic construction (ܡܚܝܢ ܗܘܘ, participle + auxiliary 'were') to render the Greek imperfect ἔτυπτον, a standard Syriac strategy for expressing continuous past action. Greek and Latin use synthetic imperfect forms (ἔτυπτον / percutiebant)."
     },
     {
       "greek_nt": [
@@ -103,7 +105,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Vulgate word order caput ejus vs. Greek τὴν κεφαλὴν αὐτοῦ; Peshitta adds preposition ܥܠ 'upon'"
+      "type": "word-order",
+      "note": "Greek places the possessive pronoun before the article-noun phrase (αὐτοῦ τὴν κεφαλήν); Vulgate inverts to noun-possessive (caput ejus); Peshitta uses a prepositional phrase (ܥܠ ܪܫܗ, 'upon his-head') with the preposition ܥܠ making the locative sense explicit, whereas Greek and Latin encode location through the accusative of extent."
     },
     {
       "greek_nt": [
@@ -115,7 +118,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -123,8 +127,9 @@
       "vulgate": [
         5
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'arundine,' creating a stronger pause before the next clause. Neither the Greek nor the Peshitta tradition marks a comparable syntactic break here, treating the sequence of mockery actions as a continuous series."
     },
     {
       "greek_nt": [
@@ -136,7 +141,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -149,8 +155,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction with auxiliary ܗܘܘ"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The Peshitta again uses periphrastic construction (ܘܪܩܝܢ ܗܘܘ, participle + 'were') for the Greek imperfect ἐνέπτυον, maintaining aspectual parallelism with the previous clause. Greek and Latin employ synthetic imperfects (ἐνέπτυον / conspuebant)."
     },
     {
       "greek_nt": [
@@ -163,7 +170,8 @@
         8
       ],
       "variant": "major",
-      "note": "Peshitta ܒܐܦܘܗܝ 'in his face' is more explicit than Greek αὐτῷ 'on him' and Vulgate eum 'him'"
+      "type": "expansion",
+      "note": "The Peshitta specifies ܒܐܦܘܗܝ ('in his face'), making the target of the spitting anatomically explicit, whereas Greek αὐτῷ and Latin eum use simple dative/accusative pronouns without specifying the body part. This represents a clarifying expansion typical of Syriac narrative style."
     },
     {
       "greek_nt": [
@@ -175,7 +183,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -194,37 +203,30 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction and adds preposition ܥܠ; all express 'bending/placing knees'"
+      "type": "construction",
+      "note": "Greek uses a participial phrase (τιθέντες τὰ γόνατα, 'placing the knees') with article + accusative plural; Latin employs a similar participial construction (ponentes genua) without article; Peshitta uses a periphrastic finite verb (ܘܒܪܟܝܢ ܗܘܘ ܥܠ ܒܘܪܟܝܗܘܢ, 'and they were bending upon their knees') with prepositional phrase, converting the Greek participle into a coordinate main clause."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        13,
         14
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.843900+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.049189+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

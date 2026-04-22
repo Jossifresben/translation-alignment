@@ -63,14 +63,24 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "aligned"
@@ -81,10 +91,12 @@
       ],
       "peshitta": [],
       "vulgate": [
+        2,
         3
       ],
       "variant": "minor",
-      "note": "Greek ὅτι and Latin Quoniam introduce indirect discourse; Peshitta omits conjunction"
+      "type": "omission",
+      "note": "The Peshitta omits the Greek conjunction ὅτι introducing indirect discourse, proceeding directly to the content of Jesus's proclamation. The Vulgate retains this with a colon followed by Quoniam, marking the quotation more explicitly than the Syriac construction allows."
     },
     {
       "greek_nt": [
@@ -98,7 +110,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek πεπλήρωται (perfect passive indicative) and Latin impletum est both use passive constructions for 'has been fulfilled.' Syriac ܫܠܡ ܠܗ employs an active perfect with ethical dative, literally 'it has completed itself,' a characteristic Semitic idiom expressing the same perfective aspect."
     },
     {
       "greek_nt": [
@@ -111,13 +125,17 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the definite article ὁ καιρὸς ('the time'), which Latin mirrors with tempus (lacking articles but contextually definite). Syriac ܙܒܢܐ appears in the emphatic state, functioning as the Semitic equivalent of the Greek article, yielding semantic alignment despite morphological difference."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         7
       ],
@@ -138,28 +156,22 @@
     {
       "greek_nt": [
         8,
-        9
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
-        10
+        9,
+        10,
+        11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after regnum Dei, creating a stronger rhetorical pause before the imperatives. Greek uses a raised dot (·) with less force, while the Peshitta has no punctuation, allowing the clauses to flow continuously—a stylistic rather than semantic divergence."
     },
     {
       "greek_nt": [
@@ -177,7 +189,9 @@
       "greek_nt": [
         13
       ],
-      "peshitta": [],
+      "peshitta": [
+        8
+      ],
       "vulgate": [
         13
       ],
@@ -185,45 +199,28 @@
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
         16,
         17
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        2,
-        11
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation/emphasis not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek πιστεύετε ἐν τῷ εὐαγγελίῳ uses the preposition ἐν with dative ('believe in the gospel'), a Hebraic idiom. Latin credite Evangelio employs simple dative without preposition, the standard Latin construction. Syriac ܘܗܝܡܢܘ ܒܣܒܪܬܐ uses the preposition ܒ, mirroring the Greek prepositional structure—both traditions reflect Semitic syntax, while Latin normalizes to classical usage."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.728429+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:07.945468+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

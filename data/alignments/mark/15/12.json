@@ -72,7 +72,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Greek article with pronoun; Vulgate omits article"
+      "type": "grammar",
+      "note": "Greek employs the article ὁ with δέ to mark subject continuity; Peshitta uses the independent pronoun ܗܘ ('he') for the same function; Vulgate omits both, relying on verb inflection and word order to identify Pilatus as subject."
     },
     {
       "greek_nt": [
@@ -96,7 +97,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Vulgate places Pilatus in initial position for emphasis, whereas Greek and Peshitta position the proper name after the conjunction and article/pronoun respectively."
     },
     {
       "greek_nt": [
@@ -106,8 +109,9 @@
       "vulgate": [
         2
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits 'again' (πάλιν/iterum)"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek πάλιν and Vulgate iterum ('again') are absent from the Peshitta, which omits the adverb entirely—possibly viewing it as redundant in the narrative flow or reflecting a different Vorlage."
     },
     {
       "greek_nt": [
@@ -122,7 +126,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek uses participle + imperfect; Peshitta simple perfect; Vulgate participle + perfect"
+      "type": "construction",
+      "note": "Greek uses a participial construction (ἀποκριθεὶς ἔλεγεν, 'answering, he was saying') to express durative or iterative action; Vulgate mirrors this with respondens ait; Peshitta employs a single finite verb ܐܡܪ ('he said'), a typical Semitic simplification of Greek participial phrases."
     },
     {
       "greek_nt": [
@@ -135,7 +140,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illis to mark direct discourse, whereas Greek uses a raised dot (·) and Peshitta relies on syntactic context without explicit punctuation for the speech introduction."
     },
     {
       "greek_nt": [
@@ -173,7 +180,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta makes subject explicit with pronoun ܐܢܬܘܢ"
+      "type": "gloss",
+      "note": "Peshitta makes the second-person plural subject explicit with ܐܢܬܘܢ ('you [pl.]') following the verb ܨܒܝܢ, a common Syriac practice for clarity; Greek θέλετε and Vulgate vultis encode the subject in verbal inflection alone."
     },
     {
       "greek_nt": [
@@ -189,51 +197,33 @@
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek relative pronoun ὃν; Peshitta demonstrative ܠܗܢܐ; Vulgate restructures with dative 'regi'"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
         11,
-        12
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'whom you call' clause entirely, restructuring question"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
-        14
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "major",
-      "note": "Greek accusative 'the King'; Vulgate dative 'to the King' changes syntax"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
         16
       ],
       "peshitta": [
+        10,
+        11,
+        12,
+        13,
         14
       ],
       "vulgate": [
+        11,
         12,
+        13
+      ],
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek employs a relative clause (ὃν λέγετε τὸν βασιλέα τῶν Ἰουδαίων, 'whom you call the King of the Jews') with accusative object and appositive article; Peshitta uses a demonstrative pronoun ܠܗܢܐ ('to this one') followed by a relative clause ܕܩܪܝܢ ܐܢܬܘܢ with explicit second-person pronoun; Vulgate restructures entirely as an indirect object dative (regi Judæorum, 'to the King of the Jews'), omitting the relative clause and collapsing the syntax into a single dative noun phrase—semantically equivalent but syntactically distinct."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         13
       ],
       "variant": "aligned"
@@ -241,8 +231,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.842952+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.048134+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

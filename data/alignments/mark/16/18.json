@@ -86,10 +86,12 @@
       ],
       "vulgate": [
         0,
-        1
+        1,
+        2
       ],
       "variant": "major",
-      "note": "Greek has explicit 'in their hands' (ἐν ταῖς χερσὶν) before 'serpents they will take up'; Peshitta and Vulgate omit the prepositional phrase, using direct object construction"
+      "type": "word-order",
+      "note": "Greek employs a prepositional phrase construction (ἐν ταῖς χερσὶν ὄφεις ἀροῦσιν, 'in [their] hands serpents they will take up'), placing the object before the verb. Syriac and Latin both front the object (ܘܚܘܘܬܐ ܢܫܩܠܘܢ / serpentes tollent, 'serpents they will take up'), omitting the explicit prepositional phrase 'in [their] hands,' which is understood contextually."
     },
     {
       "greek_nt": [
@@ -102,74 +104,51 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the crasis κἂν (καὶ ἐάν, 'and if'), a single contracted form. Syriac employs ܘܐܢ (w-ʾen, 'and if'), a simple conjunction plus conditional particle. Latin expands to et si ('and if'), two separate words—all semantically equivalent but reflecting each tradition's syntactic preferences."
     },
     {
       "greek_nt": [
         7,
-        8
-      ],
-      "peshitta": [
-        3,
-        4
-      ],
-      "vulgate": [
-        5,
-        6
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek 'deadly anything', Peshitta 'poison of death', Vulgate 'deadly something'"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        3,
+        4,
         5
       ],
       "vulgate": [
+        5,
+        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the adjective before the indefinite pronoun (θανάσιμόν τι, 'deadly anything'), while Syriac uses a construct chain (ܣܡܐ ܕܡܘܬܐ, 'poison of death') and Latin reverses the order (mortiferum quid, 'deadly something'). All three convey 'deadly poison' but employ distinct syntactic strategies."
     },
     {
       "greek_nt": [
         10,
-        11
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Greek uses emphatic double negative οὐ μὴ; Peshitta and Vulgate use simple negation"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13
       ],
       "peshitta": [
+        6,
         7,
         8
       ],
       "vulgate": [
+        8,
         9,
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        2,
+        10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colons not present in Greek or Peshitta manuscripts"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the emphatic double negative οὐ μὴ with future indicative (βλάψει), a construction expressing strong negation. Syriac uses simple negation ܠܐ ܢܗܪ ('not it will harm'), and Latin non eis nocebit ('not them it will harm'). The Vulgate adds a colon after biberint, creating a punctuation break absent in Greek and Syriac manuscripts."
     },
     {
       "greek_nt": [
@@ -191,7 +170,8 @@
         15
       ],
       "variant": "minor",
-      "note": "Word order: Greek 'upon sick hands they will lay', Peshitta 'their hands they will place upon sick', Vulgate 'upon sick hands they will impose'"
+      "type": "word-order",
+      "note": "Greek fronts the prepositional phrase (ἐπὶ ἀρρώστους χεῖρας ἐπιθήσουσιν, 'upon [the] sick hands they will lay'). Syriac places the possessive pronoun first (ܘܐܝܕܝܗܘܢ ܢܣܝܡܘܢ ܥܠ ܟܪܝܗܐ, 'and their hands they will place upon [the] sick'). Latin mirrors Greek order (super ægros manus imponent) but again inserts a colon after nocebit, segmenting the discourse."
     },
     {
       "greek_nt": [
@@ -207,13 +187,15 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses καὶ καλῶς ἕξουσιν ('and well they will be/have'), an idiomatic future construction. Syriac employs the single verb ܘܢܬܚܠܡܘܢ (w-netḥalmun, 'and they will be healed'), a more explicit medical term. Latin renders et bene habebunt ('and well they will have/be'), closely mirroring the Greek idiom but with habere rather than ἔχω's broader semantic range."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.853219+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.057221+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

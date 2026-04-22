@@ -114,7 +114,7 @@ def call_claude_sync(
 
     response = client.messages.create(
         model=model,
-        max_tokens=2000,
+        max_tokens=4000,
         temperature=0.1,
         system=[
             {
@@ -137,7 +137,7 @@ def call_claude_sync(
                          "content": "Return ONLY a raw JSON object — no markdown, no prose."})
         response = client.messages.create(
             model=model,
-            max_tokens=2000,
+            max_tokens=4000,
             temperature=0.1,
             system=[
                 {
@@ -339,7 +339,7 @@ def build_batch_requests(
                 "custom_id": f"mark_{ch}_{v}",
                 "params": {
                     "model": model,
-                    "max_tokens": 2000,
+                    "max_tokens": 4000,
                     "temperature": 0.1,
                     "system": [
                         {"type": "text", "text": system_prompt,

@@ -59,7 +59,8 @@
         1
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
         0,
@@ -67,19 +68,20 @@
         2
       ],
       "variant": "minor",
-      "note": "Vulgate expands with 'cum venisset' (when he came) vs. Greek participial 'ἐλθὼν' and Peshitta 'ܘܒܪ' (and immediately)"
+      "type": "construction",
+      "note": "Greek uses coordinating conjunction καὶ with aorist participle ἐλθών ('and having come'); Peshitta employs ܘܒܪ ܫܥܬܗ ('and immediately'), a temporal adverbial phrase; Vulgate uses temporal conjunction cum with perfect subjunctive venisset ('when he had come'), reflecting Latin preference for subordinate temporal clauses over participial constructions."
     },
     {
       "greek_nt": [
         2
       ],
-      "peshitta": [
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek εὐθύς ('immediately') and Vulgate statim are present as independent adverbs modifying the approach, but Peshitta incorporates the temporal immediacy into the preceding phrase ܒܪ ܫܥܬܗ ('at once'), resulting in structural rather than lexical correspondence. The Peshitta does not repeat the temporal marker separately."
     },
     {
       "greek_nt": [
@@ -94,7 +96,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses second aorist participle προσελθών with dative αὐτῷ ('having approached him'); Peshitta employs simple perfect ܩܪܒ ('he approached') without explicit pronominal object; Vulgate expands with present participle accedens plus prepositional phrase ad eum ('approaching to him'), making the indirect object explicit as in Greek."
     },
     {
       "greek_nt": [
@@ -106,27 +110,10 @@
         4
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "major",
-      "note": "Vulgate substitutes 'Ave' (Hail) for Greek/Peshitta 'Rabbi'"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -138,19 +125,13 @@
         6
       ],
       "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "note": "Greek and Peshitta repeat 'Rabbi' twice; Vulgate has single 'Rabbi' after 'Ave'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        9,
+        10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek preserves the Semitic vocative ῥαββί repeated twice (ῥαββί ῥαββί); Peshitta retains the double vocative ܪܒܝ ܪܒܝ in its native script; Vulgate substitutes Ave Rabbi with colon punctuation, replacing the second ῥαββί with the Latin greeting Ave ('Hail'), likely reflecting Roman epistolary or formal address conventions and reducing Semitic repetition for Latin rhetorical style."
     },
     {
       "greek_nt": [
@@ -167,13 +148,15 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses coordinating καὶ with aorist indicative κατεφίλησεν αὐτόν ('and he kissed him'); Peshitta employs simple waw-consecutive ܘܢܫܩܗ ('and he kissed him') with pronominal suffix; Vulgate expands with et plus perfect indicative osculatus est eum ('and he kissed him'), using the deponent perfect construction typical of Latin for completed action with present relevance."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.836920+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.041967+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

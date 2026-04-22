@@ -78,31 +78,24 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Initial καὶ omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek καὶ opening the verse is omitted in both Peshitta and Vulgate. This initial conjunction likely connects to the preceding narrative (Mark 11:7), but both translations begin the sentence independently with the subject."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,7 +110,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -131,7 +125,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction with participle + auxiliary"
+      "type": "construction",
+      "note": "Greek uses aorist ἔστρωσαν (simple past); Peshitta employs periphrastic construction ܡܫܘܝܢ ܗܘܘ (participle + auxiliary 'were spreading'); Vulgate uses perfect straverunt. All convey completed action but with different aspectual nuances typical of each language's verbal system."
     },
     {
       "greek_nt": [
@@ -146,7 +141,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses εἰς + accusative (directional 'onto the road'); Vulgate mirrors with in + ablative via (locative 'in/on the road'); Peshitta uses simple ܒ preposition with ܐܘܪܚܐ. The semantic difference between directional and locative is minimal in this context."
     },
     {
       "greek_nt": [],
@@ -155,30 +152,23 @@
         7
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after via to mark the clause boundary before the second action. Neither Greek nor Peshitta manuscripts employ equivalent punctuation at this juncture, though Greek δέ serves a similar discourse-structuring function."
     },
     {
       "greek_nt": [
-        10
+        10,
+        11
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [],
-      "vulgate": [
+        8,
         9
       ],
-      "variant": "minor",
-      "note": "Peshitta omits second δέ/autem, using conjunction on verb instead"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -191,7 +181,8 @@
         10
       ],
       "variant": "major",
-      "note": "Greek στιβάδας (leafy branches/bedding) vs Peshitta ܣܘܟܐ (branches) vs Vulgate frondes (foliage/fronds); semantic overlap but different specificity"
+      "type": "lexical",
+      "note": "Greek στιβάδας denotes leafy branches or foliage cut for bedding; Vulgate frondes specifies 'fronds, leafy branches'; Peshitta ܣܘܟܐ means 'thorns, brambles, brushwood.' The Syriac term suggests rougher vegetation, possibly reflecting a different botanical understanding or a semantic shift in the Syriac lexeme."
     },
     {
       "greek_nt": [
@@ -205,7 +196,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction for participle"
+      "type": "construction",
+      "note": "Greek uses aorist participle κόψαντες (attendant circumstance); Peshitta again employs periphrastic ܦܣܩܝܢ ܗܘܘ (participle + 'were'); Vulgate uses imperfect cædebant. The Greek construction emphasizes the cutting as preliminary to spreading, while Peshitta and Vulgate present it as simultaneous ongoing action."
     },
     {
       "greek_nt": [
@@ -222,7 +214,8 @@
         13
       ],
       "variant": "major",
-      "note": "Greek ἐκ τῶν ἀγρῶν (from the fields) vs Peshitta ܡܢ ܐܝܠܢܐ (from trees) vs Vulgate de arboribus (from trees); substantive difference in source location"
+      "type": "substitution",
+      "note": "Greek ἐκ τῶν ἀγρῶν ('from the fields') indicates open agricultural land; Vulgate de arboribus ('from trees') specifies the immediate source; Peshitta ܡܢ ܐܝܠܢܐ ('from trees') agrees with the Vulgate against the Greek. This represents either independent translation choice or possible textual influence, shifting focus from the location (fields) to the object (trees)."
     },
     {
       "greek_nt": [
@@ -234,7 +227,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -247,7 +241,8 @@
         15
       ],
       "variant": "minor",
-      "note": "Greek imperfect vs Peshitta participle construction; aspectual difference"
+      "type": "grammar",
+      "note": "Greek uses imperfect ἐστρώννυον (iterative past action); Peshitta repeats the participle ܡܫܘܝܢ (without auxiliary here, functioning as finite verb); Vulgate employs imperfect sternebant. All convey ongoing or repeated action, with minor aspectual differences."
     },
     {
       "greek_nt": [
@@ -262,13 +257,14 @@
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.808491+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.016552+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

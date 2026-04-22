@@ -107,27 +107,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction καὶ plus aorist participle ἰδών (coordinated participial construction); Vulgate employs cumque vidisset (temporal cum-clause with pluperfect subjunctive); Peshitta uses simple ܘܚܙܐ (waw-consecutive perfect). All three express the same temporal-causal relationship but through distinct syntactic strategies."
     },
     {
       "greek_nt": [
@@ -141,7 +133,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta adds numeral 'one' (ܚܕܐ) for emphasis"
+      "type": "word-order",
+      "note": "Greek and Vulgate place 'fig tree' immediately after the verb of seeing (συκῆν / ficum), while Peshitta inserts the numeral ܚܕܐ ('one') yielding 'a certain fig tree' (ܬܬܐ ܚܕܐ), a typical Semitic indefinite construction. The semantic content remains identical."
     },
     {
       "greek_nt": [
@@ -173,7 +166,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses existential construction 'that there is in it leaves' vs. Greek/Latin participial 'having leaves'"
+      "type": "construction",
+      "note": "Greek uses accusative participle ἔχουσαν φύλλα agreeing with συκῆν (attributive participial phrase); Vulgate mirrors this with habentem folia (accusative participle); Peshitta employs a relative clause construction ܕܐܝܬ ܒܗ ܛܪܦܐ ('that there-is in-it leaves'), using the existential particle ܐܝܬ with pronominal suffix. Syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -187,243 +181,128 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta 'came to it' vs. Greek/Latin simple 'came'"
+      "type": "expansion",
+      "note": "Greek ἦλθεν and Vulgate venit are simple verbs of motion ('he came'); Peshitta adds the directional phrase ܠܘܬܗ ('to it'), making the destination explicit. This is a characteristic Syriac clarification, rendering implicit Greek/Latin syntax overt."
     },
     {
       "greek_nt": [
         8,
-        9
+        9,
+        10,
+        11,
+        12,
+        13
       ],
       "peshitta": [
-        10
+        10,
+        11,
+        12,
+        13
       ],
       "vulgate": [
-        8
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
       ],
       "variant": "minor",
-      "note": "Greek εἰ ἄρα 'if perhaps' vs. Peshitta/Vulgate simple conditional"
+      "type": "lexical",
+      "note": "Greek εἰ ἄρα τι εὑρήσει ('if perhaps anything he-will-find') uses the particle ἄρα to express contingency; Vulgate renders this with si quid forte inveniret (subjunctive with forte 'perhaps'), adding a colon for punctuation; Peshitta uses ܕܐܢ ܢܫܟܚ ܒܗ ܡܕܡ ('that if he-might-find in-it something'), employing the conditional ܕܐܢ. All three convey the same tentative expectation through tradition-specific modal constructions."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'forte' (perhaps/by chance)"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12,
-        13
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        12,
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14
-      ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
+        14,
+        15,
         16,
         17
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16,
-        17
+      "peshitta": [
+        14,
+        15
       ],
-      "peshitta": [],
       "vulgate": [
+        15,
+        16,
+        17,
         18,
         19
       ],
       "variant": "minor",
-      "note": "Greek ἐπ' αὐτήν 'upon it' vs. Vulgate ad eam 'to it'; Peshitta implicit in verb"
+      "type": "construction",
+      "note": "Greek καὶ ἐλθὼν ἐπ᾽ αὐτήν (coordinated aorist participle with preposition ἐπί); Vulgate et cum venisset ad eam (temporal cum-clause with ad + accusative); Peshitta ܘܟܕ ܐܬܐ (waw + temporal particle ܟܕ, 'and when he-came'), omitting an explicit prepositional phrase for 'to it' since already stated in token 9. Syntactic variation with semantic equivalence."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19
       ],
       "peshitta": [
-        17
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        16,
+        17,
         18
       ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta repeats prepositional phrase 'in it' for clarity"
+      "vulgate": [
+        20,
+        21
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the negative pronoun before the verb (οὐδὲν εὗρεν / nihil invenit, 'nothing he-found'); Peshitta uses verb-initial order ܠܐ ܐܫܟܚ ܒܗ ('not he-found in-it'), with the negative particle ܠܐ preceding the verb and the prepositional phrase ܒܗ ('in it') following. Word-order divergence reflecting Syriac VSO preference."
     },
     {
       "greek_nt": [
         20,
-        21
+        21,
+        22
       ],
       "peshitta": [
         19,
-        20
-      ],
-      "vulgate": [
-        22
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        22
-      ],
-      "peshitta": [
+        20,
         21
       ],
       "vulgate": [
-        23
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        22,
+        23,
         24
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         23,
-        24
-      ],
-      "peshitta": [
-        23
-      ],
-      "vulgate": [
-        26
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        25
-      ],
-      "peshitta": [
-        22
-      ],
-      "vulgate": [
+        24,
+        25,
+        26,
+        27,
         28
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+      "peshitta": [
+        22,
+        23,
+        24,
+        25,
         26,
         27
       ],
-      "peshitta": [
-        24,
-        25,
-        26
-      ],
       "vulgate": [
         25,
-        27
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses double ܗܘܐ construction for past negative; all express 'was not'"
-    },
-    {
-      "greek_nt": [
-        28
-      ],
-      "peshitta": [
-        27
-      ],
-      "vulgate": [
+        26,
+        27,
+        28,
         29
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ὁ γὰρ καιρὸς οὐκ ἦν σύκων uses the articular nominative ὁ καιρός with genitive plural σύκων ('the season of figs was not'); Vulgate non enim erat tempus ficorum mirrors this structure exactly; Peshitta ܙܒܢܐ ܓܝܪ ܠܐ ܗܘܐ ܗܘܐ ܕܬܐܢܐ employs a double ܗܘܐ (pluperfect periphrastic construction, 'the time indeed not had-been was of-figs'), a characteristic Syriac pluperfect formation absent in Greek and Latin."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.809413+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.883279+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

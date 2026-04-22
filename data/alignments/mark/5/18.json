@@ -67,34 +67,28 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1,
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3,
         4,
         5
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a genitive absolute construction (ἐμβαίνοντος αὐτοῦ εἰς τὸ πλοῖον) with present participle, article, and prepositional phrase. Syriac uses a finite verb (ܣܠܩ 'he ascended') with direct object, while Vulgate uses a temporal cum-clause with imperfect subjunctive (cumque ascenderet navim). All three express the same temporal circumstance but with distinct syntactic strategies."
     },
     {
       "greek_nt": [
@@ -112,7 +106,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܒܥܐ ܗܘܐ ܡܢܗ (was asking from him); Vulgate deprecari intensifies the request"
+      "type": "grammar",
+      "note": "Greek uses imperfect indicative παρεκάλει with direct object pronoun αὐτόν. Syriac employs a periphrastic construction ܒܥܐ ܗܘܐ ܡܢܗ (literally 'was seeking from him'), using the preposition ܡܢ to mark the indirect object. Vulgate mirrors Greek structure with cœpit illum deprecari, though using an infinitive complement. The semantic content is identical but the syntactic encoding differs."
     },
     {
       "greek_nt": [
@@ -130,22 +125,13 @@
         9,
         10
       ],
-      "variant": "minor",
-      "note": "Vulgate expands with relative clause 'qui a daemonio vexatus fuerat' (who had been vexed by a demon) vs. Greek/Peshitta participial construction"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses articular aorist passive participle ὁ δαιμονισθεὶς ('the one having been demon-possessed') as a substantive. Syriac employs a resumptive pronoun ܗܘ with relative clause ܕܫܐܕܘܗܝ ('he whom his demons [possessed]'). Vulgate expands significantly with a full relative clause qui a dæmonio vexatus fuerat ('who had been vexed by a demon'), using pluperfect passive and explicitly naming the singular dæmonio where Greek and Syriac imply plurality or collective force."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [],
-      "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Peshitta omits explicit purpose marker; Greek ἵνα and Vulgate ut both present"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12,
         13
@@ -155,17 +141,20 @@
         9
       ],
       "vulgate": [
+        11,
         12,
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ἵνα with present subjunctive ᾖ and prepositional phrase μετ᾽ αὐτοῦ to express purpose. Syriac employs ܕ with imperfect ܢܗܘܐ and prepositional phrase ܕܥܡܗ, a standard Syriac purpose construction. Vulgate uses ut with imperfect subjunctive esset cum illo. All three traditions express identical purpose semantics through their respective complementation strategies."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.756376+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.973297+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

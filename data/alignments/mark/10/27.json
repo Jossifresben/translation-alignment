@@ -84,30 +84,22 @@
     {
       "greek_nt": [
         0,
+        1,
         2
       ],
       "peshitta": [
         0,
-        2
-      ],
-      "vulgate": [
         1,
         2
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
       "vulgate": [
-        0
+        0,
+        1,
+        2
       ],
       "variant": "minor",
-      "note": "Greek δέ and Syriac ܕܝܢ are post-positive conjunctions; Latin Et is pre-positive"
+      "type": "lexical",
+      "note": "Greek ἐμβλέψας (aorist participle, 'having looked intently') is rendered by Syriac ܚܪ (simple past, 'looked') and Latin intuens (present participle, 'looking'). The aspectual nuance differs slightly: Greek emphasizes completed action, Latin ongoing action, Syriac neutral past."
     },
     {
       "greek_nt": [
@@ -120,29 +112,25 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek includes the definite article ὁ before Ἰησοῦς, which neither Syriac nor Latin reproduces. This is a routine Greek stylistic feature with proper names that has no semantic equivalent in the other traditions."
     },
     {
       "greek_nt": [
         5
       ],
       "peshitta": [
-        4
+        4,
+        5
       ],
       "vulgate": [
         4,
         5
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit indirect object pronoun ܠܗܘܢ 'to them'"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Peshitta expands Greek λέγει into ܘܐܡܪ ܠܗܘܢ ('and he said to them'), making the indirect object explicit. Vulgate uses ait with colon punctuation. The Syriac addition of the prepositional phrase is a typical clarifying gloss."
     },
     {
       "greek_nt": [
@@ -159,22 +147,15 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses construct phrase ܒܢܝ ܐܢܫܐ 'sons of men' for Greek ἀνθρώποις and Latin homines"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds demonstrative ܗܕܐ 'this' as subject"
+      "type": "idiom",
+      "note": "Greek παρὰ ἀνθρώποις ('with/among men') is rendered literally in Latin (apud homines). Syriac uses ܠܘܬ ܒܢܝ ܐܢܫܐ ('toward the sons of man'), employing the idiomatic construct phrase ܒܢܝ ܐܢܫܐ for 'humanity' rather than a simple plural."
     },
     {
       "greek_nt": [
         8
       ],
       "peshitta": [
+        9,
         10,
         11
       ],
@@ -183,7 +164,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek uses single adjective ἀδύνατον; Peshitta and Vulgate use negative + possible construction"
+      "type": "construction",
+      "note": "Greek uses the adjective ἀδύνατον ('impossible') as a predicate nominative with implied copula. Syriac expands this into a full clause ܗܕܐ ܠܐ ܡܫܟܚܐ ('this is not possible'), adding the demonstrative pronoun ܗܕܐ ('this') as subject. Vulgate mirrors Greek structure with impossibile est."
     },
     {
       "greek_nt": [
@@ -197,7 +179,8 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -214,47 +197,32 @@
         13,
         14
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        15,
-        16
-      ],
-      "vulgate": [
-        15
-      ],
       "variant": "minor",
-      "note": "Peshitta uses ܟܠ ܡܕܡ 'everything' (lit. 'all thing') for Greek πάντα and Latin omnia"
+      "type": "grammar",
+      "note": "Greek παρὰ τῷ θεῷ uses the dative article τῷ with θεῷ. Syriac ܠܘܬ ܐܠܗܐ lacks an article (Syriac has no definite article system). Vulgate apud Deum follows Latin conventions without article. The prepositional constructions are semantically equivalent."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
+        15,
         16,
         17
       ],
       "peshitta": [
-        18
-      ],
-      "vulgate": [
+        15,
+        16,
         17,
         18
       ],
-      "variant": "aligned"
+      "vulgate": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek word order is πάντα γὰρ δυνατὰ ἐστιν ('all things for possible is'). Syriac follows the same order: ܟܠ ܡܕܡ ܓܝܪ ܡܫܟܚܐ ('all thing for possible'). Vulgate reorders to omnia enim possibilia sunt, placing the copula after the adjective in standard Latin syntax."
     },
     {
       "greek_nt": [
@@ -270,12 +238,14 @@
         19,
         20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek repeats παρὰ τῷ θεῷ with the dative article. Syriac ܠܘܬ ܐܠܗܐ and Vulgate apud Deum both lack articles, consistent with their respective grammatical systems. The final Greek punctuation mark (¶) indicates a paragraph break not reflected in the other traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.801918+00:00",
+    "generated_at": "2026-04-22T12:17:08.011466+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

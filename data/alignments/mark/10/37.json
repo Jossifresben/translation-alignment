@@ -79,60 +79,35 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek article + δέ omitted in Peshitta; Vulgate uses 'Et' for continuative"
+      "type": "substitution",
+      "note": "Greek uses article + postpositive conjunction (οἱ δέ, 'and they'); Peshitta omits both, beginning directly with the verb; Vulgate substitutes coordinating conjunction Et ('And'), a stylistic preference in Latin narrative."
     },
     {
       "greek_nt": [
-        2
+        2,
+        3
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
-        1
+        1,
+        2
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Vulgate omits indirect object pronoun, implied by context"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon for direct speech punctuation"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        3,
         4
       ],
       "variant": "aligned"
@@ -147,7 +122,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἵνα introduces a purpose clause with subjunctive verb; Syriac ܕ (d-) functions identically as a subordinating particle; Vulgate ut mirrors Greek syntax, all three expressing identical purpose construction with different morphology."
     },
     {
       "greek_nt": [
@@ -168,8 +145,9 @@
         8,
         9
       ],
-      "variant": "minor",
-      "note": "Word order variation: Peshitta places verb before prepositional phrase; Greek/Vulgate use ἐκ/ad + genitive, Peshitta uses ܡܢ"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek places the subject pronoun σου ('of you') before the prepositional phrase ἐκ δεξιῶν ('at right hand'), creating discontinuous syntax; Syriac integrates the pronominal suffix directly into ܝܡܝܢܟ ('your right') after the verb ܢܬܒ ('may sit'); Vulgate uses ad dexteram tuam with postposed possessive, following Latin word-order norms. All three convey identical semantics through language-specific syntactic patterns."
     },
     {
       "greek_nt": [
@@ -181,7 +159,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καί and Syriac ܘ (waw) are cognate coordinating conjunctions; Vulgate substitutes et for καί in the second coordinate, then uses alius ('another') instead of repeating unus, a Latin stylistic variation to avoid repetition."
     },
     {
       "greek_nt": [
@@ -201,23 +181,13 @@
         13,
         14
       ],
-      "variant": "minor",
-      "note": "Vulgate uses 'alius' (another) vs Greek/Peshitta 'one'; structural parallel to previous phrase"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek repeats εἷς ἐξ ἀριστερῶν σου with identical discontinuous syntax (pronoun before prepositional phrase); Syriac again integrates the possessive suffix into ܣܡܠܟ ('your left'); Vulgate employs alius ad sinistram tuam, substituting alius for the second occurrence of unus to avoid redundancy, a characteristic Latin rhetorical preference."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
         18,
         19,
@@ -227,17 +197,19 @@
         11
       ],
       "vulgate": [
+        15,
         16,
         17,
         18
       ],
       "variant": "minor",
-      "note": "Greek uses ἐν + article + dative; Peshitta uses ܒ prefix with pronominal suffix; Vulgate uses in + ablative"
+      "type": "word-order",
+      "note": "Greek places the verb καθίσωμεν ('let us sit') after both coordinate phrases, followed by ἐν τῇ δόξῃ σου ('in your glory'); Syriac fronts the verb ܢܬܒ earlier in the clause and uses the bound form ܒܫܘܒܚܟ ('in-your-glory') as a single lexical unit; Vulgate sedeamus in gloria tua follows Greek word order but omits the article (Latin lacks articles). All three express the same locative prepositional phrase with minor syntactic reordering."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.804448+00:00",
+    "generated_at": "2026-04-22T12:17:08.012866+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

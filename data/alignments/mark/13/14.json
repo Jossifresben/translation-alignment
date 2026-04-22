@@ -104,7 +104,8 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -116,7 +117,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -134,7 +136,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs double article construction (τὸ βδέλυγμα τῆς ἐρημώσεως) with genitive relationship; Vulgate uses direct noun-genitive pairing (abominationem desolationis); Peshitta inserts demonstrative pronoun ܐܬܐ ('sign/mark') before the construct chain, yielding 'the sign of the abomination of desolation,' a minor interpretive expansion."
     },
     {
       "greek_nt": [
@@ -152,8 +156,9 @@
         9
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the entire Daniel reference clause present in Greek and Peshitta"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Vulgate omits the entire relative clause τὸ ῥηθὲν ὑπὸ Δανιὴλ τοῦ προφήτου ('that which was spoken by Daniel the prophet'), which both Greek and Peshitta attest. The Peshitta renders this as ܗܝ ܕܐܡܝܪܐ ܒܕܢܝܐܝܠ ܢܒܝܐ with feminine demonstrative ܗܝ agreeing with ܛܢܦܬܐ ('abomination'), explicitly naming Daniel as the prophetic source in harmonisation with Matthew 24:15."
     },
     {
       "greek_nt": [
@@ -165,7 +170,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses perfect active participle ἑστηκότα (masculine accusative agreeing with βδέλυγμα in sense, though neuter in form); Vulgate employs present active participle stantem; Peshitta uses active participle ܕܩܝܡܐ. All convey 'standing,' but Greek perfect aspect emphasizes the completed state of standing, while Latin and Syriac use present aspect."
     },
     {
       "greek_nt": [
@@ -184,43 +191,29 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta has double negative ܕܠܐ ܘܠܐ (d-la w-la) where Greek has οὐ δεῖ"
+      "type": "expansion",
+      "note": "The Peshitta reads ܐܝܟܐ ܕܠܐ ܘܠܐ ('where not and not'), employing a double negative construction (ܕܠܐ ܘܠܐ) that intensifies the negation beyond the Greek ὅπου οὐ δεῖ and Latin ubi non debet. This is a characteristic Syriac rhetorical doubling for emphasis."
     },
     {
       "greek_nt": [
         17,
-        18
-      ],
-      "peshitta": [
-        14,
-        15
-      ],
-      "vulgate": [
-        9,
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19
       ],
       "peshitta": [
+        14,
+        15,
         16
       ],
       "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        9,
+        10,
+        11,
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses participial construction ὁ ἀναγινώσκων νοείτω ('let the reader understand') as parenthetical aside; Vulgate employs relative clause qui legit, intelligat with colon punctuation marking it as editorial comment; Peshitta inserts pronoun ܗܘ ('he') as explicit subject before ܕܩܪܐ ('who reads'), making the referent more explicit, and uses jussive ܢܣܬܟܠ ('let him understand')."
     },
     {
       "greek_nt": [
@@ -232,7 +225,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -253,7 +247,8 @@
         17
       ],
       "variant": "minor",
-      "note": "Peshitta uses demonstrative pronoun ܐܝܠܝܢ (aylayn) + ܐܢܘܢ (enon) for 'those who'; Vulgate adds 'sunt' (are)"
+      "type": "construction",
+      "note": "Greek uses article + prepositional phrase (οἱ ἐν τῇ Ἰουδαίᾳ, 'those in Judea'); Vulgate mirrors with relative clause qui in Judæa sunt ('who are in Judea'); Peshitta employs demonstrative plural ܐܝܠܝܢ with relative ܕ and locative ܒܝܗܘܕ, adding independent pronoun ܐܢܘܢ ('they') for emphasis — semantically equivalent but syntactically distinct constructions."
     },
     {
       "greek_nt": [
@@ -265,7 +260,8 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -278,24 +274,18 @@
       ],
       "vulgate": [
         19,
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        20,
         21
       ],
-      "variant": "added",
-      "note": "Vulgate adds final colon punctuation mark"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek and Vulgate use plural forms (τὰ ὄρη / montes, 'the mountains'); Peshitta employs singular ܠܛܘܪܐ ('to the mountain'), a typical Syriac idiom for geographic collective nouns where singular form denotes the mountain-range as a conceptual unit rather than discrete peaks."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.824495+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.030453+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

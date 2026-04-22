@@ -6,6 +6,11 @@ validation — errors are more specific and testable.
 from __future__ import annotations
 
 VALID_VARIANTS = {"aligned", "minor", "major", "omitted", "added"}
+VALID_TYPES = {
+    "agreement", "expansion", "omission", "substitution", "harmonisation",
+    "word-order", "construction", "idiom", "punctuation", "grammar",
+    "lexical", "gloss",
+}
 REQUIRED_TOP_FIELDS = {"ref", "chapter", "verse", "traditions", "alignment", "meta"}
 REQUIRED_META_FIELDS = {"generated_by", "generated_at", "confidence", "schema_version"}
 
@@ -52,8 +57,14 @@ def validate_alignment(data: dict) -> None:
                 f"alignment[{i}]: invalid variant {variant!r}; "
                 f"must be one of {sorted(VALID_VARIANTS)}"
             )
+        typ = group.get("type")
+        if typ is not None and typ not in VALID_TYPES:
+            raise AlignmentValidationError(
+                f"alignment[{i}]: invalid type {typ!r}; "
+                f"must be one of {sorted(VALID_TYPES)}"
+            )
         for trad_id, indices in group.items():
-            if trad_id == "variant" or trad_id == "note":
+            if trad_id in ("variant", "note", "type"):
                 continue
             if trad_id not in traditions:
                 raise AlignmentValidationError(

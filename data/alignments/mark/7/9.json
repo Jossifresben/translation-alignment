@@ -61,8 +61,9 @@
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the conjunction καί / Et that opens the Greek and Latin witnesses. This is a common Syriac stylistic preference, avoiding redundant connectives where context sufficiently links discourse units."
     },
     {
       "greek_nt": [
@@ -74,7 +75,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the imperfect ἔλεγεν ('he was saying'), Latin the imperfect dicebat, while Peshitta employs the perfect ܐܡܪ ('he said'). The aspectual difference is minor; Syriac often neutralizes Greek imperfective nuances in narrative discourse."
     },
     {
       "greek_nt": [
@@ -84,18 +87,12 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after illis to mark direct speech, a Latin scribal convention not reflected in Greek or Syriac manuscript traditions. The pronoun forms (αὐτοῖς / ܠܗܘܢ / illis) are semantically equivalent."
     },
     {
       "greek_nt": [
@@ -107,7 +104,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,7 +120,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek ἀθετέω vs Syriac ܛܠܡܝܢ vs Latin irritum facitis - synonymous expressions for 'nullify/set aside'"
+      "type": "construction",
+      "note": "Greek ἀθετεῖτε is a single verb ('you set aside'); Latin renders with the periphrastic irritum facitis ('you make void'); Peshitta uses ܛܠܡܝܢ ܐܢܬܘܢ (participle + pronoun, 'you are setting aside'). All three convey the same accusation but employ different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -139,7 +138,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses the articular construction τὴν ἐντολὴν τοῦ θεοῦ ('the commandment of God'); Latin follows with præceptum Dei (no article, genitive); Syriac employs the construct chain ܦܘܩܕܢܐ ܕܐܠܗܐ ('commandment of God'). The lexical choices (ἐντολή / præceptum / ܦܘܩܕܢܐ) are standard equivalents; the structural variation reflects each language's nominal syntax."
     },
     {
       "greek_nt": [
@@ -151,7 +152,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἵνα introduces a purpose clause ('in order that'); Latin ut mirrors this; Peshitta uses the prefix ܕ- on the verb ܕܬܩܝܡܘܢ, a standard Syriac subordinating construction. The semantic function (purpose/result) is identical across all three traditions."
     },
     {
       "greek_nt": [
@@ -166,7 +169,9 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the possessive pronoun after the noun (τὴν παράδοσιν ὑμῶν, 'the tradition of-you'); Latin mirrors this order (traditionem vestram); Syriac uses a pronominal suffix on the noun (ܡܫܠܡܢܘܬܟܘܢ, 'your-tradition'), a morphological rather than syntactic encoding of possession."
     },
     {
       "greek_nt": [
@@ -179,13 +184,14 @@
         12
       ],
       "variant": "minor",
-      "note": "Greek στήσητε (establish/maintain) vs Syriac ܕܬܩܝܡܘܢ (establish) vs Latin servetis (keep/observe) - semantic overlap with slight nuance"
+      "type": "lexical",
+      "note": "Greek στήσητε ('you may establish/maintain') and Syriac ܕܬܩܝܡܘܢ ('that you may establish') share the root sense of 'stand/establish'; Latin servetis ('you may keep/preserve') shifts the metaphor slightly toward conservation rather than erection, though the pragmatic meaning (upholding tradition) remains equivalent."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.773871+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.988593+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -94,7 +94,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -106,7 +107,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -120,7 +122,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses independent pronoun ܐܢܐ + ܠܟܘܢ; Greek/Latin use dative pronoun only"
+      "type": "gloss",
+      "note": "The Peshitta makes the first-person subject explicit with ܐܢܐ ('I'), whereas Greek ὑμῖν and Latin vobis rely on verbal inflection alone. This is a typical Syriac clarifying expansion for pronominal subjects."
     },
     {
       "greek_nt": [
@@ -131,7 +134,8 @@
         3
       ],
       "variant": "omitted",
-      "note": "Peshitta omits ὅτι/quia conjunction, using ܕ- prefix on verb instead"
+      "type": "omission",
+      "note": "The Peshitta omits the conjunction ὅτι / quia introducing the content clause. Syriac frequently employs asyndetic construction after verbs of speaking, rendering the conjunction unnecessary."
     },
     {
       "greek_nt": [
@@ -147,192 +151,116 @@
         4,
         5
       ],
-      "variant": "minor",
-      "note": "Greek uses triple negation οὐκέτι οὐ μὴ for emphatic future negation; Peshitta/Vulgate use simpler constructions"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
       "variant": "major",
-      "note": "Vulgate adds demonstrative 'hoc' (this) not present in Greek or Peshitta"
+      "type": "grammar",
+      "note": "Greek employs a triple-negative emphatic construction (οὐκέτι οὐ μὴ) to express strong future negation. Both Peshitta (ܕܬܘܒ ܠܐ) and Vulgate (jam non) use double negatives, reducing the rhetorical intensity but preserving the semantic force of 'no longer / never again.'"
     },
     {
       "greek_nt": [
-        10
+        7
       ],
       "peshitta": [
-        8
+        6
       ],
       "vulgate": [
-        9
+        6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        8,
+        9,
+        10,
         11,
         12
       ],
       "peshitta": [
+        7,
+        8,
         9
       ],
       "vulgate": [
+        7,
+        8,
+        9,
         10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        11,
-        12
       ],
       "variant": "minor",
-      "note": "Vulgate uses 'usque in' (until into) vs Greek/Peshitta simple 'until'"
+      "type": "construction",
+      "note": "Greek uses the articular genitive construction τοῦ γενήματος τῆς ἀμπέλου ('the fruit of the vine'). Vulgate mirrors this with de hoc genimine vitis, adding the demonstrative hoc ('this'). Peshitta employs a construct chain ܝܠܕܐ ܕܓܦܬܐ ('offspring of the vine'), a standard Semitic genitive construction without articles."
     },
     {
       "greek_nt": [
+        13,
         14,
-        15
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16
       ],
       "peshitta": [
+        10,
+        11,
         12
       ],
       "vulgate": [
+        11,
+        12,
+        13,
         14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        15
       ],
       "variant": "minor",
-      "note": "Greek ὅταν vs Peshitta ܕܒܗ (in which) vs Vulgate cum; stylistic temporal clause variation"
+      "type": "word-order",
+      "note": "Greek ἕως τῆς ἡμέρας ἐκείνης uses the demonstrative ἐκείνης postpositively. Vulgate usque in diem illum places illum postpositively as well. Peshitta ܥܕܡܐ ܠܝܘܡܐ ܗܘ employs the demonstrative ܗܘ ('that') in a relative-like construction, semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses pronominal suffix on verb; Greek/Vulgate use separate pronoun"
-    },
-    {
-      "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
+        18,
+        19,
         20
       ],
       "peshitta": [
+        13,
+        14,
         15
       ],
       "vulgate": [
+        15,
+        16,
+        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅταν αὐτὸ πίνω καινὸν uses a temporal clause with the accusative pronoun αὐτὸ as object and the adverbial adjective καινὸν ('anew'). Vulgate cum illud bibam novum mirrors this structure. Peshitta ܕܒܗ ܐܫܬܝܘܗܝ ܚܕܬܐܝܬ employs a relative construction with pronominal suffix on the verb and an adverbial form ܚܕܬܐܝܬ, achieving the same meaning through different syntax."
     },
     {
       "greek_nt": [
         21,
         22,
-        23
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        19,
-        20
-      ],
-      "variant": "major",
-      "note": "Peshitta reads 'in his kingdom' (ܒܡܠܟܘܬܗ with possessive suffix) vs Greek/Vulgate 'in the kingdom'"
-    },
-    {
-      "greek_nt": [
+        23,
         24,
         25
       ],
       "peshitta": [
+        16,
         17
       ],
       "vulgate": [
+        19,
+        20,
         21
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἐν τῇ βασιλείᾳ τοῦ θεοῦ ('in the kingdom of God') and Vulgate in regno Dei use the standard genitive construction. Peshitta ܒܡܠܟܘܬܗ ܕܐܠܗܐ ('in his kingdom of God') adds a third-person possessive suffix on 'kingdom,' creating a double-genitive construction that emphasizes divine ownership more explicitly than the Greek or Latin."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.832387+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.038709+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

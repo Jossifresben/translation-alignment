@@ -47,7 +47,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Peshitta ܘܡܚܕܐ (w-meḥdā, 'and immediately') combines the conjunction with the adverb in a single compound form, whereas Greek καὶ εὐθύς and Latin Et protinus maintain separate lexemes for coordination and temporal immediacy."
     },
     {
       "greek_nt": [
@@ -59,8 +61,8 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "note": "Peshitta ܘܡܚܕܐ combines conjunction + adverb; Greek εὐθὺς and Vulgate protinus both mean 'immediately'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -72,7 +74,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -85,7 +88,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article τὰ with the plural noun δίκτυα ('the nets'); Syriac ܡܨܝܕܬܗܘܢ (mṣīdathōn) uses a singular noun with third-person plural possessive suffix ('their net'), a typical Semitic collective construction. Latin retibus mirrors the Greek plural but omits the article, as Latin lacks definite articles."
     },
     {
       "greek_nt": [
@@ -97,21 +102,24 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         6
       ],
       "peshitta": [
-        3
+        3,
+        4
       ],
       "vulgate": [
         4,
         5
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܐܙܠܘ 'they went' where Greek/Vulgate use ἠκολούθησαν/secuti sunt 'they followed'; semantic overlap but different lexemes"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Peshitta expands the single Greek verb ἠκολούθησαν ('they followed') into a two-verb construction ܘܐܙܠܘ ܒܬܪܗ (w-ʾezal-w bāṯrēh, 'and they went after him'), making the motion explicit. Latin secuti sunt preserves the Greek's single-verb structure with a perfect passive participle plus auxiliary, semantically equivalent to the Greek aorist."
     },
     {
       "greek_nt": [
@@ -123,13 +131,14 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.728899+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.946117+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

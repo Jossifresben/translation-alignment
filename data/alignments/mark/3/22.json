@@ -75,13 +75,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the scribes. This is a minor stylistic difference, as Syriac narrative frequently omits coordinating conjunctions where Greek and Latin retain them for continuity."
     },
     {
       "greek_nt": [
@@ -94,35 +94,28 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "note": "Peshitta combines conjunction with noun; Greek uses article + noun"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5
       ],
       "peshitta": [
+        1,
         2,
         3
       ],
       "vulgate": [
+        2,
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a double-article construction (οἱ ἀπὸ Ἱεροσολύμων) with prepositional phrase; Latin uses a relative pronoun (qui ab Jerosolymis); Peshitta uses the relative particle ܐܝܠܝܢ ܕܡܢ. All three express the same restrictive modification, but through distinct syntactic strategies typical of each language."
     },
     {
       "greek_nt": [
@@ -134,7 +127,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -148,7 +142,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction (participle + auxiliary) for imperfect"
+      "type": "construction",
+      "note": "The Peshitta uses a periphrastic construction ܐܡܪܝܢ ܗܘܘ (participle + auxiliary 'were'), rendering the Greek imperfect ἔλεγον more analytically. Greek and Latin employ synthetic imperfect forms; Syriac's periphrastic strategy is a standard morphological feature for expressing past progressive aspect."
     },
     {
       "greek_nt": [
@@ -160,33 +155,26 @@
         8
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon and Quoniam; Peshitta omits ὅτι; stylistic variation in direct discourse introduction"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after dicebant to mark the transition to direct discourse, a punctuation convention absent in Greek manuscripts and unnecessary in Syriac, which uses ܕ- to introduce reported speech. This is a scribal/editorial feature, not a textual variant."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
+        7,
         8,
         9
       ],
       "vulgate": [
+        9,
         10
       ],
       "variant": "minor",
-      "note": "Peshitta uses existential construction (ܐܝܬ ܒܗ 'there is in him') vs. Greek ἔχει 'he has'"
+      "type": "construction",
+      "note": "Greek ὅτι Βεελζεβοὺλ ἔχει and Latin Quoniam Beelzebub habet use transitive 'has' with the demon-name as direct object. Peshitta employs the existential particle ܐܝܬ with prepositional phrase ܒܗ ('in him'), a typical Syriac idiom for possession or indwelling, semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -201,26 +189,14 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܘ (and) alone; Greek/Vulgate use καὶ ὅτι / et quia"
+      "type": "lexical",
+      "note": "Greek uses καὶ ὅτι ('and that') to coordinate the two accusations; Latin mirrors this with et quia; Peshitta uses ܘܒܪܫܐ ('and by the head/prince'), omitting a second ὅτι-equivalent and integrating the conjunction directly with the prepositional phrase. This reflects Syriac preference for tighter clause linkage."
     },
     {
       "greek_nt": [
         13,
         14,
-        15
-      ],
-      "peshitta": [
-        10,
-        11
-      ],
-      "vulgate": [
-        13,
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16,
         17
       ],
@@ -228,40 +204,37 @@
         11
       ],
       "vulgate": [
+        13,
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐν τῷ ἄρχοντι τῶν δαιμονίων uses a prepositional phrase with double article and genitive modifier. Latin in principe dæmoniorum mirrors this structure. Peshitta ܕܕܝܘܐ uses a construct-state genitive chain ('head-of demons'), a more compact Semitic construction, already introduced by ܘܒܪܫܐ in the previous token group."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb ἐκβάλλει before the object τὰ δαιμόνια (verb-object order); Latin ejicit dæmonia follows the same pattern. Peshitta ܡܦܩ ܕܝܘܐ uses verb-object order but omits the article (Syriac lacks a definite article system), and the object is in construct with the preceding genitive, yielding a more compressed phrase."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.743096+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.960495+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

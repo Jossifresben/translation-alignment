@@ -82,7 +82,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction Καὶ / Et, beginning directly with the prepositional phrase ܡܢ ܬܡܢ ('from there'). This is a minor stylistic variation common in Syriac narrative transitions."
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
@@ -91,11 +102,11 @@
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "note": "Greek uses two conjunctions (Καὶ...δὲ) for stylistic emphasis; Peshitta and Vulgate use simpler constructions"
+      "type": "word-order",
+      "note": "Greek uses adverb + postpositive particle (Ἐκεῖθεν δὲ); Peshitta employs prepositional phrase ܡܢ ܬܡܢ ('from there'); Vulgate uses simple adverb inde. The Peshitta's prepositional construction is semantically equivalent but syntactically distinct from the Greek adverbial form."
     },
     {
       "greek_nt": [
@@ -116,7 +127,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicitly names Jesus (ܝܫܘܥ); Greek and Vulgate use implied subject from context"
+      "type": "expansion",
+      "note": "The Peshitta explicitly names the subject ܝܫܘܥ ('Jesus'), whereas both Greek and Latin rely on the verbal inflection to indicate the third-person subject. This is a typical Syriac clarifying expansion for narrative continuity."
     },
     {
       "greek_nt": [
@@ -143,52 +155,27 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition + article + plural noun (εἰς τὰ ὅρια, 'into the regions'); Latin mirrors this with in fines; Peshitta uses singular ܠܬܚܘܡܐ ('to the border/region'), a typical Syriac idiom treating geographic territories as collective singulars."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
+        9,
         10
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        6,
+        7,
+        8,
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek or Peshitta manuscripts"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -198,26 +185,17 @@
         8
       ],
       "vulgate": [
-        10
+        10,
+        11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after Sidonis, creating a stronger syntactic break between the journey and the house-entry. Greek and Peshitta use simple conjunction (καὶ / ܘ) for continuous narrative flow."
     },
     {
       "greek_nt": [
         12,
-        13
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Greek uses separate preposition εἰς; Peshitta incorporates into verb ܘܥܠ; Vulgate uses compound verb ingressus"
-    },
-    {
-      "greek_nt": [
+        13,
         14,
         15
       ],
@@ -226,10 +204,22 @@
         10
       ],
       "vulgate": [
+        11,
         12
       ],
       "variant": "minor",
-      "note": "Peshitta adds ܚܕ (one/a certain) for indefinite article; Greek and Vulgate use definite/bare noun"
+      "type": "construction",
+      "note": "Greek uses aorist participle + prepositional phrase (εἰσελθὼν εἰς τὴν οἰκίαν, 'having entered into the house'); Vulgate employs perfect participle + accusative (ingressus domum); Peshitta uses finite verb + direct object (ܘܥܠ ܠܒܝܬܐ, 'and he entered to-the-house'). All three convey identical meaning through different syntactic strategies."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta adds the numeral ܚܕ ('one, a certain') after ܠܒܝܬܐ ('to-the-house'), specifying 'a certain house' where Greek and Latin use the definite article. This is a minor Syriac stylistic preference for indefinite reference in new narrative settings."
     },
     {
       "greek_nt": [
@@ -241,34 +231,29 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the negative pronoun before the verb (οὐδένα ἤθελεν γνῶναι, 'no one he wished to know'); Vulgate mirrors this (neminem voluit scire); Peshitta postpones the indefinite pronoun to the subordinate clause (ܕܐܢܫ ܢܕܥ ܒܗ, 'that anyone should know about-him'), reflecting Syriac preference for verb-initial subordinate clauses."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
+        11,
+        12,
+        13,
         15,
         16
       ],
       "vulgate": [
+        14,
         15
       ],
       "variant": "minor",
-      "note": "Peshitta adds prepositional suffix ܒܗ (about him) making object explicit; Greek and Vulgate leave implicit"
+      "type": "construction",
+      "note": "Greek uses imperfect + aorist infinitive (ἤθελεν γνῶναι); Latin employs perfect + present infinitive (voluit scire); Peshitta uses periphrastic construction with auxiliary ܗܘܐ + participle ܨܒܐ + subordinate clause (ܠܐ ܨܒܐ ܗܘܐ ܕܐܢܫ ܢܕܥ ܒܗ, 'he was not willing that anyone should know about-him'). The Peshitta also adds the prepositional suffix ܒܗ ('about him'), making the object of knowledge explicit."
     },
     {
       "greek_nt": [
@@ -285,26 +270,17 @@
     {
       "greek_nt": [
         20,
-        21
-      ],
-      "peshitta": [
-        17,
-        18
-      ],
-      "vulgate": [
-        17,
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        21,
         22
       ],
       "peshitta": [
+        17,
+        18,
         19
       ],
       "vulgate": [
+        17,
+        18,
         19
       ],
       "variant": "aligned"
@@ -312,8 +288,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.776188+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.991287+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

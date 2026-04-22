@@ -46,53 +46,37 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
         0,
-        1
-      ],
-      "variant": "aligned",
-      "note": "Vulgate splits 'in vanum' for Greek/Peshitta single adverb 'in vain/vainly'"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [
+        1,
         2
       ],
       "variant": "minor",
-      "note": "Greek δὲ and Vulgate autem are contrastive conjunctions; Peshitta uses ܘ (waw) prefix on first word"
+      "type": "word-order",
+      "note": "Greek places the adverb μάτην in initial position with postpositive δέ; Vulgate splits the phrase with in vanum following autem; Peshitta uses the single adverbial form ܘܣܪܝܩܐܝܬ with prefixed conjunction. All three convey 'in vain' with coordinating function, differing only in syntactic arrangement."
     },
     {
       "greek_nt": [
-        2
+        2,
+        3
       ],
       "peshitta": [
-        1
+        1,
+        2
       ],
       "vulgate": [
+        3,
         4
       ],
       "variant": "minor",
-      "note": "Greek σέβομαι 'worship/revere', Peshitta ܕܚܠ 'fear/revere', Vulgate colo 'honor/worship' - semantic overlap with stylistic variation"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
+      "type": "lexical",
+      "note": "Greek σέβονταί (G4576, 'worship') is rendered by Peshitta ܕܚܠܝܢ (root d-ḥ-l, 'fear/revere') and Vulgate colunt ('cultivate/honor'). The Syriac choice emphasizes reverential fear, a semantic nuance within the broader worship semantic field, while Latin colunt carries cultic overtones; all three are standard equivalents in their respective traditions."
     },
     {
       "greek_nt": [
@@ -105,34 +89,27 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses ܟܕ (kad) 'while/when' + participle construction"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a simple present participle διδάσκοντες; Peshitta employs the temporal particle ܟܕ + active participle ܡܠܦܝܢ, making the temporal/causal relationship more explicit; Vulgate uses the bare present participle docentes. The Syriac construction is a characteristic syntactic preference for marking participial clauses, semantically equivalent to the Greek and Latin."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        6,
         7,
         8
       ],
-      "variant": "aligned",
-      "note": "Vulgate adds coordinating 'et' before 'praecepta'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek presents a double accusative construction (διδασκαλίας ἐντάλματα, 'teachings [which are] precepts'); Peshitta uses construct chain ܝܘܠܦܢܐ ܕܦܘܩܕܢܐ ('teaching of commandments'); Vulgate inserts the coordinating conjunction et between doctrinas and præcepta, treating them as two distinct objects. The Vulgate's et makes the apposition more explicit, while Greek and Syriac maintain tighter syntactic unity."
     },
     {
       "greek_nt": [
@@ -145,14 +122,15 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses construct chain ܕܒܢܝ ܐܢܫܐ 'of sons of man' for Greek/Vulgate genitive 'of men'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple genitive ἀνθρώπων; Peshitta employs construct phrase ܕܒܢܝ ܐܢܫܐ ('of sons of man'), a characteristic Semitic idiom for 'human beings'; Vulgate uses simple genitive hominum. The Peshitta's 'sons of man' is semantically equivalent but reflects Semitic anthropological terminology, common in Syriac biblical idiom."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.773557+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.988266+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -63,70 +63,49 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
         0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek δὲ and Peshitta ܕܝܢ present; Vulgate omits conjunction"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
       ],
       "variant": "minor",
-      "note": "Vulgate uses 'responderunt' (answered) vs Greek/Peshitta 'said'"
+      "type": "word-order",
+      "note": "Greek uses article + particle (οἱ δέ); Peshitta mirrors with pronoun + particle (ܗܢܘܢ ܕܝܢ); Vulgate employs a relative pronoun (Qui) without explicit conjunction, a stylistic compression typical of Latin narrative."
     },
     {
       "greek_nt": [
+        2,
         3
       ],
-      "peshitta": [],
-      "vulgate": [
+      "peshitta": [
         2
       ],
-      "variant": "aligned"
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses aorist verb + dative pronoun (εἶπαν αὐτῷ); Peshitta uses simple perfect (ܐܡܪܘ) without explicit indirect object; Vulgate employs deponent perfect + dative pronoun (responderunt illi), emphasizing the response aspect."
     },
     {
       "greek_nt": [
-        4
+        4,
+        5
       ],
       "peshitta": [],
       "vulgate": [
         3,
         4
       ],
-      "variant": "minor",
-      "note": "Greek λέγοντες (saying) omitted in Peshitta; Vulgate retains 'dicentes'"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
-      "note": "Greek ὅτι (that) omitted in both Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek and Vulgate include a redundant speech formula (λέγοντες / dicentes) introducing direct discourse, followed by ὅτι / colon. The Peshitta omits this pleonastic construction entirely, moving directly to the reported content—a characteristic Syriac preference for economy in speech introductions."
     },
     {
       "greek_nt": [
@@ -142,19 +121,13 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses accusative with article (Ἰωάννην τὸν βαπτιστήν); Peshitta employs ܕ-prefixed construct chain (ܕܝܘܚܢܢ ܡܥܡܕܢܐ); Vulgate mirrors Greek structure with accusative (Joannem Baptistam). All three traditions agree semantically but reflect distinct case-marking systems."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καὶ (and) before 'others' omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
@@ -163,8 +136,8 @@
       "vulgate": [
         7
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܘܐܚܪܢܐ (and others) with conjunction; Greek/Vulgate without"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -176,48 +149,27 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses bare accusative (Ἠλίαν) in elliptical construction; Peshitta prefixes ܕ (ܕܐܠܝܐ) to mark the accusative/object relation explicitly; Vulgate uses accusative (Eliam) matching Greek. The Peshitta ܕ-prefix clarifies syntactic role in a language lacking overt case morphology."
     },
     {
       "greek_nt": [
-        12
+        12,
+        13,
+        14
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "note": "Greek δὲ omitted in Peshitta; Vulgate uses 'vero'"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek ὅτι (that) omitted in both Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        9,
+        10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds 'quasi' (as if/like) not present in Greek or Peshitta"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek uses ἄλλοι δὲ ὅτι (others now that) with contrastive particle and recitative ὅτι; Vulgate expands with alii vero quasi (others truly as-if), adding vero for emphasis and quasi suggesting approximation or comparison; Peshitta uses simple ܘܐܚܪܢܐ (and others) without contrastive or modal particles. The Vulgate's quasi introduces a nuance of uncertainty or comparison absent in the other traditions."
     },
     {
       "greek_nt": [
@@ -235,13 +187,14 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.782546+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.998046+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

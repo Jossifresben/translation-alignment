@@ -83,7 +83,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -95,8 +96,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܐܬܘ combines conjunction and verb"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Peshitta combines the conjunction and verb into a single prefixed form ܘܐܬܘ (w-ʾetaw, 'and-they-came'), a standard Syriac morphological pattern. Greek and Latin maintain separate tokens for conjunction and verb."
     },
     {
       "greek_nt": [
@@ -108,12 +110,14 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         3,
-        4
+        4,
+        5
       ],
       "peshitta": [
         2
@@ -121,78 +125,52 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition + accusative (εἰς Ἱεροσόλυμα) with a following conjunction καί; Syriac employs the prefixed preposition ܠ (l-) directly on the place name; Vulgate mirrors Greek structure but omits the second conjunction before the temporal clause."
     },
     {
       "greek_nt": [
         6,
         7,
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7,
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10
       ],
       "peshitta": [
         3,
         4,
-        5
-      ],
-      "vulgate": [
         5,
         6
       ],
-      "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܟܕ ܡܗܠܟ ܗܘܐ (and when he was walking); Vulgate cum ambularet; Greek genitive absolute περιπατοῦντος αὐτοῦ"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
       "vulgate": [
-        9
+        4,
+        5,
+        6,
+        7,
+        8
       ],
       "variant": "minor",
-      "note": "Greek ἔρχονται (come), Vulgate accedunt (approach), Peshitta ܐܬܘ (came) - stylistic variation"
+      "type": "construction",
+      "note": "Greek uses genitive absolute construction (ἐν τῷ ἱερῷ περιπατοῦντος αὐτοῦ); Vulgate employs a temporal cum-clause with imperfect subjunctive (cum ambularet in templo); Syriac uses the temporal particle ܘܟܕ (w-kad, 'and-when') with active participle ܡܗܠܟ plus periphrastic ܗܘܐ, yielding a functionally equivalent but syntactically distinct temporal construction."
     },
     {
       "greek_nt": [
+        11,
         12,
         13
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -207,22 +185,13 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Vulgate use article + plural noun (οἱ ἀρχιερεῖς / summi sacerdotes); Syriac employs the construct state ܪܒܝ ܟܗܢܐ (rabbay kāhnē, 'chiefs-of priests'), a typical Semitic genitive construction without articles."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
         18
       ],
@@ -230,25 +199,16 @@
         11
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܣܦܪܐ combines conjunction and noun"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction + article + noun (καὶ οἱ γραμματεῖς); Vulgate mirrors this with et scribæ; Syriac employs the prefixed conjunction ܘ on the noun ܣܦܪܐ (w-sāprē) without article, following standard Syriac syntax where definiteness is contextual."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20,
         21
       ],
@@ -256,10 +216,11 @@
         12
       ],
       "vulgate": [
+        16,
         17
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܩܫܝܫܐ combines conjunction and noun"
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -267,13 +228,14 @@
       "vulgate": [
         18
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate adds a colon at verse end, marking a stronger pause before the following discourse. Greek manuscripts typically use a raised dot or no punctuation; Peshitta manuscripts vary but generally lack this heavy stop here."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.812158+00:00",
+    "generated_at": "2026-04-22T12:17:08.019318+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

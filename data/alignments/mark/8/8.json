@@ -70,22 +70,20 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܐܟܠܘ combines conjunction and verb"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         2,
         3
       ],
-      "peshitta": [
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
         2
       ],
       "variant": "minor",
-      "note": "Greek δέ καὶ (now and) vs. Peshitta/Vulgate simple conjunction"
+      "type": "omission",
+      "note": "The Greek employs a double conjunction δέ ... καί ('now ... and') for stylistic emphasis, creating a three-part coordination. The Peshitta omits this intermediate conjunction entirely, using simple waw-consecutive constructions throughout. The Vulgate retains only the second καί as et, producing a simpler two-part coordination that aligns functionally with the Peshitta's streamlined syntax."
     },
     {
       "greek_nt": [
@@ -98,8 +96,9 @@
         3,
         4
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܣܒܥܘ combines conjunction and verb; Vulgate uses participle saturati sunt"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist passive ἐχορτάσθησαν ('were satisfied'), a single synthetic verb form. Vulgate renders this analytically with saturati sunt (perfect passive participle + auxiliary), while Peshitta employs the simple perfect ܘܣܒܥܘ. All three convey identical semantics but reflect each tradition's preferred aspectual and voice-marking strategies."
     },
     {
       "greek_nt": [
@@ -123,8 +122,7 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܫܩܠܘ combines conjunction and verb"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -138,7 +136,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek περισσεύματα (overflow/abundance) vs. Vulgate relative clause quod superaverat (that which remained over)"
+      "type": "construction",
+      "note": "Greek περισσεύματα is a substantive noun ('overflow, abundance'). Vulgate expands this into a relative clause quod superaverat ('that which had been left over'), making the participial sense explicit. Peshitta uses the noun ܬܘܬܪܐ ('remainder'), semantically equivalent but syntactically simpler, paralleling the Greek nominal strategy."
     },
     {
       "greek_nt": [
@@ -151,8 +150,9 @@
         9,
         10
       ],
-      "variant": "aligned",
-      "note": "Vulgate uses prepositional phrase de fragmentis"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek κλασμάτων is a genitive plural modifying περισσεύματα ('overflow of fragments'). Vulgate renders this with the partitive prepositional phrase de fragmentis ('from/of fragments'), employing Latin's analytic genitive-substitute construction. Peshitta uses the construct state ܕܩܨܝܐ, the standard Semitic genitive equivalent, yielding identical semantics through language-specific morphosyntax."
     },
     {
       "greek_nt": [
@@ -176,14 +176,13 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "note": "Greek σπυρίδας, Syriac ܐܣܦܪܝܕܝܢ (loanword), Latin sportas - all refer to large baskets"
+      "variant": "aligned"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.779529+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.994957+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

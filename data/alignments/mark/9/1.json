@@ -90,19 +90,72 @@
   },
   "alignment": [
     {
-      "greek_nt": [
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         0,
         1,
-        2
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different pericope (the Transfiguration narrative, Mark 9:2) while the Greek and Peshitta preserve Mark 9:1 (the saying about some not tasting death). This represents a complete textual divergence, likely due to misalignment in the input data rather than a genuine variant tradition."
+    },
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        1
       ],
       "peshitta": [
         0,
-        1,
+        1
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperfect ἔλεγεν (simple verb); Peshitta employs periphrastic construction ܘܐܡܪ ܗܘܐ (participle + auxiliary), a common Syriac idiom for past progressive aspect. Both convey iterative or durative past action."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
         2
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the introductory phrase 'And he was saying to them' entirely; begins with Transfiguration narrative"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,8 +170,9 @@
         6
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'Amen I say to you' formula"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta inserts explicit subject pronoun ܐܢܐ ('I') after ܐܡܪ, making the speaker explicit where Greek relies on verbal inflection alone (λέγω, first-person singular). This is a typical Syriac clarifying expansion."
     },
     {
       "greek_nt": [
@@ -127,7 +181,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek conjunction ὅτι introducing indirect discourse; implicit in Peshitta and absent in Vulgate"
+      "type": "omission",
+      "note": "Greek conjunction ὅτι introducing indirect discourse is absent in Peshitta, which uses the relative particle ܕ (d-) prefixed to the following verb instead. This represents a syntactic difference in how the two languages mark subordination."
     },
     {
       "greek_nt": [
@@ -139,8 +194,8 @@
         8
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'there are some'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -153,8 +208,9 @@
         10
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'here of those standing'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses adverb ὧδε + articular participle τῶν ἑστηκότων ('here of those standing'); Peshitta employs participial phrase ܕܩܝܡܝܢ ܬܢܢ ('who are standing here'), reversing word order. Both are semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -163,23 +219,34 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek relative pronoun οἵτινες; implicit in Peshitta structure, absent in Vulgate"
+      "type": "omission",
+      "note": "Greek relative pronoun οἵτινες ('who') is absent in Peshitta, which continues the participial construction without an additional relative marker. The Syriac ܕ (d-) prefix on the following negative serves this function."
     },
     {
       "greek_nt": [
         13,
-        14,
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs emphatic double negative οὐ μή (strongest negation in Koine); Peshitta uses simple negative ܕܠܐ (d-lā). While both express strong negation, the Greek construction is rhetorically more emphatic."
+    },
+    {
+      "greek_nt": [
         15,
         16
       ],
       "peshitta": [
-        11,
         12,
         13
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits entire 'will not taste death' clause"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -190,8 +257,9 @@
         14
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits temporal conjunction 'until'"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses ἕως ἂν (temporal conjunction + modal particle) to express indefinite future time; Peshitta employs simple ܥܕܡܐ (ʿdammā, 'until'). The Greek construction emphasizes contingency more explicitly."
     },
     {
       "greek_nt": [
@@ -201,8 +269,8 @@
         15
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'they may see'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -216,8 +284,9 @@
         17
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'the kingdom of God'; Peshitta has pronominal suffix on 'kingdom' (his kingdom)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses articular noun phrase τὴν βασιλείαν τοῦ θεοῦ ('the kingdom of God'); Peshitta employs construct state ܡܠܟܘܬܗ ܕܐܠܗܐ ('kingdom-his of-God'), with pronominal suffix on 'kingdom'. Both are standard constructions in their respective languages for expressing genitive relationships."
     },
     {
       "greek_nt": [
@@ -227,8 +296,8 @@
         18
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'having come'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -239,70 +308,14 @@
         19
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'with power'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'Et post dies sex' (And after six days) - beginning of Transfiguration pericope"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'assumit Jesus Petrum et Jacobum et Joannem' (Jesus takes Peter and James and John)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'et ducit illos in montem excelsum seorsum solos' (and leads them to a high mountain apart alone)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        19,
-        20,
-        21,
-        22,
-        23
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'et transfiguratus est coram ipsis' (and he was transfigured before them)"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.785406+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T12:17:07.999937+00:00",
+    "confidence": 0.45,
     "schema_version": 1
   }
 }

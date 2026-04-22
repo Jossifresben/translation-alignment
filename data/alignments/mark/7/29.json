@@ -67,7 +67,8 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb. This is a common Syriac stylistic preference, avoiding redundant conjunctions where narrative flow is clear from context."
     },
     {
       "greek_nt": [
@@ -79,7 +80,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -89,9 +91,12 @@
         1
       ],
       "vulgate": [
-        2
+        2,
+        3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after the indirect object illi, creating a stronger pause before the causal clause. Greek and Peshitta employ no such punctuation break, maintaining continuous discourse."
     },
     {
       "greek_nt": [],
@@ -100,16 +105,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds explicit subject 'Jesus'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "type": "expansion",
+      "note": "The Peshitta explicitly names the subject ܝܫܘܥ (Jesus), whereas both Greek and Latin rely on the implied third-person subject from context. This represents a typical Syriac clarification strategy for narrative continuity."
     },
     {
       "greek_nt": [
@@ -128,7 +125,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -138,19 +136,12 @@
         3
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Peshitta places imperative 'go' before causal clause"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds second colon punctuation"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Peshitta places the imperative ܙܠܝ (go) before the causal clause, while Greek and Latin position ὕπαγε / vade after it. The Vulgate again adds a colon for rhetorical emphasis, separating the command from the declaration of exorcism."
     },
     {
       "greek_nt": [
@@ -162,7 +153,33 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the perfect tense ἐξελήλυθεν (has gone out), emphasizing completed action with ongoing result. Latin exiit (simple perfect) and Peshitta ܢܦܩ (perfect) both convey completed action but without the Greek aspectual nuance."
+    },
+    {
+      "greek_nt": [
+        13,
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta inserts the pronominal suffix ܠܗ (to her/it) as an ethical dative or indirect object marker, clarifying the beneficiary of the exorcism. Neither Greek nor Latin transmit this element, relying instead on prepositional phrases to indicate source."
     },
     {
       "greek_nt": [
@@ -180,28 +197,15 @@
         12,
         13
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13,
-        14
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [
-        10
-      ],
       "variant": "minor",
-      "note": "Word order variation: Greek/Peshitta place 'demon' at end with article/pronominal suffix; Vulgate places before prepositional phrase"
+      "type": "construction",
+      "note": "Greek uses the preposition ἐκ with genitive article and noun (ἐκ τῆς θυγατρός σου); Latin employs a with ablative (a filia tua); Peshitta uses ܡܢ with construct state (ܡܢ ܒܪܬܟܝ). All three express identical ablative semantics through language-specific prepositional systems."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.777102+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.992313+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

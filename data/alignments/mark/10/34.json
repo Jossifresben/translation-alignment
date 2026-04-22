@@ -62,18 +62,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2
       ],
@@ -82,11 +71,12 @@
         1
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "aligned",
-      "note": "Greek ἐμπαίξουσιν and Peshitta ܘܢܒܙܚܘܢ both include conjunction; Peshitta verb-pronoun compound"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,16 +88,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܘܢܢܓܕܘܢܝܗܝ 'and they will scourge him' appears as additional verb before spitting"
+      "variant": "major",
+      "type": "expansion",
+      "note": "The Peshitta inserts ܘܢܢܓܕܘܢܝܗܝ ('and they will scourge him') as an additional verb between 'mock' and 'spit,' creating a four-fold sequence of abuse not attested in the Greek or Latin. This expansion may reflect harmonisation with parallel passion predictions or liturgical amplification."
     },
     {
       "greek_nt": [
@@ -123,75 +106,43 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta specifies 'in his face' (ܒܐܦܘܗܝ) while Greek/Vulgate use simple dative/accusative"
+      "type": "expansion",
+      "note": "Greek ἐμπτύσουσιν αὐτῷ ('will spit upon him') uses a dative construction; Syriac ܘܢܪܩܘܢ ܒܐܦܘܗܝ ('and they will spit in his face') adds the anatomical specification 'in his face,' making explicit what is implicit in the Greek. Latin conspuent eum mirrors the Greek accusative structure without the facial detail."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8
       ],
       "peshitta": [],
       "vulgate": [
+        6,
         7,
         8
       ],
       "variant": "omitted",
-      "note": "Greek μαστιγώσουσιν and Vulgate flagellabunt absent from Peshitta at this position (possibly represented by earlier ܘܢܢܓܕܘܢܝܗܝ)"
+      "type": "omission",
+      "note": "The Peshitta omits the third abuse verb μαστιγώσουσιν ('will flog') attested in both Greek and Latin (flagellabunt), having already inserted a scourging verb earlier in the sequence. This represents a structural reorganisation rather than simple omission."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
-        11
+        11,
+        12
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
+        9,
         10,
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, no semantic content"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -204,11 +155,13 @@
         7
       ],
       "vulgate": [
+        13,
         14,
         15
       ],
       "variant": "minor",
-      "note": "Greek μετὰ τρεῖς ἡμέρας 'after three days' vs Vulgate tertia die 'on the third day' vs Peshitta ܠܝܘܡܐ ܕܬܠܬܐ 'on the day of three' - temporal expression variation"
+      "type": "construction",
+      "note": "Greek μετὰ τρεῖς ἡμέρας ('after three days') uses a prepositional phrase with accusative plural; Syriac ܘܠܝܘܡܐ ܕܬܠܬܐ ('and on the day of three') employs a construct-state genitive construction; Latin tertia die ('on the third day') uses an ablative of time, semantically shifting from 'after three days' to 'on the third day,' a well-known synoptic variant."
     },
     {
       "greek_nt": [
@@ -220,13 +173,14 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.803861+00:00",
-    "confidence": 0.7,
+    "generated_at": "2026-04-22T12:17:08.012390+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

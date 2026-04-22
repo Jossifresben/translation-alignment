@@ -54,39 +54,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
         0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek δὲ and Peshitta ܕܝܢ (dēn) both present as post-positive conjunction; Vulgate omits"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
       ],
       "variant": "minor",
-      "note": "Greek περισσῶς (exceedingly) vs Vulgate magis (more/rather); both intensify but different nuance"
+      "type": "substitution",
+      "note": "Greek uses article + δέ (οἱ δέ, 'but they'); Peshitta employs demonstrative pronoun + ܕܝܢ (ܗܢܘܢ ܕܝܢ, 'those however'); Vulgate uses relative pronoun Qui ('who'). All three function as resumptive subjects but differ in deixis and syntactic category."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -99,8 +91,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܡܬܕܡܪܝܢ ܗܘܘ (were being astonished)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperfect passive ἐξεπλήσσοντο ('were being astonished'); Peshitta employs periphrastic construction ܡܬܕܡܪܝܢ ܗܘܘ (participle + auxiliary 'were astonishing'); Vulgate uses simple imperfect admirabantur. All express durative past astonishment but through different aspectual strategies."
     },
     {
       "greek_nt": [
@@ -112,7 +105,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek λέγοντες is masculine plural participle agreeing with οἱ; Peshitta ܘܐܡܪܝܢ prefixes conjunction waw ('and saying'); Vulgate dicentes lacks conjunction. The Peshitta's coordinating strategy reflects Semitic preference for parataxis over Greek participial subordination."
     },
     {
       "greek_nt": [
@@ -127,16 +122,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek πρὸς ἑαυτούς (to themselves), Peshitta ܒܝܢܝܗܘܢ (among themselves), Vulgate ad semetipsos (to themselves); slight prepositional variation"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "lexical",
+      "note": "Greek πρὸς ἑαυτούς ('to themselves') and Vulgate ad semetipsos employ reflexive pronouns with directional prepositions; Peshitta ܒܝܢܝܗܘܢ ('among them') uses a prepositional phrase meaning 'between/among themselves,' a common Syriac idiom for reciprocal or internal discourse."
     },
     {
       "greek_nt": [
@@ -144,10 +131,11 @@
       ],
       "peshitta": [],
       "vulgate": [
-        7
+        6
       ],
       "variant": "omitted",
-      "note": "Greek καὶ and Vulgate Et (and/then) present; Peshitta omits conjunction before question"
+      "type": "punctuation",
+      "note": "Greek καὶ introduces the direct question as a coordinating conjunction; Vulgate uses colon punctuation; Peshitta omits both conjunction and punctuation marker, proceeding directly to the interrogative. This reflects differing conventions for marking direct discourse boundaries."
     },
     {
       "greek_nt": [
@@ -157,9 +145,12 @@
         7
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek τίς and Peshitta ܡܢܘ place the interrogative pronoun first; Vulgate inverts with Et quis ('And who'), prefixing the conjunction. The Vulgate's word order emphasizes the additive force of the question following the previous astonishment."
     },
     {
       "greek_nt": [
@@ -185,7 +176,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek σωθῆναι (aorist passive infinitive), Peshitta ܠܡܚܐ (to live/be saved), Vulgate salvus fieri (to be made safe); Vulgate uses periphrastic passive"
+      "type": "construction",
+      "note": "Greek σωθῆναι is aorist passive infinitive ('to be saved'); Peshitta ܠܡܚܐ uses prefixed lamed + infinitive ('to live/be saved'); Vulgate employs salvus fieri (adjective + passive infinitive, 'to be made safe'). The Vulgate's periphrastic construction with salvus makes the resultant state more explicit than the Greek or Syriac verbal forms."
     },
     {
       "greek_nt": [],
@@ -193,14 +185,13 @@
       "vulgate": [
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark as separate token"
+      "variant": "aligned"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.801728+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.011302+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

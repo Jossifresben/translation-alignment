@@ -74,28 +74,17 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in ܘܐܬܐ"
     },
     {
       "greek_nt": [
@@ -138,19 +127,20 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܒܥܐ ܗܘܐ ܡܢܗ (and was asking from him)"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction with the auxiliary ܗܘܐ (hwā, 'was') plus the participle ܒܥܐ (bʿā, 'asking'), rendering the Greek present participle παρακαλῶν with an Aramaic verbal phrase. The Vulgate mirrors the Greek participial structure with deprecans."
     },
     {
       "greek_nt": [
         7
       ],
-      "peshitta": [
-        3
-      ],
+      "peshitta": [],
       "vulgate": [
-        8
+        7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after deprecans eum to mark the transition to the kneeling gesture, creating a stronger syntactic break than the Greek καί. The Peshitta uses no punctuation here, maintaining continuous narrative flow with conjunctive waw."
     },
     {
       "greek_nt": [
@@ -163,22 +153,23 @@
         5
       ],
       "vulgate": [
+        8,
         9,
         10
       ],
       "variant": "major",
-      "note": "Peshitta expands: ܘܢܦܠ ܥܠ ܪܓܠܘܗܝ (and fell on his feet); Vulgate: genu flexo (knee bent); Greek: γονυπετῶν (kneeling)"
+      "type": "expansion",
+      "note": "The Peshitta expands the Greek γονυπετῶν ('kneeling') into a full clause ܘܢܦܠ ܥܠ ܪܓܠܘܗܝ ('and he fell upon his feet'), making the prostration gesture explicit. The Vulgate uses the ablative absolute construction genu flexo ('with knee bent'), a more compressed Latin idiom than either the Greek participle or the Syriac finite verb."
     },
     {
       "greek_nt": [
         10
       ],
-      "peshitta": [
-        9
+      "peshitta": [],
+      "vulgate": [
+        8
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits conjunction before 'said'"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -196,94 +187,69 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7,
-        13
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation (not in Greek/Peshitta)"
-    },
-    {
       "greek_nt": [
         13
       ],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek ὅτι (that) omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        11
-      ],
       "vulgate": [
-        14
+        13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the recitative ὅτι, moving directly from 'said to him' to the conditional clause. Syriac typically does not require a conjunction to introduce direct speech, whereas Greek and Latin employ ὅτι and the colon respectively for this function."
     },
     {
       "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        11,
         12,
         13
       ],
       "vulgate": [
+        14,
         15
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit pronoun ܐܢܬ (you) with verb"
+      "type": "gloss",
+      "note": "The Peshitta adds the independent pronoun ܐܢܬ ('you') after the verb ܨܒܐ ('you wish'), making the subject explicit. Greek and Latin encode the subject in verbal morphology alone (θέλῃς, vis), but Syriac frequently doubles the pronominal subject for emphasis or clarity."
     },
     {
       "greek_nt": [
-        16
+        16,
+        17
       ],
       "peshitta": [
         14,
         15
       ],
       "vulgate": [
-        16
+        16,
+        17
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit pronoun ܐܢܬ (you) with verb"
+      "type": "gloss",
+      "note": "As with the previous verb, the Peshitta again supplies the independent pronoun ܐܢܬ ('you') after ܡܫܟܚ ('you are able'), reinforcing the subject. This is a characteristic Syriac stylistic feature absent from the Greek δύνασαί and Latin potes, which rely on inflection."
     },
     {
       "greek_nt": [
-        17
+        18
       ],
       "peshitta": [
         16
       ],
       "vulgate": [
-        17
+        18
       ],
       "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned",
-      "note": "Peshitta uses infinitive construction ܠܡܕܟܝܘܬܝ (to cleanse me)"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.732199+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.949920+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

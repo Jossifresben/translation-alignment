@@ -41,13 +41,11 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate, which begin directly with the negative particle. This reflects a stylistic preference in translation, as the conjunction is semantically redundant after the preceding narrative context."
     },
     {
       "greek_nt": [
@@ -60,7 +58,18 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek οὐδὲ (not even) vs Vulgate non (not); Peshitta ܘܐܦܠܐ combines conjunction and negation"
+      "type": "lexical",
+      "note": "Greek οὐδὲ ('not even') is rendered by Peshitta ܘܐܦܠܐ (compound negative 'and not even') and Vulgate non ('not'). The Peshitta preserves the emphatic force of the Greek compound negative, while the Vulgate uses a simple negation, slightly weakening the rhetorical emphasis."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Peshitta inserts ܕܝܢ ('but', 'however'), a discourse particle common in Syriac narrative to mark contrast or continuation. Neither Greek nor Latin attest this particle here, suggesting a Syriac stylistic convention for clause linkage."
     },
     {
       "greek_nt": [
@@ -71,41 +80,24 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek οὕτως (thus) and Peshitta ܗܟܢܐ (thus) present; Vulgate omits adverb"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܕܝܢ (postpositive particle) has no Greek or Latin equivalent"
+      "type": "omission",
+      "note": "Greek οὕτως ('thus', 'in this way') and Peshitta ܗܟܢܐ ('thus') are both omitted in the Vulgate. The Latin tradition evidently deemed the adverb redundant, as conveniens ('agreeing', 'consistent') already implies the manner of comparison without requiring an explicit adverbial modifier."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "major",
-      "note": "Greek ἴση (equal/alike) vs Vulgate conveniens (agreeing/consistent); semantic shift from equality to agreement"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἴση ἦν ('alike was') and Peshitta ܫܘܝܐ ܗܘܬ ('equal was') both place the predicate adjective before the copula, following Semitic word order. Vulgate erat conveniens ('was agreeing') inverts this to Latin VSO order, placing the copula first—a syntactic rather than semantic divergence."
     },
     {
       "greek_nt": [
@@ -118,7 +110,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -130,13 +123,15 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek αὐτῶν (genitive pronoun 'of them') is rendered by Peshitta as a pronominal suffix on ܣܗܕܘܬܗܘܢ ('their testimony') and by Vulgate as the genitive pronoun illorum ('of them'). The Peshitta employs the typical Semitic bound-state construction, while Greek and Latin use free-standing genitives—functionally equivalent but syntactically distinct."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.838944+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.044114+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -90,7 +90,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -102,7 +103,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,33 +119,26 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek uses pronoun + reflexive (ὑμεῖς ἑαυτούς), Peshitta uses pronoun + 'soul/self' (ܐܢܬܘܢ ܢܦܫܟܘܢ), Vulgate uses intensive compound vosmetipsos"
+      "type": "lexical",
+      "note": "Greek employs the emphatic construction ὑμεῖς ἑαυτούς (nominative pronoun + reflexive accusative) for 'yourselves'; Vulgate uses the compound intensive vosmetipsos; Peshitta uses ܐܢܬܘܢ ܢܦܫܟܘܢ (pronoun + 'your souls/selves'), all semantically equivalent but reflecting different intensification strategies."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
+        5,
+        6,
         4
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+      "peshitta": [
+        5,
+        4
+      ],
+      "vulgate": [
         4,
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        3,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the conjunction γὰρ and object pronoun ὑμᾶς before the verb παραδώσουσιν; Vulgate follows verb-initial order (Tradent enim vos); Peshitta embeds the object pronoun as a suffix on the verb ܢܫܠܡܘܢܟܘܢ, typical of Semitic pro-drop morphology."
     },
     {
       "greek_nt": [
@@ -158,88 +153,56 @@
         7
       ],
       "variant": "minor",
-      "note": "Greek συνέδρια (councils/sanhedrins), Peshitta ܠܕܝܢܐ (to judgment), Vulgate consiliis (councils); semantic overlap with slight variation"
+      "type": "lexical",
+      "note": "Greek εἰς συνέδρια ('to councils/sanhedrins', plural) and Vulgate in consiliis mirror each other; Peshitta uses the singular ܠܕܝܢܐ ('to judgment/court'), a semantic compression treating the institution collectively rather than distributively."
     },
     {
       "greek_nt": [
-        9
+        9,
+        10,
+        11,
+        12
       ],
-      "peshitta": [],
-      "vulgate": [
+      "peshitta": [
+        7,
         8
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܘ prefix on next word instead of separate conjunction"
-    },
-    {
-      "greek_nt": [
+      "vulgate": [
+        8,
+        9,
         10,
         11
       ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9,
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
       "variant": "minor",
-      "note": "Peshitta uses ܘ prefix on next word instead of separate conjunction"
+      "type": "construction",
+      "note": "Greek and Vulgate employ parallel prepositional phrases (καὶ εἰς συναγωγὰς δαρήσεσθε / et in synagogis vapulabitis) with explicit prepositions; Peshitta uses a single conjunctive phrase ܘܒܟܢܘܫܬܗܘܢ ܬܬܢܓܕܘܢ ('and in their assemblies you will be scourged'), incorporating a possessive suffix ('their') not present in Greek or Latin."
     },
     {
       "greek_nt": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "peshitta": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "vulgate": [
+        12,
+        13,
         14,
         15,
         16,
         17
       ],
-      "peshitta": [
-        9,
-        10,
-        11
-      ],
-      "vulgate": [
-        13,
-        14,
-        15,
-        16
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek 'before governors and kings', Peshitta 'before kings and governors', Vulgate 'before governors and kings'"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek and Vulgate place 'governors' before 'kings' (ἐπὶ ἡγεμόνων καὶ βασιλέων / ante præsides et reges); Peshitta reverses the order to ܩܕܡ ܡܠܟܐ ܘܗܓܡܘܢܐ ('before kings and governors'), possibly reflecting a hierarchical emphasis or stylistic preference in Syriac rhetorical convention."
     },
     {
       "greek_nt": [
@@ -253,38 +216,32 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         21,
-        22
+        22,
+        23
       ],
       "peshitta": [
         14
       ],
       "vulgate": [
         20,
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        23
-      ],
-      "peshitta": [],
-      "vulgate": [
+        21,
         22
       ],
       "variant": "minor",
-      "note": "Greek αὐτοῖς (to them) explicit, Peshitta has pronominal suffix on ܠܣܗܕܘܬܗܘܢ (their testimony), Vulgate illis (to them)"
+      "type": "construction",
+      "note": "Greek εἰς μαρτύριον αὐτοῖς ('for a testimony to them') and Vulgate in testimonium illis use dative pronouns; Peshitta ܠܣܗܕܘܬܗܘܢ ('for their testimony') employs a possessive suffix construction, subtly shifting the grammatical relationship while preserving the sense of witness directed toward the authorities."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.823680+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.029615+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

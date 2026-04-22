@@ -48,7 +48,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses the article οἱ with coordinating conjunction καί (token 1), while Peshitta employs the demonstrative pronoun ܗܢܘܢ ('those') with the contrastive particle ܕܝܢ ('but/now'), and Vulgate uses the relative pronoun Qui. All three function as subject markers but reflect different syntactic strategies for resuming the narrative thread."
     },
     {
       "greek_nt": [
@@ -59,7 +61,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Greek καί and Peshitta ܕܝܢ (dēn) are discourse particles; Vulgate omits"
+      "type": "substitution",
+      "note": "Greek καί ('and') and Syriac ܕܝܢ ('but/now') serve as discourse connectives but with different nuances: Greek continues the sequence neutrally, while Syriac marks a mild contrast or narrative shift. Vulgate omits an explicit connective, relying on the relative pronoun Qui to carry the syntactic connection."
     },
     {
       "greek_nt": [
@@ -72,7 +75,8 @@
         2
       ],
       "variant": "major",
-      "note": "Greek λαβόντες (participle 'having taken') and Vulgate apprehensum (past participle 'seized') explicit; Peshitta conflates into verb ܡܚܐܘܗܝ (beat him)"
+      "type": "omission",
+      "note": "Greek λαβόντες αὐτόν ('having taken him') and Vulgate apprehensum eum ('having seized him') explicitly state the seizure of the servant, whereas the Peshitta omits this action entirely, proceeding directly to the beating. This represents a substantive narrative compression in the Syriac tradition, possibly assuming the seizure from context."
     },
     {
       "greek_nt": [
@@ -84,8 +88,8 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "note": "Greek ἔδειραν (beat), Peshitta ܡܚܐܘܗܝ (struck/beat him with pronominal suffix), Vulgate ceciderunt (struck down); semantic overlap with stylistic variation"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -95,8 +99,9 @@
       "vulgate": [
         4
       ],
-      "variant": "omitted",
-      "note": "Greek καί and Vulgate et (and) coordinate clauses; Peshitta uses ܘ- prefix on verb"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Vulgate use explicit coordinating conjunctions (καί / et) to link the two main verbs, while Peshitta employs asyndetic coordination with the waw-prefix on ܘܫܕܪܘܗܝ, a standard Syriac construction that achieves the same semantic effect through verbal morphology rather than a separate particle."
     },
     {
       "greek_nt": [
@@ -108,7 +113,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀπέστειλαν ('sent away') and Syriac ܫܕܪܘܗܝ ('sent him') are cognate verbs with identical meaning, while Vulgate dimiserunt ('dismissed/let go') represents a lexical substitution emphasizing release rather than dispatch, though the semantic overlap is substantial."
     },
     {
       "greek_nt": [
@@ -121,14 +128,15 @@
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "note": "Greek κενόν (empty-handed) and Vulgate vacuum align; Peshitta ܟܕ ܣܦܝܩ (kad spiq, 'while empty/empty-handed') uses temporal particle construction"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek κενόν ('empty-handed') and Vulgate vacuum function as accusative predicative adjectives modifying the implicit object. Peshitta restructures this with the temporal/circumstantial particle ܟܕ ('while/when') governing the adjective ܣܦܝܩ ('empty'), creating a circumstantial clause ('while [he was] empty') rather than a direct predicate—a syntactic transformation that preserves the meaning but alters the grammatical relationship."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.814298+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.021159+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

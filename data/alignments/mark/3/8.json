@@ -90,7 +90,8 @@
       "greek_nt": [
         0,
         1,
-        2
+        2,
+        3
       ],
       "peshitta": [
         0,
@@ -99,34 +100,39 @@
       "vulgate": [
         0,
         1,
-        2
+        2,
+        3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses καὶ ἀπὸ Ἱεροσολύμων καὶ (conjunction-preposition-place-conjunction); Peshitta contracts to ܘܡܢ ܐܘܪܫܠܡ (single conjunction-preposition-place), omitting the second καὶ before the next geographic term. Vulgate mirrors Greek structure with et ab Jerosolymis, et."
     },
     {
       "greek_nt": [
-        3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
         2,
         3
       ],
       "vulgate": [
-        3,
         4,
-        5
+        5,
+        6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article τῆς before Ἰδουμαίας (genitive feminine singular); Syriac ܘܡܢ ܐܕܘܡ lacks an article (typical Semitic usage with proper nouns); Latin ab Idumæa similarly omits the article, following Latin conventions for place names."
     },
     {
       "greek_nt": [
-        7,
         8,
         9,
-        10
+        10,
+        11
       ],
       "peshitta": [
         4,
@@ -134,16 +140,16 @@
         6
       ],
       "vulgate": [
-        6,
         7,
-        8
+        8,
+        9
       ],
       "variant": "minor",
-      "note": "Vulgate uses colon punctuation after Jordan; Peshitta uses construct state ܥܒܪܐ ܕܝܘܪܕܢܢ"
+      "type": "construction",
+      "note": "Greek πέραν τοῦ Ἰορδάνου uses the preposition πέραν ('beyond') with the genitive article-noun construction. Syriac ܘܡܢ ܥܒܪܐ ܕܝܘܪܕܢܢ employs ܥܒܪܐ ('the region beyond') as a substantive with genitive ܕܝܘܪܕܢܢ. Vulgate trans Jordanem uses the accusative after trans, a syntactic difference reflecting Latin prepositional government."
     },
     {
       "greek_nt": [
-        11,
         12,
         13,
         14,
@@ -164,8 +170,9 @@
         14,
         15
       ],
-      "variant": "minor",
-      "note": "Greek οἱ περὶ (those around) rendered as simple ܘܡܢ (and from) in Peshitta; Vulgate qui circa preserves Greek construction"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek οἱ περὶ Τύρον καὶ Σιδῶνα uses the substantival article οἱ with the preposition περί ('those around Tyre and Sidon'), implying people from the region. Syriac ܘܡܢ ܨܘܪ ܘܡܢ ܨܝܕܢ repeats the preposition ܘܡܢ ('and from') for each city, treating them as parallel geographic sources. Vulgate inserts a colon after Jordanem and uses qui circa Tyrum et Sidonem ('who [were] around Tyre and Sidon'), introducing a relative clause construction absent in Greek and Syriac."
     },
     {
       "greek_nt": [
@@ -200,7 +207,8 @@
         20
       ],
       "variant": "minor",
-      "note": "Peshitta adds ܟܠ (all) before relative clause; ܗܘܘ is auxiliary verb for periphrastic construction"
+      "type": "expansion",
+      "note": "Greek ἀκούοντες ὅσα ἐποίει uses the present participle ἀκούοντες with the relative pronoun ὅσα ('hearing as much as he was doing'). Syriac ܕܫܡܥܘ ܗܘܘ ܟܠ ܕܥܒܕ employs a periphrastic perfect (ܫܡܥܘ ܗܘܘ 'they had heard') with the quantifier ܟܠ ('all'), making explicit what Greek implies with ὅσα. Vulgate audientes quæ faciebat mirrors Greek structure with a present participle and relative pronoun."
     },
     {
       "greek_nt": [
@@ -218,23 +226,12 @@
         23
       ],
       "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation has no equivalent in Greek or Peshitta structure"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.741018+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.958197+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

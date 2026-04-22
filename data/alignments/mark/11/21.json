@@ -62,7 +62,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -75,7 +76,8 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and participle in single token ܘܐܬܕܟܪ"
+      "type": "agreement",
+      "note": "ἀναμνησθεὶς / ܐܬܕܟܪ / recordatus"
     },
     {
       "greek_nt": [
@@ -89,7 +91,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses full name Shimʿon (Simon) where Greek/Vulgate use Petros/Petrus"
+      "type": "substitution",
+      "note": "The Peshitta uses ܫܡܥܘܢ (Shimʿon, 'Simon') as Peter's name, whereas Greek and Latin employ Πέτρος / Petrus. This reflects the Syriac tradition's preference for the apostle's Semitic birth name in narrative contexts, though both names refer to the same individual."
     },
     {
       "greek_nt": [
@@ -101,7 +104,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -111,18 +115,12 @@
         3
       ],
       "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        4,
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after the dative pronoun ei, marking direct speech more explicitly than the Greek punctuation (middle dot) or Syriac (no punctuation). This is a Latin scribal convention for introducing quotations and does not alter semantic content."
     },
     {
       "greek_nt": [
@@ -134,7 +132,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -146,7 +145,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -161,7 +161,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses demonstrative pronoun ܗܝ (that) with ܬܬܐ (fig tree); Greek/Vulgate use article"
+      "type": "construction",
+      "note": "Greek uses the article ἡ with the noun συκῆ in nominative case. Syriac employs ܬܬܐ ܗܝ (tittā hī), a noun with a demonstrative pronoun suffix, creating a double-headed construction ('the fig tree, it'). Latin ficus lacks an article (Latin has no definite article) but the demonstrative function is carried by the relative clause cui that follows."
     },
     {
       "greek_nt": [
@@ -175,8 +176,9 @@
         9,
         10
       ],
-      "variant": "aligned",
-      "note": "Relative clause 'which you cursed': Peshitta ܕܠܛܬ combines relative and verb"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a relative pronoun ἣν (accusative feminine singular) with the verb κατηράσω ('which you cursed'). Latin mirrors this structure with cui maledixisti (dative relative + verb). Syriac uses ܕܠܛܬ (d-laṭt), a relative particle with pronominal suffix, yielding a more compact construction typical of Semitic syntax but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -188,13 +190,14 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.810901+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.018453+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

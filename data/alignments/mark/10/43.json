@@ -66,66 +66,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "minor",
-      "note": "Postpositive particle placement varies: Greek δέ, Peshitta ܕܝܢ, Vulgate autem all function as adversative conjunctions but positioned differently"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
+        2,
+        3,
         4,
         5
       ],
       "peshitta": [
+        0,
+        1,
+        2,
+        3,
         4
       ],
       "vulgate": [
+        0,
+        1,
+        2,
+        3,
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the adversative δέ third (οὐχ οὕτως δέ ἐστιν), while Peshitta places ܕܝܢ second (ܠܐ ܕܝܢ ܗܟܢܐ) and Vulgate places autem fourth (Non ita est autem). All three express the same contrastive negation, differing only in particle placement according to each language's syntactic conventions."
     },
     {
       "greek_nt": [
@@ -137,7 +102,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -150,8 +116,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "note": "Greek ὃς ἂν, Peshitta ܡܢ, Vulgate quicumque all express indefinite relative 'whoever'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the indefinite relative construction ὃς ἂν (relative pronoun + modal particle) to express 'whoever'; Latin uses the compound relative quicumque; Peshitta uses the interrogative ܡܢ ('who') with the relative particle ܕ, a standard Syriac idiom for indefinite relatives. All three convey identical indefinite agency."
     },
     {
       "greek_nt": [
@@ -163,95 +130,55 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "note": "Greek μέγας vs Vulgate major (comparative form) represent stylistic difference"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
+        11,
         12,
         13
       ],
       "peshitta": [
-        8
+        8,
+        9,
+        10
       ],
-      "vulgate": [],
+      "vulgate": [
+        9,
+        10
+      ],
       "variant": "major",
-      "note": "Greek ἐν ὑμῖν 'among you' vs Peshitta ܒܟܘܢ 'among you' appears earlier in Peshitta word order; Vulgate omits this phrase entirely, relying on context"
+      "type": "construction",
+      "note": "Greek uses the infinitive construction μέγας γενέσθαι ἐν ὑμῖν ('to become great among you'), repeating the prepositional phrase ἐν ὑμῖν from the protasis. Peshitta employs ܒܟܘܢ ܕܢܗܘܐ ܪܒܐ ('among you that he become great'), using a subordinate clause with ܕ and placing the locative phrase before the verb. Vulgate uses the simple infinitive fieri major without repeating the locative, assuming vobis from context. These represent three distinct syntactic strategies for expressing the same conditional result."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
+        15,
         16
       ],
       "peshitta": [
+        11,
+        12,
         13
       ],
       "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
+        12,
+        13,
         14
       ],
       "variant": "minor",
-      "note": "Vulgate punctuation colon, not present in Greek or Peshitta manuscripts"
+      "type": "construction",
+      "note": "Greek uses future indicative ἔσται with genitive ὑμῶν and predicate nominative διάκονος. Peshitta repeats the verb ܢܗܘܐ (imperfect, 'let him be') with dative ܠܟܘܢ ('to/for you') and predicate ܡܫܡܫܢܐ, creating stylistic parallelism with the previous clause. Vulgate employs future erit with possessive adjective vester, mirroring Greek syntax. The Peshitta's verbal repetition emphasizes the apodosis rhetorically, while Greek and Latin use standard future constructions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.805580+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.013762+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

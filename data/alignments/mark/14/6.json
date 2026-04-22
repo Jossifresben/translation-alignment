@@ -66,29 +66,21 @@
     {
       "greek_nt": [
         0,
-        1
+        1,
+        2
       ],
       "peshitta": [
         0,
-        1
+        1,
+        2
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "minor",
-      "note": "Greek article + δέ vs. Syriac pronoun + ܕܝܢ vs. Latin autem; stylistic variation in adversative conjunction"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
+      "type": "word-order",
+      "note": "Greek employs the article ὁ with postpositive δέ (ὁ δὲ Ἰησοῦς), a standard Greek construction. Syriac mirrors this with pronoun ܗܘ ܕܝܢ ܝܫܘܥ. Vulgate omits the article (lacking in Latin) and uses autem as adversative conjunction, yielding 'Jesus autem' — semantically equivalent but syntactically streamlined."
     },
     {
       "greek_nt": [
@@ -102,7 +94,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "type": "punctuation",
+      "note": "Greek εἶπεν· uses a raised dot (ano stigme) as punctuation. Vulgate dixit : employs a colon to introduce direct speech, a Latin convention. Syriac ܐܡܪ has no overt punctuation mark in the token stream, relying on syntactic context."
     },
     {
       "greek_nt": [
@@ -116,76 +109,53 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8,
         9
       ],
       "peshitta": [
+        5,
         6,
         7,
         8
       ],
       "vulgate": [
+        6,
         7,
         8,
-        9
-      ],
-      "variant": "minor",
-      "note": "Greek αὐτῇ κόπους παρέχετε vs. Syriac ܡܗܪܝܢ ܐܢܬܘܢ ܠܗ vs. Latin illi molesti estis; different constructions for 'cause trouble to her'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        9,
         10
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses dative αὐτῇ ('to her') with accusative κόπους παρέχετε ('do you cause trouble'), a standard Greek idiom. Syriac employs ܡܢܐ ܡܗܪܝܢ ܐܢܬܘܢ ܠܗ ('why do you trouble her'), inserting the explicit subject pronoun ܐܢܬܘܢ ('you'), typical of Syriac verbal syntax. Vulgate renders quid illi molesti estis ('why are you troublesome to her') with a predicate adjective construction and adds a question mark, reflecting Latin rhetorical style."
     },
     {
       "greek_nt": [
         10,
-        11
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
         11,
         12
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
       "peshitta": [
+        9,
+        10,
         11
       ],
       "vulgate": [
+        11,
+        12,
         13,
         14
       ],
       "variant": "minor",
-      "note": "Greek aorist middle ἠργάσατο vs. Syriac perfect ܥܒܕܬ vs. Latin perfect operata est; auxiliary verb variation"
+      "type": "grammar",
+      "note": "Greek καλὸν ἔργον ἠργάσατο uses aorist middle ἠργάσατο ('she worked/did'). Syriac ܥܒܕܐ ܫܦܝܪܐ ܥܒܕܬ mirrors the Greek word order (noun-adjective-verb). Vulgate Bonum opus operata est employs a perfect passive participle operata est, a Latin periphrastic construction for completed action, and inserts the copula est — syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -197,24 +167,18 @@
       ],
       "vulgate": [
         15,
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        16,
         17
       ],
-      "variant": "added",
-      "note": "Vulgate adds closing colon punctuation"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐν ἐμοί ('in/toward me') uses the preposition ἐν with first-person dative. Syriac ܠܘܬܝ employs the preposition ܠܘܬ ('toward'), a cognate construction. Vulgate in me uses the Latin preposition in with accusative, and appends a closing colon (token 17), marking the end of Jesus's speech — a punctuation choice absent in Greek and Syriac."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.829105+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.035043+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

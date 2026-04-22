@@ -75,59 +75,34 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits initial conjunction; begins mid-narrative"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'answered' verb; Greek/Peshitta preserve dialogue structure"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek 'to him' (αὐτῷ) has no parallel in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
       "peshitta": [
-        1
+        0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'one' (εἷς/ܚܕ)"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Vulgate omits the entire opening clause 'And one answered Him' (Greek Καὶ ἀπεκρίθη αὐτῷ / Peshitta ܘܥܢܐ), beginning instead with a relative pronoun 'qui' that continues the description of the spirit from the previous verse. This represents a significant structural divergence, treating the father's speech as a continuation rather than a new response."
     },
     {
       "greek_nt": [
+        3,
         4,
         5,
         6
       ],
       "peshitta": [
+        1,
         2,
         3
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'from the crowd' phrase entirely"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Vulgate omits 'one from the crowd' (Greek εἷς ἐκ τοῦ ὄχλου / Peshitta ܚܕ ܡܢ ܟܢܫܐ), continuing its structural divergence by eliminating the identification of the speaker entirely and maintaining focus on the spirit's symptoms."
     },
     {
       "greek_nt": [
@@ -136,12 +111,10 @@
       "peshitta": [
         4
       ],
-      "vulgate": [
-        14,
-        15
-      ],
+      "vulgate": [],
       "variant": "major",
-      "note": "Vulgate 'et dixi' (and I said) differs from Greek/Peshitta simple 'said'; shifts to past narrative"
+      "type": "omission",
+      "note": "The Vulgate omits the verb 'said' (Greek εἶπεν / Peshitta ܘܐܡܪ), consistent with its treatment of this material as a continuation of verse 17 rather than a new speech introduction."
     },
     {
       "greek_nt": [
@@ -151,47 +124,28 @@
         5
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits vocative 'Teacher'"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Vulgate omits the vocative 'Teacher' (Greek διδάσκαλε / Peshitta ܡܠܦܢܐ), further evidence of its structural reorganization that removes the direct address opening the father's plea."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'I brought' verb"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11,
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'my son' as direct object"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14
       ],
       "peshitta": [
+        6,
+        7,
         8
       ],
-      "vulgate": [
-        16,
-        17
-      ],
+      "vulgate": [],
       "variant": "major",
-      "note": "Vulgate 'discipulis tuis' (to your disciples) vs Greek/Peshitta 'to you'; different addressee"
+      "type": "omission",
+      "note": "The Vulgate omits the entire clause 'I brought my son to You' (Greek ἤνεγκα τὸν υἱόν μου πρὸς σὲ / Peshitta ܐܝܬܝܬ ܒܪܝ ܠܘܬܟ), instead beginning with a relative clause describing the spirit's actions. This represents a fundamental textual divergence in verse structure and content."
     },
     {
       "greek_nt": [
@@ -206,13 +160,6 @@
         12,
         13
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits description of mute spirit; Greek ἔχοντα πνεῦμα ἄλαλον, Peshitta ܕܐܝܬ ܠܗ ܪܘܚܐ ܕܠܐ ܡܡܠܠܐ"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         0,
         1,
@@ -227,15 +174,11 @@
         10,
         11,
         12,
-        13
-      ],
-      "variant": "added",
-      "note": "Vulgate adds extensive description of spirit's effects (seizing, dashing, foaming, gnashing, withering) absent from Greek/Peshitta"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        13,
+        14,
+        15,
+        16,
+        17,
         18,
         19,
         20,
@@ -243,14 +186,15 @@
         22,
         23
       ],
-      "variant": "added",
-      "note": "Vulgate adds 'ut ejicerent illum, et non potuerunt' (to cast it out, and they could not) - material from different verse"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek and Peshitta describe the son as 'having a mute spirit' (Greek ἔχοντα πνεῦμα ἄλαλον / Peshitta ܕܐܝܬ ܠܗ ܪܘܚܐ ܕܠܐ ܡܡܠܠܐ) using a participial construction. The Vulgate massively expands this with a relative clause detailing the spirit's violent symptoms ('qui ubicumque eum apprehenderit, allidit illum, et spumat, et stridet dentibus, et arescit') and adds an entire additional clause about the disciples' failed exorcism attempt ('et dixi discipulis tuis ut ejicerent illum, et non potuerunt'), material that appears in verse 18 in Greek and Peshitta traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.787649+00:00",
-    "confidence": 0.4,
+    "generated_at": "2026-04-22T12:17:08.002402+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

@@ -61,7 +61,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -74,7 +75,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܐܡܪ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -86,7 +87,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -105,7 +107,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek uses demonstrative ἐκείνῃ with article; Peshitta ܒܗܘ ܝܘܡܐ; Vulgate in illa die—all equivalent temporal phrases"
+      "type": "construction",
+      "note": "Greek employs the demonstrative ἐκείνῃ with article τῇ modifying ἡμέρᾳ (dative singular feminine construction); Vulgate mirrors this with in illa die; Peshitta uses the simpler demonstrative construction ܒܗܘ ܝܘܡܐ without article, reflecting typical Syriac syntax where definiteness is inherent in the demonstrative."
     },
     {
       "greek_nt": [
@@ -122,7 +125,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek genitive absolute ὀψίας γενομένης; Peshitta prepositional ܒܪܡܫܐ; Vulgate temporal clause cum sero esset factum—stylistic variation"
+      "type": "construction",
+      "note": "Greek uses a genitive absolute construction (ὀψίας γενομένης, 'evening having come'); Vulgate renders this with a temporal cum-clause (cum sero esset factum); Peshitta employs the prepositional phrase ܒܪܡܫܐ ('in the evening'), a more direct temporal marker without participial construction."
     },
     {
       "greek_nt": [],
@@ -131,28 +135,23 @@
         10
       ],
       "variant": "added",
-      "note": "Vulgate colon punctuation mark, not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after the temporal clause to mark the transition to direct speech, a punctuation convention absent in the Greek and Peshitta manuscript traditions."
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [
-        5
+        5,
+        6
       ],
       "vulgate": [
         11
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܠܢ (ethical dative 'for us') not present in Greek or Vulgate"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Greek uses the first-person plural hortatory subjunctive διέλθωμεν ('let us pass over'); Vulgate mirrors this with Transeamus; Peshitta adds the enclitic pronoun ܠܢ ('to us' / 'for us') after the verb ܢܥܒܪ, an explanatory gloss making the first-person plural subject explicit, typical of Syriac verbal syntax."
     },
     {
       "greek_nt": [
@@ -166,14 +165,15 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "note": "Greek εἰς τὸ πέραν, Peshitta ܠܥܒܪܐ, Vulgate contra—all mean 'to the other side'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase εἰς τὸ πέραν ('to the other side') with article and accusative; Vulgate renders with the single adverb contra ('across'); Peshitta uses ܠܥܒܪܐ ('to the crossing/other side'), a substantival form with preposition, semantically equivalent but syntactically distinct from the Greek articular construction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.751928+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.968702+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

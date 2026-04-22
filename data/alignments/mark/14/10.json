@@ -72,7 +72,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܕܝܢ (dēn, 'but/now') for Greek Καὶ and Latin Et, a common stylistic variation in Syriac"
+      "type": "substitution",
+      "note": "Greek uses simple conjunction καί ('and'), while Peshitta employs the contrastive particle ܕܝܢ (dēn, 'but/now'), which heightens the narrative tension of Judas's betrayal. Vulgate follows Greek with coordinating 'Et'."
     },
     {
       "greek_nt": [
@@ -88,7 +89,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs double article construction (ὁ Ἰούδας Ἰσκαριώθ, ὁ εἷς) for emphasis; Peshitta and Vulgate lack articles as their languages do not require them for proper names, resulting in more compact syntax without semantic loss."
     },
     {
       "greek_nt": [
@@ -107,7 +110,8 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -119,7 +123,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -137,7 +142,9 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀρχιερεῖς ('chief priests', plural) and Vulgate summos sacerdotes mirror each other; Peshitta uses ܪܒܝ ܟܗܢܐ (rabbay kāhnē, literally 'great/chief of priests'), a construct-state phrase typical of Syriac for expressing hierarchical titles."
     },
     {
       "greek_nt": [
@@ -150,7 +157,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta ܐܝܟ (ayk, 'as/so that') for Greek ἵνα and Latin ut, synonymous purpose conjunctions"
+      "type": "substitution",
+      "note": "Greek employs purpose clause with ἵνα + subjunctive ('in order that'); Vulgate mirrors with 'ut' + subjunctive; Peshitta uses ܐܝܟ (ayk, 'as/so that'), a semantically equivalent but syntactically distinct purpose marker in Syriac."
     },
     {
       "greek_nt": [
@@ -169,13 +177,14 @@
         13
       ],
       "variant": "major",
-      "note": "Peshitta explicitly adds ܠܝܫܘܥ (l-Yeshu', 'Jesus') as direct object, making implicit reference explicit"
+      "type": "expansion",
+      "note": "Peshitta explicitly names the object of betrayal as ܠܝܫܘܥ ('Jesus'), whereas Greek and Vulgate use only the pronoun αὐτόν/eum ('him'). This expansion clarifies the referent, possibly reflecting liturgical or catechetical concerns in the Syriac tradition to avoid ambiguity in oral proclamation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.829796+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.036017+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -61,7 +61,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -75,7 +76,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܡܠܦ ܗܘܐ (was teaching) for Greek imperfect ἐδίδασκεν"
+      "type": "construction",
+      "note": "Greek uses imperfect indicative ἐδίδασκεν; Vulgate mirrors with imperfect docebat; Peshitta employs periphrastic construction ܡܠܦ ܗܘܐ (participle + auxiliary), a standard Syriac idiom for expressing continuous past action."
     },
     {
       "greek_nt": [
@@ -87,7 +89,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses accusative αὐτοὺς as direct object; Vulgate uses accusative eos; Peshitta uses prepositional phrase ܠܗܘܢ (l-hon, 'to them'), reflecting Syriac's preference for marking direct objects of teaching verbs with the preposition l-."
     },
     {
       "greek_nt": [
@@ -101,7 +105,8 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -113,7 +118,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places πολλὰ (neuter accusative plural, 'many things') after παραβολαῖς, functioning adverbially; Latin multa follows the same post-nominal position; Syriac ܣܓܝ (saggi, 'much/many') follows ܒܡܬܠܐ but uses singular form, a typical Syriac idiom treating abstract or collective nouns as singular masses."
     },
     {
       "greek_nt": [
@@ -125,7 +132,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -139,7 +147,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic ܐܡܪ ܗܘܐ (was saying) for Greek imperfect ἔλεγεν"
+      "type": "construction",
+      "note": "Greek uses imperfect ἔλεγεν; Vulgate uses imperfect dicebat; Peshitta again employs periphrastic ܘܐܡܪ ܗܘܐ (participle + auxiliary), parallel to the construction in token group 1, maintaining stylistic consistency in rendering Greek imperfects."
     },
     {
       "greek_nt": [
@@ -150,44 +159,28 @@
         8
       ],
       "variant": "omitted",
-      "note": "Peshitta omits explicit pronoun αὐτοῖς/illis, implied in verb context"
+      "type": "omission",
+      "note": "Greek αὐτοῖς (dative, 'to them') and Vulgate illis are present; Peshitta omits the indirect object pronoun, as the preceding context (ܠܗܘܢ in token 2) establishes the audience and Syriac permits ellipsis of redundant pronominal references within the same sentence."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        11
+        9,
+        10,
+        11,
+        12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐν τῇ διδαχῇ αὐτοῦ with article and possessive genitive; Vulgate mirrors with in doctrina sua (possessive adjective); Peshitta uses construct state ܒܝܘܠܦܢܗ (b-yulpāneh, 'in-his-teaching'), a single bound form with pronominal suffix, reflecting Syriac's preference for synthetic rather than analytic possessive constructions."
     },
     {
       "greek_nt": [],
@@ -195,13 +188,14 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "punctuation"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.745572+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.963123+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

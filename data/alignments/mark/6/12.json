@@ -35,73 +35,51 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [],
-      "vulgate": [
-        0
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits coordinating conjunction, using waw prefix on verb instead"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܢܦܩܘ includes waw conjunction + verb; Greek participle vs Vulgate gerund"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds auxiliary ܗܘܘ (were) forming periphrastic construction"
+      "type": "construction",
+      "note": "Greek uses conjunction καὶ plus aorist participle ἐξελθόντες (nominative plural masculine); Peshitta employs the single verb ܘܢܦܩܘ with prefixed conjunction; Vulgate mirrors the Greek participial construction with Et exeuntes. All three express the same sequential action but through different syntactic strategies."
     },
     {
       "greek_nt": [
         2
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
         2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        3
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܕ particle where Greek/Vulgate use ἵνα/ut"
+      "type": "construction",
+      "note": "Peshitta inserts the auxiliary verb ܗܘܘ (hwaw, 'they were') to form a periphrastic construction with ܘܐܟܪܙܘ, creating a durative or iterative aspect not explicitly marked in the Greek aorist ἐκήρυξαν or Latin perfect prædicabant. This reflects a common Syriac strategy for aspectual nuance."
     },
     {
       "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        3,
         4,
         5
       ],
       "variant": "minor",
-      "note": "Vulgate uses periphrastic pœnitentiam agerent for single Greek/Peshitta verb"
+      "type": "lexical",
+      "note": "Greek uses ἵνα with subjunctive μετανοῶσιν (single verb 'that they may repent'); Peshitta employs ܕܢܬܘܒܘܢ (d-netubun, 'that they return/repent'); Vulgate expands to ut pœnitentiam agerent ('that they might do penance'), using a noun-verb periphrasis. The Vulgate construction reflects Latin idiom for expressing repentance as an action performed rather than a state entered."
     },
     {
       "greek_nt": [],
@@ -109,14 +87,15 @@
       "vulgate": [
         6
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate adds a colon to mark the end of this clause, a scribal convention not present in Greek or Syriac manuscript traditions. This reflects Latin editorial practice rather than textual variance."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.763261+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.979495+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

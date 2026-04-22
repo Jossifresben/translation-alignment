@@ -83,42 +83,35 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ omitted in Peshitta and Vulgate; Vulgate uses Tunc instead"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0
-      ],
-      "variant": "added",
-      "note": "Vulgate adds temporal Tunc (then) not present in Greek or Peshitta"
+      "type": "omission",
+      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate, which begin the pericope without a coordinating conjunction. The Vulgate substitutes the temporal adverb 'Tunc' ('then'), creating a narrative transition absent in the Greek."
     },
     {
       "greek_nt": [
-        1,
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
         1
       ],
-      "variant": "minor",
-      "note": "Greek αὐτὸς ἐπηρώτα (he himself was questioning) vs Peshitta ܐܡܪ (said) vs Vulgate dicit (says); stylistic variation in verb choice and tense"
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek αὐτὸς ('he himself', emphatic pronoun) is omitted in both Peshitta and Vulgate. The Peshitta supplies the explicit subject ܝܫܘܥ ('Jesus') instead, while the Vulgate relies on verbal inflection alone."
     },
     {
       "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek ἐπηρώτα αὐτούς ('was questioning them', imperfect tense) is rendered as ܐܡܪ ܠܗܘܢ ('said to them', perfect) in Peshitta and 'dicit illis' ('says to them', present historic) in Vulgate. The aspectual difference reflects stylistic preference rather than semantic divergence."
     },
     {
       "greek_nt": [],
@@ -127,7 +120,18 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicitly names ܝܫܘܥ (Jesus) as subject; absent in Greek and Vulgate"
+      "type": "expansion",
+      "note": "Peshitta explicitly names ܝܫܘܥ ('Jesus') as the subject, an expansion absent in both Greek and Vulgate. This clarification is typical of Syriac narrative style, which often supplies implicit subjects for reader clarity."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Vulgate inserts 'Tunc' ('then') as a temporal marker to introduce the question, creating narrative continuity. Neither Greek nor Peshitta attest this adverb, which functions as a stylistic transition in Latin."
     },
     {
       "greek_nt": [],
@@ -136,7 +140,8 @@
         3
       ],
       "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after 'illis' to mark direct discourse, a punctuation convention absent in Greek and Peshitta manuscripts. This reflects Latin scribal practice rather than textual divergence."
     },
     {
       "greek_nt": [
@@ -151,7 +156,8 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -159,15 +165,15 @@
         7
       ],
       "peshitta": [
-        5,
-        8
+        5
       ],
       "vulgate": [
         6,
         7
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek τίνα με vs Peshitta ܡܢܘ...ܥܠܝ (who...about me) vs Vulgate quem me"
+      "type": "word-order",
+      "note": "Greek τίνα με ('whom me', accusative interrogative + pronoun) and Vulgate 'quem me' preserve identical word order. Peshitta ܡܢܘ ('who') stands alone without the pronominal object at this position, which appears later as ܥܠܝ ('concerning me') in token 8."
     },
     {
       "greek_nt": [
@@ -177,6 +183,7 @@
       "peshitta": [
         6,
         7,
+        8,
         9
       ],
       "vulgate": [
@@ -184,7 +191,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta repeats ܐܢܬܘܢ (you) for emphasis; Greek/Vulgate use single verb form"
+      "type": "construction",
+      "note": "Greek λέγετε εἶναι ('do you say [me] to be', infinitive construction) and Vulgate 'esse dicitis' mirror this syntax. Peshitta employs ܐܡܪܝܢ ܐܢܬܘܢ ܥܠܝ ܕܐܝܬܝ ('you say concerning me that I am'), a relative clause construction with explicit subject repetition (ܐܢܬܘܢ) and prepositional phrase (ܥܠܝ), semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [],
@@ -193,7 +201,8 @@
         10
       ],
       "variant": "added",
-      "note": "Vulgate punctuation question mark"
+      "type": "punctuation",
+      "note": "Vulgate inserts a question mark after 'dicitis' to close the interrogative clause, a punctuation convention absent in Greek and Peshitta manuscripts."
     },
     {
       "greek_nt": [
@@ -206,7 +215,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -220,31 +230,25 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܫܡܥܘܢ (Simon) instead of Peter; Greek has article ὁ Πέτρος"
+      "type": "lexical",
+      "note": "Greek ὁ Πέτρος ('the Peter', articular proper name) is rendered as ܫܡܥܘܢ ('Simon', birth name) in Peshitta and 'Petrus' (anarthrous) in Vulgate. The Peshitta's use of the Semitic birth name reflects a preference for the original Aramaic form, while Greek and Latin employ the Greek nickname."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek λέγει αὐτῷ ('says to him', dative pronoun) is mirrored in Vulgate 'ait ei'. Peshitta uses ܘܐܡܪ ܠܗ ('and said to him'), prefixing the coordinating conjunction ܘ ('and'), which creates a tighter narrative link between the participle ܥܢܐ ('answered') and the main verb."
     },
     {
       "greek_nt": [],
@@ -253,35 +257,28 @@
         15
       ],
       "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after 'ei' to introduce Peter's confession, a punctuation convention absent in Greek and Peshitta manuscripts."
     },
     {
       "greek_nt": [
         16,
-        17
-      ],
-      "peshitta": [
-        14,
-        15
-      ],
-      "vulgate": [
-        16,
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19
       ],
       "peshitta": [
+        14,
+        15,
         16
       ],
       "vulgate": [
+        16,
+        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -292,13 +289,14 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܒܪܗ ܕܐܠܗܐ ܚܝܐ (Son of the living God); major expansion not in Greek or Vulgate for this verse"
+      "type": "harmonisation",
+      "note": "Peshitta expands Peter's confession with ܒܪܗ ܕܐܠܗܐ ܚܝܐ ('the Son of the living God'), harmonising toward the Matthean parallel (Matt 16:16). Neither Greek Mark 8:29 nor Vulgate attest this christological expansion, which represents a deliberate conflation of Synoptic traditions in the Syriac textual stream."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.782718+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:26:01.881630+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

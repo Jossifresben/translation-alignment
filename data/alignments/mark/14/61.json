@@ -106,7 +106,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܫܬܝܩ ܗܘܐ (was silent) vs. Greek/Latin simple past"
+      "type": "construction",
+      "note": "Greek uses imperfect ἐσιώπα (simple verb); Peshitta employs periphrastic construction ܫܬܝܩ ܗܘܐ (participle + auxiliary 'was'); Vulgate uses imperfect tacebat. All three express continuous past action, but Syriac prefers the analytic construction typical of its verbal system."
     },
     {
       "greek_nt": [
@@ -126,7 +127,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta ܘܡܕܡ ܠܐ ܥܢܝܗܝ (and anything not answered-him) vs. Greek καὶ οὐκ ἀπεκρίνατο οὐδέν"
+      "type": "word-order",
+      "note": "Greek places the conjunction καὶ before the negation (καὶ οὐκ ἀπεκρίνατο οὐδέν); Peshitta inverts to ܘܡܕܡ ܠܐ ܥܢܝܗܝ (literally 'and anything not he-answered-him'), fronting the object for emphasis; Vulgate follows Greek word order (et nihil respondit). The double negation in Greek (οὐκ...οὐδέν) is standard Koine idiom, whereas Syriac uses single negation with fronted indefinite."
     },
     {
       "greek_nt": [
@@ -153,7 +155,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun (ὁ ἀρχιερεύς); Peshitta employs construct state ܪܒ ܟܗܢܐ ('chief-of priests'), the standard Semitic genitive construction; Vulgate uses adjective + noun (summus sacerdos). All three denote 'high priest' but reflect distinct morphosyntactic strategies."
     },
     {
       "greek_nt": [
@@ -168,7 +172,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta ܫܐܠܗ incorporates pronoun suffix; Greek/Latin separate pronoun"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the verb before the object pronoun (ἐπηρώτα αὐτόν / interrogabat eum); Peshitta uses verb-suffix conjugation ܫܐܠܗ with pronominal object incorporated into the verbal form, appearing earlier in the clause sequence due to the conjunction ܘܬܘܒ governing the entire verbal phrase."
     },
     {
       "greek_nt": [
@@ -186,7 +191,8 @@
         14
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation; Peshitta ܘܐܡܪ more compact"
+      "type": "punctuation",
+      "note": "Greek uses καὶ λέγει αὐτῷ with punctuation mark (colon in modern editions); Peshitta compresses to single verb ܘܐܡܪ ('and he-said'); Vulgate expands with et dixit ei followed by explicit colon punctuation. The Vulgate's punctuation is a later scribal convention, while Peshitta's economy reflects Semitic narrative style where speech verbs often stand alone."
     },
     {
       "greek_nt": [
@@ -201,7 +207,9 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses emphatic pronoun σὺ + verb εἶ; Peshitta employs ܐܢܬ ܗܘ (literally 'you he-[is]'), a nominal sentence with independent pronoun + copula pronoun, standard Syriac syntax for emphasis; Vulgate mirrors Greek with Tu es. Both Greek and Latin use verbal copula, while Syriac uses pronominal copula construction."
     },
     {
       "greek_nt": [
@@ -230,10 +238,12 @@
       "vulgate": [
         18,
         19,
-        20
+        20,
+        21
       ],
-      "variant": "major",
-      "note": "Vulgate reads 'Filius Dei benedicti' (Son of God blessed) vs. Greek 'ὁ υἱὸς τοῦ εὐλογητοῦ' (the Son of the Blessed One); substantive theological difference in divine name usage"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses double article construction (ὁ υἱὸς τοῦ εὐλογητοῦ) with substantivized adjective; Peshitta employs construct chain ܒܪܗ ܕܡܒܪܟܐ ('son-of the-blessed-one') without article (Syriac lacks definite article in construct); Vulgate uses Filius Dei benedicti, inserting explicit Dei ('of God') not present in Greek or Syriac, likely a clarifying gloss. The Vulgate addition represents theological interpretation making the divine reference explicit."
     },
     {
       "greek_nt": [],
@@ -241,14 +251,15 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned",
-      "note": "Vulgate question mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate includes explicit question mark, a Latin scribal convention not present in Greek or Syriac manuscripts of this period."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.839248+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:36:25.959654+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

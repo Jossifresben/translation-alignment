@@ -78,7 +78,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -94,37 +95,41 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses construct state ܦܪܕܬܐ ܕܚܪܕܠܐ with copula ܗܝ (token 2), Greek and Vulgate use genitive without copula"
+      "type": "word-order",
+      "note": "The Peshitta inserts a copular pronoun ܗܝ between 'grain' (ܦܪܕܬܐ) and 'of mustard' (ܕܚܪܕܠܐ), yielding 'like a grain, it [is] of mustard,' a typical Syriac construction for emphasis. Greek and Latin maintain simple genitive constructions without copula."
     },
     {
       "greek_nt": [
-        3,
-        4
+        3
       ],
       "peshitta": [
+        2,
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta employs double copular pronouns (ܗܝ ... ܗܝ) framing the relative clause, a Semitic stylistic feature absent in Greek (ὅς) and Latin (quod), which use simple relative pronouns."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
-      "vulgate": [
-        3,
-        4
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܗܝ ܕܡܐ (copula + temporal particle) vs Greek ὃς ὅταν (relative + temporal) vs Vulgate quod cum (relative + temporal)"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        4,
         5,
         6
       ],
       "variant": "minor",
-      "note": "Vulgate uses perfect passive participle + fuerit (periphrastic construction) vs Greek aorist subjunctive vs Peshitta ethpeal perfect"
+      "type": "construction",
+      "note": "Greek uses a temporal conjunction with aorist subjunctive (ὅταν σπαρῇ); Latin employs cum with perfect subjunctive (cum seminatum fuerit), a periphrastic passive construction; Peshitta uses a temporal particle with ethpeal perfect (ܕܡܐ ܕܐܙܕܪܥܬ), semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -139,7 +144,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the preposition ἐπί with article and genitive (ἐπὶ τῆς γῆς); Latin mirrors this with in + ablative (in terra); Syriac uses the preposition ܒ prefixed directly to the noun without article (ܒܐܪܥܐ), reflecting the absence of definite articles in Syriac nominal syntax."
     },
     {
       "greek_nt": [
@@ -155,7 +162,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek participle ὂν (being) vs Peshitta copula ܗܝ vs Vulgate est; all express same copular function"
+      "type": "construction",
+      "note": "Greek uses a comparative adjective with participle (μικρότερον ὂν, 'being smaller'); Latin employs a simple comparative with copula (minus est); Peshitta uses an adjective with copular pronoun (ܙܥܘܪܝܐ ܗܝ), all expressing the same comparative sense through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -173,7 +181,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܡܢ (partitive 'from/than') + ܟܠܗܘܢ ܙܪܥܘܢܐ vs Greek genitive πάντων τῶν σπερμάτων vs Vulgate ablative omnibus seminibus"
+      "type": "grammar",
+      "note": "Greek employs a double-article construction (πάντων τῶν σπερμάτων) with genitive plural; Latin uses omnibus seminibus in ablative of comparison without article; Syriac uses the preposition ܡܢ ('from') with ܟܠܗܘܢ ܙܪܥܘܢܐ, a partitive construction typical of Semitic comparative syntax."
     },
     {
       "greek_nt": [
@@ -193,16 +202,8 @@
         16
       ],
       "variant": "minor",
-      "note": "Greek uses articular participle τῶν ἐπὶ τῆς γῆς; Vulgate relative clause quæ sunt in terra; Peshitta construct ܕܥܠ ܐܪܥܐ"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds copula ܗܝ after ܦܪܕܬܐ, absent in Greek and Vulgate"
+      "type": "construction",
+      "note": "Greek uses an articular participle construction (τῶν ἐπὶ τῆς γῆς, 'the [ones] upon the earth'); Latin employs a relative clause with copula (quæ sunt in terra); Syriac uses a simple prepositional phrase (ܕܥܠ ܐܪܥܐ) without relative pronoun, achieving the same restrictive sense through different means."
     },
     {
       "greek_nt": [],
@@ -210,14 +211,15 @@
       "vulgate": [
         17
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek or Peshitta manuscripts"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate concludes with a colon, signaling continuation to the following verse, whereas Greek and Peshitta manuscripts use a period, treating this as a complete syntactic unit."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.751051+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.968006+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -63,7 +63,8 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits initial conjunction καί/Et"
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning the sentence asyndetically with ܐܢܫܝܢ ('some people'). This is a common Syriac stylistic preference, avoiding Greek-style connective particles in narrative transitions."
     },
     {
       "greek_nt": [
@@ -94,7 +95,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek τῶν ἐκεῖ ἑστηκότων vs Peshitta ܡܢ ܐܝܠܝܢ ܕܩܝܡܝܢ vs Vulgate de illic stantibus; all express 'of those standing there'"
+      "type": "construction",
+      "note": "Greek uses an articular genitive participle construction (τῶν ἐκεῖ ἑστηκότων, 'of those there having stood'); Latin mirrors this with a genitive participle (de illic stantibus); Syriac employs a relative clause with active participle (ܡܢ ܐܝܠܝܢ ܕܩܝܡܝܢ, 'from those who were standing'). All three convey identical semantics through tradition-specific syntactic patterns."
     },
     {
       "greek_nt": [
@@ -120,33 +122,26 @@
         7
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after illis to mark direct discourse, a Latin scribal convention not reflected in Greek or Syriac manuscript traditions. This is purely orthographic and does not affect the semantic content."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
+        6,
         7,
         8
       ],
       "vulgate": [
+        8,
         9
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit pronoun ܐܢܬܘܢ (you) with verb ܥܒܕܝܢ, redundant in Greek/Latin"
+      "type": "gloss",
+      "note": "The Peshitta adds an explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܥܒܕܝܢ, yielding 'What are you (pl.) doing?' Greek and Latin encode the second-person plural morphologically within the verb (ποιεῖτε / facitis) without a separate pronoun. This is a standard Syriac clarifying gloss."
     },
     {
       "greek_nt": [
@@ -160,7 +155,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta repeats pronoun ܐܢܬܘܢ with participle ܕܫܪܝܢ for emphasis"
+      "type": "gloss",
+      "note": "The Peshitta repeats the subject pronoun ܐܢܬܘܢ ('you') with the participle ܕܫܪܝܢ ('untying'), creating 'you who are untying'. Greek λύοντες and Latin solventes are participial forms without explicit pronominal subjects. This double-pronoun construction is characteristic of Syriac participial syntax for emphasis or clarity."
     },
     {
       "greek_nt": [
@@ -175,13 +171,14 @@
         12
       ],
       "variant": "minor",
-      "note": "Vulgate adds question mark as separate token; Greek article τὸν not separately represented in Peshitta/Vulgate"
+      "type": "grammar",
+      "note": "Greek uses the definite article with πῶλον (τὸν πῶλον, 'the colt'); Syriac ܥܝܠܐ employs the emphatic state (functionally definite); Latin pullum lacks an article (Latin having no article system). The Vulgate's question mark corresponds to Greek's semicolon, both marking interrogative mood."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.808050+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.016095+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -102,36 +102,17 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
+        1,
         2
       ],
       "variant": "aligned"
@@ -145,7 +126,8 @@
         3
       ],
       "variant": "omitted",
-      "note": "Peshitta omits 'immediately/statim'"
+      "type": "omission",
+      "note": "The Peshitta omits the temporal adverb εὐθέως / statim ('immediately'), a characteristic Markan feature. This may reflect a tendency in the Syriac tradition to streamline narrative urgency markers, or it may represent a variant Vorlage lacking the adverb."
     },
     {
       "greek_nt": [
@@ -157,7 +139,8 @@
         4
       ],
       "variant": "omitted",
-      "note": "Peshitta omits explicit subject 'Jesus'"
+      "type": "omission",
+      "note": "The Peshitta omits the explicit subject ὁ Ἰησοῦς / Jesus, relying on verbal inflection to convey agency. The Vulgate retains Jesus as subject, matching the Greek article + proper name construction. This is a typical Syriac ellipsis of recoverable subjects."
     },
     {
       "greek_nt": [
@@ -173,66 +156,40 @@
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
-        9
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        2,
+        3,
         4,
         5
       ],
       "vulgate": [
+        6,
+        7,
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses demonstrative 'these' (ܗܠܝܢ) with 'unclean'; Greek/Vulgate use article"
+      "type": "construction",
+      "note": "Greek employs an aorist participle ἐξελθόντα with double article construction (τὰ πνεύματα τὰ ἀκάθαρτα); Latin uses a present participle (exeuntes spiritus immundi); Peshitta integrates the verb ܘܢܦܩ ('and went out') with demonstrative ܗܠܝܢ ('these') modifying ܪܘܚܐ ܛܢܦܬܐ ('unclean spirits'). All three convey the same event but with distinct syntactic strategies."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14,
         15
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
@@ -245,87 +202,43 @@
         12
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after porcos, creating a rhetorical pause before the herd's rush. Neither Greek nor Peshitta manuscripts typically mark such a division here, though Greek punctuation varies by edition. This reflects Latin rhetorical convention rather than textual divergence."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
+        16,
         17,
-        18
-      ],
-      "variant": "minor",
-      "note": "Vulgate uses passive 'praecipitatus est' vs. active 'rushed' in Greek/Peshitta"
-    },
-    {
-      "greek_nt": [
         18,
-        19
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14,
-        15
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'magno impetu' (with great force) not in Greek/Peshitta"
-    },
-    {
-      "greek_nt": [
+        19,
         20,
         21,
-        22
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek 'down the steep bank' vs. Peshitta 'to the cliff'; Vulgate omits this phrase"
-    },
-    {
-      "greek_nt": [
+        22,
         23,
         24,
         25
       ],
       "peshitta": [
+        8,
+        9,
+        10,
+        11,
         12,
         13
       ],
       "vulgate": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
         19,
         20
       ],
-      "variant": "minor",
-      "note": "Peshitta 'fell into the sea' vs. Greek/Vulgate 'into the sea'"
+      "variant": "major",
+      "type": "expansion",
+      "note": "The Vulgate expands the herd's motion with magno impetu ('with great force'), absent in both Greek and Peshitta. Greek uses the simple verb ὥρμησεν ('rushed') with prepositional phrase κατὰ τοῦ κρημνοῦ εἰς τὴν θάλασσαν; Peshitta employs ܪܗܛܬ ܒܩܪܐ ܠܫܩܝܦܐ ܘܢܦܠܬ ܒܝܡܐ ('ran in the herd to the cliff and fell into the sea'), adding the verb 'fell' (ܢܦܠܬ). The Vulgate's impetus intensifies the narrative drama, likely a stylistic enhancement by Jerome."
     },
     {
       "greek_nt": [
@@ -345,53 +258,37 @@
         23
       ],
       "variant": "minor",
-      "note": "Greek 'were about two thousand' vs. Peshitta/Vulgate 'like/ad two thousand'; word order varies"
+      "type": "word-order",
+      "note": "Greek places the numerical parenthesis ἦσαν δὲ ὡς δισχίλιοι after the herd's plunge; Vulgate repositions ad duo millia immediately after grex, integrating the count into the main clause. Peshitta follows Greek word order with ܐܝܟ ܬܪܝܢ ܐܠܦܝܢ ('about two thousand'). The Vulgate's reordering creates smoother Latin prose without altering meaning."
     },
     {
       "greek_nt": [
-        30
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        24
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        31
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        25,
-        26
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        30,
+        31,
         32,
         33,
         34
       ],
       "peshitta": [
+        17,
         18
       ],
       "vulgate": [
+        24,
+        25,
+        26,
         27,
         28
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐπνίγοντο ('were being drowned', imperfect passive) and Vulgate suffocati sunt ('were suffocated', perfect passive) both convey death by drowning. Peshitta ܘܐܬܚܢܩܘ ܒܡܝܐ ('and were choked in the water') uses the ethpeal of ܚܢܩ, semantically equivalent. The Greek imperfect suggests ongoing process; Latin perfect emphasizes completed action; Syriac is aspectually neutral."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.755512+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.972448+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

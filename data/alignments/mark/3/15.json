@@ -49,11 +49,10 @@
       "peshitta": [
         0
       ],
-      "vulgate": [
-        0
-      ],
+      "vulgate": [],
       "variant": "major",
-      "note": "Vulgate 'Et dedit illis' adds explicit subject and indirect object absent in Greek/Peshitta; Greek καί continues infinitive construction from prior context"
+      "type": "substitution",
+      "note": "Greek καὶ ἔχειν ('and to have') is rendered by Peshitta ܘܕܢܗܘܘܢ ('and that they might be'), a purpose clause construction. Vulgate omits the conjunction entirely, instead supplying the finite verb dedit illis ('he gave to them'), making explicit the subject and indirect object absent in the Greek infinitival construction."
     },
     {
       "greek_nt": [
@@ -61,25 +60,16 @@
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
+        1,
         2,
         3
       ],
-      "variant": "minor",
-      "note": "Greek infinitive ἔχειν ἐξουσίαν vs Peshitta ܕܢܗܘܘܢ ܫܠܝܛܝܢ (subjunctive 'that they be authorized') vs Vulgate 'potestatem' (noun); semantic equivalence with syntactic variation"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1,
-        2
-      ],
-      "variant": "added",
-      "note": "Vulgate 'dedit illis' (gave to them) makes explicit the implied subject and recipients"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek uses the articular infinitive ἔχειν ἐξουσίαν ('to have authority') as object of an implied main verb. Vulgate expands this into a full finite clause Et dedit illis potestatem ('And he gave to them authority'), supplying both subject (implicit 'he') and indirect object illis ('to them'). Peshitta employs the adjective ܫܠܝܛܝܢ ('having authority, empowered') as predicate, syntactically distinct but semantically parallel."
     },
     {
       "greek_nt": [
@@ -96,7 +86,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek θεραπεύειν τὰς νόσους (heal diseases) vs Peshitta ܕܢܐܣܘܢ ܟܪܝܗܐ (heal sicknesses) vs Vulgate 'curandi infirmitates' (healing infirmities); synonymous terms for illness"
+      "type": "lexical",
+      "note": "Greek θεραπεύειν τὰς νόσους ('to heal the diseases') uses the verb θεραπεύω with direct object νόσους. Vulgate curandi infirmitates employs the gerund curandi with infirmitates ('infirmities' rather than 'diseases'), a near-synonym. Peshitta ܕܢܐܣܘܢ ܟܪܝܗܐ ('that they might heal sicknesses') uses ܟܪܝܗܐ, cognate with Hebrew כְּאֵב, semantically equivalent but lexically distinct from νόσος."
     },
     {
       "greek_nt": [
@@ -117,19 +108,20 @@
         9
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐκβάλλειν τὰ δαιμόνια ('to cast out the demons') uses articular accusative plural. Vulgate ejiciendi dæmonia mirrors this with gerund + accusative. Peshitta ܘܢܦܩܘܢ ܕܝܘܐ ('and they might cast out demons') employs a finite verb in a purpose clause, omitting the article (Syriac lacks the definite article in this construction), yielding a slightly more general sense."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.742056+00:00",
+    "generated_at": "2026-04-22T12:17:07.959380+00:00",
     "confidence": 0.75,
     "schema_version": 1
   }

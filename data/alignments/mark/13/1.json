@@ -83,7 +83,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -99,13 +100,15 @@
         2
       ],
       "variant": "minor",
-      "note": "Vulgate uses temporal cum + subjunctive; Peshitta explicitly names Jesus; Greek uses genitive absolute with pronoun"
+      "type": "substitution",
+      "note": "Greek uses a genitive absolute construction (ἐκπορευομένου αὐτοῦ) with the participle; Vulgate employs a temporal cum-clause (cum egrederetur) with finite verb; Peshitta inserts the explicit subject ܝܫܘܥ ('Jesus') where Greek and Latin use only the pronoun, a typical Syriac clarifying gloss."
     },
     {
       "greek_nt": [
         3,
         4,
-        5
+        5,
+        6
       ],
       "peshitta": [
         3,
@@ -115,42 +118,36 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the articular prepositional phrase ἐκ τοῦ ἱεροῦ with article; Latin mirrors this with de templo (no article in Latin); Syriac uses ܡܢ ܗܝܟܠܐ without article, reflecting standard Semitic syntax where definiteness is contextual rather than marked."
     },
     {
       "greek_nt": [
-        6,
-        7
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        5,
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9,
         10,
         11
       ],
       "peshitta": [
+        5,
+        6,
         7,
         8,
         9
       ],
       "vulgate": [
+        5,
+        6,
         7,
         8,
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb λέγει before the subject εἷς τῶν μαθητῶν; Vulgate follows this order (ait ... unus ex discipulis suis); Peshitta inverts to subject-verb order (ܚܕ ܡܢ ܬܠܡܝܕܘܗܝ ܐܡܪ), conforming to typical Syriac narrative syntax where the subject precedes the verb in non-initial clauses."
     },
     {
       "greek_nt": [],
@@ -159,7 +156,8 @@
         11
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon to mark direct speech, a punctuation convention absent in Greek manuscripts and Syriac tradition, which rely on context or introductory particles to signal quotation."
     },
     {
       "greek_nt": [
@@ -171,7 +169,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -185,7 +184,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Peshitta uses two-word construction 'behold see' (ܗܐ ܚܙܝ) for Greek ἴδε and Latin aspice"
+      "type": "lexical",
+      "note": "Greek ἴδε is a single interjection ('behold'); Peshitta expands to ܗܐ ܚܙܝ (literally 'behold, see'), a double imperative construction common in Syriac for emphatic deixis; Vulgate uses aspice ('look'), a semantically equivalent but lexically distinct imperative."
     },
     {
       "greek_nt": [
@@ -200,7 +200,8 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -212,7 +213,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -220,7 +222,6 @@
         18
       ],
       "peshitta": [
-        15,
         16
       ],
       "vulgate": [
@@ -228,12 +229,13 @@
         18
       ],
       "variant": "minor",
-      "note": "Peshitta repeats interrogative ܐܝܠܝܢ with conjunction; Greek and Latin repeat ποταπαί/quales without conjunction"
+      "type": "construction",
+      "note": "Greek repeats the interrogative adjective ποταπαί before οἰκοδομαί to match the parallel structure with ποταποὶ λίθοι; Vulgate mirrors this with quales ... quales; Peshitta uses ܐܝܠܝܢ only once before ܒܢܝܢܐ, relying on the coordinating waw to carry the parallelism without repeating the interrogative, a typical Semitic ellipsis pattern."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.822251+00:00",
+    "generated_at": "2026-04-22T12:17:08.028362+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

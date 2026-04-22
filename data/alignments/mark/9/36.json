@@ -66,17 +66,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits initial conjunction; verse begins mid-pericope"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
@@ -84,7 +74,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'having taken' action entirely"
+      "type": "omission",
+      "note": "The Vulgate omits the entire narrative frame of Jesus taking a child and setting it in their midst, beginning instead directly with the saying about receiving children. This represents a major textual divergence where the Vulgate transmits a different verse or conflates material."
     },
     {
       "greek_nt": [
@@ -94,11 +85,10 @@
         1,
         2
       ],
-      "vulgate": [
-        4
-      ],
+      "vulgate": [],
       "variant": "minor",
-      "note": "Peshitta adds 'one' (ܚܕ) as determiner; Vulgate 'pueris' is plural vs. Greek/Peshitta singular"
+      "type": "expansion",
+      "note": "The Peshitta adds the numeral ܚܕ ('one') to specify 'one child,' making explicit what is implicit in the Greek anarthrous παιδίον. This represents typical Syriac clarifying style."
     },
     {
       "greek_nt": [
@@ -113,22 +103,12 @@
         4
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'set him in the midst of them' action"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits second conjunction"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10
       ],
@@ -139,7 +119,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Greek ἐναγκαλισάμενος 'embracing'; Peshitta ܘܫܩܠܗ ܥܠ ܕܪܥܘܗܝ 'took him upon his arms' - semantic equivalents with different imagery"
+      "type": "construction",
+      "note": "Greek uses the participle ἐναγκαλισάμενος ('having taken in arms') with direct object αὐτό. Syriac employs a finite verb ܘܫܩܠܗ ('and he took it') with prepositional phrase ܥܠ ܕܪܥܘܗܝ ('upon his arms'), representing a syntactic restructuring of the same action."
     },
     {
       "greek_nt": [
@@ -151,8 +132,8 @@
         9
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'he said to them' speech formula"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -162,6 +143,7 @@
         1,
         2,
         3,
+        4,
         5,
         6,
         7,
@@ -183,13 +165,14 @@
         23
       ],
       "variant": "major",
-      "note": "Vulgate contains entirely different content - the saying about receiving a child (Mark 9:37) rather than the action of taking the child (Mark 9:36). This represents a verse boundary discrepancy between traditions."
+      "type": "substitution",
+      "note": "The Vulgate transmits entirely different content, presenting the saying about receiving children in Jesus' name (cf. Mark 9:37) rather than the narrative action of Jesus taking a child. This indicates either verse misalignment in the input data or a significant textual tradition divergence requiring manuscript collation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.790431+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.005439+00:00",
+    "confidence": 0.45,
     "schema_version": 1
   }
 }

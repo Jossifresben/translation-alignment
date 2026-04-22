@@ -98,7 +98,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -116,7 +117,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek uses article twice (τῇ ἐνάτῃ τῇ ὥρᾳ); Peshitta compounds conjunction with numeral (ܘܒܬܫܥ); Vulgate uses ablative without preposition"
+      "type": "word-order",
+      "note": "Greek employs double article construction (τῇ ἐνάτῃ τῇ ὥρᾳ) with dative case marking; Vulgate uses ablative absolute (hora nona) without article; Peshitta incorporates the temporal phrase into the conjunction ܘܒܬܫܥ ܫܥܝܢ ('and at nine hours'), a typical Syriac construct-state construction."
     },
     {
       "greek_nt": [
@@ -128,7 +130,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -141,7 +144,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the nominative article ὁ Ἰησοῦς as subject marker; Latin and Syriac omit the article (Jesus / ܝܫܘܥ), as neither language employs definite articles with proper names in this syntactic position."
     },
     {
       "greek_nt": [
@@ -156,7 +161,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -166,66 +172,36 @@
         6
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation before Aramaic quotation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses present participle λέγων with colon punctuation; Vulgate employs finite verb dicens with colon; Peshitta uses simple conjunction ܘܐܡܪ ('and he said') without punctuation marker, reflecting Syriac preference for paratactic construction over participial phrases."
     },
     {
       "greek_nt": [
         11,
-        12
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
-        9,
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
+        13,
         14
       ],
       "peshitta": [
+        7,
+        8,
+        9,
         10
       ],
       "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        9,
+        10,
+        11,
+        12,
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark after Aramaic quotation"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek preserves Aramaic transliteration ελωι ελωι λεμα σαβαχθανι with question-mark punctuation; Vulgate similarly transliterates Eloi, eloi, lamma sabacthani with question mark; Peshitta provides direct Syriac rendering ܐܝܠ ܐܝܠ ܠܡܢܐ ܫܒܩܬܢܝ without transliteration layer, as the text is already in a cognate Semitic language, eliminating the need for foreign-language citation."
     },
     {
       "greek_nt": [
@@ -239,50 +215,35 @@
       "vulgate": [
         14,
         15,
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        16,
         17
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation before translation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses relative pronoun + copula + passive participle (ὅ ἐστιν μεθερμηνευόμενον); Vulgate mirrors with quod est interpretatum plus colon; Peshitta employs simple relative particle ܕܐܝܬܝܗ ('which is'), a more compact Syriac idiom without explicit translation verb, as the following clause functions as direct equivalence."
     },
     {
       "greek_nt": [
         18,
         19,
-        20
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        18,
-        19
-      ],
-      "variant": "minor",
-      "note": "Greek uses vocative article ὁ θεός μου; Peshitta uses construct state ܐܠܗܝ; Vulgate uses vocative Deus meus with comma"
-    },
-    {
-      "greek_nt": [
+        20,
         21,
         22,
         23
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        18,
+        19,
         20,
         21
       ],
-      "variant": "minor",
-      "note": "Repetition of 'my God' with same structural variation as previous group"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek translation repeats vocative article ὁ θεός μου ὁ θεός μου with double vocative construction; Vulgate preserves this with Deus meus, Deus meus (with comma); Peshitta omits the repetition in the translation gloss, providing only ܐܠܗܝ ܐܠܗܝ once, since the Aramaic cry itself (ܐܝܠ ܐܝܠ) already contains the double invocation, making further repetition in the gloss redundant."
     },
     {
       "greek_nt": [
@@ -297,7 +258,8 @@
         23
       ],
       "variant": "minor",
-      "note": "Greek εἰς τί (lit. 'unto what'); Peshitta ܠܡܢܐ; Vulgate ut quid—all idiomatic for 'why'"
+      "type": "lexical",
+      "note": "Greek uses prepositional phrase εἰς τί ('unto what', i.e., 'why'); Vulgate employs ut quid (purpose construction meaning 'to what end'); Peshitta uses simple interrogative ܠܡܢܐ ('why'), a direct Semitic equivalent without prepositional elaboration."
     },
     {
       "greek_nt": [
@@ -309,24 +271,17 @@
       ],
       "vulgate": [
         24,
-        25
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        25,
         26
       ],
-      "variant": "added",
-      "note": "Vulgate adds final question mark"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.846689+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.051342+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -81,25 +81,46 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1,
-        2,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits an explicit equivalent to ἐκεῖθεν / inde ('from there'), incorporating the spatial deixis implicitly within the verb ܥܒܪ ('he passed'). Greek and Latin make the point of departure explicit with an adverb."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
-        2,
         3
       ],
-      "variant": "minor",
-      "note": "Greek 'προβὰς ἐκεῖθεν ὀλίγον' (having gone on from there a little) vs Peshitta 'ܥܒܪ ܩܠܝܠ' (passed a little) - Peshitta omits explicit 'from there' but meaning preserved"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -111,7 +132,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -130,7 +152,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek uses double article construction 'τὸν τοῦ Ζεβεδαίου'; Peshitta uses construct state 'ܒܪ ܙܒܕܝ' (son of Zebedee); Vulgate uses simple genitive 'Zebedæi' - all express same patronymic relationship"
+      "type": "construction",
+      "note": "Greek employs a double-article construction (τὸν τοῦ Ζεβεδαίου, 'the [son] of Zebedee') to mark patronymic relationship. Syriac uses the bound-state construct ܒܪ ܙܒܕܝ ('son-of Zebedee'), while Latin uses a simple genitive (Zebedæi) without an explicit 'son' noun—all three convey identical filiation semantics through language-specific syntax."
     },
     {
       "greek_nt": [
@@ -142,35 +165,28 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Peshitta combines conjunction and name in single token 'ܘܠܝܘܚܢܢ'"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12,
         13
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        8,
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an article + appositive noun phrase (τὸν ἀδελφὸν αὐτοῦ, 'the brother of him') to specify John's relationship to James. Latin mirrors this with fratrem ejus. Syriac employs a pronominal suffix on the noun ܐܚܘܗܝ ('his-brother'), a typical Semitic possessive construction—semantically equivalent but morphologically distinct."
     },
     {
       "greek_nt": [
@@ -186,7 +202,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Greek 'καὶ αὐτοὺς' (and they/them); Peshitta 'ܘܐܦ ܠܗܘܢ' (and also them) adds emphatic particle; Vulgate 'et ipsos' (and themselves) uses intensive pronoun"
+      "type": "expansion",
+      "note": "The Peshitta inserts ܘܐܦ ('and also') before the pronoun ܠܗܘܢ ('them'), adding mild emphasis absent in the Greek καὶ αὐτούς and Latin et ipsos. This is a stylistic intensification typical of Syriac narrative prose, not a substantive semantic shift."
     },
     {
       "greek_nt": [
@@ -202,33 +219,26 @@
         16
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek/Vulgate place prepositional phrase after verb; Peshitta integrates preposition in single token 'ܒܣܦܝܢܬܐ' (in the boat)"
+      "type": "word-order",
+      "note": "Greek and Latin place the prepositional phrase 'in the boat' (ἐν τῷ πλοίῳ / in navi) after the pronoun and before the participle. Syriac ܒܣܦܝܢܬܐ ('in-the-boat') appears in the same syntactic slot but without a separate preposition—the ܒ- prefix serves as both preposition and article, a morphological compression standard in Syriac."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20,
         21
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        13,
         14
       ],
       "variant": "minor",
-      "note": "Peshitta 'ܡܨܝܕܬܗܘܢ' includes possessive suffix (their nets); Greek and Vulgate use article without possessive"
+      "type": "construction",
+      "note": "Greek uses a present active participle (καταρτίζοντας τὰ δίκτυα, 'adjusting the nets') with article + plural noun. Latin employs a present active participle (componentes retia) without article. Syriac uses a relative-clause construction ܕܡܬܩܢܝܢ ܡܨܝܕܬܗܘܢ ('who were-preparing their-nets') with a pronominal suffix on the noun—syntactically distinct but semantically parallel."
     },
     {
       "greek_nt": [],
@@ -236,14 +246,15 @@
       "vulgate": [
         17
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present as token in other traditions"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate closes the verse with a colon, signaling syntactic continuation into the following verse. Neither Greek nor Syriac manuscripts employ equivalent punctuation at this juncture, though the sense remains continuous across all three traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.729017+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.946270+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

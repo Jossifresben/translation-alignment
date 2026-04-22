@@ -75,7 +75,8 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,7 +91,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs article + noun + possessive pronoun (οἱ μαθηταὶ αὐτοῦ); Vulgate uses bare noun + possessive genitive (discipuli ejus); Peshitta attaches the pronominal suffix directly to the noun (ܬܠܡܝܕܘܗܝ), a standard Semitic construction semantically equivalent to both."
     },
     {
       "greek_nt": [
@@ -104,7 +107,8 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -119,7 +123,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition + article + noun (εἰς τὴν πόλιν); Latin mirrors this with preposition + noun (in civitatem); Syriac employs preposition + definite noun with emphatic state marker (ܠܡܕܝܢܬܐ), functionally equivalent but morphologically distinct."
     },
     {
       "greek_nt": [],
@@ -128,7 +134,8 @@
         8
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'civitatem', creating a stronger pause before the discovery clause. Neither Greek nor Peshitta manuscripts transmit punctuation at this juncture, maintaining continuous narrative flow with simple conjunction."
     },
     {
       "greek_nt": [
@@ -142,44 +149,28 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Greek καθώς vs Syriac ܐܝܟܢܐ vs Latin sicut: synonymous comparative conjunctions"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
+        13,
         14
       ],
       "peshitta": [
+        5,
+        6,
         7
       ],
       "vulgate": [
+        11,
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the comparative conjunction before the verb (καθὼς εἶπεν αὐτοῖς); Vulgate follows this order (sicut dixerat illis); Peshitta uses the typical Semitic pattern with ܐܝܟܢܐ ܕ- ('just as') + verb + indirect object, semantically identical but reflecting Syriac syntactic norms."
     },
     {
       "greek_nt": [
@@ -193,7 +184,8 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -206,13 +198,15 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun (τὸ πάσχα); Latin employs bare noun (Pascha); Peshitta uses the emphatic state (ܦܨܚܐ) which functions as the definite article in Syriac, making all three semantically definite despite morphological differences."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.830895+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.037221+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -74,7 +74,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek initial καὶ omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek opens with καὶ ('and'), linking this verse to the preceding discourse. Both Peshitta and Vulgate omit this initial conjunction, treating the verse as a new independent statement."
     },
     {
       "greek_nt": [
@@ -86,7 +87,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,7 +100,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -113,7 +116,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -127,43 +131,39 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the preposition εἰς with accusative θάνατον ('unto death'); Vulgate mirrors this with in mortem; Peshitta employs the simple prepositional prefix ܠ attached to ܡܘܬܐ, a more compact Semitic construction expressing the same directional sense."
     },
     {
       "greek_nt": [
         7
-      ],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Greek καὶ before πατὴρ omitted in Peshitta, retained as et in Vulgate"
-    },
-    {
-      "greek_nt": [
-        8
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        7
+        6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        7,
         8
       ],
       "variant": "minor",
-      "note": "Greek τέκνον (child, neuter) vs Peshitta ܠܒܪܗ (son) vs Vulgate filium (son); semantic narrowing in Syriac/Latin"
+      "type": "lexical",
+      "note": "Greek uses τέκνον (neuter, 'child'), a generic term; Vulgate employs filium (masculine, 'son'); Peshitta uses ܒܪܗ ('his son'), specifying both gender and possessive relationship. The Syriac and Latin traditions narrow the semantic range to male offspring, whereas Greek remains gender-neutral."
     },
     {
       "greek_nt": [],
@@ -172,18 +172,21 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate colon punctuation mark, no textual equivalent"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after filium, creating a stronger syntactic break between the two clauses. Neither Greek nor Peshitta manuscripts transmit punctuation at this juncture, maintaining smoother continuity between the parallel betrayal statements."
     },
     {
       "greek_nt": [
         10
       ],
-      "peshitta": [],
+      "peshitta": [
+        7
+      ],
       "vulgate": [
         10
       ],
-      "variant": "minor",
-      "note": "Greek καὶ omitted in Peshitta, retained as et in Vulgate"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -195,7 +198,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -207,7 +211,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -222,41 +227,56 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses γονεῖς ('parents', gender-neutral plural); Vulgate employs parentes (likewise neutral); Peshitta uses ܐܒܗܝܗܘܢ ('their fathers'), a masculine plural that may function as a collective for 'parents' in Semitic idiom but literally denotes paternal figures. This reflects typical Syriac preference for gendered kinship terms over abstract plurals."
     },
     {
       "greek_nt": [
         15
       ],
-      "peshitta": [],
+      "peshitta": [
+        11
+      ],
       "vulgate": [
         15
       ],
-      "variant": "minor",
-      "note": "Greek καὶ omitted in Peshitta, retained as et in Vulgate"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
         16,
         17
       ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple future θανατώσουσιν ('they will put to death'); Peshitta mirrors this with ܘܢܡܝܬܘܢ (causative future); Vulgate employs a periphrastic construction morte afficient ('with death they will afflict'), using the noun morte in ablative of means. The Latin construction is more verbose but semantically equivalent."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        16,
-        17,
         18
       ],
-      "variant": "minor",
-      "note": "Vulgate morte afficient (periphrastic) vs Greek θανατώσουσιν (single verb); same meaning, stylistic variation"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.824182+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.030101+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

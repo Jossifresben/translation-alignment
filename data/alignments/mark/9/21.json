@@ -79,27 +79,21 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits conjunction; begins mid-dialogue from previous verse"
+      "type": "omission",
+      "note": "The Vulgate omits the conjunction καί / ܘ ('and') that opens this verse in both Greek and Peshitta, likely because the Latin tradition treats this as a continuation of the father's plea rather than a new narrative unit."
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek/Peshitta have 'asked'; Vulgate continues father's speech from v21 about spirit's destructive acts"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        0,
         1
       ],
       "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta explicitly names Jesus as subject; Greek/Vulgate use pronouns or context"
+      "variant": "major",
+      "type": "substitution",
+      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the question, whereas Greek uses an unmarked third-person verb ἐπηρώτησεν and the Vulgate omits this entire interrogative clause, replacing it with a description of the demon's destructive actions (frequenter eum in ignem... misit)."
     },
     {
       "greek_nt": [
@@ -111,32 +105,22 @@
         2
       ],
       "vulgate": [],
-      "variant": "major",
-      "note": "Greek/Peshitta: Jesus asks father; Vulgate: father continues describing spirit throwing son into fire/water"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         5,
         6,
-        7
-      ],
-      "peshitta": [
-        3,
-        4,
-        5
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek/Peshitta: 'How long has this been?'; Vulgate: 'frequently' (temporal adverb modifying 'threw')"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9,
         10,
         11
       ],
       "peshitta": [
+        3,
+        4,
+        5,
         6,
         7,
         8,
@@ -144,7 +128,8 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Greek/Peshitta: 'since this happened to him'; Vulgate: describes throwing into fire and water"
+      "type": "omission",
+      "note": "The Vulgate entirely omits Jesus' question about the duration of the boy's affliction (πόσος χρόνος ἐστὶν ὡς τοῦτο γέγονεν αὐτῷ / ܕܟܡܐ ܠܗ ܙܒܢܐ ܗܐ ܡܢ ܕܗܟܢܐ ܗܘ), instead inserting a vivid description of the spirit's violence not present in this verse in Greek or Peshitta."
     },
     {
       "greek_nt": [],
@@ -165,39 +150,25 @@
         12
       ],
       "variant": "added",
-      "note": "Vulgate inserts father's plea: 'frequently threw him into fire and water to destroy him; but if you can do anything, help us, having mercy on us'"
+      "type": "expansion",
+      "note": "The Vulgate inserts et frequenter eum in ignem, et in aquas misit ut eum perderet ('and frequently it cast him into fire and into water to destroy him'), material drawn from Mark 9:22a in the Greek tradition but placed here instead of in the father's response, fundamentally restructuring the dialogue."
     },
     {
       "greek_nt": [
         12,
-        13
+        13,
+        14
       ],
-      "peshitta": [],
+      "peshitta": [
+        10,
+        11
+      ],
       "vulgate": [
         13
       ],
       "variant": "minor",
-      "note": "Greek article + δέ; Vulgate 'sed' (but); Peshitta omits transitional particle"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek/Peshitta: father 'said'; Vulgate: continues father's conditional plea"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds dative pronoun 'to him'"
+      "type": "construction",
+      "note": "Greek uses the article + δέ construction (ὁ δὲ εἶπεν) to mark the father's response; Peshitta employs a simple verb ܐܡܪ ܠܗ ('he said to him'); Vulgate uses sed ('but') as a contrastive particle, reflecting its repositioned material."
     },
     {
       "greek_nt": [
@@ -211,7 +182,8 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Greek/Peshitta: answer 'from childhood'; Vulgate: father's plea 'if you can do anything, help us'"
+      "type": "substitution",
+      "note": "Greek and Peshitta preserve the father's answer about the affliction's duration (ἐκ παιδιόθεν / ܗܐ ܡܢ ܛܠܝܘܬܗ, 'from childhood'), but the Vulgate replaces this with the father's plea sed si quid potes, adiuva nos, misertus nostri ('but if you can do anything, help us, having mercy on us'), transposing material from Mark 9:22b."
     },
     {
       "greek_nt": [],
@@ -226,13 +198,14 @@
         20
       ],
       "variant": "added",
-      "note": "Vulgate continues father's plea through end of verse; Greek/Peshitta place this material in v22"
+      "type": "harmonisation",
+      "note": "The Vulgate's sed si quid potes, adiuva nos, misertus nostri harmonises with Mark 9:22b in the Greek textual tradition, relocating the father's appeal for compassion to this verse rather than preserving the question-and-answer structure attested in Greek and Peshitta."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.788331+00:00",
-    "confidence": 0.4,
+    "generated_at": "2026-04-22T12:17:08.002962+00:00",
+    "confidence": 0.75,
     "schema_version": 1
   }
 }

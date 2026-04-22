@@ -69,7 +69,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + postpositive conjunction (ὁ δέ); Peshitta mirrors this with pronoun + ܕܝܢ; Vulgate employs a relative pronoun (Qui) without conjunction, creating a smoother Latin period."
     },
     {
       "greek_nt": [
@@ -82,7 +84,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek στυγνάζω (become gloomy/sad) vs Vulgate contristatus (saddened); Peshitta ܐܬܟܡܪ (became dark/gloomy) closer to Greek nuance"
+      "type": "lexical",
+      "note": "Greek στυγνάσας (aorist participle, 'having become gloomy/dark-faced') is rendered by Peshitta ܐܬܟܡܪ (ethpe'el, 'became dark/sad') and Vulgate contristatus (perfect passive participle, 'having been saddened'), both capturing the emotional state but with slightly different semantic nuances—Greek emphasizes facial expression, Latin internal affect."
     },
     {
       "greek_nt": [
@@ -99,7 +102,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta adds demonstrative ܗܕܐ (this) not in Greek/Vulgate; Greek uses prepositional phrase ἐπὶ τῷ λόγῳ"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐπὶ τῷ λόγῳ ('at the word'); Peshitta adds demonstrative ܗܕܐ ('this') yielding ܒܡܠܬܐ ܗܕܐ ('at this word'), making the reference more explicit; Vulgate in verbo mirrors Greek structure without demonstrative."
     },
     {
       "greek_nt": [
@@ -125,7 +129,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses participial construction ܟܕ ܥܝܝܩܐ (while grieving) matching Greek λυπούμενος structure"
+      "type": "construction",
+      "note": "Greek uses present middle participle λυπούμενος ('grieving') coordinated asyndetically with the main verb; Peshitta employs circumstantial ܟܕ + adjective ܥܝܝܩܐ ('while distressed'), a typical Syriac construction for simultaneous action; Vulgate mœrens (present participle) parallels Greek syntax."
     },
     {
       "greek_nt": [],
@@ -134,26 +139,59 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds pronominal suffix ܠܗ (to him) not in Greek/Vulgate"
+      "type": "gloss",
+      "note": "Peshitta inserts pronominal suffix ܠܗ ('to him') as dative of possession, making the possessive relationship explicit where Greek and Latin rely on the participial construction ἔχων/habens to imply the subject."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon to mark the clause boundary before the explanatory γάρ clause, a Latin stylistic convention not reflected in Greek or Syriac manuscript traditions."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        8
       ],
       "peshitta": [
         9,
-        10,
+        10
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek periphrastic imperfect ἦν ἔχων ('he was having') is rendered by Peshitta with existential particle ܐܝܬ + ܗܘܐ ('there was to him'), a standard Syriac possessive idiom; Vulgate erat habens mirrors Greek periphrastic structure exactly."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
         12
       ],
       "vulgate": [
-        7,
-        8,
+        8
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places causal γάρ in second position (postpositive); Peshitta ܓܝܪ appears after the possessive construction; Vulgate enim follows standard Latin postpositive placement after the verb—all functionally equivalent but reflecting each language's syntactic constraints."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [
         9
       ],
       "variant": "minor",
-      "note": "Peshitta uses existential construction ܐܝܬ ܗܘܐ (there was) with ܓܝܪ; word order variation"
+      "type": "construction",
+      "note": "Greek participle ἔχων is part of the periphrastic construction; Peshitta absorbs this into the ܐܝܬ ܗܘܐ ܠܗ idiom (no separate verb 'to have'); Vulgate habens maintains the participial form parallel to Greek."
     },
     {
       "greek_nt": [],
@@ -162,7 +200,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds second pronominal suffix ܠܗ (to him) for emphasis"
+      "type": "gloss",
+      "note": "Peshitta repeats pronominal suffix ܠܗ ('to him') with the noun ܢܟܣܐ, reinforcing the possessive relationship—a characteristic Syriac redundancy for emphasis not present in Greek or Latin."
     },
     {
       "greek_nt": [
@@ -177,22 +216,23 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places adjective πολλά after noun κτήματα; Peshitta ܢܟܣܐ ܣܓܝܐܐ follows the same noun-adjective order; Vulgate inverts to multas possessiones (adjective-noun), conforming to classical Latin emphasis patterns."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        6
+        11
       ],
-      "variant": "omitted",
-      "note": "Vulgate punctuation colon not represented in Greek/Peshitta syntax"
+      "variant": "aligned"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.796062+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.010642+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

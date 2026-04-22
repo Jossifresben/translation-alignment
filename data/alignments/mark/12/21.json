@@ -73,7 +73,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + ordinal adjective (ὁ δεύτερος); Peshitta employs a prefixed conjunction-relative construction (ܘܕܬܪܝܢ, 'and-the-second'); Vulgate omits the article, using bare ordinal secundus. All three convey identical referential meaning with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -102,7 +104,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction + aorist verb (καὶ ἀπέθανεν); Peshitta employs simple waw-consecutive perfect (ܘܡܝܬ); Vulgate expands with conjunction + perfect passive participle + auxiliary (et mortuus est). The Vulgate's analytic construction reflects Latin's preference for compound verb forms where Greek and Syriac use synthetic morphology."
     },
     {
       "greek_nt": [
@@ -112,49 +116,32 @@
       "vulgate": [
         7
       ],
-      "variant": "omitted",
-      "note": "Vulgate colon punctuation; Peshitta omits coordinating conjunction before negative clause"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after mortuus est, creating a stronger pause before the negative clause. Greek uses simple conjunction καί; Peshitta has no equivalent punctuation marker, flowing directly into the temporal clause with ܟܕ."
     },
     {
       "greek_nt": [
-        7,
-        8
+        8,
+        9,
+        10
       ],
       "peshitta": [
         3,
         4,
-        5
-      ],
-      "vulgate": [
-        8,
-        9
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܟܕ ܐܦ ܠܐ (when also not) for emphatic negation; Greek καὶ μὴ; Vulgate et nec"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
+        5,
+        6,
         7
       ],
       "vulgate": [
+        8,
+        9,
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek employs negative participle with emphatic pronoun (μὴ αὐτὸς καταλιπών, 'not he himself having left'); Peshitta uses temporal clause with double negation and independent pronoun (ܟܕ ܐܦ ܠܐ ܗܘ ܫܒܩ, 'when also not he left'); Vulgate mirrors Greek structure with negative conjunction + demonstrative + participle (nec iste reliquit). The Peshitta's ܐܦ ('also/even') intensifies the negation beyond what Greek or Latin express, suggesting emphatic rhetorical force."
     },
     {
       "greek_nt": [
@@ -181,7 +168,9 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction + article + ordinal (καὶ ὁ τρίτος); Peshitta employs prefixed conjunction-relative (ܘܕܬܠܬܐ); Vulgate uses conjunction + bare ordinal (Et tertius). Identical pattern to token group 0–2, reflecting consistent translation strategy across the verse."
     },
     {
       "greek_nt": [
@@ -198,8 +187,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.818096+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.024168+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

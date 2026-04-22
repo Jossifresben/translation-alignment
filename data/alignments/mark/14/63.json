@@ -71,35 +71,28 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܪܒ ܟܗܢܐ (chief priest) as compound; Vulgate 'Summus sacerdos' is superlative; Greek δὲ and Peshitta ܕܝܢ and Vulgate 'autem' all mark discourse transition"
+      "type": "word-order",
+      "note": "Greek places the article and conjunction before the noun (ὁ δὲ ἀρχιερεύς); Peshitta inverts the order, placing the postpositive particle after the noun (ܪܒ ܟܗܢܐ ܕܝܢ); Vulgate follows Greek word order (Summus autem sacerdos). All three are semantically equivalent despite syntactic variation."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5,
         6
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        3,
         4,
         5
       ],
       "variant": "minor",
-      "note": "Greek χιτῶνας (tunics/inner garments) vs Vulgate 'vestimenta' (general garments); Peshitta ܟܘܬܝܢܗ includes pronominal suffix; Vulgate 'sua' is separate possessive"
+      "type": "lexical",
+      "note": "Greek uses the plural χιτῶνας ('garments/tunics') with article and possessive pronoun; Vulgate employs the plural vestimenta sua; Peshitta uses the singular ܟܘܬܝܢܗ ('his tunic') with pronominal suffix, a typical Syriac idiom treating garments as a collective singular."
     },
     {
       "greek_nt": [
@@ -113,46 +106,30 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܐܡܪ includes conjunction 'and'; Vulgate adds colon as punctuation"
+      "type": "punctuation",
+      "note": "Greek λέγει includes the colon as part of the verb token; Peshitta ܘܐܡܪ ('and he said') prefixes the conjunction waw; Vulgate separates ait from the colon as distinct tokens. The Peshitta's conjunctive prefix represents a stylistic preference for narrative continuity."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
+        9,
         10,
         11
       ],
       "peshitta": [
+        6,
+        7,
         8,
         9
       ],
       "vulgate": [
+        8,
+        9,
         10
       ],
       "variant": "minor",
-      "note": "Greek χρείαν ἔχομεν (need have-we) vs Peshitta ܡܬܒܥܝܢ ܠܢ (are-required to-us) vs Vulgate 'desideramus' (we-desire); different verbal constructions for same semantic content"
+      "type": "construction",
+      "note": "Greek employs the construction τί ἔτι χρείαν ἔχομεν ('what need do we still have') with the verb ἔχω governing the accusative χρείαν; Vulgate mirrors this with Quid adhuc desideramus ('what do we still desire'); Peshitta uses the passive participle ܡܬܒܥܝܢ ܠܢ ('are required to us') with the prepositional phrase, a distinct syntactic structure expressing the same rhetorical question."
     },
     {
       "greek_nt": [
@@ -170,8 +147,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.839644+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.044787+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

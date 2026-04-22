@@ -61,7 +61,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -70,15 +71,15 @@
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
         1,
         2
       ],
-      "variant": "aligned",
-      "note": "Greek article τὸ not represented separately in Peshitta/Vulgate; ܘܢܣܒ includes conjunction"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs an aorist participle with article and object (λαβὼν τὸ ποτήριον); Vulgate uses ablative absolute (accepto calice) without article; Peshitta uses simple perfect verb with direct object (ܘܢܣܒ ܟܣܐ). All three express identical semantics through tradition-specific participial or finite constructions."
     },
     {
       "greek_nt": [
@@ -93,7 +94,8 @@
         4
       ],
       "variant": "major",
-      "note": "Peshitta has doublet ܘܐܘܕܝ ܘܒܪܟ (gave thanks and blessed) vs. Greek single εὐχαριστήσας; Vulgate gratias agens is participial periphrasis"
+      "type": "expansion",
+      "note": "The Peshitta transmits a double formula (ܘܐܘܕܝ ܘܒܪܟ, 'and gave thanks and blessed'), expanding the single Greek εὐχαριστήσας and Latin gratias agens. This liturgical doublet reflects Syriac eucharistic tradition, distinguishing thanksgiving (ܐܘܕܝ) from blessing (ܒܪܟ), possibly harmonising with Jewish berakah formulae or parallel Last Supper accounts."
     },
     {
       "greek_nt": [
@@ -108,7 +110,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -116,8 +119,9 @@
       "vulgate": [
         7
       ],
-      "variant": "added",
-      "note": "Vulgate colon is punctuation, not lexical"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after eis, creating a stronger pause before the drinking clause. This punctuation choice emphasises the two-part structure (giving, then drinking) but does not alter the semantic content transmitted by Greek and Peshitta without such punctuation."
     },
     {
       "greek_nt": [
@@ -129,43 +133,36 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         8,
         9,
-        10
+        10,
+        11
       ],
       "peshitta": [
         6,
-        7
+        7,
+        8
       ],
       "vulgate": [
         9,
         10,
-        11
-      ],
-      "variant": "aligned",
-      "note": "ܘܐܫܬܝܘ combines conjunction with verb; ܡܢܗ = ἐξ αὐτοῦ = ex illo"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place πάντες/omnes in final position for emphasis (ἔπιον ἐξ αὐτοῦ πάντες / biberunt ex illo omnes); Peshitta integrates ܟܠܗܘܢ ('all of them') as the final element but with the verb-preposition-pronoun sequence collapsed into ܘܐܫܬܝܘ ܡܢܗ. The word order variation is stylistic, with all three traditions emphasising the totality of participation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.832120+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.038341+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

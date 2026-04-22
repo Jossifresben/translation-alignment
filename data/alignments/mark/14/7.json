@@ -87,7 +87,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -99,7 +100,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -112,49 +114,32 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3,
-        4
-      ],
-      "vulgate": [
-        3
-      ],
       "variant": "minor",
-      "note": "Peshitta uses existential ܐܝܬ + dative ܠܟܘܢ construction vs. Greek/Latin 'have'"
+      "type": "grammar",
+      "note": "Greek employs the definite article with the accusative plural τοὺς πτωχούς, whereas Syriac ܡܣܟܢܐ and Latin pauperes lack the article, reflecting typical Semitic and Latin usage where definiteness is contextually determined rather than morphologically marked."
     },
     {
       "greek_nt": [
+        4,
         5,
         6
       ],
       "peshitta": [
+        3,
+        4,
         5
       ],
       "vulgate": [
+        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the verb ἔχετε with prepositional phrase μεθ᾽ ἑαυτῶν ('you have with yourselves'); Syriac employs the existential particle ܐܝܬ with dative ܠܟܘܢ and prepositional phrase ܥܡܟܘܢ ('there is to you with you'); Latin uses habetis vobiscum, mirroring Greek structure but with a single prepositional object."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9
       ],
@@ -163,147 +148,93 @@
         7
       ],
       "vulgate": [
-        7,
-        8
+        6,
+        7
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܐܡܬܝ ܕܨܒܝܢ conflates conjunction with temporal clause; Vulgate cum volueritis is temporal-conditional"
+      "type": "word-order",
+      "note": "Greek places the conjunction καὶ before the temporal clause ὅταν θέλητε; Syriac and Latin use coordinating conjunctions (ܘ / et) followed by temporal subordinators (ܐܡܬܝ ܕ / cum), with Syriac compounding the temporal marker into a single token."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        10
+      ],
       "peshitta": [
         8,
+        9,
         10
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬܘܢ twice for emphasis (you-yourselves)"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        9
       ],
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Greek δύνασθε is a simple second-person plural verb; Syriac ܡܫܟܚܝܢ ܐܢܬܘܢ explicitly includes the independent pronoun ܐܢܬܘܢ twice (tokens 8 and 10), a characteristic Syriac construction emphasizing the subject; Latin potestis mirrors Greek economy."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek πάντοτε (always) before εὖ ποιῆσαι omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
+        11,
+        12,
         13,
         14
       ],
       "peshitta": [
         11,
+        12,
         13
       ],
       "vulgate": [
+        10,
         11
       ],
       "variant": "minor",
-      "note": "Greek εὖ ποιῆσαι (do good) vs. Peshitta ܕܬܥܒܕܘܢ ܕܫܦܝܪ (do well/beautifully) vs. Vulgate benefacere (do good); stylistic variation"
+      "type": "word-order",
+      "note": "Greek places the adverb πάντοτε between the dative object αὐτοῖς and the adverbial εὖ modifying the infinitive ποιῆσαι; Syriac uses a subordinate clause ܕܬܥܒܕܘܢ ܠܗܘܢ ܕܫܦܝܪ with the adverbial ܕܫܦܝܪ ('that [is] good') following the verb; Latin compresses the phrase into the compound verb benefacere, omitting the separate adverb and temporal marker."
     },
     {
       "greek_nt": [
-        15
+        15,
+        16
       ],
       "peshitta": [
+        14,
+        15
+      ],
+      "vulgate": [
+        12,
+        13,
         14
       ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek and Syriac use adversative particles (δέ / ܕܝܢ) to mark the contrast; Latin employs autem and precedes it with a colon (token 12), creating a stronger syntactic break that segments the verse into two balanced cola."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
+        18,
         19
       ],
       "peshitta": [
+        16,
+        17,
         18,
         19
       ],
       "vulgate": [
+        15,
+        16,
         17
       ],
-      "variant": "minor",
-      "note": "Peshitta ܐܝܬܝ ܠܘܬܟܘܢ (I am with you) expands with prepositional phrase vs. Greek/Latin simple 'have me'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5,
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate punctuation colons (not semantic content)"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek uses the simple negated verb οὐ πάντοτε ἔχετε ('you do not always have [me]'); Syriac expands with the existential construction ܠܐ ܒܟܠܙܒܢ ܐܝܬܝ ܠܘܬܟܘܢ ('I am not always with you'), adding the prepositional phrase ܠܘܬܟܘܢ ('with you') to make the locative sense explicit; Latin non semper habetis mirrors Greek concision."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.829263+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.035193+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

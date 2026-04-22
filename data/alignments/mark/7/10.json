@@ -77,7 +77,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -89,7 +90,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -99,60 +101,36 @@
         2
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'dixit' to mark the beginning of direct quotation, whereas Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. This reflects Latin scribal convention for introducing Old Testament citations."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5,
         6
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        4,
         5,
         6
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun + possessive; Peshitta/Vulgate use noun with pronominal suffix/possessive adjective"
+      "type": "construction",
+      "note": "Greek employs the article τὸν with accusative πατέρα σου; Latin mirrors this with accusative patrem tuum; Syriac uses the prefixed preposition ܠ (l-) with pronominal suffix ܐܒܘܟ, a standard Semitic construction lacking the article. All three express identical semantics through language-specific syntax."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "note": "Peshitta incorporates conjunction into compound form ܘܠܐܡܟ"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9,
         10
@@ -161,11 +139,13 @@
         5
       ],
       "vulgate": [
+        7,
         8,
         9
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun + possessive; Peshitta uses compound form with pronominal suffix"
+      "type": "construction",
+      "note": "Greek and Latin coordinate 'father' and 'mother' with explicit conjunction καὶ / et; Syriac employs the single compound form ܘܠܐܡܟ ('and-to-your-mother') with conjunctive waw prefixed directly to the noun, a typical Semitic asyndetic compression."
     },
     {
       "greek_nt": [
@@ -175,79 +155,47 @@
         6
       ],
       "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        10,
         11
-      ],
-      "variant": "added",
-      "note": "Vulgate adds second colon punctuation mark"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        12
       ],
       "variant": "minor",
-      "note": "Greek article ὁ substantivizes participle; Peshitta ܘܡܢ (and whoever); Vulgate Qui (whoever)"
+      "type": "punctuation",
+      "note": "Greek uses καὶ to introduce the second commandment clause; Latin inserts 'Et :' with a colon to mark a new quotation unit (likely reflecting Exodus 21:17 as distinct from Exodus 20:12); Syriac uses ܘܡܢ ('and-whoever'), integrating the conjunction with the relative pronoun in a single lexeme."
     },
     {
       "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
+        12,
         13
       ],
       "variant": "minor",
-      "note": "Greek κακολογῶν (speaking evil); Peshitta ܕܡܨܚܐ (reviles/curses); Vulgate maledixerit (curses) - semantic range variation"
+      "type": "construction",
+      "note": "Greek uses the articular participle ὁ κακολογῶν ('the one speaking evil'); Latin employs the relative pronoun with perfect subjunctive 'Qui maledixerit' ('whoever shall have cursed'); Syriac uses the relative particle ܕ with active participle ܡܨܚܐ ('who curses'). All three express the same conditional-relative sense through different syntactic strategies."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [],
-      "vulgate": [
-        15
-      ],
-      "variant": "minor",
-      "note": "Greek ἢ (or); Vulgate vel (or); Peshitta uses conjunction ܘ (and) in compound ܘܠܐܡܐ"
-    },
-    {
-      "greek_nt": [
+        14,
+        15,
         16
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        14,
+        15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek coordinates with ἢ ('or') between accusative nouns πατέρα and μητέρα; Latin mirrors this with 'vel' between datives patri and matri (dative of disadvantage); Syriac uses ܠܐܒܐ ܘܠܐܡܐ with conjunctive waw, expressing disjunction through context rather than explicit particle. The case difference (Greek accusative vs. Latin dative) reflects distinct verbal government."
     },
     {
       "greek_nt": [
@@ -262,14 +210,15 @@
         17,
         18
       ],
-      "variant": "aligned",
-      "note": "All three use cognate accusative construction: death + die"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the dative of manner θανάτῳ with imperative τελευτάτω ('let him end in death'); Latin employs the ablative of manner 'morte' with subjunctive 'moriatur' ('let him die by death'); Syriac uses the cognate accusative construction ܡܘܬܐ ܢܡܘܬ ('death let-him-die'), a standard Semitic intensifying idiom mirroring the Hebrew מוֹת יוּמָת. All three traditions preserve the Hebraic figura etymologica, though through different grammatical mechanisms."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.774007+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.988790+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

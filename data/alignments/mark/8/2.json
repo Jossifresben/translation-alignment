@@ -73,34 +73,27 @@
         0
       ],
       "variant": "minor",
-      "note": "Peshitta adds explicit pronoun ܐܢܐ (I am) with participle ܡܬܪܚܡ; Greek and Latin use finite verb forms"
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܐ ('I') after the participle ܡܬܪܚܡ, a common Syriac stylistic feature for emphasis or clarity, whereas Greek σπλαγχνίζομαι and Latin Misereor encode the first-person subject morphologically without requiring an independent pronoun."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        1,
         2,
         3
       ],
       "peshitta": [
+        2,
         3,
         4
       ],
       "vulgate": [
+        1,
         2
       ],
       "variant": "minor",
-      "note": "Peshitta adds demonstrative ܗܢܐ (this); Greek has article; Vulgate lacks both"
+      "type": "construction",
+      "note": "Greek uses the preposition ἐπὶ with the article and accusative noun (ἐπὶ τὸν ὄχλον); Latin employs super with accusative (super turbam); Syriac uses ܥܠ with the noun ܟܢܫܐ and adds the demonstrative ܗܢܐ ('this'), a typical Semitic construction for definiteness where Greek and Latin use the article or context alone."
     },
     {
       "greek_nt": [
@@ -110,37 +103,31 @@
         5
       ],
       "vulgate": [
+        3,
         4
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܗܐ (behold) vs Greek ὅτι (because) vs Vulgate quia (because) + ecce (behold)"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after turbam, creating a stronger syntactic break before the causal clause, whereas Greek ὅτι and Syriac ܕܗܐ introduce the clause without punctuation. The Syriac ܕܗܐ ('behold that') combines the causal and presentative functions, mirroring the Vulgate's quia ecce construction."
     },
     {
       "greek_nt": [
-        5
+        5,
+        6,
+        7
       ],
-      "peshitta": [],
+      "peshitta": [
+        6,
+        7
+      ],
       "vulgate": [
         5,
-        6
-      ],
-      "variant": "minor",
-      "note": "Greek ἤδη (already) absent in Peshitta; Vulgate has ecce jam (behold already)"
-    },
-    {
-      "greek_nt": [
         6,
         7
       ],
-      "peshitta": [
-        6,
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "note": "Vulgate uses compound triduo (three days) vs Greek/Peshitta separate numeral + noun"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses the adverb ἤδη ('already') followed by the nominative plural ἡμέραι τρεῖς ('three days'); Syriac omits any equivalent to ἤδη and uses the construct state ܬܠܬܐ ܝܘܡܝܢ ('three days'); the Vulgate substitutes the single adverbial noun triduo ('for a three-day period'), a Latin idiom that compresses the Greek temporal expression into a single accusative of duration."
     },
     {
       "greek_nt": [
@@ -164,55 +151,47 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek conjunction καὶ (and) omitted in Peshitta and Vulgate before negative clause"
+      "type": "omission",
+      "note": "Greek includes the coordinating conjunction καὶ ('and') to link the two clauses describing the crowd's situation, whereas both Syriac and Latin omit any explicit conjunction, allowing the negative clause to follow asyndetically for rhetorical effect."
     },
     {
       "greek_nt": [
         11,
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        10,
-        11
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses negative existential ܘܠܝܬ (and there is not); Greek οὐκ ἔχουσιν (not have); Vulgate nec habent (nor have)"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14
       ],
       "peshitta": [
+        10,
         11,
         12,
         13
       ],
       "vulgate": [
+        10,
+        11,
         12,
         13
       ],
       "variant": "minor",
-      "note": "Peshitta adds pronominal suffix ܠܗܘܢ (to them) and uses ܡܢܐ (what); Greek τί φάγωσιν; Vulgate quod manducent"
+      "type": "construction",
+      "note": "Greek uses the negative particle οὐκ with ἔχουσιν and the interrogative pronoun τί in a double-accusative construction ('they have not what'); Syriac employs the negative existential ܘܠܝܬ ܠܗܘܢ ('and there is not to them') with the interrogative ܡܢܐ, a typical Semitic possessive construction; Latin uses nec habent quod with the subjunctive manducent, a relative clause of characteristic common in classical usage."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        3,
         14
       ],
       "variant": "added",
-      "note": "Vulgate adds punctuation colons not present as tokens in Greek/Peshitta"
+      "type": "punctuation",
+      "note": "The Vulgate appends a closing colon after manducent, marking the end of the direct discourse, whereas neither Greek nor Syriac manuscripts typically employ such terminal punctuation in this context."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.778552+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.993930+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

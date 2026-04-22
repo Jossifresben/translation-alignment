@@ -62,7 +62,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -75,8 +76,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Greek article + noun; Peshitta prefixes conjunction to noun; Vulgate noun only"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs the article οἱ before ἀστέρες (nominative plural); Syriac ܘܟܘܟܒܐ conflates the conjunction and noun without a separate article (Syriac lacks the definite article as a separate morpheme); Vulgate stellæ likewise omits the article, following Latin's articleless syntax."
     },
     {
       "greek_nt": [
@@ -97,7 +99,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek periphrastic future 'will be falling from heaven'; Peshitta/Vulgate simple future 'will fall from heaven'; Vulgate uses genitive 'stellae caeli' vs Greek/Peshitta prepositional phrase"
+      "type": "construction",
+      "note": "Greek uses a periphrastic future construction (ἔσονται ... πίπτοντες, 'will be falling') with the present participle; both Syriac ܢܦܠܘܢ and Vulgate erunt decidentes employ simple future forms with participial/gerundive complements, yielding semantically equivalent but syntactically distinct renderings of the same eschatological imagery."
     },
     {
       "greek_nt": [
@@ -109,7 +112,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,8 +126,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "note": "Greek article + noun; Peshitta prefixes conjunction to noun; Vulgate noun only"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek αἱ δυνάμεις uses the feminine plural article with δυνάμεις ('powers'); Syriac ܘܚܝܠܘܬܐ conflates the conjunction with the noun in the emphatic state (functioning as definite); Vulgate virtutes omits the article per Latin syntax, though the noun remains definite by context."
     },
     {
       "greek_nt": [
@@ -141,7 +146,25 @@
         9
       ],
       "variant": "minor",
-      "note": "Greek uses articular participle construction 'the [powers] that are in the heavens'; Peshitta uses construct state 'powers of heaven'; Vulgate uses relative clause 'quae in caelis sunt'"
+      "type": "construction",
+      "note": "Greek employs a double-articulated construction (αἱ ἐν τοῖς οὐρανοῖς, 'the [ones] in the heavens') with the article repeated before the prepositional phrase; Vulgate mirrors this with a relative clause (quæ in cælis sunt); Syriac uses a simple genitive construct (ܕܫܡܝܐ, 'of heaven[s]'), a more compact idiom typical of Semitic syntax."
+    },
+    {
+      "greek_nt": [
+        6,
+        14
+      ],
+      "peshitta": [
+        3,
+        5
+      ],
+      "vulgate": [
+        2,
+        9
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek alternates between singular οὐρανοῦ (genitive, 'from heaven') and plural οὐρανοῖς (dative, 'in the heavens'); Syriac uses ܫܡܝܐ (singular/plural ambiguous in emphatic state) in both instances; Vulgate employs genitive cæli and plural cælis, preserving the Greek's number distinction but redistributing it across different syntactic slots."
     },
     {
       "greek_nt": [
@@ -154,14 +177,15 @@
         10,
         11
       ],
-      "variant": "aligned",
-      "note": "All traditions use passive future 'will be shaken/moved'; Vulgate splits verb across periphrastic construction"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek σαλευθήσονται is a simple future passive ('will be shaken'); Vulgate movebuntur is likewise future passive but uses a different verb root (moveo vs. σαλεύω); Syriac ܢܬܬܙܝܥܘܢ employs the ethpael (reflexive-passive) stem, semantically equivalent but morphologically distinct from the Greek passive construction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.826122+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.032127+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

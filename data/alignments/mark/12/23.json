@@ -71,7 +71,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase with article (ἐν τῇ ἀναστάσει); Vulgate mirrors with prepositional phrase (In resurrectione); Syriac employs bare prepositional phrase without article (ܒܩܝܡܬܐ), reflecting typical Semitic lack of definite article in such constructions."
     },
     {
       "greek_nt": [
@@ -83,7 +85,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -96,7 +99,8 @@
         4
       ],
       "variant": "omitted",
-      "note": "Peshitta omits temporal clause 'when they rise'; Greek ὅταν ἀναστῶσιν and Vulgate cum resurrexerint absent"
+      "type": "omission",
+      "note": "Greek includes temporal clause ὅταν ἀναστῶσιν ('when they rise'), mirrored by Vulgate cum resurrexerint; Peshitta omits this subordinate clause entirely, proceeding directly to the interrogative, creating a more compressed syntax."
     },
     {
       "greek_nt": [
@@ -113,7 +117,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Vulgate expands with 'de his' (of these); Greek τίνος αὐτῶν and Peshitta ܕܐܝܢܐ ܡܢܗܘܢ more concise"
+      "type": "word-order",
+      "note": "Greek uses genitive interrogative τίνος αὐτῶν ('of which of them'); Syriac mirrors with ܕܐܝܢܐ ܡܢܗܘܢ in same order; Vulgate expands to cujus de his ('of which from these'), inserting prepositional phrase de his for emphasis or clarity."
     },
     {
       "greek_nt": [
@@ -125,7 +130,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -138,46 +144,69 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         10,
-        11,
         12
       ],
       "peshitta": [
-        6,
-        7
+        6
       ],
       "vulgate": [
-        11,
-        12
+        11
       ],
       "variant": "minor",
-      "note": "Greek article οἱ absent in Peshitta and Vulgate; word order varies (γὰρ position)"
+      "type": "construction",
+      "note": "Greek uses article + numeral (οἱ ἑπτά, 'the seven'); Vulgate uses bare numeral septem; Syriac employs pronominal suffix construction ܫܒܥܬܝܗܘܢ ('seven-of-them'), integrating the pronoun morphologically rather than as separate word."
     },
     {
       "greek_nt": [
-        13,
-        14,
-        15
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        13
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        13,
+        13
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
-      "variant": "aligned"
+      "peshitta": [],
+      "vulgate": [
+        14,
+        15
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses pronoun + noun in accusative (αὐτὴν γυναῖκα, 'her as wife'); Vulgate mirrors with eam uxorem; Syriac incorporates the object pronoun as verbal suffix on ܢܣܒܘܗ ('they-took-her'), omitting separate noun for 'wife' as semantically redundant given context."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.818376+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:08.024510+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

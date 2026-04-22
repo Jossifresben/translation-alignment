@@ -61,7 +61,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek uses genitive absolute construction (εἰπόντος αὐτοῦ), Vulgate uses cum + pluperfect subjunctive (cum dixisset), Peshitta uses simple conjunction with pronominal suffix (ܘܒܗ)"
+      "type": "construction",
+      "note": "Greek employs a genitive absolute construction (εἰπόντος αὐτοῦ, 'he having spoken'); Vulgate renders with a temporal cum-clause (cum dixisset, 'when he had said'); Peshitta uses a simple conjunction ܘܒܗ ('and in it/him'), omitting the explicit temporal participle but preserving narrative sequence through context."
     },
     {
       "greek_nt": [
@@ -73,7 +74,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εὐθύς ('immediately') and Latin statim are direct equivalents; Peshitta ܒܫܥܬܐ ('in that hour/moment') is a cognate temporal expression with slightly more concrete imagery but semantically identical urgency."
     },
     {
       "greek_nt": [
@@ -94,7 +97,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin place the verb before the subject (ἀπῆλθεν ... ἡ λέπρα / discessit ... lepra, 'departed the leprosy'); Peshitta inverts to subject-verb order (ܐܙܠ ܓܪܒܗ ܡܢܗ, 'went his leprosy from him'), a typical Semitic construction. Greek includes the definite article ἡ; Syriac uses a pronominal suffix on ܓܪܒܗ ('his leprosy'), achieving definiteness through possession."
     },
     {
       "greek_nt": [
@@ -109,13 +114,14 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.732533+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:07.950324+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

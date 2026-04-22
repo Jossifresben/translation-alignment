@@ -88,7 +88,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek uses three particles (ὁμοίως δὲ καὶ) for emphasis; Peshitta and Vulgate use two (ܘܗܟܢܐ ܐܦ / Similiter et)"
+      "type": "lexical",
+      "note": "Greek employs three particles (ὁμοίως δὲ καί) for transition and emphasis; Peshitta uses two (ܘܗܟܢܐ ܐܦ, 'and thus also'); Vulgate uses two (Similiter et, 'similarly and'). All convey the same transitional force with stylistic variation."
     },
     {
       "greek_nt": [
@@ -103,7 +104,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun (οἱ ἀρχιερεῖς, 'the chief priests'); Peshitta employs construct state (ܪܒܝ ܟܗܢܐ, 'chiefs of priests'); Vulgate uses adjective + noun (summi sacerdotes, 'highest priests'). Semantically equivalent, syntactically distinct."
     },
     {
       "greek_nt": [
@@ -117,7 +120,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܓܚܟܝܢ ܗܘܘ (were mocking) with auxiliary verb"
+      "type": "grammar",
+      "note": "Greek uses present participle (ἐμπαίζοντες, 'mocking'); Peshitta employs active participle with auxiliary verb (ܓܚܟܝܢ ܗܘܘ, 'were mocking'), forming a periphrastic construction; Vulgate uses present participle (illudentes). The Peshitta's periphrastic form emphasizes durative aspect."
     },
     {
       "greek_nt": [
@@ -134,7 +138,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܚܕ ܥܡ ܚܕ (one with one) for reciprocal; Greek πρὸς ἀλλήλους and Vulgate ad alterutrum are more compact"
+      "type": "idiom",
+      "note": "Greek πρὸς ἀλλήλους ('among one another') and Vulgate ad alterutrum ('to one another') use reciprocal pronouns; Peshitta employs the idiomatic ܚܕ ܥܡ ܚܕ ('one with one'), a characteristic Syriac construction for reciprocal action."
     },
     {
       "greek_nt": [
@@ -149,7 +154,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase with article (μετὰ τῶν γραμματέων, 'with the scribes'); Peshitta employs simple conjunction with noun (ܘܣܦܪܐ, 'and scribes'), treating scribes as coordinate subject; Vulgate uses preposition + noun (cum scribis). The Peshitta construction integrates the scribes more directly into the subject."
     },
     {
       "greek_nt": [
@@ -163,7 +170,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Vulgate adds colon punctuation as separate token"
+      "type": "punctuation",
+      "note": "Greek and Peshitta use imperfect verb forms (ἔλεγον, ܘܐܡܪܝܢ, 'were saying') without punctuation break; Vulgate inserts a colon after dicebant to introduce direct discourse, a Latin stylistic convention for marking quoted speech."
     },
     {
       "greek_nt": [
@@ -186,19 +194,12 @@
       ],
       "vulgate": [
         12,
-        13
+        13,
+        14
       ],
       "variant": "minor",
-      "note": "Vulgate uses periphrastic salvos fecit (made safe) for Greek aorist ἔσωσεν"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14
-      ],
-      "variant": "added",
-      "note": "Vulgate adds semicolon as separate token for punctuation"
+      "type": "construction",
+      "note": "Greek uses simple aorist verb (ἔσωσεν, 'he saved'); Peshitta uses simple perfect (ܐܚܝ, 'he saved'); Vulgate employs periphrastic construction salvos fecit ('he made safe'), a characteristic Latin idiom for expressing the concept of salvation through facere + adjective."
     },
     {
       "greek_nt": [
@@ -214,47 +215,30 @@
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
+        16,
         17
       ],
       "peshitta": [
+        14,
+        15,
         16
       ],
       "vulgate": [
+        16,
+        17,
         18,
         19
       ],
       "variant": "minor",
-      "note": "Vulgate uses periphrastic salvum facere (to make safe) for Greek infinitive σῶσαι"
+      "type": "construction",
+      "note": "Greek uses negative particle + finite verb + infinitive (οὐ δύναται σῶσαι, 'he is not able to save'); Peshitta mirrors this structure (ܠܐ ܡܫܟܚ ܠܡܚܝܘ); Vulgate employs non potest salvum facere, using the periphrastic salvum facere again and inserting an accusative adjective salvum to agree with the implied object seipsum, a Latin syntactic requirement."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.845594+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.050871+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

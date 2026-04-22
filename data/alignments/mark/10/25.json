@@ -71,7 +71,8 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,7 +84,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -103,7 +105,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek uses double article construction (τῆς τρυμαλιᾶς τῆς ῥαφίδος); Peshitta uses construct state (ܒܚܪܘܪܐ ܕܡܚܛܐ); Vulgate uses simple genitive (foramen acus)"
+      "type": "construction",
+      "note": "Greek employs a double-articulated genitive construction (διὰ τῆς τρυμαλιᾶς τῆς ῥαφίδος, 'through the eye of the needle') with two definite articles. Latin mirrors this with per foramen acus using a genitive without articles. Syriac uses a bound-state construction (ܒܚܪܘܪܐ ܕܡܚܛܐ, 'in-the-hole of-needle'), semantically equivalent but syntactically more compact."
     },
     {
       "greek_nt": [
@@ -116,7 +119,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek infinitive διελθεῖν follows the prepositional phrase; Peshitta ܕܢܥܘܠ precedes; Vulgate transire follows with comma"
+      "type": "word-order",
+      "note": "Greek places the infinitive διελθεῖν ('to pass') after the prepositional phrase, while Syriac fronts the verb ܕܢܥܘܠ ('that he enter') before the prepositional phrase as part of a relative construction. Latin transire follows the prepositional phrase, matching Greek word order but using a different infinitive form."
     },
     {
       "greek_nt": [
@@ -128,7 +132,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -140,7 +145,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -160,7 +166,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta uses pronominal suffix on ܠܡܠܟܘܬܗ ('his kingdom') rather than separate genitive construction"
+      "type": "construction",
+      "note": "Greek uses the preposition εἰς with the accusative article and noun (εἰς τὴν βασιλείαν τοῦ θεοῦ). Latin mirrors this with in regnum Dei. Syriac employs a pronominal suffix construction (ܠܡܠܟܘܬܗ ܕܐܠܗܐ, 'to-his-kingdom of-God'), where the suffix -ܗ ('his') anticipates the following genitive, a typical Semitic resumptive structure not present in Greek or Latin."
     },
     {
       "greek_nt": [
@@ -173,13 +180,14 @@
         9
       ],
       "variant": "minor",
-      "note": "Word order: Greek εἰσελθεῖν at end; Peshitta ܠܡܥܠ at end; Vulgate intrare before prepositional phrase"
+      "type": "word-order",
+      "note": "Greek places the second infinitive εἰσελθεῖν ('to enter') at the end of the sentence. Syriac ܠܡܥܠ ('to-enter') likewise appears finally. Latin intrare, however, precedes the prepositional phrase in regnum Dei, creating a different syntactic flow while preserving semantic equivalence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.801412+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.882717+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

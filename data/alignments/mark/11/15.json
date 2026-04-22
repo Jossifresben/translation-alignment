@@ -112,7 +112,8 @@
         3
       ],
       "variant": "omitted",
-      "note": "Peshitta omits the initial arrival clause 'And they come to Jerusalem'"
+      "type": "omission",
+      "note": "The Peshitta omits the opening clause 'And they come to Jerusalem' (καὶ ἔρχονται εἰς Ἱεροσόλυμα / Et veniunt in Jerosolymam), beginning instead directly with Jesus entering the temple. This streamlines the narrative by eliminating the transitional arrival notice."
     },
     {
       "greek_nt": [
@@ -130,32 +131,36 @@
       "greek_nt": [
         5,
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle with article and subject (εἰσελθὼν ὁ Ἰησοῦς, 'having entered, Jesus'); Vulgate employs a cum-clause with pluperfect subjunctive (cum introisset, 'when he had entered'); Peshitta simply names the subject (ܝܫܘܥ, 'Jesus') without explicit participial construction, relying on verb sequence to convey temporal succession."
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10
       ],
       "peshitta": [
-        1,
-        2
+        2,
+        3
       ],
       "vulgate": [
-        5,
-        6,
         7,
         8
       ],
-      "variant": "minor",
-      "note": "Vulgate adds 'cum' (when); Peshitta lacks article and uses simple verb form"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds 'of God' (ܕܐܠܗܐ) to 'temple'"
+      "variant": "major",
+      "type": "expansion",
+      "note": "The Peshitta adds the genitive phrase ܕܐܠܗܐ ('of God') to ܠܗܝܟܠܐ ('to the temple'), yielding 'the temple of God'—an expansion absent from both the Greek (εἰς τὸ ἱερόν) and the Vulgate (in templum). This theological clarification emphasizes divine ownership of the sanctuary."
     },
     {
       "greek_nt": [
@@ -175,42 +180,24 @@
     {
       "greek_nt": [
         13,
-        14
-      ],
-      "peshitta": [
-        6,
-        7
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
+        15,
         16,
         17
       ],
       "peshitta": [
+        6,
+        7,
         8
       ],
       "vulgate": [
+        11,
+        12,
         13
       ],
       "variant": "minor",
-      "note": "Peshitta combines buyers with sellers in single participial form ܘܡܙܒܢܝܢ"
+      "type": "construction",
+      "note": "Greek employs two articular participles (τοὺς πωλοῦντας καὶ τοὺς ἀγοράζοντας, 'those selling and those buying'); Vulgate mirrors this with two present participles (vendentes et ementes); Peshitta uses a relative pronoun with two participles (ܠܐܝܠܝܢ ܕܙܒܢܝܢ ܘܡܙܒܢܝܢ, 'those who were selling and buying'), a syntactically distinct but semantically equivalent construction."
     },
     {
       "greek_nt": [
@@ -228,15 +215,6 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "vulgate": [
-        16
-      ],
-      "peshitta": [],
-      "variant": "added",
-      "note": "Vulgate punctuation colon, not substantive"
-    },
-    {
       "greek_nt": [
         21
       ],
@@ -244,10 +222,12 @@
         10
       ],
       "vulgate": [
+        16,
         17
       ],
       "variant": "minor",
-      "note": "Conjunction links to overturning action; Peshitta uses ܘܗܦܟ (and he overturned)"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'templo' to mark a major syntactic break before the list of overturned items, whereas Greek uses simple καί coordination and Peshitta ܘ. This punctuation choice reflects Latin rhetorical convention but does not alter meaning."
     },
     {
       "greek_nt": [
@@ -264,15 +244,15 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the genitive modifier after the noun (τὰς τραπέζας τῶν κολλυβιστῶν / mensas numulariorum, 'tables of the money-changers'); Peshitta uses the construct state with the modifier following (ܦܬܘܪܐ ܕܡܥܪܦܢܐ, 'tables of the exchangers'), which is standard Semitic syntax for the same semantic relationship."
     },
     {
       "greek_nt": [
         26
       ],
-      "peshitta": [
-        13
-      ],
+      "peshitta": [],
       "vulgate": [
         20
       ],
@@ -298,7 +278,9 @@
         22,
         23
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses two articular phrases (τὰς καθέδρας τῶν πωλούντων τὰς περιστεράς, 'the seats of those selling the doves'); Vulgate employs a genitive participle with accusative object (cathedras vendentium columbas); Peshitta inserts a demonstrative pronoun (ܕܗܢܘܢ, 'of those') before the participle, a typical Syriac reinforcement of the relative construction, semantically equivalent but syntactically more explicit."
     },
     {
       "greek_nt": [
@@ -311,22 +293,24 @@
         24
       ],
       "variant": "minor",
-      "note": "Greek verb κατέστρεψεν at end; Peshitta ܘܗܦܟ earlier in clause; same semantic action"
+      "type": "word-order",
+      "note": "Greek places the verb κατέστρεψεν ('he overturned') at the end of the sentence; Vulgate similarly ends with evertit; Peshitta positions the verb ܘܗܦܟ earlier in the clause (before the direct objects), reflecting standard Syriac VSO word order versus Greek/Latin verb-final preference in this context."
     },
     {
       "greek_nt": [],
+      "peshitta": [],
       "vulgate": [
         25
       ],
-      "peshitta": [],
-      "variant": "added",
-      "note": "Vulgate final punctuation colon, not substantive"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate closes the verse with a final colon, a liturgical or rhetorical marker absent from Greek and Peshitta manuscripts, signaling a pause for oral recitation or transition to the next pericope."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.809875+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.017486+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

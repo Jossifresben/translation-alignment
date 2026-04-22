@@ -89,34 +89,20 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καὶ omitted in Peshitta and Vulgate; Peshitta uses ܕܝܢ (dēn) as discourse marker instead"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
         0,
         1
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܕܝܢ (dēn) as contrastive/continuative particle"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the conjunction καὶ before the participle γνούς; Peshitta inverts the order with ܕܝܢ (dēn, 'but/now') following the subject ܝܫܘܥ; Vulgate uses an ablative absolute construction (Quo cognito) without explicit conjunction. All three convey Jesus' awareness, but with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -130,7 +116,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta places Jesus first, Greek has article + Jesus, Vulgate places Jesus after verb"
+      "type": "word-order",
+      "note": "Greek employs article + noun (ὁ Ἰησοῦς) in standard post-participial position; Peshitta places ܝܫܘܥ at the head of the clause before ܕܝܢ; Vulgate positions Jesus at the end of the ablative absolute phrase. Stylistic variation with no semantic difference."
     },
     {
       "greek_nt": [
@@ -142,7 +129,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -152,155 +140,91 @@
         4
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        3,
         5
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
+        5,
         6,
         7
       ],
       "vulgate": [
+        6,
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܪܢܝܢ ܐܢܬܘܢ (thinking you-are) with explicit pronoun; Greek and Vulgate use verbal inflection"
+      "type": "gloss",
+      "note": "Greek τί διαλογίζεσθε uses an implied second-person subject; Peshitta makes the subject explicit with ܐܢܬܘܢ (antōn, 'you [pl.]') following the verb ܪܢܝܢ; Vulgate cogitatis likewise has an implicit subject. The Peshitta addition is a typical Semitic clarification strategy."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
+        9,
         10,
         11
       ],
       "peshitta": [
+        8,
         9,
         10
       ],
       "vulgate": [
+        8,
+        9,
         10,
-        11
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܠܝܬ ܠܟܘܢ (not-exists to-you) construction; Greek οὐκ ἔχετε and Vulgate non habetis use negated verb 'have'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ὅτι + negated verb (ἄρτους οὐκ ἔχετε); Peshitta employs the negative existential particle ܠܝܬ (layt, 'there is not') with dative ܠܟܘܢ ('to you'), a standard Syriac idiom for possession; Vulgate mirrors the Greek structure with quia panes non habetis. Semantically equivalent but syntactically distinct constructions."
     },
     {
       "greek_nt": [
-        12
+        12,
+        13
       ],
       "peshitta": [
         11,
         12,
-        13
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "minor",
-      "note": "Peshitta expands οὔπω with ܠܐ ܥܕܡܐ ܠܗܫܐ (not until now); Greek and Vulgate use single adverb"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
+        13,
         14,
         15
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "minor",
-      "note": "Peshitta uses ܝܕܥܝܢ ܐܢܬܘܢ with explicit pronoun; Greek and Vulgate use verbal inflection"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek οὔπω νοεῖτε ('not yet do you perceive') is rendered in Peshitta with an expanded temporal phrase ܠܐ ܥܕܡܐ ܠܗܫܐ ܝܕܥܝܢ ܐܢܬܘܢ ('not until now do you know'), adding ܥܕܡܐ ܠܗܫܐ ('until now') for emphasis and again making the subject ܐܢܬܘܢ explicit. Vulgate nondum cognoscetis uses future tense rather than present, a notable shift in aspect."
     },
     {
       "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        16,
         17,
         18
       ],
       "vulgate": [
-        16
+        15,
+        16,
+        17
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܡܣܬܟܠܝܢ ܐܢܬܘܢ with explicit pronoun; Greek and Vulgate use verbal inflection"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        17
-      ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "type": "gloss",
+      "note": "Greek οὐδὲ συνίετε ('nor do you understand') with implicit subject; Peshitta ܘܠܐ ܡܣܬܟܠܝܢ ܐܢܬܘܢ again supplies the explicit pronoun ܐܢܬܘܢ; Vulgate nec intelligitis follows Greek structure. Consistent Peshitta pattern of pronominal clarification."
     },
     {
       "greek_nt": [
@@ -312,75 +236,40 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔτι ('still'), Peshitta ܥܕܟܝܠ ('adkīl, 'still/yet'), and Vulgate adhuc are cognate temporal adverbs with identical function, representing standard lexical equivalents across the three traditions."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
+        17,
+        18,
+        19,
+        20,
         21
       ],
-      "vulgate": [
-        19
-      ],
-      "variant": "major",
-      "note": "Greek πεπωρωμένην (hardened/calloused), Peshitta ܩܫܝܐ (hard/harsh), Vulgate cæcatum (blinded) show semantic variation in metaphor"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
       "peshitta": [
+        20,
+        21,
         22,
         23
       ],
       "vulgate": [
-        20
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses ܐܝܬ ܠܟܘܢ (exists to-you) construction; Greek and Vulgate use verb 'have'"
-    },
-    {
-      "greek_nt": [
         19,
-        20
-      ],
-      "peshitta": [
-        20
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        21
-      ],
-      "peshitta": [
+        20,
+        21,
+        22,
         23
       ],
-      "vulgate": [
-        22
-      ],
-      "variant": "minor",
-      "note": "Word order: Greek ὑμῶν postpositive, Peshitta ܠܟܘܢ in verbal construction, Vulgate vestrum postpositive"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        23
-      ],
-      "variant": "added",
-      "note": "Vulgate adds final question mark punctuation"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek πεπωρωμένην ('hardened', perfect passive participle of πωρόω) describes the heart as having been hardened; Peshitta uses the adjective ܩܫܝܐ (qašyā, 'hard/harsh') with the existential verb ܐܝܬ ('there is'), yielding 'you have a hard heart'; Vulgate cæcatum ('blinded', from cæco) shifts the metaphor from hardness to blindness. The Peshitta construction ܠܒܐ ܩܫܝܐ ܐܝܬ ܠܟܘܢ employs a predicate-existential structure typical of Syriac, while the Vulgate's choice of 'blinded' may reflect influence from parallel passages about spiritual blindness (cf. 2 Cor 3:14)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.780796+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.996347+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

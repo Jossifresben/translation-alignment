@@ -83,7 +83,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek καὶ γὰρ, Peshitta ܐܦ ܓܝܪ, Vulgate Nam et—all emphatic conjunctions with slight stylistic variation"
+      "type": "word-order",
+      "note": "Greek places γάρ second (καὶ γάρ); Peshitta places ܓܝܪ third (ܐܦ ܒܪܗ ܓܝܪ), after 'Son'; Vulgate mirrors Greek order with Nam et. All three convey the same causal-emphatic force, differing only in particle placement according to each language's syntactic preferences."
     },
     {
       "greek_nt": [
@@ -100,40 +101,25 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article ὁ υἱὸς τοῦ ἀνθρώπου (definite 'the Son of Man'); Peshitta ܒܪܗ ܕܐܢܫܐ and Vulgate Filius hominis lack articles, as Syriac and Latin do not require them for definite titular expressions. Semantically equivalent despite morphological divergence."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'ut' (purpose clause marker) before passive infinitive"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -143,11 +129,13 @@
         6
       ],
       "vulgate": [
+        6,
         7,
         8
       ],
-      "variant": "minor",
-      "note": "Vulgate adds dative 'ei' (to him) making explicit the recipient of service"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek uses aorist passive infinitive διακονηθῆναι ('to be served'); Peshitta employs the ethpeal ܕܢܫܬܡܫ (passive-reflexive 'to be served'); Vulgate expands with ut ministraretur ei ('that he might be served'), adding the dative pronoun ei to clarify the indirect object. The Vulgate's addition makes the beneficiary explicit, whereas Greek and Syriac leave it implicit in the passive construction."
     },
     {
       "greek_nt": [
@@ -159,16 +147,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "added",
-      "note": "Vulgate adds second 'ut' for parallel purpose clause structure"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -178,22 +158,27 @@
         8
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses aorist active infinitive διακονῆσαι ('to serve'); Peshitta employs the peal infinitive ܕܢܫܡܫ (active 'to serve'); Vulgate uses ut ministraret (purpose clause with imperfect subjunctive 'that he might serve'). All three express purpose, but Vulgate employs a finite verb construction where Greek and Syriac use infinitives."
     },
     {
       "greek_nt": [
-        11
+        11,
+        12
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
-        12
+        12,
+        13
       ],
-      "variant": "minor",
-      "note": "Peshitta ܘܕܢܬܠ combines conjunction with infinitive prefix; all express 'and to give'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -208,7 +193,9 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article τὴν ψυχὴν αὐτοῦ ('the life of him'); Peshitta ܢܦܫܗ and Vulgate animam suam lack the article, as both languages express definiteness through possessive suffixes/pronouns alone. The Greek article is redundant in translation but standard in Koine for possessed nouns."
     },
     {
       "greek_nt": [
@@ -220,7 +207,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -232,7 +220,9 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀντὐ ('in place of, instead of') emphasizes substitutionary exchange; Syriac ܚܠܦ ('on behalf of, for') and Latin pro ('for, on behalf of') both convey representation but with slightly less emphasis on direct substitution. The semantic range overlaps substantially, though Greek ἀντί carries stronger substitutionary force in ransom contexts."
     },
     {
       "greek_nt": [
@@ -244,23 +234,14 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.805901+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.014036+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

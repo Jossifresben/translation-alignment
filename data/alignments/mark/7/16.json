@@ -48,7 +48,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܡܢ (who/whoever) alone vs. Greek εἴ τις (if anyone) and Latin si quis; semantically equivalent conditional construction"
+      "type": "construction",
+      "note": "Greek uses conditional particle εἰ with indefinite pronoun τις; Syriac employs the relative pronoun ܡܢ ('whoever') without explicit conditional marker; Latin mirrors Greek structure with Si quis. All three express the same conditional-indefinite semantics through different syntactic means."
     },
     {
       "greek_nt": [
@@ -61,7 +62,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use simple finite verbs (ἔχει / habet, 'has'); Syriac employs the existential particle ܕܐܝܬ with pronominal suffix ܠܗ ('there is to him'), a standard Semitic possessive construction semantically equivalent to 'has'."
     },
     {
       "greek_nt": [
@@ -74,7 +77,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek ὦτα (ears, accusative plural neuter) vs. Peshitta ܐܕܢܐ (singular with plural sense) vs. Vulgate aures (plural feminine); number variation common in Semitic idiom"
+      "type": "grammar",
+      "note": "Greek ὦτα is neuter plural accusative ('ears'); Latin aures is feminine plural accusative; Syriac ܐܕܢܐ appears singular (emphatic state), reflecting the Semitic idiom of using singular for body parts occurring in pairs, though semantically plural."
     },
     {
       "greek_nt": [
@@ -86,7 +90,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -98,13 +103,14 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.775011+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:07.989985+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

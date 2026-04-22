@@ -67,7 +67,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -79,7 +80,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -92,7 +94,8 @@
         2
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܫܕܪ combines conjunction and verb"
+      "type": "agreement",
+      "note": "ܘܫܕܪ conflates conjunction and verb"
     },
     {
       "greek_nt": [
@@ -106,32 +109,34 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        5
+        5,
+        6
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
-        5
+        5,
+        6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
+      "greek_nt": [],
+      "peshitta": [],
       "vulgate": [
-        6
+        7
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta places servant before another"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition from narrative frame to the description of violence, a stylistic choice absent in Greek and Peshitta manuscripts which continue without punctuation break."
     },
     {
       "greek_nt": [
@@ -145,8 +150,9 @@
         8,
         9
       ],
-      "variant": "aligned",
-      "note": "κἀκεῖνον = καὶ ἐκεῖνον (crasis)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the crasis κἀκεῖνον (καὶ + ἐκεῖνον) as direct object; Peshitta employs ܘܐܦ ܠܗܘ ('and also him') with emphatic particle; Vulgate renders with coordinating conjunction et plus demonstrative illum, all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -156,8 +162,8 @@
         7
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits explicit stoning reference"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -171,26 +177,18 @@
         11,
         12
       ],
-      "variant": "minor",
-      "note": "Vulgate in capite vulneraverunt expands Greek ἐκεφαλίωσαν"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἐκεφαλίωσαν ('they struck on the head') and Peshitta ܘܨܠܦܘܗܝ ('and they struck/wounded him') denote physical head-wounding; the Vulgate expands to in capite vulneraverunt ('they wounded in the head'), making the anatomical location explicit through prepositional phrase rather than verbal semantics alone."
     },
     {
       "greek_nt": [
         10,
-        11
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek καὶ ἀπέστειλαν appears redundant; Peshitta ܘܫܕܪܘܗܝ (and sent him) clarifies; Vulgate omits"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
@@ -198,23 +196,15 @@
         14,
         15
       ],
-      "variant": "minor",
-      "note": "Vulgate contumeliis affecerunt expands Greek ἠτίμασαν; Peshitta ܒܨܥܪܐ (with dishonor)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not semantic"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek καὶ ἀπέστειλαν ἠτίμασαν presents textual difficulty (some manuscripts read ἠτιμωμένον); the phrase combines 'sent away' with 'dishonored.' Peshitta ܘܫܕܪܘܗܝ ܒܨܥܪܐ ('and they sent him away in disgrace/shame') uses the noun ܨܥܪܐ to convey dishonor. Vulgate et contumeliis affecerunt ('and they treated with insults') omits the sending-away verb entirely, focusing solely on the dishonoring action through the noun contumeliis."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.814428+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.021304+00:00",
+    "confidence": 0.72,
     "schema_version": 1
   }
 }

@@ -55,26 +55,18 @@
     {
       "greek_nt": [
         0,
-        1
+        1,
+        2
       ],
       "peshitta": [
         0,
-        1
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate text is from a different verse (Mark 9:28); Greek/Peshitta article + δέ conjunction have no Vulgate counterpart in this mismatched passage"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
+        1,
         2
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Jesus is subject in Greek/Peshitta but absent in Vulgate verse"
+      "type": "omission",
+      "note": "The Vulgate omits the entire verse present in both Greek and Peshitta, instead transmitting Mark 9:28 (the disciples' private question about their inability to cast out the demon). This represents a major textual divergence, likely due to manuscript confusion or verse-order variation in the Latin tradition."
     },
     {
       "greek_nt": [
@@ -88,8 +80,9 @@
         4
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek κρατήσας τῆς χειρὸς αὐτοῦ (having taken him by the hand) and Peshitta ܐܚܕܗ ܒܐܝܕܗ (took him by his hand) have no equivalent in the Vulgate passage"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek employs an aorist participle κρατήσας with genitive object τῆς χειρὸς αὐτοῦ ('having taken him by the hand'), a three-word construction. Peshitta compresses this into ܐܚܕܗ ܒܐܝܕܗ, a verb with pronominal suffix plus prepositional phrase ('seized-him by-his-hand'), achieving the same semantics with tighter syntax typical of Syriac narrative style."
     },
     {
       "greek_nt": [
@@ -100,8 +93,9 @@
         5
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek ἤγειρεν αὐτόν (raised him up) and Peshitta ܘܐܩܝܡܗ (and raised him) absent from Vulgate"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses finite verb ἤγειρεν with separate object pronoun αὐτόν ('raised him'); Peshitta employs ܘܐܩܝܡܗ with enclitic pronominal suffix ('and-raised-him'), a standard morphological difference between the languages with no semantic divergence."
     },
     {
       "greek_nt": [
@@ -111,7 +105,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ ἀνέστη (and he arose) has no counterpart in Peshitta or Vulgate"
+      "type": "omission",
+      "note": "Both Peshitta and Vulgate omit the Greek clause καὶ ἀνέστη ('and he arose'), which provides narrative closure showing the boy standing. The Peshitta's omission may reflect stylistic economy, treating the raising as implying the standing; the Vulgate's absence is due to its transmission of a different verse entirely."
     },
     {
       "greek_nt": [],
@@ -137,13 +132,14 @@
         17
       ],
       "variant": "added",
-      "note": "Entire Vulgate passage (Mark 9:28 - disciples asking why they could not cast out demon) is from a different verse with no Greek/Peshitta parallel in this alignment"
+      "type": "substitution",
+      "note": "The Vulgate transmits an entirely different verse (Mark 9:28: 'Et cum introisset in domum, discipuli ejus secreto interrogabant eum: Quare nos non potuimus ejicere eum?'), the disciples' question about their failure to exorcise. This represents either a verse-numbering error in the Clementine tradition or a major manuscript variant where 9:27 was replaced by 9:28."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.789276+00:00",
-    "confidence": 0.15,
+    "generated_at": "2026-04-22T12:17:08.004189+00:00",
+    "confidence": 0.65,
     "schema_version": 1
   }
 }

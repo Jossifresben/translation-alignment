@@ -74,24 +74,37 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek προσκαλεῖται (present middle 'summons to himself') contrasts with Peshitta ܩܪܐ (simple active 'called') and Vulgate vocavit (perfect active). The Greek emphasizes the personal summoning action, while Syriac and Latin use unmarked verbs of calling."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "note": "Greek προσκαλέω (calls near) vs Peshitta ܩܪܐ (calls) - Greek compound verb more specific; article τοὺς absent in Peshitta/Vulgate"
+      "type": "construction",
+      "note": "Greek uses article + numeral (τοὺς δώδεκα 'the Twelve') as a technical designation; Vulgate omits the article (duodecim); Peshitta employs a pronominal suffix construction (ܠܬܪܥܣܪܬܗ 'his twelve'), making the possessive relationship explicit."
     },
     {
       "greek_nt": [],
@@ -99,8 +112,9 @@
       "vulgate": [
         3
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after duodecim to mark a major syntactic break before the new clause, a punctuation convention absent in Greek and Syriac manuscript traditions."
     },
     {
       "greek_nt": [
@@ -112,7 +126,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -124,7 +139,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -139,7 +155,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses accusative pronoun + infinitive (αὐτοὺς ἀποστέλλειν); Vulgate mirrors this with accusative + infinitive (eos mittere); Peshitta employs a ܕ-clause with imperfect (ܕܢܫܕܪ ܐܢܘܢ 'that he might send them'), a standard Syriac subordination strategy semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -154,7 +172,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek δύο δύο (two two) and Peshitta ܬܪܝܢ ܬܪܝܢ (two two) preserve distributive reduplication; Vulgate binos (by twos) uses single adverbial form"
+      "type": "idiom",
+      "note": "Greek δύο δύο (distributive repetition 'two by two') and Syriac ܬܪܝܢ ܬܪܝܢ employ identical distributive constructions; Vulgate uses the single form binos (accusative plural of bini 'in pairs'), a Latin distributive numeral that condenses the repeated structure into one word."
     },
     {
       "greek_nt": [
@@ -166,25 +185,48 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        11,
-        12,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐδίδου (imperfect 'was giving') emphasizes durative or iterative action; Vulgate dabat (imperfect) mirrors this aspectual nuance; Peshitta ܝܗܒ (perfect) treats the action as a completed event, reflecting Syriac preference for perfective aspect in narrative sequencing."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        7,
-        8,
         9
       ],
       "vulgate": [
-        10,
-        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -202,8 +244,9 @@
         13,
         14
       ],
-      "variant": "minor",
-      "note": "Greek τῶν πνευμάτων τῶν ἀκαθάρτων uses double article construction; Peshitta ܥܠ (over) makes governance explicit with preposition; Vulgate spirituum immundorum uses simple genitive"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses genitive construction τῶν πνευμάτων τῶν ἀκαθάρτων ('of the unclean spirits') to denote authority over; Vulgate spirituum immundorum mirrors this genitive. Peshitta employs the preposition ܥܠ ('over') with ܪܘܚܐ ܛܢܦܬܐ, making the dominion relationship syntactically explicit rather than implicit in case morphology."
     },
     {
       "greek_nt": [],
@@ -211,14 +254,15 @@
         13
       ],
       "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܕܢܦܩܘܢ (that they might cast out) adds purpose clause not in Greek or Vulgate"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Peshitta adds ܕܢܦܩܘܢ ('that they might cast out'), an infinitival purpose clause absent in both Greek and Vulgate. This expansion clarifies the intended use of the authority granted, possibly reflecting liturgical or catechetical emphasis in the Syriac tradition on exorcistic praxis."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.762177+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.978777+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -62,7 +62,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -74,7 +75,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -90,7 +92,8 @@
         4
       ],
       "variant": "major",
-      "note": "Greek uses compound ψευδομαρτυρέω (false-witness); Peshitta ܡܣܗܕܝܢ ܗܘܘ (were testifying) lacks explicit 'false'; Vulgate testimonium falsum dicebant (were speaking false testimony) uses periphrastic construction"
+      "type": "lexical",
+      "note": "Greek employs the compound verb ψευδομαρτυρέω ('bear false witness') as a single lexeme, while Latin distributes the semantic load across testimonium falsum dicebant ('were speaking false testimony'), and Peshitta uses the periphrastic construction ܡܣܗܕܝܢ ܗܘܘ (participle + auxiliary 'were testifying'). The Vulgate explicitly separates 'false' as an adjective modifying 'testimony,' whereas Greek fuses falsity into the verbal root itself."
     },
     {
       "greek_nt": [
@@ -104,7 +107,28 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "construction",
+      "note": "Peshitta opens with the temporal/circumstantial particle ܟܕ ('while/when'), converting the main clause into a subordinate temporal construction. Neither Greek nor Latin attest this syntactic framing; both traditions present the clause as an independent statement introduced by γάρ/enim."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after eum, creating a rhetorical pause before the adversative clause. This punctuation choice has no equivalent in Greek or Peshitta manuscript traditions and reflects Latin editorial convention rather than textual variance."
     },
     {
       "greek_nt": [
@@ -114,17 +138,8 @@
       "vulgate": [
         8
       ],
-      "variant": "minor",
-      "note": "Peshitta omits conjunction before negative clause; Greek καὶ and Vulgate et present"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܟܕ (when/while) adds temporal particle not in Greek or Vulgate"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -141,7 +156,8 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek ἴσαι αἱ μαρτυρίαι (equal the testimonies); Peshitta ܫܘܝܢ ܣܗܕܘܬܗܘܢ (equal their-testimonies); Vulgate convenientia testimonia (agreeing testimonies) uses different adjective"
+      "type": "word-order",
+      "note": "Greek places the adjective ἴσαι before the article and noun (ἴσαι αἱ μαρτυρίαι, 'equal the testimonies'), employing predicate-adjective fronting for emphasis. Peshitta uses ܫܘܝܢ ܣܗܕܘܬܗܘܢ ('equal their-testimonies') with the adjective in natural attributive position, while Vulgate renders convenientia testimonia ('agreeing testimonies') with a semantically equivalent but lexically distinct participle, also in attributive position."
     },
     {
       "greek_nt": [
@@ -156,22 +172,15 @@
         11,
         12
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate position the negation before the copula (οὐκ ἦσαν / non erant), whereas Peshitta places ܠܐ ('not') before the adjective ܫܘܝܢ, yielding 'not equal were' versus 'were not equal.' This reflects standard Syriac syntax where negation typically precedes the predicate rather than the verb."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.838495+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.043649+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

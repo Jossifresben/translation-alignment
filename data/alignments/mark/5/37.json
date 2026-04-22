@@ -64,31 +64,32 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1,
-        2
-      ],
-      "peshitta": [
         0,
         1
       ],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
-        1,
+        0,
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
         2
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܠܐ combines conjunction and negation; Greek separates καὶ οὐκ; Vulgate Et non follows Greek structure"
+      "type": "lexical",
+      "note": "Greek ἀφῆκεν ('allowed, permitted') and Syriac ܫܒܩ ('allowed, left') share semantic overlap, while Latin admisit ('admitted, allowed to enter') emphasizes the granting of access rather than simple permission, reflecting a subtle lexical choice in translation register."
     },
     {
       "greek_nt": [
@@ -100,7 +101,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,7 +119,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek μετ᾽ αὐτοῦ συνακολουθῆσαι (follow with him) vs Peshitta ܕܢܐܙܠ ܥܡܗ (to go with him) vs Vulgate se sequi (follow him); semantic equivalence with different verb choices"
+      "type": "construction",
+      "note": "Greek employs the compound verb συνακολουθῆσαι ('to follow together with') with prepositional phrase μετ᾽ αὐτοῦ, while Syriac uses the simple verb ܕܢܐܙܠ ('to go') with ܥܡܗ ('with him'), and Latin uses the simple infinitive sequi ('to follow') with accusative se, demonstrating three syntactically distinct but semantically equivalent constructions."
     },
     {
       "greek_nt": [
@@ -130,7 +133,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -145,55 +149,38 @@
         7
       ],
       "variant": "major",
-      "note": "Peshitta adds ܟܐܦܐ (Cephas/Kepha) alongside ܠܫܡܥܘܢ (Simon), giving full name; Greek has only Πέτρον (Peter); Vulgate has only Petrum"
+      "type": "expansion",
+      "note": "The Peshitta uniquely preserves both names for Peter: ܠܫܡܥܘܢ ܟܐܦܐ ('to Simon Cephas'), reflecting Semitic naming conventions and possibly an earlier textual tradition. Greek uses only the Greek form Πέτρον with article, and Latin uses only Petrum, both representing single-name references in their respective linguistic contexts."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -209,13 +196,15 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article τὸν before ἀδελφὸν Ἰακώβου in standard attributive position, while Syriac uses the pronominal suffix construction ܐܚܘܗܝ ܕܝܥܩܘܒ ('his brother, [namely] of James') and Latin employs fratrem Jacobi without article, each reflecting the grammatical norms of their respective languages for expressing familial relationships."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.759489+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.976556+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

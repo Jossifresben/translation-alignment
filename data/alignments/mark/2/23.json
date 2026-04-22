@@ -68,29 +68,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "aligned",
-      "note": "Greek ἐγένετο, Peshitta ܗܘܐ, Vulgate factum est - all express 'it came to pass'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,7 +91,8 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Peshitta explicitly names ܝܫܘܥ (Jesus); Greek has pronoun αὐτόν; Vulgate omits entirely"
+      "type": "substitution",
+      "note": "Greek uses the pronoun αὐτόν ('him') as the subject of the infinitive construction, while Peshitta explicitly names ܝܫܘܥ ('Jesus') as subject. Vulgate omits any explicit subject, relying on the impersonal construction 'factum est' with the infinitive 'ambularet' to carry the sense."
     },
     {
       "greek_nt": [],
@@ -111,7 +102,8 @@
         4
       ],
       "variant": "added",
-      "note": "Vulgate adds 'iterum Dominus' (again the Lord) - not in Greek or Peshitta"
+      "type": "expansion",
+      "note": "Vulgate inserts 'iterum Dominus' ('again the Lord'), adding both a temporal marker and an explicit christological title absent from both Greek and Peshitta witnesses. This expansion may reflect liturgical or catechetical emphasis in the Latin tradition."
     },
     {
       "greek_nt": [
@@ -125,41 +117,46 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the prepositional phrase ἐν τοῖς σάββασιν (dative plural 'on the Sabbaths'), Peshitta uses ܒܫܒܬܐ (singular with preposition), and Vulgate uses the bare ablative plural 'sabbatis'. All three convey Sabbath timing but with different grammatical constructions typical of each language's idiom."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the present infinitive παραπορεύεσθαι ('to pass through') in an accusative-infinitive construction. Peshitta employs a temporal clause ܕܟܕ ܐܙܠ ('when he went'), shifting from infinitival to finite verbal syntax. Vulgate uses the imperfect subjunctive 'ambularet' in indirect discourse, semantically equivalent but syntactically distinct."
+    },
+    {
+      "greek_nt": [
         7,
         8,
         9
       ],
       "peshitta": [
-        1,
-        2,
         5,
         6
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
       "variant": "minor",
-      "note": "Greek παραπορεύεσθαι διὰ τῶν σπορίμων; Peshitta ܕܟܕ ܐܙܠ...ܒܝܬ ܙܪܥܐ (when going...among sown fields); Vulgate ambularet per sata - all convey passing through grainfields with slight stylistic differences"
+      "type": "lexical",
+      "note": "Greek διὰ τῶν σπορίμων ('through the grainfields') uses the adjective σπόριμος substantivized. Peshitta renders with the construct phrase ܒܝܬ ܙܪܥܐ ('house of seed/sowing'), a Semitic idiom for cultivated fields. Vulgate 'per sata' uses the neuter plural participle of 'sero' ('sown [fields]'), all three expressing the same agricultural locale through language-specific lexical choices."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12,
         13
@@ -168,44 +165,40 @@
         7
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         14
-      ],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15,
-        16
       ],
       "peshitta": [
         8,
         9
       ],
       "vulgate": [
-        13
+        12
       ],
       "variant": "minor",
-      "note": "Greek ὁδὸν ποιεῖν (to make a way) idiom; Peshitta ܡܗܠܟܝܢ ܗܘܘ (were walking); Vulgate progredi (to go forward) - semantic overlap but different expressions"
+      "type": "construction",
+      "note": "Greek ἤρξαντο ('they began') is a simple aorist finite verb. Peshitta uses the periphrastic construction ܡܗܠܟܝܢ ܗܘܘ ('they were walking'), employing the participle with auxiliary verb, a common Syriac aspectual strategy. Vulgate 'cœperunt' mirrors the Greek inchoative semantics with a finite perfect, all three marking the inception of the disciples' action."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        15,
+        16
+      ],
       "peshitta": [],
       "vulgate": [
-        14
+        13
       ],
-      "variant": "aligned",
-      "note": "Vulgate 'et' coordinates with following verb"
+      "variant": "major",
+      "type": "idiom",
+      "note": "Greek preserves the Semitic idiom ὁδὸν ποιεῖν ('to make a way'), meaning to proceed or advance through the field. Peshitta omits this phrase entirely, integrating the motion semantics into the preceding periphrastic verb. Vulgate translates with 'progredi' ('to go forward'), rendering the idiom into straightforward Latin motion vocabulary rather than preserving the literal 'way-making' construction."
     },
     {
       "greek_nt": [
@@ -218,16 +211,19 @@
         11
       ],
       "vulgate": [
+        14,
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the present participle τίλλοντες τοὺς στάχυας ('plucking the heads of grain') as a circumstantial modifier. Peshitta coordinates with ܘܡܠܓܝܢ ܫܒܠܐ ('and plucking ears'), using a finite participial form in a conjunctive construction. Vulgate employs the coordinating conjunction 'et' with the infinitive 'vellere spicas', making the plucking action parallel rather than subordinate, a stylistic shift in clause architecture."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.738828+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.955631+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

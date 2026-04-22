@@ -69,44 +69,26 @@
     {
       "greek_nt": [
         0,
+        1,
         2
       ],
       "peshitta": [
         0,
-        1
+        1,
+        2
       ],
       "vulgate": [
         0,
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article and conjunction before the noun (Οἱ δὲ ἀρχιερεῖς); Peshitta reverses the order, placing the conjunction after the noun phrase (ܪܒܝ ܟܗܢܐ ܕܝܢ); Vulgate follows Greek word order with vero. All three convey the same adversative transition."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5,
         6
@@ -116,11 +98,13 @@
         4
       ],
       "vulgate": [
+        3,
         4,
         5
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܟܠܗ ܟܢܫܗܘܢ 'and all their assembly' uses pronominal suffix; Greek ὅλον τὸ συνέδριον and Vulgate omne concilium are more formal"
+      "type": "construction",
+      "note": "Greek uses the adjective ὅλον with article τὸ modifying συνέδριον ('the whole Council'); Peshitta employs the bound form ܟܠܗ ܟܢܫܗܘܢ ('all their assembly') with pronominal suffix; Vulgate mirrors Greek structure with omne concilium. The Peshitta's pronominal suffix makes the possessive relationship explicit."
     },
     {
       "greek_nt": [
@@ -133,7 +117,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the simple imperfect ἐζήτουν; Peshitta employs the periphrastic construction ܒܥܝܢ ܗܘܘ (participle + auxiliary verb) for the imperfect aspect; Vulgate uses the simple imperfect quærebant. Both Syriac constructions are functionally equivalent to the Greek and Latin simple forms."
     },
     {
       "greek_nt": [
@@ -149,7 +135,8 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -161,7 +148,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -180,7 +168,8 @@
         13
       ],
       "variant": "major",
-      "note": "Greek εἰς τὸ θανατῶσαι 'in order to put to death'; Peshitta ܕܢܡܝܬܘܢܝܗܝ 'that they might kill him' (compact verbal form); Vulgate ut eum morti traderent 'that they might hand him over to death' (different verb: tradere vs θανατόω)"
+      "type": "construction",
+      "note": "Greek uses the articular infinitive construction εἰς τὸ θανατῶσαι αὐτὸν ('in order to put him to death'); Peshitta employs a single d-prefixed subjunctive verb ܕܢܡܝܬܘܢܝܗܝ with incorporated object pronoun; Vulgate expands to a full purpose clause ut eum morti traderent ('that they might hand him over to death'), substituting 'hand over to death' for the direct causative 'put to death.'"
     },
     {
       "greek_nt": [
@@ -193,25 +182,19 @@
         12
       ],
       "vulgate": [
+        14,
         15,
         16
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses the conjunction καὶ to connect the negative result clause; Peshitta uses the simple conjunction ܘ; Vulgate inserts a colon before nec, creating a stronger syntactic break that emphasizes the failed search as a distinct statement rather than a coordinated clause."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.838356+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.043492+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

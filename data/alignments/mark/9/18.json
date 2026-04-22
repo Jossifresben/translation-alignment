@@ -105,8 +105,9 @@
         19,
         20
       ],
-      "variant": "omitted",
-      "note": "Vulgate contains Jesus' response (Mark 9:19) which is absent from both Greek and Peshitta texts provided; these appear to be from different verses"
+      "variant": "major",
+      "type": "omission",
+      "note": "The Vulgate transmits an entirely different pericope at this location (Mark 9:19, Jesus' rebuke to the faithless generation and command to bring the boy), while the Greek and Peshitta preserve the father's description of the demon's symptoms (Mark 9:18). This represents a major textual dislocation or versification error in the supplied Vulgate witness."
     },
     {
       "greek_nt": [
@@ -122,7 +123,8 @@
         2
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -134,28 +136,20 @@
         4
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
         5
       ],
       "vulgate": [],
-      "variant": "minor",
-      "note": "Greek ἀφρίζει (foams) combined with Peshitta ܡܪܥܬ (trembles/foams) in single token"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -170,7 +164,9 @@
         7
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article τοὺς with ὀδόντας plus possessive genitive αὐτοῦ ('the teeth of him'), while Syriac uses the bound construct ܫܢܘܗܝ with pronominal suffix ('his-teeth'), a typical Semitic possessive construction semantically equivalent to the Greek articulated phrase."
     },
     {
       "greek_nt": [
@@ -181,7 +177,8 @@
         8
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -196,7 +193,9 @@
         10
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the dative article τοῖς with μαθηταῖς plus second-person possessive σου ('to the disciples of you'), while Syriac employs the bound form ܠܬܠܡܝܕܝܟ with second-person pronominal suffix ('to-your-disciples'), reflecting standard Semitic possessive morphology versus Greek analytic construction."
     },
     {
       "greek_nt": [
@@ -208,7 +207,8 @@
         11
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -221,13 +221,14 @@
         13
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.787863+00:00",
-    "confidence": 0.4,
+    "generated_at": "2026-04-22T12:17:08.002552+00:00",
+    "confidence": 0.55,
     "schema_version": 1
   }
 }

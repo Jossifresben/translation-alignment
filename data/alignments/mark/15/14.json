@@ -78,41 +78,27 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs the article ὁ with postpositive δέ before the subject Πιλᾶτος, while Syriac uses the independent pronoun ܗܘ ('he') with ܕܝܢ and Latin places the subject Pilatus first with vero — all three convey the same adversative transition but with tradition-specific syntactic patterns."
     },
     {
       "greek_nt": [
-        3
+        3,
+        4
       ],
       "peshitta": [
-        3
+        3,
+        4
       ],
       "vulgate": [
-        2
+        2,
+        3,
+        4
       ],
       "variant": "minor",
-      "note": "Greek imperfect ἔλεγεν vs Peshitta perfect ܐܡܪ vs Vulgate imperfect dicebat; aspectual variation"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after illis to mark direct speech, whereas Greek uses a raised dot (·) and Syriac employs no explicit punctuation marker — a scribal convention difference with no semantic impact."
     },
     {
       "greek_nt": [
@@ -140,19 +126,12 @@
       ],
       "vulgate": [
         7,
-        8
-      ],
-      "variant": "minor",
-      "note": "Word order: Greek verb-object vs Peshitta/Vulgate adjective-verb"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        8,
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation as separate token"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Syriac place the verb before the adjective (ἐποίησεν κακόν / ܥܒܕ ܕܒܝܫ), while Latin inverts to adjective-verb (mali fecit). The Vulgate also adds a question mark as punctuation, absent in the Greek and Syriac witnesses."
     },
     {
       "greek_nt": [
@@ -167,7 +146,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek article+δέ vs Peshitta ܘܗܢܘܢ (and-they) vs Vulgate At illi; stylistic variation in adversative construction"
+      "type": "construction",
+      "note": "Greek uses the article οἱ with postpositive δέ to mark the subject shift; Syriac employs the compound conjunction ܘܗܢܘܢ ('and they'), merging the adversative and pronominal subject; Latin uses At illi, separating the adversative particle from the pronoun — functionally equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -190,19 +170,12 @@
         12
       ],
       "vulgate": [
-        13
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܩܥܝܢ ܗܘܘ (were crying) vs Greek/Vulgate simple past"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        13,
         14
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the aorist ἔκραξαν (simple past); Syriac employs the periphrastic construction ܩܥܝܢ ܗܘܘ (participle + auxiliary 'were shouting'), indicating imperfective aspect; Latin uses the imperfect clamabant, also conveying ongoing action. The Vulgate adds a colon to introduce the direct speech."
     },
     {
       "greek_nt": [
@@ -216,13 +189,15 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist imperative σταύρωσον with separate object pronoun αὐτόν; Syriac employs the imperative ܙܩܘܦܝܗܝ with the third-person masculine singular object suffix attached; Latin uses the imperative Crucifige with separate object pronoun eum — all semantically identical but morphologically divergent."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.843231+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.048453+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

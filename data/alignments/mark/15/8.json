@@ -54,8 +54,9 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "note": "Greek καὶ and Latin Et both conjunctions; Peshitta ܘ incorporated into verb ܘܩܥܘ"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb ܘܩܥܘ ('and they cried out'), which itself contains the conjunctive waw. This represents a stylistic choice where Syriac incorporates the connective function into the verbal prefix rather than using a separate particle."
     },
     {
       "greek_nt": [
@@ -68,16 +69,8 @@
         2
       ],
       "variant": "major",
-      "note": "Greek ἀναβάς 'having come up' vs Peshitta ܘܩܥܘ 'and they cried out' vs Vulgate ascendisset 'had ascended' - significant semantic divergence in Peshitta"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "added",
-      "note": "Vulgate adds cum 'when' as temporal conjunction"
+      "type": "substitution",
+      "note": "Greek ἀναβὰς ('having come up') and Latin ascendisset ('had come up') describe spatial movement toward Pilate, whereas Peshitta ܘܩܥܘ ('and they cried out') substitutes a verb of vocal action. This represents a substantive lexical divergence that alters the narrative action from physical approach to vocal demand."
     },
     {
       "greek_nt": [
@@ -90,32 +83,45 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article ὁ with ὄχλος (nominative singular); Peshitta ܥܡܐ and Vulgate turba lack the article, following typical Syriac and Latin patterns where definiteness is contextually determined rather than morphologically marked."
     },
     {
-      "greek_nt": [
-        4
-      ],
+      "greek_nt": [],
       "peshitta": [
         2
       ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts ܘܫܪܝܘ ('and they began'), creating a compound verbal construction parallel to the Greek ἤρξατο but with plural agreement matching ܥܡܐ as a collective. This represents Syriac preference for explicit verbal inception markers even when already present in the source."
     },
     {
       "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        4,
         5
       ],
       "variant": "minor",
-      "note": "Greek αἰτεῖσθαι 'to ask/beg' vs Latin rogare 'to ask/request' - slight register difference"
+      "type": "construction",
+      "note": "Greek ἤρξατο αἰτεῖσθαι uses aorist + present infinitive; Vulgate cœpit rogare mirrors this with perfect + infinitive; Peshitta ܠܡܫܐܠ employs the lamadh infinitive construction. All three express inceptive aspect, but Syriac integrates this into a single infinitival phrase rather than a finite-plus-infinitive structure."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate inserts cum ('when'), creating a temporal subordinate clause (cum ascendisset) that makes the crowd's ascent explicitly circumstantial. Neither Greek nor Peshitta employ a temporal conjunction here, relying instead on participial (Greek) or coordinate (Peshitta) constructions."
     },
     {
       "greek_nt": [
@@ -127,7 +133,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -140,7 +147,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀεὶ ('always') and Latin semper are simple adverbs; Peshitta uses ܕܡܥܕ ܗܘܐ, a compound construction with the verb 'to be' that emphasizes customary past action ('was accustomed'). This represents a characteristic Syriac periphrastic rendering of habitual aspect."
     },
     {
       "greek_nt": [
@@ -152,7 +161,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -164,13 +174,14 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.842443+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T12:17:08.047480+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

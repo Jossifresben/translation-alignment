@@ -87,12 +87,14 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek uses καὶ οἱ δὲ (and those now); Peshitta ܘܗܢܘܢ (and those); Vulgate Qui autem (who however) - stylistic variation in connective particles"
+      "type": "substitution",
+      "note": "Greek employs a double conjunction καὶ ... δὲ ('and ... but/now') with article οἱ to mark subject shift; Peshitta uses simple ܘܗܢܘܢ ('and those'); Vulgate uses Qui autem ('who however'), a relative pronoun construction. All three mark the same narrative transition but with different syntactic strategies."
     },
     {
       "greek_nt": [
         3,
-        4
+        4,
+        5
       ],
       "peshitta": [
         1,
@@ -104,16 +106,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܕܪܥܝܢ ܗܘܘ ܠܗܘܢ (who were feeding them) with auxiliary verb; Greek and Vulgate use participle"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek χοίρους (pigs) explicitly mentioned; Peshitta and Vulgate use pronoun reference from context"
+      "type": "construction",
+      "note": "Greek uses a present participle βόσκοντες with accusative object αὐτοὺς χοίρους ('feeding them, [the] pigs'); Peshitta employs a periphrastic construction ܕܪܥܝܢ ܗܘܘ ܠܗܘܢ ('who were pasturing to-them') with auxiliary verb; Vulgate uses imperfect pascebant eos ('were feeding them'). The Peshitta and Vulgate omit explicit mention of 'pigs,' relying on context from the preceding verse."
     },
     {
       "greek_nt": [
@@ -129,27 +123,19 @@
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀπήγγειλαν (from ἀπαγγέλλω, 'proclaimed, announced') emphasizes formal reporting; Peshitta ܘܐܡܪܘ ('and they said/told') is a simpler, more colloquial verb; Vulgate nuntiaverunt ('they announced') aligns semantically with the Greek but uses a different Latin root. All convey the same action with varying registers of formality."
     },
     {
       "greek_nt": [
@@ -164,91 +150,69 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the preposition εἰς with accusative article τὴν πόλιν ('into the city'); Peshitta uses the preposition ܒ ('in/at') with ܡܕܝܢܬܐ, indicating location rather than motion-toward; Vulgate in civitatem mirrors the Greek accusative of motion. The Peshitta's locative construction is idiomatic Syriac, semantically equivalent despite the grammatical difference."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14,
         15
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek τοὺς ἀγρούς ('the fields/countryside') is plural; Peshitta ܒܩܘܪܝܐ ('in the villages') substitutes a related but distinct term, specifying rural settlements rather than open fields; Vulgate agros ('fields') mirrors the Greek plural. The Peshitta's choice reflects a semantic shift from agricultural land to inhabited rural areas, though both convey 'the countryside' broadly."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
+        12,
         13,
         14
       ],
       "variant": "minor",
-      "note": "Greek ἦλθον (came/went); Peshitta ܘܢܦܩܘ (and they went out); Vulgate egressi sunt (they went out) - Peshitta and Vulgate make explicit the outward motion"
+      "type": "construction",
+      "note": "Greek καὶ ἦλθον ('and they came') uses aorist indicative; Peshitta ܘܢܦܩܘ ('and they went out') employs a different verb root emphasizing departure/exit; Vulgate Et egressi sunt ('and having gone out') uses a perfect passive participle with auxiliary, creating a compound past construction. The Vulgate's periphrastic perfect is stylistically distinct from the Greek aorist."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20,
         21,
         22
       ],
       "peshitta": [
+        10,
         11,
         12
       ],
       "vulgate": [
+        15,
         16,
         17,
         18
       ],
       "variant": "minor",
-      "note": "Greek τί ἐστιν τὸ γεγονός (what is that which has happened); Peshitta ܡܕܡ ܕܗܘܐ (what happened); Vulgate quid esset factum (what had been done) - minor tense/construction differences"
+      "type": "construction",
+      "note": "Greek uses infinitive ἰδεῖν ('to see') with indirect question τί ἐστιν τὸ γεγονός ('what is the thing having happened'); Peshitta employs infinitive ܠܡܚܙܐ ('to see') with indefinite ܡܕܡ ܕܗܘܐ ('something that happened'), a more compact construction; Vulgate videre quid esset factum ('to see what had been done') uses subjunctive esset in indirect question. The Peshitta's ܡܕܡ ('something') is semantically broader than Greek τί ('what'), and the Vulgate's pluperfect subjunctive factum esset differs aspectually from the Greek perfect participle."
     },
     {
       "greek_nt": [],
@@ -257,13 +221,14 @@
         19
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate adds a colon (:) at verse end, marking a stronger pause before the subsequent narrative. Neither Greek nor Peshitta manuscripts transmit equivalent punctuation at this juncture; the Vulgate's colon reflects Latin editorial tradition emphasizing the transition to the crowd's arrival and observation in the following verse."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.755738+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.972637+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

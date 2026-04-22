@@ -101,7 +101,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "note": "Greek ἐκεῖ and Peshitta ܬܡܢ explicit 'there'; Vulgate omits as implicit in context"
+      "type": "omission",
+      "note": "The Vulgate omits the adverb 'there' (Greek ἐκεῖ, Peshitta ܬܡܢ), likely treating the locative phrase 'in deserto' as sufficiently explicit without additional deictic reinforcement."
     },
     {
       "greek_nt": [
@@ -131,7 +132,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the numeral before the noun (τεσσεράκοντα ἡμέρας / quadraginta diebus), while Peshitta reverses the order (ܝܘܡܬܐ ܐܪܒܥܝܢ), following standard Semitic syntax for numeral-noun constructions."
     },
     {
       "greek_nt": [],
@@ -142,8 +145,9 @@
         8,
         9
       ],
-      "variant": "added",
-      "note": "Vulgate adds 'et quadraginta noctibus' (and forty nights), absent in Greek and Peshitta"
+      "variant": "major",
+      "type": "expansion",
+      "note": "The Vulgate uniquely adds 'et quadraginta noctibus' ('and forty nights'), harmonising with the Matthean temptation narrative (Matt 4:2) and the Mosaic typology (Exod 34:28). Neither the Greek nor the Peshitta attest this phrase in Mark's account."
     },
     {
       "greek_nt": [
@@ -157,7 +161,9 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a present passive participle (πειραζόμενος) indicating continuous action; Peshitta uses the temporal particle ܟܕ with an ethpeal participle (ܡܬܢܣܐ), creating a circumstantial clause; Vulgate uses an imperfect passive indicative (tentabatur), all expressing durative temptation but through distinct grammatical strategies."
     },
     {
       "greek_nt": [
@@ -182,7 +188,8 @@
         14
       ],
       "variant": "minor",
-      "note": "Vulgate punctuation colon, no semantic content"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'Satana', creating a stronger syntactic break between the temptation clause and the subsequent material, whereas Greek and Peshitta maintain continuous narrative flow with simple conjunction."
     },
     {
       "greek_nt": [
@@ -196,7 +203,9 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses coordinating conjunction καὶ with finite verb ἦν; Peshitta employs the compound form ܘܐܝܬܘܗܝ ܗܘܐ (periphrastic construction with existential particle); Vulgate contracts to the enclitic -que attached to erat, all expressing continuation but with varying degrees of syntactic independence."
     },
     {
       "greek_nt": [
@@ -221,46 +230,38 @@
         18
       ],
       "variant": "minor",
-      "note": "Vulgate punctuation comma, no semantic content"
+      "type": "punctuation",
+      "note": "The Vulgate again inserts a colon after 'bestiis', creating a tripartite structure (temptation : beasts : angels) through punctuation, while Greek and Peshitta maintain paratactic coordination without such hierarchical segmentation."
     },
     {
       "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19
       ],
       "peshitta": [
+        13,
         16
       ],
       "vulgate": [
-        19
+        19,
+        20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the subject 'angels' before the verb (οἱ ἄγγελοι διηκόνουν / angeli ministrabant), following standard SVO/VSO patterns; Peshitta inverts to verb-subject order (ܘܡܫܡܫܝܢ ܡܠܐܟܐ), a common Semitic construction especially in narrative continuation."
     },
     {
       "greek_nt": [
         20
       ],
       "peshitta": [
-        13,
         14
       ],
-      "vulgate": [
-        20
-      ],
+      "vulgate": [],
       "variant": "minor",
-      "note": "Peshitta uses participial construction ܘܡܫܡܫܝܢ ܗܘܘ with auxiliary; Greek/Vulgate finite verb"
+      "type": "grammar",
+      "note": "The Peshitta includes the auxiliary verb ܗܘܘ (plural 'were') to form a periphrastic imperfect construction with the participle ܘܡܫܡܫܝܢ, making the plural agreement explicit, whereas Greek and Latin express plurality through verb inflection alone (διηκόνουν / ministrabant)."
     },
     {
       "greek_nt": [
@@ -277,8 +278,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.728108+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.944835+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

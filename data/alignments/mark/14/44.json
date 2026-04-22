@@ -77,7 +77,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -87,59 +88,45 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "note": "Greek δὲ and Latin autem are discourse particles; Peshitta uses simple conjunction ܘ (included in ܘܝܗܒ)"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the postpositive conjunction δέ / autem, beginning the sentence directly with the verb. This is a characteristic Syriac stylistic preference for asyndetic construction where Greek and Latin employ connective particles."
     },
     {
       "greek_nt": [
         2,
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        3,
         4,
         5
       ],
       "vulgate": [
+        2,
         3
       ],
       "variant": "minor",
-      "note": "Peshitta expands with relative clause 'who was betraying' (ܗܘ ܕܡܫܠܡ) vs. Greek/Latin simple pronoun"
+      "type": "construction",
+      "note": "Greek uses an articular participle construction (ὁ παραδιδοὺς αὐτόν, 'the one delivering him up'); Latin employs a simple noun (traditor ejus, 'his betrayer'); Peshitta uses a double construction with both a participle and a relative clause (ܡܫܠܡܢܐ ܗܘ ܕܡܫܠܡ, 'the betrayer who was betraying'), creating semantic emphasis through redundancy."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
+        2,
         1
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the indirect object after the noun (σύσσημον αὐτοῖς, 'a sign to them'); Peshitta reverses this order (ܠܗܘܢ ܐܬܐ, 'to them a sign'), following typical Semitic word order with the prepositional phrase preceding its governed noun; Latin mirrors the Greek sequence (signum eis)."
     },
     {
       "greek_nt": [
@@ -152,7 +139,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after dicens to mark the beginning of direct speech, while Greek uses a raised dot (·) and Peshitta employs no explicit punctuation marker. This reflects differing scribal conventions for indicating quotation boundaries."
     },
     {
       "greek_nt": [
@@ -166,7 +155,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek ὃν ἂν (relative + particle) = Peshitta ܗܘ (pronoun) = Latin Quemcumque; stylistic variation in indefinite relative construction"
+      "type": "construction",
+      "note": "Greek employs a relative pronoun with the modal particle ἄν to express indefiniteness (ὃν ἂν, 'whomever'); Latin uses the compound relative quemcumque; Peshitta uses a simple relative pronoun ܗܘ ('he who') with the verb carrying the indefinite sense, a typical Semitic strategy for expressing generalized reference."
     },
     {
       "greek_nt": [
@@ -180,7 +170,9 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the aorist subjunctive φιλήσω (first person singular, 'I may kiss'); Latin employs the future perfect osculatus fuero ('I will have kissed'), reflecting Latin's preference for the future perfect in indefinite temporal clauses; Peshitta uses ܕܢܫܩ ܐܢܐ ('that I kiss I'), with the explicit first-person pronoun ܐܢܐ added for emphasis, a common Syriac construction."
     },
     {
       "greek_nt": [
@@ -194,7 +186,9 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek and Latin both use an emphatic pronoun construction (αὐτός ἐστιν / ipse est, 'he himself is'); Peshitta uses the demonstrative pronoun ܗܘܝܘ ('he is'), which functions as both copula and demonstrative, achieving the same emphatic effect through a more compact Semitic construction."
     },
     {
       "greek_nt": [
@@ -208,7 +202,8 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -218,38 +213,32 @@
       "vulgate": [
         15
       ],
-      "variant": "minor",
-      "note": "Greek καὶ and Latin et explicit; Peshitta uses ܘ prefix on following verb (ܘܐܘܒܠܘܗܝ)"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the coordinating conjunction καί / et between the two imperatives, using simple juxtaposition (ܐܘܚܕܘܗܝ ܙܗܝܪܐܝܬ ܘܐܘܒܠܘܗܝ). The conjunction ܘ appears only before the second verb, creating an asyndetic-then-syndetic pattern typical of Syriac narrative style."
     },
     {
       "greek_nt": [
-        16
+        16,
+        17
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17
       ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin place the adverb after the verb (ἀπάγετε ἀσφαλῶς / ducite caute, 'lead away securely'); Peshitta places the adverb ܙܗܝܪܐܝܬ ('carefully') before the final verb ܘܐܘܒܠܘܗܝ ('and lead him'), reflecting the Semitic preference for adverbial modifiers to precede the verbs they modify."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.836719+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.041788+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

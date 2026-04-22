@@ -56,133 +56,87 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses plural ἔρχονται ('they come') and Latin veniunt mirrors this; Peshitta employs singular ܘܐܬܐ ('and he came'), likely treating Jesus as the primary subject with the crowd implied, a common Syriac narrative convention."
     },
     {
       "greek_nt": [
-        1,
         2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "note": "Greek uses εἰς + accusative for motion; Peshitta and Vulgate incorporate preposition differently (ܠ- prefix, accusative Bethsaidam)"
+      "type": "construction",
+      "note": "Greek uses preposition + accusative (εἰς Βηθσαϊδάν); Latin employs accusative of place-to-which without preposition (Bethsaidam); Syriac uses prefixed lamed (ܠܒܝܬ-ܨܝܕܐ) — all three express identical locative semantics through tradition-specific constructions."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
+        4,
         5,
         6
       ],
-      "vulgate": [
-        8
+      "peshitta": [
+        2,
+        3
       ],
-      "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܒܥܝܢ ܗܘܘ (were asking) vs. Greek/Vulgate simple imperfect"
+      "vulgate": [
+        3,
+        4,
+        5
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
         10
       ],
       "peshitta": [
+        5,
+        6,
         7
       ],
       "vulgate": [
+        7,
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Peshitta inserts the auxiliary verb ܗܘܘ (hwaw, 'they were') to form a periphrastic imperfect construction (ܘܒܥܝܢ ܗܘܘ, 'and they were beseeching'), emphasizing durative aspect; Greek παρακαλοῦσιν and Latin rogabant express the same imperfective semantics through simple tense forms."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13
       ],
@@ -191,17 +145,19 @@
         9
       ],
       "vulgate": [
+        10,
         11,
         12
       ],
-      "variant": "major",
-      "note": "Greek ἅπτω (touch) vs. Peshitta ܩܪܒ (approach/draw near) represents semantic shift; Vulgate tangeret aligns with Greek"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἅψηται (G681, 'touch') and Latin tangeret are direct cognates; Peshitta uses ܕܢܩܪܘܒ (dnqrwb, 'that he draw near/approach'), a semantic near-synonym emphasizing proximity rather than physical contact, though both convey the healing gesture."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.781607+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.997174+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -86,7 +86,8 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Greek ἀλλ᾽ and Peshitta ܐܠܐ appear mid-sentence; Vulgate omits adversative conjunction, restructuring clause order"
+      "type": "word-order",
+      "note": "Greek ἀλλ᾽ and Peshitta ܐܠܐ both function as adversative conjunctions, but the Peshitta repositions this element to follow the initial negative clause (after ܡܐܢܘܗܝ), creating a different rhetorical structure. The Vulgate omits an explicit adversative conjunction entirely, relying on the negative construction alone."
     },
     {
       "greek_nt": [
@@ -103,7 +104,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the negation οὐ before the verb δύναται and subject οὐδεὶς, while Peshitta fronts the negation ܠܐ before subject ܐܢܫ and verb ܡܫܟܚ. Latin uses nemo (incorporating negation into the pronoun) with potest, achieving the same semantic force through lexical rather than syntactic negation."
     },
     {
       "greek_nt": [
@@ -116,7 +119,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek participle εἰσελθὼν vs Peshitta infinitive ܕܢܥܘܠ vs Vulgate participle ingressus; stylistic variation in verbal form"
+      "type": "construction",
+      "note": "Greek employs an aorist participle εἰσελθὼν ('having entered') to express the action subordinately, while Peshitta uses a prefixed d- construction ܕܢܥܘܠ (infinitive with purposive/temporal force) and Vulgate uses a perfect participle ingressus. All three convey entry into the house, but through distinct grammatical strategies."
     },
     {
       "greek_nt": [
@@ -135,8 +139,9 @@
         6,
         3
       ],
-      "variant": "major",
-      "note": "Vulgate reorders: 'vasa fortis...in domum' vs Greek/Peshitta 'into house of strong man'; substantive syntactic restructuring"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses prepositional phrase εἰς τὴν οἰκίαν τοῦ ἰσχυροῦ with article-noun-genitive structure; Peshitta employs construct state ܠܒܝܬ ܚܣܝܢܐ (to-house-of strong-one); Vulgate places the genitive fortis before the noun domum, creating a chiastic arrangement relative to Greek word order."
     },
     {
       "greek_nt": [
@@ -151,7 +156,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek τὰ σκεύη αὐτοῦ with article vs Peshitta ܡܐܢܘܗܝ with suffix vs Vulgate vasa (fronted); word order and article usage differ"
+      "type": "word-order",
+      "note": "Greek positions the direct object τὰ σκεύη αὐτοῦ ('the goods of him') after the participle and before the infinitive διαρπάσαι, while Vulgate fronts vasa immediately after the subject, and Peshitta places ܡܐܢܘܗܝ ('his vessels') after the verb ܘܢܚܛܘܦ. All three traditions attest the possessive pronoun, but in different syntactic positions."
     },
     {
       "greek_nt": [
@@ -163,7 +169,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -176,7 +183,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -188,7 +196,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -201,7 +210,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -213,31 +223,23 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        20,
         21
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -252,7 +254,9 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses article + noun + genitive pronoun (τὴν οἰκίαν αὐτοῦ); Vulgate employs noun + possessive genitive (domum ejus); Peshitta uses construct state with pronominal suffix ܒܝܬܗ ('his-house'), the most compact form. All three convey identical possessive semantics through language-specific morphosyntactic strategies."
     },
     {
       "greek_nt": [
@@ -264,13 +268,14 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.743852+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.961424+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -70,37 +70,30 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek εὐθὺς 'immediately' omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek εὐθύς ('immediately') is omitted in both Peshitta and Vulgate. This adverb is characteristic of Mark's rapid narrative style but was evidently deemed non-essential by the translators, who preserve the temporal sequence through context alone."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3,
         4,
         5,
         6
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
+        1,
         2,
         3,
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses compound form ܒܟܢܘܫܬܗܘܢ (in-synagogue-their) vs. Greek/Vulgate prepositional phrase"
+      "type": "construction",
+      "note": "Greek uses the imperfect ἦν with prepositional phrase ἐν τῇ συναγωγῇ αὐτῶν; Vulgate mirrors this with erat in synagoga eorum. Peshitta employs the existential particle ܐܝܬ ܗܘܐ with a single suffixed noun ܒܟܢܘܫܬܗܘܢ ('in-their-synagogue'), a more compact Syriac construction expressing the same locative sense."
     },
     {
       "greek_nt": [
@@ -116,32 +109,24 @@
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        4,
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses relative clause ܕܐܝܬ ܒܗ 'who had in him' vs. Greek/Vulgate prepositional ἐν/in"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
         10
       ],
       "peshitta": [
+        4,
+        5,
         6,
         7
       ],
       "vulgate": [
+        6,
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐν πνεύματι ἀκαθάρτῳ ('in/with an unclean spirit'); Vulgate replicates this with in spiritu immundo. Peshitta employs a relative construction ܕܐܝܬ ܒܗ ܪܘܚܐ ܛܡܐܬܐ ('who had in him an unclean spirit'), making the possession more explicit through the relative particle ܕ and pronominal suffix ܒܗ ('in-him')."
     },
     {
       "greek_nt": [],
@@ -150,7 +135,8 @@
         9
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after immundo, creating a stronger pause before the demon's outcry. Neither Greek nor Peshitta manuscripts transmit punctuation at this juncture, maintaining continuous narrative flow from description to action."
     },
     {
       "greek_nt": [
@@ -169,8 +155,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.729628+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.947020+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

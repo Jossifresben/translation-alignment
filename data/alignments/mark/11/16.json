@@ -56,7 +56,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -69,7 +70,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܠܐ combines conjunction and negation"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,32 +84,24 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܫܒܩ ܗܘܐ (was permitting) for Greek imperfect ἤφιεν"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction ܫܒܩ ܗܘܐ (šbaq hwā, 'was permitting') using the verb 'to be' plus active participle, whereas Greek uses the simple imperfect ἤφιεν and Latin the simple imperfect sinebat. This is a characteristic Syriac idiom for expressing continuous past action, semantically equivalent to the Greek and Latin simple forms."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        3,
         4
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܕܐܢܫ combines subordinator and indefinite pronoun"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses ἵνα τις ('that anyone') with the conjunction followed by the indefinite pronoun, and Latin mirrors this with ut quisquam. Syriac employs the compound relative-indefinite ܕܐܢܫ (d-'nāš, 'that-anyone'), a single lexeme performing the function of both Greek words—a typical Semitic compression of the Greek construction."
     },
     {
       "greek_nt": [
@@ -121,7 +114,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek διενέγκῃ (carry through) vs Peshitta ܢܥܒܪ (pass/cross) vs Vulgate transferret (transfer); semantic overlap but different lexical choices"
+      "type": "lexical",
+      "note": "Greek διενέγκῃ (from διαφέρω, 'carry through/across') emphasizes movement through space, while Latin transferret (from transfero) and Syriac ܢܥܒܪ (ne'bar, 'pass/cross') both denote crossing or transferring. The Syriac and Latin verbs are semantically closer to each other than to the Greek compound, though all three convey the prohibition of transporting objects through the temple precincts."
     },
     {
       "greek_nt": [
@@ -133,7 +127,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -146,8 +141,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "note": "Greek διὰ τοῦ (through the) vs Peshitta ܒܓܘ (in/within) vs Vulgate per; prepositional variation"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the preposition διά with the genitive article τοῦ ('through the'), and Latin uses per without an article (as Latin lacks articles). Syriac employs ܒܓܘ (b-gaw, 'in-the-midst-of'), a compound preposition that conveys interior passage rather than simple traversal, reflecting a slightly different spatial conceptualization while maintaining the same prohibition."
     },
     {
       "greek_nt": [
@@ -159,7 +155,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -167,14 +164,15 @@
       "vulgate": [
         9
       ],
-      "variant": "added",
-      "note": "Vulgate colon is punctuation, not lexical content"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate adds a colon at verse end, marking a stronger pause before the following verse. This punctuation choice reflects Latin rhetorical convention and does not represent a textual variant in the underlying Greek or Syriac witnesses."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.810083+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.017677+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

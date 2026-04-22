@@ -71,7 +71,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,7 +84,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -96,7 +98,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta adds explicit pronoun ܐܢܐ (I) with verb; Greek/Vulgate use inflection only"
+      "type": "punctuation",
+      "note": "The Vulgate attaches a comma to 'vobis,' marking a stronger pause before the ὅτι-clause, whereas Greek and Peshitta proceed without punctuation. This reflects Latin rhetorical convention rather than semantic divergence."
     },
     {
       "greek_nt": [],
@@ -105,7 +108,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta explicit subject pronoun ܐܢܐ (I)"
+      "type": "gloss",
+      "note": "The Peshitta inserts the explicit subject pronoun ܐܢܐ ('I'), a common Syriac clarification of the Greek first-person verb λέγω, which carries the subject implicitly. Neither Greek nor Latin requires an overt pronoun here."
     },
     {
       "greek_nt": [
@@ -115,7 +119,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -131,8 +136,9 @@
         4,
         8
       ],
-      "variant": "minor",
-      "note": "Greek separates πάντα and τὰ ἁμαρτήματα with intervening verb; Peshitta/Vulgate use single construct ܕܟܠܗܘܢ ܚܛܗܐ / omnia peccata"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek employs a hyperbaton, separating πάντα from τὰ ἁμαρτήματα by the verb and dative phrase, then resuming with the article-noun pair. Peshitta and Vulgate front the quantifier with its noun (ܕܟܠܗܘܢ ܚܛܗܐ / omnia peccata), yielding a more linear syntax. The Greek construction emphasizes totality through dislocation."
     },
     {
       "greek_nt": [
@@ -145,7 +151,8 @@
         5
       ],
       "variant": "major",
-      "note": "Word order: Greek places verb early (ἀφεθήσεται); Peshitta places verb late (ܢܫܬܒܩܘܢ); affects emphasis and clause structure"
+      "type": "word-order",
+      "note": "Greek places the passive verb ἀφεθήσεται early in the clause (future indicative), while Peshitta defers ܢܫܬܒܩܘܢ to the end, and Vulgate positions dimittentur medially. The Peshitta's verb-final order reflects typical Semitic SOV structure; Greek and Latin exhibit greater flexibility."
     },
     {
       "greek_nt": [
@@ -162,29 +169,13 @@
         6,
         7
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit indirect object pronoun ܠܗܘܢ (to them)"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular dative τοῖς υἱοῖς τῶν ἀνθρώπων ('to the sons of men') with double article; Latin mirrors this with filiis hominum (genitive construction); Peshitta employs the construct state ܒܢܝ ܐܢܫܐ, a bound phrase without articles. All three express the same Semitic idiom for 'humanity.'"
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
         14
       ],
@@ -192,10 +183,12 @@
         6
       ],
       "vulgate": [
+        9,
         10
       ],
       "variant": "minor",
-      "note": "Greek uses article + noun (αἱ βλασφημίαι); Peshitta/Vulgate use construct state ܘܓܘܕܦܐ / blasphemiæ with coordinating conjunction"
+      "type": "construction",
+      "note": "Greek coordinates with καὶ αἱ βλασφημίαι (article + plural noun); Vulgate uses et blasphemiæ (conjunction + plural); Peshitta employs ܘܓܘܕܦܐ, a singular collective noun prefixed with waw. The Syriac singular for plural is a standard idiom for abstract mass-nouns."
     },
     {
       "greek_nt": [
@@ -211,7 +204,18 @@
         12
       ],
       "variant": "major",
-      "note": "Greek uses relative clause ὅσα ἐὰν βλασφημήσωσιν; Peshitta uses participial relative ܕܢܓܕܦܘܢ; Vulgate uses relative pronoun + verb quibus blasphemaverint; different syntactic strategies"
+      "type": "construction",
+      "note": "Greek uses a relative clause with conditional particle (ὅσα ἐὰν βλασφημήσωσιν, 'whatever they may blaspheme'), employing aorist subjunctive. Vulgate mirrors this with quibus blasphemaverint (relative + future perfect). Peshitta condenses to a single relative participle ܕܢܓܕܦܘܢ ('that they blaspheme'), omitting the quantifier ὅσα and the conditional nuance, yielding a simpler attributive construction."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta appends the pronominal suffix ܠܗܘܢ ('to them') to clarify the indirect object of forgiveness, making explicit what Greek and Latin leave implicit in the dative τοῖς υἱοῖς / filiis. This is a typical Syriac clarification strategy."
     },
     {
       "greek_nt": [],
@@ -219,14 +223,15 @@
       "vulgate": [
         13
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate closes the verse with a colon, signaling continuation into the following verse (the unforgivable sin). Greek uses a raised dot (·), and Peshitta has no explicit punctuation. The Vulgate's colon reflects medieval Latin scribal practice for heightened rhetorical linkage."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.744080+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.961628+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

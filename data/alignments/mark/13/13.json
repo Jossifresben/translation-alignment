@@ -71,7 +71,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -87,30 +88,24 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta combines copula+participle in single verb form; Vulgate uses passive periphrastic 'eritis odio' (lit. 'you will be for hatred')"
+      "type": "construction",
+      "note": "Greek uses future indicative with passive participle (ἔσεσθε μισούμενοι, periphrastic future passive); Vulgate employs a simple future with dative of disadvantage (eritis odio, 'you will be for hatred'); Syriac uses future with passive participle (ܬܗܘܘܢ ܣܢܝܐܝܢ), mirroring Greek structure but with different morphological realization."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek ὑπό and Peshitta ܡܢ express agency; Vulgate uses dative 'omnibus' without preposition"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs ὑπὸ πάντων (genitive plural with preposition, 'by all'); Vulgate uses simple dative omnibus without preposition; Syriac uses ܡܢ ܟܠܢܫ (preposition + collective singular 'from everyone'), a typical Semitic idiom for universal agency."
     },
     {
       "greek_nt": [
@@ -128,7 +123,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses prepositional phrase with article (διὰ τὸ ὄνομά μου, 'on account of the name of me'); Vulgate mirrors this with propter nomen meum; Syriac omits the article (ܡܛܠ ܫܡܝ), as Semitic languages typically lack the definite article before possessed nouns with pronominal suffixes."
     },
     {
       "greek_nt": [
@@ -143,7 +140,8 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -155,7 +153,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses aorist participle ὑπομείνας (substantival, 'the one having endured'); Vulgate employs future perfect sustinuerit (relative clause construction); Syriac uses imperfect with relative particle ܕܢܣܝܒܪ ('who will endure'), shifting from completed to durative aspect."
     },
     {
       "greek_nt": [
@@ -170,7 +170,9 @@
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εἰς τέλος ('unto the end') and Vulgate in finem use directional prepositions; Syriac employs ܥܕܡܐ ܠܚܪܬܐ ('until the end'), using a temporal preposition with the noun for 'end/latter time', semantically equivalent but lexically distinct."
     },
     {
       "greek_nt": [
@@ -182,7 +184,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -196,13 +199,14 @@
         14
       ],
       "variant": "minor",
-      "note": "Vulgate uses 'salvus erit' (adjective + copula) vs. Greek/Peshitta passive verb forms"
+      "type": "construction",
+      "note": "Greek uses simple future passive σωθήσεται ('will be saved'); Vulgate employs future with predicate adjective salvus erit ('will be safe/saved'); Syriac uses imperfect ܢܚܐ ('will live'), a semantic equivalent focusing on the result of salvation as life rather than the passive act of being saved."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.824361+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.030293+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

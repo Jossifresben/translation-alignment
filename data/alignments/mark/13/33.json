@@ -58,7 +58,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -70,7 +71,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -82,7 +84,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -95,7 +98,7 @@
         3
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܨܠܘ"
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -103,8 +106,9 @@
       "vulgate": [
         4
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'orate' to mark a stronger syntactic break before the causal clause, whereas Greek uses a raised dot (·) and Peshitta employs no explicit punctuation marker at this juncture. This reflects Latin rhetorical convention rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -116,7 +120,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -128,16 +133,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta makes subject pronoun ܐܢܬܘܢ explicit; Greek/Latin encode in verb morphology"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -149,40 +146,48 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places γάρ ('for') post-verbally after οἴδατε, following standard Koine syntax for causal particles. Peshitta and Vulgate both position the causal conjunction (ܓܝܪ / enim) pre-verbally, reflecting their respective languages' preference for clause-initial conjunctions in explanatory statements."
     },
     {
-      "greek_nt": [
-        7
-      ],
+      "greek_nt": [],
       "peshitta": [
-        7
+        6
       ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek definite article ὁ has no equivalent in Peshitta or Vulgate"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta supplies the explicit subject pronoun ܐܢܬܘܢ ('you'), which is grammatically unnecessary but stylistically preferred in Syriac to clarify the second-person plural subject. Greek and Latin encode this information morphologically in the verb endings (οἴδατε / nescitis) and omit the pronoun."
     },
     {
       "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article ὁ with καιρός ('the time'), a construction mirrored in Peshitta with the pronominal suffix ܗܘ ('it is') functioning as a copula plus demonstrative. Vulgate omits any article, as classical Latin lacks definite articles, rendering simply 'tempus sit' in subjunctive mood within the indirect question."
     },
     {
       "greek_nt": [
@@ -194,13 +199,15 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the present indicative ἐστιν in the indirect question, a permissible construction in Koine. Vulgate employs the subjunctive 'sit', required by classical Latin syntax for indirect questions. Peshitta uses the enclitic copula ܗܘ, which functions as present indicative but is syntactically bound to the preceding noun."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.827398+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.033406+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

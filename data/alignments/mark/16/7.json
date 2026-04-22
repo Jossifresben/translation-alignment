@@ -82,7 +82,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -94,7 +95,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -106,7 +108,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -121,21 +124,13 @@
         3,
         4
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
       "variant": "minor",
-      "note": "Peshitta uses ܘ prefix on ܘܠܟܐܦܐ instead of separate conjunction"
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (τοῖς μαθηταῖς αὐτοῦ) in dative; Peshitta employs a bound form with pronominal suffix (ܠܬܠܡܝܕܘܗܝ); Vulgate uses noun + possessive genitive pronoun (discipulis ejus). All three express identical semantics through language-specific possessive constructions."
     },
     {
       "greek_nt": [
+        6,
         7,
         8
       ],
@@ -143,9 +138,12 @@
         4
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs coordinating conjunction καὶ with article τῷ before the proper name Πέτρῳ (dative); Peshitta uses the conjunction ܘ prefixed directly to the name with preposition ܠ (ܘܠܟܐܦܐ); Vulgate mirrors Greek structure with et Petro. The Syriac construction is more compact but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -157,31 +155,25 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὅτι introduces indirect discourse; Peshitta uses ܕܗܐ (d-hā), a compound particle combining ܕ (relative/complementizer) with ܗܐ (presentative 'behold'); Vulgate uses quia. The Peshitta form adds mild emphasis ('behold that') while Greek and Latin are neutral complementizers."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -196,16 +188,9 @@
         10,
         11
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition εἰς with article and accusative noun (εἰς τὴν Γαλιλαίαν); Peshitta employs preposition ܠ with direct noun attachment (ܠܓܠܝܠܐ), lacking an overt article (Syriac has no definite article in this construction); Vulgate uses in with accusative Galilæam. All express motion toward Galilee with language-appropriate prepositional syntax."
     },
     {
       "greek_nt": [
@@ -215,9 +200,12 @@
         9
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ἐκεῖ and Peshitta ܬܡܢ are simple adverbs of place; Vulgate precedes ibi with a colon, creating a stronger syntactic break that emphasizes the locative clause. The punctuation difference reflects Latin rhetorical style rather than semantic divergence."
     },
     {
       "greek_nt": [
@@ -231,7 +219,9 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek separates pronoun and verb (αὐτὸν ὄψεσθε, 'Him you-will-see'); Peshitta fuses object pronoun as suffix on the verb (ܬܚܙܘܢܝܗܝ, 'you-will-see-him'); Vulgate separates them as eum videbitis. Greek and Latin use analytic constructions; Syriac employs synthetic morphology, but all convey identical meaning."
     },
     {
       "greek_nt": [
@@ -243,7 +233,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -255,7 +246,8 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -267,12 +259,13 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.851371+00:00",
+    "generated_at": "2026-04-22T12:17:08.055362+00:00",
     "confidence": 0.92,
     "schema_version": 1
   }

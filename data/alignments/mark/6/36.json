@@ -66,115 +66,76 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
         2
       ],
-      "peshitta": [],
       "vulgate": [
-        2
+        2,
+        3
       ],
       "variant": "minor",
-      "note": "Peshitta uses d- prefix on verb instead of separate conjunction ἵνα/ut"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
+      "type": "construction",
+      "note": "Greek uses ἵνα + aorist participle (ἀπελθόντες) for purpose; Vulgate mirrors this with ut + participle (euntes); Peshitta employs a single d- prefix subordinating construction (ܕܢܐܙܠܘܢ), a typical Syriac compression of purpose clauses."
     },
     {
       "greek_nt": [
         4,
         5,
         6,
-        7
+        7,
+        8,
+        9
       ],
       "peshitta": [
         3,
-        4
-      ],
-      "vulgate": [
         4,
         5
       ],
-      "variant": "minor",
-      "note": "Greek uses article + adverb κύκλῳ + ἀγρούς; Peshitta/Vulgate use adjective 'surrounding' with fields"
-    },
-    {
-      "greek_nt": [
+      "vulgate": [
+        4,
+        5,
+        6,
+        7,
         8
       ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
       "variant": "minor",
-      "note": "Peshitta uses w- prefix on next word instead of separate καί/et"
+      "type": "word-order",
+      "note": "Greek places the adverb κύκλῳ ('surrounding') before the nouns ἀγροὺς καὶ κώμας ('fields and villages'); Vulgate uses the adjective proximas before villas et vicos; Peshitta reverses the order, placing the participle ܕܚܕܪܝܢ ('surrounding') after the first noun ܠܐܓܘܪܣܐ ('fields'), yielding 'to fields surrounding and to villages'—a stylistic reordering with identical semantic scope."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -188,7 +149,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek τί ἄρτους 'something/loaves' vs Peshitta ܠܚܡܐ 'bread' vs Vulgate cibos 'food'; semantic range variation"
+      "type": "lexical",
+      "note": "Greek uses the indefinite pronoun τί ('something') + specific noun ἄρτους ('loaves'); Vulgate employs the generic cibos ('food'); Peshitta uses ܠܚܡܐ ('bread'), semantically closer to Greek but lacking the indefinite pronoun—all three convey 'food to eat' but with differing lexical specificity."
     },
     {
       "greek_nt": [
@@ -198,7 +160,8 @@
         11
       ],
       "vulgate": [],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -210,7 +173,8 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -222,15 +186,18 @@
         10,
         12
       ],
-      "vulgate": [],
+      "vulgate": [
+        12
+      ],
       "variant": "major",
-      "note": "Greek οὐκ ἔχουσιν 'they do not have' vs Peshitta ܠܝܬ ܠܗܘܢ ܡܕܡ 'there is not to them anything'; Vulgate omits negative clause, embedding object in relative quos manducent"
+      "type": "construction",
+      "note": "Greek uses a negative existential construction οὐκ ἔχουσιν ('they do not have'); Vulgate employs a relative clause quos manducent ('which they may eat'), presupposing the lack; Peshitta expands with ܠܝܬ ܠܗܘܢ ܓܝܪ ܡܕܡ ('for they have nothing'), inserting the indefinite ܡܕܡ ('anything') to make the negation explicit—a substantive clarification absent in Greek and Latin."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.768859+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.983458+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

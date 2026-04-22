@@ -50,7 +50,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -62,7 +63,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -71,7 +73,8 @@
         2
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'eamus' to mark a stronger pause before the announcement of the betrayer's approach. Neither Greek nor Peshitta employ punctuation at this juncture, maintaining continuous discourse flow."
     },
     {
       "greek_nt": [
@@ -83,56 +86,38 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         3,
-        4
-      ],
-      "peshitta": [
         4,
-        5
+        5,
+        6
+      ],
+      "peshitta": [
+        3,
+        4,
+        5,
+        6
       ],
       "vulgate": [
         4,
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta uses pronoun ܗܘ + participle; Vulgate uses relative pronoun qui; Greek uses article + participle"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek/Vulgate place pronoun before verb, Peshitta after"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
+        5,
+        6,
         7,
         8
       ],
-      "variant": "minor",
-      "note": "Peshitta places verb ܩܪܒ earlier in clause; Vulgate uses prope est (near is) construction"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek and Peshitta place the verb 'has drawn near' (ἤγγικεν / ܩܪܒ) in final position, creating a climactic structure: 'the one betraying me—has drawn near.' The Vulgate inverts this order, positioning 'prope est' at the end but fronting the relative clause 'qui me tradet' before the proximity verb, yielding 'who will betray me is near'—a syntactic reordering that shifts rhetorical emphasis from the approach to the identity of the betrayer."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.836373+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.041473+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

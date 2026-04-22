@@ -55,7 +55,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -67,7 +68,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,7 +85,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek uses periphrastic construction 'ταῖς ἐν γαστρὶ ἐχούσαις' (those having in womb); Peshitta and Vulgate use single lexemes (ܠܒܛܢܬܐ, prægnantibus)"
+      "type": "construction",
+      "note": "Greek employs an articular participial construction (ταῖς ἐν γαστρὶ ἐχούσαις, 'to those having [child] in womb') with dative article, preposition, and present participle. Latin uses a single dative participle (prægnantibus) and Syriac a single noun (ܠܒܛܢܬܐ, 'to pregnant-women'), both achieving semantic equivalence through more compact morphology."
     },
     {
       "greek_nt": [
@@ -95,8 +98,8 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "note": "Peshitta ܘܠܐܝܠܝܢ includes relative pronoun 'and to those who'; Greek καὶ and Vulgate et are simple conjunctions"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -104,12 +107,15 @@
         8
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek repeats the dative article (ταῖς θηλαζούσαις, 'to the [ones] nursing') in parallel structure with the preceding phrase. Syriac employs a relative construction (ܘܠܐܝܠܝܢ ܕܡܝܢܩܢ, 'and to those who nurse'), while Latin uses a bare participle (nutrientibus). All three convey identical referents through tradition-specific syntactic preferences."
     },
     {
       "greek_nt": [
@@ -127,13 +133,15 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the preposition ἐν before the demonstrative ἐκείναις and repeats the article before ἡμέραις (ἐν ἐκείναις ταῖς ἡμέραις), reflecting classical Greek article usage. Latin mirrors this order (in illis diebus) without article repetition. Syriac inverts to demonstrative-first (ܒܗܢܘܢ ܝܘܡܬܐ, 'in-those days'), a standard Semitic demonstrative-noun pattern, with no article since Syriac lacks the Greek article system."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.824939+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.030905+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

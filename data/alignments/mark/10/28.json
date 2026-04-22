@@ -63,7 +63,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -76,7 +77,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܫܪܝ combines conjunction and verb 'began'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -88,7 +89,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -102,7 +104,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek article + Πέτρος; Syriac ܟܐܦܐ (Kepha); Vulgate Petrus; word order varies"
+      "type": "word-order",
+      "note": "Greek places the article and subject (ὁ Πέτρος) after the infinitive λέγειν, while Vulgate positions Petrus before dicere and Peshitta places ܟܐܦܐ (Kepha) immediately after the verb. All three traditions identify Peter as the speaker but employ different syntactic arrangements typical of their respective languages."
     },
     {
       "greek_nt": [
@@ -113,7 +116,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek αὐτῷ and Vulgate ei (dative 'to him') explicit; Peshitta implicit in verb context"
+      "type": "omission",
+      "note": "Greek αὐτῷ and Vulgate ei explicitly mark the dative indirect object ('to him'), whereas Peshitta omits this pronoun, relying on context to identify Jesus as the addressee. This is a common Syriac stylistic preference when the referent is clear from discourse context."
     },
     {
       "greek_nt": [],
@@ -121,8 +125,9 @@
       "vulgate": [
         5
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon to mark the transition to direct speech, a Latin scribal convention not reflected in Greek or Syriac manuscript traditions, which use contextual markers (ἰδού / ܗܐ) instead."
     },
     {
       "greek_nt": [
@@ -134,7 +139,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -146,7 +152,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -158,7 +165,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -172,7 +180,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta ܟܠ ܡܕܡ 'everything' (lit. 'all thing') vs Greek πάντα and Vulgate omnia"
+      "type": "expansion",
+      "note": "Greek πάντα and Vulgate omnia use a single neuter plural adjective ('all things'), while Peshitta employs the emphatic construction ܟܠ ܡܕܡ (kul medem, 'everything whatsoever'), a Semitic intensification pattern that adds semantic weight without altering the core meaning."
     },
     {
       "greek_nt": [
@@ -184,7 +193,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -197,8 +207,9 @@
         11,
         12
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܢܩܦܢܟ combines conjunction + verb + suffix; Vulgate secuti sumus is periphrastic perfect"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the perfect tense ἠκολουθήκαμέν (single verb form) to express completed action with ongoing result, while Vulgate employs the perfect passive participle secuti with auxiliary sumus (periphrastic construction). Peshitta ܘܢܩܦܢܟ conflates the conjunction and verb into a single bound form, typical of Syriac morphology."
     },
     {
       "greek_nt": [
@@ -211,13 +222,13 @@
         13
       ],
       "variant": "aligned",
-      "note": "Greek σοι, Vulgate te; Peshitta suffix -ܟ on ܘܢܩܦܢܟ"
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.802126+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.011635+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

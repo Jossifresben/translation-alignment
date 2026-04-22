@@ -87,7 +87,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek conjunction καί omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek Καὶ is omitted in both Peshitta and Vulgate. The Peshitta begins directly with the negative ܠܐ ܐܢܫ ('no one'), while the Vulgate uses Nemo, both functioning as independent sentence openings without the coordinating conjunction."
     },
     {
       "greek_nt": [
@@ -100,7 +101,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -109,6 +111,7 @@
         4
       ],
       "peshitta": [
+        2,
         3,
         4
       ],
@@ -118,39 +121,31 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta uses compound ܐܘܪܩܥܬܐ ܚܕܬܐ (new patch) vs Greek ἐπίβλημα ῥάκους ἀγνάφου (patch of unshrunk cloth)"
+      "type": "word-order",
+      "note": "Greek uses ἐπίβλημα ῥάκους ἀγνάφου (patch of-cloth unshrunk) with the adjective following the noun phrase. Peshitta employs ܪܡܐ ܐܘܪܩܥܬܐ ܚܕܬܐ (throws patch new) with the adjective in final position, while Vulgate has assumentum panni rudis (patch of-cloth raw/unshrunk) mirroring Greek word order but with lexical variation in the adjective."
     },
     {
       "greek_nt": [
         5
       ],
       "peshitta": [
-        2,
         5
       ],
       "vulgate": [
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses two verbs ܪܡܐ ܘܚܐܛ (throws and sews) for Greek single verb ἐπιράπτει"
+      "type": "lexical",
+      "note": "Greek ἐπιράπτει ('sews on') is rendered by Peshitta ܘܚܐܛ ('and sews'), which includes a coordinating conjunction, while Vulgate assuit ('sews on') matches the Greek semantic range without the conjunction."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits preposition, uses dative vestimento veteri directly"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8
       ],
       "peshitta": [
+        6,
         7,
         8
       ],
@@ -158,16 +153,8 @@
         5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -179,76 +166,43 @@
         9
       ],
       "vulgate": [
+        7,
         8
       ],
       "variant": "minor",
-      "note": "Greek εἰ δὲ μή vs Peshitta ܕܠܐ vs Vulgate alioquin - stylistic variation in conditional negation"
+      "type": "construction",
+      "note": "Greek uses the conditional construction εἰ δὲ μή ('but if not, otherwise') as a three-word phrase. Peshitta condenses this to ܕܠܐ ('lest, that not'), a single negative purpose particle. Vulgate employs alioquin ('otherwise'), preceded by a colon punctuation mark, representing a different syntactic strategy for the same logical transition."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13,
-        14
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
-        16
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        11,
-        12,
-        13
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek ἀπ᾽ αὐτοῦ τὸ καινὸν τοῦ παλαιοῦ vs Peshitta ܚܕܬܐ ܡܢ ܒܠܝܐ vs Vulgate novum a veteri"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
-        18
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate incorporates 'new' into previous phrase, no separate article+adjective here"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20
       ],
       "peshitta": [
+        10,
+        11,
+        12,
+        13,
+        14,
         15
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Already aligned in previous group; Vulgate structure differs"
+      "vulgate": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek αἴρει τὸ πλήρωμα ἀπ᾽ αὐτοῦ τὸ καινὸν τοῦ παλαιοῦ ('tears away the patch from it, the new from the old') uses a complex articular construction with τὸ καινόν as subject and partitive genitive τοῦ παλαιοῦ. Peshitta restructures as ܢܣܒܐ ܡܠܝܘܬܗ ܗܝ ܚܕܬܐ ܡܢ ܒܠܝܐ ('takes its fullness, that new [one], from the old'), employing a pronominal suffix on 'fullness' and a demonstrative ܗܝ. Vulgate aufert supplementum novum a veteri ('takes away the new patch from the old') simplifies by making 'new' an attributive adjective modifying supplementum, eliminating the Greek double article structure."
     },
     {
       "greek_nt": [
@@ -260,49 +214,33 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        22
-      ],
-      "peshitta": [
-        18
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        22,
+        23,
         24
       ],
       "peshitta": [
-        16
+        17,
+        18
       ],
       "vulgate": [
+        15,
+        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek χεῖρον σχίσμα γίνεται ('worse tear becomes') places the comparative adjective before the noun. Peshitta ܣܕܩܐ ܝܬܝܪܐ ('tear greater') inverts to noun-adjective order, typical of Syriac syntax. Vulgate major scissura fit ('greater tear becomes') follows Latin adjective-noun order with the verb in final position, matching Greek semantic structure but with different surface arrangement."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.738382+00:00",
-    "confidence": 0.72,
+    "generated_at": "2026-04-22T12:17:07.955176+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

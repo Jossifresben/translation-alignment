@@ -45,7 +45,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -59,7 +60,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܐܡܪܝܢ ܗܘܘ (were saying) for Greek imperfect ἔλεγον"
+      "type": "grammar",
+      "note": "The Peshitta employs a periphrastic construction ܕܐܡܪܝܢ ܗܘܘ (d-'amrīn hwaw, 'they were saying') using the participle with the auxiliary verb, making the imperfect aspect explicit. Greek ἔλεγον and Latin dicebant both use simple imperfect forms, though semantically equivalent to the Syriac periphrastic."
     },
     {
       "greek_nt": [],
@@ -67,32 +69,25 @@
       "vulgate": [
         2
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to introduce direct discourse, a Latin scribal convention not reflected in the Greek or Syriac manuscripts, which rely on context and the verb of saying to signal quotation."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -106,12 +101,13 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses existential ܐܝܬ ܒܗ (there is in him) construction vs. Greek ἔχει (he has)"
+      "type": "construction",
+      "note": "Greek ἔχει and Latin habet use the simple verb 'to have' with accusative object. Syriac employs the existential particle ܐܝܬ ('there is') with the prepositional phrase ܒܗ ('in him'), a standard Semitic possessive construction meaning 'he has [it] in him'—semantically identical but syntactically distinct."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.744440+00:00",
+    "generated_at": "2026-04-22T12:17:07.962007+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

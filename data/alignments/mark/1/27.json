@@ -110,7 +110,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -124,7 +125,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek θαμβέω (astonished) vs Syriac ܐܬܕܡܪܘ (amazed) vs Latin mirati sunt - synonymous expressions of amazement"
+      "type": "lexical",
+      "note": "Greek ἐθαμβήθησαν ('were astonished') is rendered by Syriac ܐܬܕܡܪܘ (ethdemmar, 'were amazed') and Latin mirati sunt ('wondered'), both semantically equivalent but employing different lexical roots for the concept of astonishment."
     },
     {
       "greek_nt": [
@@ -136,22 +138,12 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        4,
-        5
-      ],
-      "variant": "minor",
-      "note": "Greek ὥστε vs Latin ita ut - both result clauses; Peshitta uses direct construction without explicit result marker"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
@@ -159,15 +151,19 @@
         3
       ],
       "vulgate": [
+        4,
+        5,
         6
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܒܥܝܢ ܗܘܘ (were seeking/questioning) for Greek συζητεῖν"
+      "type": "construction",
+      "note": "Greek uses ὥστε + infinitive (συζητεῖν) for result clause; Syriac employs periphrastic construction ܘܒܥܝܢ ܗܘܘ (w-ba'in hway, 'and they were seeking/questioning'); Latin uses ita ut + subjunctive (conquirerent), all expressing consecutive result with different syntactic strategies."
     },
     {
       "greek_nt": [
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
         4,
@@ -179,11 +175,12 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek πρὸς ἑαυτούς vs Syriac ܚܕ ܥܡ ܚܕ (one with one) vs Latin inter se - idiomatic variations for 'among themselves'"
+      "type": "idiom",
+      "note": "Greek πρὸς ἑαυτούς ('among themselves') is rendered by Syriac ܚܕ ܥܡ ܚܕ (ḥad ʿam ḥad, 'one with one'), a typical Semitic idiom for reciprocal action, while Latin uses inter se ('among themselves'), mirroring the Greek construction."
     },
     {
       "greek_nt": [
-        7
+        8
       ],
       "peshitta": [
         7
@@ -191,132 +188,76 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present as token in other traditions"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        8,
         9,
-        10
-      ],
-      "peshitta": [
-        8,
-        9,
-        10
-      ],
-      "vulgate": [
-        11,
-        12,
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14
-      ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
-    },
-    {
-      "greek_nt": [
-        11,
-        12
-      ],
-      "peshitta": [
+        10,
         11
       ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
       "peshitta": [
-        12
+        8,
+        9,
+        10
       ],
       "vulgate": [
-        16
+        10,
+        11,
+        12,
+        13,
+        14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek poses two questions (τί ἐστιν τοῦτο; τίς ἡ διδαχή...) with semicolon separation; Vulgate inserts colon after dicentes and question marks after hoc and nova, creating three distinct interrogative units; Syriac maintains two-question structure parallel to Greek but with different word order."
     },
     {
       "greek_nt": [
+        12,
+        13,
         14,
         15,
         16
       ],
       "peshitta": [
+        11,
+        12,
         13,
         14
       ],
       "vulgate": [
+        15,
+        16,
         17,
-        18
-      ],
-      "variant": "minor",
-      "note": "Greek uses double article ἡ καινὴ αὕτη; Peshitta and Vulgate use simpler constructions"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        19
-      ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [],
-      "vulgate": [
-        20
-      ],
-      "variant": "minor",
-      "note": "Greek ὅτι vs Latin quia - both causal/explanatory; Peshitta uses ܕ prefix integrated into following word"
-    },
-    {
-      "greek_nt": [
         18,
         19
       ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        21,
-        22
-      ],
       "variant": "minor",
-      "note": "Greek κατ' ἐξουσίαν (with authority) vs Syriac ܕܒܫܘܠܛܢܐ vs Latin in potestate - prepositional variations"
+      "type": "word-order",
+      "note": "Greek places adjective καινή between article and demonstrative (ἡ διδαχὴ ἡ καινὴ αὕτη); Syriac uses ܘܡܢܘ ܝܘܠܦܢܐ ܗܢܐ ܚܕܬܐ (interrogative + noun + demonstrative + adjective); Latin follows quænam doctrina hæc nova (interrogative + noun + demonstrative + adjective), all semantically equivalent with varying attributive positions."
     },
     {
       "greek_nt": [
+        17,
+        18,
+        19,
         20
       ],
       "peshitta": [
+        15,
         16
       ],
       "vulgate": [
+        20,
+        21,
+        22,
         23
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek ὅτι κατ᾽ ἐξουσίαν καί ('that with authority even') uses causal/explanatory ὅτι with prepositional phrase; Syriac ܕܒܫܘܠܛܢܐ ܘܐܦ ('that in authority and also') employs ܕ- relative particle with ܘܐܦ ('and also') for emphasis; Latin quia in potestate etiam ('because in authority even') mirrors Greek structure but with quia suggesting stronger causal force than Greek ὅτι."
     },
     {
       "greek_nt": [
@@ -334,7 +275,8 @@
         25
       ],
       "variant": "minor",
-      "note": "Greek uses double article τοῖς πνεύμασιν τοῖς ἀκαθάρτοις; Peshitta and Vulgate use simpler constructions"
+      "type": "grammar",
+      "note": "Greek uses dative plural with double article τοῖς πνεύμασιν τοῖς ἀκαθάρτοις ('to the spirits, the unclean ones'); Syriac employs singular ܠܪܘܚܐ ܛܢܦܬܐ ('to the spirit[s] unclean'), a collective singular typical of Semitic languages; Latin spiritibus immundis (dative plural) follows Greek number but without articles."
     },
     {
       "greek_nt": [
@@ -346,40 +288,34 @@
       "vulgate": [
         26
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        26
-      ],
-      "peshitta": [
-        20
-      ],
-      "vulgate": [
-        27
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        26,
         27,
-        28
+        28,
+        29,
+        30
       ],
       "peshitta": [
         20,
         21
       ],
       "vulgate": [
+        27,
         28,
         29
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.730211+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.947707+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

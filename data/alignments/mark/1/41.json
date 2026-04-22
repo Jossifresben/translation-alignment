@@ -63,27 +63,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "note": "Greek article ὁ and Peshitta pronoun ܗܘ both mark subject; Vulgate omits"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "note": "Greek καί (and), Peshitta ܕܝܢ (but/now), Vulgate autem (but) show stylistic variation in discourse particle"
+      "type": "substitution",
+      "note": "Greek uses article + καί (ὁ καί, 'and he'); Peshitta employs pronoun + contrastive particle (ܗܘ ܕܝܢ, 'but he'); Vulgate uses only the adversative autem. All three mark a narrative transition, but with different discourse particles reflecting each tradition's stylistic norms."
     },
     {
       "greek_nt": [
@@ -110,7 +102,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta ܐܬܪܚܡ ܥܠܘܗܝ (had compassion on him) includes explicit object; Greek σπλαγχνισθεὶς and Vulgate misertus ejus both include object pronoun"
+      "type": "expansion",
+      "note": "Greek uses the aorist passive participle σπλαγχνισθεὶς ('having compassion') without explicit object. Peshitta expands with ܐܬܪܚܡ ܥܠܘܗܝ ('he had compassion on him'), making the pronominal object explicit. Vulgate misertus ejus similarly includes the genitive pronoun ejus, both traditions clarifying the implicit Greek construction."
     },
     {
       "greek_nt": [
@@ -126,9 +119,12 @@
       "vulgate": [
         4,
         5,
-        6
+        6,
+        7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs aorist participle + article + noun + possessive pronoun (ἐκτείνας τὴν χεῖρα αὐτοῦ, 'having stretched out the hand of him'). Peshitta uses finite verb + pronominal suffix on noun (ܘܦܫܛ ܐܝܕܗ, 'and he stretched out his hand'), a typical Semitic bound-state construction. Vulgate mirrors Greek syntax with extendit manum suam but follows with colon punctuation, creating a clause break absent in Greek."
     },
     {
       "greek_nt": [
@@ -139,37 +135,17 @@
         8
       ],
       "vulgate": [
+        8,
         9,
         10
       ],
       "variant": "minor",
-      "note": "Peshitta ܩܪܒ ܠܗ (drew near to him/touched him) and Vulgate tangens eum both make object explicit; Greek ἥψατο implies object"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7,
-        13,
-        15
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colons as punctuation markers not present in Greek or Peshitta"
+      "type": "construction",
+      "note": "Greek uses finite aorist ἥψατο ('he touched [him]') with implicit object. Peshitta employs two verbs ܩܪܒ ܠܗ ('he drew near to him'), making the approach explicit before the touch. Vulgate uses conjunction et + participle tangens eum ('and touching him'), converting the Greek finite verb to a participial construction and adding explicit pronominal object."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
@@ -178,10 +154,12 @@
       ],
       "vulgate": [
         11,
-        12
+        12,
+        13
       ],
       "variant": "minor",
-      "note": "Greek λέγει αὐτῷ and Vulgate ait illi make indirect object explicit; Peshitta ܘܐܡܪ (and he said) incorporates this in previous conjunction"
+      "type": "word-order",
+      "note": "Greek uses conjunction + present verb + dative pronoun (καὶ λέγει αὐτῷ, 'and he says to him'). Peshitta contracts to single verb ܘܐܡܪ ('and he said'), with implicit object. Vulgate expands with ait illi flanked by colons, creating dramatic punctuation breaks that segment the speech act from the quoted words, a stylistic choice absent in Greek and Peshitta."
     },
     {
       "greek_nt": [
@@ -192,10 +170,12 @@
         11
       ],
       "vulgate": [
-        14
+        14,
+        15
       ],
       "variant": "minor",
-      "note": "Peshitta ܨܒܐ ܐܢܐ makes first-person pronoun explicit; Greek θέλω and Vulgate Volo encode person in verb"
+      "type": "gloss",
+      "note": "Greek θέλω ('I am willing') stands alone as first-person verb. Peshitta adds explicit subject pronoun ܨܒܐ ܐܢܐ ('I am willing, I'), a common Syriac emphasis pattern. Vulgate Volo is followed by a colon, again using punctuation to isolate the volitional statement, whereas Greek uses only a comma before the imperative."
     },
     {
       "greek_nt": [
@@ -212,8 +192,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.732389+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.950135+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -65,7 +65,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -77,7 +78,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -91,7 +93,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses preposition ܡܢ + ܬܡܢ (from there) vs. Greek/Vulgate single adverb"
+      "type": "construction",
+      "note": "Greek uses the adverb ἐκεῖθεν ('from there') as a single lexeme; Peshitta employs the prepositional phrase ܡܢ ܬܡܢ (min taman, 'from there') with explicit preposition; Vulgate uses the adverb inde — all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -102,7 +105,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits second conjunction before main verb"
+      "type": "omission",
+      "note": "Greek and Peshitta both attest the coordinating conjunction καί / ܘ ('and') before the second verb; the Vulgate omits this conjunction, using asyndeton between egressus and abiit, a stylistic preference in classical Latin narrative."
     },
     {
       "greek_nt": [
@@ -114,7 +118,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -132,7 +137,8 @@
         6
       ],
       "variant": "major",
-      "note": "Peshitta uses ܠܡܕܝܢܬܗ (to his city) vs. Greek πατρίδα/Vulgate patriam (homeland/hometown)"
+      "type": "substitution",
+      "note": "Greek and Vulgate use πατρίδα / patriam ('homeland, native region'), a term denoting one's ancestral territory; Peshitta substitutes ܠܡܕܝܢܬܗ (l-mdinteḥ, 'to his city'), specifying an urban locale rather than a broader geographic or ethnic homeland — a substantive lexical divergence with potential interpretive implications."
     },
     {
       "greek_nt": [],
@@ -141,7 +147,8 @@
         7
       ],
       "variant": "added",
-      "note": "Vulgate adds punctuation colon"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after suam, marking a rhetorical pause or clause boundary not indicated by Greek or Peshitta punctuation conventions."
     },
     {
       "greek_nt": [
@@ -153,7 +160,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -167,7 +175,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܕܒܝܩܝܢ ܗܘܘ (were following) vs. Greek present/Vulgate imperfect"
+      "type": "grammar",
+      "note": "Greek uses the present indicative ἀκολουθοῦσιν (third-person plural); Vulgate employs the imperfect sequebantur, emphasizing ongoing past action; Peshitta uses the participle ܕܒܝܩܝܢ with the auxiliary ܗܘܘ (periphrastic past progressive) — all convey continuous action but differ in aspectual nuance."
     },
     {
       "greek_nt": [
@@ -179,7 +188,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -194,7 +204,9 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the article + noun + possessive pronoun construction (οἱ μαθηταὶ αὐτοῦ); Vulgate mirrors this with discipuli sui; Peshitta employs a bound-state construction ܬܠܡܝܕܘܗܝ (talmidawhy, 'his-disciples') with pronominal suffix — semantically identical but reflecting Semitic vs. Greek/Latin syntactic norms."
     },
     {
       "greek_nt": [],
@@ -203,13 +215,14 @@
         13
       ],
       "variant": "added",
-      "note": "Vulgate adds final punctuation colon"
+      "type": "punctuation",
+      "note": "The Vulgate appends a final colon, marking the verse boundary or preparing for the subsequent pericope; neither Greek nor Peshitta manuscripts typically employ such terminal punctuation in this context."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.760643+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.977814+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

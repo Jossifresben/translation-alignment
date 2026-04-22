@@ -69,7 +69,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,7 +84,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܒܥܝܢ ܗܘܘ (were begging) vs. Greek aorist παρεκάλεσαν"
+      "type": "grammar",
+      "note": "The Peshitta employs a periphrastic construction ܘܒܥܝܢ ܗܘܘ (wəḇāʿēn hwaw, 'and they were beseeching') using the auxiliary verb ܗܘܘ with the active participle, whereas Greek uses the simple aorist παρεκάλεσαν and Latin the imperfect deprecabantur. This reflects a characteristic Syriac preference for analytic verbal forms over synthetic tenses."
     },
     {
       "greek_nt": [
@@ -95,7 +97,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -111,7 +114,8 @@
         3
       ],
       "variant": "major",
-      "note": "Greek has πάντες οἱ δαίμονες (all the demons), Peshitta ܗܢܘܢ ܫܐܕܐ (those demons), Vulgate spiritus (spirits) - substantive lexical variation"
+      "type": "substitution",
+      "note": "Greek specifies πάντες οἱ δαίμονες ('all the demons') with the quantifier πᾶς, while the Vulgate reads simply spiritus ('spirits'), substituting a different lexeme and omitting the quantifier entirely. The Peshitta uses ܗܢܘܢ ܫܐܕܐ ('those demons') with a demonstrative pronoun rather than a universal quantifier, representing a middle position between the Greek's emphasis on totality and the Vulgate's generic reference."
     },
     {
       "greek_nt": [
@@ -124,30 +128,24 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after dicentes to mark the transition to direct speech, a punctuation convention absent in the Greek manuscript tradition (which uses a raised dot or no mark) and in Syriac orthography. This represents Latin scribal practice rather than a textual variant."
     },
     {
       "greek_nt": [
-        7
+        7,
+        8
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
+        6,
         7
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits explicit first-person pronoun, implied in verb ܫܕܪܝܢ"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -165,7 +163,8 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܥܠ (upon) instead of εἰς/in (into); demonstrative ܗܢܘܢ added"
+      "type": "construction",
+      "note": "Greek uses the preposition εἰς with the accusative article and noun (εἰς τοὺς χοίρους, 'into the pigs'), Latin mirrors this with in + accusative (in porcos), but Syriac employs the preposition ܥܠ ('upon/to') governing a demonstrative + noun (ܥܠ ܗܢܘܢ ܚܙܝܪܐ). The Syriac ܥܠ can express motion-toward in this context, representing an idiomatic equivalent rather than a literal calque of εἰς."
     },
     {
       "greek_nt": [
@@ -177,40 +176,33 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         13,
-        14
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        11,
-        12
-      ],
-      "variant": "minor",
-      "note": "Peshitta incorporates prepositional phrase into single token ܕܒܗܘܢ (that in them)"
-    },
-    {
-      "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        11,
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek repeats the preposition εἰς before the pronoun αὐτούς in the purpose clause (ἵνα εἰς αὐτοὺς εἰσέλθωμεν), and Latin follows this pattern (ut in eos introëamus). The Peshitta, however, incorporates the pronominal object into a prepositional phrase attached to the conjunction ܕ (ܕܒܗܘܢ ܢܥܘܠ, 'that in-them we-may-enter'), using ܒ ('in') rather than repeating ܥܠ, which reflects Syriac's tendency toward tighter syntactic integration of subordinate clause elements."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.755361+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.972272+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

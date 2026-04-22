@@ -91,22 +91,16 @@
         1
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
         0,
         1
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܡܕܡ 'anything' for emphasis, absent in Greek and Vulgate"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the neuter singular οὐδέν ἐστιν ('nothing is'); Peshitta employs the negative existential ܠܝܬ ܡܕܡ ('there is not anything'), a standard Syriac idiom; Vulgate mirrors Greek with Nihil est. All three convey identical semantics through language-specific negation strategies."
     },
     {
       "greek_nt": [
@@ -123,16 +117,9 @@
         2,
         3
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds pronoun ܗܘ for clarification"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἔξωθεν τοῦ ἀνθρώπου ('outside of the man') uses article + genitive; Peshitta ܕܠܒܪ ܡܢ ܒܪܢܫܐ ('that [is] outside from man') employs the preposition ܡܢ with ܕ-relative; Vulgate extra hominem omits the article. Word order and article usage differ, but the prepositional phrase structure is semantically equivalent."
     },
     {
       "greek_nt": [
@@ -141,6 +128,7 @@
         7
       ],
       "peshitta": [
+        5,
         6,
         7
       ],
@@ -149,167 +137,113 @@
         5,
         6
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
       "variant": "minor",
-      "note": "Greek relative pronoun ὃ and Vulgate quod; Peshitta uses participial construction without explicit relative"
+      "type": "construction",
+      "note": "Greek uses the present participle εἰσπορευόμενον εἰς αὐτόν ('entering into him'); Peshitta employs a relative clause with active participle ܗܘ ܘܥܐܠ ܠܗ ('it and entering to him'), adding the pronoun ܗܘ for emphasis; Vulgate uses the present participle introiens in eum. The Peshitta's addition of the independent pronoun is a typical Semitic construction for emphasis or clarity."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
+        9,
         10,
         11
       ],
       "peshitta": [
+        8,
         9,
         10
       ],
       "vulgate": [
+        7,
+        8,
         9,
         10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        12
       ],
       "variant": "minor",
-      "note": "Greek τὰ (article), Peshitta ܡܕܡ 'thing/what', Vulgate quæ (relative); functional equivalents in context"
+      "type": "construction",
+      "note": "Greek ὃ δύναται κοινῶσαι αὐτόν ('which is able to defile him') uses a relative pronoun with infinitive construction; Peshitta ܕܡܫܟܚ ܡܣܝܒ ܠܗ ('that is able to defile him') employs a ܕ-relative with active participle; Vulgate quod possit eum coinquinare uses subjunctive mood in the relative clause. All three express potential action, but through different grammatical strategies (infinitive vs. participle vs. subjunctive)."
     },
     {
       "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13,
         14,
         15,
-        16
-      ],
-      "peshitta": [],
-      "vulgate": [
-        13,
-        14
-      ],
-      "variant": "minor",
-      "note": "Greek ἐκ τοῦ ἀνθρώπου and Vulgate de homine explicit; Peshitta uses pronominal suffix in next token"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
+        17,
         18,
         19
       ],
       "peshitta": [
+        12,
+        13,
         14
       ],
-      "vulgate": [],
+      "vulgate": [
+        12,
+        13,
+        14,
+        15
+      ],
       "variant": "minor",
-      "note": "Greek ἀπ᾽ αὐτοῦ 'from him' explicit; Peshitta ܡܢܗ 'from him' as pronominal suffix; Vulgate incorporates into preceding verb"
+      "type": "construction",
+      "note": "Greek τὰ ἐκ τοῦ ἀνθρώπου ἐκπορευόμενά ἀπ᾽ αὐτοῦ ('the things proceeding out of the man from him') uses double prepositional phrases (ἐκ + ἀπό) with article and participle; Peshitta ܡܕܡ ܕܢܦܩ ܡܢܗ ('anything that goes out from him') employs a simpler relative construction with single preposition; Vulgate quæ de homine procedunt ('which from man proceed') uses a single prepositional phrase. The Greek construction is more elaborate, possibly for rhetorical emphasis."
     },
     {
       "greek_nt": [
-        20
+        20,
+        21
       ],
       "peshitta": [
         15,
         16
       ],
       "vulgate": [
-        16
-      ],
-      "variant": "minor",
-      "note": "Greek ἐκεῖνά (demonstrative), Peshitta ܗܘ ܗܘ (emphatic doubling), Vulgate illa; stylistic variation"
-    },
-    {
-      "greek_nt": [
-        21
-      ],
-      "peshitta": [],
-      "vulgate": [
+        16,
         17
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits copula ἐστιν/sunt, using nominal sentence structure"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐκεῖνά ἐστιν ('those are') uses the demonstrative pronoun ἐκεῖνα in emphatic position; Peshitta ܗܘ ܗܘ ('it is it') employs a doubled pronoun construction for emphasis, a characteristic Syriac idiom; Vulgate illa sunt uses the demonstrative illa. The Peshitta's pronoun doubling intensifies the demonstrative force beyond the Greek and Latin."
     },
     {
       "greek_nt": [
         22,
-        23
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        18,
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        23,
         24,
-        25
+        25,
+        26
       ],
       "peshitta": [
+        17,
         18,
         19
       ],
       "vulgate": [
+        18,
+        19,
         20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τὰ κοινοῦντα τὸν ἄνθρωπον ('the things defiling the man') uses article + present participle + article + accusative object; Peshitta ܡܣܝܒ ܠܒܪ ܐܢܫܐ ('defiling to the son of man') uses active participle with ܠܒܪ ܐܢܫܐ (idiomatic for 'man'); Vulgate quæ communicant hominem ('which defile man') uses relative pronoun + finite verb. The Peshitta's ܠܒܪ ܐܢܫܐ is a Semitic idiom equivalent to Greek ἄνθρωπος."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.774816+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.989809+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

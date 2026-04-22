@@ -57,47 +57,31 @@
     {
       "greek_nt": [
         0,
-        1
+        1,
+        2
       ],
-      "peshitta": [],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "minor",
-      "note": "Greek article + δέ omitted in Peshitta; Vulgate uses 'autem' for δέ"
+      "type": "word-order",
+      "note": "Greek places the article and postpositive conjunction δὲ before the subject Πέτρος, while Vulgate uses autem after Petrus and Peshitta omits any conjunction, placing ܟܐܦܐ (Kepha) at the end of the verbal clause. All three traditions identify Peter as the speaker but employ different syntactic strategies."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        2,
         3,
         4
       ],
@@ -116,28 +100,20 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek εἰ καί ('even if') rendered as simple conditional in Peshitta; Vulgate 'et si' preserves both particles"
+      "type": "lexical",
+      "note": "Greek employs the conditional particle εἰ with the intensifying conjunction καὶ ('even if'), creating a concessive protasis. Vulgate mirrors this with 'Et si' (literally 'And if'), while Peshitta uses the simple conditional ܐܢ without an intensifying particle, yielding a semantically equivalent but syntactically simpler construction."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        7,
         8,
         9
       ],
@@ -151,40 +127,23 @@
         11
       ],
       "variant": "added",
-      "note": "Vulgate adds 'in te' (in you), not present in Greek or Peshitta"
+      "type": "expansion",
+      "note": "The Vulgate adds the prepositional phrase 'in te' ('in you' or 'because of you'), specifying Jesus as the cause of the disciples' stumbling. Neither the Greek NA28 nor the Peshitta transmit this phrase, which may reflect harmonisation with Matthew 26:31 or represent a Western textual tradition."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
+        10,
         11
       ],
       "peshitta": [
+        6,
+        7,
         8
       ],
       "vulgate": [
+        12,
+        13,
         14
       ],
       "variant": "aligned"
@@ -192,8 +151,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.833019+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.039292+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

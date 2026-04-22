@@ -72,7 +72,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta makes explicit 2nd person pronoun ܠܟܘܢ 'to you' where Greek/Vulgate use participial construction"
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit pronominal suffix ܠܟܘܢ ('to you') with the existential particle ܐܝܬ, making the possessive relationship explicit, whereas Greek and Latin use the participial construction ἔχοντες/habentes without an overt second-person pronoun."
     },
     {
       "greek_nt": [
@@ -89,25 +90,20 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta makes explicit subject pronoun ܐܢܬܘܢ 'you' where Greek/Vulgate rely on verb inflection"
+      "type": "gloss",
+      "note": "The Peshitta supplies the explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܚܙܝܢ, a common Syriac stylistic feature for emphasis or clarity, while Greek and Latin rely on verbal inflection alone to indicate the second-person plural subject."
     },
     {
       "greek_nt": [
         4
       ],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek καὶ coordinating first two clauses omitted in Peshitta/Vulgate; Vulgate uses question mark instead"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        4
+        5
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation mark (question mark) after first clause"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek καὶ and Latin et function as coordinating conjunctions linking the two parallel clauses, whereas the Peshitta integrates the conjunction ܘ directly into the following noun ܘܐܕܢܐ, reflecting a tighter syntactic binding typical of Syriac asyndetic coordination patterns."
     },
     {
       "greek_nt": [
@@ -120,12 +116,12 @@
         8
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
       "variant": "minor",
-      "note": "Peshitta again makes explicit 2nd person pronoun ܠܟܘܢ; Vulgate includes coordinating 'et'"
+      "type": "gloss",
+      "note": "Parallel to the first clause, the Peshitta again adds the explicit possessive ܠܟܘܢ with ܐܝܬ, whereas Greek ὦτα ἔχοντες and Latin aures habentes use participial constructions without overt pronominal objects."
     },
     {
       "greek_nt": [
@@ -142,27 +138,30 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta makes explicit subject pronoun ܐܢܬܘܢ 'you'"
+      "type": "gloss",
+      "note": "The Peshitta supplies the explicit subject pronoun ܐܢܬܘܢ after ܫܡܥܝܢ, mirroring the pattern in the first clause, while Greek οὐκ ἀκούετε and Latin non auditis encode the subject through verbal morphology alone."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        3
+      ],
       "peshitta": [],
       "vulgate": [
-        10
+        4
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation mark (question mark) after second clause"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts an interrogative punctuation mark after videtis, creating a distinct question boundary, whereas the Greek comma suggests a lighter pause within a compound rhetorical question structure."
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [],
-      "vulgate": [
-        11
-      ],
+      "vulgate": [],
       "variant": "minor",
-      "note": "Greek καὶ vs Vulgate nec (negative coordination); Peshitta uses simple ܘܠܐ 'and not'"
+      "type": "word-order",
+      "note": "Greek uses καὶ to introduce the third clause, maintaining parallelism with the preceding structure, while both Peshitta and Vulgate integrate the conjunction into the negation (ܘܠܐ / nec), producing a slightly different rhetorical cadence."
     },
     {
       "greek_nt": [
@@ -175,16 +174,30 @@
         14
       ],
       "vulgate": [
+        11,
         12
       ],
       "variant": "minor",
-      "note": "Peshitta makes explicit subject pronoun ܐܢܬܘܢ 'you'; all three traditions align on 'remember' semantically"
+      "type": "gloss",
+      "note": "The Peshitta once again supplies the explicit subject pronoun ܐܢܬܘܢ after the verb ܥܗܕܝܢ, maintaining the pattern established in the previous two clauses, whereas Greek οὐ μνημονεύετε and Latin nec recordamini rely solely on verbal inflection."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate places an interrogative mark after auditis, creating a second distinct question, whereas the Greek semicolon maintains continuity across the three parallel clauses as a single compound rhetorical question."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.781017+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.996536+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

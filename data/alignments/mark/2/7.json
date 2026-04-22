@@ -59,59 +59,26 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "minor",
-      "note": "Peshitta omits adverb 'thus/so'; Greek οὕτως and Vulgate sic present"
-    },
-    {
-      "greek_nt": [
+        0,
+        1,
+        2,
         3
       ],
       "peshitta": [
+        0,
+        1,
         2
       ],
       "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        0,
+        1,
+        2,
+        3,
         4
       ],
       "variant": "minor",
-      "note": "Vulgate adds question mark punctuation after loquitur"
+      "type": "punctuation",
+      "note": "Greek punctuates the opening question with a semicolon after λαλεῖ, treating the blasphemy charge as a separate statement. Vulgate inserts an explicit question mark, making the interrogative force clearer. Peshitta omits the adverb οὕτως/sic ('thus'), yielding a more direct construction."
     },
     {
       "greek_nt": [
@@ -123,52 +90,27 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses a middle stop (·) after βλασφημεῖ, treating it as an independent exclamation. Vulgate employs a period, similarly marking a full stop. Peshitta integrates ܓܘܕܦܐ ('blasphemies') as a direct object noun rather than a finite verb, yielding 'speaks blasphemies' instead of 'He blasphemes!'"
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
+        6,
+        7,
         8
       ],
       "peshitta": [
+        4,
+        5,
+        6,
         7
       ],
       "vulgate": [
+        6,
+        7,
+        8,
         9
       ],
       "variant": "aligned"
@@ -186,47 +128,32 @@
         10
       ],
       "variant": "minor",
-      "note": "Greek εἰ μὴ and Peshitta ܐܠܐ ܐܢ use two-word construction; Vulgate nisi is single word"
+      "type": "construction",
+      "note": "Greek employs the conditional εἰ μὴ ('if not, except'), a standard exceptive idiom. Peshitta uses ܐܠܐ ܐܢ ('but if'), a double-particle construction semantically equivalent but syntactically distinct. Vulgate renders with nisi ('unless, except'), a single Latin conjunction that collapses the Greek two-word phrase."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "note": "Vulgate solus emphasizes 'alone' more strongly than Greek εἷς 'one'"
-    },
-    {
-      "greek_nt": [
+        11,
         12,
         13
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
+        12,
         13
       ],
       "variant": "minor",
-      "note": "Vulgate adds final question mark punctuation"
+      "type": "word-order",
+      "note": "Greek places the article ὁ before θεός, yielding 'the one God' with εἷς in attributive position. Peshitta omits the article (Syriac lacks a definite article system) and uses ܚܕ ܐܠܗܐ ('one God') in construct. Vulgate inserts solus ('alone') as an intensifier, making explicit the exclusivity implied by εἷς, and closes with an interrogative punctuation mark."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.735555+00:00",
+    "generated_at": "2026-04-22T12:17:07.952121+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

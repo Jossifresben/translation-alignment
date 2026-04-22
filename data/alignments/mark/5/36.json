@@ -73,7 +73,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article ὁ with postpositive δέ, a standard Greek construction absent in Syriac and Latin. The Peshitta and Vulgate use the bare name with conjunction (ܕܝܢ / autem), semantically equivalent but lacking the Greek article's definiteness marker."
     },
     {
       "greek_nt": [
@@ -82,7 +84,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek εὐθέως 'immediately' absent in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek εὐθέως ('immediately') is absent in both the Peshitta and Vulgate. This adverb is characteristic of Mark's narrative style but was evidently deemed non-essential by the Syriac and Latin translators, who omit the temporal marker without altering the core sense."
     },
     {
       "greek_nt": [
@@ -95,7 +98,8 @@
         2
       ],
       "variant": "major",
-      "note": "Greek παρακούσας 'having ignored/overheard' vs Peshitta ܫܡܥ and Vulgate audito 'having heard' - significant semantic difference"
+      "type": "substitution",
+      "note": "Greek παρακούσας (aorist participle of παρακούω, 'having overheard' or 'having ignored') is rendered by Peshitta ܫܡܥ ('heard') and Vulgate audito ('having heard'), both using the simple verb for 'hear.' The Greek compound verb's nuance—either 'overhearing' or 'disregarding'—is lost in both traditions, which opt for the unmarked lexeme."
     },
     {
       "greek_nt": [
@@ -112,7 +116,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun + participle (τὸν λόγον λαλούμενον, 'the word being spoken'); Vulgate employs noun + relative clause (verbo quod dicebatur, 'the word which was being said'); Peshitta uses noun + relative particle + verb (ܠܡܠܬܐ ܕܐܡܪܘ, 'the word that they said'). All three express the same participial/relative modification but with tradition-specific syntactic structures."
     },
     {
       "greek_nt": [
@@ -124,7 +130,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -140,17 +147,18 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta expands ἀρχισυναγώγῳ as ܪܒ ܟܢܘܫܬܐ 'chief of assembly' (two words)"
+      "type": "lexical",
+      "note": "Greek ἀρχισυναγώγῳ (compound noun, 'ruler of the synagogue') is rendered by Vulgate archisynagogo (a Greek loanword) and Peshitta ܪܒ ܟܢܘܫܬܐ (literally 'chief of the assembly'), a calque. The Peshitta employs a two-word native Syriac construction where Greek and Latin use single compound terms."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        8,
-        11
+        8
       ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation/formatting"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after archisynagogo to mark the beginning of direct speech. Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker; this is a scribal convention difference without semantic import."
     },
     {
       "greek_nt": [
@@ -165,7 +173,18 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a second colon after timere, creating a pause before the final clause. This punctuation choice is absent in Greek and Peshitta manuscripts, reflecting Latin rhetorical style rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -180,13 +199,14 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.759346+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.976394+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

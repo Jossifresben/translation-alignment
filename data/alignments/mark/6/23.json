@@ -66,7 +66,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -79,7 +80,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܝܡܐ combines conjunction and verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -91,7 +92,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -100,7 +102,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek πολλὰ 'greatly/much' omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "Greek πολλὰ ('greatly', adverbial accusative intensifying the oath) is absent from both Peshitta and Vulgate. This may reflect a Western text-type omission or stylistic streamlining in the translation traditions."
     },
     {
       "greek_nt": [],
@@ -109,7 +112,8 @@
         3
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illi to mark the beginning of direct discourse, a Latin stylistic convention not reflected in Greek or Syriac manuscript traditions."
     },
     {
       "greek_nt": [],
@@ -118,7 +122,8 @@
         4
       ],
       "variant": "added",
-      "note": "Vulgate adds 'Quia' (because/that) for stylistic emphasis"
+      "type": "expansion",
+      "note": "Vulgate adds Quia ('because/that') as a subordinating conjunction introducing the oath content, making the syntactic structure more explicit than the Greek relative construction ὅ τι ἐάν."
     },
     {
       "greek_nt": [
@@ -132,8 +137,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "note": "Greek ὅ τι ἐάν, Peshitta ܕܡܕܡ, Vulgate quidquid all express 'whatever'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a three-word indefinite relative construction (ὅ τι ἐάν, 'whatever'); Peshitta employs the single indefinite pronoun ܕܡܕܡ (d-medem, 'whatever'); Vulgate uses quidquid ('whatever'). All express the same indefinite relative semantics through different morphological strategies."
     },
     {
       "greek_nt": [
@@ -147,7 +153,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek 'me you-ask', Peshitta/Vulgate 'you-ask' with pronoun incorporated"
+      "type": "word-order",
+      "note": "Greek places the object pronoun με before the verb αἰτήσῃς ('me you-ask'); Peshitta and Vulgate integrate the pronominal object within the verbal form (ܕܬܫܐܠܝܢ / petieris), reflecting standard Semitic and Latin verb-object morphology versus Greek's freer word order."
     },
     {
       "greek_nt": [
@@ -159,7 +166,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -171,16 +179,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'licet' (even if/although) for rhetorical emphasis"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -189,9 +189,12 @@
       "peshitta": [
         6
       ],
-      "vulgate": [],
+      "vulgate": [
+        9
+      ],
       "variant": "minor",
-      "note": "Greek ἕως and Peshitta ܥܕܡܐ 'up to/until' explicit; Vulgate implicit in construction"
+      "type": "lexical",
+      "note": "Greek ἕως ('up to, as far as') is rendered by Peshitta ܥܕܡܐ (ʿdamā, 'up to') and Vulgate licet ('even if, although'), which here functions as a concessive intensifier ('even up to') rather than a strict spatial/temporal preposition, subtly shifting the rhetorical force."
     },
     {
       "greek_nt": [
@@ -209,14 +212,15 @@
         11,
         12
       ],
-      "variant": "aligned",
-      "note": "All express 'half of my kingdom' with minor syntactic differences"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the genitive adjective ἡμίσους with articular genitive τῆς βασιλείας μου ('half of my kingdom'); Peshitta employs a construct chain ܠܦܠܓܗ ܕܡܠܟܘܬܝ (l-palgēh d-malkūtī, 'to-half-of of-my-kingdom'); Vulgate uses accusative dimidium with genitive regni mei. All three express identical semantics through tradition-specific genitive constructions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.765270+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.981235+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

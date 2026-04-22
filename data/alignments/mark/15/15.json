@@ -81,7 +81,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article ὁ with postpositive δέ; Syriac and Latin lack the article (Syriac ܦܝܠܛܘܣ ܕܝܢ, Latin Pilatus autem), reflecting their respective grammatical norms for proper nouns and adversative conjunctions."
     },
     {
       "greek_nt": [
@@ -103,8 +105,9 @@
         3,
         4
       ],
-      "variant": "minor",
-      "note": "Greek uses participial construction 'βουλόμενος τὸ ἱκανὸν ποιῆσαι'; Peshitta uses finite verb 'ܨܒܐ ܕܢܥܒܕ ܨܒܝܢܐ' (desired to do the will); Vulgate 'volens satisfacere' (wishing to satisfy) - stylistic variation in expressing Pilate's motivation"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses the participial phrase βουλόμενος τῷ ὄχλῳ τὸ ἱκανὸν ποιῆσαι ('desiring to do what was satisfactory to the crowd'), employing the adjective ἱκανόν with articular construction. Latin renders this idiomatically as volens populo satisfacere ('wishing to satisfy the people'), using the verb satisfacere. Syriac restructures entirely with ܨܒܐ ܕܢܥܒܕ ܨܒܝܢܐ ܠܟܢܫܐ ('he desired to do the will/desire of the crowd'), employing the cognate noun ܨܒܝܢܐ ('will, desire') rather than an adjectival or verbal equivalent of 'satisfactory.'"
     },
     {
       "greek_nt": [
@@ -123,7 +126,8 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -135,40 +139,32 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         14,
         15,
-        16
+        16,
+        17
       ],
       "peshitta": [
         9,
         10,
-        11
-      ],
-      "vulgate": [
-        9,
-        10
-      ],
-      "variant": "minor",
-      "note": "Peshitta repeats pronoun 'ܠܗܘܢ' (to them) with both verbs; Greek and Vulgate use pronoun only with first verb"
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
+        11,
         12,
         13
       ],
       "vulgate": [
+        9,
+        10,
         11,
         12
       ],
-      "variant": "minor",
-      "note": "Greek uses aorist participle 'φραγελλώσας'; Peshitta uses temporal clause 'ܟܕ ܡܢܓܕ' (while scourged); Vulgate uses ablative absolute 'flagellis caesum' (having been beaten with whips) - different grammatical constructions for same action"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses the aorist participle φραγελλώσας ('having flogged') in attributive position modifying the main verb παρέδωκεν, creating a temporal sequence. Latin employs the ablative absolute construction flagellis cæsum ('having been beaten with whips'), a perfect passive participle with instrumental ablative. Syriac restructures with the temporal particle ܟܕ ܡܢܓܕ ('while/when scourged'), using a different syntactic frame but preserving the temporal relationship between scourging and handing over."
     },
     {
       "greek_nt": [
@@ -182,13 +178,15 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs ἵνα with aorist passive subjunctive σταυρωθῇ to express purpose ('that he might be crucified'). Latin mirrors this with ut + subjunctive crucifigeretur. Syriac uses the prefixed ܕ- on the imperfect ܕܢܙܕܩܦ, a standard Syriac purpose construction functionally equivalent to the Greek and Latin, though morphologically distinct."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.843383+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.048621+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

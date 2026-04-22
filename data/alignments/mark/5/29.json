@@ -61,28 +61,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܡܚܕܐ combines conjunction + adverb; Greek εὐθύς and Vulgate confestim both mean 'immediately'"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -95,47 +85,30 @@
         2,
         3
       ],
-      "variant": "aligned",
-      "note": "Greek aorist passive ἐξηράνθη, Peshitta ܝܒܫܬ (dried up), Vulgate siccatus est (periphrastic perfect passive)"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐξηράνθη (aorist passive 'was dried up') and Peshitta ܝܒܫܬ employ cognate Semitic roots (ξηραίνω ← יבשׁ); Vulgate siccatus est uses a perfect passive periphrastic construction, stylistically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
         3,
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned",
-      "note": "Greek ἡ πηγή (the source/spring), Peshitta ܡܥܝܢܐ (spring/fountain), Vulgate fons (fountain)"
-    },
-    {
-      "greek_nt": [
+        4,
         5,
         6,
         7
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        4,
         5,
         6
       ],
-      "variant": "aligned",
-      "note": "Greek τοῦ αἵματος αὐτῆς (of her blood), Peshitta ܕܕܡܗ (of her blood), Vulgate sanguinis ejus"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs article-noun-article-genitive structure (ἡ πηγὴ τοῦ αἵματος αὐτῆς); Vulgate mirrors this with fons sanguinis ejus; Peshitta uses construct-state ܡܥܝܢܐ ܕܕܡܗ ('spring of-her-blood'), a typical Semitic genitive construction without separate article."
     },
     {
       "greek_nt": [
@@ -145,94 +118,59 @@
         4
       ],
       "vulgate": [
+        7,
         8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        9
       ],
       "variant": "minor",
-      "note": "Greek ἔγνω (knew/perceived), Peshitta ܘܐܪܓܫܬ (and she felt/sensed), Vulgate sensit (felt); slight semantic nuance between cognitive and sensory perception"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ejus, creating a stronger pause between the two clauses; Greek and Peshitta use simple conjunction καί/ܘ without punctuation break, maintaining tighter syntactic cohesion."
     },
     {
       "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        9,
         10
       ],
       "variant": "minor",
-      "note": "Greek dative τῷ σώματι (in/by the body), Peshitta ܒܦܓܪܗ (in her body), Vulgate ablative corpore; all express instrumental/locative sense"
+      "type": "construction",
+      "note": "Greek ἔγνω τῷ σώματι uses dative of sphere ('knew in/with respect to the body'); Vulgate sensit corpore employs ablative of means; Peshitta ܘܐܪܓܫܬ ܒܦܓܪܗ uses preposition ܒ ('in her body'), all expressing bodily perception through different case/prepositional strategies."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
         12,
-        13
-      ],
-      "variant": "aligned",
-      "note": "Greek perfect passive ἴαται (she has been healed), Peshitta ܕܐܬܐܣܝܬ (that she was healed), Vulgate sanata esset (pluperfect subjunctive in indirect discourse)"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
+        14,
         15,
         16
       ],
       "peshitta": [
+        6,
+        7,
         8
       ],
       "vulgate": [
+        11,
+        12,
+        13,
+        14,
         15
       ],
       "variant": "aligned",
-      "note": "Greek τῆς μάστιγος (the scourge/affliction), Peshitta ܡܚܘܬܗ (her affliction/plague), Vulgate plaga (plague/wound)"
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.758196+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.975318+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

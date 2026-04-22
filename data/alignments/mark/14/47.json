@@ -65,64 +65,40 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1,
+        2
       ],
       "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
+        0,
         1
       ],
       "vulgate": [
-        1
+        0,
+        1,
+        2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the compound εἷς δέ τις ('one then a certain') for indefinite reference; Peshitta employs the simpler ܚܕ ܕܝܢ ('one then'); Vulgate expands with unus autem quidam ('one however a certain'), mirroring Greek's double indefinite construction."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "omitted",
-      "note": "Peshitta omits indefinite pronoun τις/quidam"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        2,
         3,
         4
       ],
       "vulgate": [
+        3,
         4
       ],
       "variant": "minor",
-      "note": "Peshitta uses demonstrative ܗܢܘܢ + participle; Greek/Latin use article + participle"
+      "type": "construction",
+      "note": "Greek uses the articular participle τῶν παρεστηκότων ('of those having stood by'); Latin employs the preposition de with circumstantibus ('from those standing around'); Peshitta uses ܡܢ ܗܢܘܢ ܕܩܝܡܝܢ ('from those who stand'), a relative clause construction typical of Syriac syntax."
     },
     {
       "greek_nt": [
@@ -138,101 +114,61 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the aorist middle participle σπασάμενος with article τὴν μάχαιραν ('having drawn the sword'); both Peshitta ܫܡܛ ܣܝܦܐ and Vulgate educens gladium use finite verb forms without the article, reflecting the absence of definite articles in Syriac and Latin's stylistic preference for brevity."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
         9,
-        10
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
       "peshitta": [
+        7,
+        8,
         9,
         10
       ],
       "vulgate": [
+        7,
+        8,
         9,
         10
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܪܒ ܟܗܢܐ uses construct state; Greek/Latin use genitive article + noun"
+      "type": "word-order",
+      "note": "Greek places the verb ἔπαισεν before the object τὸν δοῦλον τοῦ ἀρχιερέως; Peshitta combines the verb with pronominal suffix ܘܡܚܝܗܝ ('and struck him') before the explicit object ܠܥܒܕܗ ܕܪܒ ܟܗܢܐ, employing the Syriac construct state ܪܒ ܟܗܢܐ ('chief of priests') rather than a genitive phrase; Vulgate follows Greek word order with percussit servum summi sacerdotis."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [],
-      "vulgate": [
-        11
-      ],
-      "variant": "omitted",
-      "note": "Peshitta incorporates conjunction into verb ܘܫܩܠܗ with waw prefix"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [],
-      "vulgate": [
-        13
-      ],
-      "variant": "omitted",
-      "note": "Peshitta uses pronominal suffix on verb; Greek/Latin use separate pronoun"
-    },
-    {
-      "greek_nt": [
+        13,
+        14,
+        15,
         16,
         17
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        11,
+        12,
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses καὶ ἀφεῖλεν αὐτοῦ τὸ ὠτάριον with genitive pronoun αὐτοῦ ('of him') and articular diminutive ὠτάριον; Peshitta employs ܘܫܩܠܗ ܐܕܢܗ with pronominal suffixes on both verb and noun, a typical Semitic construction; Vulgate expands with et amputavit illi auriculam, using dative illi instead of genitive and the standard Latin diminutive auriculam."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.837171+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.042222+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -57,8 +57,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses periphrastic construction ܐܡܪ ܗܘܐ (was saying) matching Greek imperfect ἔλεγεν"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἔλεγεν is imperfect active indicative third singular; Peshitta employs periphrastic construction ܐܡܪ ܗܘܐ (perfect + auxiliary) to render the imperfect aspect; Vulgate dicebat mirrors the Greek imperfect directly. All three convey iterative or durative past action."
     },
     {
       "greek_nt": [
@@ -69,30 +70,23 @@
       ],
       "vulgate": [
         1
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܓܝܪ appears after pronoun, Greek γὰρ and Vulgate enim in standard post-verbal position"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
       ],
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illi to mark the transition to direct speech, a Latin scribal convention absent in Greek and Syriac manuscript traditions."
     },
     {
       "greek_nt": [
@@ -121,8 +115,9 @@
         5,
         6
       ],
-      "variant": "minor",
-      "note": "Word order variation: Greek has vocative with double article + adjective; Peshitta and Vulgate place noun before adjective without articles"
+      "variant": "major",
+      "type": "word-order",
+      "note": "Greek places the vocative τὸ πνεῦμα τὸ ἀκάθαρτον before the prepositional phrase ἐκ τοῦ ἀνθρώπου, employing double article construction for emphasis. Peshitta inverts the order, placing ܡܢ ܒܪܢܫܐ ('from the man') before ܪܘܚܐ ܛܢܦܐ ('unclean spirit'), reflecting Semitic preference for verb-prepositional phrase-subject order in commands. Vulgate spiritus immunde follows Greek word order but uses post-positive adjective without article."
     },
     {
       "greek_nt": [
@@ -138,14 +133,15 @@
         7,
         8
       ],
-      "variant": "aligned",
-      "note": "Greek ἐκ τοῦ ἀνθρώπου, Peshitta ܡܢ ܒܪܢܫܐ, Vulgate ab homine all express 'from/out of the man'"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐκ and Vulgate ab both govern the genitive/ablative respectively (τοῦ ἀνθρώπου / homine), while Peshitta ܡܢ governs the emphatic state ܒܪܢܫܐ. All three prepositions denote separation/source, but Syriac ܡܢ has broader semantic range than Greek ἐκ."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.754771+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.971671+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

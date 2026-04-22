@@ -64,25 +64,25 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1,
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1,
-        2
-      ],
       "variant": "minor",
-      "note": "Greek participle ὄντος vs Peshitta temporal ܟܕ vs Vulgate cum+subjunctive; all express temporal circumstance"
+      "type": "substitution",
+      "note": "Greek uses simple conjunction καί ('and'), while Vulgate employs cum ('when') with subjunctive esset, creating a temporal clause. Peshitta ܘܟܕ ('and when') combines both functions, closer to the Vulgate's temporal construction than to the Greek's paratactic style."
     },
     {
       "greek_nt": [
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek genitive absolute ὄντος ('being') and Vulgate subjunctive esset ('was') both express the circumstantial temporal clause explicitly. The Peshitta omits any verbal copula, relying on the temporal particle ܟܕ alone to establish the circumstantial relationship—a typical Syriac ellipsis of the verb 'to be' in participial constructions."
+    },
+    {
+      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
@@ -92,7 +92,8 @@
         3
       ],
       "variant": "major",
-      "note": "Peshitta uses ܫܡܥܘܢ (Simon) instead of Πέτρου (Peter); different name form for same person"
+      "type": "substitution",
+      "note": "Greek uses the article + proper name τοῦ Πέτρου ('Peter') in genitive absolute construction. Peshitta substitutes ܫܡܥܘܢ ('Simon'), employing Peter's Semitic birth name rather than his Greek epithet—a characteristic Peshitta preference for Semitic nomenclature. Vulgate retains the Greek form Petrus."
     },
     {
       "greek_nt": [
@@ -111,7 +112,8 @@
         6
       ],
       "variant": "minor",
-      "note": "Greek κάτω ἐν τῇ αὐλῇ (below in the courtyard) vs Peshitta ܠܬܚܬ ܒܕܪܬܐ (below in courtyard) vs Vulgate in atrio deorsum (in courtyard below); word order variation"
+      "type": "word-order",
+      "note": "Greek places the adverb κάτω ('below') before the prepositional phrase ἐν τῇ αὐλῇ ('in the courtyard'), emphasizing vertical location. Vulgate inverts this to in atrio deorsum ('in the courtyard below'), placing location before direction. Peshitta ܠܬܚܬ ܒܕܪܬܐ ('below in the courtyard') follows Greek word order, though both traditions convey identical spatial semantics through different syntactic arrangements."
     },
     {
       "greek_nt": [
@@ -123,34 +125,27 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
-        5
+        5,
+        6
       ],
       "vulgate": [
+        8,
         9,
         10
       ],
       "variant": "minor",
-      "note": "Greek τῶν παιδισκῶν (of the servant girls) vs Peshitta ܥܠܝܡܬܐ (young woman/maid) vs Vulgate ex ancillis (from/of servant girls); slight lexical variation"
+      "type": "word-order",
+      "note": "Greek places the numeral before the noun (μία τῶν παιδισκῶν, 'one of the servant-girls'), matching Vulgate una ex ancillis. Peshitta inverts to ܥܠܝܡܬܐ ܚܕܐ ('servant-girl one'), placing the numeral in post-position—standard Semitic attributive syntax where numerals follow their head nouns."
     },
     {
       "greek_nt": [
@@ -165,7 +160,8 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -174,13 +170,14 @@
         13
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate adds a colon (:) to mark the transition to direct discourse in the following verse. Neither Greek nor Peshitta manuscripts employ this punctuation convention at this juncture, though the semantic boundary remains implicit in all three traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.840151+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.045241+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

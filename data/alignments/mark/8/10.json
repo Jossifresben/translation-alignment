@@ -64,25 +64,8 @@
         0
       ],
       "variant": "major",
-      "note": "Peshitta ܘܫܪܐ 'and he dismissed/released' adds action not in Greek/Latin; likely refers to dismissing the crowd from previous context"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܐܢܘܢ 'them' (object pronoun) has no parallel in Greek or Vulgate"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܘܣܠܩ 'and he ascended' duplicates the boarding action, stylistic expansion"
+      "type": "expansion",
+      "note": "The Peshitta opens with ܘܫܪܐ ܐܢܘܢ ('and he dismissed them'), an expansion not present in either the Greek or Vulgate, likely harmonizing with the preceding narrative context of the crowd's dismissal. This represents a substantive addition unique to the Syriac tradition."
     },
     {
       "greek_nt": [
@@ -94,7 +77,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek εὐθὺς ('immediately') appears before the participle ἐμβάς, while Peshitta ܡܚܕܐ and Vulgate statim follow their respective verbs (ܘܣܠܩ / ascendens). This represents a stylistic reordering without semantic change, reflecting each tradition's preferred adverbial placement."
     },
     {
       "greek_nt": [
@@ -104,6 +89,7 @@
         5
       ],
       "peshitta": [
+        2,
         4
       ],
       "vulgate": [
@@ -111,7 +97,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek ἐμβὰς εἰς τὸ πλοῖον (participle + prep + article + noun) vs Vulgate ascendens navim (participle + accusative) vs Peshitta ܠܣܦܝܢܬܐ (to-the-ship); same meaning, different syntax"
+      "type": "construction",
+      "note": "Greek uses the aorist participle ἐμβὰς with prepositional phrase εἰς τὸ πλοῖον ('having embarked into the boat'); Vulgate employs the present participle ascendens with accusative navim (without article); Peshitta uses the perfect ܘܣܠܩ ܠܣܦܝܢܬܐ ('and he went up to the ship'). These represent equivalent constructions with different aspectual and syntactic strategies."
     },
     {
       "greek_nt": [
@@ -129,7 +116,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek μετὰ τῶν μαθητῶν αὐτοῦ uses the genitive article τῶν with possessive pronoun αὐτοῦ; Vulgate cum discipulis suis employs the possessive adjective suis; Peshitta ܥܡ ܬܠܡܝܕܘܗܝ uses a pronominal suffix on the noun. All three express identical meaning through language-specific possessive constructions."
     },
     {
       "greek_nt": [
@@ -156,7 +145,9 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εἰς τὰ μέρη ('into the districts/regions', plural) and Vulgate in partes (plural) contrast with Peshitta ܠܐܬܪܐ ('to the place/region', singular). The Syriac employs a singular collective noun where Greek and Latin use the plural, a common Semitic idiom for geographic designations."
     },
     {
       "greek_nt": [
@@ -173,8 +164,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.779795+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.995231+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

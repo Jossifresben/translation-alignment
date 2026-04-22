@@ -77,33 +77,23 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܫܕܪܗ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        1,
         2
       ],
       "variant": "aligned",
-      "note": "Peshitta includes pronominal suffix on verb"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -120,7 +110,9 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase εἰς τὸν οἶκον αὐτοῦ with article and possessive pronoun; Peshitta employs bound construct ܠܒܝܬܗ (l-bayteh, 'to-his-house') with pronominal suffix; Vulgate in domum suam mirrors Greek structure with possessive adjective — all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -133,7 +125,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek λέγων is a present participle ('saying'); Peshitta ܘܐܡܪ is a finite perfect verb ('and he said'); Vulgate dicens matches Greek with gerund but adds colon punctuation to introduce direct speech, creating a stronger discourse break than the Greek participle implies."
     },
     {
       "greek_nt": [],
@@ -146,7 +140,8 @@
         12
       ],
       "variant": "added",
-      "note": "Vulgate adds 'Vade in domum tuam' (Go to your house), expanding the command"
+      "type": "expansion",
+      "note": "Vulgate inserts the imperative clause 'Vade in domum tuam' ('Go into your house') with colon punctuation, making explicit the command to return home that is implicit in the Greek and Peshitta sending-to-home construction. This expansion clarifies the directive before the prohibitions follow."
     },
     {
       "greek_nt": [
@@ -170,43 +165,37 @@
         17
       ],
       "variant": "minor",
-      "note": "Peshitta uses ܐܦ ܠܐ (not even) for μηδὲ; Vulgate uses 'et si...introieris' (and if you enter) restructuring the prohibition"
+      "type": "construction",
+      "note": "Greek uses μηδὲ εἰς τὴν κώμην εἰσέλθῃς (negative particle + prepositional phrase + subjunctive); Peshitta employs ܐܦ ܠܐ ܠܩܪܝܬܐ ܬܥܘܠ (emphatic particle 'even' + negative + prepositional phrase + imperfect); Vulgate renders with conditional si in vicum introieris ('if you enter the village'), transforming the prohibition into a conditional protasis governing the following apodosis."
     },
     {
       "greek_nt": [
         13,
         14,
-        15
-      ],
-      "peshitta": [
-        7,
-        8,
-        9
-      ],
-      "vulgate": [
-        18,
-        19
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16,
         17,
         18
       ],
       "peshitta": [
+        7,
+        8,
+        9,
         10
       ],
-      "vulgate": [],
+      "vulgate": [
+        18,
+        19
+      ],
+      "note": "Greek μηδὲ εἴπῃς τινὶ ἐν τῇ κώμῃ uses coordinated negative subjunctive with dative indirect object and locative prepositional phrase; Peshitta ܘܠܐ ܬܐܡܪ ܠܐܢܫ ܒܩܪܝܬܐ mirrors this structure with coordinated negative + imperfect; Vulgate nemini dixeris compresses into apodosis of the conditional ('tell no one'), omitting explicit village location as contextually understood from the protasis.",
       "variant": "minor",
-      "note": "Greek and Peshitta specify location 'in the village'; Vulgate omits this locative phrase"
+      "type": "construction"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.782200+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.997783+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

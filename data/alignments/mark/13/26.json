@@ -69,7 +69,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction καὶ plus temporal adverb τότε ('and then'); Syriac employs the compound temporal conjunction ܘܗܝܕܝܢ ('and then' as single unit); Vulgate mirrors Greek structure with Et tunc. Semantically equivalent, syntactically distinct."
     },
     {
       "greek_nt": [
@@ -82,7 +84,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta includes object suffix -ܝܗܝ 'him' on verb, making object explicit"
+      "type": "grammar",
+      "note": "Peshitta ܢܚܙܘܢܝܗܝ includes a third-person masculine singular object suffix ('him'), making the direct object explicit, whereas Greek ὄψονται and Latin videbunt leave the object implicit until the following accusative phrase. This represents typical Syriac preference for pronominal anticipation of the object."
     },
     {
       "greek_nt": [
@@ -99,7 +102,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the definite article τὸν with υἱὸν τοῦ ἀνθρώπου ('the Son of Man'); Syriac uses the prefixed preposition-article ܠܒܪܗ ('to/for the Son') with ܕܐܢܫܐ ('of man'); Vulgate lacks articles (Filium hominis). The Syriac ܠ- prefix marks the definite direct object, a construction absent in Greek and Latin."
     },
     {
       "greek_nt": [
@@ -113,7 +118,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta uses temporal particle ܟܕ 'when/while' + finite verb ܐܬܐ; Greek/Vulgate use participle"
+      "type": "construction",
+      "note": "Greek uses present participle ἐρχόμενον ('coming'); Latin employs present participle venientem; Syriac renders with temporal particle ܟܕ plus finite verb ܐܬܐ ('when he comes'), converting the participial construction into a temporal clause. Semantically equivalent but syntactically restructured."
     },
     {
       "greek_nt": [
@@ -160,13 +166,15 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin coordinate δόξης / gloria with the preceding δυνάμεως πολλῆς / virtute multa using conjunction καὶ / et; Syriac repeats the preposition ܥܡ ('with') before ܫܘܒܚܐ ('glory'), creating parallel prepositional phrases rather than a single coordinated genitive construction. Stylistic variation with identical semantic force."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.826271+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.032277+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

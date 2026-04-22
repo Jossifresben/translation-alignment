@@ -56,28 +56,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܩܪܒܘ combines conjunction and verb in single token"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses conjunction καὶ followed by aorist participle προσελθόντες ('and having come'); Peshitta employs a single prefixed waw on the finite verb ܘܩܪܒܘ ('and they approached'); Vulgate mirrors Greek structure with Et accedentes. All three convey identical temporal-sequential meaning through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -90,7 +81,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article οἱ Φαρισαῖοι ('the Pharisees'); Syriac ܦܪܝܫܐ and Latin pharisæi lack articles, following their respective languages' conventions for proper group names. The semantic reference remains identical across all three traditions."
     },
     {
       "greek_nt": [
@@ -103,56 +96,52 @@
         12
       ],
       "variant": "major",
-      "note": "Word order: Peshitta places 'testing' before questioning verb, Greek and Vulgate place it at end"
+      "type": "word-order",
+      "note": "The participial phrase 'testing him' (Greek πειράζοντες, Syriac ܡܢܣܝܢ, Latin tentantes) appears in dramatically different positions: Syriac places it immediately after the subject and before the main verb, creating a fronted adverbial modifier; Greek and Latin position it clause-finally as a circumstantial participle. This represents a substantive syntactic reordering that affects rhetorical emphasis, though not propositional content."
     },
     {
       "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
+        3,
         4
       ],
       "vulgate": [
-        3
+        3,
+        4
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܡܫܐܠܝܢ includes conjunction"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Syriac reverses the order of verb and object pronoun (ܠܗ ܘܡܫܐܠܝܢ 'him and asking') compared to Greek ἐπηρώτων αὐτὸν and Latin interrogabant eum, both of which place the verb before the pronoun. The Syriac construction employs a prefixed waw on the second verb, creating a coordinate structure where Greek and Latin use simple verb-object syntax."
     },
     {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         5
       ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after eum to mark the beginning of indirect discourse, a punctuation convention absent in Greek manuscripts and irrelevant to Syriac orthography. This represents Latin scribal practice rather than textual variation."
     },
     {
       "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἰ ἔξεστιν ('if it is lawful') uses the conditional particle with an impersonal verb; Syriac ܕܐܢ ܫܠܝܛ employs the subordinator ܕ plus conditional ܐܢ with the adjective ܫܠܝܛ ('permitted'); Latin Si licet mirrors Greek structure with conditional plus impersonal verb. All three express identical indirect question syntax through language-specific means."
     },
     {
       "greek_nt": [
@@ -168,28 +157,30 @@
     },
     {
       "greek_nt": [
-        9
+        9,
+        10
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        10,
         9
       ],
       "variant": "minor",
-      "note": "Peshitta uses possessive suffix 'his wife' vs. Greek/Vulgate indefinite 'a wife'"
+      "type": "word-order",
+      "note": "Greek and Syriac place the object γυναῖκα/ܐܢܬܬܗ ('wife') before the infinitive ἀπολῦσαι/ܕܢܫܒܘܩ ('to divorce'), following standard Semitic and Koine syntax; Latin inverts this to uxorem dimittere, placing the infinitive last per classical Latin infinitive-complement structure. Syriac ܐܢܬܬܗ includes a pronominal suffix ('his wife') where Greek and Latin use the bare noun."
     },
     {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        8
-      ],
+      "greek_nt": [],
+      "peshitta": [],
       "vulgate": [
-        10
+        11
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a second colon before tentantes eum, further subdividing the clause structure. This punctuation choice reflects Latin rhetorical conventions and has no equivalent in Greek or Syriac manuscript traditions."
     },
     {
       "greek_nt": [
@@ -200,23 +191,14 @@
         13
       ],
       "variant": "omitted",
-      "note": "Peshitta omits second 'him' object after 'testing'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5,
-        11
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colons as punctuation markers"
+      "type": "gloss",
+      "note": "Greek and Latin repeat the object pronoun αὐτόν/eum ('him') after the participle πειράζοντες/tentantes ('testing'), creating explicit anaphoric reference; Syriac omits this second pronoun, as the participial construction ܡܢܣܝܢ ܠܗ earlier in the clause already establishes the pronominal object. This represents typical Syriac economy of expression rather than textual omission."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.792903+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.007792+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

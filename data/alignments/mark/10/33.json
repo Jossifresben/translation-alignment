@@ -84,13 +84,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek ὅτι and Latin Quia both introduce the clause causally ('because/that'), while Peshitta omits an explicit causal conjunction, beginning directly with the demonstrative particle ܕܗܐ ('behold')."
     },
     {
       "greek_nt": [
@@ -103,7 +103,7 @@
         1
       ],
       "variant": "aligned",
-      "note": "Greek ἰδού and Syriac ܕܗܐ both function as attention markers; Peshitta token combines conjunction + interjection"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,32 +117,24 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta makes explicit pronoun ܚܢܢ 'we' while Greek and Latin encode it in verb morphology"
+      "type": "gloss",
+      "note": "Peshitta adds the explicit subject pronoun ܚܢܢ ('we') after the verb ܣܠܩܝܢ ('we go up'), whereas Greek ἀναβαίνομεν and Latin ascendimus encode the first-person plural subject morphologically without a separate pronoun."
     },
     {
       "greek_nt": [
         3,
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
-        4
+        3
       ],
       "vulgate": [
+        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -160,7 +152,7 @@
         6
       ],
       "variant": "aligned",
-      "note": "Greek article ὁ not represented in Peshitta or Vulgate; Peshitta ܘܒܪܗ includes conjunction"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -172,73 +164,35 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         11,
-        12
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
-        8,
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
+        13,
         14,
         15
       ],
       "peshitta": [
+        7,
+        8,
         9
       ],
       "vulgate": [
+        8,
+        9,
+        10,
         11
       ],
-      "variant": "aligned",
-      "note": "Peshitta ܘܠܣܦܪܐ includes conjunction; Greek article not represented in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12,
-        13
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'et senioribus' (and elders), not present in Greek or Peshitta"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Vulgate inserts et senioribus ('and to the elders') after scribis, expanding the list of recipients to include a third group not attested in either the Greek NA28 or the Peshitta. This represents a Western textual tradition harmonizing with parallel passion predictions or synoptic accounts."
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
         18,
         19
@@ -248,53 +202,37 @@
         11
       ],
       "vulgate": [
+        12,
+        13,
+        14,
         15,
         16,
         17
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines verb and object pronoun in ܘܢܚܝܒܘܢܝܗܝ"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Peshitta place the object pronoun before the dative complement (αὐτὸν θανάτῳ / ܠܡܘܬܐ with pronominal suffix on verb), while Vulgate reverses the order (damnabunt eum morte), placing the accusative pronoun eum between verb and ablative of penalty."
     },
     {
       "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        20,
         21,
-        22
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        19,
-        20
-      ],
-      "variant": "aligned",
-      "note": "Peshitta combines verb and object pronoun in ܘܢܫܠܡܘܢܝܗܝ"
-    },
-    {
-      "greek_nt": [
+        22,
         23,
         24
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        18,
+        19,
+        20,
         21
       ],
       "variant": "aligned",
-      "note": "Greek article not represented in Peshitta or Vulgate"
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -302,14 +240,15 @@
       "vulgate": [
         22
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate concludes the verse with a colon (:), signaling continuation into the following verse, whereas Greek and Peshitta manuscripts typically employ a full stop or no explicit punctuation marker at this juncture."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.803580+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.012214+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

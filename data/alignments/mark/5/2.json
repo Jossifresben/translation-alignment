@@ -70,7 +70,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -84,7 +85,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a genitive absolute construction (ἐξελθόντος αὐτοῦ) with explicit subject pronoun; Peshitta uses a bare active participle (ܢܦܩ) without pronominal suffix; Vulgate uses a dative absolute (exeunti ei) with dative pronoun, mirroring Greek syntax but in Latin idiom."
     },
     {
       "greek_nt": [
@@ -100,7 +103,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article with genitive noun (ἐκ τοῦ πλοίου); Peshitta omits the article, using bare ܡܢ ܣܦܝܢܬܐ (typical Syriac construction with definite state); Vulgate uses ablative without article (de navi), following Latin norms where articles are absent."
     },
     {
       "greek_nt": [
@@ -111,7 +116,8 @@
         5
       ],
       "variant": "omitted",
-      "note": "Peshitta omits temporal adverb 'immediately/statim'"
+      "type": "omission",
+      "note": "Greek εὐθὺς ('immediately') and Vulgate statim are present; Peshitta omits the temporal adverb entirely, a characteristic Peshitta tendency to streamline narrative markers when the immediacy is contextually implied."
     },
     {
       "greek_nt": [
@@ -125,7 +131,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὑπήντησεν αὐτῷ ('met him') uses compound verb with dative object; Peshitta ܦܓܥ ܒܗ employs the verb 'encounter' with prepositional phrase; Vulgate occurrit uses intransitive verb with dative understood from context (ei above), all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -143,7 +151,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses construct phrase 'beth qbuura' (house of burial) for tombs/monuments"
+      "type": "idiom",
+      "note": "Greek uses plural τῶν μνημείων ('the tombs'); Vulgate uses plural monumentis; Peshitta employs the construct phrase ܒܝܬ ܩܒܘܪܐ ('house of burial', i.e., cemetery/tomb-place), a typical Syriac idiom using singular construct for burial sites."
     },
     {
       "greek_nt": [
@@ -155,7 +164,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -175,13 +185,14 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta uses existential construction 'd-ith beh' (who has in him) vs. Greek/Latin prepositional 'in spirit'"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐν πνεύματι ἀκαθάρτῳ ('in/with an unclean spirit'); Vulgate mirrors this with in spiritu immundo; Peshitta employs a relative clause construction ܕܐܝܬ ܒܗ ܪܘܚܐ ܛܢܦܬܐ ('who has in him an unclean spirit'), making the possession explicit through verbal predication rather than prepositional modification."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.753813+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.969944+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

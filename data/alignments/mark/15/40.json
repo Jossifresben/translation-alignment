@@ -94,8 +94,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses existential particle ܐܝܬ + copula ܗܘܝ for Greek ἦσαν"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple imperfect ἦσαν; Peshitta employs the periphrastic construction ܐܝܬ ܗܘܝ (existential particle + hwā), a characteristic Syriac idiom for past existence. Vulgate mirrors Greek with simple imperfect Erant."
     },
     {
       "greek_nt": [
@@ -159,32 +160,27 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "note": "Peshitta uses participle ܕܚܙܝܢ + copula ܗܘܝ for Greek participle θεωροῦσαι"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses present participle θεωροῦσαι; Peshitta employs relative clause with active participle ܕܚܙܝܢ ܗܘܝ (d-ḥāzyān hway, 'who were seeing'), again using periphrastic construction. Vulgate uses simple present participle aspicientes, matching Greek syntax."
     },
     {
       "greek_nt": [
         7,
         8,
-        9
+        9,
+        10
       ],
       "peshitta": [],
       "vulgate": [
+        7,
         8,
         9,
         10
       ],
-      "variant": "major",
-      "note": "Peshitta omits ἐν αἷς ἦν construction; directly lists names without relative clause"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
-      "note": "Greek καὶ before first name omitted in Peshitta and Vulgate"
+      "type": "construction",
+      "note": "Greek ἐν αἷς ἦν καὶ ('among whom was also') and Vulgate inter quas erat ('among whom was') employ a relative clause to introduce the list of women. Peshitta omits this construction entirely, proceeding directly to the enumeration of names without transitional syntax."
     },
     {
       "greek_nt": [
@@ -201,18 +197,20 @@
         12
       ],
       "variant": "minor",
-      "note": "Greek article ἡ before Μαγδαληνὴ absent in Peshitta and Vulgate"
+      "type": "grammar",
+      "note": "Greek uses article ἡ before Μαγδαληνή as an attributive modifier; Peshitta employs the emphatic state ܡܓܕܠܝܬܐ (Magdalītā) without separate article, following standard Syriac nominal syntax. Vulgate punctuates Magdalene with comma, treating it as appositive."
     },
     {
       "greek_nt": [
         14
       ],
-      "peshitta": [],
+      "peshitta": [
+        11
+      ],
       "vulgate": [
         13
       ],
-      "variant": "minor",
-      "note": "Peshitta incorporates conjunction into ܘܡܪܝܡ (waw prefix)"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -242,18 +240,20 @@
         19
       ],
       "variant": "major",
-      "note": "Word order differs: Greek has article + genitive construction 'the [mother] of James the less and Joses'; Peshitta has 'Mary mother-of James little and-of-Joses'; Vulgate has 'Mary of-James minor and Joseph mother'"
+      "type": "word-order",
+      "note": "Greek places μήτηρ ('mother') after both sons' names in post-positive construction: 'Mary the [one] of James the less and of Joses mother.' Peshitta fronts ܐܡܗ ('mother of') before the names: 'Mary mother-of Jacob the-small and-of-Joses.' Vulgate splits the construction with genitives: 'Mary of-Jacob the-less and Joseph mother,' creating ambiguity about whether 'mother' governs both names or only Joseph."
     },
     {
       "greek_nt": [
         24
       ],
-      "peshitta": [],
+      "peshitta": [
+        16
+      ],
       "vulgate": [
         20
       ],
-      "variant": "minor",
-      "note": "Peshitta incorporates conjunction into ܘܫܠܘܡ (waw prefix)"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -263,25 +263,18 @@
         16
       ],
       "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7,
+        21,
         22
       ],
-      "variant": "added",
-      "note": "Vulgate adds colons for punctuation not present in Greek or Peshitta manuscripts"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek includes comma with Σαλώμη as part of the name token; Vulgate separates Salome from following colon with distinct tokens. Peshitta integrates the conjunction directly with the name ܘܫܠܘܡ (w-Šlōm), following Syriac orthographic convention of prefixing conjunctions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.847866+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.052302+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

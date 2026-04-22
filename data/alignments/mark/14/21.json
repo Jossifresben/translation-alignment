@@ -109,19 +109,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek ὅτι (causal 'for') omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
-        1,
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "minor",
-      "note": "Greek μέν (contrastive particle) rendered as Latin quidem, omitted in Peshitta"
+      "type": "omission",
+      "note": "Greek ὅτι (G3754, 'for/that') is omitted in both Peshitta and Vulgate, which begin the verse directly with the subject. The Vulgate compensates by adding the coordinating conjunction 'Et' (not present in Greek), creating a smoother transition from the preceding verse."
     },
     {
       "greek_nt": [],
@@ -130,10 +119,13 @@
         0
       ],
       "variant": "added",
-      "note": "Vulgate adds coordinating Et at verse opening"
+      "type": "expansion",
+      "note": "Vulgate inserts 'Et' ('And') at the verse opening, absent in both Greek and Peshitta. This conjunction links the verse more explicitly to the preceding context, a characteristic Vulgate stylistic choice for narrative flow."
     },
     {
       "greek_nt": [
+        1,
+        2,
         3,
         4,
         5
@@ -144,9 +136,12 @@
       ],
       "vulgate": [
         1,
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs the postpositive particle μέν ('indeed') after the article ὁ for emphasis, creating the sequence 'the indeed Son of Man.' Vulgate mirrors this with 'Filius quidem hominis,' placing 'quidem' post-nominally. Peshitta omits any emphatic particle, using the simple construct chain ܒܪܗ ܕܐܢܫܐ ('Son of Man') with prefixed conjunction ܘ ('and')."
     },
     {
       "greek_nt": [
@@ -158,7 +153,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -170,7 +166,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -183,7 +180,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the perfect passive periphrastic γέγραπται ('it has been written'), a single-word form. Vulgate renders this with the participial construction 'scriptum est' (perfect passive participle + auxiliary), semantically identical but syntactically expanded. Peshitta uses the simple passive participle ܕܟܬܝܒ, structurally closer to Greek."
     },
     {
       "greek_nt": [
@@ -197,16 +196,20 @@
         8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        10
+      ],
       "peshitta": [],
       "vulgate": [
         10
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation colon"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after 'eo' to mark the major clause boundary before the 'woe' pronouncement. Greek uses a comma (modern editions), Peshitta has no explicit punctuation marker. This reflects Latin rhetorical convention for emphasizing the shift from statement to malediction."
     },
     {
       "greek_nt": [
@@ -218,7 +221,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -230,7 +234,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -246,7 +251,9 @@
         13,
         14
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses ἄνθρωπος (G0444, generic 'man/human') with article and demonstrative ἐκείνῳ. Peshitta employs ܓܒܪܐ (gaḇrā, 'man/male individual') with demonstrative ܗܘ, a more specific anthropological term. Vulgate uses 'homini illi,' mirroring Greek's generic sense. The Syriac choice may emphasize Judas's individual agency."
     },
     {
       "greek_nt": [
@@ -260,8 +267,9 @@
         15,
         16
       ],
-      "variant": "minor",
-      "note": "Greek δι' οὗ (through whom) vs Peshitta ܕܒܐܝܕܗ (by his hand) vs Latin per quem - stylistic variation"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses the prepositional phrase δι᾽ οὗ ('through whom'), indicating instrumentality. Vulgate mirrors this with 'per quem.' Peshitta substitutes ܕܒܐܝܕܗ ('by whose hand'), a Semitic idiom for agency that makes the instrumental relationship more concrete and physical, typical of Syriac translation technique."
     },
     {
       "greek_nt": [
@@ -278,7 +286,8 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -290,76 +299,56 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb παραδίδοται ('is betrayed') after the subject 'Son of Man.' Peshitta fronts the verb ܡܫܬܠܡ before the subject (tokens 12-13), creating a verb-subject-object sequence typical of Semitic syntax. Vulgate follows Greek word order with 'tradetur' in final position."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        22
+      ],
       "peshitta": [],
       "vulgate": [
         20
       ],
-      "variant": "added",
-      "note": "Vulgate punctuation exclamation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts an exclamation mark after 'tradetur,' heightening the emotional force of the betrayal statement. Greek uses a semicolon (modern editions), Peshitta has no explicit marker. This reflects Latin rhetorical intensification of the malediction."
     },
     {
       "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        24
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        22
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        23,
+        24,
         25
       ],
       "peshitta": [
+        14,
+        15,
         16
       ],
       "vulgate": [
+        21,
+        22,
         23
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        26
-      ],
-      "peshitta": [
-        19
-      ],
-      "vulgate": [
-        24
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        26,
         27
       ],
       "peshitta": [
+        19,
         20
       ],
       "vulgate": [
+        24,
         25
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -372,7 +361,9 @@
         26,
         27
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist passive ἐγεννήθη ('was born'), a single finite verb. Vulgate employs the pluperfect subjunctive periphrasis 'esset natus' (imperfect subjunctive of 'to be' + perfect passive participle), reflecting Latin's preference for compound tense forms in contrary-to-fact conditions. Peshitta uses the simple ethpeal (passive) ܐܬܝܠܕ, structurally parallel to Greek."
     },
     {
       "greek_nt": [
@@ -388,13 +379,15 @@
         28,
         29
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article-noun-demonstrative sequence ὁ ἄνθρωπος ἐκεῖνος in final position. Peshitta fronts this phrase (ܠܓܒܪܐ ܗܘ, tokens 17-18) before the conditional clause (tokens 19-21), creating a topicalized structure that emphasizes the subject. Vulgate follows Greek order with 'homo ille' in final position."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.831703+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:26:01.884588+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

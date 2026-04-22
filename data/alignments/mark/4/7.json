@@ -62,28 +62,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction and adjective in single token ܘܐܚܪܢܐ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -95,7 +85,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -112,28 +103,21 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek uses εἰς + article + accusative; Peshitta ܒܝܬ (among/between); Vulgate in + accusative without article"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present in Greek or Peshitta"
+      "type": "construction",
+      "note": "Greek uses the preposition εἰς with the accusative article and noun (εἰς τὰς ἀκάνθας); Latin mirrors this with in + accusative (in spinas); Syriac employs the compound preposition ܒܝܬ (beth, 'among/between') without an article, reflecting typical Semitic prepositional usage where the definiteness is contextually implied."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [
-        4
-      ],
+      "peshitta": [],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'spinas' to mark a stronger pause before the consequence clause, creating a two-part structure absent in the Greek and Peshitta. This reflects Latin rhetorical convention rather than a textual variant in the underlying tradition."
     },
     {
       "greek_nt": [
@@ -150,22 +134,12 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek repeats article + noun; Peshitta combines conjunction with verb ܘܣܠܩܘ and repeats noun; Vulgate omits article"
+      "type": "grammar",
+      "note": "Greek employs the definite article with the subject noun (αἱ ἄκανθαι, 'the thorns') in nominative plural; Latin uses the bare noun 'spinæ' in the ablative absolute construction; Syriac uses ܟܘܒܐ without an article, as Syriac typically marks definiteness through context and the emphatic state rather than a separate article, resulting in functional equivalence despite morphological divergence."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
@@ -173,23 +147,23 @@
         6
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
       "variant": "aligned",
-      "note": "Peshitta combines conjunction, verb, and pronoun in ܘܚܢܩܘܗܝ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
         13
       ],
-      "peshitta": [
-        7
-      ],
+      "peshitta": [],
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -208,13 +182,14 @@
         15
       ],
       "variant": "minor",
-      "note": "Peshitta combines conjunction with noun ܘܦܐܪܐ; all traditions express negation + verb similarly"
+      "type": "word-order",
+      "note": "Greek places the negative particle before the verb (καρπὸν οὐκ ἔδωκεν, 'fruit not it-gave'); Latin follows the same order (fructum non dedit); Syriac prefixes the conjunction to 'fruit' (ܘܦܐܪܐ ܠܐ ܝܗܒ, 'and-fruit not it-gave'), reflecting the Syriac preference for attaching conjunctions directly to the following word, but the semantic content and negation placement remain equivalent across all three traditions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.746319+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.963941+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

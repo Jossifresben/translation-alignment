@@ -50,7 +50,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -66,7 +67,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek uses article + adverb 'τῇ ἐπαύριον'; Peshitta 'ܘܠܝܘܡܐ ܐܚܪܢܐ' (and to the day another); Vulgate 'alia die' (another day) - all semantically equivalent temporal expressions"
+      "type": "construction",
+      "note": "Greek uses article + adverb (τῇ ἐπαύριον, 'on the next day'); Syriac employs a compound temporal phrase (ܘܠܝܘܡܐ ܐܚܪܢܐ, 'and on the day another'); Vulgate uses adjective + noun (alia die, 'on another day'). All three express the same temporal meaning through different syntactic constructions."
     },
     {
       "greek_nt": [
@@ -82,7 +84,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek genitive absolute 'ἐξελθόντων αὐτῶν' (they having exited); Peshitta temporal clause 'ܟܕ ܢܦܩ' (when he exited - singular); Vulgate temporal clause 'cum exirent' (when they were exiting - plural). Peshitta uses singular where Greek/Vulgate use plural."
+      "type": "construction",
+      "note": "Greek employs a genitive absolute construction (ἐξελθόντων αὐτῶν, 'they having gone out'); Syriac uses a temporal particle with finite verb (ܟܕ ܢܦܩ, 'when he went out'); Vulgate uses cum + subjunctive (cum exirent, 'when they were going out'). The Syriac verb appears singular while Greek and Latin preserve the plural subject, though this may reflect Syriac's tendency toward singular verbs with collective subjects."
     },
     {
       "greek_nt": [
@@ -97,7 +100,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -109,13 +113,14 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.809288+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.017155+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

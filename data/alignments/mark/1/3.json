@@ -88,7 +88,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase with article (ἐν τῇ ἐρήμῳ); Vulgate mirrors this structure (in deserto); Peshitta employs a single prefixed preposition on the noun (ܒܡܕܒܪܐ), a typical Syriac morphological compression of the same semantic content."
     },
     {
       "greek_nt": [],
@@ -97,101 +99,57 @@
         4
       ],
       "variant": "added",
-      "note": "Vulgate adds colon as punctuation marker before direct speech"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition from the introductory phrase to the prophetic quotation itself. Neither the Greek nor the Peshitta tradition employs punctuation at this juncture, treating the verse as a continuous syntactic unit."
     },
     {
       "greek_nt": [
-        5
+        5,
+        6,
+        7,
+        8
       ],
       "peshitta": [
-        3
-      ],
-      "vulgate": [
+        3,
+        4,
         5
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+      "vulgate": [
+        5,
         6,
         7
       ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
       "variant": "minor",
-      "note": "Greek εὐθείας (straight, accusative plural) vs Peshitta ܘܐܫܘܘ (and make level) vs Vulgate rectas (straight, accusative plural); Peshitta uses conjunction + verb where Greek/Vulgate use adjective"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the imperative before the object (ἑτοιμάσατε τὴν ὁδὸν κυρίου / Parate viam Domini); Peshitta reverses the order, placing the object-phrase before the verb (ܐܘܪܚܗ ܕܡܪܝܐ ܛܝܒܘ), a common Semitic VSO-to-OVS variation for emphasis or stylistic preference."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "minor",
-      "note": "Peshitta combines 'make straight' into single verbal form ܘܐܫܘܘ, while Greek separates εὐθείας ποιεῖτε and Vulgate rectas facite"
-    },
-    {
-      "greek_nt": [
+        9,
+        10,
         11,
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        8,
+        9,
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs an adjectival predicate with imperative (εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ, 'make straight the paths of him'); Vulgate mirrors this with rectas facite semitas ejus. Peshitta uses a single Pael verb ܘܐܫܘܘ ('and make level/straight') with pronominal suffix on the object ܫܒܝܠܘܗܝ ('his paths'), achieving the same meaning through verbal morphology rather than separate adjective and verb."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.726344+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.942563+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

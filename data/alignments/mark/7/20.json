@@ -57,8 +57,9 @@
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits the main verb 'was saying'; begins directly with the content clause"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (V-IAI-3S, 'he was saying'), indicating iterative or continuous past action; Vulgate employs imperfect dicebat with identical aspectual force. Peshitta omits the verb entirely, beginning directly with the substantive clause introduced by ܡܕܡ ('that which'), a common Syriac construction where context supplies the verb of speaking."
     },
     {
       "greek_nt": [
@@ -70,7 +71,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -81,48 +83,32 @@
         2
       ],
       "variant": "minor",
-      "note": "Peshitta uses relative pronoun ܡܕܡ ܕ- construction instead of ὅτι/quoniam complementizer"
+      "type": "construction",
+      "note": "Greek ὅτι and Vulgate quoniam both introduce the content clause with explicit subordinating conjunctions. Peshitta employs ܡܕܡ ܕ ('that which'), a relative pronoun construction that functions as both subject and subordinator, eliminating the need for a separate ὅτι-equivalent—a typical Semitic strategy for embedding clauses."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "minor",
-      "note": "Peshitta ܡܕܡ 'that which/what' functions as substantivized relative; Greek/Vulgate use article + participle"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
+        0,
+        2,
         3,
         4
       ],
       "vulgate": [
+        3,
         4,
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses articular participle construction (τὸ ἐκ τοῦ ἀνθρώπου ἐκπορευόμενον, 'that which goes out from the man'), with article + prepositional phrase + present middle participle. Vulgate mirrors this with relative pronoun quæ + prepositional phrase de homine + finite verb exeunt. Peshitta fronts the indefinite pronoun ܡܕܡ ('that which') and employs a participial relative clause ܕܢܦܩ ܡܢ ܒܪܢܫܐ ('which goes out from man'), syntactically parallel but without the Greek article system."
     },
     {
       "greek_nt": [
@@ -136,40 +122,33 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta uses double ܗܘ ܗܘ for emphatic demonstrative; Greek ἐκεῖνο and Vulgate illa are single demonstratives"
+      "type": "idiom",
+      "note": "Greek ἐκεῖνο (D-NSN, 'that [one]') is a resumptive demonstrative pronoun reinforcing the subject. Vulgate illa performs the same function. Peshitta employs the doubled pronoun ܗܘ ܗܘ ('it, it'), a characteristic Syriac emphatic construction equivalent to Greek/Latin demonstratives but achieved through repetition rather than a distinct lexeme."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
       "peshitta": [
+        7,
         8,
         9
       ],
       "vulgate": [
+        8,
         9
       ],
       "variant": "minor",
-      "note": "Peshitta ܠܒܪ ܐܢܫܐ 'son of man' is idiomatic Syriac for 'man/human'; Greek/Vulgate use simple ἄνθρωπον/hominem"
+      "type": "lexical",
+      "note": "Greek κοινοῖ (V-PAI-3S, from κοινόω, 'to defile, make common/unclean') and Vulgate communicant (from communico, 'to make common, defile') share the semantic field of ritual impurity. Peshitta ܡܣܝܒ (from ܣܝܒ, 'to defile, pollute') is a direct cognate concept but employs a native Semitic root rather than a Greek loanword, reflecting translation philosophy rather than textual divergence."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.775628+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.990732+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

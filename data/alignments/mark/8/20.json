@@ -74,7 +74,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds 'He said to them' (ܐܡܪ ܠܗܘܢ) as narrative introduction"
+      "type": "expansion",
+      "note": "The Peshitta adds an introductory formula ܐܡܪ ܠܗܘܢ ('he said to them') not present in the Greek NA28 or Vulgate, likely a stylistic expansion to clarify the speaker and audience at the beginning of the verse."
     },
     {
       "greek_nt": [
@@ -89,7 +90,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek ὅτε δὲ vs Peshitta ܘܟܕ vs Vulgate Quando et; stylistic variation in temporal conjunction"
+      "type": "substitution",
+      "note": "Greek uses the temporal conjunction ὅτε δὲ ('when now'); Vulgate employs Quando et ('when also'); Syriac uses ܘܟܕ ('and when'), a standard temporal particle. All three convey the same temporal-transitional function with minor stylistic variation."
     },
     {
       "greek_nt": [
@@ -104,7 +106,8 @@
         3
       ],
       "variant": "major",
-      "note": "Greek 'the seven [loaves]' (τοὺς ἑπτὰ) vs Vulgate explicit 'septem panes'; Peshitta ܫܒܥܐ (seven) without explicit noun"
+      "type": "omission",
+      "note": "Greek includes the article τοὺς before ἑπτὰ ('the seven [loaves]'), with the noun 'loaves' implied from context. Vulgate makes this explicit with septem panes ('seven loaves'). Peshitta has only ܫܒܥܐ ('seven'), omitting both article and noun, relying entirely on contextual understanding from the preceding narrative."
     },
     {
       "greek_nt": [
@@ -121,47 +124,41 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses εἰς τοὺς τετρακισχιλίους ('to the four thousand'); Vulgate mirrors this with in quatuor millia; Syriac employs ܠܐܪܒܥܐ ܐܠܦܝܢ ('to four thousand'), omitting the Greek article but maintaining the prepositional structure. The semantic content is identical across all three traditions."
     },
     {
-      "greek_nt": [
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         7
       ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
+        8,
         9,
         10
       ],
       "peshitta": [
+        6,
+        7,
         8,
         9,
         10
       ],
       "vulgate": [
+        8,
+        9,
         10
       ],
-      "variant": "minor",
-      "note": "Greek πληρώματα κλασμάτων (fillings of fragments) vs Peshitta ܕܩܨܝܐ ܟܕ ܡܠܝܢ (of fragments when filled) vs Vulgate fragmentorum; word order and construction vary"
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek uses a genitive construction πόσων σπυρίδων πληρώματα κλασμάτων ('fillings of how many baskets of fragments'), with πληρώματα as the direct object. Vulgate simplifies to quot sportas fragmentorum ('how many baskets of fragments'), omitting the 'fillings' concept. Peshitta employs a participial construction ܟܡܐ ܐܣܦܪܝܕܝܢ ܕܩܨܝܐ ܟܕ ܡܠܝܢ ('how many baskets of fragments when filled'), using ܟܕ ܡܠܝܢ as a temporal-circumstantial participle rather than a noun."
     },
     {
       "greek_nt": [
@@ -179,11 +176,10 @@
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        7,
         12
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation markers (colon and question mark)"
+      "variant": "aligned",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
@@ -198,11 +194,20 @@
       "vulgate": [
         13,
         14,
-        15,
+        15
+      ],
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek includes οἱ καὶ λέγουσιν αὐτῷ ('and they say to him'), with the article οἱ functioning as a nominalizer and καὶ as a connective. Vulgate mirrors this with Et dicunt ei ('And they say to him'). Peshitta has only ܐܡܪܝܢ ('they said'), omitting the conjunction and indirect object pronoun, presenting a more compressed narrative style typical of Syriac economy."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         16
       ],
-      "variant": "minor",
-      "note": "Greek οἱ καὶ λέγουσιν αὐτῷ (and they say to him) vs Peshitta ܐܡܪܝܢ (they say) vs Vulgate Et dicunt ei; varying explicitness"
+      "variant": "aligned",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
@@ -219,7 +224,7 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.781329+00:00",
+    "generated_at": "2026-04-22T12:17:07.996895+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

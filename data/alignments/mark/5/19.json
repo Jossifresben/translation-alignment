@@ -90,7 +90,20 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek καὶ ὁ δὲ combines two conjunctions (καί + δέ) for contrastive continuation; Peshitta ܘܠܐ ('and not') merges the conjunction with the negation; Vulgate et non separates them, mirroring the Peshitta's semantic structure rather than the Greek's particle layering."
+    },
+    {
+      "greek_nt": [
         1,
         2,
         3
@@ -98,7 +111,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Peshitta and Vulgate omit the introductory 'And Jesus' subject phrase, beginning directly with the negation"
+      "type": "omission",
+      "note": "Greek explicitly names the subject Ἰησοῦς with article and contrastive particle δέ; both Peshitta and Vulgate omit the subject, relying on context from the preceding narrative to identify Jesus as the agent of the verb."
     },
     {
       "greek_nt": [
@@ -107,16 +121,15 @@
         6
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1,
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -128,7 +141,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -145,7 +159,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Vulgate includes colon punctuation as separate token"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illi to mark direct discourse, a punctuation convention absent in Greek manuscripts and Peshitta tradition; the colon does not alter semantic content but reflects Latin scribal practice for introducing speech."
     },
     {
       "greek_nt": [
@@ -157,7 +172,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -175,7 +191,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta combines preposition and house into single construct form ܠܒܝܬܟ"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase εἰς τὸν οἶκόν σου ('into the house of you') with article and accusative; Peshitta employs a single bound form ܠܒܝܬܟ ('to-your-house') with pronominal suffix; Vulgate in domum tuam mirrors Greek structure but without article, reflecting Latin's articleless grammar."
     },
     {
       "greek_nt": [
@@ -191,7 +208,9 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek πρὸς τοὺς σούς ('to your own [people]') uses possessive adjective σούς; Peshitta ܠܘܬ ܐܢܫܝܟ ('to your people') employs the noun ܐܢܫܝܟ ('your men/people'); Vulgate ad tuos uses substantivized possessive, semantically equivalent but syntactically distinct from Greek's article + possessive construction."
     },
     {
       "greek_nt": [
@@ -203,7 +222,8 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -218,8 +238,8 @@
         15,
         16
       ],
-      "variant": "minor",
-      "note": "Peshitta ܘܐܫܬܥܐ combines conjunction with verb; all traditions align semantically"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -232,7 +252,8 @@
         17
       ],
       "variant": "minor",
-      "note": "Greek ὅσα (as much as) vs Peshitta ܡܕܡ (what/that which) vs Vulgate quanta (how great things) - slight semantic nuance"
+      "type": "lexical",
+      "note": "Greek ὅσα ('as much as', neuter plural correlative) is rendered by Peshitta ܡܕܡ ('what/that which', indefinite relative) and Vulgate quanta ('how great things', interrogative-relative); all three convey indefinite extent but with different syntactic categories reflecting each language's relative-clause system."
     },
     {
       "greek_nt": [
@@ -252,22 +273,12 @@
         20
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek has article-Lord-pronoun-verb; Peshitta and Vulgate integrate pronoun differently"
+      "type": "word-order",
+      "note": "Greek places κύριος before the verb πεποίηκεν with dative σοι intervening ('the Lord for-you has-done'); Peshitta and Vulgate both position the subject after the verb (ܕܥܒܕ ܠܟ ܡܪܝܐ / tibi Dominus fecerit), reflecting Semitic and Latin preference for verb-initial clauses in relative constructions."
     },
     {
       "greek_nt": [
-        26
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        26,
         27,
         28
       ],
@@ -276,18 +287,20 @@
         16
       ],
       "vulgate": [
+        21,
         22,
         23,
         24
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܕܐܬܪܚܡ ܥܠܝܟ uses participial construction with preposition; Vulgate uses perfect subjunctive misertus sit"
+      "type": "construction",
+      "note": "Greek καὶ ἠλέησέν σε uses aorist indicative ('and had-mercy-on you'); Peshitta ܘܕܐܬܪܚܡ ܥܠܝܟ employs a participial construction with ܕ ('and who-had-mercy on-you'); Vulgate et misertus sit tui uses perfect subjunctive in indirect discourse, a grammatical requirement of Latin subordination absent in Greek and Peshitta."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.756512+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:17:07.973450+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

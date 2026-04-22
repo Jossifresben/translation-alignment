@@ -78,8 +78,9 @@
         1,
         2
       ],
-      "variant": "minor",
-      "note": "Greek uses three adverbs (πρωῒ ἔννυχα λίαν) for temporal emphasis; Peshitta ܒܨܦܪܐ ܩܕܡ ܛܒ and Vulgate diluculo valde are more compact but semantically equivalent"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek employs three temporal adverbs (πρωῒ ἔννυχα λίαν, 'very early, still night, exceedingly') to emphasize the pre-dawn hour. Peshitta distributes this across ܒܨܦܪܐ ('in the morning'), ܩܕܡ ('before/early'), and ܛܒ ('very'), preserving the triple intensification. Vulgate compresses to two adverbs (diluculo valde, 'at daybreak, very much'), reducing the nocturnal emphasis present in ἔννυχα."
     },
     {
       "greek_nt": [
@@ -107,7 +108,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek uses two verbs ἐξῆλθεν καὶ ἀπῆλθεν for departure; Peshitta ܘܐܙܠ and Vulgate egressus abiit condense to single/compound motion"
+      "type": "construction",
+      "note": "Greek uses two finite verbs coordinated by καί (ἐξῆλθεν καὶ ἀπῆλθεν, 'he went out and he departed'), emphasizing sequential action. Vulgate mirrors this with two participles (egressus abiit, 'having gone out, he departed'). Peshitta employs a single verb ܘܐܙܠ ('and he went'), treating the departure as a unified action rather than a two-stage movement."
     },
     {
       "greek_nt": [
@@ -124,7 +126,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the preposition before the adjective-noun pair (εἰς ἔρημον τόπον / in desertum locum, 'into a solitary place'). Peshitta reverses the order, placing the noun before the adjective (ܠܐܬܪܐ ܚܘܪܒܐ, 'to a place, desolate'), following standard Semitic attributive syntax where adjectives follow their head nouns."
     },
     {
       "greek_nt": [
@@ -150,13 +154,14 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܡܨܠܐ ܗܘܐ (was praying) matching Greek imperfect προσηύχετο; Vulgate orabat is simple imperfect"
+      "type": "grammar",
+      "note": "Greek and Vulgate use simple imperfect forms (προσηύχετο / orabat, 'he was praying') to express durative past action. Peshitta employs a periphrastic construction with the participle ܡܨܠܐ plus the auxiliary ܗܘܐ ('was praying'), a common Syriac strategy for marking progressive aspect, semantically equivalent but syntactically distinct."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.731516+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.949083+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

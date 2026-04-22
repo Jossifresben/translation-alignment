@@ -81,21 +81,15 @@
         2
       ],
       "peshitta": [
-        2
+        2,
+        3
       ],
       "vulgate": [
         1
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds explicit first-person pronoun ܐܢܐ (I), absent in Greek and Vulgate"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܐ ('I') after the verb ܐܡܪ, a common Syriac stylistic feature for emphasis or clarity, whereas Greek λέγω and Latin dico encode the first-person subject morphologically without a separate pronoun."
     },
     {
       "greek_nt": [
@@ -124,7 +118,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Greek πάντα ὅσα ἄν (all things whatever) vs. Peshitta ܕܟܠ ܡܕܡ (that all thing) vs. Vulgate omnia quæcumque; stylistic variation in expressing totality"
+      "type": "construction",
+      "note": "Greek employs a three-word construction (πάντα ὅσα ἄν, 'all things whatever') with the modal particle ἄν; Latin uses the compound relative quæcumque ('whatever things'); Syriac uses ܕܟܠ ܡܕܡ ('that all thing'), a simpler relative construction without a modal particle—all semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -138,30 +133,32 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta includes explicit subject pronoun ܐܢܬܘܢ (you) with participle ܕܡܨܠܝܢ"
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you [pl.]') after the participle ܕܡܨܠܝܢ ('praying'), whereas Greek προσεύχεσθε and Latin orantes encode the second-person plural subject morphologically; this is a typical Syriac clarifying gloss."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
+      "peshitta": [
+        9
+      ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek conjunction καὶ (and) between praying and asking omitted in Peshitta and Vulgate"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
         6
       ],
       "variant": "minor",
-      "note": "Peshitta again includes explicit subject pronoun ܐܢܬܘܢ (you) with ܘܫܐܠܝܢ"
+      "type": "gloss",
+      "note": "The Peshitta again adds the explicit subject pronoun ܐܢܬܘܢ ('you [pl.]') after ܘܫܐܠܝܢ ('and ask'), mirroring the pattern in the previous clause; Greek αἰτεῖσθε and Latin petitis encode the subject morphologically without a separate pronoun."
     },
     {
       "greek_nt": [
@@ -179,49 +176,61 @@
       "greek_nt": [
         11
       ],
-      "peshitta": [],
+      "peshitta": [
+        12
+      ],
       "vulgate": [
         8
       ],
-      "variant": "minor",
-      "note": "Greek ὅτι and Vulgate quia both introduce content clause; Peshitta uses ܕ prefix on verb"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         12
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
         9
       ],
       "variant": "major",
-      "note": "Greek aorist ἐλάβετε (you received) vs. Peshitta present ܕܢܣܒܝܢ (that you receive) vs. Vulgate future accipietis (you will receive); significant aspectual/temporal difference"
+      "type": "grammar",
+      "note": "Greek uses the aorist indicative ἐλάβετε ('you received'), expressing completed action in past time; Latin uses the future accipietis ('you will receive'); Syriac uses the present participle ܕܢܣܒܝܢ ('that you are receiving'). This represents a substantive theological and temporal divergence: Greek presents faith as already possessing the answer, Latin as future certainty, and Syriac as ongoing reception."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta inserts a third instance of the explicit subject pronoun ܐܢܬܘܢ ('you [pl.]') after the participle ܕܢܣܒܝܢ, maintaining the pattern of subject clarification throughout the verse; neither Greek nor Latin attest this pronoun here."
     },
     {
       "greek_nt": [
         13
       ],
-      "peshitta": [],
+      "peshitta": [
+        14
+      ],
       "vulgate": [
         10
       ],
-      "variant": "minor",
-      "note": "Greek καὶ and Vulgate et coordinate final clause; Peshitta uses ܘ prefix on verb"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         14
       ],
-      "peshitta": [
-        14
-      ],
+      "peshitta": [],
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the simple future ἔσται ('it will be'); Latin uses evenient ('they will come to pass'), a more concrete verb emphasizing realization or occurrence; Syriac incorporates this into the preceding conjunction ܘܢܗܘܐ ('and it will be'), maintaining semantic equivalence with Greek."
     },
     {
       "greek_nt": [
@@ -238,8 +247,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.811526+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.018781+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

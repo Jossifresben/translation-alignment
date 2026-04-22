@@ -81,98 +81,8 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "note": "Vulgate omits the disciples' question entirely and begins with Jesus' response (Qui respondens)"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek ὅτι introducing indirect discourse has no direct equivalent in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4,
-        5,
-        6
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Peshitta ܡܢܐ ܗܟܝܠ ܐܡܪܝܢ (What then do they say) expands Greek λέγουσιν; Vulgate omits question"
-    },
-    {
-      "greek_nt": [
-        6,
-        7
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek οἱ γραμματεῖς and Peshitta ܣܦܪܐ (scribes) present; Vulgate omits"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Second ὅτι (that) introducing content clause omitted in Peshitta and Vulgate"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "note": "Greek δεῖ (it is necessary) and Peshitta ܘܠܐ (waw + negation marker, likely ܘܠܐ = 'behooves') present; Vulgate uses cum + subjunctive construction instead"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        6,
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
+      "type": "omission",
+      "note": "The Vulgate omits the entire question clause present in both Greek and Peshitta, instead beginning directly with Jesus's response. This represents a significant textual divergence where the Vulgate tradition conflates or restructures the dialogue, eliminating the disciples' interrogative frame."
     },
     {
       "greek_nt": [],
@@ -185,7 +95,68 @@
         4
       ],
       "variant": "added",
-      "note": "Vulgate adds introductory formula 'Qui respondens, ait illis :' (Who answering, said to them) not in Greek or Peshitta"
+      "type": "expansion",
+      "note": "The Vulgate inserts an introductory response formula (Qui respondens, ait illis) not present in the Greek or Peshitta witnesses for this verse. This addition appears to be a redactional harmonization or clarification of the dialogue structure, possibly drawing from the subsequent verse or parallel accounts."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses the conjunction ὅτι to introduce indirect discourse; Peshitta employs the interrogative ܡܢܐ ܗܟܝܠ (mānā hākîl, 'what then'), transforming the statement into a more explicit question. The Vulgate omits this clause entirely as part of its larger restructuring."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the definite article with γραμματεῖς (οἱ γραμματεῖς, 'the scribes'), specifying a known group; Syriac ܣܦܪܐ lacks the article, treating 'scribes' as a general class. This reflects typical Greek-Syriac article usage patterns rather than semantic divergence."
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "vulgate": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek uses δεῖ + infinitive (δεῖ ἐλθεῖν, 'it is necessary to come') to express eschatological necessity; Peshitta employs ܘܠܐ ܕܢܐܬܐ (wālē d-nēte, 'is it not that he should come'), introducing a negative interrogative construction that expects affirmation. The Vulgate's cum venerit ('when he comes') uses a temporal clause, presupposing rather than questioning Elijah's coming, fundamentally altering the rhetorical force from question to assertion."
     },
     {
       "greek_nt": [],
@@ -208,13 +179,14 @@
         23
       ],
       "variant": "added",
-      "note": "Vulgate adds entire clause about Elijah restoring all things and Son of Man suffering, conflating material from Mark 9:12 not present in this verse in Greek or Peshitta"
+      "type": "expansion",
+      "note": "The Vulgate appends material from the subsequent verse(s) — restituet omnia and the reference to the Son of Man's suffering (quomodo scriptum est in Filium hominis, ut multa patiatur et contemnatur) — creating a conflated reading not present in either the Greek or Peshitta witnesses for this verse boundary."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.786878+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T12:17:08.001618+00:00",
+    "confidence": 0.75,
     "schema_version": 1
   }
 }

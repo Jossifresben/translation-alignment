@@ -76,7 +76,8 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits the disciples' silence; Greek 'οἱ δὲ ἐσιώπων' and Peshitta 'ܗܢܘܢ ܕܝܢ ܫܬܝܩܝܢ ܗܘܘ' (they were silent) have no Vulgate counterpart"
+      "type": "omission",
+      "note": "The Vulgate omits the disciples' silence entirely, replacing the narrative sequence with Jesus' direct teaching action. Greek οἱ δὲ ἐσιώπων and Peshitta ܗܢܘܢ ܕܝܢ ܫܬܝܩܝܢ ܗܘܘ both attest the disciples' silent response, while the Vulgate begins instead with 'Et residens vocavit duodecim,' conflating or repositioning material from the surrounding pericope."
     },
     {
       "greek_nt": [],
@@ -92,44 +93,25 @@
         7
       ],
       "variant": "added",
-      "note": "Vulgate adds Jesus' teaching 'Et residens vocavit duodecim, et ait illis :' (And sitting down he called the twelve and said to them) not present in Greek or Peshitta"
+      "type": "expansion",
+      "note": "The Vulgate inserts 'Et residens vocavit duodecim, et ait illis :' (And sitting down he called the twelve and said to them), material absent from both the Greek and Peshitta at this verse boundary. This represents either a harmonisation with the broader Markan context (Mark 9:35) or a conflation of verse divisions in the Latin manuscript tradition."
     },
     {
       "greek_nt": [
         3,
-        4
-      ],
-      "peshitta": [
-        8,
-        9,
-        10
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek 'πρὸς ἀλλήλους' and Peshitta 'ܚܕ ܥܡ ܚܕ' (one with another) omitted in Vulgate"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Causal particle 'γὰρ/ܓܝܪ' (for) omitted in Vulgate"
-    },
-    {
-      "greek_nt": [
+        4,
+        5,
         6
       ],
       "peshitta": [
         4,
-        5
+        5,
+        6
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek 'διελέχθησαν' and Peshitta 'ܐܬܚܪܝܘ ܗܘܘ' (they discussed/disputed) omitted in Vulgate"
+      "type": "omission",
+      "note": "The Vulgate omits the explanatory clause about the disciples' prior discussion. Greek πρὸς ἀλλήλους γὰρ διελέχθησαν (for they had been discussing with one another) and Peshitta ܐܬܚܪܝܘ ܗܘܘ ܓܝܪ (for they had been disputing) both preserve the causal explanation for their silence, which the Vulgate replaces with direct discourse."
     },
     {
       "greek_nt": [
@@ -142,47 +124,27 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek 'ἐν τῇ ὁδῷ' and Peshitta 'ܒܐܘܪܚܐ' (on the road) omitted in Vulgate"
+      "type": "omission",
+      "note": "Greek ἐν τῇ ὁδῷ (along the road) and Peshitta ܒܐܘܪܚܐ (on the way) both specify the location of the disciples' dispute, a detail absent from the Vulgate's rendering of this verse."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "major",
-      "note": "Greek 'τίς' (who) and Peshitta 'ܕܡܢܘ' (who) vs Vulgate 'quis' in conditional 'Si quis vult' (if anyone wishes) - different syntactic context"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
         10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds 'vult primus' (wishes to be first) not in Greek/Peshitta"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
       "peshitta": [
+        8,
+        9,
+        10,
+        11,
         12,
         13
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek 'μείζων' (greatest) and Peshitta 'ܪܒ ܒܗܘܢ' (great among them) omitted in Vulgate's reformulation"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
+        8,
+        9,
+        10,
+        11,
         12,
         13,
         14,
@@ -191,14 +153,15 @@
         17,
         18
       ],
-      "variant": "added",
-      "note": "Vulgate adds Jesus' teaching 'erit omnium novissimus, et omnium minister' (will be last of all and servant of all) not present in this Greek/Peshitta verse"
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek τίς μείζων (who [was] greatest) presents the disciples' question in indirect discourse. Peshitta ܚܕ ܥܡ ܚܕ ܕܡܢܘ ܪܒ ܒܗܘܢ (one with another, who [is] great among them) expands with the reciprocal construction 'one with another' and adds the prepositional phrase 'among them.' The Vulgate transforms this into Jesus' direct teaching: 'Si quis vult primus esse, erit omnium novissimus, et omnium minister' (If anyone wishes to be first, he will be last of all and servant of all), substituting the content of the dispute with its resolution, likely harmonising with Mark 9:35."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.790103+00:00",
-    "confidence": 0.4,
+    "generated_at": "2026-04-22T12:17:08.005129+00:00",
+    "confidence": 0.65,
     "schema_version": 1
   }
 }

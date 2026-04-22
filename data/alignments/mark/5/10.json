@@ -56,7 +56,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -70,7 +71,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܒܥܐ ܗܘܐ (was begging) with auxiliary verb"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction ܘܒܥܐ ܗܘܐ (wəḇāʿā hwā, 'and he was beseeching') using the auxiliary verb ܗܘܐ to express imperfective aspect, whereas Greek uses the simple imperfect παρεκάλει and Latin the imperfect deprecabatur without auxiliary."
     },
     {
       "greek_nt": [
@@ -82,7 +84,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -94,7 +97,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -107,20 +111,20 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [
-        5
-      ],
+      "peshitta": [],
       "vulgate": [
         5
       ],
       "variant": "major",
-      "note": "Greek αὐτὰ (them, neuter plural) vs Peshitta ܢܫܕܪܝܘܗܝ (him, masculine singular suffix) vs Vulgate se (himself, reflexive): significant pronominal variation affecting referent"
+      "type": "substitution",
+      "note": "Greek αὐτά (neuter plural 'them') and Vulgate se (reflexive 'himself/themselves') represent the demons speaking collectively, whereas the Peshitta omits an explicit object pronoun, incorporating it as a third-masculine-plural suffix -ܝܘܗܝ on the verb ܢܫܕܪܝܘܗܝ. The Vulgate's reflexive se emphasizes the demons' self-reference more explicitly than the Greek neuter plural."
     },
     {
       "greek_nt": [
@@ -132,7 +136,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -150,13 +155,14 @@
         8
       ],
       "variant": "minor",
-      "note": "Peshitta uses two-word prepositional phrase ܠܒܪ ܡܢ (outside from) vs Greek ἔξω and Vulgate extra"
+      "type": "construction",
+      "note": "Greek uses the preposition ἔξω with genitive article τῆς χώρας ('out of the country'); Vulgate employs extra with accusative regionem; Syriac uses the compound prepositional phrase ܠܒܪ ܡܢ ܐܬܪܐ (ləḇar men ʾaṯrā, literally 'to outside from the region'), a characteristic Semitic construction combining directional and ablative elements."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.755081+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.972010+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

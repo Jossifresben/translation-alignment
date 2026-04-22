@@ -79,45 +79,20 @@
       "greek_nt": [
         0,
         1,
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits Jesus' response introduction; begins with narrative continuation"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta explicitly names Jesus as subject"
-    },
-    {
-      "greek_nt": [
+        2,
+        3,
         4
       ],
       "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'he says' verb"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
+        0,
+        1,
+        2,
         3
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits dative pronoun 'to them/him'"
+      "type": "omission",
+      "note": "The Vulgate omits the entire introductory formula present in both Greek (Ὁ δὲ ἀποκριθεὶς αὐτοῖς λέγει) and Peshitta (ܥܢܐ ܝܫܘܥ ܘܐܡܪ ܠܗ), beginning instead with the narrative action 'Et attulerunt eum.' This represents a major textual divergence where the Vulgate transmits a different pericope or verse division entirely."
     },
     {
       "greek_nt": [
@@ -128,115 +103,83 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits vocative interjection"
+      "type": "omission",
+      "note": "The vocative interjection ὦ (Greek) and its Syriac equivalent ܐܘܢ are absent from the Vulgate, which does not transmit Jesus's direct address at all in this verse segment."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'generation' address"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
+        5,
         6,
         7
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'unbelieving' epithet"
+      "type": "omission",
+      "note": "Greek γενεὰ ἄπιστος ('faithless generation') and Peshitta ܫܪܒܬܐ ܕܠܐ ܡܗܝܡܢܐ (literally 'tribe/generation that does not believe') are entirely absent from the Vulgate text provided, which narrates the bringing of the demoniac rather than Jesus's rebuke."
     },
     {
       "greek_nt": [
         8,
-        9
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits first 'until when' clause"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11,
         12
       ],
       "peshitta": [
+        8,
+        9,
         10,
         11
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'will I be with you'"
+      "type": "omission",
+      "note": "The first rhetorical question ἕως πότε πρὸς ὑμᾶς ἔσομαι ('How long shall I be with you?') and its Peshitta equivalent ܥܕܡܐ ܠܐܡܬܝ ܐܗܘܐ ܠܘܬܟܘܢ are not present in the Vulgate excerpt, which continues with narrative action rather than discourse."
     },
     {
       "greek_nt": [
         13,
-        14
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits second 'until when' clause"
-    },
-    {
-      "greek_nt": [
+        14,
         15,
         16
       ],
       "peshitta": [
+        12,
+        13,
         14
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'will I bear with you'"
+      "type": "omission",
+      "note": "The second rhetorical question ἕως πότε ἀνέξομαι ὑμῶν ('How long shall I bear with you?') and Peshitta ܘܥܕܡܐ ܠܐܡܬܝ ܐܣܝܒܪܟܘܢ are absent from the Vulgate, which does not transmit Jesus's lament in this verse."
     },
     {
       "greek_nt": [
         17,
-        18
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        1,
-        2
-      ],
-      "variant": "major",
-      "note": "Greek/Peshitta 'bring him' vs Vulgate 'they brought him' (narrative past tense)"
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20
       ],
       "peshitta": [
+        15,
         16
       ],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Vulgate omits 'to me' destination"
+      "type": "omission",
+      "note": "The imperative φέρετε αὐτὸν πρός με ('Bring him to me') and Peshitta ܐܝܬܐܘܗܝ ܠܘܬܝ are not found in the Vulgate text provided, which instead narrates the demon's violent reaction upon seeing Jesus (spiritus conturbavit illum)."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
         0,
+        1,
+        2,
         3,
         4,
         5,
@@ -254,13 +197,14 @@
         17
       ],
       "variant": "added",
-      "note": "Vulgate contains entirely different narrative: spirit's convulsion of the boy upon seeing Jesus"
+      "type": "expansion",
+      "note": "The Vulgate transmits an entirely different narrative segment: 'Et attulerunt eum. Et cum vidisset eum, statim spiritus conturbavit illum: et elisus in terram, volutabatur spumans' ('And they brought him. And when [the spirit] saw him, immediately the spirit convulsed him: and thrown to the ground, he rolled about foaming'). This material corresponds to Mark 9:20 in standard versification, indicating the Vulgate verse division differs fundamentally from the Greek and Peshitta traditions at this point."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.787999+00:00",
-    "confidence": 0.3,
+    "generated_at": "2026-04-22T12:17:08.002713+00:00",
+    "confidence": 0.45,
     "schema_version": 1
   }
 }

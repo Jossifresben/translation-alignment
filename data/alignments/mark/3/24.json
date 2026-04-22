@@ -62,7 +62,8 @@
         0
       ],
       "variant": "minor",
-      "note": "Greek καὶ and Vulgate Et both conjunctive; Peshitta omits initial conjunction"
+      "type": "substitution",
+      "note": "Greek καὶ and Vulgate Et both introduce the conditional clause coordinatively. The Peshitta omits an initial conjunction, beginning directly with the conditional particle ܐܢ, a common Syriac stylistic preference in protasis constructions."
     },
     {
       "greek_nt": [
@@ -74,7 +75,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐὰν (conditional particle with subjunctive) corresponds to Vulgate si (simple conditional) and Peshitta ܐܢ. The Greek construction emphasizes contingency more strongly, while Latin and Syriac employ their standard conditional markers without modal nuance."
     },
     {
       "greek_nt": [
@@ -86,7 +89,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -95,7 +99,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܓܝܪ (gēr, 'for') as explanatory particle, absent in Greek and Latin"
+      "type": "expansion",
+      "note": "The Peshitta inserts the explanatory particle ܓܝܪ ('for, indeed') after ܡܠܟܘܬܐ, strengthening the logical connection to the preceding discourse. Neither the Greek NA28 nor the Vulgate attest this particle here, suggesting a Syriac rhetorical enhancement."
     },
     {
       "greek_nt": [
@@ -110,7 +115,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐφ᾽ ἑαυτήν ('against itself') with the reflexive pronoun in accusative. Vulgate mirrors this with in se. Peshitta employs ܥܠ ܢܦܫܗ, literally 'upon its soul/self,' using the Semitic idiom of נֶפֶשׁ/ܢܦܫܐ for reflexive reference—semantically equivalent but idiomatically distinct."
     },
     {
       "greek_nt": [
@@ -122,7 +129,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -134,7 +142,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -146,7 +155,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -158,39 +168,32 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Greek uses article ἡ + βασιλεία; Peshitta and Vulgate use bare noun with different word order"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the subject phrase ἡ βασιλεία ἐκείνη after the infinitive σταθῆναι, creating a postposed subject construction. Vulgate inverts to regnum illud stare, placing the subject before the infinitive. Peshitta uses ܡܠܟܘܬܐ ܗܝ, with the demonstrative pronoun ܗܝ functioning as a resumptive element—all three convey identical semantics through differing syntactic strategies."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.743423+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.960902+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

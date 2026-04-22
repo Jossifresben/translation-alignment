@@ -58,21 +58,22 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0
+        1
       ],
       "vulgate": [
         1,
         2
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܟܐܐ combines conjunction + rebuke; Vulgate uses comminatus est (periphrastic)"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -84,7 +85,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -97,7 +99,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -110,8 +113,9 @@
         5,
         6
       ],
-      "variant": "aligned",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after dicens to mark the transition to direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts. This reflects Latin scribal practice rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -125,7 +129,8 @@
         7
       ],
       "variant": "major",
-      "note": "Greek φιμώθητι (be muzzled/silenced); Peshitta ܣܟܘܪ ܦܘܡܟ (shut your mouth) is explicit expansion; Vulgate obmutesce (be silent) is closer to Greek"
+      "type": "expansion",
+      "note": "The Peshitta expands the Greek φιμώθητι ('be muzzled/silenced') into the explicit two-word command ܣܟܘܪ ܦܘܡܟ ('shut your mouth'), making the metaphorical imperative concrete. The Vulgate obmutesce preserves the Greek's single-verb construction, though with a different semantic root (muteness rather than muzzling)."
     },
     {
       "greek_nt": [
@@ -137,31 +142,43 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        9,
         10,
         11
       ],
       "variant": "major",
-      "note": "Greek ἔξελθε ἐξ αὐτοῦ (come out of him); Peshitta ܘܦܘܩ ܡܢܗ (and go out from him); Vulgate exi de homine (go out of the man) - Vulgate specifies 'man' vs. pronoun"
+      "type": "substitution",
+      "note": "The Greek ἐξ αὐτοῦ ('out of him') and Peshitta ܡܢܗ ('from him') use generic pronouns referring to the possessed man, while the Vulgate specifies de homine ('out of the man'), making the referent explicit. This represents a clarifying substitution typical of Latin translation practice in exorcism narratives."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.729903+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:07.947374+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

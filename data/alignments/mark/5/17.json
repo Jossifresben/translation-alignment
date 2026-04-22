@@ -52,7 +52,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -62,43 +63,39 @@
         0
       ],
       "vulgate": [
+        1,
         2
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb ἤρξαντο first; Vulgate splits the construction with rogare cœperunt (infinitive + auxiliary); Syriac ܘܫܪܝܘ incorporates both the conjunction and the inceptive verb in a single token, reflecting typical Semitic verb-initial syntax."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek παρακαλεῖν (G3870, 'to implore/beseech') is rendered by Syriac ܒܥܝܢ ('they were asking/requesting') and Latin rogare ('to ask/request'); the Syriac and Latin both employ slightly less intense verbs than the Greek compound, though all convey petitionary speech."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
       ],
       "variant": "aligned",
-      "note": "ἤρξαντο/ܫܪܝܘ/coeperunt all express 'began'; Peshitta combines conjunction and verb in single token"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "note": "Vulgate adds 'ut' to introduce purpose clause, absent in Greek and Peshitta"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -109,44 +106,38 @@
         4
       ],
       "vulgate": [
+        4,
         5
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܢܐܙܠ ܠܗ uses d- prefix + pronoun; Greek and Vulgate use simple infinitive"
+      "type": "construction",
+      "note": "Greek uses the simple infinitive ἀπελθεῖν ('to depart'); Vulgate employs ut + subjunctive (ut discederet); Syriac uses the d- prefix construction ܕܢܐܙܠ ܠܗ (literally 'that he go for himself'), where ܠܗ functions as an ethical dative emphasizing the subject's agency—a typical Syriac idiom absent from Greek and Latin."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7,
         8
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        6,
         7,
         8
       ],
-      "variant": "aligned",
-      "note": "Greek uses article + noun + pronoun; Peshitta uses construct state with pronominal suffix; Vulgate uses noun + pronoun"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the article + genitive plural construction τῶν ὁρίων αὐτῶν ('the regions of them'); Latin mirrors this with de finibus eorum; Syriac employs the singular construct state ܬܚܘܡܗܘܢ ('their border/territory') with pronominal suffix, a typical Semitic idiom treating geographic regions as collective singulars rather than distributive plurals."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.756247+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.973175+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

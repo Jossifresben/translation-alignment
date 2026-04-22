@@ -64,8 +64,9 @@
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits relative pronoun, uses conjunction ܘ (and) instead"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses the relative pronoun ὅς ('who') while Peshitta employs the conjunction ܘ ('and') with a finite verb ܥܡܪ ('he dwelt'), converting the relative clause into an independent coordinate clause. Vulgate preserves the Greek relative construction with qui."
     },
     {
       "greek_nt": [
@@ -81,7 +82,9 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the articular noun phrase τὴν κατοίκησιν εἶχεν ('had the dwelling'), a periphrastic construction. Syriac uses the simple verb ܥܡܪ ܗܘܐ ('was dwelling'), a participial construction with the auxiliary. Latin mirrors Greek structure with domicilium habebat, though without the article."
     },
     {
       "greek_nt": [
@@ -97,19 +100,21 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the prepositional phrase ἐν τοῖς μνήμασιν ('in the tombs') with plural dative. Syriac employs the construct phrase ܒܝܬ ܩܒܘܪܐ ('house of tombs', i.e., 'cemetery'), a typical Semitic idiom. Vulgate in monumentis follows Greek plurality but uses ablative case."
     },
     {
       "greek_nt": [
         7
       ],
-      "peshitta": [
-        4
-      ],
+      "peshitta": [],
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek καί and Vulgate et mark the coordinate clause boundary explicitly. Peshitta omits an explicit coordinator here, relying on the conjunction ܘ prefixed to ܒܫܫܠܬܐ ('and with chains') to signal the new clause, a common Syriac asyndetic pattern."
     },
     {
       "greek_nt": [
@@ -124,7 +129,8 @@
         7
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܒܫܫܠܬܐ (and with chains) combines conjunction and instrumental; Greek οὐδὲ ἁλύσει emphasizes negation"
+      "type": "word-order",
+      "note": "Greek places the emphatic negative οὐδὲ ἁλύσει ('not even with a chain') before the temporal adverb οὐκέτι. Syriac ܘܒܫܫܠܬܐ ('and with chains') appears clause-initially without the emphatic negative particle, integrating negation into the verb phrase ܠܐ ܡܫܟܚ. Vulgate neque catenis mirrors Greek word order and emphatic negation."
     },
     {
       "greek_nt": [
@@ -134,8 +140,9 @@
       "vulgate": [
         8
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits οὐκέτι/jam (no longer, already)"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek οὐκέτι ('no longer') and Vulgate jam ('already, now') indicate temporal progression—that binding was previously possible but is no longer. Peshitta omits this temporal nuance entirely, presenting the inability as a simple present fact without reference to prior attempts."
     },
     {
       "greek_nt": [
@@ -162,28 +169,19 @@
         10
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܠܐ ܡܫܟܚ ܗܘܐ (was not able) with negation before verb"
+      "type": "construction",
+      "note": "Greek uses the simple imperfect ἐδύνατο ('was able'). Syriac employs the periphrastic construction ܠܐ ܡܫܟܚ ܗܘܐ ('was not able'), with the negative particle ܠܐ, the active participle ܡܫܟܚ, and the auxiliary ܗܘܐ—a standard Syriac way of forming past progressive negation. Vulgate poterat mirrors Greek simplicity."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
+        11,
         12
       ],
       "variant": "aligned"
@@ -194,13 +192,14 @@
       "vulgate": [
         13
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate adds a colon (:) to signal continuation into the following verse, a scribal convention not present in Greek or Syriac manuscript traditions for this verse boundary."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.753946+00:00",
+    "generated_at": "2026-04-22T12:17:07.970468+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

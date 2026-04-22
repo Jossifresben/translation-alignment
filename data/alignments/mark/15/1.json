@@ -91,7 +91,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,7 +102,6 @@
         4
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
@@ -109,7 +109,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek 'εὐθὺς ἐπὶ τὸ πρωῒ' (immediately in the morning) vs Peshitta 'ܘܡܚܕܐ ܒܨܦܪܐ' (and immediately in the morning) vs Vulgate 'confestim mane' (immediately morning); stylistic variation in temporal expression"
+      "type": "construction",
+      "note": "Greek employs a prepositional phrase εὐθὺς ἐπὶ τὸ πρωΐ ('immediately upon the morning') with article; Vulgate uses confestim mane (adverb + noun, no preposition); Peshitta uses the single adverbial ܒܨܦܪܐ ('in the morning'). All three convey early morning timing but with differing syntactic strategies."
     },
     {
       "greek_nt": [
@@ -124,7 +125,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the participle after the noun (συμβούλιον ποιήσαντες); Vulgate mirrors this order (consilium facientes); Peshitta reverses to verb-object (ܥܒܕܘ ܡܠܟܐ, 'they made counsel'). The Peshitta's finite verb construction versus Greek/Latin participial syntax reflects typical Semitic preference for finite verbs over participles."
     },
     {
       "greek_nt": [
@@ -139,7 +142,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -155,7 +159,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses μετὰ τῶν πρεσβυτέρων with genitive article; Vulgate employs cum senioribus with ablative; Peshitta uses ܥܡ ܩܫܝܫܐ without article (Syriac lacks the definite article as a separate morpheme). The semantic content is identical but morphosyntactic realization differs according to each language's case and article systems."
     },
     {
       "greek_nt": [
@@ -170,7 +176,8 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -189,7 +196,9 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses καὶ ὅλον τὸ συνέδριον as a coordinated noun phrase with article and adjective; Vulgate mirrors with et universo concilio (ablative absolute continuation); Peshitta employs ܘܥܡ ܟܠܗ ܟܢܘܫܬܐ ('and with all the assembly'), maintaining the prepositional structure from the prior clauses. The Peshitta's consistent use of ܥܡ ('with') creates stylistic parallelism absent in Greek/Latin."
     },
     {
       "greek_nt": [
@@ -205,7 +214,8 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -217,40 +227,34 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         22,
-        23
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        17,
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        23,
         24,
         25
       ],
       "peshitta": [
+        16,
         17
       ],
       "vulgate": [
+        17,
+        18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses two finite verbs with conjunction (ἀπήνεγκαν καὶ παρέδωκαν); Vulgate employs duxerunt et tradiderunt (parallel finite verbs); Peshitta uses ܘܐܘܒܠܘܗܝ ܘܐܫܠܡܘܗܝ with pronominal suffixes on both verbs ('and-they-led-him and-they-delivered-him'), making the object explicit through bound pronouns rather than separate accusative articles as in Greek/Latin."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.841336+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.046484+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

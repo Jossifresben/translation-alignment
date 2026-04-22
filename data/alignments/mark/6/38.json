@@ -75,26 +75,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article and Syriac pronoun 'he' have no equivalent in Vulgate"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses article + postpositive δέ (Ὁ δὲ); Peshitta mirrors this with pronoun + postpositive ܕܝܢ (ܗܘ ܕܝܢ); Vulgate employs simple coordinating conjunction Et without pronoun, a stylistic compression typical of Latin narrative."
     },
     {
       "greek_nt": [
@@ -119,7 +112,9 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts colon after eis to mark direct discourse, a Latin editorial convention not reflected in Greek or Syriac manuscript traditions."
     },
     {
       "greek_nt": [
@@ -131,7 +126,8 @@
         6,
         7,
         8,
-        9
+        9,
+        10
       ],
       "vulgate": [
         4,
@@ -140,7 +136,8 @@
         7
       ],
       "variant": "major",
-      "note": "Peshitta reorders: 'go see how many loaves you have here' vs Greek/Vulgate 'how many loaves have you? go and see'; Peshitta adds 'here' (ܗܪܟܐ)"
+      "type": "expansion",
+      "note": "Peshitta expands the question with explicit locative ܗܪܟܐ ('here') and existential construction ܐܝܬ ܠܟܘܢ ('you have'), making the interrogative more emphatic. Greek and Latin use simple verb ἔχετε / habetis without spatial qualifier, representing a more compressed Semitic idiom in the Peshitta."
     },
     {
       "greek_nt": [
@@ -158,42 +155,26 @@
         10
       ],
       "variant": "major",
-      "note": "Word order differs significantly: Greek has imperatives after question, Peshitta before"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds 'here' (ܗܪܟܐ) with no Greek or Vulgate equivalent"
+      "type": "word-order",
+      "note": "Greek places the question first (πόσους ἄρτους ἔχετε;) then commands (ὑπάγετε καὶ ἴδετε); Peshitta inverts this sequence, placing imperatives ܙܠܘ ܚܙܘ ('go see') before the interrogative ܟܡܐ ܠܚܡܝܢ ('how many loaves'). Vulgate follows Greek word order but marks the question with punctuation (habetis ?)."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        11,
         12,
         13
       ],
       "variant": "minor",
-      "note": "Greek 'having known' vs Peshitta/Vulgate 'when they saw/knew'; semantic overlap but different verbs"
+      "type": "construction",
+      "note": "Greek uses aorist participle γνόντες ('having known'); Peshitta employs temporal clause ܘܟܕ ܚܙܘ ('and when they saw'); Vulgate uses cum + pluperfect subjunctive (cum cognovissent), a classical Latin construction expressing anterior action. All three convey the same temporal relationship but through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -208,69 +189,37 @@
         15
       ],
       "variant": "minor",
-      "note": "Peshitta adds indirect object 'to him' (ܠܗ) not in Greek; Vulgate has colon"
+      "type": "expansion",
+      "note": "Peshitta adds indirect object pronoun ܠܗ ('to him') after ܐܡܪܝܢ, making the addressee explicit; Greek and Latin leave this implicit in the verb forms λέγουσιν / dicunt. Vulgate again inserts colon to mark direct speech."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [],
-      "vulgate": [
-        17
-      ],
-      "variant": "minor",
-      "note": "Greek/Vulgate 'and' between numbers; Peshitta uses simple juxtaposition with ܘ prefix on 'two'"
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        17
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
+        14,
+        15,
         16
       ],
       "peshitta": [
+        15,
+        16,
+        17,
         18
       ],
       "vulgate": [
+        16,
+        17,
+        18,
         19
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta repeats 'loaves' (ܠܚܡܝܢ) in the answer, not in Greek/Vulgate"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Peshitta repeats the noun ܠܚܡܝܢ ('loaves') after the numeral ܚܡܫܐ, creating the phrase 'five loaves and two fish' with explicit repetition; Greek and Latin use ellipsis (πέντε καὶ δύο ἰχθύας / Quinque, et duos pisces), leaving 'loaves' understood from context after the first numeral."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.769250+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T12:17:07.983789+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

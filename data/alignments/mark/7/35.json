@@ -67,28 +67,29 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses compound ܘܒܗ ܒܫܥܬܐ 'and in that hour' for Greek εὐθέως/Latin statim 'immediately'"
+      "type": "lexical",
+      "note": "Greek εὐθέως ('immediately') and Latin statim are simple adverbs, while Peshitta ܒܫܥܬܐ ('in that hour/moment') uses a prepositional phrase with temporal noun, a characteristic Syriac idiom for immediacy."
     },
     {
       "greek_nt": [
         2,
+        3,
         4,
-        5,
-        3
+        5
       ],
       "peshitta": [
         2,
@@ -101,7 +102,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek uses plural ἀκοαί 'ears', Peshitta singular ܐܕܢܘܗܝ with pronominal suffix, Vulgate plural aures; word order varies"
+      "type": "grammar",
+      "note": "Greek uses plural ἀκοαί ('ears') with third-person plural passive verb ἠνοίγησαν; Vulgate mirrors this with apertæ sunt aures (feminine plural passive participle + copula). Peshitta employs singular ܐܕܢܘܗܝ ('his ears' as dual/collective) with singular passive verb ܐܬܦܬܚ, reflecting Syriac preference for singular forms with paired body parts."
     },
     {
       "greek_nt": [
@@ -113,7 +115,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -137,7 +140,17 @@
         11
       ],
       "variant": "minor",
-      "note": "Peshitta ܘܐܫܬܪܝ ܐܣܪܐ 'was loosed the bond' uses Ethpael of ܫܪܐ; Greek λύω and Latin solvere are cognate concepts; pronominal suffix in Peshitta vs. genitive in Greek/Latin"
+      "type": "construction",
+      "note": "Greek employs passive verb ἐλύθη with articular subject ὁ δεσμὸς τῆς γλώσσης αὐτοῦ ('the bond of his tongue was loosed'); Vulgate uses passive participle solutum est with vinculum linguæ ejus. Peshitta uses active Ethpeel ܐܫܬܪܝ ('was loosed/released') with ܐܣܪܐ ܕܠܫܢܗ ('the bond of his tongue'), omitting the article but maintaining the genitive construct—syntactically parallel but morphologically distinct."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -147,9 +160,10 @@
         7
       ],
       "vulgate": [
-        12
+        13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -164,14 +178,14 @@
         13,
         14
       ],
-      "variant": "minor",
-      "note": "Greek ὀρθῶς 'rightly/plainly', Peshitta ܦܫܝܩܐܝܬ 'plainly/clearly', Vulgate recte 'rightly'; synonymous adverbs with slight semantic range differences"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.777923+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:29:34.719531+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

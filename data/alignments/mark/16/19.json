@@ -73,7 +73,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek article omitted in Peshitta and Vulgate"
+      "type": "grammar",
+      "note": "Greek employs the article ὁ with μέν to form a correlative construction; neither Syriac nor Latin possesses a definite article, rendering this structural element untranslatable in those traditions."
     },
     {
       "greek_nt": [
@@ -87,7 +88,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Greek μὲν οὖν, Peshitta ܕܝܢ, Vulgate quidem - stylistic particles with similar transitional function"
+      "type": "substitution",
+      "note": "Greek uses the correlative particles μὲν οὖν ('indeed therefore'); Syriac employs ܕܝܢ (dēn, 'but/now'), a common discourse marker; Vulgate uses quidem ('indeed'), omitting the inferential force of οὖν but preserving the emphatic tone."
     },
     {
       "greek_nt": [
@@ -100,7 +102,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta places ܡܪܢ (Lord) after ܕܝܢ, Vulgate Dominus before quidem"
+      "type": "word-order",
+      "note": "Greek places κύριος after the particles; Syriac places ܡܪܢ (māran, 'our Lord') after ܕܝܢ; Vulgate places Dominus at the head of the clause, reflecting Latin preference for fronting the subject in solemn narrative."
     },
     {
       "greek_nt": [
@@ -113,18 +116,31 @@
         3
       ],
       "variant": "minor",
-      "note": "Word order variation: Peshitta places ܝܫܘܥ (Jesus) first"
+      "type": "word-order",
+      "note": "Syriac places ܝܫܘܥ (Yešūʿ) at the absolute beginning of the verse, before the particle ܕܝܢ, creating a topicalised structure; Greek and Latin position the name after the discourse markers and title respectively."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Vulgate adds the conjunction Et ('And') at the verse opening, linking this pericope explicitly to the preceding narrative; neither Greek nor Syriac transmits an initial coordinating conjunction here."
     },
     {
       "greek_nt": [
         5,
         6,
-        7
+        7,
+        8
       ],
       "peshitta": [
         3,
         4,
-        5
+        5,
+        6
       ],
       "vulgate": [
         4,
@@ -132,48 +148,30 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular infinitive construction μετὰ τὸ λαλῆσαι αὐτοῖς ('after the speaking to them'); Syriac employs ܡܢ ܒܬܪ ܕܡܠܠ ܥܡܗܘܢ (men bāṯar d-mallel ʿamhōn), a prepositional phrase with a relative clause; Vulgate uses postquam locutus est eis, a temporal conjunction with perfect indicative—all semantically equivalent temporal clauses with different syntactic strategies."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        8,
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11,
         12
       ],
       "peshitta": [
-        7
+        7,
+        8
       ],
       "vulgate": [
+        8,
+        9,
         10,
         11
       ],
       "variant": "minor",
-      "note": "Peshitta uses simple directional ܠܫܡܝܐ (to heaven) before verb; Greek/Vulgate use preposition + article + noun after verb"
+      "type": "word-order",
+      "note": "Greek and Vulgate maintain the sequence 'was taken up' + 'into heaven' (ἀνελήφθη εἰς τὸν οὐρανόν / assumptus est in cælum); Syriac inverts to ܠܫܡܝܐ ܣܠܩ (lašmayyā sleq, 'to heaven he ascended'), placing the destination before the verb—a common Syriac stylistic preference for goal-fronting in motion verbs."
     },
     {
       "greek_nt": [
@@ -197,41 +195,36 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the aorist ἐκάθισεν ('sat down', punctiliar action); Vulgate employs the present sedet ('sits', durative state); Syriac ܘܝܬܒ (w-yiṯeb) uses the perfect with waw-consecutive, indicating completed action with ongoing result—reflecting different aspectual perspectives on Christ's session at God's right hand."
     },
     {
       "greek_nt": [
         15,
-        16
-      ],
-      "peshitta": [
-        10,
-        11
-      ],
-      "vulgate": [
-        14,
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        16,
         17,
         18
       ],
       "peshitta": [
+        10,
+        11,
         12
       ],
       "vulgate": [
+        14,
+        15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses ἐκ δεξιῶν τοῦ θεοῦ (lit. 'from [the] right [parts] of God'), with δεξιῶν as a genitive plural substantive; Syriac employs ܡܢ ܝܡܝܢܐ ܕܐܠܗܐ (men yamīnā d-alāhā, 'from the right of God'), using the singular; Vulgate has a dextris Dei ('at [the] right [hand] of God'), with dextris as an ablative plural—all three traditions attest the Psalm 110:1 allusion but with language-specific plural/singular conventions for 'right hand.'"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.853409+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.057376+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

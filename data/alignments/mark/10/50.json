@@ -57,7 +57,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses article + conjunction (ὁ δέ); Peshitta mirrors this with pronoun + conjunction (ܗܘ ܕܝܢ); Vulgate employs the relative pronoun Qui, creating a subordinate clause structure rather than a coordinate construction."
     },
     {
       "greek_nt": [],
@@ -66,7 +68,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܣܡܝܐ 'the blind man' as explicit subject, absent in Greek and Latin"
+      "type": "expansion",
+      "note": "The Peshitta inserts ܣܡܝܐ ('the blind man') as an explicit subject, clarifying the referent of the pronoun. Neither the Greek nor the Vulgate include this substantive, relying instead on pronominal reference to the previously mentioned Bartimaeus."
     },
     {
       "greek_nt": [
@@ -85,7 +88,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek ἀποβαλών 'having cast away' vs Peshitta ܫܕܐ 'threw off' vs Vulgate projecto 'having thrown off'; synonymous verbs with same sense"
+      "type": "word-order",
+      "note": "Greek uses aorist participle ἀποβαλών with article-noun-pronoun sequence (τὸ ἱμάτιον αὐτοῦ); Vulgate employs ablative absolute with past participle projecto preceding the noun (vestimento suo); Peshitta uses finite verb ܫܕܐ ('he cast') with pronominal suffix on the noun, reflecting typical Semitic syntax."
     },
     {
       "greek_nt": [
@@ -97,7 +101,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -109,7 +114,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -125,13 +131,15 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition πρός with article and accusative noun (πρὸς τὸν Ἰησοῦν); Vulgate mirrors with ad eum (pronoun substitution); Peshitta employs ܠܘܬ with proper name, omitting the article (which Syriac lacks). All three convey identical directional meaning with minor syntactic variation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.806758+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.014906+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -64,13 +64,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Peshitta omits the initial coordinating conjunction καί / Et, beginning instead with the temporal particle ܟܕ ('when'), which subsumes the connective function into the temporal clause structure."
     },
     {
       "greek_nt": [
@@ -78,6 +78,7 @@
         2
       ],
       "peshitta": [
+        0,
         1,
         3
       ],
@@ -87,44 +88,37 @@
         3
       ],
       "variant": "minor",
-      "note": "Greek genitive absolute construction; Peshitta uses temporal particle ܟܕ + verb; Vulgate uses cum + ablative"
+      "type": "construction",
+      "note": "Greek uses a genitive absolute construction (ὀψίας γενομένης); Latin employs a cum-temporal clause (cum sero esset); Peshitta uses ܟܕ ܗܘܐ ܪܡܫܐ ('when it was evening'), a finite temporal clause—three syntactically distinct but semantically equivalent renderings of the same temporal setting."
     },
     {
-      "greek_nt": [
-        2
-      ],
+      "greek_nt": [],
       "peshitta": [
         2
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds ܕܝܢ (dēn, 'but/now') as discourse marker, absent in Greek and Vulgate"
+      "type": "gloss",
+      "note": "The Peshitta inserts the discourse particle ܕܝܢ ('now, then'), a characteristic Syriac transitional marker absent from both Greek and Latin witnesses, serving to articulate narrative progression."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4,
         5
       ],
       "peshitta": [
-        4
+        4,
+        5,
+        6
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the imperfect ἦν with article and noun (ἦν τὸ πλοῖον); Latin mirrors this with erat navis; Peshitta employs a compound construction ܣܦܝܢܬܐ ܐܝܬܝܗ ܗܘܬ (literally 'the boat, it was'), using the existential particle ܐܝܬ with pronominal suffix plus the verb ܗܘܬ—a periphrastic emphasis typical of Syriac narrative style."
     },
     {
       "greek_nt": [
@@ -142,7 +136,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐν μέσῳ τῆς θαλάσσης with article and genitive; Latin follows with in medio mari; Peshitta employs the construct state ܡܨܥܬ ܝܡܐ ('midst-of sea'), a more compact Semitic genitive construction lacking the preposition and article."
     },
     {
       "greek_nt": [
@@ -154,31 +150,25 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the intensive pronoun before the adjective (αὐτὸς μόνος); Latin mirrors this order (ipse solus); Peshitta conflates both into a single compound form ܘܗܘ ܒܠܚܘܕܘܗܝ ('and-he alone-his'), with the pronominal suffix attached to the adverb, reflecting Syriac morphological economy."
     },
     {
       "greek_nt": [
@@ -195,13 +185,14 @@
         13
       ],
       "variant": "minor",
-      "note": "Greek ἐπί + genitive 'upon'; Peshitta ܥܠ 'on/upon'; Vulgate in + ablative 'on/in' - slight prepositional variation"
+      "type": "construction",
+      "note": "Greek uses the preposition ἐπί with genitive article τῆς γῆς; Latin employs in with ablative terra; Peshitta uses ܥܠ ܐܪܥܐ ('upon land') without article—Syriac lacks the definite article in this construction, relying on context for definiteness."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.770587+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.985106+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

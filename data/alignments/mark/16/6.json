@@ -84,115 +84,103 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        0,
         1
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits the postpositive conjunction δέ/ܕܝܢ"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
       "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker as separate token"
-    },
-    {
-      "greek_nt": [
-        4,
-        5
-      ],
-      "peshitta": [
-        4,
-        5
-      ],
-      "vulgate": [
-        4,
-        5
+        0
       ],
       "variant": "minor",
-      "note": "Greek ἐκθαμβέω (be amazed/astonished) vs Syriac ܬܕܚܠܢ (fear) vs Latin expavescere (be terrified): semantic range variation"
+      "type": "word-order",
+      "note": "Greek uses article + δέ (ὁ δέ, 'but he'); Peshitta employs pronoun + ܕܝܢ (ܗܘ ܕܝܢ, 'he however'); Vulgate uses relative pronoun Qui without explicit conjunction. All three convey adversative continuation but with differing syntactic strategies."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts colon after illis to mark direct discourse boundary, a Latin scribal convention absent in Greek and Peshitta manuscript traditions."
+    },
+    {
+      "greek_nt": [
+        4,
+        5
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        4,
+        5,
         6
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐκθαμβεῖσθε ('be utterly amazed/terrified') is rendered by Peshitta ܬܕܚܠܢ ('fear') and Vulgate expavescere ('be greatly afraid'). The Peshitta uses a simpler root; Vulgate mirrors Greek's intensified semantic register. Vulgate again adds colon for discourse punctuation."
     },
     {
       "greek_nt": [
-        6,
-        8,
-        9
+        6
       ],
       "peshitta": [
-        6,
-        7
+        6
       ],
       "vulgate": [
-        7,
-        9
+        7
       ],
-      "variant": "minor",
-      "note": "Greek uses article + name + article + epithet; Syriac and Vulgate use name + epithet without articles"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         7
       ],
       "peshitta": [
-        8,
-        9
+        8
       ],
       "vulgate": [
         8
       ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8,
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
       "variant": "minor",
-      "note": "Peshitta adds explicit pronoun ܐܢܬܝܢ (you) for emphasis"
+      "type": "construction",
+      "note": "Greek uses article + adjective (τὸν Ναζαρηνόν, 'the Nazarene') as substantival modifier; Peshitta employs bare adjective ܢܨܪܝܐ in attributive position; Vulgate follows Greek structure with Nazarenum. Word order differs: Peshitta places 'Nazarene' before the verb 'you seek,' while Greek and Latin place it after."
     },
     {
       "greek_nt": [
@@ -204,19 +192,12 @@
         11
       ],
       "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "note": "Greek uses article + participle; Peshitta uses pronoun + relative clause; Vulgate uses bare participle"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        10,
         11
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs article + perfect passive participle (τὸν ἐσταυρωμένον, 'the one having been crucified'); Peshitta uses pronoun ܗܘ + relative clause ܕܐܙܕܩܦ ('who was crucified'); Vulgate uses bare perfect passive participle crucifixum. All convey identical semantics through tradition-specific participial or relative strategies. Vulgate adds colon."
     },
     {
       "greek_nt": [
@@ -230,7 +211,8 @@
         12
       ],
       "variant": "minor",
-      "note": "Peshitta adds ethical dative ܠܗ for emphasis on the resurrection"
+      "type": "gloss",
+      "note": "Greek ἠγέρθη (aorist passive, 'he was raised') is matched by Vulgate surrexit (perfect active, 'he has risen'). Peshitta ܩܡ ܠܗ adds the ethical dative pronoun ܠܗ ('for himself'), a Syriac idiom emphasizing the subject's interest in the action, absent in Greek and Latin."
     },
     {
       "greek_nt": [
@@ -249,7 +231,8 @@
         15
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܠܐ ܗܘܐ (was not) vs Greek/Latin simple negation"
+      "type": "word-order",
+      "note": "Greek οὐκ ἔστιν ὧδε ('not he-is here') follows standard Greek negation-verb-adverb order. Peshitta ܠܐ ܗܘܐ ܬܢܢ employs past tense ܗܘܐ ('was') with adverb ܬܢܢ ('here'), reflecting Syriac preference for past-tense existentials in narrative. Vulgate non est hic mirrors Greek structure exactly."
     },
     {
       "greek_nt": [
@@ -274,50 +257,46 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses article + noun (ὁ τόπος, 'the place'); Peshitta employs emphatic state ܕܘܟܬܐ (definite without separate article); Vulgate uses bare noun locus. All three convey definiteness through tradition-specific morphosyntactic means."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        19
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20
       ],
       "peshitta": [
-        20,
-        21
+        19,
+        20
       ],
       "vulgate": [
+        18,
         19
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic perfect ܕܣܝܡ ܗܘܐ (had laid) vs Greek/Latin simple aorist"
+      "type": "construction",
+      "note": "Greek ὅπου ἔθηκαν ('where they-placed') uses relative adverb + aorist active. Peshitta ܐܝܟܐ ܕܣܝܡ employs interrogative-turned-relative ܐܝܟܐ + participle ܕܣܝܡ. Vulgate ubi posuerunt mirrors Greek with relative adverb + perfect active. Semantically equivalent, syntactically tradition-specific."
     },
     {
       "greek_nt": [
         21
       ],
-      "peshitta": [],
+      "peshitta": [
+        21
+      ],
       "vulgate": [
         20
       ],
-      "variant": "omitted",
-      "note": "Peshitta omits the object pronoun, understood from context"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek αὐτόν (accusative singular masculine pronoun) is matched by Vulgate eum. Peshitta ܗܘܐ appears to be a past-tense copula completing the participial construction ܕܣܝܡ ܗܘܐ ('was placed'), forming a periphrastic past tense typical of Syriac, whereas Greek and Latin use simple finite verbs."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.851127+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.055139+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -50,7 +50,7 @@
         0
       ],
       "variant": "aligned",
-      "note": "Conjunction 'and' - Peshitta ܘ prefix on ܡܕܝܢܬܐ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -61,43 +61,27 @@
       ],
       "vulgate": [
         1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "minor",
-      "note": "Word order variation: Greek ὅλη ἡ πόλις vs Peshitta ܡܕܝܢܬܐ ܟܠܗ (city all) vs Vulgate omnis civitas"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek definite article ἡ has no direct equivalent in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        3
       ],
       "variant": "aligned",
-      "note": "Peshitta ܡܕܝܢܬܐ includes conjunction prefix"
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        2,
+        3,
+        4
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the adjective ὅλη before the noun πόλις with intervening article (ὅλη ἡ πόλις), following standard attributive position. Syriac reverses this to ܡܕܝܢܬܐ ܟܠܗ (city + all with pronominal suffix), reflecting typical Semitic noun-adjective order. Vulgate follows Greek word order (omnis civitas) but without article, as Latin lacks the definite article."
     },
     {
       "greek_nt": [
@@ -109,46 +93,31 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "note": "Preposition variation: πρός (toward) vs ܥܠ (upon/at) vs ad (to/at)"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek definite article τὴν has no direct equivalent in Peshitta or Vulgate"
-    },
-    {
-      "greek_nt": [
+        6,
+        7,
         8
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the preposition πρὸς with accusative article τὴν θύραν, emphasizing motion or orientation toward the door. Latin mirrors this with ad + accusative januam. Syriac employs the preposition ܥܠ (ʿal, 'upon/at') with ܬܪܥܐ in the emphatic state, a common Syriac idiom for spatial proximity that is semantically equivalent but syntactically distinct from the Greek directional construction."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.731184+00:00",
+    "generated_at": "2026-04-22T12:17:07.948722+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

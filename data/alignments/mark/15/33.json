@@ -61,8 +61,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        2
+        0
       ],
       "peshitta": [
         0
@@ -70,12 +69,13 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "note": "Greek uses καὶ...δέ (coordinating + contrastive), Peshitta ܘܟܕ (temporal 'and when'), Vulgate simple Et"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1
+        1,
+        2
       ],
       "peshitta": [
         1
@@ -83,7 +83,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs a genitive absolute construction (γενομένης δὲ ὥρας) with the postpositive particle δέ, while Peshitta uses a simple temporal clause (ܘܟܕ ܗܘܝ) and Vulgate uses an ablative absolute (facta hora) without a connective particle. All three express the same temporal subordination but through distinct grammatical strategies."
     },
     {
       "greek_nt": [
@@ -98,70 +100,47 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate place the ordinal adjective after the noun (ὥρας ἕκτης / hora sexta), whereas Peshitta places the numeral before the noun (ܫܬ ܫܥܝܢ, 'six hours'). The Peshitta also uses the plural form ܫܥܝܢ ('hours') where Greek and Latin use singular, a common Syriac idiom for temporal expressions."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
-        4
+        4,
+        5
       ],
       "vulgate": [
+        4,
         5,
         6
       ],
       "variant": "minor",
-      "note": "Greek ἐγένετο (aorist), Peshitta ܗܘܐ (perfect), Vulgate factae sunt (perfect passive plural agreeing with tenebrae)"
+      "type": "construction",
+      "note": "Greek uses a simple verb construction (σκότος ἐγένετο, 'darkness came'), Peshitta employs a copular construction (ܗܘܐ ܚܫܘܟܐ, 'there was darkness'), and Vulgate uses a passive periphrastic (tenebræ factæ sunt, 'darkness was made'). All three convey the same event through different syntactic frames."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
+        6,
+        7,
         8
       ],
       "vulgate": [
+        7,
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -175,7 +154,8 @@
         11
       ],
       "variant": "minor",
-      "note": "Greek ἕως (simple 'until'), Vulgate usque in (compound preposition 'until into')"
+      "type": "lexical",
+      "note": "Greek uses the simple preposition ἕως ('until'), Peshitta uses ܥܕܡܐ (cognate temporal preposition), while Vulgate employs the compound usque in ('up to, until'). The Vulgate's compound form is stylistically more emphatic but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -190,13 +170,14 @@
         12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.846516+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T12:17:08.051219+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

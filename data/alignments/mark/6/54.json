@@ -54,7 +54,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple conjunction καί; Peshitta employs temporal conjunction ܘܟܕ ('and when'); Vulgate uses cumque (cum + -que, 'and when'), creating a temporal clause. The Peshitta and Vulgate both make the temporal relationship more explicit than the Greek parataxis."
     },
     {
       "greek_nt": [
@@ -69,7 +71,8 @@
         2
       ],
       "variant": "minor",
-      "note": "Vulgate uses compound temporal cum-clause with explicit auxiliary 'essent'; Peshitta uses simple perfect"
+      "type": "construction",
+      "note": "Greek uses genitive absolute construction (ἐξελθόντων αὐτῶν, participle + pronoun); Peshitta uses finite verb ܢܦܩܘ without explicit subject pronoun; Vulgate employs pluperfect subjunctive (egressi essent) in temporal clause. All three express the same temporal-causal relationship with different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -85,7 +88,9 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses preposition ἐκ with article and genitive noun (ἐκ τοῦ πλοίου); Peshitta uses ܡܢ ܣܦܝܢܬܐ without article (Syriac lacks definite articles in this construction); Vulgate uses de navi with ablative case. The Greek article is structurally absent in Syriac but semantically implied."
     },
     {
       "greek_nt": [
@@ -99,7 +104,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Peshitta 'ܒܪ ܫܥܬܗ' (lit. 'son of his hour') is idiomatic for 'immediately'; semantically equivalent to Greek εὐθύς and Latin continuo"
+      "type": "idiom",
+      "note": "Greek uses adverb εὐθύς ('immediately'); Vulgate uses adverb continuo ('immediately'); Peshitta employs idiomatic phrase ܒܪ ܫܥܬܗ (literally 'son of his hour', meaning 'immediately'). The Syriac construction is a characteristic Semitic idiom expressing immediacy through a genitive relationship."
     },
     {
       "greek_nt": [
@@ -113,7 +119,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek has ἐπιγνόντες αὐτόν ('having recognized him') with implicit subject from the genitive absolute; Vulgate mirrors this with cognoverunt eum ('they recognized him'); Peshitta adds explicit subject ܐܢܫܝ ܐܬܪܐ ('the men of the place/region'), making the recognizers explicit rather than leaving them contextually implied. This is a substantive expansion clarifying the narrative agents."
     },
     {
       "greek_nt": [],
@@ -123,7 +131,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "note": "Peshitta adds 'ܐܢܫܝ ܐܬܪܐ' (men of the place/region) as explicit subject; Greek and Vulgate leave subject implicit"
+      "type": "expansion",
+      "note": "Peshitta explicitly names the subject as ܐܢܫܝ ܐܬܪܐ ('the men of the place'), whereas Greek and Vulgate leave the subject implicit (understood from context as 'the people there'). This represents a characteristic Peshitta tendency toward narrative clarity and explicit subject identification."
     },
     {
       "greek_nt": [],
@@ -131,14 +140,14 @@
       "vulgate": [
         8
       ],
-      "variant": "minor",
-      "note": "Vulgate colon is punctuation, not lexical content"
+      "variant": "aligned",
+      "type": "punctuation"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.771804+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.986557+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

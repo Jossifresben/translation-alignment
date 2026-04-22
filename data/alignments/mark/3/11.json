@@ -69,76 +69,42 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "major",
-      "note": "Peshitta uses ܘܐܝܠܝܢ 'and those who' introducing a relative clause construction, restructuring the Greek nominal phrase 'the unclean spirits'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1,
-        2,
-        3
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta adds ܕܐܝܬ ܗܘܝ ܠܗܘܢ 'who had' as part of its periphrastic construction"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "note": "Peshitta ܡܚܘܬܐ 'affliction/plague' added to clarify possession by spirits"
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2,
         3,
         4
       ],
       "peshitta": [
+        0,
+        1,
+        2,
+        3,
+        4,
         5,
         6
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "major",
-      "note": "Greek 'the unclean spirits' restructured in Peshitta as 'spirits unclean' within relative clause; Vulgate uses simple nominative 'spiritus immundi'"
+      "type": "construction",
+      "note": "Greek uses articular nominative construction (τὰ πνεύματα τὰ ἀκάθαρτα, 'the unclean spirits') as subject. Peshitta employs a relative clause with existential predicate (ܘܐܝܠܝܢ ܕܐܝܬ ܗܘܝ ܠܗܘܢ ܡܚܘܬܐ ܕܪܘܚܐ ܛܢܦܬܐ, 'and those who had affliction of unclean spirits'), shifting focus from the spirits themselves to the possessed persons. Vulgate mirrors Greek with simple nominative (spiritus immundi)."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6,
         7
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        3,
         4,
         5
       ],
@@ -160,15 +126,6 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
-    },
-    {
       "greek_nt": [
         10
       ],
@@ -176,33 +133,28 @@
         11
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after the conjunction (et clamabant :), creating a stronger pause before the direct speech. Greek and Peshitta use simple coordination without such punctuation break."
     },
     {
       "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
       "peshitta": [
         12
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the participle λέγοντες ('saying') after the main verb ἔκραζον ('they were crying out'), creating a supplementary participial construction. Vulgate follows this order (clamabant, dicentes). Peshitta merges both verbs into a single coordinated construction (ܘܩܥܝܢ ܘܐܡܪܝܢ, 'and they cried and said'), treating them as sequential actions rather than simultaneous."
     },
     {
       "greek_nt": [
@@ -213,7 +165,8 @@
         12
       ],
       "variant": "omitted",
-      "note": "Greek ὅτι and Vulgate colon introduce direct speech; Peshitta omits conjunction"
+      "type": "omission",
+      "note": "Greek and Vulgate include the recitative ὅτι / colon to introduce direct discourse. Peshitta omits any introductory particle, moving directly from ܘܐܡܪܝܢ ('and they said') to the quoted speech ܐܢܬ ܗܘ ('You are'), a common Syriac idiom for direct quotation."
     },
     {
       "greek_nt": [
@@ -225,8 +178,9 @@
         14
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate omits 'You are' from the confession, beginning directly with 'Son of God'"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek and Peshitta preserve the emphatic pronoun-copula construction (σὺ εἶ / ܐܢܬ ܗܘ, 'You yourself are'), stressing the identity claim. Vulgate omits the entire clause, truncating the verse after the second colon and leaving the demons' confession unrecorded in this witness—a significant textual divergence requiring manuscript collation."
     },
     {
       "greek_nt": [
@@ -240,13 +194,14 @@
         16
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Vulgate completely omits the christological confession 'the Son of God'"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek transmits the full christological confession ὁ υἱὸς τοῦ θεοῦ ('the Son of God') with double article. Peshitta attests ܒܪܗ ܕܐܠܗܐ ('Son of God') in construct state. Vulgate omits this entire predicate nominative, ending the verse prematurely—either through homoioteleuton, liturgical abbreviation, or reliance on a defective Greek Vorlage."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.741455+00:00",
+    "generated_at": "2026-04-22T12:17:07.958688+00:00",
     "confidence": 0.72,
     "schema_version": 1
   }

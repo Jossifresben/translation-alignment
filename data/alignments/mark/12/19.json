@@ -103,7 +103,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -115,111 +116,79 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
-        2
+        2,
+        3
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek ἡμῖν follows verb, Vulgate nobis precedes"
+      "type": "word-order",
+      "note": "Greek places the verb before the dative pronoun (ἔγραψεν ἡμῖν), while Vulgate reverses the order (nobis scripsit), a stylistic preference in Latin prose. Peshitta follows Greek word order (ܟܬܒ ܠܢ)."
     },
     {
       "greek_nt": [
         4
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         4
       ],
-      "variant": "omitted",
-      "note": "Greek ὅτι and Vulgate ut introduce indirect discourse; Peshitta uses direct construction with ܕܐܢ"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         5,
-        6
-      ],
-      "peshitta": [
-        4,
-        7
-      ],
-      "vulgate": [
-        5,
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta word order: ܕܐܢ ܡܐܬ ܐܚܘܗܝ ܕܐܢܫ (if dies brother of-someone) vs Greek ἐάν τινος ἀδελφὸς"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        6,
+        7,
         8
       ],
       "peshitta": [
-        5
+        5,
+        6,
+        7
       ],
       "vulgate": [
+        5,
+        6,
+        7,
         8,
         9
       ],
       "variant": "minor",
-      "note": "Vulgate uses perfect participle mortuus fuerit; Greek aorist subjunctive; Peshitta simple verb"
+      "type": "word-order",
+      "note": "Greek uses conditional ἐάν with genitive τινος followed by nominative ἀδελφὸς ἀποθάνῃ. Peshitta restructures with ܕܐܢ ܡܐܬ ܐܚܘܗܝ ܕܐܢܫ ('if dies the-brother of-a-man'), placing the verb before the possessive construction. Vulgate employs si cujus frater mortuus fuerit with perfect subjunctive, a more formal Latin conditional construction."
     },
     {
       "greek_nt": [
         9,
-        10
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
         10,
         11
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
+        10,
+        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -240,7 +209,8 @@
         16
       ],
       "variant": "major",
-      "note": "Vulgate adds filios (children/sons) not in Greek; Peshitta ܘܒܢܝܐ ܠܐ ܫܒܩ mirrors Vulgate addition; Greek has καὶ μὴ ἀφῇ τέκνον (and not leave child)"
+      "type": "substitution",
+      "note": "Greek uses singular τέκνον ('child') with negative μὴ ἀφῇ ('not leave'). Vulgate reads plural filios ('sons/children') with non reliquerit. Peshitta employs ܘܒܢܝܐ ܠܐ ܫܒܩ ('and sons not left'), explicitly using the plural 'sons' and restructuring the negation, representing a substantive lexical divergence in number that affects the legal scope of the levirate obligation."
     },
     {
       "greek_nt": [
@@ -249,7 +219,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek ἵνα (purpose clause) not explicitly rendered in Peshitta or Vulgate; implied by subjunctive mood"
+      "type": "construction",
+      "note": "Greek employs the purpose conjunction ἵνα to introduce the apodosis of the legal prescription. Both Peshitta and Vulgate omit an explicit purpose marker, proceeding directly to the jussive/subjunctive verb forms (ܢܣܒ / accipiat), treating the clause as a direct continuation of the conditional protasis rather than a marked purpose clause."
     },
     {
       "greek_nt": [
@@ -267,7 +238,9 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the articular construction ὁ ἀδελφὸς αὐτοῦ ('the brother of-him') with explicit article and genitive pronoun. Peshitta employs the bound form ܢܣܒ ܐܚܘܗܝ ('let-take his-brother') with pronominal suffix, lacking an independent article. Vulgate uses frater ejus with possessive genitive, mirroring Greek structure but without article (Latin lacking definite articles)."
     },
     {
       "greek_nt": [
@@ -282,44 +255,27 @@
         20,
         21
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        24
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        22
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        25
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        23
-      ],
       "variant": "minor",
-      "note": "Greek ἐξαναστήσῃ (raise up) vs Vulgate resuscitet (raise again); Peshitta ܘܢܩܝܡ (and establish)"
+      "type": "grammar",
+      "note": "Greek employs articular accusative τὴν γυναῖκα αὐτοῦ with separate possessive pronoun. Peshitta uses bound form ܐܢܬܬܗ ('his-wife') with pronominal suffix, a more compact Semitic construction. Vulgate reads uxorem ipsius, using the emphatic pronoun ipsius rather than ejus, possibly for stylistic variation or emphasis."
     },
     {
       "greek_nt": [
+        24,
+        25,
         26
       ],
       "peshitta": [
+        16,
         17
       ],
       "vulgate": [
+        22,
+        23,
         24
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -334,13 +290,15 @@
         25,
         26
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses dative τῷ ἀδελφῷ αὐτοῦ with article and separate possessive pronoun to express the beneficiary. Peshitta employs the preposition ܠ with pronominal suffix ܠܐܚܘܗܝ ('to-his-brother'), a bound construction. Vulgate uses dative fratri suo, mirroring Greek dative function but with the possessive adjective suo rather than a genitive pronoun, reflecting Latin syntactic norms."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.817442+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.023787+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

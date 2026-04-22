@@ -77,7 +77,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -89,8 +90,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܡܪ"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (iterative past action), while Vulgate employs imperfect dicebat; Peshitta combines conjunction and verb in ܘܐܡܪ (perfect), treating the saying as a single completed utterance rather than iterative discourse."
     },
     {
       "greek_nt": [
@@ -100,84 +102,62 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
       ],
       "variant": "minor",
-      "note": "Greek βλέπω vs Syriac ܚܙܘ vs Latin video - synonymous verbs for 'see/watch/take heed'"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illis to mark direct discourse, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker, relying on syntactic context alone."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
         3
       ],
-      "vulgate": [
-        5
+      "peshitta": [
+        2
       ],
-      "variant": "aligned"
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        3,
         4,
         5
       ],
       "vulgate": [
+        5,
         6
       ],
-      "variant": "aligned",
-      "note": "Peshitta includes explicit pronoun ܐܢܬܘܢ 'you' with verb"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܫܡܥܝܢ, a typical Syriac clarification for emphasis or disambiguation, whereas Greek and Latin rely on verbal inflection alone to convey the second-person plural subject."
     },
     {
       "greek_nt": [
         6,
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
         7,
         8
       ],
-      "variant": "aligned",
-      "note": "Prepositional phrase 'in which/what': Greek ἐν ᾧ, Syriac ܒܗܝ, Latin in qua"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
+        7,
+        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a relative pronoun construction ἐν ᾧ μέτρῳ ('in which measure'), mirrored by Vulgate's in qua mensura; Peshitta uses a simpler prepositional phrase ܒܗܝ ܟܝܠܬܐ ('in that measure') without a relative pronoun, reflecting typical Semitic preference for demonstratives over relatives."
     },
     {
       "greek_nt": [
@@ -191,32 +171,25 @@
         10,
         11
       ],
-      "variant": "aligned",
-      "note": "Peshitta and Vulgate include explicit pronoun with verb"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta again inserts the explicit subject pronoun ܐܢܬܘܢ ('you') after the participle ܕܡܟܝܠܝܢ, while Greek μετρεῖτε and Vulgate mensi fueritis encode the subject in verbal morphology; Vulgate additionally uses a perfect subjunctive (fueritis) where Greek has present indicative."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -229,31 +202,23 @@
         14
       ],
       "variant": "aligned",
-      "note": "Conjunction 'and': Peshitta combines with verb ܘܡܬܬܘܣܦ"
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [
-        15
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
+        12,
         13
       ],
       "vulgate": [
+        15,
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -265,14 +230,15 @@
         15
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek and Peshitta include participial phrase 'to those who hear'; Vulgate omits"
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek preserves the substantival participle τοῖς ἀκούουσιν ('to those who are hearing'), specifying the recipients of the added measure; Peshitta retains this with ܠܐܝܠܝܢ ܕܫܡܥܝܢ ('to those who hear'), but Vulgate omits the participial clause entirely, leaving vobis as the sole dative object and thereby generalizing the promise without restricting it to active hearers."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.749225+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.966939+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

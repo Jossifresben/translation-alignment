@@ -68,7 +68,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -81,7 +82,8 @@
         1
       ],
       "variant": "aligned",
-      "note": "Peshitta ܘܩܠܐ combines conjunction and noun in single token"
+      "type": "agreement",
+      "note": "φωνή / ܩܠܐ / vox"
     },
     {
       "greek_nt": [
@@ -94,8 +96,9 @@
         2,
         3
       ],
-      "variant": "aligned",
-      "note": "Greek ἐγένετο, Syriac ܗܘܐ, Latin facta est all express 'came to be/happened'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist middle ἐγένετο ('came to be'); Syriac employs the simple perfect ܗܘܐ; Latin renders with the passive periphrastic facta est, a construction typical of Vulgate style for γίνομαι. All three convey the same event semantically."
     },
     {
       "greek_nt": [
@@ -112,7 +115,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek ἐκ τῶν οὐρανῶν (plural) vs Syriac ܡܢ ܫܡܝܐ and Latin de cælis; article presence varies"
+      "type": "grammar",
+      "note": "Greek and Latin use the plural (τῶν οὐρανῶν / de cælis, 'from the heavens'), a Hebraic idiom for the divine realm. Syriac employs the singular ܫܡܝܐ ('heaven'), which is standard Syriac usage for the celestial sphere, semantically equivalent but grammatically distinct."
     },
     {
       "greek_nt": [],
@@ -120,8 +124,9 @@
       "vulgate": [
         6
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition from narrative frame to direct divine speech. Neither Greek nor Syriac manuscripts employ punctuation at this juncture, though the syntactic break is implicit in all three traditions."
     },
     {
       "greek_nt": [
@@ -136,7 +141,8 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -151,8 +157,9 @@
         9,
         10
       ],
-      "variant": "aligned",
-      "note": "Greek ὁ υἱός μου with article, Syriac ܒܪܝ (my son) with pronominal suffix, Latin Filius meus"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the articular construction ὁ υἱός μου ('the Son of mine'), with the article ὁ marking definiteness and the possessive genitive μου. Latin mirrors this with Filius meus (no article, as Latin lacks them). Syriac uses the pronominal suffix ܒܪܝ ('my son'), a bound-form construction typical of Semitic languages, semantically identical but syntactically more compact."
     },
     {
       "greek_nt": [
@@ -165,8 +172,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "note": "Greek ὁ ἀγαπητός with article, Syriac ܚܒܝܒܐ (beloved), Latin dilectus"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular adjective ὁ ἀγαπητός ('the beloved one') in apposition to υἱός, a substantival construction. Latin renders with the simple adjective dilectus in agreement with Filius. Syriac employs the attributive adjective ܚܒܝܒܐ without article (Syriac lacks the definite article in this syntactic position), all three expressing the same attributive relationship."
     },
     {
       "greek_nt": [
@@ -181,7 +189,7 @@
         13
       ],
       "variant": "aligned",
-      "note": "Greek ἐν σοὶ, Syriac ܒܟ (in you with pronominal suffix), Latin in te"
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -193,13 +201,14 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.727853+00:00",
-    "confidence": 0.88,
+    "generated_at": "2026-04-22T12:17:07.944446+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

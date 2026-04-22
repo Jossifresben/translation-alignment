@@ -79,35 +79,25 @@
         0
       ],
       "vulgate": [
-        1
+        1,
+        2
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and verb in single token ܘܐܙܠ"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a comma after 'abiit', creating a stronger pause between departure and the beginning of proclamation. Greek and Peshitta employ simple conjunction without punctuation break, maintaining narrative flow."
     },
     {
       "greek_nt": [
-        2
+        2,
+        3
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        2
+        3
       ],
       "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and inceptive verb in ܘܫܪܝ"
     },
     {
       "greek_nt": [
@@ -124,66 +114,40 @@
     {
       "greek_nt": [
         5,
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "note": "Greek article absorbed into prepositional phrase"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
+        5,
+        6,
         7
       ],
-      "variant": "aligned",
-      "note": "ὅσα/ܡܕܡ/quanta all express 'how much/what things'"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase with article (ἐν τῇ Δεκαπόλει); Vulgate mirrors this structure (in Decapoli) with comma; Peshitta employs a bound construct form (ܒܥܣܪܬ-ܡܕܝܢܬܐ, 'in-ten-cities') as a single hyphenated unit, reflecting typical Syriac nominal compounding."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        8,
+        9,
         10
       ],
       "peshitta": [
+        4,
+        5,
         6
       ],
       "vulgate": [
-        8
+        7,
+        8,
+        9
       ],
       "variant": "minor",
-      "note": "Word order variation: Greek αὐτῷ post-verbal, Vulgate sibi pre-verbal"
+      "type": "word-order",
+      "note": "Greek places the relative pronoun first (ὅσα ἐποίησεν αὐτῷ, 'how-much did for-him'); Vulgate inverts to 'quanta sibi fecisset' (accusative pronoun before verb); Peshitta uses ܡܕܡ ܕܥܒܕ ܠܗ ('what that-he-did to-him'), employing a relative particle construction with postposed dative pronoun."
     },
     {
       "greek_nt": [
@@ -196,42 +160,35 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "note": "Greek article with proper name"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article with the proper name (ὁ Ἰησοῦς), a standard Greek construction for known referents. Latin and Syriac omit the article, as neither language uses articles with proper names in this syntactic context."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        12
+      ],
       "peshitta": [],
       "vulgate": [
         11
       ],
-      "variant": "added",
-      "note": "Vulgate colon punctuation mark, not present as token in other traditions"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'Jesus', marking a stronger rhetorical pause before the final clause. Greek uses a raised dot (·) with similar but lighter function; Peshitta has no corresponding punctuation, maintaining continuous narrative syntax."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned",
-      "note": "Peshitta combines conjunction and quantifier in ܘܟܠܗܘܢ"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -245,13 +202,14 @@
         14
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܬܡܝܗܝܢ ܗܘܘ (participle + auxiliary) for Greek imperfect"
+      "type": "construction",
+      "note": "Greek and Vulgate use simple imperfect forms (ἐθαύμαζον / mirabantur, 'they-were-marveling'). Peshitta employs a periphrastic construction with participle + auxiliary (ܬܡܝܗܝܢ ܗܘܘ, 'marveling they-were'), a characteristic Syriac durative-aspect strategy semantically equivalent to the Greek/Latin imperfect."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.756701+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:29:18.114955+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

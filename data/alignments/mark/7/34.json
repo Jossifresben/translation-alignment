@@ -59,11 +59,25 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀναβλέψας (aorist participle, 'having looked up') is rendered by Vulgate suscipiens ('lifting up [eyes]'), a Latin idiom for the same gesture. Peshitta ܘܚܪ ('and he looked') conflates the conjunction and verb into a single coordinated clause rather than a participial construction."
+    },
+    {
+      "greek_nt": [
         2,
         3,
         4
@@ -72,12 +86,12 @@
         1
       ],
       "vulgate": [
-        1,
         2,
         3
       ],
       "variant": "minor",
-      "note": "Greek uses participial construction 'having looked up to heaven'; Peshitta uses prepositional phrase 'in heaven'; Vulgate uses gerund 'suscipiens in caelum'"
+      "type": "construction",
+      "note": "Greek uses prepositional phrase εἰς τὸν οὐρανόν ('into the heaven') with accusative article; Vulgate mirrors this with in cælum (accusative without article, standard Latin); Peshitta employs ܒܫܡܝܐ (prepositional phrase with ܒ, 'in/toward heaven'), a functionally equivalent but syntactically distinct construction typical of Syriac directional expressions."
     },
     {
       "greek_nt": [
@@ -89,7 +103,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -101,7 +116,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -113,7 +129,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek λέγει (present tense, historical present) is rendered by Vulgate ait (perfect tense, standard Latin narrative past) and Peshitta ܘܐܡܪ (perfect, 'and he said'). The Greek historical present creates vividness; Latin and Syriac normalize to past-tense narrative convention."
     },
     {
       "greek_nt": [
@@ -123,18 +141,12 @@
         4
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8
       ],
-      "variant": "added",
-      "note": "Vulgate adds punctuation colon before direct speech"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek αὐτῷ (dative pronoun with no punctuation) is mirrored by Peshitta ܠܗ (prepositional phrase 'to him') and Vulgate illi (dative) followed by a colon. The Vulgate colon marks the transition to direct speech more explicitly than the Greek or Syriac traditions, which rely on context alone."
     },
     {
       "greek_nt": [
@@ -145,7 +157,8 @@
         9
       ],
       "variant": "omitted",
-      "note": "Peshitta omits transliterated Aramaic 'Ephphatha', retaining only the translation"
+      "type": "omission",
+      "note": "Greek preserves the Aramaic transliteration εφφαθα (Ephphatha), as does Vulgate Ephphetha. The Peshitta omits the transliterated form entirely, proceeding directly to the Syriac translation ܐܬܦܬܚ ('be opened'), likely because the original Aramaic command required no transliteration for a Syriac-speaking audience."
     },
     {
       "greek_nt": [
@@ -158,7 +171,8 @@
         11
       ],
       "variant": "omitted",
-      "note": "Peshitta omits explanatory clause 'which is' as unnecessary in Aramaic context"
+      "type": "gloss",
+      "note": "Greek ὅ ἐστιν ('which is') and Vulgate quod est ('which is') provide an explanatory gloss introducing the translation of the Aramaic term. The Peshitta omits this metalinguistic apparatus, as the Syriac ܐܬܦܬܚ directly conveys the meaning without need for interpretive framing."
     },
     {
       "greek_nt": [
@@ -170,13 +184,14 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.777788+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.993119+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

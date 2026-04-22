@@ -62,8 +62,9 @@
         0
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article and Peshitta pronoun omitted in Vulgate"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek article ὁ (nominative masculine singular) is rendered by the Syriac pronoun ܗܘ ('he'), while the Vulgate omits any corresponding element, proceeding directly to the proper name Pilatus. This reflects Latin's lack of a definite article and its preference for unmarked proper nouns in subject position."
     },
     {
       "greek_nt": [
@@ -87,7 +88,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Vulgate places Pilatus in initial position before the conjunction autem, whereas both Greek and Syriac position the proper name after the conjunction (δὲ / ܕܝܢ). This represents a stylistic preference in Latin for fronting the subject in narrative transitions."
     },
     {
       "greek_nt": [
@@ -109,7 +112,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek αὐτοῖς (dative plural 'to them') and Vulgate eis (dative plural) are explicitly present, while the Peshitta omits the pronominal object, relying on the verb ܥܢܐ ('answered') to imply the addressees contextually. This is a common Syriac ellipsis pattern with verbs of speaking."
     },
     {
       "greek_nt": [
@@ -120,33 +125,34 @@
       ],
       "vulgate": [
         4,
-        5
-      ],
-      "variant": "minor",
-      "note": "Greek participle λέγων rendered as finite verb in Peshitta (ܘܐܡܪ) and Vulgate (et dixit)"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        5,
         6
       ],
-      "variant": "omitted",
-      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a participial construction λέγων (present active participle 'saying'), which the Peshitta renders with a finite verb ܘܐܡܪ (waw-consecutive + perfect 'and he said'). The Vulgate expands this into a coordinated finite clause et dixit with explicit punctuation (colon), making the speech introduction more emphatic and formally separated."
     },
     {
       "greek_nt": [
         6
       ],
       "peshitta": [
-        5,
-        6
+        5
       ],
       "vulgate": [
         7
       ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [],
       "variant": "minor",
-      "note": "Peshitta makes subject pronoun explicit (ܐܢܬܘܢ) where Greek and Vulgate use verb inflection"
+      "type": "gloss",
+      "note": "The Peshitta inserts the explicit subject pronoun ܐܢܬܘܢ ('you' plural), which is grammatically unnecessary since the verb ܨܒܝܢ already encodes second-person plural. Neither Greek θέλετε nor Latin Vultis requires an overt pronoun. This represents a Syriac stylistic preference for emphatic or clarifying subject pronouns in direct questions."
     },
     {
       "greek_nt": [
@@ -178,8 +184,9 @@
       ],
       "peshitta": [],
       "vulgate": [],
-      "variant": "omitted",
-      "note": "Greek article omitted in Peshitta and Vulgate"
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek includes the accusative article τὸν before βασιλέα, which both Syriac and Latin omit. Syriac lacks a definite article system and uses the emphatic state ܡܠܟܐ to convey definiteness; Latin similarly has no article and relies on context to establish the referent as definite."
     },
     {
       "greek_nt": [
@@ -202,24 +209,18 @@
         10
       ],
       "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "omitted",
-      "note": "Vulgate question mark punctuation not present in Greek or Peshitta"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the genitive article τῶν with the genitive plural Ἰουδαίων ('of the Jews'), and Latin mirrors this with the genitive Judæorum plus question mark. Syriac employs the construct state ܕܝܗܘܕܝܐ (d- + 'Jews'), a bound genitive construction without a separate article, which is the standard Semitic method for expressing possession or attribution."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.842570+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.047676+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

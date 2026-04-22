@@ -56,7 +56,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -69,8 +70,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "note": "Greek ὃς ἂν and Vulgate quicumque both express 'whoever'; Peshitta ܘܐܝܢܐ combines conjunction and indefinite pronoun"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the relative pronoun ὃς with the modal particle ἂν to form an indefinite relative construction ('whoever'); Vulgate uses the compound quicumque; Peshitta merges the conjunction and relative into the single form ܘܐܝܢܐ ('and whoever'), a typical Syriac compression of the Greek two-word construction."
     },
     {
       "greek_nt": [
@@ -82,7 +84,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -97,7 +100,8 @@
         4
       ],
       "variant": "minor",
-      "note": "Peshitta ܡܢܟܘܢ 'from you' vs Greek ἐν ὑμῖν 'among you' and Vulgate in vobis; prepositional variation with same sense"
+      "type": "word-order",
+      "note": "Greek and Vulgate place the prepositional phrase 'among you' (ἐν ὑμῖν / in vobis) after the verb θέλῃ; Peshitta fronts the pronominal element ܡܢܟܘܢ ('from among you') immediately after the relative pronoun, reflecting typical Syriac word-order preferences for pronominal elements."
     },
     {
       "greek_nt": [
@@ -106,10 +110,10 @@
       "peshitta": [
         3
       ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek retains the infinitive εἶναι ('to be') as complement to θέλῃ; Peshitta uses the prefixed subjunctive ܕܢܗܘܐ ('that he be'), maintaining the verbal idea; Vulgate omits the infinitive entirely, using the bare adjective primus with esse understood, a common Latin ellipsis in such constructions."
     },
     {
       "greek_nt": [
@@ -119,9 +123,11 @@
         4
       ],
       "vulgate": [
-        5
+        5,
+        6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -133,7 +139,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -145,7 +152,9 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek πάντων (genitive plural of πᾶς, 'of all [persons]') and Vulgate omnium are standard genitive constructions; Peshitta employs the compound ܕܟܠܢܫ ('of every person'), using the singular ܢܫ ('person') in a distributive sense, a characteristic Syriac idiom for universal scope."
     },
     {
       "greek_nt": [
@@ -157,13 +166,14 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.805767+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.013909+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -52,28 +52,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0,
         1
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
-      "note": "Greek γάρ (explanatory) vs Vulgate autem (adversative); Peshitta uses periphrastic past with ܗܘܘ"
+      "type": "construction",
+      "note": "Greek uses imperfect ἔλεγον alone; Peshitta employs periphrastic construction ܘܐܡܪܝܢ ܗܘܘ (participle + auxiliary 'were'); Vulgate uses simple imperfect Dicebant. All three express continuous past action, but Syriac makes the durative aspect explicit through analytic construction."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        1
+      ],
       "peshitta": [],
       "vulgate": [
+        1,
         2
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek γάρ ('for') provides causal connection to preceding context; Vulgate substitutes autem ('however/but'), marking adversative or transitional nuance; Peshitta omits any connective particle, allowing asyndetic transition typical of Semitic narrative style."
     },
     {
       "greek_nt": [
@@ -101,7 +104,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses prepositional phrase ἐν τῇ ἑορτῇ ('during the feast') with article; Vulgate mirrors with in die festo, specifying 'day' rather than abstract 'feast'; Peshitta uses single lexeme ܒܥܕܥܕܐ ('in/during the festival'), a compound form that conflates preposition and noun without requiring separate article."
     },
     {
       "greek_nt": [
@@ -115,7 +120,8 @@
         8
       ],
       "variant": "minor",
-      "note": "Greek μήποτε (lest perhaps) rendered as Syriac ܕܠܡܐ and Latin ne forte (both compound negatives)"
+      "type": "lexical",
+      "note": "Greek μήποτε is a compound negative particle ('lest, otherwise'); Peshitta ܕܠܡܐ is the standard Syriac equivalent; Vulgate expands to two-word phrase ne forte, making the conditional warning more explicit through Latin analytic construction."
     },
     {
       "greek_nt": [
@@ -127,7 +133,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Peshitta place the verb ('will be') before the subject noun; Vulgate inverts to tumultus fieret, placing subject before verb in accordance with Latin stylistic preference for subjunctive clauses introduced by ne."
     },
     {
       "greek_nt": [
@@ -153,13 +161,15 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses genitive construction τοῦ λαοῦ ('of the people') modifying θόρυβος; Vulgate mirrors with in populo, shifting to locative prepositional phrase ('among the people'); Peshitta ܒܥܡܐ likewise uses preposition ܒ ('in/among'), reflecting Semitic preference for prepositional over genitive constructions in such contexts."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.828379+00:00",
-    "confidence": 0.9,
+    "generated_at": "2026-04-22T12:17:08.034352+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

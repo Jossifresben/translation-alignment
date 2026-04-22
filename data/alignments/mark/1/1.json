@@ -47,7 +47,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -60,31 +61,25 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the article τοῦ with genitive εὐαγγελίου (neuter); Syriac and Latin use construct state and genitive respectively without article, a standard difference in definiteness marking across these languages."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -96,7 +91,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -109,13 +105,15 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek includes the second article τοῦ before θεοῦ, creating an articular genitive construction typical of Koine; Syriac and Latin omit the article (Syriac ܕܐܠܗܐ, Latin Dei), reflecting their respective grammatical norms for divine titles in genitive constructions."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.725656+00:00",
-    "confidence": 0.98,
+    "generated_at": "2026-04-22T12:17:07.941809+00:00",
+    "confidence": 0.95,
     "schema_version": 1
   }
 }

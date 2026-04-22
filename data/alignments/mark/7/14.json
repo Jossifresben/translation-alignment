@@ -60,21 +60,22 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "added",
-      "note": "Peshitta explicitly adds 'Jesus' as subject, absent in Greek and Vulgate"
+      "type": "expansion",
+      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the participle 'having called,' whereas both Greek and Latin leave the subject implicit through participial construction. This represents a typical Syriac tendency toward explicit subject identification for clarity."
     },
     {
       "greek_nt": [
@@ -85,7 +86,8 @@
         2
       ],
       "variant": "omitted",
-      "note": "Peshitta omits 'again' (πάλιν/iterum)"
+      "type": "omission",
+      "note": "The Peshitta omits the adverb πάλιν / iterum ('again'), which in Greek and Latin signals that Jesus had previously addressed the crowd. This omission may reflect a streamlining of the narrative or a different understanding of the discourse structure."
     },
     {
       "greek_nt": [
@@ -100,7 +102,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Peshitta adds 'all' (ܟܠܗ) modifying 'crowd', creating emphasis parallel to later πάντες"
+      "type": "word-order",
+      "note": "The Peshitta places the quantifier ܟܠܗ ('all of it,' modifying 'the crowd') after the noun ܠܟܢܫܐ, creating the phrase 'to the crowd, all of it,' whereas Greek uses the simple article + noun construction τὸν ὄχλον. This represents a Syriac emphatic construction semantically equivalent to the Greek but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -112,7 +115,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -125,7 +129,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after illis to mark the transition to direct discourse, a punctuation convention absent in the Greek manuscript tradition and unnecessary in Syriac, which uses context to signal speech boundaries."
     },
     {
       "greek_nt": [
@@ -139,7 +145,9 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Peshitta employs an enclitic first-person object suffix on the imperative ܫܘܡܥܘܢܝ ('hear-me'), creating a single-word construction, whereas Greek and Latin use separate words for the verb and pronoun (ἀκούσατέ μου / Audite me). This is a standard morphological difference between Semitic and Indo-European languages."
     },
     {
       "greek_nt": [
@@ -151,27 +159,41 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places πάντες ('all') after the verb and pronoun, while Syriac ܟܠܟܘܢ ('all of you') and Latin omnes follow their respective verbs but precede the conjunction. The Syriac form uses a pronominal suffix construction ('all-of-you') typical of Semitic languages."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.774687+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.989614+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

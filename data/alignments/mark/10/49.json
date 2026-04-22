@@ -67,29 +67,22 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0,
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        1,
         2,
         3
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
+        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses participial construction (καὶ στὰς ὁ Ἰησοῦς) with article and participle preceding the subject; Peshitta employs finite verb + subject (ܘܩܡ ܝܫܘܥ); Vulgate mirrors Greek structure with participial phrase (Et stans Jesus). All three convey identical meaning through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -101,8 +94,9 @@
       "vulgate": [
         3
       ],
-      "variant": "major",
-      "note": "Greek εἶπεν 'said' vs Peshitta ܘܦܩܕ 'commanded' vs Vulgate præcepit 'commanded'; Peshitta and Vulgate intensify the directive force"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εἶπεν ('said') is rendered by Peshitta ܘܦܩܕ ('commanded') and Vulgate præcepit ('commanded'). The Peshitta and Vulgate both interpret Jesus's speech-act as a directive rather than neutral speech, reflecting a common interpretive tradition that emphasizes the authoritative nature of the utterance."
     },
     {
       "greek_nt": [
@@ -120,18 +114,7 @@
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9,
         10
@@ -141,6 +124,7 @@
         5
       ],
       "vulgate": [
+        6,
         7,
         8
       ],
@@ -168,7 +152,8 @@
         11
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark not present as token in Greek or Peshitta"
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after ei to mark the beginning of direct speech. Neither Greek nor Peshitta manuscripts employ comparable punctuation at this juncture, though the semantic boundary is implicit in all three traditions."
     },
     {
       "greek_nt": [
@@ -182,7 +167,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Greek θάρσει 'take courage' vs Peshitta ܐܬܠܒܒ 'take heart' vs Vulgate Animæquior esto 'be of better spirit'; stylistic variation on same encouragement"
+      "type": "construction",
+      "note": "Greek θάρσει is a present imperative ('take courage'); Peshitta ܐܬܠܒܒ employs the ethpael imperative of the same semantic field; Vulgate expands to a two-word phrase Animæquior esto ('be of better spirit'), using comparative adjective + imperative of sum for stylistic amplification."
     },
     {
       "greek_nt": [],
@@ -191,7 +177,8 @@
         14
       ],
       "variant": "added",
-      "note": "Vulgate adds second colon punctuation mark"
+      "type": "punctuation",
+      "note": "Vulgate again inserts a colon to separate the two imperatives (Animæquior esto : surge). This punctuation choice reflects Latin rhetorical convention for asyndetic command sequences, absent in Greek and Peshitta witnesses."
     },
     {
       "greek_nt": [
@@ -223,8 +210,8 @@
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.806611+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:08.014748+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -87,27 +87,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -121,103 +112,52 @@
       "vulgate": [
         2
       ],
+      "variant": "major",
+      "type": "expansion",
+      "note": "The Peshitta expands τὸ τρίτον ('the third [time]') to ܕܬܠܬ ܙܒܢܝܢ ('of three times'), making the temporal reference explicit with the addition of 'times' (ܙܒܢܝܢ). The Greek and Vulgate use the substantival ordinal alone, relying on context to supply the implied noun."
+    },
+    {
+      "greek_nt": [
+        4,
+        5,
+        6
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        3,
+        4,
+        5,
+        6
+      ],
       "variant": "minor",
-      "note": "Peshitta adds explicit 'times' (ܙܒܢܝܢ) for 'third time'; Greek/Vulgate use adverbial accusative"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after illis, creating a stronger pause before Jesus's direct speech, whereas the Greek uses a raised dot (·) and the Peshitta has no explicit punctuation marker at this juncture."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation (not lexical)"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        7,
         8,
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "note": "Greek τὸ λοιπόν 'still/henceforth', Peshitta ܡܟܝܠ 'now', Vulgate jam 'now/already' - temporal nuance varies"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
+        10,
         11
       ],
       "peshitta": [
+        5,
+        6,
         7
       ],
       "vulgate": [
+        7,
+        8,
+        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the adverbial phrase τὸ λοιπόν ('still, henceforth') between the two imperatives καθεύδετε and ἀναπαύεσθε; Syriac uses ܡܟܝܠ ('now, already') after the first verb ܕܡܟܘ; Vulgate places jam ('now, already') after Dormite. All three convey temporal urgency but with different syntactic positions for the adverb."
     },
     {
       "greek_nt": [
@@ -228,53 +168,31 @@
         9
       ],
       "vulgate": [
-        11
+        11,
+        12
       ],
       "variant": "major",
-      "note": "Greek ἀπέχει 'it is enough/distant', Peshitta ܡܛܬ ܚܪܬܐ 'the end has arrived', Vulgate Sufficit 'it suffices' - semantic divergence on eschatological urgency"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "type": "substitution",
+      "note": "Greek ἀπέχει ('it is enough, it suffices') is rendered in Syriac as ܡܛܬ ܚܪܬܐ ('the end has arrived'), a substantive semantic shift from sufficiency to eschatological arrival. The Vulgate Sufficit preserves the Greek sense of 'it is enough,' making the Peshitta reading a distinctive interpretive expansion."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        13
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        13,
         14,
         15
       ],
       "peshitta": [
+        10,
         11
       ],
       "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        13,
+        14,
         15
       ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the aorist ἦλθεν ('has come') with the article ἡ ὥρα; Syriac employs the perfect ܘܐܬܬ ܫܥܬܐ ('and the hour has come') without an article (Syriac lacks the definite article in this construction); Vulgate uses the present venit hora, a historical present for vividness. The aspectual differences are stylistic rather than semantic."
     },
     {
       "greek_nt": [
@@ -286,7 +204,8 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -299,77 +218,54 @@
         19
       ],
       "variant": "minor",
-      "note": "Greek present passive παραδίδοται, Vulgate future passive tradetur - aspectual difference"
+      "type": "grammar",
+      "note": "Greek uses the present passive παραδίδοται ('is being delivered up'); Syriac employs the Ethpael ܡܫܬܠܡ (passive/reflexive 'is delivered'); Vulgate uses the future passive tradetur ('will be delivered'). The Vulgate's future tense presents the betrayal as imminent rather than already in process, a minor aspectual shift."
     },
     {
       "greek_nt": [
         18,
-        19
-      ],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        19,
         20,
         21
       ],
       "peshitta": [
+        14,
         15
       ],
       "vulgate": [
+        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Syriac maintain the Semitic word order 'the Son of Man' (ὁ υἱὸς τοῦ ἀνθρώπου / ܒܪܗ ܕܐܢܫܐ); Vulgate inverts to Filius hominis, placing the genitive hominis after the noun in standard Latin syntax. This is a routine syntactic accommodation to Latin grammar."
     },
     {
       "greek_nt": [
-        22
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        22,
         23,
-        24
-      ],
-      "peshitta": [
-        16
-      ],
-      "vulgate": [
-        21
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        24,
         25,
         26
       ],
       "peshitta": [
+        16,
         17
       ],
       "vulgate": [
+        20,
+        21,
         22
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase εἰς τὰς χεῖρας τῶν ἁμαρτωλῶν ('into the hands of the sinners') with three articles; Syriac employs the bound construction ܒܐܝܕܝܗܘܢ ܕܚܛܝܐ ('into their hands of sinners'), incorporating a pronominal suffix on 'hands'; Vulgate uses in manus peccatorum without articles. The Syriac pronominal suffix makes the reference to the sinners' hands more explicit."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.836095+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T12:17:08.041282+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

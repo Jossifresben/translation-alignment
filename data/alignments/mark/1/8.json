@@ -58,7 +58,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -67,7 +68,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "note": "Greek particle μέν (contrastive) omitted in Peshitta and Vulgate"
+      "type": "omission",
+      "note": "The Greek particle μέν (G3303) establishes a contrastive framework with the following δέ, creating a formal μέν...δέ construction ('on the one hand...on the other hand'). Neither the Peshitta nor the Vulgate renders this particle, relying instead on the inherent contrast between the two clauses without explicit marking."
     },
     {
       "greek_nt": [
@@ -81,7 +83,8 @@
         1,
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -95,7 +98,8 @@
         3
       ],
       "variant": "minor",
-      "note": "Vulgate uses ablative aqua without preposition; Greek/Peshitta use preposition + dative/construct"
+      "type": "construction",
+      "note": "Greek employs the preposition ἐν with dative ὕδατι ('in water'), which the Peshitta mirrors with ܒܡܝܐ (beth + noun). The Vulgate, however, uses the bare ablative aqua without preposition, a standard Latin instrumental construction semantically equivalent to the Greek prepositional phrase."
     },
     {
       "greek_nt": [
@@ -107,7 +111,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek αὐτός (G0846, 'he himself') is rendered by Peshitta ܗܘ (simple third-person pronoun) and Vulgate ille (demonstrative pronoun). The Vulgate's choice of ille over is adds mild deictic emphasis, approximating the Greek intensive pronoun, while the Peshitta uses the unmarked form."
     },
     {
       "greek_nt": [
@@ -120,7 +126,8 @@
         5
       ],
       "variant": "minor",
-      "note": "Greek δέ, Peshitta ܕܝܢ, Vulgate vero are stylistic variants for adversative conjunction"
+      "type": "lexical",
+      "note": "Greek δέ (G1161, adversative conjunction) pairs with the earlier μέν to complete the contrastive structure. Peshitta ܕܝܢ and Vulgate vero both function as adversative conjunctions ('but', 'however'), though vero carries slightly stronger emphatic force in Latin rhetoric than the neutral ܕܝܢ in Syriac."
     },
     {
       "greek_nt": [
@@ -134,7 +141,8 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -151,12 +159,13 @@
         9
       ],
       "variant": "minor",
-      "note": "Peshitta uses construct state ܕܩܘܕܫܐ (of holiness) vs. Greek/Vulgate adjective + noun"
+      "type": "construction",
+      "note": "Greek ἐν πνεύματι ἁγίῳ uses preposition + dative for the instrument of baptism. Peshitta ܒܪܘܚܐ ܕܩܘܕܫܐ employs beth + construct state ('in-Spirit of-holiness'), a standard Semitic genitive construction. Vulgate Spiritu Sancto uses ablative of means without preposition, parallel to its treatment of aqua, maintaining syntactic consistency across both baptismal agents."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.727343+00:00",
+    "generated_at": "2026-04-22T12:17:07.943746+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

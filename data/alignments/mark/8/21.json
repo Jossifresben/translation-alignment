@@ -48,7 +48,8 @@
         0
       ],
       "variant": "omitted",
-      "note": "Peshitta omits conjunction καὶ/Et"
+      "type": "omission",
+      "note": "The Peshitta omits the conjunction καί / Et that opens the Greek and Latin witnesses. This is a common Syriac stylistic preference, avoiding redundant connectives in narrative discourse."
     },
     {
       "greek_nt": [
@@ -61,7 +62,8 @@
         1
       ],
       "variant": "minor",
-      "note": "Greek imperfect ἔλεγεν vs Peshitta/Vulgate perfect tense"
+      "type": "grammar",
+      "note": "Greek uses the imperfect ἔλεγεν (V-IAI-3S, 'he was saying'), Latin mirrors this with the imperfect dicebat, while Syriac employs the perfect ܐܡܪ ('he said'), a typical aspectual shift in Syriac narrative style."
     },
     {
       "greek_nt": [
@@ -71,46 +73,31 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
-      ],
-      "variant": "added",
-      "note": "Vulgate adds colon punctuation marker"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
       ],
       "variant": "minor",
-      "note": "Peshitta ܐܝܟܘ (how/where) vs Greek πῶς (how) vs Vulgate Quomodo (in what manner)"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after eis to mark direct discourse, while Greek uses a raised dot (·) and Syriac has no explicit punctuation marker. This reflects differing scribal conventions for introducing speech."
     },
     {
       "greek_nt": [
-        3
+        3,
+        4
       ],
       "peshitta": [
+        2,
         3,
         4,
         5
       ],
       "vulgate": [
+        4,
         5
       ],
       "variant": "major",
-      "note": "Greek οὔπω (not yet) expanded in Peshitta to ܠܐ ܥܕܡܐ ܠܗܫܐ (not until now), Vulgate nondum (not yet) closer to Greek"
+      "type": "expansion",
+      "note": "The Peshitta expands the Greek οὔπω πῶς ('not yet how') into a four-word temporal-interrogative phrase: ܐܝܟܘ ܠܐ ܥܕܡܐ ܠܗܫܐ ('how not until now'). This explicates the temporal force of οὔπω, making the rebuke more emphatic in Syriac idiom, whereas Latin nondum quomodo preserves the Greek word order and concision."
     },
     {
       "greek_nt": [
@@ -121,25 +108,18 @@
         7
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "note": "Peshitta makes explicit subject pronoun ܐܢܬܘܢ (you), implicit in Greek/Vulgate verb forms"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        6,
         7
       ],
-      "variant": "added",
-      "note": "Vulgate adds question mark punctuation"
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you') after the participle ܡܣܬܟܠܝܢ ('understanding'), a common Syriac clarification where Greek and Latin rely on verbal inflection (συνίετε V-PAI-2P, intelligitis) to encode the second-person plural subject."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.781491+00:00",
-    "confidence": 0.85,
+    "generated_at": "2026-04-22T12:17:07.997064+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

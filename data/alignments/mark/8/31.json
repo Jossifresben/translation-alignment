@@ -107,60 +107,42 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "note": "Peshitta uses periphrastic construction ܘܫܪܝ ܗܘܐ (and he began + was) vs. Greek aorist ἤρξατο"
+      "type": "construction",
+      "note": "The Peshitta employs a periphrastic construction ܫܪܝ ܗܘܐ (šrī hwā, 'he began' + auxiliary verb) where Greek uses the simple aorist ἤρξατο and Latin the simple perfect cœpit. This is a characteristic Syriac idiom for inceptive aspect, semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
@@ -168,10 +150,12 @@
         5
       ],
       "vulgate": [
+        4,
         5
       ],
       "variant": "minor",
-      "note": "Peshitta ܕܥܬܝܕ ܗܘ (that he is about to) expands Greek δεῖ (it is necessary)"
+      "type": "lexical",
+      "note": "Greek δεῖ (impersonal 'it is necessary') and Latin oportet are direct equivalents; Peshitta ܕܥܬܝܕ ܗܘ (d-ʿtīd hū, 'that he is destined/about to') uses a participial construction with the copula, expressing futurity and necessity through a different lexical strategy but with equivalent force."
     },
     {
       "greek_nt": [
@@ -188,7 +172,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the articular accusative τὸν υἱὸν τοῦ ἀνθρώπου with genitive modifier; Latin mirrors this with Filium hominis (accusative + genitive); Peshitta uses the construct state ܒܪܗ ܕܐܢܫܐ (brēh d-nāšā, 'Son-of man-the'), a typical Semitic genitive construction without separate article, semantically identical."
     },
     {
       "greek_nt": [
@@ -204,31 +190,23 @@
         9
       ],
       "variant": "minor",
-      "note": "Word order: Greek πολλὰ παθεῖν (many things to suffer) vs. Peshitta/Vulgate verb-adverb order"
+      "type": "word-order",
+      "note": "Greek places the adverbial accusative πολλὰ before the infinitive παθεῖν ('many things to suffer'); Peshitta reverses this to ܕܢܚܫ ܣܓܝ (d-nḥaš sagī, 'that-he-suffer much'), placing the adverb after the verb. Latin pati multa follows the Greek order. This is a routine word-order variation without semantic consequence."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -245,7 +223,8 @@
         13
       ],
       "variant": "minor",
-      "note": "Greek ὑπὸ τῶν πρεσβυτέρων (by the elders) vs. Peshitta ܡܢ ܩܫܝܫܐ (from elders) - preposition variation"
+      "type": "construction",
+      "note": "Greek uses the preposition ὑπὸ with the genitive article τῶν πρεσβυτέρων to express agency ('by the elders'); Latin employs a with the ablative senioribus; Peshitta uses the preposition ܡܢ (men, 'from') with ܩܫܝܫܐ (qašīšē, 'elders'), a construction that can express source or agency in Syriac. The Vulgate punctuates senioribus with a comma, creating a slight pause absent in the Greek."
     },
     {
       "greek_nt": [
@@ -265,7 +244,8 @@
         17
       ],
       "variant": "minor",
-      "note": "Vulgate uses compound 'summis sacerdotibus' for chief priests"
+      "type": "construction",
+      "note": "Greek continues the genitive series with καὶ τῶν ἀρχιερέων ('and the chief priests'); Peshitta repeats the preposition ܘܡܢ ܪܒܝ ܟܗܢܐ (w-men rabbay kāhnē, 'and-from chief-of priests'), maintaining parallelism with the previous phrase. Latin uses a with summis sacerdotibus, mirroring the Peshitta's repetition of the preposition rather than the Greek's article-only construction."
     },
     {
       "greek_nt": [
@@ -281,31 +261,24 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek maintains the genitive article series καὶ τῶν γραμματέων; Peshitta again repeats the preposition ܘܡܢ ܣܦܪܐ (w-men sāfrē, 'and-from scribes'), consistent with its pattern throughout the list. Latin scribis appears in the ablative without a repeated preposition, and the Vulgate punctuates with a comma, creating a triadic structure distinct from the Greek's continuous coordination."
     },
     {
       "greek_nt": [
-        23
-      ],
-      "peshitta": [
-        18
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        23,
         24
       ],
       "peshitta": [
         18
       ],
       "vulgate": [
+        20,
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [],
@@ -314,22 +287,12 @@
         22
       ],
       "variant": "added",
-      "note": "Vulgate adds colon punctuation mark as separate token"
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after occidi, creating a major pause before the resurrection clause. Neither the Greek nor the Peshitta tradition attests punctuation at this juncture, treating the killing and rising as a continuous sequence within the same syntactic period."
     },
     {
       "greek_nt": [
-        25
-      ],
-      "peshitta": [
-        19
-      ],
-      "vulgate": [
-        23
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        25,
         26,
         27,
         28
@@ -339,12 +302,14 @@
         20
       ],
       "vulgate": [
+        23,
         24,
         25,
         26
       ],
       "variant": "minor",
-      "note": "Greek μετὰ τρεῖς ἡμέρας (after three days) vs. Peshitta ܘܠܬܠܬܐ ܝܘܡܝܢ (and to three days) - prepositional nuance"
+      "type": "construction",
+      "note": "Greek uses the preposition μετὰ with the accusative τρεῖς ἡμέρας ('after three days'); Latin employs post with the accusative tres dies, a direct calque. Peshitta uses the prefixed preposition ܠ (l-) attached to ܬܠܬܐ ܝܘܡܝܢ (tlātā yawmīn, 'to-three days'), which can express temporal goal or limit, semantically equivalent to 'after' in this eschatological context but syntactically more compact."
     },
     {
       "greek_nt": [
@@ -356,22 +321,14 @@
       "vulgate": [
         27
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        27
-      ],
-      "variant": "minor",
-      "note": "Vulgate period included in resurgere token"
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:03:14.783024+00:00",
-    "confidence": 0.82,
+    "generated_at": "2026-04-22T12:26:01.881833+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }
