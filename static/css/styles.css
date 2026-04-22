@@ -1409,6 +1409,13 @@ body.dark::before {
   padding: 1px 6px;
   border-radius: 3px;
 }
+.home-card a {
+  color: var(--rubric);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+.home-card a:hover { text-decoration-thickness: 2px; }
 .home-card kbd {
   font-family: 'JetBrains Mono', monospace;
   font-size: 12px;
