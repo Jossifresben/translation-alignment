@@ -106,3 +106,21 @@ def test_interlinear_partial_renders_tok_spans(client):
     body = resp.data.decode("utf-8")
     # Interlinear tokens should now carry data-align attributes (per-token markup)
     assert 'data-align=' in body
+
+
+def test_search_returns_results_for_greek_substring(client):
+    resp = client.get("/search?q=%CE%B2%CE%B4%CE%AD%CE%BB%CF%85%CE%B3%CE%BC%CE%B1")  # βδέλυγμα
+    assert resp.status_code == 200
+    data = resp.get_json()
+    assert "results" in data
+
+
+def test_search_reference_shortcut(client):
+    resp = client.get("/search?q=1%3A1")
+    data = resp.get_json()
+    assert any(r["chapter"] == 1 and r["verse"] == 1 for r in data.get("results", []))
+
+
+def test_search_empty_query_returns_empty(client):
+    resp = client.get("/search?q=")
+    assert resp.get_json() == {"results": []}

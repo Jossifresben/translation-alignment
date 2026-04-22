@@ -21,7 +21,7 @@
       <nav class="topbar-actions">
         <button class="iconbtn" type="button">Add witness</button>
         <button class="iconbtn" type="button">Export TEI</button>
-        <button class="iconbtn" type="button">⌘ K <kbd>K</kbd></button>
+        <button class="iconbtn" type="button" id="search-trigger">⌘ K <kbd>K</kbd></button>
       </nav>
     </header>
 
@@ -61,6 +61,19 @@
       </div>
     </form>
   </aside>
+
+  <div id="search-overlay" class="search-overlay" hidden>
+    <div class="search-modal" role="dialog" aria-label="Search verses">
+      <input id="search-input" type="text"
+             autocomplete="off" spellcheck="false"
+             placeholder="Search Greek, English, variant type, or 13:14…" />
+      <ul id="search-results" class="search-results"></ul>
+      <div class="search-hint">
+        <span>↑↓ navigate · ↵ open · Esc close</span>
+        <span>Mark only (pilot scope)</span>
+      </div>
+    </div>
+  </div>
 
   <script src="{{ url_for('static', filename='js/aligner.js') }}"></script>
 </body>

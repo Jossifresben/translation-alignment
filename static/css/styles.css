@@ -1138,3 +1138,87 @@ body.dark::before {
 }
 .variant-popover .vp-jump:hover { text-decoration: underline; }
 .variant-popover .vp-hint { color: var(--ink-4); }
+
+/* Search palette */
+.search-overlay {
+  position: fixed; inset: 0;
+  background: oklch(0.22 0.012 60 / 0.35);
+  display: flex; align-items: flex-start; justify-content: center;
+  padding-top: 12vh;
+  z-index: 1000;
+}
+.search-modal {
+  background: var(--parchment);
+  border: 1px solid var(--rule-2);
+  border-radius: 10px;
+  box-shadow: 0 20px 60px oklch(0.22 0.012 60 / 0.25);
+  width: 100%;
+  max-width: 640px;
+  overflow: hidden;
+}
+#search-input {
+  width: 100%;
+  padding: 18px 22px;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+  outline: none;
+}
+#search-input::placeholder { color: var(--ink-4); }
+.search-results {
+  list-style: none;
+  padding: 6px 0;
+  margin: 0;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.search-result {
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  gap: 14px;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-items: baseline;
+  font-size: 14px;
+}
+.search-result.active { background: var(--gold-soft); }
+.search-result:hover { background: var(--parchment-3); }
+.search-result .sr-ref {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--rubric);
+  font-weight: 600;
+}
+.search-result .sr-snippet {
+  font-family: 'EB Garamond', serif;
+  color: var(--ink-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search-result .sr-kind {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--ink-4);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.search-results .empty {
+  padding: 20px;
+  color: var(--ink-3);
+  text-align: center;
+  font-style: italic;
+  font-family: 'EB Garamond', serif;
+  list-style: none;
+}
+.search-hint {
+  display: flex; justify-content: space-between;
+  padding: 10px 20px;
+  border-top: 1px solid var(--rule);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  color: var(--ink-4);
+}

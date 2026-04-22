@@ -291,5 +291,103 @@ def not_found(_e):
     return render_template("404.html"), 404
 
 
+import csv as _csv_search_module  # alias to avoid clashing with any local `csv` name
+
+_SEARCH_INDEX: list[dict] = []   # populated on first /search call
+
+
+def _build_search_index() -> list[dict]:
+    """One-shot index over Mark for the search palette.
+
+    Each entry: {ref, chapter, verse, greek, english, types (set of variant types)}
+    """
+    index: list[dict] = []
+    # Greek + English text
+    greek = {}
+    english = {}
+    greek_csv = DATA_DIR / "corpora" / "greek_nt.csv"
+    en_csv = DATA_DIR / "corpora" / "web.csv"
+    if greek_csv.exists():
+        with greek_csv.open("r", encoding="utf-8", newline="") as f:
+            for r in _csv_search_module.DictReader(f):
+                if r["book"] == "Mark":
+                    greek[(int(r["chapter"]), int(r["verse"]))] = r["text"]
+    if en_csv.exists():
+        with en_csv.open("r", encoding="utf-8", newline="") as f:
+            for r in _csv_search_module.DictReader(f):
+                if r["book"] == "Mark":
+                    english[(int(r["chapter"]), int(r["verse"]))] = r["text"]
+    # Types (from alignment JSONs)
+    align_root = DATA_DIR / "alignments" / "mark"
+    for (ch, v), g in sorted(greek.items()):
+        path = align_root / str(ch) / f"{v}.json"
+        types: set[str] = set()
+        if path.exists():
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+                for group in data.get("alignment", []):
+                    if group.get("variant") and group["variant"] != "aligned":
+                        types.add(group.get("type") or group["variant"])
+            except Exception:
+                pass
+        index.append({
+            "ref": f"Mark {ch}:{v}",
+            "chapter": ch, "verse": v,
+            "greek": g,
+            "english": english.get((ch, v), ""),
+            "types": sorted(types),
+        })
+    return index
+
+
+@app.route("/search")
+def search():
+    global _SEARCH_INDEX
+    if not _SEARCH_INDEX:
+        _SEARCH_INDEX = _build_search_index()
+    q = (request.args.get("q") or "").strip()
+    limit = int(request.args.get("limit") or 25)
+    if not q:
+        return {"results": []}
+    # Reference jump — "13:14"
+    import re as _re
+    m = _re.match(r"^(\d+):(\d+)$", q)
+    if m:
+        ch, v = int(m.group(1)), int(m.group(2))
+        for entry in _SEARCH_INDEX:
+            if entry["chapter"] == ch and entry["verse"] == v:
+                return {"results": [{"ref": entry["ref"],
+                                     "chapter": ch, "verse": v,
+                                     "snippet": entry["greek"][:120],
+                                     "kind": "reference"}]}
+        return {"results": []}
+    q_low = q.lower()
+    out: list[dict] = []
+    for entry in _SEARCH_INDEX:
+        kinds: list[str] = []
+        snippets: list[str] = []
+        if q in entry["greek"] or q_low in entry["greek"].lower():
+            kinds.append("greek")
+            snippets.append(entry["greek"][:160])
+        if q_low and q_low in entry["english"].lower():
+            kinds.append("english")
+            snippets.append(entry["english"][:160])
+        if any(q_low in t.lower() for t in entry["types"]):
+            kinds.append("type")
+            snippets.append("type: " + ", ".join(entry["types"]))
+        if kinds:
+            out.append({
+                "ref": entry["ref"],
+                "chapter": entry["chapter"],
+                "verse": entry["verse"],
+                "snippet": snippets[0] if snippets else entry["greek"][:120],
+                "kind": kinds[0],
+                "matched_in": kinds,
+            })
+            if len(out) >= limit:
+                break
+    return {"results": out}
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=int(os.getenv("PORT", 5020)))
