@@ -65,4 +65,6 @@ RULES
 
 7. `confidence`: 1.0 = trivial, 0.85 = routine, 0.70 = minor uncertainty, 0.50 = real uncertainty; below 0.5 flag for review.
 
+8. ABSENT TRADITIONS. If the input for any tradition has **zero tokens** (i.e., that tradition is absent for this verse — most commonly because of versification differences between editions, e.g. Clementine Vulgate combines Mark 4:40 and 4:41 into a single verse), DO NOT emit any indices for that tradition. The tradition's key must simply **not appear** in any alignment group. Build alignment groups only over the traditions that actually have tokens. Do not emit empty arrays like `"vulgate": []` — omit the key entirely. When only one tradition has tokens, emit aligned groups per token for that tradition alone.
+
 Return ONLY the JSON. No markdown fences. No prose.
