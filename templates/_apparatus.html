@@ -24,7 +24,18 @@
               <span class="variant-type {{ v.type }}">{{ v.type }}</span>
               <span class="variant-witnesses">{{ v.label }}</span>
             </div>
-            <h3 class="variant-title">{{ v.title }}</h3>
+            <div class="variant-title">
+              {% if v.title is string %}
+                {{ v.title }}
+              {% else %}
+                {% for p in v.title %}
+                  <div class="variant-title-line witness-{{ p.witness_id }}" dir="{{ p.dir }}">
+                    <span class="variant-title-label">{{ p.label }}</span>
+                    <span class="variant-title-text">{{ p.text }}</span>
+                  </div>
+                {% endfor %}
+              {% endif %}
+            </div>
             {% if v.gloss %}
               <div class="variant-gloss">{{ v.gloss }}</div>
             {% endif %}

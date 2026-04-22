@@ -586,10 +586,46 @@ body::before {
 .variant-title {
   font-family: 'EB Garamond', serif;
   font-size: 19px;
-  line-height: 1.35;
+  line-height: 1.45;
   color: var(--ink);
-  margin: 0 0 4px;
+  margin: 0 0 10px;
   font-weight: 500;
+}
+.variant-title-line {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 12px;
+  align-items: baseline;
+  padding: 3px 0;
+}
+.variant-title-line + .variant-title-line {
+  border-top: 1px dashed var(--rule);
+  padding-top: 6px;
+  margin-top: 3px;
+}
+.variant-title-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+.variant-title-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.variant-title-line.witness-syr .variant-title-text {
+  font-family: 'Noto Sans Syriac', 'EB Garamond', serif;
+  font-size: 21px;
+}
+.variant-title-line.witness-vul .variant-title-text {
+  font-style: italic;
+}
+@media (max-width: 720px) {
+  .variant-title-line { grid-template-columns: 1fr; gap: 2px; }
 }
 .variant-gloss {
   font-family: 'EB Garamond', serif;

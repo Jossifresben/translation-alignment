@@ -153,9 +153,14 @@ def _build_witness_tokens(
     return out
 
 
-def _synthesize_title(group: dict, witnesses: list[dict]) -> str:
-    """Produce a short scholarly title from the tokens in the group."""
-    parts: list[str] = []
+def _synthesize_title(group: dict, witnesses: list[dict]) -> list[dict]:
+    """Produce a per-witness breakdown of the tokens in the group.
+
+    Returns a list of {label, text, dir, script, witness_id} dicts — one entry
+    per witness that participates in this alignment group. The apparatus
+    template renders each entry on its own line.
+    """
+    parts: list[dict] = []
     for w in witnesses:
         trad_id = next(k for k, v in TRAD_TO_WITNESS.items() if v == w["id"])
         indices = group.get(trad_id, [])
@@ -164,8 +169,14 @@ def _synthesize_title(group: dict, witnesses: list[dict]) -> str:
         source_tokens = _source_tokens_for_witness(w)
         picked = " ".join(source_tokens[i] for i in indices if i < len(source_tokens))
         if picked:
-            parts.append(f"{w['name']}: {picked}")
-    return " · ".join(parts) if parts else "Divergence"
+            parts.append({
+                "label": w["name"],
+                "text": picked,
+                "dir": w.get("dir", "ltr"),
+                "script": w.get("script", ""),
+                "witness_id": w["id"],
+            })
+    return parts
 
 
 def _source_tokens_for_witness(w: dict) -> list[str]:
