@@ -485,3 +485,47 @@ function showTooltip(anchor, html) {
     }[c]));
   }
 })();
+
+/* --- External links open in a new window ---
+   Any <a href="http..."> whose host isn't this site gets target=_blank
+   + rel=noopener noreferrer. Runs once on DOMContentLoaded and also
+   via a MutationObserver so links injected by htmx/partial swaps are
+   caught too. */
+(function () {
+  const CURRENT_HOST = window.location.host;
+
+  function markExternal(root) {
+    const scope = root && root.querySelectorAll ? root : document;
+    scope.querySelectorAll('a[href^="http://"], a[href^="https://"]').forEach((a) => {
+      if (a.dataset.externalMarked === "1") return;
+      try {
+        const url = new URL(a.href);
+        if (url.host && url.host !== CURRENT_HOST) {
+          if (!a.target) a.target = "_blank";
+          // Preserve existing rel (e.g. 'noopener' already set) and add ours
+          const rel = new Set((a.rel || "").split(/\s+/).filter(Boolean));
+          rel.add("noopener");
+          rel.add("noreferrer");
+          a.rel = Array.from(rel).join(" ");
+        }
+      } catch (_) { /* malformed href — skip */ }
+      a.dataset.externalMarked = "1";
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => markExternal(document));
+  } else {
+    markExternal(document);
+  }
+
+  // Catch links inserted by htmx partial swaps or dynamic modals
+  const observer = new MutationObserver((mutations) => {
+    for (const m of mutations) {
+      m.addedNodes.forEach((node) => {
+        if (node.nodeType === 1) markExternal(node);
+      });
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+})();
