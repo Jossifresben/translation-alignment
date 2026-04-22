@@ -86,3 +86,11 @@ def test_nav_wraps_to_next_chapter_at_chapter_end(client):
         assert "/mark/0/" not in body
     finally:
         dst.unlink()
+
+
+def test_404_page_for_nonexistent_verse(client):
+    resp = client.get("/mark/99/99")
+    assert resp.status_code == 404
+    body = resp.data.decode("utf-8")
+    assert "not found" in body.lower()
+    assert "/mark/1/1" in body

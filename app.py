@@ -99,6 +99,11 @@ def _inject_helpers() -> dict:
     return {"t": _t, "traditions": TRADITIONS}
 
 
+@app.errorhandler(404)
+def not_found(_e):
+    return render_template("404.html"), 404
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
