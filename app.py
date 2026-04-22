@@ -313,29 +313,39 @@ _SEARCH_INDEX: list[dict] = []   # populated on first /search call
 def _build_search_index() -> list[dict]:
     """One-shot index over Mark for the search palette.
 
-    Each entry: {ref, chapter, verse, greek, english, types (set of variant types)}
+    Each entry: {ref, chapter, verse, greek, peshitta, vulgate, english,
+                 types (sorted list of variant types)}
     """
+    def _load_csv(path: Path) -> dict[tuple[int, int], str]:
+        result: dict[tuple[int, int], str] = {}
+        if not path.exists():
+            return result
+        with path.open("r", encoding="utf-8", newline="") as f:
+            reader = _csv_search_module.DictReader(f)
+            # Detect text column (Peshitta CSV from ARA uses `syriac`, not `text`)
+            first = next(reader, None)
+            if first is None:
+                return result
+            text_col = next((c for c in ("text", "syriac", "latin", "hebrew", "greek")
+                             if c in first), None)
+            if not text_col:
+                return result
+            rows = [first, *reader]
+            for r in rows:
+                if r.get("book") == "Mark":
+                    result[(int(r["chapter"]), int(r["verse"]))] = r.get(text_col, "")
+        return result
+
+    greek    = _load_csv(DATA_DIR / "corpora" / "greek_nt.csv")
+    peshitta = _load_csv(DATA_DIR / "corpora" / "peshitta_nt.csv")
+    vulgate  = _load_csv(DATA_DIR / "corpora" / "vulgate.csv")
+    english  = _load_csv(DATA_DIR / "corpora" / "web.csv")
+
     index: list[dict] = []
-    # Greek + English text
-    greek = {}
-    english = {}
-    greek_csv = DATA_DIR / "corpora" / "greek_nt.csv"
-    en_csv = DATA_DIR / "corpora" / "web.csv"
-    if greek_csv.exists():
-        with greek_csv.open("r", encoding="utf-8", newline="") as f:
-            for r in _csv_search_module.DictReader(f):
-                if r["book"] == "Mark":
-                    greek[(int(r["chapter"]), int(r["verse"]))] = r["text"]
-    if en_csv.exists():
-        with en_csv.open("r", encoding="utf-8", newline="") as f:
-            for r in _csv_search_module.DictReader(f):
-                if r["book"] == "Mark":
-                    english[(int(r["chapter"]), int(r["verse"]))] = r["text"]
-    # Types (from alignment JSONs)
     align_root = DATA_DIR / "alignments" / "mark"
     for (ch, v), g in sorted(greek.items()):
-        path = align_root / str(ch) / f"{v}.json"
         types: set[str] = set()
+        path = align_root / str(ch) / f"{v}.json"
         if path.exists():
             try:
                 data = json.loads(path.read_text(encoding="utf-8"))
@@ -347,9 +357,11 @@ def _build_search_index() -> list[dict]:
         index.append({
             "ref": f"Mark {ch}:{v}",
             "chapter": ch, "verse": v,
-            "greek": g,
-            "english": english.get((ch, v), ""),
-            "types": sorted(types),
+            "greek":    g,
+            "peshitta": peshitta.get((ch, v), ""),
+            "vulgate":  vulgate.get((ch, v), ""),
+            "english":  english.get((ch, v), ""),
+            "types":    sorted(types),
         })
     return index
 
@@ -383,6 +395,12 @@ def search():
         if q in entry["greek"] or q_low in entry["greek"].lower():
             kinds.append("greek")
             snippets.append(entry["greek"][:160])
+        if entry["peshitta"] and q in entry["peshitta"]:
+            kinds.append("peshitta")
+            snippets.append(entry["peshitta"][:160])
+        if entry["vulgate"] and (q in entry["vulgate"] or q_low in entry["vulgate"].lower()):
+            kinds.append("vulgate")
+            snippets.append(entry["vulgate"][:160])
         if q_low and q_low in entry["english"].lower():
             kinds.append("english")
             snippets.append(entry["english"][:160])
