@@ -54,6 +54,24 @@ Mark 9 verses collapsed from 21 → 0. Reusable helper:
 any tradition with zero tokens (rule 8 in `scripts/prompts/align_3way.md`). This
 handles the Mark 4:41 absent case.
 
+## Peshitta root tooltip (ARA adapter) — RESOLVED 2026-04-22
+
+Earlier builds of `scripts/snapshot_ara_roots.py` emitted a stub where every
+Peshitta token had `root: null`, so the viewer's tooltips all showed "Root: —".
+The adapter tried to instantiate ARA's `RootExtractor()` with no arguments, but
+`RootExtractor.__init__(corpus, data_dir=None)` requires a populated
+`AramaicCorpus`.
+
+**Applied:** the script now mirrors ARA's own `app.py::_init()` — builds an
+`AramaicCorpus` from the sibling repo's `data/corpora/peshitta_nt.csv` (+ OT and
+Biblical Aramaic if present), calls `RootExtractor.build_index()`, loads
+`CognateLookup` from `data/roots/cognates.json`, and per token emits a
+Latin-transliterated root key (e.g. `r-sh-a`), sister roots (keys sharing ≥2
+positions, the same heuristic ARA's UI uses), and first Hebrew/Arabic cognate
+words. Result: 6,760 / 8,793 Mark tokens (~77%) now have real root + cognate
+data. The remainder are proper nouns, Greek loan-words, and short particles
+ARA's extractor intentionally skips (stop-words, hyphenated forms).
+
 ## (Reserved)
 
 Other sourcing / data gaps will be logged here as they come up.
