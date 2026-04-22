@@ -486,13 +486,8 @@ body::before {
 /* ─── Apparatus (critical notes) ──────────────────────────── */
 
 .apparatus {
-  display: grid;
-  grid-template-columns: 1fr 360px;
-  gap: 48px;
   padding: 32px 0;
-  align-items: start;
 }
-@media (max-width: 1100px) { .apparatus { grid-template-columns: 1fr; } }
 
 .apparatus-main { min-width: 0; }
 .apparatus-head {
