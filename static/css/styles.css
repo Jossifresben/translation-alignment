@@ -628,46 +628,61 @@ body::before {
 .legend-swatch.variant { background: var(--rubric-soft); border-bottom: 2px dotted var(--rubric); }
 .legend-swatch.unaligned { background: var(--parchment-3); border: 1px dashed var(--ink-4); }
 
-/* Legend samples — actual token-style exemplars */
+/* Legend samples — actual token-style exemplars, prominent */
 .legend-sample {
   font-family: 'EB Garamond', serif;
-  font-size: 17px;
+  font-size: 22px;
+  line-height: 1.2;
   color: var(--ink);
   flex-shrink: 0;
-  min-width: 56px;
+  min-width: 96px;
   text-align: center;
-  padding: 3px 6px;
-  border-radius: 3px;
+  padding: 10px 14px;
+  border-radius: 4px;
+  background: var(--parchment);
+  border: 1px solid var(--rule);
 }
 .legend-sample.sample-aligned {
   background: var(--gold-soft);
-  box-shadow: inset 0 -2px 0 var(--gold);
+  border-color: var(--gold);
+  box-shadow: inset 0 -3px 0 var(--gold);
 }
 .legend-sample.sample-minor {
   text-decoration: underline;
   text-decoration-color: var(--ink-4);
   text-decoration-style: dotted;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
 }
 .legend-sample.sample-major {
   text-decoration: underline;
   text-decoration-color: var(--rubric);
   text-decoration-style: dotted;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 3px;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 4px;
+  background: var(--rubric-soft);
+  border-color: transparent;
 }
 .legend-sample.sample-unaligned {
   color: var(--ink-3);
   font-style: italic;
+  border-style: dashed;
+  border-color: var(--ink-4);
 }
 .legend-sample.sample-unaligned sup {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--ink-4);
-  margin-left: 1px;
+  margin-left: 2px;
   font-style: normal;
 }
-.legend-dot-mark { color: var(--ink-4); font-size: 10px; vertical-align: super; }
+.legend-dot-mark { color: var(--ink-4); font-size: 11px; vertical-align: super; }
+
+/* Tighter stacking for the bigger samples */
+.legend-item {
+  gap: 14px;
+  padding: 12px 0;
+  align-items: flex-start;
+}
 
 .legend-desc {
   flex: 1;
@@ -677,11 +692,13 @@ body::before {
   display: block;
   font-weight: 600;
   color: var(--ink);
-  font-size: 12.5px;
+  font-size: 14.5px;
+  margin-bottom: 2px;
 }
 .legend-desc small {
   color: var(--ink-3);
-  font-size: 11px;
+  font-size: 12.5px;
+  line-height: 1.4;
 }
 
 /* Stats */
