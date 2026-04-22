@@ -1,0 +1,14 @@
+[project]
+name = "translation-alignment"
+version = "0.1.0"
+description = "Parallel biblical text alignment viewer — MVP (Mark, Greek/Peshitta/Vulgate)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
