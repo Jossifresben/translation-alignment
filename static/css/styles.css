@@ -167,7 +167,9 @@ body::before {
 }
 
 .verse-pager {
-  display: flex; align-items: center; gap: 4px;
+  display: flex; align-items: center; gap: 8px;
+  flex-wrap: wrap;        /* allow wrap on very narrow screens instead of crushing */
+  justify-content: flex-end;
   font-family: 'JetBrains Mono', monospace;
   font-size: 11.5px;
 }
@@ -183,6 +185,8 @@ body::before {
   cursor: pointer;
   letter-spacing: 0.04em;
   transition: background 0.12s, border-color 0.12s;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .pager-btn:hover { background: var(--parchment-2); border-color: var(--rule-2); color: var(--ink); }
 .pager-btn .arrow { color: var(--ink-3); font-size: 13px; }
@@ -198,6 +202,8 @@ body::before {
   font-size: 11.5px;
   color: var(--ink-2);
   transition: background 0.12s, border-color 0.12s;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .verse-jump:focus-within {
   background: var(--parchment-2);
