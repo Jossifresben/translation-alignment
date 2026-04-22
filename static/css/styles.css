@@ -439,14 +439,18 @@ body::before {
   margin: 4px 2px;
   border-radius: 4px;
   cursor: pointer;
+  background: var(--gold-soft);
+  box-shadow: inset 0 -2px 0 var(--gold);
   min-width: 40px;
   transition: background 0.1s;
 }
 .inter-group:hover, .inter-group.is-active {
-  background: var(--gold-soft);
+  background: var(--gold-hover);
+  box-shadow: inset 0 -3px 0 var(--gold);
 }
 .inter-group.is-variant {
   background: var(--rubric-soft);  /* fallback */
+  box-shadow: none;
 }
 .inter-group.is-variant.v-minor {
   background: var(--sage-soft);
