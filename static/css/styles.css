@@ -616,6 +616,9 @@ body::before {
   font-size: 19px;
   font-weight: 500;
   color: var(--ink);
+  text-align: left;          /* force start-of-cell even when dir="rtl" */
+  unicode-bidi: isolate;     /* keep RTL characters in their own run */
+  justify-self: start;
 }
 .variant-title-line.witness-syr .variant-title-text {
   font-family: 'Noto Sans Syriac', 'EB Garamond', serif;
