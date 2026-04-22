@@ -21,11 +21,20 @@ class Corpus:
     def __post_init__(self) -> None:
         with Path(self.csv_path).open("r", encoding="utf-8", newline="") as f:
             reader = csv.DictReader(f)
+            # Support corpora whose text column isn't called "text" (e.g. ARA's
+            # peshitta_nt.csv uses "syriac"). Pick the first non-metadata column.
+            fieldnames = reader.fieldnames or []
+            text_col = "text"
+            if text_col not in fieldnames:
+                for candidate in ("syriac", "latin", "hebrew", "greek"):
+                    if candidate in fieldnames:
+                        text_col = candidate
+                        break
             for row in reader:
                 book = row["book"]
                 ch = int(row["chapter"])
                 v = int(row["verse"])
-                self._index[(book, ch, v)] = row["text"]
+                self._index[(book, ch, v)] = row[text_col]
                 self._chapters.setdefault((book, ch), []).append(v)
         for key in self._chapters:
             self._chapters[key].sort()

@@ -1,0 +1,43 @@
+<article class="verse-card" data-chapter="{{ chapter }}" data-verse="{{ verse }}">
+  <header class="verse-header">
+    <h2>Mark {{ chapter }}:{{ verse }}</h2>
+    {% if alignment_pending %}
+      <span class="badge alignment-pending">alignment pending</span>
+    {% endif %}
+    <nav class="verse-nav">
+      {% set prev_v = verse - 1 %}
+      {% set next_v = verse + 1 %}
+      <a class="nav-prev" href="/mark/{{ chapter }}/{{ prev_v }}"
+         hx-get="/partials/verse/mark/{{ chapter }}/{{ prev_v }}"
+         hx-push-url="/mark/{{ chapter }}/{{ prev_v }}"
+         hx-target="#verse-container" hx-swap="innerHTML">← prev</a>
+      <a class="nav-next" href="/mark/{{ chapter }}/{{ next_v }}"
+         hx-get="/partials/verse/mark/{{ chapter }}/{{ next_v }}"
+         hx-push-url="/mark/{{ chapter }}/{{ next_v }}"
+         hx-target="#verse-container" hx-swap="innerHTML">next →</a>
+    </nav>
+  </header>
+
+  <div class="verse-columns">
+    {% for tid, label, dir in traditions %}
+      <section class="trad-col" data-tradition="{{ tid }}" dir="{{ dir }}">
+        <span class="trad-label">{{ label }}</span>
+        <div class="trad-text {{ tid }}">
+          {{ render_tokens_html(alignment, tid) | safe }}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+
+  {% set notes = alignment.alignment | selectattr("note") | list %}
+  {% if notes %}
+    <div class="commentary">
+      <h3>Variant notes</h3>
+      <ul>
+        {% for group in notes %}
+          <li><span class="variant-dot {{ group.variant }}"></span>{{ group.note }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</article>

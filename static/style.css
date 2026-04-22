@@ -30,3 +30,53 @@ html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
 .footer { text-align: center; padding: 20px; color: var(--muted);
   border-top: 1px solid var(--border); }
 .footer a { color: var(--muted); }
+
+/* Verse card */
+.verse-card { background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; padding: 20px; margin: 20px 0; }
+.verse-header { display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 12px;
+  flex-wrap: wrap; gap: 12px; }
+.verse-header h2 { margin: 0; font-size: 1.4em; }
+.verse-nav a, .verse-nav span { color: var(--accent); text-decoration: none; margin-left: 12px; }
+.verse-nav a:hover { text-decoration: underline; }
+.verse-nav .disabled { color: var(--muted); cursor: default; }
+
+.verse-columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+@media (max-width: 800px) { .verse-columns { grid-template-columns: 1fr; } }
+
+.trad-col { padding: 12px; border-right: 1px solid var(--border); }
+.trad-col:last-child { border-right: none; }
+@media (max-width: 800px) { .trad-col { border-right: none;
+  border-bottom: 1px solid var(--border); } }
+
+.trad-label { display: block; font-size: 10px; text-transform: uppercase;
+  letter-spacing: 1.5px; color: var(--muted); margin-bottom: 8px; }
+.trad-text { line-height: 1.7; font-size: 1.05em; }
+.trad-text.greek_nt { font-family: 'GFS Didot', 'Cardo', 'Times New Roman', serif; }
+.trad-text.peshitta { font-family: 'Estrangelo Edessa', 'Serto Jerusalem', serif;
+  font-size: 1.2em; }
+.trad-text.vulgate { font-family: 'Cardo', 'Times New Roman', serif; font-style: italic; }
+
+/* Variant coloring */
+.tok { padding: 1px 0; }
+.tok.aligned {}
+.tok.minor { text-decoration: underline wavy var(--minor);
+  text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.tok.major { text-decoration: underline wavy var(--major);
+  text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.tok.omitted, .tok.added { text-decoration: underline dotted var(--muted); }
+
+.badge { display: inline-block; padding: 2px 8px; border-radius: 10px;
+  background: var(--border); color: var(--muted); font-size: 11px; }
+
+.commentary { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);
+  font-size: 0.9em; }
+.commentary h3 { font-size: 12px; text-transform: uppercase;
+  letter-spacing: 1.5px; color: var(--muted); margin: 0 0 8px; }
+.variant-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  margin-right: 8px; vertical-align: middle; }
+.variant-dot.minor { background: var(--minor); }
+.variant-dot.major { background: var(--major); }
+
+.tok-absent { color: var(--muted); font-style: italic; }
