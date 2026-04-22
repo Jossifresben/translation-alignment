@@ -291,7 +291,13 @@ body::before {
   background: var(--gold-soft);
 }
 .align-row.is-variant-active {
-  background: var(--rubric-soft);
+  background: var(--rubric-soft);   /* fallback — shouldn't normally fire alone */
+}
+.align-row.is-major-variant-active {
+  background: var(--rubric-soft);   /* major → rose */
+}
+.align-row.is-minor-variant-active {
+  background: var(--sage-soft);     /* minor → sage green */
 }
 
 .align-num {
@@ -363,11 +369,15 @@ body::before {
   box-shadow: inset 0 -3px 0 -1px var(--rubric-soft);
 }
 .tok.is-variant.is-variant-active {
-  background: var(--rubric-soft);
   text-decoration-style: solid;
 }
 .tok.is-variant.v-minor.is-variant-active {
-  background: var(--parchment-3);
+  background: var(--sage-soft);    /* minor hover stays green */
+}
+.tok.is-variant.v-major.is-variant-active,
+.tok.is-variant.v-omitted.is-variant-active,
+.tok.is-variant.v-added.is-variant-active {
+  background: var(--rubric-soft);  /* major hover stays rose */
 }
 .tok.is-unaligned {
   color: var(--ink-3);
@@ -430,6 +440,14 @@ body::before {
   background: var(--gold-soft);
 }
 .inter-group.is-variant {
+  background: var(--rubric-soft);  /* fallback */
+}
+.inter-group.is-variant.v-minor {
+  background: var(--sage-soft);
+}
+.inter-group.is-variant.v-major,
+.inter-group.is-variant.v-omitted,
+.inter-group.is-variant.v-added {
   background: var(--rubric-soft);
 }
 .inter-tok {

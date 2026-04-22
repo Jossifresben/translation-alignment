@@ -19,7 +19,8 @@
     $$(".tok.is-active").forEach(el => el.classList.remove("is-active"));
     $$(".tok.is-variant-active").forEach(el => el.classList.remove("is-variant-active"));
     $$(".align-row.is-active").forEach(el => el.classList.remove("is-active"));
-    $$(".align-row.is-variant-active").forEach(el => el.classList.remove("is-variant-active"));
+    $$(".align-row.is-variant-active, .align-row.is-minor-variant-active, .align-row.is-major-variant-active")
+      .forEach(el => el.classList.remove("is-variant-active", "is-minor-variant-active", "is-major-variant-active"));
     $$(".inter-group.is-active").forEach(el => el.classList.remove("is-active"));
   }
 
@@ -32,11 +33,21 @@
 
   function activateVariant(variantId) {
     if (!variantId) return;
-    $$(`.tok[data-variant="${variantId}"]`).forEach(el => el.classList.add("is-variant-active"));
-    // Mark rows containing variant tokens
+    const variantTokens = $$(`.tok[data-variant="${variantId}"]`);
+    variantTokens.forEach(el => el.classList.add("is-variant-active"));
+    // Infer kind (minor vs major-family) from any variant token's class
+    let kind = "major"; // default if v-* class missing
+    for (const t of variantTokens) {
+      if (t.classList.contains("v-minor")) { kind = "minor"; break; }
+      if (t.classList.contains("v-major") || t.classList.contains("v-omitted") || t.classList.contains("v-added")) {
+        kind = "major"; break;
+      }
+    }
+    // Mark rows containing variant tokens with kind-tagged class
     $$(".align-row").forEach(row => {
       if (row.querySelector(`.tok[data-variant="${variantId}"]`)) {
         row.classList.add("is-variant-active");
+        row.classList.add(kind === "minor" ? "is-minor-variant-active" : "is-major-variant-active");
       }
     });
   }

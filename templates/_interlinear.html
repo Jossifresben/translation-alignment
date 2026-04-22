@@ -10,16 +10,17 @@
   {% for chunk in chunks %}
     <div class="interlinear-row">
       {% for row in chunk %}
-        {% set has_variant = namespace(flag=False, vid=None) %}
+        {% set has_variant = namespace(flag=False, vid=None, kind=None) %}
         {% for w in verse.witnesses %}
           {% for t in row.cells[w.id] %}
             {% if t.v and not has_variant.vid %}
               {% set has_variant.flag = True %}
               {% set has_variant.vid = t.v %}
+              {% set has_variant.kind = t.variant_type or 'major' %}
             {% endif %}
           {% endfor %}
         {% endfor %}
-        <div class="inter-group {{ 'is-variant' if has_variant.flag else '' }}"
+        <div class="inter-group {% if has_variant.flag %}is-variant v-{{ has_variant.kind }}{% endif %}"
              data-row="{{ row.id }}"
              {% if has_variant.vid %}data-variant="{{ has_variant.vid }}"{% endif %}>
           {% for w in verse.witnesses %}
