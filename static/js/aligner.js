@@ -71,18 +71,136 @@
   document.addEventListener("mouseover", onEnter);
   document.addEventListener("mouseout", onLeave);
 
-  // ── Click a variant token → go to apparatus ────────────
+  // ── Variants data (embedded by verse.html) ─────────────
+  let VARIANTS_BY_ID = {};
+  const variantsScript = document.getElementById("variants-data");
+  if (variantsScript) {
+    try {
+      const arr = JSON.parse(variantsScript.textContent) || [];
+      for (const v of arr) VARIANTS_BY_ID[v.id] = v;
+    } catch (_e) { VARIANTS_BY_ID = {}; }
+  }
+
+  // ── Click a variant token → go to apparatus (plain click)
+  //    Shift-click or info-icon click → inline popover  ──────
   document.addEventListener("click", (e) => {
+    // If the click landed on the explicit info icon, open popover
+    const info = e.target.closest(".variant-info");
     const tok = e.target.closest(".tok[data-variant]");
     const grp = e.target.closest(".inter-group[data-variant]");
-    const target = tok || grp;
+    const target = info ? info.closest("[data-variant]") : (tok || grp);
     if (!target) return;
     const v = target.dataset.variant;
+    if (e.shiftKey || info) {
+      e.preventDefault();
+      e.stopPropagation();
+      showVariantPopover(target, v);
+      return;
+    }
     const params = new URLSearchParams(window.location.search);
     params.set("view", "apparatus");
     params.set("variant", v);
     const url = window.location.pathname + "?" + params.toString() + "#variant-" + v;
     window.location.href = url;
+  });
+
+  function closeVariantPopover() {
+    const existing = document.getElementById("active-variant-popover");
+    if (existing) existing.remove();
+  }
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function buildVariantPopoverHTML(variant) {
+    // Title may be a string or a list of {label, text, dir, witness_id}
+    let titleHTML = "";
+    if (Array.isArray(variant.title)) {
+      titleHTML = variant.title.map(p => {
+        const dir = p.dir ? ` dir="${escapeHtml(p.dir)}"` : "";
+        return `<div class="vp-title-line witness-${escapeHtml(p.witness_id || "")}">`
+             + `<span class="vp-title-label">${escapeHtml(p.label || "")}</span>`
+             + `<span class="vp-title-text"${dir}>${escapeHtml(p.text || "")}</span>`
+             + `</div>`;
+      }).join("");
+    } else if (variant.title) {
+      titleHTML = `<h4 class="vp-title">${escapeHtml(variant.title)}</h4>`;
+    }
+
+    // Sigla chips — we don't know the full witness list here, so render any
+    // attested ones; the apparatus view has the authoritative layout.
+    const attested = Array.isArray(variant.witnesses) ? variant.witnesses : [];
+    const chipsHTML = attested.map(wid =>
+      `<span class="sigil-chip attested">${escapeHtml(wid)}</span>`
+    ).join("");
+
+    const type = variant.type || "";
+    const label = variant.label || "";
+    const summary = variant.summary || "";
+
+    const params = new URLSearchParams(window.location.search);
+    params.set("view", "apparatus");
+    params.set("variant", variant.id);
+    const jumpHref = window.location.pathname + "?" + params.toString() + "#variant-" + variant.id;
+
+    return `
+      <header class="vp-head">
+        <span class="variant-type ${escapeHtml(type)} vp-type">${escapeHtml(type)}</span>
+        <span class="vp-label">${escapeHtml(label)}</span>
+      </header>
+      ${chipsHTML ? `<div class="vp-witnesses">${chipsHTML}</div>` : ""}
+      ${titleHTML ? `<div class="vp-title-block">${titleHTML}</div>` : ""}
+      ${summary ? `<p class="vp-summary">${escapeHtml(summary)}</p>` : ""}
+      <div class="vp-footer">
+        <a class="vp-jump" href="${escapeHtml(jumpHref)}">Open in apparatus ›</a>
+        <span class="vp-hint">Esc to close</span>
+      </div>
+    `;
+  }
+
+  function showVariantPopover(anchor, variantId) {
+    closeVariantPopover();
+    const variant = VARIANTS_BY_ID[variantId];
+    if (!variant) return;
+    const pop = document.createElement("div");
+    pop.id = "active-variant-popover";
+    pop.className = "variant-popover";
+    pop.innerHTML = buildVariantPopoverHTML(variant);
+    document.body.appendChild(pop);
+    const r = anchor.getBoundingClientRect();
+    // Prefer placing below; flip above if near viewport bottom
+    const popH = pop.offsetHeight;
+    const viewportH = window.innerHeight;
+    let top = window.scrollY + r.bottom + 6;
+    if (r.bottom + popH + 12 > viewportH && r.top - popH - 12 > 0) {
+      top = window.scrollY + r.top - popH - 6;
+    }
+    let left = window.scrollX + r.left;
+    // Nudge within viewport horizontally
+    const popW = pop.offsetWidth;
+    const maxLeft = window.scrollX + window.innerWidth - popW - 12;
+    if (left > maxLeft) left = Math.max(window.scrollX + 12, maxLeft);
+    pop.style.top = top + "px";
+    pop.style.left = left + "px";
+
+    setTimeout(() => {
+      document.addEventListener("click", function outside(e) {
+        if (!pop.contains(e.target)) {
+          closeVariantPopover();
+          document.removeEventListener("click", outside);
+        }
+      });
+    }, 0);
+  }
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeVariantPopover();
   });
 
   // ── Tweaks panel ───────────────────────────────────────

@@ -50,6 +50,9 @@
   <script id="book-index-data" type="application/json">
     {{ book_index|tojson }}
   </script>
+  <script id="variants-data" type="application/json">
+    {{ verse.variants|tojson }}
+  </script>
 
   <nav class="mode-tabs" role="tablist">
     {% set tabs = [

@@ -81,3 +81,28 @@ def test_tooltip_greek_404_for_missing_token(client):
 def test_tooltip_peshitta_404_for_missing_token(client):
     resp = client.get("/tooltip/peshitta/99/99/0")
     assert resp.status_code == 404
+
+
+def test_variants_data_embedded_in_verse_page(client):
+    src = Path("data/alignments/_fixtures/alignment_mark_1_1.json")
+    dst = Path("data/alignments/mark/1/1.json")
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    backup = dst.read_bytes() if dst.exists() else None
+    shutil.copy(src, dst)
+    try:
+        resp = client.get("/verse/mark/1/1")
+        body = resp.data.decode("utf-8")
+        assert 'id="variants-data"' in body
+    finally:
+        if backup is not None:
+            dst.write_bytes(backup)
+        else:
+            dst.unlink(missing_ok=True)
+
+
+def test_interlinear_partial_renders_tok_spans(client):
+    resp = client.get("/verse/mark/1/1/partial/interlinear")
+    assert resp.status_code == 200
+    body = resp.data.decode("utf-8")
+    # Interlinear tokens should now carry data-align attributes (per-token markup)
+    assert 'data-align=' in body

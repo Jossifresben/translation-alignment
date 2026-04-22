@@ -1,3 +1,4 @@
+{% from "macros.html" import render_token %}
 {% set grid = build_grid(verse) %}
 
 <section class="interlinear" data-view="interlinear">
@@ -25,9 +26,15 @@
              {% if has_variant.vid %}data-variant="{{ has_variant.vid }}"{% endif %}>
           {% for w in verse.witnesses %}
             {% set toks = row.cells[w.id] | selectattr('punct', 'undefined') | list %}
-            {% set text = toks | map(attribute='t') | join(' ') %}
-            <div class="inter-tok {{ w.id }}" data-script="{{ w.script }}">
-              {% if text %}{{ text }}{% else %}<span class="empty">—</span>{% endif %}
+            <div class="inter-tok {{ w.id }}"
+                 data-script="{{ w.script }}"
+                 data-witness="{{ w.id }}"
+                 {% if w.dir %}dir="{{ w.dir }}"{% endif %}>
+              {% if toks %}
+                {% for tok in toks %}{{ render_token(tok) }}{% if not loop.last %} {% endif %}{% endfor %}
+              {% else %}
+                <span class="empty">—</span>
+              {% endif %}
             </div>
           {% endfor %}
           <div class="inter-label">{{ row.id }}</div>

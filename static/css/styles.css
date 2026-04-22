@@ -530,10 +530,29 @@ body::before {
 .inter-tok.lat {
   font-style: italic;
 }
-.inter-tok.empty {
+.inter-tok .empty {
   color: var(--ink-4);
   font-family: 'JetBrains Mono', monospace;
   font-size: 11px;
+}
+
+/* Tokens rendered inside an inter-group: preserve size/feel of raw text,
+   and suppress per-token background tints — the group already carries
+   the variant/aligned color. Keep variant underlines (they reinforce kind). */
+.inter-group .tok {
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+.inter-group .tok:hover {
+  background: var(--gold-hover);
+}
+.inter-group .tok.is-variant-active {
+  background: transparent;
 }
 .inter-label {
   font-family: 'JetBrains Mono', monospace;
@@ -1014,3 +1033,108 @@ body.dark::before {
   font-size: 16px;
   color: var(--ink);
 }
+
+/* ─── Inline variant popover (Shift-click) ────────────────── */
+.variant-popover {
+  position: absolute;
+  background: var(--parchment);
+  border: 1px solid var(--rule-2);
+  border-radius: 8px;
+  padding: 16px 20px;
+  max-width: 420px;
+  min-width: 260px;
+  font-family: 'EB Garamond', serif;
+  font-size: 15.5px;
+  color: var(--ink);
+  line-height: 1.55;
+  box-shadow: var(--shadow-md), 0 12px 32px oklch(0.22 0.012 60 / 0.14);
+  z-index: 1000;
+}
+.variant-popover .vp-head {
+  display: flex; align-items: center; gap: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--rule);
+}
+.variant-popover .vp-type {
+  /* inherits .variant-type color tokens */
+}
+.variant-popover .vp-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.variant-popover .vp-witnesses {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  margin-bottom: 10px;
+}
+.variant-popover .vp-title-block { margin-bottom: 10px; }
+.variant-popover .vp-title {
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+.variant-popover .vp-title-line {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 10px;
+  align-items: baseline;
+  padding: 3px 0;
+}
+.variant-popover .vp-title-line + .vp-title-line {
+  border-top: 1px dashed var(--rule);
+  padding-top: 5px;
+  margin-top: 2px;
+}
+.variant-popover .vp-title-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+.variant-popover .vp-title-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: left;
+  unicode-bidi: isolate;
+  justify-self: start;
+}
+.variant-popover .vp-title-line.witness-syr .vp-title-text {
+  font-family: 'Noto Sans Syriac', 'EB Garamond', serif;
+  font-size: 19px;
+}
+.variant-popover .vp-title-line.witness-vul .vp-title-text {
+  font-style: italic;
+}
+.variant-popover .vp-summary {
+  font-family: 'EB Garamond', serif;
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0 0 12px;
+  max-width: 48ch;
+}
+.variant-popover .vp-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.variant-popover .vp-jump {
+  color: var(--rubric);
+  text-decoration: none;
+  font-weight: 600;
+}
+.variant-popover .vp-jump:hover { text-decoration: underline; }
+.variant-popover .vp-hint { color: var(--ink-4); }
