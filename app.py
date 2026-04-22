@@ -38,6 +38,31 @@ CORPUS_FILES = {
 }
 
 
+def _neighbor(chapter: int, verse: int, direction: int) -> tuple[int, int] | None:
+    """Return (chapter, verse) of the neighbor in the given direction (+1 or -1).
+
+    Uses the Greek NT corpus as the master reference for which verses exist.
+    """
+    try:
+        master = _corpora.get("greek_nt")
+    except KeyError:
+        return None
+    if direction == +1:
+        if master.has_verse("Mark", chapter, verse + 1):
+            return (chapter, verse + 1)
+        if master.has_verse("Mark", chapter + 1, 1):
+            return (chapter + 1, 1)
+        return None
+    else:
+        if verse > 1 and master.has_verse("Mark", chapter, verse - 1):
+            return (chapter, verse - 1)
+        if chapter > 1:
+            verses = master.verses_in_chapter("Mark", chapter - 1)
+            if verses:
+                return (chapter - 1, verses[-1])
+        return None
+
+
 def _init() -> None:
     global _i18n, _corpora, _alignments, _initialized
     if _initialized:
@@ -88,12 +113,16 @@ def viewer(chapter: int, verse: int):
         if alignment is None:
             abort(404)
         alignment_pending = True
+    prev_v = _neighbor(chapter, verse, -1)
+    next_v = _neighbor(chapter, verse, +1)
     return render_template(
         "viewer.html",
         alignment=alignment,
         alignment_pending=alignment_pending,
         chapter=chapter,
         verse=verse,
+        prev=prev_v,
+        next=next_v,
         render_tokens_html=render_tokens_html,
     )
 
@@ -107,12 +136,16 @@ def viewer_partial(chapter: int, verse: int):
         if alignment is None:
             abort(404)
         alignment_pending = True
+    prev_v = _neighbor(chapter, verse, -1)
+    next_v = _neighbor(chapter, verse, +1)
     return render_template(
         "_verse.html",
         alignment=alignment,
         alignment_pending=alignment_pending,
         chapter=chapter,
         verse=verse,
+        prev=prev_v,
+        next=next_v,
         render_tokens_html=render_tokens_html,
     )
 

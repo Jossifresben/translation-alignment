@@ -69,3 +69,20 @@ def test_viewer_returns_404_for_nonexistent_verse(client):
 def test_viewer_redirects_bad_chapter_verse_format(client):
     resp = client.get("/mark/abc/xyz")
     assert resp.status_code == 404
+
+
+def test_nav_wraps_to_next_chapter_at_chapter_end(client):
+    import shutil
+    from pathlib import Path
+    src = Path("data/alignments/_fixtures/alignment_mark_1_1.json")
+    dst = Path("data/alignments/mark/1/1.json")
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy(src, dst)
+    try:
+        resp = client.get("/mark/1/1")
+        body = resp.data.decode("utf-8")
+        assert "/mark/1/2" in body
+        assert "/mark/1/0" not in body
+        assert "/mark/0/" not in body
+    finally:
+        dst.unlink()

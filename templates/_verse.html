@@ -5,16 +5,22 @@
       <span class="badge alignment-pending">alignment pending</span>
     {% endif %}
     <nav class="verse-nav">
-      {% set prev_v = verse - 1 %}
-      {% set next_v = verse + 1 %}
-      <a class="nav-prev" href="/mark/{{ chapter }}/{{ prev_v }}"
-         hx-get="/partials/verse/mark/{{ chapter }}/{{ prev_v }}"
-         hx-push-url="/mark/{{ chapter }}/{{ prev_v }}"
-         hx-target="#verse-container" hx-swap="innerHTML">← prev</a>
-      <a class="nav-next" href="/mark/{{ chapter }}/{{ next_v }}"
-         hx-get="/partials/verse/mark/{{ chapter }}/{{ next_v }}"
-         hx-push-url="/mark/{{ chapter }}/{{ next_v }}"
-         hx-target="#verse-container" hx-swap="innerHTML">next →</a>
+      {% if prev %}
+        <a class="nav-prev" href="/mark/{{ prev[0] }}/{{ prev[1] }}"
+           hx-get="/partials/verse/mark/{{ prev[0] }}/{{ prev[1] }}"
+           hx-push-url="/mark/{{ prev[0] }}/{{ prev[1] }}"
+           hx-target="#verse-container" hx-swap="innerHTML">← {{ prev[0] }}:{{ prev[1] }}</a>
+      {% else %}
+        <span class="nav-prev disabled">← start</span>
+      {% endif %}
+      {% if next %}
+        <a class="nav-next" href="/mark/{{ next[0] }}/{{ next[1] }}"
+           hx-get="/partials/verse/mark/{{ next[0] }}/{{ next[1] }}"
+           hx-push-url="/mark/{{ next[0] }}/{{ next[1] }}"
+           hx-target="#verse-container" hx-swap="innerHTML">{{ next[0] }}:{{ next[1] }} →</a>
+      {% else %}
+        <span class="nav-next disabled">end →</span>
+      {% endif %}
     </nav>
   </header>
 
