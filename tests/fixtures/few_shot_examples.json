@@ -1,0 +1,19 @@
+{
+  "Mark 1:1": {
+    "input": {
+      "greek_tokens": ["Ἀρχὴ", "τοῦ", "εὐαγγελίου", "Ἰησοῦ", "Χριστοῦ", "υἱοῦ", "θεοῦ"],
+      "peshitta_tokens": ["ܪܫܐ", "ܕܐܘܢܓܠܝܘܢ", "ܕܝܫܘܥ", "ܡܫܝܚܐ", "ܒܪܗ", "ܕܐܠܗܐ"],
+      "vulgate_tokens": ["Initium", "evangelii", "Iesu", "Christi", "Filii", "Dei"]
+    },
+    "output": {
+      "alignment": [
+        {"greek_nt": [0], "peshitta": [0], "vulgate": [0], "variant": "aligned"},
+        {"greek_nt": [1, 2], "peshitta": [1], "vulgate": [1], "variant": "aligned"},
+        {"greek_nt": [3, 4], "peshitta": [2, 3], "vulgate": [2, 3], "variant": "aligned"},
+        {"greek_nt": [5, 6], "peshitta": [4, 5], "vulgate": [4, 5], "variant": "minor",
+         "note": "Vulgate Filii Dei uses post-classical Latin genitive construction"}
+      ],
+      "confidence": 0.95
+    }
+  }
+}
