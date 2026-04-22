@@ -641,9 +641,8 @@ body::before {
 }
 
 .legend-item {
-  display: flex; align-items: center; gap: 10px;
-  padding: 8px 0;
-  font-size: 12.5px;
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 12px 0;
   color: var(--ink-2);
   border-bottom: 1px dashed var(--rule);
 }
@@ -657,19 +656,20 @@ body::before {
 .legend-swatch.variant { background: var(--rubric-soft); border-bottom: 2px dotted var(--rubric); }
 .legend-swatch.unaligned { background: var(--parchment-3); border: 1px dashed var(--ink-4); }
 
-/* Legend samples — actual token-style exemplars, prominent */
+/* Legend samples — full-width token-style panels, label inside */
 .legend-sample {
   font-family: 'EB Garamond', serif;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   color: var(--ink);
-  flex-shrink: 0;
-  min-width: 96px;
+  width: 100%;
   text-align: center;
-  padding: 10px 14px;
-  border-radius: 4px;
+  padding: 14px 10px;
+  border-radius: 5px;
   background: var(--parchment);
   border: 1px solid var(--rule);
+  box-sizing: border-box;
 }
 .legend-sample.sample-aligned {
   background: var(--gold-soft);
@@ -708,28 +708,14 @@ body::before {
 }
 .legend-dot-mark { color: var(--ink-4); font-size: 11px; vertical-align: super; }
 
-/* Tighter stacking for the bigger samples */
-.legend-item {
-  gap: 14px;
-  padding: 12px 0;
-  align-items: flex-start;
-}
+/* (legend-item spacing already handled in the main rule above) */
 
 .legend-desc {
-  flex: 1;
-  min-width: 0;
-}
-.legend-desc strong {
-  display: block;
-  font-weight: 600;
-  color: var(--ink);
-  font-size: 14.5px;
-  margin-bottom: 2px;
-}
-.legend-desc small {
+  margin: 0;
+  padding: 0 2px;
   color: var(--ink-3);
-  font-size: 12.5px;
-  line-height: 1.4;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 /* Stats */
