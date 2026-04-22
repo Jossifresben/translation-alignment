@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Translation Alignment{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://unpkg.com/htmx.org@2.0.2"></script>
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href="{{ url_for('index') }}">Translation Alignment</a>
+    <div class="nav-right">
+      <a href="/about">About</a>
+    </div>
+  </nav>
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="footer">
+    <small>Parallel biblical text viewer — MVP · <a href="/about">Methodology</a></small>
+  </footer>
+</body>
+</html>
