@@ -286,6 +286,20 @@ def tooltip_peshitta(chapter: int, verse: int, token_idx: int):
     return render_template("_tooltip_peshitta.html", entry=entry)
 
 
+@app.route("/about")
+def about():
+    benchmark_path = DATA_DIR / "benchmarks" / "berean_preflight.json"
+    benchmark = None
+    if benchmark_path.exists():
+        try:
+            benchmark = json.loads(benchmark_path.read_text(encoding="utf-8"))
+        except Exception:
+            benchmark = None
+    return render_template("about.html", benchmark=benchmark,
+                            view=None, theme=request.args.get("theme", "light"),
+                            show_rail=False, verse=None)
+
+
 @app.errorhandler(404)
 def not_found(_e):
     return render_template("404.html"), 404

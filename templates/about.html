@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}About — Translation Aligner{% endblock %}
+{% block brand_meta %}Methodology{% endblock %}
+{% block content %}
+<section class="about-page">
+  <header class="about-head">
+    <h1>About the Translation Aligner</h1>
+    <p class="about-lede">
+      A focus-verse viewer for the Gospel of Mark across three textual witnesses —
+      Greek NT, Syriac Peshitta, and Latin Clementine Vulgate — with word-level
+      alignment and a scholarly critical apparatus.
+    </p>
+  </header>
+
+  <h2>Methodology</h2>
+  <p>Every verse in Mark has been aligned word-by-word across the three
+    witnesses by Anthropic's Claude Sonnet 4.5 via the Batch API. Each alignment
+    group records a <strong>variant verdict</strong> — <em>aligned</em>,
+    <em>minor</em>, <em>major</em>, <em>omitted</em>, or <em>added</em> — plus a
+    <strong>semantic type</strong> (agreement, construction, harmonisation,
+    substitution, idiom, etc.) and, for every non-aligned group, one to two
+    sentences of scholarly prose suitable for a critical apparatus.</p>
+
+  <p>Results are pre-computed and stored as per-verse JSON files in the
+    repository — the running viewer has no runtime LLM dependency.</p>
+
+  {% if benchmark %}
+    <h2>Methodology validation</h2>
+    <p>We validated Claude's alignment against the
+      <a href="https://biblehub.com/interlinear/mark/">Berean Interlinear</a>'s
+      Greek↔English word alignment on a sample of
+      <strong>{{ benchmark.sample_size }}</strong> Mark verses. Agreement rate:
+      <strong>{{ "%.1f" | format(benchmark.agreement_rate * 100) }}%</strong>
+      of tokens. Recorded on {{ benchmark.run_at }} using
+      <code>{{ benchmark.model }}</code>. Berean is used only as a
+      methodology benchmark — not as display data in the viewer.</p>
+  {% endif %}
+
+  <h2>Data sources</h2>
+  <dl class="about-sources">
+    <dt>Greek NT (tagged)</dt>
+    <dd>STEP Bible TAGNT from Tyndale House Cambridge, CC BY 4.0, via
+      <a href="https://github.com/STEPBible/STEPBible-Data">github.com/STEPBible/STEPBible-Data</a></dd>
+    <dt>Peshitta NT</dt>
+    <dd>Via the Aramaic Root Atlas corpus</dd>
+    <dt>Clementine Vulgate</dt>
+    <dd>Public domain, via
+      <a href="https://github.com/seven1m/open-bibles">seven1m/open-bibles</a> (USFX)</dd>
+    <dt>English verse gloss</dt>
+    <dd>World English Bible (WEB), public domain</dd>
+    <dt>Peshitta roots, cognates, and sister-roots</dt>
+    <dd>Aramaic Root Atlas — triliteral root extraction + Hebrew/Arabic cognate mapping</dd>
+    <dt>Alignment validation benchmark</dt>
+    <dd>Berean Interlinear (BibleHub) — methodology check only</dd>
+    <dt>Alignment generation</dt>
+    <dd>Anthropic Claude Sonnet 4.5</dd>
+  </dl>
+
+  <h2>Viewer inspiration</h2>
+  <p>The three-view layout (interlinear, alignment grid, critical apparatus)
+    and the token-level variant highlighting are inspired by
+    Professor Zhang Chen's <em>bible-mt5</em> parallel viewer at
+    University of International Business and Economics, Beijing.</p>
+
+  <h2>Versification</h2>
+  <p>Verse labels follow NA28 numbering. The Clementine Vulgate uses a
+    different verse split in some chapters; where necessary (notably Mark 9
+    and Mark 4:40–41) we've remapped the Vulgate text to the NA28 boundaries.
+    See the repository's <code>known-issues.md</code> for the complete list
+    of edits.</p>
+
+  <h2>License &amp; reuse</h2>
+  <p>The viewer code is released under an open-source license; the derived
+    alignment JSON is produced from sources with mixed licenses (CC BY 4.0,
+    public domain) — redistribute with attribution to the upstream sources.</p>
+
+  <h2>Contact</h2>
+  <p>Feedback welcome — open an issue on the
+    <a href="https://github.com/Jossifresben/translation-alignment">GitHub repository</a>.</p>
+</section>
+{% endblock %}

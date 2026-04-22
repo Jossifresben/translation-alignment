@@ -124,3 +124,17 @@ def test_search_reference_shortcut(client):
 def test_search_empty_query_returns_empty(client):
     resp = client.get("/search?q=")
     assert resp.get_json() == {"results": []}
+
+
+def test_about_page_renders(client):
+    resp = client.get("/about")
+    assert resp.status_code == 200
+    body = resp.data.decode("utf-8")
+    assert "About the Translation Aligner" in body
+    assert "STEP" in body
+
+
+def test_topbar_has_about_link(client):
+    resp = client.get("/verse/mark/1/1")
+    body = resp.data.decode("utf-8")
+    assert 'href="/about"' in body
