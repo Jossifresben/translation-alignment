@@ -1148,6 +1148,7 @@ body.dark::before {
   z-index: 1000;
 }
 .search-modal {
+  position: relative;
   background: var(--parchment);
   border: 1px solid var(--rule-2);
   border-radius: 10px;
@@ -1155,6 +1156,30 @@ body.dark::before {
   width: 100%;
   max-width: 640px;
   overflow: hidden;
+}
+.search-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--rule);
+  background: var(--parchment-2);
+  border-radius: 50%;
+  color: var(--ink-3);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+  z-index: 1;
+}
+.search-close:hover {
+  background: var(--rubric-soft);
+  border-color: var(--rubric);
+  color: var(--rubric);
 }
 #search-input {
   width: 100%;

@@ -356,39 +356,77 @@ function showTooltip(anchor, html) {
   let lastResults = [];
   let debounceTimer = null;
 
-  function open() {
+  function openPalette() {
     overlay.hidden = false;
+    overlay.setAttribute("data-open", "1");
     requestAnimationFrame(() => input.focus());
     input.select();
   }
-  function close() {
+  function closePalette() {
     overlay.hidden = true;
+    overlay.removeAttribute("data-open");
+    input.value = "";
     results.innerHTML = "";
     lastResults = [];
     activeIdx = 0;
   }
 
-  if (trigger) trigger.addEventListener("click", open);
+  if (trigger) {
+    trigger.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      openPalette();
+    });
+  }
+
+  // Close button inside the modal (injected if missing)
+  let closeBtn = document.getElementById("search-close");
+  if (!closeBtn) {
+    closeBtn = document.createElement("button");
+    closeBtn.id = "search-close";
+    closeBtn.className = "search-close";
+    closeBtn.type = "button";
+    closeBtn.setAttribute("aria-label", "Close search");
+    closeBtn.textContent = "×";
+    const modal = overlay.querySelector(".search-modal");
+    if (modal) modal.appendChild(closeBtn);
+  }
+  closeBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    closePalette();
+  });
 
   document.addEventListener("keydown", (e) => {
     const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
     if ((isMac && e.metaKey && e.key === "k") || (!isMac && e.ctrlKey && e.key === "k")) {
       e.preventDefault();
-      open();
+      openPalette();
       return;
     }
     if (overlay.hidden) return;
-    if (e.key === "Escape") { e.preventDefault(); close(); return; }
+    if (e.key === "Escape") {
+      e.preventDefault();
+      e.stopPropagation();
+      closePalette();
+      return;
+    }
     if (e.key === "ArrowDown") { e.preventDefault(); moveActive(+1); return; }
     if (e.key === "ArrowUp")   { e.preventDefault(); moveActive(-1); return; }
     if (e.key === "Enter" && lastResults[activeIdx]) {
       e.preventDefault();
       navigateTo(lastResults[activeIdx]);
     }
-  });
+  }, true);  // capture phase, runs before input's own keydown bubble
 
-  overlay.addEventListener("click", (e) => {
-    if (e.target === overlay) close();
+  // Click anywhere OUTSIDE the modal closes the palette.
+  // mousedown (not click) so the close fires even if the mouseup lands on
+  // another element — more forgiving when users drag slightly.
+  document.addEventListener("mousedown", (e) => {
+    if (overlay.hidden) return;
+    if (e.target.closest(".search-modal")) return;   // click inside modal: keep open
+    if (e.target.closest("#search-trigger")) return; // trigger button handles itself
+    closePalette();
   });
 
   input.addEventListener("input", () => {
@@ -437,7 +475,7 @@ function showTooltip(anchor, html) {
   }
 
   function navigateTo(r) {
-    close();
+    closePalette();
     window.location.href = `/verse/mark/${r.chapter}/${r.verse}`;
   }
 
