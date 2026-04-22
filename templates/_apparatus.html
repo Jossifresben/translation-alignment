@@ -29,9 +29,9 @@
                 {{ v.title }}
               {% else %}
                 {% for p in v.title %}
-                  <div class="variant-title-line witness-{{ p.witness_id }}" dir="{{ p.dir }}">
+                  <div class="variant-title-line witness-{{ p.witness_id }}">
                     <span class="variant-title-label">{{ p.label }}</span>
-                    <span class="variant-title-text">{{ p.text }}</span>
+                    <span class="variant-title-text" dir="{{ p.dir }}">{{ p.text }}</span>
                   </div>
                 {% endfor %}
               {% endif %}
