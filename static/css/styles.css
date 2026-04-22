@@ -1258,6 +1258,60 @@ body.dark::before {
   padding: 0 8px;
 }
 .about-head { margin-bottom: 40px; border-bottom: 1px solid var(--rule); padding-bottom: 28px; }
+.about-author {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 22px;
+  padding: 10px 16px;
+  background: var(--parchment-2);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12.5px;
+  color: var(--ink-2);
+  flex-wrap: wrap;
+}
+.about-author-label {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 10.5px;
+  color: var(--ink-4);
+}
+.about-author-name {
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: 0;
+}
+.about-orcid {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px 4px 6px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--parchment);
+  color: var(--ink-2);
+  text-decoration: none !important;
+  transition: border-color 0.12s, background 0.12s;
+}
+.about-orcid:hover {
+  border-color: #A6CE39;
+  background: oklch(0.87 0.15 130 / 0.08);
+  color: var(--ink);
+}
+.about-orcid .orcid-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.about-orcid .about-orcid-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
 .about-page h1 {
   font-family: 'EB Garamond', serif;
   font-size: 44px;
