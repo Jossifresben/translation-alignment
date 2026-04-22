@@ -24,6 +24,22 @@
           <span class="arrow">←</span>{{ verse.prev.label }}
         </a>
       {% endif %}
+      <form class="verse-jump" method="get"
+            action="" data-book="{{ verse.book|lower }}" data-view="{{ view }}">
+        <span class="jump-book">{{ verse.book }}</span>
+        <select class="jump-select" name="ch" aria-label="Chapter">
+          {% for ch in book_index.keys() %}
+            <option value="{{ ch }}" {% if ch == verse.chapter %}selected{% endif %}>{{ ch }}</option>
+          {% endfor %}
+        </select>
+        <span class="jump-colon">:</span>
+        <select class="jump-select" name="v" aria-label="Verse">
+          {% for v in book_index.get(verse.chapter, []) %}
+            <option value="{{ v }}" {% if v == verse.verse %}selected{% endif %}>{{ v }}</option>
+          {% endfor %}
+        </select>
+        <button class="jump-go" type="submit">Go</button>
+      </form>
       {% if verse.next %}
         <a class="pager-btn" href="{{ url_for('verse', book=verse.next.book, chapter=verse.next.chapter, verse=verse.next.verse) }}">
           {{ verse.next.label }}<span class="arrow">→</span>
@@ -31,6 +47,9 @@
       {% endif %}
     </div>
   </section>
+  <script id="book-index-data" type="application/json">
+    {{ book_index|tojson }}
+  </script>
 
   <nav class="mode-tabs" role="tablist">
     {% set tabs = [

@@ -118,11 +118,55 @@
 
   // ── Keyboard nav for verses ────────────────────────────
   document.addEventListener("keydown", (e) => {
-    if (e.target.matches("input, textarea")) return;
+    if (e.target.matches("input, textarea, select")) return;
     const pagers = $$(".pager-btn");
     if (e.key === "ArrowLeft" && pagers[0]) window.location.href = pagers[0].href;
     if (e.key === "ArrowRight" && pagers[1]) window.location.href = pagers[1].href;
   });
+
+  // ── Verse jump selector ────────────────────────────────
+  const jumpForm = $(".verse-jump");
+  const bookIndexScript = document.getElementById("book-index-data");
+  let BOOK_INDEX = {};
+  if (bookIndexScript) {
+    try { BOOK_INDEX = JSON.parse(bookIndexScript.textContent); }
+    catch (_e) { BOOK_INDEX = {}; }
+  }
+  if (jumpForm) {
+    const chSel = jumpForm.querySelector('select[name="ch"]');
+    const vSel  = jumpForm.querySelector('select[name="v"]');
+
+    function rebuildVerseOptions(chapter, preferredVerse) {
+      const verses = BOOK_INDEX[chapter] || [];
+      const prev = preferredVerse != null ? String(preferredVerse) : vSel.value;
+      vSel.innerHTML = "";
+      for (const v of verses) {
+        const opt = document.createElement("option");
+        opt.value = String(v);
+        opt.textContent = String(v);
+        if (String(v) === prev) opt.selected = true;
+        vSel.appendChild(opt);
+      }
+      if (!vSel.value && verses.length) vSel.value = String(verses[0]);
+    }
+
+    chSel.addEventListener("change", () => {
+      rebuildVerseOptions(chSel.value, 1);
+    });
+
+    jumpForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const book = jumpForm.dataset.book || "mark";
+      const view = jumpForm.dataset.view || "interlinear";
+      const ch = chSel.value;
+      const v = vSel.value;
+      if (!ch || !v) return;
+      const params = new URLSearchParams();
+      if (view && view !== "interlinear") params.set("view", view);
+      const qs = params.toString();
+      window.location.href = `/verse/${book}/${ch}/${v}${qs ? "?" + qs : ""}`;
+    });
+  }
 })();
 
 /* --- Click-to-open tooltips (our enrichment overlay, alongside hover-linking) --- */

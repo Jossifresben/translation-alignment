@@ -187,6 +187,57 @@ body::before {
 .pager-btn:hover { background: var(--parchment-2); border-color: var(--rule-2); color: var(--ink); }
 .pager-btn .arrow { color: var(--ink-3); font-size: 13px; }
 
+/* Verse jump selector — chapter:verse dropdown */
+.verse-jump {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 10px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: transparent;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11.5px;
+  color: var(--ink-2);
+  transition: background 0.12s, border-color 0.12s;
+}
+.verse-jump:focus-within {
+  background: var(--parchment-2);
+  border-color: var(--rule-2);
+}
+.verse-jump .jump-book {
+  color: var(--ink-2);
+  letter-spacing: 0.04em;
+  padding-right: 4px;
+}
+.verse-jump .jump-colon { color: var(--ink-3); }
+.verse-jump .jump-select {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.verse-jump .jump-select:hover { background: var(--parchment-3); }
+.verse-jump .jump-select:focus { outline: none; border-color: var(--rule-2); background: var(--parchment-3); }
+.verse-jump .jump-go {
+  font-family: inherit;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--rubric);
+  background: transparent;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.verse-jump .jump-go:hover { background: var(--rubric-soft); }
+
 /* ─── Mode tabs ───────────────────────────────────────────── */
 
 .mode-tabs {

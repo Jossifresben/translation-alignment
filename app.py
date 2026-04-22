@@ -225,7 +225,25 @@ def verse(book: str, chapter: int, verse: int):
     return render_template(
         "verse.html", verse=data, view=view, theme=theme,
         show_rail=show_rail, open_variant=open_variant,
+        book_index=_book_index(book.title()),
     )
+
+
+def _book_index(book: str) -> dict[int, list[int]]:
+    """Return {chapter_number: [verse_numbers]} for the given book.
+
+    Used by the verse-jump selector in the topbar.
+    """
+    try:
+        master = _corpora.get("greek_nt")
+    except KeyError:
+        return {}
+    result: dict[int, list[int]] = {}
+    for ch in range(1, 17):   # Mark has 16 chapters; adjust when scope expands
+        vs = master.verses_in_chapter(book, ch)
+        if vs:
+            result[ch] = vs
+    return result
 
 
 @app.route("/verse/<book>/<int:chapter>/<int:verse>/partial/<view>")
