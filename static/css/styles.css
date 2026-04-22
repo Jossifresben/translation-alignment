@@ -346,16 +346,19 @@ body::before {
 }
 .tok.is-variant {
   text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
   text-decoration-style: dotted;
   text-decoration-color: var(--ink-4);   /* default muted for minor */
 }
 .tok.is-variant.v-major,
 .tok.is-variant.v-omitted,
 .tok.is-variant.v-added {
-  text-decoration-color: var(--rubric);  /* substantive → bold rubric */
-  text-decoration-thickness: 1.5px;
+  text-decoration-color: var(--rubric);       /* substantive → bold rubric */
+  text-decoration-thickness: 2.5px;
+  text-decoration-style: dotted;
+  background: var(--rubric-soft);             /* faint rose tint */
+  box-shadow: inset 0 -3px 0 -1px var(--rubric-soft);
 }
 .tok.is-variant.is-variant-active {
   background: var(--rubric-soft);
