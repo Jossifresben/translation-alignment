@@ -1147,6 +1147,9 @@ body.dark::before {
   padding-top: 12vh;
   z-index: 1000;
 }
+/* The `hidden` attribute must win over `display: flex` above, otherwise
+   the overlay stays visible at page load and refuses to close. */
+.search-overlay[hidden] { display: none !important; }
 .search-modal {
   position: relative;
   background: var(--parchment);
