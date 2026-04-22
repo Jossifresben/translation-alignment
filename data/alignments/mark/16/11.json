@@ -1,0 +1,184 @@
+{
+  "ref": "Mark 16:11",
+  "chapter": 16,
+  "verse": 11,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "κἀκεῖνοι",
+        "ἀκούσαντες",
+        "ὅτι",
+        "ζῇ",
+        "καὶ",
+        "ἐθεάθη",
+        "ὑπ᾽",
+        "(hup᾽)",
+        "αὐτῆς",
+        "ἠπίστησαν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܗܢܘܢ",
+        "ܟܕ",
+        "ܫܡܥܘ",
+        "ܕܐܡܪܢ",
+        "ܕܚܝ",
+        "ܘܐܬܚܙܝ",
+        "ܠܗܝܢ",
+        "ܠܐ",
+        "ܗܝܡܢܘ",
+        "ܐܢܝܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "illi",
+        "audientes",
+        "quia",
+        "viveret,",
+        "et",
+        "visus",
+        "esset",
+        "ab",
+        "ea,",
+        "non",
+        "crediderunt."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "aligned",
+      "note": "κἀκεῖνοι (crasis of καί + ἐκεῖνοι) = ܘܗܢܘܢ = Et illi"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses temporal particle ܟܕ + verb; Greek/Latin use participle"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "major",
+      "note": "Peshitta has ܕܐܡܪܢ 'that they said' instead of simple ὅτι/quia complementizer"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "Peshitta adds ܕܐܡܪܢ 'that they said/reported', expanding the indirect discourse"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "Coordinating conjunction before 'seen/appeared'"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἐθεάθη (aorist passive) = ܘܐܬܚܙܝ (ethpael) = visus esset (passive periphrastic)"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "major",
+      "note": "Greek ὑπ᾽ αὐτῆς 'by her' (fem. sg.) vs Peshitta ܠܗܝܢ 'to them' (fem. pl.) vs Vulgate ab ea 'by her' (fem. sg.); Peshitta has different referent"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "Peshitta adds object pronoun ܐܢܝܢ 'them' (referring to the women or their report)"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.852173+00:00",
+    "confidence": 0.65,
+    "schema_version": 1
+  }
+}

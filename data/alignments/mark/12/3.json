@@ -1,0 +1,134 @@
+{
+  "ref": "Mark 12:3",
+  "chapter": 12,
+  "verse": 3,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "οἱ",
+        "καὶ",
+        "λαβόντες",
+        "αὐτὸν",
+        "ἔδειραν",
+        "καὶ",
+        "ἀπέστειλαν",
+        "κενόν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܗܢܘܢ",
+        "ܕܝܢ",
+        "ܡܚܐܘܗܝ",
+        "ܘܫܕܪܘܗܝ",
+        "ܟܕ",
+        "ܣܦܝܩ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Qui",
+        "apprehensum",
+        "eum",
+        "ceciderunt,",
+        "et",
+        "dimiserunt",
+        "vacuum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek καί and Peshitta ܕܝܢ (dēn) are discourse particles; Vulgate omits"
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "major",
+      "note": "Greek λαβόντες (participle 'having taken') and Vulgate apprehensum (past participle 'seized') explicit; Peshitta conflates into verb ܡܚܐܘܗܝ (beat him)"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek ἔδειραν (beat), Peshitta ܡܚܐܘܗܝ (struck/beat him with pronominal suffix), Vulgate ceciderunt (struck down); semantic overlap with stylistic variation"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "omitted",
+      "note": "Greek καί and Vulgate et (and) coordinate clauses; Peshitta uses ܘ- prefix on verb"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek κενόν (empty-handed) and Vulgate vacuum align; Peshitta ܟܕ ܣܦܝܩ (kad spiq, 'while empty/empty-handed') uses temporal particle construction"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.814298+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

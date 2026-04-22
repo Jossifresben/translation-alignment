@@ -1,0 +1,144 @@
+{
+  "ref": "Mark 3:12",
+  "chapter": 3,
+  "verse": 12,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "πολλὰ",
+        "ἐπετίμα",
+        "αὐτοῖς",
+        "ἵνα",
+        "μὴ",
+        "αὐτὸν",
+        "φανερὸν",
+        "ποιήσωσιν.¶"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܣܓܝ",
+        "ܟܐܐ",
+        "ܗܘܐ",
+        "ܒܗܘܢ",
+        "ܕܠܐ",
+        "ܢܓܠܘܢܝܗܝ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Tu",
+        "es",
+        "Filius",
+        "Dei.",
+        "Et",
+        "vehementer",
+        "comminabatur",
+        "eis",
+        "ne",
+        "manifestarent",
+        "illum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܘܣܓܝ combines conjunction + adverb; Vulgate 'vehementer' intensifies differently than Greek πολλὰ"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses periphrastic ܟܐܐ ܗܘܐ (was rebuking); Vulgate 'comminabatur' (was threatening) is semantically stronger than Greek ἐπετίμα"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6,
+        7,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "variant": "added",
+      "note": "Vulgate includes 'Tu es Filius Dei' from previous verse context, not present in Greek or Peshitta for this verse"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.741642+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

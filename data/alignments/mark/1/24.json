@@ -1,0 +1,204 @@
+{
+  "ref": "Mark 1:24",
+  "chapter": 1,
+  "verse": 24,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "λέγων·",
+        "ἔα",
+        "τί",
+        "ἡμῖν",
+        "καὶ",
+        "σοί,",
+        "Ἰησοῦ",
+        "Ναζαρηνέ;",
+        "ἦλθες",
+        "ἀπολέσαι",
+        "ἡμᾶς;",
+        "οἶδά",
+        "σε",
+        "τίς",
+        "εἶ,",
+        "ὁ",
+        "ἅγιος",
+        "τοῦ",
+        "θεοῦ."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܐܡܪ",
+        "ܡܐ",
+        "ܠܢ",
+        "ܘܠܟ",
+        "ܝܫܘܥ",
+        "ܢܨܪܝܐ",
+        "ܐܬܝܬ",
+        "ܠܡܘܒܕܘܬܢ",
+        "ܝܕܥ",
+        "ܐܢܐ",
+        "ܠܟ",
+        "ܡܢ",
+        "ܐܢܬ",
+        "ܩܕܝܫܗ",
+        "ܕܐܠܗܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "dicens",
+        ":",
+        "Quid",
+        "nobis",
+        "et",
+        "tibi,",
+        "Jesu",
+        "Nazarene",
+        "?",
+        "venisti",
+        "perdere",
+        "nos",
+        "?",
+        "scio",
+        "qui",
+        "sis,",
+        "Sanctus",
+        "Dei."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek interjection ἔα (ha/ah) omitted in Peshitta and Vulgate"
+    },
+    {
+      "greek_nt": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "peshitta": [
+        1,
+        2,
+        3
+      ],
+      "vulgate": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "variant": "aligned",
+      "note": "Idiomatic phrase 'What to us and to you' rendered consistently across traditions"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        1,
+        8,
+        12
+      ],
+      "variant": "added",
+      "note": "Vulgate adds punctuation marks (colons, question marks) not present as tokens in Greek/Peshitta"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        9,
+        10,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "peshitta": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "vulgate": [
+        13,
+        14,
+        15
+      ],
+      "variant": "minor",
+      "note": "Peshitta expands with explicit pronoun ܐܢܐ (I) and uses ܡܢ ܐܢܬ (who you-are) vs Greek τίς εἶ; Vulgate qui sis uses subjunctive"
+    },
+    {
+      "greek_nt": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        16,
+        17
+      ],
+      "variant": "aligned",
+      "note": "Greek article ὁ not replicated in Peshitta/Vulgate; Peshitta uses construct state ܩܕܝܫܗ"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.729760+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

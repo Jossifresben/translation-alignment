@@ -1,0 +1,240 @@
+{
+  "ref": "Mark 10:19",
+  "chapter": 10,
+  "verse": 19,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "τὰς",
+        "ἐντολὰς",
+        "οἶδας·",
+        "μὴ",
+        "φονεύσῃς,",
+        "μὴ",
+        "μοιχεύσῃς,",
+        "μὴ",
+        "κλέψῃς,",
+        "μὴ",
+        "ψευδομαρτυρήσῃς,",
+        "μὴ",
+        "ἀποστερήσῃς,",
+        "τίμα",
+        "τὸν",
+        "πατέρα",
+        "σου",
+        "καὶ",
+        "τὴν",
+        "μητέρα."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܦܘܩܕܢܐ",
+        "ܝܕܥ",
+        "ܐܢܬ",
+        "ܠܐ",
+        "ܬܓܘܪ",
+        "ܠܐ",
+        "ܬܓܢܘܒ",
+        "ܠܐ",
+        "ܬܩܛܘܠ",
+        "ܘܠܐ",
+        "ܬܣܗܕ",
+        "ܣܗܕܘܬܐ",
+        "ܕܓܠܬܐ",
+        "ܠܐ",
+        "ܬܛܠܘܡ",
+        "ܝܩܪ",
+        "ܠܐܒܘܟ",
+        "ܘܠܐܡܟ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Præcepta",
+        "nosti",
+        ":",
+        "ne",
+        "adulteres,",
+        "ne",
+        "occidas,",
+        "ne",
+        "fureris,",
+        "ne",
+        "falsum",
+        "testimonium",
+        "dixeris,",
+        "ne",
+        "fraudem",
+        "feceris,",
+        "honora",
+        "patrem",
+        "tuum",
+        "et",
+        "matrem."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Peshitta adds explicit pronoun 'you' (ܐܢܬ) for emphasis"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Vulgate punctuation colon, not present in Greek/Peshitta"
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "major",
+      "note": "Command order differs: Greek murder-adultery-steal; Peshitta adultery-steal-murder; Vulgate adultery-murder-steal"
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "major",
+      "note": "Adultery command appears in different position across traditions"
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "major",
+      "note": "Steal command appears in different position across traditions"
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
+      "peshitta": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "vulgate": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "variant": "minor",
+      "note": "Peshitta and Vulgate expand 'bear false witness' with explicit 'testimony' noun (ܣܗܕܘܬܐ ܕܓܠܬܐ / falsum testimonium dixeris)"
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        13,
+        14,
+        15
+      ],
+      "variant": "minor",
+      "note": "Vulgate expands 'defraud' to 'fraudem feceris' (do fraud); all three semantically aligned"
+    },
+    {
+      "greek_nt": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "peshitta": [
+        15,
+        16
+      ],
+      "vulgate": [
+        16,
+        17,
+        18
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        17,
+        18,
+        19
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        19,
+        20
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.795545+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

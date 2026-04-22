@@ -1,0 +1,174 @@
+{
+  "ref": "Mark 4:10",
+  "chapter": 4,
+  "verse": 10,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "Καὶ",
+        "ὅτε",
+        "δὲ",
+        "ἐγένετο",
+        "κατὰ",
+        "μόνας,",
+        "ἠρώτων",
+        "αὐτὸν",
+        "οἱ",
+        "περὶ",
+        "αὐτὸν",
+        "σὺν",
+        "τοῖς",
+        "δώδεκα",
+        "τὰς",
+        "παραβολάς."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܟܕ",
+        "ܗܘܘ",
+        "ܕܝܢ",
+        "ܒܠܚܘܕܝܗܘܢ",
+        "ܫܐܠܘܗܝ",
+        "ܗܢܘܢ",
+        "ܕܥܡܗ",
+        "ܥܡ",
+        "ܬܪܥܣܪܬܗ",
+        "ܡܬܠܐ",
+        "ܗܘ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "cum",
+        "esset",
+        "singularis,",
+        "interrogaverunt",
+        "eum",
+        "hi",
+        "qui",
+        "cum",
+        "eo",
+        "erant",
+        "duodecim,",
+        "parabolam."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "omitted",
+      "note": "Peshitta omits initial conjunction; Greek καί and Latin Et both present"
+    },
+    {
+      "greek_nt": [
+        1,
+        2,
+        3
+      ],
+      "peshitta": [
+        0,
+        1,
+        2
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek ὅτε δὲ ἐγένετο uses temporal conjunction + particle + verb; Peshitta ܟܕ ܗܘܘ ܕܝܢ uses temporal particle + copula + particle; Vulgate cum esset uses temporal conjunction + subjunctive"
+    },
+    {
+      "greek_nt": [
+        4,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "variant": "minor",
+      "note": "Greek οἱ περὶ αὐτὸν (article + prep + pronoun); Peshitta ܗܢܘܢ ܕܥܡܗ (demonstrative + relative + prep-suffix); Vulgate hi qui cum eo erant (demonstrative + relative clause)"
+    },
+    {
+      "greek_nt": [
+        11,
+        12,
+        13
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek σὺν τοῖς δώδεκα (prep + article + numeral); Peshitta ܥܡ ܬܪܥܣܪܬܗ (prep + numeral-suffix); Vulgate duodecim (numeral alone, incorporated into relative clause)"
+    },
+    {
+      "greek_nt": [
+        14,
+        15
+      ],
+      "peshitta": [
+        9,
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "major",
+      "note": "Greek τὰς παραβολάς (plural accusative 'the parables'); Peshitta ܡܬܠܐ ܗܘ (singular 'this parable'); Vulgate parabolam (singular accusative 'the parable')"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.746790+00:00",
+    "confidence": 0.82,
+    "schema_version": 1
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "ref": "Mark 8:1",
+  "chapter": 8,
+  "verse": 1,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "Ἐν",
+        "ἐκείναις",
+        "ταῖς",
+        "ἡμέραις",
+        "πάλιν",
+        "πολλοῦ",
+        "ὄχλου",
+        "ὄντος",
+        "καὶ",
+        "μὴ",
+        "ἐχόντων",
+        "τί",
+        "φάγωσιν,",
+        "προσκαλεσάμενος",
+        "ὁ",
+        "Ἰησοῦς",
+        "τοὺς",
+        "μαθητὰς",
+        "αὐτοῦ",
+        "λέγει",
+        "αὐτοῖς·"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܒܗܢܘܢ",
+        "ܕܝܢ",
+        "ܝܘܡܬܐ",
+        "ܟܕ",
+        "ܟܢܫܐ",
+        "ܣܓܝܐܐ",
+        "ܐܝܬ",
+        "ܗܘܐ",
+        "ܘܠܐ",
+        "ܐܝܬ",
+        "ܗܘܐ",
+        "ܡܕܡ",
+        "ܕܢܐܟܠܘܢ",
+        "ܩܪܐ",
+        "ܠܬܠܡܝܕܘܗܝ",
+        "ܘܐܡܪ",
+        "ܠܗܘܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "In",
+        "diebus",
+        "illis",
+        "iterum",
+        "cum",
+        "turba",
+        "multa",
+        "esset,",
+        "nec",
+        "haberent",
+        "quod",
+        "manducarent,",
+        "convocatis",
+        "discipulis,",
+        "ait",
+        "illis",
+        ":"
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "peshitta": [
+        0,
+        2
+      ],
+      "vulgate": [
+        0,
+        1,
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek uses demonstrative ἐκείναις with article, Peshitta ܒܗܢܘܢ, Vulgate illis; all semantically equivalent temporal phrases"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "Peshitta adds ܕܝܢ (dēn, 'now/but'), a common Syriac discourse marker absent in Greek and Latin"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5,
+        6,
+        7
+      ],
+      "peshitta": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "vulgate": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek genitive absolute πολλοῦ ὄχλου ὄντος; Peshitta uses ܟܕ temporal clause with ܐܝܬ ܗܘܐ existential; Vulgate cum + subjunctive esset"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "vulgate": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        14,
+        15
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek explicitly names ὁ Ἰησοῦς as subject; Peshitta and Vulgate leave subject implicit from context"
+    },
+    {
+      "greek_nt": [
+        16,
+        17,
+        18
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        19,
+        20
+      ],
+      "peshitta": [
+        15,
+        16
+      ],
+      "vulgate": [
+        14,
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        16
+      ],
+      "variant": "added",
+      "note": "Vulgate adds colon punctuation mark, not present as token in Greek or Peshitta"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.778393+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

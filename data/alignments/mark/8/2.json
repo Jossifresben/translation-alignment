@@ -1,0 +1,218 @@
+{
+  "ref": "Mark 8:2",
+  "chapter": 8,
+  "verse": 2,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "σπλαγχνίζομαι",
+        "ἐπὶ",
+        "τὸν",
+        "ὄχλον",
+        "ὅτι",
+        "ἤδη",
+        "ἡμέραι",
+        "τρεῖς",
+        "προσμένουσίν",
+        "μοι",
+        "καὶ",
+        "οὐκ",
+        "ἔχουσιν",
+        "τί",
+        "φάγωσιν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܡܬܪܚܡ",
+        "ܐܢܐ",
+        "ܥܠ",
+        "ܟܢܫܐ",
+        "ܗܢܐ",
+        "ܕܗܐ",
+        "ܬܠܬܐ",
+        "ܝܘܡܝܢ",
+        "ܩܘܝܘ",
+        "ܠܘܬܝ",
+        "ܘܠܝܬ",
+        "ܠܗܘܢ",
+        "ܡܢܐ",
+        "ܢܐܟܠܘܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Misereor",
+        "super",
+        "turbam",
+        ":",
+        "quia",
+        "ecce",
+        "jam",
+        "triduo",
+        "sustinent",
+        "me,",
+        "nec",
+        "habent",
+        "quod",
+        "manducent",
+        ":"
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "note": "Peshitta adds explicit pronoun ܐܢܐ (I am) with participle ܡܬܪܚܡ; Greek and Latin use finite verb forms"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Peshitta adds demonstrative ܗܢܐ (this); Greek has article; Vulgate lacks both"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܕܗܐ (behold) vs Greek ὅτι (because) vs Vulgate quia (because) + ecce (behold)"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek ἤδη (already) absent in Peshitta; Vulgate has ecce jam (behold already)"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Vulgate uses compound triduo (three days) vs Greek/Peshitta separate numeral + noun"
+    },
+    {
+      "greek_nt": [
+        8,
+        9
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek conjunction καὶ (and) omitted in Peshitta and Vulgate before negative clause"
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses negative existential ܘܠܝܬ (and there is not); Greek οὐκ ἔχουσιν (not have); Vulgate nec habent (nor have)"
+    },
+    {
+      "greek_nt": [
+        13,
+        14
+      ],
+      "peshitta": [
+        11,
+        12,
+        13
+      ],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "minor",
+      "note": "Peshitta adds pronominal suffix ܠܗܘܢ (to them) and uses ܡܢܐ (what); Greek τί φάγωσιν; Vulgate quod manducent"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        3,
+        14
+      ],
+      "variant": "added",
+      "note": "Vulgate adds punctuation colons not present as tokens in Greek/Peshitta"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.778552+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

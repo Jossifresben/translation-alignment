@@ -1,0 +1,154 @@
+{
+  "ref": "Mark 3:3",
+  "chapter": 3,
+  "verse": 3,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "λέγει",
+        "τῷ",
+        "ἀνθρώπῳ",
+        "τῷ",
+        "τὴν",
+        "ξηρὰν",
+        "χεῖρα",
+        "ἔχοντι·",
+        "ἔγειρε",
+        "εἰς",
+        "τὸ",
+        "μέσον."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܐܡܪ",
+        "ܠܗܘ",
+        "ܓܒܪܐ",
+        "ܕܝܒܝܫܐ",
+        "ܐܝܕܗ",
+        "ܩܘܡ",
+        "ܒܡܨܥܬܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "ait",
+        "homini",
+        "habenti",
+        "manum",
+        "aridam",
+        ":",
+        "Surge",
+        "in",
+        "medium."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "Peshitta combines conjunction and verb in single token ܘܐܡܪ"
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek uses article + dative noun; Peshitta uses preposition + demonstrative + noun; Vulgate uses dative alone"
+    },
+    {
+      "greek_nt": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        3,
+        4,
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek uses articular participle construction with accusative object; Peshitta uses relative particle + adjective + pronominal suffix; Vulgate uses participle + noun + adjective"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "note": "Vulgate adds colon punctuation mark before direct speech"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "aligned",
+      "note": "Greek εἰς τὸ μέσον, Peshitta ܒܡܨܥܬܐ (with beth preposition), Vulgate in medium all express 'into the midst'"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.740149+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

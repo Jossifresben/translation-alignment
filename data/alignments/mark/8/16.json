@@ -1,0 +1,159 @@
+{
+  "ref": "Mark 8:16",
+  "chapter": 8,
+  "verse": 16,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "διελογίζοντο",
+        "πρὸς",
+        "ἀλλήλους",
+        "λέγοντες",
+        "ὅτι",
+        "ἄρτους",
+        "οὐκ",
+        "ἔχουσιν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܡܬܚܫܒܝܢ",
+        "ܗܘܘ",
+        "ܚܕ",
+        "ܥܡ",
+        "ܚܕ",
+        "ܘܐܡܪܝܢ",
+        "ܕܠܚܡܐ",
+        "ܠܝܬ",
+        "ܠܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "cogitabant",
+        "ad",
+        "alterutrum,",
+        "dicentes",
+        ":",
+        "quia",
+        "panes",
+        "non",
+        "habemus."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses periphrastic construction ܡܬܚܫܒܝܢ ܗܘܘ (were reasoning) vs. Greek imperfect διελογίζοντο"
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        2,
+        3,
+        4
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܚܕ ܥܡ ܚܕ (one with one) is more literal than Greek πρὸς ἀλλήλους or Vulgate ad alterutrum"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "added",
+      "note": "Vulgate adds colon punctuation mark not present as token in Greek or Peshitta"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܠܝܬ ܠܢ (not to-us) uses existential negation with pronominal suffix vs. Greek οὐκ ἔχουσιν (not they-have) and Vulgate non habemus (not we-have); also person shift from 3rd plural to 1st plural"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.780674+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

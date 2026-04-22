@@ -1,0 +1,223 @@
+{
+  "ref": "Mark 12:28",
+  "chapter": 12,
+  "verse": 28,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "Καὶ",
+        "προσελθὼν",
+        "εἷς",
+        "τῶν",
+        "γραμματέων,",
+        "ἀκούσας",
+        "αὐτῶν",
+        "συζητούντων,",
+        "ἰδὼν",
+        "ὅτι",
+        "καλῶς",
+        "ἀπεκρίθη",
+        "αὐτοῖς,",
+        "ἐπηρώτησεν",
+        "αὐτόν·",
+        "ποία",
+        "ἐστὶν",
+        "ἐντολὴ",
+        "πρώτη",
+        "πάντων;"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܩܪܒ",
+        "ܚܕ",
+        "ܡܢ",
+        "ܣܦܪܐ",
+        "ܘܫܡܥ",
+        "ܐܢܘܢ",
+        "ܕܕܪܫܝܢ",
+        "ܘܚܙܐ",
+        "ܕܫܦܝܪ",
+        "ܐܬܝܒ",
+        "ܠܗܘܢ",
+        "ܦܬܓܡܐ",
+        "ܘܫܐܠܗ",
+        "ܐܝܢܘ",
+        "ܦܘܩܕܢܐ",
+        "ܩܕܡܝܐ",
+        "ܕܟܠܗܘܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "accessit",
+        "unus",
+        "de",
+        "scribis,",
+        "qui",
+        "audierat",
+        "illos",
+        "conquirentes,",
+        "et",
+        "videns",
+        "quoniam",
+        "bene",
+        "illis",
+        "responderit,",
+        "interrogavit",
+        "eum",
+        "quod",
+        "esset",
+        "primum",
+        "omnium",
+        "mandatum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "Peshitta combines conjunction and verb in single token ܘܩܪܒ"
+    },
+    {
+      "greek_nt": [
+        2,
+        3,
+        4
+      ],
+      "peshitta": [
+        1,
+        2,
+        3
+      ],
+      "vulgate": [
+        2,
+        3,
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5,
+        6,
+        7
+      ],
+      "peshitta": [
+        4,
+        5,
+        6
+      ],
+      "vulgate": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "variant": "minor",
+      "note": "Vulgate uses relative clause 'qui audierat illos conquirentes' vs. Greek/Peshitta participial construction"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "minor",
+      "note": "Vulgate adds conjunction 'et' before 'videns'"
+    },
+    {
+      "greek_nt": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "vulgate": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "variant": "major",
+      "note": "Peshitta adds ܦܬܓܡܐ (word/answer) not present in Greek or Vulgate"
+    },
+    {
+      "greek_nt": [
+        13,
+        14
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        15,
+        16
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "peshitta": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "vulgate": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "variant": "minor",
+      "note": "Peshitta lacks explicit copula (ἐστὶν/esset); Vulgate uses indirect question construction 'quod esset...mandatum' vs. Greek direct question"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.819222+00:00",
+    "confidence": 0.82,
+    "schema_version": 1
+  }
+}

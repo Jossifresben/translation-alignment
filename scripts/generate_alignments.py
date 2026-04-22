@@ -3,6 +3,8 @@
 Modes:
     --pilot             Generate the 10-verse calibration sample (sync API)
     --verse Mark 1 1    Generate a single specific verse (sync API)
+    --full              Generate all remaining Mark verses via the Batch API
+    --report            Summarize low-confidence and quarantined verses
 
 Requires ANTHROPIC_API_KEY in the environment (loaded from .env).
 """
@@ -276,6 +278,117 @@ def _load_all(data_dir: Path):
     return client, corpora, greek_enrich, peshitta_enrich
 
 
+def build_batch_requests(
+    corpora: CorpusRegistry,
+    greek_enrich: dict,
+    peshitta_enrich: dict,
+    out_root: Path,
+    model: str,
+    system_prompt: str,
+    few_shot: list[dict],
+    force: bool = False,
+) -> list[dict]:
+    """One request per Mark verse that lacks a valid JSON (unless force=True)."""
+    requests = []
+    master = corpora.get("greek_nt")
+    for ch in range(1, 17):
+        for v in master.verses_in_chapter("Mark", ch):
+            target = out_root / "mark" / str(ch) / f"{v}.json"
+            if target.exists() and not force:
+                continue
+            greek = master.get("Mark", ch, v) or ""
+            peshitta = ""
+            try:
+                peshitta = corpora.get("peshitta").get("Mark", ch, v) or ""
+            except KeyError:
+                pass
+            vulgate = ""
+            try:
+                vulgate = corpora.get("vulgate").get("Mark", ch, v) or ""
+            except KeyError:
+                pass
+            ref = f"Mark {ch}:{v}"
+            greek_tokens = greek.split()
+            peshitta_tokens = peshitta.split()
+            vulgate_tokens = vulgate.split()
+            # Clip enrichment to the corpus token range so the model never sees
+            # enrichment pointing at indices beyond the provided token list.
+            greek_strong = [
+                e for e in greek_enrich.get(ref, [])
+                if isinstance(e, dict) and e.get("token_idx", -1) < len(greek_tokens)
+            ]
+            peshitta_roots = [
+                e for e in peshitta_enrich.get(ref, [])
+                if isinstance(e, dict) and e.get("token_idx", -1) < len(peshitta_tokens)
+            ]
+            enrichment = {
+                "greek_strong": greek_strong,
+                "peshitta_roots": peshitta_roots,
+            }
+            user_msg = build_user_message(
+                greek_tokens, peshitta_tokens, vulgate_tokens, enrichment
+            )
+            messages = []
+            for ex in few_shot:
+                messages.append({"role": "user",
+                                 "content": json.dumps(ex["input"], ensure_ascii=False)})
+                messages.append({"role": "assistant",
+                                 "content": json.dumps(ex["output"], ensure_ascii=False)})
+            messages.append({"role": "user", "content": user_msg})
+            requests.append({
+                "custom_id": f"mark_{ch}_{v}",
+                "params": {
+                    "model": model,
+                    "max_tokens": 2000,
+                    "temperature": 0.1,
+                    "system": [
+                        {"type": "text", "text": system_prompt,
+                         "cache_control": {"type": "ephemeral"}}
+                    ],
+                    "messages": messages,
+                },
+            })
+    return requests
+
+
+def submit_batch_and_wait(client, requests: list[dict], poll_interval: int = 30) -> dict:
+    """Submit a messages batch, poll until done, return {custom_id: response_dict_or_error}."""
+    # The SDK's request type name varies across versions; use dicts directly.
+    batch = client.messages.batches.create(requests=requests)
+    logger.info("Submitted batch %s with %d requests", batch.id, len(requests))
+
+    while True:
+        batch = client.messages.batches.retrieve(batch.id)
+        if batch.processing_status == "ended":
+            break
+        counts = batch.request_counts
+        logger.info("  batch %s status=%s succeeded=%d errored=%d processing=%d",
+                    batch.id, batch.processing_status,
+                    counts.succeeded, counts.errored, counts.processing)
+        time.sleep(poll_interval)
+
+    results: dict[str, dict] = {}
+    for result in client.messages.batches.results(batch.id):
+        cid = result.custom_id
+        rtype = result.result.type
+        if rtype == "succeeded":
+            text = result.result.message.content[0].text
+            if text.startswith("```"):
+                text = text.strip("`")
+                if text.startswith("json\n"):
+                    text = text[5:]
+            try:
+                results[cid] = json.loads(text)
+            except Exception as e:
+                logger.error("  %s: JSON parse failed: %s", cid, e)
+                results[cid] = {"_error": f"json_parse: {e}", "_raw": text[:500]}
+        else:
+            err = getattr(result.result, "error", None) or rtype
+            logger.error("  %s: %s", cid, err)
+            results[cid] = {"_error": str(err)}
+    return results
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     ap = argparse.ArgumentParser()
@@ -284,6 +397,13 @@ def main() -> None:
                     help="Generate a single verse")
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--data-dir", type=Path, default=Path("data"))
+    ap.add_argument("--full", action="store_true",
+                    help="Generate all remaining Mark verses via Batch API")
+    ap.add_argument("--force", action="store_true",
+                    help="Regenerate even if a verse JSON already exists")
+    ap.add_argument("--report", action="store_true",
+                    help="Report low-confidence and quarantined verses")
+    ap.add_argument("--threshold", type=float, default=0.7)
     args = ap.parse_args()
 
     client, corpora, greek_enrich, peshitta_enrich = _load_all(args.data_dir)
@@ -304,8 +424,88 @@ def main() -> None:
                                    book, ch, v, args.model, system_prompt, few_shot)
         path = save_alignment(data, out_root)
         logger.info("Wrote %s", path)
+    elif args.full:
+        requests = build_batch_requests(corpora, greek_enrich, peshitta_enrich,
+                                         out_root, args.model, system_prompt,
+                                         few_shot, force=args.force)
+        if not requests:
+            logger.info("No verses to generate. Use --force to regenerate existing.")
+            return
+        logger.info("Submitting batch with %d verse requests", len(requests))
+        results = submit_batch_and_wait(client, requests)
+
+        ok = 0
+        fail = 0
+        quarantine = out_root / "_quarantine"
+        for cid, raw in results.items():
+            _prefix, ch_str, v_str = cid.split("_")
+            ch, v = int(ch_str), int(v_str)
+            greek = corpora.get("greek_nt").get("Mark", ch, v) or ""
+            peshitta = ""
+            try:
+                peshitta = corpora.get("peshitta").get("Mark", ch, v) or ""
+            except KeyError:
+                pass
+            vulgate = ""
+            try:
+                vulgate = corpora.get("vulgate").get("Mark", ch, v) or ""
+            except KeyError:
+                pass
+            traditions = {
+                "greek_nt": {"tokens": greek.split()} if greek else {"absent": True},
+                "peshitta": {"tokens": peshitta.split()} if peshitta else {"absent": True},
+                "vulgate":  {"tokens": vulgate.split()} if vulgate else {"absent": True},
+            }
+            if "_error" in raw:
+                quarantine.mkdir(parents=True, exist_ok=True)
+                (quarantine / f"{cid}.json").write_text(
+                    json.dumps(raw, indent=2), encoding="utf-8"
+                )
+                fail += 1
+                continue
+            try:
+                data = validate_and_normalize_response(
+                    raw, traditions, f"Mark {ch}:{v}", ch, v, args.model
+                )
+                save_alignment(data, out_root)
+                ok += 1
+            except AlignmentValidationError as e:
+                quarantine.mkdir(parents=True, exist_ok=True)
+                (quarantine / f"{cid}.json").write_text(
+                    json.dumps({"_error": str(e), "raw": raw}, indent=2, ensure_ascii=False),
+                    encoding="utf-8"
+                )
+                fail += 1
+        logger.info("Full run done. succeeded=%d quarantined=%d", ok, fail)
+    elif args.report:
+        low_conf = []
+        for ch in range(1, 17):
+            ch_dir = out_root / "mark" / str(ch)
+            if not ch_dir.exists():
+                continue
+            for f in sorted(ch_dir.glob("*.json")):
+                data = json.loads(f.read_text(encoding="utf-8"))
+                if data["meta"]["confidence"] < args.threshold:
+                    low_conf.append({
+                        "ref": data["ref"],
+                        "confidence": data["meta"]["confidence"],
+                        "path": str(f.relative_to(Path("."))),
+                    })
+        quarantined = []
+        q_dir = out_root / "_quarantine"
+        if q_dir.exists():
+            for f in sorted(q_dir.glob("*.json")):
+                quarantined.append(str(f.relative_to(Path("."))))
+        report = {
+            "threshold": args.threshold,
+            "low_confidence_count": len(low_conf),
+            "quarantined_count": len(quarantined),
+            "low_confidence": low_conf,
+            "quarantined": quarantined,
+        }
+        print(json.dumps(report, indent=2, ensure_ascii=False))
     else:
-        ap.error("specify --pilot or --verse")
+        ap.error("specify --pilot, --full, --verse, or --report")
 
 
 if __name__ == "__main__":

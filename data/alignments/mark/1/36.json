@@ -1,0 +1,135 @@
+{
+  "ref": "Mark 1:36",
+  "chapter": 1,
+  "verse": 36,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "κατεδίωξεν",
+        "αὐτὸν",
+        "ὁ",
+        "Σίμων",
+        "καὶ",
+        "οἱ",
+        "μετ᾽",
+        "(met᾽)",
+        "αὐτοῦ·"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܒܥܝܢ",
+        "ܗܘܘ",
+        "ܠܗ",
+        "ܫܡܥܘܢ",
+        "ܘܕܥܡܗ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "prosecutus",
+        "est",
+        "eum",
+        "Simon,",
+        "et",
+        "qui",
+        "cum",
+        "illo",
+        "erant."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "major",
+      "note": "Greek καὶ κατεδίωξεν 'and pursued/went after' vs Peshitta ܘܒܥܝܢ 'and they sought' vs Vulgate 'Et prosecutus' - different verbs with distinct semantic nuances"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "major",
+      "note": "Greek aorist κατεδίωξεν (singular) vs Peshitta ܒܥܝܢ ܗܘܘ (plural periphrastic) vs Vulgate prosecutus est (singular perfect); number and aspect differ"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6,
+        7,
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek οἱ μετ᾽ αὐτοῦ 'those with him' vs Peshitta ܘܕܥܡܗ 'and those with him' (compound form) vs Vulgate qui cum illo erant 'who were with him' - same meaning, different syntactic structures"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.731638+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

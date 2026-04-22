@@ -1,0 +1,134 @@
+{
+  "ref": "Mark 2:3",
+  "chapter": 2,
+  "verse": 3,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "Καὶ",
+        "ἔρχονται",
+        "φέροντες",
+        "πρὸς",
+        "αὐτὸν",
+        "παραλυτικὸν",
+        "αἰρόμενον",
+        "ὑπὸ",
+        "τεσσάρων."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܐܬܘ",
+        "ܠܘܬܗ",
+        "ܘܐܝܬܝܘ",
+        "ܠܗ",
+        "ܡܫܪܝܐ",
+        "ܟܕ",
+        "ܫܩܝܠܝܢ",
+        "ܠܗ",
+        "ܒܝܬ",
+        "ܐܪܒܥܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "venerunt",
+        "ad",
+        "eum",
+        "ferentes",
+        "paralyticum,",
+        "qui",
+        "a",
+        "quatuor",
+        "portabatur."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "Peshitta ܘܐܬܘ combines conjunction and verb in single token"
+    },
+    {
+      "greek_nt": [
+        2,
+        3,
+        4
+      ],
+      "peshitta": [
+        1,
+        2,
+        3
+      ],
+      "vulgate": [
+        2,
+        3,
+        4
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses two verbs (ܐܬܘ ܠܘܬܗ + ܘܐܝܬܝܘ ܠܗ) for Greek φέροντες πρὸς αὐτόν; Vulgate uses ad eum ferentes"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6,
+        7,
+        8
+      ],
+      "peshitta": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "vulgate": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek uses passive participle αἰρόμενον ὑπὸ τεσσάρων; Peshitta uses active construction ܟܕ ܫܩܝܠܝܢ ܠܗ ܒܝܬ ܐܪܒܥܐ (while carrying him by four); Vulgate uses relative clause qui a quatuor portabatur"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.734496+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

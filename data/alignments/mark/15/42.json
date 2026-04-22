@@ -1,0 +1,142 @@
+{
+  "ref": "Mark 15:42",
+  "chapter": 15,
+  "verse": 42,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "Καὶ",
+        "ἤδη",
+        "ὀψίας",
+        "γενομένης,",
+        "ἐπεὶ",
+        "ἦν",
+        "παρασκευὴ",
+        "ὅ",
+        "ἐστιν",
+        "προσάββατον,"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܟܕ",
+        "ܗܘܐ",
+        "ܪܡܫܐ",
+        "ܕܥܪܘܒܬܐ",
+        "ܕܐܝܬܝܗ",
+        "ܩܕܡ",
+        "ܫܒܬܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "cum",
+        "jam",
+        "sero",
+        "esset",
+        "factum",
+        "(quia",
+        "erat",
+        "parasceve,",
+        "quod",
+        "est",
+        "ante",
+        "sabbatum),"
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "omitted",
+      "note": "Peshitta omits the adverb 'already' (ἤδη/jam)"
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        3,
+        4,
+        5
+      ],
+      "variant": "minor",
+      "note": "Word order variation: Greek genitive absolute, Vulgate temporal cum-clause, Peshitta temporal kad-clause"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "omitted",
+      "note": "Peshitta omits causal conjunction ἐπεί/quia, using simple relative construction"
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7,
+        8,
+        9
+      ],
+      "peshitta": [
+        4,
+        5,
+        6
+      ],
+      "vulgate": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "variant": "aligned",
+      "note": "Explanatory clause defining Preparation Day as day before Sabbath"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.848379+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "ref": "Mark 3:2",
+  "chapter": 3,
+  "verse": 2,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "παρετήρουν",
+        "αὐτὸν",
+        "εἰ",
+        "τοῖς",
+        "σάββασιν",
+        "θεραπεύσει",
+        "αὐτὸν",
+        "ἵνα",
+        "κατηγορήσωσιν",
+        "αὐτοῦ."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܢܛܪܝܢ",
+        "ܗܘܘ",
+        "ܠܗ",
+        "ܕܐܢ",
+        "ܡܐܣܐ",
+        "ܠܗ",
+        "ܒܫܒܬܐ",
+        "ܢܩܛܪܓܘܢܝܗܝ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "observabant",
+        "eum,",
+        "si",
+        "sabbatis",
+        "curaret,",
+        "ut",
+        "accusarent",
+        "illum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses periphrastic construction ܘܢܛܪܝܢ ܗܘܘ (were watching) for Greek imperfect παρετήρουν"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4,
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek uses article + dative plural σάββασιν; Peshitta ܒܫܒܬܐ and Vulgate sabbatis both singular/collective without article"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Vulgate omits the direct object pronoun 'him' (Greek αὐτόν, Peshitta ܠܗ), incorporating it into the verb curaret"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek ἵνα and Vulgate ut both express purpose; Peshitta uses direct construction ܢܩܛܪܓܘܢܝܗܝ without explicit purpose marker"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek genitive αὐτοῦ and Vulgate accusative illum; Peshitta incorporates pronominal suffix -ܝܗܝ into verb ܢܩܛܪܓܘܢܝܗܝ"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.740002+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

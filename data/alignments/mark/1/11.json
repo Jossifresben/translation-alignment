@@ -1,0 +1,205 @@
+{
+  "ref": "Mark 1:11",
+  "chapter": 1,
+  "verse": 11,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "φωνὴ",
+        "ἐγένετο",
+        "ἐκ",
+        "τῶν",
+        "οὐρανῶν·",
+        "σὺ",
+        "εἶ",
+        "ὁ",
+        "υἱός",
+        "μου",
+        "ὁ",
+        "ἀγαπητός,",
+        "ἐν",
+        "σοὶ",
+        "εὐδόκησα.¶"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܩܠܐ",
+        "ܗܘܐ",
+        "ܡܢ",
+        "ܫܡܝܐ",
+        "ܐܢܬ",
+        "ܗܘ",
+        "ܒܪܝ",
+        "ܚܒܝܒܐ",
+        "ܒܟ",
+        "ܐܨܛܒܝܬ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "vox",
+        "facta",
+        "est",
+        "de",
+        "cælis",
+        ":",
+        "Tu",
+        "es",
+        "Filius",
+        "meus",
+        "dilectus,",
+        "in",
+        "te",
+        "complacui."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "Peshitta ܘܩܠܐ combines conjunction and noun in single token"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "aligned",
+      "note": "Greek ἐγένετο, Syriac ܗܘܐ, Latin facta est all express 'came to be/happened'"
+    },
+    {
+      "greek_nt": [
+        3,
+        4,
+        5
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek ἐκ τῶν οὐρανῶν (plural) vs Syriac ܡܢ ܫܡܝܐ and Latin de cælis; article presence varies"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "aligned",
+      "note": "Greek ὁ υἱός μου with article, Syriac ܒܪܝ (my son) with pronominal suffix, Latin Filius meus"
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "note": "Greek ὁ ἀγαπητός with article, Syriac ܚܒܝܒܐ (beloved), Latin dilectus"
+    },
+    {
+      "greek_nt": [
+        13,
+        14
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "aligned",
+      "note": "Greek ἐν σοὶ, Syriac ܒܟ (in you with pronominal suffix), Latin in te"
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.727853+00:00",
+    "confidence": 0.88,
+    "schema_version": 1
+  }
+}

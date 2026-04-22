@@ -1,0 +1,136 @@
+{
+  "ref": "Mark 3:15",
+  "chapter": 3,
+  "verse": 15,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "ἔχειν",
+        "ἐξουσίαν",
+        "θεραπεύειν",
+        "τὰς",
+        "νόσους",
+        "καὶ",
+        "ἐκβάλλειν",
+        "τὰ",
+        "δαιμόνια."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܕܢܗܘܘܢ",
+        "ܫܠܝܛܝܢ",
+        "ܕܢܐܣܘܢ",
+        "ܟܪܝܗܐ",
+        "ܘܢܦܩܘܢ",
+        "ܕܝܘܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "dedit",
+        "illis",
+        "potestatem",
+        "curandi",
+        "infirmitates",
+        "et",
+        "ejiciendi",
+        "dæmonia."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "major",
+      "note": "Vulgate 'Et dedit illis' adds explicit subject and indirect object absent in Greek/Peshitta; Greek καί continues infinitive construction from prior context"
+    },
+    {
+      "greek_nt": [
+        1,
+        2
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek infinitive ἔχειν ἐξουσίαν vs Peshitta ܕܢܗܘܘܢ ܫܠܝܛܝܢ (subjunctive 'that they be authorized') vs Vulgate 'potestatem' (noun); semantic equivalence with syntactic variation"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "added",
+      "note": "Vulgate 'dedit illis' (gave to them) makes explicit the implied subject and recipients"
+    },
+    {
+      "greek_nt": [
+        3,
+        4,
+        5
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek θεραπεύειν τὰς νόσους (heal diseases) vs Peshitta ܕܢܐܣܘܢ ܟܪܝܗܐ (heal sicknesses) vs Vulgate 'curandi infirmitates' (healing infirmities); synonymous terms for illness"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7,
+        8,
+        9
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.742056+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

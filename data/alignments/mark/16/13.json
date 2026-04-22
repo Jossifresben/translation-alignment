@@ -1,0 +1,151 @@
+{
+  "ref": "Mark 16:13",
+  "chapter": 16,
+  "verse": 13,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "κἀκεῖνοι",
+        "ἀπελθόντες",
+        "ἀπήγγειλαν",
+        "τοῖς",
+        "λοιποῖς·",
+        "οὐδὲ",
+        "ἐκείνοις",
+        "ἐπίστευσαν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܗܢܘܢ",
+        "ܐܙܠܘ",
+        "ܐܡܪܘ",
+        "ܠܫܪܟܐ",
+        "ܐܦ",
+        "ܠܐ",
+        "ܠܗܢܘܢ",
+        "ܗܝܡܢܘ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "et",
+        "illi",
+        "euntes",
+        "nuntiaverunt",
+        "ceteris",
+        ":",
+        "nec",
+        "illis",
+        "crediderunt."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "aligned",
+      "note": "Greek crasis κἀκεῖνοι = καὶ ἐκεῖνοι; Vulgate separates as 'et illi'"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܐܡܪܘ (said/told) vs Greek ἀπήγγειλαν (announced/reported); Vulgate nuntiaverunt closer to Greek"
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "added",
+      "note": "Vulgate colon punctuation mark not present in Greek or Peshitta tokens"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "Greek οὐδὲ = Peshitta ܐܦ ܠܐ (also not) = Vulgate nec"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.852462+00:00",
+    "confidence": 0.9,
+    "schema_version": 1
+  }
+}

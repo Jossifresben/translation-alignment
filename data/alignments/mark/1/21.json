@@ -1,0 +1,183 @@
+{
+  "ref": "Mark 1:21",
+  "chapter": 1,
+  "verse": 21,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "Καὶ",
+        "εἰσπορεύονται",
+        "εἰς",
+        "Καφαρναούμ.",
+        "καὶ",
+        "εὐθὺς",
+        "τοῖς",
+        "σάββασιν",
+        "εἰσελθὼν",
+        "εἰς",
+        "τὴν",
+        "συναγωγὴν",
+        "ἐδίδασκεν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܟܕ",
+        "ܥܠܘ",
+        "ܠܟܦܪܢܚܘܡ",
+        "ܡܚܕܐ",
+        "ܡܠܦ",
+        "ܗܘܐ",
+        "ܒܫܒܐ",
+        "ܒܟܢܘܫܬܗܘܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "ingrediuntur",
+        "Capharnaum",
+        ":",
+        "et",
+        "statim",
+        "sabbatis",
+        "ingressus",
+        "in",
+        "synagogam,",
+        "docebat",
+        "eos."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܥܠܘ 'they went up' vs. Greek εἰσπορεύονται 'they enter'; topographical perspective differs"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "added",
+      "note": "Vulgate adds colon punctuation, not present in Greek or Peshitta"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "omitted",
+      "note": "Peshitta ܘܟܕ conflates initial conjunction; no second καί equivalent"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7,
+        8,
+        9
+      ],
+      "variant": "major",
+      "note": "Peshitta ܒܟܢܘܫܬܗܘܢ 'in their assembly' with possessive suffix; Greek/Vulgate use article + noun without possessive"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        11
+      ],
+      "variant": "added",
+      "note": "Vulgate adds explicit object pronoun 'eos' (them), absent in Greek and Peshitta"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.729338+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

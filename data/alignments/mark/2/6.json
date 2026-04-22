@@ -1,0 +1,201 @@
+{
+  "ref": "Mark 2:6",
+  "chapter": 2,
+  "verse": 6,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "ἦσαν",
+        "δέ",
+        "τινες",
+        "τῶν",
+        "γραμματέων",
+        "ἐκεῖ",
+        "καθήμενοι",
+        "καὶ",
+        "διαλογιζόμενοι",
+        "ἐν",
+        "ταῖς",
+        "καρδίαις",
+        "αὐτῶν·"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܐܝܬ",
+        "ܗܘܘ",
+        "ܕܝܢ",
+        "ܬܡܢ",
+        "ܡܢ",
+        "ܣܦܪܐ",
+        "ܘܦܪܝܫܐ",
+        "ܕܝܬܒܝܢ",
+        "ܘܡܬܪܥܝܢ",
+        "ܗܘܘ",
+        "ܒܠܒܗܘܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Erant",
+        "autem",
+        "illic",
+        "quidam",
+        "de",
+        "scribis",
+        "sedentes,",
+        "et",
+        "cogitantes",
+        "in",
+        "cordibus",
+        "suis",
+        ":"
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "Peshitta uses ܐܝܬ ܗܘܘ (existential + copula) for Greek ἦσαν"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "added",
+      "note": "Peshitta omits indefinite 'some/certain ones'"
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "Peshitta adds ܘܦܪܝܫܐ 'and Pharisees' not in Greek or Vulgate"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses ܘ prefix on verb instead of separate conjunction"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "Peshitta uses participle + auxiliary ܗܘܘ for periphrastic construction"
+    },
+    {
+      "greek_nt": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        9,
+        10,
+        11
+      ],
+      "variant": "aligned",
+      "note": "Peshitta ܒܠܒܗܘܢ combines preposition + heart + pronoun in single construct"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "note": "Vulgate punctuation colon"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.735379+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

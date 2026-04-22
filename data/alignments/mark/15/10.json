@@ -1,0 +1,155 @@
+{
+  "ref": "Mark 15:10",
+  "chapter": 15,
+  "verse": 10,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "ἐγίνωσκεν",
+        "γὰρ",
+        "ὅτι",
+        "διὰ",
+        "φθόνον",
+        "παραδεδώκεισαν",
+        "αὐτὸν",
+        "οἱ",
+        "ἀρχιερεῖς."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܝܕܥ",
+        "ܗܘܐ",
+        "ܓܝܪ",
+        "ܦܝܠܛܘܣ",
+        "ܕܡܢ",
+        "ܚܣܡܐ",
+        "ܐܫܠܡܘܗܝ",
+        "ܪܒܝ",
+        "ܟܗܢܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Sciebat",
+        "enim",
+        "quod",
+        "per",
+        "invidiam",
+        "tradidissent",
+        "eum",
+        "summi",
+        "sacerdotes."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses periphrastic construction ܝܕܥ ܗܘܐ (knew + was) for Greek imperfect ἐγίνωσκεν"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "Peshitta explicitly names Pilate (ܦܝܠܛܘܣ) as subject, absent in Greek and Vulgate"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek ὅτι and Vulgate quod (that) omitted in Peshitta, which uses direct construction"
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "Object pronoun integrated into Peshitta verb ܐܫܠܡܘܗܝ (delivered-him)"
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.842714+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "ref": "Mark 6:27",
+  "chapter": 6,
+  "verse": 27,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "εὐθὺς",
+        "ἀποστείλας",
+        "ὁ",
+        "βασιλεὺς",
+        "σπεκουλάτορα",
+        "ἐπέταξεν",
+        "ἐνέγκαι",
+        "τὴν",
+        "κεφαλὴν",
+        "αὐτοῦ.",
+        "ὁ",
+        "καὶ",
+        "ἀπελθὼν",
+        "ἀπεκεφάλισεν",
+        "αὐτὸν",
+        "ἐν",
+        "τῇ",
+        "φυλακῇ"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܐܠܐ",
+        "ܡܚܕܐ",
+        "ܫܕܪ",
+        "ܡܠܟܐ",
+        "ܐܣܦܘܩܠܛܪܐ",
+        "ܘܦܩܕ",
+        "ܕܢܝܬܐ",
+        "ܪܫܗ",
+        "ܕܝܘܚܢܢ",
+        "ܘܐܙܠ",
+        "ܦܣܩܗ",
+        "ܪܫܗ",
+        "ܕܝܘܚܢܢ",
+        "ܒܝܬ",
+        "ܐܣܝܪܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "sed",
+        "misso",
+        "spiculatore",
+        "præcepit",
+        "afferri",
+        "caput",
+        "ejus",
+        "in",
+        "disco.",
+        "Et",
+        "decollavit",
+        "eum",
+        "in",
+        "carcere,"
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "note": "Greek καὶ vs Peshitta ܐܠܐ (but) vs Vulgate sed (but) - Peshitta/Vulgate use adversative conjunction"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Vulgate omits 'immediately' (εὐθύς/ܡܚܕܐ)"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek has article + βασιλεύς; Peshitta ܡܠܟܐ; Vulgate omits subject (understood from context)"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "Latin loanword σπεκουλάτορα/ܐܣܦܘܩܠܛܪܐ/spiculatore (executioner)"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "peshitta": [
+        6,
+        7,
+        8
+      ],
+      "vulgate": [
+        4,
+        5,
+        6
+      ],
+      "variant": "major",
+      "note": "Peshitta adds explicit 'of John' (ܕܝܘܚܢܢ) twice; Vulgate adds 'in disco' (on a platter) not in Greek/Peshitta here"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "added",
+      "note": "Vulgate adds 'in disco' (on a platter) - detail from parallel account"
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek ὁ καὶ (and he) vs Vulgate Et - stylistic variation in narrative transition"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Vulgate omits 'having gone' (ἀπελθών/ܘܐܙܠ)"
+    },
+    {
+      "greek_nt": [
+        14,
+        15
+      ],
+      "peshitta": [
+        10,
+        11,
+        12
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "minor",
+      "note": "Peshitta repeats 'his head of John' (ܪܫܗ ܕܝܘܚܢܢ) for emphasis; Greek/Vulgate use pronoun"
+    },
+    {
+      "greek_nt": [
+        16,
+        17,
+        18
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.765923+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

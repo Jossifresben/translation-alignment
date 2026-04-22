@@ -1,0 +1,219 @@
+{
+  "ref": "Mark 1:41",
+  "chapter": 1,
+  "verse": 41,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "ὁ",
+        "καὶ",
+        "Ἰησοῦς",
+        "σπλαγχνισθεὶς",
+        "ἐκτείνας",
+        "τὴν",
+        "χεῖρα",
+        "αὐτοῦ",
+        "ἥψατο",
+        "καὶ",
+        "λέγει",
+        "αὐτῷ·",
+        "θέλω,",
+        "καθαρίσθητι."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܗܘ",
+        "ܕܝܢ",
+        "ܝܫܘܥ",
+        "ܐܬܪܚܡ",
+        "ܥܠܘܗܝ",
+        "ܘܦܫܛ",
+        "ܐܝܕܗ",
+        "ܩܪܒ",
+        "ܠܗ",
+        "ܘܐܡܪ",
+        "ܨܒܐ",
+        "ܐܢܐ",
+        "ܐܬܕܟܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Jesus",
+        "autem",
+        "misertus",
+        "ejus,",
+        "extendit",
+        "manum",
+        "suam",
+        ":",
+        "et",
+        "tangens",
+        "eum,",
+        "ait",
+        "illi",
+        ":",
+        "Volo",
+        ":",
+        "mundare."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek article ὁ and Peshitta pronoun ܗܘ both mark subject; Vulgate omits"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek καί (and), Peshitta ܕܝܢ (but/now), Vulgate autem (but) show stylistic variation in discourse particle"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܐܬܪܚܡ ܥܠܘܗܝ (had compassion on him) includes explicit object; Greek σπλαγχνισθεὶς and Vulgate misertus ejus both include object pronoun"
+    },
+    {
+      "greek_nt": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        4,
+        5,
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܩܪܒ ܠܗ (drew near to him/touched him) and Vulgate tangens eum both make object explicit; Greek ἥψατο implies object"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        7,
+        13,
+        15
+      ],
+      "variant": "added",
+      "note": "Vulgate adds colons as punctuation markers not present in Greek or Peshitta"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10,
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11,
+        12
+      ],
+      "variant": "minor",
+      "note": "Greek λέγει αὐτῷ and Vulgate ait illi make indirect object explicit; Peshitta ܘܐܡܪ (and he said) incorporates this in previous conjunction"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        10,
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܨܒܐ ܐܢܐ makes first-person pronoun explicit; Greek θέλω and Vulgate Volo encode person in verb"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.732389+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

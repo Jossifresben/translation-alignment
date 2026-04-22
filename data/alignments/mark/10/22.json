@@ -1,0 +1,198 @@
+{
+  "ref": "Mark 10:22",
+  "chapter": 10,
+  "verse": 22,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "ὁ",
+        "δὲ",
+        "στυγνάσας",
+        "ἐπὶ",
+        "τῷ",
+        "λόγῳ",
+        "ἀπῆλθεν",
+        "λυπούμενος·",
+        "ἦν",
+        "γὰρ",
+        "ἔχων",
+        "κτήματα",
+        "πολλά."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܗܘ",
+        "ܕܝܢ",
+        "ܐܬܟܡܪ",
+        "ܒܡܠܬܐ",
+        "ܗܕܐ",
+        "ܘܐܙܠ",
+        "ܟܕ",
+        "ܥܝܝܩܐ",
+        "ܠܗ",
+        "ܐܝܬ",
+        "ܗܘܐ",
+        "ܠܗ",
+        "ܓܝܪ",
+        "ܢܟܣܐ",
+        "ܣܓܝܐܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Qui",
+        "contristatus",
+        "in",
+        "verbo,",
+        "abiit",
+        "mœrens",
+        ":",
+        "erat",
+        "enim",
+        "habens",
+        "multas",
+        "possessiones."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0,
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek στυγνάζω (become gloomy/sad) vs Vulgate contristatus (saddened); Peshitta ܐܬܟܡܪ (became dark/gloomy) closer to Greek nuance"
+    },
+    {
+      "greek_nt": [
+        3,
+        4,
+        5
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "note": "Peshitta adds demonstrative ܗܕܐ (this) not in Greek/Vulgate; Greek uses prepositional phrase ἐπὶ τῷ λόγῳ"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses participial construction ܟܕ ܥܝܝܩܐ (while grieving) matching Greek λυπούμενος structure"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "Peshitta adds pronominal suffix ܠܗ (to him) not in Greek/Vulgate"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10
+      ],
+      "peshitta": [
+        9,
+        10,
+        12
+      ],
+      "vulgate": [
+        7,
+        8,
+        9
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses existential construction ܐܝܬ ܗܘܐ (there was) with ܓܝܪ; word order variation"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "Peshitta adds second pronominal suffix ܠܗ (to him) for emphasis"
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "omitted",
+      "note": "Vulgate punctuation colon not represented in Greek/Peshitta syntax"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.796062+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

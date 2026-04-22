@@ -1,0 +1,134 @@
+{
+  "ref": "Mark 6:32",
+  "chapter": 6,
+  "verse": 32,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "Καὶ",
+        "ἀπῆλθον",
+        "ἐν",
+        "τῷ",
+        "πλοίῳ",
+        "εἰς",
+        "ἔρημον",
+        "τόπον",
+        "κατ᾽",
+        "(kat᾽)",
+        "ἰδίαν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܐܙܠܘ",
+        "ܠܐܬܪܐ",
+        "ܚܘܪܒܐ",
+        "ܒܣܦܝܢܬܐ",
+        "ܒܠܚܘܕܝܗܘܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "ascendentes",
+        "in",
+        "navim,",
+        "abierunt",
+        "in",
+        "desertum",
+        "locum",
+        "seorsum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "Peshitta combines conjunction and verb in single token ܘܐܙܠܘ"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "added",
+      "note": "Vulgate adds 'ascendentes' (boarding/embarking) not present in Greek or Peshitta"
+    },
+    {
+      "greek_nt": [
+        2,
+        3,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek uses prepositional phrase ἐν τῷ πλοίῳ; Peshitta uses simple prepositional prefix ܒܣܦܝܢܬܐ; Vulgate 'in navim' (accusative of motion)"
+    },
+    {
+      "greek_nt": [
+        5,
+        6,
+        7
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        5,
+        6,
+        7
+      ],
+      "variant": "minor",
+      "note": "Word order variation: Peshitta places destination before boat mention; Greek and Vulgate follow similar structure"
+    },
+    {
+      "greek_nt": [
+        8,
+        9
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "κατ᾽ ἰδίαν (by themselves), ܒܠܚܘܕܝܗܘܢ (alone), and 'seorsum' (apart) are semantically equivalent"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.767533+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "ref": "Mark 3:6",
+  "chapter": 3,
+  "verse": 6,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "Καὶ",
+        "ἐξελθόντες",
+        "οἱ",
+        "Φαρισαῖοι",
+        "εὐθὺς",
+        "μετὰ",
+        "τῶν",
+        "Ἡρῳδιανῶν",
+        "συμβούλιον",
+        "ἐδίδουν",
+        "κατ᾽",
+        "(kat᾽)",
+        "αὐτοῦ",
+        "ὅπως",
+        "αὐτὸν",
+        "ἀπολέσωσιν.¶"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܢܦܩܘ",
+        "ܦܪܝܫܐ",
+        "ܒܪ",
+        "ܫܥܬܗ",
+        "ܥܡ",
+        "ܕܒܝܬ",
+        "ܗܪܘܕܣ",
+        "ܘܡܠܟܐ",
+        "ܢܣܒܘ",
+        "ܥܠܘܗܝ",
+        "ܐܝܟܢܐ",
+        "ܕܢܘܒܕܘܢܝܗܝ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Exeuntes",
+        "autem",
+        "pharisæi,",
+        "statim",
+        "cum",
+        "Herodianis",
+        "consilium",
+        "faciebant",
+        "adversus",
+        "eum",
+        "quomodo",
+        "eum",
+        "perderent."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Vulgate omits coordinating conjunction; Peshitta ܘ- prefix present"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "added",
+      "note": "Vulgate adds 'autem' (but/however) as transitional particle"
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܒܪ ܫܥܬܗ (lit. 'son of his hour') is idiomatic for 'immediately'; semantically aligned with εὐθύς and statim"
+    },
+    {
+      "greek_nt": [
+        5,
+        6,
+        7
+      ],
+      "peshitta": [
+        4,
+        5,
+        6
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܕܒܝܬ ܗܪܘܕܣ (house of Herod) vs. Greek/Vulgate Herodians; stylistic variation for same group"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "Peshitta adds ܘܡܠܟܐ (and counsel/plan), possibly explicating the nature of consultation"
+    },
+    {
+      "greek_nt": [
+        8,
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek συμβούλιον ἐδίδουν (were giving counsel) vs. Peshitta ܢܣܒܘ (took) vs. Vulgate consilium faciebant (were making counsel); synonymous constructions"
+    },
+    {
+      "greek_nt": [
+        10,
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13,
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11,
+        12
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.740690+00:00",
+    "confidence": 0.82,
+    "schema_version": 1
+  }
+}

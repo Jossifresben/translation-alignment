@@ -1,0 +1,152 @@
+{
+  "ref": "Mark 8:13",
+  "chapter": 8,
+  "verse": 13,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "ἀφεὶς",
+        "αὐτοὺς",
+        "πάλιν",
+        "ἐμβὰς",
+        "εἰς",
+        "τὸ",
+        "πλοῖον",
+        "ἀπῆλθεν",
+        "εἰς",
+        "τὸ",
+        "πέραν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܫܒܩ",
+        "ܐܢܘܢ",
+        "ܘܣܠܩ",
+        "ܠܣܦܝܢܬܐ",
+        "ܘܐܙܠܘ",
+        "ܠܗܘ",
+        "ܥܒܪܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "dimittens",
+        "eos,",
+        "ascendit",
+        "iterum",
+        "navim",
+        "et",
+        "abiit",
+        "trans",
+        "fretum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1,
+        2
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "aligned",
+      "note": "Greek ἀφεὶς αὐτοὺς, Peshitta ܘܫܒܩ ܐܢܘܢ, Vulgate dimittens eos all express 'leaving them'"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "omitted",
+      "note": "Greek πάλιν 'again' and Vulgate iterum present; Peshitta omits"
+    },
+    {
+      "greek_nt": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
+        3,
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek ἐμβὰς εἰς τὸ πλοῖον 'having embarked into the boat'; Peshitta ܘܣܠܩ ܠܣܦܝܢܬܐ 'and he ascended to the boat'; Vulgate ascendit navim 'he ascended the boat' - stylistic variation in expressing boarding"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "note": "Vulgate adds conjunction 'et' before abiit, not present in Greek or Peshitta"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek ἀπῆλθεν (singular) vs Peshitta ܘܐܙܠܘ (plural 'they went'); Vulgate abiit (singular) agrees with Greek"
+    },
+    {
+      "greek_nt": [
+        9,
+        10,
+        11
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "aligned",
+      "note": "All express 'to the other side': Greek εἰς τὸ πέραν, Peshitta ܠܗܘ ܥܒܪܐ, Vulgate trans fretum"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.780299+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

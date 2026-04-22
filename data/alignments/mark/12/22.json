@@ -1,0 +1,157 @@
+{
+  "ref": "Mark 12:22",
+  "chapter": 12,
+  "verse": 22,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "ἔλαβον",
+        "αὐτὴν",
+        "οἱ",
+        "ἑπτὰ",
+        "καὶ",
+        "οὐκ",
+        "ἀφῆκαν",
+        "σπέρμα.",
+        "ἔσχατον",
+        "πάντων",
+        "καὶ",
+        "ἡ",
+        "γυνὴ",
+        "ἀπέθανεν."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܫܒܥܬܝܗܘܢ",
+        "ܢܣܒܘܗ",
+        "ܘܠܐ",
+        "ܫܒܩܘ",
+        "ܙܪܥܐ",
+        "ܐܚܪܝܬ",
+        "ܟܠܗܘܢ",
+        "ܡܝܬܬ",
+        "ܐܦ",
+        "ܗܝ",
+        "ܐܢܬܬܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "acceperunt",
+        "eam",
+        "similiter",
+        "septem",
+        ":",
+        "et",
+        "non",
+        "reliquerunt",
+        "semen.",
+        "Novissima",
+        "omnium",
+        "defuncta",
+        "est",
+        "et",
+        "mulier."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "variant": "major",
+      "note": "Vulgate adds 'similiter' (likewise/similarly), absent in Greek and Peshitta; Peshitta combines conjunction+seven into single token ܘܫܒܥܬܝܗܘܢ with pronominal suffix"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "added",
+      "note": "Vulgate colon punctuation mark, not present as token in other traditions"
+    },
+    {
+      "greek_nt": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "peshitta": [
+        2,
+        3,
+        4
+      ],
+      "vulgate": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "peshitta": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "vulgate": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "variant": "minor",
+      "note": "Word order variation: Greek 'also the woman died' vs Peshitta 'died also she the-woman' vs Vulgate 'died is also woman'; Peshitta ܐܦ (also) and pronoun ܗܝ (she) add emphasis"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.818250+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

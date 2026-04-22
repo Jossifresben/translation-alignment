@@ -1,0 +1,158 @@
+{
+  "ref": "Mark 7:7",
+  "chapter": 7,
+  "verse": 7,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "μάτην",
+        "δὲ",
+        "σέβονταί",
+        "με",
+        "διδάσκοντες",
+        "διδασκαλίας,",
+        "ἐντάλματα",
+        "ἀνθρώπων.¶"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܣܪܝܩܐܝܬ",
+        "ܕܚܠܝܢ",
+        "ܠܝ",
+        "ܟܕ",
+        "ܡܠܦܝܢ",
+        "ܝܘܠܦܢܐ",
+        "ܕܦܘܩܕܢܐ",
+        "ܕܒܢܝ",
+        "ܐܢܫܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "in",
+        "vanum",
+        "autem",
+        "me",
+        "colunt,",
+        "docentes",
+        "doctrinas,",
+        "et",
+        "præcepta",
+        "hominum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "aligned",
+      "note": "Vulgate splits 'in vanum' for Greek/Peshitta single adverb 'in vain/vainly'"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek δὲ and Vulgate autem are contrastive conjunctions; Peshitta uses ܘ (waw) prefix on first word"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek σέβομαι 'worship/revere', Peshitta ܕܚܠ 'fear/revere', Vulgate colo 'honor/worship' - semantic overlap with stylistic variation"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "Peshitta uses ܟܕ (kad) 'while/when' + participle construction"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "aligned",
+      "note": "Vulgate adds coordinating 'et' before 'praecepta'"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "Peshitta uses construct chain ܕܒܢܝ ܐܢܫܐ 'of sons of man' for Greek/Vulgate genitive 'of men'"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.773557+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

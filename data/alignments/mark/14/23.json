@@ -1,0 +1,171 @@
+{
+  "ref": "Mark 14:23",
+  "chapter": 14,
+  "verse": 23,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "λαβὼν",
+        "τὸ",
+        "ποτήριον,",
+        "εὐχαριστήσας",
+        "ἔδωκεν",
+        "αὐτοῖς,",
+        "καὶ",
+        "ἔπιον",
+        "ἐξ",
+        "αὐτοῦ",
+        "πάντες."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܢܣܒ",
+        "ܟܣܐ",
+        "ܘܐܘܕܝ",
+        "ܘܒܪܟ",
+        "ܘܝܗܒ",
+        "ܠܗܘܢ",
+        "ܘܐܫܬܝܘ",
+        "ܡܢܗ",
+        "ܟܠܗܘܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "accepto",
+        "calice,",
+        "gratias",
+        "agens",
+        "dedit",
+        "eis",
+        ":",
+        "et",
+        "biberunt",
+        "ex",
+        "illo",
+        "omnes."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1,
+        2,
+        3
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "aligned",
+      "note": "Greek article τὸ not represented separately in Peshitta/Vulgate; ܘܢܣܒ includes conjunction"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "major",
+      "note": "Peshitta has doublet ܘܐܘܕܝ ܘܒܪܟ (gave thanks and blessed) vs. Greek single εὐχαριστήσας; Vulgate gratias agens is participial periphrasis"
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "added",
+      "note": "Vulgate colon is punctuation, not lexical"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        9,
+        10,
+        11
+      ],
+      "variant": "aligned",
+      "note": "ܘܐܫܬܝܘ combines conjunction with verb; ܡܢܗ = ἐξ αὐτοῦ = ex illo"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.832120+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "ref": "Mark 9:11",
+  "chapter": 9,
+  "verse": 11,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "ἐπηρώτων",
+        "αὐτὸν",
+        "λέγοντες·",
+        "ὅτι",
+        "λέγουσιν",
+        "οἱ",
+        "γραμματεῖς",
+        "ὅτι",
+        "Ἠλίαν",
+        "δεῖ",
+        "ἐλθεῖν",
+        "πρῶτον;"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܡܫܐܠܝܢ",
+        "ܗܘܘ",
+        "ܠܗ",
+        "ܘܐܡܪܝܢ",
+        "ܡܢܐ",
+        "ܗܟܝܠ",
+        "ܐܡܪܝܢ",
+        "ܣܦܪܐ",
+        "ܕܐܠܝܐ",
+        "ܘܠܐ",
+        "ܕܢܐܬܐ",
+        "ܠܘܩܕܡ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Qui",
+        "respondens,",
+        "ait",
+        "illis",
+        ":",
+        "Elias",
+        "cum",
+        "venerit",
+        "primo,",
+        "restituet",
+        "omnia",
+        ":",
+        "et",
+        "quomodo",
+        "scriptum",
+        "est",
+        "in",
+        "Filium",
+        "hominis,",
+        "ut",
+        "multa",
+        "patiatur",
+        "et",
+        "contemnatur."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "peshitta": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "vulgate": [],
+      "variant": "major",
+      "note": "Vulgate omits the disciples' question entirely and begins with Jesus' response (Qui respondens)"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek ὅτι introducing indirect discourse has no direct equivalent in Peshitta or Vulgate"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4,
+        5,
+        6
+      ],
+      "vulgate": [],
+      "variant": "major",
+      "note": "Peshitta ܡܢܐ ܗܟܝܠ ܐܡܪܝܢ (What then do they say) expands Greek λέγουσιν; Vulgate omits question"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [],
+      "variant": "major",
+      "note": "Greek οἱ γραμματεῖς and Peshitta ܣܦܪܐ (scribes) present; Vulgate omits"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Second ὅτι (that) introducing content clause omitted in Peshitta and Vulgate"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [],
+      "variant": "major",
+      "note": "Greek δεῖ (it is necessary) and Peshitta ܘܠܐ (waw + negation marker, likely ܘܠܐ = 'behooves') present; Vulgate uses cum + subjunctive construction instead"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "variant": "added",
+      "note": "Vulgate adds introductory formula 'Qui respondens, ait illis :' (Who answering, said to them) not in Greek or Peshitta"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "variant": "added",
+      "note": "Vulgate adds entire clause about Elijah restoring all things and Son of Man suffering, conflating material from Mark 9:12 not present in this verse in Greek or Peshitta"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.786878+00:00",
+    "confidence": 0.65,
+    "schema_version": 1
+  }
+}

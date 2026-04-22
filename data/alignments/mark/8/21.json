@@ -1,0 +1,145 @@
+{
+  "ref": "Mark 8:21",
+  "chapter": 8,
+  "verse": 21,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "ἔλεγεν",
+        "αὐτοῖς·",
+        "οὔπω",
+        "πῶς",
+        "συνίετε;¶"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܐܡܪ",
+        "ܠܗܘܢ",
+        "ܐܝܟܘ",
+        "ܠܐ",
+        "ܥܕܡܐ",
+        "ܠܗܫܐ",
+        "ܡܣܬܟܠܝܢ",
+        "ܐܢܬܘܢ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "dicebat",
+        "eis",
+        ":",
+        "Quomodo",
+        "nondum",
+        "intelligitis",
+        "?"
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "omitted",
+      "note": "Peshitta omits conjunction καὶ/Et"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek imperfect ἔλεγεν vs Peshitta/Vulgate perfect tense"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "added",
+      "note": "Vulgate adds colon punctuation marker"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Peshitta ܐܝܟܘ (how/where) vs Greek πῶς (how) vs Vulgate Quomodo (in what manner)"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3,
+        4,
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "major",
+      "note": "Greek οὔπω (not yet) expanded in Peshitta to ܠܐ ܥܕܡܐ ܠܗܫܐ (not until now), Vulgate nondum (not yet) closer to Greek"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Peshitta makes explicit subject pronoun ܐܢܬܘܢ (you), implicit in Greek/Vulgate verb forms"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "added",
+      "note": "Vulgate adds question mark punctuation"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.781491+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

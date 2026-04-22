@@ -1,0 +1,157 @@
+{
+  "ref": "Mark 9:6",
+  "chapter": 9,
+  "verse": 6,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "οὐ",
+        "γὰρ",
+        "ᾔδει",
+        "τί",
+        "ἀποκριθῇ,",
+        "ἔκφοβοι",
+        "γὰρ",
+        "ἐγένοντο.¶"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܠܐ",
+        "ܕܝܢ",
+        "ܝܕܥ",
+        "ܗܘܐ",
+        "ܡܢܐ",
+        "ܐܡܪ",
+        "ܐܝܬܝܗܘܢ",
+        "ܗܘܘ",
+        "ܓܝܪ",
+        "ܒܕܚܠܬܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "facta",
+        "est",
+        "nubes",
+        "obumbrans",
+        "eos",
+        ":",
+        "et",
+        "venit",
+        "vox",
+        "de",
+        "nube,",
+        "dicens",
+        ":",
+        "Hic",
+        "est",
+        "Filius",
+        "meus",
+        "carissimus",
+        ":",
+        "audite",
+        "illum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "variant": "major",
+      "note": "Vulgate contains entirely different verse content (cloud overshadowing and divine voice) not present in Greek or Peshitta; likely verse misalignment in input data"
+    },
+    {
+      "greek_nt": [
+        0,
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek οὐ γὰρ vs Peshitta ܠܐ ܕܝܢ: both negative + conjunction but different particles (γάρ 'for' vs ܕܝܢ 'but/now')"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5,
+        6,
+        7
+      ],
+      "peshitta": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek ἔκφοβοι γὰρ ἐγένοντο (terrified for they became) vs Peshitta ܐܝܬܝܗܘܢ ܗܘܘ ܓܝܪ ܒܕܚܠܬܐ (they were for in fear): same meaning, different construction"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.786178+00:00",
+    "confidence": 0.3,
+    "schema_version": 1
+  }
+}

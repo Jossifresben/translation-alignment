@@ -1,0 +1,151 @@
+{
+  "ref": "Mark 15:18",
+  "chapter": 15,
+  "verse": 18,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "ἤρξαντο",
+        "ἀσπάζεσθαι",
+        "αὐτόν·",
+        "χαῖρε",
+        "ὁ",
+        "βασιλεῦ",
+        "τῶν",
+        "Ἰουδαίων."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܫܪܝܘ",
+        "ܠܡܫܐܠ",
+        "ܒܫܠܡܗ",
+        "ܫܠܡ",
+        "ܡܠܟܐ",
+        "ܕܝܗܘܕܝܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "cœperunt",
+        "salutare",
+        "eum",
+        ":",
+        "Ave",
+        "rex",
+        "Judæorum."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "Peshitta ܘܫܪܝܘ combines conjunction and verb 'and they began'"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "major",
+      "note": "Peshitta ܠܡܫܐܠ ܒܫܠܡܗ 'to ask in his peace/welfare' vs. Greek ἀσπάζεσθαι 'to salute/greet' - semantic expansion with ܫܠܡ (shalom/peace) idiom"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "Peshitta suffix ـܗ on ܒܫܠܡܗ 'in his peace' = Greek αὐτόν 'him'"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "note": "Vulgate colon is punctuation, not lexical"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "major",
+      "note": "Greek χαῖρε 'rejoice/hail' vs. Peshitta ܫܠܡ 'peace' (shalom greeting) vs. Vulgate Ave 'hail' - culturally distinct greeting formulas"
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek article ὁ with vocative βασιλεῦ; Peshitta and Vulgate lack article"
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.843780+00:00",
+    "confidence": 0.75,
+    "schema_version": 1
+  }
+}

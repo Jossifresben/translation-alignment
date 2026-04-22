@@ -1,0 +1,269 @@
+{
+  "ref": "Mark 1:2",
+  "chapter": 1,
+  "verse": 2,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καθὼς",
+        "γέγραπται",
+        "ἐν",
+        "τῷ",
+        "Ἠσαΐᾳ",
+        "τῷ",
+        "προφήτῃ·",
+        "ἰδοὺ",
+        "ἐγὼ",
+        "ἀποστέλλω",
+        "τὸν",
+        "ἄγγελόν",
+        "μου",
+        "πρὸ",
+        "προσώπου",
+        "σου,",
+        "ὃς",
+        "κατασκευάσει",
+        "τὴν",
+        "ὁδόν",
+        "σου",
+        "ἔμπροσθέν",
+        "σου."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܐܝܟ",
+        "ܕܟܬܝܒ",
+        "ܒܐܫܥܝܐ",
+        "ܢܒܝܐ",
+        "ܗܐ",
+        "ܡܫܕܪ",
+        "ܐܢܐ",
+        "ܡܠܐܟܝ",
+        "ܩܕܡ",
+        "ܦܪܨܘܦܟ",
+        "ܕܢܬܩܢ",
+        "ܐܘܪܚܟ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Sicut",
+        "scriptum",
+        "est",
+        "in",
+        "Isaia",
+        "propheta",
+        ":",
+        "Ecce",
+        "ego",
+        "mitto",
+        "angelum",
+        "meum",
+        "ante",
+        "faciem",
+        "tuam,",
+        "qui",
+        "præparabit",
+        "viam",
+        "tuam",
+        "ante",
+        "te."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "aligned",
+      "note": "Vulgate uses periphrastic 'scriptum est' for Greek perfect passive"
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "omitted",
+      "note": "Peshitta omits preposition 'in', uses direct construction with proper name"
+    },
+    {
+      "greek_nt": [
+        4,
+        5,
+        6
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "note": "Vulgate adds colon punctuation mark as separate token"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "Word order variation: Peshitta places verb before pronoun"
+    },
+    {
+      "greek_nt": [
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13,
+        14,
+        15
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        12,
+        13,
+        14
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "Peshitta combines relative pronoun and verb in single token ܕܢܬܩܢ"
+    },
+    {
+      "greek_nt": [
+        18,
+        19,
+        20
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        17,
+        18
+      ],
+      "variant": "aligned",
+      "note": "Peshitta combines 'your way' with pronominal suffix in single token"
+    },
+    {
+      "greek_nt": [
+        21,
+        22
+      ],
+      "peshitta": [],
+      "vulgate": [
+        19,
+        20
+      ],
+      "variant": "omitted",
+      "note": "Peshitta omits redundant 'before you' phrase present in Greek and Vulgate"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.726052+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

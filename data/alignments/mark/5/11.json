@@ -1,0 +1,160 @@
+{
+  "ref": "Mark 5:11",
+  "chapter": 5,
+  "verse": 11,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "ἦν",
+        "δὲ",
+        "ἐκεῖ",
+        "πρὸς",
+        "τῷ",
+        "ὄρει",
+        "ἀγέλη",
+        "χοίρων",
+        "μεγάλη",
+        "βοσκομένη·"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܐܝܬ",
+        "ܗܘܐ",
+        "ܕܝܢ",
+        "ܬܡܢ",
+        "ܠܘܬ",
+        "ܛܘܪܐ",
+        "ܒܩܪܐ",
+        "ܪܒܬܐ",
+        "ܕܚܙܝܪܐ",
+        "ܕܪܥܝܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Erat",
+        "autem",
+        "ibi",
+        "circa",
+        "montem",
+        "grex",
+        "porcorum",
+        "magnus,",
+        "pascens."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "Peshitta uses periphrastic construction ܐܝܬ ܗܘܐ (existential + copula) for Greek ἦν"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3,
+        4,
+        5
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek πρὸς τῷ ὄρει (near the mountain) vs Vulgate circa montem (around the mountain); Peshitta ܠܘܬ ܛܘܪܐ (toward/at the mountain) - slight prepositional variation"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Word order: Greek adjective follows nouns (ἀγέλη χοίρων μεγάλη), Peshitta places adjective between nouns (ܒܩܪܐ ܪܒܬܐ ܕܚܙܝܪܐ), Vulgate follows nouns (grex porcorum magnus)"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.755208+00:00",
+    "confidence": 0.9,
+    "schema_version": 1
+  }
+}

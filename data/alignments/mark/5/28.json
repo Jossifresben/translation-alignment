@@ -1,0 +1,175 @@
+{
+  "ref": "Mark 5:28",
+  "chapter": 5,
+  "verse": 28,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "ἔλεγεν",
+        "γὰρ",
+        "ὅτι",
+        "ἐὰν",
+        "ἅψωμαι",
+        "κἂν",
+        "τῶν",
+        "ἱματίων",
+        "αὐτοῦ",
+        "σωθήσομαι.¶"
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܐܡܪܐ",
+        "ܗܘܬ",
+        "ܓܝܪ",
+        "ܕܐܦܢ",
+        "ܠܠܒܘܫܗ",
+        "ܩܪܒܐ",
+        "ܐܢܐ",
+        "ܚܝܐ",
+        "ܐܢܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "dicebat",
+        "enim",
+        ":",
+        "Quia",
+        "si",
+        "vel",
+        "vestimentum",
+        "ejus",
+        "tetigero,",
+        "salva",
+        "ero."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "Peshitta uses auxiliary ܗܘܬ (was) with participle ܐܡܪܐ for imperfect tense"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Vulgate adds colon for direct discourse; Peshitta uses ܕ particle (included in ܕܐܦܢ)"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "aligned",
+      "note": "Greek ἐάν, Syriac ܕܐܦܢ, Latin 'Quia si' all express conditional"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Peshitta uses ܩܪܒܐ ܐܢܐ (I approach/draw near) vs. Greek ἅπτω/Latin tango (touch); semantic overlap"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "Greek κἂν (even), Latin 'vel' (even/or); Peshitta lacks explicit particle but sense implied"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "Greek τῶν ἱματίων (the garments), Syriac ܠܠܒܘܫܗ (to his garment, singular with suffix), Latin vestimentum (singular)"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "Possessive: Greek αὐτοῦ, Syriac pronominal suffix -ܗ, Latin ejus"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "aligned",
+      "note": "Greek σωθήσομαι (I will be saved/healed), Syriac ܚܝܐ ܐܢܐ (I will live), Latin salva ero (I will be saved); semantic equivalence in context"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.758050+00:00",
+    "confidence": 0.82,
+    "schema_version": 1
+  }
+}

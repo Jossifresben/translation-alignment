@@ -1,0 +1,103 @@
+{
+  "ref": "Mark 14:50",
+  "chapter": 14,
+  "verse": 50,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "ἀφέντες",
+        "αὐτὸν",
+        "ἔφυγον",
+        "πάντες."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܗܝܕܝܢ",
+        "ܫܒܩܘܗܝ",
+        "ܬܠܡܝܕܘܗܝ",
+        "ܘܥܪܩܘ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Tunc",
+        "discipuli",
+        "ejus",
+        "relinquentes",
+        "eum,",
+        "omnes",
+        "fugerunt."
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "major",
+      "note": "Greek καὶ (and/then) vs Peshitta ܗܝܕܝܢ (then) vs Vulgate Tunc (then): Peshitta and Vulgate use temporal adverb, Greek uses conjunction"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "added",
+      "note": "Peshitta ܬܠܡܝܕܘܗܝ (his disciples) and Vulgate discipuli ejus explicitly name the subject, absent in Greek"
+    },
+    {
+      "greek_nt": [
+        1,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek πάντες and Vulgate omnes (all) explicit; Peshitta implies plurality through verb form"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.837623+00:00",
+    "confidence": 0.85,
+    "schema_version": 1
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "ref": "Mark 9:10",
+  "chapter": 9,
+  "verse": 10,
+  "traditions": {
+    "greek_nt": {
+      "tokens": [
+        "καὶ",
+        "τὸν",
+        "λόγον",
+        "ἐκράτησαν",
+        "πρὸς",
+        "ἑαυτοὺς",
+        "(he'autous)",
+        "συζητοῦντες",
+        "τί",
+        "ἐστιν",
+        "τὸ",
+        "ἐκ",
+        "νεκρῶν",
+        "ἀναστῆναι."
+      ]
+    },
+    "peshitta": {
+      "tokens": [
+        "ܘܐܚܕܘܗ",
+        "ܠܡܠܬܐ",
+        "ܒܢܦܫܗܘܢ",
+        "ܘܒܥܝܢ",
+        "ܗܘܘ",
+        "ܕܡܢܐ",
+        "ܗܝ",
+        "ܗܕܐ",
+        "ܡܠܬܐ",
+        "ܕܡܐ",
+        "ܕܩܡ",
+        "ܡܢ",
+        "ܒܝܬ",
+        "ܡܝܬܐ"
+      ]
+    },
+    "vulgate": {
+      "tokens": [
+        "Et",
+        "interrogabant",
+        "eum,",
+        "dicentes",
+        ":",
+        "Quid",
+        "ergo",
+        "dicunt",
+        "pharisæi",
+        "et",
+        "scribæ,",
+        "quia",
+        "Eliam",
+        "oportet",
+        "venire",
+        "primum",
+        "?"
+      ]
+    }
+  },
+  "alignment": [
+    {
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "major",
+      "note": "Vulgate diverges completely: Greek/Peshitta 'and they kept the word' vs. Vulgate 'And they questioned him saying: What therefore do the Pharisees and scribes say, that Elijah must come first?' - entirely different verse content"
+    },
+    {
+      "greek_nt": [
+        1,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek 'the word/saying' and Peshitta 'the word' have no equivalent in Vulgate's different narrative"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek 'they kept' (ἐκράτησαν) and Peshitta 'they held' absent from Vulgate"
+    },
+    {
+      "greek_nt": [
+        4,
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek 'among themselves' and Peshitta 'in their souls/selves' not in Vulgate"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "major",
+      "note": "Greek 'questioning' (συζητοῦντες) and Peshitta 'were seeking/asking' vs. Vulgate 'interrogabant' - different context and object"
+    },
+    {
+      "greek_nt": [
+        7,
+        8,
+        9
+      ],
+      "peshitta": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "major",
+      "note": "Greek 'what is' and Peshitta 'what is this word' vs. Vulgate 'Quid' (what) in entirely different question about Elijah"
+    },
+    {
+      "greek_nt": [
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek 'from the dead to rise' and Peshitta 'when he rises from the house of the dead' completely absent from Vulgate's Elijah question"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "variant": "added",
+      "note": "Vulgate contains entirely different content: 'him, saying: What therefore do the Pharisees and scribes say, that Elijah must come first?' - not present in Greek or Peshitta"
+    }
+  ],
+  "meta": {
+    "generated_by": "claude-sonnet-4-5",
+    "generated_at": "2026-04-22T12:03:14.786748+00:00",
+    "confidence": 0.3,
+    "schema_version": 1
+  }
+}
