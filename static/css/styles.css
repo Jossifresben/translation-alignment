@@ -1,6 +1,6 @@
 /* Translation Aligner — scholarly UI */
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Syriac:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Syriac:wght@400;500;600;700&display=swap');
 
 :root {
   --parchment:    oklch(0.975 0.012 85);
@@ -378,12 +378,15 @@ body::before {
 }
 .align-cell:first-of-type { border-left: none; padding-left: 0; }
 
-.align-cell[data-script="grc"],
-.align-cell[data-script="lat"] {
-  font-family: 'EB Garamond', serif;
-  font-size: 22px;
+.align-cell[data-script="grc"] {
+  font-family: 'Cardo', 'EB Garamond', 'GFS Didot', serif;
+  font-size: 23px;
 }
-.align-cell[data-script="lat"] { font-style: italic; }
+.align-cell[data-script="lat"] {
+  font-family: 'Cardo', 'EB Garamond', serif;
+  font-size: 22px;
+  font-style: italic;
+}
 .align-cell[data-script="syr"] {
   font-family: 'Noto Sans Syriac', 'Estrangelo Edessa', serif;
   direction: rtl;
@@ -518,17 +521,24 @@ body::before {
   background: var(--rubric-soft);
 }
 .inter-tok {
-  font-size: 18px;
-  line-height: 1.4;
-  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  line-height: 1.45;
+  font-family: 'Cardo', 'EB Garamond', serif;
   color: var(--ink);
+}
+.inter-tok.grk {
+  font-family: 'Cardo', 'EB Garamond', 'GFS Didot', 'Times New Roman', serif;
+  font-size: 23px;
 }
 .inter-tok.syr {
   font-family: 'Noto Sans Syriac', 'Estrangelo Edessa', serif;
   direction: rtl;
+  font-size: 24px;
 }
 .inter-tok.lat {
+  font-family: 'Cardo', 'EB Garamond', serif;
   font-style: italic;
+  font-size: 22px;
 }
 .inter-tok .empty {
   color: var(--ink-4);
