@@ -14,10 +14,13 @@ def client():
         yield c
 
 
-def test_index_redirects_to_mark_1_1(client):
+def test_index_renders_home_page(client):
     resp = client.get("/")
-    assert resp.status_code in (301, 302)
-    assert "/verse/mark/1/1" in resp.headers["Location"]
+    assert resp.status_code == 200
+    body = resp.data.decode("utf-8")
+    assert "Translation Aligner" in body
+    assert "/verse/mark/1/1" in body
+    assert "Open the Gospel of Mark" in body
 
 
 def test_verse_route_renders_with_fixture(client):

@@ -125,6 +125,22 @@ body::before {
   border-radius: 3px;
   color: var(--ink-3);
 }
+.iconbtn-icon { padding: 0 8px; gap: 8px; }
+.iconbtn-icon .icon-search {
+  width: 17px; height: 17px;
+  color: var(--ink-2);
+  flex-shrink: 0;
+}
+.iconbtn-icon:hover .icon-search { color: var(--ink); }
+.iconbtn-icon .iconbtn-kbd {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  padding: 1px 5px;
+  background: var(--parchment-2);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  color: var(--ink-3);
+}
 
 /* ─── Verse navigator ─────────────────────────────────────── */
 
@@ -549,20 +565,30 @@ body::before {
 /* Tokens rendered inside an inter-group: preserve size/feel of raw text,
    and suppress per-token background tints — the group already carries
    the variant/aligned color. Keep variant underlines (they reinforce kind). */
-.inter-group .tok {
+/* Inside an inter-group the group background already signals the variant
+   kind (gold / sage / rose). Per-token highlighting would double-color
+   every word, so we suppress the token-level background, inset underline,
+   and dotted decoration. Tokens inside render as plain text — the whole
+   group carries the color. Hover still fires a gold tint to show the
+   cross-witness alignment feedback. */
+.inter-group .tok,
+.inter-group .tok.is-variant,
+.inter-group .tok[data-align] {
   font-size: inherit;
   line-height: inherit;
-  padding: 0;
+  padding: 0 1px;
   margin: 0;
-  background: transparent;
-  box-shadow: none;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
   cursor: pointer;
 }
 .inter-group .tok:hover {
-  background: var(--gold-hover);
+  background: var(--gold-hover) !important;
+  border-radius: 3px;
 }
 .inter-group .tok.is-variant-active {
-  background: transparent;
+  background: transparent !important;
 }
 .inter-label {
   font-family: 'JetBrains Mono', monospace;
@@ -1259,6 +1285,159 @@ body.dark::before {
   font-family: 'JetBrains Mono', monospace;
   font-size: 10.5px;
   color: var(--ink-4);
+}
+
+/* Home page */
+.home {
+  max-width: 1080px;
+  margin: 48px auto 0;
+  padding: 0 16px;
+}
+.home-hero {
+  padding: 48px 0 64px;
+  border-bottom: 1px solid var(--rule);
+}
+.home-kicker {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--rubric);
+  margin: 0 0 18px;
+}
+.home-title {
+  font-family: 'EB Garamond', 'Cardo', serif;
+  font-size: 64px;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 24px;
+  max-width: 22ch;
+}
+.home-title-accent {
+  color: var(--ink-3);
+  font-style: italic;
+  font-weight: 400;
+}
+.home-lede {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-width: 64ch;
+  margin: 0 0 34px;
+}
+.home-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+.home-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 26px;
+  background: var(--ink);
+  color: var(--parchment);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.12s, transform 0.12s;
+}
+.home-cta:hover { background: var(--rubric); transform: translateY(-1px); }
+.home-cta-arrow { font-size: 18px; transition: transform 0.12s; }
+.home-cta:hover .home-cta-arrow { transform: translateX(4px); }
+.home-cta-secondary {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: var(--ink-2);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+.home-cta-secondary:hover { color: var(--rubric); }
+
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 28px;
+  padding: 56px 0 40px;
+}
+.home-card { padding: 8px 4px; }
+.home-card h3 {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.home-card p {
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  margin: 0;
+}
+.home-card code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  background: var(--parchment-3);
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+.home-card kbd {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  padding: 1px 5px;
+  background: var(--parchment-2);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  color: var(--ink-2);
+}
+
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 40px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+@media (max-width: 720px) { .home-stats { grid-template-columns: repeat(2, 1fr); } }
+.home-stat { text-align: left; }
+.home-stat-num {
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.home-stat-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-3);
+  margin-top: 10px;
+}
+
+.home-footer {
+  padding: 32px 0 64px;
+  color: var(--ink-3);
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+}
+.home-footer a { color: var(--rubric); text-decoration: underline; text-underline-offset: 2px; }
+
+@media (max-width: 720px) {
+  .home-title { font-size: 44px; }
+  .home-lede { font-size: 18px; }
 }
 
 /* About page */

@@ -208,7 +208,9 @@ def _fallback_alignment(book: str, chapter: int, verse: int) -> dict | None:
 
 @app.route("/")
 def index():
-    return redirect(url_for("verse", book="mark", chapter=1, verse=1))
+    return render_template("home.html",
+                           view=None, theme=request.args.get("theme", "light"),
+                           show_rail=False, verse=None)
 
 
 @app.route("/verse/<book>/<int:chapter>/<int:verse>")

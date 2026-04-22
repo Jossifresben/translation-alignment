@@ -19,10 +19,17 @@
         <span class="brand-meta">{% block brand_meta %}{% endblock %}</span>
       </div>
       <nav class="topbar-actions">
-        <button class="iconbtn" type="button">Add witness</button>
         <button class="iconbtn" type="button">Export TEI</button>
         <a class="iconbtn" href="{{ url_for('about') }}">About</a>
-        <button class="iconbtn" type="button" id="search-trigger">⌘ K <kbd>K</kbd></button>
+        <button class="iconbtn iconbtn-icon" type="button" id="search-trigger"
+                aria-label="Search (⌘K)" title="Search (⌘K)">
+          <svg class="icon-search" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="15.2" y1="15.2" x2="20" y2="20"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <kbd class="iconbtn-kbd">⌘K</kbd>
+        </button>
       </nav>
     </header>
 
