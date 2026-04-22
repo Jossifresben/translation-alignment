@@ -31,90 +31,20 @@
     },
     "vulgate": {
       "tokens": [
-        "Et",
-        "facta",
-        "est",
-        "nubes",
-        "obumbrans",
-        "eos",
+        "Non",
+        "enim",
+        "sciebat",
+        "quid",
+        "diceret",
         ":",
-        "et",
-        "venit",
-        "vox",
-        "de",
-        "nube,",
-        "dicens",
-        ":",
-        "Hic",
-        "est",
-        "Filius",
-        "meus",
-        "carissimus",
-        ":",
-        "audite",
-        "illum."
+        "erant",
+        "enim",
+        "timore",
+        "exterriti."
       ]
     }
   },
   "alignment": [
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "variant": "added",
-      "type": "omission",
-      "note": "The Vulgate inserts an entire clause ('Et facta est nubes obumbrans eos') describing the cloud overshadowing them, which is absent from both the Greek NT and Peshitta at this point in the narrative. This material appears earlier in Mark 9:7 in Greek and Syriac witnesses, suggesting the Vulgate may reflect a different verse division or textual tradition that conflates verses."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "variant": "added",
-      "type": "omission",
-      "note": "The Vulgate continues with the divine voice from the cloud ('et venit vox de nube, dicens'), material that belongs to Mark 9:7 in the Greek and Peshitta textual traditions. This represents a substantial displacement of narrative content across verse boundaries in the Latin tradition."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14,
-        15,
-        16,
-        17,
-        18,
-        19
-      ],
-      "variant": "added",
-      "type": "omission",
-      "note": "The Vulgate includes the divine declaration 'Hic est Filius meus carissimus' (This is my beloved Son), which corresponds to Mark 9:7 in Greek and Syriac witnesses. The Latin tradition appears to have incorporated the entire Transfiguration theophany into this verse."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        20,
-        21
-      ],
-      "variant": "added",
-      "type": "omission",
-      "note": "The Vulgate concludes with the command 'audite illum' (hear him), completing the divine speech from Mark 9:7. Neither the Greek NT nor the Peshitta transmit any of this theophanic material in the present verse, which in those traditions focuses solely on Peter's confused response."
-    },
     {
       "greek_nt": [
         0,
@@ -124,10 +54,13 @@
         0,
         1
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "substitution",
-      "note": "Greek uses the causal conjunction γάρ (for) while Peshitta employs ܕܝܢ (dēn, but/now), a contrastive or transitional particle. Both introduce the explanation for Peter's inappropriate suggestion, but with different rhetorical nuance—Greek emphasizing causation, Syriac emphasizing narrative transition."
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses γάρ (explanatory 'for'), while Peshitta employs ܕܝܢ (contrastive/transitional 'but/now'), and Vulgate uses enim (causal 'for'). The Peshitta's choice slightly shifts the rhetorical force from pure explanation to mild contrast, though the semantic content remains equivalent."
     },
     {
       "greek_nt": [
@@ -137,24 +70,48 @@
         2,
         3
       ],
-      "vulgate": [],
+      "vulgate": [
+        2
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a single pluperfect verb ᾔδει (he knew) while Peshitta employs a periphrastic construction ܝܕܥ ܗܘܐ (yda' hwā, literally 'knowing he-was'). Both express past imperfective aspect, but Syriac achieves this through an active participle plus auxiliary verb, a common Semitic construction for expressing continuous or habitual past action."
+      "note": "Greek ᾔδει is a simple pluperfect indicative ('he knew'), while Peshitta uses a periphrastic construction ܝܕܥ ܗܘܐ (perfect participle + auxiliary 'was knowing'), and Vulgate employs the imperfect sciebat. All three express past knowledge, but through different aspectual systems."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        4,
         5
       ],
-      "vulgate": [],
+      "vulgate": [
+        4
+      ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek employs the interrogative pronoun τί with the aorist subjunctive ἀποκριθῇ (what he should answer), expressing deliberative indirect question. Peshitta uses ܡܢܐ ܐܡܪ (mānā 'emar, what he-said), with a perfect verb form that functions similarly but reflects Syriac's different modal system for expressing uncertainty or potentiality in indirect discourse."
+      "type": "grammar",
+      "note": "Greek uses aorist subjunctive ἀποκριθῇ ('he may answer') in deliberative indirect question, Vulgate uses imperfect subjunctive diceret (sequence of tenses), and Peshitta uses perfect ܐܡܪ ('he said/should say'). The modal nuances differ slightly across the three verbal systems, though all express uncertainty about what to say."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon to mark the clause boundary between Peter's ignorance and the explanation of the disciples' fear. Neither Greek nor Peshitta manuscripts typically employ such punctuation at this juncture, creating a tighter syntactic flow."
     },
     {
       "greek_nt": [
@@ -168,16 +125,21 @@
         8,
         9
       ],
-      "vulgate": [],
+      "vulgate": [
+        6,
+        7,
+        8,
+        9
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the predicate adjective ἔκφοβοι with γίνομαι (they became terrified), a standard Greek construction. Peshitta employs the existential particle ܐܝܬܝܗܘܢ ܗܘܘ (ītayhon hwaw, they-were existing) with the prepositional phrase ܒܕܚܠܬܐ (b-deḥltā, in-fear), a characteristic Syriac idiom using the verb 'to be' with a prepositional complement to express states of being or emotion."
+      "type": "word-order",
+      "note": "Greek places the predicate adjective ἔκφοβοι ('terrified') before the verb ἐγένοντο, emphasizing the state of fear. Vulgate mirrors this with timore exterriti ('by fear terrified'), using an ablative of cause. Peshitta employs ܐܝܬܝܗܘܢ ܗܘܘ ܓܝܪ ܒܕܚܠܬܐ (literally 'they were indeed in fear'), using a prepositional phrase with existential verb—syntactically distinct but semantically equivalent."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.000802+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.230236+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

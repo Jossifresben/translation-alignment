@@ -36,46 +36,51 @@
     },
     "vulgate": {
       "tokens": [
-        "Quisquis",
-        "unum",
-        "ex",
-        "hujusmodi",
-        "pueris",
-        "receperit",
-        "in",
-        "nomine",
-        "meo,",
-        "me",
-        "recipit",
-        ":",
-        "et",
-        "quicumque",
-        "me",
-        "susceperit,",
-        "non",
-        "me",
-        "suscipit,",
-        "sed",
+        "Et",
+        "accipiens",
+        "puerum,",
+        "statuit",
         "eum",
-        "qui",
-        "misit",
-        "me."
+        "in",
+        "medio",
+        "eorum",
+        ":",
+        "quem",
+        "cum",
+        "complexus",
+        "esset,",
+        "ait",
+        "illis",
+        ":"
       ]
     }
   },
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire narrative frame of Jesus taking a child and setting it in their midst, beginning instead directly with the saying about receiving children. This represents a major textual divergence where the Vulgate transmits a different verse or conflates material."
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -85,10 +90,12 @@
         1,
         2
       ],
-      "vulgate": [],
+      "vulgate": [
+        2
+      ],
       "variant": "minor",
       "type": "expansion",
-      "note": "The Peshitta adds the numeral ܚܕ ('one') to specify 'one child,' making explicit what is implicit in the Greek anarthrous παιδίον. This represents typical Syriac clarifying style."
+      "note": "The Peshitta adds the numeral ܚܕ ('one') to specify 'one child,' making explicit what is implicit in the Greek anarthrous παιδίον and Latin puerum. This is a characteristic Semitic clarification rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -102,13 +109,34 @@
         3,
         4
       ],
-      "vulgate": [],
+      "vulgate": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
       "variant": "aligned",
       "type": "agreement"
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a simple conjunction καί before the participle; Vulgate employs a relative pronoun quem with temporal cum to create a subordinate clause; Peshitta uses ܘ with a finite verb. All three express the same temporal sequence but with different syntactic strategies."
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
@@ -117,10 +145,13 @@
         6,
         7
       ],
-      "vulgate": [],
+      "vulgate": [
+        11,
+        12
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the participle ἐναγκαλισάμενος ('having taken in arms') with direct object αὐτό. Syriac employs a finite verb ܘܫܩܠܗ ('and he took it') with prepositional phrase ܥܠ ܕܪܥܘܗܝ ('upon his arms'), representing a syntactic restructuring of the same action."
+      "type": "lexical",
+      "note": "Greek ἐναγκαλισάμενος ('having embraced') and Latin complexus esset convey embracing; Peshitta ܘܫܩܠܗ ܥܠ ܕܪܥܘܗܝ literally 'and he took him upon his arms' uses a more concrete idiom. The Peshitta construction is semantically equivalent but employs a prepositional phrase rather than a single verb."
     },
     {
       "greek_nt": [
@@ -131,48 +162,19 @@
         8,
         9
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
         13,
         14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23
+        15
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits entirely different content, presenting the saying about receiving children in Jesus' name (cf. Mark 9:37) rather than the narrative action of Jesus taking a child. This indicates either verse misalignment in the input data or a significant textual tradition divergence requiring manuscript collation."
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.005439+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.235359+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

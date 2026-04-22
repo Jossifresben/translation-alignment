@@ -47,37 +47,28 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "apparuit",
-        "illis",
-        "Elias",
-        "cum",
-        "Moyse",
-        ":",
+        "vestimenta",
+        "ejus",
+        "facta",
+        "sunt",
+        "splendentia,",
         "et",
-        "erant",
-        "loquentes",
-        "cum",
-        "Jesu."
+        "candida",
+        "nimis",
+        "velut",
+        "nix,",
+        "qualia",
+        "fullo",
+        "non",
+        "potest",
+        "super",
+        "terram",
+        "candida",
+        "facere."
       ]
     }
   },
   "alignment": [
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse (Mark 9:4, the appearance of Elijah and Moses), while the Greek and Peshitta attest Mark 9:3 (the transfiguration of Jesus' garments). This represents a complete textual displacement, likely a scribal error in the Vulgate manuscript tradition or a misalignment in the source data."
-    },
     {
       "greek_nt": [
         0
@@ -86,9 +77,10 @@
         0
       ],
       "vulgate": [
-        7
+        0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -99,10 +91,13 @@
       "peshitta": [
         2
       ],
-      "vulgate": [],
+      "vulgate": [
+        1,
+        2
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article + plural noun + possessive pronoun (τὰ ἱμάτια αὐτοῦ, 'his garments'); Peshitta employs a singular construct form with pronominal suffix (ܠܒܘܫܗ, 'his garment'), a typical Syriac idiom treating collective clothing as a singular mass noun."
+      "type": "word-order",
+      "note": "Greek places the article and noun before the possessive pronoun (τὰ ἱμάτια αὐτοῦ), while Vulgate uses post-positive genitive (vestimenta ejus) and Peshitta employs a pronominal suffix on the noun (ܠܒܘܫܗ, 'his-garment'), all expressing identical possession."
     },
     {
       "greek_nt": [
@@ -112,27 +107,43 @@
         1
       ],
       "vulgate": [
-        8
+        3,
+        4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἐγένετο ('became') before the participle; Peshitta places the copula ܗܘܐ after the initial participle ܘܡܙܗܪ ('and shining'); Vulgate erant follows the participle loquentes in the displaced verse 4 text."
+      "type": "grammar",
+      "note": "Greek uses aorist middle ἐγένετο (singular), Peshitta uses perfect ܗܘܐ, and Vulgate employs passive perfect facta sunt (plural agreeing with vestimenta); all convey the same resultative state but differ in voice and aspect."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        0,
         3,
         4
       ],
-      "vulgate": [],
+      "vulgate": [
+        6,
+        7,
+        8
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a present participle + adjective + adverb construction (στίλβοντα λευκὰ λίαν, 'shining, exceedingly white'); Peshitta employs two coordinated finite verbs with an adverb (ܘܡܙܗܪ... ܘܡܚܘܪ ܛܒ, 'and it shone... and [was] very white'), reflecting Syriac preference for paratactic verbal chains over participial modification."
+      "type": "word-order",
+      "note": "Greek uses adjective + intensifying adverb (λευκὰ λίαν), Vulgate reverses to conjunction + adjective + adverb (et candida nimis), and Peshitta uses participle + intensifier (ܘܡܚܘܪ ܛܒ); semantically equivalent but syntactically distinct constructions."
     },
     {
       "greek_nt": [
@@ -143,8 +154,12 @@
         5,
         6
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -153,10 +168,11 @@
       "peshitta": [
         7
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek οἷα ('such as') introduces a relative comparison; Peshitta ܐܝܟܢܐ ('as, in such manner') serves the same comparative function but with a slightly different semantic nuance, emphasizing manner rather than quality."
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -166,10 +182,12 @@
         8,
         9
       ],
-      "vulgate": [],
+      "vulgate": [
+        12
+      ],
       "variant": "major",
       "type": "substitution",
-      "note": "Greek γναφεὺς ('launderer, fuller') is a technical term for a professional cloth-bleacher; Peshitta substitutes ܕܒܢܝ ܐܢܫܐ ('sons of men, human beings'), generalizing the comparison from a specific trade to humanity in general, thereby intensifying the supernatural quality of the whiteness."
+      "note": "Greek and Vulgate use the technical term for a professional cloth-worker (γναφεὺς / fullo, 'fuller' or 'launderer'), while Peshitta substitutes the generic phrase ܕܒܢܝ ܐܢܫܐ ('sons of men', i.e., 'human beings'), generalizing the comparison to all humanity rather than specifying a trade."
     },
     {
       "greek_nt": [
@@ -180,30 +198,30 @@
       "peshitta": [
         11
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition + article + noun (ἐπὶ τῆς γῆς, 'upon the earth'), Vulgate uses preposition + noun without article (super terram), and Peshitta uses prepositional prefix on noun (ܒܐܪܥܐ, 'on-earth'); all express the same locative sense with different syntactic strategies."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        15,
         16
       ],
       "peshitta": [
+        12,
         13
       ],
-      "vulgate": [],
+      "vulgate": [
+        13,
+        14
+      ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek δύναται is third-person singular ('is able'); Peshitta ܡܫܟܚܝܢ is third-person plural ('are able'), agreeing with the plural subject ܕܒܢܝ ܐܢܫܐ ('sons of men'), whereas Greek's singular verb agrees with the singular γναφεύς."
+      "note": "Greek uses singular verb δύναται ('is able'), Vulgate uses singular potest, while Peshitta uses plural ܡܫܟܚܝܢ ('are able'), agreeing with the plural subject 'sons of men' introduced earlier; this reflects the Peshitta's substitution of a collective plural for the Greek/Vulgate singular professional."
     },
     {
       "greek_nt": [
@@ -213,28 +231,19 @@
       "peshitta": [
         10
       ],
-      "vulgate": [],
+      "vulgate": [
+        17,
+        18
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses adverb + infinitive (οὕτως λευκᾶναι, 'thus to whiten'); Peshitta employs the prefixed infinitive ܠܡܚܘܪܘ ('to whiten') without an explicit adverb of manner, the manner being implied by the preceding context."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9,
-        10,
-        11
-      ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Vulgate loquentes cum Jesu ('speaking with Jesus') belongs to the displaced verse 4 and has no correspondence in the Greek or Peshitta witnesses of verse 3."
+      "note": "Greek uses adverb + infinitive (οὕτως λευκᾶναι, 'thus to whiten'), Vulgate uses adjective + infinitive (candida facere, 'to make white'), and Peshitta uses infinitive alone (ܠܡܚܘܪܘ, 'to whiten'); all express the same result with slightly different syntactic frames."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.000304+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.229727+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

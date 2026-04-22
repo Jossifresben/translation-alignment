@@ -64,15 +64,31 @@
     },
     "vulgate": {
       "tokens": [
-        "ubi",
-        "vermis",
-        "eorum",
-        "non",
-        "moritur,",
-        "et",
-        "ignis",
-        "non",
-        "extinguitur."
+        "Quod",
+        "si",
+        "oculus",
+        "tuus",
+        "scandalizat",
+        "te,",
+        "ejice",
+        "eum",
+        ":",
+        "bonum",
+        "est",
+        "tibi",
+        "luscum",
+        "introire",
+        "in",
+        "regnum",
+        "Dei,",
+        "quam",
+        "duos",
+        "oculos",
+        "habentem",
+        "mitti",
+        "in",
+        "gehennam",
+        "ignis,"
       ]
     }
   },
@@ -80,23 +96,49 @@
     {
       "greek_nt": [
         0,
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses καὶ ἐάν ('and if') for the conditional protasis; Vulgate employs Quod si ('but if'), a stylistic Latin variant emphasizing contrast; Peshitta uses simple ܘܐܢ ('and if'), aligning semantically with Greek but lacking the contrastive nuance of the Vulgate."
+    },
+    {
+      "greek_nt": [
         2,
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs the article ὁ before ὀφθαλμός σου ('the eye of you'); Vulgate mirrors this with oculus tuus (noun-possessive order); Peshitta uses ܥܝܢܟ ('your eye') with the pronominal suffix, a typical Semitic construction lacking the article."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        0,
-        1,
         2,
         3
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire protasis of the conditional sentence present in both Greek and Peshitta. The Vulgate text provided appears to be from Mark 9:48 (the refrain 'where their worm does not die and the fire is not quenched'), not Mark 9:47, indicating a textual dislocation or versification error in the manuscript tradition."
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -104,14 +146,37 @@
         8
       ],
       "peshitta": [
-        4,
+        4
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔκβαλε αὐτόν ('cast it out') uses the compound verb ἐκβάλλω; Vulgate ejice eum employs the simple verb ejicere; Peshitta ܚܨܝܗ ('pluck it out') uses a different root, semantically equivalent but lexically distinct from the Greek compound."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
         5,
-        6
+        6,
+        7
       ],
       "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek ἔκβαλε αὐτόν ('cast it out') is rendered in Peshitta with the emphatic construction ܚܨܝܗ ܦܩܚ ܗܘ (literally 'pluck it out, it is'), adding the pronoun ܗܘ for emphasis. The Vulgate omits this imperative entirely, continuing the textual displacement noted above."
+      "variant": "added",
+      "type": "expansion",
+      "note": "Peshitta inserts ܦܩܚ ܗܘ ܠܟ ('it is better for you'), an explanatory expansion making the comparative structure explicit before the main clause. Neither Greek nor Vulgate transmit this phrase at this position; both place the comparative adjective after the imperative."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after eum, marking a syntactic break between the imperative and the comparative clause. Neither Greek nor Peshitta manuscripts typically employ such punctuation at this juncture."
     },
     {
       "greek_nt": [
@@ -119,13 +184,15 @@
         10,
         11
       ],
-      "peshitta": [
-        7
+      "peshitta": [],
+      "vulgate": [
+        9,
+        10,
+        11
       ],
-      "vulgate": [],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the impersonal construction καλόν σέ ἐστιν ('it is good for you'), while Peshitta uses the prepositional phrase ܠܟ ('for you') without an explicit copula or adjective, relying on context. The Vulgate omits this comparative clause entirely due to the broader textual displacement."
+      "type": "word-order",
+      "note": "Greek places the comparative adjective καλόν σέ ἐστιν ('better for you it is') with the accusative σέ before the verb; Vulgate bonum est tibi uses the dative tibi, a standard Latin construction. Peshitta omits this phrase here, having already expressed it earlier (tokens 5–7)."
     },
     {
       "greek_nt": [
@@ -135,10 +202,12 @@
         8,
         9
       ],
-      "vulgate": [],
+      "vulgate": [
+        12
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the compound adjective μονόφθαλμον ('one-eyed') as a predicate accusative, whereas Peshitta employs the prepositional phrase ܕܒܚܕܐ ܥܝܢܟ ('with one eye'), a more analytic construction typical of Syriac syntax."
+      "note": "Greek μονόφθαλμον ('one-eyed') is a single compound adjective; Vulgate luscum ('one-eyed, blind in one eye') is a single lexeme; Peshitta uses the prepositional phrase ܕܒܚܕܐ ܥܝܢܟ ('with one eye of yours'), a periphrastic construction semantically equivalent but syntactically expanded."
     },
     {
       "greek_nt": [
@@ -154,9 +223,15 @@
         11,
         12
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular construction εἰς τὴν βασιλείαν τοῦ θεοῦ ('into the kingdom of God') with double articles; Vulgate in regnum Dei omits articles (Latin lacks them); Peshitta ܠܡܠܟܘܬܗ ܕܐܠܗܐ ('to his kingdom of God') employs a pronominal suffix on 'kingdom', a Semitic idiom not present in Greek or Latin."
     },
     {
       "greek_nt": [
@@ -165,9 +240,10 @@
       "peshitta": [
         13
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -182,10 +258,14 @@
         17,
         18
       ],
-      "vulgate": [],
+      "vulgate": [
+        18,
+        19,
+        20
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the accusative participle construction δύο ὀφθαλμοὺς ἔχοντα ('having two eyes'), while Peshitta employs a temporal/circumstantial clause ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܥܝܢܝܢ ('while there are to you two eyes'), using the existential particle ܐܝܬ with a prepositional phrase—a characteristic Syriac idiom for possession."
+      "note": "Greek δύο ὀφθαλμοὺς ἔχοντα ('two eyes having') uses a present participle modifying the implied subject; Vulgate duos oculos habentem mirrors this with a Latin participle; Peshitta ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܥܝܢܝܢ ('while there are to you two eyes') employs a temporal/circumstantial clause with the existential particle ܐܝܬ, a distinct Syriac syntactic pattern."
     },
     {
       "greek_nt": [
@@ -198,10 +278,14 @@
         19,
         20
       ],
-      "vulgate": [],
+      "vulgate": [
+        21,
+        22,
+        23
+      ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the passive infinitive βληθῆναι εἰς τὴν γέενναν ('to be cast into Gehenna'), while Peshitta employs the active verb ܬܦܠ ܒܓܗܢܐ ('you fall into Gehenna'). This shift from passive to active voice with second-person subject is a common Peshitta rendering strategy, making the consequence more direct and personal."
+      "type": "construction",
+      "note": "Greek βληθῆναι εἰς τὴν γέενναν ('to be cast into Gehenna') uses an aorist passive infinitive with the article; Vulgate mitti in gehennam employs a passive infinitive without article (Latin lacks them); Peshitta ܬܦܠ ܒܓܗܢܐ ('you fall into Gehenna') uses an active verb, a typical Semitic preference for active voice where Greek and Latin use passive constructions."
     },
     {
       "greek_nt": [
@@ -211,33 +295,28 @@
       "peshitta": [
         21
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        24
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τοῦ πυρός ('of fire') is a genitive modifier with article; Vulgate ignis is a genitive without article; Peshitta ܕܢܘܪܐ ('of fire') uses the construct state, a Semitic genitive construction. All three traditions attest the 'fire' qualifier for Gehenna, but employ language-specific syntactic patterns."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
+        24
       ],
-      "variant": "added",
-      "type": "substitution",
-      "note": "The Vulgate text 'ubi vermis eorum non moritur, et ignis non extinguitur' ('where their worm does not die, and the fire is not quenched') represents Mark 9:48, not 9:47. This is either a versification error in the source data or reflects a manuscript tradition that conflates or displaces the Isaianic refrain (cf. Isaiah 66:24) to this position, omitting the conditional sentence about the eye entirely."
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate places a comma after ignis, marking the verse boundary. Greek and Peshitta manuscripts do not typically employ punctuation at this juncture, though modern editions may vary."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.007082+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T21:03:03.809869+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -35,14 +35,19 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "interrogavit",
-        "eos",
-        ":",
-        "Quid",
-        "inter",
-        "vos",
-        "conquiritis",
-        "?"
+        "confestim",
+        "omnis",
+        "populus",
+        "videns",
+        "Jesum,",
+        "stupefactus",
+        "est,",
+        "et",
+        "expaverunt,",
+        "et",
+        "accurrentes",
+        "salutabant",
+        "eum."
       ]
     }
   },
@@ -57,9 +62,8 @@
       "vulgate": [
         0
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse here (Mark 9:16: 'Et interrogavit eos: Quid inter vos conquiritis?'), representing a textual dislocation or manuscript tradition error. Greek and Peshitta both attest Mark 9:15, describing the crowd's reaction to seeing Jesus, while the Vulgate has jumped to Jesus' question in the following verse."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -68,10 +72,11 @@
       "peshitta": [
         1
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek εὐθύς ('immediately') and Peshitta ܒܪ ܫܥܬܗ ('at once, immediately') both mark the temporal immediacy of the crowd's reaction. The Vulgate omits this adverbial phrase entirely due to its transmission of a different verse."
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -83,9 +88,13 @@
         2,
         3
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs the article with πᾶς ὁ ὄχλος (all the crowd), while Syriac ܟܠܗ ܟܢܫܐ and Latin omnis populus lack the article, a routine difference in definiteness marking between Greek and the other traditions."
     },
     {
       "greek_nt": [
@@ -95,10 +104,13 @@
       "peshitta": [
         4
       ],
-      "vulgate": [],
+      "vulgate": [
+        4,
+        5
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an aorist participle with explicit object (ἰδόντες αὐτόν, 'having seen him'), while Peshitta employs a finite verb with pronominal suffix (ܚܙܐܘܗܝ, 'they-saw-him'), a typical Syriac preference for finite verbal forms over participial constructions."
+      "note": "Greek uses an aorist participle ἰδόντες with separate object pronoun αὐτόν; Syriac ܚܙܐܘܗܝ incorporates the pronominal suffix directly on the verb; Latin videns Jesum uses the present participle with explicit object noun, reflecting different strategies for participial constructions."
     },
     {
       "greek_nt": [
@@ -107,33 +119,30 @@
       "peshitta": [
         5
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐξεθαμβήθησαν ('they were greatly amazed') conveys intense astonishment, while Peshitta ܘܬܘܗܘ ('and they marveled') uses a cognate root expressing wonder but with slightly less intensive force, though both describe the crowd's startled reaction."
+      "vulgate": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek ἐξεθαμβήθησαν (they were amazed) and Syriac ܘܬܘܗܘ (and they marveled) each use a single verb, whereas the Vulgate expands with a doublet: stupefactus est, et expaverunt (was astonished, and they were terrified), intensifying the emotional response through paired verbs."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
         6
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a present participle προστρέχοντες ('running toward') coordinated with the main verb, while Peshitta uses a coordinate finite verb ܘܪܗܛܘ ('and they ran'), reflecting Syriac's tendency toward paratactic finite verb sequences rather than Greek's participial subordination."
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -144,33 +153,19 @@
         7,
         8
       ],
-      "vulgate": [],
+      "vulgate": [
+        12,
+        13
+      ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἠσπάζοντο αὐτόν ('they were greeting him') uses the standard verb for formal greeting, while Peshitta ܫܐܠܘ ܒܫܠܡܗ ('they asked in his peace/welfare') employs an idiomatic Semitic construction literally meaning 'they inquired about his peace,' the conventional Syriac expression for greeting."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate's 'interrogavit eos: Quid inter vos conquiritis?' ('he asked them: What are you discussing among yourselves?') represents Mark 9:16 rather than 9:15, indicating either a versification error in the manuscript tradition or a scribal leap forward in the narrative sequence."
+      "note": "Greek ἠσπάζοντο αὐτόν (they were greeting him) and Latin salutabant eum are direct cognates, while Syriac ܫܐܠܘ ܒܫܠܡܗ (they asked in his peace/welfare) employs an idiomatic Semitic greeting formula using the root šlm (peace), semantically equivalent but lexically distinct."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.002121+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T21:02:12.231854+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -39,21 +39,18 @@
     },
     "vulgate": {
       "tokens": [
-        "Et",
-        "continuo",
-        "exclamans",
-        "pater",
-        "pueri,",
-        "cum",
-        "lacrimis",
-        "aiebat",
+        "Jesus",
+        "autem",
+        "ait",
+        "illi",
         ":",
-        "Credo,",
-        "Domine",
-        ";",
-        "adjuva",
-        "incredulitatem",
-        "meam."
+        "Si",
+        "potes",
+        "credere,",
+        "omnia",
+        "possibilia",
+        "sunt",
+        "credenti."
       ]
     }
   },
@@ -61,38 +58,98 @@
     {
       "greek_nt": [
         0,
-        1,
-        2,
-        3,
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the Greek article and postpositive conjunction (Ὁ δὲ), beginning directly with the verb. The Vulgate retains the adversative particle as 'autem', maintaining the Greek's contrastive function."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Vulgate places 'Jesus' before 'autem' in first position, while Greek and Peshitta position the subject after the conjunction/verb respectively, reflecting Latin rhetorical preference for subject-initial clauses."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        0,
-        1,
-        2
+        1
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits Jesus' response entirely, instead transmitting the father's reply from Mark 9:24. This represents a major textual dislocation: the Greek and Peshitta preserve verse 23 (Jesus' statement about faith), while the Vulgate skips directly to verse 24 (the father's cry). The Vulgate's exclamans pater pueri cum lacrimis corresponds to εὐθὺς κράξας ὁ πατὴρ τοῦ παιδίου in Greek 9:24, not present in the input Greek tokens for 9:23."
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate explicitly marks the direct discourse with a colon after 'illi', whereas Greek uses a raised dot (·) and Peshitta employs no punctuation, reflecting differing manuscript conventions for introducing speech."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7,
-        8
-      ],
-      "peshitta": [
-        3,
-        4,
         5,
         6
       ],
-      "vulgate": [],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
       "variant": "major",
       "type": "construction",
-      "note": "Greek employs the articular construction τὸ εἰ δύνῃ πιστεῦσαι ('the [matter of] if you are able to believe'), a substantivized conditional clause. Peshitta renders this as a straightforward conditional ܐܢ ܡܫܟܚ ܐܢܬ ܕܬܗܝܡܢ ('if you are able to believe'), adding the explicit subject pronoun ܐܢܬ ('you') for clarity. The Vulgate omits this clause entirely due to its transmission of verse 24 instead of verse 23."
+      "note": "Greek employs the articular infinitive construction (τὸ εἰ δύνῃ) to nominalize the conditional clause, creating a substantival phrase meaning 'the [matter of] if you can'. Both Peshitta and Vulgate render this as a simple conditional protasis without nominalization, treating it as a straightforward 'if' clause."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬ ('you'), which is grammatically unnecessary in Syriac but provides emphasis. Greek and Latin encode the subject within the verbal morphology alone (δύνῃ, potes)."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -101,57 +158,50 @@
       ],
       "peshitta": [
         7,
-        8,
-        9,
-        10
+        8
       ],
-      "vulgate": [],
+      "vulgate": [
+        8
+      ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses the compact πάντα δυνατά ('all things [are] possible'), with the copula implied. Peshitta expands this to ܟܠ ܡܕܡ ܡܫܟܚ ܕܢܗܘܐ ('everything is able to be'), making the verbal construction explicit with both ܡܫܟܚ ('is able') and the infinitive ܕܢܗܘܐ ('to be'). This represents typical Syriac preference for explicit verbal forms over Greek nominal constructions."
-    },
-    {
-      "greek_nt": [
-        11,
-        12
-      ],
-      "peshitta": [
-        11,
-        12
-      ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "type": "idiom",
+      "note": "Greek uses the neuter plural adjective πάντα as a substantive ('all things'); Peshitta employs the distributive construction ܟܠ ܡܕܡ (literally 'every thing'); Vulgate uses the singular collective 'omnia'. All three express totality through different grammatical strategies typical of their respective languages."
     },
     {
       "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
+      "peshitta": [
         9,
-        10,
-        11,
-        12,
-        13,
-        14
+        10
+      ],
+      "vulgate": [
+        9,
+        10
       ],
       "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse (Mark 9:24, the father's response) rather than Jesus' statement in 9:23. The Latin text Et continuo exclamans pater pueri, cum lacrimis aiebat: Credo, Domine; adjuva incredulitatem meam corresponds to the Greek of the subsequent verse, representing either a versification error in the input data or a witness to a textual tradition that conflates or reorders these pericopes."
+      "type": "construction",
+      "note": "Greek expresses possibility through the adjective δυνατά ('possible [things]') with an implied copula. Peshitta and Vulgate both use finite verbal constructions: Syriac ܡܫܟܚ ܕܢܗܘܐ ('is able to be') and Latin 'possibilia sunt' ('are possible'), making the existential predication explicit."
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
+        11,
+        12
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular present participle τῷ πιστεύοντι (dative substantival participle, 'to the one believing'); Peshitta employs a prepositional phrase with relative particle ܠܡܢ ܕܡܗܝܡܢ ('to the one who believes'); Vulgate uses a simple present participle 'credenti'. All three express agency through participial constructions but with varying degrees of syntactic complexity."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.003298+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.233344+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

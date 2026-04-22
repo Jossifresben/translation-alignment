@@ -31,29 +31,28 @@ their numeric verse label, the drift causes whole chapters to misalign.
 
 **Confirmed drift (as of 2026-04-22):**
 
-| Chapter | Vulgate count | NA28 count | Effect |
+| Chapter | Vulgate count | NA28 count | Status |
 |---|---|---|---|
-| Mark 4 | 40 verses | 41 verses | NA28 4:41 has no Vulgate counterpart (Clementine merges 4:40 + 4:41). Now marked `absent` correctly. |
-| Mark 9 | 49 verses | 50 verses | **Off-by-one across the whole chapter.** Vulgate 9:v → NA28 9:v+1. NA28 9:1 content is in Clementine 8:38 (we don't currently ingest Mark 8, so it's missing). |
-| Mark 9:50 | absent | 9:50 | Content is in Clementine 9:49. Now marked `absent` pending re-shift. |
+| Mark 4 | 40 verses | 41 verses | NA28 4:41 has no Vulgate counterpart (Clementine merges 4:40 + 4:41). Marked `absent`. |
+| Mark 9 | 49 verses | 50 verses | **RESOLVED 2026-04-22** — see below. |
 
-**Consequences:** All 21 verses in Mark 9 came out of the Batch API re-run with
-confidence < 0.7 because Claude correctly detected that the Vulgate content
-doesn't match the Greek + Peshitta content for the same verse label. The
-alignment pipeline is doing the right thing — the data fed in is wrong.
+### Mark 9 drift — RESOLVED 2026-04-22
 
-**Proper fix (not yet applied):**
-1. Re-ingest Vulgate Mark 8 (to pick up Clementine 8:38 = NA28 9:1 content)
-2. Shift Vulgate Mark 9 verse labels by +1 (so Vulgate 9:1 → NA28 9:2, etc.)
-3. Map Clementine 8:38 to NA28 9:1 explicitly
-4. Delete Mark 9 alignments and regenerate (50 verses via batch ≈ $0.50)
+Clementine Mark 9 was off by one verse throughout: Clementine 9:v carried the
+content of NA28 9:v+1, and NA28 9:1 content lived in Clementine **8:39** (not
+8:38 as originally suspected — the Clementine versification puts the "some
+standing here who will not taste death" saying at the tail of Mark 8, and has
+39 verses in Mark 8 vs. NA28's 38).
 
-Rough cost estimate for the full fix: ~$1 + 20 min wall clock.
+**Applied:** remapped Clementine 8:39 → Mark 9:1 and Clementine 9:1-49 → Mark
+9:2-50 in `data/corpora/vulgate.csv`, dropped the orphaned Vulgate 8:39 row,
+deleted all Mark 9 alignments, and regenerated 50 via Batch API. Low-confidence
+Mark 9 verses collapsed from 21 → 0. Reusable helper:
+`scripts/extract_vulgate_range.py`.
 
-**Workaround in place:** Prompt now explicitly instructs the model to skip any
-tradition with zero tokens (rule 8 in `scripts/prompts/align_3way.md`). This
-successfully handles the Mark 4:41 and 9:50 absent cases. It does not fix the
-Mark 9 drift — those verses are "present but wrong."
+**Workaround still in place for Mark 4:41:** Prompt instructs the model to skip
+any tradition with zero tokens (rule 8 in `scripts/prompts/align_3way.md`). This
+handles the Mark 4:41 absent case.
 
 ## (Reserved)
 

@@ -45,27 +45,27 @@
     },
     "vulgate": {
       "tokens": [
-        "et",
-        "frequenter",
-        "eum",
-        "in",
-        "ignem,",
-        "et",
-        "in",
-        "aquas",
-        "misit",
-        "ut",
-        "eum",
-        "perderet",
+        "Et",
+        "interrogavit",
+        "patrem",
+        "ejus",
         ":",
-        "sed",
-        "si",
-        "quid",
-        "potes,",
-        "adjuva",
-        "nos,",
-        "misertus",
-        "nostri."
+        "Quantum",
+        "temporis",
+        "est",
+        "ex",
+        "quo",
+        "ei",
+        "hoc",
+        "accidit",
+        "?",
+        "At",
+        "ille",
+        "ait",
+        ":",
+        "Ab",
+        "infantia",
+        ":"
       ]
     }
   },
@@ -77,23 +77,34 @@
       "peshitta": [
         0
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the conjunction καί / ܘ ('and') that opens this verse in both Greek and Peshitta, likely because the Latin tradition treats this as a continuation of the father's plea rather than a new narrative unit."
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
         1
       ],
       "vulgate": [],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the question, whereas Greek uses an unmarked third-person verb ἐπηρώτησεν and the Vulgate omits this entire interrogative clause, replacing it with a description of the demon's destructive actions (frequenter eum in ignem... misit)."
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the verb 'asked,' whereas both Greek and Latin leave the subject implicit from context. This is a characteristic Syriac clarification for narrative flow."
     },
     {
       "greek_nt": [
@@ -104,54 +115,77 @@
       "peshitta": [
         2
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (τὸν πατέρα αὐτοῦ); Latin employs noun + possessive pronoun without article (patrem ejus); Syriac uses a pronominal suffix construction (ܠܐܒܘܗܝ, 'to-his-father'), all semantically equivalent but syntactically distinct."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'ejus' to mark the beginning of direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts."
     },
     {
       "greek_nt": [
         5,
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "vulgate": [
+        5,
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses interrogative adjective + noun + copula (πόσος χρόνος ἐστὶν, 'how-much time is-it'); Latin mirrors this with quantum temporis est; Syriac employs ܕܟܡܐ ܠܗ ܙܒܢܐ ܗܐ ('how-much to-him time behold'), adding the deictic particle ܗܐ and dative pronoun ܠܗ for idiomatic emphasis."
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10,
         11
       ],
       "peshitta": [
-        3,
-        4,
-        5,
-        6,
         7,
         8,
         9
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate entirely omits Jesus' question about the duration of the boy's affliction (πόσος χρόνος ἐστὶν ὡς τοῦτο γέγονεν αὐτῷ / ܕܟܡܐ ܠܗ ܙܒܢܐ ܗܐ ܡܢ ܕܗܟܢܐ ܗܘ), instead inserting a vivid description of the spirit's violence not present in this verse in Greek or Peshitta."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
         8,
         9,
         10,
         11,
         12
       ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses temporal ὡς + demonstrative + perfect verb + dative (ὡς τοῦτο γέγονεν αὐτῷ, 'since this has-happened to-him'); Latin employs ex quo + dative + demonstrative + perfect (ex quo ei hoc accidit); Syriac uses ܡܢ ܕܗܟܢܐ ܗܘ ('from that thus he-is'), a more compressed temporal construction without explicit object pronoun."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        13
+      ],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts et frequenter eum in ignem, et in aquas misit ut eum perderet ('and frequently it cast him into fire and into water to destroy him'), material drawn from Mark 9:22a in the Greek tradition but placed here instead of in the father's response, fundamentally restructuring the dialogue."
+      "type": "punctuation",
+      "note": "The Vulgate places a question mark after 'accidit' to close the interrogative clause, a punctuation feature not represented in Greek or Peshitta textual traditions."
     },
     {
       "greek_nt": [
@@ -164,11 +198,23 @@
         11
       ],
       "vulgate": [
-        13
+        14,
+        15,
+        16
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the article + δέ construction (ὁ δὲ εἶπεν) to mark the father's response; Peshitta employs a simple verb ܐܡܪ ܠܗ ('he said to him'); Vulgate uses sed ('but') as a contrastive particle, reflecting its repositioned material."
+      "note": "Greek uses article + δὲ + verb (ὁ δὲ εἶπεν, 'and he said'); Latin employs at ille ait with demonstrative pronoun; Syriac uses simple verb + prepositional phrase (ܐܡܪ ܠܗ, 'he-said to-him'), adding an indirect object not explicit in Greek or Latin."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        17
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'ait' to introduce the father's response, a punctuation convention absent in Greek and Peshitta."
     },
     {
       "greek_nt": [
@@ -180,32 +226,29 @@
         13,
         14
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek and Peshitta preserve the father's answer about the affliction's duration (ἐκ παιδιόθεν / ܗܐ ܡܢ ܛܠܝܘܬܗ, 'from childhood'), but the Vulgate replaces this with the father's plea sed si quid potes, adiuva nos, misertus nostri ('but if you can do anything, help us, having mercy on us'), transposing material from Mark 9:22b."
+      "vulgate": [
+        18,
+        19
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the adverbial form ἐκ παιδιόθεν ('from childhood'); Latin employs ab infantia (preposition + noun); Syriac uses ܗܐ ܡܢ ܛܠܝܘܬܗ ('behold from his-childhood'), adding the deictic ܗܐ and pronominal suffix for emphasis, a characteristic Syriac stylistic feature."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
         20
       ],
       "variant": "added",
-      "type": "harmonisation",
-      "note": "The Vulgate's sed si quid potes, adiuva nos, misertus nostri harmonises with Mark 9:22b in the Greek textual tradition, relocating the father's appeal for compassion to this verse rather than preserving the question-and-answer structure attested in Greek and Peshitta."
+      "type": "punctuation",
+      "note": "The Vulgate closes with a colon after 'infantia,' marking the end of the father's statement, a punctuation feature not present in Greek or Peshitta manuscripts."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.002962+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T21:02:12.233001+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

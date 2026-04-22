@@ -62,74 +62,43 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "post",
-        "dies",
-        "sex",
-        "assumit",
-        "Jesus",
-        "Petrum,",
-        "et",
-        "Jacobum,",
-        "et",
-        "Joannem,",
-        "et",
-        "ducit",
-        "illos",
+        "dicebat",
+        "illis",
+        ":",
+        "Amen",
+        "dico",
+        "vobis,",
+        "quia",
+        "sunt",
+        "quidam",
+        "de",
+        "hic",
+        "stantibus,",
+        "qui",
+        "non",
+        "gustabunt",
+        "mortem",
+        "donec",
+        "videant",
+        "regnum",
+        "Dei",
+        "veniens",
         "in",
-        "montem",
-        "excelsum",
-        "seorsum",
-        "solos,",
-        "et",
-        "transfiguratus",
-        "est",
-        "coram",
-        "ipsis."
+        "virtute."
       ]
     }
   },
   "alignment": [
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23
-      ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different pericope (the Transfiguration narrative, Mark 9:2) while the Greek and Peshitta preserve Mark 9:1 (the saying about some not tasting death). This represents a complete textual divergence, likely due to misalignment in the input data rather than a genuine variant tradition."
-    },
-    {
-      "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
       "variant": "aligned",
       "type": "agreement"
     },
@@ -138,13 +107,14 @@
         1
       ],
       "peshitta": [
-        0,
         1
       ],
-      "vulgate": [],
+      "vulgate": [
+        1
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperfect ἔλεγεν (simple verb); Peshitta employs periphrastic construction ܘܐܡܪ ܗܘܐ (participle + auxiliary), a common Syriac idiom for past progressive aspect. Both convey iterative or durative past action."
+      "type": "grammar",
+      "note": "Greek uses imperfect ἔλεγεν (iterative or continuous past action), while Peshitta employs the periphrastic construction ܐܡܪ ܗܘܐ (perfect + auxiliary) and Vulgate uses imperfect dicebat; all convey ongoing or habitual past speech, but through different aspectual systems."
     },
     {
       "greek_nt": [
@@ -153,36 +123,67 @@
       "peshitta": [
         2
       ],
-      "vulgate": [],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate separates the colon as a distinct token after illis, marking the transition to direct discourse; Greek and Peshitta integrate the punctuation into the pronoun token itself."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
       "variant": "aligned",
       "type": "agreement"
     },
     {
       "greek_nt": [
-        3,
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        3,
-        4,
         5,
         6
       ],
-      "vulgate": [],
+      "vulgate": [
+        6
+      ],
       "variant": "minor",
       "type": "gloss",
-      "note": "Peshitta inserts explicit subject pronoun ܐܢܐ ('I') after ܐܡܪ, making the speaker explicit where Greek relies on verbal inflection alone (λέγω, first-person singular). This is a typical Syriac clarifying expansion."
+      "note": "Peshitta explicitly supplies the independent pronoun ܐܢܐ ('I') alongside ܠܟܘܢ ('to you'), making the subject overt; Greek ὑμῖν and Vulgate vobis rely on verbal inflection to convey the first-person subject, a typical Syriac clarification strategy."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek conjunction ὅτι introducing indirect discourse is absent in Peshitta, which uses the relative particle ܕ (d-) prefixed to the following verb instead. This represents a syntactic difference in how the two languages mark subordination."
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -193,7 +194,10 @@
         7,
         8
       ],
-      "vulgate": [],
+      "vulgate": [
+        8,
+        9
+      ],
       "variant": "aligned",
       "type": "agreement"
     },
@@ -207,20 +211,28 @@
         9,
         10
       ],
-      "vulgate": [],
+      "vulgate": [
+        10,
+        11,
+        12
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses adverb ὧδε + articular participle τῶν ἑστηκότων ('here of those standing'); Peshitta employs participial phrase ܕܩܝܡܝܢ ܬܢܢ ('who are standing here'), reversing word order. Both are semantically equivalent but syntactically distinct."
+      "note": "Greek uses the adverb ὧδε ('here') with articular participle τῶν ἑστηκότων ('of those standing'); Vulgate mirrors this with de hic stantibus (prepositional phrase + participle); Peshitta employs the relative particle ܕ with active participle ܕܩܝܡܝܢ ܬܢܢ ('who are standing here'), placing the locative adverb after the verb—syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
         12
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek relative pronoun οἵτινες ('who') is absent in Peshitta, which continues the participial construction without an additional relative marker. The Syriac ܕ (d-) prefix on the following negative serves this function."
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the qualitative relative pronoun οἵτινες ('who [of such a kind]'), emphasizing the character of those standing; Peshitta and Vulgate use simple relative particles (ܕ / qui), a stylistic leveling common in translation."
     },
     {
       "greek_nt": [
@@ -230,10 +242,12 @@
       "peshitta": [
         11
       ],
-      "vulgate": [],
+      "vulgate": [
+        14
+      ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs emphatic double negative οὐ μή (strongest negation in Koine); Peshitta uses simple negative ܕܠܐ (d-lā). While both express strong negation, the Greek construction is rhetorically more emphatic."
+      "note": "Greek employs the emphatic double negative οὐ μή with subjunctive γεύσωνται to express strong negation; Peshitta uses the single negative particle ܕܠܐ with imperfect ܢܛܥܡܘܢ; Vulgate uses non with future gustabunt—all convey categorical negation but through different modal and aspectual strategies."
     },
     {
       "greek_nt": [
@@ -244,7 +258,10 @@
         12,
         13
       ],
-      "vulgate": [],
+      "vulgate": [
+        15,
+        16
+      ],
       "variant": "aligned",
       "type": "agreement"
     },
@@ -256,10 +273,12 @@
       "peshitta": [
         14
       ],
-      "vulgate": [],
+      "vulgate": [
+        17
+      ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses ἕως ἂν (temporal conjunction + modal particle) to express indefinite future time; Peshitta employs simple ܥܕܡܐ (ʿdammā, 'until'). The Greek construction emphasizes contingency more explicitly."
+      "type": "construction",
+      "note": "Greek uses the compound temporal conjunction ἕως ἂν ('until whenever') with subjunctive ἴδωσιν to mark indefinite future time; Peshitta uses ܥܕܡܐ ܕ ('until that') with imperfect; Vulgate uses donec with subjunctive videant—all express temporal contingency but through different syntactic mechanisms."
     },
     {
       "greek_nt": [
@@ -268,7 +287,9 @@
       "peshitta": [
         15
       ],
-      "vulgate": [],
+      "vulgate": [
+        18
+      ],
       "variant": "aligned",
       "type": "agreement"
     },
@@ -283,10 +304,13 @@
         16,
         17
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses articular noun phrase τὴν βασιλείαν τοῦ θεοῦ ('the kingdom of God'); Peshitta employs construct state ܡܠܟܘܬܗ ܕܐܠܗܐ ('kingdom-his of-God'), with pronominal suffix on 'kingdom'. Both are standard constructions in their respective languages for expressing genitive relationships."
+      "vulgate": [
+        19,
+        20
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek and Vulgate read 'the kingdom of God' (τὴν βασιλείαν τοῦ θεοῦ / regnum Dei) with the article marking definiteness; Peshitta reads ܡܠܟܘܬܗ ܕܐܠܗܐ ('his kingdom of God'), adding a third-person possessive suffix that may refer anaphorically to God or possibly to the Son of Man from the preceding context (Mark 8:38), creating a subtle christological nuance absent from the Greek and Latin."
     },
     {
       "greek_nt": [
@@ -295,9 +319,12 @@
       "peshitta": [
         18
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        21
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the perfect participle ἐληλυθυῖαν ('having come'), emphasizing completed action with ongoing results; Peshitta uses the perfect ܕܐܬܬ ('that has come'); Vulgate uses the present participle veniens ('coming'), which may suggest imminent or ongoing arrival rather than completed advent—a subtle aspectual difference."
     },
     {
       "greek_nt": [
@@ -307,15 +334,18 @@
       "peshitta": [
         19
       ],
-      "vulgate": [],
+      "vulgate": [
+        22,
+        23
+      ],
       "variant": "aligned",
       "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.999937+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.229037+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

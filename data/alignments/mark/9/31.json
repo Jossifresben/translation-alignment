@@ -56,95 +56,229 @@
     },
     "vulgate": {
       "tokens": [
-        "At",
-        "illi",
-        "ignorabant",
-        "verbum",
-        ":",
+        "Docebat",
+        "autem",
+        "discipulos",
+        "suos,",
         "et",
-        "timebant",
-        "interrogare",
-        "eum."
+        "dicebat",
+        "illis",
+        ":",
+        "Quoniam",
+        "Filius",
+        "hominis",
+        "tradetur",
+        "in",
+        "manus",
+        "hominum,",
+        "et",
+        "occident",
+        "eum,",
+        "et",
+        "occisus",
+        "tertia",
+        "die",
+        "resurget."
       ]
     }
   },
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25
+        0
       ],
       "peshitta": [
         0,
-        1,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperfect ἐδίδασκεν alone; Peshitta employs periphrastic construction ܡܠܦ ܗܘܐ (participle + auxiliary 'was'); Vulgate mirrors Greek with simple imperfect Docebat. All three express continuous past action, but Syriac uses analytic construction typical of its verbal system."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek γάρ and Syriac ܓܝܪ are cognate loanwords; Vulgate substitutes autem ('however'), a stylistic preference for Latin discourse connectives where Greek uses explanatory γάρ."
+    },
+    {
+      "greek_nt": [
         2,
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun + possessive pronoun (τοὺς μαθητὰς αὐτοῦ); Vulgate mirrors this structure (discipulos suos); Syriac employs a single bound form with pronominal suffix ܠܬܠܡܝܕܘܗܝ, a typical Semitic construction expressing the same relationship more compactly."
+    },
+    {
+      "greek_nt": [
         5,
         6,
-        7,
-        8,
+        7
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        4,
+        5,
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts colon after illis to mark direct discourse; Greek ὅτι functions as quotation marker; Peshitta uses ܕ- prefix on the following verb, requiring no separate conjunction. The divergence is purely orthographic."
+    },
+    {
+      "greek_nt": [
         9,
         10,
         11,
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        8,
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses double article construction (ὁ υἱὸς τοῦ ἀνθρώπου); Vulgate employs genitive without article (Filius hominis); Syriac uses construct state ܕܒܪܗ ܕܐܢܫܐ with ܕ- marking both relationships. All three express the titular 'Son of Man' idiomatically within their respective grammatical systems."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14,
         15,
         16
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate transmits an entirely different verse at this location (Mark 9:32b), reading 'At illi ignorabant verbum: et timebant interrogare eum' ('But they did not understand the saying, and they were afraid to ask him'). The Greek and Peshitta both preserve Jesus's passion prediction ('The Son of Man is delivered into the hands of men, and they will kill him, and after being killed he will rise on the third day'), which the Vulgate omits here, likely due to textual displacement or harmonization with a different manuscript tradition that places this material elsewhere in the pericope."
+      "peshitta": [
+        9,
+        10
+      ],
+      "vulgate": [
+        12,
+        13,
+        14
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses plural χεῖρας ἀνθρώπων ('hands of men'); Vulgate mirrors with manus hominum (plural); Syriac ܒܐܝܕܝ ܐܢܫܐ uses dual form ܐܝܕܝ ('two hands'), reflecting Semitic dual morphology for paired body parts, though semantically equivalent to the Greek/Latin plurals."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
+      "greek_nt": [
+        17,
+        18,
+        19
       ],
-      "variant": "added",
-      "type": "substitution",
-      "note": "The Vulgate uniquely attests the disciples' response ('But they did not understand the saying: and they were afraid to ask him') at this verse location, material that appears in Greek and Peshitta manuscripts at Mark 9:32. This represents either a scribal transposition or reflects a distinct Latin textual tradition that conflates or reorders the passion prediction and the disciples' incomprehension into a single verse unit."
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        15,
+        16,
+        17
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction + finite verb + pronoun (καὶ ἀποκτενοῦσιν αὐτόν); Vulgate mirrors this (et occident eum); Syriac employs single verb ܘܢܩܛܠܘܢܝܗܝ with object suffix, a more compact Semitic construction expressing the same predication."
+    },
+    {
+      "greek_nt": [
+        20,
+        21
+      ],
+      "peshitta": [
+        12,
+        13
+      ],
+      "vulgate": [
+        18,
+        19
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conjunction + aorist passive participle (καὶ ἀποκτανθεὶς); Vulgate employs conjunction + perfect passive participle (et occisus); Syriac uses conjunction + temporal particle + passive verb (ܘܡܐ ܕܐܬܩܛܠ, 'and when he is killed'), converting the participial construction into a temporal clause."
+    },
+    {
+      "greek_nt": [
+        22,
+        23,
+        24
+      ],
+      "peshitta": [
+        14,
+        15
+      ],
+      "vulgate": [
+        20,
+        21
+      ],
+      "variant": "major",
+      "type": "idiom",
+      "note": "Greek μετὰ τρεῖς ἡμέρας ('after three days') uses preposition + accusative plural; Syriac ܒܝܘܡܐ ܕܬܠܬܐ ('on the third day') uses construct state meaning 'on the day of three'; Vulgate tertia die ('on the third day') uses ablative of time. The Syriac and Latin reflect the more precise chronological idiom found in parallel passion predictions (cf. Matt 16:21), while Greek preserves the Semitic idiom 'after three days.'"
+    },
+    {
+      "greek_nt": [
+        25
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "aligned"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.004765+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T21:02:12.234575+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

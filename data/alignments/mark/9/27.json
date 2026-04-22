@@ -30,24 +30,15 @@
     },
     "vulgate": {
       "tokens": [
-        "Et",
-        "cum",
-        "introisset",
-        "in",
-        "domum,",
-        "discipuli",
+        "Jesus",
+        "autem",
+        "tenens",
+        "manum",
         "ejus",
-        "secreto",
-        "interrogabant",
-        "eum",
-        ":",
-        "Quare",
-        "nos",
-        "non",
-        "potuimus",
-        "ejicere",
-        "eum",
-        "?"
+        "elevavit",
+        "eum,",
+        "et",
+        "surrexit."
       ]
     }
   },
@@ -55,18 +46,30 @@
     {
       "greek_nt": [
         0,
-        1,
-        2
+        1
       ],
       "peshitta": [
         0,
-        1,
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the article and conjunction before the subject (ὁ δὲ Ἰησοῦς), while Peshitta mirrors this with pronoun + conjunction (ܗܘ ܕܝܢ ܝܫܘܥ). Vulgate omits the article (no Latin equivalent) and places the conjunction after the subject (Jesus autem), following standard Latin post-positive usage for autem."
+    },
+    {
+      "greek_nt": [
         2
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire verse present in both Greek and Peshitta, instead transmitting Mark 9:28 (the disciples' private question about their inability to cast out the demon). This represents a major textual divergence, likely due to manuscript confusion or verse-order variation in the Latin tradition."
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -79,10 +82,14 @@
         3,
         4
       ],
-      "vulgate": [],
-      "variant": "major",
+      "vulgate": [
+        2,
+        3,
+        4
+      ],
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek employs an aorist participle κρατήσας with genitive object τῆς χειρὸς αὐτοῦ ('having taken him by the hand'), a three-word construction. Peshitta compresses this into ܐܚܕܗ ܒܐܝܕܗ, a verb with pronominal suffix plus prepositional phrase ('seized-him by-his-hand'), achieving the same semantics with tighter syntax typical of Syriac narrative style."
+      "note": "Greek uses an aorist participle with genitive article-noun phrase (κρατήσας τῆς χειρὸς αὐτοῦ, 'having taken hold of his hand'). Latin employs a present participle with accusative direct object (tenens manum ejus, 'holding his hand'). Peshitta uses a finite verb with prepositional phrase (ܐܚܕܗ ܒܐܝܕܗ, 'he took him by his hand'), integrating the pronominal suffix directly onto both verb and noun."
     },
     {
       "greek_nt": [
@@ -92,10 +99,11 @@
       "peshitta": [
         5
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses finite verb ἤγειρεν with separate object pronoun αὐτόν ('raised him'); Peshitta employs ܘܐܩܝܡܗ with enclitic pronominal suffix ('and-raised-him'), a standard morphological difference between the languages with no semantic divergence."
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -103,43 +111,19 @@
         10
       ],
       "peshitta": [],
-      "vulgate": [],
+      "vulgate": [
+        7,
+        8
+      ],
       "variant": "omitted",
       "type": "omission",
-      "note": "Both Peshitta and Vulgate omit the Greek clause καὶ ἀνέστη ('and he arose'), which provides narrative closure showing the boy standing. The Peshitta's omission may reflect stylistic economy, treating the raising as implying the standing; the Vulgate's absence is due to its transmission of a different verse entirely."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
-      ],
-      "variant": "added",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse (Mark 9:28: 'Et cum introisset in domum, discipuli ejus secreto interrogabant eum: Quare nos non potuimus ejicere eum?'), the disciples' question about their failure to exorcise. This represents either a verse-numbering error in the Clementine tradition or a major manuscript variant where 9:27 was replaced by 9:28."
+      "note": "Greek and Vulgate include the redundant clause 'and he arose' (καὶ ἀνέστη / et surrexit) after 'raised him up,' emphasizing the boy's response. The Peshitta omits this clause entirely, treating the raising as sufficient to convey the boy's restoration to standing position without the pleonastic addition."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.004189+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T21:02:12.234030+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

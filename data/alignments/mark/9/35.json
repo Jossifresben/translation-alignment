@@ -50,21 +50,24 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "accipiens",
-        "puerum,",
-        "statuit",
-        "eum",
-        "in",
-        "medio",
-        "eorum",
-        ":",
-        "quem",
-        "cum",
-        "complexus",
-        "esset,",
+        "residens",
+        "vocavit",
+        "duodecim,",
+        "et",
         "ait",
         "illis",
-        ":"
+        ":",
+        "Si",
+        "quis",
+        "vult",
+        "primus",
+        "esse,",
+        "erit",
+        "omnium",
+        "novissimus,",
+        "et",
+        "omnium",
+        "minister."
       ]
     }
   },
@@ -77,52 +80,38 @@
       "peshitta": [
         0
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits the entire opening clause 'And having sat down' (Καὶ καθίσας / ܘܝܬܒ), proceeding directly to the action with the child. This represents a substantive textual divergence in narrative sequence."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+      "vulgate": [
+        0,
         1
       ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject, a typical Syriac clarification where Greek relies on participial construction and context. Neither Greek nor Latin include the proper name here."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses conjunction + aorist participle (Καὶ καθίσας); Peshitta employs simple waw-consecutive perfect (ܘܝܬܒ); Vulgate mirrors Greek structure with conjunction + present participle (Et residens). All three convey the same temporal sequence but with different aspectual nuances."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        2,
         3
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits 'he called the Twelve' (ἐφώνησεν τοὺς δώδεκα / ܘܩܪܐ ܠܬܪܥܣܪ) entirely, replacing the entire narrative action with a scene involving a child (accipiens puerum). This represents a major textual variant, likely reflecting confusion with Mark 9:36."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
+        3
       ],
-      "variant": "added",
-      "type": "harmonisation",
-      "note": "The Vulgate inserts 'Et accipiens puerum, statuit eum in medio eorum : quem cum complexus esset' (taking a child, setting him in their midst, embracing him), harmonising with Mark 9:36. This material appears nowhere in the Greek or Peshitta witnesses for this verse."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -135,57 +124,93 @@
         5
       ],
       "vulgate": [
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
+        4,
+        5,
+        6,
+        7
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses coordinating conjunction καὶ with present tense λέγει; Peshitta employs simple ܘܐܡܪ ܠܗܘܢ; Vulgate uses relative pronoun + temporal clause 'quem cum complexus esset, ait illis'. All convey speech introduction but with different syntactic frames."
+      "note": "Greek employs καὶ + present indicative λέγει with dative pronoun (καὶ λέγει αὐτοῖς); Peshitta uses simple waw + perfect ܘܐܡܪ ܠܗܘܢ; Vulgate adds conjunction + perfect ait illis with colon punctuation. The Vulgate's colon formally marks direct discourse, while Greek uses a raised dot and Peshitta has no explicit punctuation marker."
     },
     {
       "greek_nt": [
         8,
         9,
-        10,
+        10
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        8,
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses conditional particle εἴ + indefinite pronoun τις + present indicative θέλει; Peshitta employs relative pronoun ܡܢ + participle ܕܨܒܐ (literally 'whoever desires'); Vulgate mirrors Greek with Si quis vult. The Peshitta construction is a typical Semitic relative clause functioning as a conditional protasis."
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
       "peshitta": [
-        6,
-        7,
         8,
         9
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate completely omits the conditional protasis 'If anyone desires to be first' (εἴ τις θέλει πρῶτος εἶναι / ܡܢ ܕܨܒܐ ܕܢܗܘܐ ܩܕܡܝܐ), proceeding directly to teaching content. This constitutes a major textual divergence in the logical structure of Jesus' saying."
+      "vulgate": [
+        11,
+        12
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        10,
         11,
         12,
         13
       ],
-      "vulgate": [],
+      "vulgate": [
+        14,
+        15
+      ],
       "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses future ἔσται with genitive πάντων ἔσχατος ('he will be last of all'); Peshitta employs jussive ܢܗܘܐ ܐܚܪܝܐ ܕܟܠ ܐܢܫ ('let him be last of every man'), adding the explicit noun ܐܢܫ. The Vulgate omits this clause entirely, representing a major textual variant."
+      "type": "expansion",
+      "note": "Greek and Vulgate use genitive plural πάντων / omnium ('of all') with adjective ἔσχατος / novissimus ('last'). Peshitta expands with ܐܚܪܝܐ ܕܟܠ ܐܢܫ ('last of every person'), adding the explicit noun ܐܢܫ ('person/man') to clarify the referent—a characteristic Syriac explicitation for abstract genitives."
     },
     {
       "greek_nt": [
-        16,
+        16
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         17,
         18
       ],
@@ -194,16 +219,19 @@
         15,
         16
       ],
-      "vulgate": [],
+      "vulgate": [
+        17,
+        18
+      ],
       "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits the second half of the saying 'and servant of all' (καὶ πάντων διάκονος / ܘܡܫܡܫܢܐ ܕܟܠ ܐܢܫ). The Peshitta again adds ܐܢܫ ('man') after ܕܟܠ, making explicit what Greek leaves as genitive plural πάντων."
+      "type": "expansion",
+      "note": "Greek and Vulgate use genitive plural πάντων / omnium ('of all') with noun διάκονος / minister ('servant'). Peshitta again expands with ܡܫܡܫܢܐ ܕܟܠ ܐܢܫ ('servant of every person'), repeating the explicit noun ܐܢܫ for parallelism with the preceding clause—a stylistic doubling absent from Greek and Latin witnesses."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.005269+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T21:02:12.235207+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

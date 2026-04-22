@@ -32,21 +32,15 @@
     },
     "vulgate": {
       "tokens": [
-        "Et",
-        "venerunt",
-        "Capharnaum.",
-        "Qui",
-        "cum",
-        "domi",
-        "essent,",
-        "interrogabat",
-        "eos",
+        "At",
+        "illi",
+        "ignorabant",
+        "verbum",
         ":",
-        "Quid",
-        "in",
-        "via",
-        "tractabatis",
-        "?"
+        "et",
+        "timebant",
+        "interrogare",
+        "eum."
       ]
     }
   },
@@ -54,61 +48,103 @@
     {
       "greek_nt": [
         0,
-        1,
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek uses article + postpositive conjunction (οἱ δέ); Vulgate employs adversative conjunction + pronoun (At illi); Peshitta uses demonstrative pronoun + conjunction (ܗܢܘܢ ܕܝܢ). All three convey the same adversative sense ('but they'), differing only in syntactic strategy."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
         2,
         3,
-        4,
+        4
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use simple imperfect verbs (ἠγνόουν / ignorabant, 'they were not understanding'); Peshitta employs a periphrastic construction with negation + participle + auxiliary (ܠܐ ܝܕܥܝܢ ܗܘܘ, 'they were not knowing'). The Syriac construction is a standard idiom for progressive aspect."
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
         5,
-        6,
+        6
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses article + noun (τὸ ῥῆμα); Vulgate omits the article (verbum), following Latin's lack of definite articles; Peshitta employs prepositional phrase with pronominal suffix (ܠܗ ܠܡܠܬܐ, 'to-it to-the-word'), a Syriac construction marking definiteness and emphasis through dative of reference."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek and Peshitta use simple conjunction (καὶ / ܘ); Vulgate inserts a colon before et, creating a stronger pause that separates the two clauses more distinctly. This reflects Latin rhetorical punctuation practice rather than a textual variant."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use simple imperfect verbs (ἐφοβοῦντο / timebant, 'they were afraid'); Peshitta again employs periphrastic construction with participle + auxiliary (ܘܕܚܠܝܢ ܗܘܘ, 'and they-were fearing'), parallel to the earlier verbal construction and characteristic of Syriac durative aspect marking."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
         9
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate entirely omits this verse (Mark 9:32), which in Greek and Peshitta describes the disciples' failure to understand Jesus' passion prediction and their fear of questioning him. The Vulgate text instead continues with verse 33 (arrival at Capernaum and Jesus' question about their discussion on the road), creating a textual discontinuity with the Greek and Syriac witnesses."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
         7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
+        8
       ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts the entirety of Mark 9:33 ('Et venerunt Capharnaum. Qui cum domi essent, interrogabat eos: Quid in via tractabatis?'), which belongs to the subsequent pericope in Greek and Peshitta manuscript traditions. This represents either a versification error in the Clementine edition or a scribal conflation of two distinct narrative units."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the object pronoun before the infinitive (αὐτὸν ἐπερωτῆσαι, 'Him to-ask'); Latin mirrors this order (interrogare eum); Peshitta incorporates the pronominal suffix directly onto the infinitive (ܕܢܫܐܠܘܢܝܗܝ, 'that-they-ask-him'), a standard Semitic morphological feature where object pronouns attach as suffixes rather than standing as separate words."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.882270+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T21:02:12.234746+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

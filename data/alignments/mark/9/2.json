@@ -58,31 +58,48 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "vestimenta",
-        "ejus",
-        "facta",
-        "sunt",
-        "splendentia,",
+        "post",
+        "dies",
+        "sex",
+        "assumit",
+        "Jesus",
+        "Petrum,",
         "et",
-        "candida",
-        "nimis",
-        "velut",
-        "nix,",
-        "qualia",
-        "fullo",
-        "non",
-        "potest",
-        "super",
-        "terram",
-        "candida",
-        "facere."
+        "Jacobum,",
+        "et",
+        "Joannem,",
+        "et",
+        "ducit",
+        "illos",
+        "in",
+        "montem",
+        "excelsum",
+        "seorsum",
+        "solos,",
+        "et",
+        "transfiguratus",
+        "est",
+        "coram",
+        "ipsis."
       ]
     }
   },
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         1,
         2,
         3
@@ -92,10 +109,14 @@
         1,
         2
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire temporal clause 'And after six days' (Καὶ μετὰ ἡμέρας ἓξ / ܘܒܬܪ ܫܬܐ ܝܘܡܝܢ), beginning instead with the description of Jesus' garments. This represents a major textual divergence, as the Greek and Peshitta both attest the chronological marker linking this pericope to the preceding narrative."
+      "vulgate": [
+        1,
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses μετὰ ἡμέρας ἓξ ('after days six') with postpositive numeral; Peshitta ܘܒܬܪ ܫܬܐ ܝܘܡܝܢ ('and after six days') and Vulgate post dies sex both place the numeral before the noun, reflecting standard Semitic and Latin word order respectively."
     },
     {
       "greek_nt": [
@@ -107,10 +128,13 @@
         3,
         4
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits 'Jesus takes along' (παραλαμβάνει ὁ Ἰησοῦς / ܕܒܪ ܝܫܘܥ), the main verb and subject of the Greek and Peshitta narrative introduction. The Latin text appears to begin mid-pericope, lacking the entire setup of the Transfiguration scene."
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the article ὁ with Ἰησοῦς, a standard Greek construction; Syriac ܕܒܪ ܝܫܘܥ and Latin assumit Jesus lack the article, as neither language requires it with proper names in this syntactic position."
     },
     {
       "greek_nt": [
@@ -128,30 +152,53 @@
         6,
         7
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the enumeration of the three disciples (Peter, James, and John) present at the Transfiguration. Greek employs repeated article + accusative construction (τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ τὸν Ἰωάννην); Peshitta uses prefixed preposition ܠ with coordinating ܘ, both traditions agreeing against the Vulgate's complete omission."
+      "vulgate": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses repeated article-noun pairs (τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ τὸν Ἰωάννην) with polysyndeton; Vulgate mirrors this with Petrum, et Jacobum, et Joannem; Syriac employs a more compact construction ܠܟܐܦܐ ܘܠܝܥܩܘܒ ܘܠܝܘܚܢܢ with prefixed prepositions but without articles, reflecting typical Semitic asyndetic coordination."
     },
     {
       "greek_nt": [
         15,
         16,
-        17,
+        17
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        11,
+        12,
+        13
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀναφέρει ('brings up') emphasizes upward motion; Syriac ܘܐܣܩ ('and he brought up') uses a cognate root; Vulgate ducit ('leads') is more general, lacking the explicit vertical directionality of the Greek and Syriac verbs."
+    },
+    {
+      "greek_nt": [
         18,
         19,
         20
       ],
       "peshitta": [
-        8,
-        9,
         10,
         11
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the ascent to the high mountain (καὶ ἀναφέρει αὐτοὺς εἰς ὄρος ὑψηλόν / ܘܐܣܩ ܐܢܘܢ ܠܛܘܪܐ ܪܡܐ). Greek uses the compound verb ἀναφέρει ('brings up'); Syriac employs the simple verb ܐܣܩ ('he brought up'), both conveying the spatial movement absent from the Latin."
+      "vulgate": [
+        14,
+        15,
+        16
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -162,60 +209,51 @@
       "peshitta": [
         12
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the privacy clause. Greek uses the prepositional phrase κατ᾽ ἰδίαν μόνους ('apart, alone'), a double emphasis on seclusion; Peshitta renders this with the single compound ܒܠܚܘܕܝܗܘܢ ('by themselves alone'), semantically equivalent but syntactically more compact."
+      "vulgate": [
+        17,
+        18
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase κατ᾽ ἰδίαν μόνους ('apart, alone') with two terms for emphasis; Vulgate employs seorsum solos, mirroring the Greek doublet; Syriac condenses this to the single adverbial phrase ܒܠܚܘܕܝܗܘܢ ('by themselves alone'), achieving the same semantic force with greater economy."
     },
     {
       "greek_nt": [
         24,
-        25,
+        25
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        19,
+        20,
+        21
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ μετεμορφώθη is a simple aorist passive construction; Syriac ܘܐܬܚܠܦ uses the ethpeel (passive-reflexive) stem; Vulgate expands to transfiguratus est with auxiliary verb, a periphrastic construction typical of later Latin prose style."
+    },
+    {
+      "greek_nt": [
         26,
         27
       ],
       "peshitta": [
-        13,
         14
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the transfiguration proper (καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν / ܘܐܬܚܠܦ ܠܥܢܝܗܘܢ). Greek employs the passive aorist μετεμορφώθη ('he was transfigured'); Syriac uses the ethpeal ܐܬܚܠܦ ('he was changed'), both indicating divine passive transformation before the disciples."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
+        22,
+        23
       ],
-      "variant": "added",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse describing Jesus' garments becoming radiant and white as snow, beyond what any fuller on earth could whiten them (Et vestimenta ejus facta sunt splendentia...). This corresponds to Mark 9:3 in Greek and Peshitta manuscripts, indicating the Vulgate has substituted verse 3 for verse 2, a major versification or textual displacement."
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.000146+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T21:02:12.229488+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

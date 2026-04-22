@@ -38,29 +38,16 @@
     },
     "vulgate": {
       "tokens": [
-        "Docebat",
-        "autem",
-        "discipulos",
-        "suos,",
-        "et",
-        "dicebat",
-        "illis",
+        "Et",
+        "inde",
+        "profecti",
+        "prætergrediebantur",
+        "Galilæam",
         ":",
-        "Quoniam",
-        "Filius",
-        "hominis",
-        "tradetur",
-        "in",
-        "manus",
-        "hominum,",
-        "et",
-        "occident",
-        "eum,",
-        "et",
-        "occisus",
-        "tertia",
-        "die",
-        "resurget."
+        "nec",
+        "volebat",
+        "quemquam",
+        "scire."
       ]
     }
   },
@@ -76,10 +63,14 @@
         2,
         3
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire departure clause (Greek Κἀκεῖθεν ἐξελθόντες, Peshitta ܘܟܕ ܢܦܩ ܡܢ ܬܡܢ 'and when he went out from there'), beginning instead with the teaching activity. This represents a major structural divergence, as the Vulgate conflates Mark 9:30 with 9:31, eliminating the geographical transition frame."
+      "vulgate": [
+        0,
+        1,
+        2
+      ],
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek uses the crasis Κἀκεῖθεν (καὶ ἐκεῖθεν) with a single participle ἐξελθόντες. Peshitta expands with temporal ܘܟܕ ('and when') + finite verb ܢܦܩ ('he went out') + ܡܢ ܬܡܢ ('from there'), creating a full temporal clause. Vulgate mirrors Greek structure with Et inde profecti but uses a perfect participle rather than aorist."
     },
     {
       "greek_nt": [
@@ -93,70 +84,66 @@
         5,
         6
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the journey-through-Galilee clause entirely (Greek παρεπορεύοντο διὰ τῆς Γαλιλαίας, Peshitta ܥܒܪܝܢ ܗܘܘ ܒܓܠܝܠܐ 'they were passing through Galilee'). The Latin tradition proceeds directly to the teaching content of verse 31, collapsing the narrative sequence and eliminating the spatial setting that both Greek and Syriac preserve."
-    },
-    {
-      "greek_nt": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
+      "vulgate": [
+        3,
+        4
       ],
-      "peshitta": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the secrecy motif (Greek καὶ οὐκ ἤθελεν ἵνα τις γνοῖ, Peshitta ܘܠܐ ܨܒܐ ܗܘܐ ܕܐܢܫ ܢܕܥ ܒܗ 'and he did not want anyone to know about him'). Instead, the Latin text substitutes an entirely different verse (Mark 9:31), introducing teaching content not present in the Greek or Peshitta witnesses for this verse. This constitutes a major textual divergence involving verse-boundary conflation."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs imperfect παρεπορεύοντο with prepositional phrase διὰ τῆς Γαλιλαίας (article + genitive). Peshitta uses periphrastic construction ܥܒܪܝܢ ܗܘܘ ('they were passing') with simple prepositional phrase ܒܓܠܝܠܐ (beth + noun, no article). Vulgate uses single imperfect prætergrediebantur with accusative Galilæam, omitting the article (Latin lacks definite articles)."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
+        5
+      ],
+      "variant": "aligned",
+      "type": "punctuation"
+    },
+    {
+      "greek_nt": [
         6,
         7,
+        8
+      ],
+      "peshitta": [
+        7,
         8,
+        9
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ οὐκ ἤθελεν uses simple conjunction + negated imperfect. Peshitta ܘܠܐ ܨܒܐ ܗܘܐ employs periphrastic construction (participle + auxiliary ܗܘܐ) for the imperfect tense, a standard Syriac pattern. Vulgate nec volebat uses nec (stronger negative conjunction) with simple imperfect, semantically equivalent."
+    },
+    {
+      "greek_nt": [
         9,
         10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22
+        11
       ],
-      "variant": "added",
+      "peshitta": [
+        10,
+        11,
+        12
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "major",
       "type": "expansion",
-      "note": "The Vulgate inserts the entire content of Mark 9:31 (Docebat autem discipulos suos... tertia die resurget 'Now he was teaching his disciples... on the third day he will rise') in place of the Greek and Peshitta text of 9:30. This represents a verse-conflation or alternative versification tradition in the Latin manuscript lineage, where 9:30 and 9:31 are merged under a single verse number with the geographical frame omitted."
+      "note": "Greek uses ἵνα-clause with indefinite τις and subjunctive γνοῖ ('that anyone should know'). Peshitta adds explicit pronominal suffix ܒܗ ('about him'), making the object of knowledge explicit rather than implied. Vulgate uses accusative-infinitive construction quemquam scire (classical Latin syntax), omitting both the ἵνα-conjunction and any explicit object, yielding 'anyone to know' rather than 'anyone to know [it/about him]'."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.004615+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T21:02:12.234454+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -51,15 +51,31 @@
     },
     "vulgate": {
       "tokens": [
-        "qui",
-        "enim",
-        "non",
+        "Jesus",
+        "autem",
+        "ait",
+        ":",
+        "Nolite",
+        "prohibere",
+        "eum",
+        ":",
+        "nemo",
         "est",
-        "adversum",
-        "vos,",
-        "pro",
-        "vobis",
-        "est."
+        "enim",
+        "qui",
+        "faciat",
+        "virtutem",
+        "in",
+        "nomine",
+        "meo,",
+        "et",
+        "possit",
+        "cito",
+        "male",
+        "loqui",
+        "de",
+        "me",
+        ":"
       ]
     }
   },
@@ -68,113 +84,196 @@
       "greek_nt": [
         0,
         1,
-        2,
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1,
+        0
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek employs article + postpositive δέ + subject (Ὁ δὲ Ἰησοῦς); Vulgate inverts to subject-first (Jesus autem); Peshitta omits the article and conjunction entirely, using bare subject ܝܫܘܥ, a typical Syriac construction."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
         0,
-        1,
-        2
+        1
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire introductory formula 'But Jesus said' (Greek Ὁ δὲ Ἰησοῦς εἶπεν, Peshitta ܐܡܪ ܠܗܘܢ ܝܫܘܥ), beginning instead with the relative pronoun 'qui' to continue the discourse from the preceding verse without a fresh speech introduction."
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Peshitta adds the indirect object pronoun ܠܗܘܢ ('to them') after the verb ܐܡܪ, making the addressees explicit; Greek εἶπεν and Latin ait leave the recipients implicit from context."
     },
     {
       "greek_nt": [
         4,
-        5,
-        6
+        5
       ],
       "peshitta": [
         3,
         4
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits Jesus's direct command 'Do not forbid him' (Greek μὴ κωλύετε αὐτόν, Peshitta ܠܐ ܬܟܠܘܢܝܗܝ), proceeding directly to the explanatory maxim that follows in the other traditions."
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Peshitta incorporates the object pronoun as a suffix on the verb ܬܟܠܘܢܝܗܝ ('forbid-him'), whereas Greek αὐτόν and Latin eum are separate accusative pronouns; Vulgate adds colon punctuation after eum."
     },
     {
       "greek_nt": [
         7,
         8,
-        9,
-        10
+        9
       ],
       "peshitta": [
         5,
-        6,
-        7,
+        6
+      ],
+      "vulgate": [
+        8,
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the negative pronoun οὐδεὶς with copula ἐστιν ('no one is'); Peshitta employs the negative existential particle ܠܝܬ ('there is not') + ܐܢܫ ('man'); Latin mirrors Greek with nemo est. All three express the same existential negation through different syntactic strategies."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
         8
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire clause 'for no one there is who' (Greek οὐδεὶς γάρ ἐστιν ὃς, Peshitta ܠܝܬ ܓܝܪ ܐܢܫ ܕ), which in the Greek and Peshitta introduces the rationale for not forbidding the exorcist."
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek relative pronoun ὃς and Latin qui introduce a relative clause; Peshitta uses the relative particle ܕ prefixed to the verb ܕܥܒܕ, a standard Syriac relative construction without a separate pronoun."
     },
     {
       "greek_nt": [
         11,
+        12
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
         12,
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13,
         14,
         15,
         16
       ],
       "peshitta": [
-        9,
         10
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the clause 'will do a work of power in My name' (Greek ποιήσει δύναμιν ἐπὶ τῷ ὀνόματί μου, Peshitta ܕܥܒܕ ܚܝܠܐ ܒܫܡܝ), which describes the miracle-working activity performed in Jesus's name."
+      "vulgate": [
+        14,
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition ἐπὶ + article τῷ + dative ὀνόματί μου ('in the name of Mine'); Latin mirrors with in nomine meo; Peshitta employs the preposition ܒ directly prefixed to the noun ܒܫܡܝ ('in-my-name'), omitting the article (Syriac lacks definite articles in this construction)."
     },
     {
       "greek_nt": [
-        17,
-        18,
-        19,
+        17
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Peshitta incorporates the conjunction ܘ ('and') as a prefix on the verb ܘܡܫܟܚ ('and-is-able'), whereas Greek καὶ δυνήσεται and Latin et possit use separate conjunctions; all three express futurity, though Peshitta's participle construction is aspectually neutral."
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         20,
         21
       ],
       "peshitta": [
-        11,
-        12,
         13,
         14,
         15
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the concluding clause 'and will be able readily to speak evil of Me' (Greek καὶ δυνήσεται ταχὺ κακολογῆσαί με, Peshitta ܘܡܫܟܚ ܥܓܠ ܐܡܪ ܥܠܝ ܕܒܝܫ), which provides the logical conclusion that one performing miracles in Jesus's name cannot quickly turn to reviling him."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
+        20,
+        21,
+        22,
+        23,
+        24
       ],
-      "variant": "added",
-      "type": "substitution",
-      "note": "The Vulgate substitutes an entirely different maxim 'qui enim non est adversum vos, pro vobis est' ('for whoever is not against you is for you'), which appears in Luke 9:50 but not in the Markan parallel attested by Greek and Peshitta witnesses. This represents a major harmonisation toward the Lukan tradition, replacing Mark's argument about miracle-working with a general principle of non-opposition."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the compound verb κακολογῆσαί με ('to speak-evil-of Me'); Latin expands to the two-word phrase male loqui de me ('to speak badly concerning me'); Peshitta employs the verb ܐܡܪ ('say') + prepositional phrase ܥܠܝ ('about me') + adjective ܕܒܝܫ ('evil'), a three-word periphrastic construction. All three convey identical semantics through different lexical strategies."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.005932+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T21:02:12.235897+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

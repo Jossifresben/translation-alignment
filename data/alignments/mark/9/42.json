@@ -63,52 +63,61 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "si",
+        "quisquis",
         "scandalizaverit",
-        "te",
-        "manus",
-        "tua,",
-        "abscide",
-        "illam",
+        "unum",
+        "ex",
+        "his",
+        "pusillis",
+        "credentibus",
+        "in",
+        "me",
         ":",
         "bonum",
         "est",
-        "tibi",
-        "debilem",
-        "introire",
+        "ei",
+        "magis",
+        "si",
+        "circumdaretur",
+        "mola",
+        "asinaria",
+        "collo",
+        "ejus,",
+        "et",
         "in",
-        "vitam,",
-        "quam",
-        "duas",
-        "manus",
-        "habentem",
-        "ire",
-        "in",
-        "gehennam,",
-        "in",
-        "ignem",
-        "inextinguibilem,"
+        "mare",
+        "mitteretur."
       ]
     }
   },
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse (Mark 9:43 on cutting off the hand), not the Greek/Peshitta warning about causing little ones to stumble (Mark 9:42). This represents a major textual divergence, likely a versification or manuscript tradition error in the input data."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the indefinite relative construction ὃς ἂν (relative pronoun + modal particle); Latin uses the compound indefinite quisquis; Syriac uses the simple relative ܡܢ. All three express the same indefinite sense ('whoever'), but through different grammatical strategies."
     },
     {
       "greek_nt": [
@@ -120,58 +129,87 @@
       "vulgate": [
         2
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek σκανδαλίσῃ ('cause to stumble') and Peshitta ܕܢܟܫܠ (d-nakhshel, 'cause to stumble') align semantically, but Vulgate scandalizaverit applies to a different subject ('if your hand causes you to stumble'), confirming the verse mismatch."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         5,
         6,
         7
       ],
       "peshitta": [
-        3,
         4,
         5,
         6
       ],
       "vulgate": [
-        3,
         4,
-        5
+        5,
+        6
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἕνα τῶν μικρῶν τούτων ('one of these little ones') and Peshitta ܠܚܕ ܡܢ ܗܠܝܢ ܙܥܘܪܐ (l-ḥad men hālen z'ūrē, 'one of these little ones') align precisely. Vulgate te manus tua ('your hand') refers to a completely different object, confirming the verse is Mark 9:43, not 9:42."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses the partitive genitive construction τῶν μικρῶν τούτων ('of these little ones'); Latin mirrors this with ex his pusillis; Syriac employs ܡܢ ܗܠܝܢ ܙܥܘܪܐ with the demonstrative preceding the adjective, reflecting typical Semitic word order. The semantic content is identical."
     },
     {
       "greek_nt": [
         8,
-        9,
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular participle τῶν πιστευόντων ('the ones believing') as a substantival modifier; Latin uses the simple present participle credentibus without article; Syriac uses the relative particle ܕ with the participle ܡܗܝܡܢܝܢ. All three express the same participial modification, but through tradition-specific grammatical means."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        6,
-        7,
-        8
+        8,
+        9
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek τῶν πιστευόντων εἰς ἐμέ ('who believe in Me') and Peshitta ܕܡܗܝܡܢܝܢ ܒܝ (d-mhaymnin bi, 'who believe in Me') align with identical participial construction. Vulgate abscide illam ('cut it off') belongs to the hand-cutting pericope, not the stumbling-block warning."
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        10
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'in me', creating a stronger syntactic break between the protasis and apodosis. Neither the Greek nor the Peshitta tradition marks this juncture with punctuation, maintaining a smoother syntactic flow."
     },
     {
       "greek_nt": [
         12,
         13,
-        14,
-        15
+        14
       ],
       "peshitta": [
         9,
@@ -179,13 +217,25 @@
         11
       ],
       "vulgate": [
-        9,
-        10,
-        11
+        11,
+        12,
+        13
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek καλόν ἐστιν αὐτῷ μᾶλλον ('better it is for him rather') uses comparative adverb μᾶλλον post-verbally; Peshitta ܦܩܚ ܗܘܐ ܠܗ (pqaḥ hwā leh, 'better it-would-be for-him') employs periphrastic construction with enclitic pronoun; Vulgate bonum est tibi ('good it-is for-you') omits the comparative intensifier but conveys equivalent meaning."
+      "note": "Greek places the predicate adjective καλόν before the copula ἐστιν, with the dative αὐτῷ following; Latin mirrors this order (bonum est ei); Syriac uses the adjective ܦܩܚ with the enclitic copula ܗܘܐ and pronominal suffix ܠܗ, reflecting typical Syriac syntax. The semantic equivalence is maintained across all three."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek μᾶλλον and Latin magis both mean 'rather/more', intensifying the comparative sense. The Peshitta omits an explicit equivalent, allowing the context to carry the comparative force implicitly through the conditional construction."
     },
     {
       "greek_nt": [
@@ -195,37 +245,42 @@
         12
       ],
       "vulgate": [
-        12,
-        13,
-        14,
-        15,
-        16
+        15
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek εἰ ('if') introduces the conditional protasis; Peshitta ܐܠܘ (elū, 'if/would that') functions identically. Vulgate debilem introire in vitam ('to enter life maimed') belongs to the hand-cutting verse's apodosis, not the millstone conditional."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the present middle-passive περίκειται ('is placed around'); Latin uses the imperfect passive subjunctive circumdaretur ('were placed around'); Syriac employs the passive participle ܪܡܝܐ with the perfect copula ܗܘܬ ('had been placed'). The tense-aspect differences reflect each tradition's preferred way of expressing the counterfactual condition."
+    },
+    {
+      "greek_nt": [
         18,
         19
       ],
       "peshitta": [
-        13,
-        14,
         15,
         16
       ],
       "vulgate": [
         17,
-        18,
-        19,
-        20
+        18
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek περίκειται μύλος ὀνικὸς ('is placed a millstone of-donkey') uses the compound adjective ὀνικός to specify a large donkey-driven mill. Peshitta ܪܡܝܐ ܗܘܬ ܪܚܝܐ ܕܚܡܪܐ (rmyā hwat rḥyā d-ḥmārā, 'were-cast millstone of-donkey') employs passive participle + auxiliary, with ܕܚܡܪܐ as genitive construct. Vulgate duas manus habentem ire ('having two hands to go') continues the hand-cutting verse, not the millstone image."
+      "note": "Greek ὀνικός ('of a donkey') and Latin asinaria ('of a donkey') specify the type of millstone; Syriac ܕܚܡܪܐ likewise means 'of a donkey'. All three traditions agree on this detail, using cognate or equivalent terms for both 'millstone' and 'donkey'."
     },
     {
       "greek_nt": [
@@ -238,38 +293,61 @@
         17
       ],
       "vulgate": [
-        21,
-        22,
-        23,
-        24,
-        25
+        19,
+        20
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek περὶ τὸν τράχηλον αὐτοῦ ('around the neck of-him') uses prepositional phrase with article; Peshitta ܒܨܘܪܗ (b-ṣawreh, 'on-his-neck') employs preposition ܒ + pronominal suffix, a more compact Syriac idiom. Vulgate in gehennam in ignem inextinguibilem ('into Gehenna, into unquenchable fire') describes the destination of the hand-cutting verse, not the millstone's placement."
+      "note": "Greek uses the prepositional phrase περὶ τὸν τράχηλον αὐτοῦ ('around his neck') with article and possessive pronoun; Latin uses the simple dative collo ejus ('to/on his neck'); Syriac uses the prepositional phrase ܒܨܘܪܗ ('on his neck') with pronominal suffix. All three express the same locative sense through tradition-specific prepositional constructions."
     },
     {
       "greek_nt": [
-        24,
-        25,
+        24
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        25
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        24
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the perfect passive indicative βέβληται ('has been cast'); Latin uses the present passive subjunctive mitteretur ('were cast'); Syriac uses the simple perfect ܫܕܐ ('cast'). The tense-aspect variation reflects each tradition's handling of the counterfactual conditional, with Greek emphasizing the completed state, Latin the hypothetical action, and Syriac the simple perfective."
+    },
+    {
+      "greek_nt": [
         26,
         27,
         28
       ],
       "peshitta": [
-        18,
         19
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ βέβληται εἰς τὴν θάλασσαν ('and he-has-been-cast into the sea') uses perfect passive indicative with prepositional phrase. Peshitta ܘܫܕܐ ܒܝܡܐ (w-shdē b-yamā, 'and-cast in-the-sea') employs active participle coordinated with preceding passive, typical Syriac parataxis. Vulgate omits this clause entirely, as the verse transmitted is Mark 9:43, which ends with the Gehenna reference."
+      "vulgate": [
+        22,
+        23
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.006326+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.236333+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

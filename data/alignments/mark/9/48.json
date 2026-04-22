@@ -31,70 +31,134 @@
     },
     "vulgate": {
       "tokens": [
-        "Omnis",
-        "enim",
-        "igne",
-        "salietur,",
+        "ubi",
+        "vermis",
+        "eorum",
+        "non",
+        "moritur,",
         "et",
-        "omnis",
-        "victima",
-        "sale",
-        "salietur."
+        "ignis",
+        "non",
+        "extinguitur."
       ]
     }
   },
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
+        0
       ],
       "peshitta": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        0
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate completely omits the Isaiah 66:24 quotation ('where their worm does not die and the fire is not quenched') attested in both Greek and Peshitta witnesses. Instead, the Vulgate transmits an entirely different saying about salt and sacrifice (Mark 9:49), reflecting a major textual tradition divergence at this point in the Gospel."
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
+      "greek_nt": [
         1,
         2,
-        3,
-        4,
-        5,
-        6,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs article + noun + genitive pronoun (ὁ σκώληξ αὐτῶν); Vulgate uses noun + genitive pronoun (vermis eorum); Peshitta employs a construct state with pronominal suffix (ܕܬܘܠܥܗܘܢ 'd-their-worm'), a typical Semitic possessive construction. All three convey identical semantics."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek τελευτᾷ ('comes to an end, dies') is rendered by Latin moritur ('dies') and Syriac ܡܝܬܐ ('dies'). The Greek verb emphasizes cessation or completion, while both Latin and Syriac use the more direct term for death, though all three convey the same eschatological imagery from Isaiah 66:24."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ coordinates the two clauses; Vulgate mirrors this with et; Peshitta incorporates the conjunction into the noun phrase ܘܢܘܪܗܘܢ ('and-their-fire'), using a pronominal suffix rather than a separate possessive pronoun. This reflects standard Syriac syntax for coordinated possessive constructions."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
-      "variant": "added",
-      "type": "substitution",
-      "note": "The Vulgate alone attests 'Omnis enim igne salietur, et omnis victima sale salietur' (For everyone will be salted with fire, and every sacrifice will be salted with salt), a logion absent from both the Greek NA28 and Peshitta at this location. This represents a distinct textual tradition, possibly reflecting Western manuscript influence or liturgical harmonization with sacrificial imagery from Leviticus 2:13."
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "omitted",
+      "type": "construction",
+      "note": "Greek uses article + noun (τὸ πῦρ); Vulgate uses noun alone (ignis); Peshitta integrates 'fire' with possessive suffix in the previous token (ܘܢܘܪܗܘܢ), having no separate token for the noun itself. The Peshitta's construct-state syntax collapses what Greek and Latin express as separate words."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.007251+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T21:02:12.237414+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

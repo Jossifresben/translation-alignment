@@ -29,22 +29,14 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "respondens",
-        "unus",
-        "de",
-        "turba,",
-        "dixit",
+        "interrogavit",
+        "eos",
         ":",
-        "Magister,",
-        "attuli",
-        "filium",
-        "meum",
-        "ad",
-        "te",
-        "habentem",
-        "spiritum",
-        "mutum",
-        ":"
+        "Quid",
+        "inter",
+        "vos",
+        "conquiritis",
+        "?"
       ]
     }
   },
@@ -59,9 +51,8 @@
       "vulgate": [
         0
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate reads 'Et respondens' (And answering) where Greek and Peshitta have 'And he asked' (καὶ ἐπηρώτησεν / ܘܡܫܐܠ). This represents a complete textual divergence, as the Vulgate transmits the response of a man from the crowd (v. 17) rather than Jesus' question to the scribes (v. 16)."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -71,10 +62,12 @@
         0,
         1
       ],
-      "vulgate": [],
+      "vulgate": [
+        1
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a simple aorist verb ἐπηρώτησεν; Peshitta employs the periphrastic construction ܡܫܐܠ ܗܘܐ (was asking) with the auxiliary verb ܗܘܐ, a common Syriac idiom for past progressive aspect."
+      "note": "The Peshitta employs a periphrastic construction (ܘܡܫܐܠ ܗܘܐ, 'and he was asking') using the auxiliary ܗܘܐ with the active participle, whereas Greek uses a simple aorist (ἐπηρώτησεν) and Latin a perfect (interrogavit). This is a characteristic Syriac idiom for past progressive or iterative action."
     },
     {
       "greek_nt": [
@@ -85,13 +78,21 @@
         2
       ],
       "vulgate": [
-        2,
-        3,
-        4
+        2
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek and Peshitta identify the addressees as 'the scribes' (γραμματεῖς / ܠܣܦܪܐ), while the Vulgate reads 'unus de turba' (one from the crowd), reflecting the textual divergence where the Vulgate transmits an entirely different verse."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the direct object pronoun αὐτούς before the noun γραμματεῖς, creating emphasis on 'them—the scribes'; both Peshitta (ܠܣܦܪܐ) and Vulgate (eos) place the object after the verb in standard word order, with Vulgate's eos serving as a general pronoun clarified by context rather than explicitly naming the scribes at this position."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon to mark the transition from narrative frame to direct discourse, a Latin scribal convention not reflected in Greek or Syriac manuscript traditions which use different discourse markers."
     },
     {
       "greek_nt": [
@@ -100,68 +101,47 @@
       "peshitta": [
         3
       ],
-      "vulgate": [],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
+      "vulgate": [
         4
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek συζητεῖτε (disputing, debating) is rendered by Peshitta ܕܪܫܝܢ (seeking, inquiring), a semantic shift from contentious debate to neutral inquiry, though both convey questioning activity."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta adds the explicit subject pronoun ܐܢܬܘܢ (you), a common Syriac clarification where Greek relies on verbal inflection alone to indicate the second-person plural."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
+        5,
         6,
         7
       ],
       "peshitta": [
+        4,
+        5,
         6
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        5,
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek συζητεῖτε πρὸς αὐτούς ('are you disputing with them') uses the compound verb συζητέω with the preposition πρός governing the accusative. Vulgate inter vos conquiritis ('are you debating among yourselves') shifts the prepositional phrase to inter vos, suggesting internal debate rather than debate directed toward the scribes. Peshitta ܕܪܫܝܢ ܐܢܬܘܢ ܥܡܗܘܢ ('you are inquiring with them') uses ܥܡ ('with') in a neutral sense, closer to Greek but less confrontational than συζητέω typically implies."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16
+        8
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits entirely different content ('dixit: Magister, attuli filium meum ad te habentem spiritum mutum'), corresponding to Mark 9:17 rather than 9:16. This represents a verse-level textual divergence where the Vulgate witness conflates or substitutes verses."
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate adds a question mark as terminal punctuation, a Latin orthographic convention; Greek and Syriac manuscripts rely on context and particles to signal interrogative mood."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.002276+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T21:02:12.231997+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

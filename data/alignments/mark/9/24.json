@@ -44,100 +44,51 @@
     "vulgate": {
       "tokens": [
         "Et",
+        "continuo",
+        "exclamans",
+        "pater",
+        "pueri,",
         "cum",
-        "videret",
-        "Jesus",
-        "concurrentem",
-        "turbam,",
-        "comminatus",
-        "est",
-        "spiritui",
-        "immundo,",
-        "dicens",
-        "illi",
+        "lacrimis",
+        "aiebat",
         ":",
-        "Surde",
-        "et",
-        "mute",
-        "spiritus,",
-        "ego",
-        "præcipio",
-        "tibi,",
-        "exi",
-        "ab",
-        "eo",
-        ":",
-        "et",
-        "amplius",
-        "ne",
-        "introëas",
-        "in",
-        "eum."
+        "Credo,",
+        "Domine",
+        ";",
+        "adjuva",
+        "incredulitatem",
+        "meam."
       ]
     }
   },
   "alignment": [
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29
-      ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse (Mark 9:25), depicting Jesus rebuking the unclean spirit and commanding it to exit. The Greek and Peshitta instead preserve Mark 9:24, the father's confession of faith with tears. This represents a complete textual divergence, likely due to verse misalignment in the source data rather than a genuine variant tradition."
-    },
-    {
-      "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek εὐθὺς ('immediately') corresponds to Peshitta ܒܪ ܫܥܬܗ (bar šaʿteh, 'at his hour/moment'), both conveying temporal immediacy but through different idiomatic constructions—Greek using an adverb, Syriac a prepositional phrase with 'hour.'"
+      "note": "Greek καὶ ('and') is rendered by Peshitta ܘܒܪ (w-bar, 'and immediately') and Vulgate Et ('and'), but the Peshitta conflates the conjunction with the following temporal adverb into a single compound expression."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εὐθὺς ('immediately') corresponds to Peshitta ܫܥܬܗ (šaʿteh, 'his hour/moment') and Vulgate continuo ('immediately'); the Peshitta uses a temporal noun with pronominal suffix rather than an adverb, a characteristic Syriac idiom for immediacy."
     },
     {
       "greek_nt": [
@@ -146,7 +97,9 @@
       "peshitta": [
         2
       ],
-      "vulgate": [],
+      "vulgate": [
+        2
+      ],
       "variant": "aligned",
       "type": "agreement"
     },
@@ -161,10 +114,14 @@
         3,
         4
       ],
-      "vulgate": [],
+      "vulgate": [
+        3,
+        4,
+        5
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs double articulation (ὁ πατὴρ τοῦ παιδίου, 'the father of the child') with separate articles for both nouns, while Syriac uses a construct chain (ܐܒܘܗܝ ܕܛܠܝܐ, 'father-of the-child') with pronominal suffix—semantically identical but reflecting distinct syntactic norms of each language."
+      "note": "Greek uses article + noun + article + genitive noun (ὁ πατὴρ τοῦ παιδίου); Peshitta employs a construct chain without articles (ܐܒܘܗܝ ܕܛܠܝܐ, 'father-his of-the-boy'); Vulgate follows Greek structure with pater pueri but adds a comma after pueri, creating a slight syntactic break."
     },
     {
       "greek_nt": [
@@ -175,10 +132,13 @@
         5,
         6
       ],
-      "vulgate": [],
+      "vulgate": [
+        6,
+        7
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase μετὰ δακρύων ('with tears', genitive plural) to modify the verb, whereas Syriac employs a temporal-circumstantial participle ܟܕ ܒܟܐ (kad bkā, 'while weeping')—both convey the father's tearful state but through different grammatical strategies."
+      "note": "Greek uses prepositional phrase μετὰ δακρύων ('with tears'); Peshitta employs a temporal-circumstantial participle ܟܕ ܒܟܐ (kad bākē, 'while weeping'); Vulgate mirrors Greek with cum lacrimis ('with tears'). The Peshitta construction emphasizes the simultaneity of weeping and speaking through a participial clause."
     },
     {
       "greek_nt": [
@@ -187,9 +147,13 @@
       "peshitta": [
         7
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek ἔλεγεν ends with a raised dot (·) marking direct speech; Peshitta ܘܐܡܪ ('and he said') has no punctuation; Vulgate aiebat is followed by a colon (:), explicitly marking the quotation boundary in Latin manuscript tradition."
     },
     {
       "greek_nt": [
@@ -199,10 +163,12 @@
         8,
         9
       ],
-      "vulgate": [],
+      "vulgate": [
+        9
+      ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek πιστεύω is a finite verb with implicit first-person subject, while Peshitta ܡܗܝܡܢ ܐܢܐ (mhaymen ʾnā) uses a participle plus explicit pronoun 'I'—a characteristic Syriac construction for present-tense predication, semantically equivalent but morphologically distinct."
+      "type": "gloss",
+      "note": "Greek πιστεύω ('I believe') is a single finite verb; Peshitta ܡܗܝܡܢ ܐܢܐ (mhaymen ʾnā) uses a participle + independent pronoun construction ('believing I-am'), a standard Syriac periphrastic present; Vulgate Credo mirrors Greek with a single finite verb."
     },
     {
       "greek_nt": [
@@ -211,9 +177,13 @@
       "peshitta": [
         10
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek κύριε ends with a raised dot (·); Peshitta ܡܪܝ has no punctuation; Vulgate Domine is followed by a semicolon (;), creating a stronger pause than Greek and separating the confession from the petition more distinctly."
     },
     {
       "greek_nt": [
@@ -227,16 +197,20 @@
         12,
         13
       ],
-      "vulgate": [],
+      "vulgate": [
+        12,
+        13,
+        14
+      ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek βοήθει μου τῇ ἀπιστίᾳ ('help my unbelief', dative of respect) contrasts with Peshitta ܥܕܪ ܠܚܣܝܪܘܬ ܗܝܡܢܘܬܝ ('help the deficiency of my faith'), where Syriac employs ܚܣܝܪܘܬ ('lack, deficiency') rather than a direct cognate of ἀπιστία—both express inadequate faith but through different semantic frames (absence vs. deficiency)."
+      "type": "construction",
+      "note": "Greek uses imperative + genitive pronoun + dative article-noun (βοήθει μου τῇ ἀπιστίᾳ, 'help my unbelief'); Peshitta employs imperative + prepositional phrase with construct (ܥܕܪ ܠܚܣܝܪܘܬ ܗܝܡܢܘܬܝ, 'help to-the-lack of-my-faith'); Vulgate uses imperative + accusative noun + possessive adjective (adjuva incredulitatem meam). The Peshitta renders ἀπιστία as 'lack of faith' (ḥsīrūt haymnūtī) rather than 'unbelief,' a more positive framing of the father's struggle."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.003603+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.233509+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

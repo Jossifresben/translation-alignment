@@ -48,26 +48,23 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "interrogavit",
-        "patrem",
-        "ejus",
+        "attulerunt",
+        "eum.",
+        "Et",
+        "cum",
+        "vidisset",
+        "eum,",
+        "statim",
+        "spiritus",
+        "conturbavit",
+        "illum",
         ":",
-        "Quantum",
-        "temporis",
-        "est",
-        "ex",
-        "quo",
-        "ei",
-        "hoc",
-        "accidit",
-        "?",
-        "At",
-        "ille",
-        "ait",
-        ":",
-        "Ab",
-        "infantia",
-        ":"
+        "et",
+        "elisus",
+        "in",
+        "terram,",
+        "volutabatur",
+        "spumans."
       ]
     }
   },
@@ -78,49 +75,164 @@
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19
+        4
       ],
       "peshitta": [
         0,
+        1
+      ],
+      "vulgate": [
+        0,
         1,
-        2,
-        3,
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple conjunction καί; Peshitta employs temporal particle ܘܟܕ ('and when'); Vulgate uses temporal conjunction cum — all introduce the same temporal clause but with different syntactic strategies."
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
         4,
         5,
-        6,
-        7,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses aorist participle ἰδών with accusative object; Peshitta uses finite verb ܚܙܬܗ with pronominal suffix; Vulgate employs cum + perfect subjunctive vidisset — semantically equivalent temporal constructions with different grammatical realizations."
+    },
+    {
+      "greek_nt": [
         8,
-        9,
-        10,
+        9
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek εὐθύς ('immediately') is rendered by Vulgate statim (direct equivalent); Peshitta uses idiomatic phrase ܒܪ ܫܥܬܗ (literally 'son of his hour'), a common Syriac temporal idiom meaning 'immediately, at that very moment.'"
+    },
+    {
+      "greek_nt": [
         11,
-        12,
+        12
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek συνεσπάραξεν ('threw into convulsions') is rendered by Peshitta ܚܒܛܬܗ ('struck/dashed him') and Vulgate conturbavit ('disturbed/troubled') — cognate concepts but different lexical choices reflecting the violent seizure."
+    },
+    {
+      "greek_nt": [
         13
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different pericope at this location (Mark 9:21–22a: Jesus questioning the father about the duration of the affliction), whereas both Greek and Peshitta preserve the narrative of the boy being brought to Jesus and the spirit convulsing him upon seeing Jesus. This represents a major textual divergence, likely due to verse misalignment in the Vulgate source or a scribal displacement."
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts colon punctuation after illum, creating a stronger pause before the description of falling; Greek and Peshitta use simple conjunction without such marked punctuation break."
+    },
+    {
+      "greek_nt": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "peshitta": [
+        8,
+        9,
+        10
+      ],
+      "vulgate": [
+        13,
+        14,
+        15
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses aorist participle πεσών + prepositional phrase ἐπὶ τῆς γῆς; Peshitta employs finite verb ܘܢܦܠ ܥܠ ܐܪܥܐ; Vulgate uses perfect passive participle elisus + in terram — all describe falling to the ground but with different voice and syntactic packaging."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        11,
+        12
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses imperfect middle ἐκυλίετο ('was rolling'); Peshitta uses participle + auxiliary ܡܬܒܥܩ ܗܘܐ (periphrastic construction for progressive aspect); Vulgate uses imperfect deponent volutabatur — all convey ongoing action but through different aspectual strategies."
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.002867+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T21:02:12.232812+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

@@ -40,25 +40,15 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "descendentibus",
-        "illis",
-        "de",
-        "monte,",
-        "præcepit",
-        "illis",
-        "ne",
-        "cuiquam",
-        "quæ",
-        "vidissent,",
-        "narrarent",
-        ":",
+        "statim",
+        "circumspicientes,",
+        "neminem",
+        "amplius",
+        "viderunt,",
         "nisi",
-        "cum",
-        "Filius",
-        "hominis",
-        "a",
-        "mortuis",
-        "resurrexerit."
+        "Jesum",
+        "tantum",
+        "secum."
       ]
     }
   },
@@ -83,10 +73,12 @@
       "peshitta": [
         1
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek ἐξάπινα ('suddenly') and Peshitta ܫܠܝܐ (šelyā, 'suddenly') are both attested, but the Vulgate omits this temporal adverb entirely, proceeding directly to the participial clause 'descendentibus illis de monte.'"
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐξάπινα ('suddenly') and Latin statim ('immediately') are near-synonyms emphasizing temporal abruptness, while Peshitta ܫܠܝܐ ('quietly, peacefully') shifts the semantic focus from temporal suddenness to the manner or state of the vision's conclusion."
     },
     {
       "greek_nt": [
@@ -96,10 +88,12 @@
         2,
         3
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek περιβλεψάμενοι ('having looked around') describes the disciples' visual survey after the transfiguration. The Peshitta uses ܟܕ ܚܪܘ (kad ḥraw, 'when they looked'), a temporal clause with similar semantic force. The Vulgate completely replaces this with 'descendentibus illis de monte' ('as they were descending from the mountain'), introducing descent imagery absent from the Greek and Syriac witnesses."
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle περιβλεψάμενοι ('having looked around') and Latin a gerund circumspicientes ('looking around'), both modifying the subject directly; Peshitta employs the temporal particle ܟܕ ('when') with finite verb ܚܪܘ ('they looked'), creating a subordinate temporal clause—syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [],
@@ -108,8 +102,8 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta inserts ܬܠܡܝܕܐ (talmīḏē, 'the disciples') as an explicit subject, clarifying who performed the action of looking. Neither the Greek nor the Vulgate supply this noun, relying instead on participial or pronominal constructions to identify the agents."
+      "type": "expansion",
+      "note": "Peshitta explicitly names ܬܠܡܝܕܐ ('the disciples') as the subject of the verb, clarifying the implied subject from the preceding narrative context. Neither Greek nor Latin includes this noun, relying on verbal inflection and narrative continuity to identify the actors."
     },
     {
       "greek_nt": [
@@ -120,10 +114,13 @@
         5,
         6
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek οὐκέτι οὐδένα ('no longer anyone') and Peshitta ܠܐܢܫ ܠܐ (lᵉnāš lā, 'no one not') both express the negative scope of vision. The Vulgate omits this clause entirely, having already diverged into the descent narrative with its own distinct content (præcepit illis ne cuiquam... narrarent)."
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the temporal adverb οὐκέτι ('no longer') before the indefinite pronoun οὐδένα ('no one'), while Peshitta reverses this order (ܠܐܢܫ ܠܐ, 'anyone not') and Latin uses neminem amplius ('no one any longer')—all three convey the same negation but with different syntactic arrangements reflecting each language's idiomatic patterns."
     },
     {
       "greek_nt": [
@@ -132,10 +129,11 @@
       "peshitta": [
         7
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek εἶδον ('they saw') and Peshitta ܚܙܘ (ḥzaw, 'they saw') attest the main verb of perception. The Vulgate, having substituted an entirely different pericope (the command not to tell anyone until the resurrection), lacks any equivalent verb of seeing in this position."
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -144,25 +142,39 @@
       "peshitta": [
         8
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek ἀλλὰ ('except/but') and Peshitta ܐܠܐ (ᵉlā, 'except') introduce the exceptive clause. The Vulgate's divergent content (nisi cum Filius hominis... resurrexerit) employs 'nisi' in a different syntactic and semantic context (temporal exception rather than visual exception)."
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
         7,
-        8,
+        8
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        9,
         10
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek τὸν Ἰησοῦν μόνον ('Jesus alone') and Peshitta ܠܝܫܘܥ ܒܠܚܘܕܘܗܝ (ləYēšūʿ balḥūḏaw(hy), 'Jesus in his aloneness') both specify that only Jesus remained visible. The Vulgate's parallel content (Filius hominis a mortuis resurrexerit) refers to the Son of Man's resurrection, a thematically related but contextually distinct clause."
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek μόνον ('alone') and Latin tantum ('only') are adjectival/adverbial modifiers, while Peshitta ܒܠܚܘܕܘܗܝ ('by himself alone') is a prepositional phrase with pronominal suffix—semantically equivalent but morphologically distinct, reflecting Syriac preference for prepositional constructions."
     },
     {
       "greek_nt": [
@@ -172,44 +184,18 @@
       "peshitta": [
         11
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek μεθ᾽ ἑαυτῶν ('with themselves') and Peshitta ܥܡܗܘܢ (ʿamhon, 'with them') close the verse by specifying Jesus' continued presence with the disciples. The Vulgate, having narrated the descent and secrecy command instead, contains no equivalent prepositional phrase in this verse."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19
+        9
       ],
-      "variant": "added",
-      "type": "harmonisation",
-      "note": "The Vulgate transmits an entirely different pericope: 'Et descendentibus illis de monte, præcepit illis ne cuiquam quæ vidissent, narrarent: nisi cum Filius hominis a mortuis resurrexerit' ('And as they were descending from the mountain, he commanded them to tell no one what they had seen, except when the Son of Man should rise from the dead'). This corresponds to Mark 9:9 in Greek and Peshitta witnesses, suggesting either a versification error in the Clementine Vulgate tradition or a scribal harmonisation that displaced the original verse 8 content."
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the preposition μετά with reflexive pronoun ἑαυτῶν ('with themselves'), Latin employs the ablative secum (se + cum, 'with them[selves]'), and Peshitta uses ܥܡܗܘܢ ('with them')—all expressing accompaniment but with different pronominal forms (reflexive vs. simple third person)."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.001139+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T21:02:12.230572+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

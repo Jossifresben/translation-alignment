@@ -42,22 +42,18 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "interrogabant",
-        "eum,",
-        "dicentes",
+        "verbum",
+        "continuerunt",
+        "apud",
+        "se",
         ":",
-        "Quid",
-        "ergo",
-        "dicunt",
-        "pharisæi",
-        "et",
-        "scribæ,",
-        "quia",
-        "Eliam",
-        "oportet",
-        "venire",
-        "primum",
-        "?"
+        "conquirentes",
+        "quid",
+        "esset,",
+        "cum",
+        "a",
+        "mortuis",
+        "resurrexerit."
       ]
     }
   },
@@ -72,75 +68,94 @@
       "vulgate": [
         0
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse (Mark 9:11, concerning Elijah's coming), representing a textual dislocation or manuscript error. Greek and Peshitta both attest Mark 9:10 (keeping the word about rising from the dead), while the Vulgate has imported the subsequent verse's content here."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1,
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         4,
-        5,
-        6
+        5
       ],
       "peshitta": [
         2
       ],
-      "vulgate": [],
+      "vulgate": [
+        3,
+        4
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase πρὸς ἑαυτοὺς with participle συζητοῦντες ('among themselves, questioning'); Peshitta employs the reflexive prepositional phrase ܒܢܦܫܗܘܢ ('in their souls/selves') as a single locution, achieving the same semantic force with different syntax."
+      "type": "lexical",
+      "note": "Greek uses πρὸς ἑαυτούς ('among themselves'), Latin apud se mirrors this construction, while Syriac employs ܒܢܦܫܗܘܢ (literally 'in their souls/selves'), a characteristic Semitic idiom for internal deliberation or private discussion."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after 'apud se' to mark the transition from narrative to indirect discourse, a punctuation convention absent in the Greek and Peshitta manuscripts which use participial constructions without such demarcation."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
       "peshitta": [
         3,
         4
       ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta adds the periphrastic construction ܘܒܥܝܢ ܗܘܘ ('and they were seeking/asking'), making explicit the durative aspect of the disciples' questioning that Greek conveys through the present participle συζητοῦντες alone."
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the present participle συζητοῦντες ('questioning'), Latin uses the present participle conquirentes, while Syriac renders with a finite periphrastic construction ܘܒܥܝܢ ܗܘܘ ('and they were seeking/asking'), a typical Syriac preference for finite verbal forms over participles."
     },
     {
       "greek_nt": [
         7,
-        8
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek τί ἐστιν ('what is') follows standard Greek interrogative word order; Peshitta ܕܡܢܐ ܗܝ ('what [is] it') inverts to Semitic VSO pattern with feminine copula ܗܝ agreeing with ܡܠܬܐ ('word')."
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
+        5,
+        6,
         7,
         8
       ],
-      "vulgate": [],
-      "variant": "added",
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "major",
       "type": "expansion",
-      "note": "Peshitta expands Greek articular infinitive τὸ ἐκ νεκρῶν ἀναστῆναι into full nominal clause ܗܕܐ ܡܠܬܐ ('this word'), making explicit the referent of the interrogative and creating a more elaborate Semitic construction."
+      "note": "The Peshitta expands the indirect question with ܕܡܢܐ ܗܝ ܗܕܐ ܡܠܬܐ ('what is this word/saying'), adding the demonstrative ܗܕܐ ('this') and repeating ܡܠܬܐ ('word') from verse-initial position, creating an emphatic construction absent in both Greek (τί ἐστιν τὸ) and Latin (quid esset)."
     },
     {
       "greek_nt": [
@@ -155,41 +170,21 @@
         12,
         13
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses articular infinitive construction τὸ ἐκ νεκρῶν ἀναστῆναι ('the rising from the dead'); Peshitta employs temporal clause ܕܡܐ ܕܩܡ ܡܢ ܒܝܬ ܡܝܬܐ ('when he rises from the house of the dead'), substituting the idiomatic ܒܝܬ ܡܝܬܐ (lit. 'house of the dead') for simple 'from the dead' and recasting the infinitive as finite verb."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
         9,
         10,
         11,
-        12,
-        13,
-        14,
-        15,
-        16
+        12
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The entire Vulgate text represents Mark 9:11 ('And they asked him, saying: Why then do the Pharisees and scribes say that Elijah must come first?'), not Mark 9:10. This constitutes a complete verse substitution, likely due to manuscript confusion, scribal error, or early Latin textual tradition divergence."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular infinitive τὸ ἐκ νεκρῶν ἀναστῆναι ('the rising from the dead'), Latin employs a temporal cum-clause (cum a mortuis resurrexerit, 'when he shall have risen'), while Syriac constructs a relative clause ܕܡܐ ܕܩܡ ܡܢ ܒܝܬ ܡܝܬܐ ('when he rises from the house of the dead'), using the idiomatic ܒܝܬ ܡܝܬܐ (literally 'house of the dead') for the realm of death."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.001456+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T21:02:12.230926+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

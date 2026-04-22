@@ -58,89 +58,71 @@
     },
     "vulgate": {
       "tokens": [
-        "Respondit",
-        "illi",
-        "Joannes,",
-        "dicens",
-        ":",
-        "Magister,",
-        "vidimus",
-        "quemdam",
+        "Quisquis",
+        "unum",
+        "ex",
+        "hujusmodi",
+        "pueris",
+        "receperit",
         "in",
         "nomine",
-        "tuo",
-        "ejicientem",
-        "dæmonia,",
-        "qui",
-        "non",
-        "sequitur",
-        "nos,",
+        "meo,",
+        "me",
+        "recipit",
+        ":",
         "et",
-        "prohibuimus",
-        "eum."
+        "quicumque",
+        "me",
+        "susceperit,",
+        "non",
+        "me",
+        "suscipit,",
+        "sed",
+        "eum",
+        "qui",
+        "misit",
+        "me."
       ]
     }
   },
   "alignment": [
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+      "greek_nt": [
         0,
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses relative pronoun ὃς with modal particle ἂν to express indefiniteness; Peshitta employs ܟܠ ܡܢ ('everyone who'), a standard Syriac construction for indefinite relatives; Vulgate uses the compound indefinite pronoun Quisquis. All three convey 'whoever' but through different grammatical strategies."
+    },
+    {
+      "greek_nt": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "peshitta": [
+        3,
+        4,
+        5
+      ],
+      "vulgate": [
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19
+        4
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different pericope (Mark 9:38, John's report about the exorcist), whereas the Greek and Peshitta preserve Mark 9:37 (the saying about receiving a child). This represents a verse-level textual displacement in the Vulgate manuscript tradition used for the Clementine edition."
-    },
-    {
-      "greek_nt": [
-        0,
-        1
-      ],
-      "peshitta": [
-        0,
-        1
-      ],
-      "vulgate": [],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the relative pronoun ὃς with the modal particle ἂν to form an indefinite relative clause ('whoever'); Peshitta employs ܟܠ ܡܢ ('all who'), a functionally equivalent Semitic construction using a universal quantifier plus relative particle."
-    },
-    {
-      "greek_nt": [
-        2,
-        3,
-        4,
-        5
-      ],
-      "peshitta": [
-        3,
-        4,
-        5
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the cardinal numeral ἓν ('one') with partitive genitive τῶν τοιούτων παιδίων ('of such children'); Peshitta uses the comparative particle ܐܝܟ ('like') with demonstrative ܗܢܐ ('this') plus ܛܠܝܐ ('child'), yielding 'like this child' rather than 'one of such children'—a stylistic simplification avoiding the partitive construction."
+      "type": "word-order",
+      "note": "Greek places the numeral ἓν before the partitive genitive τῶν τοιούτων παιδίων; Peshitta uses the comparative particle ܐܝܟ ('like') with demonstrative ܗܢܐ ܛܠܝܐ ('this child'), omitting the explicit numeral; Vulgate follows Greek word order with unum ex hujusmodi pueris. The Peshitta construction emphasizes qualitative similarity rather than numerical singularity."
     },
     {
       "greek_nt": [
@@ -149,8 +131,11 @@
       "peshitta": [
         2
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -162,10 +147,14 @@
       "peshitta": [
         6
       ],
-      "vulgate": [],
+      "vulgate": [
+        6,
+        7,
+        8
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the preposition ἐπὶ with dative article τῷ ὀνόματί μου ('in/upon the name of me'), a Hellenistic idiom for agency or authority; Peshitta uses the simple prepositional phrase ܒܫܡܝ ('in my name'), omitting the article (Syriac lacks the definite article in this construction) but preserving semantic equivalence."
+      "note": "Greek uses the prepositional phrase ἐπὶ τῷ ὀνόματί μου ('in/upon my name') with article and dative; Vulgate mirrors this with in nomine meo; Peshitta employs the bound form ܒܫܡܝ ('in-my-name') as a single morphological unit, a typical Semitic construct state eliminating the need for separate article and possessive pronoun."
     },
     {
       "greek_nt": [
@@ -177,10 +166,13 @@
         8,
         9
       ],
-      "vulgate": [],
+      "vulgate": [
+        9,
+        10
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the emphatic pronoun ἐμὲ as direct object with the verb δέχεται ('receives me'); Peshitta employs the prepositional phrase ܠܝ ('to me') with the third-person pronoun ܗܘ ('he') plus participle ܡܩܒܠ ('receiving'), forming a periphrastic construction—syntactically distinct but semantically identical."
+      "note": "Greek uses emphatic pronoun ἐμὲ with present indicative δέχεται; Peshitta adds the independent pronoun ܗܘ ('he') as copular subject before the active participle ܡܩܒܠ, creating a periphrastic construction with object pronoun ܠܝ ('me'); Vulgate uses simple me recipit. The Peshitta construction is a characteristic Syriac participial predicate requiring an explicit subject pronoun."
     },
     {
       "greek_nt": [
@@ -189,8 +181,11 @@
       "peshitta": [
         10
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -201,10 +196,12 @@
         10,
         11
       ],
-      "vulgate": [],
+      "vulgate": [
+        13
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek repeats the indefinite relative ὃς ἂν ('whoever'); Peshitta uses ܘܡܢ ܕ ('and who'), where the conjunction ܘ is fused with the relative particle ܡܢ ܕ—a standard Syriac idiom for continuing parallel clauses without repeating the universal quantifier ܟܠ."
+      "note": "Greek repeats ὃς ἂν for the second indefinite relative clause; Peshitta uses ܘܡܢ ('and-who'), continuing the ܡܢ construction from the first clause; Vulgate employs quicumque, a different compound indefinite from the first clause's Quisquis. All express 'and whoever' with stylistic variation appropriate to each language."
     },
     {
       "greek_nt": [
@@ -215,8 +212,13 @@
         11,
         12
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        14,
+        15
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses δέχομαι (aorist subjunctive δέχηται) consistently; Peshitta continues with ܡܩܒܠ from the same root; Vulgate switches from recipio to suscipio, both meaning 'receive' but suscipio carrying connotations of 'undertake' or 'welcome hospitably.' This lexical variation is stylistic rather than semantic."
     },
     {
       "greek_nt": [
@@ -230,10 +232,14 @@
         15,
         16
       ],
-      "vulgate": [],
+      "vulgate": [
+        16,
+        17,
+        18
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the simple negation οὐκ ἐμὲ δέχεται ('does not receive me'); Peshitta employs the negative particle ܠܐ with the verb ܗܘܐ ('is') plus ܠܝ ܡܩܒܠ ('receiving me'), forming a periphrastic negative construction typical of Syriac syntax—functionally equivalent but structurally more elaborate."
+      "note": "Greek uses simple negation οὐκ ἐμὲ δέχεται; Peshitta employs ܠܐ ܗܘܐ ܠܝ ܡܩܒܠ, a periphrastic construction with the verb 'to be' (ܗܘܐ) plus participle, creating emphasis through the copular structure; Vulgate uses non me suscipit. The Peshitta's addition of the copula is a grammatical requirement of its participial predicate construction, not a semantic expansion."
     },
     {
       "greek_nt": [
@@ -242,8 +248,11 @@
       "peshitta": [
         17
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -255,16 +264,29 @@
         18,
         19
       ],
-      "vulgate": [],
+      "vulgate": [
+        20,
+        21,
+        22,
+        23
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the articular aorist participle τὸν ἀποστείλαντά με ('the one having sent me') as a substantival construction; Peshitta employs the prepositional phrase ܠܡܢ ܕܫܕܪܢܝ ('to the one who sent me'), using a relative clause instead of a participle—syntactically distinct but semantically identical, reflecting Syriac preference for finite verbal forms over Greek participial constructions."
+      "note": "Greek uses article τὸν with aorist active participle ἀποστείλαντά plus pronoun με ('the one having sent me'); Vulgate expands with relative clause eum qui misit me ('him who sent me'); Peshitta uses ܠܡܢ ܕܫܕܪܢܝ ('to-the-one who-sent-me'), a relative construction with pronominal suffix on the verb. All three express the same referent (God the sender) through language-specific participial or relative clause strategies."
+    },
+    {
+      "vulgate": [
+        11
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after recipit, creating a stronger pause between the two parallel clauses. This punctuation choice reflects Latin rhetorical style and has no equivalent in the Greek or Peshitta manuscripts, which maintain continuous syntax."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:30:42.175624+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.235533+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

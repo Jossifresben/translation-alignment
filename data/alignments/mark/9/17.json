@@ -45,30 +45,23 @@
     },
     "vulgate": {
       "tokens": [
-        "qui",
-        "ubicumque",
-        "eum",
-        "apprehenderit,",
-        "allidit",
-        "illum,",
-        "et",
-        "spumat,",
-        "et",
-        "stridet",
-        "dentibus,",
-        "et",
-        "arescit",
+        "Et",
+        "respondens",
+        "unus",
+        "de",
+        "turba,",
+        "dixit",
         ":",
-        "et",
-        "dixi",
-        "discipulis",
-        "tuis",
-        "ut",
-        "ejicerent",
-        "illum,",
-        "et",
-        "non",
-        "potuerunt."
+        "Magister,",
+        "attuli",
+        "filium",
+        "meum",
+        "ad",
+        "te",
+        "habentem",
+        "spiritum",
+        "mutum",
+        ":"
       ]
     }
   },
@@ -76,16 +69,28 @@
     {
       "greek_nt": [
         0,
-        1,
-        2
+        1
       ],
       "peshitta": [
         0
       ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses conjunction + aorist passive (Καὶ ἀπεκρίθη); Peshitta employs a single verb form (ܘܥܢܐ, waw-consecutive + active); Vulgate uses conjunction + participle (Et respondens). All three express the same narrative action but with different syntactic strategies typical of each language's discourse structure."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [],
       "vulgate": [],
-      "variant": "major",
+      "variant": "omitted",
       "type": "omission",
-      "note": "The Vulgate omits the entire opening clause 'And one answered Him' (Greek Καὶ ἀπεκρίθη αὐτῷ / Peshitta ܘܥܢܐ), beginning instead with a relative pronoun 'qui' that continues the description of the spirit from the previous verse. This represents a significant structural divergence, treating the father's speech as a continuation rather than a new response."
+      "note": "Greek includes the dative pronoun αὐτῷ ('to him'), specifying Jesus as the addressee. Both Peshitta and Vulgate omit this pronoun, leaving the addressee implicit from narrative context—a common Semitic and Latin stylistic preference when the referent is clear."
     },
     {
       "greek_nt": [
@@ -99,10 +104,14 @@
         2,
         3
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits 'one from the crowd' (Greek εἷς ἐκ τοῦ ὄχλου / Peshitta ܚܕ ܡܢ ܟܢܫܐ), continuing its structural divergence by eliminating the identification of the speaker entirely and maintaining focus on the spirit's symptoms."
+      "vulgate": [
+        2,
+        3,
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the partitive construction εἷς ἐκ τοῦ ὄχλου ('one out of the crowd') with article + genitive; Peshitta mirrors this with ܚܕ ܡܢ ܟܢܫܐ (ḥaḏ men kenšā); Vulgate employs unus de turba. All three are semantically equivalent partitive expressions, differing only in the presence/absence of the article (Greek has it, Syriac and Latin lack it per their respective norms)."
     },
     {
       "greek_nt": [
@@ -111,10 +120,13 @@
       "peshitta": [
         4
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits the verb 'said' (Greek εἶπεν / Peshitta ܘܐܡܪ), consistent with its treatment of this material as a continuation of verse 17 rather than a new speech introduction."
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek uses a raised dot (εἶπεν·) to mark direct speech; Peshitta continues with ܘܐܡܪ (wa-'mar, 'and he said') without punctuation; Vulgate inserts a colon (dixit :) before the quotation. These represent editorial punctuation conventions rather than textual variants, though the Vulgate's explicit colon is a later scribal addition."
     },
     {
       "greek_nt": [
@@ -123,10 +135,10 @@
       "peshitta": [
         5
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits the vocative 'Teacher' (Greek διδάσκαλε / Peshitta ܡܠܦܢܐ), further evidence of its structural reorganization that removes the direct address opening the father's plea."
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -142,10 +154,16 @@
         7,
         8
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits the entire clause 'I brought my son to You' (Greek ἤνεγκα τὸν υἱόν μου πρὸς σὲ / Peshitta ܐܝܬܝܬ ܒܪܝ ܠܘܬܟ), instead beginning with a relative clause describing the spirit's actions. This represents a fundamental textual divergence in verse structure and content."
+      "vulgate": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the verb first (ἤνεγκα τὸν υἱόν μου πρὸς σὲ, 'I brought the son of mine to you'); Peshitta uses VSO order (ܐܝܬܝܬ ܒܪܝ ܠܘܬܟ, 'I brought my son to you'); Vulgate follows Latin VDO order (attuli filium meum ad te). All three convey identical propositional content but reflect the canonical word-order preferences of their respective languages."
     },
     {
       "greek_nt": [
@@ -161,40 +179,29 @@
         13
       ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
         13,
         14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23
+        15
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek and Peshitta describe the son as 'having a mute spirit' (Greek ἔχοντα πνεῦμα ἄλαλον / Peshitta ܕܐܝܬ ܠܗ ܪܘܚܐ ܕܠܐ ܡܡܠܠܐ) using a participial construction. The Vulgate massively expands this with a relative clause detailing the spirit's violent symptoms ('qui ubicumque eum apprehenderit, allidit illum, et spumat, et stridet dentibus, et arescit') and adds an entire additional clause about the disciples' failed exorcism attempt ('et dixi discipulis tuis ut ejicerent illum, et non potuerunt'), material that appears in verse 18 in Greek and Peshitta traditions."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an accusative participle construction (ἔχοντα πνεῦμα ἄλαλον, 'having a mute spirit'); Peshitta employs a relative clause with existential verb (ܕܐܝܬ ܠܗ ܪܘܚܐ ܕܠܐ ܡܡܠܠܐ, 'd-'īṯ leh rūḥā d-lā mamlelā, 'who has a spirit that does not speak'); Vulgate mirrors the Greek with a Latin participle (habentem spiritum mutum). The Peshitta's double-relative construction is a typical Syriac strategy for expressing attributive modification, semantically equivalent to the Greek and Latin participial phrases."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate adds a closing colon after mutum, marking the end of the direct speech quotation. This is an editorial punctuation convention absent in the Greek and Peshitta manuscripts, which rely on context or spacing to signal quotation boundaries."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.002402+00:00",
-    "confidence": 0.92,
+    "generated_at": "2026-04-22T21:02:12.232135+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

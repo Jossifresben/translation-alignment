@@ -45,96 +45,203 @@
     },
     "vulgate": {
       "tokens": [
-        "Et",
-        "veniens",
-        "ad",
-        "discipulos",
-        "suos,",
-        "vidit",
-        "turbam",
-        "magnam",
-        "circa",
-        "eos,",
+        "Sed",
+        "dico",
+        "vobis",
+        "quia",
         "et",
-        "scribas",
-        "conquirentes",
-        "cum",
-        "illis."
+        "Elias",
+        "venit",
+        "(et",
+        "fecerunt",
+        "illi",
+        "quæcumque",
+        "voluerunt)",
+        "sicut",
+        "scriptum",
+        "est",
+        "de",
+        "eo."
       ]
     }
   },
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Peshitta adds the explicit subject pronoun ܐܢܐ ('I') at token 2, making the speaker explicit, whereas Greek and Latin rely on the verbal inflection alone (λέγω / dico) to indicate first-person singular."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Peshitta omits the conjunction ὅτι / quia introducing the content clause, proceeding directly from ܠܟܘܢ ('to you') to ܕܐܦ ('that also'), a common Syriac syntactic compression."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the perfect tense ἐλήλυθεν ('has come'), emphasizing completed action with present relevance; Syriac ܐܬܐ and Latin venit both employ simple past forms, focusing on the historical event rather than its ongoing significance."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Vulgate use an explicit coordinating conjunction (καὶ / et) to link the two clauses, while Peshitta employs asyndetic construction with ܘܥܒܕܘ ('and they did'), incorporating the conjunction into the verbal prefix ܘ-, a typical Semitic pattern."
+    },
+    {
+      "greek_nt": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "peshitta": [
         7,
         8,
         9,
         10,
-        11,
-        12,
+        11
+      ],
+      "vulgate": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
         13,
+        14
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the perfect passive γέγραπται ('it has been written') as a single verb; Vulgate employs a periphrastic construction scriptum est ('it is written') with participle plus auxiliary; Peshitta uses the simple passive participle ܕܟܬܝܒ ('that is written'), all conveying the same scriptural authority formula."
+    },
+    {
+      "greek_nt": [
         14,
+        15
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
         15,
         16
       ],
-      "peshitta": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transmits an entirely different verse (Mark 9:14, describing Jesus coming to the disciples and finding a crowd with scribes), while both Greek and Peshitta preserve Mark 9:13 (Jesus' statement about Elijah having come and suffering). This represents a complete textual displacement, likely due to manuscript confusion or versification error in the Vulgate witness provided."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "variant": "added",
-      "type": "substitution",
-      "note": "The Vulgate text 'Et veniens ad discipulos suos, vidit turbam magnam circa eos, et scribas conquirentes cum illis' corresponds to Mark 9:14 in standard editions, describing Jesus' arrival at the disciples and the crowd scene. This verse is absent from both the Greek and Peshitta tokens provided, which instead contain Mark 9:13 about Elijah's coming and suffering."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the preposition ἐπί with accusative αὐτόν ('concerning him'); Latin uses de with ablative eo ('about him'); Peshitta uses ܥܠܘܗܝ ('upon him' with pronominal suffix), all expressing the same referential relationship with slight prepositional variation."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.001881+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T21:02:12.231440+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

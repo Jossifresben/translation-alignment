@@ -39,25 +39,21 @@
     },
     "vulgate": {
       "tokens": [
-        "Et",
-        "residens",
-        "vocavit",
-        "duodecim,",
-        "et",
-        "ait",
-        "illis",
+        "At",
+        "illi",
+        "tacebant",
         ":",
-        "Si",
+        "siquidem",
+        "in",
+        "via",
+        "inter",
+        "se",
+        "disputaverunt",
+        ":",
         "quis",
-        "vult",
-        "primus",
-        "esse,",
-        "erit",
-        "omnium",
-        "novissimus,",
-        "et",
-        "omnium",
-        "minister."
+        "eorum",
+        "major",
+        "esset."
       ]
     }
   },
@@ -65,53 +61,87 @@
     {
       "greek_nt": [
         0,
-        1,
-        2
+        1
       ],
       "peshitta": [
         0,
-        1,
+        1
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
         2,
         3
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the disciples' silence entirely, replacing the narrative sequence with Jesus' direct teaching action. Greek οἱ δὲ ἐσιώπων and Peshitta ܗܢܘܢ ܕܝܢ ܫܬܝܩܝܢ ܗܘܘ both attest the disciples' silent response, while the Vulgate begins instead with 'Et residens vocavit duodecim,' conflating or repositioning material from the surrounding pericope."
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses simple imperfect ἐσιώπων; Peshitta employs periphrastic construction ܫܬܝܩܝܢ ܗܘܘ (participle + auxiliary 'were'), a common Syriac idiom for progressive aspect. Latin tacebant mirrors the Greek synthetic form."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
+        3
       ],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts 'Et residens vocavit duodecim, et ait illis :' (And sitting down he called the twelve and said to them), material absent from both the Greek and Peshitta at this verse boundary. This represents either a harmonisation with the broader Markan context (Mark 9:35) or a conflation of verse divisions in the Latin manuscript tradition."
+      "type": "punctuation",
+      "note": "Vulgate inserts colon after tacebant to mark the explanatory clause, a stylistic feature absent in Greek and Peshitta manuscripts which use no punctuation or only a mid-point."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek γὰρ appears post-positionally after πρὸς ἀλλήλους; Peshitta ܓܝܪ follows the verb ܐܬܚܪܝܘ; Vulgate siquidem ('seeing that indeed') fronts the causal clause, reflecting Latin preference for clause-initial conjunctions."
     },
     {
       "greek_nt": [
         3,
-        4,
-        5,
+        4
+      ],
+      "peshitta": [
+        8,
+        9,
+        10
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek πρὸς ἀλλήλους (reciprocal pronoun) and Latin inter se both use standard reciprocal constructions. Peshitta employs the distributive idiom ܚܕ ܥܡ ܚܕ ('one with one'), a characteristic Semitic expression for mutual action."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
         4,
-        5,
-        6
+        5
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the explanatory clause about the disciples' prior discussion. Greek πρὸς ἀλλήλους γὰρ διελέχθησαν (for they had been discussing with one another) and Peshitta ܐܬܚܪܝܘ ܗܘܘ ܓܝܪ (for they had been disputing) both preserve the causal explanation for their silence, which the Vulgate replaces with direct discourse."
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek διελέχθησαν (aorist passive deponent) and Latin disputaverunt (perfect active) use synthetic verb forms. Peshitta again employs periphrastic ܐܬܚܪܝܘ ܗܘܘ (perfect + auxiliary), maintaining aspectual distinction through analytic construction."
     },
     {
       "greek_nt": [
@@ -122,46 +152,63 @@
       "peshitta": [
         7
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek ἐν τῇ ὁδῷ (along the road) and Peshitta ܒܐܘܪܚܐ (on the way) both specify the location of the disciples' dispute, a detail absent from the Vulgate's rendering of this verse."
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "vulgate": [
+        10
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "Vulgate inserts second colon before the indirect question quis eorum major esset, marking the shift to reported speech. Greek and Peshitta traditions lack this punctuation distinction."
     },
     {
       "greek_nt": [
-        10,
-        11
+        10
       ],
       "peshitta": [
-        8,
-        9,
-        10,
-        11,
-        12,
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "peshitta": [
         13
       ],
       "vulgate": [
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
+        12
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek τίς μείζων (who [was] greatest) presents the disciples' question in indirect discourse. Peshitta ܚܕ ܥܡ ܚܕ ܕܡܢܘ ܪܒ ܒܗܘܢ (one with another, who [is] great among them) expands with the reciprocal construction 'one with another' and adds the prepositional phrase 'among them.' The Vulgate transforms this into Jesus' direct teaching: 'Si quis vult primus esse, erit omnium novissimus, et omnium minister' (If anyone wishes to be first, he will be last of all and servant of all), substituting the content of the dispute with its resolution, likely harmonising with Mark 9:35."
+      "variant": "minor",
+      "type": "gloss",
+      "note": "Peshitta ܒܗܘܢ ('among them') and Vulgate eorum ('of them') make explicit the partitive relationship implicit in Greek τίς μείζων, where the comparative adjective alone implies comparison within the group of disciples."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses comparative adjective μείζων with implied copula; Peshitta ܪܒ employs the positive adjective (Syriac lacks morphological comparative); Vulgate major esset uses comparative with explicit subjunctive copula in indirect question, reflecting Latin syntactic requirements."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.005129+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T21:02:12.235026+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

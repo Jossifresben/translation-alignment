@@ -53,24 +53,27 @@
     },
     "vulgate": {
       "tokens": [
-        "Et",
-        "attulerunt",
-        "eum.",
-        "Et",
-        "cum",
-        "vidisset",
-        "eum,",
-        "statim",
-        "spiritus",
-        "conturbavit",
-        "illum",
+        "Qui",
+        "respondens",
+        "eis,",
+        "dixit",
         ":",
-        "et",
-        "elisus",
-        "in",
-        "terram,",
-        "volutabatur",
-        "spumans."
+        "O",
+        "generatio",
+        "incredula,",
+        "quamdiu",
+        "apud",
+        "vos",
+        "ero",
+        "?",
+        "quamdiu",
+        "vos",
+        "patiar",
+        "?",
+        "afferte",
+        "illum",
+        "ad",
+        "me."
       ]
     }
   },
@@ -85,14 +88,19 @@
       ],
       "peshitta": [
         0,
-        1,
         2,
         3
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire introductory formula present in both Greek (Ὁ δὲ ἀποκριθεὶς αὐτοῖς λέγει) and Peshitta (ܥܢܐ ܝܫܘܥ ܘܐܡܪ ܠܗ), beginning instead with the narrative action 'Et attulerunt eum.' This represents a major textual divergence where the Vulgate transmits a different pericope or verse division entirely."
+      "vulgate": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta explicitly names the subject ܝܫܘܥ ('Jesus') where Greek and Latin use only the participial construction with pronoun. This is a characteristic Peshitta clarification for narrative flow, making the subject explicit rather than relying on context."
     },
     {
       "greek_nt": [
@@ -101,25 +109,37 @@
       "peshitta": [
         4
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The vocative interjection ὦ (Greek) and its Syriac equivalent ܐܘܢ are absent from the Vulgate, which does not transmit Jesus's direct address at all in this verse segment."
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        5,
         6,
         7
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek γενεὰ ἄπιστος ('faithless generation') and Peshitta ܫܪܒܬܐ ܕܠܐ ܡܗܝܡܢܐ (literally 'tribe/generation that does not believe') are entirely absent from the Vulgate text provided, which narrates the bringing of the demoniac rather than Jesus's rebuke."
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the single adjective ἄπιστος ('unbelieving'); Peshitta employs a negated participial construction ܕܠܐ ܡܗܝܡܢܐ ('who does not believe'); Latin uses incredula. All three convey identical semantic content through different morphological strategies."
     },
     {
       "greek_nt": [
@@ -135,10 +155,16 @@
         10,
         11
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The first rhetorical question ἕως πότε πρὸς ὑμᾶς ἔσομαι ('How long shall I be with you?') and its Peshitta equivalent ܥܕܡܐ ܠܐܡܬܝ ܐܗܘܐ ܠܘܬܟܘܢ are not present in the Vulgate excerpt, which continues with narrative action rather than discourse."
+      "vulgate": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the prepositional phrase πρὸς ὑμᾶς before the verb ἔσομαι; Peshitta places ܠܘܬܟܘܢ after ܐܗܘܐ; Latin mirrors Greek word order with apud vos ero. The semantic content is identical despite the syntactic reordering."
     },
     {
       "greek_nt": [
@@ -152,10 +178,15 @@
         13,
         14
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The second rhetorical question ἕως πότε ἀνέξομαι ὑμῶν ('How long shall I bear with you?') and Peshitta ܘܥܕܡܐ ܠܐܡܬܝ ܐܣܝܒܪܟܘܢ are absent from the Vulgate, which does not transmit Jesus's lament in this verse."
+      "vulgate": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀνέξομαι takes the genitive ὑμῶν; Latin patiar takes the accusative vos; Peshitta ܐܣܝܒܪܟܘܢ incorporates the pronominal suffix directly on the verb. These represent standard case-government differences across the three languages for the same verbal idea of 'enduring/bearing with.'"
     },
     {
       "greek_nt": [
@@ -168,43 +199,19 @@
         15,
         16
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The imperative φέρετε αὐτὸν πρός με ('Bring him to me') and Peshitta ܐܝܬܐܘܗܝ ܠܘܬܝ are not found in the Vulgate text provided, which instead narrates the demon's violent reaction upon seeing Jesus (spiritus conturbavit illum)."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
+        17,
+        18,
+        19,
+        20
       ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate transmits an entirely different narrative segment: 'Et attulerunt eum. Et cum vidisset eum, statim spiritus conturbavit illum: et elisus in terram, volutabatur spumans' ('And they brought him. And when [the spirit] saw him, immediately the spirit convulsed him: and thrown to the ground, he rolled about foaming'). This material corresponds to Mark 9:20 in standard versification, indicating the Vulgate verse division differs fundamentally from the Greek and Peshitta traditions at this point."
+      "variant": "aligned"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.002713+00:00",
-    "confidence": 0.45,
+    "generated_at": "2026-04-22T21:02:12.232551+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

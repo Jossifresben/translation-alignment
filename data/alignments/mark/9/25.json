@@ -73,27 +73,35 @@
     "vulgate": {
       "tokens": [
         "Et",
-        "exclamans,",
-        "et",
-        "multum",
-        "discerpens",
-        "eum,",
-        "exiit",
-        "ab",
-        "eo,",
-        "et",
-        "factus",
+        "cum",
+        "videret",
+        "Jesus",
+        "concurrentem",
+        "turbam,",
+        "comminatus",
         "est",
-        "sicut",
-        "mortuus,",
-        "ita",
-        "ut",
-        "multi",
-        "dicerent",
+        "spiritui",
+        "immundo,",
+        "dicens",
+        "illi",
         ":",
-        "Quia",
-        "mortuus",
-        "est."
+        "Surde",
+        "et",
+        "mute",
+        "spiritus,",
+        "ego",
+        "præcipio",
+        "tibi,",
+        "exi",
+        "ab",
+        "eo",
+        ":",
+        "et",
+        "amplius",
+        "ne",
+        "introëas",
+        "in",
+        "eum."
       ]
     }
   },
@@ -104,43 +112,77 @@
         1,
         2,
         3,
-        4,
-        5,
-        6
+        4
       ],
       "peshitta": [
         0,
         1,
         2,
-        3,
+        3
+      ],
+      "vulgate": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a participial construction (Ἰδὼν δὲ ὁ Ἰησοῦς ὅτι) with aorist participle plus ὅτι-clause; Peshitta employs a temporal clause with ܟܕ ('when') plus finite verb; Vulgate uses cum + subjunctive (cum videret). All three express the same temporal-causal relationship but through different syntactic strategies."
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
         4,
         5,
         6,
         7
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the entire introductory clause present in both Greek and Peshitta describing Jesus seeing the crowd running together. The Vulgate begins instead with the demon's violent departure, representing a major textual divergence that shifts narrative focus from Jesus's perception to the exorcism's immediate aftermath."
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Peshitta expands the Greek compound verb ἐπισυντρέχει ('was running together') into two finite verbs ܕܪܗܛ ܥܡܐ ܘܡܬܟܢܫ ܠܘܬܗ ('the crowd was running and gathering toward him'), making the convergent motion more explicit. Greek and Latin preserve the single compound verb (ἐπισυντρέχει / concurrentem)."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐπετίμησεν ('rebuked') and Syriac ܟܐܐ ('rebuked') are semantically aligned, while Vulgate uses comminatus est ('threatened'), a stronger term emphasizing the authoritative warning aspect of Jesus's action."
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10,
         11
       ],
       "peshitta": [
-        8,
         9,
         10,
         11
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits Jesus's rebuke of the unclean spirit (Greek ἐπετίμησεν τῷ πνεύματι τῷ ἀκαθάρτῳ; Peshitta ܟܐܐ ܒܗܝ ܪܘܚܐ ܛܢܦܬܐ), proceeding directly to the demon's exit. This represents a substantive narrative omission of the exorcistic command that precipitates the spirit's departure in the Greek and Syriac witnesses."
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the adjective ἀκαθάρτῳ after the noun πνεύματι with double article (τῷ πνεύματι τῷ ἀκαθάρτῳ); Peshitta follows Semitic word order with adjective after noun (ܪܘܚܐ ܛܢܦܬܐ); Vulgate uses Latin attributive order with adjective before noun (spiritui immundo). All three denote the same referent."
     },
     {
       "greek_nt": [
@@ -151,10 +193,14 @@
         12,
         13
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the participial phrase 'saying to it' (Greek λέγων αὐτῷ; Peshitta ܘܐܡܪ ܠܗ) that introduces Jesus's direct address to the spirit, eliminating the formal speech introduction present in both Greek and Syriac traditions."
+      "vulgate": [
+        10,
+        11,
+        12
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Vulgate inserts a colon after illi to mark the beginning of direct speech, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. The syntactic function (introducing direct discourse) remains identical across all three traditions."
     },
     {
       "greek_nt": [
@@ -171,10 +217,15 @@
         16,
         17
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits Jesus's vocative address to the spirit as 'mute and deaf spirit' (Greek τὸ ἄλαλον καὶ κωφὸν τὸ πνεῦμα; Peshitta ܪܘܚܐ ܚܪܫܬܐ ܕܠܐ ܡܡܠܠܐ). This characterization of the demon's nature, present in both Greek and Syriac, is entirely absent from the Latin witness, representing a significant theological and descriptive omission."
+      "vulgate": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses vocative article + adjective + conjunction + adjective + vocative article + noun (τὸ ἄλαλον καὶ κωφὸν τὸ πνεῦμα); Vulgate reverses to adjective + conjunction + adjective + noun (Surde et mute spiritus); Peshitta employs noun + adjective + relative clause construction (ܪܘܚܐ ܚܪܫܬܐ ܕܠܐ ܡܡܠܠܐ, 'spirit deaf that does not speak'). The Peshitta expands ἄλαλον ('mute') into a relative clause for clarity."
     },
     {
       "greek_nt": [
@@ -188,10 +239,14 @@
         20,
         21
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits the emphatic command formula 'I myself command you' (Greek ἐγὼ ἐπιτάσσω σοι; Peshitta ܐܢܐ ܦܩܕ ܐܢܐ ܠܟܝ), which in both Greek and Syriac establishes Jesus's authoritative first-person pronouncement over the demon."
+      "vulgate": [
+        17,
+        18,
+        19
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Peshitta doubles the first-person pronoun (ܐܢܐ ܦܩܕ ܐܢܐ ܠܟܝ, 'I command I to-you'), a Semitic emphatic construction, while Greek ἐγὼ ἐπιτάσσω σοι and Latin ego praecipio tibi use the pronoun once. The Peshitta's repetition intensifies the authoritative tone without altering the semantic content."
     },
     {
       "greek_nt": [
@@ -204,13 +259,14 @@
         23
       ],
       "vulgate": [
-        6,
-        7,
-        8
+        20,
+        21,
+        22,
+        23
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "The Vulgate transforms Jesus's command 'come out of him' (Greek ἔξελθε ἐξ αὐτοῦ; Peshitta ܦܘܩܝ ܡܢܗ) into a narrative statement 'it came out from him' (exiit ab eo), converting direct discourse into third-person narration and eliminating the imperatival force present in both Greek and Syriac witnesses."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses aorist imperative ἔξελθε with prepositional phrase ἐξ αὐτοῦ ('come out from him'); Peshitta employs feminine imperative ܦܘܩܝ ܡܢܗ (addressing the spirit as grammatically feminine); Vulgate adds a second colon after eo for rhetorical emphasis. All three preserve the command structure with minor stylistic variation."
     },
     {
       "greek_nt": [
@@ -226,53 +282,22 @@
         26,
         27
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits Jesus's prohibition against the spirit's return (Greek καὶ μηκέτι εἰσέλθῃς εἰς αὐτόν; Peshitta ܘܬܘܒ ܠܐ ܬܥܠܝܢ ܠܗ, 'and no more enter into him'), a command present in both Greek and Syriac that prevents demonic re-possession, similar to the formula in Matthew 12:45 and Luke 11:26."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
       ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate adds a dramatic description of the demon's violent departure ('And crying out and greatly tearing him,' Et exclamans et multum discerpens eum) not present in either Greek or Syriac at this point in the narrative, though such details appear later in the Greek text (v. 26). This represents either a harmonization with the subsequent verse or a distinct textual tradition."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21
-      ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate uniquely adds the aftermath description 'and he became as dead, so that many said: He is dead' (et factus est sicut mortuus, ita ut multi dicerent: Quia mortuus est), material entirely absent from both Greek and Syriac witnesses at this verse. This expansion anticipates narrative elements that appear in verse 26 of the Greek text, suggesting either textual conflation or a distinct Latin Vorlage."
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.003817+00:00",
-    "confidence": 0.65,
+    "generated_at": "2026-04-22T21:02:12.233673+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

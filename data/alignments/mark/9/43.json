@@ -64,15 +64,32 @@
     },
     "vulgate": {
       "tokens": [
-        "ubi",
-        "vermis",
-        "eorum",
-        "non",
-        "moritur,",
-        "et",
-        "ignis",
-        "non",
-        "extinguitur."
+        "Et",
+        "si",
+        "scandalizaverit",
+        "te",
+        "manus",
+        "tua,",
+        "abscide",
+        "illam",
+        ":",
+        "bonum",
+        "est",
+        "tibi",
+        "debilem",
+        "introire",
+        "in",
+        "vitam,",
+        "quam",
+        "duas",
+        "manus",
+        "habentem",
+        "ire",
+        "in",
+        "gehennam,",
+        "in",
+        "ignem",
+        "inextinguibilem,"
       ]
     }
   },
@@ -82,23 +99,35 @@
         0
       ],
       "peshitta": [],
-      "vulgate": [],
+      "vulgate": [
+        0
+      ],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate. The Vulgate verse corresponds to a different Greek textual unit (Mark 9:44, a disputed verse absent from critical editions), while the Peshitta begins the conditional clause without a coordinating conjunction."
+      "note": "Greek καὶ and Latin Et open the verse with a coordinating conjunction; Peshitta omits this, beginning directly with the conditional particle ܐܢ, a common Syriac stylistic preference in protasis constructions."
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
         1
       ],
       "vulgate": [],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἐάν ('if') is rendered by Peshitta ܐܢ ܕܝܢ ('but if'), introducing a contrastive particle ܕܝܢ absent from the Greek. The Vulgate omits the conditional entirely, as it transmits a different verse (Mark 9:44)."
+      "variant": "added",
+      "type": "expansion",
+      "note": "Peshitta inserts the contrastive particle ܕܝܢ ('but', 'now') after the conditional ܐܢ, a typical Syriac discourse marker absent from both Greek and Latin witnesses."
     },
     {
       "greek_nt": [
@@ -109,8 +138,12 @@
         2,
         3
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -121,10 +154,13 @@
       "peshitta": [
         4
       ],
-      "vulgate": [],
+      "vulgate": [
+        4,
+        5
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + noun + possessive pronoun (ἡ χείρ σου, 'the hand of you'); Peshitta employs a pronominal suffix on the noun (ܐܝܕܟ, 'your-hand'), a standard Semitic construction eliminating the need for separate article and possessive."
+      "note": "Greek employs article + noun + possessive pronoun (ἡ χείρ σου); Latin uses noun + possessive pronoun without article (manus tua); Syriac uses a pronominal suffix on the noun (ܐܝܕܟ, 'your-hand'), the standard Semitic possessive construction."
     },
     {
       "greek_nt": [
@@ -134,26 +170,59 @@
       "peshitta": [
         5
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        6,
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses imperative + accusative pronoun (ἀπόκοψον αὐτήν); Latin mirrors this (abscide illam) and adds a colon for punctuation; Syriac employs imperative with pronominal suffix (ܦܣܘܩܝܗ, 'cut-it-off'), collapsing verb and object into a single morphological unit."
     },
     {
       "greek_nt": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "peshitta": [
         6,
-        7,
-        8,
-        9
+        7
       ],
-      "vulgate": [],
+      "vulgate": [
+        9,
+        10
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an impersonal construction with copula (καλόν ἐστίν σε κυλλὸν, 'good it-is for-you crippled'); Peshitta employs an active participle with copula (ܦܩܚ ܗܘ ܠܟ ܦܫܝܓܐ, 'better is-it for-you maimed'), expressing the same comparative sense through different syntactic means."
+      "note": "Greek uses predicate adjective + copula (καλόν ἐστίν); Latin employs the same structure (bonum est); Syriac uses adjective + enclitic copula pronoun (ܦܩܚ ܗܘ), a standard Syriac nominal sentence construction semantically equivalent to Greek and Latin."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Syriac use accusative/prepositional object σε / ܠܟ ('you'); Latin employs dative tibi, reflecting Latin's preference for dative of advantage in impersonal constructions with bonum est."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek κυλλὸν ('maimed', 'crippled') and Syriac ܦܫܝܓܐ ('maimed', 'cut-off') are semantic equivalents; Latin debilem ('weak', 'disabled') represents a broader lexical choice, less specific to amputation but contextually appropriate."
     },
     {
       "greek_nt": [
@@ -166,8 +235,13 @@
         10,
         11
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        13,
+        14,
+        15
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -176,8 +250,11 @@
       "peshitta": [
         12
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -193,10 +270,14 @@
         16,
         17
       ],
-      "vulgate": [],
+      "vulgate": [
+        17,
+        18,
+        19
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses accusative article + numeral + noun + participle (τὰς δύο χεῖρας ἔχοντα, 'the two hands having'); Peshitta employs a temporal particle + existential verb + dative pronoun + numeral + noun (ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܐܝܕܝܢ, 'while there-are to-you two hands'), a periphrastic construction semantically equivalent but syntactically distinct."
+      "note": "Greek uses article + numeral + noun + participle (τὰς δύο χεῖρας ἔχοντα); Latin employs numeral + noun + participle without article (duas manus habentem); Syriac expands with temporal particle + existential verb + dative + numeral + noun (ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܐܝܕܝܢ, 'while there-are to-you two hands'), a periphrastic construction semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -209,8 +290,13 @@
         18,
         19
       ],
-      "vulgate": [],
-      "variant": "aligned"
+      "vulgate": [
+        20,
+        21,
+        22
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -222,25 +308,19 @@
       ],
       "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
+        23,
+        24,
+        25
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek concludes with εἰς τὸ πῦρ τὸ ἄσβεστον ('into the fire the unquenchable'), which the Peshitta omits entirely. The Vulgate instead transmits 'ubi vermis eorum non moritur, et ignis non extinguitur' ('where their worm does not die, and the fire is not quenched'), corresponding to the disputed Mark 9:44, a verse absent from critical Greek editions but present in the Western textual tradition. This represents a major textual divergence between manuscript families."
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek and Latin attest the appositive phrase εἰς τὸ πῦρ τὸ ἄσβεστον / in ignem inextinguibilem ('into the unquenchable fire') as an expansion of γέενναν / gehennam. Peshitta omits this entire clause, ending at ܠܓܗܢܐ ('to Gehenna'), likely reflecting a shorter textual tradition or deliberate abbreviation to avoid redundancy."
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.006502+00:00",
-    "confidence": 0.75,
+    "generated_at": "2026-04-22T21:02:12.236565+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

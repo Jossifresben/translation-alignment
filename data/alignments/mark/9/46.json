@@ -31,68 +31,134 @@
     },
     "vulgate": {
       "tokens": [
-        "Quod",
-        "si",
-        "oculus",
-        "tuus",
-        "scandalizat",
-        "te,",
-        "ejice",
-        "eum",
-        ":",
-        "bonum",
-        "est",
-        "tibi",
-        "luscum",
-        "introire",
-        "in",
-        "regnum",
-        "Dei,",
-        "quam",
-        "duos",
-        "oculos",
-        "habentem",
-        "mitti",
-        "in",
-        "gehennam",
-        "ignis,"
+        "ubi",
+        "vermis",
+        "eorum",
+        "non",
+        "moritur,",
+        "et",
+        "ignis",
+        "non",
+        "extinguitur."
       ]
     }
   },
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         1,
         2,
-        3,
-        4,
-        5,
-        6,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs article + noun + genitive pronoun (ὁ σκώληξ αὐτῶν); Vulgate uses noun + genitive pronoun (vermis eorum); Peshitta employs a construct state with pronominal suffix (ܕܬܘܠܥܗܘܢ, 'd-their-worm'), a typical Syriac nominal construction that integrates the possessive morphologically rather than syntactically."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek τελευτᾷ (G5053, 'comes to an end, dies') and Latin moritur both denote cessation of life; Peshitta ܡܝܬܐ uses the standard Syriac root for 'die,' semantically equivalent but representing independent lexical choice within the Semitic tradition."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ and Latin et function as coordinating conjunctions; Peshitta ܘܢܘܪܗܘܢ ('and-their-fire') integrates the conjunction with the following noun in a single orthographic unit with pronominal suffix, reflecting Syriac morphosyntactic economy."
+    },
+    {
+      "greek_nt": [
         7,
-        8,
-        9,
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun (τὸ πῦρ); Latin uses bare noun (ignis); Peshitta incorporates 'fire' within the preceding conjunctive construction (ܘܢܘܪܗܘܢ) with pronominal suffix, eliminating the need for a separate possessive pronoun as in Greek αὐτῶν (implied by context in the parallel structure)."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
         6
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Vulgate omits Mark 9:48 entirely in the Clementine edition, which corresponds to the Isaiah 66:24 quotation about the undying worm and unquenched fire. This verse is textually disputed in Greek manuscripts (absent in Sinaiticus and Vaticanus) and represents a scribal harmonization with verses 44 and 46, which contain identical wording. The Peshitta retains the verse with pronominal suffixes (ܬܘܠܥܗܘܢ 'their worm', ܘܢܘܪܗܘܢ 'and their fire') matching the Greek αὐτῶν construction."
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
     "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.006986+00:00",
-    "confidence": 0.95,
+    "generated_at": "2026-04-22T21:02:12.237092+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }
