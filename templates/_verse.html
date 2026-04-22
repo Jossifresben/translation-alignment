@@ -46,13 +46,16 @@
             {% for group in highlighted %}
               <li>
                 <span class="variant-badge {{ group.variant }}">{{ group.variant }}</span>
-                {% for tid, label, dir in traditions %}
-                  {% if group.get(tid) %}
-                    <span class="hl-trad hl-{{ tid }}" dir="{{ dir }}">
-                      <span class="hl-label">{{ label }}</span><span class="hl-tokens">{% for idx in group[tid] %}{{ alignment.traditions[tid].tokens[idx] }}{% if not loop.last %} {% endif %}{% endfor %}</span>
-                    </span>
-                  {% endif %}
-                {% endfor %}
+                <div class="hl-traditions">
+                  {% for tid, label, dir in traditions %}
+                    {% if group.get(tid) %}
+                      <div class="hl-trad hl-{{ tid }}">
+                        <span class="hl-label">{{ label }}</span>
+                        <span class="hl-tokens" dir="{{ dir }}">{% for idx in group[tid] %}{{ alignment.traditions[tid].tokens[idx] }}{% if not loop.last %} {% endif %}{% endfor %}</span>
+                      </div>
+                    {% endif %}
+                  {% endfor %}
+                </div>
               </li>
             {% endfor %}
           </ul>
