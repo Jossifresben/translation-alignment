@@ -346,18 +346,20 @@ body::before {
 }
 .tok.is-variant {
   text-decoration: underline;
-  text-decoration-thickness: 1.5px;
+  text-decoration-thickness: 2.5px;
   text-underline-offset: 4px;
   text-decoration-style: dotted;
-  text-decoration-color: var(--ink-4);   /* default muted for minor */
+}
+.tok.is-variant.v-minor {
+  text-decoration-color: var(--sage);           /* minor → green */
+  background: var(--sage-soft);
+  box-shadow: inset 0 -3px 0 -1px var(--sage-soft);
 }
 .tok.is-variant.v-major,
 .tok.is-variant.v-omitted,
 .tok.is-variant.v-added {
-  text-decoration-color: var(--rubric);       /* substantive → bold rubric */
-  text-decoration-thickness: 2.5px;
-  text-decoration-style: dotted;
-  background: var(--rubric-soft);             /* faint rose tint */
+  text-decoration-color: var(--rubric);         /* substantive → red */
+  background: var(--rubric-soft);
   box-shadow: inset 0 -3px 0 -1px var(--rubric-soft);
 }
 .tok.is-variant.is-variant-active {
@@ -652,10 +654,12 @@ body::before {
 }
 .legend-sample.sample-minor {
   text-decoration: underline;
-  text-decoration-color: var(--ink-4);
+  text-decoration-color: var(--sage);
   text-decoration-style: dotted;
-  text-decoration-thickness: 1.5px;
+  text-decoration-thickness: 2.5px;
   text-underline-offset: 4px;
+  background: var(--sage-soft);
+  border-color: transparent;
 }
 .legend-sample.sample-major {
   text-decoration: underline;
