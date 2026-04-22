@@ -42,3 +42,34 @@ def test_parse_tagnt_line_returns_none_on_comment_or_blank():
     assert parse_tagnt_line("#Ref\tGreek\t...") is None
     assert parse_tagnt_line("") is None
     assert parse_tagnt_line("\n") is None
+
+
+def test_strip_translit_removes_trailing_paren():
+    from scripts.extract_step_enrichment import strip_translit
+    assert strip_translit("Ἀρχὴ (Archē)") == "Ἀρχὴ"
+    assert strip_translit("τοῦ (tou)") == "τοῦ"
+    assert strip_translit("Ἀρχὴ") == "Ἀρχὴ"  # no-op when no parenthetical
+    assert strip_translit("  τοῦ (tou)  ") == "τοῦ"
+
+
+def test_write_corpus_csv_joins_tokens_per_verse(tmp_path):
+    import csv
+    from scripts.extract_step_enrichment import write_corpus_csv
+    data = {
+        "Mark 1:1": [
+            {"token_idx": 0, "token": "Ἀρχὴ"},
+            {"token_idx": 1, "token": "τοῦ"},
+            {"token_idx": 2, "token": "εὐαγγελίου"},
+        ],
+        "Mark 1:2": [
+            {"token_idx": 0, "token": "Καθὼς"},
+        ],
+    }
+    out = tmp_path / "greek_nt.csv"
+    write_corpus_csv(data, "Mark", out)
+    with out.open() as f:
+        rows = list(csv.DictReader(f))
+    assert len(rows) == 2
+    assert rows[0]["text"] == "Ἀρχὴ τοῦ εὐαγγελίου"
+    assert rows[0]["reference"] == "Mark 1:1"
+    assert rows[0]["book_order"] == "41"

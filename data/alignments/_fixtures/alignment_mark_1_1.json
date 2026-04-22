@@ -4,7 +4,7 @@
   "verse": 1,
   "traditions": {
     "greek_nt": {
-      "tokens": ["Ἀρχὴ", "τοῦ", "εὐαγγελίου", "Ἰησοῦ", "Χριστοῦ", "υἱοῦ", "θεοῦ"]
+      "tokens": ["Ἀρχὴ", "τοῦ", "εὐαγγελίου", "Ἰησοῦ", "Χριστοῦ", "υἱοῦ", "τοῦ", "θεοῦ·"]
     },
     "peshitta": {
       "tokens": ["ܪܫܐ", "ܕܐܘܢܓܠܝܘܢ", "ܕܝܫܘܥ", "ܡܫܝܚܐ", "ܒܪܗ", "ܕܐܠܗܐ"]
@@ -17,8 +17,8 @@
     {"greek_nt": [0], "peshitta": [0], "vulgate": [0], "variant": "aligned"},
     {"greek_nt": [1, 2], "peshitta": [1], "vulgate": [1], "variant": "aligned"},
     {"greek_nt": [3, 4], "peshitta": [2, 3], "vulgate": [2, 3], "variant": "aligned"},
-    {"greek_nt": [5, 6], "peshitta": [4, 5], "vulgate": [4, 5], "variant": "minor",
-     "note": "Vulgate uses post-classical genitive construction Filii Dei"}
+    {"greek_nt": [5, 6, 7], "peshitta": [4, 5], "vulgate": [4, 5], "variant": "minor",
+     "note": "Greek 'υἱοῦ τοῦ θεοῦ' (with article) maps to Vulgate's 'Filii Dei' and Peshitta's 'ܒܪܗ ܕܐܠܗܐ'; minor variant due to article handling."}
   ],
   "meta": {
     "generated_by": "hand-crafted-fixture",

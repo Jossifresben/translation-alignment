@@ -25,7 +25,8 @@ def test_render_tokens_html_wraps_with_variant_classes(fixture_data):
     assert '<span class="tok aligned"' in html
     assert '<span class="tok minor"' in html
     assert html.count(">Ἀρχὴ<") == 1
-    assert html.count(">θεοῦ<") == 1
+    # STEP tokenization includes trailing punctuation on the final token.
+    assert html.count(">θεοῦ·<") == 1
 
 
 def test_render_tokens_html_adds_aria_label_for_non_aligned(fixture_data):
