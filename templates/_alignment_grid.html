@@ -1,0 +1,27 @@
+{% from "macros.html" import render_token, witness_header %}
+{% set grid = build_grid(verse) %}
+
+<section class="grid-wrap" data-view="parallel">
+  <header class="witness-headers">
+    <div class="witness-head-spacer"></div>
+    {% for w in verse.witnesses %}
+      {{ witness_header(w) }}
+    {% endfor %}
+  </header>
+
+  {% for row in grid %}
+    <div class="align-row" data-row="{{ row.id }}">
+      <div class="align-num">{{ '%02d'|format(loop.index) }}</div>
+      {% for w in verse.witnesses %}
+        <div class="align-cell" data-script="{{ w.script }}" data-witness="{{ w.id }}">
+          {% set cell = row.cells[w.id] %}
+          {% if cell %}
+            {% for tok in cell %}{{ render_token(tok) }}{% if not loop.last %} {% endif %}{% endfor %}
+          {% else %}
+            <span class="tok is-unaligned mono-em-dash">—</span>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</section>

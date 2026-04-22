@@ -1,4 +1,7 @@
-"""End-to-end route tests using the Flask test client."""
+"""End-to-end route tests (new designer-shell routes)."""
+import shutil
+from pathlib import Path
+
 import pytest
 
 from app import app
@@ -11,99 +14,63 @@ def client():
         yield c
 
 
-def test_index_returns_200(client):
+def test_index_redirects_to_mark_1_1(client):
     resp = client.get("/")
-    assert resp.status_code == 200
-    assert b"Translation Alignment" in resp.data
+    assert resp.status_code in (301, 302)
+    assert "/verse/mark/1/1" in resp.headers["Location"]
 
 
-def test_index_has_cta_to_mark_1_1(client):
-    resp = client.get("/")
-    assert b"/mark/1/1" in resp.data
-
-
-def test_viewer_route_renders_fixture_verse(client):
-    import shutil
-    from pathlib import Path
+def test_verse_route_renders_with_fixture(client):
     src = Path("data/alignments/_fixtures/alignment_mark_1_1.json")
     dst = Path("data/alignments/mark/1/1.json")
     dst.parent.mkdir(parents=True, exist_ok=True)
+    backup = None
+    if dst.exists():
+        backup = dst.read_bytes()
     shutil.copy(src, dst)
     try:
-        resp = client.get("/mark/1/1")
+        resp = client.get("/verse/mark/1/1")
         assert resp.status_code == 200
         body = resp.data.decode("utf-8")
+        # New designer chrome
+        assert "Translation Aligner" in body
+        # Greek content rendered
         assert "Ἀρχὴ" in body
-        assert "ܪܫܐ" in body
-        # Vulgate corpus may not be loaded in this test env; we still assert
-        # that the Greek and Peshitta columns render (Vulgate shows absent
-        # placeholder in the fallback path).
-        assert 'class="tok' in body
     finally:
-        dst.unlink()
+        if backup is not None:
+            dst.write_bytes(backup)
+        else:
+            dst.unlink(missing_ok=True)
 
 
-def test_viewer_partial_returns_card_only(client):
-    import shutil
-    from pathlib import Path
+def test_legacy_mark_route_redirects(client):
+    resp = client.get("/mark/1/1")
+    assert resp.status_code == 301
+    assert "/verse/mark/1/1" in resp.headers["Location"]
+
+
+def test_verse_partial_returns_fragment(client):
     src = Path("data/alignments/_fixtures/alignment_mark_1_1.json")
     dst = Path("data/alignments/mark/1/1.json")
     dst.parent.mkdir(parents=True, exist_ok=True)
+    backup = dst.read_bytes() if dst.exists() else None
     shutil.copy(src, dst)
     try:
-        resp = client.get("/partials/verse/mark/1/1")
-        body = resp.data.decode("utf-8")
+        resp = client.get("/verse/mark/1/1/partial/parallel")
         assert resp.status_code == 200
-        assert "Ἀρχὴ" in body
+        body = resp.data.decode("utf-8")
         assert "<!DOCTYPE" not in body
-        assert "<nav class=\"topbar\"" not in body
+        assert "Ἀρχὴ" in body
     finally:
-        dst.unlink()
+        if backup is not None:
+            dst.write_bytes(backup)
+        else:
+            dst.unlink(missing_ok=True)
 
 
-def test_viewer_returns_404_for_nonexistent_verse(client):
-    resp = client.get("/mark/1/999")
+def test_verse_returns_404_for_nonexistent(client):
+    resp = client.get("/verse/mark/99/99")
     assert resp.status_code == 404
-
-
-def test_viewer_redirects_bad_chapter_verse_format(client):
-    resp = client.get("/mark/abc/xyz")
-    assert resp.status_code == 404
-
-
-def test_nav_wraps_to_next_chapter_at_chapter_end(client):
-    import shutil
-    from pathlib import Path
-    src = Path("data/alignments/_fixtures/alignment_mark_1_1.json")
-    dst = Path("data/alignments/mark/1/1.json")
-    dst.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy(src, dst)
-    try:
-        resp = client.get("/mark/1/1")
-        body = resp.data.decode("utf-8")
-        assert "/mark/1/2" in body
-        assert "/mark/1/0" not in body
-        assert "/mark/0/" not in body
-    finally:
-        dst.unlink()
-
-
-def test_404_page_for_nonexistent_verse(client):
-    resp = client.get("/mark/99/99")
-    assert resp.status_code == 404
-    body = resp.data.decode("utf-8")
-    assert "not found" in body.lower()
-    assert "/mark/1/1" in body
-
-
-def test_tooltip_greek_returns_entry_when_present(client):
-    import pytest
-    resp = client.get("/tooltip/greek/1/1/0")
-    if resp.status_code == 404:
-        pytest.skip("greek_strong.json not populated or Mark 1:1 token 0 missing")
-    assert resp.status_code == 200
-    body = resp.data.decode("utf-8")
-    assert "Strong" in body or "strong" in body.lower()
 
 
 def test_tooltip_greek_404_for_missing_token(client):

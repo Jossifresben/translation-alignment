@@ -1,25 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="{{ theme }}">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}Translation Alignment{% endblock %}</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-  <script src="https://unpkg.com/htmx.org@2.0.2"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}Translation Aligner{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Syriac:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
 </head>
-<body>
-  <nav class="topbar">
-    <a class="brand" href="{{ url_for('index') }}">Translation Alignment</a>
-    <div class="nav-right">
-      <a href="/about">About</a>
-    </div>
-  </nav>
-  <main class="container">
+<body class="{{ 'dark' if theme == 'dark' else '' }}">
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">☧</span>
+        <span class="brand-title">Translation Aligner</span>
+        <span class="brand-sep">/</span>
+        <span class="brand-meta">{% block brand_meta %}{% endblock %}</span>
+      </div>
+      <nav class="topbar-actions">
+        <button class="iconbtn" type="button">Add witness</button>
+        <button class="iconbtn" type="button">Export TEI</button>
+        <button class="iconbtn" type="button">⌘ K <kbd>K</kbd></button>
+      </nav>
+    </header>
+
     {% block content %}{% endblock %}
-  </main>
-  <footer class="footer">
-    <small>Parallel biblical text viewer — MVP · <a href="/about">Methodology</a></small>
-  </footer>
-  <script src="{{ url_for('static', filename='viewer.js') }}" defer></script>
+  </div>
+
+  {# Tweaks panel — hidden by default; toggles via ?tweaks=1 or JS #}
+  <aside class="tweaks" id="tweaks" hidden>
+    <div class="tweaks-head">
+      <span class="tweaks-title">Tweaks</span>
+    </div>
+    <form class="tweaks-body" method="get" action="">
+      <div class="tweak-row">
+        <label class="tweak-label">View mode</label>
+        <div class="tweak-seg" role="radiogroup" data-tweak="view">
+          {% for v in ['interlinear', 'parallel', 'apparatus'] %}
+            <button type="button" data-value="{{ v }}"
+              class="{{ 'active' if view == v else '' }}">{{ v }}</button>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="tweak-row">
+        <label class="tweak-label">Theme</label>
+        <div class="tweak-seg" role="radiogroup" data-tweak="theme">
+          {% for t in ['light', 'dark'] %}
+            <button type="button" data-value="{{ t }}"
+              class="{{ 'active' if theme == t else '' }}">{{ t }}</button>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="tweak-row">
+        <label class="tweak-label">Side rail</label>
+        <div class="tweak-seg" role="radiogroup" data-tweak="rail">
+          <button type="button" data-value="1" class="{{ 'active' if show_rail else '' }}">show</button>
+          <button type="button" data-value="0" class="{{ '' if show_rail else 'active' }}">hide</button>
+        </div>
+      </div>
+    </form>
+  </aside>
+
+  <script src="{{ url_for('static', filename='js/aligner.js') }}"></script>
 </body>
 </html>

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% from "macros.html" import witness_header %}
+
+{% block title %}{{ verse.ref }} — Translation Aligner{% endblock %}
+{% block brand_meta %}Mk · {{ verse.pericope }}{% endblock %}
+
+{% block content %}
+  {% set grid = build_grid(verse) %}
+  {% set stats = verse_stats(verse, grid) %}
+
+  <section class="verse-nav">
+    <div class="verse-ref">
+      <div class="verse-breadcrumb">
+        {{ verse.testament }}
+        <span class="pericope">· {{ verse.pericope }} ·</span>
+        {{ verse.book }}
+      </div>
+      <h1>{{ verse.book }} <span class="chap">{{ verse.chapter }} :</span> {{ verse.verse }}</h1>
+      <p class="verse-gloss">{{ verse.gloss_en }}</p>
+    </div>
+    <div class="verse-pager">
+      {% if verse.prev %}
+        <a class="pager-btn" href="{{ url_for('verse', book=verse.prev.book, chapter=verse.prev.chapter, verse=verse.prev.verse) }}">
+          <span class="arrow">←</span>{{ verse.prev.label }}
+        </a>
+      {% endif %}
+      {% if verse.next %}
+        <a class="pager-btn" href="{{ url_for('verse', book=verse.next.book, chapter=verse.next.chapter, verse=verse.next.verse) }}">
+          {{ verse.next.label }}<span class="arrow">→</span>
+        </a>
+      {% endif %}
+    </div>
+  </section>
+
+  <nav class="mode-tabs" role="tablist">
+    {% set tabs = [
+      ('interlinear', 'Interlinear',    None),
+      ('parallel',    'Alignment grid', None),
+      ('apparatus',   'Apparatus',      verse.variants|length),
+    ] %}
+    {% for id, label, count in tabs %}
+      <a class="mode-tab {{ 'active' if view == id else '' }}"
+         href="{{ url_for('verse', book=verse.book|lower, chapter=verse.chapter, verse=verse.verse, view=id) }}"
+         role="tab">
+        {{ label }}
+        {% if count is not none %}<span class="count">{{ count }}</span>{% endif %}
+      </a>
+    {% endfor %}
+  </nav>
+
+  <div class="view-wrap {{ 'with-rail' if show_rail and view != 'apparatus' else '' }}">
+    <div class="view-main">
+      {% if view == 'parallel' %}
+        {% include '_alignment_grid.html' %}
+      {% elif view == 'interlinear' %}
+        {% include '_interlinear.html' %}
+      {% else %}
+        {% include '_apparatus.html' %}
+      {% endif %}
+    </div>
+
+    {% if show_rail and view != 'apparatus' %}
+      {% include '_rail.html' %}
+    {% endif %}
+  </div>
+{% endblock %}

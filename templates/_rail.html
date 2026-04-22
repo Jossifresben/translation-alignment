@@ -1,0 +1,61 @@
+{% set grid = build_grid(verse) %}
+{% set stats = verse_stats(verse, grid) %}
+
+<aside class="rail" id="rail">
+  <div class="rail-section">
+    <div class="rail-title">This verse</div>
+    <div class="stat-row">
+      <span class="stat-label">Alignment groups</span>
+      <span class="stat-val">{{ stats.total }}</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">All three attest</span>
+      <span class="stat-val">{{ stats.all_three }} / {{ stats.total }}</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Variant readings</span>
+      <span class="stat-val">{{ stats.variants }}</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Major divergences</span>
+      <span class="stat-val">{{ stats.major }}</span>
+    </div>
+  </div>
+
+  <div class="rail-section">
+    <div class="rail-title">Legend</div>
+    <div class="legend-item">
+      <div class="legend-swatch agreement"></div>
+      <div class="legend-desc">
+        <strong>Aligned</strong>
+        <small>Hover to link across witnesses</small>
+      </div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch variant"></div>
+      <div class="legend-desc">
+        <strong>Variant reading</strong>
+        <small>Click for apparatus note</small>
+      </div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch unaligned"></div>
+      <div class="legend-desc">
+        <strong>Unaligned</strong>
+        <small>Witness-specific addition</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="rail-section">
+    <div class="rail-title">
+      <span>Jump to variant</span>
+      <span class="count">{{ verse.variants|length }}</span>
+    </div>
+    {% for v in verse.variants %}
+      <a class="notes-item"
+         href="{{ url_for('verse', book=verse.book|lower, chapter=verse.chapter, verse=verse.verse, view='apparatus', variant=v.id) }}#variant-{{ v.id }}"
+         data-variant-link="{{ v.id }}">{{ v.title }}</a>
+    {% endfor %}
+  </div>
+</aside>

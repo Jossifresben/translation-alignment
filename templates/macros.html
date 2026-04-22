@@ -1,0 +1,38 @@
+{# Reusable macros: tokens, sigil chips, witness header #}
+
+{% macro render_token(tok) %}
+  {% if tok.punct %}
+    <span class="tok punct">{{ tok.t }}</span>
+  {% else %}
+    {% set classes = ['tok'] %}
+    {% if not tok.a %}{% set _ = classes.append('is-unaligned') %}{% endif %}
+    {% if tok.v %}{% set _ = classes.append('is-variant') %}{% endif %}
+    <span
+      class="{{ classes|join(' ') }}"
+      {% if tok.a %}data-align="{{ tok.a }}"{% endif %}
+      {% if tok.v %}data-variant="{{ tok.v }}"{% endif %}
+      {% if tok.gloss %}data-gloss="{{ tok.gloss }}"{% endif %}
+      {% if tok.idx is defined and tok.idx is not none %}data-idx="{{ tok.idx }}"{% endif %}
+    >{{ tok.t }}</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro sigil_chip(witness, attested) %}
+  <span class="sigil-chip {{ 'attested' if attested else 'omitted' }}">
+    {{ witness.sigil }} {{ witness.id }}
+  </span>
+{% endmacro %}
+
+{% macro witness_header(w) %}
+  <div class="witness-head">
+    <div class="witness-head-top">
+      <span class="witness-sigil">{{ w.sigil }}</span>
+      <span class="witness-name">{{ w.name }}</span>
+    </div>
+    <div class="witness-meta">
+      <span>{{ w.subtitle }}</span>
+      <span class="dot"></span>
+      <span>{{ w.date }}</span>
+    </div>
+  </div>
+{% endmacro %}

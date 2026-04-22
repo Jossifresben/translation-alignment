@@ -1,0 +1,37 @@
+{% set grid = build_grid(verse) %}
+
+<section class="interlinear" data-view="interlinear">
+  {% set chunk_size = 8 %}
+  {% set chunks = [] %}
+  {% for i in range(0, grid|length, chunk_size) %}
+    {% set _ = chunks.append(grid[i:i + chunk_size]) %}
+  {% endfor %}
+
+  {% for chunk in chunks %}
+    <div class="interlinear-row">
+      {% for row in chunk %}
+        {% set has_variant = namespace(flag=False, vid=None) %}
+        {% for w in verse.witnesses %}
+          {% for t in row.cells[w.id] %}
+            {% if t.v and not has_variant.vid %}
+              {% set has_variant.flag = True %}
+              {% set has_variant.vid = t.v %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        <div class="inter-group {{ 'is-variant' if has_variant.flag else '' }}"
+             data-row="{{ row.id }}"
+             {% if has_variant.vid %}data-variant="{{ has_variant.vid }}"{% endif %}>
+          {% for w in verse.witnesses %}
+            {% set toks = row.cells[w.id] | selectattr('punct', 'undefined') | list %}
+            {% set text = toks | map(attribute='t') | join(' ') %}
+            <div class="inter-tok {{ w.id }}" data-script="{{ w.script }}">
+              {% if text %}{{ text }}{% else %}<span class="empty">—</span>{% endif %}
+            </div>
+          {% endfor %}
+          <div class="inter-label">{{ row.id }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</section>
