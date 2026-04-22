@@ -144,6 +144,7 @@ def _build_witness_tokens(
             piece["a"] = group["_align_id"]
             if group.get("variant") != "aligned":
                 piece["v"] = group["_variant_id"]
+                piece["variant_type"] = group.get("variant")  # minor / major / omitted / added
         else:
             piece["a"] = None
         if per_token_glosses and src_idx is not None and src_idx in per_token_glosses:

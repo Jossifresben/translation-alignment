@@ -6,7 +6,10 @@
   {% else %}
     {% set classes = ['tok'] %}
     {% if not tok.a %}{% set _ = classes.append('is-unaligned') %}{% endif %}
-    {% if tok.v %}{% set _ = classes.append('is-variant') %}{% endif %}
+    {% if tok.v %}
+      {% set _ = classes.append('is-variant') %}
+      {% set _ = classes.append('v-' ~ (tok.variant_type or 'minor')) %}
+    {% endif %}
     <span
       class="{{ classes|join(' ') }}"
       {% if tok.a %}data-align="{{ tok.a }}"{% endif %}

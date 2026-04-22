@@ -24,27 +24,34 @@
 
   <div class="rail-section">
     <div class="rail-title">Token legend</div>
-    <p class="rail-sub">How to read tokens in the
+    <p class="rail-sub">How tokens are marked in the
       {% if view == 'parallel' %}alignment grid{% else %}interlinear view{% endif %}.</p>
     <div class="legend-item">
-      <div class="legend-swatch agreement"></div>
+      <span class="legend-sample sample-aligned">word</span>
       <div class="legend-desc">
         <strong>Aligned</strong>
-        <small>Shared lexeme — hover to highlight across witnesses</small>
+        <small>Plain text. Hover to highlight the matching token in each witness.</small>
       </div>
     </div>
     <div class="legend-item">
-      <div class="legend-swatch variant"></div>
+      <span class="legend-sample sample-minor">word</span>
       <div class="legend-desc">
-        <strong>Variant reading</strong>
-        <small>Click the token to open the apparatus note</small>
+        <strong>Minor variant</strong>
+        <small>Faint grey dotted underline. Stylistic difference (word order, particle, synonym). Click for the apparatus note.</small>
       </div>
     </div>
     <div class="legend-item">
-      <div class="legend-swatch unaligned"></div>
+      <span class="legend-sample sample-major">word</span>
+      <div class="legend-desc">
+        <strong>Major variant</strong>
+        <small>Red dotted underline. Substantive divergence, omission, or addition in the apparatus. Click to jump.</small>
+      </div>
+    </div>
+    <div class="legend-item">
+      <span class="legend-sample sample-unaligned"><em>word</em><sup>◦</sup></span>
       <div class="legend-desc">
         <strong>Unaligned</strong>
-        <small>Addition or filler present in only one witness</small>
+        <small>Italic grey with <span class="legend-dot-mark">◦</span>. Content present in only one witness, no counterpart elsewhere.</small>
       </div>
     </div>
   </div>
