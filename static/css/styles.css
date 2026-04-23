@@ -68,16 +68,26 @@ body::before {
   padding: 18px 0;
   border-bottom: 1px solid var(--rule);
 }
-.brand {
-  display: flex; align-items: baseline; gap: 10px;
+a.brand {
+  display: flex; align-items: center; gap: 10px;
   font-family: 'EB Garamond', serif;
+  text-decoration: none;
+  color: inherit;
+  padding: 2px 4px;
+  margin: -2px -4px;
+  border-radius: 6px;
+  transition: background 0.12s;
 }
+a.brand:hover { background: var(--parchment-2); }
+a.brand:focus-visible { outline: 2px solid var(--rubric-soft); outline-offset: 2px; }
 .brand-mark {
-  font-size: 22px;
+  width: 26px;
+  height: 26px;
   color: var(--rubric);
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  flex-shrink: 0;
+  transition: color 0.12s;
 }
+a.brand:hover .brand-mark { color: var(--ink); }
 .brand-title {
   font-size: 15px;
   font-family: 'Inter', sans-serif;

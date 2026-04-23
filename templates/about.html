@@ -32,22 +32,43 @@
     <em>minor</em>, <em>major</em>, <em>omitted</em>, or <em>added</em> — plus a
     <strong>semantic type</strong> (agreement, construction, harmonisation,
     substitution, idiom, etc.) and, for every non-aligned group, one to two
-    sentences of scholarly prose suitable for a critical apparatus.</p>
+    sentences suitable for a critical apparatus.</p>
 
   <p>Results are pre-computed and stored as per-verse JSON files in the
     repository — the running viewer has no runtime LLM dependency.</p>
 
   {% if benchmark %}
-    <h2>Methodology validation</h2>
-    <p>We validated Claude's alignment against the
-      <a href="https://berean.bible/">Berean Interlinear Bible</a>'s
-      Greek↔English word alignment on a sample of
-      <strong>{{ benchmark.sample_size }}</strong> Mark verses. Agreement rate:
+    <h2>Methodology validation (and its limits)</h2>
+    <p>We sanity-checked Claude's alignment reasoning against the
+      <a href="https://berean.bible/">Berean Interlinear Bible</a> on the
+      narrow sub-task of Greek→English word alignment. Across all
+      <strong>{{ benchmark.sample_size }}</strong> Mark verses
+      ({{ benchmark.total_tokens }} scoring tokens), Claude agreed with
+      Berean's scholarly glosses on
       <strong>{{ "%.1f" | format(benchmark.agreement_rate * 100) }}%</strong>
       of tokens ({{ benchmark.matched_tokens }} / {{ benchmark.total_tokens }}).
-      Recorded on {{ benchmark.run_at }} using
-      <code>{{ benchmark.model }}</code>. Berean is used only as a
-      methodology benchmark — not as display data in the viewer.</p>
+      Recorded {{ benchmark.run_at }} using
+      <code>{{ benchmark.model }}</code>.</p>
+
+    <p>The remaining ~{{ ((1 - benchmark.agreement_rate) * 100) | round(0, 'floor') | int }}%
+      of non-matches are mostly translation-word-choice differences between
+      Berean and WEB (the two English translations involved) —
+      e.g. Berean <em>&ldquo;crowd&rdquo;</em> vs. WEB
+      <em>&ldquo;people&rdquo;</em> for the same Greek ὄχλος — rather than
+      alignment errors.</p>
+
+    <p><strong>What this means:</strong> it's a transferable sanity check,
+      not a correctness guarantee. Claude's Greek→English alignment logic
+      is consistent with an established scholarly interlinear, which rules
+      out catastrophic failure modes and suggests the 3-way
+      Greek / Peshitta / Vulgate alignments in this viewer use the same
+      reasonable reasoning. It does <em>not</em> directly measure the
+      quality of the Peshitta or Vulgate alignments (no ground-truth
+      reference exists), nor does it measure apparatus-note quality,
+      variant classification, or type-tag correctness.</p>
+
+    <p>Berean is used only as a methodology benchmark — never as display
+      data in the viewer.</p>
   {% endif %}
 
   <h2>Viewer inspiration</h2>

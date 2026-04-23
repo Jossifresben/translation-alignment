@@ -12,15 +12,26 @@
 <body class="{{ 'dark' if theme == 'dark' else '' }}">
   <div class="app">
     <header class="topbar">
-      <div class="brand">
-        <span class="brand-mark">☧</span>
+      <a class="brand" href="{{ url_for('index') }}" aria-label="Translation Aligner — home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <!-- Chi ☓ — two diagonal strokes behind -->
+          <line x1="7.5" y1="9"  x2="24.5" y2="26" stroke="currentColor" stroke-width="2.4"
+                stroke-linecap="round" opacity="0.78"/>
+          <line x1="24.5" y1="9" x2="7.5"  y2="26" stroke="currentColor" stroke-width="2.4"
+                stroke-linecap="round" opacity="0.78"/>
+          <!-- Rho Ρ — vertical stem + loop at top-right, sits in front of the chi -->
+          <path d="M 16 4.5 L 16 28" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/>
+          <path d="M 16 4.5 C 22.5 4.5 22.5 14 16 14"
+                stroke="currentColor" stroke-width="2.8" stroke-linecap="round"
+                stroke-linejoin="round" fill="none"/>
+        </svg>
         <span class="brand-title">Translation Aligner</span>
         <span class="brand-sep">/</span>
         <span class="brand-meta">{% block brand_meta %}{% endblock %}</span>
-      </div>
+      </a>
       <nav class="topbar-actions">
         <button class="iconbtn" type="button">Export TEI</button>
-        <a class="iconbtn" href="{{ url_for('about') }}">About</a>
+        <a class="iconbtn" href="{{ url_for('about') }}">Methodology</a>
         <button class="iconbtn iconbtn-icon" type="button" id="search-trigger"
                 aria-label="Search (⌘K)" title="Search (⌘K)">
           <svg class="icon-search" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
