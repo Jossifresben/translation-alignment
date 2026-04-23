@@ -81,6 +81,19 @@
     } catch (_e) { VARIANTS_BY_ID = {}; }
   }
 
+  // Shift-click should open the inline popover, NOT start a text-range
+  // selection. Cancel the default mousedown behaviour when Shift is held
+  // and the target is a variant token; the click handler below picks it up.
+  document.addEventListener("mousedown", (e) => {
+    if (!e.shiftKey) return;
+    if (e.target.closest(".tok[data-variant], .inter-group[data-variant], .variant-info")) {
+      e.preventDefault();
+      // Also clear any partial selection that may have started upstream
+      const sel = window.getSelection && window.getSelection();
+      if (sel && sel.removeAllRanges) sel.removeAllRanges();
+    }
+  });
+
   // ── Click a variant token → go to apparatus (plain click)
   //    Shift-click or info-icon click → inline popover  ──────
   document.addEventListener("click", (e) => {

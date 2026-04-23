@@ -476,6 +476,8 @@ a.brand:hover .brand-mark {
   border-radius: 3px;
   transition: background 0.1s, color 0.1s;
   position: relative;
+  user-select: none;
+  -webkit-user-select: none;
 }
 /* Aligned tokens get the legend's full gold treatment, always visible */
 .tok[data-align]:not([data-variant]):not(.is-unaligned) {

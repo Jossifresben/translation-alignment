@@ -302,6 +302,15 @@ def about():
                             show_rail=False, verse=None)
 
 
+@app.route("/favicon.ico")
+def favicon():
+    """Browsers request /favicon.ico at the root — serve from static/img."""
+    from flask import send_from_directory
+    return send_from_directory(
+        BASE_DIR / "static" / "img", "favicon.ico", mimetype="image/x-icon"
+    )
+
+
 @app.route("/llms.txt")
 def llms_txt():
     """Plain-text overview for LLM crawlers (the emerging llms.txt convention)."""
