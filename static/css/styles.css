@@ -81,13 +81,22 @@ a.brand {
 a.brand:hover { background: var(--parchment-2); }
 a.brand:focus-visible { outline: 2px solid var(--rubric-soft); outline-offset: 2px; }
 .brand-mark {
-  width: 26px;
-  height: 26px;
-  color: var(--rubric);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: var(--rubric);
+  background-image: url("/static/img/chi-rho-white.png");
+  background-size: 72%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
   flex-shrink: 0;
-  transition: color 0.12s;
+  transition: background-color 0.12s, transform 0.12s;
 }
-a.brand:hover .brand-mark { color: var(--ink); }
+a.brand:hover .brand-mark {
+  background-color: var(--ink);
+  transform: rotate(-6deg);
+}
 .brand-title {
   font-size: 15px;
   font-family: 'Inter', sans-serif;

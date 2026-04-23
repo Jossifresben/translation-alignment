@@ -13,22 +13,7 @@
   <div class="app">
     <header class="topbar">
       <a class="brand" href="{{ url_for('index') }}" aria-label="Translation Aligner — home">
-        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-          <!-- Chrismon: six arms from a single center +  Rho loop at top-right.
-               Traced from the reference bitmap — all strokes radiate from the
-               same point (16,16) at equal visual weight. -->
-          <g fill="none" stroke="currentColor" stroke-width="2.6"
-             stroke-linecap="round" stroke-linejoin="round">
-            <!-- Vertical stem (top-down) -->
-            <line x1="16" y1="2.5" x2="16" y2="29.5"/>
-            <!-- Diagonal NW ↔ SE -->
-            <line x1="5" y1="7" x2="27" y2="25"/>
-            <!-- Diagonal NE ↔ SW -->
-            <line x1="27" y1="7" x2="5" y2="25"/>
-            <!-- Rho loop on the right, starting at the top of the stem -->
-            <path d="M 16 3 C 25.5 3 25.5 13.5 16 13.5"/>
-          </g>
-        </svg>
+        <span class="brand-mark" aria-hidden="true"></span>
         <span class="brand-title">Translation Aligner</span>
         <span class="brand-sep">/</span>
         <span class="brand-meta">{% block brand_meta %}{% endblock %}</span>
