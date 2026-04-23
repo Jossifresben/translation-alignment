@@ -97,6 +97,44 @@ a.brand:hover .brand-mark {
   background-color: var(--ink);
   transform: rotate(-6deg);
 }
+
+/* ─── Footer ──────────────────────────────────────────────── */
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 64px;
+  padding: 22px 0 0;
+  border-top: 1px solid var(--rule);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--ink-3);
+  letter-spacing: 0.04em;
+}
+.site-footer a {
+  color: var(--ink-2);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.12s, border-color 0.12s;
+}
+.site-footer a:hover { color: var(--rubric); border-bottom-color: var(--rubric-soft); }
+.foot-left { display: inline-flex; align-items: center; gap: 8px; }
+.foot-brand { color: var(--ink-2); font-weight: 500; }
+.foot-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.foot-sep { color: var(--ink-4); user-select: none; }
+.foot-orcid { display: inline-flex; align-items: center; gap: 6px; }
+.foot-orcid-icon { width: 14px; height: 14px; flex-shrink: 0; }
+.foot-license { color: var(--ink-4); }
+@media (max-width: 720px) {
+  .site-footer { flex-direction: column; align-items: flex-start; }
+}
 .brand-title {
   font-size: 15px;
   font-family: 'Inter', sans-serif;

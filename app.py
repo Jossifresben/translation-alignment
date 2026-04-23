@@ -302,6 +302,43 @@ def about():
                             show_rail=False, verse=None)
 
 
+@app.route("/llms.txt")
+def llms_txt():
+    """Plain-text overview for LLM crawlers (the emerging llms.txt convention)."""
+    from flask import send_from_directory
+    return send_from_directory(BASE_DIR, "llms.txt", mimetype="text/plain")
+
+
+@app.route("/robots.txt")
+def robots_txt():
+    from flask import send_from_directory
+    return send_from_directory(BASE_DIR / "static", "robots.txt", mimetype="text/plain")
+
+
+@app.route("/sitemap.xml")
+def sitemap_xml():
+    """Minimal sitemap — home, about, and every verse currently in the alignment store."""
+    from flask import Response
+    urls: list[str] = [
+        url_for("index", _external=True),
+        url_for("about", _external=True),
+    ]
+    try:
+        master = _corpora.get("greek_nt")
+    except KeyError:
+        master = None
+    if master is not None:
+        for ch in range(1, 17):
+            for v in master.verses_in_chapter("Mark", ch):
+                urls.append(url_for("verse", book="mark", chapter=ch, verse=v, _external=True))
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in urls:
+        xml.append(f"  <url><loc>{u}</loc></url>")
+    xml.append("</urlset>")
+    return Response("\n".join(xml), mimetype="application/xml")
+
+
 @app.errorhandler(404)
 def not_found(_e):
     return render_template("404.html"), 404
