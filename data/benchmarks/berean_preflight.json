@@ -1,0 +1,132 @@
+{
+  "agreement_rate": 0.6892,
+  "matched_tokens": 153,
+  "total_tokens": 222,
+  "sample_size": 20,
+  "seed": 42,
+  "model": "claude-sonnet-4-5",
+  "run_at": "2026-04-23T00:17:02.165234+00:00",
+  "per_verse": [
+    {
+      "ref": "Mark 10:32",
+      "rate": 0.7778,
+      "matched": 14,
+      "total": 18
+    },
+    {
+      "ref": "Mark 10:34",
+      "rate": 0.5,
+      "matched": 5,
+      "total": 10
+    },
+    {
+      "ref": "Mark 10:37",
+      "rate": 0.7692,
+      "matched": 10,
+      "total": 13
+    },
+    {
+      "ref": "Mark 10:39",
+      "rate": 0.9,
+      "matched": 9,
+      "total": 10
+    },
+    {
+      "ref": "Mark 12:14",
+      "rate": 0.7778,
+      "matched": 14,
+      "total": 18
+    },
+    {
+      "ref": "Mark 12:2",
+      "rate": 0.9091,
+      "matched": 10,
+      "total": 11
+    },
+    {
+      "ref": "Mark 12:28",
+      "rate": 0.6,
+      "matched": 6,
+      "total": 10
+    },
+    {
+      "ref": "Mark 12:37",
+      "rate": 0.5833,
+      "matched": 7,
+      "total": 12
+    },
+    {
+      "ref": "Mark 13:22",
+      "rate": 0.8182,
+      "matched": 9,
+      "total": 11
+    },
+    {
+      "ref": "Mark 14:62",
+      "rate": 0.8125,
+      "matched": 13,
+      "total": 16
+    },
+    {
+      "ref": "Mark 14:67",
+      "rate": 0.6,
+      "matched": 6,
+      "total": 10
+    },
+    {
+      "ref": "Mark 15:10",
+      "rate": 0.8,
+      "matched": 4,
+      "total": 5
+    },
+    {
+      "ref": "Mark 15:21",
+      "rate": 0.4545,
+      "matched": 5,
+      "total": 11
+    },
+    {
+      "ref": "Mark 15:8",
+      "rate": 0.1429,
+      "matched": 1,
+      "total": 7
+    },
+    {
+      "ref": "Mark 4:29",
+      "rate": 0.7143,
+      "matched": 5,
+      "total": 7
+    },
+    {
+      "ref": "Mark 6:3",
+      "rate": 0.7778,
+      "matched": 14,
+      "total": 18
+    },
+    {
+      "ref": "Mark 7:17",
+      "rate": 0.7778,
+      "matched": 7,
+      "total": 9
+    },
+    {
+      "ref": "Mark 8:25",
+      "rate": 0.5,
+      "matched": 5,
+      "total": 10
+    },
+    {
+      "ref": "Mark 8:36",
+      "rate": 0.6667,
+      "matched": 6,
+      "total": 9
+    },
+    {
+      "ref": "Mark 9:36",
+      "rate": 0.4286,
+      "matched": 3,
+      "total": 7
+    }
+  ],
+  "methodology": "Claude aligns Greek tokens to English words; compared against Berean Interlinear word-level alignment. Agreement = any word overlap (case-insensitive, bracket-stripped) between Claude's target and Berean's gloss for each Greek token. Greek tokens whose Berean gloss is purely grammatical ('-', '. . .') are excluded from the denominator."
+}

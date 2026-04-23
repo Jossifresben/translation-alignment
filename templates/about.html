@@ -37,6 +37,18 @@
   <p>Results are pre-computed and stored as per-verse JSON files in the
     repository — the running viewer has no runtime LLM dependency.</p>
 
+  {% if benchmark %}
+    <h2>Methodology validation</h2>
+    <p>We validated Claude's alignment against the
+      <a href="https://berean.bible/">Berean Interlinear Bible</a>'s
+      Greek↔English word alignment on a sample of
+      <strong>{{ benchmark.sample_size }}</strong> Mark verses. Agreement rate:
+      <strong>{{ "%.1f" | format(benchmark.agreement_rate * 100) }}%</strong>
+      of tokens ({{ benchmark.matched_tokens }} / {{ benchmark.total_tokens }}).
+      Recorded on {{ benchmark.run_at }} using
+      <code>{{ benchmark.model }}</code>. Berean is used only as a
+      methodology benchmark — not as display data in the viewer.</p>
+  {% endif %}
 
   <h2>Viewer inspiration</h2>
   <p>The parallel-columns concept and the green / red variant underlining
@@ -70,6 +82,11 @@
       (Jossi Fresco Benaim) — triliteral-root extraction, sister-root
       detection, and Hebrew / Arabic cognate mapping. Used by this
       viewer's click-for-tooltip layer on Peshitta tokens.</dd>
+    <dt>Alignment validation benchmark</dt>
+    <dd><a href="https://berean.bible/">Berean Interlinear Bible</a>
+      — methodology check only{% if benchmark %}
+      ({{ "%.1f" | format(benchmark.agreement_rate * 100) }}% agreement on
+      a {{ benchmark.sample_size }}-verse sample){% endif %}.</dd>
     <dt>Alignment generation</dt>
     <dd>Anthropic Claude Sonnet 4.5</dd>
   </dl>
