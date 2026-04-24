@@ -1404,8 +1404,21 @@ body.dark::before {
   line-height: 1.55;
   color: var(--ink-2);
   max-width: 64ch;
-  margin: 0 0 34px;
+  margin: 0 0 24px;
 }
+.home-pilot-note {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  background: var(--surface-2, rgba(166, 53, 33, 0.06));
+  border-left: 3px solid var(--accent, #a63521);
+  padding: 12px 14px;
+  border-radius: 4px;
+  max-width: 64ch;
+  margin: 0 0 30px;
+}
+.home-pilot-note strong { color: var(--ink); }
 .home-actions {
   display: flex;
   align-items: center;
