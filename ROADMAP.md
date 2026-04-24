@@ -44,7 +44,6 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 - Enriched prompt producing scholarly prose per variant (mean note length ~296 chars) plus semantic `type` tags
 - Two-tier variant visualization (minor = sage-green, major / omitted / added = rubric-red)
 - 72 automated tests — schema, converter, route, search, benchmark
-- Repository published privately on GitHub ([github.com/Jossifresben/translation-alignment](https://github.com/Jossifresben/translation-alignment))
 
 ## 🎯 Up next
 
@@ -168,5 +167,4 @@ Live, on-demand alignment for verses the pilot doesn't cover.
 
 ---
 
-Contributions and requests welcome — open an issue on
-[github.com/Jossifresben/translation-alignment](https://github.com/Jossifresben/translation-alignment).
+Feedback and collaboration inquiries: **jossi@somosunodigital.com**

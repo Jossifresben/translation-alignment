@@ -271,9 +271,6 @@ The parallel-columns layout and the minor / major color-coded underline conventi
 
 ## License
 
-Viewer code: open source (see `LICENSE` — to add).
-Derived alignment JSON: carries the licenses of its upstream sources (CC BY 4.0 for STEP-derived data; public domain for Vulgate, WEB). Redistribute with attribution.
+The viewer code is **intended to be released under an open-source license** once the project is publicly funded; until then, the repository is private and all rights are reserved.
 
-## Contributing
-
-Issues and pull requests welcome at [github.com/Jossifresben/translation-alignment](https://github.com/Jossifresben/translation-alignment). Please run `pytest` before submitting.
+The derived alignment JSON is produced from sources with mixed licenses (CC BY 4.0 for STEP-derived data; public domain for Vulgate, WEB). Any future redistribution will credit the upstream sources.
