@@ -1,0 +1,27 @@
+# Render deployment manifest.
+# See https://render.com/docs/blueprint-spec
+#
+# This is a stateless, read-only Flask service.
+# - No database (all data is committed JSON/CSV under data/)
+# - No runtime LLM calls (Anthropic key is only used by offline scripts)
+# - No persistent disk needed (all responses derived from repo files)
+#
+# To deploy:
+#   1. Push this file to `main` on GitHub.
+#   2. In Render: New -> Blueprint -> pick this repo -> Apply.
+#   3. Render reads this manifest and creates the web service automatically.
+services:
+  - type: web
+    name: translation-aligner
+    runtime: python
+    plan: starter              # $7/mo, always-on, 512 MB RAM / 0.5 CPU — plenty for this read-only service
+    region: oregon             # or `frankfurt` / `singapore` — pick closest to audience
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --workers 2 --threads 4 --timeout 60 --bind 0.0.0.0:$PORT --access-logfile - --error-logfile -
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: FLASK_ENV
+        value: production

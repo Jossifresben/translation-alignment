@@ -6,6 +6,16 @@
 <section class="about-page">
   <header class="about-head">
     <h1>About the Translation Aligner</h1>
+    <p class="about-pilot-note">
+      <strong>This is a pilot.</strong> Current scope is the Gospel of
+      Mark only. The full plan — additional NT books, the Hebrew Bible
+      flagship, further witnesses, export formats, and two planned
+      sub-projects — is laid out in the
+      <a href="#roadmap-section">roadmap below</a> (and in the
+      repository's
+      <a href="https://github.com/Jossifresben/translation-alignment/blob/main/ROADMAP.md">
+      ROADMAP.md</a>).
+    </p>
     <p class="about-lede">
       A word-by-word alignment of the Gospel of Mark across three textual
       witnesses — Greek NT, Syriac Peshitta, and Latin Clementine Vulgate —
@@ -128,21 +138,186 @@
       — biblical criticism workspace for textual analysis.</dd>
   </dl>
 
-  <h2>Roadmap</h2>
-  <p>Short list of what's next, in priority order:</p>
+  <h2>What this app is good for</h2>
+  <p>The underlying engine is a <strong>multi-witness parallel-text
+    viewer with a critical apparatus</strong>. Anywhere a text exists in
+    more than one version, this tool can show it side-by-side with
+    per-word alignment and annotated divergences.</p>
+
+  <h3>Biblical scholarship</h3>
+  <ul class="about-roadmap">
+    <li><strong>Text-critical study</strong> — see where a Greek NT verse,
+      its Peshitta translation, and its Vulgate rendering disagree, with
+      each divergence typed (harmonisation, substitution, idiom, grammar
+      change, etc.) and explained in one or two sentences.</li>
+    <li><strong>Synoptic comparison</strong> — once Matthew / Mark / Luke
+      all ship, compare the same pericope across the three Synoptic
+      gospels in three languages each.</li>
+    <li><strong>Semitic-language parallel reading</strong> — Peshitta
+      next to Hebrew OT next to Targum Onkelos; root / sister-root
+      tooltips surface cognate structure visibly.</li>
+    <li><strong>Translation-technique study</strong> — how does the
+      Peshitta handle Greek participles? How does the Vulgate handle
+      Hebrew infinitive absolutes? The typed apparatus makes this kind
+      of question quickly answerable.</li>
+    <li><strong>Harmonisation tracing</strong> — when one tradition
+      imports material from a parallel passage (e.g. Peshitta Mark 13:14
+      pulling "by Daniel the prophet" from Matt 24:15), the apparatus
+      flags it explicitly.</li>
+  </ul>
+
+  <h3>Teaching</h3>
+  <ul class="about-roadmap">
+    <li><strong>Ancient-language pedagogy</strong> — introductory Greek /
+      Hebrew / Syriac / Latin students can hover any word for Strong's /
+      lemma / morphology. The variant apparatus turns every verse into a
+      textual-criticism lesson.</li>
+    <li><strong>Comparative religion</strong> — a neutral surface for
+      showing how different canonical lineages transmit the same base
+      text.</li>
+    <li><strong>Critical-edition training</strong> — readers learn to
+      read a scholarly apparatus by clicking through real examples rather
+      than deciphering the dense sigla of a printed NA28 / BHS.</li>
+  </ul>
+
+  <h3>Translation work</h3>
+  <ul class="about-roadmap">
+    <li><strong>Checking a new translation against ancient witnesses</strong>
+      — does a contemporary Spanish or Chinese rendering match the
+      majority of ancient traditions or diverge meaningfully?</li>
+    <li><strong>Informing committee decisions</strong> — Bible
+      translation teams can point to a specific divergence pattern (e.g.
+      "MT + LXX + Peshitta all read X; only Vulgate reads Y") in one
+      clickable reference.</li>
+  </ul>
+
+  <h3>Reader-facing discovery</h3>
+  <ul class="about-roadmap">
+    <li><strong>Scripture reading with a critical dimension</strong> —
+      readers can see that a familiar phrase has a contested history
+      without opening a textbook.</li>
+    <li><strong>Liturgical comparison</strong> — Eastern Orthodox
+      liturgies use Slavonic + Greek Byzantine; Catholic uses Vulgate;
+      churches of the East use Peshitta. All three surface-able side by
+      side.</li>
+  </ul>
+
+  <h2 id="roadmap-section">Roadmap</h2>
+
+  <h3>Up next</h3>
   <ul class="about-roadmap">
     <li><strong>Internationalization</strong> — Spanish and Chinese UI,
       plus aligned Spanish / Chinese verse translations as display layers
       alongside the existing witnesses.</li>
     <li><strong>Syriac font selection</strong> — user-picked typeface
-      (Noto Sans Syriac, Estrangelo, Serto, East Syriac) with a glyph
-      preview and per-user persistence.</li>
+      (Noto Sans Syriac, Estrangelo Edessa, Serto / Jacobite, East
+      Syriac / Nestorian, Madnhaya) with a glyph preview and per-user
+      persistence.</li>
     <li><strong>Settings panel in the top bar</strong> — consolidates
       language, Syriac font, theme, and rail visibility behind a single
       cog icon; preferences persist across sessions.</li>
-    <li>Expand to Matthew / Luke / John</li>
-    <li>Add English (WEB) as a 4th first-class column</li>
   </ul>
+
+  <h3>Expand book coverage</h3>
+
+  <p><strong>New Testament</strong> (continuing the current scope):</p>
+  <ul class="about-roadmap">
+    <li><strong>All four gospels</strong> — Matthew / Luke / John
+      (~$25, ~45 min batch). Corpus + alignment pipeline already
+      supports this.</li>
+    <li><strong>Acts</strong> — Greek NT historical narrative; Vulgate
+      and Peshitta already cover it.</li>
+    <li><strong>Pauline epistles</strong> — Romans through Philemon.</li>
+    <li><strong>General epistles and Revelation</strong> — James, 1–2
+      Peter, 1–3 John, Jude, Revelation.</li>
+  </ul>
+
+  <p><strong>Hebrew Bible / Tanakh</strong> (a separate flagship):</p>
+  <ul class="about-roadmap">
+    <li><strong>Torah (Pentateuch)</strong> — the natural starting point.
+      Genesis, Exodus, Leviticus, Numbers, Deuteronomy aligned across
+      Masoretic (Leningrad / Aleppo) + LXX (Rahlfs or Swete) + Peshitta
+      OT + Vulgate OT + <em>Samaritan Pentateuch</em> (~6,000 meaningful
+      variants from the MT) + Targum Onkelos + Targum Pseudo-Jonathan.</li>
+    <li><strong>Former Prophets</strong> — Joshua, Judges, Samuel,
+      Kings.</li>
+    <li><strong>Latter Prophets</strong> — Isaiah (Dr. Chen's own
+      dissertation focus, rich Peshitta scholarship available),
+      Jeremiah, Ezekiel, the Twelve Minor Prophets.</li>
+    <li><strong>Dead Sea Scrolls witnesses</strong> where extant
+      (1QIsaᵃ, 4QSamᵇ, etc.) — variant readings often align interestingly
+      against the MT / LXX / Peshitta.</li>
+    <li><strong>Writings (Ketuvim)</strong> — Psalms, Proverbs, Job,
+      Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes,
+      Esther), Daniel, Ezra-Nehemiah, Chronicles.</li>
+  </ul>
+
+  <p><strong>Deuterocanonical / Apocrypha</strong>:</p>
+  <ul class="about-roadmap">
+    <li>Wisdom of Solomon, Sirach, Tobit, Judith, Maccabees, Baruch, etc.
+      — relevant to Catholic, Orthodox, and Ethiopian canons.</li>
+  </ul>
+
+  <h3>Expand witness coverage (within current books)</h3>
+  <ul class="about-roadmap">
+    <li><strong>English (WEB)</strong> as a first-class 4th column,
+      with alignments regenerated across four traditions.</li>
+    <li><strong>Greek Byzantine</strong> (Majority Text / TR) — diffs
+      against NA28 surface as a fifth witness column, useful for Eastern
+      Orthodox and KJV-lineage readers.</li>
+    <li><strong>Slavonic 1751</strong> (Elizabeth Bible) — per
+      bible-mt5 inspiration.</li>
+    <li><strong>Classical Chinese</strong> — 1864 Küri (固里) and 1910
+      Innokenti (英诺肯提乙) translations, per bible-mt5.</li>
+    <li><strong>Coptic</strong> (Sahidic + Bohairic).</li>
+    <li><strong>Armenian</strong> (Zohrab Bible).</li>
+    <li><strong>Ethiopic</strong> (Ge'ez).</li>
+    <li><strong>Latin Vetus / Old Latin</strong> — pre-Jerome Latin
+      witnesses for synoptic variant research.</li>
+    <li><strong>Targum Onkelos + Biblical Aramaic + Peshitta OT</strong>
+      — already in the Aramaic Root Atlas corpus; wire up when Hebrew OT
+      scope lands.</li>
+  </ul>
+
+  <h3>Viewer features</h3>
+  <ul class="about-roadmap">
+    <li>Accessibility audit — full aria pass, keyboard-only navigation,
+      high-contrast / dark mode polish.</li>
+    <li>Cross-references in variant notes (e.g. "cf. Matt 24:15")
+      rendered as clickable jumps between parallel verses.</li>
+    <li>Per-chapter navigation panel with verse counts, low-confidence
+      flags, and manual-review markers.</li>
+    <li>Bookmarks / permalinks — deep-link to a specific variant stays
+      stable; shareable "copy link" affordance.</li>
+    <li>Mobile polish — one-column responsive layout, larger tap
+      targets, swipe between verses.</li>
+    <li>Hebrew cognate tooltip on Peshitta roots — already in the data,
+      not yet surfaced on hover.</li>
+  </ul>
+
+  <h3>Export</h3>
+  <ul class="about-roadmap">
+    <li>TEI XML export of the critical apparatus per TEI P5
+      <code>&lt;app&gt;</code>/<code>&lt;rdg&gt;</code> conventions.</li>
+    <li>BibTeX citation export per verse / per variant.</li>
+    <li>CSV bulk export of all alignments for downstream analysis.</li>
+    <li>Individual verse JSON endpoints (already work at
+      <code>/data/alignments/mark/&lt;ch&gt;/&lt;v&gt;.json</code>).</li>
+  </ul>
+
+  <h3>Sub-projects</h3>
+  <ul class="about-roadmap">
+    <li><strong>Machine Annotation Engine</strong> — live, on-demand
+      alignment for verses the pilot doesn't cover. REST endpoint
+      <code>/api/align</code> with per-request confidence, caching,
+      rate-limiting, custom-text override.</li>
+    <li><strong>Scholar Review Workflow</strong> — accounts + auth
+      (ORCID / GitHub / Google), student / scholar / editor roles, review
+      queue pulling from the engine and flagged low-confidence verses,
+      threaded per-verse comments, consensus-threshold publication, TEI /
+      BibTeX / CSV gold-standard export, dataset citation via Zenodo DOI.</li>
+  </ul>
+
   <p>Full roadmap in the repository's
     <a href="https://github.com/Jossifresben/translation-alignment/blob/main/ROADMAP.md">
       ROADMAP.md</a>.</p>

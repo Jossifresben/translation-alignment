@@ -1602,6 +1602,18 @@ body.dark::before {
   color: var(--ink-2);
   margin: 0;
 }
+.about-pilot-note {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  background: var(--surface-2, rgba(166, 53, 33, 0.06));
+  border-left: 3px solid var(--accent, #a63521);
+  padding: 12px 14px;
+  border-radius: 4px;
+  margin: 0 0 20px;
+}
+.about-pilot-note strong { color: var(--ink); }
 .about-page h2 {
   font-family: 'EB Garamond', serif;
   font-size: 24px;
