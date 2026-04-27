@@ -17,6 +17,17 @@
   <link rel="alternate" hreflang="zh-Hant" href="{{ request.url_root.rstrip('/') }}/zh-Hant{{ _canon }}" />
   <link rel="alternate" hreflang="x-default" href="{{ request.url_root.rstrip('/') }}{{ _canon }}" />
 
+  {# Google Analytics (GA4). Skipped on localhost / 127.* to keep dev traffic out of the property. #}
+  {% if 'localhost' not in request.host and not request.host.startswith('127.') %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFLBRHTZKV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QFLBRHTZKV');
+  </script>
+  {% endif %}
+
   {# Favicons #}
   <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" sizes="any" />
   <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='img/favicon-16.png') }}" />
