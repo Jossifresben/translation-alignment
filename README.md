@@ -1,4 +1,4 @@
-# Translation Alignment Viewer
+# Polyglot Concordance — Viewer
 
 > ⚠️ **This is a pilot.** Current scope is the Gospel of Mark only. The full plan — additional NT books, the Hebrew Bible flagship, further witnesses, export formats, and two planned sub-projects — lives in [**ROADMAP.md**](./ROADMAP.md).
 

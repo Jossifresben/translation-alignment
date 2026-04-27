@@ -18,7 +18,7 @@ def test_index_renders_home_page(client):
     resp = client.get("/")
     assert resp.status_code == 200
     body = resp.data.decode("utf-8")
-    assert "Translation Aligner" in body
+    assert "Polyglot Concordance" in body
     assert "/verse/mark/1/1" in body
     assert "Open the Gospel of Mark" in body
 
@@ -36,7 +36,7 @@ def test_verse_route_renders_with_fixture(client):
         assert resp.status_code == 200
         body = resp.data.decode("utf-8")
         # New designer chrome
-        assert "Translation Aligner" in body
+        assert "Polyglot Concordance" in body
         # Greek content rendered
         assert "Ἀρχὴ" in body
     finally:
@@ -133,7 +133,7 @@ def test_about_page_renders(client):
     resp = client.get("/about")
     assert resp.status_code == 200
     body = resp.data.decode("utf-8")
-    assert "About the Translation Aligner" in body
+    assert "About the Polyglot Concordance" in body
     assert "STEP" in body
 
 

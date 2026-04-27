@@ -33,23 +33,17 @@
 
   {% if benchmark %}
     <h2>{{ t('about.h2_validation') }}</h2>
-    <p>We sanity-checked Claude's alignment reasoning against the
-      <a href="https://berean.bible/">Berean Interlinear Bible</a> on the
-      narrow sub-task of Greek→English word alignment. Across all
-      <strong>{{ benchmark.sample_size }}</strong> Mark verses
-      ({{ benchmark.total_tokens }} scoring tokens), Claude agreed with
-      Berean's scholarly glosses on
-      <strong>{{ "%.1f" | format(benchmark.agreement_rate * 100) }}%</strong>
-      of tokens ({{ benchmark.matched_tokens }} / {{ benchmark.total_tokens }}).
-      Recorded {{ benchmark.run_at }} using
-      <code>{{ benchmark.model }}</code>.</p>
+    <p>{{ t('about.validation_p1',
+            sample_size=benchmark.sample_size,
+            total_tokens=benchmark.total_tokens,
+            agreement_pct='%.1f' | format(benchmark.agreement_rate * 100),
+            matched=benchmark.matched_tokens,
+            total=benchmark.total_tokens,
+            run_at=benchmark.run_at,
+            model=benchmark.model) | safe }}</p>
 
-    <p>The remaining ~{{ ((1 - benchmark.agreement_rate) * 100) | round(0, 'floor') | int }}%
-      of non-matches are mostly translation-word-choice differences between
-      Berean and WEB (the two English translations involved) —
-      e.g. Berean <em>&ldquo;crowd&rdquo;</em> vs. WEB
-      <em>&ldquo;people&rdquo;</em> for the same Greek ὄχλος — rather than
-      alignment errors.</p>
+    <p>{{ t('about.validation_p2',
+            nonmatch_pct=((1 - benchmark.agreement_rate) * 100) | round(0, 'floor') | int) | safe }}</p>
 
     <p>{{ t('about.validation_p3') | safe }}</p>
 
@@ -57,59 +51,34 @@
   {% endif %}
 
   <h2>{{ t('about.h2_inspiration') }}</h2>
-  <p>The parallel-columns concept and the green / red variant underlining
-    (minor vs. major) are inspired by the
-    <em>bible-mt5</em> parallel viewer built by
-    <a href="https://staff.uic.edu.cn/zhanchen/en">Dr. Zhan Chen</a>
-    (Associate Professor, Digital Social Science &amp; Associate Distinguished
-    Research Fellow at the Research Centre for History and Culture,
-    <a href="https://uic.edu.cn/en">United International College</a> —
-    BNU-HKBU UIC, Zhuhai). Dr. Chen's own scholarship focuses on Syriac
-    biblical texts (dissertation: <em>An Investigation into the Peshitta
-    of Isaiah</em>, Harvard NELC, 2020) and Chinese Bible translations.</p>
+  <p>{{ t('about.inspiration_body') | safe }}</p>
 
   <h2>{{ t('about.h2_data_sources') }}</h2>
   <dl class="about-sources">
-    <dt>Greek NT (tagged)</dt>
-    <dd>STEP Bible TAGNT from Tyndale House Cambridge, CC BY 4.0, via
-      <a href="https://github.com/STEPBible/STEPBible-Data">github.com/STEPBible/STEPBible-Data</a></dd>
-    <dt>Peshitta NT</dt>
-    <dd>Via the
-      <a href="https://aramaic-root-atlas.onrender.com">Aramaic Root Atlas</a>
-      corpus (Jossi Fresco Benaim) — Syriac text, CSV-packaged.</dd>
-    <dt>Clementine Vulgate</dt>
-    <dd>Public domain, via
-      <a href="https://github.com/seven1m/open-bibles">seven1m/open-bibles</a> (USFX)</dd>
-    <dt>English verse gloss</dt>
-    <dd>World English Bible (WEB), public domain</dd>
-    <dt>Peshitta roots, cognates, and sister-roots</dt>
-    <dd>
-      <a href="https://aramaic-root-atlas.onrender.com">Aramaic Root Atlas</a>
-      (Jossi Fresco Benaim) — triliteral-root extraction, sister-root
-      detection, and Hebrew / Arabic cognate mapping. Used by this
-      viewer's click-for-tooltip layer on Peshitta tokens.</dd>
-    <dt>Alignment validation benchmark</dt>
-    <dd><a href="https://berean.bible/">Berean Interlinear Bible</a>
-      — methodology check only{% if benchmark %}
-      ({{ "%.1f" | format(benchmark.agreement_rate * 100) }}% agreement on
-      a {{ benchmark.sample_size }}-verse sample){% endif %}.</dd>
-    <dt>Alignment generation</dt>
-    <dd>Anthropic Claude Sonnet 4.5</dd>
+    <dt>{{ t('about.source_greek_label') }}</dt>
+    <dd>{{ t('about.source_greek_desc') | safe }}</dd>
+    <dt>{{ t('about.source_peshitta_label') }}</dt>
+    <dd>{{ t('about.source_peshitta_desc') | safe }}</dd>
+    <dt>{{ t('about.source_vulgate_label') }}</dt>
+    <dd>{{ t('about.source_vulgate_desc') | safe }}</dd>
+    <dt>{{ t('about.source_web_label') }}</dt>
+    <dd>{{ t('about.source_web_desc') }}</dd>
+    <dt>{{ t('about.source_roots_label') }}</dt>
+    <dd>{{ t('about.source_roots_desc') | safe }}</dd>
+    <dt>{{ t('about.source_benchmark_label') }}</dt>
+    <dd>{{ t('about.source_benchmark_desc_prefix') | safe }}{% if benchmark %} ({{ t('about.source_benchmark_alt', agreement_pct='%.1f' | format(benchmark.agreement_rate * 100), sample_size=benchmark.sample_size) }}){% endif %}.</dd>
+    <dt>{{ t('about.source_generation_label') }}</dt>
+    <dd>{{ t('about.source_generation_desc') }}</dd>
   </dl>
 
   <h2>{{ t('about.h2_related_works') }}</h2>
   <dl class="about-sources">
-    <dt>Peshitta Constellations</dt>
-    <dd><a href="https://peshitta.onrender.com/">peshitta.onrender.com</a>
-      — companion project exploring the Peshitta corpus.</dd>
-    <dt>Aramaic Root Atlas</dt>
-    <dd><a href="https://aramaic-root-atlas.onrender.com">aramaic-root-atlas.onrender.com</a>
-      — cross-corpus Semitic triliteral root explorer with Hebrew and
-      Arabic cognate mapping. Provides the Peshitta root data consumed
-      by this viewer's tooltip layer.</dd>
-    <dt>BibCrit</dt>
-    <dd><a href="https://bibcrit.app/">bibcrit.app</a>
-      — biblical criticism workspace for textual analysis.</dd>
+    <dt>{{ t('about.related_peshitta_label') }}</dt>
+    <dd>{{ t('about.related_peshitta_desc') | safe }}</dd>
+    <dt>{{ t('about.related_atlas_label') }}</dt>
+    <dd>{{ t('about.related_atlas_desc') | safe }}</dd>
+    <dt>{{ t('about.related_bibcrit_label') }}</dt>
+    <dd>{{ t('about.related_bibcrit_desc') | safe }}</dd>
   </dl>
 
   <h2>{{ t('about.h2_what_for') }}</h2>

@@ -27,14 +27,14 @@
 
   {# Open Graph / Facebook #}
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Translation Aligner" />
+  <meta property="og:site_name" content="Polyglot Concordance" />
   <meta property="og:title" content="{% block og_title %}{{ self.title() }}{% endblock %}" />
   <meta property="og:description" content="{% block og_description %}{{ self.description() }}{% endblock %}" />
   <meta property="og:url" content="{{ request.url }}" />
   <meta property="og:image" content="{{ url_for('static', filename='img/og-image.png', _external=True) }}" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Translation Aligner — the Gospel of Mark in Greek, Syriac, and Latin" />
+  <meta property="og:image:alt" content="Polyglot Concordance — the Gospel of Mark in Greek, Syriac, and Latin" />
   <meta property="og:locale" content="en_US" />
 
   {# Twitter / X card #}
@@ -42,7 +42,7 @@
   <meta name="twitter:title" content="{{ self.title() }}" />
   <meta name="twitter:description" content="{{ self.description() }}" />
   <meta name="twitter:image" content="{{ url_for('static', filename='img/og-image.png', _external=True) }}" />
-  <meta name="twitter:image:alt" content="Translation Aligner — the Gospel of Mark in Greek, Syriac, and Latin" />
+  <meta name="twitter:image:alt" content="Polyglot Concordance — the Gospel of Mark in Greek, Syriac, and Latin" />
 
   {# Structured data (Schema.org — helps SEO and LLM comprehension) #}
   <script type="application/ld+json">
@@ -52,7 +52,7 @@
       {
         "@type": "WebApplication",
         "@id": "{{ request.url_root }}#app",
-        "name": "Translation Aligner",
+        "name": "Polyglot Concordance",
         "url": "{{ request.url_root }}",
         "description": "A word-by-word alignment of the Gospel of Mark across Greek NT, Syriac Peshitta, and Latin Clementine Vulgate, with a scholarly critical apparatus on every divergence.",
         "applicationCategory": "EducationalApplication",

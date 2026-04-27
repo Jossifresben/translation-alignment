@@ -1,4 +1,4 @@
-"""Translation Alignment Viewer — Flask app (designer shell + our data)."""
+"""Polyglot Concordance — Flask app (designer shell + our data)."""
 from __future__ import annotations
 
 import csv
@@ -42,11 +42,26 @@ TRANSLATIONS_DIR = BASE_DIR / "translations"
 _translations = Translations(TRANSLATIONS_DIR)
 
 
-def t(key: str, lang: str = "en") -> str:
-    """Jinja global: resolve a translation key in the current request's lang."""
+def t(key: str, lang: str = "en", **kwargs) -> str:
+    """Jinja global: resolve a translation key in the current request's lang.
+
+    If kwargs are passed, they're applied to the resolved string via
+    str.format() — letting templates inject dynamic values into a
+    translated paragraph (e.g. benchmark numbers, percentages) without
+    fragmenting the prose into many small keys.
+
+    On format failure (missing placeholder, malformed value), the raw
+    string is returned so the page still renders rather than 500ing.
+    """
     from flask import g
     current_lang = getattr(g, "lang", lang)
-    return _translations.t(key, current_lang)
+    val = _translations.t(key, current_lang)
+    if kwargs:
+        try:
+            return val.format(**kwargs)
+        except (KeyError, IndexError, ValueError):
+            return val
+    return val
 
 CORPUS_FILES = {
     "greek_nt": "greek_nt.csv",

@@ -12,7 +12,7 @@
 #   3. Render reads this manifest and creates the web service automatically.
 services:
   - type: web
-    name: translation-aligner
+    name: polyglot-concordance
     runtime: python
     plan: starter              # $7/mo, always-on, 512 MB RAM / 0.5 CPU — plenty for this read-only service
     region: oregon             # or `frankfurt` / `singapore` — pick closest to audience
