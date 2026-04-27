@@ -21,7 +21,7 @@
     </div>
     <div class="verse-pager">
       {% if verse.prev %}
-        <a class="pager-btn" href="{{ url_for('verse', book=verse.prev.book, chapter=verse.prev.chapter, verse=verse.prev.verse) }}">
+        <a class="pager-btn" href="{{ localized_url_for('verse', book=verse.prev.book, chapter=verse.prev.chapter, verse=verse.prev.verse) }}">
           <span class="arrow">←</span>{{ verse.prev.label }}
         </a>
       {% endif %}
@@ -42,7 +42,7 @@
         <button class="jump-go" type="submit">{{ t('verse.jump_go') }}</button>
       </form>
       {% if verse.next %}
-        <a class="pager-btn" href="{{ url_for('verse', book=verse.next.book, chapter=verse.next.chapter, verse=verse.next.verse) }}">
+        <a class="pager-btn" href="{{ localized_url_for('verse', book=verse.next.book, chapter=verse.next.chapter, verse=verse.next.verse) }}">
           {{ verse.next.label }}<span class="arrow">→</span>
         </a>
       {% endif %}
@@ -63,7 +63,7 @@
     ] %}
     {% for id, label, count in tabs %}
       <a class="mode-tab {{ 'active' if view == id else '' }}"
-         href="{{ url_for('verse', book=verse.book|lower, chapter=verse.chapter, verse=verse.verse, view=id) }}"
+         href="{{ localized_url_for('verse', book=verse.book|lower, chapter=verse.chapter, verse=verse.verse, view=id) }}"
          role="tab">
         {{ label }}
         {% if count is not none %}<span class="count">{{ count }}</span>{% endif %}

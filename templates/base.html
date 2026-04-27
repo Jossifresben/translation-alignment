@@ -84,14 +84,14 @@
 <body class="{{ 'dark' if theme == 'dark' else '' }}">
   <div class="app">
     <header class="topbar">
-      <a class="brand" href="{{ url_for('index') }}" aria-label="{{ t('nav.home_aria') }}">
+      <a class="brand" href="{{ localized_url_for('index') }}" aria-label="{{ t('nav.home_aria') }}">
         <span class="brand-mark" aria-hidden="true"></span>
         <span class="brand-title">{{ t('site.name') }}</span>
         <span class="brand-sep">/</span>
         <span class="brand-meta">{% block brand_meta %}{% endblock %}</span>
       </a>
       <nav class="topbar-actions">
-        <a class="iconbtn" href="{{ url_for('about') }}">{{ t('nav.methodology') }}</a>
+        <a class="iconbtn" href="{{ localized_url_for('about') }}">{{ t('nav.methodology') }}</a>
         <button class="iconbtn iconbtn-icon" type="button" id="search-trigger"
                 aria-label="{{ t('nav.search_aria') }}" title="{{ t('nav.search_title') }}">
           <svg class="icon-search" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -121,7 +121,7 @@
         <span>{{ t('footer.scope_label') }}</span>
       </div>
       <nav class="foot-links">
-        <a href="{{ url_for('about') }}">{{ t('nav.methodology') }}</a>
+        <a href="{{ localized_url_for('about') }}">{{ t('nav.methodology') }}</a>
         <span class="foot-sep">·</span>
         <a href="https://orcid.org/0009-0000-2026-0836" class="foot-orcid">
           <svg viewBox="0 0 256 256" aria-hidden="true" class="foot-orcid-icon">

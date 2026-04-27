@@ -128,17 +128,29 @@ def _ensure_init_and_locale():
     # Read the language stashed by the WSGI middleware (if any prefix was stripped)
     g.lang = request.environ.get("translation_aligner.lang", "en")
 
-    # Auto-redirect at bare root, only when no cookie, only on the original
-    # (un-stripped) path. The middleware doesn't strip "/" so this check
-    # uses request.path (post-strip) which is still "/" in this case.
-    if request.path == "/" and "lang" not in request.cookies and g.lang == "en":
-        from translation_core.i18n import parse_accept_language
-        wanted = parse_accept_language(request.headers.get("Accept-Language"))
-        if wanted:
-            from flask import make_response
-            resp = make_response(redirect(f"/{wanted}/", code=302))
-            resp.set_cookie("lang", wanted, max_age=60 * 60 * 24 * 365, samesite="Lax")
-            return resp
+    # Auto-redirect at bare root only.
+    # Three cases:
+    #   1. Existing cookie says non-English (es/zh-Hans/zh-Hant) → 302 to that lang
+    #   2. No cookie + Accept-Language matches non-English → 302 to that lang, set cookie
+    #   3. Otherwise (English cookie, English Accept-Language, etc.) → fall through, render /
+    #
+    # The g.lang == "en" guard prevents loops — if the user is at /zh-Hans/
+    # (which the middleware rewrites to PATH_INFO=/), g.lang is already
+    # zh-Hans from the URL prefix, so we won't redirect.
+    if request.path == "/" and g.lang == "en":
+        cookie_lang = request.cookies.get("lang")
+        if cookie_lang in LANG_PREFIXES:
+            # User has explicitly chosen a non-English lang earlier; honor it.
+            return redirect(f"/{cookie_lang}/", code=302)
+        if cookie_lang is None:
+            # First visit — try Accept-Language
+            from translation_core.i18n import parse_accept_language
+            wanted = parse_accept_language(request.headers.get("Accept-Language"))
+            if wanted:
+                from flask import make_response
+                resp = make_response(redirect(f"/{wanted}/", code=302))
+                resp.set_cookie("lang", wanted, max_age=60 * 60 * 24 * 365, samesite="Lax")
+                return resp
     return None
 
 
@@ -223,6 +235,25 @@ def i18n_for_js() -> dict[str, str]:
 
 
 app.jinja_env.globals["i18n_for_js"] = i18n_for_js
+
+
+def localized_url_for(endpoint: str, **values) -> str:
+    """Like Flask's url_for, but prepends /<lang>/ when g.lang is not 'en'.
+
+    Static assets (anything under /static/) are NEVER prefixed — the
+    locale doesn't affect static URLs.
+    """
+    from flask import g
+    base = url_for(endpoint, **values)
+    if base.startswith("/static/"):
+        return base
+    lang = getattr(g, "lang", "en")
+    if lang == "en" or lang not in I18N_SUPPORTED:
+        return base
+    return f"/{lang}{base}"
+
+
+app.jinja_env.globals["localized_url_for"] = localized_url_for
 app.jinja_env.globals["t"] = t
 app.jinja_env.globals["supported_langs"] = I18N_SUPPORTED
 

@@ -54,7 +54,7 @@
     <p class="rail-sub">{{ t('rail.variants_jump_intro') }}</p>
     {% for v in verse.variants %}
       <a class="notes-item"
-         href="{{ url_for('verse', book=verse.book|lower, chapter=verse.chapter, verse=verse.verse, view='apparatus', variant=v.id) }}#variant-{{ v.id }}"
+         href="{{ localized_url_for('verse', book=verse.book|lower, chapter=verse.chapter, verse=verse.verse, view='apparatus', variant=v.id) }}#variant-{{ v.id }}"
          data-variant-link="{{ v.id }}">{{ v.title }}</a>
     {% endfor %}
   </div>

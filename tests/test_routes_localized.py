@@ -86,13 +86,66 @@ def test_root_with_english_does_not_redirect():
         assert "lang=en" in cookie
 
 
-def test_root_with_existing_cookie_does_not_redirect():
+def test_root_with_zh_hans_cookie_redirects_even_without_accept_language():
+    """If user previously chose Simplified Chinese, visiting / honors that."""
     with app.test_client() as c:
         c.set_cookie(key="lang", value="zh-Hans")
+        rv = c.get("/", headers={"Accept-Language": "en-US"})
+        assert rv.status_code == 302
+        assert rv.location.endswith("/zh-Hans/")
+
+
+def test_root_with_es_cookie_redirects():
+    with app.test_client() as c:
+        c.set_cookie(key="lang", value="es")
+        rv = c.get("/")
+        assert rv.status_code == 302
+        assert rv.location.endswith("/es/")
+
+
+def test_root_with_zh_hant_cookie_redirects():
+    with app.test_client() as c:
+        c.set_cookie(key="lang", value="zh-Hant")
+        rv = c.get("/")
+        assert rv.status_code == 302
+        assert rv.location.endswith("/zh-Hant/")
+
+
+def test_root_with_en_cookie_does_not_redirect():
+    """English cookie = stay at bare root."""
+    with app.test_client() as c:
+        c.set_cookie(key="lang", value="en")
         rv = c.get("/", headers={"Accept-Language": "es-MX"})
-        # Cookie says zh-Hans but path is /, so no redirect (cookie alone
-        # never triggers redirect — only Accept-Language on first visit).
         assert rv.status_code == 200
+
+
+def test_localized_url_for_prefixes_non_english():
+    """Inside a /es/ render, internal links must include the /es prefix."""
+    with app.test_client() as c:
+        rv = c.get("/es/")
+        body = rv.data.decode()
+        # The CTA on /es/ should point to /es/verse/mark/1/1
+        assert "/es/verse/mark/1/1" in body, "Spanish CTA missing /es prefix"
+        # The methodology nav link should point to /es/about
+        assert "/es/about" in body, "Spanish nav link missing /es prefix"
+
+
+def test_localized_url_for_keeps_english_unprefixed():
+    """At bare root, internal links remain bare-root (no /en prefix)."""
+    with app.test_client() as c:
+        rv = c.get("/")
+        body = rv.data.decode()
+        assert "/verse/mark/1/1" in body
+        assert "/en/" not in body, "Should never produce /en/ prefix"
+
+
+def test_localized_url_for_does_not_prefix_static_assets():
+    """CSS / JS / images must NEVER get a lang prefix."""
+    with app.test_client() as c:
+        rv = c.get("/zh-Hans/")
+        body = rv.data.decode()
+        assert "/zh-Hans/static/" not in body, "Static assets must not be lang-prefixed"
+        assert "/static/css/styles.css" in body
 
 
 def test_hreflang_tags_present_on_home():

@@ -14,15 +14,15 @@
 
     <p class="home-pilot-note">
       <strong>{{ t('home.pilot_note_strong') }}</strong> {{ t('home.pilot_note_body') }}
-      <a href="{{ url_for('about') }}#roadmap-section">{{ t('home.pilot_note_link') }}</a>.
+      <a href="{{ localized_url_for('about') }}#roadmap-section">{{ t('home.pilot_note_link') }}</a>.
     </p>
 
     <div class="home-actions">
-      <a class="home-cta" href="{{ url_for('verse', book='mark', chapter=1, verse=1) }}">
+      <a class="home-cta" href="{{ localized_url_for('verse', book='mark', chapter=1, verse=1) }}">
         {{ t('home.cta_primary') }}
         <span class="home-cta-arrow">→</span>
       </a>
-      <a class="home-cta-secondary" href="{{ url_for('about') }}">{{ t('home.cta_secondary') }}</a>
+      <a class="home-cta-secondary" href="{{ localized_url_for('about') }}">{{ t('home.cta_secondary') }}</a>
     </div>
   </header>
 
@@ -68,7 +68,7 @@
 
   <footer class="home-footer">
     <p>{{ t('home.footer_scope') }}
-      <a href="{{ url_for('about') }}">{{ t('home.footer_link') }}</a></p>
+      <a href="{{ localized_url_for('about') }}">{{ t('home.footer_link') }}</a></p>
   </footer>
 </section>
 {% endblock %}
