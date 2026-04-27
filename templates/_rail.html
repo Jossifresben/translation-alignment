@@ -3,54 +3,55 @@
 
 <aside class="rail" id="rail">
   <div class="rail-section">
-    <div class="rail-title">This verse</div>
+    <div class="rail-title">{{ t('rail.this_verse') }}</div>
     <div class="stat-row">
-      <span class="stat-label">Alignment groups</span>
+      <span class="stat-label">{{ t('rail.alignment_groups') }}</span>
       <span class="stat-val">{{ stats.total }}</span>
     </div>
     <div class="stat-row">
-      <span class="stat-label">All three attest</span>
+      <span class="stat-label">{{ t('rail.all_three_attest') }}</span>
       <span class="stat-val">{{ stats.all_three }} / {{ stats.total }}</span>
     </div>
     <div class="stat-row">
-      <span class="stat-label">Variant readings</span>
+      <span class="stat-label">{{ t('rail.variant_readings') }}</span>
       <span class="stat-val">{{ stats.variants }}</span>
     </div>
     <div class="stat-row">
-      <span class="stat-label">Major divergences</span>
+      <span class="stat-label">{{ t('rail.major_divergences') }}</span>
       <span class="stat-val">{{ stats.major }}</span>
     </div>
   </div>
 
   <div class="rail-section">
-    <div class="rail-title">Token legend</div>
-    <p class="rail-sub">How tokens are marked in the
-      {% if view == 'parallel' %}alignment grid{% else %}interlinear view{% endif %}.</p>
+    <div class="rail-title">{{ t('rail.token_legend') }}</div>
+    <p class="rail-sub">
+      {% if view == 'parallel' %}{{ t('rail.legend_intro_grid') }}{% else %}{{ t('rail.legend_intro_inter') }}{% endif %}
+    </p>
     <div class="legend-item">
-      <div class="legend-sample sample-aligned">Aligned</div>
-      <p class="legend-desc">Hover to highlight the matching token in each witness.</p>
+      <div class="legend-sample sample-aligned">{{ t('rail.legend_aligned_label') }}</div>
+      <p class="legend-desc">{{ t('rail.legend_aligned_desc') }}</p>
     </div>
     <div class="legend-item">
-      <div class="legend-sample sample-major">Major variant</div>
-      <p class="legend-desc">Substantive divergence, omission, or addition. Click to jump to apparatus; Shift-click for inline note.</p>
+      <div class="legend-sample sample-major">{{ t('rail.legend_major_label') }}</div>
+      <p class="legend-desc">{{ t('rail.legend_major_desc') }}</p>
     </div>
     <div class="legend-item">
-      <div class="legend-sample sample-minor">Minor variant</div>
-      <p class="legend-desc">Stylistic difference (word order, particle, synonym). Click to jump to apparatus; Shift-click for inline note.</p>
+      <div class="legend-sample sample-minor">{{ t('rail.legend_minor_label') }}</div>
+      <p class="legend-desc">{{ t('rail.legend_minor_desc') }}</p>
     </div>
     <div class="legend-item">
-      <div class="legend-sample sample-unaligned"><em>Unaligned</em></div>
-      <p class="legend-desc">Content present in only one witness, with no counterpart elsewhere.</p>
+      <div class="legend-sample sample-unaligned"><em>{{ t('rail.legend_unaligned_label') }}</em></div>
+      <p class="legend-desc">{{ t('rail.legend_unaligned_desc') }}</p>
     </div>
   </div>
 
   {% if verse.variants %}
   <div class="rail-section">
     <div class="rail-title">
-      <span>Variants · jump to apparatus</span>
+      <span>{{ t('rail.variants_jump') }}</span>
       <span class="count">{{ verse.variants|length }}</span>
     </div>
-    <p class="rail-sub">Each row links to the Apparatus tab, scrolled to that variant.</p>
+    <p class="rail-sub">{{ t('rail.variants_jump_intro') }}</p>
     {% for v in verse.variants %}
       <a class="notes-item"
          href="{{ url_for('verse', book=verse.book|lower, chapter=verse.chapter, verse=verse.verse, view='apparatus', variant=v.id) }}#variant-{{ v.id }}"

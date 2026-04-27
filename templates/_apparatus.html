@@ -3,9 +3,9 @@
 <section class="apparatus" id="apparatus">
   <div class="apparatus-main">
     <header class="apparatus-head">
-      <h2 class="apparatus-title">Critical apparatus</h2>
+      <h2 class="apparatus-title">{{ t('apparatus.title') }}</h2>
       <div class="apparatus-sub">
-        {{ verse.variants|length }} variants · {{ verse.witnesses|length }} witnesses
+        {{ verse.variants|length }} {{ t('apparatus.summary_variants') }} · {{ verse.witnesses|length }} {{ t('apparatus.summary_witnesses') }}
       </div>
     </header>
 
