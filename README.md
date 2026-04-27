@@ -218,8 +218,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 
 - **English (WEB)** as a first-class 4th column, with alignments regenerated across four traditions
 - **Greek Byzantine** (Majority Text / TR) — diffs against NA28 surface as a fifth witness column
-- **Slavonic 1751** (Elizabeth Bible) — per bible-mt5 inspiration
-- **Classical Chinese** — 1864 Küri (固里) and 1910 Innokenti (英诺肯提乙) translations
+- **Orthodox Chinese cluster** — Slavonic 1751 (Elizabeth Bible) + 1864 Küri (固里) + 1910 Innokenti (英诺肯提乙). Together: Russian-Orthodox Classical Chinese mission translations aligned against Church Slavonic + Greek
 - **Coptic** (Sahidic + Bohairic), **Armenian** (Zohrab), **Ethiopic** (Ge'ez)
 - **Latin Vetus / Old Latin** — pre-Jerome Latin witnesses
 - **Targum Onkelos + Biblical Aramaic + Peshitta OT** — already in the Aramaic Root Atlas; wire up when Hebrew OT scope lands

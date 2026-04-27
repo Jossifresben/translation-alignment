@@ -100,8 +100,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 ### Expand witness coverage
 - **English (WEB)** as a first-class 4th column, with alignments regenerated across four traditions
 - **Greek Byzantine** (Majority Text / TR) — diffs against NA28 surface as a fifth witness column, useful for Eastern Orthodox + KJV-lineage readers
-- **Slavonic 1751** (Elizabeth Bible) — per Prof. Chen's bible-mt5 inspiration
-- **Classical Chinese** — 1864 Küri (固里) and 1910 Innokenti (英诺肯提乙) translations, per Prof. Chen's bible-mt5
+- **Orthodox Chinese cluster** — Slavonic 1751 (Elizabeth Bible) + 1864 Küri (固里, Archimandrite Gury Karpov) + 1910 Innokenti (英诺肯提乙, Bishop Innokenti Figurovsky). These three only make sense together — they form an alignment family of Russian-Orthodox-mission Classical Chinese translations against the Church Slavonic + Greek liturgical text.
 - **Coptic** (Sahidic + Bohairic)
 - **Armenian** (Zohrab Bible)
 - **Ethiopic** (Ge'ez)
