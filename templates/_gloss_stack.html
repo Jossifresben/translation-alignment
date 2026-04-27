@@ -1,0 +1,14 @@
+{# Multi-language verse-gloss stack. Visibility per row is controlled
+   by static/js/settings.js based on localStorage.gloss_langs.
+   On first load (before JS runs), all available rows are visible —
+   settings.js applies the default (just the chrome lang) once it boots. #}
+<div class="gloss-stack" id="gloss-stack">
+  {% for lang in supported_langs %}
+    {% if verse.gloss_map and verse.gloss_map.get(lang) %}
+      <p class="gloss-row gloss-row-{{ lang }}" data-lang="{{ lang }}">
+        <span class="gloss-tag">{{ lang | upper }}</span>
+        <span class="gloss-text">{{ verse.gloss_map[lang] }}</span>
+      </p>
+    {% endif %}
+  {% endfor %}
+</div>

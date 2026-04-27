@@ -17,7 +17,7 @@
         {{ verse.book }}
       </div>
       <h1>{{ verse.book }} <span class="chap">{{ verse.chapter }} :</span> {{ verse.verse }}</h1>
-      <p class="verse-gloss">{{ verse.gloss_en }}</p>
+      {% include "_gloss_stack.html" %}
     </div>
     <div class="verse-pager">
       {% if verse.prev %}
