@@ -108,7 +108,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 - **Per-chapter navigation panel** — left-rail chapter index with verse counts + low-confidence flags + manual-review markers
 - **Bookmarks / permalinks** — deep-link to a specific variant (`#variant-vN`) stays stable; add shareable "copy link" affordance
 - **Mobile polish** — one-column responsive layout, larger tap targets, swipe between verses
-- **Hebrew cognate tooltip** on Peshitta roots — already in the data, not yet surfaced on hover
+- **Peshitta root-card on hover** — hovering any Peshitta token shows a compact card (triliteral root + gloss + sister roots + Hebrew / Arabic cognates) sourced from the Aramaic Root Atlas. The data is already loaded for the click-tooltip layer; this surfaces it without breaking the reader's flow. Click still opens the full Strong's-style tooltip.
 
 ### Export
 - **TEI XML export** of the critical apparatus (button stub already present in the top bar; wire it up per TEI P5 `<app>`/`<rdg>` conventions)

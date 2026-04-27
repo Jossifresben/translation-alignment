@@ -233,7 +233,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 - Per-chapter navigation panel with verse counts + low-confidence flags + manual-review markers
 - Bookmarks / permalinks — deep-link to a specific variant stays stable, shareable "copy link" affordance
 - Mobile polish — one-column responsive layout, larger tap targets, swipe between verses
-- Hebrew cognate tooltip on Peshitta roots (already in the data, not yet surfaced on hover)
+- Peshitta root-card on hover — hover any Peshitta token to see triliteral root + gloss + sister roots + Hebrew / Arabic cognates (from the Aramaic Root Atlas); click still opens the full Strong's-style tooltip
 
 ### Export
 
