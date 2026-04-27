@@ -79,9 +79,38 @@ def _init() -> None:
         _initialized = True
 
 
+LANG_PREFIXES = ("zh-Hans", "zh-Hant", "es")
+
+
+class _LocalePrefixMiddleware:
+    """WSGI middleware: strip /<lang>/ prefix from PATH_INFO, stash lang in environ.
+
+    Runs before Flask's URL routing so that existing routes (`/about`,
+    `/verse/...`) match unchanged after the prefix is stripped. The chosen
+    language is later surfaced as ``g.lang`` in a before_request hook.
+    """
+
+    def __init__(self, wsgi_app):
+        self.wsgi_app = wsgi_app
+
+    def __call__(self, environ, start_response):
+        path = environ.get("PATH_INFO", "")
+        for lang in LANG_PREFIXES:
+            if path == f"/{lang}" or path.startswith(f"/{lang}/"):
+                environ["translation_aligner.lang"] = lang
+                environ["PATH_INFO"] = path[len(f"/{lang}"):] or "/"
+                break
+        return self.wsgi_app(environ, start_response)
+
+
+app.wsgi_app = _LocalePrefixMiddleware(app.wsgi_app)
+
+
 @app.before_request
-def _ensure_init() -> None:
+def _ensure_init_and_locale() -> None:
     _init()
+    from flask import g
+    g.lang = request.environ.get("translation_aligner.lang", "en")
 
 
 # --- Jinja globals (expected by designer templates) ---
