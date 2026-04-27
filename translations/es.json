@@ -129,7 +129,6 @@
   "about.roadmap.export_tei": "Exportación a TEI XML del aparato crítico siguiendo las convenciones <code>&lt;app&gt;</code>/<code>&lt;rdg&gt;</code> de TEI P5.",
   "about.roadmap.export_bibtex": "Exportación de citas en BibTeX por versículo / por variante.",
   "about.roadmap.export_csv": "Exportación masiva en CSV de todas las alineaciones para análisis posterior.",
-  "about.roadmap.export_json": "API pública JSON de solo lectura en <code>/api/v1/</code> — endpoints de alineación, versículo, búsqueda y manifest, con documentación OpenAPI en <code>/api/docs</code>. CC BY 4.0 (datos derivados); CORS abierto.",
   "about.roadmap.subproject_engine": "<strong>Machine Annotation Engine</strong> — alineación en vivo y bajo demanda para versículos no cubiertos por el piloto. Endpoint REST <code>/api/align</code> con confianza por solicitud, almacenamiento en caché, limitación de tasa y sustitución de texto personalizado.",
   "about.roadmap.subproject_review": "<strong>Scholar Review Workflow</strong> — cuentas + autenticación (ORCID / GitHub / Google), roles de estudiante / erudito / editor, cola de revisión que toma del motor y de los versículos marcados como de baja confianza, comentarios encadenados por versículo, publicación por umbral de consenso, exportación de referencia en TEI / BibTeX / CSV, citación del conjunto de datos mediante DOI de Zenodo.",
   "verse.title_meta_suffix": "— griego / Peshitta / Vulgata alineados — Polyglot Concordance",
@@ -211,5 +210,13 @@
   "about.related_atlas_label": "Aramaic Root Atlas",
   "about.related_atlas_desc": "<a href=\"https://aramaic-root-atlas.onrender.com\">aramaic-root-atlas.onrender.com</a> — explorador de raíces triliterales semíticas entre corpus, con mapeo de cognados hebreos y árabes. Aporta los datos de raíces de la Peshitta que consume la capa de tooltip de este visor.",
   "about.related_bibcrit_label": "BibCrit",
-  "about.related_bibcrit_desc": "<a href=\"https://bibcrit.app/\">bibcrit.app</a> — espacio de trabajo de crítica bíblica para análisis textual."
+  "about.related_bibcrit_desc": "<a href=\"https://bibcrit.app/\">bibcrit.app</a> — espacio de trabajo de crítica bíblica para análisis textual.",
+  "about.h2_api": "API",
+  "about.api_intro": "Los mismos artefactos que alimentan el visor se exponen como una API JSON pública y de solo lectura en <code>/api/v1/</code>. CORS abierto, con caché en el edge y documentación OpenAPI — cualquier herramienta puede obtener los datos de alineación, el índice de búsqueda o el manifest del corpus sin necesidad de raspar HTML ni clonar el repositorio.",
+  "about.api_manifest_desc": "Metadatos del corpus: testigos, ediciones de glosa, versión del esquema, enumeración completa de versículos y procedencia de la generación de alineaciones con la referencia Berean.",
+  "about.api_alignment_desc": "JSON canónico de alineación para un versículo — grupos de alineación con veredicto, tipo semántico, prosa de aparato y puntuación de confianza.",
+  "about.api_verse_desc": "Diccionario del versículo en forma de presentación — testigos con tokens etiquetados por alineación, variantes y el <code>gloss_map</code> multilingüe.",
+  "about.api_search_desc": "Búsqueda de texto completo a nivel de versículo en todos los testigos y tipos de variante. Se admiten saltos por referencia (p. ej. <code>13:14</code>).",
+  "about.api_docs_desc": "Swagger UI interactivo renderizado a partir de la especificación OpenAPI 3.0.",
+  "about.api_outro": "Todos los endpoints son CORS-abiertos y están cacheados en el edge. Licencia: CC BY 4.0 para los datos de alineación derivados; redistribuir con atribución a las fuentes originales."
 }

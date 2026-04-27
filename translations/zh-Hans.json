@@ -129,7 +129,6 @@
   "about.roadmap.export_tei": "按 TEI P5 的 <code>&lt;app&gt;</code>/<code>&lt;rdg&gt;</code> 约定导出批判性批注的 TEI XML。",
   "about.roadmap.export_bibtex": "按经节 / 按异文导出 BibTeX 引文。",
   "about.roadmap.export_csv": "全部对齐数据的 CSV 批量导出，便于下游分析。",
-  "about.roadmap.export_json": "公开只读 JSON API，位于 <code>/api/v1/</code> — 包含 alignment、verse、search 与 manifest 端点，OpenAPI 文档在 <code>/api/docs</code>。派生数据采用 CC BY 4.0；CORS 全开放。",
   "about.roadmap.subproject_engine": "<strong>Machine Annotation Engine</strong> — 针对试点未涵盖的经节，提供实时按需对齐。REST 接口 <code>/api/align</code>，附按请求的置信度、缓存、限速及自定义文本覆盖。",
   "about.roadmap.subproject_review": "<strong>Scholar Review Workflow</strong> — 账号 + 鉴权（ORCID / GitHub / Google）、学生 / 学者 / 编辑角色、来自引擎与被标记低置信度经节的复核队列、按节展开的线程式评论、达成共识阈值后的发布、TEI / BibTeX / CSV 黄金标准数据导出，以及通过 Zenodo DOI 进行的数据集引用。",
   "verse.title_meta_suffix": "— 希腊文 / 别西大 / 武加大对齐 — Polyglot Concordance",
@@ -211,5 +210,13 @@
   "about.related_atlas_label": "Aramaic Root Atlas",
   "about.related_atlas_desc": "<a href=\"https://aramaic-root-atlas.onrender.com\">aramaic-root-atlas.onrender.com</a> — 跨语料的闪族语三辅根浏览器，附希伯来文与阿拉伯文同源词映射。本视图浮窗层所使用的别西大词根数据即来自此处。",
   "about.related_bibcrit_label": "BibCrit",
-  "about.related_bibcrit_desc": "<a href=\"https://bibcrit.app/\">bibcrit.app</a> — 用于文本分析的圣经批判工作台。"
+  "about.related_bibcrit_desc": "<a href=\"https://bibcrit.app/\">bibcrit.app</a> — 用于文本分析的圣经批判工作台。",
+  "about.h2_api": "API",
+  "about.api_intro": "驱动渲染版浏览器的同一份产物，也以公开只读的 JSON API 形式开放在 <code>/api/v1/</code>。CORS 全开放、边缘缓存、附 OpenAPI 文档 — 任何工具都可直接获取对齐数据、搜索索引或语料 manifest，而无需抓取 HTML 或克隆代码库。",
+  "about.api_manifest_desc": "语料元数据：文本见证、经文译本、模式版本、完整经节枚举，以及对齐生成的来源说明（含 Berean 基准）。",
+  "about.api_alignment_desc": "单节经文的规范对齐 JSON — 含每一对齐组的判定、语义类型、批注说明与置信度评分。",
+  "about.api_verse_desc": "面向展示形态的经文字典 — 文本见证（其 token 已带对齐标签）、异文，以及多语言 <code>gloss_map</code>。",
+  "about.api_search_desc": "跨所有文本见证与异文类型的逐节全文搜索。支持引用跳转（如 <code>13:14</code>）。",
+  "about.api_docs_desc": "由 OpenAPI 3.0 规范渲染的交互式 Swagger UI。",
+  "about.api_outro": "所有端点均为 CORS 开放且边缘缓存。许可：派生对齐数据采用 CC BY 4.0；再分发时请致谢上游来源。"
 }

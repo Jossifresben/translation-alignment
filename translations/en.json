@@ -129,7 +129,6 @@
   "about.roadmap.export_tei": "TEI XML export of the critical apparatus per TEI P5 <code>&lt;app&gt;</code>/<code>&lt;rdg&gt;</code> conventions.",
   "about.roadmap.export_bibtex": "BibTeX citation export per verse / per variant.",
   "about.roadmap.export_csv": "CSV bulk export of all alignments for downstream analysis.",
-  "about.roadmap.export_json": "Public read-only JSON API at <code>/api/v1/</code> — alignment, verse, search, and manifest endpoints with OpenAPI docs at <code>/api/docs</code>. CC BY 4.0 (derived data); CORS-open.",
   "about.roadmap.subproject_engine": "<strong>Machine Annotation Engine</strong> — live, on-demand alignment for verses the pilot doesn't cover. REST endpoint <code>/api/align</code> with per-request confidence, caching, rate-limiting, custom-text override.",
   "about.roadmap.subproject_review": "<strong>Scholar Review Workflow</strong> — accounts + auth (ORCID / GitHub / Google), student / scholar / editor roles, review queue pulling from the engine and flagged low-confidence verses, threaded per-verse comments, consensus-threshold publication, TEI / BibTeX / CSV gold-standard export, dataset citation via Zenodo DOI.",
   "verse.title_meta_suffix": "— Greek / Peshitta / Vulgate aligned — Polyglot Concordance",
@@ -211,5 +210,13 @@
   "about.related_atlas_label": "Aramaic Root Atlas",
   "about.related_atlas_desc": "<a href=\"https://aramaic-root-atlas.onrender.com\">aramaic-root-atlas.onrender.com</a> — cross-corpus Semitic triliteral root explorer with Hebrew and Arabic cognate mapping. Provides the Peshitta root data consumed by this viewer's tooltip layer.",
   "about.related_bibcrit_label": "BibCrit",
-  "about.related_bibcrit_desc": "<a href=\"https://bibcrit.app/\">bibcrit.app</a> — biblical criticism workspace for textual analysis."
+  "about.related_bibcrit_desc": "<a href=\"https://bibcrit.app/\">bibcrit.app</a> — biblical criticism workspace for textual analysis.",
+  "about.h2_api": "API",
+  "about.api_intro": "The same artifacts that power the rendered viewer are exposed as a public, read-only JSON API under <code>/api/v1/</code>. CORS-open, edge-cached, OpenAPI-documented — any tool can fetch the alignment data, the search index, or the corpus manifest without scraping HTML or cloning the repository.",
+  "about.api_manifest_desc": "Corpus metadata: witnesses, gloss editions, schema version, full verse enumeration, and the alignment-generation provenance with the Berean benchmark.",
+  "about.api_alignment_desc": "Canonical alignment JSON for one verse — alignment groups with verdict, semantic type, apparatus prose, and confidence score.",
+  "about.api_verse_desc": "Display-shape verse dict — witnesses with align-tagged tokens, variants, and the multi-language <code>gloss_map</code>.",
+  "about.api_search_desc": "Verse-level full-text search across all witnesses and variant types. Reference jumps (e.g. <code>13:14</code>) are supported.",
+  "about.api_docs_desc": "Interactive Swagger UI rendered from the OpenAPI 3.0 spec.",
+  "about.api_outro": "All endpoints are CORS-open and edge-cached. License: CC BY 4.0 for the derived alignment data; redistribute with attribution to upstream sources."
 }

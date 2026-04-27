@@ -71,6 +71,22 @@
     <dd>{{ t('about.source_generation_desc') }}</dd>
   </dl>
 
+  <h2>{{ t('about.h2_api') }}</h2>
+  <p>{{ t('about.api_intro') | safe }}</p>
+  <dl class="about-sources">
+    <dt><a href="/api/v1/manifest"><code>/api/v1/manifest</code></a></dt>
+    <dd>{{ t('about.api_manifest_desc') }}</dd>
+    <dt><a href="/api/v1/alignment/mark/13/14"><code>/api/v1/alignment/{book}/{chapter}/{verse}</code></a></dt>
+    <dd>{{ t('about.api_alignment_desc') }}</dd>
+    <dt><a href="/api/v1/verse/mark/13/14"><code>/api/v1/verse/{book}/{chapter}/{verse}</code></a></dt>
+    <dd>{{ t('about.api_verse_desc') }}</dd>
+    <dt><a href="/api/v1/search?q=harmonisation"><code>/api/v1/search?q={query}</code></a></dt>
+    <dd>{{ t('about.api_search_desc') }}</dd>
+    <dt><a href="/api/docs"><code>/api/docs</code></a></dt>
+    <dd>{{ t('about.api_docs_desc') }}</dd>
+  </dl>
+  <p>{{ t('about.api_outro') | safe }}</p>
+
   <h2>{{ t('about.h2_related_works') }}</h2>
   <dl class="about-sources">
     <dt>{{ t('about.related_peshitta_label') }}</dt>
@@ -171,7 +187,6 @@
     <li>{{ t('about.roadmap.export_tei') | safe }}</li>
     <li>{{ t('about.roadmap.export_bibtex') | safe }}</li>
     <li>{{ t('about.roadmap.export_csv') | safe }}</li>
-    <li>{{ t('about.roadmap.export_json') | safe }}</li>
   </ul>
 
   <h3>{{ t('about.h3_subprojects') }}</h3>

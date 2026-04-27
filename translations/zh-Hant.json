@@ -129,7 +129,6 @@
   "about.roadmap.export_tei": "按 TEI P5 的 <code>&lt;app&gt;</code>/<code>&lt;rdg&gt;</code> 約定匯出批判性批註的 TEI XML。",
   "about.roadmap.export_bibtex": "按經節 / 按異文匯出 BibTeX 引文。",
   "about.roadmap.export_csv": "全部對齊資料的 CSV 批次匯出，便於下游分析。",
-  "about.roadmap.export_json": "公開唯讀 JSON API，位於 <code>/api/v1/</code> — 包含 alignment、verse、search 與 manifest 端點，OpenAPI 文件在 <code>/api/docs</code>。派生資料採用 CC BY 4.0；CORS 全開放。",
   "about.roadmap.subproject_engine": "<strong>Machine Annotation Engine</strong> — 針對試點未涵蓋的經節，提供實時按需對齊。REST 介面 <code>/api/align</code>，附按請求的置信度、快取、限速及自定義文字覆蓋。",
   "about.roadmap.subproject_review": "<strong>Scholar Review Workflow</strong> — 賬號 + 鑑權（ORCID / GitHub / Google）、學生 / 學者 / 編輯角色、來自引擎與被標記低置信度經節的複核佇列、按節展開的執行緒式評論、達成共識閾值後的釋出、TEI / BibTeX / CSV 黃金標準資料匯出，以及透過 Zenodo DOI 進行的資料集引用。",
   "verse.title_meta_suffix": "— 希臘文 / 別西大 / 武加大對齊 — Polyglot Concordance",
@@ -211,5 +210,13 @@
   "about.related_atlas_label": "Aramaic Root Atlas",
   "about.related_atlas_desc": "<a href=\"https://aramaic-root-atlas.onrender.com\">aramaic-root-atlas.onrender.com</a> — 跨語料的閃族語三輔根瀏覽器，附希伯來文與阿拉伯文同源詞對映。本檢視浮窗層所使用的別西大詞根資料即來自此處。",
   "about.related_bibcrit_label": "BibCrit",
-  "about.related_bibcrit_desc": "<a href=\"https://bibcrit.app/\">bibcrit.app</a> — 用於文字分析的聖經批判工作臺。"
+  "about.related_bibcrit_desc": "<a href=\"https://bibcrit.app/\">bibcrit.app</a> — 用於文字分析的聖經批判工作臺。",
+  "about.h2_api": "API",
+  "about.api_intro": "驅動渲染版瀏覽器的同一份產物，也以公開唯讀的 JSON API 形式開放在 <code>/api/v1/</code>。CORS 全開放、邊緣快取、附 OpenAPI 文件 — 任何工具都可直接取得對齊資料、搜尋索引或語料 manifest，而無需抓取 HTML 或複製程式碼庫。",
+  "about.api_manifest_desc": "語料元資料：文字見證、經文譯本、模式版本、完整經節枚舉，以及對齊生成的來源說明（含 Berean 基準）。",
+  "about.api_alignment_desc": "單節經文的規範對齊 JSON — 含每一對齊組的判定、語義型別、批註說明與置信度評分。",
+  "about.api_verse_desc": "面向展示形態的經文字典 — 文字見證（其 token 已帶對齊標籤）、異文，以及多語言 <code>gloss_map</code>。",
+  "about.api_search_desc": "跨所有文字見證與異文型別的逐節全文搜尋。支援引用跳轉（如 <code>13:14</code>）。",
+  "about.api_docs_desc": "由 OpenAPI 3.0 規範渲染的互動式 Swagger UI。",
+  "about.api_outro": "所有端點均為 CORS 開放且邊緣快取。許可：派生對齊資料採用 CC BY 4.0；再分發時請致謝上游來源。"
 }
