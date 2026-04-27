@@ -9,6 +9,9 @@
   <meta name="author" content="Jossi Fresco Benaim" />
   <meta name="keywords" content="biblical text alignment, critical apparatus, Peshitta, Vulgate, Greek New Testament, textual criticism, interlinear, parallel texts, Syriac, Latin, Gospel of Mark, Aramaic Root Atlas, Claude, LLM alignment, scholarly Bible" />
   <meta name="theme-color" content="#a63521" />
+  {% if google_site_verification %}
+  <meta name="google-site-verification" content="{{ google_site_verification }}" />
+  {% endif %}
   <link rel="canonical" href="{% block canonical %}{{ request.url }}{% endblock %}" />
   {% set _canon = canonical_path() %}
   <link rel="alternate" hreflang="en" href="{{ request.url_root.rstrip('/') }}{{ _canon }}" />

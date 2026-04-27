@@ -41,6 +41,15 @@ DATA_DIR = BASE_DIR / "data"
 TRANSLATIONS_DIR = BASE_DIR / "translations"
 _translations = Translations(TRANSLATIONS_DIR)
 
+# SEO verification tokens — public by design (Search Console verification
+# tokens are meant to be served as HTML/DNS so Google can confirm ownership).
+# Default to the production token; override via env var if rotated.
+GOOGLE_SITE_VERIFICATION = os.environ.get(
+    "GOOGLE_SITE_VERIFICATION",
+    "IDoUl8R4eN7GDyOFAS9-te_fJs7G7vZO-zbyOVvpWJc",
+)
+app.jinja_env.globals["google_site_verification"] = GOOGLE_SITE_VERIFICATION
+
 
 def t(key: str, lang: str = "en", **kwargs) -> str:
     """Jinja global: resolve a translation key in the current request's lang.
