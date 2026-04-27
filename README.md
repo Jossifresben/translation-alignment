@@ -266,7 +266,7 @@ See [`known-issues.md`](./known-issues.md) for the complete list. Highlights:
 
 ## Inspiration
 
-The parallel-columns layout and the minor / major color-coded underline convention come from the **bible-mt5** parallel viewer built by [Dr. Zhan Chen](https://staff.uic.edu.cn/zhanchen/en) (United International College / BNU-HKBU UIC, Zhuhai). Dr. Chen's own scholarship focuses on the Peshitta of Isaiah (Harvard NELC, 2020) and Chinese Bible translations.
+The parallel-columns layout and the minor / major color-coding convention come from the **bible-mt5** parallel viewer built by [Dr. Zhan Chen](https://staff.uic.edu.cn/zhanchen/en) (United International College / BNU-HKBU UIC, Zhuhai). Dr. Chen's own scholarship focuses on the Peshitta of Isaiah (Harvard NELC, 2020) and Chinese Bible translations.
 
 ## License
 
