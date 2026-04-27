@@ -107,10 +107,40 @@ app.wsgi_app = _LocalePrefixMiddleware(app.wsgi_app)
 
 
 @app.before_request
-def _ensure_init_and_locale() -> None:
+def _ensure_init_and_locale():
     _init()
     from flask import g
+    # Read the language stashed by the WSGI middleware (if any prefix was stripped)
     g.lang = request.environ.get("translation_aligner.lang", "en")
+
+    # Auto-redirect at bare root, only when no cookie, only on the original
+    # (un-stripped) path. The middleware doesn't strip "/" so this check
+    # uses request.path (post-strip) which is still "/" in this case.
+    if request.path == "/" and "lang" not in request.cookies and g.lang == "en":
+        from translation_core.i18n import parse_accept_language
+        wanted = parse_accept_language(request.headers.get("Accept-Language"))
+        if wanted:
+            from flask import make_response
+            resp = make_response(redirect(f"/{wanted}/", code=302))
+            resp.set_cookie("lang", wanted, max_age=60 * 60 * 24 * 365, samesite="Lax")
+            return resp
+    return None
+
+
+@app.after_request
+def _set_lang_cookie(response):
+    """Persist g.lang in a cookie when one is missing.
+
+    Skips redirects (already set above) and skips overwriting existing cookies.
+    """
+    from flask import g
+    if "lang" in request.cookies:
+        return response
+    if response.status_code in (301, 302, 303, 307, 308):
+        return response
+    lang = getattr(g, "lang", "en")
+    response.set_cookie("lang", lang, max_age=60 * 60 * 24 * 365, samesite="Lax")
+    return response
 
 
 # --- Jinja globals (expected by designer templates) ---
