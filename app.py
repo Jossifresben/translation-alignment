@@ -193,6 +193,21 @@ def verse_stats(verse: dict, grid: list[dict]) -> dict:
 
 app.jinja_env.globals["build_grid"] = build_grid
 app.jinja_env.globals["verse_stats"] = verse_stats
+
+
+def i18n_for_js() -> dict[str, str]:
+    """Return the subset of translation keys whose path starts with 'js.'.
+
+    This is what gets injected as window.__I18N__ on every page so that
+    aligner.js can resolve client-side strings without a fetch roundtrip.
+    """
+    from flask import g
+    lang = getattr(g, "lang", "en")
+    en_keys = _translations.keys("en")
+    return {k: _translations.t(k, lang) for k in en_keys if k.startswith("js.")}
+
+
+app.jinja_env.globals["i18n_for_js"] = i18n_for_js
 app.jinja_env.globals["t"] = t
 app.jinja_env.globals["supported_langs"] = I18N_SUPPORTED
 

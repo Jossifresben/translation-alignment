@@ -167,6 +167,10 @@
     </div>
   </div>
 
+  <script id="i18n-data" type="application/json">{{ i18n_for_js() | tojson }}</script>
+  <script>
+    window.__I18N__ = JSON.parse(document.getElementById('i18n-data').textContent);
+  </script>
   <script src="{{ url_for('static', filename='js/aligner.js') }}"></script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+const I18N = (typeof window !== "undefined" && window.__I18N__) || {};
+function t(key) { return I18N[key] || key; }
 /* Translation Aligner — interactions
  * Hover a word → light up its alignment group across all three witnesses
  * Hover a variant token → light up the whole variant
@@ -392,7 +394,7 @@ function showTooltip(anchor, html) {
     closeBtn.id = "search-close";
     closeBtn.className = "search-close";
     closeBtn.type = "button";
-    closeBtn.setAttribute("aria-label", "Close search");
+    closeBtn.setAttribute("aria-label", t("js.search_close_aria"));
     closeBtn.textContent = "×";
     const modal = overlay.querySelector(".search-modal");
     if (modal) modal.appendChild(closeBtn);
@@ -453,7 +455,7 @@ function showTooltip(anchor, html) {
     lastResults = list;
     activeIdx = 0;
     if (!list.length) {
-      results.innerHTML = '<li class="empty">No matches.</li>';
+      results.innerHTML = '<li class="empty">' + escapeHtml(t("js.search_no_matches")) + '</li>';
       return;
     }
     results.innerHTML = list.map((r, i) =>
