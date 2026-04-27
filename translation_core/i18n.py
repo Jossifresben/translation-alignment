@@ -31,12 +31,17 @@ class Translations:
     def t(self, key: str, lang: str = DEFAULT) -> str:
         """Lookup with English fallback. Returns the key itself if missing
         from both target and English (so missing keys are visible in the
-        rendered page rather than silently empty)."""
-        return (
-            self._dicts.get(lang, {}).get(key)
-            or self._dicts.get(DEFAULT, {}).get(key)
-            or key
-        )
+        rendered page rather than silently empty).
+
+        Empty-string values are honored — they are not treated as missing.
+        """
+        target = self._dicts.get(lang, {})
+        if key in target:
+            return target[key]
+        english = self._dicts.get(DEFAULT, {})
+        if key in english:
+            return english[key]
+        return key
 
     def has_key(self, key: str, lang: str = DEFAULT) -> bool:
         """Used by tests to assert key parity."""
