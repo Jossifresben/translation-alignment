@@ -129,7 +129,7 @@
   "about.roadmap.export_tei": "按 TEI P5 的 <code>&lt;app&gt;</code>/<code>&lt;rdg&gt;</code> 約定匯出批判性批註的 TEI XML。",
   "about.roadmap.export_bibtex": "按經節 / 按異文匯出 BibTeX 引文。",
   "about.roadmap.export_csv": "全部對齊資料的 CSV 批次匯出，便於下游分析。",
-  "about.roadmap.export_json": "單節經文的 JSON 介面（已可在 <code>/data/alignments/mark/&lt;ch&gt;/&lt;v&gt;.json</code> 使用）。",
+  "about.roadmap.export_json": "公開唯讀 JSON API，位於 <code>/api/v1/</code> — 包含 alignment、verse、search 與 manifest 端點，OpenAPI 文件在 <code>/api/docs</code>。派生資料採用 CC BY 4.0；CORS 全開放。",
   "about.roadmap.subproject_engine": "<strong>Machine Annotation Engine</strong> — 針對試點未涵蓋的經節，提供實時按需對齊。REST 介面 <code>/api/align</code>，附按請求的置信度、快取、限速及自定義文字覆蓋。",
   "about.roadmap.subproject_review": "<strong>Scholar Review Workflow</strong> — 賬號 + 鑑權（ORCID / GitHub / Google）、學生 / 學者 / 編輯角色、來自引擎與被標記低置信度經節的複核佇列、按節展開的執行緒式評論、達成共識閾值後的釋出、TEI / BibTeX / CSV 黃金標準資料匯出，以及透過 Zenodo DOI 進行的資料集引用。",
   "verse.title_meta_suffix": "— 希臘文 / 別西大 / 武加大對齊 — Polyglot Concordance",

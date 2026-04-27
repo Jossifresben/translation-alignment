@@ -240,7 +240,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 - **TEI XML** export of the critical apparatus per TEI P5 `<app>`/`<rdg>` conventions
 - **BibTeX** citation export per verse / per variant
 - **CSV** bulk export of all alignments for downstream analysis
-- Individual verse JSON endpoints (already work at `/data/alignments/mark/<ch>/<v>.json`)
+- Public read-only JSON API at `/api/v1/` — alignment, verse, search, manifest endpoints with OpenAPI docs at `/api/docs`. CC BY 4.0 (derived data); CORS-open. Try [/api/v1/manifest](https://polyglotconcordance.com/api/v1/manifest)
 
 ### Sub-projects
 

@@ -45,6 +45,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 - Two-tier variant visualization (minor = sage-green, major / omitted / added = rubric-red)
 - 72 automated tests — schema, converter, route, search, benchmark
 - Internationalization: localized URLs (`/es/`, `/zh-Hans/`, `/zh-Hant/`) with bare-root English; first-visit auto-redirect from `Accept-Language`; sticky `lang` cookie; full Spanish UI translations (RV 1909 verse glosses); multi-language gloss stack above the alignment grid; `t()` Jinja global + `window.__I18N__` for client-side strings; hreflang SEO tags; localized sitemap
+- Public read-only JSON API at `/api/v1/` — alignment, verse, search, manifest endpoints; OpenAPI 3.0 spec rendered as Swagger UI at `/api/docs`; CORS-open; edge-cached. CC BY 4.0 derived data.
 
 ## 🎯 Up next
 
@@ -114,7 +115,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 - **TEI XML export** of the critical apparatus (button stub already present in the top bar; wire it up per TEI P5 `<app>`/`<rdg>` conventions)
 - **BibTeX** citation export per verse / per variant
 - **CSV** bulk export of all alignments for downstream analysis
-- **Individual verse permalink + JSON endpoint** (already works at `/data/alignments/mark/<ch>/<v>.json`; document it)
+- **API v2 — per-token enrichment endpoints** — `/api/v2/strong/{num}` (Greek lemma + morphology lookup), `/api/v2/peshitta-root/{root}` (Aramaic Root Atlas root card with sister roots + Hebrew/Arabic cognates). Builds on the v1 read-API.
 
 ### Data / generation improvements
 - **Fix SBLGNT ↔ STEP token drift re-visit** — our Greek corpus currently comes from STEP TAGNT to stay aligned with enrichment. Consider a mode that renders an SBLGNT-faithful text as well.

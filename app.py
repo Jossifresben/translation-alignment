@@ -10,6 +10,7 @@ from pathlib import Path
 from flask import Flask, abort, redirect, render_template, request, url_for
 
 from translation_core.alignment import AlignmentStore
+from translation_core.api import api_v1
 from translation_core.converter import convert_alignment_to_verse
 from translation_core.corpora import CorpusRegistry
 from translation_core.enrichment import GreekEnrichment, PeshittaEnrichment
@@ -483,6 +484,16 @@ def about():
     return render_template("about.html", benchmark=benchmark,
                             view=None, theme=request.args.get("theme", "light"),
                             show_rail=False, verse=None)
+
+
+# --- API v1 (read-only public JSON endpoints) ---
+app.register_blueprint(api_v1)
+
+
+@app.route("/api/docs")
+def api_docs():
+    """Swagger UI rendered against /api/v1/openapi.json."""
+    return render_template("api/docs.html")
 
 
 @app.route("/favicon.ico")

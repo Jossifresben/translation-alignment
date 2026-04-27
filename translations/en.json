@@ -129,7 +129,7 @@
   "about.roadmap.export_tei": "TEI XML export of the critical apparatus per TEI P5 <code>&lt;app&gt;</code>/<code>&lt;rdg&gt;</code> conventions.",
   "about.roadmap.export_bibtex": "BibTeX citation export per verse / per variant.",
   "about.roadmap.export_csv": "CSV bulk export of all alignments for downstream analysis.",
-  "about.roadmap.export_json": "Individual verse JSON endpoints (already work at <code>/data/alignments/mark/&lt;ch&gt;/&lt;v&gt;.json</code>).",
+  "about.roadmap.export_json": "Public read-only JSON API at <code>/api/v1/</code> — alignment, verse, search, and manifest endpoints with OpenAPI docs at <code>/api/docs</code>. CC BY 4.0 (derived data); CORS-open.",
   "about.roadmap.subproject_engine": "<strong>Machine Annotation Engine</strong> — live, on-demand alignment for verses the pilot doesn't cover. REST endpoint <code>/api/align</code> with per-request confidence, caching, rate-limiting, custom-text override.",
   "about.roadmap.subproject_review": "<strong>Scholar Review Workflow</strong> — accounts + auth (ORCID / GitHub / Google), student / scholar / editor roles, review queue pulling from the engine and flagged low-confidence verses, threaded per-verse comments, consensus-threshold publication, TEI / BibTeX / CSV gold-standard export, dataset citation via Zenodo DOI.",
   "verse.title_meta_suffix": "— Greek / Peshitta / Vulgate aligned — Polyglot Concordance",

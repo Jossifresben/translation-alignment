@@ -14,6 +14,14 @@ Multilingual availability: the UI is available in English (default), Spanish, Si
 - [Mark 13:14](/verse/mark/13/14): Representative verse showing the three view modes and the apparatus
 - [Search](/search?q=): Query Greek, Latin, Syriac, English, variant type, or reference
 
+## API (read-only, public, CC BY)
+- [API root](/api/v1/): Endpoint catalog + curl example
+- [API docs (Swagger UI)](/api/docs)
+- [Manifest](/api/v1/manifest): Corpus metadata, witnesses, schema
+- [Alignment JSON](/api/v1/alignment/mark/13/14): Canonical artifact for one verse
+- [Verse dict](/api/v1/verse/mark/13/14): Display-shape verse (witnesses + variants + gloss_map)
+- [Search JSON](/api/v1/search?q=evangelio): Verse-level search
+
 ## Key concepts
 
 **Witnesses** — Greek NT (tagged via STEP TAGNT, Tyndale House Cambridge), Syriac Peshitta (via Aramaic Root Atlas), Latin Clementine Vulgate (public domain, via seven1m/open-bibles).

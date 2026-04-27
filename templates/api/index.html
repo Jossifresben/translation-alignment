@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Polyglot Concordance — API v1</title>
+  <link rel="canonical" href="https://polyglotconcordance.com/api/v1/" />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+           max-width: 720px; margin: 60px auto; padding: 0 24px;
+           color: #222; line-height: 1.55; }
+    h1   { font-family: "EB Garamond", Georgia, serif; font-size: 36px; margin: 0 0 8px;
+           letter-spacing: -0.015em; }
+    .tagline { color: #666; margin: 0 0 28px; }
+    h2   { font-family: "EB Garamond", Georgia, serif; font-size: 22px;
+           margin: 32px 0 8px; }
+    code, pre { font-family: "JetBrains Mono", ui-monospace, "SF Mono", monospace; font-size: 13px; }
+    code { background: #f4f0e8; padding: 2px 5px; border-radius: 3px; }
+    pre  { background: #f4f0e8; padding: 14px 16px; border-radius: 6px;
+           overflow-x: auto; }
+    a    { color: #a63521; text-decoration: none; border-bottom: 1px solid rgba(166,53,33,0.25); }
+    a:hover { border-bottom-color: #a63521; }
+    ul   { padding-left: 22px; }
+    li   { margin: 4px 0; }
+    .meta { font-size: 13px; color: #888; margin-top: 48px; padding-top: 16px;
+            border-top: 1px solid #e8e0d0; }
+  </style>
+</head>
+<body>
+  <h1>Polyglot Concordance — API v1</h1>
+  <p class="tagline">Read-only JSON endpoints exposing the alignment data,
+    search index, and corpus manifest. CC BY 4.0 (derived data).</p>
+
+  <h2>Endpoints</h2>
+  <ul>
+    <li><a href="/api/v1/manifest"><code>/api/v1/manifest</code></a> — corpus metadata, witnesses, schema</li>
+    <li><a href="/api/v1/alignment/mark/13/14"><code>/api/v1/alignment/{book}/{chapter}/{verse}</code></a> — canonical alignment JSON</li>
+    <li><a href="/api/v1/verse/mark/13/14"><code>/api/v1/verse/{book}/{chapter}/{verse}</code></a> — display-shape verse dict</li>
+    <li><a href="/api/v1/search?q=harmonisation"><code>/api/v1/search?q={query}&amp;limit={n}</code></a> — verse-level search</li>
+    <li><a href="/api/v1/openapi.json"><code>/api/v1/openapi.json</code></a> — OpenAPI 3.0 spec</li>
+    <li><a href="/api/docs"><code>/api/docs</code></a> — Swagger UI</li>
+  </ul>
+
+  <h2>Quick start</h2>
+  <pre>curl -s https://polyglotconcordance.com/api/v1/alignment/mark/13/14 | jq .</pre>
+
+  <h2>Conventions</h2>
+  <ul>
+    <li><strong>Versioning:</strong> all endpoints are under <code>/api/v1/</code>; payloads include <code>api_version: "v1"</code>.</li>
+    <li><strong>CORS:</strong> <code>Access-Control-Allow-Origin: *</code> on every response — read-only public data.</li>
+    <li><strong>Caching:</strong> <code>Cache-Control: public, max-age=86400</code> on stable endpoints; <code>max-age=300</code> on <code>/search</code>.</li>
+    <li><strong>Errors:</strong> <code>{ "error": { "code": "...", "message": "..." } }</code> with appropriate HTTP status.</li>
+  </ul>
+
+  <p class="meta">
+    <a href="/">← Back to viewer</a> ·
+    <a href="/about">Methodology</a> ·
+    Contact: <a href="mailto:jossi@somosunodigital.com">jossi@somosunodigital.com</a>
+  </p>
+</body>
+</html>

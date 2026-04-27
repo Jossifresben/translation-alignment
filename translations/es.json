@@ -129,7 +129,7 @@
   "about.roadmap.export_tei": "Exportación a TEI XML del aparato crítico siguiendo las convenciones <code>&lt;app&gt;</code>/<code>&lt;rdg&gt;</code> de TEI P5.",
   "about.roadmap.export_bibtex": "Exportación de citas en BibTeX por versículo / por variante.",
   "about.roadmap.export_csv": "Exportación masiva en CSV de todas las alineaciones para análisis posterior.",
-  "about.roadmap.export_json": "Endpoints JSON individuales por versículo (ya operativos en <code>/data/alignments/mark/&lt;ch&gt;/&lt;v&gt;.json</code>).",
+  "about.roadmap.export_json": "API pública JSON de solo lectura en <code>/api/v1/</code> — endpoints de alineación, versículo, búsqueda y manifest, con documentación OpenAPI en <code>/api/docs</code>. CC BY 4.0 (datos derivados); CORS abierto.",
   "about.roadmap.subproject_engine": "<strong>Machine Annotation Engine</strong> — alineación en vivo y bajo demanda para versículos no cubiertos por el piloto. Endpoint REST <code>/api/align</code> con confianza por solicitud, almacenamiento en caché, limitación de tasa y sustitución de texto personalizado.",
   "about.roadmap.subproject_review": "<strong>Scholar Review Workflow</strong> — cuentas + autenticación (ORCID / GitHub / Google), roles de estudiante / erudito / editor, cola de revisión que toma del motor y de los versículos marcados como de baja confianza, comentarios encadenados por versículo, publicación por umbral de consenso, exportación de referencia en TEI / BibTeX / CSV, citación del conjunto de datos mediante DOI de Zenodo.",
   "verse.title_meta_suffix": "— griego / Peshitta / Vulgata alineados — Polyglot Concordance",
