@@ -73,18 +73,18 @@
 
   <h2>{{ t('about.h2_api') }}</h2>
   <p>{{ t('about.api_intro') | safe }}</p>
-  <dl class="about-sources">
-    <dt><a href="/api/v1/manifest"><code>/api/v1/manifest</code></a></dt>
-    <dd>{{ t('about.api_manifest_desc') }}</dd>
-    <dt><a href="/api/v1/alignment/mark/13/14"><code>/api/v1/alignment/{book}/{chapter}/{verse}</code></a></dt>
-    <dd>{{ t('about.api_alignment_desc') }}</dd>
-    <dt><a href="/api/v1/verse/mark/13/14"><code>/api/v1/verse/{book}/{chapter}/{verse}</code></a></dt>
-    <dd>{{ t('about.api_verse_desc') }}</dd>
-    <dt><a href="/api/v1/search?q=harmonisation"><code>/api/v1/search?q={query}</code></a></dt>
-    <dd>{{ t('about.api_search_desc') }}</dd>
-    <dt><a href="/api/docs"><code>/api/docs</code></a></dt>
-    <dd>{{ t('about.api_docs_desc') }}</dd>
-  </dl>
+  <ul class="about-roadmap">
+    <li><a href="/api/v1/manifest"><code>/api/v1/manifest</code></a>
+      — {{ t('about.api_manifest_desc') | safe }}</li>
+    <li><a href="/api/v1/alignment/mark/13/14"><code>/api/v1/alignment/{book}/{chapter}/{verse}</code></a>
+      — {{ t('about.api_alignment_desc') | safe }}</li>
+    <li><a href="/api/v1/verse/mark/13/14"><code>/api/v1/verse/{book}/{chapter}/{verse}</code></a>
+      — {{ t('about.api_verse_desc') | safe }}</li>
+    <li><a href="/api/v1/search?q=harmonisation"><code>/api/v1/search?q={query}</code></a>
+      — {{ t('about.api_search_desc') | safe }}</li>
+    <li><a href="/api/docs"><code>/api/docs</code></a>
+      — {{ t('about.api_docs_desc') | safe }}</li>
+  </ul>
   <p>{{ t('about.api_outro') | safe }}</p>
 
   <h2>{{ t('about.h2_related_works') }}</h2>

@@ -60,15 +60,17 @@ def _normalize_book(book: str) -> str | None:
 @api_v1.route("/alignment/<book>/<int:chapter>/<int:verse>")
 def alignment(book, chapter, verse):
     """Return the canonical on-disk alignment JSON for one verse."""
-    from app import _alignments, _init  # local import: avoid circular at module load
+    # Module-level access (not `from app import ...`) so we always read the
+    # current value of the global, even on cold start before `_init()` ran.
+    import app as _app
 
-    _init()
+    _app._init()
     book_lower = _normalize_book(book)
     if book_lower is None:
         return _error("book_not_found", f"Book '{book}' is not in the corpus", 404)
 
     book_title = book_lower.title()
-    data = _alignments.get(book_title, chapter, verse)
+    data = _app._alignments.get(book_title, chapter, verse)
     if data is None:
         return _error(
             "alignment_not_found",
@@ -82,14 +84,14 @@ def alignment(book, chapter, verse):
 @api_v1.route("/verse/<book>/<int:chapter>/<int:verse>")
 def verse_endpoint(book, chapter, verse):
     """Return the converted verse dict (template-shape: witnesses, variants, gloss_map)."""
-    from app import _load_verse, _init  # local import: avoid circular
+    import app as _app
 
-    _init()
+    _app._init()
     book_lower = _normalize_book(book)
     if book_lower is None:
         return _error("book_not_found", f"Book '{book}' is not in the corpus", 404)
 
-    data = _load_verse(book_lower, chapter, verse)
+    data = _app._load_verse(book_lower, chapter, verse)
     if data is None:
         return _error(
             "verse_not_found",
@@ -103,7 +105,7 @@ def verse_endpoint(book, chapter, verse):
 @api_v1.route("/search")
 def search():
     """Verse-level search across all witnesses + variant types."""
-    from app import _build_search_index
+    import app as _app
     import re
 
     # Lazy build of the search index (mirrors the existing /search route).
@@ -113,7 +115,7 @@ def search():
     except NameError:
         idx = None
     if idx is None:
-        idx = _build_search_index()
+        idx = _app._build_search_index()
         globals()["_api_search_index_cache"] = idx
 
     q = (request.args.get("q") or "").strip()
@@ -198,17 +200,17 @@ def search():
 @api_v1.route("/manifest")
 def manifest():
     """Corpus-level metadata: books, witnesses, gloss editions, schema."""
-    from app import _corpora, _init
+    import app as _app
     import json
     from pathlib import Path
 
-    _init()
+    _app._init()
 
     # Build the books list with verse enumeration
     books_out = []
     try:
-        master = _corpora.get("greek_nt")
-    except KeyError:
+        master = _app._corpora.get("greek_nt")
+    except (KeyError, AttributeError):
         master = None
     if master is not None:
         verses: list[list[int]] = []
