@@ -74,6 +74,8 @@
   <h2>{{ t('about.h2_api') }}</h2>
   <p>{{ t('about.api_intro') | safe }}</p>
   <ul class="about-roadmap">
+    <li><a href="/api/docs"><code>/api/docs</code></a>
+      — {{ t('about.api_docs_desc') | safe }}</li>
     <li><a href="/api/v1/manifest"><code>/api/v1/manifest</code></a>
       — {{ t('about.api_manifest_desc') | safe }}</li>
     <li><a href="/api/v1/alignment/mark/13/14"><code>/api/v1/alignment/{book}/{chapter}/{verse}</code></a>
@@ -82,8 +84,6 @@
       — {{ t('about.api_verse_desc') | safe }}</li>
     <li><a href="/api/v1/search?q=harmonisation"><code>/api/v1/search?q={query}</code></a>
       — {{ t('about.api_search_desc') | safe }}</li>
-    <li><a href="/api/docs"><code>/api/docs</code></a>
-      — {{ t('about.api_docs_desc') | safe }}</li>
   </ul>
   <p>{{ t('about.api_outro') | safe }}</p>
 
