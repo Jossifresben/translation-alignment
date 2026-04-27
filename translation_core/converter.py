@@ -198,6 +198,7 @@ def convert_alignment_to_verse(
     pericopes: dict,
     testament: str,
     gloss_en: str | None,
+    gloss_map: dict[str, str] | None = None,
     greek_glosses: dict[int, str] | None = None,
 ) -> dict:
     """Return a designer-shape verse dict from our alignment JSON."""
@@ -290,6 +291,7 @@ def convert_alignment_to_verse(
         "pericope": _normalize_pericope_lookup(pericopes, book, chapter, verse),
         "testament": testament,
         "gloss_en": gloss_en,
+        "gloss_map": gloss_map or {},
         "witnesses": witnesses,
         "variants": variants_out,
     }

@@ -25,7 +25,13 @@ _alignments: AlignmentStore | None = None
 _greek_enrichment: GreekEnrichment | None = None
 _peshitta_enrichment: PeshittaEnrichment | None = None
 _pericopes: dict = {}
-_web_map: dict[str, str] = {}  # ref -> English text
+# ref -> per-language verse text. Keys: 'en', 'es', 'zh-Hans', 'zh-Hant'.
+_gloss_maps: dict[str, dict[str, str]] = {
+    "en": {},
+    "es": {},
+    "zh-Hans": {},
+    "zh-Hant": {},
+}
 _initialized = False
 _init_lock = threading.Lock()
 
@@ -48,10 +54,17 @@ CORPUS_FILES = {
     "vulgate":  "vulgate.csv",
 }
 
+GLOSS_FILES = {
+    "en":      "web.csv",
+    "es":      "rv1909.csv",
+    "zh-Hans": "cuv_hans.csv",
+    "zh-Hant": "cuv_hant.csv",
+}
+
 
 def _init() -> None:
     global _corpora, _alignments, _greek_enrichment, _peshitta_enrichment
-    global _pericopes, _web_map, _initialized
+    global _pericopes, _initialized
     if _initialized:
         return
     with _init_lock:
@@ -70,11 +83,13 @@ def _init() -> None:
         if pp.exists():
             _pericopes = json.loads(pp.read_text(encoding="utf-8"))
 
-        web_path = DATA_DIR / "corpora" / "web.csv"
-        if web_path.exists():
-            with web_path.open("r", encoding="utf-8", newline="") as f:
+        for lang, filename in GLOSS_FILES.items():
+            path = DATA_DIR / "corpora" / filename
+            if not path.exists():
+                continue   # acceptable during incremental rollout
+            with path.open("r", encoding="utf-8", newline="") as f:
                 for row in csv.DictReader(f):
-                    _web_map[row["reference"]] = row["text"]
+                    _gloss_maps[lang][row["reference"]] = row["text"]
 
         _initialized = True
 
@@ -250,7 +265,9 @@ def _load_verse(book: str, chapter: int, verse: int) -> dict | None:
                 greek_glosses[e["token_idx"]] = e["gloss"]
     prev_cv = _neighbor(chapter, verse, -1)
     next_cv = _neighbor(chapter, verse, +1)
-    gloss_en = _web_map.get(f"{book_title} {chapter}:{verse}")
+    ref = f"{book_title} {chapter}:{verse}"
+    gloss_map = {lang: m.get(ref, "") for lang, m in _gloss_maps.items()}
+    gloss_en = gloss_map.get("en") or None  # backward-compat: existing code may still use gloss_en
     return convert_alignment_to_verse(
         alignment,
         book=book_title,
@@ -260,6 +277,7 @@ def _load_verse(book: str, chapter: int, verse: int) -> dict | None:
         pericopes=_pericopes,
         testament="New Testament",
         gloss_en=gloss_en,
+        gloss_map=gloss_map,
         greek_glosses=greek_glosses,
     )
 
