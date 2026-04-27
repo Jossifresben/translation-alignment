@@ -1,0 +1,41 @@
+<aside class="settings-panel" id="settings-panel" hidden role="dialog"
+       aria-labelledby="settings-title">
+  <div class="settings-head">
+    <h3 id="settings-title">{{ t('settings.title') }}</h3>
+    <button type="button" class="settings-close" aria-label="{{ t('settings.close') }}">×</button>
+  </div>
+
+  <form class="settings-body">
+    <fieldset class="settings-row">
+      <legend>{{ t('settings.interface_language') }}</legend>
+      {% for lang in supported_langs %}
+        <label class="settings-radio">
+          <input type="radio" name="interface_lang" value="{{ lang }}"/>
+          <span>{{ t('settings.lang_' ~ lang.replace('-', '_').lower()) }}</span>
+        </label>
+      {% endfor %}
+    </fieldset>
+
+    <fieldset class="settings-row">
+      <legend>{{ t('settings.verse_translations') }}</legend>
+      {% for lang in supported_langs %}
+        <label class="settings-checkbox">
+          <input type="checkbox" name="gloss_lang" value="{{ lang }}"/>
+          <span>{{ t('settings.gloss_' ~ lang.replace('-', '_').lower()) }}</span>
+        </label>
+      {% endfor %}
+    </fieldset>
+
+    <fieldset class="settings-row">
+      <legend>{{ t('settings.theme') }}</legend>
+      <label class="settings-radio">
+        <input type="radio" name="theme" value="light"/>
+        <span>{{ t('settings.theme_light') }}</span>
+      </label>
+      <label class="settings-radio">
+        <input type="radio" name="theme" value="dark"/>
+        <span>{{ t('settings.theme_dark') }}</span>
+      </label>
+    </fieldset>
+  </form>
+</aside>
