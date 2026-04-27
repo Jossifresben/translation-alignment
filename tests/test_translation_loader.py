@@ -43,3 +43,15 @@ def test_translations_uses_english_when_target_lang_missing_key():
     # If es.json doesn't have the key, the English value is returned.
     if not t.has_key(sample_key, "es"):
         assert t.t(sample_key, "es") == sample_value
+
+
+def test_es_json_has_all_en_keys():
+    """es.json must have every key that en.json has, no exceptions."""
+    en_path = TRANSLATIONS / "en.json"
+    es_path = TRANSLATIONS / "es.json"
+    if not es_path.exists():
+        pytest.skip("es.json not yet authored")
+    en = json.loads(en_path.read_text(encoding="utf-8"))
+    es = json.loads(es_path.read_text(encoding="utf-8"))
+    missing = set(en) - set(es)
+    assert not missing, f"es.json missing {len(missing)} keys: {sorted(missing)[:10]}"
