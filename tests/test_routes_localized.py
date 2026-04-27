@@ -93,3 +93,27 @@ def test_root_with_existing_cookie_does_not_redirect():
         # Cookie says zh-Hans but path is /, so no redirect (cookie alone
         # never triggers redirect — only Accept-Language on first visit).
         assert rv.status_code == 200
+
+
+def test_hreflang_tags_present_on_home():
+    with app.test_client() as c:
+        rv = c.get("/")
+        body = rv.data.decode()
+        assert 'hreflang="en"' in body
+        assert 'hreflang="es"' in body
+        assert 'hreflang="zh-Hans"' in body
+        assert 'hreflang="zh-Hant"' in body
+        assert 'hreflang="x-default"' in body
+
+
+def test_hreflang_tags_use_canonical_path_on_localized_route():
+    """On /es/about, hreflang should point to /about, /es/about, /zh-Hans/about, /zh-Hant/about."""
+    with app.test_client() as c:
+        rv = c.get("/es/about")
+        body = rv.data.decode()
+        # Each lang link points to the same canonical sub-path /about
+        assert 'hreflang="es" href="http://localhost/es/about"' in body
+        assert 'hreflang="zh-Hans" href="http://localhost/zh-Hans/about"' in body
+        assert 'hreflang="zh-Hant" href="http://localhost/zh-Hant/about"' in body
+        # The x-default should be the bare /about (no prefix)
+        assert 'hreflang="x-default" href="http://localhost/about"' in body

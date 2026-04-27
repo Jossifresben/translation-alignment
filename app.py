@@ -227,6 +227,29 @@ app.jinja_env.globals["t"] = t
 app.jinja_env.globals["supported_langs"] = I18N_SUPPORTED
 
 
+def canonical_path() -> str:
+    """Return the request path stripped of any language prefix.
+
+    Used by base.html to generate hreflang alternate links and by
+    sitemap.xml to enumerate localized URLs without duplication.
+
+    For /es/about → /about ; for /verse/mark/1/1 → /verse/mark/1/1.
+
+    Note: the _LocalePrefixMiddleware already strips the prefix from
+    PATH_INFO before Flask sees the request, so in practice request.path
+    is already the canonical (un-prefixed) path. The defensive scan
+    below is a no-op in that case but protects against direct callers.
+    """
+    path = request.path
+    for lang in LANG_PREFIXES:
+        if path == f"/{lang}" or path.startswith(f"/{lang}/"):
+            return path[len(f"/{lang}"):] or "/"
+    return path
+
+
+app.jinja_env.globals["canonical_path"] = canonical_path
+
+
 # --- Neighbor lookup (mark-only for MVP) ---
 def _neighbor(chapter: int, verse: int, direction: int) -> tuple[int, int] | None:
     try:
@@ -431,12 +454,15 @@ def robots_txt():
 
 @app.route("/sitemap.xml")
 def sitemap_xml():
-    """Minimal sitemap — home, about, and every verse currently in the alignment store."""
+    """Localized sitemap with xhtml:link alternates per Google's sitemap spec.
+
+    Each canonical URL is emitted four times (one per language with the
+    appropriate path-prefix). Each <url> entry includes <xhtml:link
+    rel="alternate" hreflang="..."/> rows pointing at the other three
+    so search engines can discover and disambiguate them.
+    """
     from flask import Response
-    urls: list[str] = [
-        url_for("index", _external=True),
-        url_for("about", _external=True),
-    ]
+    paths: list[str] = ["/", "/about"]
     try:
         master = _corpora.get("greek_nt")
     except KeyError:
@@ -444,13 +470,31 @@ def sitemap_xml():
     if master is not None:
         for ch in range(1, 17):
             for v in master.verses_in_chapter("Mark", ch):
-                urls.append(url_for("verse", book="mark", chapter=ch, verse=v, _external=True))
-    xml = ['<?xml version="1.0" encoding="UTF-8"?>',
-           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for u in urls:
-        xml.append(f"  <url><loc>{u}</loc></url>")
-    xml.append("</urlset>")
-    return Response("\n".join(xml), mimetype="application/xml")
+                paths.append(f"/verse/mark/{ch}/{v}")
+
+    base = request.url_root.rstrip("/")
+    LANGS = ("en", "es", "zh-Hans", "zh-Hant")
+
+    def url_for_lang(path: str, lang: str) -> str:
+        return base + (path if lang == "en" else f"/{lang}{path}")
+
+    out = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
+        ' xmlns:xhtml="http://www.w3.org/1999/xhtml">',
+    ]
+    for path in paths:
+        for lang in LANGS:
+            out.append("  <url>")
+            out.append(f"    <loc>{url_for_lang(path, lang)}</loc>")
+            for alt in LANGS:
+                out.append(
+                    f'    <xhtml:link rel="alternate" hreflang="{alt}" '
+                    f'href="{url_for_lang(path, alt)}"/>'
+                )
+            out.append("  </url>")
+    out.append("</urlset>")
+    return Response("\n".join(out), mimetype="application/xml")
 
 
 @app.errorhandler(404)

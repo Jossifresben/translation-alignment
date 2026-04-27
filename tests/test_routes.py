@@ -141,3 +141,19 @@ def test_topbar_has_about_link(client):
     resp = client.get("/verse/mark/1/1")
     body = resp.data.decode("utf-8")
     assert 'href="/about"' in body
+
+
+def test_sitemap_includes_localized_alternates():
+    with app.test_client() as c:
+        rv = c.get("/sitemap.xml")
+        body = rv.data.decode()
+        # Original English URLs still present
+        assert "/verse/mark/1/1" in body
+        # xhtml namespace declared
+        assert 'xmlns:xhtml="http://www.w3.org/1999/xhtml"' in body
+        # Each lang has alternates
+        assert 'hreflang="es"' in body
+        assert 'hreflang="zh-Hans"' in body
+        assert 'hreflang="zh-Hant"' in body
+        # English alternate too (so consumers see it as one of four)
+        assert 'hreflang="en"' in body
