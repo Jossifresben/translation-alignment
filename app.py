@@ -13,6 +13,7 @@ from translation_core.alignment import AlignmentStore
 from translation_core.converter import convert_alignment_to_verse
 from translation_core.corpora import CorpusRegistry
 from translation_core.enrichment import GreekEnrichment, PeshittaEnrichment
+from translation_core.i18n import SUPPORTED as I18N_SUPPORTED, Translations
 
 app = Flask(__name__)
 app.jinja_env.trim_blocks = True
@@ -30,6 +31,16 @@ _init_lock = threading.Lock()
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
+
+TRANSLATIONS_DIR = BASE_DIR / "translations"
+_translations = Translations(TRANSLATIONS_DIR)
+
+
+def t(key: str, lang: str = "en") -> str:
+    """Jinja global: resolve a translation key in the current request's lang."""
+    from flask import g
+    current_lang = getattr(g, "lang", lang)
+    return _translations.t(key, current_lang)
 
 CORPUS_FILES = {
     "greek_nt": "greek_nt.csv",
@@ -123,6 +134,8 @@ def verse_stats(verse: dict, grid: list[dict]) -> dict:
 
 app.jinja_env.globals["build_grid"] = build_grid
 app.jinja_env.globals["verse_stats"] = verse_stats
+app.jinja_env.globals["t"] = t
+app.jinja_env.globals["supported_langs"] = I18N_SUPPORTED
 
 
 # --- Neighbor lookup (mark-only for MVP) ---
