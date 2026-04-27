@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% from "macros.html" import witness_header %}
 
-{% block title %}{{ verse.ref }} — Greek / Peshitta / Vulgate aligned — Translation Aligner{% endblock %}
-{% block description %}{{ verse.ref }} aligned word-by-word across the Greek NT, Syriac Peshitta, and Latin Vulgate{% if verse.variants %} — {{ verse.variants|length }} textual variants classified and annotated{% endif %}.{% endblock %}
-{% block brand_meta %}Mk · {{ verse.pericope }}{% endblock %}
+{% block title %}{{ verse.ref }} {{ t('verse.title_meta_suffix') }}{% endblock %}
+{% block description %}{{ verse.ref }} {{ t('verse.description_meta_prefix') }}{% if verse.variants %} {{ t('verse.description_meta_variants_prefix') }}{{ verse.variants|length }} {{ t('verse.description_meta_variants_suffix') }}{% endif %}{% endblock %}
+{% block brand_meta %}{{ t('verse.brand_meta_prefix') }} · {{ verse.pericope }}{% endblock %}
 
 {% block content %}
   {% set grid = build_grid(verse) %}
@@ -28,18 +28,18 @@
       <form class="verse-jump" method="get"
             action="" data-book="{{ verse.book|lower }}" data-view="{{ view }}">
         <span class="jump-book">{{ verse.book }}</span>
-        <select class="jump-select" name="ch" aria-label="Chapter">
+        <select class="jump-select" name="ch" aria-label="{{ t('verse.jump_chapter_aria') }}">
           {% for ch in book_index.keys() %}
             <option value="{{ ch }}" {% if ch == verse.chapter %}selected{% endif %}>{{ ch }}</option>
           {% endfor %}
         </select>
         <span class="jump-colon">:</span>
-        <select class="jump-select" name="v" aria-label="Verse">
+        <select class="jump-select" name="v" aria-label="{{ t('verse.jump_verse_aria') }}">
           {% for v in book_index.get(verse.chapter, []) %}
             <option value="{{ v }}" {% if v == verse.verse %}selected{% endif %}>{{ v }}</option>
           {% endfor %}
         </select>
-        <button class="jump-go" type="submit">Go</button>
+        <button class="jump-go" type="submit">{{ t('verse.jump_go') }}</button>
       </form>
       {% if verse.next %}
         <a class="pager-btn" href="{{ url_for('verse', book=verse.next.book, chapter=verse.next.chapter, verse=verse.next.verse) }}">
@@ -57,9 +57,9 @@
 
   <nav class="mode-tabs" role="tablist">
     {% set tabs = [
-      ('interlinear', 'Interlinear',    None),
-      ('parallel',    'Alignment grid', None),
-      ('apparatus',   'Apparatus',      verse.variants|length),
+      ('interlinear', t('verse.tab_interlinear'),    None),
+      ('parallel',    t('verse.tab_grid'),           None),
+      ('apparatus',   t('verse.tab_apparatus'),      verse.variants|length),
     ] %}
     {% for id, label, count in tabs %}
       <a class="mode-tab {{ 'active' if view == id else '' }}"
