@@ -44,14 +44,9 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 - Enriched prompt producing scholarly prose per variant (mean note length ~296 chars) plus semantic `type` tags
 - Two-tier variant visualization (minor = sage-green, major / omitted / added = rubric-red)
 - 72 automated tests — schema, converter, route, search, benchmark
+- Internationalization: localized URLs (`/es/`, `/zh-Hans/`, `/zh-Hant/`) with bare-root English; first-visit auto-redirect from `Accept-Language`; sticky `lang` cookie; full Spanish UI translations (RV 1909 verse glosses); multi-language gloss stack above the alignment grid; `t()` Jinja global + `window.__I18N__` for client-side strings; hreflang SEO tags; localized sitemap
 
 ## 🎯 Up next
-
-### Internationalization (i18n)
-- Spanish UI translation (chrome + legend copy + apparatus labels)
-- Chinese UI translation (Simplified + Traditional)
-- Verse translations: attach WEB-equivalent Spanish + Chinese verses as a fourth display column or a click-to-show per-token translation
-- Language switcher in the top bar
 
 ### Syriac font selection
 - User-selectable Syriac typeface: Noto Sans Syriac (current default), Estrangelo Edessa, Serto (Jacobite), East Syriac (Nestorian), Madnhaya
@@ -68,7 +63,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 ### Expand book coverage
 
 **New Testament (continuing the current scope):**
-- **All four gospels** — Matthew / Luke / John (~$25, ~45 min batch). Corpus + alignment pipeline already supports this; only the book-index wiring in `app.py` is Mark-scoped.
+- **All four gospels** — Matthew / Luke / John. Corpus + alignment pipeline already supports this; only the book-index wiring in `app.py` is Mark-scoped.
 - **Acts** — Greek NT historical narrative; Vulgate + Peshitta already cover it.
 - **Pauline epistles, general epistles, Revelation** — the remaining Greek NT books.
 

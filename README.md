@@ -184,9 +184,12 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 
 ## Roadmap
 
+### Recently shipped
+
+- **Internationalization (i18n)** — localized URLs (`/es/`, `/zh-Hans/`, `/zh-Hant/`); first-visit auto-redirect from `Accept-Language`; sticky `lang` cookie; full Spanish UI with RV 1909 verse glosses; multi-language gloss stack above the alignment grid; hreflang SEO; localized sitemap
+
 ### Up next
 
-- **Internationalization (i18n)** — Spanish + Chinese UI (chrome, legend copy, apparatus labels) plus aligned Spanish / Chinese verse translations as a fourth display column or click-to-show per-token layer
 - **Syriac font selection** — Noto Sans Syriac (current default) / Estrangelo Edessa / Serto (Jacobite) / East Syriac (Nestorian) / Madnhaya, with glyph preview and per-user persistence
 - **Settings panel in the top bar** — consolidates theme, language, Syriac font, and rail visibility behind a single cog icon
 
@@ -194,7 +197,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 
 **New Testament** (continuing the current scope):
 
-- **All four gospels** — Matthew / Luke / John (~$25, ~45 min batch; pipeline already supports this)
+- **All four gospels** — Matthew / Luke / John (pipeline already supports this)
 - **Acts** — Greek NT historical narrative; Vulgate and Peshitta already cover it
 - **Pauline epistles** — Romans through Philemon
 - **General epistles and Revelation** — James, 1–2 Peter, 1–3 John, Jude, Revelation
