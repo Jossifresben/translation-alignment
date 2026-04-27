@@ -55,3 +55,14 @@ def test_es_json_has_all_en_keys():
     es = json.loads(es_path.read_text(encoding="utf-8"))
     missing = set(en) - set(es)
     assert not missing, f"es.json missing {len(missing)} keys: {sorted(missing)[:10]}"
+
+
+def test_zh_hans_json_has_all_en_keys():
+    en_path = TRANSLATIONS / "en.json"
+    zh_path = TRANSLATIONS / "zh-Hans.json"
+    if not zh_path.exists():
+        pytest.skip("zh-Hans.json not yet authored")
+    en = json.loads(en_path.read_text(encoding="utf-8"))
+    zh = json.loads(zh_path.read_text(encoding="utf-8"))
+    missing = set(en) - set(zh)
+    assert not missing, f"zh-Hans.json missing {len(missing)} keys: {sorted(missing)[:10]}"
