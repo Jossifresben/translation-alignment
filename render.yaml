@@ -11,8 +11,11 @@
 #   2. In Render: New -> Blueprint -> pick this repo -> Apply.
 #   3. Render reads this manifest and creates the web service automatically.
 services:
+  # Service identifier `translation-aligner` is the original blueprint-managed
+  # service; the public face is the custom domain polyglotconcordance.com.
+  # The internal name is just Render's identifier and is not user-visible.
   - type: web
-    name: polyglot-concordance
+    name: translation-aligner
     runtime: python
     plan: starter              # $7/mo, always-on, 512 MB RAM / 0.5 CPU — plenty for this read-only service
     region: oregon             # or `frankfurt` / `singapore` — pick closest to audience
