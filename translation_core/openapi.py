@@ -13,8 +13,10 @@ OPENAPI_SPEC = {
             "Read-only JSON access to the alignment data and search index of the "
             "Polyglot Concordance — a concordance initiative with alignment to the "
             "word level, covering the Gospel of Mark across the Greek NT, Syriac "
-            "Peshitta, and Latin Clementine Vulgate, with a critical apparatus on "
-            "every divergence."
+            "Peshitta, and Latin Clementine Vulgate, with AI-generated alignment "
+            "and apparatus annotations on every divergence. The corpus is a "
+            "machine-generated alignment draft, intended as a starting point for "
+            "scholar review."
         ),
         "version": "1.0.0",
         "contact": {

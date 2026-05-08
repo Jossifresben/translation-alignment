@@ -16,7 +16,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 ### Teaching
 - **Ancient-language pedagogy** — introductory Greek / Hebrew / Syriac / Latin students can hover any word for Strong's / lemma / morphology. The variant apparatus turns every verse into a textual-criticism lesson.
 - **Comparative religion** — a neutral surface for showing how different canonical lineages transmit the same base text.
-- **Critical-edition training** — readers learn to read a scholarly apparatus by clicking through real examples rather than deciphering the dense sigla of a printed NA28 / BHS.
+- **Critical-edition training** — readers learn the *shape* of a scholarly apparatus (sigla, verdicts, types) by clicking through worked examples, before tackling the dense conventions of a printed NA28 / BHS. The apparatus shown here is machine-generated and pedagogical, not a substitute for an authoritative edition.
 
 ### Translation work
 - **Checking a new translation against ancient witnesses** — does a contemporary Spanish or Chinese rendering match the majority of ancient traditions or diverge meaningfully?
@@ -41,7 +41,7 @@ The underlying engine is a **multi-witness parallel-text viewer with a critical 
 - Mark 9 Vulgate versification drift remapped to NA28 boundaries
 - Data pipeline scripts: STEP TAGNT extraction, Clementine USFX → TSV walker, ARA root snapshot, Vulgate / Greek NT / WEB ingestion, Berean benchmark runner
 - Alignment generation via Anthropic Batch API with structured-output validation + quarantine for invalid responses
-- Enriched prompt producing scholarly prose per variant (mean note length ~296 chars) plus semantic `type` tags
+- Enriched prompt producing AI-generated apparatus annotations per variant (mean length ~296 chars) plus semantic `type` tags. Stability across model runs is partial — see `docs/sonnet-vs-opus-mark13.md`.
 - Two-tier variant visualization (minor = sage-green, major / omitted / added = rubric-red)
 - 72 automated tests — schema, converter, route, search, benchmark
 - Internationalization: localized URLs (`/es/`, `/zh-Hans/`, `/zh-Hant/`) with bare-root English; first-visit auto-redirect from `Accept-Language`; sticky `lang` cookie; full Spanish UI translations (RV 1909 verse glosses); multi-language gloss stack above the alignment grid; `t()` Jinja global + `window.__I18N__` for client-side strings; hreflang SEO tags; localized sitemap

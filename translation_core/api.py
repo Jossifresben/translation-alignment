@@ -247,7 +247,10 @@ def manifest():
         "description": (
             "A concordance initiative with alignment to the word level — "
             "Mark across Greek NT, Syriac Peshitta, and Latin Clementine "
-            "Vulgate, with a critical apparatus on every divergence."
+            "Vulgate, with AI-generated alignment and apparatus annotations "
+            "on every divergence. A machine-generated alignment draft, "
+            "intended as a starting point for scholar review rather than "
+            "as an authoritative critical edition."
         ),
         "license": (
             "Code: open-source (intended). Derived alignment JSON: CC BY 4.0 "
