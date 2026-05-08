@@ -39,23 +39,25 @@ def load_chapter(root: Path, chapter: int) -> dict[int, dict]:
     return out
 
 
+def members_key(g: dict) -> tuple:
+    """Two alignment groups are "the same" if they cover the same set of token
+    indices across all three traditions. Tradition keys (greek_nt/peshitta/
+    vulgate) are at the top level of each group in the canonical schema."""
+    return (
+        tuple(sorted(g.get("greek_nt", []))),
+        tuple(sorted(g.get("peshitta", []))),
+        tuple(sorted(g.get("vulgate", []))),
+    )
+
+
 def compare_verse(s: dict, o: dict) -> dict:
     """Compare one verse's Sonnet vs Opus alignment artifacts."""
     s_groups = s.get("alignment", [])
     o_groups = o.get("alignment", [])
 
-    # Index by id (g1, g2, ...) — both runs assign their own ids, so we match
-    # by the set of (greek_idx, peshitta_idx, vulgate_idx) tuples that the
-    # group covers. Two groups are "the same" if their member-token sets
-    # match across all three traditions.
-    def members_key(g: dict) -> tuple:
-        m = g.get("members", {})
-        return (
-            tuple(sorted(m.get("greek_nt", []))),
-            tuple(sorted(m.get("peshitta", []))),
-            tuple(sorted(m.get("vulgate", []))),
-        )
-
+    # Multiple groups can share the same membership key only in pathological
+    # cases (would mean both groups cover identical tokens) — we rely on
+    # uniqueness here, dropping duplicates if any.
     s_by_key = {members_key(g): g for g in s_groups}
     o_by_key = {members_key(g): g for g in o_groups}
 
@@ -65,16 +67,20 @@ def compare_verse(s: dict, o: dict) -> dict:
     only_sonnet = s_keys - o_keys
     only_opus = o_keys - s_keys
 
-    # For groups with matching membership: how often do verdict/type/note differ?
-    verdict_disagreement = 0
+    # For groups with matching membership: how often do variant/type/note differ?
+    # Schema fields: `variant` (the verdict: aligned/minor/major/omitted/added),
+    # `type` (semantic type — present on non-aligned groups), `note` (apparatus
+    # prose — present on non-aligned groups).
+    variant_disagreement = 0
     type_disagreement = 0
     note_similarity_sum = 0.0
     note_pairs = 0
     for k in shared:
         sg = s_by_key[k]
         og = o_by_key[k]
-        if sg.get("verdict") != og.get("verdict"):
-            verdict_disagreement += 1
+        if sg.get("variant") != og.get("variant"):
+            variant_disagreement += 1
+        # `type` may be absent on `aligned` groups; treat absent as None
         if sg.get("type") != og.get("type"):
             type_disagreement += 1
         sn = (sg.get("note") or "").strip()
@@ -91,7 +97,7 @@ def compare_verse(s: dict, o: dict) -> dict:
         "shared_groups": len(shared),
         "only_sonnet_groups": len(only_sonnet),
         "only_opus_groups": len(only_opus),
-        "verdict_disagreement": verdict_disagreement,
+        "variant_disagreement": variant_disagreement,
         "type_disagreement": type_disagreement,
         "note_avg_similarity": round(note_similarity_sum / note_pairs, 3) if note_pairs else None,
         "note_pairs_compared": note_pairs,
@@ -110,7 +116,7 @@ def fmt_md(rows: list[dict], chapter: int) -> str:
     total_shared = sum(r["shared_groups"] for r in rows)
     total_only_s = sum(r["only_sonnet_groups"] for r in rows)
     total_only_o = sum(r["only_opus_groups"] for r in rows)
-    total_verdict_d = sum(r["verdict_disagreement"] for r in rows)
+    total_variant_d = sum(r["variant_disagreement"] for r in rows)
     total_type_d = sum(r["type_disagreement"] for r in rows)
     note_sims = [r["note_avg_similarity"] for r in rows if r["note_avg_similarity"] is not None]
     avg_note_sim = round(sum(note_sims) / len(note_sims), 3) if note_sims else None
@@ -118,8 +124,8 @@ def fmt_md(rows: list[dict], chapter: int) -> str:
     avg_o_conf = round(sum(r["opus_confidence"] or 0 for r in rows) / len(rows), 3)
 
     pct_membership_match = round(100 * total_shared / max(total_s, total_o), 1)
-    pct_verdict_match = (
-        round(100 * (total_shared - total_verdict_d) / total_shared, 1)
+    pct_variant_match = (
+        round(100 * (total_shared - total_variant_d) / total_shared, 1)
         if total_shared else 0
     )
     pct_type_match = (
@@ -144,7 +150,7 @@ def fmt_md(rows: list[dict], chapter: int) -> str:
     lines.append(f"| Group-membership overlap | {total_shared} ({pct_membership_match}%) |")
     lines.append(f"| Groups only in Sonnet | {total_only_s} |")
     lines.append(f"| Groups only in Opus | {total_only_o} |")
-    lines.append(f"| Verdict agreement (within shared groups) | {total_shared - total_verdict_d}/{total_shared} ({pct_verdict_match}%) |")
+    lines.append(f"| Variant agreement (within shared groups) | {total_shared - total_variant_d}/{total_shared} ({pct_variant_match}%) |")
     lines.append(f"| Type agreement (within shared groups) | {total_shared - total_type_d}/{total_shared} ({pct_type_match}%) |")
     if avg_note_sim is not None:
         lines.append(f"| Avg apparatus-note similarity (Levenshtein ratio) | {avg_note_sim} |")
@@ -153,7 +159,7 @@ def fmt_md(rows: list[dict], chapter: int) -> str:
     lines.append("")
     lines.append("## Per-verse")
     lines.append("")
-    lines.append("| Verse | S grp | O grp | shared | only-S | only-O | verdict δ | type δ | note sim | S conf | O conf |")
+    lines.append("| Verse | S grp | O grp | shared | only-S | only-O | variant δ | type δ | note sim | S conf | O conf |")
     lines.append("|---|---|---|---|---|---|---|---|---|---|---|")
     for r in rows:
         sim = f"{r['note_avg_similarity']}" if r["note_avg_similarity"] is not None else "—"
@@ -161,7 +167,7 @@ def fmt_md(rows: list[dict], chapter: int) -> str:
             f"| {r['ref']} "
             f"| {r['sonnet_groups']} | {r['opus_groups']} | {r['shared_groups']} "
             f"| {r['only_sonnet_groups']} | {r['only_opus_groups']} "
-            f"| {r['verdict_disagreement']} | {r['type_disagreement']} "
+            f"| {r['variant_disagreement']} | {r['type_disagreement']} "
             f"| {sim} "
             f"| {r['sonnet_confidence']} | {r['opus_confidence']} |"
         )
@@ -173,9 +179,9 @@ def fmt_md(rows: list[dict], chapter: int) -> str:
     lines.append("  witnesses. This is the most fundamental agreement metric — if the two runs")
     lines.append("  don't even agree on *which tokens align*, downstream verdict/type comparisons")
     lines.append("  are meaningless.")
-    lines.append("- **Verdict / type agreement**: of the groups that *do* share membership, how")
-    lines.append("  often do both runs assign the same `verdict` (aligned/minor/major/...) and")
-    lines.append("  `type` (harmonisation/substitution/...).")
+    lines.append("- **Variant / type agreement**: of the groups that *do* share membership, how")
+    lines.append("  often do both runs assign the same `variant` verdict (aligned / minor / major /")
+    lines.append("  omitted / added) and the same `type` (harmonisation / substitution / ...).")
     lines.append("- **Note similarity**: a Levenshtein ratio (0–1) between the two runs' apparatus")
     lines.append("  prose for the same group. 1.0 = identical text; ~0.4 = same idea, different")
     lines.append("  wording; <0.2 = substantively different claims.")
