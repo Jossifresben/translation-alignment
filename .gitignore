@@ -27,6 +27,9 @@ venv/
 # Ingestion cache (downloaded source archives, regenerable)
 data/_ingest_cache/
 
+# Model comparison runs (Sonnet vs Opus etc) — local-only, regenerable
+data/_compare/
+
 # Designer UX source (local reference, not shipped)
 translation aligner UX-UI/
 

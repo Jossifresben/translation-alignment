@@ -287,11 +287,18 @@ def build_batch_requests(
     system_prompt: str,
     few_shot: list[dict],
     force: bool = False,
+    chapter_filter: int | None = None,
 ) -> list[dict]:
-    """One request per Mark verse that lacks a valid JSON (unless force=True)."""
+    """One request per Mark verse that lacks a valid JSON (unless force=True).
+
+    If chapter_filter is given, restrict to that chapter only.
+    """
     requests = []
     master = corpora.get("greek_nt")
-    for ch in range(1, 17):
+    chapters = (
+        [chapter_filter] if chapter_filter is not None else list(range(1, 17))
+    )
+    for ch in chapters:
         for v in master.verses_in_chapter("Mark", ch):
             target = out_root / "mark" / str(ch) / f"{v}.json"
             if target.exists() and not force:
@@ -404,12 +411,18 @@ def main() -> None:
     ap.add_argument("--report", action="store_true",
                     help="Report low-confidence and quarantined verses")
     ap.add_argument("--threshold", type=float, default=0.7)
+    ap.add_argument("--out-root", type=Path, default=None,
+                    help="Override write location for alignment JSONs "
+                         "(default: <data-dir>/alignments). Use to avoid "
+                         "overwriting prod when comparing models.")
+    ap.add_argument("--chapter", type=int, default=None,
+                    help="Restrict --full to one chapter only.")
     args = ap.parse_args()
 
     client, corpora, greek_enrich, peshitta_enrich = _load_all(args.data_dir)
     system_prompt = load_system_prompt()
     few_shot = load_few_shot_examples()
-    out_root = args.data_dir / "alignments"
+    out_root = args.out_root if args.out_root is not None else args.data_dir / "alignments"
 
     if args.pilot:
         stats = run_pilot(client, corpora, greek_enrich, peshitta_enrich,
@@ -427,7 +440,8 @@ def main() -> None:
     elif args.full:
         requests = build_batch_requests(corpora, greek_enrich, peshitta_enrich,
                                          out_root, args.model, system_prompt,
-                                         few_shot, force=args.force)
+                                         few_shot, force=args.force,
+                                         chapter_filter=args.chapter)
         if not requests:
             logger.info("No verses to generate. Use --force to regenerate existing.")
             return
