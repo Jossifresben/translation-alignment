@@ -59,25 +59,11 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀναβλέψας (aorist participle, 'having looked up') is rendered by Vulgate suscipiens ('lifting up [eyes]'), a Latin idiom for the same gesture. Peshitta ܘܚܪ ('and he looked') conflates the conjunction and verb into a single coordinated clause rather than a participial construction."
-    },
-    {
-      "greek_nt": [
+        1,
         2,
         3,
         4
@@ -86,12 +72,13 @@
         1
       ],
       "vulgate": [
+        1,
         2,
         3
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase εἰς τὸν οὐρανόν ('into the heaven') with accusative article; Vulgate mirrors this with in cælum (accusative without article, standard Latin); Peshitta employs ܒܫܡܝܐ (prepositional phrase with ܒ, 'in/toward heaven'), a functionally equivalent but syntactically distinct construction typical of Syriac directional expressions."
+      "note": "Greek ἀναβλέψας εἰς τὸν οὐρανόν ('having looked up to heaven') and the Vulgate suscipiens in cælum render the gesture with participle plus prepositional phrase, whereas the Peshitta compresses this to ܘܚܪ ܒܫܡܝܐ ('and he looked at heaven'), using a finite verb and folding the directional sense into the preposition ܒ. The substance is identical; only the syntactic packaging differs."
     },
     {
       "greek_nt": [
@@ -104,20 +91,16 @@
         4
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐστέναξεν / ܘܐܬܬܢܚ / ingemuit"
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [
-        3
-      ],
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -131,7 +114,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek λέγει (present tense, historical present) is rendered by Vulgate ait (perfect tense, standard Latin narrative past) and Peshitta ܘܐܡܪ (perfect, 'and he said'). The Greek historical present creates vividness; Latin and Syriac normalize to past-tense narrative convention."
+      "note": "Greek λέγει is a vivid historic present ('he says'), a Markan stylistic hallmark, while both the Peshitta perfect ܘܐܡܪ and the Vulgate ait render it as a simple past. The versions normalise the narrative tense, smoothing Mark's characteristic present."
     },
     {
       "greek_nt": [
@@ -144,54 +127,49 @@
         7,
         8
       ],
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / illi (the Vulgate colon at index 8 marks the introduction of direct speech)"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "vulgate": [
+        9
+      ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek αὐτῷ (dative pronoun with no punctuation) is mirrored by Peshitta ܠܗ (prepositional phrase 'to him') and Vulgate illi (dative) followed by a colon. The Vulgate colon marks the transition to direct speech more explicitly than the Greek or Syriac traditions, which rely on context alone."
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek preserves the Aramaic transliteration εφφαθα (Ephphatha), as does Vulgate Ephphetha. The Peshitta omits the transliterated form entirely, proceeding directly to the Syriac translation ܐܬܦܬܚ ('be opened'), likely because the original Aramaic command required no transliteration for a Syriac-speaking audience."
+      "type": "lexical",
+      "note": "Greek transliterates the Aramaic command as εφφαθα and the Vulgate as Ephphetha, preserving the foreign loan-word for its evangelistic effect. The Peshitta has no separate transliteration here because the original Aramaic word coincides with its own native verb, given directly below."
     },
     {
       "greek_nt": [
         10,
-        11
-      ],
-      "peshitta": [],
-      "vulgate": [
-        10,
-        11
-      ],
-      "variant": "omitted",
-      "type": "gloss",
-      "note": "Greek ὅ ἐστιν ('which is') and Vulgate quod est ('which is') provide an explanatory gloss introducing the translation of the Aramaic term. The Peshitta omits this metalinguistic apparatus, as the Syriac ܐܬܦܬܚ directly conveys the meaning without need for interpretive framing."
-    },
-    {
-      "greek_nt": [
+        11,
         12
       ],
+      "vulgate": [
+        10,
+        11,
+        12
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The explanatory gloss ὅ ἐστιν διανοίχθητι ('which is, Be opened'), rendered in the Vulgate as quod est, Adaperire, is absent from the Peshitta. Since Syriac is itself an Aramaic dialect, the translation gloss intended for Greek/Latin readers is superfluous, and the single Peshitta verb ܐܬܦܬܚ below supplies the meaning directly."
+    },
+    {
+      "greek_nt": [],
       "peshitta": [
         5
       ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "added",
+      "type": "idiom",
+      "note": "The Peshitta gives only ܐܬܦܬܚ ('be opened'), the ethpʿel imperative of p-th-kh, which simultaneously functions as the spoken command and renders Jesus' word without need of a separate transliteration-plus-gloss. This collapses the Greek/Latin two-part structure (foreign word + translation) into one native term."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.993119+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.543772+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

@@ -81,53 +81,101 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Peshitta uses the relative pronoun ܐܝܕܐ ('who') where Greek and Latin employ the conjunction καὶ/et ('and'), creating a relative clause construction rather than a coordinate clause. This is a typical Syriac syntactic preference for subordination over coordination in participial chains."
+      "type": "construction",
+      "note": "Greek and Latin open with the connective καί / et; the Peshitta instead employs a relative pronoun ܐܝܕܐ ('she who') at token 0, recasting the entire clause as a relative description of the woman rather than a coordinate narrative continuation."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "construction",
+      "note": "The Syriac feminine relative pronoun ܐܝܕܐ has no direct equivalent in the Greek or Latin, which carry the subject implicitly through the feminine participles; the Peshitta makes the antecedent grammatically explicit."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "πολλά / ܕܣܓܝ / multa"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
         1,
-        2,
         3
       ],
       "variant": "minor",
+      "type": "construction",
+      "note": "Greek παθοῦσα and Syriac ܣܒܠܬ are simple aorist/perfect verbal forms of 'suffer'; the Vulgate expands into the periphrastic pluperfect fuerat … perpessa ('had suffered'), a Latin stylistic preference for compound past tenses in narrative background."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "ὑπό / ܡܢ / a"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the adverb πολλὰ before the participle παθοῦσα; Vulgate reverses this to multa perpessa with the pluperfect fuerat added for temporal clarity; Peshitta follows Greek word order with ܕܣܓܝ ܣܒܠܬ. The Vulgate's pluperfect construction emphasizes anteriority within the narrative sequence."
+      "note": "Greek and Latin place 'many/compluribus' before the noun 'physicians', whereas the Peshitta places ܣܓܝܐܐ after ܐܣܘܬܐ, reflecting the normal Syriac adjective-follows-noun order without affecting meaning."
     },
     {
       "greek_nt": [
-        3,
-        4,
         5
       ],
       "peshitta": [
-        3,
-        4,
-        5
+        4
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ὑπὸ πολλῶν ἰατρῶν ('under many physicians') uses the preposition ὑπό with genitive to denote agency. Peshitta substitutes ܡܢ ܐܣܘܬܐ ܣܓܝܐܐ ('from many healings/treatments'), shifting focus from the physicians themselves to the medical treatments received. Vulgate a compluribus medicis mirrors the Greek construction with ablative of agent."
+      "variant": "aligned",
+      "note": "ἰατρῶν / ܐܣܘܬܐ / medicis"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon dividing the clause; this editorial punctuation has no counterpart in the unpointed Greek or Syriac textual stream."
     },
     {
       "greek_nt": [
@@ -137,40 +185,60 @@
         6
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "aligned",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after medicis to mark a major syntactic break, while Greek and Peshitta continue with simple coordination."
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek δαπανήσασα and Latin erogaverat denote 'having spent/expended', while the Syriac ܘܐܦܩܬ (root a-p-q, 'to bring/lay out') is fused with the preceding conjunction in a single token and renders the sense 'she paid out', a lexically distinct but semantically equivalent verb of expenditure."
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10,
         11
       ],
       "peshitta": [
-        6,
         7,
         8,
         9,
         10
       ],
       "vulgate": [
-        9,
         10,
         11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the articular prepositional phrase τὰ παρ᾽ αὐτῆς πάντα ('all the things from her') to express totality of possessions. Peshitta employs a relative clause construction ܟܠ ܡܕܡ ܕܐܝܬ ܠܗ ('all that which was to her'), a characteristic Semitic idiom. Vulgate simplifies to omnia sua ('all her things'), using a possessive adjective."
+      "note": "Greek substantivises the possessive with article + prepositional phrase (τὰ παρ᾽ αὐτῆς πάντα, 'all the things from herself'); the Peshitta uses a relative possessive construction ܟܠ ܡܕܡ ܕܐܝܬ ܠܗ ('everything that was hers'); the Vulgate compresses both to omnia sua ('all her own'). All three convey total expenditure of her means."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek continues with coordinating καί and the Syriac with ܘ- prefixed to ܡܕܡ; the Vulgate drops the connective entirely, using nec to fold the conjunction and negation together in the following clause."
+    },
+    {
+      "greek_nt": [
         13,
         14
       ],
@@ -185,25 +253,44 @@
         14
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek μηδὲν ὠφεληθεῖσα ('having benefited nothing') uses the passive aorist participle of ὠφελέω. Peshitta ܘܡܕܡ ܠܐ ܐܬܥܕܪܬ ('and nothing was she helped') employs the Ethpael of ܥܕܪ with explicit negation. Vulgate nec quidquam profecerat ('nor had she profited anything') uses the pluperfect active, maintaining temporal consistency with the earlier fuerat perpessa."
+      "type": "construction",
+      "note": "Greek uses the negated participle μηδὲν ὠφεληθεῖσα ('having benefited in nothing'); the Peshitta renders a finite clause ܡܕܡ ܠܐ ܐܬܥܕܪܬ ('she was helped in nothing', root e-d-r/'help'); the Vulgate likewise uses a finite verb nec quidquam profecerat ('nor had she profited'). The participle-versus-finite-verb difference is constructional rather than semantic."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "ἀλλά / ܐܠܐ / sed"
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        14,
-        15
-      ],
-      "vulgate": [
-        15,
         16
       ],
-      "variant": "minor",
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "μᾶλλον / ܝܬܝܪܐܝܬ / magis"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [],
+      "variant": "added",
       "type": "expansion",
-      "note": "Peshitta adds the emphatic particle ܐܦ ('even, also') alongside ܐܠܐ ('but'), creating ܐܠܐ ܐܦ ('but even'), which intensifies the adversative contrast beyond Greek ἀλλὰ μᾶλλον and Latin sed magis. This double-particle construction is a Syriac rhetorical intensification."
+      "note": "The Peshitta adds the emphatic particle ܐܦ ('even/also') before 'more', intensifying the contrast; neither the Greek nor the Latin carries a corresponding adverbial particle here."
     },
     {
       "greek_nt": [
@@ -213,16 +300,15 @@
         20
       ],
       "peshitta": [
-        16,
         17
       ],
       "vulgate": [
         17,
         18
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase εἰς τὸ χεῖρον with the participle ἐλθοῦσα ('having come into the worse'), expressing deterioration through motion metaphor. Peshitta employs the adverb ܝܬܝܪܐܝܬ ('exceedingly, more') with the Ethpaal verb ܐܬܐܠܨܬ ('she was afflicted'), focusing on intensification of suffering rather than directional change. Vulgate magis deterius habebat ('she had it more badly') uses a comparative adverb with imperfect tense, eliminating the motion metaphor entirely."
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses an idiomatic motion construction εἰς τὸ χεῖρον ἐλθοῦσα ('having come into the worse'); the Vulgate renders it more plainly deterius habebat ('she was worse off'); the Syriac collapses the whole phrase into a single passive verb ܐܬܐܠܨܬ (root a-l-ts, 'she was distressed/oppressed'), an idiomatic rendering of worsening condition."
     },
     {
       "greek_nt": [],
@@ -230,14 +316,14 @@
       "vulgate": [
         19
       ],
-      "variant": "minor",
+      "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate concludes the verse with a colon, marking the end of the background description before the main narrative action resumes. Greek uses a comma; Peshitta has no explicit punctuation marker in the manuscript tradition."
+      "note": "The closing colon of the Vulgate is an editorial division mark added by the Clementine editors and has no basis in the Greek or Syriac textual tradition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.974871+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.539807+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

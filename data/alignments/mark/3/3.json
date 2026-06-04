@@ -57,8 +57,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ λέγει splits the conjunction and verb into two tokens, while the Peshitta synthetic form ܘܐܡܪ fuses the waw-conjunction with the verb of speaking; the Vulgate likewise separates Et from ait. The grouping here treats the connective with its respective verb across the differing morphological packagings."
     },
     {
       "greek_nt": [
@@ -70,8 +71,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the historic present λέγει ('he says', present indicative), preserving Mark's vivid narrative tense, whereas the Vulgate renders it with the present/perfect ait and the Peshitta with the perfect ܐܡܪ; both versions normalise the Markan historic present into a past-narrative form."
     },
     {
       "greek_nt": [
@@ -85,9 +87,9 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article τῷ with dative ἀνθρώπῳ; Syriac uses the prefixed preposition ܠ with demonstrative ܗܘ plus noun ܓܒܪܐ; Latin uses bare dative homini. All three express the indirect object identically in meaning but through different morphosyntactic strategies."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek τῷ ἀνθρώπῳ with article corresponds to Peshitta ܠܗܘ ܓܒܪܐ (preposition + demonstrative + noun) and Latin dative homini."
     },
     {
       "greek_nt": [
@@ -106,21 +108,9 @@
         4,
         5
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses a substantival participial construction (τῷ τὴν ξηρὰν χεῖρα ἔχοντι, 'the one having the withered hand') with double article and accusative object. Latin mirrors this with a participial phrase (habenti manum aridam). Syriac employs a relative clause construction (ܕܝܒܝܫܐ ܐܝܕܗ, 'whose hand [is] withered') with the adjective ܝܒܝܫܐ modifying the possessed noun ܐܝܕܗ, reflecting typical Semitic preference for relative-clause attribution over participial modification."
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon to mark the transition from narrative frame to direct speech. Greek uses a raised dot (·) after the participle ἔχοντι; Peshitta has no overt punctuation marker, relying on syntactic structure alone to signal the speech boundary."
+      "type": "construction",
+      "note": "Greek employs an articular attributive participle phrase (τῷ τὴν ξηρὰν χεῖρα ἔχοντι, 'the one having the withered hand') and the Vulgate matches with a participial habenti manum aridam; the Peshitta restructures the clause as a relative with the predicate fronted (ܕܝܒܝܫܐ ܐܝܕܗ, 'whose hand was withered'), a syntactically distinct but semantically equivalent rendering."
     },
     {
       "greek_nt": [
@@ -132,8 +122,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔγειρε ('arise/get up') is rendered by the Vulgate with the cognate motion verb Surge, while the Peshitta uses ܩܘܡ (root q-w-m, 'stand up'); all three convey the command to rise, differing only in the lexical nuance between rising and standing."
     },
     {
       "greek_nt": [
@@ -148,15 +139,23 @@
         8,
         9
       ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek εἰς τὸ μέσον and Latin in medium correspond to the single Syriac prepositional form ܒܡܨܥܬܐ ('into the midst')."
+    },
+    {
+      "vulgate": [
+        6
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase εἰς τὸ μέσον ('into the midst') with article and accusative neuter adjective. Latin employs in medium, mirroring the Greek structure. Syriac uses the single prepositional phrase ܒܡܨܥܬܐ ('in the middle'), with the preposition ܒ governing the emphatic state noun, a more compact idiomatic rendering semantically equivalent to the Greek-Latin construction."
+      "type": "punctuation",
+      "note": "The Vulgate marks the boundary between the narrative frame and the direct speech with an explicit colon (:), a punctuation feature absent from the unpointed Peshitta token stream; the Greek carries the corresponding raised point on ἔχοντι· which is grouped with that participle."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.957235+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.560319+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

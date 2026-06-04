@@ -72,46 +72,67 @@
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses simple conjunction καί ('and'), while Peshitta employs the contrastive particle ܕܝܢ (dēn, 'but/now'), which heightens the narrative tension of Judas's betrayal. Vulgate follows Greek with coordinating 'Et'."
+      "type": "construction",
+      "note": "Greek and Latin open with the coordinating conjunction καί / Et ('and'), placed initially in the clause. The Peshitta instead uses the postpositive particle ܕܝܢ ('but, now'), which mirrors Greek δέ rather than καί and reflects a stylistic preference for adversative/transitional flow at narrative junctures."
     },
     {
       "greek_nt": [
         1,
-        2,
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "Ἰούδας / ܝܗܘܕܐ / Judas; the Greek article ὁ is anarthrous in Syriac and Latin as proper-name usage."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        0,
         2
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs double article construction (ὁ Ἰούδας Ἰσκαριώθ, ὁ εἷς) for emphasis; Peshitta and Vulgate lack articles as their languages do not require them for proper names, resulting in more compact syntax without semantic loss."
+      "type": "lexical",
+      "note": "The epithet appears as Greek Ἰσκαριώθ (Semitic transliteration), Syriac ܣܟܪܝܘܛܐ, and Latin Iscariotes; the slight phonetic variation reflects each language's transliteration conventions for the underlying ish-Qeriyoth ('man of Kerioth'), with no semantic divergence."
     },
     {
       "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the appositional article + numeral ὁ εἷς ('the one'); the Vulgate renders unus and the Peshitta ܚܕ without the determinative article. The Greek arthrous construction marks Judas specifically as 'the one of the Twelve,' a nuance the other versions leave implicit."
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τῶν δώδεκα / ܡܢ ܬܪܥܣܪ / de duodecim ('of the twelve')."
     },
     {
       "greek_nt": [
@@ -124,27 +145,37 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἀπῆλθεν / ܐܙܠ / abiit ('went away')."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "πρός / ܠܘܬ / ad ('to')."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        7,
         8,
         9
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἀρχιερεῖς ('chief priests', plural) and Vulgate summos sacerdotes mirror each other; Peshitta uses ܪܒܝ ܟܗܢܐ (rabbay kāhnē, literally 'great/chief of priests'), a construct-state phrase typical of Syriac for expressing hierarchical titles."
+      "note": "Greek ἀρχιερεῖς ('chief priests') is a single compound noun; the Peshitta renders it analytically as ܪܒܝ ܟܗܢܐ ('chiefs of the priests') and the Vulgate as summos sacerdotes ('high priests'). Both versions unpack the Greek compound into a construct/adjectival phrase reflecting the same office."
     },
     {
       "greek_nt": [
@@ -156,35 +187,51 @@
       "vulgate": [
         10
       ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Greek employs purpose clause with ἵνα + subjunctive ('in order that'); Vulgate mirrors with 'ut' + subjunctive; Peshitta uses ܐܝܟ (ayk, 'as/so that'), a semantically equivalent but syntactically distinct purpose marker in Syriac."
+      "variant": "aligned",
+      "note": "ἵνα / ܐܝܟ ܕ / ut (purpose conjunction)."
     },
     {
       "greek_nt": [
         13,
-        14,
-        15
+        14
       ],
       "peshitta": [
-        11,
-        12,
-        13
+        11
       ],
       "vulgate": [
         11,
-        12,
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the object pronoun and verb separately (αὐτὸν παραδοῖ); the Vulgate likewise (proderet eum). The Peshitta fuses verb and object suffix into the single form ܕܢܫܠܡܝܘܗܝ ('that he might hand him over'), a typical Syriac synthetic construction with an enclitic pronominal object."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
         13
       ],
-      "variant": "major",
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis ('to them')."
+    },
+    {
+      "peshitta": [
+        13
+      ],
+      "variant": "added",
       "type": "expansion",
-      "note": "Peshitta explicitly names the object of betrayal as ܠܝܫܘܥ ('Jesus'), whereas Greek and Vulgate use only the pronoun αὐτόν/eum ('him'). This expansion clarifies the referent, possibly reflecting liturgical or catechetical concerns in the Syriac tradition to avoid ambiguity in oral proclamation."
+      "note": "The Peshitta makes the object explicit by adding ܠܝܫܘܥ ('Jesus'), specifying whom Judas would betray. Neither the Greek NA28 (which leaves αὐτόν as an unexpressed-antecedent pronoun) nor the Vulgate names Jesus here; this is an explicating expansion typical of the Syriac tradition's tendency to resolve ambiguous pronouns."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.036017+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.559830+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

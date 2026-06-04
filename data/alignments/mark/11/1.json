@@ -67,14 +67,27 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
         0,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek coordinates with καί + temporal ὅτε as two words; the Peshitta fuses conjunction and temporal particle into the single prefixed form ܘܟܕ ('and when'); the Vulgate splits the sense across Et + cum, which jointly render the same coordinated temporal clause."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
         1
       ],
       "variant": "aligned",
@@ -92,7 +105,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses present tense ἐγγίζουσιν (they draw near, historical present), while Peshitta ܩܪܒ and Vulgate appropinquarent employ past tense forms (perfect and imperfect subjunctive respectively), normalizing the narrative temporality."
+      "note": "Greek ἐγγίζουσιν is a present indicative 3rd plural ('they draw near'); the Vulgate appropinquarent is imperfect subjunctive, the normal Latin sequence after temporal cum; the Peshitta ܩܪܒ is a simple perfect form, leaving the plural subject implicit. The verbal aspect and mood differ across all three though the event is identical."
     },
     {
       "greek_nt": [
@@ -106,59 +119,105 @@
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "Ἱεροσόλυμα / ܠܐܘܪܫܠܡ / Jerosolymæ; Syriac and Latin attach the directional/locative sense to the noun without a separate preposition."
     },
     {
       "greek_nt": [
-        5,
-        6
+        5
       ],
       "peshitta": [
         3,
-        4,
-        5
+        4
       ],
       "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits Bethphage entirely, listing only Bethany (et Bethaniæ), whereas both Greek (εἰς Βηθφαγὴ καὶ Βηθανίαν) and Peshitta (ܥܠ ܓܢܒ ܒܝܬ-ܦܓܐ ܘܒܝܬ-ܥܢܝܐ) attest both villages. Additionally, the Peshitta inserts ܥܠ ܓܢܒ ('by the side of' / 'near'), an idiomatic locative construction absent in Greek and Latin."
+      "variant": "added",
+      "type": "expansion",
+      "note": "Against the Greek preposition εἰς and against the Vulgate (which lacks any equivalent), the Peshitta inserts the idiomatic phrase ܥܠ ܓܢܒ ('alongside, near the side of'), specifying that the towns lie near Jerusalem rather than that the party entered the city. This is a Syriac topographical clarification with no Greek or Latin counterpart."
     },
     {
       "greek_nt": [
-        7,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek Βηθφαγή and Peshitta ܒܝܬ-ܦܓܐ both name Bethphage, but the Clementine Vulgate omits this toponym entirely, retaining only Bethania; this reflects a known Latin textual tradition that drops Bethphage here."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- (prefixed on ܘܒܝܬ-ܥܢܝܐ) / et."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "Βηθανίαν / ܒܝܬ-ܥܢܝܐ / Bethaniæ."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πρός / ܠܘܬ / ad, all governing the following 'mount'."
+    },
+    {
+      "greek_nt": [
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὄρος / ܛܘܪܐ / montem; the Greek article τό has no separate equivalent in Syriac or Latin."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        7,
-        8,
         9
       ],
       "vulgate": [
-        6,
-        7,
         8
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek uses the articular genitive plural τῶν ἐλαιῶν ('of the olives') with singular ὄρος, yielding 'the Mount of Olives.' Syriac employs the singular construct ܛܘܪܐ ܕܙܝܬܐ ('mountain of olive'), a typical Semitic idiom for geographic mass-nouns. Latin montem Olivarum uses the genitive plural Olivarum, mirroring Greek syntax but with Romance morphology."
+      "type": "grammar",
+      "note": "Greek and Latin use the genitive plural (τῶν ἐλαιῶν / Olivarum, 'of the olives/olive-trees'); the Syriac ܕܙܝܬܐ employs the singular collective ('of olive'), a typical Semitic use of the singular for a mass or collective referent."
     },
     {
       "greek_nt": [
@@ -170,35 +229,48 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀποστέλλει and Latin mittit are present indicative ('he sends'), the historic present; the Peshitta ܫܕܪ is a perfect ('he sent'), the normal Syriac narrative tense, a routine aspectual shift."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "δύο / ܬܪܝܢ / duos."
+    },
+    {
+      "greek_nt": [
         16,
         17,
         18
       ],
       "peshitta": [
-        11,
         12,
         13
       ],
       "vulgate": [
-        10,
         11,
         12,
         13
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "'two of his disciples': Greek τῶν μαθητῶν αὐτοῦ with partitive genitive, Latin ex discipulis suis with the partitive preposition ex, Syriac ܡܢ ܬܠܡܝܕܘܗܝ with ܡܢ + suffixed possessive — three equivalent ways of expressing the partitive-possessive sense."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.015411+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.449679+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

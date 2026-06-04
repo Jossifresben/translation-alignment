@@ -79,56 +79,60 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek ἀλλ᾽ and Peshitta ܐܠܐ both function as adversative conjunctions, but the Peshitta repositions this element to follow the initial negative clause (after ܡܐܢܘܗܝ), creating a different rhetorical structure. The Vulgate omits an explicit adversative conjunction entirely, relying on the negative construction alone."
-    },
-    {
-      "greek_nt": [
-        1,
-        2,
-        3
-      ],
-      "peshitta": [
-        0,
-        1,
-        2
-      ],
-      "vulgate": [
         0,
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the negation οὐ before the verb δύναται and subject οὐδεὶς, while Peshitta fronts the negation ܠܐ before subject ܐܢܫ and verb ܡܫܟܚ. Latin uses nemo (incorporating negation into the pronoun) with potest, achieving the same semantic force through lexical rather than syntactic negation."
+      "type": "omission",
+      "note": "The Greek opens with the adversative conjunction ἀλλά ('but'), marking a contrast with the preceding logion. Neither the Vulgate (which begins flatly with Nemo) nor the Peshitta (beginning ܠܐ ܐܢܫ) renders this connective particle, smoothing the transition."
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the negation analytically with οὐ … οὐδείς ('not … no one'), a double-negative reinforcement. Both Latin Nemo and Syriac ܠܐ ܐܢܫ collapse this into a single negated indefinite pronoun ('no one'), a more economical idiom."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "δύναται / ܡܫܟܚ / potest — 'is able'."
     },
     {
       "greek_nt": [
         9
       ],
-      "peshitta": [
-        3
-      ],
       "vulgate": [
         4
       ],
+      "peshitta": [
+        3
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs an aorist participle εἰσελθὼν ('having entered') to express the action subordinately, while Peshitta uses a prefixed d- construction ܕܢܥܘܠ (infinitive with purposive/temporal force) and Vulgate uses a perfect participle ingressus. All three convey entry into the house, but through distinct grammatical strategies."
+      "note": "Greek uses the aorist participle εἰσελθών ('having entered'), matched by the Latin participle ingressus; the Peshitta instead employs a finite subordinate verb ܕܢܥܘܠ ('that he may enter'), recasting the participial phrase as a relative/purpose clause typical of Syriac syntax."
     },
     {
       "greek_nt": [
         4,
         5,
-        6,
-        7,
-        8
+        6
       ],
       "peshitta": [
         4,
@@ -141,7 +145,21 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek uses prepositional phrase εἰς τὴν οἰκίαν τοῦ ἰσχυροῦ with article-noun-genitive structure; Peshitta employs construct state ܠܒܝܬ ܚܣܝܢܐ (to-house-of strong-one); Vulgate places the genitive fortis before the noun domum, creating a chiastic arrangement relative to Greek word order."
+      "note": "Greek and Latin both supply the prepositional phrase 'into the house of the strong man' (εἰς τὴν οἰκίαν τοῦ ἰσχυροῦ / in domum fortis), though the Vulgate fronts vasa fortis and displaces the genitive. The Peshitta compresses 'house of the strong one' into the bound construction ܠܒܝܬ ܚܣܝܢܐ without a separate genitive marker."
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "τοῦ ἰσχυροῦ / ܚܣܝܢܐ / fortis — 'of the strong man'."
     },
     {
       "greek_nt": [
@@ -150,14 +168,15 @@
         12
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek positions the direct object τὰ σκεύη αὐτοῦ ('the goods of him') after the participle and before the infinitive διαρπάσαι, while Vulgate fronts vasa immediately after the subject, and Peshitta places ܡܐܢܘܗܝ ('his vessels') after the verb ܘܢܚܛܘܦ. All three traditions attest the possessive pronoun, but in different syntactic positions."
+      "type": "construction",
+      "note": "Greek τὰ σκεύη αὐτοῦ ('his goods/vessels') carries an explicit possessive pronoun, mirrored by Syriac ܡܐܢܘܗܝ (with pronominal suffix '-his') and prefaced by the conjunction ܘ ('and'). The Vulgate vasa omits the possessive entirely, leaving it implicit."
     },
     {
       "greek_nt": [
@@ -169,8 +188,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin render the act of plundering with an infinitive (διαρπάσαι / diripere) dependent on the verb of ability. The Peshitta uses a finite verb ܘܢܚܛܘܦ ('and he should seize'), coordinated rather than subordinated, again converting the Greek infinitive into a paratactic finite clause."
     },
     {
       "greek_nt": [
@@ -178,13 +198,14 @@
         15
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐὰν μή / ܐܠܐ ܐܢ / nisi — 'unless'."
     },
     {
       "greek_nt": [
@@ -197,7 +218,7 @@
         9
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πρῶτον / ܠܘܩܕܡ / prius — 'first'."
     },
     {
       "greek_nt": [
@@ -211,7 +232,7 @@
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τὸν ἰσχυρόν / ܠܚܣܝܢܐ / fortem — 'the strong man'."
     },
     {
       "greek_nt": [
@@ -224,7 +245,7 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "δήσῃ / ܢܐܣܘܪ / alliget — 'he shall bind'."
     },
     {
       "greek_nt": [
@@ -239,7 +260,7 @@
         13
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καὶ τότε / ܘܗܝܕܝܢ / et tunc — 'and then'."
     },
     {
       "greek_nt": [
@@ -255,8 +276,8 @@
         15
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article + noun + genitive pronoun (τὴν οἰκίαν αὐτοῦ); Vulgate employs noun + possessive genitive (domum ejus); Peshitta uses construct state with pronominal suffix ܒܝܬܗ ('his-house'), the most compact form. All three convey identical possessive semantics through language-specific morphosyntactic strategies."
+      "type": "construction",
+      "note": "Greek τὴν οἰκίαν αὐτοῦ ('his house') uses article plus separate genitive pronoun, matched by Latin domum ejus. The Peshitta synthesises this into the single suffixed noun ܒܝܬܗ ('his-house'), a morphological economy characteristic of Semitic possession."
     },
     {
       "greek_nt": [
@@ -268,14 +289,15 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek and Latin repeat the same verb of plundering used earlier (διαρπάσει / diripiet, from διαρπάζω). The Peshitta varies its vocabulary, using ܢܒܘܙ (root b-w-z, 'to spoil/despoil') here rather than the ܚܛܦ ('seize') employed for the first instance, introducing lexical variation absent in the Greek and Latin."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.961424+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.456329+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

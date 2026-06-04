@@ -68,24 +68,42 @@
     {
       "greek_nt": [
         0,
-        1,
-        2,
-        3
+        2
       ],
       "peshitta": [
-        0,
-        1,
-        2
+        0
       ],
       "vulgate": [
         0,
-        1,
-        2,
-        3
+        1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs οὐ γάρ ἐστιν τί (negation + particle + verb + indefinite pronoun); Peshitta uses ܠܝܬ ܓܝܪ ܡܕܡ (negative existential + particle + indefinite), a standard Syriac construction; Vulgate mirrors Greek word order with Non est enim aliquid. All three express identical semantics despite minor syntactic variation."
+      "type": "construction",
+      "note": "Greek expresses the negation analytically (οὐ … ἐστιν, 'there is not'); Syriac uses the dedicated negative existential particle ܠܝܬ, a single morpheme fusing negation and copula; Latin matches the Greek analytic pattern with Non est. The verdict is minor as all three convey the same negated existential predication."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -97,30 +115,51 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         5,
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a relative clause with the conditional/restrictive combination ὃ ἐὰν μή ('which, unless'); Latin renders it as a simple negated relative quod non; Syriac compresses the whole into the relative-plus-negative ܕܠܐ ('that not'). The constructions are syntactically distinct yet semantically equivalent."
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        5,
-        6,
-        7,
+        7
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek subordinates the verb with ἵνα + aorist passive subjunctive φανερωθῇ ('that it should be manifested'); Latin uses the present passive subjunctive manifestetur without an explicit conjunction; Syriac employs the imperfect ܢܬܓܠܐ ('it will/should be revealed'). The differing modal-temporal forms reflect each language's idiomatic way of expressing the purposive subjunctive."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [],
+      "vulgate": [
         8
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses a complex conditional-purpose construction (ὃ ἐὰν μὴ ἵνα φανερωθῇ, 'which [exists] only in order that it be manifested'), employing a relative pronoun, conditional particle, double negative, and purpose clause. Peshitta simplifies to ܕܠܐ ܢܬܓܠܐ ('that it not be revealed'), a straightforward negative purpose clause lacking the conditional nuance. Vulgate preserves the Greek relative structure (quod non manifestetur) but omits ἐὰν μή, yielding a simpler relative clause of purpose."
+      "variant": "aligned",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon here marking the clause boundary, where the Greek text marks the same juncture with a comma attached to φανερωθῇ. Syriac supplies no punctuation token."
     },
     {
       "greek_nt": [
@@ -130,12 +169,9 @@
         6
       ],
       "vulgate": [
-        9,
-        10
+        9
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek οὐδέ and Peshitta ܘܠܐ function as coordinating conjunctions ('nor/and not'). Vulgate inserts a colon before nec, marking a stronger rhetorical pause and treating the second clause as a parallel restatement rather than seamless continuation."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -145,10 +181,12 @@
         7
       ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐγένετο (aorist of γίνομαι, 'became/has come to pass') and Syriac ܗܘܐ (perfect of h-w-a, 'was/became') are close functional equivalents; Latin renders the same notion periphrastically with factum est ('has been made/done'), introducing a faintly more agentive sense of something brought about."
     },
     {
       "greek_nt": [
@@ -161,37 +199,58 @@
         12
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀπόκρυφον (G614, 'secret, hidden thing') and Vulgate occultum are precise cognates. Peshitta ܒܛܘܫܝܐ derives from the root ܛܫܐ ('to hide'), forming a nominal meaning 'in hiddenness/secrecy'—semantically equivalent but employing a prepositional phrase rather than a standalone adjective."
+      "type": "construction",
+      "note": "Greek and Latin use a predicate adjective (ἀπόκρυφον / occultum, 'secret/hidden'); Syriac uses the prepositional phrase ܒܛܘܫܝܐ ('in secrecy/concealment'), a nominalised abstract built on the root T-sh-y, shifting from an adjectival to an adverbial-prepositional expression of the same concealment."
     },
     {
       "greek_nt": [
         13,
-        14,
-        15,
-        16,
-        17
+        14
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
       "vulgate": [
         13,
-        14,
-        15,
+        14
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek (ἀλλ᾽ ἵνα) and Latin (sed ut) preserve the strong adversative 'but in order that', introducing the purposive contrast explicitly. The Peshitta instead reads ܘܠܐ ('and not'/'neither'), continuing the negative parallelism (ܘܠܐ ܗܘܐ … ܘܠܐ ܡܬܓܠܐ) rather than a positive purpose clause — a substantive structural and semantic divergence from the Greek and Latin adversative-final construction."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔλθῃ ('it should come') and Latin veniat ('let it come') both render a verb of motion toward manifestation; the Peshitta uses ܡܬܓܠܐ (ethpaal of g-l, 'is/should be revealed'), repeating the same revelatory root as the first clause and thus producing a tighter lexical parallelism than the Greek and Latin verbs of coming."
+    },
+    {
+      "greek_nt": [
         16,
         17
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek and Vulgate employ parallel purpose constructions: ἀλλ᾽ ἵνα ἔλθῃ εἰς φανερόν / sed ut in palam veniat ('but in order that it come into the open'), using adversative conjunction + purpose clause + verb of motion + prepositional phrase. Peshitta radically simplifies to ܘܠܐ ܡܬܓܠܐ ('and it is not revealed'), a coordinate negative clause lacking both the adversative force and the telic nuance, instead presenting a flat negation that reverses the Greek/Latin affirmation of inevitable disclosure."
+      "peshitta": [],
+      "vulgate": [
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek εἰς φανερόν ('into the open/light') and Latin in palam ('into the open') render the prepositional goal of manifestation idiomatically; the Peshitta has no separate phrase here because its verb ܡܬܓܠܐ already incorporates the notion of being brought to light, so the directional complement is lexically absorbed."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.966666+00:00",
-    "confidence": 0.75,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.552173+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

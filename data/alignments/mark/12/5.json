@@ -66,24 +66,59 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3
+        0
       ],
       "peshitta": [
-        0,
-        1,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin coordinate with the bare conjunction καὶ / Et plus a separate verb; the Peshitta fuses conjunction and verb into ܘܫܕܪ ('and-he-sent'), so this single Syriac token already encodes the verb that Greek (idx 3) and Latin (idx 3) place later. The alignment is offset accordingly."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πάλιν / ܬܘܒ / rursum, 'again'."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
         2
       ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3
+        2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἄλλον / ܐܚܪܢܐ / alium, 'another'."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three attest the aorist 'he sent' (ἀπέστειλεν / misit), but the Peshitta defers the explicit verb ܫܕܪ to the end of its clause (idx 9), having already signalled the action in the fused ܘܫܕܪ at the opening; this resumptive repetition is a Syriac stylistic feature with no Greek or Latin counterpart in position."
     },
     {
       "greek_nt": [
@@ -98,8 +133,8 @@
         5
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "The Peshitta inserts the emphatic particle ܐܦ ('even, also') before the pronoun ܠܗܘ ('him'), intensifying the statement. Greek uses the crasis κἀκεῖνον (καὶ + ἐκεῖνον), while Latin employs simple et illum; both lack the emphatic force of the Syriac particle."
+      "type": "construction",
+      "note": "Greek compresses the emphatic 'and that one too' into a single crasis form κἀκεῖνον; the Peshitta expands it into ܐܦ ܠܗܘ ('also to-that-one'), and the Latin into et illum. The added Syriac particle ܐܦ ('also/even') matches the intensive force already carried by the Greek crasis."
     },
     {
       "greek_nt": [
@@ -112,92 +147,140 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἀπέκτειναν / ܩܛܠܘܗܝ / occiderunt, 'they killed (him).'"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         7
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after occiderunt, creating a stronger pause before the enumeration of many other servants. Neither the Greek nor the Peshitta tradition employs punctuation at this juncture, maintaining continuous narrative flow."
+      "note": "The Clementine Vulgate inserts a colon here, segmenting the verse into discrete clauses; neither the Greek nor the Syriac transmit punctuation at this point, and the division is editorial."
     },
     {
       "greek_nt": [
-        6,
-        7,
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The connective καὶ / et ('and also') introduces the new object; the Peshitta attaches its conjunction and the dative marker to the noun in ܘܠܣܓܝܐܐ ('and to-many'), folding the prepositional object-marking into the same token cluster."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πολλοὺς / ܣܓܝܐܐ (within ܘܠܣܓܝܐܐ) / plures, 'many'."
+    },
+    {
+      "peshitta": [
+        7
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta supplies an explicit noun ܥܒܕܐ ('servants') as the head of 'many others', making overt the antecedent that Greek and Latin leave implicit in the substantival adjective πολλοὺς ἄλλους / plures alios; this is an interpretive expansion clarifying who was sent and killed."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        6,
-        7,
-        8,
-        9
+        8
       ],
       "vulgate": [
-        8,
-        9,
         10
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "The Peshitta restructures the clause, placing the verb ܫܕܪ ('he sent') after the object ܥܒܕܐ ܐܚܪܢܐ ('other servants'), creating a chiastic pattern with the opening verb. Greek and Latin maintain standard SVO order (καὶ πολλοὺς ἄλλους / et plures alios), but the Syriac's verb-final construction emphasizes the repeated sending action."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἄλλους / ܐܚܪܢܐ / alios, 'others'."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         11
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "The Vulgate again inserts a colon before the μὲν...δὲ construction, segmenting the two participial clauses more sharply than the Greek or Peshitta, which employ no punctuation here."
+      "note": "A second editorial colon in the Vulgate marks the boundary before the μέν...δέ distributive clause; this division has no basis in the Greek or Syriac text and reflects Clementine punctuation practice."
     },
     {
       "greek_nt": [
         9,
-        10,
-        11
+        10
       ],
       "peshitta": [
-        10,
-        11
+        10
       ],
       "vulgate": [
-        12,
-        13
+        12
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the correlative construction οὓς μὲν δέροντες (relative pronoun + particle + participle). Latin renders this with quosdam cædentes (indefinite pronoun + participle), omitting the correlative particle. Peshitta employs ܘܡܢܗܘܢ ܡܚܘ ('and from them they beat'), using a partitive prepositional phrase rather than a relative clause—semantically equivalent but syntactically distinct."
+      "note": "Greek uses the relative-plus-particle distributive construction οὓς μὲν ('some on the one hand'); Latin renders with the indefinite quosdam; the Peshitta employs the partitive ܘܡܢܗܘܢ ('and some of them'). All three express the same distributive sense through divergent syntactic means."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek δέροντες (from δέρω, 'to flay/beat severely') and the Syriac ܡܚܘ (root m-kh-w, 'to strike/smite') are rendered by Latin cædentes ('beating'); the Syriac uses a finite verb where Greek and Latin use a present participle, and the lexical force of δέρω ('flay') is somewhat stronger than the more general Syriac and Latin verbs."
     },
     {
       "greek_nt": [
         12,
-        13,
-        14
+        13
       ],
       "peshitta": [
         12,
-        13,
-        14
+        13
       ],
       "vulgate": [
         14,
-        15,
+        15
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The second member of the distributive: Greek οὓς δέ, Syriac ܡܢܗܘܢ ܕܝܢ ('but some of them'), and Latin alios vero ('but others'). Each tradition pairs an adversative particle (δέ / ܕܝܢ / vero) with the object, matching constructions across the three witnesses."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
         16
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek repeats the relative pronoun οὓς with the contrastive particle δὲ. Latin substitutes alios vero ('others truly'), using an adjective rather than a pronoun. Peshitta mirrors the Greek structure with ܡܢܗܘܢ ܕܝܢ ('from them however'), maintaining the partitive construction established in the first clause—a stylistic preference for parallelism."
+      "type": "grammar",
+      "note": "Greek and Latin close with the present participle ἀποκτέννοντες / occidentes, maintaining parallel participial syntax with the preceding 'beating'; the Peshitta uses the finite perfect ܩܛܠܘ ('they killed'), the same root q-T-l as in idx 5, preferring coordinated finite verbs over the Greek participial chain."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.021475+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.435835+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

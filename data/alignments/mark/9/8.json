@@ -63,8 +63,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -77,8 +76,7 @@
         1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐξάπινα ('suddenly') and Latin statim ('immediately') are near-synonyms emphasizing temporal abruptness, while Peshitta ܫܠܝܐ ('quietly, peacefully') shifts the semantic focus from temporal suddenness to the manner or state of the vision's conclusion."
+      "note": "Greek ἐξάπινα ('suddenly') is rendered in the Peshitta by the prepositional idiom ܘܡܢ ܫܠܝܐ (literally 'from quietness/stillness,' i.e. 'suddenly, all at once'), a typical Syriac adverbial construction; the Vulgate statim ('immediately') is semantically close though it stresses immediacy over abruptness."
     },
     {
       "greek_nt": [
@@ -92,8 +90,7 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an aorist participle περιβλεψάμενοι ('having looked around') and Latin a gerund circumspicientes ('looking around'), both modifying the subject directly; Peshitta employs the temporal particle ܟܕ ('when') with finite verb ܚܪܘ ('they looked'), creating a subordinate temporal clause—syntactically distinct but semantically equivalent."
+      "note": "Greek uses a single aorist participle περιβλεψάμενοι ('having looked around'), matched by the Latin participle circumspicientes; the Peshitta unpacks it into a subordinate temporal clause ܟܕ ܚܪܘ ('when they looked'), a syntactic expansion rather than a semantic change."
     },
     {
       "greek_nt": [],
@@ -102,38 +99,44 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta explicitly names ܬܠܡܝܕܐ ('the disciples') as the subject of the verb, clarifying the implied subject from the preceding narrative context. Neither Greek nor Latin includes this noun, relying on verbal inflection and narrative continuity to identify the actors."
+      "note": "The Peshitta supplies an explicit subject ܬܠܡܝܕܐ ('the disciples'), absent from both the Greek and the Vulgate, which leave the plural verb's subject implicit. This is a characteristic Syriac clarifying expansion."
     },
     {
       "greek_nt": [
-        3,
-        4
+        3
       ],
-      "peshitta": [
-        5,
-        6
-      ],
+      "peshitta": [],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the temporal adverb οὐκέτι ('no longer') before the indefinite pronoun οὐδένα ('no one'), while Peshitta reverses this order (ܠܐܢܫ ܠܐ, 'anyone not') and Latin uses neminem amplius ('no one any longer')—all three convey the same negation but with different syntactic arrangements reflecting each language's idiomatic patterns."
+      "note": "Greek οὐκέτι ('no longer') combines negation with temporal sense; the Vulgate distributes this with amplius ('any more'), placed after neminem. The Peshitta lacks a discrete equivalent, its sense being absorbed into the simple negation ܠܐ."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         5
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek εἶδον and Latin viderunt express the negated verb 'they saw' with a single negated form, whereas the Peshitta renders it analytically with the negative particle ܠܐ plus the verb ܚܙܘ; the divergence is purely structural, the negation being lexically separate in Syriac."
     },
     {
       "greek_nt": [
@@ -145,8 +148,7 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -159,8 +161,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -172,9 +173,7 @@
       "vulgate": [
         8
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek μόνον ('alone') and Latin tantum ('only') are adjectival/adverbial modifiers, while Peshitta ܒܠܚܘܕܘܗܝ ('by himself alone') is a prepositional phrase with pronominal suffix—semantically equivalent but morphologically distinct, reflecting Syriac preference for prepositional constructions."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -188,14 +187,13 @@
         9
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the preposition μετά with reflexive pronoun ἑαυτῶν ('with themselves'), Latin employs the ablative secum (se + cum, 'with them[selves]'), and Peshitta uses ܥܡܗܘܢ ('with them')—all expressing accompaniment but with different pronominal forms (reflexive vs. simple third person)."
+      "note": "Greek expresses 'with themselves' analytically as preposition μετά plus reflexive ἑαυτῶν, and Latin similarly with secum; the Peshitta condenses this into the single suffixed prepositional form ܥܡܗܘܢ ('with them'), using a possessive suffix rather than a separate reflexive pronoun."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.230572+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.417824+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

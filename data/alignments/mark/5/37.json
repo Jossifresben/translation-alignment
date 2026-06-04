@@ -64,18 +64,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / Et"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "The Syriac fuses the conjunction and negation into the single proclitic form ܘܠܐ, so index 0 carries both καί and οὐ; Greek and Latin keep them as separate tokens."
     },
     {
       "greek_nt": [
@@ -89,7 +100,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἀφῆκεν ('allowed, permitted') and Syriac ܫܒܩ ('allowed, left') share semantic overlap, while Latin admisit ('admitted, allowed to enter') emphasizes the granting of access rather than simple permission, reflecting a subtle lexical choice in translation register."
+      "note": "Greek ἀφῆκεν ('he permitted/let') and Syriac ܫܒܩ (root sh-b-q, 'to leave/allow') agree in sense, while the Vulgate admisit ('he admitted/let in') is a slightly more specific lexical choice, all conveying permission to follow."
     },
     {
       "greek_nt": [
@@ -101,14 +112,16 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the masculine indefinite pronoun οὐδένα ('no one') already negated; Syriac employs ܠܐܢܫ ('any man', literally 'to a man', with object marker l-) whose negative force is supplied by the preceding ܘܠܐ; Latin quemquam likewise relies on the prior non. The constructions are equivalent."
     },
     {
       "greek_nt": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
         3,
@@ -119,13 +132,13 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the compound verb συνακολουθῆσαι ('to follow together with') with prepositional phrase μετ᾽ αὐτοῦ, while Syriac uses the simple verb ܕܢܐܙܠ ('to go') with ܥܡܗ ('with him'), and Latin uses the simple infinitive sequi ('to follow') with accusative se, demonstrating three syntactically distinct but semantically equivalent constructions."
+      "type": "word-order",
+      "note": "Greek has the prepositional phrase μετ᾽ αὐτοῦ followed by the infinitive συνακολουθῆσαι ('to follow with'); Syriac inverts to ܕܢܐܙܠ ܥܡܗ ('that he should go with him'), rendering the compound verb with a finite-style subordinate clause plus separate preposition; Latin se sequi places the reflexive before the infinitive. All express accompanying Jesus."
     },
     {
       "greek_nt": [
-        7,
-        8
+        8,
+        9
       ],
       "peshitta": [
         5
@@ -134,12 +147,12 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "εἰ μή / ܐܠܐ / nisi ('except')."
     },
     {
       "greek_nt": [
-        9,
-        10
+        10,
+        11
       ],
       "peshitta": [
         6,
@@ -148,14 +161,14 @@
       "vulgate": [
         7
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "expansion",
-      "note": "The Peshitta uniquely preserves both names for Peter: ܠܫܡܥܘܢ ܟܐܦܐ ('to Simon Cephas'), reflecting Semitic naming conventions and possibly an earlier textual tradition. Greek uses only the Greek form Πέτρον with article, and Latin uses only Petrum, both representing single-name references in their respective linguistic contexts."
+      "note": "Where Greek and Latin give simply Πέτρον / Petrum, the Peshitta expands to ܠܫܡܥܘܢ ܟܐܦܐ ('Simon Kepha'), preserving the apostle's Semitic name Simon together with the Aramaic epithet Kepha that underlies Greek Πέτρος; this is a characteristic Syriac retention rather than a textual variant."
     },
     {
       "greek_nt": [
-        11,
-        12
+        12,
+        13
       ],
       "peshitta": [
         8
@@ -165,12 +178,12 @@
         9
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καὶ Ἰάκωβον / ܘܠܝܥܩܘܒ / et Jacobum."
     },
     {
       "greek_nt": [
-        13,
-        14
+        14,
+        15
       ],
       "peshitta": [
         9
@@ -180,31 +193,39 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καὶ Ἰωάννην / ܘܠܝܘܚܢܢ / et Joannem."
     },
     {
       "greek_nt": [
-        15,
-        16,
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "ἀδελφόν / ܐܚܘܗܝ / fratrem ('brother'); Syriac adds the possessive suffix -hi ('his') which Greek and Latin leave implicit."
+    },
+    {
+      "greek_nt": [
         17
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article τὸν before ἀδελφὸν Ἰακώβου in standard attributive position, while Syriac uses the pronominal suffix construction ܐܚܘܗܝ ܕܝܥܩܘܒ ('his brother, [namely] of James') and Latin employs fratrem Jacobi without article, each reflecting the grammatical norms of their respective languages for expressing familial relationships."
+      "variant": "aligned",
+      "note": "Ἰακώβου / ܕܝܥܩܘܒ / Jacobi ('of James')."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.976556+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.444624+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

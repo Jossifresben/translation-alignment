@@ -94,77 +94,64 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the indefinite relative construction ὃς γὰρ ἄν ('whoever'), while Peshitta uses ܟܠ ܕܝܢ ('everyone who') and Vulgate uses quisquis enim ('whosoever'). All three express the same indefinite relative sense with minor syntactic variation."
+      "note": "Greek employs the relative + modal ὃς...ἂν with subjunctive (the classic indefinite relative protasis), while the Peshitta uses ܟܠ ܕ ('everyone who') with a relative-marked verb, and the Vulgate renders Quisquis ('whoever'). All three express the same generalising conditional, but the Syriac substantivises the subject (ܟܠ) where Greek and Latin use a bare relative pronoun."
     },
     {
       "greek_nt": [
-        3,
-        4
+        3
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
         2,
-        3,
-        4
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ποτίσῃ before the direct object ὑμᾶς; Peshitta combines verb and object pronoun in a single form ܕܢܫܩܝܟܘܢ; Vulgate inverts to potum dederit vobis ('a drink will have given to you'), placing the object before the verb."
-    },
-    {
-      "greek_nt": [
-        5,
-        6
-      ],
-      "peshitta": [
-        3,
-        4
-      ],
-      "vulgate": [
-        5,
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7,
-        8,
-        9
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the prepositional phrase ἐν τῷ ὀνόματι μου with the definite article; Vulgate mirrors this with in nomine meo; Peshitta uses the bare prepositional phrase ܒܫܡܐ without an article, reflecting standard Syriac syntax where the emphatic state functions definitively."
-    },
-    {
-      "greek_nt": [
-        11,
-        12,
-        13
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
-        10,
-        11,
-        12
+        3
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the causal conjunction ὅτι ('because') with the genitive Χριστοῦ and verb ἐστε; Vulgate employs quia Christi estis; Peshitta restructures with a relative clause ܕܕܡܫܝܚܐ ܐܢܬܘܢ ('that of the Messiah you are'), using a double-d construction typical of Syriac relative syntax."
+      "note": "Greek ποτίσῃ is a single causative verb ('may give to drink'), matched by the Syriac causative ܕܢܫܩܝܟܘܢ (Aphel of sh-q-y). The Vulgate periphrastically splits the idea into potum dederit ('shall have given a drink'), a two-word construction with the cognate accusative potum."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "The 2nd-plural object is encoded in the Syriac verbal suffix -ܟܘܢ of ܕܢܫܩܝܟܘܢ, hence it shares the index of the verb rather than standing as a separate token."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ποτήριον / ܟܣܐ / calicem ('a cup')."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὕδατος / ܕܡܝܐ / aquæ ('of water')."
     },
     {
       "greek_nt": [],
@@ -174,48 +161,152 @@
       "vulgate": [],
       "variant": "added",
       "type": "expansion",
-      "note": "Peshitta inserts the adverb ܒܠܚܘܕ ('only, alone') to emphasize the minimal nature of the gift ('a cup of water only'). Neither the Greek nor the Vulgate attest this intensifying particle."
+      "note": "The Peshitta inserts ܒܠܚܘܕ ('only, solely'), emphasising that the cup is merely of water and yet still rewarded. Neither the Greek nor the Vulgate has any corresponding adverb here."
     },
     {
       "greek_nt": [
-        14,
-        15,
+        7,
+        8,
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition + article + noun (ἐν τῷ ὀνόματι); Latin omits the article it lacks (in nomine); Syriac fuses preposition and noun into the single form ܒܫܡܐ. The semantic content 'in the name' is identical across all three."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The 1st-singular possessive 'my' is expressed in Greek by the enclitic μου and in Latin by meo, but in Syriac it is absorbed into the construct/emphatic form ܒܫܡܐ without a discrete possessive token, so it shares the index of the noun."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The causal conjunction ὅτι / quia ('because') introducing the clause is not separately rendered in the Syriac, where the relation is carried by the proclitic ܕ on ܕܕܡܫܝܚܐ; thus no discrete conjunction token appears in the Peshitta."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Χριστοῦ / ܕܕܡܫܝܚܐ / Christi ('of Christ'); the Syriac stacks a double proclitic ܕ-ܕ (relative + genitive marker) on the Messianic title."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐστε / ܐܢܬܘܢ / estis ('you are'); the Vulgate adds the editorial colon (token 13) to mark the clause boundary."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀμήν / ܐܡܝܢ / amen, the transliterated Hebraism preserved identically in all three traditions."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        10,
+        11
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "λέγω / ܐܡܪ ܐܢܐ / dico ('I say'); the Syriac expresses the 1st-singular periphrastically with the participle ܐܡܪ plus the enclitic pronoun ܐܢܐ."
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        9,
-        10,
-        11,
         12
       ],
       "vulgate": [
-        13,
-        14,
-        15,
         16
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places ἀμὴν λέγω ὑμῖν in standard order; Vulgate mirrors with amen dico vobis after a colon; Peshitta inserts the explicit subject pronoun ܐܢܐ ('I') between verb and indirect object (ܐܡܪ ܐܢܐ ܠܟܘܢ), a common Syriac stylistic feature for emphasis."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὑμῖν / ܠܟܘܢ / vobis ('to you')."
     },
     {
       "greek_nt": [
         17,
         18,
-        19,
+        19
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek combines the recitative ὅτι with the emphatic double negative οὐ μή ('shall by no means'). The Vulgate reduces this to a simple non, and the Syriac to the single proclitic-bearing form ܕܠܐ ('that...not'); both versions flatten the Greek emphatic negation."
+    },
+    {
+      "greek_nt": [
         20
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        17,
         18
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the emphatic double negative οὐ μὴ with the aorist subjunctive ἀπολέσῃ to express strong negation; Vulgate uses the simple negative non with the future indicative perdet; Peshitta uses ܕܠܐ ܢܘܒܕ (d-lā + imperfect), the standard Syriac negation construction, semantically equivalent but syntactically distinct."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπολέσῃ / ܢܘܒܕ / perdet ('shall lose'); the Syriac uses the Aphel of w-b-d to convey the transitive 'cause to be lost'."
     },
     {
       "greek_nt": [
@@ -230,15 +321,15 @@
         19,
         20
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the definite article τὸν with μισθὸν αὐτοῦ ('his reward'); Vulgate employs mercedem suam without an article (Latin lacking articles); Peshitta uses the pronominal suffix on ܐܓܪܗ ('his reward') without a separate article, reflecting Syriac's use of the emphatic state for definiteness."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek τὸν μισθὸν αὐτοῦ and Latin mercedem suam ('his reward') are matched by the Syriac ܐܓܪܗ (cognate with Hebrew אָגַר 'to hire'), which encodes the possessive suffix -ܗ rather than using a separate pronoun."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.236183+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.553540+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

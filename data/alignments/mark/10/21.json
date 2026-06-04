@@ -123,24 +123,33 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek employs the article ὁ with postpositive δέ, a standard Greek construction absent in Syriac and Latin. The Peshitta places the particle ܕܝܢ immediately after the subject, while the Vulgate uses autem in second position, both mirroring their respective syntactic norms."
+      "note": "Greek fronts the article + δέ before the name (Ὁ δὲ Ἰησοῦς), whereas Syriac and Latin place the postpositive conjunction (ܕܝܢ / autem) after the name; Latin and Syriac also omit the Greek nominative article, lacking any direct equivalent. The difference is purely a matter of connective syntax with no semantic effect."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "ἐμβλέψας / ܚܪ / intuitus"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the aorist participle ἐμβλέψας with dative αὐτῷ ('having looked upon him'); Latin employs the perfect participle intuitus with accusative eum; Syriac uses the simple perfect ܚܪ ܒܗ ('he looked at him'). All three convey the same action but with different participial versus finite verb strategies."
+      "variant": "aligned",
+      "note": "αὐτῷ / ܒܗ / eum"
     },
     {
       "greek_nt": [
@@ -155,49 +164,98 @@
         5
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἠγάπησεν αὐτόν and Latin dilexit eum both use explicit accusative pronouns, whereas Syriac ܘܐܚܒܗ incorporates the pronominal suffix directly on the verb, a standard Semitic construction. The semantic content is identical."
+      "type": "construction",
+      "note": "Greek and Latin express 'he loved him' analytically with a finite verb plus a separate accusative pronoun (ἠγάπησεν αὐτόν / dilexit eum); Syriac fuses both into a single suffixed verb ܘܐܚܒܗ ('and-he-loved-him'), a typical Semitic pronominal-object enclitic with no semantic divergence."
     },
     {
       "greek_nt": [
-        7,
-        8,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The coordinating conjunction καί / et is independently borne in Syriac by the prefixed waw of ܘܐܚܒܗ, so the Syriac conjunction is morphologically bound to the preceding verb rather than standing as a separate token."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "εἶπεν / ܘܐܡܪ / dixit"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        6,
-        7,
-        8,
+        8
+      ],
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / ei"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         9
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after ei to mark the beginning of direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts. Greek uses a raised dot (·) after αὐτῷ, while Syriac has no explicit punctuation marker here."
+      "note": "The Clementine Vulgate inserts an explicit colon introducing direct speech; Greek marks the same boundary with the raised dot on αὐτῷ· and Syriac leaves it unpunctuated. This is an editorial punctuation choice, not a textual variant."
     },
     {
       "greek_nt": [
-        10,
-        11,
-        12
+        10
       ],
       "peshitta": [
-        7,
-        8,
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "ἕν / ܚܕܐ / Unum"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
         9
       ],
       "vulgate": [
-        10,
-        11,
-        12,
-        13
+        11
+      ],
+      "variant": "aligned",
+      "note": "σε / ܠܟ / tibi"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the pronoun σε between the subject ἕν and the verb ὑστερεῖ; Syriac uses ܚܕܐ ܚܣܝܪܐ ܠܟ with the prepositional phrase ܠܟ ('to you') at the end; Latin employs tibi deest with the dative preceding the verb. The Vulgate again adds a colon for punctuation. All convey 'one thing is lacking to you.'"
+      "note": "Greek and Latin place the predicate 'is lacking' (ὑστερεῖ / deest) after the dative pronoun, while Syriac places the predicate adjective ܚܣܝܪܐ ('lacking') before the pronoun ܠܟ; the difference is the ordering of the nominal clause with no change in meaning."
     },
     {
       "greek_nt": [
@@ -209,7 +267,22 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ὕπαγε / ܙܠ / vade"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Both Greek and Latin place the verb 'sell' (πώλησον / vende) after the relative clause object, whereas Syriac fronts the imperative ܙܒܢ ('sell') before the object phrase; this reflects the more verb-initial tendency of Syriac clause structure."
     },
     {
       "greek_nt": [
@@ -227,34 +300,34 @@
         16
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses the relative pronoun ὅσα with the verb ἔχεις ('as much as you have'); Latin employs quæcumque habes ('whatever you have'); Syriac expands with ܟܠ ܡܕܡ ܕܐܝܬ ܠܟ ('all/everything that there is to you'), adding the universal quantifier ܟܠ and the existential particle ܕܐܝܬ. The Peshitta's construction is more explicit but semantically equivalent."
+      "type": "construction",
+      "note": "Greek ὅσα ἔχεις and Latin quæcumque habes use a single relative-pronoun-plus-verb construction; Syriac expands periphrastically into ܟܠ ܡܕܡ ܕܐܝܬ ܠܟ ('everything that there-is to-you'), employing the existential ܐܝܬ with a dative of possession in place of a transitive 'have.'"
     },
     {
       "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned",
+      "note": "καί / waw of ܘܗܒ / et"
     },
     {
       "greek_nt": [
-        17,
         18
       ],
       "peshitta": [
         16
       ],
       "vulgate": [
-        18,
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "δὸς / ܘܗܒ / da"
     },
     {
       "greek_nt": [
@@ -268,54 +341,127 @@
         20
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses τοῖς πτωχοῖς ('to the poor') with the article; Latin employs pauperibus without an article (Latin lacks articles); Syriac uses ܠܡܣܟܢܐ ('to the poor/needy'), a cognate term. The Syriac singular form ܡܣܟܢܐ functions as a collective noun, semantically equivalent to the Greek and Latin plurals."
+      "type": "construction",
+      "note": "Greek uses article + substantival adjective in the dative plural (τοῖς πτωχοῖς) and Latin a bare dative plural (pauperibus); Syriac renders with the prefixed dative-marker lamadh on a singular collective noun ܠܡܣܟܢܐ, a standard Syriac idiom treating 'the poor' as a generic collective."
     },
     {
       "greek_nt": [
-        21,
-        22,
-        23,
+        21
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "note": "καί / waw of ܘܬܗܘܐ / et"
+    },
+    {
+      "greek_nt": [
+        22
+      ],
+      "peshitta": [
+        18,
+        19
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἕξεις and Latin habebis use a future transitive 'have'; Syriac expresses possession periphrastically with the future of the verb 'to be' plus the dative ܘܬܗܘܐ ܠܟ ('and there shall be to you'), the regular Syriac equivalent for future possession."
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        20
+      ],
+      "vulgate": [
+        23
+      ],
+      "variant": "aligned",
+      "note": "θησαυρὸν / ܣܝܡܬܐ / thesaurum"
+    },
+    {
+      "greek_nt": [
         24,
         25
       ],
       "peshitta": [
-        18,
-        19,
-        20,
         21
       ],
       "vulgate": [
-        21,
-        22,
-        23,
         24,
-        25,
+        25
+      ],
+      "variant": "aligned",
+      "note": "ἐν οὐρανῷ / ܒܫܡܝܐ / in cælo"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         26
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek καὶ ἕξεις θησαυρὸν ἐν οὐρανῷ ends with a period; Syriac ܘܬܗܘܐ ܠܟ ܣܝܡܬܐ ܒܫܡܝܐ inserts the prepositional phrase ܠܟ ('to you') for emphasis; Latin et habebis thesaurum in cælo concludes with a colon to introduce the final command. The Syriac and Latin constructions are stylistically distinct but semantically aligned with the Greek."
+      "note": "The Vulgate marks the clause break before the final exhortation with a colon, an editorial feature absent as a discrete token in the Greek (full stop on οὐρανῷ.) and unmarked in Syriac."
     },
     {
       "greek_nt": [
-        26,
-        27,
-        28,
-        29
+        26
       ],
       "peshitta": [
-        24,
+        22
+      ],
+      "vulgate": [
+        27
+      ],
+      "variant": "aligned",
+      "note": "καί / waw of ܘܣܒ / et"
+    },
+    {
+      "greek_nt": [
+        27
+      ],
+      "peshitta": [
+        24
+      ],
+      "vulgate": [
+        28
+      ],
+      "variant": "aligned",
+      "note": "δεῦρο / ܘܬܐ / veni"
+    },
+    {
+      "greek_nt": [
+        28
+      ],
+      "peshitta": [
         25
       ],
       "vulgate": [
-        27,
-        28,
         29
       ],
+      "variant": "aligned",
+      "note": "ἀκολούθει / ܒܬܪܝ / sequere"
+    },
+    {
+      "greek_nt": [
+        29
+      ],
+      "peshitta": [
+        25
+      ],
+      "vulgate": [
+        30
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses καὶ δεῦρο, ἀκολούθει μοι ('and come, follow me') with two imperatives; Latin employs et veni, sequere me, mirroring the Greek structure; Syriac reverses the order with ܘܬܐ ܒܬܪܝ ('and come after me'), using a single verb with a prepositional phrase. The Syriac construction is more compact but conveys the same command."
+      "type": "construction",
+      "note": "Greek and Latin use a verb of following plus a dative/accusative pronoun (ἀκολούθει μοι / sequere me); Syriac renders idiomatically with the imperative ܬܐ ('come') and the prepositional phrase ܒܬܪܝ ('after me'), the suffixed first-person object being bound to the preposition ܒܬܪ."
     },
     {
       "greek_nt": [
@@ -329,14 +475,14 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "type": "omission",
-      "note": "The phrase ἄρας τὸν σταυρόν ('having taken up the cross') appears in the Greek text and is rendered in Syriac as ܘܣܒ ܨܠܝܒܐ ('and take up the cross'), but is entirely absent from the Vulgate tradition. This omission is attested in several early Greek manuscripts (including Codex Sinaiticus and Vaticanus) and represents a significant Western textual variant, likely due to harmonization pressures or scribal judgment that the cross-bearing command was intrusive from parallel passages (cf. Mark 8:34)."
+      "type": "expansion",
+      "note": "Greek (ἄρας τὸν σταυρόν, 'having taken up the cross') and Syriac (ܘܣܒ ܨܠܝܒܐ, 'and take the cross') both transmit the clause about taking up the cross, with Syriac coordinating it as a finite imperative and Greek as an aorist participle. The Clementine Vulgate omits the phrase entirely here; its presence in Mark 10:21 is text-critically disputed (cf. the parallel injunction in Mark 8:34) and many witnesses lack it, accounting for the Latin omission."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.010460+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.462035+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

@@ -63,7 +63,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect ἔλεγον alone; Peshitta employs periphrastic construction ܘܐܡܪܝܢ ܗܘܘ (participle + auxiliary 'were'); Vulgate uses simple imperfect Dicebant. All three express continuous past action, but Syriac makes the durative aspect explicit through analytic construction."
+      "note": "Greek ἔλεγον is a synthetic imperfect (3rd plural) expressing durative past action; the Peshitta renders this periphrastically with ܘܐܡܪܝܢ ܗܘܘ (participle + auxiliary ܗܘܘ), the standard Syriac analytic construction for the past continuous, while the Vulgate Dicebant uses a synthetic imperfect parallel to the Greek."
     },
     {
       "greek_nt": [
@@ -71,12 +71,21 @@
       ],
       "peshitta": [],
       "vulgate": [
-        1,
-        2
+        1
       ],
       "variant": "minor",
       "type": "substitution",
-      "note": "Greek γάρ ('for') provides causal connection to preceding context; Vulgate substitutes autem ('however/but'), marking adversative or transitional nuance; Peshitta omits any connective particle, allowing asyndetic transition typical of Semitic narrative style."
+      "note": "Greek explanatory γάρ ('for') is rendered by the Vulgate's adversative/connective autem, a softening of the causal nuance; the Peshitta supplies only the conjunctive waw prefixed to ܘܐܡܪܝܢ and carries no separate particle, so the explicit causal force is left implicit."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon to introduce the direct speech (oratio recta); neither the Greek nor the Syriac marks the quotation with comparable punctuation in the base text, the divergence being purely editorial."
     },
     {
       "greek_nt": [
@@ -88,11 +97,24 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μή / ܠܐ / Non — negative particle introducing the prohibition."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐν / in — the temporal preposition; in Syriac it is fused as the prefixed bet of ܒܥܕܥܕܐ."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
@@ -100,13 +122,12 @@
         3
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν τῇ ἑορτῇ ('during the feast') with article; Vulgate mirrors with in die festo, specifying 'day' rather than abstract 'feast'; Peshitta uses single lexeme ܒܥܕܥܕܐ ('in/during the festival'), a compound form that conflates preposition and noun without requiring separate article."
+      "type": "lexical",
+      "note": "Greek τῇ ἑορτῇ ('the feast') and Vulgate die festo ('festal day') both denote the festival; the Vulgate amplifies with the explicit noun dies, whereas the Syriac ܒܥܕܥܕܐ (with prefixed bet) renders 'on the feast' as a single fused prepositional form lacking the article."
     },
     {
       "greek_nt": [
@@ -120,8 +141,8 @@
         8
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek μήποτε is a compound negative particle ('lest, otherwise'); Peshitta ܕܠܡܐ is the standard Syriac equivalent; Vulgate expands to two-word phrase ne forte, making the conditional warning more explicit through Latin analytic construction."
+      "type": "construction",
+      "note": "Greek μήποτε is a single compound negative-final particle ('lest at any time'); the Vulgate splits it into ne forte, and the Syriac ܕܠܡܐ similarly functions as a single negative-purpose conjunction — semantically equivalent expressions of apprehension across the three traditions."
     },
     {
       "greek_nt": [
@@ -134,8 +155,8 @@
         10
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Peshitta place the verb ('will be') before the subject noun; Vulgate inverts to tumultus fieret, placing subject before verb in accordance with Latin stylistic preference for subjunctive clauses introduced by ne."
+      "type": "grammar",
+      "note": "Greek ἔσται is future indicative ('there will be'); the Syriac ܢܗܘܐ is imperfect (modal/future); the Vulgate fieret is imperfect subjunctive governed by ne forte, the normal Latin sequence after a verb of fearing — a grammatical accommodation rather than a semantic shift."
     },
     {
       "greek_nt": [
@@ -147,7 +168,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "θόρυβος / ܫܓܘܫܝܐ / tumultus — 'uproar, disturbance.'"
     },
     {
       "greek_nt": [
@@ -163,13 +186,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses genitive construction τοῦ λαοῦ ('of the people') modifying θόρυβος; Vulgate mirrors with in populo, shifting to locative prepositional phrase ('among the people'); Peshitta ܒܥܡܐ likewise uses preposition ܒ ('in/among'), reflecting Semitic preference for prepositional over genitive constructions in such contexts."
+      "note": "Greek expresses 'of the people' with an adnominal genitive τοῦ λαοῦ; the Vulgate renders this with the prepositional phrase in populo ('among the people'), and the Syriac ܒܥܡܐ likewise uses the prefixed bet ('among the people'), both versions construing the noise locatively rather than as a possessive genitive."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.034352+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.492471+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

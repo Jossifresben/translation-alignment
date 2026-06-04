@@ -88,32 +88,44 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with the simple coordinating conjunction Καὶ followed by a genitive absolute; the Peshitta fuses conjunction and temporal particle into ܘܟܕ ('and when'), while the Vulgate uses two words Et cum to introduce the cum + subjunctive temporal clause. The Syriac and Latin both make the temporal subordination explicit, whereas Greek leaves it to the participial construction."
     },
     {
       "greek_nt": [
         1,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
         2,
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a genitive absolute (ἐκπορευομένου αὐτοῦ) with explicit pronoun; the Peshitta renders the action with a single finite-like verb ܪܕܐ ('he was travelling') from root r-d-a, omitting an overt pronoun as the subject is carried by the verb; the Vulgate uses a periphrastic pluperfect subjunctive egressus esset. Each tradition expresses the departure with a different verbal-aspectual strategy."
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
-        2,
-        3,
         4,
         5
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a genitive absolute construction (ἐκπορευομένου αὐτοῦ εἰς ὁδὸν); Vulgate employs a cum-temporal clause with pluperfect subjunctive (cum egressus esset in viam); Syriac renders with a simple finite verb (ܪܕܐ ܒܐܘܪܚܐ, 'he went on the road'). All three convey the same temporal-circumstantial sense but through distinct syntactic strategies."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἰς ὁδὸν / ܒܐܘܪܚܐ / in viam — 'on/into the road,' with the Syriac collapsing preposition and noun into one inflected form."
     },
     {
       "greek_nt": [
@@ -126,7 +138,8 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "προσδραμὼν / ܪܗܛ / procurrens — 'having run up.'"
     },
     {
       "greek_nt": [
@@ -139,13 +152,22 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "εἷς / ܚܕ / quidam — the indefinite 'a certain one.'"
     },
     {
       "greek_nt": [
-        7,
-        8,
-        9
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek has a coordinating καὶ linking 'having run up' and 'having knelt'; both the Peshitta and Vulgate render the kneeling as a participial/adverbial phrase and do not supply a separate conjunction here, smoothing the syntax."
+    },
+    {
+      "greek_nt": [
+        8
       ],
       "peshitta": [
         5,
@@ -155,30 +177,53 @@
       "vulgate": [
         8,
         9,
-        10,
-        11
+        10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a single compound verb γονυπετήσας ('having knelt down to') with accusative object. Vulgate expands this into an ablative absolute construction (genu flexo ante eum, 'with knee bent before him'). Syriac employs a finite verb plus prepositional phrase (ܢܦܠ ܥܠ ܒܘܪܟܘܗܝ, 'he fell upon his knees'), a typical Semitic idiom for prostration."
+      "note": "Greek compresses the act of kneeling into the single denominative verb γονυπετήσας; the Peshitta unpacks it analytically as ܢܦܠ ܥܠ ܒܘܪܟܘܗܝ ('fell upon his knees') and the Vulgate likewise as genu flexo ante ('with knee bent before'). Both versions expand the compact Greek lexeme into a phrase, a common rendering of Greek verbs of posture."
     },
     {
       "greek_nt": [
-        10,
-        11
+        9
       ],
-      "peshitta": [
-        8,
-        9,
-        10
-      ],
+      "peshitta": [],
       "vulgate": [
-        12,
-        13
+        11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect ἐπηρώτα with accusative pronoun (αὐτόν). Syriac adds the periphrastic construction ܡܫܐܠ ܗܘܐ ܠܗ ('was asking him'), employing the auxiliary ܗܘܐ to mark progressive aspect. Vulgate uses simple imperfect rogabat eum, semantically equivalent but without periphrasis."
+      "note": "The Greek object pronoun αὐτὸν governed by γονυπετήσας is matched by Vulgate ante eum; the Peshitta carries the directional sense within ܥܠ ܒܘܪܟܘܗܝ ('upon his knees') and provides no separate accusative pronoun for the kneeling, the object being implied."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the simple imperfect ἐπηρώτα ('he was asking'); the Peshitta builds a periphrastic past with participle plus the enclitic ܗܘܐ (ܡܫܐܠ ܗܘܐ), the standard Syriac means of expressing durative past; the Vulgate imperfect rogabat parallels the Greek directly."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek αὐτόν and Syriac ܠܗ both supply the object pronoun 'him'; the Vulgate adds the explicit colon-punctuation (token 14) introducing direct speech, and the Peshitta further inserts a verb of speaking (see next group). The traditions differ in how they mark the transition to the quotation."
     },
     {
       "greek_nt": [],
@@ -188,49 +233,63 @@
       "vulgate": [],
       "variant": "added",
       "type": "expansion",
-      "note": "Peshitta inserts ܘܐܡܪ ('and he said') to introduce direct speech, a common Semitic narrative convention not present in the Greek or Latin witnesses. This addition clarifies the transition to quoted speech but does not alter the semantic content."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon to mark the beginning of direct discourse, a punctuation convention absent in the Greek and Syriac manuscript traditions. This is a scribal/editorial feature rather than a textual variant."
+      "note": "The Peshitta inserts ܘܐܡܪ ('and said') to introduce the direct discourse, a Semitic narrative idiom that explicitly marks reported speech; neither the Greek nor the Vulgate supplies a separate verb of saying here, relying on ἐπηρώτα / rogabat alone."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "διδάσκαλε / ܡܠܦܢܐ / Magister — vocative 'Teacher.'"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        15,
         16
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἀγαθέ / ܛܒܐ / bone — 'good.'"
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τί / ܡܢܐ / quid — interrogative 'what.'"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        14,
         15
       ],
       "vulgate": [
-        17,
         18
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ποιήσω / ܐܥܒܕ / faciam — 'shall I do.'"
     },
     {
       "greek_nt": [
@@ -242,8 +301,9 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἵνα + subjunctive expresses purpose; the Vulgate matches with ut + subjunctive; the Peshitta fuses the relative-purpose particle with the verb in ܕܐܬܪ ('that I may inherit'), the prefixed ܕ carrying the conjunctive force."
     },
     {
       "greek_nt": [
@@ -259,7 +319,8 @@
         21
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ζωὴν αἰώνιον / ܚܝܐ ܕܠܥܠܡ / vitam æternam — 'eternal life,' with the Syriac rendering the adjective by a genitive phrase ('life of forever')."
     },
     {
       "greek_nt": [
@@ -269,27 +330,18 @@
         16
       ],
       "vulgate": [
-        22
+        22,
+        23
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek uses κληρονομέω ('inherit'), emphasizing legal succession and possession. Vulgate employs percipiam ('receive, obtain'), focusing on acquisition rather than inheritance. Syriac ܕܐܬܪ ('that I may inherit') aligns semantically with the Greek, though the conjunction ܕ is shared with the preceding purpose clause, creating a tighter syntactic bond than in Greek or Latin."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        23
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate adds a question mark to close the interrogative sentence, a punctuation convention not present in Greek or Syriac manuscript traditions. This is an editorial feature of the printed Vulgate text."
+      "note": "Greek κληρονομήσω ('I may inherit,' from root for inheritance) is rendered by the Vulgate with the broader percipiam ('I may obtain/receive'), softening the inheritance metaphor; the Syriac verb of acquisition is encoded within ܕܐܬܪ (already grouped), and the Greek interrogative is closed by the question mark, matched by the Vulgate's final ? (token 23)."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.009824+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.430113+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

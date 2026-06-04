@@ -72,9 +72,7 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καὶ ('and') is rendered by Peshitta ܘܒܪ (w-bar, 'and immediately') and Vulgate Et ('and'), but the Peshitta conflates the conjunction with the following temporal adverb into a single compound expression."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -87,8 +85,7 @@
         1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εὐθὺς ('immediately') corresponds to Peshitta ܫܥܬܗ (šaʿteh, 'his hour/moment') and Vulgate continuo ('immediately'); the Peshitta uses a temporal noun with pronominal suffix rather than an adverb, a characteristic Syriac idiom for immediacy."
+      "note": "Greek εὐθὺς ('immediately') is a single adverb, as is Latin continuo; the Peshitta renders the notion periphrastically with ܒܪ ܫܥܬܗ ('in that hour/moment', literally 'son of his hour'), a Semitic idiomatic construct phrase for instantaneity."
     },
     {
       "greek_nt": [
@@ -100,45 +97,60 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "peshitta": [
         3,
         4
       ],
+      "peshitta": [
+        3
+      ],
       "vulgate": [
-        3,
-        4,
-        5
+        3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun + article + genitive noun (ὁ πατὴρ τοῦ παιδίου); Peshitta employs a construct chain without articles (ܐܒܘܗܝ ܕܛܠܝܐ, 'father-his of-the-boy'); Vulgate follows Greek structure with pater pueri but adds a comma after pueri, creating a slight syntactic break."
+      "note": "Greek supplies the definite article ὁ πατὴρ and Latin omits it as Latin lacks articles; the Peshitta ܐܒܘܗܝ incorporates a pronominal suffix ('his father'), an anticipatory possessive idiom not explicit in the Greek or Latin."
     },
     {
       "greek_nt": [
-        7,
-        8
-      ],
-      "peshitta": [
         5,
         6
       ],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
-        6,
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         7
       ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase μετὰ δακρύων ('with tears'); Peshitta employs a temporal-circumstantial participle ܟܕ ܒܟܐ (kad bākē, 'while weeping'); Vulgate mirrors Greek with cum lacrimis ('with tears'). The Peshitta construction emphasizes the simultaneity of weeping and speaking through a participial clause."
+      "note": "Greek and Latin use the preposition μετὰ / cum ('with') governing the noun 'tears'; the Peshitta instead employs the subordinating particle ܟܕ ('while/when') introducing the verb ܒܟܐ ('he wept'), recasting the prepositional phrase as a temporal circumstantial clause."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek δακρύων and Latin lacrimis are genitive/ablative plural nouns ('tears'); the Peshitta uses the finite verb ܒܟܐ ('he wept'), a construction shift from nominal to verbal expression consistent with the preceding ܟܕ clause."
     },
     {
       "greek_nt": [
@@ -151,9 +163,7 @@
         7,
         8
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ἔλεγεν ends with a raised dot (·) marking direct speech; Peshitta ܘܐܡܪ ('and he said') has no punctuation; Vulgate aiebat is followed by a colon (:), explicitly marking the quotation boundary in Latin manuscript tradition."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -167,8 +177,7 @@
         9
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Greek πιστεύω ('I believe') is a single finite verb; Peshitta ܡܗܝܡܢ ܐܢܐ (mhaymen ʾnā) uses a participle + independent pronoun construction ('believing I-am'), a standard Syriac periphrastic present; Vulgate Credo mirrors Greek with a single finite verb."
+      "note": "Greek πιστεύω and Latin Credo are single first-person finite verbs; the Peshitta renders the present with the participle plus independent pronoun ܡܗܝܡܢ ܐܢܐ ('believing I-am'), the standard Syriac periphrastic present-tense construction."
     },
     {
       "greek_nt": [
@@ -181,36 +190,42 @@
         10,
         11
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek κύριε ends with a raised dot (·); Peshitta ܡܪܝ has no punctuation; Vulgate Domine is followed by a semicolon (;), creating a stronger pause than Greek and separating the confession from the petition more distinctly."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13,
         14,
         15
       ],
       "peshitta": [
-        11,
         12,
         13
       ],
       "vulgate": [
-        12,
         13,
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperative + genitive pronoun + dative article-noun (βοήθει μου τῇ ἀπιστίᾳ, 'help my unbelief'); Peshitta employs imperative + prepositional phrase with construct (ܥܕܪ ܠܚܣܝܪܘܬ ܗܝܡܢܘܬܝ, 'help to-the-lack of-my-faith'); Vulgate uses imperative + accusative noun + possessive adjective (adjuva incredulitatem meam). The Peshitta renders ἀπιστία as 'lack of faith' (ḥsīrūt haymnūtī) rather than 'unbelief,' a more positive framing of the father's struggle."
+      "note": "Greek frames the object as a dative of the abstract noun 'with my unbelief' (μου τῇ ἀπιστίᾳ) and Latin as accusative incredulitatem meam; the Peshitta uses a genitival construct ܠܚܣܝܪܘܬ ܗܝܡܢܘܬܝ ('the deficiency of my faith'), making explicit a 'lack of faith' rather than a simple privative noun."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.233509+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.555144+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

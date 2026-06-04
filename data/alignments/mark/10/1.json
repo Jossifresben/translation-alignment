@@ -96,8 +96,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -111,8 +110,8 @@
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek ἐκεῖθεν is a single adverb; Peshitta expands to ܡܢ ܬܡܢ (preposition + demonstrative adverb, 'from there'), a standard Syriac construction for source-deixis. Vulgate inde mirrors the Greek economy."
+      "type": "construction",
+      "note": "Greek and Latin use a single adverb (ἐκεῖθεν / inde, 'from there'); the Syriac analytically renders the notion with preposition plus locative adverb ܡܢ ܬܡܢ ('from there'), an idiomatic two-word equivalent. The Syriac also reorders the elements, placing the verb 'arose' before the locative phrase."
     },
     {
       "greek_nt": [
@@ -124,8 +123,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀναστάς and Latin exsurgens are aorist/present participles ('having risen'), whereas the Syriac ܘܩܡ ('and he arose') is a finite verb coordinated with the following clause by waw. The participial subordination of Greek and Latin becomes paratactic coordination in Syriac. (The Syriac index 0 also carries the connective 'and' answering Greek Καί.)"
     },
     {
       "greek_nt": [
@@ -137,49 +137,68 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "peshitta": [
-        4,
-        5
-      ],
-      "vulgate": [
         4,
         5,
         6
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + plural noun + genitive (εἰς τὰ ὅρια τῆς Ἰουδαίας, 'into the regions of Judea'); Vulgate mirrors with in fines Judææ (plural 'borders'); Peshitta employs singular ܠܬܚܘܡܐ ܕܝܗܘܕ ('to the border/territory of Judea'), a typical Syriac idiom treating geographic zones as collective singulars."
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "aligned",
+      "note": "Greek τὰ ὅρια (plural 'regions/borders') and Latin fines (plural) both render the territory; Syriac ܠܬܚܘܡܐ is a single prepositional form ('to the territory'), but the equivalence is unproblematic."
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         9,
         10,
         11,
-        12,
-        13
+        12
       ],
       "peshitta": [
-        6,
-        7
+        6
       ],
       "vulgate": [
-        7,
-        8
+        7
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek καὶ τοῦ πέραν τοῦ Ἰορδάνου coordinates two genitive phrases ('and [the region] beyond the Jordan'); Vulgate ultra Jordanem uses a prepositional phrase without article; Peshitta ܠܥܒܪܐ ܕܝܘܪܕܢܢ ('to the crossing/region of the Jordan') employs a construct-state noun, semantically equivalent but syntactically distinct."
+      "note": "Greek has a coordinated articular construction καὶ τοῦ πέραν τοῦ Ἰορδάνου ('and of the region beyond the Jordan'); Latin reduces this to the simple preposition ultra ('beyond') without the connective 'and'; Syriac likewise drops the coordinating conjunction and renders ܠܥܒܪܐ ('to the crossing/region across'), so both versions omit the Greek καί joining the two territories."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The proper name Jordan is common to all three; the Vulgate adds a colon (index 9) marking the clause boundary, a versional punctuation feature absent from the Greek and Syriac word-stream."
     },
     {
       "greek_nt": [
@@ -189,12 +208,9 @@
         8
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after Jordanem, marking a clause boundary not present in Greek or Peshitta. This reflects Latin rhetorical punctuation conventions rather than a textual variant."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -207,8 +223,8 @@
         11
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek συμπορεύονται ('come together with', compound verb emphasizing joint movement); Vulgate conveniunt ('assemble, gather'); Peshitta ܘܐܙܠܘ ('and they went') uses a simpler verb of motion. All three convey crowds approaching Jesus, but with differing nuances of collective action."
+      "type": "construction",
+      "note": "Greek συμπορεύονται and Latin conveniunt are single verbs ('come/gather together'); the Syriac ܘܐܙܠܘ ('and they went') is a finite verb of motion of different lexical character, expressing the crowds' going to him rather than gathering. The Syriac index 8 simultaneously supplies the connective and the verb."
     },
     {
       "greek_nt": [
@@ -220,8 +236,9 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The adverb 'again' (πάλιν / iterum / ܬܘܒ) is present in all three but the Syriac places it much later in the clause, after the teaching verb, reflecting Syriac preference for end-weighted adverbial placement rather than the early position of Greek and Latin."
     },
     {
       "greek_nt": [
@@ -234,9 +251,20 @@
       "vulgate": [
         13
       ],
-      "variant": "major",
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ὄχλοι and Latin turbæ are plural ('crowds'); the Syriac renders ܟܢܫܐ ܣܓܝܐܐ ('a great/numerous crowd'), using a singular collective noun qualified by the adjective 'many', a characteristic Syriac idiom for large gatherings."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        9
+      ],
+      "variant": "added",
       "type": "expansion",
-      "note": "Greek ὄχλοι ('crowds', plural nominative); Vulgate turbæ (plural nominative); Peshitta ܟܢܫܐ ܣܓܝܐܐ ('crowds many/great') adds the adjective ܣܓܝܐܐ, an interpretive expansion emphasizing the size of the gathering not present in Greek or Latin witnesses."
+      "note": "The Syriac adds an explicit locative ܠܬܡܢ ('to there') after the verb of motion, reinforcing the destination of the crowds; this resumptive adverb has no counterpart in the Greek or Latin and serves Syriac narrative clarity."
     },
     {
       "greek_nt": [
@@ -244,7 +272,6 @@
         19
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
@@ -252,8 +279,8 @@
         15
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek πρὸς αὐτόν ('to him') follows the noun; Peshitta ܠܬܡܢ ܠܘܬܗ ('there to him') adds the locative adverb ܠܬܡܢ before the prepositional phrase, a Syriac stylistic preference for spatial deixis. Vulgate ad eum mirrors Greek word order."
+      "type": "punctuation",
+      "note": "Greek πρὸς αὐτόν and Latin ad eum ('to him') are matched by the single Syriac suffixed form ܠܘܬܗ ('unto him'). The Vulgate again inserts a colon (index 16) at the clause break, a versional punctuation marker without Greek or Syriac equivalent."
     },
     {
       "greek_nt": [
@@ -263,30 +290,36 @@
         13
       ],
       "vulgate": [
-        16,
         17
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate again inserts a colon after eum, creating a tripartite clause structure (departure : gathering : teaching) not marked in Greek or Peshitta. This reflects Latin periodic style."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        21,
+        21
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         22
       ],
       "peshitta": [
-        17,
         18,
         19
       ],
       "vulgate": [
-        18,
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ὡς εἰώθει ('as he was accustomed', pluperfect); Vulgate sicut consueverat (pluperfect); Peshitta ܐܝܟ ܕܡܥܕ ܗܘܐ ('as he was accustomed', periphrastic construction with participle + ܗܘܐ) uses a compound verbal phrase typical of Syriac aspectual marking. All three express habitual past action equivalently."
+      "type": "grammar",
+      "note": "Greek εἰώθει (pluperfect 'had been accustomed') and Latin consueverat (pluperfect) express habitual past with a single verb; the Syriac uses an analytic construction ܕܡܥܕ ܗܘܐ (participle 'is accustomed' + the enclitic past auxiliary ܗܘܐ 'was'), the standard Syriac periphrasis for past customary action."
     },
     {
       "greek_nt": [
@@ -298,8 +331,9 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "This second πάλιν / iterum ('again') qualifying the teaching is present in Greek and Latin in its expected position before the verb; the Syriac collapses both occurrences of 'again' into the single ܬܘܒ already aligned, leaving no separate Syriac token here, so the repetition is not reproduced in the Peshitta."
     },
     {
       "greek_nt": [
@@ -313,8 +347,8 @@
         21
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐδίδασκεν (imperfect active); Vulgate docebat (imperfect); Peshitta ܘܡܠܦ ܗܘܐ (periphrastic imperfect: participle + auxiliary ܗܘܐ) employs the standard Syriac periphrastic construction for durative past action, semantically equivalent to Greek and Latin simple imperfects."
+      "type": "grammar",
+      "note": "Greek ἐδίδασκεν (imperfect 'was teaching') and Latin docebat (imperfect) render durative past with a finite verb; the Syriac ܘܡܠܦ ܗܘܐ employs the participle 'teaching' plus the past auxiliary ܗܘܐ, the regular Syriac periphrastic imperfect denoting ongoing past action."
     },
     {
       "greek_nt": [
@@ -326,14 +360,13 @@
       "vulgate": [
         22
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.007576+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.541936+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

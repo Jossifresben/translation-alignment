@@ -79,8 +79,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -93,63 +92,90 @@
         1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀγγαρεύουσιν (technical term for Roman military requisition) is rendered by Peshitta ܫܚܪܘ (general 'compel/press into service') and Vulgate angariaverunt (Latin loanword from Greek ἀγγαρεύω), reflecting different degrees of technical precision in conveying forced labor."
+      "type": "construction",
+      "note": "The Peshitta fuses the conjunction and verb in a single inflected form ܘܫܚܪܘ ('and they compelled/pressed into service'), so the Syriac waw-prefix carries both καί and ἀγγαρεύουσιν; the Greek and Latin keep conjunction and verb discrete. Note also that the Greek historic present ἀγγαρεύουσιν is rendered as a perfect/preterite in both Syriac and Latin angariaverunt."
     },
     {
       "greek_nt": [
-        2,
-        3
+        2
       ],
       "peshitta": [
-        1,
         2,
         3
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present participle παράγοντά with indefinite pronoun τινα; Vulgate mirrors this with prætereuntem quempiam; Peshitta employs a relative clause construction ܚܕ ܕܥܒܪ ܗܘܐ ('one who was passing') with periphrastic perfect, syntactically distinct but semantically equivalent."
+      "note": "Greek uses the present participle παράγοντά and Latin matches with prætereuntem; the Peshitta expresses the durative idea analytically with ܕܥܒܪ ܗܘܐ ('who was passing by'), pairing the participle/verb with the auxiliary ܗܘܐ, a standard Syriac periphrastic past-continuous construction."
     },
     {
       "greek_nt": [
-        4,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "τινα / ܚܕ / quempiam — indefinite 'a certain one'."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Κυρηναῖον / ܩܘܪܝܢܝܐ / Cyrenæum — gentilic 'the Cyrenian'."
     },
     {
       "greek_nt": [
+        6
+      ],
+      "peshitta": [
         6,
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐρχόμενον and Latin venientem render 'coming' with a single participle, whereas the Peshitta again employs the analytic periphrasis ܕܐܬܐ ܗܘܐ ('who was coming'), with the auxiliary ܗܘܐ marking past continuous aspect — a recurring Syriac stylistic preference rather than a semantic difference."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        6,
-        7,
-        8,
-        9
-      ],
-      "vulgate": [
-        6,
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀπ᾽ ἀγροῦ ('from the field/country') and Vulgate de villa ('from the country estate') use singular; Peshitta ܡܢ ܩܪܝܬܐ ('from the village/town') employs a more specific urban term, possibly reflecting a different understanding of Simon's point of origin or a lexical preference for settled habitation over agricultural land."
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἀπό / ܡܢ / de — 'from'."
     },
     {
       "greek_nt": [
@@ -162,43 +188,77 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun τὸν πατέρα in apposition; Vulgate mirrors with patrem; Peshitta employs pronominal suffix ܐܒܘܗܝ ('his father'), a typical Semitic construction replacing the Greek article with possessive morphology."
+      "variant": "aligned",
+      "note": "τὸν πατέρα / ܐܒܘܗܝ / patrem — 'the father'; the Syriac encodes the article and possessive within the bound suffixed form ܐܒܘܗܝ ('his father')."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀγροῦ ('field, country') and Latin villa ('farmstead, country estate') denote agricultural land outside the city; the Peshitta reads ܩܪܝܬܐ ('village, hamlet'), a slight semantic shift from open countryside toward an inhabited rural settlement, reflecting the translator's contextualisation of ἀγρός as a populated locality."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        10,
         11,
         12
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place patrem before the sons' names (Ἀλεξάνδρου καὶ Ῥούφου / Alexandri et Rufi); Peshitta reverses the order, placing ܐܒܘܗܝ after the relative clause but maintaining the genitive relationship through the construct state, a stylistic variation without semantic impact."
+      "type": "construction",
+      "note": "Greek καὶ Ῥούφου and Latin et Rufi coordinate with a separate conjunction; the Peshitta ܘܕܪܘܦܘܣ fuses the coordinating waw and the genitive/dependency marker d- into a single prefixed cluster on the proper name, an economy of Syriac morphology rather than a textual divergence."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "ἵνα / d- (in ܕܢܫܩܘܠ) / ut — purpose clause marker."
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἄρῃ ('lift, carry') and Latin tolleret ('take up, carry') belong to the same general 'bear' semantic field; the Peshitta uses ܫܩܠ (root sh-q-l, 'to take up, raise, bear'), cognate with Hebrew שָׁקַל, an apt lexical equivalent though from a distinct etymological stock."
     },
     {
       "greek_nt": [
@@ -214,14 +274,14 @@
         16
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek τὸν σταυρὸν αὐτοῦ and Vulgate crucem ejus use article/possessive pronoun with genitive ('his cross'); Peshitta ܙܩܝܦܗ employs a pronominal suffix on the noun itself ('his-cross'), a standard Semitic construction that collapses the Greek two-word phrase into a single morphological unit."
+      "type": "lexical",
+      "note": "Greek σταυρόν and Latin crucem use the standard 'cross' lexeme; the Peshitta ܙܩܝܦܗ derives from the root z-q-p ('to raise, set upright, crucify'), the characteristic Syriac term for the instrument of crucifixion, with the article and pronominal 'his' (αὐτοῦ / ejus) bound as the suffix -eh."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.049520+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.442497+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

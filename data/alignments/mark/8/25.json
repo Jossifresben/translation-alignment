@@ -69,113 +69,195 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "εἶτα / Deinde ('then'); the Peshitta has no separate temporal adverb here, folding the sequence into ܬܘܒ."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek employs two temporal adverbs (εἶτα πάλιν, 'then again') where Peshitta uses only ܬܘܒ ('again') and Vulgate uses Deinde iterum ('then again'), creating a stylistic doublet in Greek and Latin absent from Syriac."
+      "variant": "aligned",
+      "note": "πάλιν / ܬܘܒ / iterum ('again')."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3,
-        4,
-        5,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek (τὰς χεῖρας) and Latin (manus) use the plural 'hands'; the Peshitta uses the singular ܐܝܕܗ ('his hand'), a frequent Syriac idiom that need not imply a single hand but treats the limb collectively."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "ἐπί / ܥܠ / super ('upon')."
+    },
+    {
+      "greek_nt": [
         6,
         7,
         8
       ],
       "peshitta": [
-        1,
-        2,
-        3,
         4
       ],
       "vulgate": [
-        2,
-        3,
-        4,
         5,
         6
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses plural χεῖρας ('hands') with dual articles (τὰς...τοὺς) governing both hands and eyes; Peshitta uses singular ܐܝܕܗ ('his hand') with dual suffix on ܥܝܢܘܗܝ ('his eyes'); Vulgate uses plural manus without article, reflecting Latin's lack of definite articles and preference for plural in this idiom."
+      "variant": "aligned",
+      "note": "'his eyes': Greek τοὺς ὀφθαλμοὺς αὐτοῦ, Latin oculos ejus, Syriac ܥܝܢܘܗܝ with the possessive suffix incorporated."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The conjunction καί is rendered by the Vulgate with a preceding colon (':') plus 'et'; the Peshitta lacks an explicit copula at this juncture, joining clauses asyndetically."
+    },
+    {
+      "greek_nt": [
         10,
         11,
         12
-      ],
-      "peshitta": [],
-      "vulgate": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek καὶ ἐποίησεν αὐτὸν διέβλεψεν ('and he made him look intently') and Vulgate et coepit videre ('and he began to see') are entirely absent from the Peshitta, which moves directly from the hand-laying to the restoration clause. This represents a substantive textual variant, possibly reflecting a shorter Vorlage in the Syriac tradition."
-    },
-    {
-      "greek_nt": [
-        13,
-        14
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        12,
-        13,
-        14,
-        15
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἀπεκατέστη ('he was restored', passive aorist) is rendered by Peshitta ܘܬܩܢ ('and it was set right', active or passive) and Vulgate restitutus est ('he was restored', perfect passive), with Latin employing a periphrastic perfect construction where Greek uses synthetic aorist."
-    },
-    {
-      "greek_nt": [
-        15,
-        16,
-        17,
-        18
-      ],
-      "peshitta": [
-        6,
-        7,
-        8,
         9,
         10
       ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek has the redundant causative construction ἐποίησεν αὐτὸν διέβλεψεν ('he made him look'), with διέβλεψεν of clearing sight; Latin paraphrases as cœpit videre ('began to see'); the Peshitta substitutes ܘܬܩܢ ('and he was restored/set right'), shifting the idea from looking to restoration of function."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
       "vulgate": [
-        16,
-        17,
-        18,
-        19
+        11,
+        12
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The καί is matched in the Vulgate by colon (':') plus 'et'; the Peshitta again coordinates asyndetically without a separate conjunction here."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "vulgate": [
+        13,
+        14
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect ἐνέβλεπεν with adverb τηλαυγῶς and object ἅπαντα ('he was seeing clearly everything'); Peshitta employs perfect ܚܙܐ ܗܘܐ with adverbial ܢܗܝܪܐܝܬ modifying ܟܠ ܡܕܡ ('he saw everything clearly'); Vulgate uses ut-clause with subjunctive clare videret omnia ('so that he might see all things clearly'), transforming the Greek's result into a purpose/result construction typical of Latin style."
+      "note": "Greek ἀπεκατέστη ('he was restored', double-augment 2nd aorist) is matched by the Latin periphrastic perfect passive restitutus est; the Peshitta expresses this notion earlier with ܘܬܩܢ and so has no separate token corresponding to it here."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καί introduces the final clause; the Peshitta employs the auxiliary ܗܘܐ to form a continuous past with ܚܙܐ ('he was seeing'), a periphrastic construction rather than a coordinating conjunction."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        15,
+        16,
+        18
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐνέβλεπεν (imperfect, durative 'he kept seeing') is rendered by the Peshitta ܚܙܐ with auxiliary ܗܘܐ; the Latin recasts it as a result clause ita ut ... videret ('so that he saw'), introducing a consecutive construction absent in Greek and Syriac."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "note": "τηλαυγῶς / ܢܗܝܪܐܝܬ / clare ('clearly, distinctly')."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned",
+      "note": "'all/everything': Greek ἅπαντα, Latin omnia, Syriac ܟܠ ܡܕܡ ('every thing')."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.997632+00:00",
-    "confidence": 0.75,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.551996+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -80,8 +80,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -93,8 +92,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Syriac collapses conjunction and verb into the single waw-prefixed form ܘܫܐܠ ('and he asked'), so the same token index serves both the connective and the predicate; Greek ἐπηρώτησεν and Latin interrogavit each render the verb discretely."
     },
     {
       "greek_nt": [],
@@ -103,8 +102,7 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the verb 'asked,' whereas both Greek and Latin leave the subject implicit from context. This is a characteristic Syriac clarification for narrative flow."
+      "note": "The Peshitta supplies the explicit subject ܝܫܘܥ ('Jesus') where both the Greek and Latin leave the third-person verb without a named subject; this is a typical Syriac clarifying expansion supplying the antecedent from context."
     },
     {
       "greek_nt": [
@@ -119,9 +117,99 @@
         2,
         3
       ],
+      "variant": "aligned",
+      "note": "Greek τὸν πατέρα αὐτοῦ and Latin patrem ejus express 'his father' analytically with article/possessive; Syriac ܠܐܒܘܗܝ encodes the object marker, noun, and pronominal suffix in one synthetic form."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "Greek interrogative πόσος and Latin Quantum are matched by Syriac ܕܟܡܐ ('how much/how long'), prefixed with d- introducing the indirect question."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "χρόνος / temporis / ܙܒܢܐ ('time'); note Latin uses the partitive genitive temporis with Quantum."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "The copula ἐστὶν / est is rendered in Syriac by the presentative particle ܗܐ ('behold/lo'), functioning here to carry the existential force rather than a true verb 'to be'."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun + possessive pronoun (τὸν πατέρα αὐτοῦ); Latin employs noun + possessive pronoun without article (patrem ejus); Syriac uses a pronominal suffix construction (ܠܐܒܘܗܝ, 'to-his-father'), all semantically equivalent but syntactically distinct."
+      "note": "Greek temporal ὡς ('since/that') is expressed in Latin by the two-word relative locution ex quo ('from which time'); Syriac uses the preposition ܡܢ ('from') here, distributing the temporal sense differently across the clause."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek demonstrative τοῦτο and Latin hoc render 'this'; the Syriac ܕܗܟܢܐ ('that thus/in this manner') is an adverbial-demonstrative substitution conveying 'that it became thus to him' rather than a neuter pronoun."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "Greek perfect γέγονεν and Latin accidit ('has happened/befallen'); the Syriac clause renders the event sense within ܗܘ and the adverbial construction rather than a separate finite verb."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        4,
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "note": "The dative αὐτῷ and Latin ei ('to him') correspond to the Syriac ܠܗ ('to him', idx 4) fronted within the question, while ܗܘ (idx 9, the independent pronoun 'he/it') carries the resumptive subject; Syriac thus expresses the experiencer with two distinct elements."
     },
     {
       "greek_nt": [],
@@ -130,52 +218,7 @@
         4
       ],
       "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'ejus' to mark the beginning of direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts."
-    },
-    {
-      "greek_nt": [
-        5,
-        6,
-        7
-      ],
-      "peshitta": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "vulgate": [
-        5,
-        6,
-        7
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses interrogative adjective + noun + copula (πόσος χρόνος ἐστὶν, 'how-much time is-it'); Latin mirrors this with quantum temporis est; Syriac employs ܕܟܡܐ ܠܗ ܙܒܢܐ ܗܐ ('how-much to-him time behold'), adding the deictic particle ܗܐ and dative pronoun ܠܗ for idiomatic emphasis."
-    },
-    {
-      "greek_nt": [
-        8,
-        9,
-        10,
-        11
-      ],
-      "peshitta": [
-        7,
-        8,
-        9
-      ],
-      "vulgate": [
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses temporal ὡς + demonstrative + perfect verb + dative (ὡς τοῦτο γέγονεν αὐτῷ, 'since this has-happened to-him'); Latin employs ex quo + dative + demonstrative + perfect (ex quo ei hoc accidit); Syriac uses ܡܢ ܕܗܟܢܐ ܗܘ ('from that thus he-is'), a more compressed temporal construction without explicit object pronoun."
+      "note": "The Vulgate inserts an explicit colon punctuating the introduction of direct speech; the Greek marks this only with the raised point on αὐτοῦ· and the Syriac has no graphic punctuation."
     },
     {
       "greek_nt": [],
@@ -184,13 +227,23 @@
         13
       ],
       "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate places a question mark after 'accidit' to close the interrogative clause, a punctuation feature not represented in Greek or Peshitta textual traditions."
+      "note": "Latin closes the direct question with an explicit interrogative mark; the Greek encodes this with the semicolon (Greek question mark) on αὐτῷ; while the Syriac leaves the question unmarked graphically."
     },
     {
       "greek_nt": [
         12,
-        13,
+        13
+      ],
+      "peshitta": [],
+      "vulgate": [
+        14,
+        15
+      ],
+      "variant": "minor",
+      "note": "Greek articular ὁ δέ ('but he') and Latin At ille introduce the reply with an explicit contrastive subject; the Syriac has no corresponding particle-plus-pronoun here, proceeding directly to the verb of speaking, a stylistic asyndeton typical of Syriac narrative."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
@@ -198,13 +251,10 @@
         11
       ],
       "vulgate": [
-        14,
-        15,
         16
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + δὲ + verb (ὁ δὲ εἶπεν, 'and he said'); Latin employs at ille ait with demonstrative pronoun; Syriac uses simple verb + prepositional phrase (ܐܡܪ ܠܗ, 'he-said to-him'), adding an indirect object not explicit in Greek or Latin."
+      "note": "Greek εἶπεν and Latin ait render 'he said' absolutely; the Syriac ܐܡܪ ܠܗ adds the dative ܠܗ ('to him'), an idiomatic Syriac complement to verbs of speaking not represented in the Greek or Latin."
     },
     {
       "greek_nt": [],
@@ -213,26 +263,42 @@
         17
       ],
       "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'ait' to introduce the father's response, a punctuation convention absent in Greek and Peshitta."
+      "note": "The Vulgate introduces the reported reply with a colon, a graphic convention of the Clementine edition absent from the unpunctuated Syriac and only loosely paralleled by the Greek raised point on εἶπεν·."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "The Syriac prefaces the answer with the presentative particle ܗܐ ('lo/behold'), heightening the immediacy of the father's reply; neither Greek nor Latin attests an equivalent interjection here."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned",
+      "note": "Preposition ἐκ / Ab / ܡܢ ('from'), governing the following temporal noun."
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        12,
-        13,
         14
       ],
       "vulgate": [
-        18,
         19
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the adverbial form ἐκ παιδιόθεν ('from childhood'); Latin employs ab infantia (preposition + noun); Syriac uses ܗܐ ܡܢ ܛܠܝܘܬܗ ('behold from his-childhood'), adding the deictic ܗܐ and pronominal suffix for emphasis, a characteristic Syriac stylistic feature."
+      "note": "Greek uses the adverb παιδιόθεν ('from childhood'), a single lexicalised form; Latin infantia and Syriac ܛܠܝܘܬܗ ('his childhood/youth', with possessive suffix) render the sense with an abstract noun, the Syriac additionally specifying 'his' where the Greek and Latin leave it general."
     },
     {
       "greek_nt": [],
@@ -241,14 +307,13 @@
         20
       ],
       "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate closes with a colon after 'infantia,' marking the end of the father's statement, a punctuation feature not present in Greek or Peshitta manuscripts."
+      "note": "The Vulgate appends a trailing colon closing the verse, a Clementine punctuation feature with no counterpart in the Greek full stop on παιδιόθεν. or the unpunctuated Syriac."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.233001+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.489144+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

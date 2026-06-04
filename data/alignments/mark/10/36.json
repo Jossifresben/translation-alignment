@@ -54,9 +54,9 @@
         0,
         1
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the Greek article ὁ and conjunction δέ, beginning directly with the verb. The Vulgate preserves both with 'At ille' (adversative conjunction + demonstrative pronoun), maintaining the Greek's contrastive force."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the substantivised article + δέ (Ὁ δέ, 'But he') as the subject-marker for the apodosis; Latin reproduces this with At ille, an equivalent demonstrative-plus-adversative construction. The Peshitta omits any explicit subject pronoun, relying on the 3ms verbal inflection of ܐܡܪ, a normal Syriac economy."
     },
     {
       "greek_nt": [
@@ -68,8 +68,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -84,7 +83,7 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'eis' to mark direct discourse, a Latin scribal convention absent in Greek manuscripts. The Peshitta and Greek use inherent punctuation (Greek high point in αὐτοῖς·)."
+      "note": "The dative αὐτοῖς / ܠܗܘܢ / eis is uniform; the divergence is only orthographic-punctuational, the Greek carrying a high point (·) and the Vulgate isolating a colon as a separate token before direct speech."
     },
     {
       "greek_nt": [
@@ -96,8 +95,7 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -111,12 +109,21 @@
         6
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta makes the second-person plural subject explicit with ܐܢܬܘܢ ('you'), a typical Syriac clarification where Greek and Latin rely on verbal inflection alone (θέλετέ / vultis)."
+      "type": "construction",
+      "note": "Greek θέλετε and Latin vultis express the second-person plural verb synthetically; Syriac renders the same with an analytic participle-plus-enclitic-pronoun construction (ܨܒܝܢ ܐܢܬܘܢ), the standard Syriac means of marking present-tense agency."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek includes the accusative pronoun με ('me') as the object of θέλετε within an asyndetic construction (θέλετέ με ποιήσω, 'do you wish that I should do'). Neither the Peshitta nor the Vulgate represents this explicit pronoun, both subordinating the request through a complementiser (ut / implied) without a separate object."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
@@ -128,7 +135,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses accusative-infinitive construction (με ποιήσω, 'me to do'); Latin employs subjunctive with 'ut' (ut faciam, 'that I may do'); Peshitta uses simple imperfect ܐܥܒܕ without explicit subordination marker—three syntactically distinct but semantically equivalent constructions."
+      "note": "Greek employs an asyndetic subjunctive (ποιήσω, 'I may do') directly governed by θέλετε; the Vulgate makes the subordination explicit with the conjunction ut + subjunctive faciam, while Syriac uses the bare imperfect ܐܥܒܕ with no overt complementiser."
     },
     {
       "greek_nt": [
@@ -138,18 +145,25 @@
         6
       ],
       "vulgate": [
-        9,
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         10
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate places the interrogative mark after 'vobis' as a separate token, whereas Greek integrates it into ὑμῖν; and Peshitta lacks explicit punctuation tokens in the manuscript tradition."
+      "note": "The Vulgate marks the interrogative explicitly with a separate question-mark token; the Greek encodes interrogation within ὑμῖν; (semicolon = Greek question mark), and the Peshitta carries no orthographic interrogative marker."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.012752+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.446909+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

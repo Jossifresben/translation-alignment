@@ -84,19 +84,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta explicitly names the subject ܝܫܘܥ (Yeshua) at token 1, whereas both Greek and Latin use only the participle (προσκαλεσάμενος / convocans) without naming Jesus. This is a typical Syriac clarification strategy to avoid ambiguity in narrative flow."
+      "variant": "minor",
+      "note": "Greek uses an aorist middle participle προσκαλεσάμενος ('having summoned to himself'); the Peshitta renders with a finite verb ܘܩܪܐ ('and he called') coordinated by waw, while the Vulgate preserves the participial construction with convocans. The Syriac collapses the participle into a paratactic finite clause, a typical Semitic stylistic preference over Greek hypotaxis."
     },
     {
       "greek_nt": [
@@ -105,7 +114,6 @@
         4
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
@@ -113,54 +121,72 @@
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article + noun + possessive pronoun (τοὺς μαθητὰς αὐτοῦ); Vulgate omits the possessive (discipulos suos); Peshitta employs a pronominal suffix on the noun (ܠܬܠܡܝܕܘܗܝ, 'to-his-disciples'), a standard Semitic construction semantically equivalent to the Greek."
+      "note": "Greek τοὺς μαθητὰς αὐτοῦ and Vulgate discipulos suos both render 'his disciples' analytically with a separate possessive; Syriac ܠܬܠܡܝܕܘܗܝ encodes the article, noun, and 3ms possessive suffix in a single inflected word, a morphological compression characteristic of Syriac."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "The Peshitta supplies the explicit subject ܝܫܘܥ ('Jesus') as the agent of the calling and speaking, whereas the Greek and Vulgate leave the subject implicit in the verb. This is a common Syriac clarifying expansion to disambiguate the actor."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek εἶπεν (aorist) and Vulgate ait both stand as finite verbs of speaking; the Peshitta ܘܐܡܪ adds a coordinating waw, continuing the paratactic chain begun with ܘܩܪܐ rather than subordinating the second action."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
-        5
+        5,
+        6
       ],
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
+      "greek_nt": [
+        7
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon (:) to mark the transition from narrative frame to direct discourse. Neither Greek nor Peshitta manuscripts employ this punctuation convention at this juncture, though Greek uses a raised dot (·) after αὐτοῖς in some witnesses."
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἀμήν / ܐܡܝܢ / Amen — a Hebrew loanword transliterated identically across all three traditions."
     },
     {
       "greek_nt": [
-        7,
         8,
         9
       ],
       "peshitta": [
-        5,
         6,
         7,
         8
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta expands the solemn formula ἀμὴν λέγω ὑμῖν by inserting the explicit first-person pronoun ܐܢܐ ('I') between the two verbs (ܐܡܝܢ ܐܡܪ ܐܢܐ ܠܟܘܢ), yielding 'Amen, I say, I, to you.' This emphatic pronoun is absent in both Greek and Latin but reflects Syriac rhetorical preference for subject explicitness."
+      "variant": "minor",
+      "note": "Greek λέγω ὑμῖν and Vulgate dico vobis express the subject pronominally within the finite verb; Syriac ܐܡܪ ܐܢܐ ܠܟܘܢ uses the enclitic pronoun ܐܢܐ as an explicit subject marker after the participle, a standard Syriac periphrastic present construction."
     },
     {
       "greek_nt": [
@@ -172,52 +198,88 @@
       "vulgate": [
         10
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὅτι and Latin quoniam both introduce the content clause; Peshitta uses the relative particle ܕ (d-), which functions identically but is morphologically a different construction (relative vs. conjunction). Semantically aligned."
+      "variant": "aligned",
+      "note": "ὅτι / ܕ- (prefixed) / quoniam — the recitative conjunction introducing direct speech; Syriac fuses it as the proclitic dalath on ܕܗܕܐ."
     },
     {
       "greek_nt": [
         11,
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "αὕτη / ܗܕܐ (within ܕܗܕܐ) / hæc — the demonstrative 'this'; Syriac positions it proclitically before the noun, fused with the recitative dalath."
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        9,
-        10,
         11
       ],
       "vulgate": [
-        11,
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs double articulation (ἡ χήρα αὕτη ἡ πτωχή, 'the widow this the poor'), a Semitic-influenced attributive structure. Peshitta uses the demonstrative prefix ܕܗܕܐ ('that this') + noun + adjective (ܐܪܡܠܬܐ ܡܣܟܢܬܐ). Vulgate reorders to Latin norms: vidua haec pauper (widow this poor), omitting the second article. All three are semantically equivalent."
+      "variant": "aligned",
+      "note": "ἡ πτωχή / ܡܣܟܢܬܐ / pauper — 'the poor [woman]'; all three qualify the widow as destitute, Greek and Latin using attributive adjectives and Syriac an emphatic-state adjective."
     },
     {
       "greek_nt": [
-        16,
-        17,
+        16
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        13,
+        14,
+        15
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "note": "Greek πάντων and Vulgate omnibus render the comparison 'than all' with a single masculine/neuter plural; Syriac expands to ܡܢ ܟܠܗܘܢ ܐܢܫܐ ('than all the people/men'), supplying an explicit substantive ܐܢܫܐ where the Greek and Latin leave the noun unexpressed. This is a clarifying Syriac expansion specifying the comparison class."
+    },
+    {
+      "greek_nt": [
         18
       ],
       "peshitta": [
-        12,
-        13,
-        14,
         17
       ],
       "vulgate": [
-        14,
-        15,
         16
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the comparative adjective πλεῖον + genitive πάντων ('more than all') with the verb ἔβαλεν following. Peshitta employs ܝܬܝܪ ܡܢ ܟܠܗܘܢ ('more than all') + verb ܐܪܡܝܬ, mirroring Greek syntax. Vulgate inverts to plus omnibus misit ('more than all cast'), placing the verb last. All convey identical comparative semantics."
+      "variant": "aligned",
+      "note": "ἔβαλεν / ܐܪܡܝܬ / misit — '[she] cast/put in'; all three use a finite past-tense verb of casting, Syriac employing the root r-m-y."
     },
     {
       "greek_nt": [
@@ -225,16 +287,14 @@
         20
       ],
       "peshitta": [
-        15,
         16
       ],
       "vulgate": [
         17,
         18
       ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta inserts ܐܢܫܐ ('people, men') as the explicit antecedent of the participle ܕܪܡܝܢ ('who cast'), whereas Greek uses the articular participle τῶν βαλλόντων ('of those casting') and Latin the relative pronoun qui miserunt ('who cast') without naming the referent. This is a Syriac clarification typical of oral-register translation."
+      "variant": "minor",
+      "note": "Greek τῶν βαλλόντων uses an articular present participle in the genitive ('of those casting'); the Vulgate renders with a relative clause qui miserunt, and Syriac ܕܪܡܝܢ uses a proclitic relative dalath plus participle. The three traditions express the same partitive idea through three distinct syntactic constructions: Greek substantival participle, Latin relative clause, Syriac relative-marked participle."
     },
     {
       "greek_nt": [
@@ -250,15 +310,14 @@
         19,
         20
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition εἰς + article + noun (εἰς τὸ γαζοφυλάκιον, 'into the treasury'). Peshitta employs the construct-state phrase ܒܝܬ ܓܙܐ ('house-of treasury'), a typical Semitic genitive construction. Vulgate uses in + accusative (in gazophylacium). All three denote the same location with tradition-specific syntax."
+      "variant": "aligned",
+      "note": "εἰς τὸ γαζοφυλάκιον / ܒܝܬ ܓܙܐ / in gazophylacium — 'into the treasury'; the Vulgate transliterates the Greek loanword γαζοφυλάκιον, while Syriac renders the sense with the native construct phrase ܒܝܬ ܓܙܐ ('house of treasure')."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.028018+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.526112+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

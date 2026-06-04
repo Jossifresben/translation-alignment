@@ -57,13 +57,12 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
       "variant": "minor",
       "type": "omission",
-      "note": "The Peshitta omits the conjunction καί / Et that opens the Greek and Latin witnesses. This is a common Syriac stylistic preference, avoiding redundant connectives where context sufficiently links discourse units."
+      "note": "Both Greek (καί) and Vulgate (Et) open with the connective conjunction; the Peshitta omits the introductory copula entirely, beginning paratactically with the verb ܐܡܪ, a stylistic feature of Syriac narrative which does not require an opening conjunction here."
     },
     {
       "greek_nt": [
@@ -77,7 +76,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the imperfect ἔλεγεν ('he was saying'), Latin the imperfect dicebat, while Peshitta employs the perfect ܐܡܪ ('he said'). The aspectual difference is minor; Syriac often neutralizes Greek imperfective nuances in narrative discourse."
+      "note": "Greek ἔλεγεν and Latin dicebat are both imperfect, conveying durative/iterative speech ('he kept saying'); the Peshitta ܐܡܪ is a simple perfect, flattening the aspectual nuance to a punctual 'he said'."
     },
     {
       "greek_nt": [
@@ -90,9 +89,8 @@
         2,
         3
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after illis to mark direct speech, a Latin scribal convention not reflected in Greek or Syriac manuscript traditions. The pronoun forms (αὐτοῖς / ܠܗܘܢ / illis) are semantically equivalent."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis ('to them'); the Vulgate's colon (index 3) is included as the punctuation introducing the direct discourse."
     },
     {
       "greek_nt": [
@@ -104,8 +102,7 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -120,27 +117,36 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἀθετεῖτε is a single verb ('you set aside'); Latin renders with the periphrastic irritum facitis ('you make void'); Peshitta uses ܛܠܡܝܢ ܐܢܬܘܢ (participle + pronoun, 'you are setting aside'). All three convey the same accusation but employ different syntactic strategies."
+      "type": "lexical",
+      "note": "Greek ἀθετεῖτε ('you set aside, nullify') is rendered analytically: the Peshitta uses participle ܛܠܡܝܢ plus explicit pronoun ܐܢܬܘܢ ('you do injustice to / reject'), drawing on the root ṭ-l-m connoting wronging or oppressing, while the Vulgate uses the periphrasis irritum facitis ('you make void'). All converge on the sense of annulment, but the Syriac introduces a connotation of injustice absent from the Greek and Latin."
     },
     {
       "greek_nt": [
         5,
-        6,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "τὴν ἐντολήν / ܦܘܩܕܢܐ / præceptum ('the commandment')."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses the articular construction τὴν ἐντολὴν τοῦ θεοῦ ('the commandment of God'); Latin follows with præceptum Dei (no article, genitive); Syriac employs the construct chain ܦܘܩܕܢܐ ܕܐܠܗܐ ('commandment of God'). The lexical choices (ἐντολή / præceptum / ܦܘܩܕܢܐ) are standard equivalents; the structural variation reflects each language's nominal syntax."
+      "variant": "aligned",
+      "note": "τοῦ θεοῦ / ܕܐܠܗܐ / Dei ('of God'); the Vulgate comma after Dei is part of this token."
     },
     {
       "greek_nt": [
@@ -152,26 +158,8 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἵνα introduces a purpose clause ('in order that'); Latin ut mirrors this; Peshitta uses the prefix ܕ- on the verb ܕܬܩܝܡܘܢ, a standard Syriac subordinating construction. The semantic function (purpose/result) is identical across all three traditions."
-    },
-    {
-      "greek_nt": [
-        10,
-        11,
-        12
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        10,
-        11
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the possessive pronoun after the noun (τὴν παράδοσιν ὑμῶν, 'the tradition of-you'); Latin mirrors this order (traditionem vestram); Syriac uses a pronominal suffix on the noun (ܡܫܠܡܢܘܬܟܘܢ, 'your-tradition'), a morphological rather than syntactic encoding of possession."
+      "variant": "aligned",
+      "note": "Purpose conjunction ἵνα / Syriac prefixed ܕ- (within ܕܬܩܝܡܘܢ) / ut ('that, so that')."
     },
     {
       "greek_nt": [
@@ -184,14 +172,42 @@
         12
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek στήσητε ('you may establish/maintain') and Syriac ܕܬܩܝܡܘܢ ('that you may establish') share the root sense of 'stand/establish'; Latin servetis ('you may keep/preserve') shifts the metaphor slightly toward conservation rather than erection, though the pragmatic meaning (upholding tradition) remains equivalent."
+      "type": "word-order",
+      "note": "Greek στήσητε ('that you may establish/maintain', from ἵστημι) and Latin servetis ('that you may keep') stand at clause-end, while the Syriac fuses the conjunction and verb into ܕܬܩܝܡܘܢ (root q-m, 'establish') in clause-initial position, reflecting the verb-first tendency of Syriac syntax."
+    },
+    {
+      "greek_nt": [
+        10,
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "τὴν παράδοσιν / ܡܫܠܡܢܘܬܟܘܢ / traditionem ('the tradition')."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The possessive 'your' is an independent genitive pronoun in Greek (ὑμῶν) and Latin (vestram), but in Syriac it is expressed as the enclitic suffix -ܟܘܢ attached to ܡܫܠܡܢܘܬܟܘܢ, so the noun and possessive share a single token."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.988593+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.481971+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

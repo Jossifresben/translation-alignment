@@ -68,8 +68,8 @@
         0
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγεν (simple past continuous); Peshitta employs periphrastic construction ܐܡܪ ܗܘܐ (was saying) with auxiliary verb; Vulgate uses imperfect dicebat. All three express iterative or durative past action, but Syriac makes the aspectual nuance explicit through analytic construction."
+      "type": "construction",
+      "note": "All three render the imperfect of continuous past speech; Greek ἔλεγεν and Latin Dicebat use a single inflected imperfect, whereas Syriac employs the periphrastic construction ܐܡܪ ܗܘܐ (perfect + auxiliary ܗܘܐ), the standard Syriac means of expressing durative or habitual past action."
     },
     {
       "greek_nt": [
@@ -96,7 +96,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the definite article ὁ with proper name Ἰωάννης, a standard Greek construction for known individuals; Syriac and Latin lack articles before proper names, following their respective grammatical norms."
+      "note": "Greek prefixes the nominative proper noun with the article ὁ Ἰωάννης, a typical Greek usage with personal names; neither Syriac ܝܘܚܢܢ nor Latin Joannes employs an article, as neither language marks names this way."
     },
     {
       "greek_nt": [
@@ -111,7 +111,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses dative with article τῷ Ἡρῴδῃ; Syriac employs preposition ܠ (to) with proper name ܗܪܘܕܣ; Latin uses simple dative Herodi. All express indirect object, but through different case-marking strategies."
+      "note": "Greek marks the indirect object with the dative article + noun (τῷ Ἡρῴδῃ); Syriac uses the prepositional dative prefix ܠ on ܠܗܪܘܕܣ, while Latin uses the bare dative Herodi — three equivalent strategies for the recipient of speech."
     },
     {
       "greek_nt": [
@@ -124,25 +124,34 @@
         4
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ὅτι introduces indirect discourse; Syriac ܕ serves identical function; Vulgate inserts colon punctuation before the quotation rather than using a subordinating conjunction, treating John's words as direct rather than indirect speech."
+      "type": "construction",
+      "note": "Greek introduces direct discourse with recitative ὅτι, here untranslatable as 'that'; the Vulgate represents the boundary with a colon and Non, while Syriac merges the discourse marker with the negation as ܕܠܐ ('that not'), so the Peshitta token absorbs both the ὅτι and the following οὐκ."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
-        5,
-        6
+        5
       ],
       "vulgate": [
-        5,
-        6
+        5
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses negative particle οὐκ with impersonal verb ἔξεστίν (it is lawful); Syriac combines negative ܕܠܐ with adjective ܫܠܝܛ (permitted); Latin employs non with impersonal licet. All three express prohibition of legality, but Syriac uses adjectival predicate where Greek and Latin use verbal constructions."
+      "note": "The Greek negation οὐκ and Latin Non stand as separate words, but Syriac fuses the relative/recitative particle with the negation in the single form ܕܠܐ; this token therefore overlaps with the preceding discourse-marker group."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -168,7 +177,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses infinitive ἔχειν (to have) complementing ἔξεστίν; Syriac employs ܕ + imperfect ܬܣܒ (that you take/marry), a finite subordinate clause; Latin uses infinitive habere. Syriac finite construction is typical for purpose/result clauses in that tradition."
+      "note": "Greek ἔχειν and Latin habere use a complementary infinitive ('to have'); Syriac ܕܬܣܒ employs a finite subjunctive verb from the root n-s-b ('that you should take'), shifting from possession to the act of taking a wife — a common Semitic idiom for marriage."
     },
     {
       "greek_nt": [
@@ -183,7 +192,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses definite article τὴν with γυναῖκα (the wife); Syriac ܐܢܬܬ and Latin uxorem lack articles, as both languages employ definiteness through context and construct-state (Syriac) or case inflection (Latin) rather than separate articles."
+      "note": "Greek marks the object with the article τὴν γυναῖκα; both Syriac ܐܢܬܬ (construct state of a-n-th) and Latin uxorem stand without an article, the Syriac construct form alone signalling the genitive relationship that follows."
     },
     {
       "greek_nt": [
@@ -200,13 +209,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses genitive construction τοῦ ἀδελφοῦ σου (of the brother of you) with article; Latin employs genitive fratris tui mirroring Greek structure; Syriac uses construct-state ܐܚܘܟ (brother-your), a single bound form encoding both possession and the nominal relationship without separate article or preposition."
+      "note": "Greek expresses possession with article + genitive noun + possessive pronoun (τοῦ ἀδελφοῦ σου, 'of your brother'); Latin uses genitive fratris tui; Syriac compresses both into the single suffixed form ܐܚܘܟ ('your brother'), the pronominal suffix rendering the separate Greek and Latin possessive pronoun unnecessary."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.980373+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.459799+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

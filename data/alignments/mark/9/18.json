@@ -86,11 +86,16 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek opens with καὶ ('and'), linking this verse to the preceding narrative. Both Peshitta and Vulgate omit this initial conjunction, treating the verse as a more independent statement within the father's description of the possessed boy's symptoms."
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with paratactic καί + adverb ὅπου ('and wherever'); the Peshitta fuses conjunction and locative into ܘܐܝܟܐ ('and where'); the Vulgate dispenses with the conjunction and supplies a relative pronoun qui ('who') governing the following ubicumque, restructuring the clause as a relative rather than a coordinate construction."
     },
     {
       "greek_nt": [
@@ -98,60 +103,75 @@
         2
       ],
       "peshitta": [
-        0
+        1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the compound conjunction ὅπου ἐάν ('wherever if,' i.e., 'wherever'); Vulgate employs the single compound ubicumque ('wherever'); Peshitta uses ܘܐܝܟܐ ('and where'), a simpler construction that achieves the same indefinite locative sense."
+      "type": "construction",
+      "note": "Greek expresses the indefinite temporal/local condition with two particles (ὅπου ἐάν, 'wherever it may'); both the Syriac participle ܕܡܕܪܟܐ and the Latin perfect subjunctive apprehenderit collapse this into a single inflected verbal form, eliminating the discrete conditional particle ἐάν."
     },
     {
       "greek_nt": [
-        3,
         4
       ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καταλάβῃ (from καταλαμβάνω, 'seize, grasp') is rendered by Vulgate apprehenderit (from apprehendo, 'seize') and Peshitta ܕܡܕܪܟܐ ܠܗ ('that it overtakes him'). All three convey the spirit's sudden seizure of the boy, with slight lexical variation but semantic equivalence."
+      "variant": "aligned",
+      "note": "αὐτόν / ܠܗ / eum"
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "ῥήσσει / ܚܒܛܐ / allidit"
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ῥήσσει αὐτόν ('it throws/dashes him down,' from ῥήγνυμι) corresponds to Vulgate allidit illum ('it dashes him,' from allido) and Peshitta ܚܒܛܐ ܠܗ ('it strikes/beats him'). The Syriac verb emphasizes violent striking, while Greek and Latin focus on the convulsive throwing motion; all describe the same violent seizure phenomenon."
+      "variant": "aligned",
+      "note": "αὐτόν / ܠܗ / illum"
     },
     {
       "greek_nt": [
         7
       ],
-      "peshitta": [],
+      "peshitta": [
+        5
+      ],
       "vulgate": [
         6
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek and Vulgate include a conjunction (καὶ / et, 'and') before the foaming symptom. Peshitta omits this coordinating particle, proceeding directly from the striking verb to the foaming verb with simple waw-consecutive construction (ܘܡܪܥܬ), a typical Syriac asyndetic pattern."
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek and Latin coordinate the next clause with a free-standing conjunction (καί / et) preceding the verb; the Syriac prefixes the proclitic waw directly to the verb ܘܡܪܥܬ, absorbing the conjunction into the verbal form per Syriac orthographic norm."
     },
     {
       "greek_nt": [
@@ -164,19 +184,21 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἀφρίζει / ܡܪܥܬ / spumat"
     },
     {
       "greek_nt": [
         9
       ],
-      "peshitta": [],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
         8
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek and Vulgate include καὶ / et ('and') before the teeth-gnashing symptom. Peshitta again omits the conjunction, continuing with waw-consecutive ܘܡܚܪܩ ('and he gnashes'), maintaining its asyndetic style throughout the symptom list."
+      "variant": "minor",
+      "type": "construction",
+      "note": "As before, the Greek καί and Latin et stand as independent conjunctions, while the Syriac integrates the connective as a prefixed waw on ܘܡܚܪܩ ('and he gnashes'), so the conjunction is not a separate lexical token."
     },
     {
       "greek_nt": [
@@ -194,20 +216,22 @@
         10
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the full construction τρίζει τοὺς ὀδόντας αὐτοῦ ('he gnashes the teeth of him,' with article and possessive pronoun). Vulgate employs stridet dentibus ('he gnashes with teeth,' ablative of means without article). Peshitta uses ܘܡܚܪܩ ܫܢܘܗܝ ('and he gnashes his-teeth,' with pronominal suffix), a more compact Semitic construction."
+      "type": "expansion",
+      "note": "Greek specifies the object with article, noun, and possessive pronoun (τοὺς ὀδόντας αὐτοῦ, 'his teeth'); Syriac ܫܢܘܗܝ carries the possessive suffix ('his teeth') but lacks the article; the Vulgate dentibus is a bare ablative/instrumental plural with neither article nor possessive, leaving 'with [his] teeth' implicit."
     },
     {
       "greek_nt": [
         14
       ],
-      "peshitta": [],
+      "peshitta": [
+        8
+      ],
       "vulgate": [
         11
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek and Vulgate include καὶ / et ('and') before the withering symptom. Peshitta omits this conjunction as well, continuing with simple waw-consecutive ܘܝܒܫ ('and he withers'), consistent with its asyndetic treatment of the entire symptom sequence."
+      "variant": "minor",
+      "type": "construction",
+      "note": "The final clause-connector again surfaces as an independent καί / et in Greek and Latin but as the prefixed waw of ܘܝܒܫ in the Syriac, a recurrent structural difference rather than a semantic one."
     },
     {
       "greek_nt": [
@@ -219,8 +243,9 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ξηραίνεται is a present passive ('is being dried up/withered'), whereas Syriac ܝܒܫ and Latin arescit are active/intransitive ('he becomes rigid/dries up'); the difference is one of voice, the Semitic and Latin preferring an intransitive stative over the Greek passive."
     },
     {
       "greek_nt": [],
@@ -230,7 +255,7 @@
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon (:) after arescit, creating a stronger pause before the father's statement about the disciples. Neither Greek nor Peshitta manuscripts indicate such punctuation at this juncture, treating the transition as continuous narrative."
+      "note": "The Clementine Vulgate inserts a colon here marking a major syntactic break before the apodosis; neither the Greek nor the Syriac transmits an equivalent discrete punctuation token at this point."
     },
     {
       "greek_nt": [
@@ -242,8 +267,9 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The narrative resumption is again a separate conjunction (καί / et) in Greek and Latin but the prefixed waw of ܘܐܡܪܬ in Syriac, consistent with Syriac morphological practice."
     },
     {
       "greek_nt": [
@@ -256,7 +282,7 @@
         15
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "εἶπα / ܐܡܪܬ / dixi"
     },
     {
       "greek_nt": [
@@ -273,23 +299,11 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses τοῖς μαθηταῖς σου ('to the disciples of you,' dative with article and possessive pronoun). Vulgate employs discipulis tuis ('to disciples your,' dative with possessive adjective, no article). Peshitta uses ܠܬܠܡܝܕܝܟ ('to-your-disciples,' single word with pronominal suffix), the most compact construction, typical of Semitic economy."
+      "note": "Greek uses article + noun + genitive pronoun (τοῖς μαθηταῖς σου, 'to your disciples'); the Syriac compresses dative marker, noun, and possessive suffix into the single inflected form ܠܬܠܡܝܕܝܟ; the Latin discipulis tuis renders noun plus possessive adjective without an article, each tradition handling the possessive per its own morphology."
     },
     {
       "greek_nt": [
-        21
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        18
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        21,
         22,
         23
       ],
@@ -297,36 +311,60 @@
         11
       ],
       "vulgate": [
+        18,
         19,
         20
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses αὐτὸ ἐκβάλωσιν ('it they-might-cast-out,' neuter pronoun + verb). Vulgate employs ejicerent illum ('they-might-cast-out it,' verb + pronoun). Peshitta uses ܕܢܦܩܘܢܝܗܝ ('that-they-cast-out-it'), incorporating the object pronoun as a suffix on the verb, a standard Syriac pronominal construction."
+      "note": "Greek forms a purpose clause with ἵνα + accusative pronoun αὐτό + subjunctive ἐκβάλωσιν; Latin parallels with ut + subjunctive ejicerent + object illum; Syriac collapses the conjunction, the third-person plural subject, and the resumptive object pronoun into the single suffixed imperfect ܕܢܦܩܘܢܝܗܝ ('that they might cast it out')."
     },
     {
       "greek_nt": [
-        24,
-        25,
+        24
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The adversative-coordinative connector preceding the negation is a free conjunction in Greek (καί) and Latin (et), but in Syriac it appears as the prefixed waw of ܘܠܐ, joining the conjunction to the negative particle."
+    },
+    {
+      "greek_nt": [
+        25
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "aligned",
+      "note": "οὐκ / ܠܐ / non"
+    },
+    {
+      "greek_nt": [
         26
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        21,
-        22,
         23
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἴσχυσαν ('they were able/had strength') and Latin potuerunt ('they could') both denote capacity, whereas the Syriac ܐܫܟܚܘ derives from the root sh-k-kh ('to find/be able') — a Semitic idiom in which 'to find' carries the sense 'to be able', a lexical divergence in the conceptual metaphor for ability."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.232289+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.522007+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

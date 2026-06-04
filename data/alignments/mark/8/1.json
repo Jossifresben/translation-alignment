@@ -81,7 +81,6 @@
       ],
       "peshitta": [
         0,
-        1,
         2
       ],
       "vulgate": [
@@ -89,9 +88,17 @@
         1,
         2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses the demonstrative ἐκείναις ('those') with the article ταῖς before ἡμέραις; Peshitta employs the demonstrative pronoun ܒܗܢܘܢ ('in those') with the particle ܕܝܢ ('now, then') and ܝܘܡܬܐ ('days'); Vulgate mirrors Greek word order with 'In diebus illis'. The Peshitta particle ܕܝܢ functions as a discourse marker absent in Greek and Latin."
+      "variant": "aligned",
+      "note": "ἐν ἐκείναις ταῖς ἡμέραις / ܒܗܢܘܢ ܝܘܡܬܐ / In diebus illis."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "The Peshitta inserts the postpositive particle ܕܝܢ ('but, now') as a discourse connective, a stylistic feature absent from both the Greek and Latin, which open the verse without an adversative."
     },
     {
       "greek_nt": [
@@ -102,8 +109,7 @@
         3
       ],
       "variant": "omitted",
-      "type": "omission",
-      "note": "Greek πάλιν ('again') and Latin iterum are absent from the Peshitta, which does not mark the repetition of the feeding miracle explicitly. This omission may reflect a stylistic preference in the Syriac tradition or a different Vorlage."
+      "note": "Greek πάλιν ('again') and Latin iterum are both attested, but the Peshitta omits this temporal adverb entirely, dropping the explicit link to the earlier feeding narrative (cf. Mark 6:34)."
     },
     {
       "greek_nt": [
@@ -124,9 +130,8 @@
         6,
         7
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek employs a genitive absolute construction (πολλοῦ ὄχλου ὄντος, 'a great crowd being'); Latin uses a temporal cum-clause with the subjunctive (cum turba multa esset); Peshitta uses a temporal particle ܟܕ ('when') with the existential construction ܐܝܬ ܗܘܐ ('there was'). All three convey the same temporal-circumstantial sense but through distinct syntactic strategies."
+      "variant": "minor",
+      "note": "Greek uses a genitive absolute (πολλοῦ ὄχλου ὄντος) and Latin a cum-clause (cum turba multa esset); the Syriac employs a ܟܕ ('when') clause with the periphrastic existential ܐܝܬ ܗܘܐ ('there was'), a typical Semitic construction expressing the same circumstantial sense."
     },
     {
       "greek_nt": [
@@ -150,52 +155,78 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a second genitive absolute with participle (μὴ ἐχόντων τί φάγωσιν, 'not having what they might eat'); Latin employs nec haberent quod manducarent (negative conjunction + imperfect subjunctive + relative clause); Peshitta mirrors the Greek structure with ܘܠܐ ܐܝܬ ܗܘܐ ܡܕܡ ܕܢܐܟܠܘܢ ('and there was not anything that they might eat'). The Peshitta's double use of ܐܝܬ ܗܘܐ reflects its preference for existential predication over participial constructions."
+      "note": "Greek καὶ μὴ ἐχόντων uses the participle 'not having,' which the Latin renders with a finite subjunctive (nec haberent); the Syriac again resorts to the periphrastic ܘܠܐ ܐܝܬ ܗܘܐ ('and there was not'), restructuring the verb of possession into an existential negation."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "note": "Greek προσκαλεσάμενος (middle participle, 'having summoned to himself') and Latin convocatis (ablative absolute) both preserve the participial syntax, whereas the Syriac ܩܪܐ is a simple finite verb ('he called'), flattening the subordination into a coordinate clause."
+    },
+    {
+      "greek_nt": [
         14,
-        15,
+        15
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "The explicit subject ὁ Ἰησοῦς ('Jesus') is named in the Greek but left implicit in both the Latin and the Syriac, which carry the subject through verbal inflection only — a common abbreviating tendency in the versions."
+    },
+    {
+      "greek_nt": [
         16,
         17,
         18
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        12,
         13
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek explicitly names the subject with the article and noun (ὁ Ἰησοῦς, 'Jesus') and uses the aorist middle participle προσκαλεσάμενος ('having called to himself') with the object τοὺς μαθητὰς αὐτοῦ ('his disciples'). Latin uses the perfect passive participle convocatis discipulis ('the disciples having been called together') without naming Jesus as subject. Peshitta employs the simple active verb ܩܪܐ ('he called') with the pronominal suffix ܠܬܠܡܝܕܘܗܝ ('to his disciples'), omitting the explicit subject 'Jesus' and relying on narrative context."
+      "variant": "minor",
+      "note": "Greek τοὺς μαθητὰς αὐτοῦ ('his disciples') with explicit possessive pronoun is matched by the Syriac single word ܠܬܠܡܝܕܘܗܝ, which fuses the object marker, noun, and 3ms possessive suffix; the Latin discipulis omits any possessive, leaving 'the disciples' unmarked."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek λέγει is a present indicative ('he says,' historic present), while the Syriac ܘܐܡܪ ('and he said') prefixes the coordinating waw and uses a perfective form, and the Latin ait is a defective perfect — both versions normalising the vivid Greek present to past narration."
+    },
+    {
+      "greek_nt": [
         20
       ],
       "peshitta": [
-        15,
         16
       ],
       "vulgate": [
-        14,
         15,
         16
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "αὐτοῖς· / ܠܗܘܢ / illis : — the Latin separates the closing colon as its own token."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.993771+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.505945+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

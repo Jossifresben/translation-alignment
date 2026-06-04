@@ -108,70 +108,57 @@
         3
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'illis' to mark direct speech, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. This reflects Latin scribal convention for introducing discourse."
+      "type": "construction",
+      "note": "All three render 'and he says/said to them.' Greek uses the historic present λέγει, while the Peshitta (ܘܐܡܪ) and Vulgate (ait) use the perfect/aorist; this is a routine tense-levelling of Mark's vivid present in the versions. The Vulgate colon (idx 3) marks the onset of direct speech."
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
         4
       ],
+      "variant": "aligned",
+      "note": "δεῦτε / ܬܘ / Venite"
+    },
+    {
+      "greek_nt": [
+        4,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek employs a double-pronoun construction (δεῦτε ὑμεῖς αὐτοί) for emphatic force, literally 'Come, you yourselves.' The Peshitta mirrors this with ܬܘ ܠܟܘܢ ('Come, to you'), while the Vulgate uses the simple imperative 'Venite' without pronominal reinforcement."
+      "type": "idiom",
+      "note": "Greek doubly emphasises the subject (ὑμεῖς αὐτοί, 'you yourselves'); the Peshitta collapses this to the ethical dative ܠܟܘܢ ('for yourselves'), and the Vulgate omits any explicit reiteration of the subject. The intensive force is preserved differently in each tradition."
     },
     {
       "greek_nt": [
         6,
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        4,
-        5
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses the preposition εἰς ('to, into') governing the destination. Peshitta employs a cohortative construction ܢܐܙܠ ('let us go') with ܠܕܒܪܐ ('to the wilderness'), making the motion verb explicit rather than implied. Vulgate uses 'in' with the accusative, semantically equivalent to Greek but syntactically distinct."
-    },
-    {
-      "greek_nt": [
+        7,
+        8,
         9,
         10
       ],
       "peshitta": [
-        5
+        4,
+        5,
+        6
       ],
       "vulgate": [
+        5,
+        6,
         7,
         8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the adjective before the noun (ἔρημον τόπον / desertum locum), while Peshitta uses the construct state ܠܕܒܪܐ ('to-the-wilderness'), incorporating the notion of 'place' within the single lexeme. All three convey 'to a deserted place.'"
+      "type": "construction",
+      "note": "Greek has 'apart by yourselves (κατ᾽ ἰδίαν) to a solitary place'; the Peshitta restructures as 'let us go (ܢܐܙܠ) to the wilderness (ܠܕܒܪܐ) alone (ܒܠܚܘܕܝܢ),' adding a hortatory verb of motion absent in Greek and rendering κατ᾽ ἰδίαν adverbially. The Vulgate 'seorsum in desertum locum' tracks the Greek closely without the added verb."
     },
     {
       "greek_nt": [
@@ -189,7 +176,7 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καὶ ἀναπαύσασθε ὀλίγον / ܘܐܬܬܢܝܚܘ ܩܠܝܠ / et requiescite pusillum"
     },
     {
       "greek_nt": [
@@ -206,8 +193,8 @@
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the simple imperfect ἦσαν γάρ ('for they were'). Peshitta employs the periphrastic construction ܐܝܬ ܗܘܘ ܓܝܪ (literally 'there were, for'), a common Syriac idiom for existential statements. Vulgate mirrors Greek with 'Erant enim.'"
+      "type": "grammar",
+      "note": "Greek ἦσαν γάρ uses the simple imperfect of εἰμί; the Peshitta employs the periphrastic existential construction ܐܝܬ ܗܘܘ ܓܝܪ ('there were indeed'), a characteristic Syriac idiom. The Vulgate 'Erant enim' matches the Greek directly."
     },
     {
       "greek_nt": [
@@ -215,11 +202,9 @@
         17,
         18,
         19,
-        20,
-        21
+        20
       ],
       "peshitta": [
-        12,
         13,
         14
       ],
@@ -227,18 +212,54 @@
         14,
         15,
         16,
-        17,
-        18,
-        19
+        17
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek and Vulgate use articulated participles with the adjective following (οἱ ἐρχόμενοι καὶ οἱ ὑπάγοντες πολλοί / qui veniebant et redibant multi). Peshitta fronts the adjective ܣܓܝܐܐ ('many') before the relative participles ܕܐܙܠܝܢ ܘܐܬܝܢ ('who were going and coming'), a typical Semitic word-order preference."
+      "note": "Greek pairs articular participles 'those coming and those going' (οἱ ἐρχόμενοι καὶ οἱ ὑπάγοντες); the Peshitta inverts the order to 'who go and come' (ܕܐܙܠܝܢ ܘܐܬܝܢ) and drops the second article, while the Vulgate uses finite relative clauses 'qui veniebant et redibant.' The reversed sequence in Syriac reflects natural idiom rather than a variant Vorlage."
     },
     {
       "greek_nt": [
-        22,
-        23,
+        21
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned",
+      "note": "πολλοί / ܣܓܝܐܐ / multi"
+    },
+    {
+      "greek_nt": [
+        22
+      ],
+      "peshitta": [],
+      "vulgate": [
+        19,
+        20
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The connective καί introducing the result clause is rendered by the Vulgate colon and 'et' (idx 19–20); the Peshitta subsumes this conjunction into its following clause without a separate token. A purely structural divergence with no semantic weight."
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        19,
+        20
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "note": "οὐδέ / ܐܦ ܠܐ / nec"
+    },
+    {
+      "greek_nt": [
         24,
         25
       ],
@@ -247,27 +268,22 @@
         16,
         17,
         18,
-        19,
-        20,
         21
       ],
       "vulgate": [
-        19,
-        20,
-        21,
         22,
         23,
         24
       ],
       "variant": "major",
       "type": "expansion",
-      "note": "Greek uses the negative conjunction οὐδὲ with the infinitive φαγεῖν and the imperfect εὐκαίρουν ('not even to eat were they able'). Peshitta expands with ܘܠܝܬ ܗܘܐ ܠܗܘܢ ܐܬܪܐ ܐܦ ܠܐ ܠܡܐܟܠ ('and there was not to them a place, not even to eat'), adding the explicit noun ܐܬܪܐ ('place/opportunity'). Vulgate renders with 'nec spatium manducandi habebant' ('nor did they have space for eating'), likewise making 'spatium' explicit where Greek implies opportunity through the verb εὐκαιρέω."
+      "note": "Greek expresses the idea verbally and idiomatically: 'they had no opportunity even to eat' (οὐδὲ φαγεῖν εὐκαίρουν, lit. 'they had no good time'). Both versions reify the abstract 'opportunity' as a concrete noun — the Peshitta 'there was no place/room for them' (ܘܠܝܬ ܗܘܐ ܠܗܘܢ ܐܬܪܐ) and the Vulgate 'they had no spatium (space/leisure) of eating' — a substantive lexical and conceptual reinterpretation of the Greek εὐκαιρέω."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.982644+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.533872+00:00",
+    "confidence": 0.79,
     "schema_version": 1
   }
 }

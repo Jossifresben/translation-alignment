@@ -69,13 +69,12 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb of speaking. This is a characteristic Syriac stylistic preference for asyndetic narrative transitions where Greek and Latin retain coordinating conjunctions."
+      "note": "The Greek and Latin open with the connective καί / Et, continuing the narrative chain; the Peshitta omits the initial conjunction, beginning directly with the verb of speaking, a common Syriac stylistic preference at clause boundaries."
     },
     {
       "greek_nt": [
@@ -87,8 +86,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek λέγει is a vivid historic present ('he says'), whereas the Vulgate ait and the Peshitta ܐܡܪ render the action with past/perfective force, smoothing the narrative tense in accordance with the target idiom."
     },
     {
       "greek_nt": [
@@ -101,9 +101,9 @@
         2,
         3
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after illis to mark direct discourse, a punctuation convention absent in the Greek and Peshitta manuscript traditions. This represents Latin scribal practice rather than a textual variant."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis; the Vulgate punctuation colon (idx 3) introduces the direct speech."
     },
     {
       "greek_nt": [
@@ -115,18 +115,17 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἄγωμεν and Latin Eamus are hortatory subjunctives ('let us go'); the Peshitta ܗܠܟܘ derives from the root h-l-k ('to walk/go') and is here an imperative plural, a lexically distinct verb of motion conveying the same exhortation."
     },
     {
       "greek_nt": [
         4
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek ἀλλαχοῦ ('elsewhere, to another place') is omitted in both Peshitta and Vulgate. The adverb is semantically redundant given the following prepositional phrase specifying destination, and both traditions streamline by eliminating this pleonasm."
+      "note": "The Greek adverb ἀλλαχοῦ ('elsewhere, to another place') is read by NA28 but has no counterpart in either the Peshitta or the Vulgate, both of which proceed directly to the destination; its absence reflects a shorter text-form not transmitted in these versions."
     },
     {
       "greek_nt": [
@@ -149,23 +148,33 @@
       ],
       "variant": "major",
       "type": "expansion",
-      "note": "Greek uses the rare compound κωμοπόλεις ('market-towns') modified by the participial phrase τὰς ἐχομένας ('the neighboring [ones]'). The Peshitta expands to a doublet ܠܩܘܪܝܐ ܘܠܡܕܝܢܬܐ ('to villages and to cities'), clarifying the semantic range. The Vulgate similarly expands with proximos vicos et civitates ('neighboring villages and cities'), making explicit the distinction implicit in the Greek compound noun."
+      "note": "Greek uses the single compound noun κωμοπόλεις ('village-towns') qualified by the participle ἐχομένας ('neighbouring'); the Vulgate splits this into a coordinated pair, proximos vicos et civitates ('neighbouring villages and towns'), and the Peshitta likewise expands into ܠܩܘܪܝܐ ܘܠܡܕܝܢܬܐ ('to the villages and to the cities'), both versions resolving the rare Greek hapax into a familiar binary."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The purpose clause is marked by ἵνα in Greek and ut in Latin; the Peshitta encodes purpose through the prefixed particle on ܕܐܦ ('that also'), folding the conjunction into the following word rather than supplying a discrete particle."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs ἵνα καί ('so that also') as a purpose clause with emphatic particle. Syriac uses ܕܐܦ (d-'ap, 'that also'), a single conjunction conflating purpose and emphasis. Latin ut et mirrors the Greek structure exactly, maintaining both the subordinator and the emphatic particle as separate lexemes."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܕܐܦ / et ('also')."
     },
     {
       "greek_nt": [
@@ -178,7 +187,8 @@
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἐκεῖ / ܬܡܢ / ibi ('there')."
     },
     {
       "greek_nt": [
@@ -191,27 +201,39 @@
         13,
         14
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a second colon after prædicem, creating a pause before the causal clause. Greek and Peshitta maintain continuous syntax without this punctuation break, reflecting different rhetorical segmentation practices in the Latin tradition."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "κηρύξω / ܐܟܪܙ / prædicem ('I may preach'); the Vulgate colon (idx 14) closes the inner clause."
     },
     {
       "greek_nt": [
         13,
-        14,
-        15
+        14
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
       "vulgate": [
         15,
-        16,
+        16
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἰς τοῦτο / ܠܗܕܐ / ad hoc ('for this purpose')."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "γάρ / ܓܝܪ / enim ('for')."
     },
     {
       "greek_nt": [
@@ -225,13 +247,13 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἐξῆλθον ('I came out/forth') uses a compound verb emphasizing departure from a point of origin. Syriac ܐܬܝܬ ('I came') and Latin veni ('I came') employ simple verbs of motion without the prefix, focusing on arrival rather than departure. This represents a subtle shift in aspectual perspective while maintaining semantic equivalence."
+      "note": "Greek ἐξῆλθον ('I have come forth/out') is a compound emphasising departure from a point of origin; the Vulgate veni ('I have come') and the Peshitta ܐܬܝܬ (root a-th-y, 'to come') render the simple verb of arrival, losing the directional prefix ἐξ- present in the Greek."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.949520+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.465318+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

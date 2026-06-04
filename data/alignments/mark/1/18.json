@@ -47,9 +47,8 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Peshitta ܘܡܚܕܐ (w-meḥdā, 'and immediately') combines the conjunction with the adverb in a single compound form, whereas Greek καὶ εὐθύς and Latin Et protinus maintain separate lexemes for coordination and temporal immediacy."
+      "variant": "aligned",
+      "note": "καί / ܘ / Et — coordinating conjunction; the Peshitta prefixes it proclitically to the adverb."
     },
     {
       "greek_nt": [
@@ -61,8 +60,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek adverb εὐθὺς and Latin protinus stand as separate words, while the Syriac ܘܡܚܕܐ fuses the conjunction and the adverb 'immediately' (root kh-d-a) into a single proclitic form, a routine Syriac morphological economy rather than a semantic divergence."
     },
     {
       "greek_nt": [
@@ -74,13 +74,15 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀφέντες and Syriac ܫܒܩܘ render the act of leaving with a finite/participial verb, whereas the Vulgate employs an ablative absolute (relictis retibus); the Syriac uses a coordinated finite verb ('they left') rather than a subordinate participle, but all express the same temporal sequence."
     },
     {
       "greek_nt": [
         3,
-        4
+        4,
+        5
       ],
       "peshitta": [
         2
@@ -90,36 +92,22 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the article τὰ with the plural noun δίκτυα ('the nets'); Syriac ܡܨܝܕܬܗܘܢ (mṣīdathōn) uses a singular noun with third-person plural possessive suffix ('their net'), a typical Semitic collective construction. Latin retibus mirrors the Greek plural but omits the article, as Latin lacks definite articles."
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek τὰ δίκτυα αὐτῶν spells out article, noun, and possessive pronoun, and Latin retibus omits any possessive; the Syriac ܡܨܝܕܬܗܘܢ compactly encodes 'their nets' with a single noun bearing the 3rd-plural possessive suffix, agreeing in sense with the Greek against the Vulgate's bare noun."
     },
     {
       "greek_nt": [
         6
       ],
       "peshitta": [
-        3,
-        4
+        3
       ],
       "vulgate": [
         4,
         5
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta expands the single Greek verb ἠκολούθησαν ('they followed') into a two-verb construction ܘܐܙܠܘ ܒܬܪܗ (w-ʾezal-w bāṯrēh, 'and they went after him'), making the motion explicit. Latin secuti sunt preserves the Greek's single-verb structure with a perfect passive participle plus auxiliary, semantically equivalent to the Greek aorist."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἠκολούθησαν ('they followed') is matched by Latin secuti sunt, but the Syriac uses ܘܐܙܠܘ ('and they went', root a-z-l) joined to the following prepositional phrase ܒܬܪܗ; the idiom 'went after him' substitutes a motion verb plus preposition for the single verb 'follow' attested in Greek and Latin."
     },
     {
       "greek_nt": [
@@ -131,14 +119,15 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek and Latin express the object with a simple dative/accusative pronoun (αὐτῷ / eum), while the Syriac completes its 'went after' idiom with the prepositional ܒܬܪܗ ('after him'), the syntactic complement required by ܐܙܠ rather than the direct object construction of ἀκολουθέω."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.946117+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.558347+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

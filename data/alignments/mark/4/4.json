@@ -63,24 +63,35 @@
   "alignment": [
     {
       "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
         0,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with the Septuagintalism καὶ ἐγένετο ('and it came to pass') followed by an articular infinitive of time; the Peshitta and Vulgate both compress this into a simple temporal conjunction (ܘܟܕ / Et dum, 'and while'), eliminating the Hebraising 'it came to pass' auxiliary verb."
+    },
+    {
+      "greek_nt": [
         1,
         2,
         3,
         4
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the Semitic construction καὶ ἐγένετο ἐν τῷ + infinitive (γίνομαι with articular infinitive) to introduce the temporal clause. Vulgate renders this with the classical Latin temporal conjunction dum + indicative (dum seminat). Peshitta uses the native Syriac temporal particle ܘܟܕ + perfect verb, eliminating the Greek pleonasm entirely—a characteristic Syriac simplification of Septuagintal-style syntax."
+      "note": "The Greek articular-infinitive temporal clause ἐν τῷ σπείρειν ('in the sowing') is rendered by both versions with a finite verb governed by the conjunction above: Syriac ܙܪܥ and Latin seminat, a present-tense indicative. The Vulgate notably omits any expressed subject, leaving 'the sower' implicit as in the Greek."
     },
     {
       "greek_nt": [
@@ -88,14 +99,15 @@
         6
       ],
       "peshitta": [
-        2
+        2,
+        3
       ],
       "vulgate": [
         3
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the relative pronoun ὃ with the particle μέν ('some [of it]') to introduce the distributive series. Vulgate substitutes the indefinite pronoun aliud ('another [portion]'), making the distribution explicit. Peshitta employs the existential particle ܐܝܬ ('there is/was') with a following relative clause, a standard Syriac construction for indefinite subjects—semantically equivalent but syntactically distinct from both Greek and Latin."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the partitive correlative ὃ μέν ('the one part'), anticipating later δέ clauses; the Vulgate renders this with the indefinite aliud ('another part'), while the Peshitta employs the existential particle ܐܝܬ plus a relative ܕܢܦܠ ('there is [seed] which fell'), a periphrastic construction idiomatic to Syriac narrative."
     },
     {
       "greek_nt": [
@@ -107,7 +119,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἔπεσεν / ܢܦܠ / cecidit"
     },
     {
       "greek_nt": [
@@ -125,22 +139,34 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek παρὰ τὴν ὁδόν ('alongside the road') and Vulgate circa viam ('around the road') both use prepositional phrases with accusative objects. Peshitta uses ܥܠ ܝܕ ܐܘܪܚܐ (literally 'upon the side of the road'), a compound prepositional construction typical of Syriac spatial idiom—the three traditions convey identical locative meaning through different syntactic strategies."
+      "type": "idiom",
+      "note": "Greek παρὰ τὴν ὁδόν ('alongside the road') and Latin circa viam align closely; the Peshitta adds the noun ܝܕ (literally 'hand/side') before ܐܘܪܚܐ, forming the idiomatic ܥܠ ܝܕ ܐܘܪܚܐ ('upon the side of the road'), a typical Syriac periphrastic preposition with no separate equivalent in the other traditions."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / et"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἦλθεν is singular (agreeing with neuter plural subject τὰ πετεινά per the Attic rule), whereas the Vulgate venerunt is plural; the Peshitta ܘܐܬܬ is feminine singular, agreeing with its grammatically feminine subject ܦܪܚܬܐ, here treated as a collective."
     },
     {
       "greek_nt": [
@@ -158,39 +184,40 @@
       ],
       "variant": "minor",
       "type": "omission",
-      "note": "Greek τὰ πετεινὰ τοῦ οὐρανοῦ ('the birds of heaven') and Vulgate volucres cæli ('birds of heaven') both preserve the Hebraic genitive construction. Peshitta uses the bare noun ܦܪܚܬܐ ('birds') without the qualifying phrase, a typical Syriac ellipsis where context makes the celestial origin of birds self-evident—the omission is stylistic rather than theologically significant."
+      "note": "Greek τὰ πετεινὰ τοῦ οὐρανοῦ and Latin volucres cæli both preserve the qualifier 'of heaven'; the Peshitta has only the bare collective singular ܦܪܚܬܐ ('the bird[s]/fowl'), omitting the genitive 'of heaven' and using a collective for the Greek/Latin plural."
     },
     {
       "greek_nt": [
-        17,
-        18
+        17
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / et"
+    },
+    {
+      "greek_nt": [
+        18,
+        19
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
-        11,
-        12
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        19
-      ],
-      "peshitta": [],
-      "vulgate": [
+        12,
         13
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek αὐτό and Vulgate illud both supply the neuter singular accusative pronoun as direct object of the verb 'devoured.' Peshitta incorporates the pronominal suffix directly onto the verb ܘܐܟܠܬܗ ('-it' as bound morpheme), following standard Syriac verb morphology where object pronouns are suffixed rather than freestanding—a grammatical difference with no semantic impact."
+      "type": "construction",
+      "note": "Greek κατέφαγεν αὐτό and Latin comederunt illud express the verb and its object as separate words; the Peshitta ܘܐܟܠܬܗ fuses the conjunction, the verb 'ate', and the enclitic 3ms object suffix into a single inflected form, a feature of Syriac verbal morphology, and again carries singular agreement with the collective subject."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.963427+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.474309+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

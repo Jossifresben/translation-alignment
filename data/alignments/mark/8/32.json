@@ -61,8 +61,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -74,8 +73,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -88,8 +86,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek employs the definite article τὸν λόγον ('the word'); the Vulgate verbum and Syriac ܡܠܬܐ render it anarthrously, since neither Latin nor Syriac possesses a definite article and contextual definiteness is supplied by the noun alone."
     },
     {
       "greek_nt": [
@@ -103,41 +101,55 @@
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperfect ἐλάλει (simple verb); Peshitta employs periphrastic construction ܡܡܠܠ ܗܘܐ (participle + auxiliary 'was'), a common Syriac idiom for progressive aspect. Vulgate loquebatur mirrors the Greek imperfect with Latin imperfect tense."
+      "note": "The Greek imperfect ἐλάλει is rendered idiomatically in Syriac as a periphrastic construction ܡܡܠܠ ܗܘܐ (participle + auxiliary ܗܘܐ), the standard Syriac means of expressing durative or habitual past action, matching the force of the Greek imperfect that the Latin loquebatur conveys synthetically."
     },
     {
       "greek_nt": [
         5
       ],
-      "peshitta": [
-        5
-      ],
+      "peshitta": [],
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
-        7,
-        8,
-        9
+        6
       ],
       "peshitta": [
-        5,
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek προσλαβόμενος ('having taken to oneself') and Latin apprehendens are aorist/present participles, whereas Syriac ܘܕܒܪܗ uses a finite verb with attached pronominal suffix ('and he led/took him'); the Syriac root d-b-r carries the nuance of leading aside rather than mere grasping."
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        5,
-        6,
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the participle προσλαβόμενος before the subject ὁ Πέτρος and object αὐτόν (participle-article-subject-object). Peshitta ܘܕܒܪܗ ܟܐܦܐ merges the verb with the object pronominal suffix, then names the subject (verb-object-subject). Vulgate apprehendens eum Petrus follows participial construction but with object before subject, reflecting Latin stylistic preference."
+      "note": "The subject is named Πέτρος (Greek, with article) and Petrus (Latin), both Graeco-Latin forms of the name, while the Peshitta retains the Aramaic original ܟܐܦܐ (Kepha, 'rock'), reflecting the underlying Semitic name behind the Greek translation."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "omitted",
+      "note": "The accusative object αὐτὸν ('him') of the participle is explicit in Greek and Latin (eum), but in the Peshitta it is absorbed into the pronominal suffix of ܘܕܒܪܗ ('and he took him'); the object is thus expressed but not as a separate token."
     },
     {
       "greek_nt": [
@@ -149,8 +161,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -162,8 +173,7 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -175,14 +185,13 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.998607+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.480344+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

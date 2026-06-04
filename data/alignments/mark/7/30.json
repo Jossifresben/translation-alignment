@@ -59,20 +59,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses conjunction + aorist participle (καὶ ἀπελθοῦσα); Peshitta employs simple waw-consecutive perfect (ܘܐܙܠܬ); Vulgate expands with temporal conjunction + pluperfect subjunctive (cum abiisset), creating a subordinate temporal clause where Greek and Syriac use coordinate structure."
+      "note": "Greek uses an aorist feminine participle (ἀπελθοῦσα, 'having gone away'); the Vulgate renders this with a temporal clause (cum abiisset, 'when she had gone away'), while the Peshitta employs a finite verb ܘܐܙܠܬ ('and she went') prefixed with the conjunction, merging conjunction and verb into one token. Constructionally equivalent but each tradition handles the subordination differently."
     },
     {
       "greek_nt": [
@@ -89,8 +98,7 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs prepositional phrase with article (εἰς τὸν οἶκον αὐτῆς); Peshitta uses direct object with pronominal suffix (ܠܒܝܬܗ, 'to-her-house'); Vulgate mirrors Greek structure but omits the article as Latin lacks definite articles (domum suam)."
+      "note": "Greek spells out the prepositional phrase εἰς τὸν οἶκον αὐτῆς ('to her house'); the Vulgate uses the accusative of motion without preposition (domum suam); the Peshitta compresses all into a single inflected form ܠܒܝܬܗ ('to-her-house'), incorporating preposition, noun, and possessive suffix."
     },
     {
       "greek_nt": [
@@ -116,8 +124,7 @@
         6
       ],
       "variant": "major",
-      "type": "lexical",
-      "note": "Greek uses neuter diminutive παιδίον ('little child'); Peshitta substitutes ܒܪܬܗ ('her daughter'), making the familial relationship explicit rather than using a generic term; Vulgate employs puellam ('girl'), specifying both gender and age where Greek remains neutral."
+      "note": "Greek τὸ παιδίον ('the child', neuter and gender-neutral) and Vulgate puellam ('the girl') differ in specificity; the Peshitta ܒܪܬܗ ('her daughter') goes further by adding a possessive suffix absent from both Greek and Latin, making explicit the familial relationship only implied in the wider narrative (cf. Mark 7:30)."
     },
     {
       "greek_nt": [
@@ -131,8 +138,7 @@
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses perfect passive participle (βεβλημένον, 'having been laid'); Peshitta employs circumstantial particle + passive participle construction (ܟܕ ܪܡܝܐ, 'while laid'); Vulgate uses present active participle (jacentem, 'lying'), shifting from stative passive to active voice."
+      "note": "Greek uses the perfect passive participle βεβλημένον ('having been laid/cast'); the Vulgate matches with a present participle jacentem ('lying'); the Peshitta renders this with the subordinating particle ܟܕ ('when/while') plus the passive participle ܪܡܝܐ ('cast/lying'), a periphrastic circumstantial construction characteristic of Syriac narrative."
     },
     {
       "greek_nt": [
@@ -147,36 +153,63 @@
         8,
         9
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places preposition before article-noun phrase (ἐπὶ τὴν κλίνην); Peshitta uses prepositional prefix on noun (ܒܥܪܣܐ, 'in/on-the-bed'); Vulgate employs supra + accusative (supra lectum), mirroring Greek word order but with different preposition suggesting position above rather than merely on."
+      "variant": "aligned",
+      "note": "ἐπὶ τὴν κλίνην / ܒܥܪܣܐ / supra lectum ('on the bed')."
     },
     {
       "greek_nt": [
-        13,
-        14,
-        15,
+        13
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        7,
-        8,
+        7
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin use a perfect participle of 'going out' (ἐξεληλυθός / exiisse, 'having gone out'); the Peshitta uses the passive participle ܢܦܝܩ from root n-p-q ('gone out/departed'), fused with the conjunction. The Syriac verb of departure is incorporated into the same clause structure governing the participle."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        8
+      ],
+      "variant": "added",
+      "note": "The Peshitta adds the prepositional phrase ܡܢܗ ('from her'), specifying the source from which the demon departed; neither the Greek nor the Vulgate transmits an explicit ablative complement here, leaving 'gone out' absolute."
+    },
+    {
+      "greek_nt": [
+        14,
+        15
+      ],
+      "peshitta": [
         9
       ],
       "vulgate": [
-        10,
-        11,
-        12
+        11
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek uses conjunction + article + accusative noun + perfect active participle (καὶ τὸ δαιμόνιον ἐξεληλυθός, 'and the demon having departed'); Peshitta adds prepositional phrase ܡܢܗ ('from her'), making the source of departure explicit; Vulgate uses accusative + infinitive construction (dæmonium exiisse), transforming the coordinate clause into indirect discourse dependent on invenit."
+      "variant": "aligned",
+      "note": "τὸ δαιμόνιον / ܫܐܕܗ / dæmonium ('the demon')."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.992470+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.449100+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

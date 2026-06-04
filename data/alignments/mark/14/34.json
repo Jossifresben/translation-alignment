@@ -69,8 +69,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -82,8 +81,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Syriac collapses the conjunction and verb into a single perfect form ܘܐܡܪ ('and he said'), where Greek λέγει is a vivid historic present and the Latin ait a perfect. The choice of tense differs across all three but the narrative sense is identical."
     },
     {
       "greek_nt": [
@@ -97,8 +96,7 @@
         3
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'illis' to mark direct discourse, while Greek uses a raised dot (·) and Syriac has no explicit punctuation marker. This reflects Latin scribal convention for introducing quotations rather than a textual variant."
+      "note": "The Vulgate punctuates with a colon (token 3) introducing direct speech, matching the Greek high point (·) appended to αὐτοῖς; the Peshitta has no equivalent punctuation token, reflecting Syriac scribal convention."
     },
     {
       "greek_nt": [
@@ -107,16 +105,14 @@
       ],
       "peshitta": [
         2,
-        3,
-        4
+        3
       ],
       "vulgate": [
         4,
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Syriac employs a tripartite construction (ܟܪܝܐ ܗܝ ܠܗ 'grieved is to-it') with an anticipatory pronoun ܠܗ, a typical Semitic resumptive structure. Greek and Latin use simple predicate adjective constructions (περίλυπός ἐστιν / Tristis est) without the pronominal element."
+      "note": "Greek περίλυπός ('exceedingly sorrowful', intensive περι-) is rendered by the simple Syriac adjective ܟܪܝܐ ('grieved') with the feminine copula ܗܝ, and by the Latin tristis ('sad'); both versions lose the intensive prefix of the Greek compound."
     },
     {
       "greek_nt": [
@@ -125,6 +121,7 @@
         7
       ],
       "peshitta": [
+        4,
         5
       ],
       "vulgate": [
@@ -132,8 +129,7 @@
         7
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the definite article ἡ with ψυχή to mark definiteness, which Latin mirrors with word order (anima mea). Syriac ܠܢܦܫܝ employs the pronominal suffix directly on the noun with the preposition ܠ, a construction that conflates the possessive and dative functions absent in Greek's article-noun-pronoun sequence."
+      "note": "Greek and Latin express possession by a postposed genitive pronoun (ψυχή μου / anima mea), whereas the Peshitta uses a dative-marked construction with the proleptic ܠܗ ('to it') anticipating ܠܢܦܫܝ ('to my soul'), an idiomatic Syriac ethic-dative anticipation absent from the other witnesses."
     },
     {
       "greek_nt": [
@@ -147,12 +143,9 @@
       "vulgate": [
         8,
         9,
-        10,
-        11
+        10
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἕως θανάτου uses a simple preposition with genitive; Syriac ܥܕܡܐ ܠܡܘܬܐ employs the compound preposition ܥܕܡܐ with ܠ governing the noun; Latin expands to 'usque ad mortem' with the compound preposition 'usque ad' plus accusative, followed by a second colon for rhetorical emphasis. All three convey 'unto death' but with tradition-specific prepositional idioms."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -164,9 +157,7 @@
       "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek μείνατε (aorist imperative of μένω 'remain/abide') is rendered by Syriac ܩܘܘ (Pael imperative of ܩܘܐ 'wait/endure') and Latin 'sustinete' (imperative of sustineo 'sustain/endure'). The Syriac and Latin choices emphasize patient endurance over static remaining, a subtle semantic shift from the Greek's spatial connotation."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -178,8 +169,7 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -191,8 +181,7 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -204,14 +193,14 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek γρηγορεῖτε is a present imperative ('keep watching'); the Syriac ܘܐܬܬܥܝܪܘ is an Ettaphal/reflexive form from the root th-e-r ('rouse oneself, be awake') prefixed with the conjunction, fusing the 'and watch' clause into one verb, while the Latin vigilate matches the simple imperative sense."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.040134+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.528851+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

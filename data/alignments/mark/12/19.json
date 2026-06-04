@@ -103,8 +103,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -116,101 +115,175 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
-        3
+        2
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the verb before the dative pronoun (ἔγραψεν ἡμῖν), while Vulgate reverses the order (nobis scripsit), a stylistic preference in Latin prose. Peshitta follows Greek word order (ܟܬܒ ܠܢ)."
+      "note": "Greek and Syriac place the verb (ἔγραψεν / ܟܬܒ) before the indirect object, whereas the Vulgate inverts this with nobis scripsit, fronting the dative pronoun for rhetorical emphasis — a stylistic word-order variant without semantic effect."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         4
+      ],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅτι and Vulgate ut introduce the indirect/legal statement explicitly; the Peshitta subsumes this under the following conditional particle ܕܐܢ ('that if'), so no discrete token corresponds to the recitative conjunction."
+    },
+    {
+      "greek_nt": [
+        5,
+        6
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        4
+        5,
+        6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek (ἐάν τινος) and Latin (si cujus) employ a separate conditional particle plus indefinite genitive, whereas Syriac ܕܐܢ fuses the relative/recitative and conditional senses into a single particle, with the indefinite 'of anyone' carried by ܕܐܢܫ later in the clause."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7,
-        8
+        7
       ],
       "peshitta": [
-        5,
         6,
         7
       ],
       "vulgate": [
-        5,
-        6,
-        7,
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The indefinite possessor 'of anyone' is expressed in Greek by τινος (5/6 cluster) and Latin by cujus, but in Syriac it is attached to the noun phrase ܐܚܘܗܝ ܕܐܢܫ ('the brother of a man'), the genitive ܕܐܢܫ functioning idiomatically for the indefinite Greek τις."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
         8,
         9
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses conditional ἐάν with genitive τινος followed by nominative ἀδελφὸς ἀποθάνῃ. Peshitta restructures with ܕܐܢ ܡܐܬ ܐܚܘܗܝ ܕܐܢܫ ('if dies the-brother of-a-man'), placing the verb before the possessive construction. Vulgate employs si cujus frater mortuus fuerit with perfect subjunctive, a more formal Latin conditional construction."
+      "type": "grammar",
+      "note": "Greek subjunctive ἀποθάνῃ and Syriac imperfect ܡܐܬ render the protasis as a single verb, while the Vulgate uses the periphrastic future perfect mortuus fuerit ('shall have died'), a Latinism heightening the conditional anteriority."
     },
     {
       "greek_nt": [
-        9,
-        10,
+        9
+      ],
+      "peshitta": [],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καί and Vulgate et coordinate the leaving of a wife as a separate clause; the Syriac prefixes the conjunction directly onto the verb ܘܫܒܩ (waw-consecutive), so no standalone connective token exists."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καταλίπῃ ('leave behind') and Latin dimiserit ('send away/release') are near-synonyms for the dying man leaving a widow; Syriac ܘܫܒܩ (root sh-b-q, 'to leave/forsake') matches the Greek sense more closely, the Latin verb carrying a faint connotation of dismissal."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        10,
-        11,
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         12,
-        13,
-        14,
-        15
+        13
       ],
       "peshitta": [
         10,
-        11,
-        12
+        11
       ],
       "vulgate": [
         13,
         14,
-        15,
+        15
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three negate the begetting of offspring, but the constituent order differs: Greek καὶ μὴ ... τέκνον and Latin et filios non ... place the object before the negated verb, while Syriac ܘܒܢܝܐ ܠܐ fronts the object 'and children' before the negation ܠܐ, a typical Semitic topicalisation."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
         16
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses singular τέκνον ('child') with negative μὴ ἀφῇ ('not leave'). Vulgate reads plural filios ('sons/children') with non reliquerit. Peshitta employs ܘܒܢܝܐ ܠܐ ܫܒܩ ('and sons not left'), explicitly using the plural 'sons' and restructuring the negation, representing a substantive lexical divergence in number that affects the legal scope of the levirate obligation."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀφῇ (ἀφίημι, 'leave/permit remaining') and Vulgate reliquerit ('leave behind') govern the offspring clause; Syriac repeats ܫܒܩ (sh-b-q), using the same verb as the wife clause rather than a distinct lexeme, a stylistic levelling characteristic of the Peshitta."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the singular τέκνον ('a child'), whereas both the Vulgate (filios) and the Syriac (ܘܒܢܝܐ, 'children') render the plural — the versions generalising the leviratic concern to offspring of any number, while the Greek emphasises the absence of even a single heir."
     },
     {
       "greek_nt": [
@@ -219,28 +292,37 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "type": "construction",
-      "note": "Greek employs the purpose conjunction ἵνα to introduce the apodosis of the legal prescription. Both Peshitta and Vulgate omit an explicit purpose marker, proceeding directly to the jussive/subjunctive verb forms (ܢܣܒ / accipiat), treating the clause as a direct continuation of the conditional protasis rather than a marked purpose clause."
+      "type": "omission",
+      "note": "The Greek purpose conjunction ἵνα ('in order that') introducing the leviratic prescription has no formal equivalent in either the Vulgate or the Peshitta, both of which move directly into the jussive/subjunctive verb (accipiat / ܢܣܒ), leaving the purposive nuance implicit."
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         18,
         19,
         20
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        17,
         18,
         19
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the articular construction ὁ ἀδελφὸς αὐτοῦ ('the brother of-him') with explicit article and genitive pronoun. Peshitta employs the bound form ܢܣܒ ܐܚܘܗܝ ('let-take his-brother') with pronominal suffix, lacking an independent article. Vulgate uses frater ejus with possessive genitive, mirroring Greek structure but without article (Latin lacking definite articles)."
+      "type": "construction",
+      "note": "Greek articulates 'his brother' with article, noun and possessive (ὁ ἀδελφὸς αὐτοῦ) and Latin with frater ejus, while Syriac ܐܚܘܗܝ encodes the third-person possessive suffix on the noun itself, a single synthetic form for the three-token Greek phrase."
     },
     {
       "greek_nt": [
@@ -256,26 +338,46 @@
         21
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs articular accusative τὴν γυναῖκα αὐτοῦ with separate possessive pronoun. Peshitta uses bound form ܐܢܬܬܗ ('his-wife') with pronominal suffix, a more compact Semitic construction. Vulgate reads uxorem ipsius, using the emphatic pronoun ipsius rather than ejus, possibly for stylistic variation or emphasis."
+      "type": "construction",
+      "note": "Greek τὴν γυναῖκα αὐτοῦ ('his wife') and Latin uxorem ipsius are analytic, whereas the Syriac suffixed form ܐܢܬܬܗ synthesises noun and possessive; the Latin choice of the emphatic ipsius (rather than ejus) may subtly mark the wife as the deceased brother's own."
     },
     {
       "greek_nt": [
-        24,
-        25,
+        24
+      ],
+      "peshitta": [],
+      "vulgate": [
+        22
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The coordinating conjunction (Greek καί, Vulgate et) joining the final clause is rendered in Syriac by the prefixed waw on the verb ܘܢܩܝܡ rather than as an independent token."
+    },
+    {
+      "greek_nt": [
+        25
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        23
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐξαναστήσῃ ('raise up') is a compound of ἀνίστημι; the Vulgate resuscitet matches the 'raise up' sense, while Syriac ܘܢܩܝܡ (root q-y-m, causative 'cause to stand/arise') is the standard Semitic idiom for raising up seed, cf. the Hebrew הֵקִים זֶרַע of Deut 25:5–6."
+    },
+    {
+      "greek_nt": [
         26
       ],
       "peshitta": [
-        16,
         17
       ],
       "vulgate": [
-        22,
-        23,
         24
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -291,14 +393,14 @@
         26
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses dative τῷ ἀδελφῷ αὐτοῦ with article and separate possessive pronoun to express the beneficiary. Peshitta employs the preposition ܠ with pronominal suffix ܠܐܚܘܗܝ ('to-his-brother'), a bound construction. Vulgate uses dative fratri suo, mirroring Greek dative function but with the possessive adjective suo rather than a genitive pronoun, reflecting Latin syntactic norms."
+      "type": "construction",
+      "note": "Greek expresses the beneficiary with article, dative noun and possessive (τῷ ἀδελφῷ αὐτοῦ) and Latin with fratri suo, while Syriac ܠܐܚܘܗܝ fuses the dative preposition ܠ, the noun, and the possessive suffix into one synthetic form."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.023787+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.550848+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

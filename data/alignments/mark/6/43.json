@@ -56,7 +56,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
@@ -68,9 +68,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement",
-      "note": "ἦραν / ܫܩܠܘ / sustulerunt"
+      "variant": "minor",
+      "note": "Greek ἦραν and Latin sustulerunt are finite aorist/perfect verbs ('they took up'); the Syriac ܘܫܩܠܘ fuses the conjunction and verb into a single prefixed form, so the conjunction and verb here share one token."
     },
     {
       "greek_nt": [
@@ -84,55 +83,83 @@
         3
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "The Vulgate expands κλάσματα with the doublet reliquias fragmentorum ('leftovers of fragments'), a clarifying hendiadys not present in the Greek or Syriac, which both use a single term for 'fragments' or 'broken pieces.'"
+      "note": "Greek κλάσματα ('fragments') and Syriac ܩܨܝܐ render a single noun, whereas the Vulgate expands into a fuller phrase reliquias fragmentorum ('the remnants of the fragments'), doubling the lexical expression with reliquias as an appositional clarifier not present in the Greek."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "δώδεκα / ܬܪܥܣܪ / duodecim"
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        2,
         3,
         4,
         5
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek employs a genitive construction (δώδεκα κοφίνων πληρώματα, 'twelve baskets' fullness') where the numeral modifies the container. Latin mirrors this with duodecim cophinos plenos (accusative + adjective). Syriac restructures with a circumstantial clause introduced by ܟܕ ('while/when'), yielding 'twelve baskets while [they were] full,' a characteristic Semitic participial construction expressing the same state but with different syntax."
+      "variant": "minor",
+      "note": "Greek uses the genitive κοφίνων with the noun πληρώματα ('basketfuls', lit. 'fullnesses of baskets'); the Vulgate renders this attributively as cophinos plenos ('full baskets'); the Syriac employs a circumstantial clause ܟܕ ܡܠܝܢ ('while [they were] full') governing ܩܘܦܝܢܝܢ, a construction-level divergence expressing the same sense of filled baskets."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
+    },
+    {
+      "greek_nt": [
         7,
-        8,
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek uses the preposition ἀπό plus the genitive article τῶν; the Vulgate mirrors this with de; the Syriac again fuses preposition and conjunction into the prefixed ܘܡܢ, and lacks an explicit article corresponding to τῶν, typical of Syriac nominal syntax."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        7,
-        8,
         9
       ],
-      "variant": "minor",
-      "type": "omission",
-      "note": "Greek includes the article τῶν before ἰχθύων ('the fish'), which the Vulgate preserves with de piscibus. The Peshitta omits any article (ܘܡܢ ܢܘܢܐ, 'and from fish'), reflecting standard Syriac usage where the definite state is unmarked in prepositional phrases of this type."
+      "variant": "aligned",
+      "note": "ἰχθύων / ܢܘܢܐ / piscibus"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.984515+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.433109+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

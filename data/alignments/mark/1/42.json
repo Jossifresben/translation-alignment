@@ -48,21 +48,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek opens with καί followed by a genitive absolute; the Syriac ܘܒܗ ('and in it') fuses the conjunction with a temporal pronominal phrase, while the Vulgate begins with Et leading into a cum-clause. The conjunction itself is common to all three."
+    },
+    {
+      "greek_nt": [
+        1,
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
         1,
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a genitive absolute construction (εἰπόντος αὐτοῦ, 'he having spoken'); Vulgate renders with a temporal cum-clause (cum dixisset, 'when he had said'); Peshitta uses a simple conjunction ܘܒܗ ('and in it/him'), omitting the explicit temporal participle but preserving narrative sequence through context."
+      "note": "Greek employs a genitive absolute (εἰπόντος αὐτοῦ, 'when he had spoken'), which the Vulgate renders with the subordinate cum dixisset; the Syriac has no explicit verb of speaking here, having absorbed the temporal sense into the prefatory ܘܒܗ ܒܫܥܬܐ ('and at that very hour')."
     },
     {
       "greek_nt": [
@@ -75,53 +85,86 @@
         3
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εὐθύς ('immediately') and Latin statim are direct equivalents; Peshitta ܒܫܥܬܐ ('in that hour/moment') is a cognate temporal expression with slightly more concrete imagery but semantically identical urgency."
+      "type": "idiom",
+      "note": "Greek εὐθύς and Latin statim are single adverbs ('immediately'); the Syriac expresses the same immediacy periphrastically with ܒܫܥܬܐ ('in the hour'), idiomatically bound to the preceding ܘܒܗ to yield 'at that very moment'."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπῆλθεν / ܐܙܠ / discessit"
+    },
+    {
+      "greek_nt": [
         5,
-        6,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek (ἀπ᾽ αὐτοῦ) and Latin (ab eo) use a preposition plus pronoun; Syriac compresses this into the single inflected form ܡܢܗ ('from him'), where the pronominal suffix carries the object — a standard Semitic synthetic construction."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        2,
-        3,
-        4
+        3
       ],
       "vulgate": [
-        4,
-        5,
-        6,
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Latin place the verb before the subject (ἀπῆλθεν ... ἡ λέπρα / discessit ... lepra, 'departed the leprosy'); Peshitta inverts to subject-verb order (ܐܙܠ ܓܪܒܗ ܡܢܗ, 'went his leprosy from him'), a typical Semitic construction. Greek includes the definite article ἡ; Syriac uses a pronominal suffix on ܓܪܒܗ ('his leprosy'), achieving definiteness through possession."
+      "type": "construction",
+      "note": "Greek marks the subject with the feminine article (ἡ λέπρα); the Vulgate lepra and Syriac ܓܪܒܗ both lack an article, and the Syriac further adds a 3ms pronominal suffix ('his leprosy'), explicitly personalising the affliction whereas Greek and Latin leave possession implicit."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The coordinating καί / et linking the two clauses is present in Greek and Latin; in the Syriac the conjunction is prefixed to the following verb (ܘܐܬܕܟܝ), so it is not a separate token but morphologically attached."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        8,
         9,
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἐκαθαρίσθη / ܘܐܬܕܟܝ / mundatus est"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.950324+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.536189+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

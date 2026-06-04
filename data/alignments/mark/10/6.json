@@ -48,59 +48,104 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3
+        0
       ],
       "peshitta": [
-        0,
-        1,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
         2
       ],
       "vulgate": [
-        0,
-        1,
+        2
+      ],
+      "variant": "minor",
+      "note": "The postpositive connective particle (Greek δέ, Latin autem, Syriac ܕܝܢ) is rendered consistently across all three traditions; its position differs because Syriac and Greek place it second in the clause while Latin likewise enclitically follows initio."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1,
+        3
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the conjunction δὲ second (postpositive), following ἀπὸ, while Peshitta places ܕܝܢ third, after both ܡܢ ܒܪܫܝܬ. Latin autem likewise follows ab initio. All three traditions express 'from the beginning of creation' with equivalent semantics but differing particle placement according to each language's syntactic conventions."
+      "note": "Greek ἀρχῆς κτίσεως ('beginning of creation') and Latin initio creaturæ both render an explicit two-word genitive phrase; the Peshitta compresses this into the single lexicalised adverbial ܒܪܫܝܬ ('in the beginning'), echoing the Genesis 1:1 formula and omitting an overt equivalent for 'creation.'"
     },
     {
       "greek_nt": [
-        4,
-        5,
-        6
+        4
       ],
       "peshitta": [
-        3,
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
         4
       ],
       "vulgate": [
-        4,
-        5,
-        6
+        5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The conjunction 'and' (Greek καί, Latin et) stands as a free word, whereas the Peshitta prefixes it proclitically as the waw of ܘܢܩܒܬܐ; this is a routine orthographic difference of Semitic conjunction-attachment, not a semantic divergence."
     },
     {
       "greek_nt": [
-        7,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -114,14 +159,13 @@
         9
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the definite article ὁ θεός ('the God'), a standard Greek construction for referring to the one God. Neither Syriac nor Latin possesses a definite article system; both use the bare noun (ܐܠܗܐ / Deus) with definiteness understood from context. This represents a structural difference in how the three languages encode definiteness rather than a theological or textual variant."
+      "note": "Greek supplies the definite article ὁ before θεός in accordance with its anaphoric convention for ὁ θεός; Latin Deus and Syriac ܐܠܗܐ lack an article (none being available in Latin, and the Syriac emphatic state functioning as default), so the difference is purely grammatical and carries no semantic weight."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.008294+00:00",
-    "confidence": 0.92,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.484308+00:00",
+    "confidence": 0.93,
     "schema_version": 1
   }
 }

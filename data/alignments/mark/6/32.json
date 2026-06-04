@@ -52,8 +52,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -63,21 +62,11 @@
         0
       ],
       "vulgate": [
+        1,
         4
       ],
-      "variant": "aligned",
-      "type": "agreement",
-      "note": "ἀπῆλθον / ܐܙܠܘ / abierunt"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts the participle 'ascendentes' (boarding, embarking), making explicit the action of getting into the boat before departing. Neither the Greek nor the Peshitta attest this detail, which may reflect Latin stylistic preference for circumstantial participles."
+      "variant": "minor",
+      "note": "Greek ἀπῆλθον ('they went away') is rendered by the Peshitta with the single verb ܘܐܙܠܘ, which also carries the conjunction. The Vulgate expands the action into a participle of embarking (ascendentes, 'going up [into the boat]') plus the main verb abierunt, splitting one Greek aorist into two coordinated Latin verbal elements."
     },
     {
       "greek_nt": [
@@ -93,8 +82,7 @@
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the prepositional phrase ἐν τῷ πλοίῳ immediately after the verb, specifying the means of travel. Peshitta postpones ܒܣܦܝܢܬܐ to the end of the clause, while Vulgate 'in navim' follows Greek word order but uses accusative of motion (navim) rather than locative, reflecting Latin directional syntax."
+      "note": "Greek and Latin both employ a prepositional phrase with the article/no-article for 'in the boat' (ἐν τῷ πλοίῳ / in navim), the Vulgate's accusative reflecting the motion-of-embarking idiom; the Peshitta uses a single proclitic-prefixed noun ܒܣܦܝܢܬܐ ('by/in [the] ship'), placing it after the destination rather than before, a difference of word order."
     },
     {
       "greek_nt": [
@@ -111,9 +99,8 @@
         6,
         7
       ],
-      "variant": "aligned",
-      "type": "agreement",
-      "note": "εἰς ἔρημον τόπον / ܠܐܬܪܐ ܚܘܪܒܐ / in desertum locum"
+      "variant": "minor",
+      "note": "Greek εἰς ἔρημον τόπον and Latin in desertum locum agree in adjective-noun order ('into a deserted place'); the Peshitta inverts to noun-then-attribute ܠܐܬܪܐ ܚܘܪܒܐ ('to a place, a desolate one'), the normal Syriac construct/attributive sequence."
     },
     {
       "greek_nt": [
@@ -127,14 +114,13 @@
         8
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the prepositional phrase κατ᾽ ἰδίαν (literally 'according to [their] own', i.e., privately, alone). Peshitta employs the adverbial construction ܒܠܚܘܕܝܗܘܢ (by themselves alone), with pronominal suffix making the subject explicit. Vulgate renders with the single adverb 'seorsum' (apart, separately), a more compressed Latin idiom conveying the same sense of isolation."
+      "note": "The Greek idiom κατ᾽ ἰδίαν ('privately, by themselves') is a two-word prepositional adverbial; the Vulgate compresses it to the single adverb seorsum, while the Peshitta uses the suffixed reflexive ܒܠܚܘܕܝܗܘܢ ('by themselves'), explicitly marking the third-plural subject that the Greek and Latin leave implicit."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.982815+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.469168+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

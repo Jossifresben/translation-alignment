@@ -69,32 +69,43 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "ὅταν / ܡܐ / Cum"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         2
+      ],
+      "variant": "aligned",
+      "note": "δέ / ܕܝܢ / autem"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places δὲ second (postpositive); Vulgate places autem third after audieritis; Peshitta ܕܝܢ follows standard Syriac postpositive position. All three traditions employ the same temporal-adversative conjunction, differing only in syntactic placement."
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
+      "note": "All three transmit the verb 'hear' (ἀκούσητε / ܕܫܡܥܬܘܢ / audieritis), but the Vulgate places the verb before the postpositive autem, whereas Greek and Syriac follow their respective particle-second word order; this is a stylistic Latin reordering with no semantic effect."
     },
     {
       "greek_nt": [
@@ -106,7 +117,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the accusative plural πολέμους ('wars') and Latin the plural bella, while Syriac ܩܪܒܐ stands as a collective/unmarked form often rendered singular; the Syriac noun functions as a mass-noun for 'warfare' rather than enumerating discrete conflicts."
     },
     {
       "greek_nt": [
@@ -118,50 +131,63 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀκοάς ('reports, rumours') is matched by Latin opiniones ('rumours, reports'); the Syriac ܛܒܐ (root T-w-b, 'tidings/news') is embedded in the conjoined ܘܛܒܐ and carries the same sense of secondhand report, though lexically it derives from a 'good news/tidings' base rather than the hearing-root used in Greek."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἀκοὰς πολέμων ('rumors of wars') uses the noun ἀκοή (hearing, report); Vulgate opiniones bellorum employs opinio (opinion, rumor); Peshitta ܛܒܐ ܕܩܐܪܣܐ uses a different lexical choice. All three convey the semantic field of 'reports/rumors,' but with distinct vocabulary reflecting translation tradition."
+      "note": "Greek πολέμων ('of wars') and Latin bellorum repeat the war-lexeme in the genitive; the Syriac ܕܩܐܪܣܐ employs a distinct root (q-r-s) yielding 'of battle/combat' rather than reduplicating the earlier ܩܪܒܐ, producing a stylistic lexical variation between the two halves of the phrase 'wars and rumours of wars'."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "μή / ܠܐ / ne"
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek θροεῖσθε (be disturbed, alarmed) is a rare verb specific to eschatological discourse; Vulgate timueritis (fear) uses a more common lexeme; Peshitta ܬܕܚܠܘܢ (fear) parallels the Vulgate choice. The Syriac and Latin opt for standard vocabulary where Greek preserves a distinctive term."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after timueritis, creating a stronger syntactic break before oportet. Neither Greek nor Peshitta manuscripts transmit equivalent punctuation at this juncture, reflecting Latin rhetorical convention rather than source-text structure."
+      "note": "Greek θροεῖσθε ('be alarmed/disturbed') is rendered by Latin timueritis ('fear') and Syriac ܬܕܚܠܘܢ (likewise 'fear'); both versions substitute the general verb of fearing for the more specific Greek notion of being startled or thrown into commotion."
     },
     {
       "greek_nt": [
@@ -181,18 +207,28 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek δεῖ γὰρ γενέσθαι uses impersonal δεῖ + infinitive; Peshitta ܥܬܝܕ ܗܘ ܕܢܗܘܐ employs a participial construction with copula ('it is destined that it happen'); Vulgate oportet enim hæc fieri adds the demonstrative hæc (these things) as explicit object. All express necessity, but through different syntactic strategies."
+      "note": "Greek expresses necessity with the impersonal δεῖ + aorist infinitive γενέσθαι; Latin parallels this with oportet … fieri; the Syriac uses the predicate-adjective construction ܥܬܝܕ ܗܘ ('it is destined/ready') plus the imperfect ܕܢܗܘܐ, a periphrastic Syriac idiom for inevitability rather than an impersonal verb of obligation."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        12,
-        14
+        12
       ],
+      "greek_nt": [],
       "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate places colons both after fieri and before sed, creating a tripartite structure. Greek and Peshitta use no equivalent punctuation, maintaining a continuous flow from necessity-clause to adversative. This reflects Latin preference for marked rhetorical pauses in eschatological pronouncements."
+      "type": "expansion",
+      "note": "The Vulgate supplies an explicit object hæc ('these things') as the subject of fieri; neither the Greek δεῖ … γενέσθαι nor the Syriac construction names an antecedent, leaving it implicit. The Latin pronoun is an exegetical clarification."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -204,12 +240,12 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἀλλά / ܐܠܐ / sed"
     },
     {
       "greek_nt": [
-        13,
-        14
+        13
       ],
       "peshitta": [
         12,
@@ -220,10 +256,11 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek οὔπω (not yet) is a single adverb; Peshitta ܠܐ ܥܕܟܝܠ uses a two-word negative construction (not + yet); Vulgate nondum is a compound adverb. All three convey identical temporal negation but through different morphological strategies reflecting each language's typical formation of negative temporal adverbs."
+      "note": "Greek and Latin use a single adverb of negated time (οὔπω / nondum, 'not yet'); the Syriac analyses this into two words ܠܐ ܥܕܟܝܠ ('not yet'), a standard Syriac periphrasis combining the negator with the temporal adverb."
     },
     {
       "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
@@ -232,13 +269,27 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek τὸ τέλος carries the definite article marking 'the end'; Latin finis is anarthrous (Latin lacking articles), and Syriac ܚܪܬܐ (root kh-r-th, cf. Heb. אַחֲרִית) likewise stands without an article, the determination being carried by context."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "vulgate": [
+        9,
+        14
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts colons after timueritis and after fieri, structuring the verse into three discrete clauses; the Greek uses a raised dot (·) only after θροεῖσθε, while the Syriac employs no internal punctuation here. These are editorial reading aids that do not alter sense."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.029283+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.478838+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

@@ -64,67 +64,86 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta inserts the independent pronoun ܗܘ ('he') as subject, a common Semitic clarifying device where Greek uses only the article ὁ and Latin omits both. This represents stylistic preference rather than semantic divergence."
+      "note": "The Greek conditional particle εἰ and Latin si correspond to the Syriac ܘܐܢ, which conflates the conjunction 'and' with the conditional 'if' in a single prefixed form; the Syriac thus carries the force of both Greek tokens 0 and 1 in one word."
     },
     {
       "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
+        1,
         2
       ],
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Syriac employs an anticipatory pronoun ܗܘ ('he/that one') before ܕܣܛܢܐ, producing a casus pendens construction ('if it be that Satan...') idiomatic to Syriac; Greek uses a simple articular noun ὁ σατανᾶς, while Latin drops the article entirely as is normal for Latin."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek ἀνέστη (second aorist indicative) and Syriac ܩܡ (perfect) both express completed past action, whereas the Vulgate consurrexerit is a future perfect subjunctive governed by si, casting the protasis as a hypothetical rather than a stated fact."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs aorist ἀνέστη with prepositional phrase ἐφ᾽ ἑαυτόν; Vulgate uses perfect consurrexerit with in semetipsum; Peshitta uses perfect ܩܡ ܥܠ ܢܦܫܗ. All three express 'risen against himself' with equivalent semantics but differing aspectual nuances (Greek aorist vs. Latin/Syriac perfect)."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
@@ -132,31 +151,47 @@
       ],
       "vulgate": [
         6,
-        7,
-        8
+        7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek coordinates with καὶ ἐμερίσθη (aorist passive indicative); Vulgate restructures as dispertitus est (perfect passive with auxiliary), inserting et to maintain coordination; Peshitta uses simple ܘܐܬܦܠܓ (ethpeel perfect). The Vulgate's participial construction reflects Latin stylistic preference for subordination over Greek parataxis."
+      "note": "Greek ἐμερίσθη is a finite aorist passive ('was divided'); the Syriac ܘܐܬܦܠܓ likewise carries the conjunction and the Ethpaʿel passive in one word, while the Latin renders it periphrastically with participle plus copula dispertitus est, a construction-level difference expressing the same passive sense."
     },
     {
       "greek_nt": [
-        9,
-        10,
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "note": "Greek δύναται and Syriac ܡܫܟܚ both express present capability ('he is able'), but the Vulgate poterit is future indicative, agreeing in tense-sequence with its future-perfect protasis and thus presenting the consequence as a future inability rather than a present one."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        7,
-        8,
         9
       ],
       "vulgate": [
-        9,
-        10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -168,8 +203,7 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -185,14 +219,13 @@
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses accusative object τέλος with verb ἔχει ('has an end'); Vulgate mirrors this with finem habet; Peshitta employs possessive construction ܚܪܬܗ ܗܝ (literally 'his end it-is'), using the copular pronoun ܗܝ for emphasis. This represents a characteristic Syriac nominal-sentence structure versus Greek/Latin verbal predication."
+      "note": "Greek τέλος ἔχει ('has an end / is coming to an end') and Latin finem habet render the idiom with noun plus verb 'to have'; the Syriac instead uses ܚܪܬܗ ܗܝ, literally 'his end it is', a nominal sentence with an enclitic pronoun ('it is his end'), a Semitic copular construction rather than a transitive verb of possession."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.961252+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.533400+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

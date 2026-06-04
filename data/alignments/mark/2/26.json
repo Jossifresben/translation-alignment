@@ -111,8 +111,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -124,52 +123,80 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "peshitta": [
-        2,
-        3
-      ],
-      "vulgate": [
         2,
         3,
         4
       ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses prepositional phrase εἰς τὸν οἶκον τοῦ θεοῦ with article and genitive construction; Peshitta employs bound form ܠܒܝܬܗ ܕܐܠܗܐ (to-house-his of-God) with pronominal suffix; Vulgate mirrors Greek structure with in domum Dei. All three are semantically equivalent despite syntactic variation."
+      "type": "construction",
+      "note": "Greek uses preposition + article + accusative noun (εἰς τὸν οἶκον) and Latin matches with in + accusative (in domum); Syriac collapses the prepositional phrase into a single inflected form ܠܒܝܬܗ ('into his/its house') bearing a pronominal suffix that anticipates the following genitive, a typical Syriac construct strategy."
     },
     {
       "greek_nt": [
-        7,
-        8,
+        5,
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐπὶ Ἀβιαθὰρ is a temporal genitive idiom ('in the days of Abiathar'); the Vulgate renders it with sub Abiathar, and the Peshitta uses the subordinating particle ܟܕ ('when/while'), each tradition resolving the compressed Greek temporal phrase with a different syntactic device."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        4,
-        5,
         6,
         7
       ],
       "vulgate": [
-        5,
-        6,
         7,
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐπὶ Ἀβιαθὰρ τοῦ ἀρχιερέως uses preposition ἐπί (in the time of) with genitive; Vulgate sub Abiathar principe sacerdotum employs sub with ablative; Peshitta uses temporal particle ܟܕ (when) with nominal phrase ܐܒܝܬܪ ܪܒ ܟܗܢܐ (Abiathar chief priest). The Syriac construction is more explicitly temporal, while Greek and Latin use spatial-temporal prepositions idiomatically."
+      "type": "lexical",
+      "note": "Greek ἀρχιερέως ('high priest') is a single compound; both the Peshitta (ܪܒ ܟܗܢܐ, 'chief of the priests') and the Vulgate (principe sacerdotum) render it as a two-word construct/genitive phrase, an analytic equivalent of the synthetic Greek term."
     },
     {
       "greek_nt": [
@@ -181,8 +208,7 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -199,70 +225,86 @@
         10,
         11
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "expansion",
-      "note": "Greek τοὺς ἄρτους τῆς προθέσεως (the loaves of the presentation) and Vulgate panes propositionis both use genitive constructions. Peshitta ܠܚܡܐ ܕܦܬܘܪܗ ܕܡܪܝܐ (bread of-table-his of-the-Lord) adds an explicit reference to 'the Lord' (ܕܡܪܝܐ) not present in Greek or Latin, making the divine ownership of the showbread more explicit through a double genitive chain."
+      "note": "Greek τοὺς ἄρτους τῆς προθέσεως ('the loaves of the presentation/shewbread') is matched by Latin panes propositionis; the Peshitta reads ܠܚܡܐ ܕܦܬܘܪܗ ܕܡܪܝܐ ('the bread of the table of the LORD'), substituting a 'table of the LORD' construction and inserting ܕܡܪܝܐ, an explicating expansion absent from the Greek and Latin."
     },
     {
       "greek_nt": [
         16
       ],
       "peshitta": [
-        11,
-        12
+        11
       ],
       "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Greek ἔφαγεν and Vulgate manducavit are simple third-person aorist/perfect forms. Peshitta ܐܟܠ ܗܘ adds the independent pronoun ܗܘ (he) for emphasis or clarity, a common Syriac stylistic feature when the subject might otherwise be ambiguous in context."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         17,
         18,
-        19,
-        20
+        19
       ],
       "peshitta": [
+        12,
+        13,
+        14
+      ],
+      "vulgate": [
         13,
         14,
         15
       ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek relativises with οὓς οὐκ ἔξεστιν ('which it is not lawful'); the Vulgate follows with quos non licebat (note the imperfect tense); the Peshitta uses a resumptive demonstrative ܗܘ followed by the negative relative ܕܠܐ ܫܠܝܛ, a characteristic Syriac double-headed relative construction."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        15
+      ],
       "vulgate": [
-        13,
-        14,
-        15,
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         21,
-        22,
+        22
+      ],
+      "peshitta": [
+        16,
+        17
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek εἰ μὴ ('except') is a two-word exceptive idiom mirrored by the Peshitta's ܐܠܐ ܐܢ; the Vulgate condenses the same notion into the single particle nisi."
+    },
+    {
+      "greek_nt": [
         23,
         24
       ],
       "peshitta": [
-        16,
-        17,
         18
       ],
       "vulgate": [
-        17,
         18
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εἰ μὴ τοὺς ἱερεῖς uses the conditional particle εἰ with negative μή and article + noun in accusative (exception clause). Vulgate nisi sacerdotibus employs nisi with dative. Peshitta ܐܠܐ ܐܢ ܠܟܗܢܐ uses ܐܠܐ ܐܢ (except if) with prepositional lamed marking the dative-like indirect object, a standard Syriac exceptive construction semantically equivalent to Greek and Latin."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        25,
-        26
+        25
       ],
       "peshitta": [
         19
@@ -271,8 +313,21 @@
         19,
         20
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek καί precedes the verb ἔδωκεν as a coordinating conjunction; the Vulgate splits this into et plus the verb dedit, while the Peshitta carries the conjunction prefixed to the verb itself (ܘܝܗܒ), reflecting Semitic clitic conjunction morphology."
+    },
+    {
+      "greek_nt": [
+        26
+      ],
+      "peshitta": [
+        19
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -285,8 +340,8 @@
         21
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καὶ functions as an intensifying particle (even, also); Peshitta ܐܦ carries the same emphatic sense (also, even); Vulgate eis (to them) omits the emphatic particle but supplies the indirect object pronoun explicitly, achieving the same semantic force through different grammatical means."
+      "type": "substitution",
+      "note": "Greek adverbial καί ('even/also') is rendered by Peshitta ܐܦ ('also'); the Vulgate omits the adverbial particle here and instead supplies the dative pronoun eis ('to them'), a slight reallocation of explicit referents across the traditions."
     },
     {
       "greek_nt": [
@@ -308,25 +363,23 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek τοῖς σὺν αὐτῷ οὖσιν uses dative article + prepositional phrase + substantival participle (to-those with-him being). Vulgate eis qui cum eo erant employs dative pronoun + relative clause with imperfect verb. Peshitta ܠܐܝܠܝܢ ܕܥܡܗ ܗܘܘ uses prepositional lamed + relative pronoun + prepositional phrase + plural verb, structurally closer to Latin but with Semitic syntax. All three express identical meaning through tradition-specific participial or relative constructions."
+      "note": "Greek uses an articular present participle phrase τοῖς σὺν αὐτῷ οὖσιν ('to those being with him'); both the Vulgate (qui cum eo erant) and the Peshitta (ܠܐܝܠܝܢ ܕܥܡܗ ܗܘܘ) unfold it into a finite relative clause with a past/imperfect copula, a routine periphrastic resolution of the Greek participle."
     },
     {
-      "greek_nt": [
-        32
-      ],
+      "greek_nt": [],
       "peshitta": [],
       "vulgate": [
         26
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek ends with semicolon (interrogative in context); Vulgate has explicit question mark; Peshitta lacks punctuation marker but the interrogative sense is carried by the opening ܐܝܟܢܐ (how), making the entire verse a rhetorical question across all three traditions despite differing punctuation conventions."
+      "note": "The Clementine Vulgate sets the interrogative mark as a discrete token, whereas the Greek encodes the question intonation within the final word οὖσιν; (clitic semicolon) and the Peshitta carries no separate interrogative punctuation; purely orthographic divergence."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.956230+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.544871+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

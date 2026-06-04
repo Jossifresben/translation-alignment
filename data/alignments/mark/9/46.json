@@ -54,8 +54,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -71,8 +70,7 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs article + noun + genitive pronoun (ὁ σκώληξ αὐτῶν); Vulgate uses noun + genitive pronoun (vermis eorum); Peshitta employs a construct state with pronominal suffix (ܕܬܘܠܥܗܘܢ, 'd-their-worm'), a typical Syriac nominal construction that integrates the possessive morphologically rather than syntactically."
+      "note": "Greek expresses 'their worm' analytically with article + noun + genitive pronoun (ὁ σκώληξ αὐτῶν), and the Vulgate mirrors this with vermis eorum; the Peshitta synthesises the whole phrase into a single inflected word ܕܬܘܠܥܗܘܢ bearing the relative particle, the noun, and the 3mp possessive suffix — a typical Syriac morphological compression of a periphrastic Greek construction."
     },
     {
       "greek_nt": [
@@ -84,8 +82,7 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -97,9 +94,7 @@
       "vulgate": [
         4
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek τελευτᾷ (G5053, 'comes to an end, dies') and Latin moritur both denote cessation of life; Peshitta ܡܝܬܐ uses the standard Syriac root for 'die,' semantically equivalent but representing independent lexical choice within the Semitic tradition."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -112,21 +107,21 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ and Latin et function as coordinating conjunctions; Peshitta ܘܢܘܪܗܘܢ ('and-their-fire') integrates the conjunction with the following noun in a single orthographic unit with pronominal suffix, reflecting Syriac morphosyntactic economy."
+      "note": "The conjunction is here fused with the following noun in Syriac: ܘܢܘܪܗܘܢ carries the proclitic waw ('and'), the noun 'fire', and the 3mp suffix 'their'. Greek καί and Latin et stand as discrete conjunctions, and notably neither the Greek nor the Latin attaches a possessive to 'fire' (τὸ πῦρ / ignis, 'the fire'), whereas the Peshitta reads 'their fire' in parallel with 'their worm'."
     },
     {
       "greek_nt": [
         7,
         8
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun (τὸ πῦρ); Latin uses bare noun (ignis); Peshitta incorporates 'fire' within the preceding conjunctive construction (ܘܢܘܪܗܘܢ) with pronominal suffix, eliminating the need for a separate possessive pronoun as in Greek αὐτῶν (implied by context in the parallel structure)."
+      "note": "Greek marks the noun with the neuter article τὸ πῦρ; Latin ignis and the Syriac noun (subsumed in ܘܢܘܪܗܘܢ) are anarthrous. The article is a syntactic feature of Greek with no formal equivalent required in Latin or Syriac, so the difference is purely grammatical."
     },
     {
       "greek_nt": [
@@ -138,8 +133,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -151,14 +145,14 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "All three render the present passive/intransitive 'is not quenched': Greek σβέννυται (passive, 'is quenched'), Latin extinguitur (passive), and Syriac ܕܥܟܐ (root d-ʿ-k, 'to be extinguished'), the latter retaining the relative particle d- governing the whole clause. Semantically equivalent; the divergence is one of voice-expression and the Syriac relative linkage."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.237092+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.488859+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

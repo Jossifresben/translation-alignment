@@ -56,8 +56,8 @@
         0
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta employs a periphrastic construction ܝܕܥ ܗܘܐ (yda' hwā, 'he was knowing') using the perfect participle with the auxiliary verb, whereas Greek uses the simple imperfect ἐγίνωσκεν and Latin the simple imperfect Sciebat. All three express continuous past knowledge with equivalent aspectual force."
+      "type": "construction",
+      "note": "Greek expresses the durative imperfect with a single synthetic form (ἐγίνωσκεν, V-IAI-3S); the Peshitta renders this periphrastically with ܝܕܥ ܗܘܐ (perfect verb + enclitic ܗܘܐ), a standard Syriac means of marking past-continuous aspect, while the Vulgate uses the simple imperfect Sciebat."
     },
     {
       "greek_nt": [
@@ -72,26 +72,21 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta explicitly names the subject ܦܝܠܛܘܣ (Pīlaṭōs, 'Pilate'), making grammatically explicit what is contextually implicit in both the Greek and Latin traditions. This represents a typical Syriac clarifying expansion for narrative flow."
-    },
-    {
       "greek_nt": [
         2
       ],
-      "peshitta": [],
       "vulgate": [
         2
       ],
-      "variant": "omitted",
-      "type": "construction",
-      "note": "Greek and Latin employ the conjunction ὅτι/quod to introduce indirect discourse ('that'), whereas Syriac omits any equivalent conjunction, moving directly from ܓܝܪ to the causal clause ܕܡܢ ܚܣܡܐ. This reflects differing syntactic conventions for reported speech in Syriac."
+      "variant": "aligned"
+    },
+    {
+      "peshitta": [
+        3
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta supplies the explicit subject ܦܝܠܛܘܣ (Pilate), making overt what is only implied by the third-person verb in the Greek and Latin. This is a common Syriac clarifying expansion to disambiguate the referent of the imperfect verb."
     },
     {
       "greek_nt": [
@@ -106,23 +101,36 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "διὰ φθόνον / ܕܡܢ ܚܣܡܐ / per invidiam — all three render the causal 'because of envy', though Syriac uses ܡܢ ('from') where Greek uses διά and Latin per."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the pluperfect παραδεδώκεισαν (V-LAI-3P, 'had delivered up'), precisely matched by the Latin pluperfect subjunctive tradidissent in indirect discourse; the Syriac ܐܫܠܡܘܗܝ is a simple perfect (root sh-l-m) carrying an attached object suffix, lacking the morphological pluperfect and thus flattening the relative time-depth."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "The Peshitta uses a single verbal form with pronominal suffix ܐܫܠܡܘܗܝ ('they-delivered-him'), incorporating both verb and object, whereas Greek παραδεδώκεισαν αὐτὸν and Latin tradidissent eum express verb and object as separate tokens. This is a standard morphological difference between Semitic and Indo-European languages."
+      "note": "The Greek and Latin express the object 'him' with a separate pronoun (αὐτὸν / eum), whereas Syriac encodes it as the pronominal suffix -ܘܗܝ on the verb ܐܫܠܡܘܗܝ; the object is therefore shared with the verbal token rather than standing independently."
     },
     {
       "greek_nt": [
@@ -137,12 +145,13 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "οἱ ἀρχιερεῖς / ܪܒܝ ܟܗܢܐ / summi sacerdotes — all three denote 'the chief priests'; Greek uses a single lexeme, while Syriac (ܪܒܝ + ܟܗܢܐ, 'chiefs of the priests') and Latin (summi sacerdotes) both use analytic two-word constructions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.047881+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.479421+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

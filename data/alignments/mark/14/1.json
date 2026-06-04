@@ -83,38 +83,17 @@
         1
       ],
       "peshitta": [
+        1,
         4,
-        5,
-        1
+        5
       ],
       "vulgate": [
         0,
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Latin place the copula first (Ἦν δὲ / Erat autem), establishing temporal setting immediately. Peshitta postpones the copula (ܗܘܐ ܗܘܐ) after the temporal phrase ܒܬܪ ܬܪܝܢ ܝܘܡܝܢ, a typical Syriac construction where temporal adverbials precede the verb."
-    },
-    {
-      "greek_nt": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "peshitta": [
-        6,
-        7
-      ],
-      "vulgate": [
-        2,
-        3,
-        4
-      ],
-      "variant": "minor",
       "type": "construction",
-      "note": "Greek employs two articular nouns coordinated by καί (τὸ πάσχα καὶ τὰ ἄζυμα), treating Passover and Unleavened Bread as distinct but conjoined feasts. Peshitta uses a construct chain (ܦܨܚܐ ܕܦܛܝܪܐ, 'Passover of Unleavened Bread'), presenting them as a unified festival. Vulgate mirrors Greek structure with Pascha et azyma but omits the second article."
+      "note": "Greek Ἦν δέ ('Now it was') and Latin Erat autem agree closely with imperfect + postpositive. The Peshitta renders the verb of being twice (ܗܘܐ ܗܘܐ), a Syriac periphrastic/durative idiom emphasising ongoing state, with the postpositive ܕܝܢ positioned after the temporal phrase rather than after the verb."
     },
     {
       "greek_nt": [
@@ -129,12 +108,51 @@
       ],
       "vulgate": [
         5,
-        6,
-        7
+        6
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek uses μετὰ δύο ἡμέρας ('after two days') postpositively; Latin mirrors this with post biduum. Peshitta fronts the temporal phrase (ܒܬܪ ܬܪܝܢ ܝܘܡܝܢ) to clause-initial position, a standard Syriac topicalization strategy for temporal adverbials."
+      "note": "Greek μετὰ δύο ἡμέρας and Syriac ܒܬܪ ܬܪܝܢ ܝܘܡܝܢ ('after two days') stand at the end and beginning of the clause respectively; the Vulgate compresses this into the single noun biduum ('a two-day period'), a Latin idiom for the dual-day span. The Peshitta fronts the temporal phrase ahead of the verb, altering clause order."
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "πάσχα / ܦܨܚܐ / Pascha"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin coordinate Passover and Unleavened Bread with καί / et ('Passover and the Unleavened Bread'). The Peshitta instead subordinates the second noun with the genitive particle ܕ (ܦܨܚܐ ܕܦܛܝܪܐ, 'the Passover of Unleavened Bread'), construing the feast as a single compound entity rather than two coordinated festivals."
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "τὰ ἄζυμα / ܕܦܛܝܪܐ / azyma"
     },
     {
       "greek_nt": [
@@ -146,7 +164,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ / et"
     },
     {
       "greek_nt": [
@@ -160,31 +179,51 @@
         9
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἐζήτουν is a simple imperfect active indicative. Peshitta employs a periphrastic construction (ܘܒܥܝܢ ܗܘܘ, participle + auxiliary 'were seeking'), a common Syriac strategy for expressing progressive aspect. Vulgate quærebant uses simple imperfect, aligning with Greek morphology."
+      "type": "construction",
+      "note": "Greek ἐζήτουν and Latin quærebant are simple imperfects ('were seeking'). The Peshitta uses the participle ܒܥܝܢ with the auxiliary ܗܘܘ to form the durative past, a normal Syriac periphrastic construction expressing the same continuous past sense; the conjunction is prefixed (ܘܒܥܝܢ)."
     },
     {
       "greek_nt": [
         12,
-        13,
-        14,
+        13
+      ],
+      "peshitta": [
+        10,
+        11
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned",
+      "note": "οἱ ἀρχιερεῖς / ܪܒܝ ܟܗܢܐ / summi sacerdotes"
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ / et"
+    },
+    {
+      "greek_nt": [
         15,
         16
       ],
       "peshitta": [
-        10,
-        11,
         12
       ],
       "vulgate": [
-        10,
-        11,
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek repeats the article before each noun (οἱ ἀρχιερεῖς καὶ οἱ γραμματεῖς), emphasizing distinct groups. Peshitta omits articles (ܪܒܝ ܟܗܢܐ ܘܣܦܪܐ), as Syriac lacks the definite article in this syntactic position. Vulgate summi sacerdotes et scribæ uses adjective + noun for 'chief priests,' a Latin idiom, and omits the second article."
+      "variant": "aligned",
+      "note": "οἱ γραμματεῖς / ܘܣܦܪܐ / scribæ"
     },
     {
       "greek_nt": [
@@ -196,19 +235,22 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "πῶς / ܐܝܟܢܐ / quomodo"
     },
     {
       "greek_nt": [
         18
       ],
-      "peshitta": [],
+      "peshitta": [
+        16
+      ],
       "vulgate": [
         15
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek αὐτὸν and Latin eum explicitly mark the direct object ('Him'). Peshitta omits the independent pronoun, as the object is suffixed to the final verb (ܘܢܩܛܠܘܢܝܗܝ, 'and-they-may-kill-Him'), making a separate pronoun redundant in Syriac syntax."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The accusative object 'him' appears as a free pronoun αὐτόν / eum positioned early in the indirect question in Greek and Latin. The Peshitta has no separate object pronoun here, instead encoding it as the enclitic suffix ܘܢܩܛܠܘܢܝܗܝ ('that they might kill him') attached to the final verb, a synthetic Syriac construction."
     },
     {
       "greek_nt": [
@@ -222,8 +264,8 @@
         16
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν δόλῳ ('by stealth/deceit') modifying the participle. Peshitta employs the prepositional phrase ܒܢܟܠܐ ('by cunning') in the same syntactic slot. Vulgate dolo uses ablative of means without preposition, a standard Latin construction for instrument or manner."
+      "type": "idiom",
+      "note": "Greek uses prepositional ἐν δόλῳ ('with guile') and Latin the bare ablative dolo; the Peshitta combines preposition and noun in the single word ܒܢܟܠܐ ('by treachery'), all three expressing instrumental means with equivalent sense."
     },
     {
       "greek_nt": [
@@ -236,8 +278,8 @@
         17
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek κρατήσαντες is an aorist active participle ('having seized'), expressing antecedent action. Peshitta ܢܐܚܕܘܢ is an imperfect subjunctive ('they may seize'), coordinated with the following verb. Vulgate tenerent is imperfect subjunctive, aligning with Peshitta's modal construction rather than Greek's participial syntax."
+      "type": "construction",
+      "note": "Greek subordinates the seizing as an aorist participle κρατήσαντες ('having seized'), grammatically dependent on the finite verb. The Vulgate tenerent and Syriac ܢܐܚܕܘܢ both render it as a coordinate finite verb ('that they might seize and kill'), levelling the participial subordination into parataxis."
     },
     {
       "greek_nt": [
@@ -250,15 +292,22 @@
         18,
         19
       ],
+      "variant": "aligned",
+      "note": "ἀποκτείνωσιν / ܘܢܩܛܠܘܢܝܗܝ / et occiderent"
+    },
+    {
+      "vulgate": [
+        7
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἀποκτείνωσιν is aorist subjunctive, the main verb of the indirect question. Peshitta ܘܢܩܛܠܘܢܝܗܝ coordinates two subjunctives with waw ('and they may kill him'), with object suffix -ܝܗܝ. Vulgate et occiderent also coordinates with et, using imperfect subjunctive to match tenerent, creating parallel structure absent in Greek's participial construction."
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after biduum, segmenting the temporal clause from the main narrative; neither the Greek NA28 (which uses a comma after ἡμέρας) nor the Peshitta marks a major pause at this point."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.034173+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.423946+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

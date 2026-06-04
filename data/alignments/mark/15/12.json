@@ -72,8 +72,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article ὁ with δέ to mark subject continuity; Peshitta uses the independent pronoun ܗܘ ('he') for the same function; Vulgate omits both, relying on verb inflection and word order to identify Pilatus as subject."
+      "type": "construction",
+      "note": "Greek uses the nominative article ὁ as a resumptive/anaphoric subject marker (ὁ δὲ Πιλᾶτος), mirrored by Peshitta ܗܘ; the Vulgate omits any equivalent demonstrative element, beginning directly with the proper name Pilatus."
     },
     {
       "greek_nt": [
@@ -97,9 +97,7 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Vulgate places Pilatus in initial position for emphasis, whereas Greek and Peshitta position the proper name after the conjunction and article/pronoun respectively."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -109,25 +107,35 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
+      "variant": "omitted",
       "type": "omission",
-      "note": "Greek πάλιν and Vulgate iterum ('again') are absent from the Peshitta, which omits the adverb entirely—possibly viewing it as redundant in the narrative flow or reflecting a different Vorlage."
+      "note": "Greek πάλιν ('again') and Vulgate iterum both signal the renewed exchange with the crowd; the Peshitta omits this adverb entirely, slightly flattening the narrative repetition that marks Pilate's repeated questioning."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek aorist participle ἀποκριθεὶς ('answering') is rendered by the Vulgate participle respondens, but the Peshitta drops the participle of response and presents only the finite verb ܐܡܪ, simplifying the characteristic Semitic 'answered and said' pleonasm into a single verb."
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a participial construction (ἀποκριθεὶς ἔλεγεν, 'answering, he was saying') to express durative or iterative action; Vulgate mirrors this with respondens ait; Peshitta employs a single finite verb ܐܡܪ ('he said'), a typical Semitic simplification of Greek participial phrases."
+      "type": "grammar",
+      "note": "Greek employs the imperfect ἔλεγεν ('was saying'), suggesting iterative or continuous speech; the Peshitta perfect ܐܡܪ and the Vulgate ait both render it as a simple/punctiliar act of speaking, neutralising the durative aspect."
     },
     {
       "greek_nt": [
@@ -137,12 +145,19 @@
         4
       ],
       "vulgate": [
-        5,
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         6
       ],
-      "variant": "minor",
+      "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after illis to mark direct discourse, whereas Greek uses a raised dot (·) and Peshitta relies on syntactic context without explicit punctuation for the speech introduction."
+      "note": "The Clementine Vulgate marks the transition to direct speech with an explicit colon, here tokenised separately; the Greek encodes this in the high-point on αὐτοῖς· and the Peshitta carries it implicitly without a discrete punctuation token."
     },
     {
       "greek_nt": [
@@ -179,9 +194,9 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta makes the second-person plural subject explicit with ܐܢܬܘܢ ('you [pl.]') following the verb ܨܒܝܢ, a common Syriac practice for clarity; Greek θέλετε and Vulgate vultis encode the subject in verbal inflection alone."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek θέλετε (2nd person plural) is expressed in Syriac analytically with the participle ܨܒܝܢ plus the enclitic pronoun ܐܢܬܘܢ, a normal Syriac construction for the present; Vulgate vultis matches the Greek inflected form."
     },
     {
       "greek_nt": [
@@ -197,28 +212,56 @@
     },
     {
       "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek relative ὃν ('whom') and Peshitta ܠܗܢܐ ('this one') both supply the object of the verb 'do'; the Vulgate compresses the clause and lacks an explicit antecedent pronoun, moving directly toward regi Judæorum."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
         11,
-        12,
+        12
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The relative clause 'whom you call' (Greek λέγετε; Peshitta ܕܩܪܝܢ ܐܢܬܘܢ, analytic participle plus pronoun) is absent from the Vulgate, which renders the title directly as regi Judæorum without the qualifying clause of the crowd's naming."
+    },
+    {
+      "greek_nt": [
         13,
-        14,
+        14
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek τὸν βασιλέα and Peshitta ܡܠܟܐ stand in the accusative/absolute as predicate of the relative clause, whereas the Vulgate regi appears in the dative governed by faciam ('what shall I do to the king'), reflecting a different syntactic construal of the object."
+    },
+    {
+      "greek_nt": [
         15,
         16
       ],
       "peshitta": [
-        10,
-        11,
-        12,
-        13,
         14
       ],
       "vulgate": [
-        11,
-        12,
-        13
+        12
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek employs a relative clause (ὃν λέγετε τὸν βασιλέα τῶν Ἰουδαίων, 'whom you call the King of the Jews') with accusative object and appositive article; Peshitta uses a demonstrative pronoun ܠܗܢܐ ('to this one') followed by a relative clause ܕܩܪܝܢ ܐܢܬܘܢ with explicit second-person pronoun; Vulgate restructures entirely as an indirect object dative (regi Judæorum, 'to the King of the Jews'), omitting the relative clause and collapsing the syntax into a single dative noun phrase—semantically equivalent but syntactically distinct."
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -226,13 +269,15 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate's terminal question mark is tokenised separately; the interrogative force is borne in Greek by the clitic question word τί and the final mark on Ἰουδαίων;, and in Syriac contextually without a discrete punctuation glyph."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.048134+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.514988+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

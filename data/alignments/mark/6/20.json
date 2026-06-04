@@ -92,19 +92,29 @@
     {
       "greek_nt": [
         0,
-        1,
         2
       ],
       "peshitta": [
-        0,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "Ἡρῴδης / ܗܪܘܕܣ / Herodes"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "γάρ / ܓܝܪ / enim"
     },
     {
       "greek_nt": [
@@ -119,7 +129,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses simple imperfect ἐφοβεῖτο; Peshitta employs periphrastic construction ܕܚܠ ܗܘܐ (participle + auxiliary); Vulgate uses simple imperfect metuebat. All three express continuous past action with identical semantics."
+      "note": "Greek ἐφοβεῖτο is a synthetic imperfect middle-passive; the Peshitta renders durative aspect periphrastically with ܕܚܠ ܗܘܐ (perfect + enclitic ܗܘܐ), the standard Syriac means of expressing past continuous action. The Latin metuebat collapses this into a single imperfect, matching the Greek morphology."
     },
     {
       "greek_nt": [
@@ -135,7 +145,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses accusative with article τὸν Ἰωάννην as direct object of φοβέω; Peshitta uses prepositional phrase ܡܢ ܝܘܚܢܢ ('from John'), reflecting Syriac idiom for 'fear of'; Vulgate uses simple accusative Joannem. Semantically equivalent despite syntactic variation."
+      "note": "Greek marks the object of fearing with the accusative τὸν Ἰωάννην and Latin likewise uses the bare accusative Joannem; Syriac introduces the object with the preposition ܡܢ ('from'), reflecting the idiom ܕܚܠ ܡܢ ('to be afraid of') in which the verb of fearing governs its object prepositionally."
     },
     {
       "greek_nt": [
@@ -151,107 +161,243 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses perfect active participle εἰδώς ('knowing'); Peshitta employs causal prepositional phrase ܥܠ ܕܝܕܥ ܗܘܐ ('because he knew'), making the causal relationship explicit; Vulgate uses present participle sciens. The Peshitta's periphrastic construction emphasizes causality."
+      "note": "Greek and Latin use a perfect/present participle (εἰδώς / sciens, 'knowing'); the Peshitta converts the circumstantial participle into a causal subordinate clause introduced by ܥܠ ܕ ('because that') with the periphrastic past ܝܕܥ ܗܘܐ, an idiomatic Syriac means of representing the participial cause."
     },
     {
       "greek_nt": [
-        7,
-        8,
-        9,
-        10,
-        11
+        7
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "αὐτόν / eum"
+    },
+    {
+      "greek_nt": [
+        8
       ],
       "peshitta": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "vulgate": [
-        5,
-        6,
-        7,
-        8,
-        9
+        6
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses double accusative construction (αὐτὸν ἄνδρα δίκαιον καὶ ἅγιον) with object pronoun; Peshitta uses ܕ-clause with copular pronoun ܗܘ ('that he was a man righteous and holy'); Vulgate mirrors Greek structure with eum virum justum et sanctum. Peshitta's nominal clause is typical Syriac syntax for indirect discourse."
+      "note": "Greek and Latin express the predicate of the indirect statement with a bare accusative noun (ἄνδρα / virum, 'a man'); the Peshitta uses a full nominal clause ܕܓܒܪܐ ܗܘ ('that he is a man') with the relative particle ܕ and the third-person enclitic pronoun ܗܘ functioning as copula, a syntactically distinct but semantically equivalent rendering."
     },
     {
       "greek_nt": [
-        12,
-        13,
-        14
+        9
       ],
       "peshitta": [
-        13,
-        14,
-        15
+        11
       ],
       "vulgate": [
-        10,
-        11,
-        12,
-        13
+        7
+      ],
+      "variant": "aligned",
+      "note": "δίκαιον / ܙܕܝܩܐ / justum"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "καί / et"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "ἅγιον / ܘܩܕܝܫܐ / sanctum"
+    },
+    {
+      "vulgate": [
+        10
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts colon after sanctum, creating stronger syntactic break between the two clauses describing Herod's actions. Greek and Peshitta use simple conjunction καί/ܘ without punctuation break, maintaining closer coordination between 'knowing' and 'protecting.'"
+      "note": "The Clementine Vulgate inserts a colon after sanctum, marking the close of the participial clause and the resumption of the main narrative. This editorial punctuation has no counterpart in the unpointed Greek or Syriac textual base."
     },
     {
       "greek_nt": [
-        15,
-        16,
-        17,
-        18,
-        19
+        12
       ],
       "peshitta": [
-        16,
-        17,
-        18,
-        19,
-        20
+        13
       ],
       "vulgate": [
-        14,
-        15,
-        16,
+        11
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ / et"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek συνετήρει and Latin custodiebat are synthetic imperfects ('he protected/kept safe'); the Peshitta again employs the periphrastic past ܡܢܛܪ ܗܘܐ to convey the same durative force, consistent with its handling of ἐφοβεῖτο above."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "αὐτόν / ܠܗ / eum"
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin open the new clause with the connective καί / et followed by the participle of hearing; the Syriac fuses the connective into the prefixed ܘ of ܘܣܓܝܐܬܐ, placing the adverbial 'much' immediately after the conjunction, a reordering of the clause head."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
         17,
         18
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek reads ἀκούσας αὐτοῦ πολλὰ ἠπόρει ('having heard him, he was much perplexed'); Vulgate reads audito eo multa faciebat ('having heard him, he did many things'); Peshitta reads ܘܣܓܝܐܬܐ ܫܡܥ ܗܘܐ ܠܗ ܘܥܒܕ ('and many things he heard from him and did'). The Greek verb ἠπόρει ('was perplexed') is replaced in both Vulgate and Peshitta with ἐποίει/faciebat/ܥܒܕ ('did/made'), representing a significant textual variant with different semantic content."
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀκούσας (aorist participle) and Latin audito (ablative absolute participle) both subordinate the act of hearing; the Peshitta renders it with the finite periphrastic ܫܡܥ ܗܘܐ ('he was hearing'), turning the participial circumstance into a coordinate finite verb."
     },
     {
       "greek_nt": [
-        20,
-        21,
-        22,
-        23
+        17
       ],
       "peshitta": [
-        21,
-        22,
-        23,
+        19
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "αὐτοῦ / ܠܗ / eo"
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "note": "πολλά / ܣܓܝܐܬܐ / multa"
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "vulgate": [
+        18
+      ],
+      "peshitta": [
+        20
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "A significant textual divergence: the NA28 reads ἠπόρει ('he was perplexed/at a loss'), supported by א B L; the Latin faciebat and the Peshitta ܘܥܒܕ ('and he did/acted') reflect the Byzantine variant ἐποίει ('he did [many things]'). The Vulgate and Peshitta therefore agree against the critical Greek text in attesting the 'doing' reading."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned",
+      "note": "καί / et"
+    },
+    {
+      "greek_nt": [
+        21
+      ],
+      "peshitta": [
+        21
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned",
+      "note": "ἡδέως / ܘܒܣܝܡܐܝܬ / libenter"
+    },
+    {
+      "greek_nt": [
+        22
+      ],
+      "peshitta": [
         24
       ],
       "vulgate": [
-        19,
-        20,
-        21,
-        22
+        21
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "αὐτοῦ / ܠܗ / eum"
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        22,
+        23
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἤκουεν and Latin audiebat are synthetic imperfects; the Peshitta closes the verse with its third periphrastic past construction ܫܡܥ ܗܘܐ, maintaining its consistent strategy for representing Greek imperfective aspect throughout this verse."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.980660+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.534348+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

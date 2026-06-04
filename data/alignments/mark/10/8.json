@@ -58,29 +58,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin render the verb with an explicit conjunction plus future indicative (καὶ ἔσονται / et erunt); Syriac fuses the conjunction and the verb into a single morphological unit ܘܢܗܘܘܢ, a typical feature of Aramaic verbal morphology where the prefixed waw and the imperfect coalesce."
     },
     {
       "greek_nt": [
@@ -94,8 +84,8 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article with the numeral (οἱ δύο, 'the two'), while Syriac uses the emphatic state with pronominal suffix (ܬܪܝܗܘܢ, 'the-two-of-them') and Latin uses the bare numeral (duo). All three convey definiteness through different grammatical strategies."
+      "type": "grammar",
+      "note": "Greek supplies the article with the numeral (οἱ δύο, 'the two'); Latin and Syriac express 'the two' without an article — Latin lacks the article entirely, while Syriac ܬܪܝܗܘܢ carries the pronominal suffix -hon ('the two of them'), an inherent definiteness device."
     },
     {
       "greek_nt": [
@@ -113,8 +103,8 @@
         5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the numeral after the noun (εἰς σάρκα μίαν / in carne una, 'into flesh one'), whereas Syriac inverts to numeral-noun order (ܚܕ ܒܣܪ, 'one flesh'). This reflects standard Semitic attributive syntax versus Greek/Latin post-positive adjective placement."
+      "type": "construction",
+      "note": "Greek and Latin use the prepositional construction 'into/for one flesh' (εἰς σάρκα μίαν / in carne una); Syriac drops the preposition and renders a bare predicate 'one flesh' (ܚܕ ܒܣܪ), reflecting the Aramaic preference for nominal apposition over prepositional resultatives."
     },
     {
       "greek_nt": [
@@ -126,9 +116,9 @@
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὥστε ('so that') is rendered by Syriac ܡܟܝܠ ('therefore, now') and Latin Itaque ('therefore'). The Syriac and Latin both emphasize logical consequence more strongly than the Greek consecutive particle, though all three signal inferential transition."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὥστε / ܡܟܝܠ / Itaque — inferential particle 'therefore/henceforth'."
     },
     {
       "greek_nt": [
@@ -143,7 +133,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the compound negative adverb οὐκέτι ('no longer'), Syriac employs simple negation ܠܐ ('not'), and Vulgate adds the temporal adverb jam ('already, now') to non ('not'). The Vulgate's jam non construction parallels the Greek's temporal dimension more explicitly than the Syriac."
+      "note": "Greek compresses the negation into the single adverb οὐκέτι ('no longer'); Latin expands it analytically into jam non; Syriac uses the bare negative ܠܐ without an explicit 'longer' element, leaning on context to supply the temporal sense."
     },
     {
       "greek_nt": [
@@ -155,8 +145,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin use the present indicative (εἰσὶν / sunt, 'they are'); Syriac employs the perfect ܗܘܘ ('they were/have become'), a tense shift idiomatic in Aramaic where the perfect can express resultant present state."
     },
     {
       "greek_nt": [
@@ -169,7 +160,8 @@
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "δύο / ܬܪܝܢ / duo — 'two'."
     },
     {
       "greek_nt": [
@@ -182,7 +174,8 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἀλλά / ܐܠܐ / sed — adversative 'but'."
     },
     {
       "greek_nt": [
@@ -197,15 +190,15 @@
         12,
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate again use post-positive adjective order (μία σάρξ / una caro, 'one flesh'), while Syriac maintains Semitic numeral-first order (ܚܕ ܒܣܪ, 'one flesh'). This mirrors the earlier construction and reflects consistent syntactic preferences across the traditions."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μία σάρξ / ܚܕ ܒܣܪ / una caro — 'one flesh'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.008541+00:00",
-    "confidence": 0.92,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.532944+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

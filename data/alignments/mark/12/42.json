@@ -56,10 +56,12 @@
       "peshitta": [
         0
       ],
-      "vulgate": [],
+      "vulgate": [
+        2
+      ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek καὶ and Peshitta ܘ both function as simple conjunctions ('and'), while the Vulgate employs the temporal conjunction cum ('when'), slightly altering the narrative flow from coordination to temporal subordination."
+      "type": "lexical",
+      "note": "Greek opens with the simple connective καί ('and'); the Vulgate renders the contrastive/transitional particle autem ('but, moreover'), placed after the verb per Latin convention. The Peshitta prefixes the waw-conjunction directly onto the verb (ܘܐܬܬ), agreeing in sense with the Greek καί rather than the adversative Latin."
     },
     {
       "greek_nt": [
@@ -69,41 +71,48 @@
         0
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses an aorist participle ἐλθοῦσα ('having come') in attributive position before the noun; Vulgate employs a finite verb venisset ('she came') in a temporal clause; Peshitta incorporates the verb into the conjunction ܘܐܬܬ ('and she came'), reflecting typical Syriac narrative style with waw-consecutive construction."
+      "type": "construction",
+      "note": "Greek employs an aorist participle (ἐλθοῦσα, 'having come') subordinating the action to the main verb; the Vulgate restructures this with a cum-clause plus pluperfect subjunctive (Cum venisset, 'when she had come'); the Peshitta uses a finite perfect verb (ܘܐܬܬ, 'and she came') coordinated rather than subordinated. The same temporal idea is conveyed by three distinct syntactic strategies."
     },
     {
       "greek_nt": [
-        2,
-        3,
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        1,
-        2,
         3
       ],
       "vulgate": [
-        3,
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "All three traditions attest 'one poor widow' with identical semantic content but different word order: Greek places the numeral before the noun (μία χήρα πτωχὴ), Peshitta places it between the two nouns (ܐܪܡܠܬܐ ܚܕܐ ܡܣܟܢܬܐ), and Vulgate places it after the first noun (vidua una pauper), reflecting each language's natural attributive adjective placement conventions."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts the adversative particle autem ('however', 'moreover'), which has no equivalent in either the Greek or Peshitta traditions. This addition serves to heighten the contrast between the widow's action and the preceding context, a characteristic feature of Latin narrative style."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -115,49 +124,80 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
-        7
+        6
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the noun before the numeral (λεπτὰ δύο / duo minuta, 'lepta two' / 'two minuta'), while Peshitta reverses this order (ܬܪܝܢ ܡܢܝܢ, 'two coins'), following standard Syriac syntax where numerals typically precede their counted nouns."
+      "type": "lexical",
+      "note": "Greek λεπτά denotes the smallest Greek bronze coin (the 'lepton'); the Vulgate minuta is a calque preserving the sense of 'tiny [coins]'; the Peshitta uses ܡܢܝܢ (from root m-n-y, 'to count/number'), a more generic term for reckoned coinage rather than naming the specific denomination."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        7
       ],
       "peshitta": [
-        7,
-        8
+        5
       ],
       "vulgate": [
-        9,
-        10,
-        11
+        7
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three attest the numeral 'two', but the syntactic position differs: Greek and Latin place the number after the noun (λεπτὰ δύο / duo minuta), while the Peshitta fronts it before the noun (ܬܪܝܢ ܡܢܝܢ), reflecting normal Syriac numeral-noun order."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a relative pronoun with copula (ὅ ἐστιν κοδράντης, 'which is a kodrantes'); Vulgate mirrors this structure exactly (quod est quadrans); Peshitta uses a relative particle with pronominal suffix (ܕܐܝܬܝܗܘܢ ܫܡܘܢܐ, 'which they-are a shamuna'), incorporating the plural pronoun to agree with 'two coins' — a syntactic difference that does not affect the semantic equivalence of the explanatory gloss."
+      "note": "Greek and Latin express the explanatory clause with a relative pronoun plus copula (ὅ ἐστιν / quod est, 'which is'); the Peshitta fuses pronoun and copula into a single enclitic form ܕܐܝܬܝܗܘܢ ('which they are'), notably using a plural verb to agree with the two coins, whereas Greek and Latin treat the equivalence as a neuter singular abstraction."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek κοδράντης and Vulgate quadrans both name the Roman quadrans (one-quarter of an as), a direct loan equivalence; the Peshitta substitutes ܫܡܘܢܐ (shamona), an entirely different local monetary unit, localising the glossed value into a coinage familiar to its Syriac-speaking audience rather than transliterating the Roman term."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.027873+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.548041+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

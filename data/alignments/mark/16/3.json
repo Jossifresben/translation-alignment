@@ -67,8 +67,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -82,13 +81,13 @@
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "The Peshitta employs a periphrastic construction (ܘܐܡܪܢ ܗܘܝ, 'and they were saying') using the auxiliary verb ܗܘܝ with the active participle, whereas Greek uses the simple imperfect ἔλεγον and Latin the imperfect dicebant. This is a characteristic Syriac syntactic pattern for expressing progressive aspect."
+      "note": "Greek uses a single imperfect ἔλεγον ('they were saying'); the Peshitta renders the durative aspect periphrastically with ܐܡܪܢ ܗܘܝ (perfect + enclitic ܗܘܝ), a standard Syriac construction for the continuous past, while the Vulgate dicebant captures the imperfect synthetically."
     },
     {
       "greek_nt": [
         2,
-        3
+        3,
+        4
       ],
       "peshitta": [
         2
@@ -98,19 +97,18 @@
         3
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πρὸς ἑαυτάς ('among themselves') and Latin ad invicem ('to one another') use reciprocal/reflexive constructions, while Syriac ܒܢܦܫܗܝܢ ('in their souls/selves') employs the idiomatic prepositional phrase with ܢܦܫܐ. All three convey the women speaking among themselves, but through different lexical strategies."
+      "note": "Greek πρὸς ἑαυτάς ('among themselves,' feminine plural reflexive) and Latin ad invicem ('to one another,' reciprocal) both render a reciprocal sense with preposition + pronoun; the Peshitta compresses this into a single prepositional-suffix form ܒܢܦܫܗܝܢ ('in their souls/selves'), idiomatically using the noun ܢܦܫܐ as a reflexive marker. The transliteration gloss token is treated with its head."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        4
+      ],
       "peshitta": [
         3,
         4
       ],
-      "vulgate": [],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta inserts ܡܢ ܕܝܢ ('who then/now'), an emphatic interrogative particle combination not present in the Greek or Latin witnesses. This is a characteristic Syriac rhetorical intensification of the question that follows."
+      "note": "The Peshitta inserts the postpositive discourse particle ܡܢ ܕܝܢ ('but then/now'), supplying a mild adversative-continuative connector with no counterpart in the Greek or Latin, which open the question abruptly with τίς / Quis."
     },
     {
       "greek_nt": [
@@ -118,12 +116,9 @@
       ],
       "peshitta": [],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate places a colon after invicem to mark the transition from narrative frame to direct speech, while Greek uses a raised dot (·) after ἑαυτάς. The Peshitta integrates the question without explicit punctuation marking the speech boundary, relying on syntactic cues."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -135,8 +130,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἀποκυλίσει and Latin revolvet both denote 'roll away' (verb of motion applied to the stone); the Peshitta ܥܓܠ derives from the root for rolling/circularity but here functions as the corresponding verb, a cognate-but-distinct lexical realisation of the same action."
     },
     {
       "greek_nt": [
@@ -148,8 +143,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -162,26 +156,32 @@
       "vulgate": [
         8
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the definite article with λίθον (τὸν λίθον, 'the stone'), specifying the particular stone blocking the tomb. Latin lapidem and Syriac ܟܐܦܐ lack the article, though both languages can express definiteness through context; here the anaphoric reference is understood from the preceding narrative (Mark 15:46)."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -196,25 +196,30 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a genitive construction with double article (τῆς θύρας τοῦ μνημείου, 'the door of the tomb'), Latin employs a simple genitive (ostio monumenti), while Syriac uses the construct state with ܕ (ܬܪܥܐ ܕܒܝܬ ܩܒܘܪܐ, literally 'door of house-of burial'). The Syriac ܕܒܝܬ represents a compound genitive construction typical of the language."
+      "note": "Greek τοῦ μνημείου and Latin monumenti render 'of the tomb' with a simple genitive; the Peshitta uses a periphrastic construct chain ܕܒܝܬ ܩܒܘܪܐ ('of the house of burial'), a characteristic Syriac idiom employing ܒܝܬ to form a compound locative noun for the sepulchre."
     },
     {
-      "greek_nt": [
-        14
-      ],
+      "greek_nt": [],
       "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts editorial punctuation (a colon introducing direct discourse) where the Greek marks the clause boundary with the raised point on ἑαυτάς·; the Syriac carries no equivalent punctuation token."
+    },
+    {
+      "greek_nt": [],
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "added",
+      "note": "The Vulgate supplies a closing question mark mirroring the Greek interrogative point on μνημείου;; the Peshitta verse as transmitted here carries no terminal punctuation token."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.054629+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.481372+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

@@ -75,9 +75,9 @@
       "vulgate": [
         0
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek καὶ ('and') continues the narrative flow, while Peshitta ܐܠܐ ('but') and Vulgate sed ('but') introduce an adversative contrast, likely reflecting the preceding context where Herod's reluctance is overridden by immediate action. This represents a substantive interpretive shift in narrative logic."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek opens with the simple paratactic conjunction καί ('and'), while both the Peshitta (ܐܠܐ) and the Vulgate (sed) render an adversative 'but', interpreting the contrast between Herod's grief and his obligation to fulfil the oath. The Syriac and Latin thus agree against the Greek in supplying a stronger logical connective."
     },
     {
       "greek_nt": [
@@ -86,10 +86,9 @@
       "peshitta": [
         1
       ],
-      "vulgate": [],
       "variant": "minor",
       "type": "omission",
-      "note": "Greek εὐθὺς ('immediately') and Peshitta ܡܚܕܐ ('at once') both emphasize the urgency of the king's action, while the Vulgate omits this temporal marker, creating a less emphatic narrative pace without altering the core meaning."
+      "note": "Greek εὐθὺς and Syriac ܡܚܕܐ both convey the characteristically Markan 'immediately'; the Vulgate omits any temporal adverb here, leaving the urgency unexpressed."
     },
     {
       "greek_nt": [
@@ -103,7 +102,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an aorist participle ἀποστείλας ('having sent') with finite verb structure, while Vulgate employs an ablative absolute misso ('having been sent') and Peshitta uses a simple perfect ܫܕܪ ('he sent'). All three convey the same action but through different syntactic constructions typical of their respective languages."
+      "note": "Greek uses an aorist participle ἀποστείλας ('having sent'); the Vulgate employs an ablative absolute misso ('one having been sent'), shifting voice to passive; the Peshitta resolves the participle into a finite verb ܫܕܪ ('he sent'), a typical Syriac preference for coordinate finite clauses over participial subordination."
     },
     {
       "greek_nt": [
@@ -115,8 +114,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article with βασιλεύς (ὁ βασιλεὺς, 'the king'), Peshitta uses the emphatic state ܡܠܟܐ (functionally definite), while Vulgate omits any explicit marker of definiteness, relying on context. This reflects standard grammatical conventions in each language for expressing definiteness."
+      "type": "omission",
+      "note": "Greek and Syriac name the subject explicitly with article + noun (ὁ βασιλεύς / ܡܠܟܐ, 'the king'); the Vulgate leaves the subject unexpressed, carrying it implicitly through the third-person verb præcepit."
     },
     {
       "greek_nt": [
@@ -129,7 +128,8 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "All three transmit the Latin loanword speculator ('executioner, bodyguard'): Greek σπεκουλάτορα and Syriac ܐܣܦܘܩܠܛܪܐ are both transliterations of the same military Latinism reflected in Vulgate spiculatore."
     },
     {
       "greek_nt": [
@@ -142,64 +142,113 @@
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἐπέταξεν / ܘܦܩܕ / præcepit — 'he commanded'."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐνέγκαι / ܕܢܝܬܐ / afferri — 'to bring/be brought'."
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        4,
         5,
-        6,
-        7,
-        8
+        6
       ],
       "variant": "major",
       "type": "expansion",
-      "note": "Peshitta explicitly names John (ܕܝܘܚܢܢ, 'of John') as the victim, clarifying the pronominal reference in Greek αὐτοῦ ('his/of him'). Vulgate adds in disco ('on a platter'), harmonizing with the parallel in Matthew 14:8 and anticipating verse 28. These expansions represent independent clarifying glosses in their respective traditions."
+      "note": "Greek (τὴν κεφαλὴν αὐτοῦ) and Vulgate (caput ejus) read merely 'his head' with a pronoun; the Peshitta makes the referent explicit, reading ܪܫܗ ܕܝܘܚܢܢ ('the head of John'), an exegetical clarification naming John the Baptist directly rather than relying on the anaphoric pronoun."
+    },
+    {
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate alone adds in disco ('on a platter/dish') at this point, anticipating the platter mentioned later in the pericope (cf. Mark 6:28, ἐπὶ πίνακι); neither the Greek NA28 nor the Peshitta carry the detail in this clause."
     },
     {
       "greek_nt": [
-        11,
-        12,
-        13
+        11
       ],
-      "peshitta": [
-        9
+      "variant": "added",
+      "type": "construction",
+      "note": "The Greek transmits an additional article ὁ functioning as a relative/demonstrative ('the [one] who'), introducing the executioner as the subject of the following clause; this resumptive article has no separate equivalent in the Syriac or Latin, which proceed directly with a finite verb."
+    },
+    {
+      "greek_nt": [
+        12
       ],
       "vulgate": [
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a resumptive article with conjunction and participle (ὁ καὶ ἀπελθὼν, 'and he having gone'), a Semitic-influenced construction. Peshitta employs simple waw-consecutive ܘܐܙܠ ('and he went'), while Vulgate uses coordinating Et ('and'). All convey sequential action but through language-specific narrative devices."
+      "type": "lexical",
+      "note": "Greek καί and Vulgate Et coordinate the next action ('and'); the Peshitta integrates this connection into the prefixed waw of ܘܐܙܠ ('and he went'), with no standalone conjunction."
     },
     {
       "greek_nt": [
-        14,
-        15
+        13
       ],
       "peshitta": [
-        10,
+        9
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek ἀπελθὼν ('having departed') and Syriac ܘܐܙܠ ('and he went') both narrate the executioner's going off to the prison; the Vulgate compresses the narrative and omits the verb of motion entirely."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the technical denominative ἀπεκεφάλισεν ('beheaded'), echoing κεφαλή; the Peshitta ܦܣܩܗ derives from a general root for 'cutting/severing' (p-s-q) plus the object suffix, while the Vulgate decollavit ('removed the neck') reflects collum; all three express decapitation through different morphological strategies."
+    },
+    {
+      "peshitta": [
         11,
         12
       ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta supplies a second explicit object, ܪܫܗ ܕܝܘܚܢܢ ('the head of John'), as the thing severed, again naming the Baptist where the Greek (αὐτόν, 'him') and Vulgate (eum) use only a pronoun; this is a Syriac clarifying expansion consistent with its earlier naming of John."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta repeats both the verb ܦܣܩܗ ('he cut off') and the object ܪܫܗ ܕܝܘܚܢܢ ('the head of John'), creating emphatic redundancy absent in Greek and Latin. This doubling intensifies the narrative horror and ensures absolute clarity of reference, a characteristic Syriac rhetorical strategy."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτόν / eum — 'him' (object of the beheading)."
     },
     {
       "greek_nt": [
@@ -215,15 +264,15 @@
         12,
         13
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐν τῇ φυλακῇ ('in the prison') and Vulgate in carcere ('in the prison') use standard terms for detention facility, while Peshitta ܒܝܬ ܐܣܝܪܐ ('house of the bound/prisoner') employs a descriptive compound typical of Syriac idiom. The semantic equivalence is maintained despite lexical variation."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐν τῇ φυλακῇ / ܒܝܬ ܐܣܝܪܐ / in carcere — 'in the prison'. The Syriac uses the idiomatic compound ܒܝܬ ܐܣܝܪܐ ('house of the bound one'), a standard periphrasis for prison."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.982002+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.476703+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

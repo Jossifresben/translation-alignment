@@ -53,40 +53,61 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0,
         1,
-        2,
-        3
+        2
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses relative pronoun + aorist verb (ὃ ἔσχεν, 'what she had'); Vulgate mirrors this with quod habuit; Peshitta expands with a periphrastic construction ܗܘ ܕܐܝܬ ܗܘܐ ܠܗ ('that which was to her'), employing the existential particle ܐܝܬ plus the verb 'to be' — a characteristic Syriac idiom for possession."
+      "note": "Greek expresses the relative clause compactly with the neuter relative pronoun ὃ ('what'); the Peshitta unpacks this with a periphrastic construction ܗܘ ܕܐܝܬ ܗܘܐ ('that which there was'), using the existential particle ܐܝܬ plus the auxiliary ܗܘܐ to form a past-tense possessive idiom. The Vulgate Quod mirrors the Greek tightly."
     },
     {
       "greek_nt": [
-        2,
+        1
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἔσχεν (aorist of ἔχω, 'she had') is a finite verb of possession; the Peshitta renders the notion of possession idiomatically with the dative ܠܗ ('to her'), the standard Syriac construction for 'have', leaving the existential weight on ܐܝܬ ܗܘܐ. Latin habuit matches the Greek directly."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὕτη / ܠܗܕܐ / hæc — the demonstrative subject 'this (woman)'."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        2,
-        3,
-        4
+        3
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after fecit, creating a stronger syntactic break between the two clauses. Greek and Peshitta maintain continuous flow without such punctuation, treating the second clause as immediate elaboration rather than separate statement."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐποίησεν / ܥܒܕܬ / fecit — 'she did/performed'."
     },
     {
       "greek_nt": [
@@ -96,10 +117,12 @@
         6
       ],
       "vulgate": [
+        4,
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek προέλαβεν μυρίσαι ('she anticipated to anoint') uses the verb προλαμβάνω with a complementary infinitive to express 'beforehand'. The Peshitta employs the cognate root q-d-m (ܘܩܕܡܬ, 'and she came beforehand') with a coordinating waw, while the Vulgate adds a colon and renders prævenit as an independent verb governing the following infinitive."
     },
     {
       "greek_nt": [
@@ -112,24 +135,37 @@
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the infinitive 'to anoint' (μυρίσαι / ungere) immediately after the main verb προέλαβεν / prævenit. Peshitta postpones the verb ܒܣܡܬ ('she anointed') to the end of the clause, following the prepositional phrase ܐܝܟ ܕܠܩܒܘܪܬܐ — a typical Syriac verb-final construction in subordinate contexts."
+      "type": "lexical",
+      "note": "Greek μυρίσαι ('to anoint with myrrh/ointment') derives from μύρον; the Peshitta uses ܒܣܡܬ from the root b-s-m, properly 'to perfume/embalm with aromatics' (cf. Hebrew בֹּשֶׂם), a lexically distinct but semantically equivalent rendering. Latin ungere ('to anoint') is the more generic verb."
     },
     {
       "greek_nt": [
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek σῶμα (with definite article τό) and Latin corpus denote 'body' in the standard anatomical sense; the Peshitta ܓܘܫܡܝ (root g-sh-m, cf. Arabic جِسْم) carries the suffixed first-person pronoun and connotes the corporeal mass or substance, a near-synonym appropriate to the embalming context."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek μου ('of mine') and Latin meum are independent genitive/possessive forms; in Syriac the possessor is encoded as the pronominal suffix on ܓܘܫܡܝ ('my body'), so the possessive is morphologically fused with the noun rather than expressed as a separate token."
     },
     {
       "greek_nt": [
@@ -147,13 +183,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase εἰς τὸν ἐνταφιασμόν ('for the burial'); Vulgate mirrors with in sepulturam. Peshitta employs a comparative particle + noun construct ܐܝܟ ܕܠܩܒܘܪܬܐ ('as for burial'), introducing a nuance of purpose or manner rather than strict directionality — semantically equivalent but syntactically distinct."
+      "note": "Greek expresses purpose with εἰς τὸν ἐνταφιασμόν ('for the burial/embalming'), echoed by Latin in sepulturam; the Peshitta uses a comparative-purpose construction ܐܝܟ ܕܠܩܒܘܪܬܐ ('as for burial'), where ܐܝܟ ('as/like') softens the prepositional phrase, and the root q-b-r ('to bury') corresponds to the Greek ἐνταφιασμός."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.035357+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.550692+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

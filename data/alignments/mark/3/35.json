@@ -59,24 +59,34 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "ὃς / ܡܢ / Qui — generic relative pronoun introducing a conditional clause."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
         2
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the modal particle ἂν after γάρ, creating the indefinite relative construction ὃς γὰρ ἄν ('whoever'); Peshitta positions ܓܝܪ ('for') after the verb ܕܢܥܒܕ, while Vulgate mirrors Greek word order with Qui enim. All three express the same indefinite relative sense despite positional variation."
+      "note": "The explanatory particle (γάρ / ܓܝܪ / enim) stands second in Greek and Latin but is displaced to third position in Syriac, where ܓܝܪ characteristically follows the verb ܕܢܥܒܕ rather than the relative pronoun. The displacement is purely positional and reflects Syriac enclitic placement norms."
     },
     {
       "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
@@ -86,25 +96,37 @@
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses aorist subjunctive ποιήσῃ (contingent action); Latin employs future perfect fecerit (completed future action); Syriac ܕܢܥܒܕ uses the imperfect with ܕ- prefix (habitual/modal action). These represent functionally equivalent modal constructions in their respective grammatical systems."
+      "type": "construction",
+      "note": "Greek expresses the indefinite condition with the modal particle ἂν plus aorist subjunctive ποιήσῃ; Syriac uses an imperfect/subjunctive ܕܢܥܒܕ without a separate particle, while Latin renders it with the future perfect fecerit. All three convey the indefinite future ('whoever shall do'), but each language deploys a distinct morphological strategy."
     },
     {
       "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek articulates the object as τὸ θέλημα with a separate genitive following; Syriac compresses it into the construct/suffixed form ܨܒܝܢܗ ('his will') anticipating the following genitive, a typical Semitic anticipatory pronominal construction. Latin voluntatem agrees with the Greek analytic pattern."
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "θεοῦ / ܕܐܠܗܐ / Dei — genitive 'of God'; the Syriac proleptic suffix on ܨܒܝܢܗ is resolved here."
     },
     {
       "greek_nt": [
@@ -118,7 +140,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the demonstrative pronoun οὗτος ('this one') as subject; Latin employs the demonstrative hic with identical function; Syriac uses the third-person plural pronoun ܗܘܝܘ ('they are'), treating the collective kinship terms as a plural subject rather than singular distributive. This reflects differing strategies for expressing generic reference."
+      "note": "Greek and Latin use a demonstrative subject (οὗτος / hic, 'this one'); Syriac uses the emphatic pronominal copula ܗܘܝܘ ('he it is'), which simultaneously functions as demonstrative and verb 'to be', thereby also absorbing the function of Greek ἐστίν."
     },
     {
       "greek_nt": [
@@ -132,7 +154,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀδελφός μου and Latin frater meus use a noun plus possessive; Syriac ܐܚܝ encodes the first-person possessive suffix within the single word ('my brother'), an inflectional rather than analytic possession."
     },
     {
       "greek_nt": [
@@ -144,7 +168,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καὶ / ܘ- (prefixed) / et — coordinating conjunction."
     },
     {
       "greek_nt": [
@@ -160,7 +185,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Latin repeat the possessive pronoun with each kinship term (μου... καὶ ἀδελφὴ μου / meus... et soror mea); Syriac employs a single pronominal suffix on the conjunction ܘܚܬܝ ('and-my-sister'), a typical Semitic economy where the possessive extends across coordinated nouns without repetition."
+      "note": "Greek ἀδελφή μου and Latin soror mea express 'my sister' analytically; Syriac ܘܚܬܝ fuses the conjunction, noun, and first-person suffix into one form. The conjunction and the noun share the single Syriac token here."
     },
     {
       "greek_nt": [
@@ -172,7 +197,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καὶ / ܘ- (prefixed) / et — coordinating conjunction."
     },
     {
       "greek_nt": [
@@ -184,25 +210,26 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek μήτηρ and Latin mater stand without a possessive in the absolute; Syriac ܘܐܡܝ again fuses conjunction plus the suffixed 'my mother', so the possessive on 'mother' is explicit in Syriac but only implied in Greek and Latin."
     },
     {
       "greek_nt": [
         16
       ],
-      "peshitta": [],
       "vulgate": [
         13
       ],
       "variant": "minor",
       "type": "omission",
-      "note": "Greek and Latin explicitly include the copula ἐστίν / est ('is'); Syriac omits the copula, relying on the nominal sentence construction typical of Semitic languages where the verb 'to be' is implied in present-tense predication. The earlier ܗܘܝܘ functions as the subject pronoun, not a copula."
+      "note": "Greek closes with the finite copula ἐστίν and Latin with est; the Syriac has no separate copula here because its function was already discharged by ܗܘܝܘ earlier in the verse, a normal feature of Syriac nominal-clause syntax."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.962863+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.544537+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

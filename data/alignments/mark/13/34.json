@@ -89,8 +89,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -102,8 +101,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -113,8 +111,7 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta inserts ܗܘ ܓܝܪ ('for he'), an explanatory particle construction absent from both Greek and Latin witnesses. This addition clarifies the subject and provides logical connection, typical of Syriac narrative style."
+      "note": "The Peshitta inserts the demonstrative-copula ܗܘ ('he/it is') and the explanatory particle ܓܝܪ ('for'), supplying a discourse connective absent in both Greek and Latin. This is characteristic of Syriac narrative style, which favours overt resumptive elements to bind the parable to its preceding context."
     },
     {
       "greek_nt": [
@@ -128,8 +125,7 @@
         4
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses the adjective ἀπόδημος ('going on a journey') modifying ἄνθρωπος; Vulgate employs a relative clause construction qui peregre profectus ('who having gone abroad'); Peshitta uses the verb ܕܚܙܩ ('who departed'). All three convey the same semantic content through different syntactic strategies."
+      "note": "Greek uses the single adjective ἀπόδημος ('away on a journey'); Latin renders periphrastically with adverb + participle peregre profectus ('having set out abroad'); Syriac employs the finite verb ܕܚܙܩ (root kh-z-q, 'who departed/girded for travel'). All three express the act of journeying abroad but differ in syntactic class."
     },
     {
       "greek_nt": [
@@ -147,77 +143,154 @@
         6,
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek and Latin use a participle/finite verb with article + possessive (τὴν οἰκίαν αὐτοῦ / domum suam); Syriac compresses to ܘܫܒܩ ܒܝܬܗ ('and left his house'), with the possessive expressed by the pronominal suffix and no separate article. The coordinating ܘ ('and') in Syriac also restructures the participial chain into coordinated finite verbs."
     },
     {
       "greek_nt": [
-        7,
-        8,
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek καί and Latin et coordinate the two clauses; Syriac instead carries coordination via the prefixed conjunctions on its verbs (ܘܫܒܩ, ܘܝܗܒ), so no independent conjunction token appears here."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9,
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin place 'to his servants' (τοῖς δούλοις αὐτοῦ / servis suis) before the object 'authority'; Syriac ܠܥܒܕܘܗܝ follows the object ܫܘܠܛܢܐ, reflecting a word-order inversion of indirect object and direct object within the clause."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        7,
-        8,
-        9
+        8
       ],
       "vulgate": [
-        8,
-        9,
-        10,
-        11,
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        14,
-        15,
+        14
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        10,
+        11
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "note": "Greek ἑκάστῳ and Latin cujusque render the distributive 'to each one' with a single lexeme; Syriac expresses distributivity by reduplication ܠܐܢܫ ܐܢܫ ('to man, man' = 'to each individual'), a typical Semitic idiom for distribution that has no morphological parallel in Greek or Latin."
+    },
+    {
+      "greek_nt": [
         16,
         17,
         18
       ],
       "peshitta": [
-        10,
-        11,
         12
       ],
       "vulgate": [
-        13,
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs καὶ ἑκάστῳ τὸ ἔργον αὐτοῦ ('and to each one his work'), a distributive construction with dative ἑκάστῳ. Vulgate compresses this to cujusque operis ('of each one's work'), a genitive construction dependent on potestatem. Peshitta uses ܘܠܐܢܫ ܐܢܫ ܥܒܕܗ ('and to each man his work'), employing the distributive idiom ܐܢܫ ܐܢܫ. All three convey individual task assignment but through distinct grammatical structures."
+      "note": "Greek τὸ ἔργον αὐτοῦ and Latin operis ('his work / of work') name the assigned task explicitly with article and possessive; Syriac ܥܒܕܗ ('his work', root e-b-d) uses a pronominal suffix, and notably the Syriac root for 'work' echoes the root for 'servant' (e-b-d) in the preceding ܠܥܒܕܘܗܝ, producing a paronomastic link absent in the other traditions."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "note": "Greek καί and Latin et provide an explicit conjunction before the doorkeeper clause; Syriac again absorbs the coordination into the prefixed ܘ on ܘܠܬܪܥܐ, so no separate conjunction token is present."
+    },
+    {
+      "greek_nt": [
         20,
-        21,
-        22
+        21
       ],
       "peshitta": [
-        13,
-        14
+        13
       ],
       "vulgate": [
-        15,
         16,
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "θυρωρῷ / ܠܬܪܥܐ / janitori ('doorkeeper'); the Syriac form derives from the root for 'gate/door' (ܬܪܥܐ) parallel to the Greek and Latin agent nouns."
     },
     {
       "greek_nt": [
-        23,
+        22
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         24
       ],
       "peshitta": [
@@ -225,18 +298,16 @@
         16
       ],
       "vulgate": [
-        18,
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses ἵνα with subjunctive γρηγορῇ (purpose clause); Latin mirrors this with ut vigilet (subjunctive purpose clause); Peshitta employs ܕܢܗܘܐ ܥܝܪ ('that he be awake'), using the imperfect with ܕ- prefix. The Syriac construction is functionally equivalent but employs the verb 'to be' plus adjective rather than a simple verb form."
+      "note": "Greek γρηγορῇ and Latin vigilet express 'that he keep watch' with a single subjunctive verb; Syriac uses a periphrastic construction ܕܢܗܘܐ ܥܝܪ ('that he be watchful', copula h-w-a + adjective e-y-r), splitting the notion into auxiliary plus predicate adjective — a common Syriac strategy for rendering durative or stative verbal ideas."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.033579+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:40:56.168444+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

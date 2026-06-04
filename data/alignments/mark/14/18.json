@@ -76,32 +76,22 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs a genitive absolute construction (ἀνακειμένων αὐτῶν) with explicit pronoun; Peshitta uses a simple participle (ܣܡܝܟܝܢ) without overt subject; Vulgate mirrors the Greek with ablative absolute (discumbentibus eis) including pronoun. All three express the same temporal circumstance but differ in syntactic explicitness."
+      "type": "construction",
+      "note": "Greek employs a genitive absolute (ἀνακειμένων αὐτῶν) with an explicit pronoun αὐτῶν, mirrored by the Vulgate ablative absolute discumbentibus eis. The Peshitta uses a temporal clause introduced by ܘܟܕ ('and while') with the participle ܣܡܝܟܝܢ and no explicit pronoun, a syntactically distinct but semantically equivalent construction."
     },
     {
       "greek_nt": [
@@ -115,15 +105,12 @@
         3,
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses coordinating conjunction καὶ with genitive absolute participle (ἐσθιόντων); Peshitta employs a single coordinated participle with prefixed ܘ (ܘܠܥܣܝܢ); Vulgate follows Greek structure with et + ablative absolute (manducantibus). The Peshitta integrates both participial actions more tightly into a single clause."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         5,
-        6,
-        7
+        6
       ],
       "peshitta": [
         3,
@@ -131,33 +118,62 @@
       ],
       "vulgate": [
         5,
-        6,
+        6
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin both place the article+subject after the verb-initial clause with ὁ Ἰησοῦς / Jesus following εἶπεν / ait. The Peshitta inverts the order, placing the verb ܐܡܪ before the subject ܝܫܘܥ without an article, the normal Syriac verb-subject sequence."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [
         7
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek includes the article ὁ before Ἰησοῦς and marks speech with a raised dot (εἶπεν·); Vulgate uses a colon after Jesus (ait Jesus :); Peshitta has no punctuation mark. The substantive content is identical, but the traditions differ in their conventions for introducing direct discourse."
+      "note": "Greek finite verb εἶπεν· carries the speech-introducing function with raised dot; the Vulgate represents direct speech with a separate colon punctuation token. The Peshitta has no corresponding standalone verb here as ܐܡܪ already served the introduction."
     },
     {
       "greek_nt": [
-        8,
-        9,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek λέγω and Latin dico are synthetic first-person verbs; the Peshitta renders the verb ܐܡܪ followed by the explicit independent pronoun ܐܢܐ ('I'), an analytic Syriac construction making the subject overt."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        5,
-        6,
-        7,
         8
       ],
       "vulgate": [
-        8,
-        9,
         10
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds the explicit first-person pronoun ܐܢܐ ('I') after the second ܐܡܪ, yielding 'Amen I say I to-you,' whereas Greek λέγω and Latin dico encode the subject morphologically. This is a typical Syriac clarifying gloss for emphasis or disambiguation."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -169,70 +185,106 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅτι and Latin quia introduce the content clause as a conjunction; the Peshitta fuses the complementiser into the following word as the proclitic ܕ- on ܕܚܕ ('that one'), so the subordinator and the numeral are written together."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13,
         14
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        12,
         13,
         14
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the numeral before the prepositional phrase (εἷς ἐξ ὑμῶν / unus ex vobis); Peshitta integrates both into a single construct phrase ܕܚܕ ܡܢܟܘܢ ('that-one from-you'), a standard Semitic idiom. The word order reflects underlying syntactic preferences but conveys identical meaning."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek παραδώσει με and Latin tradet me place the future betrayal verb early in the clause; the Peshitta defers the verb ܢܫܠܡܢܝ (with enclitic object suffix '-me') to the very end after the participial subject phrase, reflecting the normal Syriac tendency to close the relative-clause subject before its predicate."
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
         14
       ],
       "vulgate": [
-        15,
         16
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the verb παραδώσει / tradet ('will betray') immediately after the subject phrase, followed by the object με / me. Peshitta postpones the verb ܢܫܠܡܢܝ to the end of the sentence, after the relative clause ܕܐܟܠ ܥܡܝ ܗܘ ('who eats with-me he'). This reflects Syriac preference for verb-final word order in subordinate constructions and creates a different rhetorical emphasis."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         17,
-        18,
+        18
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        17,
+        18
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek substantivises the participle with article (ὁ ἐσθίων) and Latin uses a relative clause (qui manducat); the Peshitta employs the relative particle prefixed to the participle ܕܐܟܠ, all three expressing 'the one who eats' through distinct article/relative strategies."
+    },
+    {
+      "greek_nt": [
         19,
         20
       ],
       "peshitta": [
-        11,
-        12,
-        13
+        12
       ],
       "vulgate": [
-        17,
-        18,
         19
       ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an articular participle ὁ ἐσθίων as a substantival relative clause ('the one eating'); Vulgate employs a relative pronoun + finite verb (qui manducat); Peshitta uses a participial relative construction ܕܐܟܠ ܥܡܝ ܗܘ with resumptive pronoun ܗܘ ('who eats with-me he'). All three identify the betrayer as a table companion, but the Syriac resumptive pronoun is a characteristic Semitic syntactic feature absent from Greek and Latin."
+      "type": "gloss",
+      "note": "The Peshitta adds the resumptive third-person pronoun ܗܘ ('he/that one') reinforcing the relative-clause subject before the deferred verb, a common Syriac copular/resumptive feature with no counterpart in the Greek or Latin."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.037513+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.498442+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

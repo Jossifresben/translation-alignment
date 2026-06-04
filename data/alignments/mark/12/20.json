@@ -58,24 +58,15 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
-        1,
-        2,
-        3
+        0
       ],
       "vulgate": [
-        0,
-        2,
-        3
+        0
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple imperfect ἦσαν ('were'); Peshitta employs the periphrastic construction ܐܝܬ ܗܘܘ (existential particle + hwā); Vulgate uses imperfect erant. All three express past existence, but Syriac prefers the analytic construction typical of its verbal system."
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -84,21 +75,50 @@
         1
       ],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts the inferential conjunction ergo ('therefore'), connecting this verse to the preceding Sadducean question about resurrection. Neither the Greek NA28 nor the Peshitta attest this logical connective here."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "note": "The Vulgate inserts the inferential particle ergo ('therefore'), connecting this verse to the preceding Sadducean premise. Neither the Greek nor the Syriac transmit a connective here, the Greek opening asyndetically with the numeral."
     },
     {
       "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
         3,
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the simple imperfect ἦσαν ('there were'); the Peshitta employs the periphrastic existential ܐܝܬ ܗܘܘ ('there were [in existence]') combining the existential particle with the auxiliary; Latin renders erant followed by the colon. The constructions are semantically equivalent."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "peshitta": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The conjunction καί / et linking the existence-clause to the action is omitted in the Peshitta, which proceeds asyndetically to ܩܕܡܝܐ. This is a stylistic feature of Syriac narrative coordination."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
@@ -106,41 +126,50 @@
         4
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article + adjective construction (ὁ πρῶτος, 'the first [one]'); Vulgate mirrors this with et primus; Peshitta uses the bare adjective ܩܕܡܝܐ without conjunction or article, reflecting Syriac's tendency toward asyndetic coordination and lack of definite articles."
+      "type": "grammar",
+      "note": "Greek and Latin both supply the substantivising article (ὁ πρῶτος / primus understood with the definite sense); the Syriac ܩܕܡܝܐ is an emphatic-state adjective standing alone, the definite force being inherent and without a separate article."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
@@ -148,37 +177,57 @@
       ],
       "vulgate": [
         10,
-        11,
+        11
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a present participle ἀποθνῄσκων ('[while] dying'); Latin renders with the perfect periphrasis mortuus est ('he died'); the Syriac ܘܡܝܬ is a finite preterite coordinated by waw. The Peshitta thus merges the connective and the verb of dying into one token, contrasting with the Greek's participial subordination."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
         12
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction καὶ + present participle ἀποθνῄσκων ('and dying'); Peshitta employs the simple perfect ܘܡܝܬ ('and he died'); Vulgate uses conjunction et + perfect passive participle mortuus est. The Greek participle suggests contemporaneous or circumstantial action, while Peshitta and Vulgate treat death as a completed sequential event."
+      "note": "Greek and Latin negate with a standalone negative particle (οὐκ / non); the Syriac ܘܠܐ fuses the coordinating waw with the negative ܠܐ, so the Peshitta lacks a separate conjunction before the negated verb."
     },
     {
       "greek_nt": [
-        10,
-        11,
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek (ἀφῆκεν) and Syriac (ܫܒܩ) use a finite verb 'he left'; the Vulgate substitutes an ablative absolute non relicto semine ('no seed having been left behind'), a typical Latin syntactic compression of the negated clause."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        8,
-        9,
         10
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses negated finite verb οὐκ ἀφῆκεν ('he did not leave'); Peshitta mirrors this with ܘܠܐ ܫܒܩ; Vulgate employs the ablative absolute construction non relicto semine ('seed not having been left'), a characteristically Latin participial absolute expressing attendant circumstance rather than finite negation."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.023999+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.442838+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

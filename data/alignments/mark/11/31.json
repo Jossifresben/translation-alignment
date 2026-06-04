@@ -76,11 +76,12 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek καὶ ('and') is rendered by Vulgate At ('but'), introducing a mild adversative nuance absent in the Greek coordinating conjunction. Peshitta ܘ retains the simple conjunctive sense."
+      "type": "construction",
+      "note": "Greek opens with the simple connective καί ('and'), and the Peshitta likewise prefixes the conjunction waw to the verb (ܘܐܬܚܫܒܘ). The Vulgate substitutes the adversative-resumptive At illi ('But they'), supplying an explicit pronominal subject and a contrastive nuance absent from the other witnesses."
     },
     {
       "greek_nt": [
@@ -93,12 +94,13 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "διελογίζοντο / ܐܬܚܫܒܘ / cogitabant"
     },
     {
       "greek_nt": [
         2,
-        3
+        3,
+        4
       ],
       "peshitta": [
         1
@@ -108,52 +110,76 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek πρὸς ἑαυτούς ('with themselves') uses a prepositional phrase with reflexive pronoun; Peshitta ܒܢܦܫܗܘܢ ('in their souls/selves') employs the idiomatic ܢܦܫܐ construction; Vulgate secum uses the reflexive cum-compound, all expressing internal deliberation with slight stylistic variation."
+      "note": "Greek expresses the reflexive deliberation with a prepositional phrase πρὸς ἑαυτούς ('among themselves'); the Peshitta uses the idiomatic ܒܢܦܫܗܘܢ (literally 'in their soul/self'), employing the noun nafshā as a reflexive marker, while the Vulgate compresses to the single adverbial secum. The transliterated gloss '(he'autous)' is treated as part of the Greek reflexive unit."
     },
     {
       "greek_nt": [
-        4
+        5
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        4,
+        4
+      ],
+      "variant": "aligned",
+      "note": "λέγοντες / ܘܐܡܪܘ / dicentes"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         5
       ],
-      "variant": "minor",
+      "variant": "added",
       "type": "punctuation",
-      "note": "Greek λέγοντες is a participial construction ('saying'); Peshitta ܘܐܡܪܘ uses a finite verb with coordinating waw; Vulgate dicentes mirrors the Greek participle but adds a colon for direct discourse punctuation."
+      "note": "The Clementine Vulgate inserts an explicit colon after dicentes to introduce direct discourse; neither the Greek nor the Syriac employs such punctuation here, the quotation being unmarked in the manuscript traditions."
     },
     {
       "greek_nt": [
-        5,
-        6
+        6,
+        7
       ],
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek includes the deliberative question τί εἴπωμεν ('What shall we say?') before the conditional clause. Both Peshitta and Vulgate omit this introductory question, proceeding directly to the conditional statement ἐὰν εἴπωμεν."
+      "note": "The Greek preserves the deliberative question τί εἴπωμεν ('What shall we say?') as a distinct clause introducing the dilemma. Both the Peshitta and the Vulgate omit this opening question entirely, proceeding directly to the conditional, a streamlining shared by the two versions against NA28."
     },
     {
       "greek_nt": [
-        7,
         8
       ],
       "peshitta": [
         3,
-        4,
-        5
+        4
       ],
       "vulgate": [
         6,
-        7,
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἐὰν εἴπωμεν / ܕܐܢ ܢܐܡܪ / Si dixerimus"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta supplies an explicit indirect object ܠܗ ('to him'), specifying that the hypothetical reply is addressed to Jesus; this dative is absent from both the Greek and the Latin, which leave the addressee implicit."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐὰν εἴπωμεν uses a conditional particle with subjunctive; Peshitta ܕܐܢ ܢܐܡܪ ܠܗ adds the indirect object pronoun ܠܗ ('to him'), making the addressee explicit; Vulgate Si dixerimus adds a colon for punctuation but otherwise mirrors Greek structure."
+      "variant": "added",
+      "type": "punctuation",
+      "note": "A second editorial colon in the Vulgate marks the apodosis of the protasis; this punctuation has no counterpart in the unpointed Greek or Syriac witnesses."
     },
     {
       "greek_nt": [
@@ -169,23 +195,40 @@
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐξ οὐρανοῦ / ܕܡܢ ܫܡܝܐ / De cælo"
     },
     {
       "greek_nt": [
         11
       ],
       "peshitta": [
-        8,
-        9
+        8
       ],
       "vulgate": [
-        11,
+        11
+      ],
+      "variant": "aligned",
+      "note": "ἐρεῖ / ܐܡܪ / dicet"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta adds ܠܢ ('to us') after the verb of speaking, making explicit the deliberators as the recipients of Jesus' anticipated retort; this pronominal complement is unattested in the Greek and the Vulgate."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Greek ἐρεῖ ('he will say') is a simple future verb; Peshitta ܐܡܪ ܠܢ adds the indirect object pronoun ܠܢ ('to us'), making the recipients explicit; Vulgate dicet adds a colon for punctuation, structurally mirroring Greek."
+      "variant": "added",
+      "type": "punctuation",
+      "note": "A third Vulgate colon introduces the anticipated direct speech of Jesus; the other traditions transmit no such mark, embedding the reported question without typographic separation."
     },
     {
       "greek_nt": [
@@ -201,34 +244,53 @@
         14
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek διὰ τί οὖν ('because of what therefore') uses a prepositional phrase with inferential particle; Peshitta ܘܠܡܢܐ ('and why') employs a simpler interrogative with coordinating waw; Vulgate Quare ergo ('why therefore') retains the inferential particle, closer to Greek structure."
+      "type": "construction",
+      "note": "Greek renders the interrogative cause analytically with διὰ τί οὖν ('on account of what then'), echoed by the Vulgate Quare ergo with its inferential particle. The Peshitta collapses this to the single interrogative ܘܠܡܢܐ ('and why'), omitting an explicit inferential particle corresponding to οὖν/ergo."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "οὐκ / ܠܐ / non"
+    },
+    {
+      "greek_nt": [
         16,
         17
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        15,
         16,
-        17,
-        18
+        17
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek οὐκ ἐπιστεύσατε αὐτῷ places the negative particle before the verb and dative pronoun after; Peshitta ܠܐ ܗܝܡܢܬܘܢܝܗܝ attaches the object pronoun as a suffix to the verb; Vulgate non credidistis ei mirrors Greek word order with separate dative pronoun and question mark."
+      "type": "grammar",
+      "note": "Greek and Latin express belief in Jesus with a verb plus separate dative complement (ἐπιστεύσατε αὐτῷ / credidistis ei). The Peshitta employs a single inflected form ܗܝܡܢܬܘܢܝܗܝ in which the third-person object suffix is agglutinated to the second-person plural verb, a synthetic construction that fuses verb and pronoun into one word."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        18
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The closing question mark in the Vulgate explicitly marks the interrogative; the Greek encodes the question by particle and word order rather than punctuation, and the Peshitta likewise lacks a discrete interrogative sign here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.019981+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.540214+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

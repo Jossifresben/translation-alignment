@@ -85,24 +85,32 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek παρήγγειλεν and Latin præcepit are finite verbs, while the Syriac ܘܦܩܕ (root p-q-d, cognate with Hebrew פָּקַד) carries the conjunction within the same prefixed form; the verb thus aligns to both the conjunction and verb slots of the other traditions."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -121,8 +129,7 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs ἵνα with subjunctive (ἵνα μηδὲν αἴρωσιν) to express purpose; Latin uses ne with subjunctive (ne quid tollerent); Syriac uses ܕܠܐ with imperfect (ܕܠܐ ܢܫܩܠܘܢ ܡܕܡ). All three constructions are functionally equivalent negative purpose clauses, differing only in the syntactic apparatus native to each language."
+      "note": "Greek frames the prohibition with a ἵνα-clause + subjunctive (ἵνα μηδὲν αἴρωσιν); Latin renders this with ne + imperfect subjunctive (ne quid tollerent); Syriac uses the negated subordinator ܕܠܐ with the imperfect ܢܫܩܠܘܢ followed by ܡܕܡ ('anything'), a semantically equivalent but distinct subordinating construction."
     },
     {
       "greek_nt": [
@@ -136,8 +143,8 @@
         6,
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek εἰς ὁδόν and Latin in via comprise preposition + noun, whereas Syriac collapses both into the single prefixed form ܠܐܘܪܚܐ (lamadh prefix + 'way'); a normal Syriac orthographic economy rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -152,8 +159,7 @@
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the conditional εἰ μή ('if not, except'); Latin employs nisi ('except'); Syriac uses ܐܠܐ ܐܢ ('but if'), a double-particle construction. All three express the same exceptive logic but through language-specific idioms for restrictive exception."
+      "note": "The Greek exceptive construction εἰ μή ('except') is matched by Syriac ܐܠܐ ܐܢ (two particles), while Latin condenses it to the single conjunction nisi; functionally identical exceptive markers."
     },
     {
       "greek_nt": [
@@ -165,8 +171,7 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -176,17 +181,40 @@
         9
       ],
       "vulgate": [
-        10,
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "vulgate": [
         11
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek μόνον and Syriac ܒܠܚܘܕ function as adverbial modifiers ('only, alone'); the Vulgate inserts a colon after tantum, creating a stronger syntactic break that separates the exception from the subsequent prohibitions. This punctuation choice reflects Latin rhetorical style but does not alter the semantic content."
+      "note": "The Vulgate inserts a colon (:) here punctuating the list of prohibitions, an editorial feature of the Clementine edition without counterpart in the Greek or Syriac running text."
     },
     {
       "greek_nt": [
         12,
         13
+      ],
+      "peshitta": [
+        10,
+        11
+      ],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "major",
+      "note": "The Greek and Latin sequence the prohibited items as bread (ἄρτον / panem) then bag (πήραν / peram), but the Syriac inverts the order, listing ܬܪܡܠܐ ('bag', root r-m-l) before ܠܚܡܐ ('bread'); a transposition of the provision list peculiar to the Peshitta."
+    },
+    {
+      "greek_nt": [
+        14,
+        15
       ],
       "peshitta": [
         12,
@@ -197,53 +225,55 @@
         15
       ],
       "variant": "major",
-      "type": "word-order",
-      "note": "Greek and Syriac list the prohibited items in the order bag–bread–money (πήραν, ἄρτον, χαλκόν / ܬܪܡܠܐ, ܠܚܡܐ, ܢܚܫܐ), while the Vulgate reverses the first two to bread–bag (panem, peram). This reordering may reflect Latin stylistic preference or harmonization with parallel Synoptic accounts (cf. Matt 10:9-10, Luke 9:3), where the sequence varies across manuscripts."
+      "note": "Owing to the Syriac inversion noted above, the second prohibited item is bread in the Peshitta (ܠܚܡܐ) but bag in the Greek (πήραν) and Latin (peram); the negation particles correspond but the lexemes are crossed relative to the other traditions."
     },
     {
       "greek_nt": [
-        14,
-        15
-      ],
-      "peshitta": [
-        10,
-        11
-      ],
-      "vulgate": [
-        12,
-        13
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "peshitta": [
-        14,
-        15,
         16
       ],
+      "peshitta": [
+        14
+      ],
       "vulgate": [
-        16,
+        16
+      ],
+      "variant": "minor",
+      "note": "Greek repeats the simple negation μή, Syriac uses the conjoined ܘܠܐ ('and not'), and Latin shifts to neque ('nor'); all serve the same negative-coordination function but reflect divergent connective styles."
+    },
+    {
+      "greek_nt": [
         17,
         18,
         19
       ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        17,
+        18
+      ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek specifies μὴ εἰς τὴν ζώνην χαλκόν ('nor money in the belt'), using ζώνη (belt/girdle) as the location for carrying coins. Latin mirrors this with neque in zona æs. Syriac substitutes ܒܟܝܣܝܗܘܢ ('in their purses/money-belts'), using a more explicit term for a money container. The Syriac lexeme ܟܝܣܐ is semantically closer to 'purse' than 'belt,' representing a functional equivalent rather than a direct cognate."
+      "note": "Greek εἰς τὴν ζώνην (preposition + article + 'belt') and Latin in zona render a belt-purse, whereas Syriac ܒܟܝܣܝܗܘܢ (root k-s-y, 'in their purses') uses a single prefixed plural noun with possessive suffix, specifying purses rather than the belt itself and supplying a 3rd-plural pronominal subject not present in the others."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "note": "All three traditions name a base metal as the forbidden currency, but the lexemes differ: Greek χαλκόν ('copper/money'), Latin æs ('bronze'), and Syriac ܢܚܫܐ (root n-kh-sh, cognate with Hebrew נְחֹשֶׁת 'copper'); the Syriac noun precedes the purse-phrase, reversing the Greek/Latin order where the metal follows."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.978963+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.545354+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

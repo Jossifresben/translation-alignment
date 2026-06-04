@@ -48,9 +48,7 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Peshitta combines the conjunction with the participle in a single verbal form ܘܐܙܠ ('and he went'), whereas Greek separates καὶ ἀπελθών and Latin Et abiens, reflecting different syntactic preferences for coordinating narrative sequences."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -68,13 +66,14 @@
       "greek_nt": [
         2
       ],
-      "peshitta": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an aorist participle ἀπελθών ('having gone away') and Latin mirrors with abiens; Peshitta incorporates this action into the initial verb ܘܐܙܠ, creating a more compact verbal construction without a separate participial element."
+      "note": "Greek and Latin render the action of departure with an aoristic/present participle (ἀπελθών / abiens, 'having gone away'); the Peshitta expresses the same circumstantial action as a coordinated finite verb ܘܐܙܠ ('and he went'), which has been aligned together with the conjunction at index 0. This is a typical Syriac avoidance of the Greek participial periphrasis in favour of parataxis."
     },
     {
       "greek_nt": [
@@ -103,8 +102,7 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article τὸν with the demonstrative αὐτὸν modifying λόγον ('the same word'); Latin uses eumdem sermonem without article (Latin lacking articles); Peshitta uses the enclitic pronoun ܘܗܝ ('and it') with ܡܠܬܐ ('word'), a typical Syriac pronominal construction functionally equivalent to the Greek demonstrative."
+      "note": "Greek τὸν αὐτὸν λόγον and Latin eumdem sermonem both employ an explicit reflexive/identifying adjective ('the same word'); the Peshitta renders the sense of identity with the resumptive pronominal suffix on ܘܗܝ ('that word of his / the same'), a construction that lacks a discrete lexeme for 'same' but achieves equivalent anaphoric force."
     },
     {
       "greek_nt": [
@@ -120,9 +118,9 @@
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.041013+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.534777+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

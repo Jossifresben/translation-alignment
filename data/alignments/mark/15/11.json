@@ -63,23 +63,21 @@
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article and conjunction before the noun (οἱ δὲ ἀρχιερεῖς); Peshitta inverts to ܪܒܝ ܟܗܢܐ ܕܝܢ (chief priests + then); Vulgate follows Latin convention with Pontifices autem, omitting the article as Latin lacks definite articles."
+      "type": "construction",
+      "note": "Greek and Syriac both place the postpositive conjunction (δέ / ܕܝܢ) after the compound subject 'the chief priests' (ἀρχιερεῖς / ܪܒܝ ܟܗܢܐ), the Syriac rendering the title with the construct chain rabbay kahnē. The Vulgate compresses the title to a single noun Pontifices and the conjunction autem follows as expected; all three are syntactically equivalent."
     },
     {
       "greek_nt": [
         3
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
         2
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἀνέσεισαν (ἀνασείω, 'stirred up, incited') and Vulgate concitaverunt (concito, 'stirred up') are direct equivalents. Peshitta uses ܝܬܝܪܐܝܬ ܚܦܛܘ ('exceedingly urged/pressed'), a lexical substitution emphasizing intensity of persuasion rather than mere agitation, reflecting a distinct Syriac idiom for incitement."
+      "variant": "aligned",
+      "note": "ἀνέσεισαν / ܚܦܛܘ / concitaverunt"
     },
     {
       "greek_nt": [
@@ -92,23 +90,34 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "τὸν ὄχλον / ܠܟܢܫܐ / turbam"
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἵνα and Latin ut both introduce an explicit purpose clause governing the subjunctive verb; the Syriac dispenses with a separate final particle and conveys purpose through the imperfect ܢܫܪܐ ('that he might release') prefixed directly, a normal Syriac economy."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        6
+        3
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek employs ἵνα μᾶλλον ('so that instead/rather') to express purpose and preference; Vulgate mirrors this with ut magis. Peshitta omits any equivalent to μᾶλλον/magis, using only the relative particle ܕ (d-) to introduce the purpose clause, thereby losing the contrastive nuance of 'rather [than Jesus]' present in Greek and Latin."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The comparative adverb μᾶλλον / magis ('rather, instead') stands inside the purpose clause in Greek and Latin, whereas the Syriac ܝܬܝܪܐܝܬ ('the more, excessively') is fronted before the main verb ܚܦܛܘ, modifying the act of incitement rather than the release. The displacement subtly shifts the emphasis but preserves the sense."
     },
     {
       "greek_nt": [
@@ -121,7 +130,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "τὸν Βαραββᾶν / ܕܠܒܪ-ܐܒܐ / Barabbam"
     },
     {
       "greek_nt": [
@@ -133,7 +143,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἀπολύσῃ / ܢܫܪܐ / dimitteret"
     },
     {
       "greek_nt": [
@@ -145,13 +156,14 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / eis"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.048009+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.486925+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

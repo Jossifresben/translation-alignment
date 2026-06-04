@@ -76,20 +76,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses καὶ ἐγένετο (conjunction + aorist verb); Peshitta employs the single verb ܘܗܘܬ (waw-consecutive perfect); Vulgate expands to Et facta est (conjunction + perfect passive participle + copula), a periphrastic construction typical of Latin narrative style."
+      "note": "Greek ἐγένετο (aorist of γίνομαι) and Latin facta est align as the inceptive verb; Syriac ܘܗܘܬ fuses the conjunction and verb into a single form, hence its index is shared with the first group. The Syriac then redundantly supplies a second ܗܘܬ (idx 3) within the participial clause, a characteristic periphrastic expansion."
     },
     {
       "greek_nt": [
@@ -105,37 +114,61 @@
     },
     {
       "greek_nt": [
-        3,
-        4
+        3
       ],
       "peshitta": [
         2,
-        3,
-        4
+        3
       ],
       "vulgate": [
-        4,
-        5
+        4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a present participle ἐπισκιάζουσα with dative pronoun αὐτοῖς; Vulgate mirrors this with obumbrans eos (participle + accusative); Peshitta employs a finite verb construction ܘܡܛܠܐ ܗܘܬ ܥܠܝܗܘܢ (waw + participle + verb + prepositional phrase), reflecting Syriac preference for finite verbal forms over Greek-style participial constructions."
+      "note": "Greek uses a single present participle ἐπισκιάζουσα ('overshadowing') matched by Latin obumbrans; Syriac renders this with a periphrastic construction ܘܡܛܠܐ ܗܘܬ (active participle plus auxiliary 'was'), a typical Syriac analytic equivalent for the Greek participial attribution."
     },
     {
       "greek_nt": [
-        5,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "vulgate": [
         6
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon after eos, marking the clause boundary before the second et; neither the Greek nor the Syriac transmit a corresponding punctuation token here, this being an editorial feature of the Latin tradition."
+    },
+    {
+      "greek_nt": [
+        5
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        7,
-        8
+        7
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek repeats καὶ ἐγένετο; Peshitta uses simple waw-conjunction with the noun ܘܩܠܐ (eliding the verb); Vulgate employs et venit (conjunction + perfect active verb), substituting 'came' for 'was/became' to vary the narrative diction."
+      "note": "The conjunction is present in all three (καὶ / ܘ- prefixed on ܩܠܐ / et); in Syriac it is orthographically fused to the noun 'voice', so the index is shared with the following noun group."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek repeats ἐγένετο ('there was/came') for the voice, and Latin matches with venit ('came'); the Syriac omits any second 'came/was' verb, simply juxtaposing 'and a voice from the cloud', an economical construction lacking the Greek's doubled verb."
     },
     {
       "greek_nt": [
@@ -151,16 +184,25 @@
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        10,
         11
       ],
       "variant": "aligned"
@@ -178,47 +220,61 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
-        6,
-        13,
-        19
+        13
       ],
-      "variant": "minor",
+      "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate inserts colons after eos, dicens, and carissimus to mark syntactic breaks; Greek uses a raised dot (·) only after λέγουσα and ἀγαπητός; Peshitta punctuation is not represented in the token stream but traditionally uses minimal stops."
+      "note": "The Vulgate places a colon after dicens to introduce direct speech; this oratio recta marker has no token-level counterpart in the Greek (which uses a raised dot) or in the Syriac."
     },
     {
       "greek_nt": [
-        12,
-        13
+        12
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
-        14,
-        15
+        14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses demonstrative pronoun οὗτός with copula ἐστιν; Vulgate mirrors with Hic est; Peshitta employs the demonstrative ܗܢܘ alone, eliding the copula as is typical in Syriac nominal sentences."
+      "note": "Greek separates the demonstrative and copula (οὗτός ἐστιν, idx 12–13); Syriac contracts both into a single enclitic form ܗܢܘ ('this-is'), so the copula has no separate Syriac index. Latin Hic est mirrors the Greek's two-word construction."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         14,
-        15,
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "note": "Greek uses article plus noun plus genitive pronoun (ὁ υἱός μου), Latin Filius meus; Syriac contracts 'my son' into the single suffixed form ܒܪܝ, the possessive being expressed by the pronominal suffix rather than a separate word."
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "The first-person possessive μου / meus is rendered in Syriac by the pronominal suffix on ܒܪܝ rather than an independent token, hence its index coincides with the noun group."
     },
     {
       "greek_nt": [
@@ -232,38 +288,46 @@
         18
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὁ ἀγαπητός (the beloved) uses the standard NT term; Vulgate carissimus (most dear) employs a superlative form; Peshitta ܚܒܝܒܐ (beloved) uses the simple adjective, semantically equivalent to Greek but without the article."
+      "note": "Greek ὁ ἀγαπητός ('the beloved') with the attributive article matches Syriac ܚܒܝܒܐ; the Latin carissimus ('most dear/dearest') is a superlative rendering of the verbal adjective ἀγαπητός, a recurrent Vulgate choice that slightly intensifies the simple 'beloved'."
     },
     {
-      "greek_nt": [],
-      "peshitta": [
-        12
+      "vulgate": [
+        19
       ],
-      "vulgate": [],
       "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta adds the prepositional phrase ܠܗ ('to him' / 'for him'), likely an explanatory gloss clarifying the dative relationship implicit in Greek μου or serving as an ethical dative emphasizing the Father's affection. Neither Greek nor Vulgate attest this element."
+      "type": "punctuation",
+      "note": "A colon follows carissimus in the Clementine text, separating the predicate clause from the imperative; no equivalent punctuation token exists in the Greek or Syriac witnesses."
     },
     {
       "greek_nt": [
-        19,
-        20
+        19
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
-        20,
-        21
+        20
       ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin place the object pronoun after the imperative (ἀκούετε αὐτοῦ / audite illum); Syriac fronts the dative ܠܗ before the imperative ܫܡܥܘ, a word-order divergence reflecting Syriac's tolerance for preposed pronominal objects. Greek ἀκούω governs the genitive αὐτοῦ ('listen to him'), whereas Latin uses the accusative illum."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.230387+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.478090+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

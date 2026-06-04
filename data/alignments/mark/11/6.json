@@ -61,8 +61,8 @@
         0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs article + postpositive conjunction (οἱ δέ); Peshitta mirrors this with demonstrative pronoun + ܕܝܢ; Vulgate uses relative pronoun Qui without explicit conjunction, absorbing the contrastive force into the relative construction itself."
+      "type": "construction",
+      "note": "Greek and Syriac use the demonstrative pronoun with a connective particle (οἱ δέ / ܗܢܘܢ ܕܝܢ, 'and they'); the Vulgate condenses this into a single relative pronoun Qui ('who/they who') and drops the adversative conjunction, a typical Latin narrative simplification."
     },
     {
       "greek_nt": [
@@ -105,14 +105,15 @@
         5
       ],
       "peshitta": [
-        5
+        5,
+        6
       ],
       "vulgate": [
         4
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "lexical",
-      "note": "Greek εἶπεν ('said') is rendered by Peshitta ܕܦܩܕ ('commanded') and Vulgate præceperat ('had commanded'). The Peshitta and Vulgate interpret Jesus's prior instruction as an authoritative command rather than mere speech, heightening the imperatival force and aligning with the disciples' obedience in context."
+      "note": "Greek εἶπεν ('said') reuses the verb of saying, whereas the Peshitta (ܕܦܩܕ, root p-q-d) and Vulgate (præceperat) both render 'commanded/instructed'; the Syriac additionally attaches the object pronoun ܐܢܘܢ ('them'), supplying an explicit accusative that Greek leaves unexpressed."
     },
     {
       "greek_nt": [
@@ -127,8 +128,8 @@
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article + subject (ὁ Ἰησοῦς) after the verb; Peshitta omits the article (Syriac lacks definite articles) and places ܝܫܘܥ post-verbally; Vulgate inserts an indirect object pronoun illis before Jesus, creating a dative of reference construction absent in the Greek."
+      "type": "grammar",
+      "note": "Greek and Latin retain the definite article / nominal marking around the name (ὁ Ἰησοῦς / Jesus), while Syriac uses the bare proper noun ܝܫܘܥ; Semitic syntax does not require an article before personal names, so the difference is purely morphological."
     },
     {
       "greek_nt": [
@@ -152,7 +153,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "Syriac ܘܫܒܩܘ (root sh-b-q, 'and they let go/permitted') fuses the conjunction and verb; the Greek ἀφῆκαν and Latin dimiserunt express the same act of 'allowing/releasing.'"
     },
     {
       "greek_nt": [
@@ -164,15 +166,13 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek αὐτούς (accusative, direct object: 'them [the disciples]') corresponds to Peshitta ܐܢܘܢ (accusative) and Vulgate eis (dative). The Vulgate's dative construction (dimiserunt eis, 'they released/permitted to them') reflects Latin idiom for permissive verbs, whereas Greek and Syriac employ accusative objects with ἀφίημι / ܫܒܩ."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.016250+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.490610+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

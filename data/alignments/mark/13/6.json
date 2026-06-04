@@ -64,8 +64,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -77,8 +76,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -90,8 +88,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -110,7 +107,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the prepositional phrase ἐπὶ τῷ ὀνόματί μου with article and dative case; Latin mirrors this with in nomine meo using ablative; Syriac uses the bound form ܒܫܡܝ (b-shemi, 'in-my-name') as a single morphological unit with pronominal suffix, a typical Semitic construction avoiding the article."
+      "note": "Greek expresses the phrase analytically with preposition + article + dative noun + possessive pronoun (ἐπὶ τῷ ὀνόματί μου), and the Vulgate mirrors this with in nomine meo. Syriac compresses the entire phrase into a single inflected form ܒܫܡܝ ('in my name'), incorporating the preposition, noun, and first-person suffix synthetically."
     },
     {
       "greek_nt": [
@@ -122,21 +119,20 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a present active participle (λέγοντες / dicentes, 'saying'); the Peshitta renders the circumstance with a coordinated finite verb ܘܢܐܡܪܘܢ ('and they will say'), a typical Syriac paratactic substitute for the Greek participial construction."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [
-        5
-      ],
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὅτι and Latin quia both function as recitative markers introducing direct speech ('that' = quotation opener). The Syriac encodes this recitative function within the relative-clitic prefix on ܕܐܢܐ rather than as a separate token, so no independent conjunction is present."
     },
     {
       "greek_nt": [
@@ -151,19 +147,16 @@
         8,
         9
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta repeats the independent pronoun ܐܢܐ ܐܢܐ (ʾenā ʾenā, 'I I') for emphatic effect, mirroring the Greek ἐγώ εἰμι construction but with doubled pronoun rather than pronoun-plus-verb. Latin ego sum follows Greek syntax exactly with explicit subject pronoun and copula."
+      "variant": "aligned",
+      "note": "ἐγώ εἰμι / ܐܢܐ ܐܢܐ / ego sum"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         10
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after sum to mark the end of direct speech, a punctuation convention absent in Greek manuscripts and Syriac tradition. This reflects Latin scribal practice for clarifying discourse boundaries but does not alter semantic content."
+      "note": "The Clementine Vulgate inserts a colon after sum to mark the boundary of the reported speech; neither the Greek nor the Syriac transmits an equivalent discrete punctuation token at this point."
     },
     {
       "greek_nt": [
@@ -174,23 +167,23 @@
       ],
       "vulgate": [
         11
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek καὶ and Latin et appear as separate coordinating conjunctions; Syriac prefixes the conjunction ܘ (w-) directly to the following word ܘܠܣܓܝܐܐ (w-l-saggīʾē, 'and-to-many'), reflecting standard Syriac morphology where conjunctions attach as proclitics rather than standing as independent tokens."
-    },
-    {
-      "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ / et"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek πολλούς and Latin multos stand as independent accusative objects ('many'); the Syriac fuses the conjunction, the directive/object preposition ܠ, and the adjective into the single form ܘܠܣܓܝܐܐ ('and many'), marking the object with the lamadh-prefix characteristic of Syriac definite or animate objects."
     },
     {
       "greek_nt": [
@@ -202,15 +195,14 @@
       "vulgate": [
         13
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πλανήσουσιν (planēsousin, 'they will lead astray') and Syriac ܢܛܥܘܢ (neṭʿōn, 'they will deceive') are semantic cognates; Latin seducent ('they will lead away/seduce') employs a compound verb with se- prefix, emphasizing the notion of leading aside from truth, a slightly stronger connotation than the Greek simplex verb."
+      "variant": "aligned",
+      "note": "πλανήσουσιν / ܢܛܥܘܢ / seducent"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.029118+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.470766+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

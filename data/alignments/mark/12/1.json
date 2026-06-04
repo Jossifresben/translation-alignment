@@ -97,21 +97,20 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        1
+        0
       ],
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἤρξατο ('he began') is a finite middle aorist; the Peshitta fuses the conjunction and inceptive verb into a single form ܘܫܪܝ ('and he began'), so the Syriac index 0 serves both the conjunction and verb slots here. Latin cœpit matches the Greek closely."
     },
     {
       "greek_nt": [
@@ -123,8 +122,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -139,47 +137,47 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν παραβολαῖς ('in parables'); Syriac employs the singular ܒܡܬܠܐ ('in a parable'), a typical Semitic idiom treating the collective as singular; Latin mirrors the Greek plural construction in parabolis."
+      "note": "Greek and Latin render 'in parables' as preposition + plural noun (ἐν παραβολαῖς / in parabolis); the Peshitta uses a single prefixed-preposition form ܒܡܬܠܐ which, though morphologically singular in appearance, functions as the standard Syriac equivalent of the plural sense."
     },
     {
       "greek_nt": [
         5
       ],
-      "peshitta": [],
-      "vulgate": [
-        5
+      "peshitta": [
+        1
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
+        5,
         6
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon to mark the transition from narrative frame to parable content, a punctuation convention absent in the Greek and Peshitta manuscripts which lack systematic punctuation."
+      "note": "The infinitive 'to speak' is expressed by Greek λαλεῖν and Latin loqui; the Peshitta uses the imperfect/subordinate ܕܢܡܠܠ ('that he might speak') with the relative-purpose prefix, a construction-level difference. The Vulgate also carries the colon (index 6) marking the start of direct discourse."
     },
     {
       "greek_nt": [
-        6,
         7
       ],
       "peshitta": [
         4,
-        5,
+        5
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek ἄνθρωπος and Latin homo are bare nouns ('a man'); the Peshitta adds the numeral-indefinite ܚܕ ('one/a certain') after ܓܒܪܐ, a typical Syriac idiom for introducing an unspecified agent into a narrative."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
         7
       ],
       "vulgate": [
-        7,
-        9
+        7
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek places the object ἀμπελῶνα before the subject ἄνθρωπος; Peshitta inserts the indefinite ܚܕ ('one') and reorders to ܓܒܪܐ ܚܕ ܢܨܒ ܟܪܡܐ ('a man one planted a vineyard'), following Semitic VSO syntax; Vulgate inverts to Vineam pastinavit homo, placing the object first for rhetorical emphasis."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -192,87 +190,120 @@
         8
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek φυτεύω ('plant') and Latin pastinare ('prepare ground, plant') denote agricultural planting; Syriac ܢܨܒ ('set, establish') is a broader term for founding or establishing, semantically overlapping but lexically distinct from the Greek-Latin cognate pair."
+      "note": "All three attest 'planted a vineyard' (ἐφύτευσεν / ܢܨܒ / pastinavit), but the word order differs: Greek and Latin front the object (ἀμπελῶνα / Vineam) before the subject and verb, while the Peshitta places verb ܢܨܒ before object ܟܪܡܐ in a conventional Semitic VSO arrangement."
     },
     {
       "greek_nt": [
         9,
-        10,
-        11
+        10
       ],
       "peshitta": [
-        8,
-        9
+        8
       ],
       "vulgate": [
         10,
-        11,
-        12
+        11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek περιέθηκεν φραγμόν ('placed around a fence') uses a compound verb with accusative object; Syriac ܘܐܚܕܪܗ ܣܝܓܐ ('and surrounded it with a hedge') employs a simple verb with pronominal suffix; Latin circumdedit sepem mirrors the Greek construction with compound verb and direct object."
+      "note": "Greek καὶ περιέθηκεν and Latin et circumdedit ('and placed/set around') employ a conjunction plus finite verb; the Peshitta compresses 'and he surrounded it' into ܘܐܚܕܪܗ with an enclitic pronominal object suffix ('-it'), supplying the object that Greek and Latin leave implicit."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         12,
-        13,
-        14
+        13
       ],
       "peshitta": [
         10,
-        11,
-        12
+        11
       ],
       "vulgate": [
         13,
-        14,
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek καὶ ὤρυξεν and Latin et fodit ('and dug') stand without a locative complement; the Peshitta ܘܚܦܪ adds the prepositional ܒܗ ('in it', index 11) clarifying that the vat was dug within the vineyard, a minor explanatory expansion."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ὤρυξεν ὑπολήνιον ('dug a wine vat') lacks explicit locative; Peshitta inserts ܒܗ ('in it') as a locative prepositional phrase ܘܚܦܪ ܒܗ ܡܥܨܪܬܐ ('and dug in it a winepress'), making the spatial relationship explicit; Latin fodit lacum ('dug a trough/vat') follows Greek syntax without the locative."
+      "note": "Greek ὑπολήνιον denotes the trough beneath a winepress; Latin lacum ('a vat/pit') and Syriac ܡܥܨܪܬܐ (from root ʿ-ṣ-r, 'to press') both render the wine-pressing installation, with each tradition choosing a lexeme rooted in its own viticultural vocabulary."
     },
     {
       "greek_nt": [
         15,
-        16,
-        17
+        16
       ],
       "peshitta": [
         13,
-        14,
-        15
+        14
       ],
       "vulgate": [
         16,
-        17,
-        18
+        17
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ᾠκοδόμησεν πύργον ('built a tower') uses simple verb-object construction; Peshitta again inserts locative ܒܗ yielding ܘܒܢܐ ܒܗ ܡܓܕܠܐ ('and built in it a tower'), maintaining parallel structure with the previous clause; Latin ædificavit turrim follows Greek without the locative marker."
+      "note": "Greek καὶ ᾠκοδόμησεν and Latin et ædificavit ('and built') have no locative object; the Peshitta ܘܒܢܐ again appends ܒܗ ('in it', index 14), paralleling the earlier addition and reinforcing that the tower stood within the vineyard."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         18,
         19,
-        20,
-        21
+        20
       ],
       "peshitta": [
-        16,
-        17
+        16
       ],
       "vulgate": [
         19,
         20,
-        21,
+        21
+      ],
+      "variant": "minor",
+      "note": "Greek καὶ ἐξέδετο αὐτὸν ('and rented it out') and Latin et locavit eam use conjunction, finite verb, and separate accusative pronoun; the Peshitta fuses all three into ܘܐܘܚܕܗ with a pronominal suffix ('-it'), a construction-level compression typical of Syriac verbal morphology."
+    },
+    {
+      "greek_nt": [
+        21
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
         22
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -285,27 +316,17 @@
       "vulgate": [
         23,
         24,
-        25
-      ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἀπεδήμησεν ('went abroad, traveled away') is a single compound verb; Syriac ܘܚܙܩ ('and departed, went away') uses a simpler lexeme without the foreign-travel nuance; Latin expands to the periphrastic peregre profectus est ('set out on a journey abroad'), making the foreign-travel sense explicit through the adverb peregre."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        25,
         26
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate concludes the verse with a period, a punctuation convention marking sentence termination absent in Greek and Peshitta manuscript traditions."
+      "note": "Greek καὶ ἀπεδήμησεν ('and went abroad') uses a single compound verb; Latin renders it periphrastically with et peregre profectus est ('and set out to a foreign land'); the Peshitta uses the conjoined ܘܚܙܩ (root kh-z-q, here 'departed/journeyed'), all conveying the landowner's departure but each by distinct lexical and syntactic means."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:31:37.376077+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.447100+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

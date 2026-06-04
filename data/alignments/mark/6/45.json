@@ -81,8 +81,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -95,28 +94,36 @@
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "The Peshitta combines the conjunction and adverb into a single compound form ܘܡܚܕܐ (w-meḥdā, 'and immediately'), whereas Greek and Latin maintain separate tokens (Καὶ εὐθύς / Et statim). This reflects typical Syriac morphological economy in rendering temporal adverbs with conjunctions."
+      "note": "The adverb εὐθὺς ('immediately') is rendered by the Vulgate's statim and is fused into the Syriac ܘܡܚܕܐ, which prefixes the conjunction ('and at once') into a single word; thus the Greek conjunction-plus-adverb sequence is collapsed into one lexeme in Syriac."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "ἠνάγκασεν / ܐܠܨ / coëgit"
+    },
+    {
+      "greek_nt": [
         3,
         4,
         5
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article + noun + possessive pronoun (τοὺς μαθητὰς αὐτοῦ); Latin omits the article and places the possessive before the noun (discipulos suos); Syriac attaches the pronominal suffix directly to the noun (ܠܬܠܡܝܕܘܗܝ, l-talmidawhy). All three convey identical semantics through language-specific possessive constructions."
+      "note": "Greek and Latin express 'his disciples' analytically (article + noun + possessive pronoun; discipulos suos), whereas Syriac ܠܬܠܡܝܕܘܗܝ synthesises the object marker, noun, and 3ms possessive suffix into a single inflected word."
     },
     {
       "greek_nt": [
@@ -134,23 +141,11 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs an articular infinitive construction (ἐμβῆναι εἰς τὸ πλοῖον, 'to embark into the boat'); Latin uses a bare infinitive with accusative (ascendere navim); Syriac uses a d- subordinating particle with imperfect verb (ܕܢܣܩܘܢ ܠܣܦܝܢܬܐ, d-nesqun l-sphinta, 'that they should ascend to the ship'). These represent equivalent purpose clauses in different syntactic frames."
+      "note": "Greek ἐμβῆναι εἰς τὸ πλοῖον ('to embark into the boat') and the Syriac ܕܢܣܩܘܢ ('that they should go up/board') use a complementary subordinate verb of motion, while the Vulgate ascendere navim drops the preposition and takes the boat as a direct object; the Syriac additionally shifts from infinitive to a finite imperfect with a subjunctival prefix."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "omission",
-      "note": "The Vulgate omits the coordinating conjunction before the purpose clause, rendering the infinitive phrase (ut præcederent) as directly dependent on coëgit. Greek and Syriac both retain explicit coordination (καὶ / ܘ), making the two infinitival actions syntactically parallel rather than subordinated."
-    },
-    {
-      "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
@@ -163,8 +158,7 @@
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a simple infinitive προάγειν ('to go before'); Latin employs ut + subjunctive (ut præcederent eum, 'that they should precede him'); Syriac continues the d- subordination with an explicit pronominal suffix (ܘܢܐܙܠܘܢ ܩܕܡܘܗܝ, w-ne'zlon qdomawhy, 'and they should go before him'). The Vulgate and Peshitta make the object pronoun explicit, whereas Greek leaves it implicit in context."
+      "note": "Greek καὶ προάγειν ('and to go before') is a coordinated infinitive; the Vulgate recasts it as a purpose clause ut præcederent eum ('that they might precede him'), supplying the object eum; Syriac ܘܢܐܙܠܘܢ ܩܕܡܘܗܝ ('and that they should go before him') likewise adds the explicit pronominal object 'him' absent in the Greek."
     },
     {
       "greek_nt": [
@@ -180,8 +174,7 @@
         11
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses εἰς τὸ πέραν ('to the other side') with the articular adverbial noun; Latin renders this as trans fretum ('across the strait'), specifying the body of water; Syriac uses the simple prepositional phrase ܠܥܒܪܐ (l-ʿebrā, 'to the crossing/other side'). The Latin choice of fretum adds geographic specificity not present in the Greek or Syriac."
+      "note": "The Greek prepositional phrase εἰς τὸ πέραν ('to the other side') with articular substantive is matched by the Vulgate trans fretum ('across the strait'), which specifies the body of water, while the Syriac ܠܥܒܪܐ uses a single substantive from the root ʿ-b-r ('crossing/far side')."
     },
     {
       "greek_nt": [
@@ -196,37 +189,36 @@
         13
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πρὸς Βηθσαϊδάν / ܠܒܝܬ-ܨܝܕܐ / ad Bethsaidam"
     },
     {
       "greek_nt": [
-        17
+        17,
+        18
       ],
       "peshitta": [
-        9
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        18,
-        19
-      ],
-      "peshitta": [
-        10,
+        9,
         11
       ],
       "vulgate": [
-        15,
+        14,
+        15
+      ],
+      "variant": "aligned",
+      "note": "ἕως αὐτὸς / ܥܕ ... ܗܘ / dum ipse"
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
         16
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the emphatic pronoun before the verb (αὐτὸς ἀπολύει); Latin inverts this to ipse dimitteret, maintaining emphasis; Syriac uses verb-first order with the independent pronoun following (ܫܪܐ ܗܘ, shrā hu). All three mark the subject pronoun for contrastive emphasis ('he himself'), but through different positional strategies."
+      "note": "The Greek present indicative ἀπολύει ('he dismisses') stands in a temporal clause where both the Vulgate dimitteret (imperfect subjunctive) and the Syriac ܫܪܐ (perfect/general) adjust the verbal aspect to fit their respective temporal-clause syntax; the difference is purely grammatical."
     },
     {
       "greek_nt": [
@@ -239,15 +231,14 @@
       "vulgate": [
         17
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses ὄχλον ('crowd, throng'); Latin employs populum ('people, populace'), a more formal register; Syriac uses ܟܢܫܐ (kenšā, 'assembly, gathering'). While semantically equivalent, the Latin choice carries slightly more civic or collective connotation than the Greek term for an unorganized crowd."
+      "variant": "aligned",
+      "note": "τὸν ὄχλον / ܠܟܢܫܐ / populum"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.984793+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.503287+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

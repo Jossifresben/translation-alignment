@@ -93,19 +93,27 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -117,28 +125,37 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek aorist subjunctive ἴδητε and Latin perfect subjunctive videritis are both second-person plural; Syriac ܕܚܙܝܬܘܢ likewise carries the plural subject affix. The verdict is minor only because the Syriac prefixes the relative/temporal particle d- to the verb, a typical Aramaic syntactic feature absent in the other two."
     },
     {
       "greek_nt": [
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "The Peshitta supplies ܐܬܐ ('sign/portent') before ܛܢܦܬܐ ('the abomination'), an interpretive expansion absent from both the Greek τὸ βδέλυγμα and the Latin abominationem. The Syriac thereby renders the phrase as 'the sign of the abomination,' softening the bare noun."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        3,
-        4,
         5
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs double article construction (τὸ βδέλυγμα τῆς ἐρημώσεως) with genitive relationship; Vulgate uses direct noun-genitive pairing (abominationem desolationis); Peshitta prepends the noun ܐܬܐ ('athā, 'sign'), yielding ܐܬܐ ܛܢܦܬܐ ܕܚܘܪܒܐ ('the sign of the abomination of desolation'), a minor interpretive expansion that makes the eschatological referent more explicit. [Patched in corpus v1.0.0 — original output mis-classified ܐܬܐ as a demonstrative pronoun.]"
+      "variant": "aligned",
+      "note": "ἐρημώσεως / ܕܚܘܪܒܐ / desolationis"
     },
     {
       "greek_nt": [
@@ -156,9 +173,8 @@
         9
       ],
       "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits the entire relative clause τὸ ῥηθὲν ὑπὸ Δανιὴλ τοῦ προφήτου ('that which was spoken by Daniel the prophet'), which both Greek and Peshitta attest. The Peshitta renders this as ܗܝ ܕܐܡܝܪܐ ܒܕܢܝܐܝܠ ܢܒܝܐ with feminine demonstrative ܗܝ agreeing with ܛܢܦܬܐ ('abomination'), explicitly naming Daniel as the prophetic source in harmonisation with Matthew 24:15."
+      "variant": "omitted",
+      "note": "The attributive clause τὸ ῥηθὲν ὑπὸ Δανιὴλ τοῦ προφήτου ('which was spoken of by Daniel the prophet') is present in the Greek and reproduced in the Peshitta (ܗܝ ܕܐܡܝܪܐ ܒܕܢܝܐܝܠ ܢܒܝܐ), but the Clementine Vulgate omits the entire clause here, agreeing with the shorter text favoured in many witnesses of Mark (the naming of Daniel being often regarded as a harmonisation toward Matt 24:15)."
     },
     {
       "greek_nt": [
@@ -171,49 +187,74 @@
         5
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses perfect active participle ἑστηκότα (masculine accusative agreeing with βδέλυγμα in sense, though neuter in form); Vulgate employs present active participle stantem; Peshitta uses active participle ܕܩܝܡܐ. All convey 'standing,' but Greek perfect aspect emphasizes the completed state of standing, while Latin and Syriac use present aspect."
+      "note": "Greek perfect participle ἑστηκότα (masculine, agreeing with the personified abomination) is matched by Latin stantem and Syriac ܕܩܝܡܐ; the Syriac again prefixes the relative d-, giving a relative-clause construction ('that stands') rather than a bare participle."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "ὅπου / ܐܝܟܐ / ubi"
+    },
+    {
+      "greek_nt": [
         15,
         16
       ],
       "peshitta": [
-        11,
         12,
         13
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "The Peshitta reads ܐܝܟܐ ܕܠܐ ܘܠܐ ('where not and not'), employing a double negative construction (ܕܠܐ ܘܠܐ) that intensifies the negation beyond the Greek ὅπου οὐ δεῖ and Latin ubi non debet. This is a characteristic Syriac rhetorical doubling for emphasis."
+      "note": "Greek οὐ δεῖ and Latin non debet express the negated impersonal 'where it ought not.' The Syriac renders this with a doubled negation ܕܠܐ ܘܠܐ, a construction native to Aramaic emphatic negation but with no one-to-one lexical counterpart in the other traditions."
     },
     {
       "greek_nt": [
         17,
-        18,
-        19
+        18
       ],
       "peshitta": [
         14,
-        15,
-        16
+        15
       ],
       "vulgate": [
         9,
-        10,
-        11,
+        10
+      ],
+      "variant": "aligned",
+      "note": "ὁ ἀναγινώσκων / ܗܘ ܕܩܪܐ / qui legit"
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "note": "νοείτω / ܢܣܬܟܠ / intelligat"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses participial construction ὁ ἀναγινώσκων νοείτω ('let the reader understand') as parenthetical aside; Vulgate employs relative clause qui legit, intelligat with colon punctuation marking it as editorial comment; Peshitta inserts pronoun ܗܘ ('he') as explicit subject before ܕܩܪܐ ('who reads'), making the referent more explicit, and uses jussive ܢܣܬܟܠ ('let him understand')."
+      "variant": "added",
+      "note": "The Vulgate inserts an explicit colon (:) marking the boundary between the parenthetical 'let the reader understand' and the following apodosis. Such punctuation is editorial in the Clementine text and has no token-level equivalent in the Greek or Syriac, though Greek editions mark the pause with a comma."
     },
     {
       "greek_nt": [
@@ -226,7 +267,7 @@
         13
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τότε / ܗܝܕܝܢ / tunc"
     },
     {
       "greek_nt": [
@@ -247,8 +288,7 @@
         17
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + prepositional phrase (οἱ ἐν τῇ Ἰουδαίᾳ, 'those in Judea'); Vulgate mirrors with relative clause qui in Judæa sunt ('who are in Judea'); Peshitta employs demonstrative plural ܐܝܠܝܢ with relative ܕ and locative ܒܝܗܘܕ, adding independent pronoun ܐܢܘܢ ('they') for emphasis — semantically equivalent but syntactically distinct constructions."
+      "note": "Greek uses an articular prepositional phrase οἱ ἐν τῇ Ἰουδαίᾳ ('those in Judea'); Latin renders it as a relative clause qui in Judæa sunt; Syriac employs the double-headed relative construction ܐܝܠܝܢ ܕܒܝܗܘܕ ܐܢܘܢ ('those who in Judea are'). The three are semantically equivalent but syntactically distinct in their handling of the substantivised participle/copula."
     },
     {
       "greek_nt": [
@@ -261,7 +301,7 @@
         18
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "φευγέτωσαν / ܢܥܪܩܘܢ / fugiant"
     },
     {
       "greek_nt": [
@@ -278,14 +318,13 @@
         21
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek and Vulgate use plural forms (τὰ ὄρη / montes, 'the mountains'); Peshitta employs singular ܠܛܘܪܐ ('to the mountain'), a typical Syriac idiom for geographic collective nouns where singular form denotes the mountain-range as a conceptual unit rather than discrete peaks."
+      "note": "Greek εἰς τὰ ὄρη and Latin in montes both use the plural ('to the mountains'); the Syriac ܠܛܘܪܐ is singular ('to the mountain[-range]'), reflecting a common Syriac idiom in which geographic mass-nouns are treated as collective singulars. The trailing Vulgate colon is grouped here as terminal punctuation lacking a counterpart in the other traditions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.030453+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.422917+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

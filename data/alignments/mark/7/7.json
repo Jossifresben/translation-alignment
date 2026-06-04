@@ -46,37 +46,56 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
         0,
-        1,
-        2
+        1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adverb μάτην in initial position with postpositive δέ; Vulgate splits the phrase with in vanum following autem; Peshitta uses the single adverbial form ܘܣܪܝܩܐܝܬ with prefixed conjunction. All three convey 'in vain' with coordinating function, differing only in syntactic arrangement."
+      "type": "construction",
+      "note": "Greek uses the single adverb μάτην ('in vain'); the Vulgate renders it with the prepositional phrase in vanum, while the Peshitta employs the derived adverb ܘܣܪܝܩܐܝܬ, which additionally carries a prefixed conjunction ('and in vain'). The semantic content is identical though the syntactic realisation differs."
     },
     {
       "greek_nt": [
-        2,
-        3
+        1
       ],
-      "peshitta": [
-        1,
+      "peshitta": [],
+      "vulgate": [
         2
       ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek postpositive particle δέ and its Latin equivalent autem are not represented as a discrete token in the Peshitta; the connective force is instead absorbed into the prefixed waw on the opening adverb ܘܣܪܝܩܐܝܬ."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek σέβονταί (G4576, 'worship') is rendered by Peshitta ܕܚܠܝܢ (root d-ḥ-l, 'fear/revere') and Vulgate colunt ('cultivate/honor'). The Syriac choice emphasizes reverential fear, a semantic nuance within the broader worship semantic field, while Latin colunt carries cultic overtones; all three are standard equivalents in their respective traditions."
+      "note": "Greek σέβονται ('they worship/revere') and Latin colunt convey cultic reverence, whereas the Peshitta ܕܚܠܝܢ (root d-kh-l, 'they fear/revere') frames worship through the Semitic idiom of fearing God, a routine equivalence in Syriac for divine veneration."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -91,25 +110,34 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a simple present participle διδάσκοντες; Peshitta employs the temporal particle ܟܕ + active participle ܡܠܦܝܢ, making the temporal/causal relationship more explicit; Vulgate uses the bare present participle docentes. The Syriac construction is a characteristic syntactic preference for marking participial clauses, semantically equivalent to the Greek and Latin."
+      "note": "Greek and Latin use a bare present participle (διδάσκοντες / docentes); the Peshitta makes the subordination explicit with the temporal/circumstantial particle ܟܕ ('while/as') preceding the participle ܡܠܦܝܢ, a characteristic Syriac means of rendering Greek circumstantial participles."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek presents a double accusative construction (διδασκαλίας ἐντάλματα, 'teachings [which are] precepts'); Peshitta uses construct chain ܝܘܠܦܢܐ ܕܦܘܩܕܢܐ ('teaching of commandments'); Vulgate inserts the coordinating conjunction et between doctrinas and præcepta, treating them as two distinct objects. The Vulgate's et makes the apposition more explicit, while Greek and Syriac maintain tighter syntactic unity."
+      "note": "Greek juxtaposes διδασκαλίας and ἐντάλματα asyndetically (teachings, [namely] precepts); the Vulgate inserts the connective et ('and') before præcepta, while the Peshitta binds the two nouns into a single construct chain ܝܘܠܦܢܐ ܕܦܘܩܕܢܐ ('teachings of commandments') by means of the relative/genitive particle d-."
     },
     {
       "greek_nt": [
@@ -123,14 +151,14 @@
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple genitive ἀνθρώπων; Peshitta employs construct phrase ܕܒܢܝ ܐܢܫܐ ('of sons of man'), a characteristic Semitic idiom for 'human beings'; Vulgate uses simple genitive hominum. The Peshitta's 'sons of man' is semantically equivalent but reflects Semitic anthropological terminology, common in Syriac biblical idiom."
+      "type": "idiom",
+      "note": "Greek ἀνθρώπων and Latin hominum are simple genitive plurals ('of men'); the Peshitta uses the idiomatic Semitic periphrasis ܕܒܢܝ ܐܢܫܐ ('of the sons of men'), the standard Syriac expression for humankind, semantically equivalent but morphologically expanded."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.988266+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.519189+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

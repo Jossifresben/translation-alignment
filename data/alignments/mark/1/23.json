@@ -61,39 +61,60 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with καί plus the temporal adverb εὐθύς; Syriac fuses the conjunction into ܘܐܝܬ ('and there was'), a periphrastic existential construction, while Latin Et matches the Greek conjunction alone. The conjunctive force is shared but the syntactic packaging differs across the three."
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek εὐθύς ('immediately') is omitted in both Peshitta and Vulgate. This adverb is characteristic of Mark's rapid narrative style but was evidently deemed non-essential by the translators, who preserve the temporal sequence through context alone."
+      "note": "The characteristically Markan adverb εὐθύς ('immediately') is unrepresented in both the Peshitta and the Vulgate here. Neither version renders the temporal immediacy, a recurrent feature where the Syriac and Latin streamline Mark's repetitive εὐθύς."
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "peshitta": [
-        1,
         2
       ],
+      "peshitta": [
+        0,
+        1
+      ],
       "vulgate": [
-        1,
-        2,
-        3,
-        4
+        1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the imperfect ἦν with prepositional phrase ἐν τῇ συναγωγῇ αὐτῶν; Vulgate mirrors this with erat in synagoga eorum. Peshitta employs the existential particle ܐܝܬ ܗܘܐ with a single suffixed noun ܒܟܢܘܫܬܗܘܢ ('in-their-synagogue'), a more compact Syriac construction expressing the same locative sense."
+      "note": "Greek uses the simple imperfect ἦν ('there was'); Syriac employs the existential particle plus auxiliary ܘܐܝܬ ܗܘܐ, a two-word periphrasis common in Syriac for past existence, whereas Latin erat matches the Greek imperfect directly."
+    },
+    {
+      "greek_nt": [
+        3,
+        4,
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the locative with preposition, article, and noun (ἐν τῇ συναγωγῇ); Latin mirrors this analytically as in synagoga; Syriac compresses the whole phrase into the single inflected form ܒܟܢܘܫܬܗܘܢ, which incorporates the preposition, noun, and possessive suffix in one word."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτῶν / eorum ('of them'); the Syriac renders the possessive via the pronominal suffix on ܒܟܢܘܫܬܗܘܢ."
     },
     {
       "greek_nt": [
@@ -105,7 +126,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἄνθρωπος / ܓܒܪܐ / homo"
     },
     {
       "greek_nt": [
@@ -126,37 +149,63 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the prepositional phrase ἐν πνεύματι ἀκαθάρτῳ ('in/with an unclean spirit'); Vulgate replicates this with in spiritu immundo. Peshitta employs a relative construction ܕܐܝܬ ܒܗ ܪܘܚܐ ܛܡܐܬܐ ('who had in him an unclean spirit'), making the possession more explicit through the relative particle ܕ and pronominal suffix ܒܗ ('in-him')."
+      "note": "Greek and Latin use a bare prepositional phrase (ἐν πνεύματι ἀκαθάρτῳ / in spiritu immundo, 'with/in an unclean spirit'); the Syriac recasts the description as a relative clause ܕܐܝܬ ܒܗ ܪܘܚܐ ܛܡܐܬܐ ('in whom there was an unclean spirit'), an explicitating construction that makes the man's possession by the spirit explicit."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πνεύματι / ܪܘܚܐ / spiritu, all from the shared Semitic-Greek conceptual field of breath/spirit."
+    },
+    {
       "vulgate": [
         9
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after immundo, creating a stronger pause before the demon's outcry. Neither Greek nor Peshitta manuscripts transmit punctuation at this juncture, maintaining continuous narrative flow from description to action."
+      "note": "The Clementine Vulgate inserts a colon before the following clause, marking a syntactic pause not signalled by punctuation in the unpointed Greek or Syriac source traditions. This is an editorial reading aid rather than a textual divergence."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- (prefixed on ܘܩܥܐ) / et"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀνέκραξεν / ܘܩܥܐ / exclamavit, all rendering 'he cried out'; the Syriac fuses the conjunction and verb into a single form."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.947020+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.525644+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

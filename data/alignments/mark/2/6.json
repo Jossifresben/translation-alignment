@@ -67,7 +67,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses simple imperfect ἦσαν (G1510); Peshitta employs the periphrastic construction ܐܝܬ ܗܘܘ (existential particle + auxiliary), a standard Syriac idiom for expressing past continuous states. Vulgate mirrors Greek with simple imperfect Erant."
+      "note": "Greek uses the simple imperfect ἦσαν; Syriac renders the existential predication with ܐܝܬ ('there is/are') reinforced by the auxiliary ܗܘܘ, a periphrastic existential construction typical of Syriac for past-time states. The Vulgate Erant matches the Greek imperfect directly."
     },
     {
       "greek_nt": [
@@ -85,13 +85,13 @@
       "greek_nt": [
         2
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         3
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek τινες (G5100, 'some') and Vulgate quidam ('certain ones') specify an indefinite subset of the scribes; Peshitta omits this quantifier, proceeding directly from the conjunction to the partitive construction ܡܢ ܣܦܪܐ ('from [the] scribes'), yielding a semantically equivalent but syntactically streamlined reading."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -99,24 +99,16 @@
         4
       ],
       "peshitta": [
-        4,
-        5
+        5,
+        6
       ],
       "vulgate": [
         4,
         5
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta adds ܘܦܪܝܫܐ ('and Pharisees') after 'scribes,' expanding the opposition group. Neither Greek NA28 nor Vulgate attest this addition here, though scribes and Pharisees are frequently paired elsewhere in Synoptic controversy narratives (cf. Mark 2:16, 7:1). This may reflect harmonisation with parallel traditions or liturgical expansion."
+      "variant": "major",
+      "type": "harmonisation",
+      "note": "The Peshitta expands 'scribes' (ܣܦܪܐ) with 'and Pharisees' (ܘܦܪܝܫܐ), a harmonising addition not supported by the Greek NA28 (only τῶν γραμματέων) or the Vulgate (only scribis). This reflects the frequent scribes-and-Pharisees pairing elsewhere in the Synoptics (cf. Matt 23; Luke 5:30)."
     },
     {
       "greek_nt": [
@@ -128,9 +120,7 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the locative adverb ἐκεῖ (G1563, 'there') after the noun phrase τῶν γραμματέων; Vulgate illic appears before the noun phrase (quidam de scribis); Peshitta ܬܡܢ ('there') precedes the entire partitive construction. All three traditions attest the same semantic content but reflect differing syntactic preferences for adverbial placement."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -161,6 +151,7 @@
         8
       ],
       "peshitta": [
+        8,
         9
       ],
       "vulgate": [
@@ -168,40 +159,62 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present participle διαλογιζόμενοι (G1260, 'reasoning/disputing'); Peshitta employs periphrastic ܘܡܬܪܥܝܢ ܗܘܘ (participle + auxiliary 'were thinking'), making the durative aspect explicit; Vulgate cogitantes (present participle, 'thinking') mirrors Greek structure but selects a semantically narrower verb focusing on internal deliberation rather than disputation."
+      "note": "Greek and Latin use a single present participle (διαλογιζόμενοι / cogitantes) for the act of reasoning; the Syriac participle ܘܡܬܪܥܝܢ is paired with the auxiliary ܗܘܘ, forming a periphrastic past-continuous that emphasises the ongoing nature of the inner deliberation."
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11,
-        12
+        9
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        9,
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν ταῖς καρδίαις αὐτῶν (G1722 + article + noun + pronoun, 'in the hearts of them'); Vulgate mirrors this with in cordibus suis; Peshitta employs the bound construction ܒܠܒܗܘܢ (preposition + noun with pronominal suffix), a typical Semitic idiom that fuses article, noun, and possessive into a single morphological unit."
+      "type": "idiom",
+      "note": "Greek and Latin use the plural ('in their hearts', ταῖς καρδίαις / cordibus); the Syriac ܒܠܒܗܘܢ employs the singular noun 'heart' with a plural possessive suffix, a normal Semitic distributive idiom rendering each individual's heart with the collective singular."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        12
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The Greek genitive pronoun αὐτῶν ('of them') and the Latin reflexive possessive suis ('their own') express possession of the hearts; the Syriac encodes this possession within the suffixed form ܒܠܒܗܘܢ, so no separate pronoun token appears in the Peshitta."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Both the Greek (high point ·) and the Vulgate (colon :) close this clause with a pause anticipating the following question; the Peshitta carries no punctuation token in this edition, so clause boundaries are inferred syntactically."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.951927+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.509117+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

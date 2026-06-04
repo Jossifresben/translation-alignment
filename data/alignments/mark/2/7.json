@@ -59,26 +59,55 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3
+        0
       ],
       "peshitta": [
-        0,
-        1,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τί ('why/what') and Latin Quid render an interrogative adverbial sense, while Syriac ܕܡܢܐ prefixes the relative/genitive particle d- to the interrogative, yielding a construction closer to 'what is it that...' — a typical Syriac framing of indirect or emphatic questions."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "vulgate": [
-        0,
-        1,
-        2,
+        2
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek οὕτως ('thus, in this manner') is matched by Latin sic, but the Peshitta has no corresponding adverb, compressing the rhetorical question and omitting the manner-marker entirely."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
         3,
         4
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek punctuates the opening question with a semicolon after λαλεῖ, treating the blasphemy charge as a separate statement. Vulgate inserts an explicit question mark, making the interrogative force clearer. Peshitta omits the adverb οὕτως/sic ('thus'), yielding a more direct construction."
+      "note": "The verb of speaking aligns lexically (λαλεῖ / ܡܡܠܠ / loquitur), but the Vulgate isolates the interrogative force with an explicit question mark as a separate token, whereas Greek encloses the punctuation within the verb token."
     },
     {
       "greek_nt": [
@@ -91,26 +120,55 @@
         5
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses a middle stop (·) after βλασφημεῖ, treating it as an independent exclamation. Vulgate employs a period, similarly marking a full stop. Peshitta integrates ܓܘܕܦܐ ('blasphemies') as a direct object noun rather than a finite verb, yielding 'speaks blasphemies' instead of 'He blasphemes!'"
+      "type": "construction",
+      "note": "Greek βλασφημεῖ and Latin blasphemat are finite verbs ('he blasphemes'), whereas the Syriac ܓܘܕܦܐ (root g-d-p) is the cognate noun 'blasphemy', rendering the clause nominally ('[this is] blasphemy') rather than as a predicated verb."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀφιέναι and Latin dimittere are bare complementary infinitives, while the Syriac ܠܡܫܒܩ (root sh-b-q) prefixes the infinitival particle l-, the standard Syriac means of marking the dependent infinitive after a modal verb."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        4,
-        5,
-        6,
         7
       ],
       "vulgate": [
-        6,
-        7,
-        8,
         9
       ],
       "variant": "aligned"
@@ -129,7 +187,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the conditional εἰ μὴ ('if not, except'), a standard exceptive idiom. Peshitta uses ܐܠܐ ܐܢ ('but if'), a double-particle construction semantically equivalent but syntactically distinct. Vulgate renders with nisi ('unless, except'), a single Latin conjunction that collapses the Greek two-word phrase."
+      "note": "Greek expresses the exceptive clause analytically with εἰ μή ('except'), and Syriac similarly uses ܐܠܐ ܐܢ ('except if'); the Vulgate compresses both particles into the single conjunction nisi."
     },
     {
       "greek_nt": [
@@ -147,14 +205,14 @@
         13
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article ὁ before θεός, yielding 'the one God' with εἷς in attributive position. Peshitta omits the article (Syriac lacks a definite article system) and uses ܚܕ ܐܠܗܐ ('one God') in construct. Vulgate inserts solus ('alone') as an intensifier, making explicit the exclusivity implied by εἷς, and closes with an interrogative punctuation mark."
+      "type": "lexical",
+      "note": "Greek reads εἷς ὁ θεός ('one, [namely] God') with the cardinal 'one', and Syriac ܚܕ ܐܠܗܐ likewise preserves 'one God'; the Vulgate substitutes solus Deus ('God alone'), reading the numeral as an exclusive adverb. The trailing interrogative marks differ in placement but carry equivalent rhetorical force."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.952121+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.485776+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

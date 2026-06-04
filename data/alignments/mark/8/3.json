@@ -72,7 +72,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
@@ -80,12 +91,10 @@
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses ἐάν (conditional particle) with subjunctive; Peshitta employs ܗܘ (emphatic particle) following ܘܐܢ; Vulgate uses si with future perfect indicative. All three express the same protasis but with tradition-specific conditional constructions."
+      "note": "The Greek conditional particle ἐάν and Latin si introduce the protasis straightforwardly; Syriac renders the condition with ܘܐܢ followed by the resumptive pronoun ܗܘ ('if it be that...'), a periphrastic conditional formula idiomatic to Syriac that has no direct counterpart in the other two traditions."
     },
     {
       "greek_nt": [
@@ -98,9 +107,8 @@
       "vulgate": [
         2
       ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta inserts an explicit first-person pronoun ܐܢܐ ('I') as subject of the verb ܕܫܪܐ ('send away'), whereas Greek ἀπολύσω and Latin dimisero encode the subject morphologically in the verb ending. This is a typical Syriac clarifying gloss."
+      "variant": "minor",
+      "note": "Greek ἀπολύσω and Latin dimisero are synthetic first-person subjunctive/future verb forms; Syriac uses the participle ܕܫܪܐ with explicit independent pronoun ܐܢܐ ('I') as an analytic present-future, a regular Syriac construction requiring an overt subject pronoun."
     },
     {
       "greek_nt": [
@@ -126,8 +134,7 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek νήστεις (accusative adjective) and Latin jejunos (accusative adjective) function as predicative complements. Peshitta uses a circumstantial clause ܟܕ ܨܝܡܝܢ ('while fasting'), a syntactically distinct but semantically equivalent construction typical of Syriac participial usage."
+      "note": "Greek νήστεις and Latin jejunos are predicative adjectives ('fasting/hungry'); Syriac expands this to a subordinate temporal clause ܟܕ ܨܝܡܝܢ ('while they are fasting'), making the circumstantial sense explicit through a participial construction introduced by ܟܕ."
     },
     {
       "greek_nt": [
@@ -143,7 +150,8 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek uses preposition εἰς + accusative οἶκον + genitive pronoun (singular 'home'), matched by Latin in domum suam; Syriac collapses this into a single inflected form ܠܒܬܝܗܘܢ with the dative-locative prefix and a plural noun ('to their houses'), differing in both number and morphological economy."
     },
     {
       "greek_nt": [
@@ -168,11 +176,11 @@
       ],
       "vulgate": [
         9,
-        10
+        10,
+        11
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the article τῇ with ὁδῷ (dative singular, 'on the way'); Latin mirrors this with in via (ablative without article, as Latin lacks articles); Peshitta uses ܒܐܘܪܚܐ (emphatic state functioning as definite). All three express definiteness through tradition-specific morphosyntactic means."
+      "note": "Greek ἐν τῇ ὁδῷ and Latin in via (with colon punctuation) both employ preposition + article + noun; Syriac uses the single prefixed form ܒܐܘܪܚܐ, lacking the definite article as a separate token but conveying the same locative sense ('on the way')."
     },
     {
       "greek_nt": [
@@ -182,11 +190,10 @@
         11
       ],
       "vulgate": [
-        18
+        13
       ],
-      "variant": "major",
-      "type": "punctuation",
-      "note": "Greek καί coordinates the two clauses as a compound sentence. Peshitta uses ܓܝܪ ('for'), making the second clause explanatory/causal. Vulgate places a colon after via, treating the final clause as an independent explanatory statement rather than a coordinated element, fundamentally altering the syntactic relationship."
+      "variant": "minor",
+      "note": "Greek opens the second clause with the simple connective καί; both Latin (enim) and Syriac (ܓܝܪ) instead supply an explanatory/causal particle ('for'), making the logical grounding explicit where the Greek leaves it paratactic — a shared interpretive choice of the two versions against the Greek."
     },
     {
       "greek_nt": [
@@ -199,8 +206,7 @@
         12
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek τινες αὐτῶν ('some of them') places the indefinite pronoun before the partitive genitive. Peshitta ܐܢܫܐ ܡܢܗܘܢ reverses this order ('men from them'). Vulgate quidam ex eis follows Greek word order. The semantic content is identical despite the syntactic reordering."
+      "note": "Greek indefinite τινες and Latin quidam are pronominal indefinites ('some'); Syriac uses the noun ܐܢܫܐ ('people/men') in a partitive sense, a lexical rather than purely pronominal expression of the indefinite subject."
     },
     {
       "greek_nt": [
@@ -240,23 +246,14 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        11
-      ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after via, creating a stronger syntactic break than the Greek semicolon or Peshitta's continuous flow with ܓܝܪ. This punctuation choice reflects Latin rhetorical convention and affects the clause relationship as noted above."
+      "note": "Greek ἥκασιν is a perfect indicative ('have come'), and Latin venerunt is likewise a perfect; Syriac employs the participle ܐܬܝܐܝܢ ('are come/coming'), reflecting the Syriac tendency to render the Greek perfect of state by an active participle of present resultative force."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.994099+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.553375+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

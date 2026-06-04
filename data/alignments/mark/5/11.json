@@ -59,7 +59,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Syriac employs a compound existential construction ܐܝܬ ܗܘܐ (ʾīṯ hwā, 'there was') where Greek uses simple ἦν and Latin Erat. This is a standard Syriac idiom for past-tense existential predication, semantically equivalent but syntactically distinct."
+      "note": "Greek uses the simple imperfect ἦν ('there was'); Syriac employs the periphrastic existential construction ܐܝܬ ܗܘܐ ('there was present/existing'), combining the particle of existence with the auxiliary verb — a characteristic Syriac means of expressing past-tense existence. The Vulgate Erat matches the Greek single-verb form."
     },
     {
       "greek_nt": [
@@ -87,42 +87,68 @@
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πρὸς τῷ ὄρει ('near the mountain', with article and dative) is rendered by Latin circa montem (accusative with circa) and Syriac ܠܘܬ ܛܘܪܐ (lwāṯ ṭūrā, 'toward/near the mountain'). All three express spatial proximity but employ different prepositional constructions characteristic of their respective languages."
+      "type": "idiom",
+      "note": "Greek marks the noun with the dative article τῷ ὄρει ('the mountain/hill'); Syriac ܛܘܪܐ and Latin montem render the noun without a separate article-token, the Syriac employing its emphatic state and the Latin its anarthrous accusative — semantically equivalent geographic references."
     },
     {
       "greek_nt": [
-        6,
-        7,
-        8
+        6
       ],
       "peshitta": [
-        6,
-        7,
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
         8
       ],
       "vulgate": [
-        5,
-        6,
-        7,
-        8
+        6
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the adjective μεγάλη after the genitive χοίρων (ἀγέλη χοίρων μεγάλη), while Syriac positions ܪܒܬܐ (rabbṯā, 'great') before ܕܚܙܝܪܐ (d-ḥzīrē, 'of pigs') in construct-state order (ܒܩܪܐ ܪܒܬܐ ܕܚܙܝܪܐ). Latin follows Greek word order with grex porcorum magnus, including the punctuation comma after magnus."
+      "note": "Greek and Latin place the genitive 'of pigs' (χοίρων / porcorum) immediately after the head noun 'herd'; Syriac, owing to its agreement of the adjective ܪܒܬܐ with the head noun, postpones the genitive ܕܚܙܝܪܐ until after the modifier, reflecting normal Syriac noun-phrase ordering."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -135,14 +161,14 @@
         8
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate incorporates the comma into the token 'magnus,' treating the participial phrase pascens as a separate clause. Greek uses a medial stop (·) after the participle βοσκομένη, while Syriac ܕܪܥܝܐ (d-rāʿyā, 'that was feeding') employs a relative participle construction without explicit punctuation marking."
+      "type": "construction",
+      "note": "Greek uses a present middle participle βοσκομένη and Latin a present active participle pascens, both functioning attributively ('feeding'); Syriac uses the relative-marked participial form ܕܪܥܝܐ ('that was grazing'), introducing the action by means of the relative particle d- — a syntactic, not semantic, divergence."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.972144+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.460905+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

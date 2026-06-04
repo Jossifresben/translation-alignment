@@ -55,33 +55,40 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
+      ],
+      "vulgate": [
+        1,
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek uses the aorist participle ἐλθών ('having come'); the Vulgate renders it with a temporal clause cum venisset ('when he had come'), a routine Latin syntactic substitution for the Greek circumstantial participle. The Peshitta omits any equivalent of 'having come,' reducing the doubled motion of the Greek (ἐλθών … προσελθών) to a single verb of approach."
+    },
+    {
+      "greek_nt": [
+        2
       ],
       "peshitta": [
         0,
         1
       ],
       "vulgate": [
-        0,
-        1,
-        2
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses coordinating conjunction καὶ with aorist participle ἐλθών ('and having come'); Peshitta employs ܘܒܪ ܫܥܬܗ ('and immediately'), a temporal adverbial phrase; Vulgate uses temporal conjunction cum with perfect subjunctive venisset ('when he had come'), reflecting Latin preference for subordinate temporal clauses over participial constructions."
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [
         3
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek εὐθύς ('immediately') and Vulgate statim are present as independent adverbs modifying the approach, but Peshitta incorporates the temporal immediacy into the preceding phrase ܒܪ ܫܥܬܗ ('at once'), resulting in structural rather than lexical correspondence. The Peshitta does not repeat the temporal marker separately."
+      "variant": "minor",
+      "note": "The Greek adverb εὐθύς ('immediately') is matched by Latin statim and by the Syriac idiomatic phrase ܒܪ ܫܥܬܗ (literally 'in the same hour, at once'), a standard periphrastic rendering of Markan εὐθύς in the Peshitta."
     },
     {
       "greek_nt": [
@@ -97,8 +104,7 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses second aorist participle προσελθών with dative αὐτῷ ('having approached him'); Peshitta employs simple perfect ܩܪܒ ('he approached') without explicit pronominal object; Vulgate expands with present participle accedens plus prepositional phrase ad eum ('approaching to him'), making the indirect object explicit as in Greek."
+      "note": "Greek προσελθὼν αὐτῷ ('having come up to him') and Latin accedens ad eum preserve the explicit indirect object; the Peshitta carries only the single verb ܩܪܒ ('he drew near') without the pronoun, since the dative referent is supplied contextually in Syriac."
     },
     {
       "greek_nt": [
@@ -113,7 +119,16 @@
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek and Syriac both express the verb of speaking plus a dative/lamadh pronoun ('he says to him' / ܘܐܡܪ ܠܗ), whereas the Vulgate ait stands without an explicit indirect object and adds an introducing colon; the difference is stylistic, not semantic."
+    },
+    {
+      "vulgate": [
+        9
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate inserts the greeting Ave ('Hail') before Rabbi, a clear harmonisation toward the Matthean parallel χαῖρε, ῥαββί (Matt 26:49). Neither the Greek text of Mark nor the Peshitta transmits this salutation here."
     },
     {
       "greek_nt": [
@@ -125,38 +140,63 @@
         6
       ],
       "vulgate": [
-        9,
-        10,
+        10
+      ],
+      "variant": "minor",
+      "note": "Greek and Syriac repeat the address (ῥαββί ῥαββί / ܪܒܝ ܪܒܝ), an emphatic doubling characteristic of Mark's vivid style; the Vulgate reduces it to a single Rabbi, eliminating the iteration."
+    },
+    {
+      "vulgate": [
         11
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek preserves the Semitic vocative ῥαββί repeated twice (ῥαββί ῥαββί); Peshitta retains the double vocative ܪܒܝ ܪܒܝ in its native script; Vulgate substitutes Ave Rabbi with colon punctuation, replacing the second ῥαββί with the Latin greeting Ave ('Hail'), likely reflecting Roman epistolary or formal address conventions and reducing Semitic repetition for Latin rhetorical style."
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "An editorial colon in the Clementine Vulgate marks the close of the direct address before the narrative resumes; it has no counterpart token in the Greek or Syriac and bears only on punctuation."
     },
     {
       "greek_nt": [
-        9,
-        10,
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek κατεφίλησεν is the intensive/affectionate compound ('kissed earnestly, fervently'), whereas the Vulgate periphrastic osculatus est and the Syriac ܘܢܫܩ (root n-sh-q) render only the simple act of kissing, losing the intensifying prefix κατα-."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        12,
-        13,
-        14,
         15
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses coordinating καὶ with aorist indicative κατεφίλησεν αὐτόν ('and he kissed him'); Peshitta employs simple waw-consecutive ܘܢܫܩܗ ('and he kissed him') with pronominal suffix; Vulgate expands with et plus perfect indicative osculatus est eum ('and he kissed him'), using the deponent perfect construction typical of Latin for completed action with present relevance."
+      "variant": "aligned",
+      "note": "The Syriac fuses conjunction, verb and object pronoun into the single form ܘܢܫܩܗ ('and he kissed him'); Greek αὐτόν and Latin eum supply the object separately."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.041967+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.530133+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

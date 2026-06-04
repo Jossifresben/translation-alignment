@@ -62,8 +62,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -75,8 +74,16 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "The Peshitta opens with the temporal/circumstantial particle ܟܕ ('when, while'), introducing the false testimony as a subordinate circumstantial clause. This framing element has no counterpart in either the Greek or the Latin, which begin directly with the adjective 'many'."
     },
     {
       "greek_nt": [
@@ -91,9 +98,8 @@
         3,
         4
       ],
-      "variant": "major",
-      "type": "lexical",
-      "note": "Greek employs the compound verb ψευδομαρτυρέω ('bear false witness') as a single lexeme, while Latin distributes the semantic load across testimonium falsum dicebant ('were speaking false testimony'), and Peshitta uses the periphrastic construction ܡܣܗܕܝܢ ܗܘܘ (participle + auxiliary 'were testifying'). The Vulgate explicitly separates 'false' as an adjective modifying 'testimony,' whereas Greek fuses falsity into the verbal root itself."
+      "variant": "minor",
+      "note": "Greek employs the single compound verb ἐψευδομαρτύρουν ('they were bearing false witness'). The Peshitta renders this analytically with the participle ܡܣܗܕܝܢ plus the auxiliary ܗܘܘ (periphrastic imperfect), while the Vulgate paraphrases with testimonium falsum dicebant ('they were speaking false testimony'), unpacking the compound into noun + adjective + verb."
     },
     {
       "greek_nt": [
@@ -107,28 +113,8 @@
         5,
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "construction",
-      "note": "Peshitta opens with the temporal/circumstantial particle ܟܕ ('while/when'), converting the main clause into a subordinate temporal construction. Neither Greek nor Latin attest this syntactic framing; both traditions present the clause as an independent statement introduced by γάρ/enim."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after eum, creating a rhetorical pause before the adversative clause. This punctuation choice has no equivalent in Greek or Peshitta manuscript traditions and reflects Latin editorial convention rather than textual variance."
+      "variant": "minor",
+      "note": "Greek κατ᾽ αὐτοῦ (preposition + genitive) and Latin adversus eum both render 'against him' as preposition plus pronoun, whereas Syriac compresses this into the single prepositional pronominal form ܥܠܘܗܝ ('against/upon him'), an idiomatic Syriac usage of ܥܠ with a suffixed pronoun."
     },
     {
       "greek_nt": [
@@ -138,49 +124,65 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek καί and Latin et coordinate the second clause with 'and/but'. The Peshitta omits the coordinating conjunction entirely, juxtaposing the clauses asyndetically, a common feature of Syriac narrative style."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek ἴσαι ('equal, consistent') and Syriac ܫܘܝܢ (root sh-w-y, 'to be equal/level') are close cognate equivalents, while the Vulgate convenientia ('agreeing, harmonious') shifts the nuance slightly from numerical/qualitative equality toward mutual concordance of the testimonies."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        7,
         9
       ],
       "vulgate": [
-        9,
         10
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adjective ἴσαι before the article and noun (ἴσαι αἱ μαρτυρίαι, 'equal the testimonies'), employing predicate-adjective fronting for emphasis. Peshitta uses ܫܘܝܢ ܣܗܕܘܬܗܘܢ ('equal their-testimonies') with the adjective in natural attributive position, while Vulgate renders convenientia testimonia ('agreeing testimonies') with a semantically equivalent but lexically distinct participle, also in attributive position."
+      "note": "Greek uses article + noun (αἱ μαρτυρίαι, 'the testimonies') and Latin the bare plural testimonia, whereas the Peshitta marks possession explicitly with the suffixed ܣܗܕܘܬܗܘܢ ('their testimonies'), making the genitive relationship overt where the other traditions leave it implicit."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        6,
         8
       ],
       "vulgate": [
-        11,
         12
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate position the negation before the copula (οὐκ ἦσαν / non erant), whereas Peshitta places ܠܐ ('not') before the adjective ܫܘܝܢ, yielding 'not equal were' versus 'were not equal.' This reflects standard Syriac syntax where negation typically precedes the predicate rather than the verb."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.043649+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.517378+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

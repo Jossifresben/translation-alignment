@@ -68,8 +68,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -82,8 +81,7 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses historical present ἔρχονται ('they come'), while Peshitta and Vulgate employ past tense (ܘܐܬܘ 'and they came', venerunt 'they came'), a common stylistic leveling in translation traditions that prefer narrative consistency over vivid present-tense narration."
+      "note": "Greek ἔρχονται is a discrete present-tense verb, while the Syriac fuses conjunction and verb in a single token ܘܐܬܘ ('and they came', perfect); the Vulgate venerunt likewise renders the action as perfect, both versions historically narrating what the Greek presents vividly in the historic present."
     },
     {
       "greek_nt": [
@@ -96,8 +94,7 @@
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the subject Σαδδουκαῖοι immediately after the verb, while Vulgate postpones sadducæi until after the prepositional phrase ad eum, creating a chiastic effect. Peshitta follows Greek word order with ܙܕܘܩܝܐ in second position."
+      "note": "All three name the Sadducees, but their syntactic placement differs: Greek and Syriac position the subject immediately after the verb, whereas the Vulgate delays sadducæi to the end of the clause after the prepositional phrase ad eum, a word-order difference of stylistic rather than semantic weight."
     },
     {
       "greek_nt": [
@@ -111,8 +108,8 @@
         2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek expresses 'to him' analytically with preposition plus pronoun (πρὸς αὐτόν), matched by the Vulgate ad eum, whereas Syriac compacts the same notion into the single prepositional form ܠܘܬܗ with attached pronominal suffix, a construction difference inherent to Semitic morphology."
     },
     {
       "greek_nt": [
@@ -124,40 +121,46 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
-        7,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
       "peshitta": [
-        4,
-        5,
         6
       ],
       "vulgate": [
-        6,
-        7,
         8,
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs an accusative-infinitive construction (λέγουσιν ἀνάστασιν μὴ εἶναι, 'saying resurrection not to be'), which Vulgate mirrors exactly (dicunt resurrectionem non esse). Peshitta uses a nominal clause with negated existential particle (ܕܐܡܪܝܢ ܕܩܝܡܬܐ ܠܝܬ, 'who say that resurrection there-is-not'), a syntactically distinct but semantically equivalent Semitic construction."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after the relative clause describing the Sadducees' belief, creating a stronger syntactic break before the main verb interrogabant. Greek and Peshitta continue without punctuation, maintaining closer syntactic cohesion between the participial/relative description and the main narrative action."
+      "note": "Greek and Latin construct the denial with negative particle plus infinitive (μὴ εἶναι / non esse, 'that there is not'), forming an accusative-and-infinitive complement, while Syriac employs the existential negator ܠܝܬ ('there is no'), a particle of non-existence that achieves the same predicate denial through a distinct Semitic construction."
     },
     {
       "greek_nt": [
@@ -169,8 +172,7 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -184,8 +186,7 @@
         12
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἐπηρώτων ('they were questioning'), Vulgate employs imperfect interrogabant, while Peshitta uses a periphrastic construction ܘܡܫܐܠܝܢ ܗܘܘ (participle + auxiliary 'were asking'), a characteristic Syriac method for expressing progressive past action that mirrors Greek aspectual nuance."
+      "note": "Greek ἐπηρώτων is a single imperfect verb conveying durative past action; Syriac achieves the same continuous aspect periphrastically with participle plus auxiliary ܡܫܐܠܝܢ ܗܘܘ, while the Vulgate interrogabant uses the synthetic imperfect, all three agreeing in aspect though differing in morphological strategy."
     },
     {
       "greek_nt": [
@@ -197,8 +198,7 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -208,26 +208,17 @@
         10
       ],
       "vulgate": [
-        14
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        14,
         15
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate concludes with a colon to introduce direct speech, while Greek uses a raised dot (·) and Peshitta continues without explicit punctuation marker, reflecting differing scribal conventions for marking discourse boundaries in the respective manuscript traditions."
+      "note": "Greek λέγοντες and Vulgate dicentes are participles, while Syriac ܘܐܡܪܝܢ adds a coordinating conjunction ('and saying'), a typical Syriac paratactic chaining of finite/participial clauses; the Vulgate colon (index 15) marks the introduction of direct speech with no counterpart in the other witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.023597+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.542209+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

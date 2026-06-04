@@ -72,21 +72,36 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "vulgate": [
-        0,
-        1,
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -98,8 +113,7 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -113,8 +127,18 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + dative substantive (τῷ παραλυτικῷ); Vulgate employs bare dative (paralytico); Peshitta uses preposition + noun (ܠܡܫܪܝܐ, 'to the paralytic'). All three convey identical dative function but through different morphosyntactic strategies."
+      "note": "Greek has the articular dative τῷ παραλυτικῷ and the Vulgate the bare dative paralytico; the Peshitta expresses the indirect object with the prefixed lamadh on ܠܡܫܪܝܐ ('to the paralytic'), a regular Syriac construction for the dative relation."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek marks the boundary before direct speech with a raised dot suffixed to παραλυτικῷ·, while the Vulgate uses a discrete colon token; both signal the onset of quoted speech without affecting sense."
     },
     {
       "greek_nt": [
@@ -126,37 +150,34 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀφίενταί (present passive indicative 3rd plural, 'are forgiven') and Latin Dimittuntur match in tense and voice; the Peshitta ܕܫܒܝܩܝܢ is a passive participle with the relative/complementiser dalath prefixed, yielding a participial 'that [they] are forgiven' construction characteristic of Syriac."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the genitive pronoun before the article-noun phrase (σου αἱ ἁμαρτίαι, 'your the sins'); Latin and Syriac use the more natural post-nominal possessive order (tibi peccata / ܠܟ ܚܛܗܝܟ). The Greek construction emphasizes possession through fronting, while the other traditions follow unmarked word order."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5,
-        9
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts colons after 'paralytico' and 'peccata' to mark direct discourse boundaries explicitly. Neither Greek nor Syriac manuscripts employ equivalent punctuation at these junctures, relying instead on syntactic cues (infinitive constructions, particle ܕ) to signal reported speech."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -168,8 +189,7 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -181,18 +201,23 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "vulgate": [
+        9
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a second colon closing the first quoted clause ('peccata :') before the disjunctive an; neither the Greek nor the Peshitta marks this boundary with a separate token, the Greek subsuming it within the comma on ἁμαρτίαι."
+    },
+    {
       "vulgate": [
         12
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "The Vulgate again inserts a colon before the second direct quotation ('Surge'). Greek and Syriac lack this punctuation, with Syriac using the subordinating particle ܕ ('that') to introduce the clause syntactically rather than typographically."
+      "note": "The Vulgate opens the second direct speech with a discrete colon token, whereas the Greek marks the same juncture with a raised dot suffixed to εἰπεῖν· and the Peshitta with the complementiser dalath prefixed to ܕܩܘܡ."
     },
     {
       "greek_nt": [
@@ -204,12 +229,20 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἔγειρε and Latin Surge are bare imperatives; the Peshitta ܕܩܘܡ ('that arise/get up') carries the relative-complementiser dalath introducing the quoted command, a typical Syriac framing of direct speech."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek καί coordinating 'arise and take up' is unrepresented in the Peshitta, which juxtaposes the imperatives ܩܘܡ ܫܩܘܠ asyndetically; the Vulgate likewise omits a conjunction here ('Surge, tolle'), so the Greek alone supplies the linking καί."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
@@ -218,9 +251,7 @@
       "vulgate": [
         14
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs asyndetic coordination with καί between two imperatives (ἔγειρε καὶ ἆρον); Latin mirrors this with a comma (Surge, tolle); Syriac omits any coordinating particle, using bare juxtaposition of imperatives (ܩܘܡ ܫܩܘܠ). This reflects Syriac's preference for asyndetic imperatival sequences in hortatory discourse."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -236,40 +267,41 @@
         16
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses article + noun + possessive pronoun (τὸν κράβαττόν σου); Latin omits the article but retains noun + possessive (grabatum tuum); Syriac employs a bound-state construction (ܥܪܣܟ, 'bed-your') with the pronominal suffix directly attached. All three express identical possessive semantics through language-specific morphological strategies."
+      "type": "construction",
+      "note": "Greek articular noun plus enclitic possessive τὸν κράβαττόν σου and Latin grabatum tuum render the possessed object analytically; the Peshitta fuses noun and possessor into a single inflected form ܥܪܣܟ ('your pallet') with the 2nd singular suffix, the normal Syriac economy."
     },
     {
       "greek_nt": [
-        18,
+        18
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
         12
       ],
       "vulgate": [
-        17,
-        18
+        18,
+        19
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek coordinates the final imperative with καί (καὶ περιπάτει); Latin uses the conjunction 'et' (et ambula); Syriac employs the prefixed waw (ܘܗܠܟ, 'and-walk'), which is morphologically bound to the verb. The Syriac construction represents a tighter syntactic fusion of coordinator and verb than the Greek or Latin analytic forms."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        19
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate closes the pericope with a question mark, making the interrogative force explicit. Greek uses a semicolon-paragraph marker (;¶) and Syriac lacks terminal punctuation, both relying on the interrogative pronoun (τί / ܐܝܕܐ) at the verse opening to signal the question without closing punctuation."
+      "note": "The Peshitta writes the final clause as a single word ܘܗܠܟ ('and walk'), with the coordinating waw prefixed to the verb, whereas Greek περιπάτει and Latin ambula stand as separate imperatives; the Vulgate further isolates the interrogative mark as a discrete token closing the rhetorical question."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.952337+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:42:32.183946+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -69,12 +69,23 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek uses the aorist participle κρατήσας ('having taken hold'); Latin matches with the present participle tenens; the Peshitta fuses conjunction and verb into ܘܐܚܕ ('and he took hold'), a finite coordinate verb rather than a participle, a typical Syriac paratactic construction."
+    },
+    {
+      "greek_nt": [
         2,
         3,
         4,
@@ -85,47 +96,62 @@
         2
       ],
       "vulgate": [
-        1,
         2,
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs an aorist participle with genitive article construction (κρατήσας τῆς χειρὸς τοῦ παιδίου); Vulgate uses a present participle with accusative direct object (tenens manum puellæ); Peshitta uses a prepositional phrase with pronominal suffix (ܒܐܝܕܗ ܕܛܠܝܬܐ, 'by-her-hand of-the-girl'). All three convey identical semantics through language-specific syntactic patterns."
+      "note": "Greek τῆς χειρὸς τοῦ παιδίου and Latin manum puellæ both spell out 'the hand of the child' analytically; the Peshitta compresses this into ܒܐܝܕܗ ܕܛܠܝܬܐ ('by her hand, of the girl'), employing a proleptic pronominal suffix on 'hand' anticipating the following genitive — an idiomatic Syriac possessive construction."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek λέγει is a historic present ('he says'); the Peshitta ܘܐܡܪ and Latin ait render it as a past/coordinate verb, normalising the vivid present tense common in Markan narrative."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
-        5,
-        6
+        5
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi to mark the transition to direct speech, a feature absent in Greek and Peshitta manuscripts. The semantic content (λέγει αὐτῇ / ܘܐܡܪ ܠܗ / ait illi) remains identical across all three traditions."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ταλιθα / ܛܠܝܬܐ / Talitha"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "κουμ / ܩܘܡܝ / cumi"
     },
     {
       "greek_nt": [
@@ -133,50 +159,62 @@
         11,
         12
       ],
-      "peshitta": [],
       "vulgate": [
         9,
         10,
-        11,
-        12
+        11
       ],
       "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the entire translation formula (ὅ ἐστιν μεθερμηνευόμενον / quod est interpretatum), proceeding directly from the Aramaic phrase to its Syriac rendering. This omission is natural since Syriac readers would understand ܛܠܝܬܐ ܩܘܡܝ without requiring a metalinguistic gloss, whereas Greek and Latin audiences needed the explanatory clause."
+      "note": "The Greek interpretive gloss ὅ ἐστιν μεθερμηνευόμενον ('which is, being translated') and the corresponding Latin quod est interpretatum are absent from the Peshitta. Since Syriac is cognate with the original Aramaic ܛܠܝܬܐ ܩܘܡܝ, no translation formula is needed, hence its omission."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts an explicit colon punctuation mark introducing the direct speech; the Greek marks this with the raised dot after αὐτῇ, while the Peshitta has no equivalent punctuation token."
     },
     {
       "greek_nt": [
         13,
-        14,
+        14
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "omitted",
+      "note": "Greek supplies the vocative τὸ κοράσιον ('little girl') with its article, matched by Latin Puella; the Peshitta lacks this renewed vocative within the interpretive clause because it omits the whole translation formula, the Aramaic command standing alone."
+    },
+    {
+      "greek_nt": [
         15,
         16
       ],
-      "peshitta": [],
       "vulgate": [
-        13,
         14,
         15
       ],
       "variant": "omitted",
-      "type": "expansion",
-      "note": "Greek and Vulgate expand the translation with a vocative address and emphatic dative construction (τὸ κοράσιον, σοὶ λέγω / Puella, tibi dico, 'Girl, to you I say'), making explicit what is implicit in the Aramaic imperative. The Peshitta, already rendering the command in Syriac, treats ܛܠܝܬܐ ܩܘܡܝ as self-sufficient and omits the redundant explanatory expansion present in the Greek translation apparatus."
+      "note": "The phrase σοὶ λέγω / tibi dico ('I say to you') is preserved in Greek and Latin (the latter parenthesising it) but has no counterpart in the Peshitta, which transmits only the bare Aramaic ܩܘܡܝ without the expansive command found in the Greek rendering."
     },
     {
       "greek_nt": [
         17
       ],
-      "peshitta": [],
       "vulgate": [
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "omitted",
+      "note": "The explicit imperative ἔγειρε / surge ('arise') belongs to the Greek translation-expansion of the Aramaic and is matched by Latin; the Peshitta has no separate verb here, since the cognate ܩܘܡܝ ('arise') already conveys the command directly without a glossing duplicate."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.977257+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.533234+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

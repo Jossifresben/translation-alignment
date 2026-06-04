@@ -107,19 +107,27 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction καὶ plus aorist participle ἰδών (coordinated participial construction); Vulgate employs cumque vidisset (temporal cum-clause with pluperfect subjunctive); Peshitta uses simple ܘܚܙܐ (waw-consecutive perfect). All three express the same temporal-causal relationship but through distinct syntactic strategies."
+      "note": "Greek coordinates with καί + aorist participle ἰδών; Syriac likewise uses waw + perfect ܘܚܙܐ; the Vulgate fuses the conjunction into the enclitic Cumque ('and when'), recasting the parataxis as a subordinate temporal clause and thus shifting the syntactic weight."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -133,8 +141,8 @@
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place 'fig tree' immediately after the verb of seeing (συκῆν / ficum), while Peshitta inserts the numeral ܚܕܐ ('one') yielding 'a certain fig tree' (ܬܬܐ ܚܕܐ), a typical Semitic indefinite construction. The semantic content remains identical."
+      "type": "expansion",
+      "note": "Greek συκῆν and Latin ficum render the fig tree with a single anarthrous noun; the Peshitta adds the numeral/indefinite marker ܚܕܐ ('one/a'), a typical Syriac means of expressing indefiniteness ('a certain fig tree') which has no formal counterpart in the other witnesses."
     },
     {
       "greek_nt": [
@@ -153,21 +161,32 @@
     },
     {
       "greek_nt": [
-        5,
-        6
+        5
       ],
       "peshitta": [
         5,
-        6,
-        7
+        6
       ],
       "vulgate": [
-        5,
-        6
+        5
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses accusative participle ἔχουσαν φύλλα agreeing with συκῆν (attributive participial phrase); Vulgate mirrors this with habentem folia (accusative participle); Peshitta employs a relative clause construction ܕܐܝܬ ܒܗ ܛܪܦܐ ('that there-is in-it leaves'), using the existential particle ܐܝܬ with pronominal suffix. Syntactically distinct but semantically equivalent."
+      "note": "Greek ἔχουσαν and Latin habentem are participles modifying the tree; the Peshitta replaces the participle with a relative existential clause ܕܐܝܬ ܒܗ ('that there was on it'), an idiomatic Syriac substitute for a possessive participle, semantically equivalent but syntactically distinct."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek φύλλα and Latin folia are plural ('leaves'); the Syriac ܛܪܦܐ functions as a collective and may be read as singular in form, a common idiom for foliage taken as a mass-noun."
     },
     {
       "greek_nt": [
@@ -182,42 +201,68 @@
       ],
       "variant": "minor",
       "type": "expansion",
-      "note": "Greek ἦλθεν and Vulgate venit are simple verbs of motion ('he came'); Peshitta adds the directional phrase ܠܘܬܗ ('to it'), making the destination explicit. This is a characteristic Syriac clarification, rendering implicit Greek/Latin syntax overt."
+      "note": "Greek ἦλθεν and Latin venit stand absolutely ('he came/went'); the Peshitta adds the goal complement ܠܘܬܗ ('to it'), an explicit directional gloss not present in the Greek or Latin at this point."
     },
     {
       "greek_nt": [
         8,
-        9,
-        10,
-        11,
+        9
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        8,
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "The Greek tentative conditional εἰ ἄρα ('if perhaps') is rendered in Syriac by the single particle complex ܕܐܢ ('whether/if'); Latin distributes the nuance across si and forte, the latter capturing the conjectural force of ἄρα."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three attest the indefinite object ('anything': τι / ܡܕܡ / quid), but the Syriac places ܡܕܡ after the verb and the prepositional phrase, whereas Greek and Latin front the object before the verb of finding."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        10,
-        11,
+        12
+      ],
+      "vulgate": [
         12,
         13
       ],
-      "vulgate": [
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εἰ ἄρα τι εὑρήσει ('if perhaps anything he-will-find') uses the particle ἄρα to express contingency; Vulgate renders this with si quid forte inveniret (subjunctive with forte 'perhaps'), adding a colon for punctuation; Peshitta uses ܕܐܢ ܢܫܟܚ ܒܗ ܡܕܡ ('that if he-might-find in-it something'), employing the conditional ܕܐܢ. All three convey the same tentative expectation through tradition-specific modal constructions."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         14,
-        15,
-        16,
-        17
+        15
       ],
       "peshitta": [
         14,
@@ -226,13 +271,25 @@
       "vulgate": [
         15,
         16,
-        17,
+        17
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses καί + aorist participle ἐλθών ('and having come'); the Syriac employs ܘܟܕ ܐܬܐ ('and when he came'), a temporal clause, while the Vulgate similarly subordinates with et cum venisset, both languages converting the Greek circumstantial participle into a finite subordinate construction."
+    },
+    {
+      "greek_nt": [
+        16,
+        17
+      ],
+      "peshitta": [],
+      "vulgate": [
         18,
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ ἐλθὼν ἐπ᾽ αὐτήν (coordinated aorist participle with preposition ἐπί); Vulgate et cum venisset ad eam (temporal cum-clause with ad + accusative); Peshitta ܘܟܕ ܐܬܐ (waw + temporal particle ܟܕ, 'and when he-came'), omitting an explicit prepositional phrase for 'to it' since already stated in token 9. Syntactic variation with semantic equivalence."
+      "type": "omission",
+      "note": "Greek ἐπ᾽ αὐτήν and Latin ad eam ('to/upon it') specify the goal; the Syriac lacks a separate prepositional phrase here, having already supplied ܠܘܬܗ earlier with the first verb of coming, so the directional sense is not repeated."
     },
     {
       "greek_nt": [
@@ -249,60 +306,94 @@
         21
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the negative pronoun before the verb (οὐδὲν εὗρεν / nihil invenit, 'nothing he-found'); Peshitta uses verb-initial order ܠܐ ܐܫܟܚ ܒܗ ('not he-found in-it'), with the negative particle ܠܐ preceding the verb and the prepositional phrase ܒܗ ('in it') following. Word-order divergence reflecting Syriac VSO preference."
+      "type": "construction",
+      "note": "Greek negates the object (οὐδὲν εὗρεν, 'he found nothing'); the Syriac negates the verb (ܠܐ ܐܫܟܚ ... ܒܗ, 'he did not find ... on it') and adds the resumptive ܒܗ, the standard Semitic pattern of verbal negation plus pronominal complement, equivalent in sense to the Greek and Latin nihil invenit."
     },
     {
       "greek_nt": [
-        20,
-        21,
-        22
-      ],
-      "peshitta": [
-        19,
         20,
         21
       ],
-      "vulgate": [
-        22,
-        23,
-        24
+      "peshitta": [
+        19,
+        20
       ],
-      "variant": "aligned"
+      "vulgate": [
+        22
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek εἰ μή and Syriac ܐܠܐ ܐܢ are two-word exceptive idioms ('except, but only'); the Vulgate compresses this to the single preposition præter ('besides/except'), a stylistic Latin condensation of the Semiticising Greek construction."
+    },
+    {
+      "greek_nt": [
+        22
+      ],
+      "peshitta": [
+        21
+      ],
+      "vulgate": [
+        23
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Again Greek φύλλα and Latin folia are plural while Syriac ܛܪܦܐ is the collective form; the punctuation differs as well, the Greek closing with a high point (·) and the Latin with a colon, marking the clause boundary before the explanatory γάρ clause."
     },
     {
       "greek_nt": [
         23,
         24,
-        25,
-        26,
-        27,
-        28
+        25
       ],
       "peshitta": [
         22,
-        23,
-        24,
-        25,
+        23
+      ],
+      "vulgate": [
+        28,
+        26
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The explanatory clause ('for the season/time') agrees in all three: γάρ / ܓܝܪ / enim are postpositive causal particles, with the noun καιρός / ܙܒܢܐ / tempus, though the constituent ordering of subject and copula differs across the witnesses."
+    },
+    {
+      "greek_nt": [
         26,
         27
       ],
+      "peshitta": [
+        24,
+        25,
+        26
+      ],
       "vulgate": [
         25,
-        26,
-        27,
-        28,
+        27
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a simple negated imperfect copula (οὐκ ἦν / non erat, 'it was not'); the Syriac doubles the verb ܗܘܐ ܗܘܐ, the second ܗܘܐ serving as an enclitic auxiliary forming a periphrastic past tense, a characteristic Syriac means of expressing the continuous past."
+    },
+    {
+      "greek_nt": [
+        28
+      ],
+      "peshitta": [
+        27
+      ],
+      "vulgate": [
         29
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek ὁ γὰρ καιρὸς οὐκ ἦν σύκων uses the articular nominative ὁ καιρός with genitive plural σύκων ('the season of figs was not'); Vulgate non enim erat tempus ficorum mirrors this structure exactly; Peshitta ܙܒܢܐ ܓܝܪ ܠܐ ܗܘܐ ܗܘܐ ܕܬܐܢܐ employs a double ܗܘܐ (pluperfect periphrastic construction, 'the time indeed not had-been was of-figs'), a characteristic Syriac pluperfect formation absent in Greek and Latin."
+      "note": "Greek σύκων and Latin ficorum are genitive plural ('of figs'); the Syriac ܕܬܐܢܐ is genitive with the relative/genitive particle d- and is collective in form, functioning as 'of fig(s),' the typical Syriac mass-noun treatment of fruit."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.883279+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.511726+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

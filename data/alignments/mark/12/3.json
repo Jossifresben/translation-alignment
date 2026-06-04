@@ -49,8 +49,8 @@
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses the article οἱ with coordinating conjunction καί (token 1), while Peshitta employs the demonstrative pronoun ܗܢܘܢ ('those') with the contrastive particle ܕܝܢ ('but/now'), and Vulgate uses the relative pronoun Qui. All three function as subject markers but reflect different syntactic strategies for resuming the narrative thread."
+      "type": "construction",
+      "note": "Greek uses the substantivised article οἱ ('they/the ones'), Syriac the independent demonstrative pronoun ܗܢܘܢ, and the Vulgate a relative pronoun Qui that subordinates the entire clause. All three resume the subject of the preceding verse but through distinct syntactic means."
     },
     {
       "greek_nt": [
@@ -59,24 +59,25 @@
       "peshitta": [
         1
       ],
-      "vulgate": [],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek καί ('and') and Syriac ܕܝܢ ('but/now') serve as discourse connectives but with different nuances: Greek continues the sequence neutrally, while Syriac marks a mild contrast or narrative shift. Vulgate omits an explicit connective, relying on the relative pronoun Qui to carry the syntactic connection."
+      "type": "grammar",
+      "note": "Greek connective καί here functions adversatively ('but'), matched by the Syriac postpositive particle ܕܝܢ. The Vulgate carries no separate adversative particle, the relative Qui already supplying the connection."
     },
     {
       "greek_nt": [
         2,
         3
       ],
-      "peshitta": [],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
         1,
         2
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek λαβόντες αὐτόν ('having taken him') and Vulgate apprehensum eum ('having seized him') explicitly state the seizure of the servant, whereas the Peshitta omits this action entirely, proceeding directly to the beating. This represents a substantive narrative compression in the Syriac tradition, possibly assuming the seizure from context."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses 'having taken him' with an aorist participle plus accusative pronoun (λαβόντες αὐτόν), and the Vulgate parallels this with the perfect passive participle apprehensum eum. Syriac lacks any equivalent of 'taking', folding the action directly into the finite verb ܡܚܐܘܗܝ with a suffixed object pronoun."
     },
     {
       "greek_nt": [
@@ -89,19 +90,17 @@
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἔδειραν / ܡܚܐܘܗܝ / ceciderunt — 'they beat (him)'; the Syriac finite verb already bears the suffixed object aligned in the previous group."
     },
     {
       "greek_nt": [
         5
       ],
-      "peshitta": [],
       "vulgate": [
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Vulgate use explicit coordinating conjunctions (καί / et) to link the two main verbs, while Peshitta employs asyndetic coordination with the waw-prefix on ܘܫܕܪܘܗܝ, a standard Syriac construction that achieves the same semantic effect through verbal morphology rather than a separate particle."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -113,9 +112,9 @@
       "vulgate": [
         5
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀπέστειλαν ('sent away') and Syriac ܫܕܪܘܗܝ ('sent him') are cognate verbs with identical meaning, while Vulgate dimiserunt ('dismissed/let go') represents a lexical substitution emphasizing release rather than dispatch, though the semantic overlap is substantial."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπέστειλαν / ܘܫܕܪܘܗܝ / dimiserunt — 'they sent (him) away'; the Syriac form carries both the conjunction ('and') and the suffixed object pronoun within a single inflected verb."
     },
     {
       "greek_nt": [
@@ -128,15 +127,15 @@
       "vulgate": [
         6
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek κενόν ('empty-handed') and Vulgate vacuum function as accusative predicative adjectives modifying the implicit object. Peshitta restructures this with the temporal/circumstantial particle ܟܕ ('while/when') governing the adjective ܣܦܝܩ ('empty'), creating a circumstantial clause ('while [he was] empty') rather than a direct predicate—a syntactic transformation that preserves the meaning but alters the grammatical relationship."
+      "note": "Greek κενόν and Latin vacuum render 'empty(-handed)' as a single predicate adjective, while Syriac introduces a circumstantial clause headed by ܟܕ ('while/being') plus ܣܦܝܩ ('empty'). The Syriac is semantically equivalent but syntactically a state-of-being subclause rather than a bare predicative."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.021159+00:00",
-    "confidence": 0.78,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.546110+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

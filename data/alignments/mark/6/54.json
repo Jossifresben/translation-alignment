@@ -46,51 +46,60 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple conjunction καί; Peshitta employs temporal conjunction ܘܟܕ ('and when'); Vulgate uses cumque (cum + -que, 'and when'), creating a temporal clause. The Peshitta and Vulgate both make the temporal relationship more explicit than the Greek parataxis."
-    },
-    {
-      "greek_nt": [
-        1,
-        2
-      ],
-      "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses genitive absolute construction (ἐξελθόντων αὐτῶν, participle + pronoun); Peshitta uses finite verb ܢܦܩܘ without explicit subject pronoun; Vulgate employs pluperfect subjunctive (egressi essent) in temporal clause. All three express the same temporal-causal relationship with different syntactic strategies."
+      "note": "Greek employs a genitive absolute (ἐξελθόντων αὐτῶν, 'when they had gone out'); the Vulgate renders this with a cum-clause plus pluperfect subjunctive (Cumque egressi essent); the Peshitta uses a temporal ܘܟܕ ('and when') with a finite perfect ܢܦܩܘ. All three express the same circumstantial-temporal sense through distinct subordinating strategies."
     },
     {
       "greek_nt": [
-        3,
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "grammar",
+      "note": "The Greek genitive pronoun αὐτῶν ('they') is grammatically required to supply the subject of the genitive absolute, but both Syriac and Latin encode the subject inflectionally within the finite verb (ܢܦܩܘ / egressi essent), so no separate pronoun is transmitted."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐκ / ܡܢ / de"
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses preposition ἐκ with article and genitive noun (ἐκ τοῦ πλοίου); Peshitta uses ܡܢ ܣܦܝܢܬܐ without article (Syriac lacks definite articles in this construction); Vulgate uses de navi with ablative case. The Greek article is structurally absent in Syriac but semantically implied."
+      "note": "Greek marks the noun with the article (τοῦ πλοίου, 'the boat'); the Vulgate navi and the Syriac ܣܦܝܢܬܐ use the bare/emphatic noun respectively, neither language possessing a definite article of the Greek type, so the definiteness is rendered idiomatically rather than lexically."
     },
     {
       "greek_nt": [
@@ -105,23 +114,33 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek uses adverb εὐθύς ('immediately'); Vulgate uses adverb continuo ('immediately'); Peshitta employs idiomatic phrase ܒܪ ܫܥܬܗ (literally 'son of his hour', meaning 'immediately'). The Syriac construction is a characteristic Semitic idiom expressing immediacy through a genitive relationship."
+      "note": "The Greek adverb εὐθύς ('immediately') and Latin continuo are single lexemes; the Peshitta renders the same notion with the idiomatic adverbial phrase ܒܪ ܫܥܬܗ ('in the son of its hour', i.e. 'at that very moment'), a standard Syriac periphrasis for instantaneity."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        6,
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐπιγινώσκω / ܐܣܬܟܠ / cognosco"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
         7
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek has ἐπιγνόντες αὐτόν ('having recognized him') with implicit subject from the genitive absolute; Vulgate mirrors this with cognoverunt eum ('they recognized him'); Peshitta adds explicit subject ܐܢܫܝ ܐܬܪܐ ('the men of the place/region'), making the recognizers explicit rather than leaving them contextually implied. This is a substantive expansion clarifying the narrative agents."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτόν / eum; the Peshitta encodes the object pronoun as the suffix -ܘܗܝ on the verb ܐܣܬܟܠܘܗܝ rather than as a separate token."
     },
     {
       "greek_nt": [],
@@ -132,7 +151,7 @@
       "vulgate": [],
       "variant": "added",
       "type": "expansion",
-      "note": "Peshitta explicitly names the subject as ܐܢܫܝ ܐܬܪܐ ('the men of the place'), whereas Greek and Vulgate leave the subject implicit (understood from context as 'the people there'). This represents a characteristic Peshitta tendency toward narrative clarity and explicit subject identification."
+      "note": "The Peshitta supplies an explicit subject ܐܢܫܝ ܐܬܪܐ ('the men of the region/place') for the verb 'recognised him', whereas the Greek and Latin leave the subject implicit in the third-person plural verb. This is a clarifying expansion typical of Syriac narrative style, making explicit who did the recognising."
     },
     {
       "greek_nt": [],
@@ -140,14 +159,15 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate places a colon at the verse end, marking the syntactic boundary before the following clause; neither the Greek nor the Syriac transmit corresponding punctuation in this edition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.986557+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.529774+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

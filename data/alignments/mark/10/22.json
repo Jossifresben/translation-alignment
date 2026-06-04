@@ -71,7 +71,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + postpositive conjunction (ὁ δέ); Peshitta mirrors this with pronoun + ܕܝܢ; Vulgate employs a relative pronoun (Qui) without conjunction, creating a smoother Latin period."
+      "note": "Greek uses article + postpositive δέ (ὁ δέ, 'but he') and Syriac mirrors this with ܗܘ ܕܝܢ; the Vulgate compresses subject and adversative into the relative pronoun Qui, dropping any explicit rendering of δέ and shifting from paratactic to relative-clause construction."
     },
     {
       "greek_nt": [
@@ -83,9 +83,9 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek στυγνάσας (aorist participle, 'having become gloomy/dark-faced') is rendered by Peshitta ܐܬܟܡܪ (ethpe'el, 'became dark/sad') and Vulgate contristatus (perfect passive participle, 'having been saddened'), both capturing the emotional state but with slightly different semantic nuances—Greek emphasizes facial expression, Latin internal affect."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "στυγνάσας / ܐܬܟܡܪ / contristatus — 'becoming gloomy/saddened.'"
     },
     {
       "greek_nt": [
@@ -102,8 +102,8 @@
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase ἐπὶ τῷ λόγῳ ('at the word'); Peshitta adds demonstrative ܗܕܐ ('this') yielding ܒܡܠܬܐ ܗܕܐ ('at this word'), making the reference more explicit; Vulgate in verbo mirrors Greek structure without demonstrative."
+      "type": "expansion",
+      "note": "Greek ἐπὶ τῷ λόγῳ and Vulgate in verbo render 'at the word'; the Peshitta adds the demonstrative ܗܕܐ ('this'), specifying ܒܡܠܬܐ ܗܕܐ ('at this word/saying'), a typical Syriac clarifying expansion absent from the Greek and Latin."
     },
     {
       "greek_nt": [
@@ -115,7 +115,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπῆλθεν / ܘܐܙܠ / abiit — 'he went away.'"
     },
     {
       "greek_nt": [
@@ -123,85 +125,37 @@
       ],
       "peshitta": [
         6,
-        7
+        7,
+        8
       ],
       "vulgate": [
-        5
+        5,
+        6
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present middle participle λυπούμενος ('grieving') coordinated asyndetically with the main verb; Peshitta employs circumstantial ܟܕ + adjective ܥܝܝܩܐ ('while distressed'), a typical Syriac construction for simultaneous action; Vulgate mœrens (present participle) parallels Greek syntax."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta inserts pronominal suffix ܠܗ ('to him') as dative of possession, making the possessive relationship explicit where Greek and Latin rely on the participial construction ἔχων/habens to imply the subject."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon to mark the clause boundary before the explanatory γάρ clause, a Latin stylistic convention not reflected in Greek or Syriac manuscript traditions."
+      "note": "Greek λυπούμενος and Vulgate mœrens render the participle 'grieving' with a single word; the Peshitta employs a periphrastic adverbial clause ܟܕ ܥܝܝܩܐ ܠܗ ('while it was grievous to him'), using the subordinator ܟܕ plus a dative ethical construction characteristic of Syriac. The Vulgate's colon (idx 6) marks the clause boundary corresponding to the Greek high stop after λυπούμενος·."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
+        8,
         9,
         10
       ],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek periphrastic imperfect ἦν ἔχων ('he was having') is rendered by Peshitta with existential particle ܐܝܬ + ܗܘܐ ('there was to him'), a standard Syriac possessive idiom; Vulgate erat habens mirrors Greek periphrastic structure exactly."
-    },
-    {
-      "greek_nt": [
-        9
-      ],
       "peshitta": [
+        9,
+        10,
+        11,
         12
       ],
       "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places causal γάρ in second position (postpositive); Peshitta ܓܝܪ appears after the possessive construction; Vulgate enim follows standard Latin postpositive placement after the verb—all functionally equivalent but reflecting each language's syntactic constraints."
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [],
-      "vulgate": [
+        7,
+        8,
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek participle ἔχων is part of the periphrastic construction; Peshitta absorbs this into the ܐܝܬ ܗܘܐ ܠܗ idiom (no separate verb 'to have'); Vulgate habens maintains the participial form parallel to Greek."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta repeats pronominal suffix ܠܗ ('to him') with the noun ܢܟܣܐ, reinforcing the possessive relationship—a characteristic Syriac redundancy for emphasis not present in Greek or Latin."
+      "type": "idiom",
+      "note": "Greek ἦν...ἔχων ('he was having') is a periphrastic imperfect rendered by Vulgate erat...habens; the Peshitta uses the existential idiom ܐܝܬ ܗܘܐ ܠܗ ('there was to him'), the standard Syriac construction for possession, plus the dative ܠܗ, with γάρ/enim/ܓܝܪ all attesting the causal particle."
     },
     {
       "greek_nt": [
@@ -216,23 +170,15 @@
         10,
         11
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places adjective πολλά after noun κτήματα; Peshitta ܢܟܣܐ ܣܓܝܐܐ follows the same noun-adjective order; Vulgate inverts to multas possessiones (adjective-noun), conforming to classical Latin emphasis patterns."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "κτήματα πολλά / ܢܟܣܐ ܣܓܝܐܐ / multas possessiones — 'many possessions.'"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.010642+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.431400+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

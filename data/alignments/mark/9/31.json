@@ -96,7 +96,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect ἐδίδασκεν alone; Peshitta employs periphrastic construction ܡܠܦ ܗܘܐ (participle + auxiliary 'was'); Vulgate mirrors Greek with simple imperfect Docebat. All three express continuous past action, but Syriac uses analytic construction typical of its verbal system."
+      "note": "Greek ἐδίδασκεν is a simple imperfect indicative; the Peshitta renders the durative aspect periphrastically with ܡܠܦ ܗܘܐ (participle + enclitic ܗܘܐ), a characteristic Syriac construction for past continuous action. The Vulgate Docebat matches the Greek imperfect with a single inflected form."
     },
     {
       "greek_nt": [
@@ -108,9 +108,7 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek γάρ and Syriac ܓܝܪ are cognate loanwords; Vulgate substitutes autem ('however'), a stylistic preference for Latin discourse connectives where Greek uses explanatory γάρ."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -127,21 +125,42 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + noun + possessive pronoun (τοὺς μαθητὰς αὐτοῦ); Vulgate mirrors this structure (discipulos suos); Syriac employs a single bound form with pronominal suffix ܠܬܠܡܝܕܘܗܝ, a typical Semitic construction expressing the same relationship more compactly."
+      "note": "Greek expresses the object and possessor analytically with article + noun + genitive pronoun (τοὺς μαθητὰς αὐτοῦ); Syriac compresses all three into a single inflected form ܠܬܠܡܝܕܘܗܝ bearing the object marker and the 3ms suffix. The Vulgate discipulos suos parallels the Greek with a separate possessive adjective."
     },
     {
       "greek_nt": [
-        5,
-        6,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin coordinate two finite verbs (καὶ ἔλεγεν / et dicebat); the Peshitta fuses the conjunction and verb into ܘܐܡܪ, a perfect rather than a continuous form, slightly flattening the iterative force preserved in the Greek imperfect ἔλεγεν."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
       "variant": "aligned"
@@ -150,13 +169,16 @@
       "greek_nt": [
         8
       ],
-      "peshitta": [],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
-        7
+        7,
+        8
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts colon after illis to mark direct discourse; Greek ὅτι functions as quotation marker; Peshitta uses ܕ- prefix on the following verb, requiring no separate conjunction. The divergence is purely orthographic."
+      "type": "construction",
+      "note": "Greek ὅτι introduces the reported speech recitatively; Latin marks the boundary with both a colon and Quoniam, and Syriac prefixes the proclitic ܕ directly to the following noun (ܕܒܪܗ). The three traditions agree in sense but differ in how the speech-margin is graphically and grammatically signalled."
     },
     {
       "greek_nt": [
@@ -170,13 +192,12 @@
         7
       ],
       "vulgate": [
-        8,
         9,
         10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses double article construction (ὁ υἱὸς τοῦ ἀνθρώπου); Vulgate employs genitive without article (Filius hominis); Syriac uses construct state ܕܒܪܗ ܕܐܢܫܐ with ܕ- marking both relationships. All three express the titular 'Son of Man' idiomatically within their respective grammatical systems."
+      "note": "The Semitic title 'Son of Man' is rendered with article + noun + genitive in Greek (ὁ υἱὸς τοῦ ἀνθρώπου) and articleless construct-like genitive in Latin (Filius hominis), while Syriac uses the construct with the 3ms suffix and relative particle ܕܒܪܗ ܕܐܢܫܐ, reflecting the native idiom underlying the Greek calque."
     },
     {
       "greek_nt": [
@@ -188,7 +209,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek παραδίδοται is present passive with futuristic-prophetic force; Latin tradetur shifts overtly to the future tense; Syriac ܡܫܬܠܡ is an Ethpaal participle expressing the impending action durativiely. The temporal nuance differs while the meaning ('is being/will be handed over') is shared."
     },
     {
       "greek_nt": [
@@ -205,9 +228,7 @@
         13,
         14
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses plural χεῖρας ἀνθρώπων ('hands of men'); Vulgate mirrors with manus hominum (plural); Syriac ܒܐܝܕܝ ܐܢܫܐ uses dual form ܐܝܕܝ ('two hands'), reflecting Semitic dual morphology for paired body parts, though semantically equivalent to the Greek/Latin plurals."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -225,7 +246,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction + finite verb + pronoun (καὶ ἀποκτενοῦσιν αὐτόν); Vulgate mirrors this (et occident eum); Syriac employs single verb ܘܢܩܛܠܘܢܝܗܝ with object suffix, a more compact Semitic construction expressing the same predication."
+      "note": "Greek and Latin express 'and they will kill him' with conjunction + finite verb + separate accusative pronoun (καὶ ἀποκτενοῦσιν αὐτόν / et occident eum); Syriac condenses the whole clause into the single form ܘܢܩܛܠܘܢܝܗܝ, incorporating the waw, the imperfect plural, and the 3ms object suffix."
     },
     {
       "greek_nt": [
@@ -241,8 +262,8 @@
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses conjunction + aorist passive participle (καὶ ἀποκτανθεὶς); Vulgate employs conjunction + perfect passive participle (et occisus); Syriac uses conjunction + temporal particle + passive verb (ܘܡܐ ܕܐܬܩܛܠ, 'and when he is killed'), converting the participial construction into a temporal clause."
+      "type": "grammar",
+      "note": "Greek uses the aorist passive participle ἀποκτανθείς ('having been killed'), matched closely by Latin occisus; Syriac instead employs a temporal clause ܘܡܐ ܕܐܬܩܛܠ ('and when he has been killed') with the Ethpeel perfect, converting the Greek circumstantial participle into a finite subordinate construction."
     },
     {
       "greek_nt": [
@@ -258,9 +279,9 @@
         20,
         21
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "idiom",
-      "note": "Greek μετὰ τρεῖς ἡμέρας ('after three days') uses preposition + accusative plural; Syriac ܒܝܘܡܐ ܕܬܠܬܐ ('on the third day') uses construct state meaning 'on the day of three'; Vulgate tertia die ('on the third day') uses ablative of time. The Syriac and Latin reflect the more precise chronological idiom found in parallel passion predictions (cf. Matt 16:21), while Greek preserves the Semitic idiom 'after three days.'"
+      "note": "Greek reads μετὰ τρεῖς ἡμέρας ('after three days') with the accusative of duration; Latin and Syriac both render the ordinal-locative idiom 'on the third day' (tertia die / ܒܝܘܡܐ ܕܬܠܬܐ), the versions harmonising toward the more common synoptic phrasing of the resurrection prediction (cf. Matt 16:21; Luke 9:22)."
     },
     {
       "greek_nt": [
@@ -276,9 +297,9 @@
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.234575+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.476233+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

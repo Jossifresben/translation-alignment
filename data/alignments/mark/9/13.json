@@ -76,47 +76,48 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        1
+        1,
+        2
       ],
       "vulgate": [
         1
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        2
       ],
       "variant": "minor",
       "type": "gloss",
-      "note": "The Peshitta adds the explicit subject pronoun ܐܢܐ ('I') at token 2, making the speaker explicit, whereas Greek and Latin rely on the verbal inflection alone (λέγω / dico) to indicate first-person singular."
+      "note": "Greek λέγω carries the first-person subject inflectionally; the Peshitta makes the pronoun explicit with the enclitic ܐܢܐ ('I'), a standard Syriac feature where the participle/imperfect requires an overt pronominal subject. Latin dico likewise encodes the subject morphologically without an independent pronoun."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         3
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         3
       ],
       "variant": "minor",
-      "type": "omission",
-      "note": "The Peshitta omits the conjunction ὅτι / quia introducing the content clause, proceeding directly from ܠܟܘܢ ('to you') to ܕܐܦ ('that also'), a common Syriac syntactic compression."
+      "type": "lexical",
+      "note": "Greek ὅτι ('that') is a pure complementiser, whereas the Peshitta fuses the complementiser into ܕܐܦ (relative/complementiser ܕ + ܐܦ 'also'), absorbing the following καί. The Vulgate quia renders the recitative ὅτι, here functioning as an indirect-discourse marker rather than causally."
     },
     {
       "greek_nt": [
@@ -128,8 +129,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The adverbial καί ('also/even') is rendered in Latin by et and in Syriac is subsumed into the compound ܕܐܦ already counted above; the threefold tradition agrees in sense but the Peshitta encodes the conjunction prefixally rather than as a free word."
     },
     {
       "greek_nt": [
@@ -141,8 +143,7 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -156,42 +157,65 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the perfect tense ἐλήλυθεν ('has come'), emphasizing completed action with present relevance; Syriac ܐܬܐ and Latin venit both employ simple past forms, focusing on the historical event rather than its ongoing significance."
+      "note": "Greek ἐλήλυθεν is a second perfect (resultative 'has come'); both the Peshitta ܐܬܐ and Latin venit use a simple past/perfect form without preserving the durative-resultative nuance of the Greek perfect."
     },
     {
       "greek_nt": [
         7
       ],
-      "peshitta": [],
+      "peshitta": [
+        7
+      ],
       "vulgate": [
         7
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Vulgate use an explicit coordinating conjunction (καὶ / et) to link the two clauses, while Peshitta employs asyndetic construction with ܘܥܒܕܘ ('and they did'), incorporating the conjunction into the verbal prefix ܘ-, a typical Semitic pattern."
+      "note": "The Greek coordinating καί stands as a free conjunction, while the Peshitta prefixes the waw directly to the verb in ܘܥܒܕܘ ('and-they-did'); the Vulgate opens a parenthetical clause with et, reflected by the editorial bracket."
     },
     {
       "greek_nt": [
-        8,
-        9,
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐποίησαν and Latin fecerunt are discrete finite verbs, but the Peshitta combines conjunction and verb in the single graphic unit ܘܥܒܕܘ from the root ʿ-b-d, so the conjunction and verb share one token."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        7,
-        8,
         9,
         10,
         11
       ],
       "vulgate": [
-        8,
-        9,
         10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅσα ἤθελον ('whatever they wished') uses a single relative-quantifier plus imperfect; the Peshitta expands this analytically into ܟܠ ܡܐ ܕܨܒܘ ('all that which they desired') with three tokens, while the Vulgate quæcumque voluerunt matches the Greek economy. The imperfect ἤθελον denotes ongoing volition, flattened to a simple past in both versions."
     },
     {
       "greek_nt": [
@@ -203,8 +227,7 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -218,8 +241,8 @@
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the perfect passive γέγραπται ('it has been written') as a single verb; Vulgate employs a periphrastic construction scriptum est ('it is written') with participle plus auxiliary; Peshitta uses the simple passive participle ܕܟܬܝܒ ('that is written'), all conveying the same scriptural authority formula."
+      "type": "grammar",
+      "note": "Greek γέγραπται and Syriac ܕܟܬܝܒ are both synthetic perfect/passive verb forms ('it has been/is written'); the Vulgate renders this periphrastically with scriptum est, splitting the predicate into participle plus auxiliary as is normal for the Latin perfect passive."
     },
     {
       "greek_nt": [
@@ -234,14 +257,14 @@
         16
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the preposition ἐπί with accusative αὐτόν ('concerning him'); Latin uses de with ablative eo ('about him'); Peshitta uses ܥܠܘܗܝ ('upon him' with pronominal suffix), all expressing the same referential relationship with slight prepositional variation."
+      "type": "construction",
+      "note": "Greek ἐπ᾽ αὐτόν and Latin de eo render the prepositional phrase ('concerning him') with separate preposition and pronoun, whereas the Peshitta fuses preposition and pronominal suffix into a single inflected form ܥܠܘܗܝ ('upon/concerning him'). The Greek paragraphos (¶) is editorial and carries no semantic weight."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.231440+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.480579+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

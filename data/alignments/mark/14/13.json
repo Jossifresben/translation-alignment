@@ -89,8 +89,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -102,8 +101,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Peshitta ܘܫܕܪ fuses the conjunction and verb 'and he sent' into a single inflected form, whereas Greek (καί + ἀποστέλλει) and Latin (Et + mittit) keep them discrete. The Greek and Latin present tense (historic present) is rendered by the Syriac perfect, a routine tense-shift in narrative."
     },
     {
       "greek_nt": [
@@ -115,8 +114,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -134,34 +132,22 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular genitive construction τῶν μαθητῶν αὐτοῦ ('of the disciples of him'), while Peshitta employs the partitive preposition ܡܢ ('from') with a pronominal suffix on the noun ܬܠܡܝܕܘܗܝ ('his disciples'). Vulgate mirrors Greek with ex discipulis suis, using the partitive ex construction; all three convey 'two of his disciples' with equivalent semantics but distinct syntactic strategies."
+      "note": "Greek τῶν μαθητῶν αὐτοῦ and Latin ex discipulis suis use a partitive genitive with possessive pronoun; the Syriac ܡܢ ܬܠܡܝܕܘܗܝ employs a partitive ܡܢ followed by the noun with attached possessive suffix -ohi, collapsing the pronoun into the noun morphologically."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Syriac ܘܐܡܪ again fuses conjunction and verb of speaking into one form, against the analytic καί + λέγει and et + dicit; the present-tense λέγει/dicit is rendered by the Syriac perfect."
     },
     {
       "greek_nt": [
@@ -175,28 +161,36 @@
         9
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses a raised dot (·) after αὐτοῖς to mark the transition to direct speech, while Vulgate employs a colon (:) for the same function. Peshitta has no explicit punctuation marker here, relying on syntactic context; all three introduce the direct discourse identically in substance."
+      "note": "Greek αὐτοῖς and Syriac ܠܗܘܢ render the dative 'to them'; the Vulgate separates the pronoun eis from the following colon, but the editorial colon (idx 9) is a punctuation marker introducing direct speech with no counterpart in the source dative phrase."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "note": "Greek ὑπάγετε (ὑπάγω, 'go away/depart') and Latin Ite are 2nd-plural imperatives; the Syriac ܙܠܘ from root z-l-w lexically corresponds to Hebrew הלך 'to go', a standard Syriac equivalent, with no semantic divergence."
+    },
+    {
+      "greek_nt": [
         10,
         11,
         12
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        10,
         11,
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ὑπάγετε εἰς τὴν πόλιν uses the imperative with the preposition εἰς plus articular accusative ('go into the city'), mirrored exactly by Vulgate Ite in civitatem. Peshitta ܙܠܘ ܠܡܕܝܢܬܐ employs the preposition ܠ (lamed) with the emphatic state noun, a standard Syriac construction for direction; semantically equivalent but syntactically distinct in article usage."
+      "note": "Greek εἰς τὴν πόλιν and Latin in civitatem use preposition + article + accusative; the Syriac ܠܡܕܝܢܬܐ encodes the directional preposition as the prefixed lamadh and the determination via the emphatic state, eliminating separate words for 'into' and 'the'."
     },
     {
       "greek_nt": [
@@ -209,24 +203,32 @@
         13
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Peshitta inserts the presentative particle ܘܗܐ ('and behold'), a characteristic Semitic narrative device to heighten immediacy, absent from both Greek καὶ and Latin et. This is a stylistic expansion typical of Syriac translation technique, not altering the propositional content."
+      "note": "Greek καί and Latin et are simple coordinating conjunctions, but the Syriac ܘܗܐ adds the presentative particle ܗܐ ('behold'), a stylistic intensifier introducing the predicted encounter that has no equivalent in the Greek or Latin here."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek ἀπαντήσει and Latin occurret are future indicatives ('will meet you'); the Syriac ܦܓܥ (root p-g-e, cognate Hebrew פָּגַע) stands as a perfect/participial form governed by the preceding ܗܐ, rendering the prophetic encounter as a present-vivid rather than future tense."
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        14,
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -238,52 +240,85 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        17,
-        18,
-        19
+        17
       ],
       "peshitta": [
-        12,
-        13,
+        13
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "note": "Greek κεράμιον denotes an earthenware jar; Latin lagenam ('flask') and Syriac ܡܐܢܐ ('vessel') are broader terms, the Syriac in particular using a generic word for 'utensil/vessel' rather than a specific water-jar, a slight lexical generalisation."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
         14
       ],
       "vulgate": [
-        17,
-        18,
-        19,
-        20
+        18
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a substantival participle βαστάζων modifying ἄνθρωπος, with κεράμιον ὕδατος as the direct object ('a man carrying a pitcher of water'). Peshitta employs a relative clause ܕܫܩܝܠ ܡܐܢܐ ܕܡܝܐ ('who carries a vessel of water'), while Vulgate uses a present active participle bajulans with lagenam aquæ. All three convey identical semantics through different participial or relative constructions; Vulgate adds a colon after bajulans, segmenting the discourse."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        20,
+        19
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "note": "The participle βαστάζων ('carrying') is rendered by Latin bajulans; the Syriac ܕܫܩܝܠ (root sh-q-l) uses a relative particle d- + passive participle construction ('who bears'), shifting from the Greek attributive participle to a Syriac relative clause, and is positioned before 'vessel of water' rather than after, reflecting Semitic word order."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         21
       ],
       "peshitta": [
-        15,
         16
       ],
       "vulgate": [
-        21,
         22
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek ἀκολουθήσατε αὐτῷ ('follow him') uses the dative of the person followed, matched by Vulgate sequimini eum (accusative after deponent verb). Peshitta ܙܠܘ ܒܬܪܗ literally means 'go after him', using the preposition ܒܬܪ ('after') with pronominal suffix—a standard Syriac idiom for 'follow' that is more spatially explicit than the Greek/Latin lexemes but semantically equivalent."
+      "note": "Greek αὐτῷ and Latin eum render the object of 'follow' as a bare pronoun; the Syriac ܒܬܪܗ uses the preposition ܒܬܪ ('after') + suffix, since the Syriac verb 'go' governs its object with 'after him', an idiomatic construction rather than a direct dative/accusative."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        20
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts an editorial colon before sequimini to mark the resumption of direct command; this is a punctuation feature of the printed Clementine text with no lexical counterpart in the Greek or Syriac."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.036636+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.464976+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

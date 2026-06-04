@@ -72,8 +72,9 @@
         0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek pairs the conjunction καί with the aorist participle εἰσελθών ('and having entered'); the Vulgate mirrors this with et + the participle ingressus. The Peshitta condenses both into a single coordinated finite verb ܘܥܠ ('and he entered'), preferring paratactic finite verbs to participial subordination, a typical Syriac stylistic choice."
     },
     {
       "greek_nt": [
@@ -86,7 +87,8 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "λέγει / ܘܐܡܪ / ait, though the Syriac again prefixes the coordinating waw."
     },
     {
       "greek_nt": [
@@ -101,50 +103,65 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'illis' to mark direct discourse, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. This reflects Latin scribal convention for introducing quoted speech rather than a textual variant."
+      "note": "The dative pronoun (αὐτοῖς / ܠܗܘܢ / illis) agrees across all three; the Vulgate isolates the following discourse with an explicit colon (token 4), a punctuation feature absent from the unpointed Greek and Syriac text streams here treated as part of the preceding clause."
     },
     {
       "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τί / ܡܢܐ / Quid."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
         4,
         5
       ],
-      "peshitta": [
-        3,
-        4
-      ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you'), which is grammatically unnecessary in Syriac but serves as an emphatic clarification. Greek and Latin encode the second-person plural within the verbal morphology (θορυβεῖσθε, turbamini) without requiring an overt pronoun."
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek θορυβεῖσθε and Latin turbamini are synthetic medio-passive 2nd-person plural forms; the Peshitta employs an analytic construction, the active participle ܪܗܝܒܝܢ plus the enclitic pronoun ܐܢܬܘܢ ('you are agitated'), the normal Syriac strategy for present-tense person marking."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / et, here joining the two predicates."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses a semicolon after κλαίετε to separate the two rhetorical questions; Vulgate employs a question mark after 'ploratis' for the same purpose; Peshitta has no punctuation between the clauses. The semantic content is identical, but punctuation conventions differ across manuscript traditions."
+      "type": "grammar",
+      "note": "Greek κλαίετε and Latin ploratis are finite 2nd-person plural verbs; the Peshitta uses the participle ܒܟܝܢ governed by the single shared enclitic ܐܢܬܘܢ from the prior clause, and the Vulgate alone marks the interrogative force with a closing question mark (token 9)."
     },
     {
       "greek_nt": [
@@ -159,25 +176,36 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek uses the neuter diminutive παιδίον ('little child'), Vulgate employs the feminine 'puella' ('girl'), and Peshitta uses the feminine ܛܠܝܬܐ ('girl'). The Vulgate and Peshitta specify the child's gender based on narrative context (Jairus's daughter), while Greek retains a gender-neutral term; this represents contextual specification rather than textual divergence."
+      "note": "Greek uses the neuter diminutive τὸ παιδίον ('the little child') with the article; the Vulgate renders puella ('girl'), specifying feminine gender, and the Peshitta ܛܠܝܬܐ likewise is the feminine 'little girl,' both versions making explicit the female sex left grammatically neuter in the Greek diminutive."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "οὐκ / ܠܐ / non."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        11,
         12,
         13
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Peshitta use simple negation with the verb (οὐκ ἀπέθανεν, ܠܐ ܡܝܬܬ), while Vulgate employs a periphrastic construction with the copula 'est' plus the perfect participle 'mortua' ('is dead'). This reflects Latin preference for analytic verbal forms but conveys identical meaning."
+      "note": "Greek ἀπέθανεν is a simple aorist indicative; the Peshitta ܡܝܬܬ is a finite perfect (feminine, agreeing with the girl); the Vulgate builds a periphrastic perfect est mortua ('has died/is dead'), distributing the sense over copula plus participle."
     },
     {
       "greek_nt": [
@@ -190,36 +218,29 @@
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἀλλά / ܐܠܐ / sed."
     },
     {
       "greek_nt": [
         13
       ],
       "peshitta": [
-        11
+        11,
+        12
       ],
       "vulgate": [
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        12
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta appends the feminine pronoun ܗܝ ('she') as subject of the verb ܕܡܟܐ ('sleeps'), making explicit what is encoded in the Greek verbal ending (καθεύδει, third singular) and the Latin verb 'dormit'. This represents typical Syriac preference for overt pronominal subjects in predicate constructions."
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek καθεύδει and Latin dormit are single finite present verbs; the Peshitta uses the participle ܕܡܟܐ plus the enclitic feminine pronoun ܗܝ ('she is sleeping'), again preferring the analytic participle-plus-pronoun present typical of Syriac and agreeing with the feminine subject."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.976891+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.454352+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

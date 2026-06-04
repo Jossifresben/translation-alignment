@@ -87,13 +87,12 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καὶ / Et, beginning directly with the verb. This is a common Syriac stylistic preference, avoiding redundant connectives where context sufficiently links clauses."
+      "note": "Greek and Vulgate open with the connective καί / Et; the Peshitta omits the introductory conjunction altogether, beginning directly with the verb ܐܡܪ, a common Syriac stylistic preference avoiding sentence-initial waw before a finite verb of speaking."
     },
     {
       "greek_nt": [
@@ -105,7 +104,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek λέγει is present tense (historic present, 'he says'); the Vulgate ait and Peshitta ܐܡܪ both render with a past/perfect ('he said'), normalising the vivid Greek historic present into a narrative preterite."
     },
     {
       "greek_nt": [
@@ -118,21 +119,29 @@
         2,
         3
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after illis, creating a stronger rhetorical pause before the question. Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker, both treating the transition as smoother."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis; the Vulgate adds a colon (idx 3) as punctuation introducing direct speech."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "aligned"
@@ -151,66 +160,65 @@
     },
     {
       "greek_nt": [
-        6
+        6,
+        7
       ],
       "peshitta": [
         5,
         6
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta repeats the pronoun ܐܢܬܘܢ ('you') after the adjective ܥܛܠܝܢ ('foolish'), a typical Syriac construction for emphasis or clarity. Greek and Latin use a single pronoun with the predicate adjective."
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [],
-      "vulgate": [
-        8,
-        9
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Vulgate employ an explicit copula (ἐστε / estis) with interrogative punctuation. Peshitta uses a nominal sentence without copula, relying on word order and context to convey the question—a standard Semitic construction."
-    },
-    {
-      "greek_nt": [
-        8,
-        9
-      ],
-      "peshitta": [
         7,
         8,
         9
       ],
-      "vulgate": [
-        10,
-        11
-      ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta again appends the pronoun ܐܢܬܘܢ ('you') after the verb ܝܕܥܝܢ ('know'), creating a tripartite structure (negation + verb + pronoun). Greek and Latin use standard verb forms without pronominal reinforcement."
+      "type": "lexical",
+      "note": "Greek ἀσύνετοί ἐστε ('are you without understanding') is rendered in the Vulgate with imprudentes estis, shifting from intellectual incapacity toward imprudence; the Peshitta ܥܛܠܝܢ ܐܢܬܘܢ uses the root e-T-l connoting 'dull/obtuse/slow', a further lexical nuance. The Vulgate marks the interrogation with a question mark (idx 9)."
     },
     {
       "greek_nt": [
-        10
+        8
       ],
       "peshitta": [
-        10
+        7
       ],
       "vulgate": [
-        12
+        10
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        11,
+        9
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek νοεῖτε and Vulgate intelligitis are single finite verbs; the Peshitta employs the periphrastic participle plus enclitic pronoun ܝܕܥܝܢ ܐܢܬܘܢ, the standard Syriac analytic present construction expressing the same durative sense."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
         12
+      ],
+      "variant": "aligned",
+      "note": "ὅτι / ܕ (prefixed to ܟܠ) / quia."
+    },
+    {
+      "greek_nt": [
+        11
       ],
       "peshitta": [
         10,
@@ -220,11 +228,12 @@
         13
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses πᾶν τὸ ('everything the') with the neuter article; Peshitta employs ܕܟܠ ܡܕܡ ('that all thing'), a compound indefinite pronoun; Vulgate has omne ('every/all'). All convey totality, but Syriac's ܡܕܡ adds a substantival nuance ('thing/something')."
+      "type": "idiom",
+      "note": "Greek πᾶν and Vulgate omne use a single neuter substantive ('everything'); the Peshitta renders with the idiomatic pair ܟܠ ܡܕܡ ('all [a] thing'), a fixed Syriac collocation for 'everything' employing the indefinite noun ܡܕܡ."
     },
     {
       "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
@@ -236,7 +245,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek ἔξωθεν ('from outside') is a single adverb; Peshitta uses the prepositional phrase ܕܡܢ ܠܒܪ ('that from outside'); Vulgate employs the adverb extrinsecus. The Syriac construction is more analytic, typical of its prepositional preference."
+      "note": "Greek uses article + adverb τὸ ἔξωθεν ('that which is from outside'); the Vulgate extrinsecus reproduces the adverb alone; the Peshitta expands to a prepositional phrase ܕܡܢ ܠܒܪ ('that which is from without'), syntactically fuller but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -248,7 +257,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "εἰσπορευόμενον / ܥܐܠ / introiens."
     },
     {
       "greek_nt": [
@@ -264,9 +274,8 @@
         16,
         17
       ],
-      "variant": "minor",
-      "type": "idiom",
-      "note": "Greek uses εἰς τὸν ἄνθρωπον ('into the man') with the accusative article; Peshitta has ܠܒܪ ܐܢܫܐ ('into son-of-man'), employing the idiomatic Semitic construct for 'human being'; Vulgate uses in hominem with accusative. All are semantically equivalent, but Syriac's ܒܪ ܐܢܫܐ reflects its standard anthropological idiom."
+      "variant": "aligned",
+      "note": "εἰς τὸν ἄνθρωπον / ܠܒܪ ܐܢܫܐ / in hominem; the Peshitta uses the idiomatic ܒܪ ܐܢܫܐ ('son of man' = a human being). The Vulgate appends a comma (within idx 17)."
     },
     {
       "greek_nt": [
@@ -278,7 +287,8 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "οὐ / ܠܐ / non."
     },
     {
       "greek_nt": [
@@ -290,19 +300,8 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        20
-      ],
-      "vulgate": [
-        20
-      ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "δύναται / ܡܫܟܚ / potest."
     },
     {
       "greek_nt": [
@@ -316,14 +315,28 @@
         22
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ends with a question mark after κοινῶσαι; Vulgate appends a colon after communicare, possibly indicating continuation or emphasis. Peshitta has no explicit terminal punctuation. The Vulgate's colon may reflect liturgical or rhetorical phrasing conventions."
+      "type": "lexical",
+      "note": "Greek κοινῶσαι and Peshitta ܡܣܝܒ both denote cultic 'defilement/pollution'; the Vulgate communicare ('to make common') is a calque on the Greek root κοινός but loses the negative 'defile' connotation in classical Latin, reflecting the Septuagintal sense of κοινόω as ritual contamination. The Vulgate's closing colon (idx 22) anticipates the following clause."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        20
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The resumptive object pronoun (αὐτόν / ܠܗ / eum) occupies different positions: Greek places it before the infinitive κοινῶσαι, Latin before communicare, while the Peshitta enclitic ܠܗ follows the verb, each conforming to its language's preferred clitic placement."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.990329+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.553007+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

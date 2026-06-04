@@ -41,11 +41,14 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate, which begin directly with the negative particle. This reflects a stylistic preference in translation, as the conjunction is semantically redundant after the preceding narrative context."
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
@@ -58,8 +61,7 @@
         1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek οὐδὲ ('not even') is rendered by Peshitta ܘܐܦܠܐ (compound negative 'and not even') and Vulgate non ('not'). The Peshitta preserves the emphatic force of the Greek compound negative, while the Vulgate uses a simple negation, slightly weakening the rhetorical emphasis."
+      "note": "The Greek emphatic negative conjunction οὐδέ ('not even') is rendered in Syriac by the prefixed compound ܘܐܦܠܐ ('and not even'), which fuses the connective from index 0 and the negation; the Vulgate flattens this to a simple non, losing the emphatic 'even' nuance present in both Greek and Syriac."
     },
     {
       "greek_nt": [],
@@ -68,8 +70,7 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta inserts ܕܝܢ ('but', 'however'), a discourse particle common in Syriac narrative to mark contrast or continuation. Neither Greek nor Latin attest this particle here, suggesting a Syriac stylistic convention for clause linkage."
+      "note": "The Peshitta inserts the postpositive particle ܕܝܢ (de, 'but/now'), a discourse connective with no counterpart in either the Greek or the Latin; it is a characteristic Syriac stylistic addition marking narrative continuation rather than a substantive variant."
     },
     {
       "greek_nt": [
@@ -80,24 +81,33 @@
       ],
       "vulgate": [],
       "variant": "omitted",
-      "type": "omission",
-      "note": "Greek οὕτως ('thus', 'in this way') and Peshitta ܗܟܢܐ ('thus') are both omitted in the Vulgate. The Latin tradition evidently deemed the adverb redundant, as conveniens ('agreeing', 'consistent') already implies the manner of comparison without requiring an explicit adverbial modifier."
+      "note": "Both Greek οὕτως and Syriac ܗܟܢܐ supply the adverb 'thus/so' (οὐδὲ οὕτως, 'not even so'); the Vulgate omits this adverb entirely, weakening the rhetorical force of the clause which stresses that even after repeated false testimony the witnesses still did not agree."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek ἴση ('equal, consistent') and Syriac ܫܘܝܐ (root sh-w-y, 'equal, level') agree closely, both denoting agreement of testimony; the Vulgate conveniens ('fitting, harmonious') shifts the metaphor slightly from numerical/qualitative equality to suitability or mutual fittingness, a lexical rather than semantic divergence."
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek ἴση ἦν ('alike was') and Peshitta ܫܘܝܐ ܗܘܬ ('equal was') both place the predicate adjective before the copula, following Semitic word order. Vulgate erat conveniens ('was agreeing') inverts this to Latin VSO order, placing the copula first—a syntactic rather than semantic divergence."
+      "note": "All three attest the third-person singular imperfect of 'to be' (ἦν / ܗܘܬ / erat); the divergence is only in word order, the Latin placing the verb before its predicate adjective whereas Greek and Syriac place it after."
     },
     {
       "greek_nt": [
@@ -110,8 +120,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek expresses 'their testimony' analytically with the article ἡ plus μαρτυρία and a following genitive pronoun, while the Syriac ܣܗܕܘܬܗܘܢ synthesises noun and possessive suffix into a single word; the Vulgate testimonium likewise drops the article, Latin lacking the definite article altogether."
     },
     {
       "greek_nt": [
@@ -124,14 +134,13 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek αὐτῶν (genitive pronoun 'of them') is rendered by Peshitta as a pronominal suffix on ܣܗܕܘܬܗܘܢ ('their testimony') and by Vulgate as the genitive pronoun illorum ('of them'). The Peshitta employs the typical Semitic bound-state construction, while Greek and Latin use free-standing genitives—functionally equivalent but syntactically distinct."
+      "note": "The genitive plural pronoun αὐτῶν ('of them') is borne by the Syriac as the enclitic suffix -ܗܘܢ on the noun at index 5, while the Vulgate renders it with the demonstrative-derived genitive illorum; the choice of illorum over the more neutral eorum is a stylistic Latin preference without semantic effect."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.044114+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.561361+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

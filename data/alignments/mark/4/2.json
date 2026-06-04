@@ -62,7 +62,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- (prefixed waw on ܘܡܠܦ) / et"
     },
     {
       "greek_nt": [
@@ -77,7 +77,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect indicative ἐδίδασκεν; Vulgate mirrors with imperfect docebat; Peshitta employs periphrastic construction ܡܠܦ ܗܘܐ (participle + auxiliary), a standard Syriac idiom for expressing continuous past action."
+      "note": "Greek expresses the imperfect ἐδίδασκεν synthetically with a single inflected verb; the Peshitta renders the same durative past periphrastically with the participle ܡܠܦ plus the enclitic auxiliary ܗܘܐ, a standard Syriac strategy for continuous past action. Latin docebat matches the Greek synthetic imperfect."
     },
     {
       "greek_nt": [
@@ -89,38 +89,48 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses accusative αὐτοὺς as direct object; Vulgate uses accusative eos; Peshitta uses prepositional phrase ܠܗܘܢ (l-hon, 'to them'), reflecting Syriac's preference for marking direct objects of teaching verbs with the preposition l-."
+      "variant": "aligned",
+      "note": "αὐτούς / ܠܗܘܢ / eos"
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "ἐν / ܒ- / in"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        3,
         4
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places πολλὰ (neuter accusative plural, 'many things') after παραβολαῖς, functioning adverbially; Latin multa follows the same post-nominal position; Syriac ܣܓܝ (saggi, 'much/many') follows ܒܡܬܠܐ but uses singular form, a typical Syriac idiom treating abstract or collective nouns as singular masses."
+      "type": "grammar",
+      "note": "Greek παραβολαῖς and Latin parabolis are plural ('in parables'); the Syriac ܒܡܬܠܐ is morphologically singular/collective, treating the genre as a mass-category, though the sense is equivalent. Note the Syriac preposition ܒ- and noun are written as one orthographic token, hence the shared index."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "πολλά / ܣܓܝ / multa"
     },
     {
       "greek_nt": [
@@ -133,7 +143,7 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- (prefixed waw on ܘܐܡܪ) / et"
     },
     {
       "greek_nt": [
@@ -148,19 +158,18 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect ἔλεγεν; Vulgate uses imperfect dicebat; Peshitta again employs periphrastic ܘܐܡܪ ܗܘܐ (participle + auxiliary), parallel to the construction in token group 1, maintaining stylistic consistency in rendering Greek imperfects."
+      "note": "As with the earlier verb, the Greek imperfect ἔλεγεν and Latin dicebat are synthetic, whereas the Peshitta uses the periphrastic participle ܐܡܪ with the auxiliary ܗܘܐ to convey iterative past speech."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
       "vulgate": [
         8
       ],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek αὐτοῖς (dative, 'to them') and Vulgate illis are present; Peshitta omits the indirect object pronoun, as the preceding context (ܠܗܘܢ in token 2) establishes the audience and Syriac permits ellipsis of redundant pronominal references within the same sentence."
+      "note": "Greek αὐτοῖς and Latin illis supply an explicit indirect object ('to them'); the Peshitta has no corresponding pronoun in this clause, the addressee being recoverable from the earlier ܠܗܘܢ, so the dative is left implicit."
     },
     {
       "greek_nt": [
@@ -175,27 +184,28 @@
       "vulgate": [
         9,
         10,
-        11,
-        12
+        11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν τῇ διδαχῇ αὐτοῦ with article and possessive genitive; Vulgate mirrors with in doctrina sua (possessive adjective); Peshitta uses construct state ܒܝܘܠܦܢܗ (b-yulpāneh, 'in-his-teaching'), a single bound form with pronominal suffix, reflecting Syriac's preference for synthetic rather than analytic possessive constructions."
+      "note": "The phrase 'in his teaching' is built analytically in Greek (ἐν τῇ διδαχῇ αὐτοῦ) and Latin (in doctrina sua) with preposition, article/noun, and possessive; Syriac compresses the whole into the single token ܒܝܘܠܦܢܗ, prefixing the preposition ܒ- and suffixing the third-person possessive to the noun ܝܘܠܦܢ."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        12
+      ],
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Greek raised dot (·) and the Vulgate colon (:) both mark a major pause introducing the parable that follows; the Peshitta carries no corresponding punctuation token in this edition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.963123+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.495111+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

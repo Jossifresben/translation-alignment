@@ -82,34 +82,52 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
+      "variant": "omitted",
       "type": "omission",
-      "note": "Greek employs three particles (ὁ καὶ δέ) to mark the narrative transition and subject; Peshitta omits all three, beginning directly with the verb; Vulgate retains only the adversative autem, reflecting a stylistic preference for lighter connectives in Latin."
+      "note": "The Greek text as tokenised here carries a stray initial article Ὁ before the conjunction, attested in some manuscript layouts as a sentence-opening doublet. It has no counterpart in the Peshitta or Vulgate and represents a textual artefact rather than a substantive reading."
     },
     {
       "greek_nt": [
-        3,
+        1,
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with the coordinating pair Καὶ...δὲ, while the Vulgate renders only the adversative autem and the Peshitta folds the connective into the verb prefix ܘ- ('and') on ܘܩܪܐ. The three traditions thus distribute the discourse connective differently between conjunction and verb."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist middle participle προσκαλεσάμενος ('having summoned'), the Vulgate a present participle vocans, while the Peshitta employs a finite perfect ܘܩܪܐ ('and he called'). The Syriac converts the Greek participial subordination into paratactic finite coordination, a regular feature of Syriac narrative style."
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses an aorist participle προσκαλεσάμενος αὐτούς (having called them) before the main verb; Vulgate mirrors this with vocans eos; Peshitta employs a finite verb ܘܩܪܐ ܐܢܘܢ (and he called them) in coordinate construction, a typical Semitic preference for parataxis over participial subordination."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -123,26 +141,35 @@
         0
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek includes the definite article ὁ before Ἰησοῦς, standard in Koine for proper names; Peshitta ܝܫܘܥ and Vulgate Jesus lack articles, consistent with Syriac and Latin nominal syntax where proper names are inherently definite."
+      "type": "word-order",
+      "note": "Greek and Peshitta place the subject 'Jesus' after the verb (with Greek supplying the article ὁ), whereas the Vulgate fronts Jesus to clause-initial position; all three agree on the named subject."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the historic present λέγει, the Vulgate a present ait, while the Peshitta again renders a finite perfect ܘܐܡܪ ('and said') prefixed with the connective, smoothing the dramatic present into a coordinated past."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek λέγει αὐτοῖς and Peshitta ܘܐܡܪ ܠܗܘܢ employ no punctuation before direct speech; Vulgate inserts a colon after illis, reflecting medieval Latin scribal convention for marking oratio recta."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -156,8 +183,8 @@
         7
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Greek οἴδατε (you know) is second-person plural implicit; Peshitta makes the subject explicit with ܝܕܥܝܢ ܐܢܬܘܢ (you [pl.] know), a common Syriac clarification; Vulgate Scitis matches Greek in leaving the subject unmarked."
+      "type": "idiom",
+      "note": "Greek expresses the second-person plural synthetically in οἴδατε; the Vulgate likewise in Scitis. The Peshitta analytically separates the participle ܝܕܥܝܢ from the independent pronoun ܐܢܬܘܢ ('you know'), a standard Syriac periphrastic construction for the present tense."
     },
     {
       "greek_nt": [
@@ -177,7 +204,6 @@
         12
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
@@ -187,34 +213,25 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek οἱ δοκοῦντες (those being accounted) uses an article + present participle; Peshitta ܕܐܝܠܝܢ ܕܡܣܬܒܪܝܢ employs a double-headed relative construction (d- + demonstrative + d- + participle); Vulgate hi qui videntur uses a demonstrative + relative pronoun + finite verb, all semantically equivalent but syntactically distinct."
+      "note": "Greek substantivises with article plus participle οἱ δοκοῦντες ('those who are accounted'); the Vulgate expands this into a demonstrative plus relative clause hi qui videntur; the Peshitta uses the relative particle plus passive participle ܕܡܣܬܒܪܝܢ. All convey 'those reputed/seeming', but each tradition selects a different syntactic vehicle."
     },
     {
       "greek_nt": [
-        13
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἄρχειν (to rule, infinitive) is rendered by Peshitta ܪܫܐ (heads/rulers, nominal form) and Vulgate principari (to rule as prince, infinitive); Peshitta shifts from verbal to nominal construction while preserving the semantic field of governance."
-    },
-    {
-      "greek_nt": [
+        13,
         14,
         15
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        12,
         13
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use the infinitive of rule (ἄρχειν / principari) governing the genitive 'of the Gentiles', whereas the Peshitta nominalises the idea with ܪܫܐ ('head, chief') in construct with ܕܥܡܡܐ ('of the peoples'), substituting a noun phrase for the Greek verbal complement."
     },
     {
       "greek_nt": [
@@ -227,12 +244,11 @@
       ],
       "vulgate": [
         14,
-        15,
-        16
+        15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek κατακυριεύουσιν αὐτῶν (they lord over them) uses a compound verb + genitive object; Peshitta ܡܪܝܗܘܢ ܐܢܘܢ (they are lords of them) employs a nominal predicate construction; Vulgate dominantur eis uses a deponent verb + dative, followed by a colon for rhetorical pause absent in Greek and Syriac."
+      "type": "lexical",
+      "note": "Greek's compound κατακυριεύουσιν ('lord it over') and Latin dominantur convey forceful domination, while the Peshitta uses the nominal predicate ܡܪܝܗܘܢ ܐܢܘܢ ('are their lords/masters'), from root m-r-y, reframing the verbal act of domination as a static relationship of lordship."
     },
     {
       "greek_nt": [
@@ -260,8 +276,8 @@
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek οἱ μεγάλοι αὐτῶν (the great ones of them) uses article + adjective + genitive pronoun; Peshitta ܘܪܘܪܒܢܝܗܘܢ (and their nobles) employs a single compound noun with pronominal suffix; Vulgate principes eorum (princes of them) uses a noun + genitive pronoun, all expressing the same referent with different morphological strategies."
+      "type": "lexical",
+      "note": "Greek οἱ μεγάλοι αὐτῶν ('their great ones') and Latin principes eorum ('their chiefs') both render the magnates, while the Peshitta uses a single derived term ܘܪܘܪܒܢܝܗܘܢ ('and their nobles/magnates') prefixed with the connective, lexically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -279,13 +295,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek κατεξουσιάζουσιν αὐτῶν (they exercise authority over them) uses a compound verb + genitive; Peshitta ܫܠܝܛܝܢ ܥܠܝܗܘܢ (they have authority over them) employs an adjective + prepositional phrase; Vulgate potestatem habent ipsorum (they have power over them) uses a noun + verb + genitive, reflecting Latin's preference for analytic constructions over synthetic Greek compounds."
+      "note": "Greek uses the single compound verb κατεξουσιάζουσιν ('exercise authority over'); the Vulgate periphrastically renders potestatem habent ipsorum ('hold power over them'); the Peshitta uses the participial predicate ܫܠܝܛܝܢ ܥܠܝܗܘܢ ('are in authority over them'), from root sh-l-T. Each tradition expresses the exercise of authority through a structurally distinct construction."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.013576+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.532344+00:00",
+    "confidence": 0.84,
     "schema_version": 1
   }
 }

@@ -92,24 +92,43 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
-        1,
-        2,
-        3
+        1
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        1,
-        2
+        1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a genitive absolute construction (καταβαινόντων δὲ αὐτῶν) with the postpositive particle δέ; Latin uses a simple ablative absolute (descendentibus illis) without a connective; Syriac uses a temporal clause with ܟܕ ('when') plus active participle, all expressing the same temporal circumstance."
+      "note": "The Greek genitive absolute (καταβαινόντων) and the Latin ablative absolute (descendentibus) both encode the temporal circumstantial clause through case morphology, whereas the Syriac employs a finite clause introduced by the conjunction ܘܟܕ ('and when') with the participle ܢܚܬܝܢ, a typical Semitic temporal construction."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek transitional particle δέ ('now, but') is left untranslated in both the Peshitta and the Vulgate, which is routine since neither Syriac nor Latin requires a discourse particle here and the connective force is already carried by the initial conjunction."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek expresses the subject of the absolute construction explicitly with αὐτῶν, matched by Latin illis; the Peshitta encodes the third-person plural subject inflectionally within the participle ܢܚܬܝܢ and supplies no separate pronoun, a normal Syriac economy."
     },
     {
       "greek_nt": [
@@ -127,25 +146,35 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the articular genitive τοῦ ὄρους ('the mountain') with preposition ἐκ; Latin mirrors this with de monte (ablative with article implied in punctuation); Syriac uses ܡܢ ܛܘܪܐ ('from the mountain') in the emphatic state, functionally equivalent but without a separate article token."
+      "note": "Greek and Latin both render the articular/definite phrase ('from the mountain', ἐκ τοῦ ὄρους / de monte), while the Syriac ܡܢ ܛܘܪܐ omits any explicit article, definiteness being unmarked here; the Vulgate also attaches a comma after monte."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
         4,
-        5,
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin use a simple aorist/perfect finite verb (διεστείλατο / præcepit), whereas the Syriac forms a periphrastic past with the participle ܡܦܩܕ plus the auxiliary ܗܘܐ ('was commanding'), the standard Syriac means of expressing past durative or background action."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek διεστείλατο αὐτοῖς is aorist middle indicative with dative object; Latin præcepit illis uses active voice with dative; Syriac employs a periphrastic construction ܡܦܩܕ ܗܘܐ ܠܗܘܢ (participle + auxiliary 'was commanding to them'), reflecting Syriac preference for analytic verb forms in narrative past contexts."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis"
     },
     {
       "greek_nt": [
@@ -153,84 +182,93 @@
       ],
       "peshitta": [],
       "vulgate": [],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the purpose conjunction ἵνα to introduce the content clause; both Peshitta and Vulgate omit an explicit purpose marker, instead using direct construction (Syriac ܕ- relativizer, Latin ne + subjunctive), achieving the same semantic force through different syntactic means."
+      "note": "Greek introduces the content of the command with the conjunction ἵνα governing a subjunctive; both Latin (ne ... narrarent) and Syriac (ܕ- ... ܠܐ ܢܐܡܪܘܢ) absorb this into a negated final/jussive clause without a separate positive conjunction."
     },
     {
       "greek_nt": [
         10
       ],
       "peshitta": [
-        7
+        7,
+        8
       ],
       "vulgate": [
         7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek compresses the prohibition into the single negative indefinite μηδενί ('to no one'); Latin analyses it into ne ... cuiquam and Syriac into ܕܠܐܢܫ ... ܠܐ ('to anyone ... not'), distributing the negation across two words as their grammars require."
     },
     {
       "greek_nt": [
-        11,
-        12
+        11
       ],
       "peshitta": [
         10,
         11
       ],
       "vulgate": [
-        9,
+        9
+      ],
+      "variant": "aligned",
+      "note": "ἃ / ܡܕܡ ܕ- / quæ"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [],
+      "vulgate": [
         10
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the relative pronoun ἃ before the verb εἶδον ('what they saw'); Vulgate follows this order (quæ vidissent); Syriac reverses to ܡܕܡ ܕܚܙܘ ('anything that they saw'), placing the indefinite substantive before the relative clause, a typical Semitic construction pattern."
+      "variant": "aligned",
+      "note": "εἶδον / ܚܙܘ (within ܕܚܙܘ) / vidissent"
     },
     {
       "greek_nt": [
         13
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        11
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist subjunctive διηγήσωνται in a negative purpose clause; Latin employs present subjunctive narrarent; Syriac constructs the prohibition with ܠܐ ܢܐܡܪܘܢ ('not they should say'), using the common verb 'to say' rather than a specific 'narrate' verb, semantically equivalent in context."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after narrarent to mark the transition to the exceptive clause, a punctuation convention absent in the Greek and Syriac manuscript traditions which use no such medial stop."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the somewhat fuller verb διηγέομαι ('to recount in detail'), whereas the Peshitta ܢܐܡܪܘܢ and the Vulgate narrarent employ the more general verbs 'to say/tell'; the Vulgate additionally inserts a colon for sense division."
     },
     {
       "greek_nt": [
         14,
-        15,
-        16
+        15
       ],
       "peshitta": [
         12,
-        13,
+        13
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "εἰ μή / ܐܠܐ ܐܢ / nisi"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
         14
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the compound exceptive εἰ μὴ ὅταν ('except when'); Latin employs nisi cum with identical force; Syriac uses ܐܠܐ ܐܢ ܡܐ (literally 'but if when'), a triple-particle construction typical of Syriac exceptive-temporal clauses, all three traditions expressing the same restrictive temporal condition."
+      "variant": "aligned",
+      "note": "ὅταν / ܡܐ ܕ- / cum"
     },
     {
       "greek_nt": [
@@ -249,7 +287,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the articular nominative ὁ υἱὸς τοῦ ἀνθρώπου with double article (before 'Son' and 'Man'); Latin Filius hominis omits articles as per Latin grammar; Syriac ܒܪܗ ܕܐܢܫܐ uses the emphatic state on both nouns with genitive particle ܕ-, functionally equivalent to the Greek articulation."
+      "note": "Greek marks 'the Son of Man' with two articles (ὁ υἱὸς τοῦ ἀνθρώπου); Latin renders it anarthrously as Filius hominis (Latin lacking the article), and the Syriac uses the construct/possessive ܒܪܗ ܕܐܢܫܐ ('the Son of Man'), each idiomatically appropriate to its language."
     },
     {
       "greek_nt": [
@@ -264,9 +302,8 @@
         17,
         18
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐκ νεκρῶν uses the preposition ἐκ ('out from') with genitive plural adjective; Latin a mortuis uses ab with ablative plural; Syriac ܡܢ ܡܝܬܐ employs ܡܢ with the emphatic plural, all three expressing resurrection 'from among the dead' with tradition-specific prepositional idioms."
+      "variant": "aligned",
+      "note": "ἐκ νεκρῶν / ܡܢ ܡܝܬܐ / a mortuis"
     },
     {
       "greek_nt": [
@@ -280,13 +317,13 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the aorist subjunctive ἀναστῇ at the end of the clause; Latin resurrexerit (perfect subjunctive) likewise appears clause-finally; Syriac ܕܩܡ ('that he rises') appears earlier in the clause structure, immediately after the temporal particle ܡܐ, reflecting Syriac preference for verb-initial ordering in subordinate clauses."
+      "note": "All three attest the resurrection verb (ἀναστῇ / ܩܡ / resurrexerit), but the Syriac ܡܐ ܕܩܡ places the verb immediately after the temporal conjunction at the head of the clause, preceding the subject 'Son of Man', whereas Greek and Latin keep the verb final after the subject."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.230734+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.513880+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

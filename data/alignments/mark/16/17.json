@@ -102,7 +102,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + aorist participle (τοῖς πιστεύσασιν, dative substantival); Vulgate employs a relative clause construction (eos qui crediderint, accusative + perfect subjunctive); Peshitta mirrors the Greek participial structure with ܠܐܝܠܝܢ ܕܡܗܝܡܢܝܢ. All three are semantically equivalent but syntactically distinct."
+      "note": "Greek expresses the indirect object with a substantivised aorist participle (τοῖς πιστεύσασιν, 'those who believed'); the Vulgate unpacks this into a relative clause with a perfect subjunctive (eos qui crediderint); the Peshitta likewise employs a relative construction ܠܐܝܠܝܢ ܕܡܗܝܡܢܝܢ with the participle ('to those who believe'). Semantically equivalent, syntactically divergent renderings of the participial idea."
     },
     {
       "greek_nt": [
@@ -124,19 +124,12 @@
         5
       ],
       "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        6,
         7
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after 'sequentur' to mark the beginning of the enumeration of signs. Neither Greek nor Peshitta manuscripts employ punctuation at this juncture, though the semantic break is implicit in all three traditions."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek παρακολουθήσει ('will follow alongside, attend') is a compound conveying close accompaniment; the Vulgate sequentur and the Peshitta ܢܩܦܢ ('will follow/cling to') both render the simple notion of following without the intensifying preverb of the Greek compound."
     },
     {
       "greek_nt": [
@@ -155,7 +148,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase with article (ἐν τῷ ὀνόματί μου, 'in the name of me'); Vulgate mirrors this structure (in nomine meo); Peshitta employs a bound-state construction (ܒܫܡܝ, 'in-my-name'), a typical Semitic compression that fuses preposition, noun, and possessive suffix into a single morphological unit."
+      "note": "Greek uses the full prepositional phrase with article and pronoun (ἐν τῷ ὀνόματί μου), matched periphrastically by the Vulgate (in nomine meo); the Peshitta compresses the entire phrase into a single inflected form ܒܫܡܝ ('in my name'), with the preposition and possessive suffix synthetically incorporated."
     },
     {
       "greek_nt": [
@@ -177,36 +170,24 @@
         8
       ],
       "vulgate": [
-        12
+        12,
+        13
       ],
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        13
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a second colon after 'ejicient' to separate the first sign from the second. This reflects Latin rhetorical convention for enumerating parallel clauses; Greek and Peshitta rely on asyndetic juxtaposition without explicit punctuation."
-    },
-    {
       "greek_nt": [
-        12,
-        14
+        12
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
       "vulgate": [
-        14,
-        16
+        14
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the adjective after the noun (γλώσσαις... καιναῖς / linguis... novis, attributive position); Peshitta reverses the order (ܒܠܫܢܐ ܚܕܬܐ, 'in-tongue new'), following standard Semitic adjective-follows-noun syntax. The semantic content is identical across all three witnesses."
+      "type": "construction",
+      "note": "Greek γλώσσαις and Vulgate linguis place the noun asyndetically at the head of the clause; the Peshitta prefixes the conjunctive waw and preposition in ܘܒܠܫܢܐ ('and with tongues'), supplying a connective absent in the Greek and Latin and rendering the noun in the singular as a collective."
     },
     {
       "greek_nt": [
@@ -221,20 +202,25 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        10
+      ],
       "vulgate": [
+        16,
         17
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate concludes the verse with a third colon, anticipating further enumeration in the following verse. Greek and Peshitta manuscripts do not mark this boundary with punctuation, treating the list as a continuous syntactic unit."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The attributive adjective 'new' (καιναῖς / novis / ܚܕܬܐ) is post-posed after the verb in Greek and Latin (γλώσσαις ... καιναῖς; linguis ... novis), whereas the Peshitta places ܚܕܬܐ immediately after its head noun ܘܒܠܫܢܐ, reflecting standard Syriac noun-adjective order."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.057043+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.464569+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

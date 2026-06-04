@@ -70,21 +70,18 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek προσελθὼν ('having come to') is matched by Latin accedens, both participles; the Peshitta absorbs the notion of approach into ܘܩܪܒ ('and he drew near'), already aligned with the preceding καί, leaving no separate token for the participle here."
     },
     {
       "greek_nt": [
@@ -99,41 +96,74 @@
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs two aorist participles (προσελθών, κρατήσας) followed by the main verb ἤγειρεν, creating a temporal sequence. Peshitta reverses the order, placing 'took hold' (ܐܚܕܗ) before 'raised up' (ܘܐܩܝܡܗ), while Vulgate mirrors the Greek structure with accedens...elevavit...apprehensa, though the participial syntax differs slightly."
+      "note": "The Greek and Latin place the raising up (ἤγειρεν αὐτὴν / elevavit eam) before the seizing of the hand, whereas the Peshitta ܘܐܩܝܡܗ ('and he raised her') follows the grasping clause, a word-order inversion typical of Syriac narrative sequencing."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek aorist participle κρατήσας ('having taken hold') and Latin perfect passive participle apprehensa render the seizure subordinately; the Peshitta ܐܚܕܗ uses a finite verb with object suffix ('he took hold of her'), a paratactic rather than participial construction."
+    },
+    {
+      "greek_nt": [
         5,
         6,
         7
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        4,
         5,
-        6,
-        7
+        6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek τῆς χειρός αὐτῆς and Latin manu ejus express 'of her hand' analytically; the Peshitta ܒܐܝܕܗ collapses the genitive into a prepositional phrase with possessive suffix ('by her hand'), and notably the Syriac suffix here is morphologically masculine in form though contextually feminine."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [
-        4
-      ],
+      "peshitta": [],
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek καί and Latin et open the second clause; the Peshitta lacks a discrete conjunction at this point because the clausal coordination is carried by ܘܡܚܕܐ ('and immediately'), which fuses conjunction and adverb."
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -146,64 +176,49 @@
         9
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adverb εὐθέως ('immediately') after the verb ἀφῆκεν, while Vulgate positions continuo before dimisit. Peshitta integrates the immediacy concept within ܘܡܚܕܐ ('and immediately'), which precedes the verb, reflecting typical Semitic adverbial placement."
-    },
-    {
-      "greek_nt": [
-        9,
-        10,
-        11,
-        12
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        10,
-        11,
-        12
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "All three render 'immediately' (εὐθέως / continuo / ܡܚܕܐ), but its position differs: Greek and Latin place it after the verb of leaving, while the Peshitta ܘܡܚܕܐ fronts the adverb at the head of the clause, reflecting Syriac preference for clause-initial temporal markers."
     },
     {
       "greek_nt": [
         14
       ],
-      "peshitta": [
-        7
-      ],
+      "peshitta": [],
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        15,
-        16
+        15
       ],
       "peshitta": [
         7,
-        8,
+        8
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek imperfect διηκόνει and Latin imperfect ministrabat express the durative 'was serving'; the Peshitta achieves the same continuous aspect periphrastically with participle plus enclitic ܗܘܬ (ܘܡܫܡܫܐ ܗܘܬ), the standard Syriac means of marking the past progressive."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
         9
       ],
       "vulgate": [
-        14,
         15
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the imperfect διηκόνει (simple verb form) with dative pronoun αὐτοῖς. Peshitta employs a periphrastic construction ܡܫܡܫܐ ܗܘܬ (participle + auxiliary 'was'), a common Syriac pattern for expressing continuous past action. Vulgate uses the simple imperfect ministrabat, aligning with Greek syntax."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.948367+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.550122+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

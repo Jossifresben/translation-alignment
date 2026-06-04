@@ -50,109 +50,79 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        2,
-        3
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
       ],
       "variant": "minor",
-      "type": "omission",
-      "note": "The Greek employs a double conjunction δέ ... καί ('now ... and') for stylistic emphasis, creating a three-part coordination. The Peshitta omits this intermediate conjunction entirely, using simple waw-consecutive constructions throughout. The Vulgate retains only the second καί as et, producing a simpler two-part coordination that aligns functionally with the Peshitta's streamlined syntax."
+      "type": "construction",
+      "note": "All three open the verse with a coordinating conjunction plus the aorist/perfect verb of eating (ἔφαγον / ܐܟܠܘ / manducaverunt). Syriac fuses conjunction and verb into a single prefixed form ܘܐܟܠܘ, whereas Greek and Latin keep them as separate tokens."
     },
     {
       "greek_nt": [
+        2
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek postpositive particle δέ ('now, and') has no counterpart in either the Peshitta or the Vulgate, both of which render the narrative connective with simple conjunction only. The doubled καὶ … δέ is a Markan stylistic feature not reproduced in the versions."
+    },
+    {
+      "greek_nt": [
+        3,
         4
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
+        2,
         3,
         4
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the aorist passive ἐχορτάσθησαν ('were satisfied'), a single synthetic verb form. Vulgate renders this analytically with saturati sunt (perfect passive participle + auxiliary), while Peshitta employs the simple perfect ܘܣܒܥܘ. All three convey identical semantics but reflect each tradition's preferred aspectual and voice-marking strategies."
+      "note": "Greek expresses 'and were satisfied' with conjunction plus passive aorist ἐχορτάσθησαν; Latin uses a periphrastic passive (saturati sunt) requiring two tokens plus its conjunction; Syriac again fuses conjunction and verb in ܘܣܒܥܘ (root s-b-e, cognate with Hebrew שׂבָע). Semantically identical, syntactically divergent."
     },
     {
       "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
+        5,
         6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        7,
-        8
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek περισσεύματα is a substantive noun ('overflow, abundance'). Vulgate expands this into a relative clause quod superaverat ('that which had been left over'), making the participial sense explicit. Peshitta uses the noun ܬܘܬܪܐ ('remainder'), semantically equivalent but syntactically simpler, paralleling the Greek nominal strategy."
+      "note": "The verb of gathering up the remnants (ἦραν / ܫܩܠܘ / sustulerunt) is preceded by a conjunction in all three; Syriac fuses the two as ܘܫܩܠܘ while Greek and Latin keep them discrete."
     },
     {
       "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
+        7,
+        8,
         9,
         10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek κλασμάτων is a genitive plural modifying περισσεύματα ('overflow of fragments'). Vulgate renders this with the partitive prepositional phrase de fragmentis ('from/of fragments'), employing Latin's analytic genitive-substitute construction. Peshitta uses the construct state ܕܩܨܝܐ, the standard Semitic genitive equivalent, yielding identical semantics through language-specific morphosyntax."
+      "note": "Greek has a compact noun phrase 'leftovers of fragments' (περισσεύματα κλασμάτων); Syriac mirrors this with construct-like ܬܘܬܪܐ ܕܩܨܝܐ ('remnants of pieces'). The Vulgate paraphrases with a relative clause, quod superaverat de fragmentis ('what had remained over of the fragments'), a syntactic expansion of the same idea rather than a literal rendering."
     },
     {
       "greek_nt": [
@@ -164,7 +134,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἑπτὰ / ܫܒܥܐ / septem"
     },
     {
       "greek_nt": [
@@ -176,13 +148,15 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "The Greek σπυρίδας (large rope baskets, distinct from the κόφινοι of the feeding of the five thousand) is rendered by the Syriac loan-word ܐܣܦܪܝܕܝܢ, itself a transliteration of the same Greek term, while the Latin sportas is the standard cognate Latin loan. All three preserve the lexical distinction proper to the second feeding miracle."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.994957+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.515684+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

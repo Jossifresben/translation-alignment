@@ -70,8 +70,7 @@
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses conjunction καὶ plus temporal adverb τότε ('and then'); Syriac employs the compound temporal conjunction ܘܗܝܕܝܢ ('and then' as single unit); Vulgate mirrors Greek structure with Et tunc. Semantically equivalent, syntactically distinct."
+      "note": "Greek καὶ τότε and Latin Et tunc render the conjunction and temporal adverb as two discrete words; the Peshitta fuses both into the single compound ܘܗܝܕܝܢ ('and-then'), a typical Syriac orthographic synthesis of the proclitic waw with the demonstrative-temporal adverb."
     },
     {
       "greek_nt": [
@@ -83,9 +82,8 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Peshitta ܢܚܙܘܢܝܗܝ includes a third-person masculine singular object suffix ('him'), making the direct object explicit, whereas Greek ὄψονται and Latin videbunt leave the object implicit until the following accusative phrase. This represents typical Syriac preference for pronominal anticipation of the object."
+      "variant": "aligned",
+      "note": "ὄψονται / ܢܚܙܘܢܝܗܝ / videbunt"
     },
     {
       "greek_nt": [
@@ -102,9 +100,8 @@
         3,
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the definite article τὸν with υἱὸν τοῦ ἀνθρώπου ('the Son of Man'); Syriac uses the prefixed preposition-article ܠܒܪܗ ('to/for the Son') with ܕܐܢܫܐ ('of man'); Vulgate lacks articles (Filium hominis). The Syriac ܠ- prefix marks the definite direct object, a construction absent in Greek and Latin."
+      "variant": "aligned",
+      "note": "τὸν υἱὸν τοῦ ἀνθρώπου / ܠܒܪܗ ܕܐܢܫܐ / Filium hominis"
     },
     {
       "greek_nt": [
@@ -119,7 +116,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present participle ἐρχόμενον ('coming'); Latin employs present participle venientem; Syriac renders with temporal particle ܟܕ plus finite verb ܐܬܐ ('when he comes'), converting the participial construction into a temporal clause. Semantically equivalent but syntactically restructured."
+      "note": "Greek and Latin use a present participle (ἐρχόμενον / venientem, 'coming') functioning attributively with the accusative object; the Peshitta instead employs a finite clause introduced by ܟܕ ('when/as') plus the verb ܐܬܐ ('he comes'), a circumstantial-clause construction semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -133,25 +130,48 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐν νεφέλαις and Latin in nubibus both render 'clouds' as plural; the Peshitta ܒܥܢܢܐ presents the noun in the singular, a recurrent Syriac idiom whereby collective atmospheric mass-nouns are construed in the singular without numerical implication."
     },
     {
       "greek_nt": [
-        10,
-        11,
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "μετὰ / ܥܡ / cum"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "δυνάμεως / ܚܝܠܐ / virtute"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        7,
-        8,
         9
       ],
       "vulgate": [
-        8,
-        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "πολλῆς / ܪܒܐ / multa"
     },
     {
       "greek_nt": [
@@ -168,13 +188,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Latin coordinate δόξης / gloria with the preceding δυνάμεως πολλῆς / virtute multa using conjunction καὶ / et; Syriac repeats the preposition ܥܡ ('with') before ܫܘܒܚܐ ('glory'), creating parallel prepositional phrases rather than a single coordinated genitive construction. Stylistic variation with identical semantic force."
+      "note": "Greek καὶ δόξης and Latin et gloria coordinate 'glory' under the single governing preposition (μετὰ / cum), so the preposition is not repeated; the Peshitta repeats the preposition in ܘܥܡ ܫܘܒܚܐ ('and with glory'), a Syriac stylistic preference for explicitly governing each conjoined object."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.032277+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.415731+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

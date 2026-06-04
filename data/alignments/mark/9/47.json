@@ -102,11 +102,12 @@
         0
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses καὶ ἐάν ('and if') for the conditional protasis; Vulgate employs Quod si ('but if'), a stylistic Latin variant emphasizing contrast; Peshitta uses simple ܘܐܢ ('and if'), aligning semantically with Greek but lacking the contrastive nuance of the Vulgate."
+      "type": "construction",
+      "note": "Greek opens with paratactic καὶ ἐάν ('and if'); the Peshitta fuses these into a single conditional particle ܘܐܢ, while the Vulgate recasts the connective as the relative-conditional Quod si, a stylistic Latin idiom that subordinates the clause to the preceding context rather than coordinating it."
     },
     {
       "greek_nt": [
@@ -122,8 +123,8 @@
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the article ὁ before ὀφθαλμός σου ('the eye of you'); Vulgate mirrors this with oculus tuus (noun-possessive order); Peshitta uses ܥܝܢܟ ('your eye') with the pronominal suffix, a typical Semitic construction lacking the article."
+      "type": "construction",
+      "note": "Greek expresses 'your eye' analytically with article + noun + enclitic genitive (ὁ ὀφθαλμός σου); the Vulgate parallels this with oculus tuus, whereas Syriac employs the synthetic pronominal suffix ܥܝܢܟ, a single morphological word for the same phrase."
     },
     {
       "greek_nt": [
@@ -138,45 +139,36 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "σκανδαλίζῃ σε / ܡܟܫܠܐ ܠܟ / scandalizat te."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        6,
-        7
+        6
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἔκβαλε αὐτόν ('cast it out') uses the compound verb ἐκβάλλω; Vulgate ejice eum employs the simple verb ejicere; Peshitta ܚܨܝܗ ('pluck it out') uses a different root, semantically equivalent but lexically distinct from the Greek compound."
+      "note": "Greek ἔκβαλε ('cast out') and Latin ejice both denote violent expulsion; the Syriac ܚܨܝܗ derives from a root meaning 'pluck/tear out', a slightly more graphic lexeme reflecting the physical extraction of the offending eye."
     },
     {
-      "greek_nt": [],
-      "peshitta": [
-        5,
-        6,
-        7
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta inserts ܦܩܚ ܗܘ ܠܟ ('it is better for you'), an explanatory expansion making the comparative structure explicit before the main clause. Neither Greek nor Vulgate transmit this phrase at this position; both place the comparative adjective after the imperative."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+      "greek_nt": [
         8
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after eum, marking a syntactic break between the imperative and the comparative clause. Neither Greek nor Peshitta manuscripts typically employ such punctuation at this juncture."
+      "peshitta": [],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek pronominal object αὐτόν ('it') is rendered in Latin by eum followed by editorial colon punctuation; the Peshitta omits the explicit object pronoun entirely, the verbal suffix on ܚܨܝܗ already encoding the object."
     },
     {
       "greek_nt": [
@@ -184,15 +176,19 @@
         10,
         11
       ],
-      "peshitta": [],
+      "peshitta": [
+        5,
+        6,
+        7
+      ],
       "vulgate": [
         9,
         10,
         11
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the comparative adjective καλόν σέ ἐστιν ('better for you it is') with the accusative σέ before the verb; Vulgate bonum est tibi uses the dative tibi, a standard Latin construction. Peshitta omits this phrase here, having already expressed it earlier (tokens 5–7)."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καλόν σέ ἐστιν / ܦܩܚ ܗܘ ܠܟ / bonum est tibi."
     },
     {
       "greek_nt": [
@@ -207,11 +203,24 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek μονόφθαλμον ('one-eyed') is a single compound adjective; Vulgate luscum ('one-eyed, blind in one eye') is a single lexeme; Peshitta uses the prepositional phrase ܕܒܚܕܐ ܥܝܢܟ ('with one eye of yours'), a periphrastic construction semantically equivalent but syntactically expanded."
+      "note": "Greek uses the compact adjective μονόφθαλμον ('one-eyed') matched by Latin luscum; Syriac unpacks the same notion periphrastically as ܕܒܚܕܐ ܥܝܢܟ ('with one eye of yours'), preferring an analytic phrase over a single lexeme."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἰσελθεῖν / ܬܥܘܠ / introire."
+    },
+    {
+      "greek_nt": [
         14,
         15,
         16,
@@ -219,19 +228,17 @@
         18
       ],
       "peshitta": [
-        10,
         11,
         12
       ],
       "vulgate": [
-        13,
         14,
         15,
         16
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the articular construction εἰς τὴν βασιλείαν τοῦ θεοῦ ('into the kingdom of God') with double articles; Vulgate in regnum Dei omits articles (Latin lacks them); Peshitta ܠܡܠܟܘܬܗ ܕܐܠܗܐ ('to his kingdom of God') employs a pronominal suffix on 'kingdom', a Semitic idiom not present in Greek or Latin."
+      "note": "Greek 'into the kingdom of God' uses preposition + article + noun + genitive article + θεοῦ; Latin reduces the articles (in regnum Dei); Syriac compresses 'his kingdom of God' into ܠܡܠܟܘܬܗ ܕܐܠܗܐ with a proleptic pronominal suffix on 'kingdom', an idiomatic Syriac anticipatory possessive construction."
     },
     {
       "greek_nt": [
@@ -243,7 +250,9 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἢ / ܐܘ / quam."
     },
     {
       "greek_nt": [
@@ -265,58 +274,48 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek δύο ὀφθαλμοὺς ἔχοντα ('two eyes having') uses a present participle modifying the implied subject; Vulgate duos oculos habentem mirrors this with a Latin participle; Peshitta ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܥܝܢܝܢ ('while there are to you two eyes') employs a temporal/circumstantial clause with the existential particle ܐܝܬ, a distinct Syriac syntactic pattern."
+      "note": "Greek 'having two eyes' is a participial phrase (δύο ὀφθαλμοὺς ἔχοντα) closely mirrored by Latin duos oculos habentem; Syriac recasts it as a circumstantial existential clause ܟܕ ܐܝܬ ܠܟ ܬܪܬܝܢ ܥܝܢܝܢ ('while there are to you two eyes'), the standard Syriac idiom for possession lacking a verb 'to have'."
     },
     {
       "greek_nt": [
-        23,
-        24,
-        25,
-        26
-      ],
-      "peshitta": [
-        19,
-        20
-      ],
-      "vulgate": [
-        21,
-        22,
         23
       ],
+      "peshitta": [
+        19
+      ],
+      "vulgate": [
+        21
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek βληθῆναι εἰς τὴν γέενναν ('to be cast into Gehenna') uses an aorist passive infinitive with the article; Vulgate mitti in gehennam employs a passive infinitive without article (Latin lacks them); Peshitta ܬܦܠ ܒܓܗܢܐ ('you fall into Gehenna') uses an active verb, a typical Semitic preference for active voice where Greek and Latin use passive constructions."
+      "type": "grammar",
+      "note": "Greek βληθῆναι and Latin mitti are passive infinitives ('to be cast'); the Syriac ܬܦܠ is an active intransitive ('that you fall'), shifting the agency from external casting to the subject's own falling into Gehenna."
     },
     {
       "greek_nt": [
+        24,
+        25,
+        26,
         27,
         28
       ],
       "peshitta": [
+        20,
         21
       ],
       "vulgate": [
+        22,
+        23,
         24
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek τοῦ πυρός ('of fire') is a genitive modifier with article; Vulgate ignis is a genitive without article; Peshitta ܕܢܘܪܐ ('of fire') uses the construct state, a Semitic genitive construction. All three traditions attest the 'fire' qualifier for Gehenna, but employ language-specific syntactic patterns."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        24
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate places a comma after ignis, marking the verse boundary. Greek and Peshitta manuscripts do not typically employ punctuation at this juncture, though modern editions may vary."
+      "note": "Greek 'into the gehenna of the fire' is fully articulated (εἰς τὴν γέενναν τοῦ πυρός); Latin renders it anarthrously (in gehennam ignis); Syriac collapses preposition and noun into ܒܓܗܢܐ ܕܢܘܪܐ, an analytic genitive with ܕ, all three transmitting the same Semitic loan γέεννα/ܓܗܢܐ for the valley of Hinnom."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:03:03.809869+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.519510+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

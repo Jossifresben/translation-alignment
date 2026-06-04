@@ -56,8 +56,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -71,8 +70,7 @@
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the relative pronoun ὃς with the modal particle ἂν to form an indefinite relative construction ('whoever'); Vulgate uses the compound quicumque; Peshitta merges the conjunction and relative into the single form ܘܐܝܢܐ ('and whoever'), a typical Syriac compression of the Greek two-word construction."
+      "note": "Greek uses the relative pronoun ὅς with the modal particle ἄν (ὃς ἂν, 'whoever'); Latin renders this with the single indefinite relative quicumque; Syriac ܘܐܝܢܐ ('and whoever') fuses the conjunction and relative into one word, an indefinite construction without a separate modal element."
     },
     {
       "greek_nt": [
@@ -84,8 +82,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -100,34 +97,23 @@
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the prepositional phrase 'among you' (ἐν ὑμῖν / in vobis) after the verb θέλῃ; Peshitta fronts the pronominal element ܡܢܟܘܢ ('from among you') immediately after the relative pronoun, reflecting typical Syriac word-order preferences for pronominal elements."
+      "note": "Greek ἐν ὑμῖν and Latin in vobis express 'among you' with preposition plus dative/ablative; Syriac ܡܢܟܘܢ ('of/among you') uses the prefixed preposition ܡܢ with the enclitic second-plural suffix, a single fused word that also shifts position to follow the relative."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "omission",
-      "note": "Greek retains the infinitive εἶναι ('to be') as complement to θέλῃ; Peshitta uses the prefixed subjunctive ܕܢܗܘܐ ('that he be'), maintaining the verbal idea; Vulgate omits the infinitive entirely, using the bare adjective primus with esse understood, a common Latin ellipsis in such constructions."
-    },
-    {
-      "greek_nt": [
+        6,
         7
       ],
       "peshitta": [
+        3,
         4
       ],
       "vulgate": [
         5,
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "All three render 'to be first', but the constituent order differs: Greek places εἶναι πρῶτος (infinitive then predicate) while Syriac ܕܢܗܘܐ ܩܕܡܝܐ uses a finite subordinate verb ('that he be') plus the adjective, and Latin primus esse inverts predicate and infinitive."
     },
     {
       "greek_nt": [
@@ -139,8 +125,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -153,8 +138,7 @@
         8
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πάντων (genitive plural of πᾶς, 'of all [persons]') and Vulgate omnium are standard genitive constructions; Peshitta employs the compound ܕܟܠܢܫ ('of every person'), using the singular ܢܫ ('person') in a distributive sense, a characteristic Syriac idiom for universal scope."
+      "note": "Greek πάντων and Latin omnium are partitive genitive plurals ('of all'); Syriac ܕܟܠܢܫ ('of every man/everyone') employs the compound ܟܠܢܫ (kol-nāš, 'everyone'), a collective singular idiom rather than a plural, and follows rather than precedes the noun 'servant'."
     },
     {
       "greek_nt": [
@@ -166,14 +150,13 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.013909+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.425578+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

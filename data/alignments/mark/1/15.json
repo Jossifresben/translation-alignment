@@ -71,7 +71,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
@@ -83,36 +84,33 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek λέγων and Latin dicens are present participles in the nominative, continuing the main clause; the Peshitta ܘܐܡܪ ('and he said') uses a finite verb prefixed with the conjunction, collapsing the participial construction into a coordinated finite clause, a typical Syriac preference for parataxis over Greek participial hypotaxis."
     },
     {
       "greek_nt": [
         2
       ],
-      "peshitta": [],
       "vulgate": [
         2,
         3
       ],
       "variant": "minor",
-      "type": "omission",
-      "note": "The Peshitta omits the Greek conjunction ὅτι introducing indirect discourse, proceeding directly to the content of Jesus's proclamation. The Vulgate retains this with a colon followed by Quoniam, marking the quotation more explicitly than the Syriac construction allows."
+      "note": "The recitative ὅτι introducing direct discourse is rendered in the Vulgate by the colon plus Quoniam; the Peshitta has no corresponding particle, opening the quotation directly after the verb of speaking."
     },
     {
       "greek_nt": [
         3
       ],
       "peshitta": [
-        1,
-        2
+        1
       ],
       "vulgate": [
         4,
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek πεπλήρωται (perfect passive indicative) and Latin impletum est both use passive constructions for 'has been fulfilled.' Syriac ܫܠܡ ܠܗ employs an active perfect with ethical dative, literally 'it has completed itself,' a characteristic Semitic idiom expressing the same perfective aspect."
+      "note": "Greek πεπλήρωται is a single perfect passive ('has been fulfilled'); the Vulgate expands it analytically into impletum est, while the Peshitta ܫܠܡ (root sh-l-m, 'is complete/fulfilled') uses a stative-perfect, semantically equivalent but lexically tied to the notion of completion rather than filling."
     },
     {
       "greek_nt": [
@@ -125,9 +123,16 @@
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the definite article ὁ καιρὸς ('the time'), which Latin mirrors with tempus (lacking articles but contextually definite). Syriac ܙܒܢܐ appears in the emphatic state, functioning as the Semitic equivalent of the Greek article, yielding semantic alignment despite morphological difference."
+      "variant": "aligned",
+      "note": "ὁ καιρός / ܙܒܢܐ / tempus"
+    },
+    {
+      "peshitta": [
+        2
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts the dative pronoun ܠܗ ('to/for it', root l-w-h), yielding 'the time is fulfilled for it' — an ethical or possessive dative idiomatic in Syriac that has no counterpart in either the Greek or the Latin."
     },
     {
       "greek_nt": [
@@ -139,7 +144,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
@@ -151,7 +157,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἤγγικεν / ܡܛܬ / appropinquavit — all 'has drawn near/arrived'"
     },
     {
       "greek_nt": [
@@ -169,9 +176,8 @@
         10,
         11
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after regnum Dei, creating a stronger rhetorical pause before the imperatives. Greek uses a raised dot (·) with less force, while the Peshitta has no punctuation, allowing the clauses to flow continuously—a stylistic rather than semantic divergence."
+      "variant": "aligned",
+      "note": "ἡ βασιλεία τοῦ θεοῦ / ܡܠܟܘܬܐ ܕܐܠܗܐ / regnum Dei"
     },
     {
       "greek_nt": [
@@ -183,7 +189,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek μετανοεῖτε ('change your mind/repent') is rendered in Latin by pœnitemini ('do penance'), introducing a penitential nuance; the Peshitta ܬܘܒܘ (root th-w-b, cognate with Hebrew שׁוּב, 'turn/return') reflects the Semitic concept of repentance as turning back, the underlying conceptual substrate of the Greek term."
     },
     {
       "greek_nt": [
@@ -195,32 +202,42 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "πιστεύετε / ܗܝܡܢܘ / credite"
+    },
+    {
+      "greek_nt": [
         15,
         16,
         17
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        14,
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek πιστεύετε ἐν τῷ εὐαγγελίῳ uses the preposition ἐν with dative ('believe in the gospel'), a Hebraic idiom. Latin credite Evangelio employs simple dative without preposition, the standard Latin construction. Syriac ܘܗܝܡܢܘ ܒܣܒܪܬܐ uses the preposition ܒ, mirroring the Greek prepositional structure—both traditions reflect Semitic syntax, while Latin normalizes to classical usage."
+      "note": "Greek uses the prepositional phrase ἐν τῷ εὐαγγελίῳ ('believe in the gospel'); the Vulgate renders the dative Evangelio without a preposition, and the Peshitta ܒܣܒܪܬܐ prefixes the proclitic ܒ- ('in the good tidings', root s-b-r), matching the Greek prepositional construction more closely than the bare Latin dative."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.945468+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.418040+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

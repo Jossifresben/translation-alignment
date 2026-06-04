@@ -87,15 +87,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
         0
       ],
-      "vulgate": [],
+      "vulgate": [
+        2
+      ],
       "variant": "minor",
-      "type": "omission",
-      "note": "The Vulgate omits the initial conjunction καί / ܘ ('and'), beginning the sentence asyndetically with 'Joseph autem' where the adversative particle 'autem' provides transition. Greek and Peshitta retain the coordinating conjunction linking this action to the preceding narrative."
+      "type": "construction",
+      "note": "Greek opens with coordinating καί + aorist participle ἀγοράσας; the Peshitta renders with a finite waw-prefixed verb ܘܙܒܢ ('and he bought'), and the Vulgate with the deponent participle mercatus. The Syriac and Latin convert the Greek participial chain into a finite or appositive form, a routine accommodation of Semitic and Latin narrative style."
     },
     {
       "greek_nt": [],
@@ -103,34 +106,12 @@
         1
       ],
       "vulgate": [
-        0
-      ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Both Peshitta and Vulgate explicitly name Joseph (ܝܘܣܦ / Joseph) as the subject, whereas the Greek relies on the implied subject from the participial construction ἀγοράσας. This represents a clarifying expansion typical of translation into languages requiring explicit subjects."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        0,
         1
       ],
       "variant": "added",
-      "type": "gloss",
-      "note": "The Vulgate inserts the adversative particle 'autem' to mark narrative transition, a stylistic feature absent from both Greek and Peshitta. This particle provides cohesion in Latin prose where Greek uses simple conjunction and Peshitta uses waw-consecutive."
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "type": "expansion",
+      "note": "Both the Peshitta (ܝܘܣܦ) and the Vulgate (Joseph autem) make the subject Joseph explicit, whereas the Greek NA28 leaves it implicit, carried over from the prior verse. The Latin further adds the postpositive connective autem; this is a clarifying expansion typical of both versions when the antecedent subject is distant."
     },
     {
       "greek_nt": [
@@ -143,20 +124,18 @@
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "σινδών / ܟܬܢܐ / sindonem (linen cloth)"
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
         3
       ],
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek coordinating καί and Latin et link the buying and taking-down clauses; the Peshitta has no separate conjunction here, having fused the actions into its waw-prefixed verbal chain. The connective is structurally absorbed rather than substantively absent."
     },
     {
       "greek_nt": [
@@ -172,7 +151,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an aorist participle with explicit object (καθελὼν αὐτόν), Vulgate mirrors this with a present participle and pronoun (deponens eum), while Peshitta employs a finite verb with pronominal suffix (ܘܐܚܬܗ 'and-he-took-down-him'). All three convey identical semantics through different syntactic strategies."
+      "note": "Greek καθελὼν αὐτόν ('having taken him down') and Latin deponens eum each supply an explicit accusative object, while the Syriac ܘܐܚܬܗ encloses the pronominal object as a verbal suffix ('and he brought-him-down'), the standard Syriac economy for object pronouns."
     },
     {
       "greek_nt": [
@@ -190,23 +169,11 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a finite verb with dative article-noun phrase (ἐνείλησεν τῇ σινδόνι 'wrapped in-the linen-cloth'), Vulgate uses finite verb with ablative (involvit sindone), while Peshitta uses verb with prepositional phrase (ܘܟܪܟܗ ܒܗ 'and-wrapped-him in-it'). The Peshitta pronominal reference creates anaphoric cohesion to the previously mentioned linen."
+      "note": "Greek ἐνείλησεν τῇ σινδόνι and Latin involvit sindone both name the linen cloth a second time in the dative/ablative of means, whereas the Peshitta ܘܟܪܟܗ ܒܗ uses the resumptive pronoun ܒܗ ('in it'), avoiding lexical repetition of ܟܬܢܐ. This is a stylistic Syriac preference for pronominal back-reference."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        9,
         10,
         11
       ],
@@ -214,12 +181,13 @@
         6
       ],
       "vulgate": [
+        9,
         10,
         11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Vulgate use finite verb with explicit object pronoun (ἔθηκεν αὐτόν / posuit eum), while Peshitta employs a single verb with pronominal suffix (ܘܣܡܗ 'and-placed-him'), representing typical Semitic economy of expression versus Indo-European analytic structure."
+      "note": "Greek καὶ ἔθηκεν αὐτόν and Latin et posuit eum render the conjunction, verb, and explicit object separately, while the Syriac ܘܣܡܗ again compresses all three into a single suffixed verb ('and he laid-him'), consistent with its earlier handling of pronominal objects."
     },
     {
       "greek_nt": [
@@ -234,57 +202,58 @@
         13
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐν μνημείῳ / ܒܩܒܪܐ / in monumento (in a tomb)"
     },
     {
       "greek_nt": [
         14,
         15,
-        16,
-        17,
-        18
+        16
       ],
       "peshitta": [
         8,
-        9,
-        10
+        9
       ],
       "vulgate": [
         14,
         15,
-        16,
+        16
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὃ ἦν λελατομημένον ('which had been hewn') and Latin quod erat excisum both use a relative clause with a perfect/pluperfect passive participle of cutting; the Syriac ܕܢܩܝܪ ܗܘܐ employs the root q-y-r with the auxiliary ܗܘܐ. The Syriac verb denotes hewing/chiselling of rock and is functionally equivalent to λατομέω."
+    },
+    {
+      "greek_nt": [
+        17,
+        18
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
         17,
         18
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a relative clause with periphrastic perfect passive construction (ὃ ἦν λελατομημένον ἐκ πέτρας 'which was having-been-hewn out-of rock'), Vulgate employs a relative clause with pluperfect passive (quod erat excisum de petra), while Peshitta uses a participial relative construction (ܕܢܩܝܪ ܗܘܐ ܒܫܘܥܐ 'that-hewn was in-rock'). All convey the same completed-state semantics through tradition-specific grammatical means."
+      "note": "Greek ἐκ πέτρας and Latin de petra use a preposition + genitive/ablative ('out of rock'), while the Syriac ܒܫܘܥܐ uses the locative preposition b- with ܫܘܥܐ ('in/of the bedrock'). The Syriac construes the tomb as hewn within the rock-mass rather than out of it, a minor prepositional difference of perspective."
     },
     {
       "greek_nt": [
-        19
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        19
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        19,
         20
       ],
       "peshitta": [
         11
       ],
       "vulgate": [
+        19,
         20
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ προσεκύλισεν and Latin et advolvit each present conjunction plus a compound verb of rolling-toward; the Syriac ܘܥܓܠ uses the root ʿ-g-l ('to roll') in a waw-prefixed finite form. The Syriac lacks the directional prefix (προσ-/ad-) carried by the Greek and Latin compounds but conveys the same rolling-up action."
     },
     {
       "greek_nt": [
@@ -297,35 +266,45 @@
         21
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "λίθον / ܟܐܦܐ / lapidem (a stone)"
     },
     {
       "greek_nt": [
         22,
         23,
-        24,
+        24
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        22,
+        23
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐπὶ τὴν θύραν ('against the door') with article, and Latin ad ostium, render the entrance as the goal of motion; the Syriac ܥܠ ܬܪܥܗ uses the preposition ʿal plus ܬܪܥܐ with a possessive suffix ('upon its door'), incorporating the genitival relationship pronominally rather than with a following construct."
+    },
+    {
+      "greek_nt": [
         25,
         26
       ],
       "peshitta": [
-        13,
-        14,
         15
       ],
       "vulgate": [
-        22,
-        23,
         24
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase with double article construction (ἐπὶ τὴν θύραν τοῦ μνημείου 'upon the door of-the tomb'), Vulgate employs preposition with accusative and genitive noun (ad ostium monumenti), while Peshitta uses preposition with construct-state noun phrase (ܥܠ ܬܪܥܗ ܕܩܒܪܐ 'upon door-of tomb'). The Peshitta's pronominal suffix on 'door' creates possessive relationship without repeating the noun, typical Semitic construct-chain syntax."
+      "variant": "aligned",
+      "note": "τοῦ μνημείου / ܕܩܒܪܐ / monumenti (of the tomb)"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.053206+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.417490+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -67,8 +67,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
@@ -78,121 +77,227 @@
         1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses temporal conjunction ὅτε ('when') with καί; Vulgate employs postquam ('after'), making the temporal sequence more explicit; Peshitta uses ܘܟܕ (w-kad, 'and when'), closely mirroring the Greek construction."
+      "note": "Greek coordinates the temporal clause with καὶ ὅτε ('and when'); the Peshitta fuses conjunction and temporal particle into a single proclitic form ܘܟܕ; the Vulgate renders the temporal relation with the subordinator postquam ('after'), so the conjunction Et and the temporal marker are split across two tokens."
     },
     {
       "greek_nt": [
-        2,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "ὅτε / ܟܕ / postquam"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek uses the dative αὐτῷ governed by ἐμπαίζω; the Peshitta supplies the prepositional ܒܗ ('at/on him'); the Vulgate matches with the dative ei — all express the indirect object of mockery, the Syriac being the most explicit prepositional construction."
     },
     {
       "greek_nt": [
-        4,
-        5,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "αὐτὸν / illum"
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun (τὴν πορφύραν, 'the purple [robe]') with separate verb and object pronoun; Vulgate mirrors this with purpura in ablative; Peshitta employs a single verb form ܐܫܠܚܘܗܝ with pronominal suffix and follows with ܐܪܓܘܢܐ as direct object without article, reflecting typical Syriac economy of expression."
+      "note": "Greek marks the garment with the feminine article plus noun τὴν πορφύραν; the Peshitta uses the loanword ܐܪܓܘܢܐ (from Greek/Latin purpura-type stock) without article; the Vulgate gives the bare ablative-of-separation purpura. Article-bearing Greek versus anarthrous Syriac/Latin is a routine stylistic difference."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "The Greek and Vulgate coordinate the next clause with a standalone conjunction (καὶ / et), whereas the Peshitta prefixes the conjunction directly onto the verb in ܘܐܠܒܫܘܗܝ; the conjunction is thus grouped here with the verb that follows in the Syriac column."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "ἐνέδυσαν / ܠܒܫ / induerunt"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin express the accusative object with a separate pronoun (αὐτὸν / eum); the Peshitta encloses the object pronominal suffix within the verb ܐܠܒܫܘܗܝ ('they clothed-him'), a typical Syriac synthetic construction collapsing verb and object."
+    },
+    {
+      "greek_nt": [
         11,
         12,
         13
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
-        8,
-        9,
         10,
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs coordinating conjunction καί with full verb phrase ἐνέδυσαν αὐτὸν τὰ ἱμάτια αὐτοῦ (article + plural noun + possessive pronoun); Vulgate uses et induerunt eum vestimentis suis, maintaining the structure; Peshitta compresses this into ܘܐܠܒܫܘܗܝ ܡܐܢܘܗܝ (verb with pronominal suffix + noun with possessive suffix), omitting the article and employing characteristic Syriac synthetic morphology."
+      "note": "Greek has article + noun + possessive genitive (τὰ ἱμάτια αὐτοῦ, 'his garments'); the Vulgate renders the instrumental/ablative vestimentis suis; the Peshitta uses the single inflected form ܡܐܢܘܗܝ with possessive suffix ('his garments'), again compressing the possessive into the noun without separate pronoun or article."
+    },
+    {
+      "vulgate": [
+        12
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts a colon punctuation mark dividing the clothing clause from the leading-out clause; neither the Greek nor the Syriac transmits a corresponding punctuation token here, this being an editorial feature of the Clementine text."
     },
     {
       "greek_nt": [
         14
       ],
-      "peshitta": [],
+      "peshitta": [
+        7
+      ],
       "vulgate": [
-        12
+        13
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after vestimentis suis to mark a major discourse boundary before the crucifixion narrative; Greek uses simple conjunction καί; Peshitta continues without explicit punctuation marker, integrating the clauses more tightly."
+      "note": "Greek and Latin again use a discrete conjunction (καὶ / et) introducing the final clause, while the Peshitta affixes the conjunction to the verb in ܘܐܦܩܘܗܝ; the proclitic conjunction is grouped with the verb in the Syriac column."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek uses the historic present ἐξάγουσιν ('they lead out'), vividly retained as a present in the Vulgate's educunt; the Peshitta employs a perfect form ܐܦܩܘܗܝ ('they led him out'), normalising the tense to a simple past, a common Syriac treatment of the Markan historic present."
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        13,
-        14,
         15
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses historical present ἐξάγουσιν ('they lead out'), a vivid narrative device; Vulgate employs matching present tense educunt; Peshitta uses ܘܐܦܩܘܗܝ (perfect with pronominal suffix), maintaining past-tense consistency with preceding verbs and incorporating the object pronoun morphologically."
+      "note": "Greek and Latin carry a separate accusative pronoun (αὐτὸν / illum); the Peshitta incorporates the object suffix into the verb ܐܦܩܘܗܝ, consistent with its synthetic verb-plus-object pattern."
     },
     {
       "greek_nt": [
-        17,
-        18,
+        17
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "ἵνα / ܕ- / ut"
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "note": "Greek uses the aorist subjunctive σταυρώσωσιν within a ἵνα purpose clause; the Vulgate matches with the imperfect subjunctive crucifigerent; the Peshitta combines purpose particle, imperfect verb, and object suffix into the single form ܕܢܙܩܦܘܢܝܗܝ ('that they might crucify him'), so the object pronoun has no independent Syriac token."
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        16,
-        17,
         18
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs purpose clause with ἵνα + subjunctive σταυρώσωσιν αὐτόν; Vulgate mirrors this with ut + subjunctive crucifigerent eum; Peshitta uses ܕܢܙܩܦܘܢܝܗܝ (d- + imperfect with object suffix), a functionally equivalent purpose construction but morphologically more compact, embedding the object pronoun within the verbal form."
+      "note": "Greek and Latin render the final object as the discrete pronoun αὐτόν / eum, whereas in the Peshitta the object is the suffix -ܝܗܝ embedded in ܕܢܙܩܦܘܢܝܗܝ; the verdict reflects this construction-level difference rather than any semantic divergence."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.049358+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.546655+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

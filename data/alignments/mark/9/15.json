@@ -62,8 +62,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -75,8 +74,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek εὐθὺς ('immediately') is a simple adverb; the Peshitta renders it with the periphrastic temporal phrase ܒܪ ܫܥܬܗ ('in that very hour/moment'), and the Vulgate uses confestim — all three convey immediacy, differing only in lexical packaging."
     },
     {
       "greek_nt": [
@@ -92,9 +91,7 @@
         2,
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the article with πᾶς ὁ ὄχλος (all the crowd), while Syriac ܟܠܗ ܟܢܫܐ and Latin omnis populus lack the article, a routine difference in definiteness marking between Greek and the other traditions."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -109,8 +106,7 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an aorist participle ἰδόντες with separate object pronoun αὐτόν; Syriac ܚܙܐܘܗܝ incorporates the pronominal suffix directly on the verb; Latin videns Jesum uses the present participle with explicit object noun, reflecting different strategies for participial constructions."
+      "note": "Greek uses the participle ἰδόντες plus pronoun αὐτόν; the Peshitta compresses both into the single suffixed verb ܚܙܐܘܗܝ ('they saw him'), while the Vulgate makes the object explicit by naming Jesum rather than employing a pronoun — a clarifying substitution of proper noun for pronoun."
     },
     {
       "greek_nt": [
@@ -122,27 +118,35 @@
       "vulgate": [
         6,
         7,
-        8,
-        9,
-        10
+        9
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek ἐξεθαμβήθησαν (they were amazed) and Syriac ܘܬܘܗܘ (and they marveled) each use a single verb, whereas the Vulgate expands with a doublet: stupefactus est, et expaverunt (was astonished, and they were terrified), intensifying the emotional response through paired verbs."
+      "variant": "minor",
+      "note": "Greek ἐξεθαμβήθησαν ('were utterly amazed') is a single aorist passive; the Vulgate renders this notion with a doubled expression, stupefactus est ('he/it was astounded') alongside expaverunt ('they were afraid'), reflecting a fuller amplification of the crowd's astonishment than the Greek or the single Syriac verb ܘܬܘܗܘ."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "The connective καί / et joining the amazement to the approach is preserved in Greek and Latin; the Peshitta omits an explicit conjunction here, the waw being already prefixed to ܘܬܘܗܘ and ܘܪܗܛܘ, so the syntactic linkage is carried morphologically rather than by a freestanding particle."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
+        10,
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek participle προστρέχοντες and Syriac finite ܘܪܗܛܘ both render 'running to/up'; the Vulgate adds a further connective et before accurrentes, a stylistic Latin coordination."
     },
     {
       "greek_nt": [
@@ -158,14 +162,13 @@
         13
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἠσπάζοντο αὐτόν (they were greeting him) and Latin salutabant eum are direct cognates, while Syriac ܫܐܠܘ ܒܫܠܡܗ (they asked in his peace/welfare) employs an idiomatic Semitic greeting formula using the root šlm (peace), semantically equivalent but lexically distinct."
+      "note": "Greek ἠσπάζοντο αὐτόν ('they were greeting him') uses a single verb of salutation; the Peshitta employs the idiom ܫܐܠܘ ܒܫܠܡܗ ('they asked after his peace/welfare'), the standard Semitic greeting formula built on the root š-l-m, semantically equivalent but idiomatically distinct from the Greek and the Latin salutabant eum."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.231854+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.467019+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

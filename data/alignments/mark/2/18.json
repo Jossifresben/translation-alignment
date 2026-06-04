@@ -97,46 +97,57 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / Et, beginning the pericope asyndetically. This may reflect a Syriac stylistic preference for narrative segmentation without explicit connectives."
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        1
-      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Latin place the copula ἦσαν / erant at the head of the clause; Syriac postpones ܗܘܘ to follow the participle ܨܝܡܝܢ, yielding a periphrastic construction with inverted word order typical of Syriac syntax."
+      "type": "omission",
+      "note": "Greek opens with paratactic Καί and Latin matches with Et; the Peshitta lacks an initial conjunction here, instead deferring its connective particle ܕܝܢ ('but/now') to second position, a normal Syriac discourse-ordering."
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4
-      ],
-      "peshitta": [
-        0,
-        1,
-        2
+        1
       ],
       "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἦσαν / erant; the Peshitta expresses the periphrastic past with the enclitic ܗܘܘ later in the clause (token 5)."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "peshitta": [
+        1
+      ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the nominative article οἱ μαθηταὶ Ἰωάννου; Latin omits the article (discipuli Joannis); Syriac employs the emphatic state ܬܠܡܝܕܘܗܝ with pronominal suffix, preceded by the contrastive particle ܕܝܢ ('but/now'), which has no Greek or Latin equivalent here."
+      "type": "construction",
+      "note": "The Syriac postpositive particle ܕܝܢ ('but/now') has no direct counterpart in the Greek or Latin of this clause; it supplies the connective force that Greek/Latin place at the head with Καί/Et, reflecting a syntactic restructuring rather than a semantic difference."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "Ἰωάννου / ܕܝܘܚܢܢ / Joannis."
     },
     {
       "greek_nt": [
@@ -154,52 +165,71 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek coordinates with καὶ οἱ τῶν Φαρισαῖοι ('and the [disciples] of the Pharisees'), using ellipsis of the repeated noun; Latin mirrors this with et pharisæi; Syriac uses a simple conjunctive ܘܦܪܝܫܐ ('and Pharisees'), omitting the article and the genitive construction, treating the Pharisees as a coordinate subject rather than a possessive phrase."
+      "note": "Greek attaches a second article cluster (οἱ τῶν Φαρισαῖοι) co-ordinating 'the [disciples] of the Pharisees,' while the Peshitta compresses this to the single conjoined noun ܘܦܪܝܫܐ ('and the Pharisees') and the Vulgate to et pharisæi; in the latter two 'the disciples of' is left implicit and the Pharisees appear as bare subjects of the participle."
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [
-        4
+        4,
+        5
       ],
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses a single present participle νηστεύοντες ('fasting') and Latin the participle jejunantes; the Peshitta renders the durative idea with a periphrastic construction, finite participle ܨܝܡܝܢ plus enclitic perfect ܗܘܘ ('were fasting'), a characteristically Syriac analytic past."
     },
     {
       "greek_nt": [
-        10,
-        11
-      ],
-      "peshitta": [
-        6
+        10
       ],
       "vulgate": [
         7,
-        8,
-        9
+        8
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek uses καὶ ἔρχονται ('and they come') as a narrative connective; Vulgate inserts a colon after jejunantes, segmenting the sentence; Syriac ܘܐܬܘ continues without punctuation, maintaining the flow of the periphrastic construction."
+      "note": "Greek connects with simple καί; the Vulgate inserts a colon before resuming et veniunt, segmenting the verse into two cola, a punctuational rather than lexical divergence."
+    },
+    {
+      "peshitta": [
+        6
+      ],
+      "greek_nt": [
+        11
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "ἔρχονται / ܘܐܬܘ / veniunt; the Peshitta carries its 'and' prefixed (ܘ) to the verb."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Connective καί / et linking the two finite verbs; in the Peshitta this conjunction is again prefixed to the following verb."
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        10,
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "λέγουσιν / ܘܐܡܪܝܢ / dicunt."
     },
     {
       "greek_nt": [
@@ -214,7 +244,7 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek uses αὐτῷ with a raised dot (·) for direct discourse; Latin employs illi followed by a colon; Syriac ܠܗ ('to him') has no punctuation marker, relying on context for the discourse boundary."
+      "note": "All three attest the dative/prepositional pronoun (αὐτῷ / ܠܗ / illi); the Vulgate additionally places a colon introducing direct speech, which the Greek marks with a high point and the Syriac leaves unpunctuated."
     },
     {
       "greek_nt": [
@@ -227,26 +257,36 @@
       "vulgate": [
         14
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek διὰ τί ('on account of what') is a prepositional phrase; Latin Quare is a single interrogative adverb; Syriac ܠܡܢܐ ('why') is likewise a single lexeme, semantically equivalent but morphologically distinct from the Greek construction."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek uses the two-word interrogative phrase διὰ τί ('on account of what / why'); the Peshitta ܠܡܢܐ and Latin Quare each render it with a single interrogative word, semantically equivalent."
     },
     {
       "greek_nt": [
         17,
-        18,
+        18
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "οἱ μαθηταί / ܬܠܡܝܕܘܗܝ / discipuli; note the Syriac noun bears a possessive suffix ('his disciples'), but in context functions appositionally to John."
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        15,
         16
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Ἰωάννου / ܕܝܘܚܢܢ / Joannis."
     },
     {
       "greek_nt": [
@@ -265,7 +305,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek repeats the full phrase καὶ οἱ μαθηταὶ τῶν Φαρισαίων ('and the disciples of the Pharisees'); Latin abbreviates to et pharisæorum (genitive plural, ellipsing 'disciples'); Syriac uses ܘܕܦܪܝܫܐ ('and of the Pharisees'), a genitive construction without repeating 'disciples', paralleling the Latin economy."
+      "note": "Greek fully repeats the article + noun phrase (καὶ οἱ μαθηταὶ τῶν Φαρισαίων, 'and the disciples of the Pharisees'); the Peshitta compresses to a single conjoined genitive ܘܕܦܪܝܫܐ and the Vulgate to et pharisæorum, both leaving 'disciples' implicit by ellipsis from the parallel clause."
     },
     {
       "greek_nt": [
@@ -278,12 +318,23 @@
         19
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "νηστεύουσιν / ܨܝܡܝܢ / jejunant ('they fast')."
     },
     {
       "greek_nt": [
         26,
-        27,
+        27
+      ],
+      "vulgate": [
+        20,
+        21
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "The adversative δέ / autem marking the contrast 'but your disciples'; the Peshitta does not render a separate adversative particle here, relying on the contrastive emphasis carried by ܕܝܠܟ."
+    },
+    {
+      "greek_nt": [
         28,
         29
       ],
@@ -292,36 +343,45 @@
         15
       ],
       "vulgate": [
-        20,
-        21,
-        22
+        22,
+        23
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek uses οἱ δὲ σοὶ μαθηταὶ ('but your disciples'), with the article, adversative particle, and possessive adjective. Latin employs tui autem discipuli, mirroring the Greek structure. Syriac ܘܬܠܡܝܕܝܟ ܕܝܠܟ ('and your disciples, yours') adds the emphatic possessive pronoun ܕܝܠܟ after the suffixed form ܬܠܡܝܕܝܟ, creating a double possessive construction for rhetorical emphasis not present in Greek or Latin."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses possession with the possessive adjective σοί preceding μαθηταί ('your disciples'); the Peshitta doubles the possession, suffixing the pronoun to the noun ܘܬܠܡܝܕܝܟ and reinforcing it with the independent emphatic genitive ܕܝܠܟ ('yours'), a typical Syriac intensifier; the Vulgate uses the simple possessive tui."
     },
     {
       "greek_nt": [
-        30,
+        30
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        24
+      ],
+      "variant": "aligned",
+      "note": "Negative particle οὐ / ܠܐ / non."
+    },
+    {
+      "greek_nt": [
         31
       ],
       "peshitta": [
-        16,
         17
       ],
       "vulgate": [
-        23,
-        24,
         25
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "Closing verb νηστεύουσιν / ܨܝܡܝܢ / jejunant with interrogative punctuation; the Greek further marks a paragraph break (¶) absent from the other witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.877999+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.505250+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

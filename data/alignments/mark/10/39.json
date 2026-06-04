@@ -83,24 +83,47 @@
     {
       "greek_nt": [
         0,
-        1,
-        2,
-        3
+        1
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0,
-        1,
-        2,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek frames the subject with article + δέ (οἱ δέ, 'and they'); Latin renders this with At illi ('but they'), foregrounding the adversative; Syriac has no explicit pronominal subject, the 3rd-plural being carried within the verb ܐܡܪܝܢ. The constructions are semantically equivalent."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἶπαν / ܐܡܪܝܢ / dixerunt — verb of speaking; the Syriac participle ܐܡܪܝܢ bundles subject and verb."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
         3,
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the article οἱ with postpositive δέ; Peshitta omits the article entirely (typical Syriac idiom); Vulgate adds the adversative At ('but') at the head position and includes punctuation colon after the pronoun, reflecting Latin rhetorical convention."
+      "type": "punctuation",
+      "note": "All three attest the dative/prepositional 'to him' (αὐτῷ / ܠܗ / ei); the Vulgate adds an editorial colon before direct speech, a punctuation feature of the Clementine edition not present in the Greek raised dot of the prior token."
     },
     {
       "greek_nt": [
@@ -112,15 +135,15 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "δυνάμεθα / ܡܫܟܚܝܢܢ / Possumus — 1st-plural 'we are able'; the Syriac uses the verb š-k-ḥ ('to find/be able'), idiomatically expressing capacity."
     },
     {
       "greek_nt": [
         5,
         6,
-        7,
-        8,
-        9
+        7
       ],
       "peshitta": [
         3,
@@ -129,77 +152,160 @@
       ],
       "vulgate": [
         6,
-        7,
-        8,
+        7
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin both place the connective adversative with the named subject (ὁ δὲ Ἰησοῦς / Jesus autem), Latin moving 'Jesus' to first position; Syriac fronts the verb ܐܡܪ before naming ܝܫܘܥ, a Semitic VSO ordering. Note the Peshitta lacks an explicit definite article on the name, normal for Syriac proper nouns."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἶπεν / ܐܡܪ / ait — 3rd-singular verb of speaking; in Syriac this is fused with the clause already counted, here cross-referenced for alignment completeness."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
         9,
         10
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article ὁ with postpositive δέ before the subject Ἰησοῦς; Peshitta places the verb ܐܡܪ first without article (Syriac lacks the definite article as a separate morpheme); Vulgate inserts autem ('however') between subject and verb, and appends punctuation colon, reflecting Latin periodic structure."
+      "type": "punctuation",
+      "note": "The dative plural 'to them' is attested by all (αὐτοῖς / ܠܗܘܢ / eis); the Vulgate again inserts a colon before the quotation, an editorial feature absent in the Greek and Syriac base text."
     },
     {
       "greek_nt": [
         10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16
+        11
       ],
       "peshitta": [
-        6,
-        7,
-        8,
-        9
+        6
       ],
       "vulgate": [
         11,
-        12,
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek marks the protasis with article τὸ plus correlative particle μέν (anticipating an unstated δέ), and Latin preserves this with quidem; Syriac ܟܣܐ stands without any correlative marker, the Greek μέν...construction having no native Syriac equivalent and being routinely dropped."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ποτήριον / ܟܣܐ / Calicem — 'cup'; cross-referenced with the preceding article/particle group."
+    },
+    {
+      "greek_nt": [
         13,
         14,
-        15,
+        15
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        13,
+        14,
+        15
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a relative pronoun plus emphatic ἐγώ/ego with finite verb (ὃ ἐγὼ πίνω / quem ego bibo); Syriac collapses the relative into the proclitic ܕ- on ܕܫܬܐ with the independent pronoun ܐܢܐ, a syntactically distinct but equivalent relative construction."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
         16,
         17
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the particle μέν ('indeed') to mark the first member of a correlative construction and uses a relative clause ὃ ἐγὼ πίνω; Peshitta uses a simple relative particle ܕ without correlative marking; Vulgate renders μέν as quidem and appends a comma after it, and closes the clause with a semicolon, reflecting Latin punctuation norms for balanced periods."
+      "type": "punctuation",
+      "note": "The future 2nd-plural 'you will drink' is attested uniformly (πίεσθε / ܬܫܬܘܢ / bibetis); the Vulgate adds a semicolon dividing the two parallel clauses, an editorial punctuation choice."
     },
     {
       "greek_nt": [
         17,
         18,
-        19,
-        20,
-        21,
-        22,
-        23
+        19
       ],
       "peshitta": [
-        10,
-        11,
-        12,
-        13
+        10
       ],
       "vulgate": [
         18,
-        19,
+        19
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek conjunction + article + noun (καὶ τὸ βάπτισμα) and Latin et baptismo render 'and the baptism'; Syriac compresses the conjunction into the proclitic ܘ- prefixed to ܡܥܡܘܕܝܬܐ, with no separate article, characteristic of Syriac morphology."
+    },
+    {
+      "greek_nt": [
         20,
         21,
-        22,
+        22
+      ],
+      "peshitta": [
+        11,
+        12
+      ],
+      "vulgate": [
+        20,
+        21,
+        22
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin again use relative pronoun + ἐγώ/ego + finite passive (ὃ ἐγὼ βαπτίζομαι / quo ego baptizor); Syriac uses the proclitic relative ܕ- on ܕܥܡܕ with independent ܐܢܐ. Note the Syriac root ʿ-m-d ('to stand/immerse') is the native term for baptism, distinct etymologically from the Greek loan βαπτίζω."
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
         23,
         24
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the conjunction καί to coordinate the second member and repeats the relative clause structure ὃ ἐγὼ βαπτίζομαι; Peshitta prefixes the noun ܡܥܡܘܕܝܬܐ with waw-conjunction and employs the same relative particle ܕ; Vulgate uses et with the ablative baptismo (ablative of means) governed by quo, and closes with a colon, reflecting Latin case syntax and rhetorical punctuation distinct from Greek participial construction."
+      "type": "punctuation",
+      "note": "The future passive 2nd-plural 'you will be baptized' is attested by all (βαπτισθήσεσθε / ܬܥܡܕܘܢ / baptizabimini); the Vulgate closes with a colon anticipating the following verse, an editorial punctuation feature."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.013199+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.471148+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

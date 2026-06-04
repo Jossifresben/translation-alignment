@@ -63,7 +63,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐγένετο / ܗܘܐ / Fuit"
     },
     {
       "greek_nt": [
@@ -75,29 +75,39 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         2,
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs the articular present participle ὁ βαπτίζων ('the one baptising'), constructing John's identity substantivally; the Vulgate baptizans and the Syriac participle ܡܥܡܕ render simple attributive participles without the substantivising article, a routine structural simplification. The semantic content is preserved across all three."
+    },
+    {
+      "greek_nt": [
         4,
         5,
         6
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
         2,
-        3,
-        4
+        3
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek employs an articular participle construction (ὁ βαπτίζων ἐν τῇ ἐρήμῳ) with the location preceding the second verb, while Peshitta and Vulgate place the location first (ܒܡܕܒܪܐ / in deserto) followed by the participle. The Vulgate uses a gerund (baptizans) mirroring the Greek participial structure, whereas Peshitta uses an active participle (ܡܥܡܕ) without the article."
+      "note": "All three attest the prepositional phrase 'in the wilderness', but the Syriac collapses preposition, article, and noun into the single inflected form ܒܡܕܒܪܐ, while Greek and Latin spell out the components. The Syriac also positions the phrase before the participle, a minor word-order variation typical of the Peshitta."
     },
     {
       "greek_nt": [
@@ -111,9 +121,8 @@
         5,
         6
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses coordinating conjunction καὶ with present participle κηρύσσων; Vulgate mirrors this with et prædicans. Peshitta employs the prefixed conjunction ܘ directly attached to the participle ܡܟܪܙ, a standard Syriac syndetic construction semantically equivalent but morphologically integrated."
+      "variant": "aligned",
+      "note": "καὶ κηρύσσων / ܘܡܟܪܙ / et prædicans"
     },
     {
       "greek_nt": [
@@ -129,41 +138,31 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "βάπτισμα μετανοίας / ܡܥܡܘܕܝܬܐ ܕܬܝܒܘܬܐ / baptismum pœnitentiæ"
     },
     {
       "greek_nt": [
         11,
-        12
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        9,
-        10
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition εἰς with accusative ἄφεσιν to express purpose ('unto forgiveness'); Vulgate employs in with accusative remissionem, a direct calque. Peshitta uses the prefixed preposition ܠ (lamed) attached to ܫܘܒܩܢܐ, the standard Syriac construction for expressing purpose or result, syntactically more compact but semantically identical."
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        7,
         8
       ],
       "vulgate": [
+        9,
+        10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἰς ἄφεσιν and Latin in remissionem use a preposition plus accusative to express purpose ('for the forgiveness'); the Syriac marks the same notion synthetically with the prefixed lamadh on ܠܫܘܒܩܢܐ, a prepositional prefix functionally equivalent to the Greek and Latin constructions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.942751+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.468486+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

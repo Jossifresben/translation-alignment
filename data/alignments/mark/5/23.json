@@ -85,22 +85,21 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta employs a periphrastic construction with the auxiliary ܗܘܐ (hwā, 'was') plus the active participle ܒܥܐ (bʿā, 'beseeching'), yielding a progressive past tense. Greek uses the simple present παρακαλεῖ, while Latin uses the imperfect deprecabatur, both conveying ongoing action but through different aspectual systems."
+      "note": "Greek παρακαλεῖ is a vivid historic present ('he begs'); the Peshitta renders with the periphrastic perfect ܘܒܥܐ ܗܘܐ (compound verb + auxiliary ܗܘܐ marking past continuous action), while the Vulgate deprecabatur uses the imperfect — both versions normalise the Greek dramatic present into a past tense."
     },
     {
       "greek_nt": [
@@ -112,8 +111,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -125,25 +123,33 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
-        5
+        5,
+        6
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after dicens to mark the transition to direct speech, a punctuation convention absent in the Greek and Peshitta manuscripts. The Peshitta uses the indirect object pronoun ܠܗ (leh, 'to him') where Greek employs the recitative ὅτι; both introduce the content of the speech but through different syntactic strategies."
+      "note": "Greek ὅτι functions as a recitative marker introducing direct speech (untranslated in English). The Peshitta supplies ܠܗ ('to him') as an indirect-object complement to ܘܐܡܪ, a typical Semitic explicitating gloss absent from the Greek; the Vulgate represents the ὅτι with a colon plus Quoniam."
     },
     {
       "greek_nt": [
@@ -155,16 +161,11 @@
         6
       ],
       "vulgate": [
-        6,
         7,
-        8,
-        9,
-        10,
-        11
+        8
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the diminutive τὸ θυγάτριόν μου ('my little daughter'), a term of endearment emphasizing the child's youth and the father's affection. The Peshitta employs the simple possessive ܒܪܬܝ (barti, 'my daughter') without diminutive force. The Vulgate renders this as filia mea in extremis est, restructuring the clause entirely: where Greek has the idiomatic ἐσχάτως ἔχει ('is at the extremity'), Latin expands to a prepositional phrase in extremis est ('is in extremities'), making the periphrastic construction explicit."
+      "variant": "minor",
+      "note": "Greek uses the diminutive θυγάτριον ('little daughter', τὸ ... μου), an affective form characteristic of Mark. Both the Peshitta (ܒܪܬܝ, 'my daughter' with pronominal suffix) and the Vulgate (filia mea) flatten the diminutive into a plain noun, losing the emotive nuance."
     },
     {
       "greek_nt": [
@@ -175,14 +176,26 @@
         7,
         8
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἐσχάτως ἔχει is a Semitic idiom meaning 'is at the point of death' (literally 'holds lastly'). The Peshitta renders this with the adverbial ܒܝܫܐܝܬ ܥܒܝܕܐ (bīšāʾīt ʿbīdā, 'badly done/afflicted'), a more explicit description of severe illness. The Vulgate incorporates this into the previous clause (in extremis est), leaving no separate tokens here—a structural divergence reflecting Latin's preference for subordination over parataxis."
+      "vulgate": [
+        9,
+        10,
+        11
+      ],
+      "variant": "minor",
+      "note": "The Greek idiom ἐσχάτως ἔχει ('is at the extremity', i.e. at the point of death) is an adverb + ἔχω construction. The Peshitta renders it ܒܝܫܐܝܬ ܥܒܝܕܐ ('she is grievously affected'), using the passive participle of ʿ-b-d; the Vulgate in extremis est preserves the sense literally with a prepositional phrase."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "note": "Greek introduces the purpose with ἵνα ('that') governing the following subjunctives, matched by the Vulgate's ut. The Peshitta has no corresponding conjunction here, instead juxtaposing the imperatives ܬܐ ܣܝܡ asyndetically; the syntactic subordination of the Greek is recast as paratactic imperative."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
@@ -192,67 +205,100 @@
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses ἵνα with the aorist participle ἐλθών ('that having come') to express purpose, a participial construction. The Peshitta employs the imperative ܬܐ (tā, 'come'), a more direct command form typical of Syriac syntax. The Vulgate uses the imperative veni, aligning with the Peshitta's directness but diverging from the Greek subordinate structure."
+      "note": "Greek ἐλθὼν is an aorist participle ('having come') subordinated to the main verb. Both the Peshitta ܬܐ and the Vulgate veni convert this into a finite/imperative form ('come!'), restructuring the participial chain into coordinate commands."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "note": "Greek ἐπιθῇς is a second-person aorist subjunctive within a purpose clause ('that you may lay'); both versions render it as a bare imperative (Peshitta ܣܝܡ, Vulgate impone), again converting the Greek subordinate construction into direct command."
+    },
+    {
+      "greek_nt": [
         14,
-        15,
+        15
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin texts vary in number: Greek has the plural τὰς χεῖρας ('the hands') while the Vulgate manum and the Peshitta ܐܝܕܟ are both singular ('your hand'). The singular is the better-attested reading in many witnesses and reflects a common scribal/translational simplification of the gesture of laying-on of hands."
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        10,
-        11,
         12
       ],
       "vulgate": [
-        13,
-        14,
         15,
         16
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the plural τὰς χεῖρας ('the hands') with the subjunctive ἐπιθῇς ('you may lay'), while the Peshitta uses the singular ܐܝܕܟ (ʾīdāk, 'your hand') with the imperative ܣܝܡ (sīm, 'place'). The Vulgate employs the singular manum with the imperative impone, aligning with the Peshitta against the Greek. This reflects a common Semitic idiom where singular 'hand' is used collectively for the act of laying on hands."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "note": "Greek repeats ἵνα to introduce the second purpose clause ('so that she may be cured'), and the Vulgate ut likewise. The Peshitta lacks a corresponding conjunction, instead prefixing the consequence directly via the waw-conversive verb ܘܬܬܚܠܡ ('and she will be healed'), favouring Semitic paratactic coordination."
+    },
+    {
+      "greek_nt": [
         18
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
-        17,
         18,
         19
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek σωθῇ (from σῴζω) carries the dual sense of 'be saved/healed,' which the Vulgate renders with salva sit ('may be saved'). The Peshitta uses ܘܬܬܚܠܡ (wəteṯḥlam, 'and may be healed'), employing a root specifically denoting physical healing rather than the broader soteriological term, thus disambiguating the semantic range in favor of medical restoration."
+      "note": "Greek σωθῇ (aorist passive subjunctive of σῴζω, 'be saved/healed') is rendered in the Peshitta by ܘܬܬܚܠܡ from the root ḥ-l-m specifically denoting 'be made whole/healed', narrowing the polysemy of σῴζω to physical healing; the Vulgate salva sit ('be saved/safe') preserves the broader sense closer to the Greek."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         20
       ],
       "peshitta": [
         14
       ],
       "vulgate": [
-        20,
         21
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.974409+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.488030+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

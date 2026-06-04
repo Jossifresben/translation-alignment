@@ -77,8 +77,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -91,8 +90,7 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγεν (iterative past action), while Vulgate employs imperfect dicebat; Peshitta combines conjunction and verb in ܘܐܡܪ (perfect), treating the saying as a single completed utterance rather than iterative discourse."
+      "note": "All three render the imperfect 'he was saying'; the Greek ἔλεγεν and Latin dicebat are durative imperfects, while the Syriac ܘܐܡܪ fuses conjunction and verb in a single perfect form, a typical Syriac compression that does not distinguish imperfect aspect."
     },
     {
       "greek_nt": [
@@ -106,8 +104,7 @@
         3
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after illis to mark direct discourse, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker, relying on syntactic context alone."
+      "note": "The Vulgate separates the colon (token 3) as a discrete punctuation mark introducing direct speech, whereas Greek attaches the raised dot to αὐτοῖς· and Syriac leaves the clause boundary unmarked; a purely orthographic divergence."
     },
     {
       "greek_nt": [
@@ -119,45 +116,70 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܫܡܥܝܢ, a typical Syriac clarification for emphasis or disambiguation, whereas Greek and Latin rely on verbal inflection alone to convey the second-person plural subject."
+      "note": "Greek ἀκούετε and Latin audiatis encode the second-person plural synthetically within the verb, whereas the Syriac uses the analytic participle ܫܡܥܝܢ plus the independent pronoun ܐܢܬܘܢ ('you hear'), a standard Syriac periphrastic present construction."
     },
     {
       "greek_nt": [
-        6,
-        7,
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "The relative pronoun is fused with the preposition in the Syriac ܒܗܝ ('with that/which'), while Greek ἐν ᾧ and Latin in qua keep preposition and relative as separate tokens; the gender shifts to feminine in Syriac and Latin to agree with the feminine noun 'measure'."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        7,
-        8,
         9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a relative pronoun construction ἐν ᾧ μέτρῳ ('in which measure'), mirrored by Vulgate's in qua mensura; Peshitta uses a simpler prepositional phrase ܒܗܝ ܟܝܠܬܐ ('in that measure') without a relative pronoun, reflecting typical Semitic preference for demonstratives over relatives."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -172,24 +194,31 @@
         11
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta again inserts the explicit subject pronoun ܐܢܬܘܢ ('you') after the participle ܕܡܟܝܠܝܢ, while Greek μετρεῖτε and Vulgate mensi fueritis encode the subject in verbal morphology; Vulgate additionally uses a perfect subjunctive (fueritis) where Greek has present indicative."
+      "note": "Greek μετρεῖτε is a synthetic present; the Vulgate renders it with a deponent perfect periphrasis mensi fueritis ('you shall have measured'), shifting to a future-perfect nuance, while the Syriac employs the analytic participle ܕܡܟܝܠܝܢ plus pronoun ܐܢܬܘܢ — three distinct tense/aspect strategies for the same act of measuring."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        12,
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -201,24 +230,31 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        15,
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -230,15 +266,14 @@
         15
       ],
       "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek preserves the substantival participle τοῖς ἀκούουσιν ('to those who are hearing'), specifying the recipients of the added measure; Peshitta retains this with ܠܐܝܠܝܢ ܕܫܡܥܝܢ ('to those who hear'), but Vulgate omits the participial clause entirely, leaving vobis as the sole dative object and thereby generalizing the promise without restricting it to active hearers."
+      "variant": "omitted",
+      "note": "The Greek closes with an articular participial phrase τοῖς ἀκούουσιν ('to you who hear'), matched in the Syriac by the relative construction ܠܐܝܠܝܢ ܕܫܡܥܝܢ ('to those who hear'); the Clementine Vulgate omits this final clause entirely, ending at vobis, reflecting a shorter Western text-form of Mark 4:24."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.966939+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.485956+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

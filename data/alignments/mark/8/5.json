@@ -59,8 +59,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -72,8 +71,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek imperfect ἠρώτα ('he was asking') conveys ongoing or repeated inquiry, whereas the Vulgate aorist-like perfect interrogavit and the Syriac perfect ܘܫܐܠ render a simple completed act; the Syriac also subsumes 'and' (ܘ-) prefixed to the verb, the same form already counted for καὶ."
     },
     {
       "greek_nt": [
@@ -83,12 +82,9 @@
         1
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after the object pronoun 'eos' to mark the direct discourse boundary, while Greek uses a raised dot (·) and Peshitta has no punctuation mark at this juncture."
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -97,30 +93,45 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta adds the independent pronoun ܗܘ ('he') as an explicit subject marker for the verb ܫܐܠ, a common Syriac stylistic feature to clarify agency in narrative discourse. Neither Greek nor Latin requires this pronoun, as the verb inflection suffices."
+      "note": "The Peshitta supplies an explicit independent pronoun ܗܘ ('he') to mark the subject of the verb, a feature absent from both the Greek and Latin where the 3rd-singular verb form alone suffices; this is a typical Syriac gloss for subject clarity."
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
-        3,
-        4,
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
         5,
         6
       ],
       "vulgate": [
-        4,
-        5,
-        6,
-        7
+        6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses accusative πόσους ἄρτους with ἔχετε in a direct object construction; Syriac employs an existential predicate ܐܝܬ ܠܟܘܢ ('there is to you') with ܠܚܡܝܢ as subject, a typical Semitic possessive idiom. Latin mirrors the Greek structure with 'Quot panes habetis' but adds a question mark for punctuation."
+      "note": "Greek ἔχετε and Latin habetis use the transitive verb 'to have' with a 2nd-plural ending; the Syriac instead employs the existential particle ܐܝܬ with the dative ܠܟܘܢ ('there are to you'), a possessive idiom standard in Aramaic rather than a direct verb of possession."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -128,10 +139,11 @@
         7
       ],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "grammar",
-      "note": "Greek includes the article οἱ and the postpositive conjunction δὲ to mark the subject shift and contrast ('but they'), a standard Greek narrative device. Both Peshitta and Vulgate omit these particles, proceeding directly to the verb of response."
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "The Greek articular construction οἱ δέ ('but they') and the Latin relative Qui both supply an explicit grammatical subject for the reply; the Syriac omits any separate subject marker, relying on the verbal inflection of ܐܡܪܝܢ alone, hence no token is aligned here on the Syriac side."
     },
     {
       "greek_nt": [
@@ -142,13 +154,10 @@
         8
       ],
       "vulgate": [
-        8,
-        9,
-        10
+        9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek εἶπαν is a simple aorist third-person plural; Peshitta ܐܡܪܝܢ ܠܗ adds the prepositional phrase 'to him' as an explicit indirect object, clarifying the addressee. Vulgate 'Qui dixerunt' employs a relative pronoun 'Qui' as subject and adds a colon to introduce the direct quotation."
+      "note": "Greek εἶπαν and Latin dixerunt express only the act of speaking, whereas the Syriac ܐܡܪܝܢ ܠܗ adds the dative ܠܗ ('to him'), making the indirect object of the reply explicit in conformity with Aramaic narrative style."
     },
     {
       "greek_nt": [
@@ -160,14 +169,24 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        3,
+        7,
+        10
+      ],
+      "variant": "added",
+      "note": "The Vulgate orthographically punctuates direct speech and the interrogative with colon and question mark (':' before quotation, '?' closing the question); these editorial marks have no counterpart in the unpunctuated transmission of the Greek lemmata or the Syriac and affect only the visual reading."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.994497+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.528701+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

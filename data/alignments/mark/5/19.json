@@ -90,46 +90,56 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Greek καὶ ὁ δὲ combines two conjunctions (καί + δέ) for contrastive continuation; Peshitta ܘܠܐ ('and not') merges the conjunction with the negation; Vulgate et non separates them, mirroring the Peshitta's semantic structure rather than the Greek's particle layering."
-    },
-    {
-      "greek_nt": [
+        0,
         1,
         2,
         3
       ],
       "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek explicitly names the subject Ἰησοῦς with article and contrastive particle δέ; both Peshitta and Vulgate omit the subject, relying on context from the preceding narrative to identify Jesus as the agent of the verb."
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "note": "Greek introduces the subject explicitly with the articular nominative ὁ … Ἰησοῦς and the compound connective καὶ … δέ; the Vulgate retains only the connective et, leaving Iesus implicit, while the Peshitta omits both the connective contrast and any explicit naming of Jesus, relying on the verb's pronominal suffix."
     },
     {
       "greek_nt": [
-        4,
-        5,
+        4
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "οὐκ / ܘܠܐ / non; the Syriac fuses the negation with the conjunction (ܘ + ܠܐ)."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek ἀφῆκεν ('permit, allow') is rendered by Syriac ܫܒܩܗ (root sh-b-q, 'to leave, permit') with attached object suffix; the Vulgate uses admisit ('admit, receive'), a slightly different lexical nuance that frames the refusal as not admitting the man to the company rather than not permitting his request."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        1,
-        2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Greek and Latin express the object pronoun separately (αὐτόν / eum), whereas the Peshitta encodes it as a pronominal suffix on the verb ܫܒܩܗ, hence the shared index with the verb."
     },
     {
       "greek_nt": [
@@ -142,25 +152,34 @@
         4
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἀλλά / ܐܠܐ / sed."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "λέγει / ܐܡܪ / ait."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi to mark direct discourse, a punctuation convention absent in Greek manuscripts and Peshitta tradition; the colon does not alter semantic content but reflects Latin scribal practice for introducing speech."
+      "note": "The dative αὐτῷ and Syriac ܠܗ correspond to Latin illi; the Vulgate additionally carries an explicit colon (token 7) marking the onset of direct speech, a punctuation feature absent from the unpointed Syriac and editorial in the Greek."
     },
     {
       "greek_nt": [
@@ -173,7 +192,7 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ὕπαγε / ܙܠ / Vade."
     },
     {
       "greek_nt": [
@@ -191,26 +210,34 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase εἰς τὸν οἶκόν σου ('into the house of you') with article and accusative; Peshitta employs a single bound form ܠܒܝܬܟ ('to-your-house') with pronominal suffix; Vulgate in domum tuam mirrors Greek structure but without article, reflecting Latin's articleless grammar."
+      "note": "Greek εἰς τὸν οἶκόν σου and Latin in domum tuam are analytic phrases with preposition, article/noun and possessive; the Peshitta compresses the whole expression into the single inflected form ܠܒܝܬܟ (preposition l- + 'house' + 2ms suffix), a typical Syriac synthetic construction."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "πρός / ܠܘܬ / ad."
+    },
+    {
+      "greek_nt": [
         16,
         17
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πρὸς τοὺς σούς ('to your own [people]') uses possessive adjective σούς; Peshitta ܠܘܬ ܐܢܫܝܟ ('to your people') employs the noun ܐܢܫܝܟ ('your men/people'); Vulgate ad tuos uses substantivized possessive, semantically equivalent but syntactically distinct from Greek's article + possessive construction."
+      "variant": "aligned",
+      "note": "τοὺς σούς / ܐܢܫܝܟ / tuos; the Syriac makes the substantival sense explicit with ܐܢܫܝܟ ('your people/kin')."
     },
     {
       "greek_nt": [
@@ -223,23 +250,33 @@
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ (prefixed) / et."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "note": "Greek ἀπάγγειλον ('announce, report') and Latin annuntia render the Syriac ܘܐܫܬܥܐ (root sh-th-e, 'to narrate, recount'), an ethpaal whose connective ܘ also covers the preceding 'and'; the Syriac verb carries a more narrative 'tell the story' nuance than the simple 'report' of the Greek and Latin."
+    },
+    {
+      "greek_nt": [
         20
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        15,
         16
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "αὐτοῖς / ܠܗܘܢ / illis."
     },
     {
       "greek_nt": [
@@ -252,55 +289,93 @@
         17
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὅσα ('as much as', neuter plural correlative) is rendered by Peshitta ܡܕܡ ('what/that which', indefinite relative) and Vulgate quanta ('how great things', interrogative-relative); all three convey indefinite extent but with different syntactic categories reflecting each language's relative-clause system."
+      "note": "Greek correlative ὅσα ('how much, as many things as') and Latin quanta express quantity, whereas the Peshitta uses the indefinite ܡܕܡ ('something, that which') plus the following relative, shifting the nuance from quantitative scope to a generic 'that which.'"
     },
     {
       "greek_nt": [
         22,
-        23,
-        24,
-        25
+        23
       ],
       "peshitta": [
-        12,
-        13,
         14
       ],
       "vulgate": [
-        18,
-        19,
-        20
+        19
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places κύριος before the verb πεποίηκεν with dative σοι intervening ('the Lord for-you has-done'); Peshitta and Vulgate both position the subject after the verb (ܕܥܒܕ ܠܟ ܡܪܝܐ / tibi Dominus fecerit), reflecting Semitic and Latin preference for verb-initial clauses in relative constructions."
+      "note": "All three name the Lord (ὁ κύριος / ܡܪܝܐ / Dominus); the Syriac ܡܪܝܐ is the sacral form reserved for the divine Lord, and its word order places the subject after the verb, unlike the Greek and Latin which front it relative to the verb differently."
     },
     {
       "greek_nt": [
-        26,
-        27,
+        24
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned",
+      "note": "σοι / ܠܟ / tibi."
+    },
+    {
+      "greek_nt": [
+        25
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "minor",
+      "note": "Greek uses the perfect πεποίηκεν ('has done'), stressing the abiding result, while the Syriac ܕܥܒܕ and Latin subjunctive fecerit present the act as a simple/subordinated completed deed within the indirect 'tell what …' clause."
+    },
+    {
+      "greek_nt": [
+        26
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ (prefixed) / et."
+    },
+    {
+      "greek_nt": [
+        27
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        22,
+        23
+      ],
+      "variant": "minor",
+      "note": "Greek ἠλέησεν (aorist active 'had mercy') is matched by the Syriac reflexive/passive ܕܐܬܪܚܡ (ethpeel of r-kh-m, 'showed compassion'), the connective ܘ of which also bears the conjunction; the Vulgate uses a periphrastic perfect subjunctive misertus sit reflecting the deponent miserer."
+    },
+    {
+      "greek_nt": [
         28
       ],
       "peshitta": [
-        15,
         16
       ],
       "vulgate": [
-        21,
-        22,
-        23,
         24
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ ἠλέησέν σε uses aorist indicative ('and had-mercy-on you'); Peshitta ܘܕܐܬܪܚܡ ܥܠܝܟ employs a participial construction with ܕ ('and who-had-mercy on-you'); Vulgate et misertus sit tui uses perfect subjunctive in indirect discourse, a grammatical requirement of Latin subordination absent in Greek and Peshitta."
+      "note": "Greek accusative σε and Syriac ܥܠܝܟ ('upon you') and Latin genitive tui are all governed by their respective verbs of mercy, each language selecting its idiomatic case/preposition for the object of compassion; the Greek further closes the pericope with a paragraph marker (¶)."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.973450+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.494206+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

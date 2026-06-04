@@ -88,8 +88,8 @@
         0
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "The Peshitta uses ܘܐܦ (wa-ʾap, 'and also/even'), an emphatic conjunction, where Greek and Latin employ simple καί/Et. This intensifies the participial construction, though the semantic force remains equivalent."
+      "type": "lexical",
+      "note": "Greek and Latin open with a simple coordinating conjunction (καί / Et), whereas the Peshitta uses the emphatic compound ܘܐܦ ('and also, even'), lending an intensifying nuance to the bystanders' mockery absent in the other witnesses."
     },
     {
       "greek_nt": [
@@ -107,44 +107,63 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + present participle (οἱ παραπορευόμενοι); Latin mirrors with a single present participle (prætereuntes). Syriac employs a relative pronoun + participle + periphrastic construction (ܐܝܠܝܢ ܕܝܢ ܕܥܒܪܝܢ ܗܘܘ, 'those who were passing'), reflecting typical Semitic syntax with the auxiliary ܗܘܘ for past progressive aspect."
+      "note": "Greek substantivises a single participle (οἱ παραπορευόμενοι) and Latin matches with a bare participle (prætereuntes); the Peshitta employs a periphrastic relative construction ܐܝܠܝܢ ܕܝܢ ܕܥܒܪܝܢ ܗܘܘ ('those who were passing by'), including the postpositive particle ܕܝܢ and the auxiliary ܗܘܘ to express continuous past action."
     },
     {
       "greek_nt": [
-        3,
-        4
+        3
       ],
       "peshitta": [
         5,
-        6,
-        7
+        6
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect active ἐβλασφήμουν with accusative object αὐτόν; Latin employs imperfect blasphemabant with accusative eum. Syriac uses periphrastic imperfect ܡܓܕܦܝܢ ܗܘܘ with prepositional phrase ܥܠܘܗܝ ('against him'), a standard Syriac idiom for expressing the object of blasphemy."
+      "note": "The Greek imperfect ἐβλασφήμουν and the Latin imperfect blasphemabant convey durative past action with a single finite verb; the Peshitta renders the same aspect periphrastically with participle plus auxiliary ܡܓܕܦܝܢ ܗܘܘ, a standard Syriac means of expressing the imperfect."
     },
     {
       "greek_nt": [
-        5,
+        4
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6,
         7,
         8
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek (τὰς κεφαλὰς αὐτῶν) and Latin (capita sua) both express 'their heads' analytically with an article/noun plus possessive; the Peshitta condenses this to the single suffixed form ܪܫܝܗܘܢ, where the possessive pronoun is morphologically attached to the noun."
     },
     {
       "greek_nt": [
@@ -158,18 +177,9 @@
         7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after dicentes to mark direct discourse, a Latin scribal convention absent in Greek and Syriac manuscripts which rely on context or minimal punctuation."
+      "type": "construction",
+      "note": "Greek and Latin coordinate the participle with an explicit conjunction (καὶ λέγοντες / et dicentes); the Peshitta fuses conjunction and participle into the single prefixed form ܘܐܡܪܝܢ, an orthographic rather than semantic difference."
     },
     {
       "greek_nt": [
@@ -183,33 +193,44 @@
         11
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek Οὐά and Syriac ܐܘܢ render the interjection without punctuation; the Vulgate adds an exclamation mark after Vah, reflecting post-classical editorial practice to clarify the mocking tone."
+      "type": "lexical",
+      "note": "All three transliterate the interjection of derision (Greek Οὐά, Syriac ܐܘܢ, Latin Vah), but the Vulgate marks it with an exclamation point as a separate token, a punctuation feature absent in the Greek and Syriac manuscript tradition."
     },
     {
       "greek_nt": [
         12,
-        13,
+        13
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the vocative article plus participle (ὁ καταλύων, 'O you who destroy') and Latin a relative clause with finite verb (qui destruis); the Peshitta employs the bare perfect/participle ܫܪܐ without an article or relative marker, a more compressed apostrophe."
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        12,
-        13,
-        14
+        14,
+        15
       ],
       "variant": "major",
       "type": "expansion",
-      "note": "The Vulgate adds Dei after templum ('temple of God'), an interpretive expansion absent in both Greek ναόν and Syriac ܗܝܟܠܐ. This clarifies the sacred nature of the structure, possibly harmonizing toward Matthew 26:61 or reflecting Latin theological emphasis."
+      "note": "Both Greek (τὸν ναὸν) and Syriac (ܗܝܟܠܐ) read simply 'the temple', but the Clementine Vulgate adds the genitive templum Dei ('the temple of God'), an expansion likely harmonising toward the loftier characterisation of the sanctuary and not supported by the earliest Greek witnesses here."
     },
     {
       "greek_nt": [
-        16,
-        17
+        16
       ],
       "peshitta": [
         14
@@ -217,18 +238,21 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        17
+      ],
       "peshitta": [
         15
       ],
-      "vulgate": [],
+      "vulgate": [
+        20
+      ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Syriac inserts the pronominal suffix ܠܗ ('it'), making the direct object of 'building' explicit. Greek and Latin leave the object implicit, relying on context; Syriac prefers morphological clarity."
+      "type": "lexical",
+      "note": "Greek οἰκοδομῶν and the Vulgate reædificas ('rebuild', with the re- prefix making the restoration explicit); the Peshitta ܘܒܢܐ ܠܗ adds the resumptive object pronoun ܠܗ ('build it'), supplying the explicit object that Greek leaves implicit."
     },
     {
       "greek_nt": [
@@ -243,18 +267,17 @@
       "vulgate": [
         17,
         18,
-        19,
-        20
+        19
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses preposition ἐν with dative (ἐν τρισὶν ἡμέραις, 'in three days'); Latin mirrors this with in + ablative (in tribus diebus). Syriac employs the preposition ܠ with accusative (ܠܬܠܬܐ ܝܘܡܝܢ), a standard Semitic temporal construction semantically equivalent but syntactically distinct."
+      "note": "Greek (ἐν τρισὶν ἡμέραις) and Latin (in tribus diebus) use an explicit preposition with the dative/ablative; the Peshitta expresses the temporal span with the prefixed preposition ܠ on the numeral (ܠܬܠܬܐ ܝܘܡܝܢ), a normal Syriac idiom for 'in/within three days'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.050597+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.462595+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

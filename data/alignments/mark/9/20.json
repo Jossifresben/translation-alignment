@@ -71,23 +71,55 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek ἤνεγκαν and Latin attulerunt are finite 3rd-plural verbs ('they brought'), while the Syriac ܘܐܝܬܝܘܗܝ (root y-th-y, Aphel) fuses conjunction, verb, and pronominal object suffix into a single word — a typical Syriac synthetic construction subsuming the Greek pronoun αὐτόν."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "The accusative object αὐτόν / eum is rendered by the enclitic object suffix on the Syriac verb ܘܐܝܬܝܘܗܝ, so no independent pronominal token appears in the Peshitta."
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek expresses the goal with preposition + pronoun πρὸς αὐτόν; the Peshitta uses the prepositional pronoun ܠܘܬܗ (l-w-th + 3ms suffix, 'to him'). The Vulgate notably omits any explicit 'to him' phrase, leaving attulerunt eum without an indirect object."
     },
     {
       "greek_nt": [
@@ -99,26 +131,35 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple conjunction καί; Peshitta employs temporal particle ܘܟܕ ('and when'); Vulgate uses temporal conjunction cum — all introduce the same temporal clause but with different syntactic strategies."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek uses an aorist participle ἰδών ('having seen'); the Vulgate renders it with a temporal subordinate clause cum vidisset, and the Peshitta with ܘܟܕ ('and when') + finite verb ܚܙܬܗ bearing the object suffix — three distinct syntactic strategies (participial, conjunctional + subjunctive, conjunctional + finite) for the same circumstantial idea."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist participle ἰδών with accusative object; Peshitta uses finite verb ܚܙܬܗ with pronominal suffix; Vulgate employs cum + perfect subjunctive vidisset — semantically equivalent temporal constructions with different grammatical realizations."
+      "note": "The object 'him' (αὐτόν / eum) is again carried by the enclitic suffix on the Syriac verb ܚܙܬܗ rather than by an independent pronoun, reflecting the Syriac preference for verbal suffixation."
     },
     {
       "greek_nt": [
@@ -131,8 +172,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -146,24 +186,40 @@
         7
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek εὐθύς ('immediately') is rendered by Vulgate statim (direct equivalent); Peshitta uses idiomatic phrase ܒܪ ܫܥܬܗ (literally 'son of his hour'), a common Syriac temporal idiom meaning 'immediately, at that very moment.'"
+      "note": "Greek εὐθύς ('immediately') and Latin statim are single adverbs, whereas the Peshitta employs the idiomatic two-word phrase ܒܪ ܫܥܬܗ (literally 'son of its hour'), a standard Syriac periphrasis for instantaneity."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek συνεσπάραξεν ('threw into convulsions, tore') is rendered by Latin conturbavit ('threw into confusion/disturbed') and Syriac ܚܒܛܬܗ (root kh-b-T, 'beat down, dashed'); the three verbs share the sense of violent seizure but differ in lexical nuance, the Latin being notably milder than the Greek."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        9,
         10
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek συνεσπάραξεν ('threw into convulsions') is rendered by Peshitta ܚܒܛܬܗ ('struck/dashed him') and Vulgate conturbavit ('disturbed/troubled') — cognate concepts but different lexical choices reflecting the violent seizure."
+      "note": "The object 'him' (αὐτόν / illum) appears as the enclitic suffix on ܚܒܛܬܗ in the Syriac rather than as a separate pronoun."
+    },
+    {
+      "vulgate": [
+        11
+      ],
+      "variant": "added",
+      "note": "The Clementine Vulgate inserts a colon here as editorial punctuation marking the clause break before et elisus; no corresponding element exists in the Greek or Syriac transmission."
     },
     {
       "greek_nt": [
@@ -175,30 +231,37 @@
       "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts colon punctuation after illum, creating a stronger pause before the description of falling; Greek and Peshitta use simple conjunction without such marked punctuation break."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "note": "Greek uses an active aorist participle πεσών ('having fallen'); the Vulgate uses the passive participle elisus ('having been dashed down'), introducing a sense of external agency, while the Peshitta ܘܢܦܠ (root n-p-l) is an active finite verb 'and he fell', matching the Greek voice but not its participial mood."
+    },
+    {
+      "greek_nt": [
         15,
         16,
         17
       ],
       "peshitta": [
-        8,
         9,
         10
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist participle πεσών + prepositional phrase ἐπὶ τῆς γῆς; Peshitta employs finite verb ܘܢܦܠ ܥܠ ܐܪܥܐ; Vulgate uses perfect passive participle elisus + in terram — all describe falling to the ground but with different voice and syntactic packaging."
+      "note": "Greek ἐπὶ τῆς γῆς ('upon the ground', genitive) is matched by Syriac ܥܠ ܐܪܥܐ; the Vulgate uses the accusative of motion in terram ('onto the ground'), construing the verb with directional rather than locative force."
     },
     {
       "greek_nt": [
@@ -212,8 +275,7 @@
         16
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect middle ἐκυλίετο ('was rolling'); Peshitta uses participle + auxiliary ܡܬܒܥܩ ܗܘܐ (periphrastic construction for progressive aspect); Vulgate uses imperfect deponent volutabatur — all convey ongoing action but through different aspectual strategies."
+      "note": "Greek imperfect ἐκυλίετο ('was rolling') and Latin imperfect volutabatur express durative past action; the Peshitta uses the periphrastic ܘܡܬܒܥܩ ܗܘܐ (participle of b-e-q 'to be rent/convulsed' + auxiliary ܗܘܐ), a standard Syriac construction for past continuous aspect, though with a 'writhing/convulsing' nuance rather than literal 'rolling'."
     },
     {
       "greek_nt": [
@@ -225,14 +287,14 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἀφρίζων and Latin spumans are present participles ('foaming'); the Peshitta ܘܡܪܥܬ (root r-e-th) is a conjoined finite verb, again preferring coordinate verbal syntax over the participial chain found in Greek and Latin."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.232812+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.436139+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

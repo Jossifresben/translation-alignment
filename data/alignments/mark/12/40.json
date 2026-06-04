@@ -57,20 +57,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs article + participle (οἱ κατεσθίοντες) as a substantival construction; Latin uses relative pronoun + finite verb (qui devorant); Peshitta uses demonstrative + participle (ܗܢܘܢ ܕܐܟܠܝܢ). All three express the same substantival participial sense but through tradition-specific syntactic patterns."
+      "note": "Greek uses the substantivised participle οἱ κατεσθίοντες ('those devouring'), continuing the participial chain from the preceding verses; Latin and Syriac both render this with a relative clause (qui devorant / ܗܢܘܢ ܕܐܟܠܝܢ, 'those who devour'). The Syriac demonstrative ܗܢܘܢ here introduces the relative, a construction that is mirrored a second time below."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -84,8 +93,8 @@
         2
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek uses plural τὰς οἰκίας ('the houses'); both Peshitta ܒܬܐ and Vulgate domos employ plural forms, though Syriac often uses singular collective nouns for such constructions. Here all three traditions attest plurality, representing distributive action across multiple widows' estates."
+      "type": "grammar",
+      "note": "Greek τὰς οἰκίας carries the feminine plural article; both Latin domos and Syriac ܒܬܐ render the plural noun without an article, the Vulgate following Latin's articleless system and the Peshitta omitting the determinative as is normal for an indefinite plural object."
     },
     {
       "greek_nt": [
@@ -108,7 +117,7 @@
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek καὶ ('and') is absent in both Peshitta and Vulgate, which proceed directly from the relative clause to the prepositional phrase. The Syriac and Latin traditions treat the 'devouring houses' and 'lengthy prayers' as a single integrated accusation rather than two coordinated offenses, reflecting a tighter syntactic construction."
+      "note": "The Greek connective καί ('and') links the two charges (devouring houses / praying for pretext); neither the Vulgate nor the Peshitta render an explicit conjunction here, instead subordinating the pretext-clause directly, a syntactic compression that drops the coordinating particle."
     },
     {
       "greek_nt": [
@@ -122,8 +131,8 @@
         5
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πρόφασις (dative προφάσει, 'pretext, pretense') is rendered by Peshitta ܒܥܠܬܐ ('by means of, on account of') and Vulgate sub obtentu ('under the pretext of'). Latin employs a two-word prepositional phrase where Greek uses a single noun in the dative of means, while Syriac uses a cognate prepositional construction—all conveying instrumental pretense."
+      "type": "construction",
+      "note": "Greek expresses the manner with a bare dative προφάσει ('by pretext'); the Vulgate analytically renders this with the preposition + ablative sub obtentu ('under the pretext'), while the Peshitta uses ܒܥܠܬܐ ('with/for a cause, pretext'), the preposition ܒ supplying the instrumental force lost in the Greek synthetic dative."
     },
     {
       "greek_nt": [
@@ -139,17 +148,8 @@
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adjective before the participle (μακρὰ προσευχόμενοι, 'at length praying'); Peshitta reverses this to participle + noun (ܕܡܘܪܟܝܢ ܨܠܘܬܗܘܢ, 'who lengthen their prayers'); Vulgate uses adjective + noun (prolixæ orationis, 'of lengthy prayer'). The Syriac construction employs a verbal form modifying a possessed noun, while Latin nominalizes the entire phrase as a genitive object of obtentu."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "type": "construction",
+      "note": "Greek μακρὰ προσευχόμενοι ('praying at length') uses adverbial accusative + participle; the Vulgate nominalises with the genitive phrase prolixæ orationis ('of lengthy prayer') governed by obtentu, while the Peshitta employs a finite-like participial verb ܕܡܘܪܟܝܢ ('who prolong', root w-r-k) with the object 'their prayers' (ܨܠܘܬܗܘܢ), turning the adverb into a transitive verb of prolonging — three distinct syntactic strategies for one idea."
     },
     {
       "greek_nt": [
@@ -177,26 +177,43 @@
     },
     {
       "greek_nt": [
-        12,
-        13
+        12
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        11,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
         12
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the comparative adjective before the noun (περισσότερον κρίμα, 'more excessive judgment'); Peshitta and Vulgate both reverse this to noun + adjective (ܕܝܢܐ ܝܬܝܪܐ / prolixius judicium). Latin prolixius echoes the earlier prolix- root from 'lengthy prayer,' creating a wordplay absent in Greek and Syriac, though all three convey intensified eschatological judgment."
+      "note": "All three attest the noun 'judgment' (κρίμα / ܕܝܢܐ / judicium) modified by the comparative 'greater/more' (περισσότερον / ܝܬܝܪܐ / prolixius); however the Peshitta places the adjective after the noun (ܕܝܢܐ ܝܬܝܪܐ) per Semitic noun-adjective order, whereas Greek and Latin front the comparative before the noun."
+    },
+    {
+      "vulgate": [
+        8
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after orationis to separate the description of the offenders from the verdict pronounced upon them; this punctuation has no counterpart in the Greek (which uses a comma) or the unpunctuated Peshitta clause boundary."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.027532+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.532011+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

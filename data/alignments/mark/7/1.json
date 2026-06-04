@@ -61,7 +61,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
@@ -74,8 +74,7 @@
         1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek συνάγονται (present middle-passive) and Latin conveniunt (active) both denote gathering; Syriac ܘܟܢܫܘ employs the waw-consecutive perfect, a typical narrative tense shift that does not alter the semantic content."
+      "note": "Greek and Latin use the present indicative (συνάγονται / conveniunt, 'they gather/assemble'); Syriac ܘܟܢܫܘ employs a perfect form prefixed with the conjunctive waw, so the verb and the connective are fused into a single token, a normal feature of Syriac orthography."
     },
     {
       "greek_nt": [
@@ -89,8 +88,8 @@
         2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek (πρὸς αὐτόν) and Latin (ad eum) render the prepositional phrase analytically with a separate preposition and pronoun; Syriac ܠܘܬܗ synthesises preposition plus pronominal suffix into one word, a typical Semitic construction conveying the identical sense 'to him'."
     },
     {
       "greek_nt": [
@@ -104,13 +103,33 @@
         4
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article οἱ with Φαρισαῖοι (nominative plural); Syriac ܦܪܝܫܐ lacks the article, as Syriac typically omits the definite article with well-known groups. Latin pharisæi mirrors the Greek structure but without a separate article token."
+      "note": "Greek marks the subject with the article (οἱ Φαρισαῖοι); Syriac ܦܪܝܫܐ and Latin pharisæi lack a definite article (Syriac having no article and Latin none morphologically), yet all three denote the determinate group 'the Pharisees'."
     },
     {
       "greek_nt": [
-        6,
-        7,
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek τινες and Latin quidam supply the indefinite quantifier 'some/certain'; the Peshitta has no separate word for this, leaving the partitive sense implicit in the bare plural ܘܣܦܪܐ ('and scribes'), a frequent Syriac economy."
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
@@ -118,14 +137,11 @@
         3
       ],
       "vulgate": [
-        5,
-        6,
         7,
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses καί τινες τῶν γραμματέων ('and some of the scribes') with the partitive genitive construction; Latin mirrors this with et quidam de scribis. Syriac ܘܣܦܪܐ ('and scribes') omits the partitive qualifier τινες/quidam, presenting the scribes as a coordinate group rather than a subset—a stylistic simplification common in Syriac narrative."
+      "note": "Greek (τῶν γραμματέων) and Latin (de scribis) express the partitive with article/preposition plus genitive or ablative; Syriac ܘܣܦܪܐ is the simple coordinated plural 'and the scribes', without the partitive marking present in the other two witnesses."
     },
     {
       "greek_nt": [
@@ -137,30 +153,40 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἐλθόντες and Latin venientes are circumstantial participles ('having come / coming'); Syriac ܕܐܬܘ uses a relative particle plus finite perfect verb ('who came'), recasting the participial phrase as a relative clause while preserving the sense."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "ἀπό / ܡܢ / ab"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek (Ἱεροσολύμων) and Latin (Jerosolymis) transmit the Hellenised toponym 'Jerusalem' in oblique case; Syriac ܐܘܪܫܠܡ preserves the Semitic form closer to Hebrew Yerushalayim, reflecting independent indigenous orthography of the place-name."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.987171+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.534627+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

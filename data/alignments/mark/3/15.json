@@ -49,10 +49,12 @@
       "peshitta": [
         0
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek καὶ ἔχειν ('and to have') is rendered by Peshitta ܘܕܢܗܘܘܢ ('and that they might be'), a purpose clause construction. Vulgate omits the conjunction entirely, instead supplying the finite verb dedit illis ('he gave to them'), making explicit the subject and indirect object absent in the Greek infinitival construction."
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with a simple conjunction καί joined to an infinitive ἔχειν ('to have'); the Peshitta renders the clause with the conjunctive-relative ܘܕܢܗܘܘܢ ('and that they might be'), introducing a finite subjunctive construction, while the Vulgate supplies a finite indicative verb dedit ('he gave'). The three traditions express the same grant of authority through three distinct syntactic strategies."
     },
     {
       "greek_nt": [
@@ -67,27 +69,38 @@
         2,
         3
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek uses the articular infinitive ἔχειν ἐξουσίαν ('to have authority') as object of an implied main verb. Vulgate expands this into a full finite clause Et dedit illis potestatem ('And he gave to them authority'), supplying both subject (implicit 'he') and indirect object illis ('to them'). Peshitta employs the adjective ܫܠܝܛܝܢ ('having authority, empowered') as predicate, syntactically distinct but semantically parallel."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἔχειν ἐξουσίαν ('to have authority') is rendered in Syriac by the single predicative adjective ܫܠܝܛܝܢ ('they being empowered/authorised'), collapsing verb and noun into one lexeme from the root sh-l-T. The Vulgate expands the idea explicitly with dedit illis potestatem ('he gave them power'), supplying both the indirect object and an active verb of giving absent from the Greek infinitival phrase."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "θεραπεύειν / ܕܢܐܣܘܢ / curandi — 'to heal'."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek θεραπεύειν τὰς νόσους ('to heal the diseases') uses the verb θεραπεύω with direct object νόσους. Vulgate curandi infirmitates employs the gerund curandi with infirmitates ('infirmities' rather than 'diseases'), a near-synonym. Peshitta ܕܢܐܣܘܢ ܟܪܝܗܐ ('that they might heal sicknesses') uses ܟܪܝܗܐ, cognate with Hebrew כְּאֵב, semantically equivalent but lexically distinct from νόσος."
+      "note": "Greek τὰς νόσους ('the diseases', with article) is matched by the anarthrous plural infirmitates in Latin and by Syriac ܟܪܝܗܐ, which is properly 'the sick/infirm ones' (root k-r-h) rather than the abstract 'diseases'. The Peshitta thus shifts the object from the ailments to the afflicted persons, a common Syriac concretising tendency."
     },
     {
       "greek_nt": [
@@ -99,11 +112,26 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The connective καί / et ('and') is here absorbed by the Syriac into the prefixed waw of the verbal form ܘܢܦܩܘܢ ('and that they cast out'), so that conjunction and verb are written as a single token. The conjunctive force is preserved across all three witnesses."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐκβάλλειν / ܢܦܩܘܢ / ejiciendi — 'to cast out'."
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
@@ -111,18 +139,17 @@
         5
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐκβάλλειν τὰ δαιμόνια ('to cast out the demons') uses articular accusative plural. Vulgate ejiciendi dæmonia mirrors this with gerund + accusative. Peshitta ܘܢܦܩܘܢ ܕܝܘܐ ('and they might cast out demons') employs a finite verb in a purpose clause, omitting the article (Syriac lacks the definite article in this construction), yielding a slightly more general sense."
+      "type": "grammar",
+      "note": "Greek τὰ δαιμόνια carries the definite article with the neuter plural ('the demons'); the Vulgate dæmonia and the Syriac ܕܝܘܐ (root d-y-w) are both anarthrous plurals, the article being unrepresentable in Latin and absent in this Syriac construction. The referent is identical across the three traditions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.959380+00:00",
-    "confidence": 0.75,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.520009+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

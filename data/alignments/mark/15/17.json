@@ -48,28 +48,38 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / et, incorporating it into the prefixed waw on ܘܐܠܒܫܘܗܝ. This is a standard Syriac morphological convention where the conjunction is bound to the verb rather than standing as a separate token."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        1,
-        2
+        1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        1,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐνδιδύσκουσιν (3rd plural finite verb) and Latin induunt are matched by the Syriac single inflected form ܘܐܠܒܫܘܗܝ, which incorporates both the conjunction ('and'), the verb (l-b-sh, 'to clothe'), and the 3rd-masculine-singular object suffix ('him'). The Syriac thus collapses what the Greek and Latin express analytically with a separate object pronoun."
+    },
+    {
+      "greek_nt": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "The accusative object αὐτὸν / eum ('him') is rendered in Syriac not as a free pronoun but as the verbal suffix on ܘܐܠܒܫܘܗܝ; there is no discrete Peshitta token to align, reflecting the synthetic morphology of Syriac."
     },
     {
       "greek_nt": [
@@ -82,7 +92,7 @@
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πορφύραν / ܐܪܓܘܢܐ / purpura — the garment of imperial purple. The Syriac ܐܪܓܘܢܐ is a loanword (cf. Greek ἀργεμώνη / Akkadian argamannu), not derived from a native root despite the listed r-g-n."
     },
     {
       "greek_nt": [
@@ -94,9 +104,7 @@
       "vulgate": [
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "The Peshitta places the conjunction ܘ ('and') on the verb ܓܕܠܘ ('they twisted/plaited'), creating a different syntactic flow. Greek and Latin maintain separate conjunctions (καί / et) before the second main verb περιτιθέασιν / imponunt, while Syriac front-loads the conjunction onto the participial action."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -110,56 +118,64 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek uses an aorist participle πλέξαντες ('having twisted') in attributive position after the main verb; Latin mirrors this with plectentes in the same post-verbal position. The Peshitta employs a finite verb ܓܕܠܘ ('they twisted') in coordinate construction before the main verb ܣܡܘ ('they placed'), reflecting Syriac preference for parataxis over participial subordination."
+      "note": "Greek and Latin position the participle πλέξαντες / plectentes ('having twisted/plaited') after the main verb of placing, whereas the Syriac fronts ܘܓܕܠܘ (g-d-l, 'and they plaited') as a coordinate finite verb before the act of placing. Syriac favors paratactic coordinate verbs over the Greek subordinating aorist participle."
     },
     {
       "greek_nt": [
-        5,
-        6
+        5
       ],
       "peshitta": [
-        3,
-        4
+        3
       ],
       "vulgate": [
-        5,
-        6
+        5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "περιτιθέασιν / ܣܡܘ / imponunt — 'they set/place upon.' The Syriac s-m ('to set') is more general than the Greek περιτίθημι ('place around'), but contextually equivalent."
     },
     {
       "greek_nt": [
-        8,
-        9
+        6
       ],
       "peshitta": [
-        5,
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        8,
-        9
+        8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Latin use an attributive adjective + noun construction (ἀκάνθινον στέφανον / spineam coronam, 'thorny crown'). The Peshitta employs a construct-state genitive phrase ܟܠܝܠܐ ܕܟܘܒܐ ('crown of thorns'), a standard Semitic nominal construction semantically equivalent but syntactically distinct from the Greek-Latin adjectival pattern."
+      "variant": "aligned",
+      "note": "ἀκάνθινον / ܕܟܘܒܐ / spineam — 'of thorns.' Greek and Latin use an adjective ('thorny'), while Syriac employs a genitive noun phrase ܕܟܘܒܐ ('of thorn[s]'), a construction-level rather than lexical difference."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate concludes the verse with a period after coronam, marking a full stop. Greek and Peshitta manuscripts typically continue without such punctuation, though this reflects Latin editorial convention rather than a textual variant."
+      "variant": "aligned",
+      "note": "στέφανον / ܟܠܝܠܐ / coronam — 'a crown.'"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.048931+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.429882+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

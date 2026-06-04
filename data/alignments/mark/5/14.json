@@ -87,27 +87,45 @@
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek employs a double conjunction καὶ ... δὲ ('and ... but/now') with article οἱ to mark subject shift; Peshitta uses simple ܘܗܢܘܢ ('and those'); Vulgate uses Qui autem ('who however'), a relative pronoun construction. All three mark the same narrative transition but with different syntactic strategies."
+      "type": "construction",
+      "note": "Greek opens with the redundant pairing καὶ...δέ ('and...but/now') plus the substantival article οἱ; the Vulgate renders the connective and subject with the relative pronoun Qui plus the adversative autem; the Peshitta compresses both connective and subject into the single demonstrative ܘܗܢܘܢ ('and they'), a typical Syriac economy."
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
         1,
-        2,
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses a present active participle βόσκοντες ('feeding') functioning attributively; the Vulgate matches with the imperfect pascebant; the Syriac employs a relative participle ܕܪܥܝܢ followed by the auxiliary ܗܘܘ to form a periphrastic past-durative, the standard Syriac equivalent of the Greek imperfective participle."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
         3
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a present participle βόσκοντες with accusative object αὐτοὺς χοίρους ('feeding them, [the] pigs'); Peshitta employs a periphrastic construction ܕܪܥܝܢ ܗܘܘ ܠܗܘܢ ('who were pasturing to-them') with auxiliary verb; Vulgate uses imperfect pascebant eos ('were feeding them'). The Peshitta and Vulgate omit explicit mention of 'pigs,' relying on context from the preceding verse."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτούς / ܠܗܘܢ / eos — the direct object 'them' referring to the swine."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek explicitly names the object χοίρους ('the pigs'); both the Peshitta and the Vulgate omit the noun and leave the pronominal object ('them') to carry the antecedent, avoiding the unclean animal by name in the Syriac case and simply abbreviating in the Latin."
     },
     {
       "greek_nt": [
@@ -119,7 +137,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἔφυγον / ܥܪܩܘ / fugerunt — 'they fled.'"
     },
     {
       "greek_nt": [
@@ -133,9 +153,9 @@
         5,
         6
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀπήγγειλαν (from ἀπαγγέλλω, 'proclaimed, announced') emphasizes formal reporting; Peshitta ܘܐܡܪܘ ('and they said/told') is a simpler, more colloquial verb; Vulgate nuntiaverunt ('they announced') aligns semantically with the Greek but uses a different Latin root. All convey the same action with varying registers of formality."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καὶ ἀπήγγειλαν / ܘܐܡܪܘ / et nuntiaverunt — 'and they reported/told.'"
     },
     {
       "greek_nt": [
@@ -151,8 +171,8 @@
         8
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the preposition εἰς with accusative article τὴν πόλιν ('into the city'); Peshitta uses the preposition ܒ ('in/at') with ܡܕܝܢܬܐ, indicating location rather than motion-toward; Vulgate in civitatem mirrors the Greek accusative of motion. The Peshitta's locative construction is idiomatic Syriac, semantically equivalent despite the grammatical difference."
+      "type": "construction",
+      "note": "Greek and Latin both use a preposition of direction with the accusative (εἰς τὴν πόλιν / in civitatem), implying motion of the report 'into' the city; the Syriac uses the locative ܒ- ('in the city'), a stative rather than directional construction, though the sense is identical."
     },
     {
       "greek_nt": [
@@ -172,7 +192,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek τοὺς ἀγρούς ('the fields/countryside') is plural; Peshitta ܒܩܘܪܝܐ ('in the villages') substitutes a related but distinct term, specifying rural settlements rather than open fields; Vulgate agros ('fields') mirrors the Greek plural. The Peshitta's choice reflects a semantic shift from agricultural land to inhabited rural areas, though both convey 'the countryside' broadly."
+      "note": "Greek and Latin both repeat the directional preposition before the plural 'fields/country' (εἰς τοὺς ἀγρούς / in agros); the Syriac introduces the emphatic ܘܐܦ ('and also') and uses the plural ܒܩܘܪܝܐ ('in the villages'), a lexical shift from open countryside to inhabited hamlets characteristic of Syriac geography."
     },
     {
       "greek_nt": [
@@ -188,47 +208,59 @@
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ ἦλθον ('and they came') uses aorist indicative; Peshitta ܘܢܦܩܘ ('and they went out') employs a different verb root emphasizing departure/exit; Vulgate Et egressi sunt ('and having gone out') uses a perfect passive participle with auxiliary, creating a compound past construction. The Vulgate's periphrastic perfect is stylistically distinct from the Greek aorist."
+      "type": "lexical",
+      "note": "Greek ἦλθον ('they came/went') is a general verb of motion; both the Syriac ܘܢܦܩܘ and the Vulgate egressi sunt specify 'they went out,' an interpretive sharpening shared by the two versions against the unmarked Greek verb."
     },
     {
       "greek_nt": [
-        18,
+        18
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἰδεῖν / ܠܡܚܙܐ / videre — the infinitive of purpose 'to see.'"
+    },
+    {
+      "greek_nt": [
         19,
         20,
         21,
         22
       ],
       "peshitta": [
-        10,
         11,
         12
       ],
       "vulgate": [
-        15,
         16,
         17,
         18
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses infinitive ἰδεῖν ('to see') with indirect question τί ἐστιν τὸ γεγονός ('what is the thing having happened'); Peshitta employs infinitive ܠܡܚܙܐ ('to see') with indefinite ܡܕܡ ܕܗܘܐ ('something that happened'), a more compact construction; Vulgate videre quid esset factum ('to see what had been done') uses subjunctive esset in indirect question. The Peshitta's ܡܕܡ ('something') is semantically broader than Greek τί ('what'), and the Vulgate's pluperfect subjunctive factum esset differs aspectually from the Greek perfect participle."
+      "note": "Greek phrases the indirect question fully as τί ἐστιν τὸ γεγονός ('what it is that has happened') with present copula and perfect participle; the Vulgate matches with quid esset factum (imperfect subjunctive); the Syriac compresses to ܡܕܡ ܕܗܘܐ ('the thing that happened'), substituting the indefinite ܡܕܡ for the interrogative and omitting an explicit copula."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        22
+      ],
       "vulgate": [
         19
       ],
-      "variant": "added",
+      "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate adds a colon (:) at verse end, marking a stronger pause before the subsequent narrative. Neither Greek nor Peshitta manuscripts transmit equivalent punctuation at this juncture; the Vulgate's colon reflects Latin editorial tradition emphasizing the transition to the crowd's arrival and observation in the following verse."
+      "note": "The Greek paragraph marker (¶) attached to γεγονός closes the pericope, whereas the Vulgate's terminal colon (':') signals a continuation into the following clause; the Peshitta carries no comparable punctuation here, reflecting differing editorial sense-division across the traditions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.972637+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.543908+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

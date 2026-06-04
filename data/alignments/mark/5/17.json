@@ -52,8 +52,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -63,12 +62,10 @@
         0
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἤρξαντο first; Vulgate splits the construction with rogare cœperunt (infinitive + auxiliary); Syriac ܘܫܪܝܘ incorporates both the conjunction and the inceptive verb in a single token, reflecting typical Semitic verb-initial syntax."
+      "note": "Greek ἤρξαντο ('they began', aorist middle of ἄρχω) and Latin cœperunt are finite verbs; the Peshitta fuses the conjunction and inceptive verb into ܘܫܪܝܘ ('and they began'), the standard Syriac inchoative auxiliary, so this index is shared with the conjunction group above."
     },
     {
       "greek_nt": [
@@ -79,23 +76,22 @@
       ],
       "vulgate": [
         1
-      ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek παρακαλεῖν (G3870, 'to implore/beseech') is rendered by Syriac ܒܥܝܢ ('they were asking/requesting') and Latin rogare ('to ask/request'); the Syriac and Latin both employ slightly less intense verbs than the Greek compound, though all convey petitionary speech."
-    },
-    {
-      "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "παρακαλεῖν / ܒܥܝܢ / rogare"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek αὐτόν (accusative object of παρακαλεῖν) and Latin eum are direct objects, whereas Syriac ܡܢܗ ('from him') governs the petition with a prepositional suffix, reflecting the Syriac construction ܒܥܐ ܡܢ ('to ask of'); semantically equivalent but a different valency pattern."
     },
     {
       "greek_nt": [
@@ -110,34 +106,42 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the simple infinitive ἀπελθεῖν ('to depart'); Vulgate employs ut + subjunctive (ut discederet); Syriac uses the d- prefix construction ܕܢܐܙܠ ܠܗ (literally 'that he go for himself'), where ܠܗ functions as an ethical dative emphasizing the subject's agency—a typical Syriac idiom absent from Greek and Latin."
+      "note": "Greek expresses the request with a bare infinitive ἀπελθεῖν, while Latin uses a purpose/object clause ut discederet and Syriac uses ܕܢܐܙܠ ('that he should go') with the ethical dative ܠܗ; the finite subordinate constructions in Latin and Syriac contrast with the Greek articular-less infinitive."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "ἀπό / ܡܢ / de"
+    },
+    {
+      "greek_nt": [
         6,
         7,
         8
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the article + genitive plural construction τῶν ὁρίων αὐτῶν ('the regions of them'); Latin mirrors this with de finibus eorum; Syriac employs the singular construct state ܬܚܘܡܗܘܢ ('their border/territory') with pronominal suffix, a typical Semitic idiom treating geographic regions as collective singulars rather than distributive plurals."
+      "note": "Greek τῶν ὁρίων αὐτῶν and Latin finibus eorum render 'their territory' with an explicit genitive plural pronoun, while the Peshitta compacts this into the single suffixed form ܬܚܘܡܗܘܢ ('their border/region'), absorbing the article and the pronoun into one inflected noun."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.973175+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.556305+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

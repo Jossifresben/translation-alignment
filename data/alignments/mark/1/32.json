@@ -78,7 +78,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a genitive absolute construction (Ὀψίας δὲ γενομένης) with the aorist participle γενομένης modifying ὀψίας. Vulgate mirrors this with an ablative absolute (Vespere autem facto). Peshitta uses a simple temporal prepositional phrase (ܒܪܡܫܐ ܕܝܢ, 'in the evening now') without a participial construction, achieving the same temporal sense through a more direct syntactic structure."
+      "note": "Greek and Latin both use a genitive/ablative absolute (Ὀψίας γενομένης / Vespere facto, 'evening having come'), an explicit temporal participle clause. The Peshitta compresses this to the bare prepositional phrase ܒܪܡܫܐ ('in/at evening'), omitting any participial verb of 'becoming' and relying on the preposition alone to carry the temporal force."
     },
     {
       "greek_nt": [
@@ -98,46 +98,70 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a temporal clause with ὅτε ('when') plus the aorist ἔδυ ('set') with article + subject (ὁ ἥλιος). Vulgate employs a cum-temporal clause with pluperfect subjunctive (cum occidisset sol), reflecting classical Latin temporal syntax. Peshitta uses a prepositional phrase with infinitive construct (ܒܡܥܪܒܝ ܫܡܫܐ, 'at the setting of the sun'), a characteristic Semitic construction that conveys the same temporal relationship without subordinate clause syntax."
+      "note": "Greek (ὅτε ἔδυ ὁ ἥλιος) and Latin (cum occidisset sol) render a full subordinate clause with a finite verb 'when the sun set/had set.' The Peshitta substitutes a construct prepositional phrase ܒܡܥܪܒܝ ܫܡܫܐ ('at the setting of the sun'), a nominalised idiom that lacks the explicit relative/temporal conjunction and finite verb of the other two traditions."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἔφερον (imperfect) and Latin afferebant (imperfect) both express durative/iterative past action, 'they were bringing.' The Peshitta ܐܝܬܝܘ is a perfect (Aphel), presenting the action as a completed whole; the aspectual nuance of repeated bringing in the Greek imperfect is thus flattened."
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πρὸς αὐτὸν / ad eum / ܠܘܬܗ — 'to him.'"
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πάντας / omnes / ܟܠܗܘܢ — 'all.'"
+    },
+    {
+      "greek_nt": [
         11,
         12,
         13
       ],
       "peshitta": [
-        6,
         7,
         8,
         9
       ],
       "vulgate": [
-        9,
         10,
         11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the idiomatic expression τοὺς κακῶς ἔχοντας (literally 'those badly having', i.e., 'the sick') with an adverb + present participle of ἔχω. Vulgate renders this with male habentes, a direct calque of the Greek idiom. Peshitta employs a relative clause construction (ܐܝܠܝܢ ܕܒܝܫܐܝܬ ܥܒܝܕܝܢ, 'those who were badly afflicted'), using a passive participle (ܥܒܝܕܝܢ from ܥܒܕ) rather than the Greek stative verb, reflecting Syriac preference for explicit relative markers."
+      "note": "Greek τοὺς κακῶς ἔχοντας ('those having [it] badly') and Latin male habentes both use the idiomatic adverb+participle construction for 'the sick.' The Peshitta employs a relative clause ܐܝܠܝܢ ܕܒܝܫܐܝܬ ܥܒܝܕܝܢ ('those who were badly made/affected'), a syntactically distinct but semantically equivalent periphrasis for the ill."
     },
     {
       "greek_nt": [
@@ -151,18 +175,27 @@
       "vulgate": [
         12,
         13,
-        14,
+        14
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek (καὶ τοὺς δαιμονιζομένους) uses a passive participle 'those being demon-possessed,' and Latin (et dæmonia habentes) renders 'those having demons' with a noun-object construction. The Peshitta ܘܕܝܘܢܐ ('and the demoniacs/those of demons') compresses the whole expression into a single substantival form, dropping the explicit article-participle apparatus."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         15
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the substantival participle τοὺς δαιμονιζομένους ('those being demonised') with the article, a standard Greek participial construction. Vulgate expands this to dæmonia habentes ('having demons'), using a noun + participle phrase that makes the possession explicit. Peshitta uses the single noun ܘܕܝܘܢܐ ('and the demon-possessed'), a more compact lexical choice that conveys the same meaning without participial elaboration, typical of Syriac economy of expression."
+      "type": "punctuation",
+      "note": "The Clementine Vulgate closes the verse with a colon (:), marking the clause as syntactically open toward the following verse. Neither the Greek high point (·) nor the unpunctuated Peshitta carries an exactly equivalent discourse-level pause here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.948554+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.433893+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

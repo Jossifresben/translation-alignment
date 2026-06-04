@@ -64,24 +64,32 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek uses an aorist middle participle (προσκαλεσάμενος, 'having summoned to himself'); the Vulgate matches with an ablative absolute (convocatis eis); the Syriac employs a finite verb ܘܩܪܐ ('and he called'), coordinated paratactically rather than subordinated as a participle, a typical Semitic preference for parataxis over hypotaxis."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses aorist middle participle προσκαλεσάμενος with accusative object αὐτούς; Latin mirrors this with perfect passive participle convocatis plus dative eis; Peshitta employs active perfect ܘܩܪܐ ܐܢܘܢ with direct object marker, semantically equivalent but syntactically distinct."
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -90,8 +98,7 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the calling and speaking, whereas Greek and Latin leave the subject implicit from narrative context. This represents a typical Syriac clarifying expansion for readability."
+      "note": "The Peshitta inserts the explicit subject ܝܫܘܥ ('Jesus'), absent from both the Greek and the Vulgate, which carry the subject only implicitly in the verb. This is a characteristic Syriac clarifying expansion supplying the named agent for the participial/finite clause."
     },
     {
       "greek_nt": [
@@ -105,27 +112,33 @@
         3,
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐν παραβολαῖς (prepositional phrase with dative plural) and Latin in parabolis are structurally parallel; Syriac ܘܒܡܬܠܐ uses the singular form with prefixed preposition, a common Semitic idiom treating the abstract noun collectively."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek ἔλεγεν is imperfect ('he was saying', durative aspect) and the Vulgate dicebat likewise renders it imperfect; the Syriac ܐܡܪ is the simple perfect ('he said'), flattening the iterative/durative nuance of the Greek imperfect into an unmarked past."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses imperfect ἔλεγεν with dative αὐτοῖς followed by raised dot (·); Latin dicebat illis is followed by a colon introducing direct discourse; Peshitta ܐܡܪ ܠܗܘܢ employs perfect tense without explicit punctuation marker. The Vulgate's colon formally marks the transition to quoted speech."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -137,8 +150,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -150,8 +162,7 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -163,8 +174,7 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -176,8 +186,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek marks the second 'Satan' by the accusative case ending (σατανᾶν) and Latin by the accusative Satanam; the Syriac, lacking case inflection, signals the direct object with the proclitic preposition ܠ (ܠܣܛܢܐ), an analytic equivalent of the Greek/Latin accusative."
     },
     {
       "greek_nt": [
@@ -191,14 +201,13 @@
         13
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ἐκβάλλειν (present active infinitive) ends with semicolon (;) marking the rhetorical question; Latin ejicere is followed by a separate question mark (?); Peshitta ܠܡܦܩܘ uses the infinitive with ܠ prefix. The Vulgate's explicit question mark represents later Latin punctuation convention."
+      "note": "Greek uses the present active infinitive ἐκβάλλειν ('to cast out') and the Vulgate the infinitive ejicere; the Syriac ܠܡܦܩܘ is an infinitive of the root p-q (Aphel, 'to bring/cast out') prefixed with ܠ, syntactically parallel but built on a 'go out' causative rather than a 'throw out' lexeme."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.960691+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.549284+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

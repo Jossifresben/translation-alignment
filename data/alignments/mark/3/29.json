@@ -72,24 +72,32 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the indefinite relative construction ὃς δ᾽ ἂν (relative pronoun + particle δέ + modal particle ἄν) to express 'whoever'; Peshitta uses ܡܢ ܕܝܢ (interrogative + particle) and Vulgate qui autem (relative + adversative), both semantically equivalent but syntactically simpler."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
@@ -98,49 +106,86 @@
       "vulgate": [
         2
       ],
+      "variant": "minor",
+      "note": "Greek expresses the indefinite relative with the subjunctive plus the particle ἄν (ὃς δ᾽ ἂν βλασφημήσῃ); both the Peshitta (ܕܢܓܕܦ, an imperfect prefixed with relative ܕ) and the Vulgate (blasphemaverit, future-perfect) render the conditional-generic force with a single inflected verb, a routine syntactic compression. The doublet index 2 covers both the Greek particle ἄν and the verb that opens the clause."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "εἰς / ܥܠ / in — the Greek and Latin use a directional accusative ('against'), while Syriac ܥܠ ('upon, against') is the standard idiomatic complement for verbs of blaspheming."
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
-        5,
-        6,
         7,
         8
       ],
       "peshitta": [
-        3,
-        4,
         5
       ],
       "vulgate": [
-        3,
-        4,
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition εἰς with double article construction (εἰς τὸ πνεῦμα τὸ ἅγιον, 'against the Spirit the Holy'); Vulgate mirrors with in Spiritum Sanctum; Peshitta employs ܥܠ ('upon/against') with construct-state phrase ܪܘܚܐ ܕܩܘܕܫܐ ('Spirit of Holiness'), a typical Semitic genitive construction."
+      "note": "Greek attributes holiness with an articular adjective in attributive repetition (τὸ πνεῦμα τὸ ἅγιον) and Latin with a postpositive adjective (Spiritum Sanctum); Syriac employs the construct/genitive ܪܘܚܐ ܕܩܘܕܫܐ ('Spirit of holiness'), a Semitic nominal construction equivalent in sense but distinct in form."
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10
       ],
       "peshitta": [
         6,
-        7,
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek ἔχει and Latin habebit both render 'has/will have' with a transitive verb of possession, whereas Syriac uses the existential particle ܠܝܬ negated ('there is not') together with the prepositional ܠܗ ('to him'), a possessive construction typical of Aramaic which lacks a true verb 'to have'."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
         8
       ],
       "vulgate": [
-        6,
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses negated verb οὐκ ἔχει ἄφεσιν ('does not have forgiveness'); Vulgate non habebit remissionem employs future tense; Peshitta uses the negative existential ܠܝܬ ܠܗ ('there is not to him') with dative suffix, a characteristic Syriac construction for possession."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -155,7 +200,8 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek (εἰς τὸν αἰῶνα) and Latin (in æternum) employ a prepositional phrase 'unto the age/forever'; Syriac compresses this to the single adverbial ܠܥܠܡ, the lexically cognate term (e-l-m, cf. Heb. עוֹלָם) bearing the same temporal sense."
     },
     {
       "greek_nt": [
@@ -182,9 +228,8 @@
         12,
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the predicate adjective before the copula (ἔνοχός ἐστιν, 'guilty is'); Vulgate inverts to reus erit (future tense); Peshitta uses participial construction ܡܚܝܒ ܗܘ with explicit pronominal copula, typical of Syriac syntax."
+      "variant": "aligned",
+      "note": "ἔνοχός ἐστιν / ܡܚܝܒ ܗܘ / reus erit — all three predicate guilt with copula plus adjective; the Syriac ܡܚܝܒ (root kh-y-b) carries forensic 'liable/condemned' force matching ἔνοχος and reus."
     },
     {
       "greek_nt": [
@@ -200,14 +245,13 @@
         15
       ],
       "variant": "major",
-      "type": "substitution",
-      "note": "Greek reads αἰωνίου ἁμαρτήματος ('of eternal sin/transgression'); Vulgate æterni delicti mirrors this; Peshitta substitutes ܠܕܝܢܐ ܕܠܥܠܡ ('to judgment of eternity'), replacing the concept of 'sin' with 'judgment,' a substantive theological shift emphasizing eschatological consequence rather than the nature of the offense itself."
+      "note": "Greek and Latin read 'guilty of an eternal sin' (αἰωνίου ἁμαρτήματος / æterni delicti), whereas the Peshitta reads ܠܕܝܢܐ ܕܠܥܠܡ, 'liable to eternal judgement/condemnation' (root d-y-n). This is a substantive substitution: Syriac shifts from the offence (the sin itself) to its penal consequence (the judgement), a known interpretive rendering reflecting the variant ἁμαρτίας/κρίσεως debated in the textual tradition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.961824+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.508800+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

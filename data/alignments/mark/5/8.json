@@ -58,8 +58,8 @@
         0
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἔλεγεν is imperfect active indicative third singular; Peshitta employs periphrastic construction ܐܡܪ ܗܘܐ (perfect + auxiliary) to render the imperfect aspect; Vulgate dicebat mirrors the Greek imperfect directly. All three convey iterative or durative past action."
+      "type": "construction",
+      "note": "The Greek imperfect ἔλεγεν ('he was saying') is rendered periphrastically in Syriac with ܐܡܪ ܗܘܐ (perfect + auxiliary ܗܘܐ), the standard Syriac construction for durative/iterative past. The Latin Dicebat captures the same imperfective force in a single synthetic form."
     },
     {
       "greek_nt": [
@@ -71,7 +71,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "γάρ / ܓܝܪ / enim"
     },
     {
       "greek_nt": [
@@ -81,12 +82,10 @@
         2
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi to mark the transition to direct speech, a Latin scribal convention absent in Greek and Syriac manuscript traditions."
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / illi"
     },
     {
       "greek_nt": [
@@ -98,7 +97,35 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἔξελθε / ܦܘܩ / Exi"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἐκ / ܡܢ / ab"
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "τοῦ ἀνθρώπου / ܒܪܢܫܐ / homine"
     },
     {
       "greek_nt": [
@@ -115,33 +142,15 @@
         5,
         6
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek places the vocative τὸ πνεῦμα τὸ ἀκάθαρτον before the prepositional phrase ἐκ τοῦ ἀνθρώπου, employing double article construction for emphasis. Peshitta inverts the order, placing ܡܢ ܒܪܢܫܐ ('from the man') before ܪܘܚܐ ܛܢܦܐ ('unclean spirit'), reflecting Semitic preference for verb-prepositional phrase-subject order in commands. Vulgate spiritus immunde follows Greek word order but uses post-positive adjective without article."
-    },
-    {
-      "greek_nt": [
-        8,
-        9,
-        10
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        7,
-        8
-      ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐκ and Vulgate ab both govern the genitive/ablative respectively (τοῦ ἀνθρώπου / homine), while Peshitta ܡܢ governs the emphatic state ܒܪܢܫܐ. All three prepositions denote separation/source, but Syriac ܡܢ has broader semantic range than Greek ἐκ."
+      "type": "word-order",
+      "note": "All three name the 'unclean spirit', but the constituent order differs: Greek and Latin place the spirit-phrase immediately after the imperative (τὸ πνεῦμα τὸ ἀκάθαρτον / spiritus immunde), whereas the Peshitta defers ܪܘܚܐ ܛܢܦܐ to the very end of the clause, after the prepositional phrase. The Greek doubly articulates the attributive (τὸ ... τὸ ἀκάθαρτον), a feature lost in both Latin and Syriac, and the vocative force is signalled morphologically in Greek/Latin but contextually in Syriac."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.971671+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.511441+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

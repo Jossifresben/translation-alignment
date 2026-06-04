@@ -68,37 +68,57 @@
     {
       "greek_nt": [
         0,
-        1,
         2
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs an articular infinitive construction (τὸ καθίσαι) to nominalize the action; Peshitta uses a finite verb with ܕ- prefix (ܕܬܬܒܘܢ, 'that you sit'), and Vulgate uses a bare infinitive (sedere). All three express the same semantic content but through different syntactic strategies typical of their respective languages."
+      "note": "Greek substantivises the infinitive with the neuter article (τὸ ... καθίσαι, 'the to-sit'); the Vulgate renders it as a bare infinitive (sedere), while the Syriac employs a finite imperfect clause prefixed with d- (ܕܬܬܒܘܢ, 'that you should sit'), a typical Semitic conversion of a Greek articular infinitive into a subordinate verbal clause."
     },
     {
       "greek_nt": [
-        3,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek δεξιῶν μου and Latin dexteram meam both render 'my right hand' with an explicit possessive; the Syriac ܝܡܝܢܝ fuses the noun and the first-person suffix into a single inflected form, an economy characteristic of Semitic pronominal suffixation."
     },
     {
       "greek_nt": [
@@ -110,7 +130,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek and Latin mark the alternative with a disjunctive 'or' (ἢ / vel); the Peshitta uses the copulative ܘ- ('and'), coordinating rather than disjoining the two positions — a frequent Syriac levelling of Greek disjunctives."
     },
     {
       "greek_nt": [
@@ -125,38 +147,59 @@
         6,
         7
       ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek repeats the preposition and possessive (ἐξ εὐωνύμων μου, 'at my left'); the Vulgate omits the possessive on the left side (ad sinistram); the Syriac again folds noun and suffix into a single form ܣܡܠܝ, cognate with Hebrew שְׂמֹאל, with no separate preposition realised beyond the earlier coordinated ܘܡܢ."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        10,
-        11,
-        12,
-        13
+        11
       ],
       "peshitta": [
-        6,
-        7,
-        8,
-        9
+        7
       ],
       "vulgate": [
-        8,
-        9,
-        10,
-        11
+        9
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἔστιν and Latin est are present tense ('is not mine'); the Syriac ܗܘܬ is a perfect/preterite form ('was not mine'), reflecting the Syriac tendency to render the copula in a completed-aspect form even where Greek has the present indicative."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
       ],
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
+      "greek_nt": [
+        13
       ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Vulgate adds the explicit dative pronoun 'vobis' ('to you'), making the indirect object grammatically overt. Neither the Greek nor the Peshitta includes this pronoun, as the context sufficiently identifies the recipients of Jesus's statement to James and John."
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -174,6 +217,14 @@
       "variant": "aligned"
     },
     {
+      "vulgate": [
+        12
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate adds vobis ('to you'), supplying an explicit indirect object after dare not present in the NA28 Greek (οὐκ ἔστιν ἐμὸν δοῦναι) nor in the Peshitta. This is a clarifying expansion, possibly reflecting a harmonising Old Latin Vorlage."
+    },
+    {
       "greek_nt": [
         16
       ],
@@ -184,13 +235,15 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the idea with a single perfect passive verb ἡτοίμασται ('it has been prepared'); the Syriac uses a passive participle ܕܡܛܝܒܐ ('for whom it is prepared'); the Vulgate employs a periphrastic perfect passive paratum est, splitting the predicate into participle plus copula."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.013343+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.551474+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

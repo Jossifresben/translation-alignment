@@ -49,69 +49,105 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [
-        0,
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article ὁ with postpositive δέ; Syriac mirrors this with pronoun ܗܘ plus ܕܝܢ; Vulgate uses only the adversative autem without a pronoun, relying on verb inflection for subject identification."
-    },
-    {
-      "greek_nt": [
         2
       ],
       "peshitta": [
+        0,
         2
       ],
       "vulgate": [
         0
       ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek fronts the articular subject ὁ ... Ἰησοῦς around the postpositive δέ; Syriac mirrors this with the demonstrative-pronoun-plus-noun ܗܘ ... ܝܫܘܥ ('but he, Jesus'), a typical Syriac topicalising construction, whereas the Vulgate Jesus carries no article and no anticipatory pronoun."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
-        4,
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek οὐκέτι ('no longer') is a temporal-negative adverb rendered by Latin amplius ('further, any more'); the Peshitta lacks an exact equivalent, expressing the sense purely through the negated verb ('gave no answer'), so the nuance of 'no longer' is not separately lexicalised in Syriac."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "peshitta": [
+        4
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta supplies an explicit object noun ܦܬܓܡܐ ('a word/answer') alongside the verb 'gave', producing the idiom 'gave no word' for 'answered nothing'; neither the Greek nor the Latin has a corresponding noun, the idea being carried in Greek by the verb ἀπεκρίθη alone."
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        3,
-        4,
         5,
         6
       ],
       "vulgate": [
-        2,
-        3,
         4
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta expands the Greek double-negative construction (οὐκέτι οὐδὲν ἀπεκρίθη) into a four-token phrase: ܡܕܡ ܦܬܓܡܐ ܠܐ ܝܗܒ ('not a word/thing did he give'), employing the verb ܝܗܒ ('to give') rather than a direct cognate of ἀποκρίνω. Vulgate compresses to amplius nihil respondit, using the comparative adverb amplius ('any longer') to render οὐκέτι, maintaining closer syntactic alignment with the Greek."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a single finite verb of answering (ἀπεκρίθη / respondit), while the Peshitta renders the action periphrastically with negative ܠܐ plus the verb ܝܗܒ ('did not give'), reflecting the Syriac idiom ܦܬܓܡܐ ܝܗܒ ('to give a word') for the act of replying."
     },
     {
       "greek_nt": [
-        6,
-        7
+        6
       ],
       "peshitta": [
-        7,
-        8
+        7
       ],
       "vulgate": [
         5,
-        6,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses result with the single conjunction ὥστε plus infinitive; the Vulgate uses the two-word correlative ita ut, and the Syriac ܐܝܟܢܐ introduces a finite result clause, three syntactically distinct but semantically equivalent ways of marking consequence."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
         7
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek ὥστε θαυμάζειν employs a consecutive infinitive construction; Syriac ܐܝܟܢܐ ܕܢܬܕܡܪ uses a purpose clause with the subjunctive prefix ܕ ('that he might marvel'); Vulgate ita ut miraretur mirrors Greek syntax with a result clause but shifts to the imperfect subjunctive miraretur, all three expressing Pilate's astonishment as the consequence of Jesus' silence."
+      "note": "Greek uses the present infinitive θαυμάζειν governed by ὥστε, the Vulgate a subjunctive miraretur in a result clause, and the Syriac the finite ethpaʿal ܕܢܬܕܡܪ ('that he should marvel'); the underlying notion of Pilate's amazement is identical."
     },
     {
       "greek_nt": [
@@ -126,13 +162,13 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the accusative article τὸν with Πιλᾶτον as object of the infinitive θαυμάζειν; Syriac ܦܝܠܛܘܣ and Vulgate Pilatus both omit the article, as neither language requires articles with proper names in this syntactic position."
+      "note": "Greek marks Pilate as the accusative subject of the infinitive (τὸν Πιλᾶτον), reflecting the ὥστε + infinitive construction; Syriac and Latin treat him as the nominative subject of their finite result clauses, an unavoidable grammatical consequence of their differing syntax."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.047081+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.427945+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

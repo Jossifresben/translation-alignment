@@ -89,23 +89,54 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek ἔρχονται and Latin veniunt are finite present-tense verbs ('they come'), while the Syriac ܘܐܬܘ is a perfect ('and they came'). The Peshitta verb is conjoined with the conjunction in a single token, hence its overlap with the conjunction group."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses present tense ἔρχονται ('they come') with preposition εἰς; Latin employs present veniunt with accusative Jericho (no preposition); Peshitta uses perfect ܘܐܬܘ ('and they came') with preposition ܠ, reflecting typical Semitic narrative sequencing with waw-consecutive construction."
+      "note": "Greek uses preposition εἰς + accusative and the Vulgate uses bare accusative Jericho; the Peshitta prefixes the directional lamadh (ܠ-) to ܐܝܪܝܚܘ, all three expressing motion toward the city by differing morphosyntactic means."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "The Vulgate marks the clause boundary with an explicit colon, whereas the Greek closes the sentence with a full stop; the Peshitta provides no punctuation token here. Punctuation differences reflect editorial conventions rather than textual variation.",
+      "type": "punctuation"
     },
     {
       "greek_nt": [
@@ -115,36 +146,42 @@
         2
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after Jericho to mark the narrative transition, creating a stronger pause than the Greek καί or Peshitta ܘܟܕ ('and when'), which maintain smoother narrative flow."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         5,
-        6,
-        7,
-        8
+        6
       ],
       "peshitta": [
         3,
         4,
-        5,
-        6,
         7
       ],
       "vulgate": [
         5,
-        6,
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin employ a genitive/ablative absolute participial construction (ἐκπορευομένου αὐτοῦ / proficiscente eo, 'as he was going out'); the Peshitta unpacks this with a finite verb ܢܦܩ governed by ܘܟܕ ('and when he went out'), explicitly naming ܝܫܘܥ (Jesus) as subject plus the demonstrative ܗܘ. This is a typical Syriac syntactic resolution of the Greek absolute.",
+      "type": "construction"
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of departure, whereas Greek uses only the pronoun αὐτοῦ and Latin eo, both requiring contextual inference. This represents a typical Peshitta clarification strategy for narrative subjects."
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -162,8 +199,8 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs genitive absolute construction (τῶν μαθητῶν αὐτοῦ) with article and possessive pronoun; Latin mirrors this with genitive discipulis ejus; Peshitta uses a single compound form ܘܬܠܡܝܕܘܗܝ ('and his disciples') with pronominal suffix, a more compact Semitic construction."
+      "note": "Greek τῶν μαθητῶν αὐτοῦ and Latin discipulis ejus render 'his disciples' analytically with article/possessive; Syriac compresses the entire phrase into the single suffixed form ܘܬܠܡܝܕܘܗܝ ('and his disciples'), a characteristic Syriac economy of expression.",
+      "type": "construction"
     },
     {
       "greek_nt": [
@@ -181,14 +218,15 @@
         14
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὄχλου ἱκανοῦ ('considerable crowd') uses the adjective ἱκανός emphasizing sufficiency or adequacy; Latin plurima multitudine intensifies with 'very great multitude'; Peshitta ܟܢܫܐ ܣܓܝܐܐ ('great crowd') employs the standard Semitic adjective for 'many/much', semantically closer to Greek but less emphatic than Latin."
+      "note": "All three attest 'and a large crowd' (ὄχλου ἱκανοῦ / plurima multitudine / ܘܟܢܫܐ ܣܓܝܐܐ); the qualifying adjectives ἱκανοῦ ('considerable'), plurima ('very great'), and ܣܓܝܐܐ ('many') differ slightly in nuance of size but are functionally synonymous.",
+      "type": "lexical"
     },
     {
       "greek_nt": [
         16,
         17,
-        18
+        18,
+        19
       ],
       "peshitta": [
         11,
@@ -196,52 +234,29 @@
       ],
       "vulgate": [
         15,
-        16
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the patronymic construction ὁ υἱὸς Τιμαίου before the proper name Βαρτιμαῖος; Peshitta reverses this to ܛܝܡܝ ܒܪ-ܛܝܡܝ (Timay bar-Timay, 'Timay son of Timay'), placing the father's name first; Latin follows Greek word order with filius Timæi Bartimæus, though the Peshitta form suggests possible textual confusion or variant tradition regarding the name."
-    },
-    {
-      "greek_nt": [
-        19
-      ],
-      "peshitta": [],
-      "vulgate": [
+        16,
         17
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Peshitta omits the proper name Βαρτιμαῖος/Bartimæus entirely, retaining only the patronymic ܒܪ-ܛܝܡܝ ('son of Timay'). This may reflect either a different textual tradition or scribal simplification to avoid redundancy with the preceding patronymic formula."
+      "variant": "minor",
+      "note": "Greek gives both the patronymic ὁ υἱὸς Τιμαίου and the Aramaic name Βαρτιμαῖος (itself meaning 'son of Timaeus'), as does the Vulgate (filius Timæi Bartimæus). The Peshitta has only ܛܝܡܝ ܒܪ-ܛܝܡܝ ('Timai, son of Timai'), preserving the genuine Aramaic form without the Greek explanatory gloss of the patronymic.",
+      "type": "lexical"
     },
     {
       "greek_nt": [
         20,
-        21
+        21,
+        22
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
-        18
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses double article construction (ὁ τυφλὸς, 'the blind [one]') as substantival adjective; Latin cæcus stands alone as adjective modifying the subject; Peshitta ܣܡܝܐ employs the emphatic state functioning as definite adjective, syntactically parallel to Greek but morphologically distinct."
-    },
-    {
-      "greek_nt": [
+        18,
         22
       ],
-      "peshitta": [
-        19
-      ],
-      "vulgate": [
-        22
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek προσαίτης ('beggar') appears before the verb ἐκάθητο; Latin mendicans appears after sedebat; Peshitta ܘܚܕܪ ('and begging') follows the verb ܝܬܒ ܗܘܐ, functioning as a participial complement. All three convey the same semantic content but with different syntactic positioning reflecting language-specific preferences."
+      "variant": "major",
+      "note": "Greek alone reads ὁ τυφλὸς προσαίτης ('the blind beggar'), combining blindness and begging into the subject's description; the Vulgate renders cæcus here (token 18) and defers the begging notion to the participle mendicans (token 22) at clause-end. The Peshitta has only ܣܡܝܐ ('blind') and omits any word for 'beggar' entirely, a substantive shortening of the description.",
+      "type": "omission"
     },
     {
       "greek_nt": [
@@ -255,8 +270,8 @@
         19
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἐκάθητο ('was sitting'); Latin employs imperfect sedebat; Peshitta uses periphrastic construction ܝܬܒ ܗܘܐ (perfect participle + auxiliary 'was'), a characteristic Syriac way of expressing past continuous aspect, semantically equivalent to Greek and Latin imperfects."
+      "note": "Greek imperfect ἐκάθητο and Latin imperfect sedebat ('he was sitting') are matched in Syriac by the periphrastic past ܝܬܒ ܗܘܐ (participle/perfect + enclitic ܗܘܐ), the standard Syriac means of expressing durative past action.",
+      "type": "grammar"
     },
     {
       "greek_nt": [
@@ -274,14 +289,30 @@
         21
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek παρὰ τὴν ὁδόν ('beside the road') uses preposition with accusative; Latin juxta viam employs juxta with accusative; Peshitta ܥܠ ܝܕ ܐܘܪܚܐ literally 'upon the hand of the road' uses the idiomatic Semitic construction with ܝܕ ('hand') meaning 'beside/at', a standard Syriac locative idiom not present in Greek or Latin."
+      "note": "Greek παρὰ τὴν ὁδόν and Latin juxta viam ('beside the road') are rendered in Syriac with the idiomatic compound preposition ܥܠ ܝܕ (literally 'upon the hand of') + ܐܘܪܚܐ, a fixed Syriac expression for 'beside/at the edge of', semantically equivalent.",
+      "type": "idiom"
+    },
+    {
+      "peshitta": [
+        19
+      ],
+      "variant": "added",
+      "note": "The Peshitta appends ܘܚܕܪ ('and was begging/going about begging', root kh-d-r), supplying the very 'begging' notion that its earlier description omitted (cf. Greek προσαίτης, Vulgate mendicans). The Peshitta thus relocates the beggar element to a final coordinated verb rather than an attributive noun.",
+      "type": "expansion"
+    },
+    {
+      "vulgate": [
+        22
+      ],
+      "variant": "added",
+      "note": "The Vulgate participle mendicans ('begging') at clause-end corresponds in sense to Greek προσαίτης but is grammaticalised as a present participle rather than a noun; it is grouped separately as it is positioned apart from cæcus. Functionally it parallels the Peshitta's final ܘܚܕܪ.",
+      "type": "construction"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.014214+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.419773+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

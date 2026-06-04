@@ -56,21 +56,21 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The conjunction καί / Et / waw is shared, but the Peshitta fuses it prefixally with the temporal noun (ܘܒܨܦܪܐ, 'and-in-the-morning'), shifting the morning-adverb to the head of the clause, whereas Greek and Latin place the temporal marker after the participle/verb."
     },
     {
       "greek_nt": [
         2
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         2
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "The Peshitta incorporates the temporal adverb ܒܨܦܪܐ ('in the morning') into a compound conjunction ܘܒܨܦܪܐ, placing it before the participial clause, whereas Greek and Latin position πρωΐ/mane after the conjunction and before/after the main verb respectively. This represents a stylistic preference in Syriac for fronting temporal markers."
+      "note": "The temporal adverb πρωΐ / mane ('in the morning') stands as a discrete word in Greek and Latin in clause-medial position; in the Peshitta the equivalent ܨܦܪܐ has already been incorporated into the opening prepositional phrase, hence no separate token aligns here."
     },
     {
       "greek_nt": [
@@ -86,7 +86,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a simple present participle παραπορευόμενοι ('passing by'); Syriac employs a circumstantial construction with ܟܕ + active participle ܥܒܪܝܢ; Latin uses cum + imperfect subjunctive transirent. All three express contemporaneous action but through tradition-specific syntactic patterns—Greek participial, Syriac circumstantial, Latin temporal-cum clause."
+      "note": "Greek renders the action with a single present participle (παραπορευόμενοι, 'passing by'); both the Peshitta (ܟܕ ܥܒܪܝܢ) and the Vulgate (cum transirent) resolve this into a subordinate temporal clause ('while/when they were passing by'), a normal periphrastic equivalent of the Greek participle."
     },
     {
       "greek_nt": [
@@ -98,7 +98,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἶδον / ܚܙܘ / viderunt ('they saw')."
     },
     {
       "greek_nt": [
@@ -113,8 +115,8 @@
         5
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds the demonstrative pronoun ܗܝ ('that [one]') after ܬܬܐ ('fig tree'), creating ܬܬܐ ܗܝ, a common Syriac construction for definiteness and emphasis. Greek uses the article τὴν συκῆν; Latin has bare ficum. The Syriac demonstrative functions as both article-equivalent and anaphoric reference to the previously cursed tree."
+      "type": "grammar",
+      "note": "Greek marks the object with article plus noun (τὴν συκῆν); the Peshitta supplies the demonstrative/anaphoric particle ܗܝ after ܬܬܐ to specify 'that fig tree', a deictic determiner; the Vulgate ficum carries no article, Latin lacking the category."
     },
     {
       "greek_nt": [
@@ -130,7 +132,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a perfect passive participle ἐξηραμμένην ('having been dried up'); Syriac uses a second circumstantial ܟܕ + adjective ܝܒܝܫܐ ('being dry/withered'); Latin uses a perfect passive participle aridam with factam ('made dry'). The Vulgate's factam represents an expansion making the passive transformation explicit, while Syriac's stative adjective with ܟܕ reflects its preference for circumstantial over participial constructions."
+      "note": "Greek expresses the state with a single perfect passive participle (ἐξηραμμένην, 'withered'); the Peshitta introduces a subordinating ܟܕ plus the adjective ܝܒܝܫܐ ('while withered'), and the Vulgate adds the participle factam ('become withered, aridam factam'), each tradition unpacking the perfect resultative into a fuller predicative construction."
     },
     {
       "greek_nt": [
@@ -147,13 +149,13 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the plural genitive ἐκ ῥιζῶν ('from roots'); Latin mirrors this with a radicibus (ablative plural); Syriac uses the singular ܡܢ ܥܩܪܗ ('from its root') with a third-person singular possessive suffix. The Syriac singular is a typical idiom for collective or mass concepts, treating the root system as a unified entity rather than discrete roots."
+      "note": "Greek and Latin use the plural ('from the roots', ἐκ ῥιζῶν / a radicibus), whereas the Peshitta employs the singular with a possessive suffix (ܥܩܪܗ, 'its root'), a typical Syriac idiom treating the root system as a single collective entity belonging to the tree."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.018307+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.548203+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

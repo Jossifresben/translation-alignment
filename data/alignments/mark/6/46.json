@@ -47,29 +47,38 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses simple conjunction καί ('and'); Peshitta employs temporal conjunction ܘܟܕ ('and when'); Vulgate uses temporal cum ('when'). The Peshitta and Vulgate both subordinate the departure clause temporally, whereas Greek coordinates it paratactically."
+      "note": "Greek uses a simple coordinating conjunction καί with a following aorist participle (ἀποταξάμενος), whereas both the Peshitta (ܘܟܕ, 'and when') and the Vulgate (Et cum) render the circumstance with an explicit temporal subordinator plus finite verb, converting the Greek participial construction into a temporal clause."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek aorist middle participle ἀποταξάμενος ('having taken leave') is rendered by a finite verb in both versions: Syriac ܫܪܐ (root sh-r-a, 'he dismissed/released') and Latin pluperfect subjunctive dimisisset within the cum-clause, shifting the voice nuance from 'taking leave of' to actively 'dismissing'."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀποτάσσω (G0657, 'to take leave, bid farewell') is rendered by Peshitta ܫܪܐ ('to release, dismiss') and Vulgate dimitto ('to send away, dismiss'). Both translations opt for a more concrete verb of dismissal rather than the formal leave-taking nuance of the Greek."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -81,8 +90,7 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -99,7 +107,7 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek uses article + prepositional phrase εἰς τὸ ὄρος ('into the mountain', singular with article); Vulgate mirrors with in montem (accusative singular); Peshitta uses ܠܛܘܪܐ (singular with preposition ܠ). All three employ the singular, a typical idiom for geographic features denoting a mountainous region rather than a single peak."
+      "note": "Greek εἰς τὸ ὄρος and Latin in montem both employ preposition plus accusative noun (the Greek with article), while Syriac compresses the phrase into the single prepositional form ܠܛܘܪܐ ('to the mountain', l- prefix), a typical economy of the Syriac that dispenses with a separate article."
     },
     {
       "greek_nt": [
@@ -111,14 +119,13 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.984984+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.489722+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

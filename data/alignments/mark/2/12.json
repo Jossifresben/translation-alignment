@@ -93,7 +93,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
@@ -103,14 +103,27 @@
         0
       ],
       "vulgate": [
-        2
+        2,
+        3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek ἠγέρθη ('he arose') is a single aorist passive verb; the Vulgate renders it with surrexit followed by the explicit demonstrative pronoun ille ('that one') for clarity, while the Syriac fuses the conjunction and verb in ܘܩܡ. The Vulgate's addition of an overt subject is a stylistic expansion not present in the Greek."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Vulgate both repeat a coordinating καί / et before the participial clause; the Syriac subordinates this conjunction directly into the prefixed ܘ- of ܘܫܩܠ ('and he took up'), eliminating the second standalone conjunction."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
@@ -121,56 +134,36 @@
         1
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses καὶ εὐθύς ('and immediately'); Peshitta expands with ܒܪ ܫܥܬܗ ('son of his hour', idiomatic for 'immediately'); Vulgate uses statim alone, positioned before the verb. All three convey immediate action but with different lexical and syntactic strategies."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Vulgate inserts the demonstrative pronoun ille ('that one', 'he') as an explicit subject for surrexit, clarifying the referent. Neither Greek nor Peshitta require an overt subject pronoun due to verb morphology."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after ille, marking a syntactic break before the participial phrase. This punctuation choice reflects Latin rhetorical style and has no equivalent in Greek or Peshitta manuscript traditions."
+      "type": "idiom",
+      "note": "Greek εὐθύς ('immediately') and Latin statim are single adverbs; the Syriac employs the idiomatic temporal phrase ܒܪ ܫܥܬܗ (literally 'son of its hour'), a Semitic construction conveying immediacy. The differing position (Latin places statim before the verb) is a routine stylistic variation."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist participle ἄρας ('having taken up'); the Vulgate renders it with the ablative absolute sublato ('the mat having been lifted'), a Latin idiom for circumstantial clauses, while the Syriac uses a finite verb ܘܫܩܠ ('and he took'), a parataxis typical of Semitic narrative style."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        5,
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an aorist participle ἄρας τὸν κράβαττον ('having taken up the mat'); Peshitta employs a finite verb ܘܫܩܠ ܥܪܣܗ ('and he took up his bed') with pronominal suffix; Vulgate uses ablative absolute sublato grabato ('the mat having been taken up'). All convey simultaneous action but through distinct syntactic constructions."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "κράβαττον / ܥܪܣܗ / grabato (the Latin transliterates the Greek loanword)"
     },
     {
       "greek_nt": [
@@ -183,7 +176,7 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐξῆλθεν / ܘܢܦܩ / abiit"
     },
     {
       "greek_nt": [
@@ -199,36 +192,48 @@
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        11
-      ],
-      "variant": "added",
-      "type": "word-order",
-      "note": "Vulgate places the adverb ita ('thus', 'so') before the result clause ut mirarentur, anticipating the manner of the crowd's reaction. Greek ὥστε and Peshitta ܐܝܟܢܐ introduce the result clause without a preceding manner adverb in this position."
+      "note": "ἔμπροσθεν πάντων / ܠܥܝܢ ܟܠܗܘܢ / coram omnibus; the Syriac literally reads 'before the eyes of all of them', an idiomatic expansion of the spatial preposition."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
         11,
         12
       ],
+      "variant": "aligned",
+      "note": "ὥστε / ܐܝܟܢܐ / ita ut"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
       "peshitta": [
-        8,
-        9,
+        9
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the result with the present middle infinitive ἐξίστασθαι ('to be amazed') governed by ὥστε, and Latin matches with the subjunctive mirarentur; the Syriac uses an imperfect verb ܕܢܬܕܡܪܘܢ in a subordinated result clause. The constructions are semantically equivalent but reflect each language's preferred result-clause syntax."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
         10
       ],
       "vulgate": [
-        12,
-        13,
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πάντας / ܟܠܗܘܢ / omnes"
     },
     {
       "greek_nt": [
@@ -241,25 +246,35 @@
         15
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek δοξάζειν and Syriac ܘܢܫܒܚܘܢ both denote 'to glorify/praise'; the Vulgate's rare verb honorificent ('to honour') is a softer lexical choice than the expected glorificarent, reflecting a Latin rendering nuance that shifts from glorifying to honouring God."
+    },
+    {
+      "greek_nt": [
         15,
         16
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        16,
         17
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek δοξάζειν τὸν θεόν ('to glorify God') uses the standard verb for ascribing glory; Peshitta ܘܢܫܒܚܘܢ ܠܐܠܗܐ employs the cognate Semitic root ŠBḤ ('to praise'); Vulgate honorificent Deum uses a compound verb emphasizing honor-giving. All three are semantically equivalent expressions of worship but reflect distinct lexical traditions."
+      "variant": "aligned",
+      "note": "τὸν θεόν / ܠܐܠܗܐ / Deum"
     },
     {
       "greek_nt": [
@@ -274,49 +289,66 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the present participle λέγοντας ('saying'); Peshitta employs the temporal particle ܟܕ with finite verb ܐܡܪܝܢ ('while they were saying'); Vulgate uses the present participle dicentes. Greek and Latin share participial syntax; Syriac prefers a subordinate temporal clause."
+      "note": "Greek uses the present participle λέγοντας ('saying'); the Syriac renders this with the temporal particle ܟܕ ('while') plus the participle ܐܡܪܝܢ, a circumstantial construction, whereas the Vulgate uses the present participle dicentes in direct parallel with the Greek."
     },
     {
       "greek_nt": [
         18
       ],
-      "peshitta": [
-        15
-      ],
+      "peshitta": [],
       "vulgate": [
-        19,
         20
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ὅτι introduces direct discourse without punctuation; Peshitta ܕܠܐ ('that not') begins the negative clause directly; Vulgate inserts a colon after dicentes before Quia, marking the quotation boundary explicitly. The colon reflects Latin manuscript convention for direct speech."
+      "type": "grammar",
+      "note": "Greek ὅτι and Latin Quia introduce the recitative direct discourse ('that...'); the Syriac lacks a separate recitative marker here, folding the sense into the following negative particle, a common feature of Syriac quotation syntax."
     },
     {
       "greek_nt": [
-        19,
-        20,
-        21
+        19
       ],
       "peshitta": [
-        15,
-        16,
-        17,
         18
       ],
       "vulgate": [
-        21,
-        22,
-        23
+        22
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places οὕτως ('thus') before οὐδέποτε εἴδομεν ('never did we see'); Peshitta reverses the order with ܕܠܐ ܡܡܬܘܡ ܚܙܝܢ ܗܟܢܐ ('that not ever we saw thus'); Vulgate uses numquam sic vidimus ('never thus did we see'), placing sic after the negative. All convey 'never have we seen such a thing' but with different emphatic structures."
+      "note": "Greek places οὕτως ('thus') at the head of the quoted exclamation; the Vulgate sic follows numquam, while the Syriac ܗܟܢܐ stands at the very end of the clause. The differing placement of the demonstrative adverb reflects each language's emphasis and clause-final/initial conventions."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        15,
+        16
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "note": "οὐδέποτε / ܕܠܐ ܡܡܬܘܡ / numquam; the Syriac uses a compound negative 'not ever' to express the single Greek/Latin adverb."
+    },
+    {
+      "greek_nt": [
+        21
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        23
+      ],
+      "variant": "aligned",
+      "note": "εἴδομεν / ܚܙܝܢ / vidimus"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.952889+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.483699+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

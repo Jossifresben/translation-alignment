@@ -60,20 +60,36 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a participial construction (ὁ δὲ ἀποκριθεὶς εἶπεν) with article, conjunction, and aorist participle; Syriac uses pronoun + conjunction (ܗܘ ܕܝܢ); Vulgate uses a relative pronoun (Qui) without explicit conjunction. All three convey 'And he answering said,' but through distinct syntactic strategies typical of each language."
+      "note": "Greek uses the articular subject ὁ (with following δέ) functioning as a demonstrative ('he'); the Vulgate renders this with the relative pronoun Qui ('who'), a typical Latin technique for resuming a narrative subject, while Syriac ܗܘ is an independent demonstrative pronoun. The three express the same referent through different syntactic devices."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek postpositive connective δέ is matched by Syriac ܕܝܢ (a Greek loan-particle), but the Vulgate omits any corresponding conjunction, folding the contrastive nuance into the relative construction Qui."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek redundant participle ἀποκριθεὶς ('answering'), a Semitism reflecting Hebrew וַיַּעַן, is left untranslated in both the Peshitta and the Vulgate, which present a simple verb of speaking without the introductory participle."
     },
     {
       "greek_nt": [
@@ -85,7 +101,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "εἶπεν / ܐܡܪ / ait"
     },
     {
       "greek_nt": [
@@ -100,52 +117,63 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after illis to mark direct discourse, creating a stronger syntactic break than the Greek punctuation (αὐτοῖς·) or Syriac construction. This reflects Latin rhetorical convention for introducing quoted speech."
+      "note": "All three attest the dative/indirect-object 'to them' (αὐτοῖς / ܠܗܘܢ / illis); the Vulgate adds an explicit colon (token 3) marking the boundary of direct speech, a punctuation feature absent from the unpointed Greek and Syriac witnesses."
     },
     {
       "greek_nt": [
-        5,
-        6,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "εἷς / ܚܕ / Unus"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "ἐκ / ܡܢ / ex"
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        4,
-        5,
         6
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "τῶν δώδεκα / ܬܪܥܣܪ / duodecim"
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
+        7,
         8
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐμβαπτόμενος (present middle participle, 'dipping [himself]') and Syriac ܕܨܒܥ (active participle, 'who dips') both denote the act of dipping into the dish. Vulgate intingit (present active indicative, 'dips') shifts from participial to finite verb, altering the syntactic relationship but preserving the semantic content."
+      "type": "construction",
+      "note": "Greek employs an articular present participle ὁ ἐμβαπτόμενος ('the one dipping'), and the Vulgate mirrors this with a relative clause qui intingit; the Peshitta uses a relative particle prefixed to the finite verb ܕܨܒܥ ('who dips'). All three convey the same idea, but with differing means of subordination."
     },
     {
       "greek_nt": [
@@ -158,7 +186,16 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "μετ᾽ ἐμοῦ / ܥܡܝ / mecum"
+    },
+    {
+      "vulgate": [
+        10
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate supplies an explicit object manum ('hand', i.e. 'dips his hand'), an interpretive expansion paralleling Matt 26:23 (qui intingit mecum manum in paropside). Neither the Greek nor the Syriac names the hand here, leaving the verb absolute."
     },
     {
       "greek_nt": [
@@ -171,19 +208,18 @@
         9
       ],
       "vulgate": [
-        10,
         11,
         12
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek specifies εἰς τὸ ἓν τρύβλιον ('into the one bowl'), emphasizing the single shared dish. Vulgate expands with manum in catino ('hand in the dish'), making the body part explicit—a clarifying gloss absent in both Greek and Syriac. Syriac ܒܠܓܬܐ ('in the dish') is semantically equivalent to Greek but lacks the numeral ἓν and the Vulgate's anatomical specification."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek specifies εἰς τὸ ἓν τρύβλιον ('into the one bowl'), emphasising shared communion by the numeral ἕν; the Vulgate renders in catino without the numeral, and the Peshitta uses the single locative ܒܠܓܬܐ ('in the dish'), likewise dropping the emphatic 'one'. The numeral's omission in both versions softens the Greek's heightened sense of shared intimacy."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.037855+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.487845+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

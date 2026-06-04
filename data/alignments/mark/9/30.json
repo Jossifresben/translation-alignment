@@ -54,71 +54,115 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0,
-        1,
         2,
         3
       ],
       "vulgate": [
         0,
-        1,
-        2
-      ],
-      "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses the crasis Κἀκεῖθεν (καὶ ἐκεῖθεν) with a single participle ἐξελθόντες. Peshitta expands with temporal ܘܟܕ ('and when') + finite verb ܢܦܩ ('he went out') + ܡܢ ܬܡܢ ('from there'), creating a full temporal clause. Vulgate mirrors Greek structure with Et inde profecti but uses a perfect participle rather than aorist."
-    },
-    {
-      "greek_nt": [
-        2,
-        3,
-        4,
-        5
-      ],
-      "peshitta": [
-        4,
-        5,
-        6
-      ],
-      "vulgate": [
-        3,
-        4
+        1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs imperfect παρεπορεύοντο with prepositional phrase διὰ τῆς Γαλιλαίας (article + genitive). Peshitta uses periphrastic construction ܥܒܪܝܢ ܗܘܘ ('they were passing') with simple prepositional phrase ܒܓܠܝܠܐ (beth + noun, no article). Vulgate uses single imperfect prætergrediebantur with accusative Galilæam, omitting the article (Latin lacks definite articles)."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "note": "Greek compresses the locative-temporal idea into the single crasis adverb κἀκεῖθεν ('and from there'); the Vulgate splits it into the conjunction Et plus the adverb inde, while the Peshitta uses a temporal-clause head ܘܟܕ ('and when') together with the prepositional phrase ܡܢ ܬܡܢ ('from there'), recasting the participial clause as a subordinate temporal construction."
     },
     {
       "greek_nt": [
-        6,
-        7,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin both render an aorist/perfect participle (ἐξελθόντες / profecti, 'having gone forth'); the Peshitta uses a finite verb ܢܦܩ governed by the preceding ܟܕ, a typical Syriac preference for a finite verb in a temporal clause over the Greek circumstantial participle."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek imperfect παρεπορεύοντο ('they were passing through') is matched by the Latin imperfect prætergrediebantur; Syriac expresses the same durative past with the periphrastic participle + enclitic auxiliary ܥܒܪܝܢ ܗܘܘ ('they were passing'), the standard Syriac equivalent of the Greek imperfect."
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek preposition διά with the genitive article τῆς has no separate lexical counterpart in either version: the Vulgate uses the bare accusative Galilæam after prætergrediebantur, and the Peshitta uses the prepositional prefix ܒ on ܒܓܠܝܠܐ, so the 'through' relation is absorbed into the verb's case-government or the prefixed preposition rather than rendered by a discrete word."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Γαλιλαίας / ܒܓܠܝܠܐ / Galilæam — proper noun for Galilee; the Syriac carries the prefixed locative ܒ corresponding to the διά relation noted above."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek coordinates with καί ... οὐκ ('and ... not'), and the Peshitta likewise with the coordinating-negative ܘܠܐ; the Vulgate fuses conjunction and negation into the single adverb nec, a stylistic Latin contraction of et non."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "peshitta": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "οὐκ / ܠܐ (within ܘܠܐ) / nec — the negation; grouped here for the negative element though it overlaps the coordinator noted above."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        7,
         8,
         9
       ],
       "vulgate": [
-        6,
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ οὐκ ἤθελεν uses simple conjunction + negated imperfect. Peshitta ܘܠܐ ܨܒܐ ܗܘܐ employs periphrastic construction (participle + auxiliary ܗܘܐ) for the imperfect tense, a standard Syriac pattern. Vulgate nec volebat uses nec (stronger negative conjunction) with simple imperfect, semantically equivalent."
+      "type": "grammar",
+      "note": "The Greek imperfect ἤθελεν ('he was wanting') and Latin imperfect volebat are matched in Syriac by the periphrastic ܨܒܐ ܗܘܐ ('he was willing'), again using the participle-plus-auxiliary pattern to convey continuous past intention."
     },
     {
       "greek_nt": [
@@ -128,22 +172,32 @@
       ],
       "peshitta": [
         10,
-        11,
-        12
+        11
       ],
       "vulgate": [
         8,
         9
       ],
-      "variant": "major",
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the object of θέλω with a ἵνα + subjunctive clause (ἵνα τις γνοῖ, 'that anyone should know'); the Peshitta retains the subordinate clause with ܕ + imperfect (ܕܐܢܫ ܢܕܥ), whereas the Vulgate reduces it to a plain accusative-and-infinitive (quemquam scire), a more classical Latin complementation that drops the conjunction."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        12
+      ],
+      "variant": "added",
       "type": "expansion",
-      "note": "Greek uses ἵνα-clause with indefinite τις and subjunctive γνοῖ ('that anyone should know'). Peshitta adds explicit pronominal suffix ܒܗ ('about him'), making the object of knowledge explicit rather than implied. Vulgate uses accusative-infinitive construction quemquam scire (classical Latin syntax), omitting both the ἵνα-conjunction and any explicit object, yielding 'anyone to know' rather than 'anyone to know [it/about him]'."
+      "note": "The Peshitta supplies an explicit resumptive pronoun ܒܗ ('of/about it') as the object of ܢܕܥ ('may know'), making the implied object of γινώσκω overt; neither the Greek γνοῖ (object only implied) nor the Vulgate scire express this resumptive element."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.234454+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.521508+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

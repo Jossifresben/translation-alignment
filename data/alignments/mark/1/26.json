@@ -53,7 +53,20 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin coordinate with καί / Et plus a participle (σπαράξαν / discerpens), whereas the Peshitta fuses the conjunction, verb, and object pronoun into a single finite form ܘܫܕܬܗ ('and-it-threw-him'); the divergence is morphosyntactic rather than semantic."
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
@@ -61,13 +74,12 @@
         0
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a participial construction (καὶ σπαράξαν αὐτόν, 'and having convulsed him') with explicit object pronoun; Syriac uses a finite verb with pronominal suffix (ܘܫܕܬܗ, 'and it threw him'); Vulgate mirrors Greek with gerundive discerpens eum. All three express the same action but with different syntactic strategies."
+      "note": "Greek uses an aorist participle plus accusative object (σπαράξαν αὐτόν), matched by the Latin present participle plus pronoun (discerpens eum); the Peshitta encodes the same idea synthetically with the object suffix on ܘܫܕܬܗ, hence the same indices recur for the Syriac side."
     },
     {
       "greek_nt": [
@@ -85,53 +97,89 @@
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the subject τὸ πνεῦμα τὸ ἀκάθαρτον ('the unclean spirit') with double article after the participle; Syriac and Vulgate position the subject (ܪܘܚܐ ܛܢܦܬܐ / spiritus immundus) immediately after the initial verb, creating a more direct SVO structure. Greek's hyperbaton emphasizes the participial action before naming the agent."
+      "type": "construction",
+      "note": "Greek employs the articular construction τὸ πνεῦμα τὸ ἀκάθαρτον with a repeated article framing the attributive adjective, an emphatic Markan idiom; the Vulgate (spiritus immundus) and Peshitta (ܪܘܚܐ ܛܢܦܬܐ) render the phrase anarthrously per their normal usage, lacking the doubled article."
     },
     {
       "greek_nt": [
-        7,
-        8,
+        7
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The coordinating καί / et introduces the second participle in Greek and Latin; the Peshitta again fuses the conjunction into the finite verb ܘܩܥܬ, so the single Syriac token covers both the connective and the verbal action of the next group."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "φωνῆσαν / exclamans / ܘܩܥܬ — 'having cried out'; the Syriac verb carries the prefixed conjunction noted in the preceding group."
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        5,
-        6,
         7,
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a second aorist participle (φωνῆσαν φωνῇ μεγάλῃ, 'having cried with a loud voice') with cognate accusative construction; Syriac employs a finite verb (ܘܩܥܬ ܒܩܠܐ ܪܡܐ, 'and it cried with a loud voice'); Vulgate uses gerundive exclamans voce magna. The cognate-accusative idiom (φωνέω + φωνή) is preserved semantically in all three but realized through different grammatical structures."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "φωνῇ μεγάλῃ / voce magna / ܒܩܠܐ ܪܡܐ — 'with a loud voice'; all three render the dative/prepositional phrase of manner equivalently."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐξῆλθεν / exiit / ܘܢܦܩܬ — 'it came out'; the Syriac prefixes the conjunction to the verb where Greek and Latin leave the clauses asyndetic."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        9,
         10,
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin express separation with a preposition plus genitive/ablative pronoun (ἐξ αὐτοῦ / ab eo); the Peshitta uses the synthetic prepositional pronoun ܡܢܗ ('from-him'), collapsing preposition and object into one token."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.947538+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.476924+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

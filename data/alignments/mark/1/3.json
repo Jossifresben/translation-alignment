@@ -90,66 +90,105 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase with article (ἐν τῇ ἐρήμῳ); Vulgate mirrors this structure (in deserto); Peshitta employs a single prefixed preposition on the noun (ܒܡܕܒܪܐ), a typical Syriac morphological compression of the same semantic content."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon to mark the transition from the introductory phrase to the prophetic quotation itself. Neither the Greek nor the Peshitta tradition employs punctuation at this juncture, treating the verse as a continuous syntactic unit."
+      "note": "Greek uses preposition + article + noun (ἐν τῇ ἐρήμῳ); Latin renders the prepositional phrase without an article (in deserto) as Latin lacks the definite article; Syriac compacts the entire phrase into the single prefixed form ܒܡܕܒܪܐ, with the proclitic ܒ carrying the locative sense. Semantically identical."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + accusative noun (τὴν ὁδὸν); Latin parallels with the bare accusative viam; Syriac fuses the noun with a possessive suffix ܐܘܪܚܗ ('his way'), anticipating the genitive 'of the Lord' through a proleptic suffix, a characteristic Semitic anticipatory-pronoun construction."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        3,
-        4,
         5
       ],
       "vulgate": [
-        5,
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the imperative before the object (ἑτοιμάσατε τὴν ὁδὸν κυρίου / Parate viam Domini); Peshitta reverses the order, placing the object-phrase before the verb (ܐܘܪܚܗ ܕܡܪܝܐ ܛܝܒܘ), a common Semitic VSO-to-OVS variation for emphasis or stylistic preference."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11,
-        12,
-        13
+        9
+      ],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek εὐθείας and Latin rectas ('straight ones') are predicate adjectives governing the verb 'make'; the Syriac collapses this adjective into the verb ܘܐܫܘܘ ('and make level/straight'), so no separate lexeme corresponds to εὐθείας. The notion of straightening is carried by the verbal root itself."
+    },
+    {
+      "greek_nt": [
+        10
       ],
       "peshitta": [
-        6,
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ποιεῖτε and Latin facite are bare imperatives 'make'; the Syriac ܘܐܫܘܘ prefixes the conjunction ܘ ('and'), coordinating this clause with the preceding imperative and binding the adjectival sense of 'straight' into a single verb of leveling, a typical Peshitta stylistic compression."
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
         7
       ],
       "vulgate": [
-        8,
-        9,
-        10,
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun (τὰς τρίβους) and Latin the bare plural semitas; the Syriac ܫܒܝܠܘܗܝ again employs a proleptic possessive suffix ('his paths'), absorbing the following genitive pronoun into the noun itself."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [],
+      "vulgate": [
         11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs an adjectival predicate with imperative (εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ, 'make straight the paths of him'); Vulgate mirrors this with rectas facite semitas ejus. Peshitta uses a single Pael verb ܘܐܫܘܘ ('and make level/straight') with pronominal suffix on the object ܫܒܝܠܘܗܝ ('his paths'), achieving the same meaning through verbal morphology rather than separate adjective and verb."
+      "note": "Greek αὐτοῦ and Latin ejus are independent genitive pronouns ('of him'); Syriac has no separate token here because the possessor is expressed by the suffix already attached to ܫܒܝܠܘܗܝ in the preceding group. The paragraph marker (¶) on the Greek token reflects editorial pericope division, not a textual feature."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.942563+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.484968+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

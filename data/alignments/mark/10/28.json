@@ -63,8 +63,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -76,8 +75,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Greek ἤρξατο (aorist of ἄρχω, 'began') and Latin cœpit both mark inceptive aspect, while the Peshitta ܘܫܪܝ (root sh-r-y, 'began') is fused with the preceding conjunction in a single waw-prefixed verbal form, so the conjunction and the inceptive verb share one Syriac token."
     },
     {
       "greek_nt": [
@@ -89,8 +88,7 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -104,8 +102,7 @@
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article and subject (ὁ Πέτρος) after the infinitive λέγειν, while Vulgate positions Petrus before dicere and Peshitta places ܟܐܦܐ (Kepha) immediately after the verb. All three traditions identify Peter as the speaker but employ different syntactic arrangements typical of their respective languages."
+      "note": "Greek supplies the article ὁ before Πέτρος (a routine feature with proper names) and Latin renders the Graecised name Petrus, whereas the Peshitta uses the Semitic ܟܐܦܐ (Kepha, 'rock'), the underlying Aramaic byname rather than its Greek translation."
     },
     {
       "greek_nt": [
@@ -116,18 +113,7 @@
         2
       ],
       "variant": "minor",
-      "type": "omission",
-      "note": "Greek αὐτῷ and Vulgate ei explicitly mark the dative indirect object ('to him'), whereas Peshitta omits this pronoun, relying on context to identify Jesus as the addressee. This is a common Syriac stylistic preference when the referent is clear from discourse context."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon to mark the transition to direct speech, a Latin scribal convention not reflected in Greek or Syriac manuscript traditions, which use contextual markers (ἰδού / ܗܐ) instead."
+      "note": "The dative pronoun αὐτῷ / ei ('to him') marking the addressee is present in both Greek and Latin but has no explicit counterpart in the Peshitta, which leaves the indirect object implicit in the verb of saying — a common Syriac economy."
     },
     {
       "greek_nt": [
@@ -139,8 +125,7 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -152,8 +137,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -165,8 +149,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -180,55 +163,31 @@
         9
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek πάντα and Vulgate omnia use a single neuter plural adjective ('all things'), while Peshitta employs the emphatic construction ܟܠ ܡܕܡ (kul medem, 'everything whatsoever'), a Semitic intensification pattern that adds semantic weight without altering the core meaning."
+      "note": "Greek πάντα and Latin omnia render 'all (things)' with a single substantivised neuter plural, whereas the Peshitta expresses the indefinite totality with the two-word idiom ܟܠ ܡܕܡ (kul medem, literally 'every thing'), a standard Syriac periphrasis."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
+        10,
         11,
         12
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the perfect tense ἠκολουθήκαμέν (single verb form) to express completed action with ongoing result, while Vulgate employs the perfect passive participle secuti with auxiliary sumus (periphrastic construction). Peshitta ܘܢܩܦܢܟ conflates the conjunction and verb into a single bound form, typical of Syriac morphology."
-    },
-    {
-      "greek_nt": [
-        12
-      ],
       "peshitta": [
         8
       ],
       "vulgate": [
+        10,
+        11,
+        12,
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The clause 'and we have followed you' is analytic in Greek (καὶ ἠκολουθήκαμέν σοι, perfect with enclitic dative pronoun) and Latin (et secuti sumus te, deponent periphrastic perfect plus accusative), but synthetic in Syriac, where ܘܢܩܦܢܟ fuses the conjunction, the first-person plural verb, and the second-person object suffix into one token."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.011635+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.457898+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

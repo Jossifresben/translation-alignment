@@ -87,7 +87,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek has the articular plural τὰς ἐντολάς ('the commandments'); the Peshitta ܦܘܩܕܢܐ and Vulgate Præcepta are anarthrous, with the Syriac form ambiguous as to number and the Latin plural definite by context. The semantic content is identical."
     },
     {
       "greek_nt": [
@@ -101,35 +103,25 @@
         1
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬ ('you'), a common Syriac clarification where Greek and Latin rely on verbal inflection alone to convey the second-person singular."
+      "type": "construction",
+      "note": "The Greek perfect οἶδας ('you know') encodes the subject morphologically in a single word; the Syriac renders this analytically with participle plus enclitic pronoun ܝܕܥ ܐܢܬ, while the Latin nosti is a syncopated perfect. The expansion in Syriac is purely grammatical."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
       "vulgate": [
-        2
+        5,
+        6
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'nosti' to mark the transition from statement to commandment list, a punctuation convention absent in Greek and Syriac manuscript traditions."
-    },
-    {
-      "greek_nt": [
-        3,
-        4
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
-        5,
-        6
-      ],
-      "variant": "major",
       "type": "word-order",
-      "note": "Greek lists 'do not murder' first (μὴ φονεύσῃς), following the Decalogue order in Exodus 20:13 LXX. The Peshitta and Vulgate both place 'do not commit adultery' first, then 'do not kill' (ܠܐ ܬܩܛܘܠ / ne occidas), reflecting the Hebrew Masoretic Text order and Western manuscript traditions that prioritize sexual ethics."
+      "note": "Greek and Latin both place the prohibition against murder (μὴ φονεύσῃς / ne occidas) early in the Decalogue list, whereas the Peshitta sequences it third (ܠܐ ܬܩܛܘܠ). This reordering reflects a divergent textual tradition of the commandment sequence."
     },
     {
       "greek_nt": [
@@ -137,16 +129,16 @@
         6
       ],
       "peshitta": [
-        5,
-        6
+        3,
+        4
       ],
       "vulgate": [
         3,
         4
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "word-order",
-      "note": "Greek places 'do not commit adultery' second (μὴ μοιχεύσῃς), whereas the Vulgate places it first (ne adulteres) and the Peshitta places it second but before murder (ܠܐ ܬܓܢܘܒ). This reflects divergent manuscript traditions regarding the sequence of the sixth and seventh commandments."
+      "note": "The prohibition against adultery stands second in the Greek (μὴ μοιχεύσῃς) and Latin (ne adulteres) but is placed first in the Peshitta (ܠܐ ܬܓܘܪ). The Peshitta and Vulgate thus diverge in ordering relative to one another."
     },
     {
       "greek_nt": [
@@ -154,16 +146,16 @@
         8
       ],
       "peshitta": [
-        3,
-        4
+        5,
+        6
       ],
       "vulgate": [
         7,
         8
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "word-order",
-      "note": "Greek places 'do not steal' third (μὴ κλέψῃς), the Peshitta places it first (ܠܐ ܬܓܘܪ), and the Vulgate places it third (ne fureris). The Peshitta's fronting of theft may reflect a tradition emphasizing economic justice or harmonization with a different Decalogue recension."
+      "note": "The prohibition against theft (μὴ κλέψῃς / ne fureris / ܠܐ ܬܓܢܘܒ) stands third in Greek and Latin but second in the Peshitta, confirming that the Syriac transmits the order adultery–theft–murder against the Greek/Latin sequence."
     },
     {
       "greek_nt": [
@@ -183,8 +175,8 @@
         12
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses the compound verb ψευδομαρτυρήσῃς ('bear false witness') as a single lexeme. The Peshitta expands this into a verb + direct object construction (ܬܣܗܕ ܣܗܕܘܬܐ ܕܓܠܬܐ, 'testify testimony of falsehood'), and the Vulgate similarly employs a periphrastic construction (falsum testimonium dixeris, 'speak false testimony'), both making the semantic components explicit."
+      "type": "construction",
+      "note": "Greek expresses 'bear false witness' with the single denominative verb ψευδομαρτυρήσῃς, whereas the Peshitta unfolds it as cognate-accusative construction ܬܣܗܕ ܣܗܕܘܬܐ ܕܓܠܬܐ ('testify false testimony') and the Vulgate as the periphrasis falsum testimonium dixeris. The expansions in both versions are idiomatic, not substantive."
     },
     {
       "greek_nt": [
@@ -202,38 +194,60 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the single verb ἀποστερήσῃς ('defraud'). The Peshitta mirrors this with ܬܛܠܘܡ (a single verb for 'oppress/defraud'). The Vulgate expands to a verb + object construction (fraudem feceris, 'commit fraud'), making the nominal object explicit where Greek and Syriac embed it in the verbal semantics."
+      "note": "Greek μὴ ἀποστερήσῃς ('do not defraud') is a single verb; the Syriac ܠܐ ܬܛܠܘܡ uses the root ṭ-l-m (oppress/wrong), and the Vulgate fraudem feceris is a periphrastic verbal idiom. The clause ('do not defraud') is notably absent from the Matthean and Lukan parallels, marking it as a Markan distinctive retained across all three traditions here."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τίμα / ܝܩܪ / honora"
+    },
+    {
+      "greek_nt": [
         14,
         15,
-        16,
+        16
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        17,
+        18
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τὸν πατέρα σου uses article plus genitive pronoun; the Syriac fuses everything into a single inflected word ܠܐܒܘܟ ('your father') with object marker, suffixed possessive, all in one form, while the Latin patrem tuum retains separate possessive. The Syriac synthesis reflects normal Aramaic morphology."
+    },
+    {
+      "greek_nt": [
         17,
         18,
         19
       ],
       "peshitta": [
-        15,
-        16,
         17
       ],
       "vulgate": [
-        16,
-        17,
-        18,
         19,
         20
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs articles with both 'father' and 'mother' (τὸν πατέρα σου καὶ τὴν μητέρα), a standard Greek construction. The Peshitta uses pronominal suffixes on both nouns (ܠܐܒܘܟ ܘܠܐܡܟ, 'to-your-father and-to-your-mother'), typical Semitic possessive marking. The Vulgate follows Greek syntax (patrem tuum et matrem) but without articles, as Latin lacks them, resulting in a structurally parallel but morphologically distinct rendering."
+      "note": "Greek καὶ τὴν μητέρα includes the conjunction, article, and noun separately, and the Vulgate et matrem likewise; the Peshitta ܘܠܐܡܟ collapses conjunction, object marker, noun, and a possessive suffix into one word, adding 'your' (mother) where Greek and Latin leave the second object unmodified. This minor expansion supplies a symmetrical possessive."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.010180+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.452128+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

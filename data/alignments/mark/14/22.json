@@ -77,23 +77,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses genitive absolute construction (ἐσθιόντων αὐτῶν) with participle preceding pronoun; Peshitta employs temporal clause with ܘܟܕ + pronoun ܗܢܘܢ + participle ܠܥܣܝܢ; Vulgate mirrors Greek structure with ablative absolute (manducantibus illis). All three express identical temporal simultaneity but through tradition-specific syntactic patterns."
+      "note": "All three render the genitive absolute 'while they were eating', but the word order differs: Greek places the participle before the pronoun (ἐσθιόντων αὐτῶν) and Latin mirrors this (manducantibus illis), whereas Syriac fronts the subject pronoun ܗܢܘܢ before the participle ܠܥܣܝܢ, reflecting normal Syriac clause structure."
     },
     {
       "greek_nt": [
@@ -105,7 +113,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek uses the aorist participle λαβών ('having taken'), and Latin renders it with a finite indicative accepit ('he took'); Syriac ܢܣܒ is likewise a finite perfect, both reflecting a construction shift from the Greek participial chain to coordinated finite verbs."
     },
     {
       "greek_nt": [
@@ -119,8 +128,7 @@
         4
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek includes the definite article ὁ before Ἰησοῦς, a standard Greek construction absent in both Syriac (which lacks articles) and Latin (where proper names typically appear without articles in this context)."
+      "note": "Greek carries the article with the proper name (ὁ Ἰησοῦς), a Semitic-style articular usage absent in Syriac and Latin, which both name Jesus without an article."
     },
     {
       "greek_nt": [
@@ -135,16 +143,6 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after 'panem' to mark the transition from narrative to the sequence of ritual actions, creating a stronger syntactic break than the Greek or Peshitta conjunctive flow."
-    },
-    {
       "greek_nt": [
         7
       ],
@@ -152,12 +150,10 @@
         6
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Peshitta use aorist participles (εὐλογήσας / ܘܒܪܟ) in asyndetic sequence; Vulgate inserts coordinating conjunction 'et' before 'benedicens', making the blessing action more explicitly coordinate with what follows rather than purely circumstantial."
+      "note": "Greek and Latin retain the participial form (εὐλογήσας / benedicens, 'having blessed'); Syriac ܘܒܪܟ uses a coordinated finite perfect with the conjunction, continuing its preference for parataxis over the Greek participial subordination."
     },
     {
       "greek_nt": [
@@ -167,32 +163,58 @@
         7
       ],
       "vulgate": [
+        9,
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9
       ],
+      "vulgate": [
+        10
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        9,
-        10,
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        10,
-        11,
         12
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses conjunction καὶ + finite verb ἔδωκεν + dative pronoun αὐτοῖς; Peshitta employs waw-consecutive ܘܝܗܒ with pronominal suffix ܠܗܘܢ (more compact); Vulgate mirrors Greek structure with 'et dedit eis'. All semantically equivalent but reflect different strategies for pronominal objects."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
@@ -200,18 +222,15 @@
         11
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta adds a second indirect object pronoun ܠܗܘܢ after ܘܐܡܪ ('and he said to them'), making the addressees explicit where Greek simply has καὶ εἶπεν. Vulgate inserts a colon for punctuation but omits the dative pronoun, creating a more abrupt transition to direct speech than either Greek or Syriac."
+      "variant": "minor",
+      "note": "Greek εἶπεν and Latin ait have no expressed indirect object, whereas Syriac adds a dative pronoun ܠܗܘܢ ('to them') after ܘܐܡܪ, a typical Syriac idiom that explicitly supplies the recipient of speech."
     },
     {
       "greek_nt": [
-        14,
-        15
+        14
       ],
       "peshitta": [
         12
@@ -219,26 +238,42 @@
       "vulgate": [
         16
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek preserves two imperatives (λάβετε φάγετε, 'take, eat'), likely original to Mark's account. Both Peshitta (ܣܒܘ, 'take') and Vulgate (Sumite, 'take') omit the second imperative φάγετε, possibly through harmonization with the shorter Markan tradition or scribal abbreviation in their respective textual histories."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        16,
+        15
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "omitted",
+      "note": "Greek attests a second imperative φάγετε ('eat'), paired with λάβετε, reflecting the longer Byzantine/NA28 reading; both the Vulgate (Sumite alone) and the Peshitta (ܣܒܘ alone) lack the imperative 'eat', preserving a shorter command consistent with their underlying Vorlage."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         17
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        17,
         18
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places demonstrative before copula (τοῦτό ἐστιν); Peshitta reverses to ܗܢܐ ܐܝܬܘܗܝ (demonstrative + enclitic copula with pronominal suffix); Vulgate follows Greek order (hoc est). The Syriac construction reflects standard Semitic predicate-first syntax for identificatory clauses."
+      "note": "Greek ἐστιν and Latin est are simple copulas; Syriac employs the enclitic-based existential ܐܝܬܘܗܝ ('it is'), the standard Syriac means of expressing predicative 'is' for a third-person referent."
     },
     {
       "greek_nt": [
@@ -254,13 +289,12 @@
         20
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses article + noun + possessive pronoun (τὸ σῶμά μου); Peshitta employs noun with pronominal suffix ܦܓܪܝ (more compact, no article); Vulgate mirrors Greek structure with 'corpus meum'. The Syriac construction is standard for possessed nouns in a language lacking definite articles."
+      "note": "Greek expresses 'my body' analytically with article, noun, and genitive pronoun (τὸ σῶμά μου), matched by Latin corpus meum; Syriac compresses this into a single suffixed form ܦܓܪܝ ('my-body'), and notably uses the root p-g-r (commonly 'corpse/body') rather than a vivifying term, an idiomatic lexical choice for the physical body."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.038165+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.501152+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

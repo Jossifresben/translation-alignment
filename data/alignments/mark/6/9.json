@@ -43,7 +43,8 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
         0
@@ -52,55 +53,65 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἀλλά / ܐܠܐ / sed"
     },
     {
       "greek_nt": [
-        1,
         2
       ],
       "peshitta": [
-        1,
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses a perfect middle participle ὑποδεδεμένους ('having shod themselves'), continuing the syntax of the preceding clause; the Peshitta ܢܣܐܢܘܢ and the Vulgate participle calceatos shift to a finite/imperatival sense ('let them be shod'). The versions construe the command as a third-person jussive whereas the Greek retains an attributive participial form."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
         2
       ],
       "vulgate": [
-        1,
         2
+      ],
+      "variant": "aligned",
+      "note": "σανδάλιον / ܛܠܪܐ / sandalia"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a perfect middle participle (ὑποδεδεμένους) with accusative object, expressing a state of being shod. Syriac uses a finite verb (ܢܣܐܢܘܢ, 'let them wear') with direct object, and Vulgate mirrors the Greek participial construction with calceatos, though both convey identical instruction regarding footwear."
+      "note": "The Greek prohibition μή is a discrete negative particle, while the Syriac fuses the conjunction and negation in ܘܠܐ ('and not'), so the same waw-token carries both the connective and the negator. The Vulgate ne preserves the separate negative as in Greek."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Syriac combines the conjunction and negation into a single compound particle ܘܠܐ (w-lā, 'and not'), whereas Greek separates καὶ μὴ and Latin et ne as discrete tokens. This reflects standard Syriac morphological practice for negative coordination."
-    },
-    {
-      "greek_nt": [
-        5
+        6
       ],
       "peshitta": [
         4
@@ -110,30 +121,39 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses aorist middle subjunctive (ἐνδύσησθε, second person plural), Vulgate employs imperfect passive subjunctive (induerentur, third person plural), and Syriac uses an imperfect active form (ܢܠܒܫܘܢ). The Vulgate's shift to third person reflects Latin indirect discourse conventions, while all three prohibit wearing two tunics."
+      "note": "Greek ἐνδύσησθε is a second-person plural aorist subjunctive ('that you may put on'), but both the Peshitta ܢܠܒܫܘܢ and the Vulgate induerentur render the verb in the third person, reflecting an indirect-discourse construction reporting Jesus' charge rather than direct address."
     },
     {
       "greek_nt": [
-        6,
         7
       ],
       "peshitta": [
-        5,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "δύο / ܬܪܬܝܢ / duabus"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek δύο χιτῶνας uses accusative plural masculine (two tunics as direct object). Vulgate duabus tunicis employs ablative plural feminine, governed by the passive construction. Syriac ܬܪܬܝܢ ܟܘܬܝܢܝܢ uses the feminine dual form, reflecting Semitic dual number morphology for paired items, though semantically equivalent to 'two tunics.'"
+      "variant": "aligned",
+      "note": "χιτών / ܟܘܬܝܢܐ / tunica"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.979137+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.499681+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

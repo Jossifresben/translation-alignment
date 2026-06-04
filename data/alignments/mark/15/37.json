@@ -50,8 +50,8 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs article + postpositive conjunction (ὁ δὲ); Peshitta mirrors with pronoun + conjunction (ܗܘ ܕܝܢ); Vulgate uses only the adversative conjunction autem, omitting the article/pronoun as Latin style typically does not require explicit subject pronouns."
+      "type": "construction",
+      "note": "Greek pairs the article ὁ with the postpositive δέ, and Syriac mirrors this with ܗܘ ܕܝܢ; the Vulgate omits the article entirely (Latin lacking a definite article) and renders only the adversative autem, a routine structural divergence."
     },
     {
       "greek_nt": [
@@ -67,23 +67,43 @@
     },
     {
       "greek_nt": [
-        3,
-        4,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀφεὶς ('having let out, uttered,' aorist participle of ἀφίημι) is matched by Latin emissa (passive participle of emitto, agreeing with voce), whereas Syriac ܩܥܐ (root q-ʿ-a, 'to cry out, shout') makes the act of crying the finite verb rather than a participial modifier of the voice, shifting the syntactic weight of the clause."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek φωνὴν and Latin voce are direct objects/ablatives of the participle, while Syriac ܒܩܠܐ carries the preposition ܒ ('with a voice'), expressing the cry instrumentally rather than as a bare accusative object."
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        3,
-        4,
         5
       ],
       "vulgate": [
-        2,
-        3,
         4
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the aorist participle ἀφεὶς (from ἀφίημι, 'having let go/uttered') with φωνὴν μεγάλην ('a loud cry'), emphasizing the act of releasing or emitting the cry. Peshitta substitutes the finite verb ܩܥܐ ('he cried out') with prepositional phrase ܒܩܠܐ ܪܡܐ ('with a loud voice'), recasting the participial construction as a main verb. Vulgate employs the perfect passive participle emissa ('having been sent forth') with voce magna, maintaining the participial structure but shifting to passive voice, which subtly alters the agency of the utterance."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -97,13 +117,13 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἐξέπνευσεν (from ἐκπνέω, 'breathed out') and Latin expiravit (from expiro, cognate meaning) are direct lexical equivalents. Peshitta ܘܫܠܡ (from ܫܠܡ, 'he finished/completed/died') employs a Semitic idiom for death that emphasizes completion or fulfillment rather than the physiological act of breathing, representing a culturally distinct but semantically equivalent expression."
+      "note": "Greek ἐξέπνευσεν and Latin expiravit both literally mean 'breathed out (his last),' a precise expiration idiom, whereas the Syriac ܘܫܠܡ (root sh-l-m, 'and he was completed/finished') employs a softer euphemism for death meaning 'he was consummated,' and prefixes the conjunction ܘ ('and'), coordinating the act rather than rendering it as the climactic standalone verb."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.051869+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.428351+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

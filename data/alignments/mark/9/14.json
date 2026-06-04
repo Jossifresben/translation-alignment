@@ -61,39 +61,59 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek Καί and Latin Et are coordinating conjunctions, while the Syriac ܘܟܕ ('and when') fuses the conjunction with a temporal subordinator, subordinating the participle clause into a 'when they came' construction. The Vulgate likewise treats the verb as a participle (veniens) but lacks an explicit temporal marker."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses aorist participle ἐλθόντες (plural, agreeing with implied subject); Peshitta uses temporal clause ܘܟܕ ܐܬܐ with singular verb (referring to Jesus); Vulgate employs singular participle veniens. The Peshitta and Vulgate specify Jesus as the singular subject, while Greek maintains plural agreement with the transfiguration party."
+      "note": "Greek uses the aorist participle plural ἐλθόντες ('having come', NPM), and the Vulgate renders it with a present participle singular veniens; the Syriac ܐܬܐ is a finite verb governed by ܟܕ. The Latin singular against the Greek plural reflects a shift in the implied subject's number."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πρὸς τοὺς μαθητάς uses the article with accusative plural; Peshitta ܠܘܬ ܬܠܡܝܕܐ lacks the article (typical Semitic construction); Vulgate ad discipulos suos adds the possessive pronoun suos ('his disciples'), making the relationship explicit where Greek and Syriac leave it contextually understood."
+      "type": "expansion",
+      "note": "The Vulgate adds the possessive suffix suos ('his disciples'), an explicitating expansion not present in the Greek (τοὺς μαθητάς) or the Syriac (ܬܠܡܝܕܐ), both of which carry only the simple article or determined state."
     },
     {
       "greek_nt": [
@@ -107,60 +127,98 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek εἶδον is third-person plural ('they saw'), maintaining plural subject from the participle; Peshitta ܚܙܐ and Vulgate vidit are both singular ('he saw'), consistent with their singular subject constructions in the previous clause."
+      "note": "Greek εἶδον is third person plural ('they saw'), matching the plural participle, whereas the Syriac ܚܙܐ and the Vulgate vidit are construed as singular, consistent with a single principal subject (Jesus) in those traditions."
     },
     {
       "greek_nt": [
-        6,
-        7,
         8,
         9
       ],
       "peshitta": [
-        5,
-        6,
-        7
+        5
       ],
       "vulgate": [
-        6,
-        7,
         8,
         9
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the prepositional phrase περὶ αὐτούς ('around them') after the noun phrase ὄχλον πολύν; Peshitta fronts the prepositional phrase ܠܘܬܗܘܢ before ܟܢܫܐ ܣܓܝܐܐ; Vulgate follows Greek word order with circa eos following turbam magnam. The semantic content is identical despite the syntactic reordering."
+      "note": "Greek and Latin place the prepositional phrase περὶ αὐτούς / circa eos ('around them') after the noun phrase 'a great crowd', while the Syriac ܠܘܬܗܘܢ ('toward/around them') is fronted immediately after the verb, anticipating the object — a permissible Syriac word-order variation."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         10,
-        11,
-        12,
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "The Syriac ܘܣܦܪܐ unites the conjunction and noun ('and scribes') in a single orthographic word from the root s-p-r ('to write/count'), corresponding to the discrete Greek καὶ γραμματεῖς and Latin et scribas."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        9,
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the action with a single present participle συζητοῦντας ('disputing'), as does the Latin conquirentes, whereas the Syriac employs a circumstantial clause ܟܕ ܕܪܫܝܢ ('while they were disputing'), introduced by ܟܕ — a syntactically distinct but semantically equivalent construction."
+    },
+    {
+      "greek_nt": [
         13,
         14
       ],
       "peshitta": [
-        8,
-        9,
-        10,
         11
       ],
       "vulgate": [
-        10,
-        11,
-        12,
         13,
         14
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses accusative participle construction γραμματεῖς συζητοῦντας πρὸς αὐτούς (scribes arguing with them); Peshitta employs a temporal/circumstantial clause ܘܣܦܪܐ ܟܕ ܕܪܫܝܢ ܥܡܗܘܢ with the particle ܟܕ introducing the verbal action; Vulgate mirrors Greek with accusative + participle scribas conquirentes cum illis. All three express the same scene with different syntactic strategies."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.231663+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.460343+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

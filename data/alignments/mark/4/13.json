@@ -67,8 +67,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -80,8 +79,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek λέγει is present tense ('he says'), a vivid historic present typical of Markan narrative; both the Syriac ܘܐܡܪ and the Latin ait render it with a past/perfective ('and he said'), levelling the historic present into a simple narrative past."
     },
     {
       "greek_nt": [
@@ -91,20 +90,36 @@
         1
       ],
       "vulgate": [
-        2,
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'illis' to mark direct discourse, while Greek uses a raised dot (·) and Peshitta has no punctuation marker. This reflects Latin scribal convention for introducing quoted speech rather than a textual variant."
+      "variant": "added",
+      "note": "The Vulgate inserts an explicit colon to mark the boundary between the narrative frame and direct speech. The Greek and Syriac convey this transition without dedicated punctuation in the base text."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        2,
         3,
         4
       ],
@@ -112,8 +127,7 @@
         4
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta explicitly supplies the subject pronoun ܐܢܬܘܢ ('you') after the verb ܝܕܥܝܢ, making grammatically explicit what is implicit in the Greek verb ending οἴδατε and Latin Nescitis. This represents typical Syriac preference for overt pronominal subjects in interrogative constructions."
+      "note": "Greek οἴδατε and Latin Nescitis encode the 2nd-person plural subject within the verb form; Syriac analytically separates the participle ܝܕܥܝܢ from the enclitic pronoun ܐܢܬܘܢ ('you'), reflecting the standard Syriac participle-plus-pronoun present-tense construction. The Latin further fuses the negation into the verb (Ne-scitis)."
     },
     {
       "greek_nt": [
@@ -128,8 +142,7 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article τὴν with accusative παραβολὴν; Peshitta uses the proclitic object marker ܠܗ + ܠܡܬܠܐ (double-l construction typical of Syriac definiteness marking); Latin omits the article entirely, as Classical Latin lacks a definite article system. All three convey definite reference to 'this parable.'"
+      "note": "Syriac adds a proleptic resumptive pronoun ܠܗ ('it') anticipating the object ܠܡܬܠܐ ('the parable'), a characteristic Syriac construction marking a definite direct object; this anticipatory pronoun has no counterpart in the Greek article-plus-noun or the bare Latin accusative parabolam."
     },
     {
       "greek_nt": [
@@ -139,67 +152,60 @@
         7
       ],
       "vulgate": [
-        6,
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         7
+      ],
+      "variant": "added",
+      "note": "The Vulgate supplies an explicit question mark closing the first interrogative clause; the Greek interrogative is signalled lexically and by the editorial mark on ταύτην;, while the Syriac relies on context alone in the unpointed base text."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate places an interrogative mark after 'hanc' to close the first question, while Greek uses a semicolon (;) and Peshitta lacks punctuation. This reflects differing scribal conventions for marking rhetorical questions in each tradition."
+      "note": "Greek separates the conjunction καί from the interrogative πῶς, and Latin likewise (Et quomodo); Syriac fuses both into the single form ܘܐܝܟܢܐ ('and-how'), a univerbated conjunction-plus-interrogative typical of Syriac morphology."
     },
     {
       "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places πάσας before the article-noun phrase τὰς παραβολὰς (attributive position); Peshitta ܟܠܗܘܢ precedes ܡܬܠܐ in construct state; Latin 'omnes parabolas' follows standard Latin adjective-noun order. All three express 'all the parables' with identical semantics but tradition-specific syntax."
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
+        10,
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article τὰς with plural παραβολὰς (definite); Peshitta employs the singular emphatic state ܡܬܠܐ with plural quantifier ܟܠܗܘܢ (collective singular idiom); Latin uses plural 'parabolas' without article. The Syriac singular-for-plural construction is a standard Semitic idiom for generic or collective reference."
+      "note": "Greek marks definiteness with the article τὰς before παραβολὰς ('all the parables'); both Latin (omnes parabolas) and Syriac (ܟܠܗܘܢ ܡܬܠܐ) omit any article, as neither language possesses a definite article, conveying the same generalising sense without it."
     },
     {
       "greek_nt": [
@@ -209,18 +215,24 @@
         11
       ],
       "vulgate": [
-        12,
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         13
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate closes with an interrogative mark after 'cognoscetis,' while Greek uses a semicolon and Peshitta has no punctuation. All three traditions attest the future indicative verb (γνώσεσθε / ܬܕܥܘܢ / cognoscetis) in a rhetorical question, with punctuation differences reflecting scribal convention rather than textual variation."
+      "variant": "added",
+      "note": "The Vulgate closes the second question with an explicit interrogative mark; the Greek conveys interrogation through editorial punctuation on γνώσεσθε; and the Syriac through the interrogative ܘܐܝܟܢܐ alone, without terminal punctuation in the base consonantal text."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.965032+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.557501+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

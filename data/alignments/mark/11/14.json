@@ -71,49 +71,92 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
+        0
       ],
-      "peshitta": [
-        0,
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4
+        0
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Peshitta omits the participial phrase ἀποκριθεὶς ὁ Ἰησοῦς ('answering, Jesus'), rendering only ܘܐܡܪ ܠܗ ('and he said to her'). The Vulgate preserves the Greek construction with Et respondens dixit ei, maintaining the Semitic pleonastic answering formula common in the Gospels."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
-        7,
-        8,
-        9
+        1
       ],
-      "peshitta": [
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek ἀποκριθεὶς ('answering') and Latin respondens both render the Semitic narrative idiom of 'answering and saying'; the Peshitta dispenses with the participle entirely, beginning simply with ܘܐܡܪ ('and he said'), a streamlining typical of Syriac narrative style that drops the redundant verb of response."
+    },
+    {
+      "greek_nt": [
         2,
         3
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "The Greek explicitly names the subject ὁ Ἰησοῦς ('Jesus'); both the Vulgate and Peshitta leave the subject implicit in the verb, the Latin merely in dixit and the Syriac in ܘܐܡܪ. The named subject is absent from both versions here."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "εἶπεν / ܘܐܡܪ / dixit — verb of speaking. The Syriac and Latin fuse the conjunction 'and' into this single verbal unit."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "aligned",
+      "note": "Dative pronoun αὐτῇ / ܠܗ / ei ('to it/her'); the Vulgate appends the colon punctuation introducing direct discourse."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        2
       ],
       "vulgate": [
         5,
         6,
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek μηκέτι ('no longer') is rendered by the Syriac temporal adverb ܡܟܝܠ ('from now on/henceforth'); the Vulgate expands into a three-word periphrasis Jam non amplius ('now no more'), a fuller emphatic negation than the single Greek adverb requires."
+    },
+    {
+      "greek_nt": [
         7,
         8,
         9
       ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses μηκέτι εἰς τὸν αἰῶνα ('no more unto the age'); Peshitta reverses to ܡܟܝܠ ܘܠܥܠܡ ('from now and forever'); Vulgate expands with Jam non amplius in æternum ('now not further unto eternity'), adding the temporal adverb amplius for emphasis."
+      "note": "The Greek prepositional phrase εἰς τὸν αἰῶνα ('forever') is matched by the Vulgate in æternum, while the Peshitta compresses the idea into the single coordinated word ܘܠܥܠܡ ('and unto eternity'), incorporating the conjunction and dropping the article."
     },
     {
       "greek_nt": [
@@ -128,7 +171,7 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐκ σοῦ / ܡܢܟܝ / ex te ('from you'); the Syriac expresses the prepositional phrase as a single inflected form with the second-person feminine suffix."
     },
     {
       "greek_nt": [
@@ -140,9 +183,8 @@
       "vulgate": [
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places μηδεὶς ('no one') after the prepositional phrase; Peshitta ܐܢܫ and Vulgate quisquam appear in different syntactic positions, though all three convey the same indefinite negative subject."
+      "variant": "aligned",
+      "note": "Indefinite negative subject μηδεὶς / ܐܢܫ / quisquam ('no one / anyone'); the Syriac uses the positive indefinite ܐܢܫ paired with a separate negative particle below."
     },
     {
       "greek_nt": [
@@ -155,7 +197,7 @@
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καρπὸν / ܦܐܪܐ / fructum ('fruit'), the direct object."
     },
     {
       "greek_nt": [
@@ -169,29 +211,49 @@
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the optative φάγοι (volitive/prohibitive); Peshitta employs the negative particle ܠܐ with imperfect ܢܐܟܘܠ ('let him not eat'); Vulgate uses the subjunctive manducet. All three express the same prohibitive force through tradition-specific modal constructions."
+      "note": "The Greek optative φάγοι ('may [no one] eat') expresses a wish/imprecation; the Vulgate manducet renders it as a subjunctive, while the Syriac uses the imperfect ܢܐܟܘܠ negated by the separate particle ܠܐ, splitting the verbal idea across two tokens — semantically equivalent but morphologically distinct."
     },
     {
       "greek_nt": [
-        15,
-        16,
+        15
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "καὶ / ܘ- (prefixed) / Et — coordinating conjunction; the Syriac fuses it onto the following verb."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "note": "The Greek imperfect ἤκουον ('were hearing/listening') and the Latin imperfect audiebant both convey durative aspect; the Syriac perfect ܫܡܥܘ ('they heard') presents the action as completed, a routine aspectual flattening in the Peshitta's narrative tense system."
+    },
+    {
+      "greek_nt": [
         17,
         18,
         19
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        15,
-        16,
         17,
         18
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "οἱ μαθηταὶ αὐτοῦ / ܬܠܡܝܕܘܗܝ / discipuli ejus ('his disciples'); the Syriac expresses the possessive pronoun by suffix on the noun rather than as a separate word."
     },
     {
       "greek_nt": [],
@@ -201,14 +263,13 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta uniquely adds ܘܐܬܘ ܠܐܘܪܫܠܡ ('and they came to Jerusalem') at the end of this verse, anticipating the narrative transition that appears in Greek and Latin only at the beginning of verse 15. This represents a scribal harmonisation or editorial smoothing of the pericope boundary."
+      "note": "The Peshitta uniquely appends ܘܐܬܘ ܠܐܘܪܫܠܡ ('and they came to Jerusalem'), material absent from both the Greek and Latin at this verse. This reflects a versification difference whereby the Peshitta draws the following narrative clause (cf. Mark 11:15) into this verse rather than beginning a new one."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.017328+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.503893+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

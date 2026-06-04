@@ -75,9 +75,7 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Vulgate uses 'Et cum' (temporal conjunction 'and when') where Greek and Peshitta employ simple coordinating conjunction καὶ / ܘ ('and'). The Latin construction introduces a temporal-causal nuance not explicit in the source traditions."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -87,11 +85,11 @@
         0
       ],
       "vulgate": [
+        1,
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs aorist participle προελθών (nominative singular masculine); Vulgate uses pluperfect subjunctive processisset within the cum-clause; Peshitta integrates the verb into the initial conjunction ܘܩܪܒ. All convey 'having gone forward' but with differing aspectual profiles."
+      "note": "Greek uses an aorist participle προελθών ('having gone forward'); the Vulgate renders this with a temporal clause cum processisset, while the Peshitta employs a finite verb ܘܩܪܒ ('and he drew near') from the root q-r-b, coordinated rather than subordinated. The Peshitta verb also shifts sense slightly from 'going forward' to 'drawing near'."
     },
     {
       "greek_nt": [
@@ -107,24 +105,32 @@
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek ἔπιπτεν is imperfect ('he was falling'), suggesting durative or repeated action; the Peshitta ܘܢܦܠ (root n-p-l) and Vulgate procidit render it as a simple finite past, losing the iterative aspectual nuance of the Greek imperfect."
+    },
+    {
+      "greek_nt": [
         4,
         5,
         6
       ],
       "peshitta": [
-        2,
         3,
         4
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔπιπτεν ('was falling'), suggesting iterative or durative action; Peshitta and Vulgate employ perfective forms (ܘܢܦܠ, procidit), presenting the action as completed. Greek also includes the article τῆς before γῆς, absent in Syriac and Latin, a typical Greek definiteness marker."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -150,50 +156,78 @@
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperfect προσηύχετο ('was praying'); Peshitta employs periphrastic construction ܡܨܠܐ ܗܘܐ (participle + auxiliary 'was praying'); Vulgate uses simple imperfect orabat. All express continuous past action, but Syriac employs a two-word analytic structure where Greek and Latin use synthetic forms."
+      "note": "Greek προσηύχετο is a single imperfect middle verb; the Peshitta renders the durative force periphrastically with the participle ܡܨܠܐ plus the auxiliary ܗܘܐ ('was praying'), a characteristic Syriac construction for the imperfect/continuous aspect."
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11,
-        12
+        9
       ],
       "peshitta": [
-        7,
-        8
+        7
       ],
       "vulgate": [
-        9,
-        10,
-        11,
-        12
-      ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek employs ἵνα + conditional clause εἰ δυνατόν ἐστιν ('that if it is possible'); Vulgate mirrors this with ut + si fieri posset ('that if it could be done'); Peshitta uses simple conditional ܕܐܢ ܡܫܟܚܐ ('if possible') without the purpose conjunction, creating a more direct conditional structure. The Vulgate's fieri posset employs passive infinitive + imperfect subjunctive where Greek uses adjective + present indicative."
-    },
-    {
-      "greek_nt": [
-        13,
-        14,
-        15
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
-        13,
-        14,
-        15
+        9
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        16,
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "note": "The Greek conditional particle εἰ and the conjunction ἵνα are both present; the Peshitta fuses the purpose and condition into the single proclitic ܕܐܢ ('that if'), economising on the two separate Greek particles."
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11,
+        12
+      ],
+      "variant": "minor",
+      "note": "Greek δυνατόν ἐστιν ('it is possible') and Vulgate fieri posset ('it could be done') express the possibility impersonally; the Peshitta uses the single participle ܡܫܟܚܐ (root sh-k-kh, lit. 'is able/found possible'), a typical Syriac idiom for impersonal possibility."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        14,
+        15,
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        14,
+        15
+      ],
+      "variant": "minor",
+      "note": "Greek ἀπ᾽ αὐτοῦ ('from him') is rendered analytically; the Peshitta contracts the preposition and pronoun into the single suffixed form ܡܢܗ ('from him'), reflecting the agglutinative morphology of Syriac. The Greek article ἡ before ὥρα has no equivalent in Syriac or Latin, both lacking the definite article here."
+    },
+    {
+      "greek_nt": [
         17
       ],
       "peshitta": [
@@ -202,15 +236,13 @@
       "vulgate": [
         16
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek includes article ἡ before ὥρα (nominative); Vulgate omits the article (hora, nominative); Peshitta uses emphatic state ܫܥܬܐ, functionally equivalent to the Greek article. All three traditions agree on nominative case for the subject of the verb 'pass.'"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.040303+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.552639+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -74,15 +74,25 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        1
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the conjunction Καὶ at the beginning of the sentence, while Syriac incorporates it into a compound prepositional phrase ܘܒܝܘܠܦܢܗ ('and in his teaching'), creating a more compact syntactic unit. Latin follows Greek word order with initial Et."
+      "note": "Greek ἔλεγεν is a single imperfect verb; the Peshitta renders the past-continuous sense periphrastically with ܐܡܪ ܗܘܐ ('was saying'), the standard Syriac construction for the imperfect, while the Vulgate uses the simple imperfect dicebat."
     },
     {
       "greek_nt": [
@@ -95,43 +105,36 @@
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the dative pronoun αὐτοῖς ('to them') before the prepositional phrase, while Syriac ܠܗܘܢ and Vulgate eis position it after the verb, reflecting different conventions for clitic pronoun placement in each language."
+      "note": "The Greek places the dative pronoun αὐτοῖς before the prepositional phrase; the Peshitta ܠܗܘܢ follows the verb after the periphrasis, and the Vulgate eis follows dicebat — a difference of word order rather than sense."
     },
     {
       "greek_nt": [
         2,
         3,
-        4,
-        5
+        4
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
         3,
-        4,
-        5
+        4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a prepositional phrase with article (ἐν τῇ διδαχῇ αὐτοῦ, 'in the teaching of him'); Latin mirrors this structure (in doctrina sua); Syriac employs a bound construct with prefixed preposition ܒܝܘܠܦܢܗ ('in-teaching-his'), a characteristic Semitic nominal construction."
+      "note": "Greek and Latin render the phrase analytically (ἐν τῇ διδαχῇ / in doctrina) with explicit preposition and article, whereas the Peshitta compresses preposition, noun, and possessive suffix into a single word ܘܒܝܘܠܦܢܗ ('and in his teaching'), a typical feature of Syriac morphology."
     },
     {
       "greek_nt": [
-        6
+        5
       ],
       "peshitta": [
-        1,
-        2
+        0
       ],
       "vulgate": [
-        1,
-        6
+        5
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγεν ('he was saying'), indicating continuous past action; Syriac employs the periphrastic construction ܐܡܪ ܗܘܐ (perfect + auxiliary) to express the same durative aspect; Vulgate dicebat uses Latin imperfect, with punctuation colon added for rhetorical emphasis."
+      "note": "The genitive possessive αὐτοῦ ('of him') is expressed in the Vulgate by the adjective sua and in the Peshitta by the pronominal suffix on ܘܒܝܘܠܦܢܗ; all three convey the same possessive sense through different morphological means."
     },
     {
       "greek_nt": [
@@ -143,26 +146,32 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses ἀπὸ τῶν γραμματέων with the partitive genitive article τῶν; Syriac ܡܢ ܣܦܪܐ uses the preposition ܡܢ with determined state noun (no separate article); Vulgate a scribis employs ablative without article, as Latin lacks definite articles."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -177,8 +186,7 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses articular participle τῶν θελόντων ('the ones desiring') as a substantival relative construction; Latin employs relative pronoun qui volunt ('who wish'); Syriac uses the relative particle ܕ with finite verb ܕܨܒܝܢ ('who desire'), reflecting standard Syriac relative clause syntax."
+      "note": "Greek uses an attributive participial construction τῶν θελόντων ('who desire'); the Vulgate renders it with a relative clause qui volunt, and the Peshitta likewise with a relative-marked verb ܕܨܒܝܢ — semantically equivalent but built on differing syntactic strategies (participle vs. finite relative clause)."
     },
     {
       "greek_nt": [
@@ -195,9 +203,7 @@
         13,
         14
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek separates preposition ἐν from noun στολαῖς and places infinitive περιπατεῖν at the end; Syriac uses compound prepositional phrase ܕܒܐܣܛܠܐ ('that-in-robes') with prefixed ܕ marking the infinitival complement, followed by verb ܢܗܠܟܘܢ; Latin follows Greek structure with in stolis ambulare."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -209,8 +215,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The conjunction καί / et joins the two desiderata; the Peshitta fuses the connective into the verb ܘܪܚܡܝܢ ('and they love'), introducing an additional verb of affection not explicit in Greek or Latin, which simply continue the governing verb θελόντων/volunt."
     },
     {
       "greek_nt": [
@@ -222,9 +228,8 @@
       "vulgate": [
         16
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the noun ἀσπασμοὺς ('greetings', accusative plural object of an implied verb); Syriac employs the active participle ܘܪܚܡܝܢ ('and loving/desiring'), parallel to the previous participle, making the scribes the subject of loving greetings; Vulgate uses passive infinitive salutari ('to be greeted'), making the scribes recipients rather than agents."
+      "variant": "minor",
+      "note": "Greek ἀσπασμούς is a concrete plural noun ('greetings'); the Peshitta renders it with ܫܠܡܐ ('peace/greeting', the Semitic šlama salutation), and the Vulgate uses the passive infinitive salutari ('to be greeted'), shifting from a noun to a verbal construction."
     },
     {
       "greek_nt": [
@@ -240,14 +245,13 @@
         18
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses plural ἐν ταῖς ἀγοραῖς ('in the marketplaces') with article; Syriac uses singular ܒܫܘܩܐ ('in the marketplace'), a typical Semitic collective singular for public spaces; Vulgate in foro employs singular ablative without article, following Latin conventions for place expressions."
+      "note": "Greek and Latin use the plural (ἐν ταῖς ἀγοραῖς / in foro reflects the public-spaces idiom), while the Peshitta ܒܫܘܩܐ stands in the singular ('in the marketplace'); Syriac and Latin compress the article-bearing Greek phrase into prepositional forms without a separate article."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.027241+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:39:53.312894+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -65,19 +65,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article + postpositive δέ (οἱ δέ); Peshitta mirrors this with demonstrative + postpositive ܕܝܢ (ܗܢܘܢ ܕܝܢ); Vulgate employs the relative pronoun Qui without a separate conjunction, absorbing the contrastive function into the relative construction."
+      "type": "construction",
+      "note": "Greek uses the substantival article οἱ ('those who') governing the following participle, while the Peshitta employs the independent demonstrative pronoun ܗܢܘܢ and the Vulgate the relative pronoun Qui; all three express the same anaphoric subject through differing syntactic strategies."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek postpositive δέ and the Syriac ܕܝܢ (itself a Greek loan-particle) mark the transition, but the Vulgate omits any adversative/connective particle here, beginning the clause directly with Qui."
     },
     {
       "greek_nt": [
@@ -92,7 +102,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an aorist participle ἀκούσαντες (nominative plural masculine); Vulgate mirrors this with the participle audientes; Peshitta employs a temporal clause ܟܕ ܫܡܥܘ ('when they heard'), converting the participial construction into a finite verb with subordinating particle—a typical Syriac syntactic preference."
+      "note": "Greek and Latin render the aorist participle ἀκούσαντες / audientes as a single circumstantial participle, whereas the Peshitta unpacks it into a temporal clause ܟܕ ܫܡܥܘ ('when they heard'), a characteristic Syriac periphrasis for Greek participles."
     },
     {
       "greek_nt": [
@@ -106,8 +116,8 @@
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐχάρησαν is a simple aorist indicative ('they rejoiced'); Peshitta ܚܕܝܘ matches this with a simple perfect; Vulgate uses the perfect participle gavisi sunt (periphrastic construction with auxiliary), a Latin stylistic preference for expressing completed action."
+      "type": "grammar",
+      "note": "Greek ἐχάρησαν and Syriac ܚܕܝܘ are simple finite verbs, while the Vulgate uses the analytic perfect-deponent periphrasis gavisi sunt; the difference is purely morphosyntactic, conveying the same notion of rejoicing."
     },
     {
       "greek_nt": [
@@ -117,36 +127,68 @@
         5
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after gavisi sunt, creating a stronger pause before the promise clause; Greek and Peshitta use simple conjunction καί / ܘ without punctuation break, maintaining smoother narrative flow."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- (prefixed to ܐܫܬܘܕܝܘ) / et."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7,
-        8
+        5
       ],
       "peshitta": [
-        5,
-        6,
-        7,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐπηγγείλαντο / ܐܫܬܘܕܝܘ / promiserunt."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
         8
       ],
       "vulgate": [
-        6,
-        7,
-        8,
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτῷ / ܠܗ / ei."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀργύριον / ܟܣܦܐ / pecuniam; Syriac places the object before the infinitive, a word-order variation."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
         9,
         10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses aorist middle ἐπηγγείλαντο + dative αὐτῷ + accusative ἀργύριον + infinitive δοῦναι ('they promised him to give money'); Peshitta ܘܐܫܬܘܕܝܘ ܟܣܦܐ ܕܢܬܠܘܢ ܠܗ mirrors this with Ethpael + object + purpose clause; Vulgate promiserunt ei pecuniam se daturos inserts reflexive pronoun se and uses future active participle daturos (accusative agreeing with implied subject), creating an indirect discourse construction typical of classical Latin."
+      "note": "Greek expresses the promise with a bare aorist infinitive δοῦναι and Syriac with the finite subjunctive clause ܕܢܬܠܘܢ ('that they would give'), whereas the Vulgate uses the future periphrastic accusative-and-future-participle construction se daturos, a Latinate rendering of indirect discourse."
     },
     {
       "greek_nt": [
@@ -158,7 +200,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / Et."
     },
     {
       "greek_nt": [
@@ -172,36 +216,78 @@
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐζήτει is imperfect indicative ('he was seeking'); Vulgate quærebat mirrors this with Latin imperfect; Peshitta ܘܒܥܐ ܗܘܐ uses periphrastic construction (active participle + auxiliary ܗܘܐ) to express progressive past action, a standard Syriac method for rendering Greek imperfect aspect."
+      "type": "grammar",
+      "note": "Greek imperfect ἐζήτει and Latin imperfect quærebat express durative action; the Peshitta renders this with the periphrastic past ܒܥܐ ܗܘܐ (perfect of 'seek' + enclitic ܗܘܐ), the standard Syriac equivalent of the Greek imperfect."
     },
     {
       "greek_nt": [
-        11,
-        12,
-        13,
+        11
+      ],
+      "peshitta": [],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πῶς / quomodo."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτόν / ܠܗ / illum."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek εὐκαίρως ('opportunely, at a fitting time') is matched by Latin opportune, but the Peshitta reads ܦܠܥܐ here — an anomalous form (root p-l-e); a faithful adverbial 'conveniently' is expected, and the transmitted word likely reflects a scribal corruption of ܦܐܝܐ/ܒܙܒܢܐ or a rare lexeme, warranting collation against other Peshitta witnesses."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        11,
-        12,
         13
       ],
       "vulgate": [
-        13,
-        14,
-        15,
         16
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek πῶς αὐτὸν εὐκαίρως παραδοῖ places the adverb εὐκαίρως before the verb; Vulgate quomodo illum opportune traderet mirrors this order exactly; Peshitta ܠܗ ܦܠܥܐ ܕܢܫܠܡܝܘܗܝ ('for him an opportunity that he might betray him') restructures the clause with ܠܗ (ethical dative) + ܦܠܥܐ ('opportunity' as object of seeking) + purpose clause, converting the adverb into a substantive—a semantic equivalence achieved through syntactic reanalysis."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "παραδοῖ / ܕܢܫܠܡܝܘܗܝ / traderet."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon after gavisi sunt to mark the syntactic boundary before et promiserunt; neither the Greek nor the Syriac transmits a corresponding punctuation marker at this point in these editions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.036255+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.528408+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

@@ -57,9 +57,7 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καὶ ('and') is rendered by Peshitta ܘܟܬܝܒܐ (wa-kṯībā, 'and written'), which conflates the conjunction with the participial notion of 'inscribed,' whereas Vulgate Et maintains simple coordination. The Peshitta anticipates the verbal idea expressed later in Greek ἐπιγεγραμμένη."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -78,63 +76,76 @@
         2,
         3
       ],
-      "peshitta": [
-        2
-      ],
+      "peshitta": [],
       "vulgate": [
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article + noun ἡ ἐπιγραφὴ ('the inscription') in a periphrastic construction; Peshitta employs the bare noun ܥܠܬܐ ('cause, charge') without article (Syriac lacks the definite article in this syntactic position); Vulgate titulus likewise omits the article, following Latin norms where definiteness is contextually inferred."
+      "note": "Greek has articular noun ἡ ἐπιγραφή ('the inscription'), and the Vulgate renders titulus; the Peshitta lacks a distinct lexeme for the inscription itself, instead folding the concept into the verbal phrase ܘܟܬܝܒܐ ܗܘܬ ('and it was written') and the periphrasis ܒܟܬܒܐ ܗܢܐ ('in this writing')."
     },
     {
       "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "The Greek τῆς αἰτίας ('of the accusation/charge') and Latin causæ render the formal legal charge; the Syriac ܥܠܬܐ ('cause, reason'; root e-l-th, cognate with Hebrew עִלָּה) is semantically close but carries a broader causal nuance rather than a strictly forensic one."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek τῆς αἰτίας αὐτοῦ ('of the accusation against him') uses a genitive construction with possessive pronoun; Peshitta ܕܡܘܬܗ (d-mawteh, 'of his death') substitutes 'death' for 'accusation,' reflecting a theological or interpretive gloss emphasizing the capital charge; Vulgate causæ ejus mirrors the Greek genitive structure with Latin equivalents."
+      "note": "Greek αὐτοῦ and Latin ejus are simple possessive pronouns ('his'); the Syriac ܕܡܘܬܗ literally means 'of his death' (root m-w-th), making explicit the capital nature of the charge that the Greek and Latin leave implicit, an interpretive expansion."
     },
     {
       "greek_nt": [
         7
       ],
       "peshitta": [
-        4
+        0
       ],
       "vulgate": [
         5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek ἐπιγεγραμμένη (perfect passive participle, 'having been inscribed') appears after the noun phrase it modifies; Peshitta ܒܟܬܒܐ (b-kṯābā, 'in writing') uses a prepositional phrase in medial position; Vulgate inscriptus (perfect passive participle) follows Latin participial syntax, agreeing with titulus. All three convey the notion of written inscription but with differing syntactic strategies."
+      "note": "Greek uses the perfect passive participle ἐπιγεγραμμένη and Latin the perfect passive participle inscriptus, both periphrastic with the imperfect copula; the Peshitta employs a single passive participle ܘܟܬܝܒܐ joined to ܗܘܬ at the head of the clause (root k-th-b), a construction-level difference in arranging the same periphrastic perfect."
     },
     {
       "greek_nt": [],
       "peshitta": [
-        5,
-        6
+        4,
+        5
       ],
-      "vulgate": [
-        6
-      ],
+      "vulgate": [],
       "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta inserts ܗܢܐ ܗܘ (hānā hū, 'this [is] he'), a demonstrative copular construction introducing the titular inscription, absent in both Greek and Vulgate. This addition serves as a Syriac stylistic device to frame direct quotations or titles, enhancing narrative clarity. Vulgate uses a colon (:) for punctuation, marking the transition to the inscription without lexical expansion."
+      "note": "The Peshitta adds an explicit phrase ܒܟܬܒܐ ܗܢܐ ('in this writing/document'; root k-th-b) introducing the quoted titulus, a clarifying expansion with no counterpart in the Greek NA28 or the Vulgate, which proceed directly to the inscription's content."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "The Greek articular subject ὁ ('the') and the Syriac demonstrative/copular pronoun ܗܘ both mark the predicate nominative of the titulus; the Vulgate omits any such marker, rendering simply Rex Judæorum without an article, since Latin lacks the definite article altogether."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
@@ -157,12 +168,19 @@
         8
       ],
       "variant": "aligned"
+    },
+    {
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "The Vulgate punctuates with a colon introducing the titulus content, paralleling the high point (·) attached to ἐπιγεγραμμένη· in the Greek; the punctuation marks the boundary between narrative frame and quoted inscription."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.050174+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.459009+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

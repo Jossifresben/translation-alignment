@@ -66,8 +66,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -79,8 +78,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -92,8 +90,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ὠφελεῖ ('profits, benefits') is an active verb with the man as object; the Peshitta ܢܬܥܕܪ uses an Ethpaal/passive-reflexive of the root ʿ-d-r ('to be helped/profited'), reframing the man as the one helped rather than the entity being profited. The Vulgate proderit ('it will profit') agrees with the Greek active sense but shifts to future tense."
     },
     {
       "greek_nt": [
@@ -106,9 +104,7 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "idiom",
-      "note": "Greek uses the article τὸν with ἄνθρωπον (generic article construction); Syriac ܒܪܢܫܐ and Latin homini are anarthrous, both languages lacking the Greek article system and expressing generic reference through bare nominal forms."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -120,39 +116,27 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        6,
         7,
         8,
         9
       ],
       "peshitta": [
         5,
-        6
+        6,
+        7
       ],
       "vulgate": [
+        5,
         6,
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adjective ὅλον after the noun κόσμον (postpositive); Syriac ܥܠܡܐ ܟܠܗ mirrors this order with the enclitic pronoun suffix; Latin mundum totum follows the same postpositive pattern, all three traditions agreeing semantically despite minor morphological differences in how 'whole' is expressed."
+      "note": "Greek places the verb κερδῆσαι before its object τὸν κόσμον ὅλον; the Peshitta inverts this, fronting the object ܥܠܡܐ ܟܠܗ ('the whole world') before the verb ܢܐܬܪ ('he should gain'), a normal Syriac word-order preference for the object-verb sequence. The Vulgate lucretur mundum totum follows the Greek verb-object order."
     },
     {
       "greek_nt": [
@@ -164,8 +148,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -184,9 +167,8 @@
         11,
         12
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses the passive infinitive ζημιωθῆναι ('to be damaged/forfeited') with accusative object τὴν ψυχὴν αὐτοῦ; Syriac employs an active construction ܘܢܦܫܗ ܢܚܣܪ ('and his soul he loses') with the verb in active voice; Latin expands to a periphrastic construction detrimentum animæ suæ faciat ('should make loss of his soul'), transforming the Greek passive infinitive into an active subjunctive with a cognate object, representing a substantive syntactic divergence while preserving the semantic core."
+      "variant": "minor",
+      "note": "Greek ζημιωθῆναι τὴν ψυχὴν αὐτοῦ ('to forfeit his soul') uses a single passive infinitive; the Syriac fuses the conjunction, possessive object, and verb compactly as ܘܢܦܫܗ ܢܚܣܪ ('and his soul he should lose'), using the root kh-s-r ('to suffer loss'). The Vulgate periphrastically renders the idea with detrimentum animæ suæ faciat ('should cause loss of his soul'), a construction expanding the single Greek verb into a noun-plus-verb phrase."
     },
     {
       "greek_nt": [
@@ -196,14 +178,14 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "minor",
+      "note": "The interrogative is marked in Greek only by the enclitic question mark on αὐτοῦ; and in the Vulgate by the explicit punctuation '?'; the Peshitta carries no separate punctuation token, the interrogative force resting on the fronted ܡܢܐ ('what'). Note the Vulgate verb faciat closes the clause here while its sense was aligned above."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.999395+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.453666+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

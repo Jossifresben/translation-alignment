@@ -63,13 +63,11 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0,
-        1,
-        2
+        1
       ],
       "vulgate": [
         0,
@@ -77,7 +75,19 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses aorist participle ἀκούσας with postpositive δέ; Peshitta employs temporal particle ܟܕ ('when') with perfect ܫܡܥ plus ܕܝܢ; Vulgate uses ablative absolute Quo audito. All three express the same temporal-causal relationship but through different syntactic strategies characteristic of each language."
+      "note": "Greek uses a single aorist participle (ἀκούσας, 'having heard'); Syriac employs the temporal conjunction ܟܕ + finite verb ܫܡܥ ('when he heard'), while the Vulgate renders the idea with an ablative absolute (Quo audito, 'this having been heard'). All three express the same circumstantial-temporal clause through different syntactic strategies."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek postpositive δέ and its Syriac calque ܕܝܢ mark narrative transition; the Vulgate carries the connective force within the ablative-absolute construction (Quo) and supplies no separate particle, a routine Latin economy."
     },
     {
       "greek_nt": [
@@ -92,7 +102,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek includes the definite article ὁ before Ἡρῴδης, standard for proper names in Koine; Syriac and Latin lack articles as both languages do not grammaticalize definiteness in the same way for proper nouns."
+      "note": "Greek prefixes the nominative article ὁ to the proper noun Ἡρῴδης, a Hellenistic convention; neither Syriac ܗܪܘܕܣ nor Latin Herodes employs an article, since neither language articulates personal names in this manner."
     },
     {
       "greek_nt": [
@@ -105,8 +115,8 @@
         3
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἔλεγεν (imperfect, 'was saying') suggests iterative or durative aspect; Peshitta ܐܡܪ (perfect) and Vulgate ait (perfect) both use perfective forms, treating Herod's statement as a single completed utterance rather than emphasizing its ongoing nature."
+      "type": "grammar",
+      "note": "Greek uses the imperfect ἔλεγεν ('was saying'), conveying repeated or habitual speech; both Syriac ܐܡܪ and Latin ait flatten this to a simple past, losing the iterative aspect of the Greek."
     },
     {
       "greek_nt": [
@@ -117,20 +127,22 @@
         4
       ],
       "variant": "minor",
-      "type": "omission",
-      "note": "Greek ὅτι and Vulgate colon mark the transition to direct discourse explicitly; Peshitta omits any discourse marker, moving directly from verb to quoted speech, a common Syriac stylistic feature where context suffices to signal direct quotation."
+      "type": "punctuation",
+      "note": "The Greek recitative ὅτι introduces direct discourse and functions as a colon; the Vulgate marks the same boundary with an explicit colon (:), whereas the Syriac supplies no overt marker, relying on syntax alone."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
         5
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek and Vulgate front the relative pronoun ὃν / Quem ('whom') in accusative, creating a left-dislocated object for rhetorical emphasis before the main clause. Peshitta restructures entirely, placing the subject ܝܘܚܢܢ (John) first, followed by the relative clause ܕܐܢܐ ܦܣܩܬ ܪܫܗ ('whom I beheaded'), reflecting Semitic preference for topic-first word order."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὃν / ܗܘ / Quem"
     },
     {
       "greek_nt": [
@@ -142,7 +154,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐγὼ / ܕܐܢܐ / ego"
     },
     {
       "greek_nt": [
@@ -155,30 +169,27 @@
       "vulgate": [
         7
       ],
-      "variant": "major",
-      "type": "lexical",
-      "note": "Greek ἀπεκεφάλισα and Vulgate decollavi both use single lexemes meaning 'beheaded' (from κεφαλή / collum respectively). Peshitta employs the periphrastic construction ܦܣܩܬ ܪܫܗ ('I cut his head'), a two-word phrase (verb + object with possessive suffix) that is the standard Syriac idiom for decapitation, lacking a single-word equivalent."
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the single compound verb ἀπεκεφάλισα ('I beheaded'), matched by Latin decollavi; Syriac decomposes the action into verb + object ܦܣܩܬ ܪܫܗ ('I cut off his head'), a typical periphrastic idiom for decapitation."
     },
     {
       "greek_nt": [
         9
       ],
       "peshitta": [
-        5,
-        6
+        5
       ],
       "vulgate": [
         8
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "word-order",
-      "note": "Greek places Ἰωάννην at the end of the relative clause as direct object; Vulgate mirrors this with Joannem. Peshitta fronts ܝܘܚܢܢ to clause-initial position before the demonstrative ܗܘ, creating a topicalized structure ('John — he whom I beheaded') that differs syntactically while preserving semantic content."
+      "note": "All three name John as the object of beheading, but the Syriac fronts ܝܘܚܢܢ ahead of the relative clause, whereas Greek and Latin place the name after the verb (Ἰωάννην / Joannem), a difference of clausal sequencing rather than meaning."
     },
     {
       "greek_nt": [
-        10,
-        11,
-        12
+        10
       ],
       "peshitta": [
         10
@@ -186,9 +197,20 @@
       "vulgate": [
         9
       ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "οὗτος / ܗܘ / hic"
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [],
+      "vulgate": [],
       "variant": "minor",
       "type": "expansion",
-      "note": "Greek employs triple emphasis with οὗτος ἐστιν αὐτὸς ('this one is he himself'), using both demonstrative and intensive pronoun plus copula. Peshitta uses single ܗܘ ('he'); Vulgate uses hic ('this one'). The Greek construction is rhetorically emphatic, while the other traditions achieve the same identificatory force more economically."
+      "note": "The Greek adds the emphatic predicate ἐστιν αὐτὸς ('it is he himself'), reinforcing Herod's identification of the risen one; neither the Syriac nor the Vulgate transmits this redundant copula-plus-intensive pronoun, omitting it as superfluous."
     },
     {
       "greek_nt": [
@@ -202,31 +224,42 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek ἠγέρθη (aorist passive, 'was raised') uses divine passive implying God as agent; Peshitta ܩܡ (active 'arose') and Vulgate resurrexit (active 'rose again') both employ active voice, making the subject the agent of rising, a common difference in resurrection terminology across these traditions."
+      "note": "Greek employs the theological passive ἠγέρθη ('was raised', divine agent implied); both Syriac ܩܡ ('he arose') and Latin resurrexit ('he rose') use intransitive-active forms, shifting the focus from divine action to the subject's own rising."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐκ / ܡܢ / a"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        12,
         13,
         14
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "idiom",
-      "note": "Greek ἐκ νεκρῶν ('from [the] dead', genitive plural adjective used substantively) and Vulgate a mortuis (ablative plural adjective) both use adjectival constructions. Peshitta employs ܡܢ ܒܝܬ ܡܝܬܐ ('from the house of the dead'), a distinctive Semitic idiom using the construct phrase 'house of' (ܒܝܬ) to denote the realm or abode of the dead, reflecting Sheol/underworld conceptualization absent from the Greek and Latin formulations."
+      "note": "Greek νεκρῶν and Latin mortuis denote 'the dead' with a substantival adjective; Syriac uses the idiomatic locution ܒܝܬ ܡܝܬܐ ('the house/place of the dead'), a Semitic periphrasis for the realm of the deceased."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.980025+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.546423+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

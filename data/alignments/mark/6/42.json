@@ -33,8 +33,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
@@ -43,9 +42,20 @@
         0,
         1
       ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the conjunction καὶ before the verb ἔφαγον, while Syriac combines them in a single prefixed form ܘܐܟܠܘ (wa-'ekal-w). Latin mirrors the Greek word order with Et manducaverunt, representing standard stylistic preferences in each tradition."
+      "note": "The Peshitta fuses the conjunction and verb into a single prefixed form ܘܐܟܠܘ ('and-they-ate', root a-k-l), whereas Greek and Latin keep coordinating particle and verb as discrete tokens; this is a morphological feature of Syriac waw-prefixation rather than a textual divergence."
     },
     {
       "greek_nt": [
@@ -57,30 +67,38 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin attest a second coordinating conjunction (καί / et) introducing the result clause; Syriac again attaches the conjunction proclitically to the verb ܘܣܒܥܘ, so the connective is present but morphologically bound rather than free-standing."
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs καὶ ἐχορτάσθησαν (conjunction + aorist passive verb); Syriac uses the prefixed conjunction ܘܣܒܥܘ (wa-sba'-w, active voice); Latin saturati sunt uses a perfect passive participle with auxiliary verb. All three convey identical semantics ('and were satisfied') through tradition-specific grammatical constructions."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.984408+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.506839+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

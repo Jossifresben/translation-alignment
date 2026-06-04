@@ -69,8 +69,7 @@
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses an aorist participle εἰσελθών preceding the main verb, while Vulgate employs the finite verb intravit in second position. Peshitta combines the conjunction and verb in ܘܥܠ, placing the verb earlier in the clause than Greek but achieving equivalent temporal sequencing."
+      "note": "Greek uses an aorist participle εἰσελθών ('having entered'), subordinating the action, whereas both the Vulgate (intravit) and Peshitta (ܘܥܠ) render a finite indicative verb. The Syriac verb ܘܥܠ also carries the conjunction, hence its overlap with the opening καί/Et."
     },
     {
       "greek_nt": [
@@ -83,16 +82,6 @@
         1
       ],
       "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject, whereas Greek and Latin leave the subject implicit in the participial and finite verb forms respectively. This represents a typical Syriac clarifying expansion for narrative flow."
     },
     {
       "greek_nt": [
@@ -105,7 +94,17 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek marks the goal with the preposition εἰς + accusative Καφαρναούμ; the Vulgate places Capharnaum directly without preposition, while Syriac fuses the directional lamadh prefix into ܠܟܦܪܢܚܘܡ. The toponym is transmitted in all three but with differing case/prepositional marking."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "The Peshitta supplies the explicit subject ܝܫܘܥ ('Jesus'), a clarifying expansion absent from both the Greek and Latin, which leave the subject implicit in the verb. This is a characteristic Syriac tendency to name the agent for narrative clarity."
     },
     {
       "greek_nt": [
@@ -120,44 +119,59 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses διά with genitive plural ἡμερῶν ('through/after days'), Latin employs post with accusative dies ('after days'), and Syriac uses the prepositional phrase ܠܝܘܡܬܐ ('for days'). All three express temporal interval but with distinct prepositional constructions reflecting each language's idiom."
+      "note": "Greek δι᾽ ἡμερῶν and Latin post dies both express the temporal interval 'after [some] days'; Syriac renders it with the single prepositional form ܠܝܘܡܬܐ. The idiomatic phrasing of the interval differs slightly across the three, with Greek using διά + genitive and Latin post + accusative."
     },
     {
       "greek_nt": [
-        7,
-        8,
-        9
+        7
       ],
       "peshitta": [
-        5,
+        5
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "Greek καί and Syriac ܘܟܕ ('and when') introduce the following clause of hearing; the Vulgate verse ends at dies and omits this clause entirely, the Clementine edition splitting the report-of-his-presence into the subsequent verse division."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Vulgate omits the entire clause 'and it was heard that' (Greek καὶ ἠκούσθη ὅτι, Peshitta ܘܟܕ ܫܡܥܘ), ending the verse after the temporal phrase. Greek preserves the passive construction ἠκούσθη while Syriac uses an active plural ܫܡܥܘ ('they heard'), but both attest the report of Jesus's presence, absent from the Clementine Vulgate at this verse boundary."
+      "variant": "omitted",
+      "note": "The passive 'it was heard' (Greek ἠκούσθη) corresponds to the Syriac active plural ܫܡܥܘ ('they heard'), a construction-level difference in voice; the Latin omits the entire clause owing to versification. Greek prefers the impersonal passive while Syriac employs an indefinite third-plural active to convey the same agentless reporting."
     },
     {
       "greek_nt": [
+        9,
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek ὅτι ἐν οἴκῳ ('that he is in [the] house') is compactly rendered by the Syriac ܕܒܒܝܬܐ, which fuses the complementiser, preposition, and noun into one form. The Latin lacks this material due to the verse boundary."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek ἐν οἴκῳ ἐστίν and Peshitta ܕܒܒܝܬܐ ܗܘ both attest that Jesus 'is in [the] house,' completing the report introduced in the previous clause. The Vulgate's omission of this entire subordinate clause results in a substantially shorter verse, likely reflecting a different verse division tradition where this material appears in verse 2."
+      "variant": "minor",
+      "note": "Greek closes with the present indicative ἐστίν ('he is'), while Syriac uses the enclitic pronoun ܗܘ as a copula-equivalent. This reflects the standard Syriac nominal-sentence construction lacking an overt verb 'to be', whereas Greek supplies the finite verb explicitly."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.950960+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.545953+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

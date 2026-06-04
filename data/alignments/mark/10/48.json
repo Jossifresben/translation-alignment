@@ -68,30 +68,39 @@
         0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0
       ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
+        1
+      ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta employs a periphrastic construction ܘܟܐܝܢ ܗܘܘ (wə-kāʾēn hwaw, 'and they were') to render the Greek imperfect ἐπετίμων, making the auxiliary verb explicit where Greek and Latin use synthetic verb forms."
+      "type": "construction",
+      "note": "Greek uses a simple imperfect ἐπετίμων ('were rebuking'); the Peshitta employs a periphrastic construction ܘܟܐܝܢ ܗܘܘ (participle + auxiliary ܗܘܘ) to render the durative aspect, while the Latin imperfect comminabantur matches the Greek synthetically. The Syriac periphrasis is its standard means of expressing continuous past action."
     },
     {
       "greek_nt": [
-        1,
         2
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -103,8 +112,7 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -116,8 +124,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek purpose conjunction ἵνα + subjunctive σιωπήσῃ and the Latin ut + subjunctive taceret are matched in Syriac by the prefixed ܕ on ܕܢܫܬܘܩ, a single inflected form embedding both the subordinating particle and the verb. The notional content is identical though the morphology differs."
     },
     {
       "greek_nt": [
@@ -129,8 +138,7 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -145,9 +153,8 @@
         6,
         7
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the article + δέ construction (ὁ δέ, 'but he'), Latin employs the adversative At ille ('but he'), and Syriac uses the pronoun ܗܘ with the postpositive particle ܕܝܢ (dēn)—all functionally equivalent contrastive constructions with slight stylistic variation."
+      "variant": "aligned",
+      "note": "ὁ δέ / ܗܘ ܕܝܢ / At ille."
     },
     {
       "greek_nt": [
@@ -162,8 +169,8 @@
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the dative of degree πολλῷ with the comparative adverb μᾶλλον ('much more'), which Latin mirrors with multo magis; Syriac uses the single adverb ܝܬܝܪܐܝܬ (yattīrāʾīt, 'exceedingly'), a synthetic form expressing the same intensification."
+      "type": "lexical",
+      "note": "Greek πολλῷ μᾶλλον and Latin multo magis form a two-word comparative phrase ('much more'); the Peshitta compresses this into the single adverb ܝܬܝܪܐܝܬ ('exceedingly, all the more'), a lexical rather than syntactic equivalence."
     },
     {
       "greek_nt": [
@@ -171,26 +178,15 @@
       ],
       "peshitta": [
         8,
-        9
+        9,
+        10
       ],
       "vulgate": [
         10
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta again uses a periphrastic construction ܩܥܐ ܗܘܐ (qāʿē hwā, 'he was crying out') to render the Greek imperfect ἔκραζεν, while Greek and Latin employ synthetic imperfect forms (ἔκραζεν / clamabat)."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "added",
       "type": "expansion",
-      "note": "The Peshitta adds the verb ܘܐܡܪ (wə-ʾmar, 'and he said'), introducing the direct speech explicitly, while the Greek uses a colon after ἔκραζεν and the Vulgate uses a colon after clamabat to mark the transition to direct discourse without an additional verb of speaking."
+      "note": "Greek ἔκραζεν and Latin clamabat render the cry with a single imperfect verb; the Peshitta uses a periphrastic ܩܥܐ ܗܘܐ and additionally supplies ܘܐܡܪ ('and said') to introduce the following direct speech, a characteristic Syriac discourse marker absent in Greek and Latin."
     },
     {
       "greek_nt": [
@@ -206,29 +202,53 @@
         13
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "υἱὲ Δαυίδ / ܒܪܗ ܕܕܘܝܕ / Fili David."
     },
     {
       "greek_nt": [
-        13,
+        10
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Greek raised dot after ἔκραζεν· and the Latin explicit colon both mark the transition to direct speech; the Syriac instead lexicalises this boundary with ܘܐܡܪ. Punctuation conventions thus diverge across the three witnesses."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        14,
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐλέησόν με takes the accusative direct object με, and Latin miserere mei the genitive mei after the verb of pity; Syriac ܐܬܪܚܡ ܥܠܝ uses the prepositional phrase 'have mercy upon me' (ܥܠ + suffix). All three express the same petition with differing case/preposition government."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.014569+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.509954+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

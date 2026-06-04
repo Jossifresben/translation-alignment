@@ -75,43 +75,60 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "Greek καὶ opening the verse is omitted in both Peshitta and Vulgate. This initial conjunction likely connects to the preceding narrative (Mark 11:7), but both translations begin the sentence independently with the subject."
+      "note": "The Greek opens with a coordinating καί before the δέ-clause, an example of the redundant καί...δέ construction characteristic of Markan Greek. Neither the Vulgate nor the Peshitta render this initial conjunction, beginning instead with the subject."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses possession with the genitive pronoun αὐτῶν and Latin with the possessive adjective sua, both following the noun; Syriac fuses the third-plural pronominal suffix directly onto ܢܚܬܝܗܘܢ ('their garments'), a single morphological word rather than a separate token."
     },
     {
       "greek_nt": [
@@ -125,8 +142,8 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist ἔστρωσαν (simple past); Peshitta employs periphrastic construction ܡܫܘܝܢ ܗܘܘ (participle + auxiliary 'were spreading'); Vulgate uses perfect straverunt. All convey completed action but with different aspectual nuances typical of each language's verbal system."
+      "type": "grammar",
+      "note": "Greek ἔστρωσαν and Latin straverunt are simple aorist/perfect indicatives; the Peshitta uses the periphrastic participle ܡܫܘܝܢ ܗܘܘ ('were spreading'), a Syriac durative construction conveying ongoing past action that the others render punctiliarly."
     },
     {
       "greek_nt": [
@@ -139,36 +156,41 @@
       ],
       "vulgate": [
         5,
-        6
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses εἰς + accusative (directional 'onto the road'); Vulgate mirrors with in + ablative via (locative 'in/on the road'); Peshitta uses simple ܒ preposition with ܐܘܪܚܐ. The semantic difference between directional and locative is minimal in this context."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        6,
         7
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after via to mark the clause boundary before the second action. Neither Greek nor Peshitta manuscripts employ equivalent punctuation at this juncture, though Greek δέ serves a similar discourse-structuring function."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἰς τὴν ὁδόν and Latin in via use a preposition plus articular noun; Syriac ܒܐܘܪܚܐ prefixes the proclitic preposition ܒ directly to the noun, with no separate article, reflecting the Syriac emphatic-state idiom. The Vulgate's colon (:) marks clause division absent in the source languages."
     },
     {
       "greek_nt": [
-        10,
-        11
+        10
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        8,
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
+    },
+    {
+      "peshitta": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Syriac coordinates the second clause with a prefixed waw on ܘܐܚܪܢܐ ('and others'), whereas Greek and Latin use a postpositive adversative particle (δέ / autem). This reflects Syriac's preference for paratactic waw-coordination over the contrastive particle."
     },
     {
       "greek_nt": [
@@ -180,9 +202,9 @@
       "vulgate": [
         10
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "lexical",
-      "note": "Greek στιβάδας denotes leafy branches or foliage cut for bedding; Vulgate frondes specifies 'fronds, leafy branches'; Peshitta ܣܘܟܐ means 'thorns, brambles, brushwood.' The Syriac term suggests rougher vegetation, possibly reflecting a different botanical understanding or a semantic shift in the Syriac lexeme."
+      "note": "Greek στιβάδας denotes leafy branches or rushes strewn as bedding; Latin frondes ('leafy boughs') matches this sense closely, while Syriac ܣܘܟܐ ('boughs, branches') generalises to tree-limbs without the connotation of foliage for spreading."
     },
     {
       "greek_nt": [
@@ -196,8 +218,8 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist participle κόψαντες (attendant circumstance); Peshitta again employs periphrastic ܦܣܩܝܢ ܗܘܘ (participle + 'were'); Vulgate uses imperfect cædebant. The Greek construction emphasizes the cutting as preliminary to spreading, while Peshitta and Vulgate present it as simultaneous ongoing action."
+      "type": "grammar",
+      "note": "Greek uses the aorist participle κόψαντες ('having cut'), subordinating the cutting to the main verb; Latin renders it as a finite imperfect cædebant ('were cutting'), and Syriac as the periphrastic participle ܦܣܩܝܢ ܗܘܘ ('were cutting down'), both promoting the action to a coordinate finite clause."
     },
     {
       "greek_nt": [
@@ -213,22 +235,18 @@
         12,
         13
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἐκ τῶν ἀγρῶν ('from the fields') indicates open agricultural land; Vulgate de arboribus ('from trees') specifies the immediate source; Peshitta ܡܢ ܐܝܠܢܐ ('from trees') agrees with the Vulgate against the Greek. This represents either independent translation choice or possible textual influence, shifting focus from the location (fields) to the object (trees)."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐκ τῶν ἀγρῶν ('from the fields') and the matching Latin de arboribus diverge in object: the Vulgate reads 'from the trees' rather than 'fields', aligning with the Syriac ܡܢ ܐܝܠܢܐ ('from the tree[s]'). The Latin and Syriac thus agree against the Greek in specifying trees as the source of the branches."
     },
     {
       "greek_nt": [
         17
       ],
-      "peshitta": [
-        12
-      ],
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -242,7 +260,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses imperfect ἐστρώννυον (iterative past action); Peshitta repeats the participle ܡܫܘܝܢ (without auxiliary here, functioning as finite verb); Vulgate employs imperfect sternebant. All convey ongoing or repeated action, with minor aspectual differences."
+      "note": "Greek shifts to the imperfect ἐστρώννυον ('were spreading'), conveying iterative action; Latin matches with the imperfect sternebant, while Syriac ܘܡܫܘܝܢ is a waw-coordinated participle, again favouring paratactic coordination over the subordinated or distinct tense forms."
     },
     {
       "greek_nt": [
@@ -257,14 +275,15 @@
         16,
         17
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The closing 'on the road' repeats the earlier prepositional phrase. Greek (εἰς τὴν ὁδόν) and Latin (in via) again employ preposition plus noun, while Syriac ܒܐܘܪܚܐ uses the proclitic ܒ on the emphatic-state noun without a separate article."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.016552+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.531591+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

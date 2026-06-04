@@ -47,20 +47,22 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Peshitta ܘܡܚܕܐ conflates the conjunction ܘ ('and') with the temporal adverb ܡܚܕܐ ('immediately'), creating a single compound token where Greek and Latin use two separate words (Καὶ εὐθὺς / Et statim)."
+      "variant": "aligned",
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εὐθύς and Latin statim are discrete adverbs ('immediately'), whereas Syriac fuses the conjunction and temporal sense into the single prefixed form ܘܡܚܕܐ ('and at once'); the Syriac token therefore does double duty for both the Greek καί and εὐθύς."
     },
     {
       "greek_nt": [
@@ -73,25 +75,36 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article before πνεῦμα (τὸ πνεῦμα), maintaining standard Greek article-noun order; Peshitta ܪܘܚܐ and Vulgate Spiritus lack the article, as Syriac uses the emphatic state and Latin has no article system, but both traditions position the subject before the verb whereas Greek places it after the temporal adverb."
+      "variant": "aligned",
+      "note": "τὸ πνεῦμα / ܪܘܚܐ / Spiritus"
     },
     {
       "greek_nt": [
-        4,
         5
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        3,
+        3
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐκβάλλει is a vivid historic present ('drives out'), while both the Syriac perfect ܐܦܩܬܗ and the Latin perfect expulit render the action as completed past; the Semitic and Latin traditions normalise Mark's characteristic present tense into a narrative preterite."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek maintains verb-final order with object preceding (αὐτὸν ἐκβάλλει); Peshitta ܐܦܩܬܗ incorporates the pronominal suffix directly onto the verb (Aphel perfect 3fs with 3ms object suffix), creating a single-token verb-object unit; Vulgate follows Greek word order (expulit eum) but with verb preceding object, reflecting Latin's freer word order conventions."
+      "type": "construction",
+      "note": "The pronominal object 'him' is expressed by an independent accusative αὐτόν in Greek and eum in Latin, but is encoded as the enclitic object suffix -ܗ attached to the verb ܐܦܩܬܗ in Syriac, a typical Aramaic morphosyntactic economy."
     },
     {
       "greek_nt": [
@@ -108,13 +121,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase with article (εἰς τὴν ἔρημον); Vulgate mirrors this structure (in desertum) without article; Peshitta employs the preposition ܠ prefixed directly to the emphatic-state noun ܡܕܒܪܐ, a typical Syriac construction that conflates preposition and definiteness marking into a single orthographic unit."
+      "note": "Greek εἰς τὴν ἔρημον and Latin in desertum both employ a preposition plus articular/substantive noun, whereas Syriac ܠܡܕܒܪܐ uses the prefixed allative particle ܠ- with the noun, dispensing with a separate preposition; the article is moreover unmarked in the Syriac state."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.944680+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.518582+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

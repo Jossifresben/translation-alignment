@@ -81,13 +81,11 @@
       "greek_nt": [
         1
       ],
-      "peshitta": [],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses the postpositive conjunction δέ ('but/and'), while Vulgate employs autem ('however/moreover'), both functioning as discourse markers. Peshitta omits an explicit conjunction, relying on asyndetic coordination typical of Syriac narrative style."
+      "note": "The Greek postpositive δέ and the Latin autem mark the adversative transition; the Peshitta supplies no corresponding particle on the first clause, relying instead on asyndeton typical of Syriac narrative sequencing."
     },
     {
       "greek_nt": [
@@ -101,21 +99,18 @@
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek and Vulgate use simple imperfect forms (ἔλεγον, dicebant), while Peshitta employs a periphrastic construction with participle + auxiliary (ܐܡܪܝܢ ܗܘܘ), a standard Syriac means of expressing past progressive aspect."
+      "note": "Greek ἔλεγον (imperfect) and Latin dicebant render the durative sense with a single finite verb, whereas the Peshitta expresses the past continuous periphrastically with ܐܡܪܝܢ ܗܘܘ (active participle plus enclitic ܗܘܘ), an idiomatic Syriac construction for ongoing past action."
     },
     {
       "greek_nt": [
         3
       ],
-      "peshitta": [],
       "vulgate": [
         3,
         4
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon before the quotation marker Quia, reflecting Latin punctuation conventions for direct discourse. Greek ὅτι and Syriac ܕ- (prefixed to ܐܠܝܐ) function as complementizers without additional punctuation."
+      "note": "Greek recitative ὅτι introduces direct speech; the Vulgate renders it with a colon plus Quia, the standard Latin device for marking quotation, while the Syriac folds the marker into the proclitic ܕ on the following word."
     },
     {
       "greek_nt": [
@@ -127,7 +122,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "Ἠλίας / ܐܠܝܐ / Elias."
     },
     {
       "greek_nt": [
@@ -140,14 +136,12 @@
         6,
         7
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate places a semicolon after est to mark the end of the first opinion, while Greek uses a raised dot (·) and Peshitta continues without explicit punctuation, relying on the coordinating waw in ܘܐܚܪܢܐ to signal the transition."
+      "variant": "aligned",
+      "note": "Greek ἐστίν, Syriac enclitic ܗܘ, and Latin est all predicate identity; the Vulgate semicolon (idx 7) is the clause-final punctuation."
     },
     {
       "greek_nt": [
-        6,
-        7
+        6
       ],
       "peshitta": [
         5
@@ -157,58 +151,75 @@
         9
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek repeats ἄλλοι δὲ ('others but'), Vulgate uses alii vero ('others truly'), and Peshitta employs ܘܐܚܪܢܐ ('and others') with coordinating waw. Vulgate's vero provides stronger contrast than Greek δέ, while Syriac uses simple coordination."
+      "note": "The second clause's subject 'others' is matched across traditions; the Peshitta prefixes the conjunction ܘ (ܘܐܚܪܢܐ, 'and others') where Greek uses ἄλλοι alone and Latin pairs alii with the adversative vero, a stylistic divergence in connective choice."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek δέ is rendered by Latin vero here (contrasting with autem in the first clause); the Syriac conjunctive ܘ already accounted for in the preceding group carries the connective force, so no separate particle appears."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
+      "peshitta": [
+        1,
+        2
+      ],
       "vulgate": [
         10
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek and Vulgate repeat the verb of speaking (ἔλεγον, dicebant) in the second clause for parallelism, while Peshitta omits the second occurrence, allowing the initial ܐܡܪܝܢ ܗܘܘ to govern both clauses—a common Syriac ellipsis pattern."
+      "variant": "minor",
+      "note": "The repeated verb of speaking is again periphrastic in Syriac but, being identical in form to the first occurrence, is not reduplicated in the Peshitta text; Greek ἔλεγον and Latin dicebant each repeat the finite imperfect."
     },
     {
       "greek_nt": [
         9
       ],
-      "peshitta": [],
       "vulgate": [
         11,
         12
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate again inserts colon-plus-Quia for the second quotation, maintaining consistent punctuation. Greek ὅτι and Syriac ܕ- (prefixed to ܢܒܝܐ) serve as complementizers without additional punctuation marks."
+      "note": "The second recitative ὅτι is rendered by the Vulgate colon and Quia; the Peshitta again subsumes the quotation marker into the proclitic ܕ of the following noun."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "προφήτης / ܢܒܝܐ / propheta."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἐστίν / ܗܘ / est."
     },
     {
       "greek_nt": [
         12
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek includes the disjunctive particle ἤ ('or'), presenting 'a prophet' and 'like one of the prophets' as alternative formulations of the same opinion. Both Peshitta and Vulgate omit this particle, treating the comparison as a direct qualification rather than an alternative."
+      "variant": "omitted",
+      "note": "The Greek disjunctive ἢ ('or, that is') introducing the appositional clause is not represented in either the Peshitta or the Vulgate; both versions move directly from 'a prophet' to the comparative 'like one of the prophets', collapsing the Greek's two-stage formulation."
     },
     {
       "greek_nt": [
@@ -220,33 +231,43 @@
       "vulgate": [
         15
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὡς and Syriac ܐܝܟ both mean 'like/as,' while Vulgate uses quasi ('as if/as it were'), which carries a slightly more tentative or approximative nuance than the straightforward comparison in Greek and Syriac."
+      "variant": "aligned",
+      "note": "ὡς / ܐܝܟ / quasi."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "εἷς / ܚܕ / unus."
+    },
+    {
+      "greek_nt": [
         15,
         16
       ],
       "peshitta": [
-        9,
         10,
         11
       ],
       "vulgate": [
-        16,
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek uses the partitive genitive with the article (τῶν προφητῶν) and Latin the prepositional ex prophetis; the Syriac employs the preposition ܡܢ with the noun ܢܒܝܐ unmarked for number, a Syriac idiom in which the singular form may stand for a generic plural after partitive ܡܢ."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.979840+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.499814+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

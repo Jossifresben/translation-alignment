@@ -71,22 +71,35 @@
       ],
       "variant": "minor",
       "type": "omission",
-      "note": "The Peshitta omits the conjunction Καὶ / Et ('And'), beginning directly with the verb ܐܡܪܝܢ ('they said'). This is a common Syriac stylistic preference to avoid redundant conjunctions in narrative sequences."
+      "note": "Greek opens with the connective Καί and Latin with Et, marking narrative continuity; the Peshitta omits any introductory conjunction here, beginning directly with the verb ܐܡܪܝܢ, a stylistic feature of Syriac narrative which frequently dispenses with the Greek paratactic καί."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀπεκρίθησαν (aorist of ἀποκρίνομαι, 'they answered') and Latin responderunt both render the act of replying; the Peshitta uses ܐܡܪܝܢ from the root a-m-r ('to say'), a participial form expressing 'they say/said' rather than the explicit notion of answering, smoothing the Semitic idiom."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτῷ / ܠܗ / ei — dative/prepositional 'to him'."
     },
     {
       "greek_nt": [
@@ -99,12 +112,11 @@
       ],
       "vulgate": [
         3,
-        4,
-        5
+        4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an articulated noun phrase with possessive pronoun (οἱ μαθηταὶ αὐτοῦ, 'the disciples of him'); Vulgate mirrors this with discipuli sui; Peshitta employs a single construct form with pronominal suffix (ܬܠܡܝܕܘܗܝ, 'his-disciples'), a typical Semitic compression."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "οἱ μαθηταὶ αὐτοῦ / ܬܠܡܝܕܘܗܝ / discipuli sui — 'his disciples'; the Peshitta encodes the possessive suffix within the single word ܬܠܡܝܕܘܗܝ, whereas Greek and Latin use separate possessive pronouns."
     },
     {
       "greek_nt": [
@@ -113,17 +125,8 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "minor",
-      "type": "omission",
-      "note": "Greek ὅτι introduces indirect discourse; both Peshitta and Vulgate omit this conjunction, using direct quotation after a colon (Vulgate) or proceeding directly to the interrogative (Peshitta). This reflects differing conventions for reported speech."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "type": "construction",
+      "note": "Greek introduces the disciples' speech with the recitative ὅτι (functioning like quotation marks before direct discourse); neither the Peshitta nor the Vulgate represent this particle, the Latin instead marking the speech with a colon and both relying on direct quotation without a complementiser."
     },
     {
       "greek_nt": [
@@ -135,39 +138,51 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πόθεν / ܐܝܡܟܐ / Unde — interrogative 'from where/whence'."
     },
     {
       "greek_nt": [
         8
       ],
       "peshitta": [
-        10,
-        11
+        10
       ],
       "vulgate": [
         7
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek and Vulgate use the simple demonstrative τούτους / illos ('these [people]'); Peshitta expands with ܠܗܠܝܢ ܟܠܗܘܢ ('all these'), adding the quantifier ܟܠܗܘܢ ('all') for emphasis. This intensifies the disciples' sense of the crowd's magnitude."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The demonstrative object 'these' (τούτους / illos) stands early in the Greek and Latin clauses, but in the Peshitta ܠܗܠܝܢ is deferred to near the end of the sentence, reflecting Syriac word-order preference for placing the object after the verbal and locative material."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "δυνήσεταί / ܡܫܟܚ / poterit — 'will be able / can'."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        8,
-        9
+        8
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb before the subject (δυνήσεταί τις, 'will-be-able anyone'); Peshitta and Vulgate reverse this to subject-verb order (ܡܫܟܚ ܐܢܫ / quis poterit). The semantic content is identical; the difference reflects Greek vs. Semitic/Latin syntactic norms."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τις / ܐܢܫ / quis — indefinite 'anyone / someone'."
     },
     {
       "greek_nt": [
@@ -179,7 +194,7 @@
       "vulgate": [],
       "variant": "minor",
       "type": "omission",
-      "note": "Greek and Peshitta retain the locative adverb ὧδε / ܗܪܟܐ ('here'); Vulgate omits it, relying on the prepositional phrase in solitudine to convey location. This is a stylistic compression in the Latin."
+      "note": "Greek ὧδε and Syriac ܗܪܟܐ both supply the locative adverb 'here'; the Clementine Vulgate has no corresponding word, leaving the spatial reference implicit in the prepositional phrase in solitudine."
     },
     {
       "greek_nt": [
@@ -191,7 +206,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "χορτάσαι / ܕܢܣܒܥ / saturare — 'to satisfy/feed to satiety'; the Peshitta root s-b-e cognate with Hebrew שׂבָע carries the same notion of being filled."
     },
     {
       "greek_nt": [
@@ -203,9 +220,9 @@
       "vulgate": [
         11
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places ἄρτων ('with bread') after the infinitive χορτάσαι; Peshitta places ܠܚܡܐ before the infinitive ܕܢܣܒܥ; Vulgate places panibus after saturare. All three convey instrumental 'with bread,' but word order varies according to each language's syntactic preferences for infinitival complements."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἄρτων / ܠܚܡܐ / panibus — 'with bread/loaves'."
     },
     {
       "greek_nt": [
@@ -219,26 +236,45 @@
         12,
         13
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a prepositional phrase ἐπ᾽ ἐρημίας ('in [the] wilderness', genitive); Vulgate mirrors this with in solitudine (ablative of place); Peshitta uses the preposition ܒ with ܚܘܪܒܐ ('in the desert'). All are semantically equivalent locative expressions with minor morphosyntactic variation."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐπ᾽ ἐρημίας / ܒܚܘܪܒܐ / in solitudine — 'in a desolate/wilderness place'; all three express the locative with a preposition plus noun for wilderness."
     },
     {
-      "greek_nt": [
-        16
+      "greek_nt": [],
+      "peshitta": [
+        11
       ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta adds ܟܠܗܘܢ ('all of them', root k-w-l) intensifying the demonstrative ܠܗܠܝܢ to read 'all these', an emphatic expansion not present in the Greek NA28 or the Vulgate, heightening the disciples' sense of the impossible magnitude of the crowd."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after discipuli sui to mark the transition into direct speech, a function served in Greek by the recitative ὅτι; this editorial punctuation has no lexical counterpart in the other traditions."
+    },
+    {
+      "greek_nt": [],
       "peshitta": [],
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate's terminal question mark corresponds to the interrogative force already encoded in the Greek ἐρημίας; (with its question mark) and in the Syriac interrogative ܐܝܡܟܐ; it is a typographic marker of the rhetorical question rather than a textual variant."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.994315+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.516020+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

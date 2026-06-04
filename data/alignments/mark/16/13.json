@@ -55,7 +55,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the crasis κἀκεῖνοι (καὶ + ἐκεῖνοι) combining conjunction and demonstrative pronoun into a single token. Latin separates these as 'et illi', while Syriac uses the simple conjunction-pronoun ܘܗܢܘܢ. All three convey 'and they' with identical semantics but different morphological strategies."
+      "note": "Greek compresses conjunction and demonstrative into the crasis κἀκεῖνοι ('and they/those'); the Vulgate analyses this into two discrete words et illi, while the Syriac ܘܗܢܘܢ likewise prefixes the conjunctive waw to the pronoun. The difference is purely one of orthographic fusion versus separation, not of meaning."
     },
     {
       "greek_nt": [
@@ -67,8 +67,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀπελθόντες and Latin euntes are aorist/present participles ('having gone'/'going') subordinating the action of departure; the Syriac ܐܙܠܘ is a finite perfect ('they went'), reflecting the Aramaic preference for paratactic finite verbs over circumstantial participles."
     },
     {
       "greek_nt": [
@@ -80,9 +81,7 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀπαγγέλλω ('announce, report') is rendered by Syriac ܐܡܪܘ (root ܐܡܪ, 'say, tell') and Latin 'nuntiaverunt' ('announced'). The Peshitta employs a more general verb of speech, while Greek and Latin use specialized verbs of formal announcement, though all convey the act of reporting the resurrection appearance."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -96,17 +95,19 @@
         4
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τοῖς λοιποῖς / ܠܫܪܟܐ / ceteris"
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        4
+      ],
       "peshitta": [],
       "vulgate": [
         5
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'ceteris' to mark a stronger pause before the negative clause. Neither the Greek nor Peshitta traditions employ punctuation at this juncture, maintaining continuous syntax from the reporting to the disbelief."
+      "note": "The Greek encodes the clause break with a raised dot following λοιποῖς, and the Vulgate marks the same pause with an explicit colon; the Peshitta tokenisation carries no separate punctuation token here, the division being implicit. This is an editorial rather than textual divergence."
     },
     {
       "greek_nt": [
@@ -121,7 +122,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the single negative conjunction οὐδέ ('neither, nor'), Latin employs 'nec' (equivalent negative conjunction), while Syriac uses the compound negative ܐܦ ܠܐ ('also not', emphatic negation). The Peshitta's two-token construction adds slight emphasis but conveys the same semantic force as the Greek and Latin single-token negatives."
+      "note": "Greek οὐδέ and Latin nec are single negative-coordinating particles ('neither/nor'); the Syriac renders the same sense analytically with ܐܦ ܠܐ ('also not'), a two-word construction idiomatic for emphatic negation in Aramaic but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -134,7 +135,7 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐκείνοις / ܠܗܢܘܢ / illis"
     },
     {
       "greek_nt": [
@@ -147,13 +148,13 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐπίστευσαν / ܗܝܡܢܘ / crediderunt"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.056368+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.504700+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

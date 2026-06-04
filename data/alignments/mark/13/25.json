@@ -62,8 +62,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -76,31 +75,41 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the article οἱ before ἀστέρες (nominative plural); Syriac ܘܟܘܟܒܐ conflates the conjunction and noun without a separate article (Syriac lacks the definite article as a separate morpheme); Vulgate stellæ likewise omits the article, following Latin's articleless syntax."
+      "variant": "aligned",
+      "note": "Greek article + noun (οἱ ἀστέρες) corresponds to the Syriac waw-prefixed noun ܘܟܘܟܒܐ (which also carries the conjunction) and Latin stellæ; the Syriac conjunction is bound to the noun token and aligns to καί above."
     },
     {
       "greek_nt": [
         3,
-        4,
-        5,
-        6,
         7
       ],
       "peshitta": [
-        1,
-        2,
-        3
+        1
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a periphrastic future construction (ἔσονται ... πίπτοντες, 'will be falling') with the present participle; both Syriac ܢܦܠܘܢ and Vulgate erunt decidentes employ simple future forms with participial/gerundive complements, yielding semantically equivalent but syntactically distinct renderings of the same eschatological imagery."
+      "note": "Greek employs a periphrastic future ἔσονται ... πίπτοντες ('will be falling'), with the future of εἰμί plus a present participle, a Semitising construction; Latin mirrors it precisely with erunt ... decidentes, whereas the Peshitta collapses it into a simple imperfect/future ܢܦܠܘܢ ('they shall fall'), losing the periphrastic nuance."
+    },
+    {
+      "greek_nt": [
+        4,
+        5,
+        6
+      ],
+      "peshitta": [
+        2,
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the prepositional phrase ἐκ τοῦ οὐρανοῦ ('out of heaven') with the singular noun, matched by the Syriac ܡܢ ܫܡܝܐ ('from heaven'); the Vulgate instead renders the source as a bare genitive cæli ('of heaven'), omitting the explicit preposition and assimilating the idea attributively."
     },
     {
       "greek_nt": [
@@ -112,8 +121,7 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -126,9 +134,8 @@
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek αἱ δυνάμεις uses the feminine plural article with δυνάμεις ('powers'); Syriac ܘܚܝܠܘܬܐ conflates the conjunction with the noun in the emphatic state (functioning as definite); Vulgate virtutes omits the article per Latin syntax, though the noun remains definite by context."
+      "variant": "aligned",
+      "note": "Greek article + noun (αἱ δυνάμεις) and Latin virtutes correspond to the Syriac ܘܚܝܠܘܬܐ, which carries the preceding conjunction waw bound to the noun and thus aligns to καί above."
     },
     {
       "greek_nt": [
@@ -143,28 +150,12 @@
       "vulgate": [
         7,
         8,
-        9
+        9,
+        10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a double-articulated construction (αἱ ἐν τοῖς οὐρανοῖς, 'the [ones] in the heavens') with the article repeated before the prepositional phrase; Vulgate mirrors this with a relative clause (quæ in cælis sunt); Syriac uses a simple genitive construct (ܕܫܡܝܐ, 'of heaven[s]'), a more compact idiom typical of Semitic syntax."
-    },
-    {
-      "greek_nt": [
-        6,
-        14
-      ],
-      "peshitta": [
-        3,
-        5
-      ],
-      "vulgate": [
-        2,
-        9
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek alternates between singular οὐρανοῦ (genitive, 'from heaven') and plural οὐρανοῖς (dative, 'in the heavens'); Syriac uses ܫܡܝܐ (singular/plural ambiguous in emphatic state) in both instances; Vulgate employs genitive cæli and plural cælis, preserving the Greek's number distinction but redistributing it across different syntactic slots."
+      "note": "Greek expresses the attribution with an articular prepositional phrase αἱ ἐν τοῖς οὐρανοῖς ('which are in the heavens'), and Latin renders it as a relative clause quæ in cælis sunt; the Peshitta condenses the whole modifier to a single construct-genitive form ܕܫܡܝܐ ('of heaven'), a typical Syriac economy that drops the explicit copular relative."
     },
     {
       "greek_nt": [
@@ -174,18 +165,15 @@
         6
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek σαλευθήσονται is a simple future passive ('will be shaken'); Vulgate movebuntur is likewise future passive but uses a different verb root (moveo vs. σαλεύω); Syriac ܢܬܬܙܝܥܘܢ employs the ethpael (reflexive-passive) stem, semantically equivalent but morphologically distinct from the Greek passive construction."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.032127+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.429699+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

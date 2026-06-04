@@ -66,80 +66,134 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin use a final conjunction (ἵνα / ut) introducing the purpose clause as a separate particle, whereas the Peshitta fuses the conjunction prefix into the verb ܕܢܐܙܠܘܢ ('that they may go'); functionally equivalent but morphologically synthetic in Syriac."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses ἵνα + aorist participle (ἀπελθόντες) for purpose; Vulgate mirrors this with ut + participle (euntes); Peshitta employs a single d- prefix subordinating construction (ܕܢܐܙܠܘܢ), a typical Syriac compression of purpose clauses."
+      "note": "Greek ἀπελθόντες and Latin euntes are aorist/present participles of motion, while the Peshitta renders the action with a finite subjunctive verb ܕܢܐܙܠܘܢ embedded in the purpose clause; this is a construction difference (participle vs. finite verb) rather than a semantic one."
     },
     {
       "greek_nt": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
+        4
       ],
       "peshitta": [
-        3,
-        4,
-        5
+        3
       ],
       "vulgate": [
-        4,
-        5,
-        6,
-        7,
-        8
+        4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adverb κύκλῳ ('surrounding') before the nouns ἀγροὺς καὶ κώμας ('fields and villages'); Vulgate uses the adjective proximas before villas et vicos; Peshitta reverses the order, placing the participle ܕܚܕܪܝܢ ('surrounding') after the first noun ܠܐܓܘܪܣܐ ('fields'), yielding 'to fields surrounding and to villages'—a stylistic reordering with identical semantic scope."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        10,
-        11
-      ],
-      "peshitta": [
+        5,
         6,
         7
       ],
-      "vulgate": [
-        9,
-        10
+      "peshitta": [
+        3,
+        4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek τοὺς κύκλῳ ἀγρούς ('the surrounding fields/regions') uses an adverb κύκλῳ attributively; the Peshitta ܠܐܓܘܪܣܐ ܕܚܕܪܝܢ employs a Greek loanword (ἀγρός > ܐܓܘܪܣܐ) with a relative clause 'that are around', while the Vulgate proximas villas substitutes the adjective 'nearby' for the encircling sense, a mild lexical and constructional divergence."
     },
     {
       "greek_nt": [
-        12,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek κώμας and Latin vicos transmit the noun 'villages' as a separate word, whereas the Peshitta ܘܠܩܘܪܝܐ prefixes both conjunction and preposition to the noun ('and to the villages'); the difference is purely morphosyntactic agglutination in Syriac."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
@@ -149,19 +203,26 @@
         11
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the indefinite pronoun τί ('something') + specific noun ἄρτους ('loaves'); Vulgate employs the generic cibos ('food'); Peshitta uses ܠܚܡܐ ('bread'), semantically closer to Greek but lacking the indefinite pronoun—all three convey 'food to eat' but with differing lexical specificity."
+      "note": "Greek and Latin specify ἄρτους / cibos as the explicit object ('loaves' / 'food') governed by the buying verb, while the Peshitta places ܠܚܡܐ ('bread') after its own verb; minor word-order and lexical nuance (ἄρτος 'bread/loaves' vs. Vulgate's generalising cibos 'foodstuffs')."
     },
     {
       "greek_nt": [
-        14
+        12,
+        14,
+        16,
+        17
       ],
       "peshitta": [
-        11
+        9,
+        10,
+        11,
+        12
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        12
+      ],
+      "variant": "major",
+      "note": "The Greek τί ... γὰρ ... οὐκ ἔχουσιν and the Peshitta ܠܝܬ ܠܗܘܢ ܓܝܪ ܡܕܡ both preserve an explanatory causal clause ('for they have nothing [to eat]'), whereas the Vulgate omits this entire motivational clause and reduces it to a bare relative pronoun quos; the Latin thus drops the γάρ/ܓܝܪ rationale and the negative possession statement."
     },
     {
       "greek_nt": [
@@ -173,31 +234,14 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        16,
-        17
-      ],
-      "peshitta": [
-        9,
-        10,
-        12
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses a negative existential construction οὐκ ἔχουσιν ('they do not have'); Vulgate employs a relative clause quos manducent ('which they may eat'), presupposing the lack; Peshitta expands with ܠܝܬ ܠܗܘܢ ܓܝܪ ܡܕܡ ('for they have nothing'), inserting the indefinite ܡܕܡ ('anything') to make the negation explicit—a substantive clarification absent in Greek and Latin."
+      "variant": "minor",
+      "note": "Greek φάγωσιν and Vulgate manducent are finite subjunctives ('that they may eat'), while the Peshitta ܠܡܐܟܠ uses an infinitive of purpose ('to eat'); the Latin attaches it to the relative quos ... manducent, a construction shift from the indefinite τί of the Greek."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.983458+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.475091+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

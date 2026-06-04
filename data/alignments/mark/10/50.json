@@ -58,8 +58,8 @@
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses article + conjunction (ὁ δέ); Peshitta mirrors this with pronoun + conjunction (ܗܘ ܕܝܢ); Vulgate employs the relative pronoun Qui, creating a subordinate clause structure rather than a coordinate construction."
+      "type": "construction",
+      "note": "Greek and Syriac employ a fronted demonstrative/article plus the postpositive connective (ὁ δέ / ܗܘ ܕܝܢ); the Vulgate compresses this into the single relative pronoun Qui, subordinating the clause rather than coordinating it with an adversative particle."
     },
     {
       "greek_nt": [],
@@ -69,7 +69,7 @@
       "vulgate": [],
       "variant": "added",
       "type": "expansion",
-      "note": "The Peshitta inserts ܣܡܝܐ ('the blind man') as an explicit subject, clarifying the referent of the pronoun. Neither the Greek nor the Vulgate include this substantive, relying instead on pronominal reference to the previously mentioned Bartimaeus."
+      "note": "The Peshitta supplies the explicit subject ܣܡܝܐ ('the blind man'), making the antecedent unambiguous, whereas the Greek and Latin rely on the pronominal subject embedded in the participial construction. This is a typical Syriac clarifying expansion."
     },
     {
       "greek_nt": [
@@ -88,8 +88,8 @@
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses aorist participle ἀποβαλών with article-noun-pronoun sequence (τὸ ἱμάτιον αὐτοῦ); Vulgate employs ablative absolute with past participle projecto preceding the noun (vestimento suo); Peshitta uses finite verb ܫܕܐ ('he cast') with pronominal suffix on the noun, reflecting typical Semitic syntax."
+      "type": "construction",
+      "note": "Greek uses an aorist participle with article and possessive (ἀποβαλὼν τὸ ἱμάτιον αὐτοῦ); the Latin renders it with an ablative absolute (projecto vestimento suo); the Syriac uses a finite verb ܫܕܐ with the suffixed possessive ܠܒܫܗ, expressing the same act of casting off the garment through three distinct syntactic strategies."
     },
     {
       "greek_nt": [
@@ -101,8 +101,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀναπηδήσας ('having sprung up') and Latin exiliens preserve the vivid leaping motion; the Syriac ܘܩܡ ('and arose') flattens the imagery to a simpler verb of rising, losing the connotation of an energetic jump."
     },
     {
       "greek_nt": [
@@ -115,7 +116,8 @@
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἦλθεν / ܐܬܐ / venit"
     },
     {
       "greek_nt": [
@@ -132,14 +134,14 @@
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses preposition πρός with article and accusative noun (πρὸς τὸν Ἰησοῦν); Vulgate mirrors with ad eum (pronoun substitution); Peshitta employs ܠܘܬ with proper name, omitting the article (which Syriac lacks). All three convey identical directional meaning with minor syntactic variation."
+      "type": "substitution",
+      "note": "Greek and Syriac name the object explicitly (πρὸς τὸν Ἰησοῦν / ܠܘܬ ܝܫܘܥ, 'to Jesus'); the Vulgate substitutes the pronoun ad eum ('to him'), reflecting a variant or stylistic preference to avoid repeating the proper name."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.014906+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.531194+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

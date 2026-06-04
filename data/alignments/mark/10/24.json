@@ -108,7 +108,7 @@
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "οἱ δὲ μαθηταί / ܬܠܡܝܕܐ ܕܝܢ / Discipuli autem"
     },
     {
       "greek_nt": [
@@ -122,15 +122,14 @@
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect middle-passive ἐθαμβοῦντο; Peshitta employs periphrastic construction ܡܬܕܡܪܝܢ ܗܘܘ (participle + auxiliary); Vulgate uses imperfect obstupescebant. All three express ongoing astonishment in past time, differing only in aspectual construction."
+      "type": "construction",
+      "note": "The Greek imperfect ἐθαμβοῦντο is rendered by a single deponent verb in Latin (obstupescebant), but the Syriac expresses the continuous past periphrastically with the participle ܡܬܕܡܪܝܢ plus the auxiliary ܗܘܘ, the standard Syriac means of marking imperfective past aspect."
     },
     {
       "greek_nt": [
         4,
         5,
-        6,
-        7
+        6
       ],
       "peshitta": [
         4,
@@ -138,11 +137,21 @@
       ],
       "vulgate": [
         3,
-        4,
-        5
+        4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the articulated plural ἐπὶ τοῖς λόγοις ('at the words') and Latin matches with in verbis; the Syriac ܡܠܘܗܝ is also plural with possessive suffix but compresses the prepositional phrase, absorbing the pronoun 'his' that Greek and Latin express separately."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek possessive pronoun αὐτοῦ ('of him') stands as a discrete genitive token; both the Syriac (via the pronominal suffix on ܡܠܘܗܝ) and the Latin (ejus) carry this notion elsewhere, here grouped with the preceding noun-phrase, hence the Greek pronoun has no independent counterpart token."
     },
     {
       "greek_nt": [
@@ -152,28 +161,17 @@
       ],
       "peshitta": [
         6,
+        7,
         8
       ],
       "vulgate": [
         6,
-        7
+        7,
+        8
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the article and conjunction before the subject (ὁ δὲ Ἰησοῦς); Peshitta uses conjunctive ܘ prefixed to the verb ܥܢܐ, then names ܝܫܘܥ; Vulgate employs adversative At before Jesus. Functionally equivalent transitional phrases with tradition-specific syntax."
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek frames the resumption with ὁ δὲ Ἰησοῦς πάλιν ἀποκριθεὶς (article + δέ + name + 'again' + participle); the Vulgate reorders as At Jesus rursus respondens, while the Syriac uses a finite coordinated verb ܘܥܢܐ ܬܘܒ ('and answered again') rather than the Greek aorist participle, a typical Semitic paratactic construction."
     },
     {
       "greek_nt": [
@@ -189,7 +187,20 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses aorist participle ἀποκριθεὶς with finite verb λέγει (Semitic pleonastic construction); Peshitta employs simple perfect ܘܐܡܪ; Vulgate mirrors Greek with respondens ait. The Peshitta streamlines the redundant 'answering he said' idiom into a single verb."
+      "note": "Greek combines participle ἀποκριθεὶς with the present λέγει ('answering, he says'); Latin keeps the parallel respondens ait, but Syriac collapses the pair into a single coordinated finite verb ܘܐܡܪ ('and said'), the answering notion already carried by ܘܥܢܐ above."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "πάλιν / ܬܘܒ / rursus"
     },
     {
       "greek_nt": [
@@ -202,9 +213,8 @@
         11,
         12
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses medial punctuation (αὐτοῖς·); Vulgate inserts colon after illis to mark direct discourse; Peshitta has no overt punctuation marker. The colon in Vulgate reflects Latin rhetorical convention for introducing speech."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis; the Latin colon (idx 12) introduces direct speech."
     },
     {
       "greek_nt": [
@@ -218,7 +228,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek τέκνα (neutral 'children') versus Vulgate Filioli (diminutive 'little sons') versus Peshitta ܒܢܝ ('my sons'). The Vulgate diminutive and Peshitta possessive suffix both intensify the affectionate tone beyond the Greek vocative."
+      "note": "Greek vocative τέκνα ('children') is rendered by the Syriac ܒܢܝ ('my children/sons,' from b-n-a) and by the Latin affectionate diminutive Filioli ('little children'); the Latin diminutive adds a tenderness not lexically present in the Greek neuter plural."
     },
     {
       "greek_nt": [
@@ -231,7 +241,7 @@
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πῶς / ܟܡܐ / quam"
     },
     {
       "greek_nt": [
@@ -246,52 +256,73 @@
         16
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places adjective before copula (δύσκολόν ἐστιν); Peshitta uses single adjective ܥܛܠܐ without separate copula (verbless clause); Vulgate mirrors Greek order (difficile est). Syriac verbless predication is idiomatic for stative expressions."
+      "type": "construction",
+      "note": "Greek δύσκολόν ἐστιν and Latin difficile est supply an explicit copula ('it is difficult'); Syriac ܥܛܠܐ stands as a predicate adjective with the copula understood, a normal Syriac nominal-sentence construction omitting the verb 'to be.'"
     },
     {
       "greek_nt": [
         19,
-        20,
+        20
+      ],
+      "peshitta": [
+        14,
+        15
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the substantivised perfect participle τοὺς πεποιθότας ('those who have trusted') and Latin a bare participle confidentes; the Syriac employs a relative construction ܠܐܝܠܝܢ ܕܬܟܝܠܝܢ ('those who are trusting'), making the relative clause explicit where the Latin leaves it participial."
+    },
+    {
+      "greek_nt": [
         21,
         22,
         23
       ],
       "peshitta": [
-        14,
-        15,
         16,
         17
       ],
       "vulgate": [
-        17,
         18,
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses articular perfect participle τοὺς πεποιθότας ἐπὶ τοῖς χρήμασιν (substantival, 'those having trusted in riches'); Peshitta employs relative clause ܠܐܝܠܝܢ ܕܬܟܝܠܝܢ ܥܠ ܢܟܣܝܗܘܢ; Vulgate uses present participle confidentes in pecuniis. All three express the same participial restriction, differing in syntactic realization."
+      "type": "lexical",
+      "note": "Greek ἐπὶ τοῖς χρήμασιν ('upon riches') and Latin in pecuniis ('in money') differ slightly in nuance; the Syriac ܢܟܣܝܗܘܢ ('their possessions/wealth') carries a possessive suffix not present in the Greek or Latin, sharpening the focus to the rich man's own goods."
     },
     {
       "greek_nt": [
         24,
         25,
-        26,
+        26
+      ],
+      "peshitta": [
+        19
+      ],
+      "vulgate": [
+        20,
+        21
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἰς τὴν βασιλείαν and Latin in regnum use a preposition plus accusative; the Syriac fuses the directional preposition, the noun, and the possessive into the single inflected form ܠܡܠܟܘܬܗ ('into his kingdom'), the suffix anticipating the following genitive 'of God.'"
+    },
+    {
+      "greek_nt": [
         27,
         28
       ],
       "peshitta": [
-        19,
         20
       ],
       "vulgate": [
-        20,
-        21,
         22
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase εἰς τὴν βασιλείαν τοῦ θεοῦ with accusative of motion; Peshitta employs ܠܡܠܟܘܬܗ ܕܐܠܗܐ with pronominal suffix on 'kingdom' (lit. 'to his kingdom of God'); Vulgate mirrors Greek structure (in regnum Dei). The Peshitta suffix creates slight possessive emphasis absent in Greek and Latin."
+      "variant": "aligned",
+      "note": "τοῦ θεοῦ / ܕܐܠܗܐ / Dei"
     },
     {
       "greek_nt": [
@@ -305,14 +336,14 @@
         24
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ends with period after infinitive εἰσελθεῖν; Vulgate adds exclamation mark (introire!) to heighten rhetorical force; Peshitta integrates the infinitive ܕܢܥܠܘܢ earlier in the clause structure (token 18) as purpose clause. The Vulgate exclamation intensifies Jesus' astonishment beyond the Greek tone."
+      "type": "construction",
+      "note": "Greek uses the aorist infinitive εἰσελθεῖν ('to enter') and Latin the present infinitive introire, both governed by the predicate of difficulty; the Syriac renders this with a finite subjunctive clause ܕܢܥܠܘܢ ('that they should enter'), the customary Syriac substitute for the Greek complementary infinitive, and the Latin closes with an exclamatory '!'"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.010991+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.530313+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

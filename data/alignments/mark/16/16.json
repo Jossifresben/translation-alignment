@@ -49,20 +49,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + aorist participle (ὁ πιστεύσας); Vulgate employs relative pronoun + perfect indicative (Qui crediderit); Peshitta uses relative pronoun + active participle (ܐܝܢܐ ܕܡܗܝܡܢ). All three express the same substantival construction ('the one who believes'), but through different syntactic strategies typical of each language."
+      "note": "Greek uses the substantival articular participle ὁ πιστεύσας ('the one who believed'); Latin and Syriac both recast this as a relative clause (Qui... / ܐܝܢܐ ܕ...), a routine syntactic accommodation since neither language has an exact equivalent of the Greek articular participle."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek aorist participle πιστεύσας and Latin future-perfect crediderit both mark anteriority ('having believed' / 'will have believed'), whereas the Syriac ܕܡܗܝܡܢ stands in a participial/present form, expressing the act more aspectually than temporally."
     },
     {
       "greek_nt": [
@@ -74,7 +85,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ / et"
     },
     {
       "greek_nt": [
@@ -89,7 +102,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses aorist passive participle (βαπτισθεὶς); Vulgate employs perfect passive participle + auxiliary (baptizatus fuerit), forming a periphrastic perfect subjunctive; Peshitta uses simple active perfect (ܘܥܡܕ, 'and was baptized'). The Syriac construction merges the conjunction and verb into a single token, reflecting typical Semitic verbal economy."
+      "note": "The single Greek passive participle βαπτισθείς is rendered in Latin by a periphrastic future-perfect passive baptizatus fuerit, while in Syriac the verb ܘܥܡܕ is fused with the conjunction (ܘ-) into one token; the alignment reflects this morphological packaging difference."
     },
     {
       "greek_nt": [
@@ -103,39 +116,50 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses future passive indicative (σωθήσεται); Vulgate employs future active periphrastic (salvus erit, literally 'will be saved'); Peshitta uses simple active imperfect (ܚܝܐ, 'lives/will live'). The Syriac choice of 'live' for 'be saved' reflects a common Semitic semantic range where salvation and life are conceptually interchangeable."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon to mark the major clause boundary between the positive and negative conditions. Neither Greek nor Peshitta manuscripts typically employ such mid-verse punctuation, though Greek uses a raised dot (·) which serves a similar but less emphatic function."
+      "type": "lexical",
+      "note": "Greek σωθήσεται and Latin salvus erit both denote 'will be saved' in a soteriological sense, but the Syriac ܚܝܐ (root kh-y-a, 'will live / be made alive') frames salvation as 'life,' a characteristic Syriac idiom that interprets σῴζω through the lexicon of living rather than rescue."
     },
     {
       "greek_nt": [
-        5,
-        6,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The second substantival articular participle ὁ (...ἀπιστήσας) is again rendered by relative clauses in Latin (qui) and Syriac (ܐܝܢܐ ܕ-, here fused with the conjunction ܘ-), continuing the same construction-level adaptation seen in the protasis."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek δέ is a lightly adversative connective rendered by Latin vero ('but, indeed'); the Syriac integrates the adversative force into the conjunctive prefix ܘ- on ܘܐܝܢܐ rather than supplying a discrete particle."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        4,
         5,
         6
       ],
       "vulgate": [
-        8,
-        9,
         10,
         11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + contrastive particle + aorist participle (ὁ δὲ ἀπιστήσας); Vulgate employs relative pronoun + emphatic adverb + negated perfect (qui vero non crediderit); Peshitta uses relative pronoun + negative particle + active participle (ܘܐܝܢܐ ܕܠܐ ܡܗܝܡܢ). The Vulgate's 'vero' intensifies the contrast more explicitly than Greek δέ, while Peshitta's construction parallels the first clause structurally."
+      "note": "Greek expresses unbelief with a single negative verb ἀπιστήσας; both Latin (non crediderit) and Syriac (ܕܠܐ ܡܗܝܡܢ) analyse this into a negator plus the verb 'believe,' lacking a derived privative verb of disbelief."
     },
     {
       "greek_nt": [
@@ -147,13 +171,25 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "κατακριθήσεται / ܡܬܚܝܒ / condemnabitur"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon between the two clauses, formalising the antithetical parallelism that the Greek marks only with the raised point and δέ; this is editorial punctuation without textual weight."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.056892+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.512924+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

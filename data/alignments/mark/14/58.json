@@ -79,13 +79,14 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὅτι and Latin Quoniam both introduce the causal clause, but the Peshitta omits an explicit causal conjunction, relying instead on the relative particle ܕ (d-) prefixed to the verb ܫܡܥܢܝܗܝ to convey the subordinate relationship. This is a typical Syriac syntactic pattern."
+      "variant": "aligned",
+      "note": "ὅτι / ܕ- / Quoniam, the recitative conjunction introducing reported speech."
     },
     {
       "greek_nt": [
@@ -96,50 +97,60 @@
       ],
       "vulgate": [
         1
+      ],
+      "variant": "aligned",
+      "note": "ἡμεῖς / nos, with the Syriac subject pronoun ܚܢܢ fused into the conjunction ܕܚܢܢ; all three emphasise the first-person plural subject."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
         3
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a finite verb ἠκούσαμεν with genitive pronoun αὐτοῦ (heard him), Latin mirrors this with audivimus eum, while Syriac employs a single verbal form ܫܡܥܢܝܗܝ with pronominal suffix -ܝܗܝ encoding both the verb and its object. This reflects Syriac's agglutinative morphology versus Greek/Latin analytic syntax."
+      "note": "Greek αὐτοῦ and Latin eum are independent genitive/accusative objects of the verb of hearing, while Syriac encliticises the object pronoun -ܝܗܝ directly onto ܫܡܥܢ ('we heard him'), a synthetic construction with no separate word."
     },
     {
       "greek_nt": [
-        4,
-        5
+        4
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        4,
-        5
+        4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a present participle λέγοντος with recitative ὅτι, Latin uses the present participle dicentem with colon punctuation, while Syriac uses the relative particle ܕ with the perfect verb ܐܡܪ. All three convey indirect discourse, but through different syntactic strategies: Greek participle + conjunction, Latin participle + punctuation, Syriac relative clause."
+      "note": "Greek and Latin use a present participle (λέγοντος / dicentem) in agreement with the object, whereas Syriac employs a finite verb in a relative clause ܕܐܡܪ ('who said'), a typical Aramaic construction substituting a relative for the Greek genitive absolute-like participle."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
       "vulgate": [
         5
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon to mark the transition to direct speech, a punctuation convention absent in the Greek and Peshitta manuscript traditions. This reflects Latin scribal practice rather than a textual variant."
+      "note": "Greek recitative ὅτι introduces direct speech; the Vulgate represents this with a colon (punctuation) rather than a lexeme, while Syriac fuses the conjunction ܕ- onto the following pronoun ܕܐܢܐ."
     },
     {
       "greek_nt": [
@@ -151,7 +162,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἐγὼ / ܐܢܐ / Ego, the emphatic first-person subject of the saying."
     },
     {
       "greek_nt": [
@@ -165,26 +177,34 @@
         7
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek καταλύσω (future indicative) and Latin dissolvam (future indicative) both use future tense, while Syriac ܫܪܐ ܐܢܐ employs a participle + pronoun construction (literally 'I am loosing') that functions as a periphrastic future. The Peshitta's use of the active participle with enclitic pronoun is a standard Syriac idiom for expressing futurity."
+      "note": "Greek καταλύσω and Latin dissolvam are single future verbs ('I will destroy/dissolve'); Syriac renders with the participle ܫܪܐ plus enclitic pronoun ܐܢܐ, the standard Aramaic periphrastic present-future, and the root ܫܪܐ ('loose, dissolve') closely matches Latin dissolvam."
     },
     {
       "greek_nt": [
         8,
-        9,
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "τὸν ναὸν / ܗܝܟܠܐ / templum, the cult-sanctuary (ναός not ἱερόν); the Syriac and Latin lack a separate article."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article-noun-demonstrative sequence τὸν ναὸν τοῦτον, Latin follows with templum hoc (noun-demonstrative), while Syriac uses ܗܝܟܠܐ ܗܢܐ (noun-demonstrative). The Greek article has no direct equivalent in Syriac or Latin; all three traditions agree on the demonstrative's attributive function."
+      "variant": "aligned",
+      "note": "τοῦτον / ܗܢܐ / hoc, the proximal demonstrative."
     },
     {
       "greek_nt": [
@@ -200,8 +220,7 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular adjective τὸν χειροποίητον (the [one] made-with-hands) as an attributive modifier, Latin employs the prepositional phrase manu factum (made by hand), and Syriac uses the relative construction ܕܥܒܝܕ ܒܐܝܕܝܐ (that is made by hands). All three convey the same semantic content through different syntactic structures: Greek compound adjective, Latin ablative of means, Syriac relative clause with prepositional phrase."
+      "note": "Greek uses the single articular adjective τὸν χειροποίητον ('the hand-made'); both Latin (manu factum) and Syriac (ܕܥܒܝܕ ܒܐܝܕܝܐ, 'that is made by hands') analyse the compound into a verbal phrase, the Syriac additionally introducing a relative particle ܕ-."
     },
     {
       "greek_nt": [
@@ -213,7 +232,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καὶ / ܘ- (prefixed to ܠܬܠܬܐ) / et, the coordinating conjunction."
     },
     {
       "greek_nt": [
@@ -230,8 +250,7 @@
         14
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek διὰ τριῶν ἡμερῶν (through three days) uses a genitive construction, Latin per triduum employs the accusative noun triduum (a three-day period), while Syriac ܘܠܬܠܬܐ ܝܘܡܝܢ (and for three days) uses the preposition ܠ with cardinal number and plural noun. The Vulgate's triduum is a specialized temporal noun; the Peshitta's ܠ can express both duration and terminus, creating slight ambiguity compared to Greek διά."
+      "note": "Greek διὰ τριῶν ἡμερῶν ('within/through three days') is matched by Syriac ܠܬܠܬܐ ܝܘܡܝܢ with the prefixed dative-locative ܠ-, while the Vulgate condenses the whole phrase into the single noun triduum ('a space of three days'), a Latin idiom replacing the analytic numeral-plus-noun construction."
     },
     {
       "greek_nt": [
@@ -243,7 +262,8 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἄλλον / ܐܚܪܢܐ / aliud, 'another (temple).'"
     },
     {
       "greek_nt": [
@@ -260,8 +280,7 @@
         18
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the single compound adjective ἀχειροποίητον (not-made-with-hands), Latin employs the negated prepositional phrase non manu factum (not made by hand), and Syriac uses the negative particle ܕܠܐ with the passive participle ܥܒܝܕ and prepositional phrase ܒܐܝܕܝܐ (that is not made by hands). The Greek alpha-privative compound is rendered analytically in both Latin and Syriac, with Syriac using a full relative clause structure."
+      "note": "Greek uses the single privative adjective ἀχειροποίητον ('not made with hands'); Latin analyses it into non manu factum and Syriac into the negated relative clause ܕܠܐ ܥܒܝܕ ܒܐܝܕܝܐ ('that is not made by hands'), both unpacking the Greek compound into a negation plus verbal phrase."
     },
     {
       "greek_nt": [
@@ -275,14 +294,13 @@
         19
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek οἰκοδομήσω (future indicative) and Latin ædificabo (future indicative) both use synthetic future forms, while Syriac ܒܢܐ ܐܢܐ employs the same periphrastic construction (participle + pronoun) seen earlier with ܫܪܐ ܐܢܐ. The Peshitta consistently uses this participial periphrasis for both verbs of destruction and construction, creating structural parallelism absent in the Greek and Latin."
+      "note": "Greek οἰκοδομήσω and Latin ædificabo are simple future verbs; the Syriac places its verb earlier (ܒܢܐ ܐܢܐ, participle plus enclitic pronoun) before ܐܚܪܢܐ, yielding a word-order difference as well as the characteristic Aramaic periphrastic future."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.043924+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.515827+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

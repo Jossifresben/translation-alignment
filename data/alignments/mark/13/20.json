@@ -84,9 +84,7 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καὶ ('and') introduces the conditional; Peshitta ܘܐܠܘ and Vulgate Et nisi both combine conjunction with conditional particle, creating a more integrated syntactic unit ('and if not' vs. 'and unless')."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -94,14 +92,14 @@
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses two-word conditional εἰ μὴ ('if not'); Vulgate employs single particle nisi ('unless'); Peshitta ܠܐ ('not') appears separately, with the conditional already embedded in ܘܐܠܘ—functionally equivalent but syntactically distinct."
+      "note": "The Greek conditional protasis εἰ μή is rendered in Syriac by the unitary conditional particle ܐܠܘ (here combined with the conjunction in ܘܐܠܘ) plus the negative ܠܐ; the Latin nisi compresses both the conditional and negative into a single contracted form. The constructions are functionally equivalent though morphologically distinct."
     },
     {
       "greek_nt": [
@@ -114,8 +112,7 @@
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the verb before the subject (ἐκολόβωσεν κύριος / breviasset Dominus); Peshitta inverts to subject-verb order (ܡܪܝܐ ܕܟܪܝ), reflecting standard Syriac syntax for conditional protases."
+      "note": "Greek ἐκολόβωσεν ('cut short, mutilate') is matched by Latin breviasset (pluperfect subjunctive 'had shortened') and Syriac ܕܟܪܝ (root k-r-y, 'to shorten/be short'). The Latin uses a pluperfect subjunctive proper to its irreal conditional grammar, whereas Greek and Syriac employ a simple past indicative within the protasis."
     },
     {
       "greek_nt": [
@@ -127,7 +124,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "All three name the divine agent (κύριος / ܡܪܝܐ / Dominus); the Syriac places ܡܪܝܐ before the verb ܕܟܪܝ, inverting the Greek and Latin verb-subject order — a word-order variation consistent with normal Syriac syntax."
     },
     {
       "greek_nt": [
@@ -141,28 +139,36 @@
       "vulgate": [
         4
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek and Vulgate use article + noun (τὰς ἡμέρας / dies); Peshitta adds demonstrative pronoun ܗܢܘܢ ('those'), yielding 'those days'—a clarifying expansion common in Syriac apocalyptic discourse, emphasizing the specific eschatological period."
+      "variant": "minor",
+      "note": "Greek τὰς ἡμέρας ('the days') is matched by Latin dies and Syriac ܝܘܡܬܐ; the Peshitta adds the demonstrative ܗܢܘܢ ('those'), making explicit the deictic reference to the days of tribulation, which the Greek conveys only through the article."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        5,
-        6
+        6,
+        7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs οὐκ ἂν + aorist passive ἐσώθη (counterfactual 'would not have been saved'); Vulgate uses non fuisset salva (pluperfect subjunctive); Peshitta ܠܐ ܚܝܐ ܗܘܐ uses perfect + copula ('would not have lived')—all express the same counterfactual modality through tradition-specific verbal constructions."
+      "note": "The Greek apodosis οὐκ ἂν ἐσώθη (aorist passive with ἄν, 'would not have been saved') is rendered periphrastically in Syriac by ܚܝܐ ܗܘܐ ('would have lived/survived', root kh-y-a) and in Latin by non fuisset salva ('would not have been saved'). Note the Syriac lexical shift from 'saved' to 'lived', reflecting an idiomatic preference for the verb of living to express survival."
     },
     {
       "greek_nt": [
@@ -174,13 +180,10 @@
         10
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Peshitta use adjective-noun order (πᾶσα σάρξ / ܟܠ ܒܣܪ, 'all flesh'); Vulgate inverts to noun-adjective (omnis caro), following Latin stylistic preference while preserving identical semantics."
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -190,7 +193,7 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts colon after caro to mark the major syntactic break between protasis and explanatory clause; Greek uses middle dot (·) and Peshitta lacks explicit punctuation—a scribal convention difference without semantic impact."
+      "note": "The Clementine Vulgate inserts a colon as a discrete token marking the boundary between protasis-apodosis and the adversative clause; Greek and Syriac mark this transition only by the conjunction without a comparable punctuation token in the consonantal text."
     },
     {
       "greek_nt": [
@@ -206,21 +209,29 @@
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek διὰ τοὺς ἐκλεκτοὺς uses preposition + article + adjective (accusative plural masculine); Vulgate propter electos omits article (Latin lacks definite article); Peshitta ܡܛܠ ܓܒܝܐ uses preposition + emphatic state noun—all convey 'for the elect' with tradition-appropriate definiteness marking."
+      "note": "Greek uses article + substantive adjective τοὺς ἐκλεκτούς ('the elect/chosen ones'); Latin electos and Syriac ܓܒܝܐ (root g-b-a, 'the chosen') render the substantive without separate article in Latin and with anarthrous noun in Syriac, a normal feature of definite plural participial nouns in these traditions."
     },
     {
       "greek_nt": [
@@ -234,34 +245,42 @@
         14,
         15
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek employs relative pronoun + finite verb (οὓς ἐξελέξατο, 'whom He chose'); Vulgate mirrors this with quos elegit; Peshitta uses participial construction ܕܓܒܐ ('whom choosing' / 'of choosing'), a typical Syriac preference for nominal forms over finite relative clauses—semantically equivalent but syntactically restructured."
+      "variant": "minor",
+      "note": "The relative clause οὓς ἐξελέξατο ('whom he chose') is matched by Latin quos elegit; Syriac compresses the relative pronoun and verb into the single prefixed-relative form ܕܓܒܐ (d- + g-b-a), a typical Syriac economy whereby the relative particle fuses with the verb. The Syriac also uses the same root for both 'elect' and 'chose', producing a figura etymologica absent in Greek and Latin."
     },
     {
       "greek_nt": [
-        18,
+        18
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "note": "The repeated verb ἐκολόβωσεν is here in the perfective indicative in all three (Greek aorist, Latin breviavit perfect, Syriac ܟܪܝ), now in the apodosis-resumption asserting the realized shortening, contrasting with the earlier irrealis form."
+    },
+    {
+      "greek_nt": [
         19,
         20
       ],
       "peshitta": [
-        15,
         16,
         17
       ],
       "vulgate": [
-        16,
         17
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek repeats verb + article + noun (ἐκολόβωσεν τὰς ἡμέρας); Vulgate uses breviavit dies without article; Peshitta again includes demonstrative ܗܢܘܢ ('those days'), maintaining the emphatic reference established earlier—this repetition creates rhetorical cohesion in the Syriac tradition absent from Greek and Latin."
+      "variant": "minor",
+      "note": "Greek τὰς ἡμέρας and Latin dies close the verse with the bare object; the Peshitta again appends the demonstrative ܗܢܘܢ ('those days'), maintaining its consistent deictic specification of the eschatological days throughout the verse."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.031305+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.561021+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

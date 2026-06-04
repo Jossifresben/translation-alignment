@@ -56,37 +56,58 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses article + δέ (ὁ δέ, 'but he'); Vulgate employs At ille ('but he'), a standard Latin adversative construction; Peshitta uses pronoun + ܕܝܢ (ܗܘ ܕܝܢ), the typical Syriac adversative particle. All three convey the same contrastive function with language-specific particles."
+      "variant": "aligned",
+      "note": "ὁ / ܗܘ / ille — anaphoric subject pronoun."
     },
     {
       "greek_nt": [
-        2,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The postpositive Greek δέ and its Syriac calque ܕܝܢ stand in second position, whereas the Latin renders the adversative connective with At in initial position; the placement difference is purely a feature of the receiving languages' particle syntax and carries no semantic weight."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the aorist passive participle ἀποκριθείς ('having answered') in a periphrastic 'answered and said' Semitism; Syriac ܥܢܐ is a finite verb coordinated with the following ܘܐܡܪ, while Latin respondens preserves the participial construction — all three reflect the same underlying Semitic idiom realised by differing grammatical means."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a participial construction (ἀποκριθεὶς ἔφη, 'answering, he said'); Peshitta uses two finite verbs connected by waw (ܥܢܐ ܘܐܡܪ, 'he answered and said'), a characteristic Semitic hendiadys; Vulgate uses a gerund + finite verb (respondens ait), mirroring the Greek structure. Semantically equivalent across all three traditions."
+      "note": "Greek has a single finite verb ἔφη ('he said'); the Peshitta supplies the conjoined finite verb ܘܐܡܪ ('and said') to complete its 'answered and said' pairing, whereas the Latin ait stands alone matching the Greek single-verb pattern."
     },
     {
       "greek_nt": [
@@ -96,12 +117,20 @@
         4
       ],
       "vulgate": [
-        4,
+        4
+      ],
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / illi — dative/indirect-object pronoun."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         5
       ],
-      "variant": "minor",
+      "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi to mark direct speech, a Latin scribal convention not reflected in Greek or Syriac manuscripts. The colon functions as a punctuation marker without semantic content."
+      "note": "The Clementine Vulgate inserts an explicit colon before the vocative to mark the onset of direct speech; neither the Greek nor the Syriac transmits a discrete punctuation token here, the speech boundary being conveyed lexically."
     },
     {
       "greek_nt": [
@@ -113,59 +142,92 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "διδάσκαλε / ܡܠܦܢܐ / Magister — vocative 'Teacher'."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ταῦτα / ܗܠܝܢ / hæc."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "πάντα / ܟܠܗܝܢ / omnia."
     },
     {
       "greek_nt": [
         8
       ],
       "peshitta": [
-        8,
-        9
+        8
       ],
       "vulgate": [
         9
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds the pronominal suffix ܐܢܝܢ ('them') as an explicit direct object after ܢܛܪܬ ('I have kept'), making the referent of 'these all' grammatically explicit. Greek ἐφυλαξάμην and Latin observavi both govern their objects (ταῦτα πάντα / hæc omnia) without requiring an additional pronoun, but Syriac syntax prefers the resumptive element for clarity."
+      "type": "grammar",
+      "note": "The Greek middle aorist ἐφυλαξάμην ('I kept for myself') connotes a reflexive nuance of self-interested observance; both the Syriac ܢܛܪܬ and the Latin observavi render a plain active 'I kept/observed,' losing the middle-voice colouring that the Greek attaches to law-keeping here."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "grammar",
+      "note": "Syriac supplies an explicit feminine-plural pronominal object ܐܢܝܢ ('them') resuming ܟܠܗܝܢ, a typical Aramaic resumptive object-marker; Greek and Latin leave the object unexpressed within the verb."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "ἐκ / ܡܢ / a — 'from'."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        10,
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin express the possessive analytically with noun plus genitive pronoun (νεότητός μου / juventute mea), whereas Syriac compresses the phrase into a single word ܛܠܝܘܬܝ bearing a suffixed first-person possessive ('my youth'), a synthetic morphological strategy equivalent in sense."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.010337+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.557339+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

@@ -77,8 +77,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -90,8 +89,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -105,28 +103,36 @@
         3
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'dixit' to mark the beginning of direct quotation, whereas Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. This reflects Latin scribal convention for introducing Old Testament citations."
+      "note": "Greek εἶπεν and Syriac ܐܡܪ are simple finite verbs of saying; the Vulgate splits the speech-introducing verb dixit from its colon, the latter being editorial punctuation marking the quotation, with no semantic difference."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "Imperative 'honour': Greek τίμα / Syriac ܕܝܩܪ (with relative/quotative ܕ-) / Latin Honora; the Syriac proclitic ܕ marks the quoted command."
+    },
+    {
+      "greek_nt": [
         4,
         5,
         6
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article τὸν with accusative πατέρα σου; Latin mirrors this with accusative patrem tuum; Syriac uses the prefixed preposition ܠ (l-) with pronominal suffix ܐܒܘܟ, a standard Semitic construction lacking the article. All three express identical semantics through language-specific syntax."
+      "note": "Greek uses article + noun + enclitic possessive (τὸν πατέρα σου) and Latin uses noun + possessive adjective (patrem tuum); Syriac compactly expresses 'your father' through the single inflected form ܠܐܒܘܟ with the object marker ܠ and 2ms suffix, a typical Semitic synthetic construction."
     },
     {
       "greek_nt": [
@@ -144,23 +150,18 @@
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Latin coordinate 'father' and 'mother' with explicit conjunction καὶ / et; Syriac employs the single compound form ܘܠܐܡܟ ('and-to-your-mother') with conjunctive waw prefixed directly to the noun, a typical Semitic asyndetic compression."
+      "note": "The coordinated object 'and your mother' is rendered analytically in Greek (καὶ τὴν μητέρα σου) and Latin (et matrem tuam) but synthetically in Syriac ܘܠܐܡܟ, in which conjunction, object marker, noun and possessive suffix are fused into one word."
     },
     {
       "greek_nt": [
         11
-      ],
-      "peshitta": [
-        6
       ],
       "vulgate": [
         10,
         11
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses καὶ to introduce the second commandment clause; Latin inserts 'Et :' with a colon to mark a new quotation unit (likely reflecting Exodus 21:17 as distinct from Exodus 20:12); Syriac uses ܘܡܢ ('and-whoever'), integrating the conjunction with the relative pronoun in a single lexeme."
+      "note": "Greek connects the second clause with a simple καὶ; the Vulgate marks a second distinct scriptural citation with Et followed by an editorial colon (Et :), reflecting the Latin tradition's awareness that a separate Pentateuchal commandment (Exod 21:17) is here being quoted."
     },
     {
       "greek_nt": [
@@ -168,6 +169,7 @@
         13
       ],
       "peshitta": [
+        6,
         7
       ],
       "vulgate": [
@@ -175,27 +177,46 @@
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular participle ὁ κακολογῶν ('the one speaking evil'); Latin employs the relative pronoun with perfect subjunctive 'Qui maledixerit' ('whoever shall have cursed'); Syriac uses the relative particle ܕ with active participle ܡܨܚܐ ('who curses'). All three express the same conditional-relative sense through different syntactic strategies."
+      "note": "Greek employs an articular present participle (ὁ κακολογῶν, 'the one reviling'); both Syriac (ܘܡܢ ܕܡܨܚܐ, 'and whoever reviles') and Latin (Qui maledixerit, 'whoever shall have reviled') recast this as a relative clause, with the Vulgate further specifying a future-perfect aspect absent from the Greek participle."
     },
     {
       "greek_nt": [
-        14,
-        15,
-        16
+        14
       ],
       "peshitta": [
-        8,
+        8
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "All three read 'father' as the object of the reviling, but Greek πατέρα is anarthrous, Syriac ܠܐܒܐ carries the object marker ܠ with the emphatic state, and Latin patri stands in the dative governed by maledixerit, reflecting differing case-government of the verb 'to curse'."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
         9
       ],
       "vulgate": [
-        14,
-        15,
+        15
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin use the disjunctive 'or' (ἢ / vel), whereas the Syriac ܘܠܐܡܐ employs the conjunctive 'and' (ܘ) plus object marker, a frequent Semitic idiom in which 'and' covers a distributive/disjunctive sense, here 'father and (or) mother'."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
         16
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek coordinates with ἢ ('or') between accusative nouns πατέρα and μητέρα; Latin mirrors this with 'vel' between datives patri and matri (dative of disadvantage); Syriac uses ܠܐܒܐ ܘܠܐܡܐ with conjunctive waw, expressing disjunction through context rather than explicit particle. The case difference (Greek accusative vs. Latin dative) reflects distinct verbal government."
+      "note": "The object 'mother' is expressed as bare πατέρα... μητέρα in Greek and dative matri in Latin, but in Syriac it is fused with its conjunction and object marker into ܘܠܐܡܐ, paralleling the synthetic treatment seen earlier in the verse."
     },
     {
       "greek_nt": [
@@ -210,15 +231,14 @@
         17,
         18
       ],
-      "variant": "minor",
-      "type": "idiom",
-      "note": "Greek uses the dative of manner θανάτῳ with imperative τελευτάτω ('let him end in death'); Latin employs the ablative of manner 'morte' with subjunctive 'moriatur' ('let him die by death'); Syriac uses the cognate accusative construction ܡܘܬܐ ܢܡܘܬ ('death let-him-die'), a standard Semitic intensifying idiom mirroring the Hebrew מוֹת יוּמָת. All three traditions preserve the Hebraic figura etymologica, though through different grammatical mechanisms."
+      "variant": "aligned",
+      "note": "The Semitic cognate-accusative idiom 'let him die the death' (Heb. מוֹת יוּמָת) is preserved uniformly: Greek θανάτῳ τελευτάτω (dative + imperative), Syriac ܡܘܬܐ ܢܡܘܬ (noun + verb of the same root m-w-th), and Latin morte moriatur (ablative + subjunctive), all faithfully reproducing the Hebraic figura etymologica."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.988790+00:00",
-    "confidence": 0.92,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.509609+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

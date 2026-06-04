@@ -80,40 +80,58 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0
       ],
+      "variant": "aligned",
+      "note": "ὕστερον / ܐܚܪܝܬ / Novissime ('afterward, finally')."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὕστερον δὲ ('afterward now') uses a comparative adverb with postpositive particle; Vulgate Novissime employs a superlative ('at last, finally'); Peshitta ܐܚܪܝܬ ܕܝܢ mirrors the Greek construction with temporal adverb plus ܕܝܢ (= δέ). All three convey finality but with different degrees of emphasis."
+      "type": "omission",
+      "note": "The connective δέ is rendered by the Syriac postpositive particle ܕܝܢ, but the Vulgate has no corresponding conjunction here, opening the clause asyndetically with Novissime — a stylistic streamlining typical of Latin narrative openings."
     },
     {
       "greek_nt": [
         2,
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
         1,
-        2,
-        3
+        2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the participle ἀνακειμένοις before the dative αὐτοῖς τοῖς ἕνδεκα ('to them, the eleven, reclining'); Vulgate inverts to recumbentibus illis undecim (participle–pronoun–numeral); Peshitta uses a temporal clause ܟܕ ܣܡܝܟܝܢ ('while reclining') following ܠܚܕܥܣܪ ('to the eleven'), restructuring the syntax but preserving the semantic content."
+      "type": "construction",
+      "note": "Greek and Latin use a dative/ablative absolute participle (ἀνακειμένοις αὐτοῖς / recumbentibus illis, 'while they were reclining'); Syriac inverts the order with the subordinating particle ܟܕ ('when/while') preceding the participle ܣܡܝܟܝܢ, a standard Syriac circumstantial construction."
+    },
+    {
+      "greek_nt": [
+        4,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "τοῖς ἕνδεκα / ܠܚܕܥܣܪ / undecim ('the eleven')."
     },
     {
       "greek_nt": [
@@ -127,22 +145,34 @@
         5
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ἐφανερώθη and Peshitta ܐܬܚܙܝ are semantically aligned ('he appeared/was manifested'); Vulgate apparuit is followed by a colon (token 5), introducing a pause before the rebuke clause. The punctuation reflects Latin rhetorical convention but does not alter the propositional content."
+      "type": "lexical",
+      "note": "Greek ἐφανερώθη ('he was made manifest', passive of φανερόω) and Syriac ܐܬܚܙܝ ('he was seen/appeared', Ethpeel of kh-z-a) both emphasize the act of revelation; Latin apparuit ('he appeared') is semantically equivalent. Note the Vulgate appends a colon as discourse punctuation here."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ὠνείδισεν / ܚܣܕ / exprobravit ('he reproached/rebuked'); the Syriac fuses the conjunction and verb in the single token ܘܚܣܕ."
     },
     {
       "greek_nt": [
@@ -158,9 +188,8 @@
         8,
         9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun + genitive pronoun (τὴν ἀπιστίαν αὐτῶν, 'the unbelief of them'); Vulgate employs noun + genitive pronoun without article (incredulitatem eorum); Peshitta uses a construct-state noun with pronominal suffix (ܠܚܣܝܪܘܬ ܗܝܡܢܘܬܗܘܢ, 'to-lack-of faith-their'), a typical Semitic possessive construction. All three are functionally equivalent."
+      "variant": "aligned",
+      "note": "τὴν ἀπιστίαν αὐτῶν / ܚܣܝܪܘܬ ܗܝܡܢܘܬܗܘܢ / incredulitatem eorum ('their unbelief'); Syriac renders the abstract with a construct chain literally 'lack of their faith'."
     },
     {
       "greek_nt": [
@@ -172,7 +201,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ- / et."
     },
     {
       "greek_nt": [
@@ -184,12 +214,11 @@
       ],
       "vulgate": [
         11,
-        12,
-        13
+        12
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek σκληροκαρδίαν is a single compound noun ('hardness-of-heart'); Vulgate expands to duritiam cordis (noun + genitive, 'hardness of heart') with a following colon (token 13); Peshitta ܘܠܩܫܝܘܬ ܠܒܗܘܢ ('and-to-hardness heart-their') uses a construct phrase with pronominal suffix. The Vulgate colon again marks rhetorical structure without semantic divergence."
+      "type": "construction",
+      "note": "Greek compresses the concept into a single compound noun σκληροκαρδίαν ('hardheartedness'); both Syriac (ܩܫܝܘܬ ܠܒܗܘܢ, 'hardness of their heart') and Latin (duritiam cordis, 'hardness of heart') analyze it into a construct/genitive phrase, the standard Semitic and Latin periphrasis for the Greek compound."
     },
     {
       "greek_nt": [
@@ -199,9 +228,11 @@
         11
       ],
       "vulgate": [
+        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ὅτι / ܕ- / quia ('because'); the Vulgate inserts a colon (idx 13) before quia as discourse punctuation."
     },
     {
       "greek_nt": [
@@ -221,7 +252,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + aorist participle + accusative pronoun (τοῖς θεασαμένοις αὐτὸν, 'to those having seen him'); Vulgate employs a relative clause (iis qui viderant eum, 'to those who had seen him'); Peshitta uses a double-headed relative construction (ܕܠܗܢܘܢ ܕܚܙܐܘܗܝ, 'that-to-those who-saw-him'). All three express the same referent but with distinct syntactic strategies."
+      "note": "Greek uses an articular aorist participle in the dative (τοῖς θεασαμένοις αὐτὸν, 'to those who had seen him'); Latin renders it as a relative clause (iis, qui viderant eum); Syriac employs its double-headed relative construction ܕܠܗܢܘܢ ܕܚܙܐܘܗܝ ('to those who saw him') — three syntactically distinct but semantically equivalent realizations."
     },
     {
       "greek_nt": [
@@ -237,28 +268,39 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a perfect passive participle with prepositional phrase (ἐγηγερμένον ἐκ νεκρῶν, 'having been raised from [the] dead'); Vulgate employs a single perfect active infinitive (resurrexisse, 'to have risen'); Peshitta uses a simple perfect verb (ܕܩܡ, 'that he arose'), omitting the explicit 'from the dead' phrase. The Peshitta's ellipsis is contextually recoverable and typical of Semitic economy."
+      "note": "Greek expands the participle with a perfect passive plus prepositional phrase (ἐγηγερμένον ἐκ νεκρῶν, 'risen from the dead'); both Syriac (ܕܩܡ, 'that he had risen') and Latin (resurrexisse, infinitive) compress this to a single verbal form omitting the explicit 'from the dead', a common abbreviation of the resurrection formula."
     },
     {
       "greek_nt": [
-        21,
+        21
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned",
+      "note": "οὐκ / ܠܐ / non."
+    },
+    {
+      "greek_nt": [
         22
       ],
       "peshitta": [
-        14,
         15
       ],
       "vulgate": [
-        20,
         21
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἐπίστευσαν / ܗܝܡܢܘ / crediderunt ('they did not believe'); the Greek token carries the pilcrow (¶) marking the close of the pericope."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.056495+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.519003+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

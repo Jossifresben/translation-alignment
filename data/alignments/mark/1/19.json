@@ -81,8 +81,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with simple coordinating καί + participle (προβὰς), whereas Syriac ܘܟܕ ('and when') subordinates the action with a temporal conjunction. The Vulgate Et reproduces the Greek paratactic structure with the coordinating conjunction."
     },
     {
       "greek_nt": [
@@ -93,21 +94,21 @@
       ],
       "vulgate": [
         1
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [],
-      "vulgate": [
-        2
       ],
       "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use an aorist/perfect participle (προβὰς / progressus, 'having gone forward'), while Syriac ܥܒܪ is a finite verb governed by the preceding ܘܟܕ clause. This reflects the Syriac preference for temporal-clause subordination over Greek circumstantial participles."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "omitted",
       "type": "omission",
-      "note": "The Peshitta omits an explicit equivalent to ἐκεῖθεν / inde ('from there'), incorporating the spatial deixis implicitly within the verb ܥܒܪ ('he passed'). Greek and Latin make the point of departure explicit with an adverb."
+      "note": "The local adverb ἐκεῖθεν ('from there') is rendered by Vulgate inde but has no explicit equivalent in the Peshitta, which omits the deictic 'from there' and conveys only the forward motion. Such locative adverbs are frequently dropped in Syriac when contextually inferable."
     },
     {
       "greek_nt": [
@@ -119,8 +120,7 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -132,28 +132,36 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6,
         7,
         8
       ],
       "peshitta": [
-        4,
         5,
         6
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a double-article construction (τὸν τοῦ Ζεβεδαίου, 'the [son] of Zebedee') to mark patronymic relationship. Syriac uses the bound-state construct ܒܪ ܙܒܕܝ ('son-of Zebedee'), while Latin uses a simple genitive (Zebedæi) without an explicit 'son' noun—all three convey identical filiation semantics through language-specific syntax."
+      "note": "Greek expresses 'the [son] of Zebedee' by an articular substantival genitive (τὸν τοῦ Ζεβεδαίου) with the noun 'son' implied; Syriac makes 'son' explicit with ܒܪ ܙܒܕܝ, while the Vulgate genitive Zebedæi leaves it implicit like the Greek. The three traditions render the same filiation through three different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -165,45 +173,62 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Syriac prefixes the conjunction directly to the proper name in a single orthographic unit ܘܠܝܘܚܢܢ ('and John'), fusing the καί of the Greek with the name, whereas Greek and Latin keep the conjunction and name as separate tokens."
+    },
+    {
+      "greek_nt": [
         11,
         12,
         13
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        8,
         9,
         10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an article + appositive noun phrase (τὸν ἀδελφὸν αὐτοῦ, 'the brother of him') to specify John's relationship to James. Latin mirrors this with fratrem ejus. Syriac employs a pronominal suffix on the noun ܐܚܘܗܝ ('his-brother'), a typical Semitic possessive construction—semantically equivalent but morphologically distinct."
+      "note": "Greek and Latin render 'his brother' with article/noun plus a separate genitive pronoun (τὸν ἀδελφὸν αὐτοῦ / fratrem ejus), while Syriac compresses the whole phrase into a single suffixed noun ܐܚܘܗܝ ('his-brother'), the normal Semitic possessive construction."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        11,
         12
       ],
-      "variant": "minor",
-      "type": "expansion",
-      "note": "The Peshitta inserts ܘܐܦ ('and also') before the pronoun ܠܗܘܢ ('them'), adding mild emphasis absent in the Greek καὶ αὐτούς and Latin et ipsos. This is a stylistic intensification typical of Syriac narrative prose, not a substantive semantic shift."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -219,26 +244,37 @@
         16
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Latin place the prepositional phrase 'in the boat' (ἐν τῷ πλοίῳ / in navi) after the pronoun and before the participle. Syriac ܒܣܦܝܢܬܐ ('in-the-boat') appears in the same syntactic slot but without a separate preposition—the ܒ- prefix serves as both preposition and article, a morphological compression standard in Syriac."
+      "type": "construction",
+      "note": "Greek uses preposition + article + dative (ἐν τῷ πλοίῳ) and Latin in navi, both with the article-bearing structure where present; Syriac compresses preposition and noun into the single prepositional form ܒܣܦܝܢܬܐ ('in the boat'), the standard Semitic prefixed-preposition pattern."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a present participle (καταρτίζοντας / componentes, 'mending') in attributive apposition to the object; Syriac employs a relative clause ܕܡܬܩܢܝܢ ('who were mending') with a finite verb, the typical Syriac equivalent of the Greek circumstantial participle."
+    },
+    {
+      "greek_nt": [
         20,
         21
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        13,
         14
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a present active participle (καταρτίζοντας τὰ δίκτυα, 'adjusting the nets') with article + plural noun. Latin employs a present active participle (componentes retia) without article. Syriac uses a relative-clause construction ܕܡܬܩܢܝܢ ܡܨܝܕܬܗܘܢ ('who were-preparing their-nets') with a pronominal suffix on the noun—syntactically distinct but semantically parallel."
+      "note": "Greek marks the object with article + plural noun (τὰ δίκτυα) and Latin with bare plural retia, whereas Syriac uses the suffixed form ܡܨܝܕܬܗܘܢ ('their nets'), adding an explicit possessive pronoun absent in both Greek and Latin."
     },
     {
       "greek_nt": [],
@@ -248,13 +284,13 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate closes the verse with a colon, signaling syntactic continuation into the following verse. Neither Greek nor Syriac manuscripts employ equivalent punctuation at this juncture, though the sense remains continuous across all three traditions."
+      "note": "The Vulgate closes the verse with a colon, marking the syntactic suspension before the following clause; neither the Greek nor the Syriac transmits a corresponding punctuation token here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.946270+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.431651+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

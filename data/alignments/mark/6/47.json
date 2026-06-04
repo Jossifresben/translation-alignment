@@ -64,13 +64,16 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [
+      "peshitta": [
         0
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the initial coordinating conjunction καί / Et, beginning instead with the temporal particle ܟܕ ('when'), which subsumes the connective function into the temporal clause structure."
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with the coordinating conjunction Καί ('and') governing a genitive absolute; the Vulgate splits this into Et + cum, introducing a subordinate temporal clause (cum ... esset), while the Peshitta uses the single subordinating particle ܟܕ ('when'). The three traditions express the same temporal frame through different syntactic strategies."
     },
     {
       "greek_nt": [
@@ -78,47 +81,47 @@
         2
       ],
       "peshitta": [
-        0,
         1,
+        2,
         3
       ],
       "vulgate": [
-        1,
         2,
         3
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a genitive absolute construction (ὀψίας γενομένης); Latin employs a cum-temporal clause (cum sero esset); Peshitta uses ܟܕ ܗܘܐ ܪܡܫܐ ('when it was evening'), a finite temporal clause—three syntactically distinct but semantically equivalent renderings of the same temporal setting."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta inserts the discourse particle ܕܝܢ ('now, then'), a characteristic Syriac transitional marker absent from both Greek and Latin witnesses, serving to articulate narrative progression."
+      "note": "Greek employs a genitive absolute (ὀψίας γενομένης, 'evening having come'); the Vulgate renders it as a finite subjunctive clause (sero esset); the Peshitta uses a finite verb ܗܘܐ with the postpositive particle ܕܝܢ ('but/now') and the noun ܪܡܫܐ ('evening'). The Syriac ܕܝܢ has no counterpart in the Greek or Latin and functions as a discourse connective rather than a strict translation."
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
-        4,
         5,
         6
       ],
       "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the simple imperfect ἦν ('was'); the Vulgate matches with erat; the Peshitta employs a periphrastic construction ܐܝܬܝܗ ܗܘܬ (enclitic 'it is' + auxiliary 'was'), a characteristic Syriac means of expressing durative or stative past, semantically equivalent to the Greek imperfect."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the imperfect ἦν with article and noun (ἦν τὸ πλοῖον); Latin mirrors this with erat navis; Peshitta employs a compound construction ܣܦܝܢܬܐ ܐܝܬܝܗ ܗܘܬ (literally 'the boat, it was'), using the existential particle ܐܝܬ with pronominal suffix plus the verb ܗܘܬ—a periphrastic emphasis typical of Syriac narrative style."
+      "type": "grammar",
+      "note": "Greek has the articular noun τὸ πλοῖον ('the boat'); the Vulgate navis and the Peshitta ܣܦܝܢܬܐ lack a definite article (Latin having none and Syriac expressing definiteness via the emphatic state), so the determination is conveyed morphologically rather than by a separate token."
     },
     {
       "greek_nt": [
@@ -136,39 +139,39 @@
         7,
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase ἐν μέσῳ τῆς θαλάσσης with article and genitive; Latin follows with in medio mari; Peshitta employs the construct state ܡܨܥܬ ܝܡܐ ('midst-of sea'), a more compact Semitic genitive construction lacking the preposition and article."
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        9
-      ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἐν μέσῳ τῆς θαλάσσης / ܡܨܥܬ ܝܡܐ / in medio mari — 'in the midst of the sea.' The Greek and Latin use a prepositional phrase with the genitive/ablative, while the Peshitta uses the construct noun ܡܨܥܬ governing ܝܡܐ, all semantically identical."
     },
     {
       "greek_nt": [
-        11,
-        12
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
         10,
         11
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the intensive pronoun before the adjective (αὐτὸς μόνος); Latin mirrors this order (ipse solus); Peshitta conflates both into a single compound form ܘܗܘ ܒܠܚܘܕܘܗܝ ('and-he alone-his'), with the pronominal suffix attached to the adverb, reflecting Syriac morphological economy."
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καὶ αὐτός / ܘܗܘ / et ipse — 'and he himself.' The Peshitta fuses the conjunction ܘ and the independent pronoun ܗܘ into a single graphic unit, whereas Greek and Latin keep conjunction and pronoun separate."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μόνος / ܒܠܚܘܕܘܗܝ / solus — 'alone.' The Syriac form carries a third masculine singular pronominal suffix ('by himself'), but this is idiomatic and does not constitute a semantic divergence."
     },
     {
       "greek_nt": [
@@ -185,14 +188,14 @@
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition ἐπί with genitive article τῆς γῆς; Latin employs in with ablative terra; Peshitta uses ܥܠ ܐܪܥܐ ('upon land') without article—Syriac lacks the definite article in this construction, relying on context for definiteness."
+      "type": "lexical",
+      "note": "Greek ἐπὶ τῆς γῆς and Latin in terra denote 'upon the land,' using γῆ/terra. The Peshitta ܥܠ ܐܪܥܐ uses ܐܪܥܐ ('earth/land'), the standard Syriac equivalent; the slight lexical-semantic range ('earth' vs. 'dry land') is a routine rendering difference with no doctrinal weight."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.985106+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.503721+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

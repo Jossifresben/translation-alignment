@@ -60,34 +60,74 @@
   "alignment": [
     {
       "greek_nt": [
+        0
+      ],
+      "peshitta": [
         0,
-        1,
-        2,
+        1
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek renders the locative adverb ἔσωθεν ('from within') as a single word; both Peshitta (ܡܢ ܠܓܘ, 'from inside') and Vulgate (Ab intus) employ a preposition + adverb periphrasis to express the same notion, a routine syntactic equivalence."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin use the singular ἐκ τῆς καρδίας / de corde with the article in Greek; Syriac ܠܒܐ is anarthrous singular. The number agrees across all three, but Greek alone supplies the definite article, which Syriac and Latin lack as morphologically unnecessary."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        0,
-        1,
-        2,
-        3,
-        4,
         5,
         6
       ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
         5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs double prepositional phrase (ἔσωθεν ... ἐκ τῆς καρδίας) for emphasis; Peshitta mirrors this with ܡܢ ܠܓܘ ... ܡܢ ܠܒܐ; Vulgate collapses to single prepositional phrase (Ab intus ... de corde), omitting the redundancy while preserving the sense of interior origin."
+      "type": "idiom",
+      "note": "Greek τῶν ἀνθρώπων ('of men') and Vulgate hominum stand as a simple genitive plural; Syriac ܕܒܢܝ ܐܢܫܐ ('of the sons of men') uses the idiomatic Semitic periphrasis 'sons of men' for humankind, an expansion in form but not in sense."
     },
     {
       "greek_nt": [
@@ -106,7 +146,7 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the subject (οἱ διαλογισμοὶ οἱ κακοί) with double article and attributive adjective before the verb; Peshitta uses construct state (ܡܚܫܒܬܐ ܒܝܫܬܐ) in natural Syriac order; Vulgate inverts to place the adjective (malæ) before the noun (cogitationes), creating Latin emphasis on the moral quality."
+      "note": "Greek frames the subject with double articulation (οἱ διαλογισμοὶ οἱ κακοί, 'the thoughts, the evil [ones]'), placing the adjective in attributive postposition; Vulgate (malæ cogitationes) and Syriac (ܡܚܫܒܬܐ ܒܝܫܬܐ) render with a simple noun-adjective phrase, differing only in adjective placement and the absence of the Greek's reduplicated article."
     },
     {
       "greek_nt": [
@@ -121,16 +161,6 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta inserts ܓܘܪܐ ('adultery') as a distinct vice before ܙܢܝܘܬܐ ('fornication'), creating a semantic distinction absent in the Greek πορνεῖαι (which covers both). The Vulgate similarly distinguishes adulteria from fornicationes, suggesting a shared exegetical tradition that parses Greek πορνεία into two categories."
-    },
-    {
       "greek_nt": [
         12
       ],
@@ -138,12 +168,11 @@
         11
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek lists πορνεῖαι as a single vice; Vulgate expands to two terms (adulteria, fornicationes), distinguishing marital infidelity from general sexual immorality. Peshitta ܙܢܝܘܬܐ corresponds to the broader Greek sense but follows its own insertion of ܓܘܪܐ, aligning functionally with the Vulgate's dual categorization."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek πορνεῖαι ('sexual immoralities') heads the vice list; the Syriac equivalent ܙܢܝܘܬܐ appears later in the sequence, and the Vulgate fornicationes is likewise repositioned. The semantic mapping is exact (cf. Hebrew זָנָה), but the ordering of the catalogue of vices diverges among the traditions."
     },
     {
       "greek_nt": [
@@ -152,10 +181,12 @@
       "peshitta": [
         12
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek κλοπαί ('thefts') and Peshitta ܓܢܒܘܬܐ are present; Vulgate omits this vice entirely from the catalogue, possibly due to textual variation in the Latin manuscript tradition or deliberate abbreviation."
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek κλοπαί ('thefts') and Syriac ܓܢܒܘܬܐ correspond directly (cf. Hebrew גָּנַב), but the Vulgate places adulteria before its rendering of theft, reflecting a reordering of the vice list relative to the Greek sequence."
     },
     {
       "greek_nt": [
@@ -168,11 +199,19 @@
         11
       ],
       "variant": "aligned"
+    },
+    {
+      "peshitta": [
+        10
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts ܓܘܪܐ ('adultery'), a vice absent from the Greek NA28 text at this point, which lists πορνεῖαι, κλοπαί, φόνοι without a separate term for adultery. The Vulgate likewise attests adulteria, so Syriac and Latin together expand the Greek catalogue, possibly under harmonising influence from the parallel vice-list in Matt 15:19 where μοιχεῖαι appears explicitly."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.990879+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:45:16.002275+00:00",
     "confidence": 0.8,
     "schema_version": 1
   }

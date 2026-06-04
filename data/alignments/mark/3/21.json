@@ -66,8 +66,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -81,8 +80,7 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an aorist participle (ἀκούσαντες); Vulgate employs a temporal clause with cum + pluperfect subjunctive (cum audissent); Syriac integrates the verb into the main clause with waw-consecutive. All three convey temporal anteriority but through different syntactic strategies."
+      "note": "Greek uses an aorist participle (ἀκούσαντες, 'having heard'); the Vulgate renders it as a temporal clause cum audissent ('when they had heard'); the Syriac collapses the hearing into the finite ܘܫܡܥܘ ('and they heard'), grouped with the conjunction. The participial/finite alternation is a routine construction-level shift."
     },
     {
       "greek_nt": [
@@ -97,8 +95,7 @@
         3
       ],
       "variant": "major",
-      "type": "substitution",
-      "note": "Greek οἱ παρ᾽ αὐτοῦ ('those belonging to him') is deliberately vague, likely referring to family or associates. Peshitta explicitly reads ܐܚܝܢܘܗܝ ('his brothers'), a clarifying gloss. Vulgate sui ('his own people') preserves the Greek ambiguity but in Latin idiom."
+      "note": "The Greek οἱ παρ᾽ αὐτοῦ ('those belonging to him,' an idiom for relatives or associates) is rendered concretely by the Peshitta ܐܚܝܢܘܗܝ ('his kinsmen,' root kh-y-n), narrowing the sense to family. The Vulgate sui ('his own') preserves the same vagueness as the Greek, leaving open whether relatives or partisans are meant."
     },
     {
       "greek_nt": [
@@ -110,33 +107,30 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
-        7
+        6
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        5,
-        6
+        5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+      "greek_nt": [
         7
       ],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon before the explanatory clause, marking a stronger discourse break than Greek or Syriac punctuation conventions typically signal."
+      "note": "Greek and Latin supply an explicit object pronoun (αὐτόν / eum, 'him'); the Syriac encloses the object as a pronominal suffix on the infinitive ܠܡܐܚܕܗ ('to seize him'), so no separate object token exists. This is the normal Syriac morphological expression of the accusative object."
     },
     {
       "greek_nt": [
@@ -147,11 +141,11 @@
         5
       ],
       "vulgate": [
+        7,
         8
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἔλεγον is imperfect active indicative; Syriac ܐܡܪܝܢ ܗܘܘ uses the periphrastic construction (participle + auxiliary) to express continuous past action; Vulgate dicebant mirrors the Greek imperfect. Semantically equivalent, morphologically distinct."
+      "note": "Greek ἔλεγον is a single imperfect ('they were saying'); the Syriac forms the past continuous periphrastically with participle ܐܡܪܝܢ plus auxiliary ܗܘܘ. The Vulgate punctuation colon precedes dicebant, marking the onset of reported speech; the imperfect dicebant matches the Greek durative force."
     },
     {
       "greek_nt": [
@@ -163,37 +157,26 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        10
+      ],
       "peshitta": [],
       "vulgate": [
-        10
+        10,
+        11
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate again inserts a colon before the ὅτι-clause, creating a two-stage discourse structure absent in Greek and Syriac witnesses."
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek ὅτι introduces indirect/recitative discourse and is matched by Vulgate Quoniam (with a preceding colon marking the quotation); the Syriac folds the complementiser into the prepositional phrase ܕܡܢ ('that from'), the proclitic d- carrying the same subordinating function without a discrete token."
     },
     {
       "greek_nt": [
         11
       ],
       "peshitta": [
+        7,
         8,
         9
       ],
@@ -204,14 +187,13 @@
         15
       ],
       "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἐξέστη ('he is out of his mind') is a single verb denoting mental derangement. Syriac ܕܡܢ ܗܘܢܗ ܢܦܩ ('that from his mind he has gone out') uses a prepositional phrase + verb, literalizing the metaphor. Vulgate in furorem versus est ('he has been turned into madness') employs a passive periphrastic construction with furorem, intensifying the semantic force toward 'rage' or 'frenzy' rather than mere insanity."
+      "note": "The Greek uses the single verb ἐξέστη ('he is beside himself / out of his mind,' from ἐξίστημι); both versions expand this into idiomatic phrases of derangement. The Peshitta reads ܕܡܢ ܗܘܢܗ ܢܦܩ ('that he has gone out from his mind/reason,' root h-w-n), while the Vulgate paraphrases in furorem versus est ('he has turned to madness'); each independently renders the compact Greek verb with a multi-word locution."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.960297+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.553807+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

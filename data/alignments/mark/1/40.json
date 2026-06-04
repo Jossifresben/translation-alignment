@@ -74,17 +74,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek ἔρχεται is historic present 3rd singular; the Peshitta encodes both conjunction and verb in the single prefixed form ܘܐܬܐ ('and he came'), while the Latin venit is perfect. The tense divergence (present vs. perfect) reflects each tradition's narrative-aspect conventions rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -98,7 +109,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek πρὸς αὐτόν and Latin ad eum are two-word prepositional phrases; Syriac compresses the same sense into the single inflected form ܠܘܬܗ ('to him'), the preposition l-w-th bearing the pronominal suffix — a routine morphological compression."
     },
     {
       "greek_nt": [
@@ -127,23 +139,11 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "The Peshitta employs a periphrastic construction with the auxiliary ܗܘܐ (hwā, 'was') plus the participle ܒܥܐ (bʿā, 'asking'), rendering the Greek present participle παρακαλῶν with an Aramaic verbal phrase. The Vulgate mirrors the Greek participial structure with deprecans."
+      "note": "Greek participial παρακαλῶν αὐτόν and Latin deprecans eum render the entreaty with a single participle plus object; the Peshitta uses a finite periphrastic past ܘܒܥܐ ܗܘܐ ܡܢܗ ('and was beseeching from him'), employing the auxiliary ܗܘܐ to mark durative aspect, a typical Syriac construction."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after deprecans eum to mark the transition to the kneeling gesture, creating a stronger syntactic break than the Greek καί. The Peshitta uses no punctuation here, maintaining continuous narrative flow with conjunctive waw."
-    },
-    {
-      "greek_nt": [
+        7,
         8,
         9
       ],
@@ -157,22 +157,12 @@
         9,
         10
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "The Peshitta expands the Greek γονυπετῶν ('kneeling') into a full clause ܘܢܦܠ ܥܠ ܪܓܠܘܗܝ ('and he fell upon his feet'), making the prostration gesture explicit. The Vulgate uses the ablative absolute construction genu flexo ('with knee bent'), a more compressed Latin idiom than either the Greek participle or the Syriac finite verb."
+      "variant": "minor",
+      "note": "Greek γονυπετῶν αὐτόν ('kneeling to him') is a single compound participle; the Vulgate paraphrases with the ablative absolute genu flexo ('with knee bent'), and the Peshitta renders it analytically as ܘܢܦܠ ܥܠ ܪܓܠܘܗܝ ('and fell upon his feet'), a Semitic idiom of prostration. The three traditions express the same gesture through markedly different syntactic structures."
     },
     {
       "greek_nt": [
-        10
-      ],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        10,
         11,
         12
       ],
@@ -184,19 +174,15 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek strings the clause with καί + participle λέγων αὐτῷ ('and saying to him'); the Vulgate uses the finite dixit ei ('he said to him') and the Peshitta the finite ܘܐܡܪ ܠܗ. The Greek participial coordination contrasts with the Latin and Syriac finite verbs, a stylistic rather than semantic divergence."
     },
     {
       "greek_nt": [
         13
       ],
-      "peshitta": [],
-      "vulgate": [
-        13
-      ],
-      "variant": "minor",
-      "type": "omission",
-      "note": "The Peshitta omits the recitative ὅτι, moving directly from 'said to him' to the conditional clause. Syriac typically does not require a conjunction to introduce direct speech, whereas Greek and Latin employ ὅτι and the colon respectively for this function."
+      "variant": "omitted",
+      "note": "Greek prefixes the direct discourse with recitative ὅτι (ὅτι recitativum), functioning like opening quotation marks; neither the Latin nor the Syriac has any lexical equivalent, both marking the speech by syntax and (in the Vulgate) by the colon punctuation."
     },
     {
       "greek_nt": [
@@ -213,43 +199,42 @@
         15
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds the independent pronoun ܐܢܬ ('you') after the verb ܨܒܐ ('you wish'), making the subject explicit. Greek and Latin encode the subject in verbal morphology alone (θέλῃς, vis), but Syriac frequently doubles the pronominal subject for emphasis or clarity."
+      "note": "Greek ἐὰν θέλῃς is a conditional protasis with subjunctive; the Latin Si vis matches it concisely. The Peshitta ܐܢ ܨܒܐ ܐܢܬ uses the enclitic pronoun ܐܢܬ to mark the 2nd-person subject of ܨܒܐ ('you are willing'), an analytic device absent in the inflected Greek and Latin forms."
     },
     {
       "greek_nt": [
-        16,
-        17
+        16
       ],
       "peshitta": [
         14,
         15
       ],
       "vulgate": [
-        16,
-        17
+        16
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "As with the previous verb, the Peshitta again supplies the independent pronoun ܐܢܬ ('you') after ܡܫܟܚ ('you are able'), reinforcing the subject. This is a characteristic Syriac stylistic feature absent from the Greek δύνασαί and Latin potes, which rely on inflection."
+      "note": "Greek δύνασαι and Latin potes are single 2nd-singular forms; the Peshitta ܡܫܟܚ ܐܢܬ ('you are able') again employs the participle plus enclitic subject pronoun ܐܢܬ, the standard Syriac present-tense construction."
     },
     {
       "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
         16
       ],
       "vulgate": [
+        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek με καθαρίσαι and Latin me mundare express 'to cleanse me' with object pronoun plus infinitive; the Peshitta fuses both into the single infinitive ܠܡܕܟܝܘܬܝ ('to cleanse me'), the 1st-person suffix supplying the object — a compression characteristic of Syriac infinitival syntax."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.949920+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.459412+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

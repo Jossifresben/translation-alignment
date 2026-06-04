@@ -68,14 +68,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "omission",
+      "note": "The introductory καί / Et ('and') is rendered explicitly in Greek and Latin; the Peshitta incorporates the conjunction proclitically into ܘܐܘܒܠܘܗܝ ('and they led him'), so no separate token appears. The semantic value is identical."
     },
     {
       "greek_nt": [
@@ -87,8 +86,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀπήγαγον and Latin adduxerunt are third-person plural verbs without an enclitic object; the Peshitta ܘܐܘܒܠܘܗܝ (root w-b-l) fuses conjunction, verb, and the pronominal suffix -ohi ('him'), thereby expressing the object pronoun morphologically rather than with the separate article-plus-noun seen in Greek τὸν Ἰησοῦν."
     },
     {
       "greek_nt": [
@@ -102,12 +102,11 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Ἰησοῦν / ܠܝܫܘܥ / Jesum"
     },
     {
       "greek_nt": [
-        4,
-        5
+        4
       ],
       "peshitta": [
         2
@@ -116,56 +115,38 @@
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta uniquely identifies the high priest as Caiaphas (ܩܝܦܐ), an expansion not present in the Greek NA28 or the Vulgate. This represents a clarifying gloss typical of Syriac tradition, harmonizing with the broader passion narrative where Caiaphas is explicitly named elsewhere (cf. Matt 26:57, John 18:13-14)."
+      "note": "πρός / ܠܘܬ / ad"
     },
     {
       "greek_nt": [
+        5,
         6
       ],
       "peshitta": [
+        3,
         4,
         5
       ],
       "vulgate": [
         4,
         5
+      ],
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek τὸν ἀρχιερέα and Latin summum sacerdotem leave the high priest anonymous; the Peshitta inserts the proper name ܩܝܦܐ (Caiaphas) before ܪܒ ܟܗܢܐ ('chief of the priests'), a clarifying harmonisation toward the named figure of the parallel accounts (cf. Matt 26:57). The Syriac thus specifies an identity absent from both the Greek and Latin here."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [
+        6,
+        7
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the compound noun ἀρχιερέα ('high priest'); Syriac employs a construct phrase ܪܒ ܟܗܢܐ (literally 'chief of priests'); Latin uses the adjective-noun phrase summum sacerdotem. All three express the same office through different morphological strategies."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'summum sacerdotem,' creating a stronger syntactic break between the two clauses. Neither the Greek nor the Peshitta tradition marks such a division, treating the verse as a continuous narrative flow."
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek καί ('and') links the two clauses; the Vulgate marks this junction with a colon plus et, while the Peshitta again carries the conjunction proclitically on the following verb ܘܐܬܟܢܫܘ, so no discrete coordinating token is emitted on the Syriac side."
     },
     {
       "greek_nt": [
@@ -178,7 +159,7 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "συνέρχονται / ܘܐܬܟܢܫܘ / convenerunt"
     },
     {
       "greek_nt": [
@@ -189,8 +170,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Greek αὐτῷ and Syriac ܠܘܬܗ both explicitly mark the dative/prepositional object ('to him'), whereas the Vulgate omits this pronoun, relying on the intransitive sense of convenerunt. This represents a stylistic preference in Latin for economy where context suffices."
+      "type": "omission",
+      "note": "Greek αὐτῷ and Syriac ܠܘܬܗ ('to him') supply the indirect object indicating to whom the council gathered; the Vulgate convenerunt omits any explicit pronoun, leaving the addressee implicit, a stylistic compression characteristic of the Latin."
     },
     {
       "greek_nt": [
@@ -203,7 +184,7 @@
         9
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πάντες / ܟܠܗܘܢ / omnes"
     },
     {
       "greek_nt": [
@@ -218,16 +199,13 @@
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "οἱ ἀρχιερεῖς / ܪܒܝ ܟܗܢܐ / sacerdotes"
     },
     {
       "greek_nt": [
         13,
         14,
-        15,
-        16,
-        17,
-        18
+        15
       ],
       "peshitta": [
         11,
@@ -235,19 +213,31 @@
       ],
       "vulgate": [
         11,
-        12,
-        13,
-        14
+        12
       ],
       "variant": "major",
       "type": "word-order",
-      "note": "Greek lists the three groups in the order 'chief priests, elders, scribes' (ἀρχιερεῖς, πρεσβύτεροι, γραμματεῖς); the Vulgate follows this sequence (sacerdotes, scribæ, seniores) with minor reordering of scribes and elders; the Peshitta inverts to 'chief priests, scribes, elders' (ܪܒܝ ܟܗܢܐ, ܣܦܪܐ, ܩܫܝܫܐ). This word-order variation reflects differing rhetorical emphases but does not alter the semantic content."
+      "note": "The three traditions list the three groups in differing sequence: Greek has chief priests, elders (πρεσβύτεροι), then scribes (γραμματεῖς); the Vulgate gives priests, scribes (scribæ), then elders (seniores); the Peshitta gives chief priests, scribes (ܘܣܦܪܐ), then elders (ܘܩܫܝܫܐ). The Syriac and Latin agree against the Greek in placing the scribes before the elders."
+    },
+    {
+      "greek_nt": [
+        16,
+        17,
+        18
+      ],
+      "peshitta": [],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "aligned",
+      "note": "καὶ οἱ γραμματεῖς / ܘܩܫܝܫܐ / et seniores — the closing conjoined member is present in all three witnesses though the lexeme ordering varies as noted above."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.043116+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:41:46.612661+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

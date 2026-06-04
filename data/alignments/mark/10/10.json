@@ -50,15 +50,12 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [
-        0
-      ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "The Peshitta incorporates the conjunction ܘ ('and') into the verbal form ܘܫܐܠܘܗܝ ('and they asked him'), placing the verb at the head of the clause, whereas Greek and Latin maintain conjunction-then-prepositional-phrase word order before introducing the verb later in the sentence."
+      "type": "omission",
+      "note": "Greek and Latin open with the connective Καὶ / Et; the Peshitta lacks an initial conjunction here, instead fronting the finite verb ܘܫܐܠܘܗܝ which carries its own prefixed waw. The coordinating particle is thus absorbed into the verb form in the Syriac."
     },
     {
       "greek_nt": [
@@ -73,8 +70,9 @@
         1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the accusative of motion εἰς τὴν οἰκίαν ('into the house') and Latin the ablative of place in domo; the Peshitta ܒܒܝܬܐ employs the prefixed preposition beth ('in the house'), agreeing with the Latin static locative rather than the Greek directional sense."
     },
     {
       "greek_nt": [
@@ -86,9 +84,8 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places πάλιν ('again') immediately after the prepositional phrase εἰς τὴν οἰκίαν, while Peshitta ܬܘܒ and Vulgate iterum both position the adverb after the locative phrase but before the subject, reflecting different stylistic preferences for adverbial placement within the clause."
+      "variant": "aligned",
+      "note": "πάλιν / ܬܘܒ / iterum"
     },
     {
       "greek_nt": [
@@ -103,8 +100,9 @@
         4,
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek articulates the subject (οἱ μαθηταὶ αὐτοῦ) with article and separate genitive pronoun, matched by Latin discipuli ejus; the Peshitta condenses 'his disciples' into the single inflected form ܬܠܡܝܕܘܗܝ bearing a possessive suffix, a typical Syriac economy."
     },
     {
       "greek_nt": [
@@ -122,7 +120,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek uses the articular demonstrative construction περὶ τοῦ τούτου ('concerning this [matter]') with neuter gender; Vulgate employs de eodem ('concerning the same [thing]'), also neuter; Peshitta uses ܥܠ ܗܕܐ ('concerning this'), with feminine demonstrative ܗܕܐ, likely reflecting Syriac grammatical gender conventions for abstract referents rather than a substantive semantic difference."
+      "note": "Greek περὶ τοῦ τούτου and Latin de eodem ('about the same matter') diverge subtly: the Vulgate's eodem ('the same') implies a previously discussed topic, whereas Greek τούτου and Syriac ܗܕܐ both read simply 'this.' The Latin reflects an interpretive nuance carrying continuity from the preceding pericope."
     },
     {
       "greek_nt": [
@@ -137,14 +135,14 @@
         9
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the imperfect verb ἐπηρώτων and its object αὐτόν at the end of the clause; Vulgate mirrors this with interrogaverunt eum in final position; Peshitta front-loads the entire verbal complex ܘܫܐܠܘܗܝ (verb + object suffix) at the clause head, a characteristic Syriac VSO pattern versus Greek/Latin SVO tendencies in this context."
+      "type": "construction",
+      "note": "Greek ἐπηρώτων αὐτόν and Latin interrogaverunt eum render verb plus separate accusative object pronoun; the Peshitta fuses both into the single form ܘܫܐܠܘܗܝ, the verb sh-a-l ('to ask') with an enclitic third-person object suffix, again exhibiting Syriac morphological compression."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.008805+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.465193+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

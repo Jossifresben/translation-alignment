@@ -35,67 +35,88 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
         0,
+        1
+      ],
+      "vulgate": [
         1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction καὶ plus aorist participle ἐξελθόντες (nominative plural masculine); Peshitta employs the single verb ܘܢܦܩܘ with prefixed conjunction; Vulgate mirrors the Greek participial construction with Et exeuntes. All three express the same sequential action but through different syntactic strategies."
+      "note": "Greek uses an aorist participle (ἐξελθόντες, 'having gone out'); the Vulgate matches with a present participle (exeuntes); the Peshitta renders the verb finitely with ܘܢܦܩܘ plus the auxiliary ܗܘܘ, a typical Syriac periphrastic construction expressing past durative or narrative aspect rather than subordination."
     },
     {
       "greek_nt": [
         2
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Peshitta inserts the auxiliary verb ܗܘܘ (hwaw, 'they were') to form a periphrastic construction with ܘܐܟܪܙܘ, creating a durative or iterative aspect not explicitly marked in the Greek aorist ἐκήρυξαν or Latin perfect prædicabant. This reflects a common Syriac strategy for aspectual nuance."
+      "type": "grammar",
+      "note": "Greek and Peshitta use the aorist/perfect ('they proclaimed', ἐκήρυξαν / ܘܐܟܪܙܘ); the Vulgate prefers the imperfect prædicabant, conveying ongoing or iterative preaching, a stylistic tense shift common in the Latin gospel tradition."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses ἵνα with subjunctive μετανοῶσιν (single verb 'that they may repent'); Peshitta employs ܕܢܬܘܒܘܢ (d-netubun, 'that they return/repent'); Vulgate expands to ut pœnitentiam agerent ('that they might do penance'), using a noun-verb periphrasis. The Vulgate construction reflects Latin idiom for expressing repentance as an action performed rather than a state entered."
+      "type": "idiom",
+      "note": "Greek expresses repentance with a single verb (μετανοῶσιν) and Syriac likewise with one finite verb (ܕܢܬܘܒܘܢ, from the root meaning 'to turn/return'); the Vulgate uses the periphrastic idiom pœnitentiam agerent ('that they might do penance'), an analytic construction that later carried significant theological weight in Western penitential doctrine."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        4
+      ],
       "vulgate": [
         6
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate adds a colon to mark the end of this clause, a scribal convention not present in Greek or Syriac manuscript traditions. This reflects Latin editorial practice rather than textual variance."
+      "note": "The Greek transmits a comma after μετανοῶσιν while the Vulgate closes the clause with a colon; the Peshitta as given carries no terminal punctuation. These are editorial divisions and do not affect the sense."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.979495+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.437669+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

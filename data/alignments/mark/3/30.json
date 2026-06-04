@@ -45,8 +45,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -60,8 +59,8 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta employs a periphrastic construction ܕܐܡܪܝܢ ܗܘܘ (d-'amrīn hwaw, 'they were saying') using the participle with the auxiliary verb, making the imperfect aspect explicit. Greek ἔλεγον and Latin dicebant both use simple imperfect forms, though semantically equivalent to the Syriac periphrastic."
+      "type": "construction",
+      "note": "Greek expresses the imperfect with a single synthetic verb form (ἔλεγον, V-IAI-3P); the Peshitta renders the durative past periphrastically with the participle ܕܐܡܪܝܢ plus the auxiliary ܗܘܘ, a standard Syriac construction for continuous/iterative past action. The Vulgate matches the Greek with the synthetic imperfect dicebant."
     },
     {
       "greek_nt": [],
@@ -71,23 +70,31 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon to introduce direct discourse, a Latin scribal convention not reflected in the Greek or Syriac manuscripts, which rely on context and the verb of saying to signal quotation."
+      "note": "The Clementine Vulgate inserts an explicit colon to mark the onset of direct discourse; the Greek conveys this with the raised dot after ἔλεγον·, while the Peshitta carries no equivalent orthographic marker. Punctuation only, no semantic effect."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -101,14 +108,14 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἔχει and Latin habet use the simple verb 'to have' with accusative object. Syriac employs the existential particle ܐܝܬ ('there is') with the prepositional phrase ܒܗ ('in him'), a standard Semitic possessive construction meaning 'he has [it] in him'—semantically identical but syntactically distinct."
+      "type": "idiom",
+      "note": "Greek and Latin use a transitive verb of possession (ἔχει / habet, 'he has [it]'), with the spirit as direct object. The Peshitta instead employs the existential particle ܐܝܬ with the prepositional phrase ܒܗ ('there is [an unclean spirit] in him'), an idiomatic Semitic locative construction expressing possession/indwelling rather than transitive having."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.962007+00:00",
-    "confidence": 0.9,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.535995+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

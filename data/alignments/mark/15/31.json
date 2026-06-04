@@ -75,21 +75,38 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὁμοίως and Latin Similiter are simple adverbs ('likewise'); the Syriac ܘܗܟܢܐ prefixes the conjunctive waw ('and thus'), folding the connective δέ/et into a single demonstrative-adverbial form rather than rendering it as a separate particle."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek transitional particle δέ ('now/but') has no discrete counterpart in either the Vulgate or the Peshitta; the Vulgate et and the Syriac ܐܦ render only the adjunctive καί, leaving the postpositive δέ unrepresented."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek employs three particles (ὁμοίως δὲ καί) for transition and emphasis; Peshitta uses two (ܘܗܟܢܐ ܐܦ, 'and thus also'); Vulgate uses two (Similiter et, 'similarly and'). All convey the same transitional force with stylistic variation."
+      "variant": "aligned",
+      "note": "καί / ܐܦ / et"
     },
     {
       "greek_nt": [
@@ -104,9 +121,8 @@
         2,
         3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun (οἱ ἀρχιερεῖς, 'the chief priests'); Peshitta employs construct state (ܪܒܝ ܟܗܢܐ, 'chiefs of priests'); Vulgate uses adjective + noun (summi sacerdotes, 'highest priests'). Semantically equivalent, syntactically distinct."
+      "variant": "aligned",
+      "note": "οἱ ἀρχιερεῖς / ܪܒܝ ܟܗܢܐ / summi sacerdotes"
     },
     {
       "greek_nt": [
@@ -120,8 +136,8 @@
         4
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses present participle (ἐμπαίζοντες, 'mocking'); Peshitta employs active participle with auxiliary verb (ܓܚܟܝܢ ܗܘܘ, 'were mocking'), forming a periphrastic construction; Vulgate uses present participle (illudentes). The Peshitta's periphrastic form emphasizes durative aspect."
+      "type": "construction",
+      "note": "Greek ἐμπαίζοντες and Latin illudentes are single present participles; the Syriac expresses the durative aspect periphrastically with the active participle ܓܚܟܝܢ plus the auxiliary ܗܘܘ ('were mocking'), a standard Syriac construction for continuous past action."
     },
     {
       "greek_nt": [
@@ -139,7 +155,7 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek πρὸς ἀλλήλους ('among one another') and Vulgate ad alterutrum ('to one another') use reciprocal pronouns; Peshitta employs the idiomatic ܚܕ ܥܡ ܚܕ ('one with one'), a characteristic Syriac construction for reciprocal action."
+      "note": "Greek πρὸς ἀλλήλους and Latin ad alterutrum use a reciprocal pronoun ('to one another'); the Syriac renders the reciprocity idiomatically as ܚܕ ܥܡ ܚܕ ('one with one'), distributing the sense across three tokens rather than a single pronoun."
     },
     {
       "greek_nt": [
@@ -156,7 +172,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase with article (μετὰ τῶν γραμματέων, 'with the scribes'); Peshitta employs simple conjunction with noun (ܘܣܦܪܐ, 'and scribes'), treating scribes as coordinate subject; Vulgate uses preposition + noun (cum scribis). The Peshitta construction integrates the scribes more directly into the subject."
+      "note": "Greek μετὰ τῶν γραμματέων and Latin cum scribis use a preposition plus noun ('with the scribes'); the Syriac ܘܣܦܪܐ employs only the conjunctive waw prefixed to 'scribes' ('and the scribes'), coordinating rather than subordinating the scribes to the chief priests."
     },
     {
       "greek_nt": [
@@ -170,36 +186,26 @@
         10
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek and Peshitta use imperfect verb forms (ἔλεγον, ܘܐܡܪܝܢ, 'were saying') without punctuation break; Vulgate inserts a colon after dicebant to introduce direct discourse, a Latin stylistic convention for marking quoted speech."
+      "type": "construction",
+      "note": "Greek ἔλεγον (imperfect) and Latin dicebant render the durative 'were saying'; the Syriac ܘܐܡܪܝܢ uses the participle with prefixed waw. The Vulgate's colon (token 10) marks the onset of direct speech, a punctuational feature absent as a discrete token in the Greek and Syriac."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        11,
         12,
-        13,
-        14
+        13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple aorist verb (ἔσωσεν, 'he saved'); Peshitta uses simple perfect (ܐܚܝ, 'he saved'); Vulgate employs periphrastic construction salvos fecit ('he made safe'), a characteristic Latin idiom for expressing the concept of salvation through facere + adjective."
+      "type": "lexical",
+      "note": "Greek ἄλλους ἔσωσεν and Latin alios salvos fecit ('others he saved/made safe') employ the verb of salvation; the Syriac ܐܚܪܢܐ ܐܚܝ uses the root kh-y-a 'to give life/quicken', a lexical choice that frames deliverance as life-giving rather than rescue, consistent with Syriac usage for σῴζω."
     },
     {
       "greek_nt": [
@@ -211,34 +217,57 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἑαυτὸν / ܢܦܫܗ / seipsum"
     },
     {
       "greek_nt": [
-        15,
-        16,
+        15
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "οὐ / ܠܐ / non"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek δύναται and Latin potest both denote ability ('he is able'); the Syriac ܡܫܟܚ derives from the root sh-k-kh ('to find/be able'), the regular Syriac verb for capacity, a cognate-but-distinct lexical choice for the modal sense."
+    },
+    {
+      "greek_nt": [
         17
       ],
       "peshitta": [
-        14,
-        15,
         16
       ],
       "vulgate": [
-        16,
-        17,
         18,
-        19
+        19,
+        14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses negative particle + finite verb + infinitive (οὐ δύναται σῶσαι, 'he is not able to save'); Peshitta mirrors this structure (ܠܐ ܡܫܟܚ ܠܡܚܝܘ); Vulgate employs non potest salvum facere, using the periphrastic salvum facere again and inserting an accusative adjective salvum to agree with the implied object seipsum, a Latin syntactic requirement."
+      "type": "lexical",
+      "note": "Greek σῶσαι (aorist infinitive 'to save') is matched by the Syriac infinitive ܠܡܚܝܘ ('to give life', root kh-y-a) and the Latin periphrastic salvum facere ('to make safe'). The Vulgate's preceding semicolon (token 14) punctuates the antithesis between the two clauses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.050871+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.554470+00:00",
+    "confidence": 0.84,
     "schema_version": 1
   }
 }

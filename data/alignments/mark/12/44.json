@@ -88,8 +88,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -101,32 +100,49 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4,
-        5
+        2
       ],
       "peshitta": [
-        2,
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
         3,
         4,
         5
-      ],
-      "vulgate": [
-        2,
-        3,
-        4,
-        5,
-        6
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses articular participle τοῦ περισσεύοντος ('that which is abounding') with dative αὐτοῖς; Vulgate employs a relative clause with finite verb (quod abundabat illis); Peshitta uses a relative construction ܡܕܡ ܕܝܬܝܪ ('what is surplus'). All three express the same semantic content through different syntactic strategies."
+      "note": "Greek substantivises a participle (τοῦ περισσεύοντος, 'that which abounds') governed by the article; the Vulgate renders this with a relative clause (eo, quod abundabat); the Peshitta uses the indefinite noun ܡܕܡ ('something') plus a relative ܕܝܬܝܪ ('which is over'). All three express superfluity but through distinct syntactic devices."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -138,8 +154,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -149,7 +164,7 @@
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after miserunt to mark the transition from the general statement about the wealthy to the specific case of the widow. Neither Greek nor Peshitta manuscripts employ punctuation at this juncture, though the adversative particles (δέ, ܕܝܢ) serve a similar discourse-marking function."
+      "note": "The Clementine Vulgate inserts a colon to mark the contrastive shift to the widow's action; this is editorial punctuation with no counterpart token in the Greek or Syriac, where the adversative is carried lexically by δέ / ܕܝܢ."
     },
     {
       "greek_nt": [
@@ -161,8 +176,7 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -174,50 +188,67 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
         11,
         12
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        11,
         12,
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the articular noun phrase ἐκ τῆς ὑστερήσεως αὐτῆς ('out of her poverty') with genitive pronoun; Vulgate mirrors this with de penuria sua; Peshitta uses the bound-state construction ܡܢ ܚܣܝܪܘܬܗ ('from her-poverty') with pronominal suffix, a typical Semitic strategy avoiding separate possessive pronouns."
+      "type": "grammar",
+      "note": "Greek expresses 'her poverty' analytically with article, noun, and a possessive genitive pronoun (τῆς ὑστερήσεως αὐτῆς); Syriac compresses this into a single noun with a pronominal suffix ܚܣܝܪܘܬܗ ('her want'); the Vulgate uses noun plus possessive adjective (penuria sua). The difference is purely morphological encoding of possession."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        11,
         12,
         13,
         14,
         15
       ],
       "vulgate": [
-        14,
         15,
         16
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses πάντα ὅσα εἶχεν ('all as-much-as she-had'), a correlative construction with the relative pronoun ὅσα; Vulgate employs omnia quæ habuit, a standard relative clause; Peshitta expands with ܟܠ ܡܕܡ ܕܐܝܬ ܗܘܐ ܠܗ ('all thing that was to-her'), using the existential particle ܐܝܬ with the verb ܗܘܐ and prepositional phrase—a periphrastic Syriac idiom for possession."
+      "note": "Greek 'ὅσα εἶχεν' ('as much as she had') uses a single imperfect verb; the Peshitta expands with the existential idiom ܡܕܡ ܕܐܝܬ ܗܘܐ ܠܗ ('whatever there was to her'), employing the particle ܐܝܬ with the past auxiliary ܗܘܐ and the dative ܠܗ to convey possession, a standard Syriac construction lacking a true verb 'to have'."
     },
     {
       "greek_nt": [
@@ -229,8 +260,9 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The Greek ἔβαλεν is an intransitive aorist ('she cast in'); the Peshitta ܐܪܡܝܬܗ carries an object suffix ('she cast it in'), explicitly resuming the antecedent, whereas the Latin misit leaves the object implicit. A minor difference in object marking."
     },
     {
       "greek_nt": [
@@ -249,14 +281,14 @@
         20
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular accusative phrase ὅλον τὸν βίον αὐτῆς ('all the livelihood of-her') with separate possessive genitive; Vulgate mirrors with totum victum suum using the possessive adjective; Peshitta employs ܟܠܗ ܩܢܝܢܗ ('all-her possession-her') with double pronominal marking (suffix on both ܟܠ and ܩܢܝܢ), a characteristic Syriac emphatic construction."
+      "type": "lexical",
+      "note": "Greek ὅλον τὸν βίον αὐτῆς uses βίος in its sense of 'means of living/livelihood'; the Vulgate renders this victum ('sustenance/food'), narrowing the sense to provisions; the Peshitta ܩܢܝܢܗ ('her possession/property', root q-n-y) broadens it to her whole estate. The three witnesses thus shade the same phrase toward livelihood, food, and property respectively."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.028189+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.469906+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

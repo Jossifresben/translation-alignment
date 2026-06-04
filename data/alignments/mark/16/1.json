@@ -69,44 +69,74 @@
   "alignment": [
     {
       "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
         0,
-        1,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek introduces the temporal clause with καί + genitive absolute (διαγενομένου τοῦ σαββάτου); the Vulgate renders the conjunction Et plus a subordinating cum, while Syriac uses the compound ܘܟܕ ('and when'). The clause boundaries are identical but each tradition packages the temporal subordination differently."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a genitive-absolute aorist participle (διαγενομένου, 'when [it] had passed'); the Vulgate employs a pluperfect subjunctive (transisset) governed by cum, and Syriac a simple perfect finite verb ܥܒܪܬ. All express completed past time, but the Greek absolute construction is reduced to a finite clause in both versions."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
-        1,
         2
       ],
       "vulgate": [
-        0,
-        1,
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a genitive absolute construction (διαγενομένου τοῦ σαββάτου) with the aorist participle of διαγίνομαι; Vulgate uses cum + pluperfect subjunctive (cum transisset sabbatum); Peshitta uses a temporal clause with ܟܕ + perfect verb ܥܒܪܬ. All three express the same temporal relationship ('when the Sabbath had passed'), but through distinct syntactic strategies native to each language."
+      "variant": "aligned",
+      "note": "σάββατον / ܫܒܬܐ / sabbatum"
     },
     {
       "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "Μαρία / ܡܪܝܡ / Maria"
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses double article construction (ἡ Μαρία ἡ Μαγδαληνή) with both the proper name and the epithet articulated; Vulgate employs simple apposition (Maria Magdalene) with a comma; Peshitta uses the emphatic state for both elements (ܡܪܝܡ ܡܓܕܠܝܬܐ) without additional marking. The Greek construction is characteristic of Koine style for epithets, while Latin and Syriac follow their respective conventions for proper-name + descriptor sequences."
+      "variant": "aligned",
+      "note": "ἡ Μαγδαληνή / ܡܓܕܠܝܬܐ / Magdalene"
     },
     {
       "greek_nt": [
@@ -118,26 +148,37 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "Μαρία / ܡܪܝܡ / Maria; the Syriac prefixes the conjunction directly to the name (ܘܡܪܝܡ)."
+    },
+    {
+      "greek_nt": [
         10,
         11,
         12
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a double-article periphrastic genitive (Μαρία ἡ τοῦ Ἰακώβου, literally 'Mary the [one] of James'), with the second article functioning as a substantivizer; Vulgate uses simple genitive apposition (Maria Jacobi); Peshitta uses the construct state (ܡܪܝܡ ܕܝܥܩܘܒ). All three identify Mary by her relationship to James, but Greek's articular construction is more elaborate than the straightforward genitive relationships in Latin and Syriac."
+      "note": "Greek expresses 'Mary of James' with an articular genitive periphrasis (ἡ τοῦ Ἰακώβου, 'the [mother/wife] of James'); the Vulgate compresses this to a bare genitive Jacobi, and Syriac to the relative-genitive form ܕܝܥܩܘܒ. The implied kinship noun is left unexpressed in all three but the Greek double article makes the ellipsis explicit."
     },
     {
       "greek_nt": [
@@ -149,7 +190,8 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
@@ -161,7 +203,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "Σαλώμη / ܫܠܘܡ / Salome; Syriac again attaches the conjunction proclitically (ܘܫܠܘܡ)."
     },
     {
       "greek_nt": [
@@ -175,7 +218,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek ἠγόρασαν is aorist indicative third-person plural; Vulgate emerunt is perfect indicative third-person plural; Peshitta ܙܒܢ appears to be third-person feminine plural perfect (agreeing with the three women as grammatical subjects). The tense-aspect difference between Greek aorist and Latin perfect is minor, as both denote completed past action; Syriac feminine plural agreement reflects the gender of the subject nouns, whereas Greek uses common plural and Latin masculine plural as default."
+      "note": "Greek ἠγόρασαν and Latin emerunt are third-person plural aorist/perfect ('they bought'); the Syriac ܙܒܢ is morphologically a singular perfect form here used collectively for the women, a feature of Syriac verbal concord with mixed or listed subjects."
     },
     {
       "greek_nt": [
@@ -187,26 +230,48 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἄρωμα / ܗܪܘܡܐ / aroma"
     },
     {
       "greek_nt": [
-        17,
-        18,
-        19
+        17
       ],
       "peshitta": [
-        10,
-        11
+        10
       ],
       "vulgate": [
-        13,
-        14,
-        15
+        13
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses ἵνα + aorist participle ἐλθοῦσαι + aorist subjunctive ἀλείψωσιν (purpose clause with attendant circumstance participle); Vulgate employs ut + present participle venientes + imperfect subjunctive ungerent; Peshitta uses ܕ + imperfect verbs ܢܐܬܝܢ ܢܡܫܚܢܝܗܝ (purpose clause with sequential imperfects). All three express purpose ('in order that they might come and anoint'), but Greek's participial construction is more compressed than the Vulgate's participial + subjunctive sequence or the Peshitta's double-imperfect chain."
+      "note": "Greek introduces the purpose clause with ἵνα + subjunctive; the Vulgate matches with ut + subjunctive, while Syriac folds the purpose into the prefixed relative-final ܕ- on ܕܢܐܬܝܢ. The conjunction ἵνα is thus realised as a particle in Latin and as a verbal prefix in Syriac."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "ἐλθοῦσαι / ܕܢܐܬܝܢ / venientes; the Syriac uses a finite imperfect under the relative prefix where Greek and Latin use participles."
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "ἀλείφω / ܡܫܚ / ungo"
     },
     {
       "greek_nt": [
@@ -218,15 +283,15 @@
       "vulgate": [
         16
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the pronoun αὐτόν ('him'), leaving the referent implicit from context; Vulgate explicitly names Jesum as the direct object; Peshitta incorporates the pronominal suffix directly onto the verb ܢܡܫܚܢܝܗܝ ('anoint-him'). The Vulgate's explicit naming of Jesus is an expansion for clarity, while Greek and Syriac rely on anaphoric reference, though Syriac's pronominal suffix is morphologically bound rather than a separate word."
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek and Syriac use a pronominal object (αὐτόν / the suffixed -ܝܗܝ on ܢܡܫܚܢܝܗܝ, 'they may anoint him'); the Vulgate makes the referent explicit with the proper noun Jesum, a clarifying substitution typical of the Latin tradition at the start of the resurrection narrative."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.054251+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.508292+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

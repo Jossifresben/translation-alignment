@@ -61,18 +61,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "agreement",
+      "note": "Greek Καὶ and Latin Et are simple coordinating conjunctions; the Syriac ܘܡܚܕܐ fuses the conjunction with the adverb 'immediately' (waw + meḥdā), so the temporal sense is carried within this single fused token rather than being lexically separated as in the other traditions."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εὐθὺς and Latin confestim render 'immediately' as discrete adverbs; the Syriac expresses the same notion within the compound ܘܡܚܕܐ (root kh-d-a), so this index overlaps with the conjunction group and no independent Syriac token corresponds."
     },
     {
       "greek_nt": [
@@ -86,29 +99,40 @@
         3
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐξηράνθη (aorist passive 'was dried up') and Peshitta ܝܒܫܬ employ cognate Semitic roots (ξηραίνω ← יבשׁ); Vulgate siccatus est uses a perfect passive periphrastic construction, stylistically distinct but semantically equivalent."
+      "type": "construction",
+      "note": "Greek uses the synthetic aorist passive ἐξηράνθη and Syriac the synthetic perfect ܝܒܫܬ (root y-b-sh, 'dried up'); the Vulgate employs an analytic passive periphrasis siccatus est, requiring two tokens to express what the Semitic and Greek forms render in one."
     },
     {
       "greek_nt": [
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πηγή / ܡܥܝܢܐ / fons, 'fountain/source'; the Greek article ἡ has no formal counterpart in the anarthrous Syriac and Latin."
+    },
+    {
+      "greek_nt": [
         5,
         6,
         7
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs article-noun-article-genitive structure (ἡ πηγὴ τοῦ αἵματος αὐτῆς); Vulgate mirrors this with fons sanguinis ejus; Peshitta uses construct-state ܡܥܝܢܐ ܕܕܡܗ ('spring of-her-blood'), a typical Semitic genitive construction without separate article."
+      "type": "construction",
+      "note": "Greek expresses 'of her blood' analytically with article, genitive noun, and separate possessive pronoun (τοῦ αἵματος αὐτῆς), whereas Syriac ܕܕܡܗ encodes the genitive relator and the third-person possessive suffix within a single word; the Vulgate sanguinis ejus stands between, using genitive noun plus enclitic-like pronoun."
     },
     {
       "greek_nt": [
@@ -123,54 +147,100 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after ejus, creating a stronger pause between the two clauses; Greek and Peshitta use simple conjunction καί/ܘ without punctuation break, maintaining tighter syntactic cohesion."
+      "note": "The coordinating καί / et / waw are equivalent, but the Vulgate inserts a colon (token 7) before the conjunction, articulating the clause boundary with punctuation absent from the unpointed Greek and Syriac source traditions."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔγνω (γινώσκω, 'she knew/perceived') and Latin sensit ('she felt/perceived') align in sense; the Syriac ܘܐܪܓܫܬ (root r-g-sh, 'she perceived/sensed') leans, like the Latin, toward sensory perception rather than the more cognitive Greek 'knowing', and additionally bears the prefixed conjunction already counted above."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        9,
         10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek ἔγνω τῷ σώματι uses dative of sphere ('knew in/with respect to the body'); Vulgate sensit corpore employs ablative of means; Peshitta ܘܐܪܓܫܬ ܒܦܓܪܗ uses preposition ܒ ('in her body'), all expressing bodily perception through different case/prepositional strategies."
+      "note": "Greek marks the dative of respect with article plus noun (τῷ σώματι, 'in the body') and the Latin uses a bare ablative corpore; Syriac ܒܦܓܪܗ (root p-g-r) prefixes the preposition beth and suffixes the third-person possessive ('in her body'), supplying an explicit possessor that neither the Greek nor the Latin makes lexical."
     },
     {
       "greek_nt": [
-        12,
-        13,
-        14,
-        15,
-        16
+        12
       ],
       "peshitta": [
-        6,
-        7,
-        8
+        6
       ],
       "vulgate": [
-        11,
+        11
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅτι and Latin quia introduce the content clause as independent conjunctions; the Syriac subordinator d- is prefixed to the verb in ܕܐܬܐܣܝܬ, so no separate complementiser token exists in the Peshitta."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
         12,
-        13,
+        13
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the perfect ἴαται ('she has been healed') and Syriac the synthetic Ethpaal perfect ܕܐܬܐܣܝܬ (root a-s-y), while the Vulgate renders the healing with an analytic pluperfect subjunctive sanata esset, a tense-mood shift suiting Latin indirect discourse after quia that is not reflected in the source-language indicatives."
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        14
+      ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἀπό / ܡܢ / a, 'from'; the Greek article τῆς governing the following noun has no counterpart in the anarthrous Syriac and Latin."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek μάστιγος (μάστιξ, literally 'scourge/lash', figuratively 'affliction') and Latin plaga ('blow/plague') preserve the metaphor of a striking blow; the Syriac ܡܚܘܬܗ (root m-kh-w, 'her affliction/stroke') likewise retains the percussive imagery and additionally carries a possessive suffix making the affliction explicitly 'hers'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.975318+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.436633+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

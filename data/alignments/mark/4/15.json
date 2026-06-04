@@ -91,86 +91,175 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
-        1,
-        2
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the copula εἰσιν explicitly (οὗτοι δέ εἰσιν), while Syriac uses a nominal sentence without copula (ܗܠܝܢ ܕܝܢ). Vulgate mirrors Greek with sunt, though the comma after sunt reflects Latin punctuation conventions rather than a semantic divergence."
-    },
-    {
-      "greek_nt": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "peshitta": [
-        2,
-        3,
-        4
-      ],
-      "vulgate": [
-        3,
-        4,
-        5
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article + prepositional phrase (οἱ παρὰ τὴν ὁδὸν) to identify the group; Vulgate employs a relative pronoun (qui circa viam); Syriac uses a compound preposition ܕܥܠ ܝܕ ('who [are] beside') without article, reflecting typical Semitic syntax."
-    },
-    {
-      "greek_nt": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "peshitta": [
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "vulgate": [
-        6,
-        7,
-        8
-      ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses a relative adverb ὅπου ('where') introducing an impersonal passive construction (σπείρεται ὁ λόγος). Syriac restructures with a demonstrative pronoun ܗܠܝܢ ܐܢܘܢ ('these are they') followed by a passive participle ܕܡܙܕܪܥܐ ܒܗܘܢ ('in whom is sown'), making the people the locus rather than the location. Vulgate follows Greek with ubi seminatur verbum, maintaining the locative sense."
-    },
-    {
-      "greek_nt": [
-        11,
-        12,
-        13
-      ],
-      "peshitta": [
-        10,
-        11
-      ],
-      "vulgate": [
-        9,
-        10,
-        11
+        0
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "The copula εἰσιν/sunt stands early in Greek and Latin, immediately following the demonstrative subject; the Peshitta defers the copula ܐܢܘܢ to after a resumptive demonstrative ܗܠܝܢ, producing the typical Syriac framing 'these who...these are.' This is a word-order/construction difference rather than a semantic one."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek substantivises with the article οἱ ('the ones') and Latin with the relative qui; the Peshitta achieves the same nominalisation by reduplicating the demonstrative ܗܠܝܢ, a construction-level equivalence."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek παρά and Latin circa denote spatial proximity ('beside/along the way'); the Syriac compound ܕܥܠ ('which [are] upon/by') frames the location with a relative-prepositional construction, semantically equivalent but syntactically distinct."
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        3,
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "The Greek τὴν ὁδόν and Latin viam render 'the road/way' with a single noun; the Peshitta uses the idiomatic locative phrase ܝܕ ܐܘܪܚܐ ('the side/edge of the road,' lit. 'hand of the way'), an Aramaic spatial idiom for 'beside the path.'"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek σπείρεται and Latin seminatur are simple passives ('is sown'); the Peshitta ܕܡܙܕܪܥܐ employs the Ethpaʿʿal (reflexive-passive) of z-r-ʿ prefixed with the relative ܕ, integrating the verb into the relative clause governing the location, a grammar/construction-level difference."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "The Peshitta adds the resumptive prepositional pronoun ܒܗܘܢ ('in them'), specifying that the word is sown 'in them' (the hearers); neither the Greek nor the Latin carries a corresponding locative pronoun at this point, this being a Syriac stylistic explicitation."
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "note": "Greek ὅταν and Latin cum mark the temporal/conditional clause separately; the Syriac fuses the conjunction with the preceding 'and' as ܘܡܐ ('and when'), a single compound particle covering both ideas 11 and 12 of the Greek."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek ἀκούσωσιν is an aorist subjunctive ('they may hear') governed by ὅταν, and Latin audierint is a future-perfect subjunctive; the Peshitta ܕܫܡܥܘ uses a perfect with relative ܕ, treating the hearing as a completed antecedent action—a grammar/tense difference reflecting each language's conditional-temporal idiom."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
@@ -179,54 +268,95 @@
       "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εὐθύς and Syriac ܡܚܕܐ both denote immediacy; Vulgate confestim is a synonymous Latin adverb. All three convey the same temporal urgency but employ tradition-specific lexemes."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         16,
         17
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek includes the article ὁ before σατανᾶς, a standard Greek construction for proper names; Syriac ܣܛܢܐ and Vulgate Satanas lack the article, following their respective grammatical norms for proper nouns."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        18,
-        19,
+        18
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "note": "Greek αἴρει and Latin aufert stand as independent finite verbs ('takes away'); the Peshitta encodes the verb within ܘܫܩܠ ('and removes'), the conjunction and verb fused, with the action expressed as a single coordinated clause."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "note": "The Peshitta inserts the proleptic object pronoun ܠܗ ('it'), anticipating the noun ܠܡܠܬܐ that follows; this resumptive double-marking of the object is a characteristic Syriac construction with no counterpart in the Greek or Latin."
+    },
+    {
+      "greek_nt": [
         20,
-        21,
+        21
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         22,
         23
       ],
       "peshitta": [
-        15,
-        16,
-        17,
         18
       ],
       "vulgate": [
-        15,
-        16,
-        17,
         18,
         19,
         20
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a double article construction (τὸν λόγον τὸν ἐσπαρμένον) with a perfect passive participle modifying 'word'. Vulgate employs a relative clause (verbum quod seminatum est) to express the same participial idea. Syriac uses a pronominal suffix ܠܗ ('it') followed by the direct object marker and noun ܠܡܠܬܐ ܕܙܪܝܥܐ ('the word that is sown'), a typical Semitic resumptive construction."
+      "note": "Greek uses an articular perfect passive participle τὸν ἐσπαρμένον ('the [word] having been sown'); Latin expands into a relative clause with periphrastic perfect quod seminatum est ('which has been sown'); the Peshitta ܕܙܪܝܥܐ uses a relative ܕ plus passive participle, equivalent in sense but realised by three differing constructions."
     },
     {
       "greek_nt": [
@@ -243,15 +373,14 @@
         22,
         23
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition εἰς with dative article and noun (εἰς ταῖς καρδίαις αὐτούς), though this is a textual variant (some manuscripts read ἐν). Vulgate in cordibus eorum employs the standard Latin locative construction. Syriac ܒܠܒܗܘܢ ('in their hearts') uses a prepositional prefix with pronominal suffix, a more compact Semitic idiom achieving the same locative sense."
+      "variant": "major",
+      "note": "Greek reads anomalously εἰς ταῖς καρδίαις αὐτούς ('into the hearts—them'), with εἰς+dative and an accusative pronoun, a textually disputed and grammatically irregular phrase; Latin smooths this to in cordibus eorum ('in their hearts'), and the Peshitta likewise to ܒܠܒܗܘܢ ('in their hearts'). Both versions presuppose the better-attested reading ἐν ταῖς καρδίαις αὐτῶν and correct the Greek's syntactic anomaly."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.965325+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.418670+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

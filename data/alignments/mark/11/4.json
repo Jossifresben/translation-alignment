@@ -62,21 +62,37 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3
+        0
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek employs a double conjunction καὶ...δὲ καὶ ('and...now and'), creating a narrative transition with mild contrast. Peshitta simplifies to ܘܐܙܠܘ (w-'ezal-w, 'and they went'), omitting the contrastive particle. Vulgate uses Et abeuntes ('And going'), rendering the participial construction without the contrastive nuance."
+      "note": "Greek uses a finite aorist ἀπῆλθον ('they departed'); the Vulgate renders it with a present participle abeuntes ('going away'), a construction-level shift to a circumstantial clause. The Peshitta ܘܐܙܠܘ ('and they went') likewise finite, sharing its conjunction with the preceding καί so that index 0 covers both connective and verb."
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "The Greek connective pair δὲ καὶ ('and indeed/now also') is a typical Markan polysyndeton not represented in either the Vulgate or the Peshitta, both of which compress the double conjunction into a single coordinating link. The omission is stylistic rather than semantic."
     },
     {
       "greek_nt": [
@@ -130,8 +146,7 @@
         6
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πρὸς τὴν θύραν ('toward/at the door') uses the directional preposition πρός with accusative. Peshitta ܥܠ ܬܪܥܐ ('al tar'ā, 'upon/at the door') employs ܥܠ, typically 'upon' but here locative. Vulgate ante januam ('before the door') uses ante, emphasizing position in front of rather than mere proximity—a subtle spatial distinction."
+      "note": "Greek πρὸς τὴν θύραν uses preposition + article + accusative; the Vulgate ante januam and the Peshitta ܥܠ ܬܪܥܐ ('at/upon the door') drop the article (absent in Syriac and unneeded in Latin) and select prepositions of slightly different spatial nuance ('before' vs. 'upon'), a routine idiomatic adjustment."
     },
     {
       "greek_nt": [
@@ -159,8 +174,15 @@
         9
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐπὶ τοῦ ἀμφόδου ('upon the street/lane') uses ἄμφοδον, a rare term denoting a narrow street or alley between buildings. Peshitta ܒܫܘܩܐ (b-šūqā, 'in the market/street') employs the common term for marketplace or public thoroughfare. Vulgate in bivio ('at the crossroads/fork') interprets the location as a junction of two roads, a distinct topographical reading."
+      "note": "Greek ἐπὶ τοῦ ἀμφόδου ('on the street/around the block') is rendered by the Vulgate as in bivio ('at the crossroads/fork'), a lexical specification of the rare term ἄμφοδον; the Peshitta ܒܫܘܩܐ ('in the marketplace/street') chooses yet another lexeme, none of the three being precisely synonymous though all denote the public way."
+    },
+    {
+      "greek_nt": [],
+      "vulgate": [
+        10
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts editorial punctuation (a colon) marking the clause boundary before the second verb; neither the Greek nor the Syriac transmits such a stop, this being a Clementine editorial feature."
     },
     {
       "greek_nt": [
@@ -170,12 +192,10 @@
         8
       ],
       "vulgate": [
-        10,
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple conjunction καὶ ('and') to introduce the next clause. Peshitta employs ܘܟܕ (w-kaḏ, 'and when'), a temporal-circumstantial construction that frames the untying as contemporaneous action. Vulgate inserts a colon for punctuation, then et ('and'), maintaining Greek's coordinative structure but with stronger pause."
+      "note": "Greek and Latin coordinate the final clause with simple καί / et ('and'); the Peshitta employs ܘܟܕ ('and when'), introducing a temporal subordination absent in the other witnesses and slightly altering the syntactic relationship of the untying to the finding."
     },
     {
       "greek_nt": [
@@ -187,7 +207,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek λύουσιν and Latin solvunt are present indicatives ('they untie'); the Peshitta ܫܪܝܢ is an active participle governed by the preceding ܟܕ, yielding 'and as they were untying', a tense/aspect difference flowing from the temporal subordination noted above."
     },
     {
       "greek_nt": [
@@ -203,9 +224,9 @@
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.015935+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.448383+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

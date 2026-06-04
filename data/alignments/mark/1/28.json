@@ -48,18 +48,36 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "καί / Et opening conjunction; the Peshitta fuses this connective into the following adverb ܘܡܚܕܐ via the proclitic waw."
+    },
+    {
+      "greek_nt": [
         2
+      ],
+      "variant": "minor",
+      "type": "expansion",
+      "note": "The postpositive δέ ('now, and') is a Greek discourse particle with no separate equivalent in either the Vulgate or the Peshitta, both of which carry only a single coordinating conjunction; its absence reflects normal omission of redundant Greek connectives in translation."
+    },
+    {
+      "greek_nt": [
+        6
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0
+        4
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek employs two conjunctions (Καὶ ... δὲ) for stylistic variation, while Peshitta and Vulgate each use a single coordinating conjunction (ܘ / Et). This reflects differing conventions for narrative continuity rather than semantic divergence."
+      "type": "word-order",
+      "note": "Greek εὐθύς ('immediately') and Latin statim stand later in the clause, whereas the Syriac ܘܡܚܕܐ ('and at once', root kh-d-a) is fronted and bound to the opening conjunction, a characteristic Markan-Syriac placement of the immediacy adverb at the head of the sentence."
     },
     {
       "greek_nt": [
@@ -71,7 +89,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐξῆλθεν and Syriac ܢܦܩ (root n-p-q) both denote literal 'went out', while the Vulgate processit ('advanced, spread forth') is a slightly more dynamic lexical choice conveying the propagation of the report rather than mere exit."
     },
     {
       "greek_nt": [
@@ -87,53 +107,56 @@
         3
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἡ ἀκοὴ αὐτοῦ ('the report/news of him') and Vulgate rumor ejus ('his rumor') use abstract nouns for 'report,' whereas Peshitta ܛܒܗ ('his fame/good report') employs a concrete noun emphasizing positive reputation. All three convey the spread of Jesus's renown, but Peshitta's lexical choice carries evaluative overtones absent in the Greek and Latin."
+      "type": "construction",
+      "note": "Greek expresses 'his report' with article + noun + genitive pronoun (ἡ ἀκοὴ αὐτοῦ) and Latin with noun + possessive (rumor ejus), whereas the Syriac ܛܒܗ (root T-b-h) encodes the third-person possessive suffix synthetically within a single word, a typical Semitic morphological compression."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        4
+        7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek εὐθὺς ('immediately') appears after the subject, Vulgate statim follows the verb, and Peshitta ܡܚܕܐ ('immediately') is clause-initial. The temporal adverb's position reflects each tradition's syntactic preferences but does not alter the semantic force of immediacy."
+      "type": "expansion",
+      "note": "Greek alone carries the additional adverb πανταχοῦ ('everywhere'), reinforcing εὐθύς πανταχοῦ; neither the Vulgate nor the Peshitta render a separate term for universal extent, the notion being absorbed into the following 'whole region' phrase."
     },
     {
       "greek_nt": [
-        7,
         8,
         9,
         10,
-        11,
-        12,
-        13
+        11
       ],
       "peshitta": [
         3,
-        4,
-        5
+        4
       ],
       "vulgate": [
         5,
         6,
-        7,
-        8
+        7
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek includes the adverb πανταχοῦ ('everywhere') before the prepositional phrase εἰς ὅλην τὴν περίχωρον τῆς Γαλιλαίας ('into all the surrounding region of Galilee'), creating a pleonastic emphasis on geographic totality. Peshitta ܒܟܠܗ ܐܬܪܐ ܕܓܠܝܠܐ ('in all the region of Galilee') and Vulgate in omnem regionem Galilææ ('into all the region of Galilee') omit the redundant 'everywhere,' streamlining the expression while preserving the sense of widespread dissemination."
+      "type": "construction",
+      "note": "Greek uses εἰς + ὅλην τὴν περίχωρον ('into the whole surrounding region') and Latin in omnem regionem; the Syriac ܒܟܠܗ ܐܬܪܐ ('in all the place/region', roots k-w-l and a-th-r) employs the locative preposition beth with a synthetic 'all-its' suffix and the neutral term ܐܬܪܐ rather than the technical 'surrounding district', a minor lexical and syntactic simplification."
+    },
+    {
+      "greek_nt": [
+        12,
+        13
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "τῆς Γαλιλαίας / ܕܓܠܝܠܐ / Galilææ — the genitive 'of Galilee' is uniformly attested."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.947941+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.418242+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -83,13 +83,15 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        1
+      ],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καὶ / Et, beginning the clause asyndetically with ܐܚܪܢܐ ܕܝܢ ('but another'), whereas Greek and Latin retain the coordinating conjunction linking this clause to the preceding parable elements."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with the coordinating καί and Latin matches with Et, both clause-initial. The Peshitta instead uses the post-positive adversative/discourse particle ܕܝܢ ('but, now'), a Greek-influenced διέ-type connective that subtly marks the new sentence rather than simple coordination."
     },
     {
       "greek_nt": [
@@ -101,18 +103,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta inserts the contrastive particle ܕܝܢ ('but', 'however') after ܐܚܪܢܐ, creating an adversative construction absent in both Greek and Latin, which emphasizes the contrast between the failed sowings and the successful one."
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἄλλα is neuter plural ('other [seeds]'), agreeing with the participles ἀναβαίνοντα/αὐξανόμενα, whereas the Vulgate aliud and Syriac ܐܚܪܢܐ render the subject as a singular collective. Mark's text fluctuates between singular and plural for the seed, and the versions normalise toward the singular."
     },
     {
       "greek_nt": [
@@ -125,167 +118,280 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἔπεσεν / ܢܦܠ / cecidit"
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἰς / ܥܠ / in"
+    },
+    {
+      "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek supplies the definite article τὴν γῆν ('the soil'); the Vulgate terram and Syriac ܐܪܥܐ render the noun without an article (Latin lacking one entirely, Syriac in the absolute/emphatic state without demonstrative force), a routine equivalence."
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        3,
-        4,
         5
       ],
       "vulgate": [
-        3,
-        4,
         5
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a double-article construction (εἰς τὴν γῆν τὴν καλήν) with the adjective in attributive position, while both Peshitta (ܥܠ ܐܪܥܐ ܛܒܬܐ) and Vulgate (in terram bonam) use single-article constructions with postpositive adjectives—semantically equivalent but syntactically streamlined."
+      "note": "Greek uses the attributive article + adjective τὴν καλὴν in second-attributive position, while Latin bonam and Syriac ܛܒܬܐ render a simple postposed adjective; the Greek articular repetition has no formal counterpart in the versions."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The conjunction καὶ before ἐδίδου is absent in the Peshitta, which uses asyndetic coordination (ܘܣܠܩ ܘܪܒܐ ܘܝܗܒ), and the Vulgate inserts a colon punctuation mark instead, creating a structural break before the fruit-bearing description."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+      "peshitta": [
         6
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'bonam' to mark a major syntactic division between the sowing and the fruit-bearing, a punctuation choice absent in Greek and Peshitta manuscripts."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate adds the conjunction 'et' before 'dabat', creating explicit coordination where Greek uses καὶ and Peshitta employs the prefixed waw on the verb itself (ܘܝܗܒ)."
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ ἐδίδου coordinates the yielding clause, and the Syriac ܘ- prefix on ܘܣܠܩ likewise begins a coordinated verb of ascent; the Latin places its et later (before dabat), so the conjunctions do not align position-for-position across the three witnesses."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek ἐδίδου and Latin dabat ('was yielding/giving') stand before the participial pair, whereas the Syriac places the corresponding verb ܘܝܗܒ ('and gave') after the verbs of growing (ܘܣܠܩ ܘܪܒܐ), reordering the sequence of yielding and increasing."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the imperfect ἐδίδου ('was yielding') emphasizing durative action, while Vulgate employs the imperfect 'dabat' mirroring this aspect; Peshitta uses the perfect ܘܝܗܒ, which in Syriac can convey either perfective or durative nuance depending on context."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καρπόν / ܦܐܪܐ / fructum"
     },
     {
       "greek_nt": [
-        11,
-        12,
-        13
+        11
       ],
       "peshitta": [
-        6,
+        6
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀναβαίνοντα and Latin ascendentem are participles modifying the fruit, but the Syriac renders the idea with a finite verb ܘܣܠܩ ('and it came up'), converting the Greek participial construction into a coordinate clause typical of Syriac narrative style."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
         7
       ],
       "vulgate": [
-        10,
-        11,
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / et"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
         12
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs two present participles in neuter plural (ἀναβαίνοντα καὶ αὐξανόμενα) modifying καρπόν, creating a participial phrase; Vulgate mirrors this with 'ascendentem et crescentem'; Peshitta uses finite verbs with waw-consecutive (ܘܣܠܩ ܘܪܒܐ, 'and it grew up and increased'), a characteristic Semitic construction replacing Greek participial syntax."
+      "note": "Greek αὐξανόμενα (present passive participle, 'increasing') and Latin crescentem are participial, whereas the Syriac ܘܪܒܐ is again a finite verb ('and it grew'), continuing the version's preference for paratactic finite verbs over Greek participial syntax."
     },
     {
       "greek_nt": [
-        14,
-        15
+        14
       ],
       "peshitta": [],
       "vulgate": [
-        13,
-        14
+        13
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the third verb phrase καὶ ἔφερεν ('and was bearing'), collapsing the three-verb sequence into two (ܘܣܠܩ ܘܪܒܐ ܘܝܗܒ), while Greek and Vulgate maintain the triadic structure with ἐδίδου...ἔφερεν / dabat...afferebat as distinct imperfect verbs."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ ἔφερεν and Latin et afferebat introduce a further coordinated verb of bearing fruit; the Syriac has no separate conjoined verb here, having already absorbed the act of bearing into ܘܝܗܒ ܦܐܪܐ above, so this connective lacks a Syriac counterpart."
     },
     {
       "greek_nt": [
-        16,
-        17
+        15
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek ἔφερεν ('was bearing', φέρω) and Latin afferebat express a distinct verb of yield, while the Syriac uses only the single verb ܝܗܒ ('gave'); the version collapses the Greek pair δίδωμι/φέρω into one lexeme, a typical economising substitution."
+    },
+    {
+      "greek_nt": [
+        16
       ],
       "peshitta": [
         10,
         11
       ],
       "vulgate": [
-        15,
-        16
+        15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the distributive construction ἓν τριάκοντα ('one thirty[-fold]'), Vulgate mirrors with 'unum triginta'; Peshitta employs the existential particle ܐܝܬ with a relative clause (ܐܝܬ ܕܬܠܬܝܢ, 'there is [that] of thirty'), a characteristic Syriac idiom for expressing distributive or partitive relationships."
+      "type": "idiom",
+      "note": "Greek ἓν τριάκοντα ('one [seed yielding] thirty') uses the numeral εἷς distributively; the Syriac renders this with the existential idiom ܐܝܬ ܕܬܠܬܝܢ ('there was that of thirty'), and the Latin unum triginta mirrors the Greek; the three express the same distributive yield through different constructions."
     },
     {
       "greek_nt": [
-        18,
-        19,
+        17
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τριάκοντα / ܬܠܬܝܢ / triginta"
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek repeats καὶ ἓν ('and one'); the Syriac uses ܘܐܝܬ ('and there was [that of]'), continuing its existential-distributive idiom, and the Latin omits the conjunction before unum sexaginta, leaving asyndeton against the Greek and Syriac coordination."
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "The Greek distributive numeral ἓν before ἑξήκοντα is carried by the Syriac existential phrase ܘܐܝܬ ܕ- and by the Latin unum; the formal one-to-one numeral does not survive in the Syriac, which substitutes the existential construction."
+    },
+    {
+      "greek_nt": [
         20
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        17,
         18
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἑξήκοντα / ܫܬܝܢ / sexaginta"
     },
     {
       "greek_nt": [
-        21,
-        22,
-        23
+        21
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / et"
+    },
+    {
+      "greek_nt": [
+        22
       ],
       "peshitta": [
         14,
         15
       ],
       "vulgate": [
-        19,
-        20,
+        20
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἓν ('one') with ἑκατόν is matched by Latin unum, while the Syriac again uses the existential idiom ܘܐܝܬ ܕ- ('and there was that of') rather than a distinct numeral, consistent with its treatment of the preceding yields."
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
         21
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἑκατόν / ܡܐܐ / centum"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.964108+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.532532+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

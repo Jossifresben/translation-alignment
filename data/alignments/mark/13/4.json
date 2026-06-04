@@ -69,8 +69,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -82,8 +81,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -95,8 +93,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -108,8 +105,7 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -119,77 +115,117 @@
         4
       ],
       "vulgate": [
-        4,
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement",
-      "note": "Vulgate adds interrogative punctuation after fient, creating a two-question structure rather than the single compound question of Greek and Peshitta."
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        5,
-        6,
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        6,
-        7,
         8,
         9
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses καὶ τί τὸ σημεῖον (conjunction + interrogative + article + noun); Peshitta employs ܘܡܢܐ ܐܬܐ (conjunction + interrogative-noun compound); Vulgate mirrors Greek structure with et quod signum erit. All three are semantically equivalent but syntactically distinct in their interrogative formulations."
+      "note": "Greek τὸ σημεῖον ('the sign') is an articular nominative left as a verbless predicate; the Vulgate supplies an explicit future copula erit ('will be the sign'), while the Peshitta renders the noun as ܐܬܐ ('sign') without article or copula. The verb-supply in Latin is an interpretive expansion of an elliptical Greek nominal clause."
     },
     {
       "greek_nt": [
-        9,
-        10
+        9
       ],
       "peshitta": [
-        7,
-        8
+        7
       ],
       "vulgate": [
         10
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ὅταν μέλλῃ ('when [they] are about to') uses the auxiliary verb μέλλω to express imminence; Peshitta ܡܐ ܕܩܪܝܒܢ ('when [they] draw near') employs a spatial-temporal metaphor of proximity; Vulgate quando alone lacks the imminence marker, creating a simpler temporal clause. The Peshitta's choice reflects Semitic idiom for eschatological nearness."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        11,
-        12,
-        13
+        10,
+        12
       ],
       "peshitta": [
-        9,
-        10,
+        8,
         11
       ],
       "vulgate": [
-        11,
-        12,
         13,
-        14,
-        15
+        14
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places πάντα ('all') after the infinitive συντελεῖσθαι; Peshitta places ܟܠܗܝܢ ('all') before the infinitive ܠܡܫܬܠܡܘ, following typical Syriac word order (modifier precedes head); Vulgate inserts incipient ('begin') before consummari, adding a nuance of inception not explicit in Greek or Peshitta, and concludes with final interrogative punctuation."
+      "type": "construction",
+      "note": "Greek uses μέλλῃ + present infinitive συντελεῖσθαι ('may be about to be accomplished'), and the Vulgate matches this periphrastic future with incipient consummari ('shall begin to be completed'). The Peshitta restructures with ܕܩܪܝܒܢ ('that are near/imminent') governing the infinitive ܠܡܫܬܠܡܘ ('to be fulfilled'), expressing imminence adjectivally rather than through a 'be about to' auxiliary."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate marks the first question explicitly with an interrogative '?' after fient, and the Greek similarly closes the whole compound question with the high-point and terminal ';' (=question mark); the Peshitta carries no punctuation tokens, leaving the interrogative force to be inferred from the interrogative particles ܐܡܬܝ and ܘܡܢܐ."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.028816+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.466579+00:00",
+    "confidence": 0.74,
     "schema_version": 1
   }
 }

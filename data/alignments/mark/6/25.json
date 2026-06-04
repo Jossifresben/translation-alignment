@@ -79,33 +79,36 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
-        0
+        1
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καὶ ('and') is rendered by Peshitta ܘܡܚܕܐ ('and immediately'), conflating the conjunction with the temporal adverb. Vulgate Cumque ('and when') introduces a temporal-causal nuance absent in the Greek."
+      "type": "construction",
+      "note": "Greek uses coordinating καί + aorist participle εἰσελθοῦσα ('and having entered'); the Vulgate renders this with the enclitic conjunction Cumque + pluperfect subjunctive introisset ('and when she had entered'), while the Peshitta uses a finite perfect ܥܠܬ ('she entered') coordinated by the prefixed waw in ܘܡܚܕܐ. The participial vs. finite-verb realisation is a routine translational adjustment."
     },
     {
       "greek_nt": [
-        1
+        2
       ],
       "peshitta": [
-        1
+        0
       ],
       "vulgate": [
-        1
+        2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εὐθὺς / ܘܡܚܕܐ / statim — 'immediately.' The Peshitta fuses the conjunction and adverb into a single token ܘܡܚܕܐ, hence its early position."
     },
     {
       "greek_nt": [
-        2,
         3,
         4
       ],
@@ -113,13 +116,12 @@
         2
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek εὐθὺς μετὰ σπουδῆς ('immediately with haste') places the temporal adverb before the prepositional phrase; Vulgate statim cum festinatione mirrors this order. Peshitta ܒܒܛܝܠܘܬܐ ('with haste') omits an explicit equivalent to εὐθὺς, having already incorporated immediacy into ܘܡܚܕܐ at token 0."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μετὰ σπουδῆς / ܒܒܛܝܠܘܬܐ / cum festinatione — 'with haste.' Greek and Latin use a preposition + noun; Syriac employs a single prepositional abstract noun (root b-T-l, here in the diligence/haste sense), semantically equivalent."
     },
     {
       "greek_nt": [
@@ -135,64 +137,66 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πρὸς τὸν βασιλέα / ܠܘܬ ܡܠܟܐ / ad regem — 'to the king.'"
     },
     {
       "greek_nt": [
-        8,
-        9
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7,
         8
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses two finite verbs (ᾐτήσατο λέγουσα, 'she asked saying') with a participle; Vulgate petivit dicens mirrors this construction. Peshitta ܘܐܡܪܐ ('and she said') employs a single verb, omitting an explicit equivalent to αἰτέω, though the request is implicit in context."
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        9
-      ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta adds ܠܗ ('to him') as an explicit indirect object, clarifying that the daughter addresses the king. Neither Greek nor Vulgate include this pronoun, relying on narrative context."
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        7,
-        8
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta ܨܒܝܐ ܐܢܐ ('I desire I') makes the first-person subject explicit with the independent pronoun ܐܢܐ, a typical Syriac emphatic construction. Greek θέλω and Vulgate Volo encode the subject in verbal morphology alone."
-    },
-    {
-      "greek_nt": [
-        11
       ],
       "peshitta": [],
       "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek ᾐτήσατο ('she asked/requested') is matched by Vulgate petivit, but the Peshitta has no discrete verb of asking, collapsing the request into the speech introduced by ܘܐܡܪܐ ('and saying'). The Syriac thus omits the explicit petition verb, expressing the demand purely through direct speech."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek λέγουσα and Latin dicens are bare participles; the Peshitta expands with ܘܐܡܪܐ ܠܗ ('and saying to him'), supplying the dative indirect object ܠܗ not present in the Greek or Latin. The Vulgate adds an explicit colon (token 9) marking the onset of direct speech."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "θέλω / ܨܒܝܐ ܐܢܐ / Volo — 'I desire.' Syriac uses the periphrastic participle + enclitic pronoun ܨܒܝܐ ܐܢܐ to render the first-person present, a standard Syriac construction."
+    },
+    {
+      "greek_nt": [
         11
       ],
-      "variant": "omitted",
-      "type": "construction",
-      "note": "Greek ἵνα introduces a purpose clause ('that you may give'); Vulgate ut mirrors this subordinating conjunction. Peshitta omits an explicit subordinator, using the prefix ܕ- on the verb ܕܬܬܠ to mark the dependent clause, a standard Syriac construction."
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἵνα / ܕ- (prefixed on ܕܬܬܠ) / ut — purposive/complementary conjunction. The Syriac fuses the conjunction with the verb as the prefix ܕ-."
     },
     {
       "greek_nt": [
@@ -205,24 +209,37 @@
       "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "expansion",
-      "note": "Greek ἐξαυτῆς ('at once') is a single adverb; Vulgate protinus is likewise a single temporal adverb. Peshitta ܒܗܕܐ ܫܥܬܐ ('in this hour') expands the temporal reference into a prepositional phrase, a more explicit idiom for immediacy."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐξαυτῆς / ܒܗܕܐ ܫܥܬܐ / protinus — 'at once / immediately.' The Peshitta renders the Greek adverb with the fuller idiom ܒܗܕܐ ܫܥܬܐ ('in this hour'), a typical Syriac periphrasis for immediacy."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "δῷς / ܕܬܬܠ / des — 'you may give' (2nd singular subjunctive/imperfect)."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μοι / ܠܝ / mihi — 'to me.'"
     },
     {
       "greek_nt": [
@@ -237,7 +254,9 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐπὶ πίνακι / ܥܠ ܦܝܢܟܐ / in disco — 'on a platter.' The Syriac ܦܝܢܟܐ is itself a loanword from the same Greek πίναξ, an instance of lexical borrowing."
     },
     {
       "greek_nt": [
@@ -250,7 +269,9 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τὴν κεφαλήν / ܪܫܗ / caput — 'the head.' The Peshitta uses the suffixed form ܪܫܗ ('his head'), incorporating the genitive relation pronominally rather than via article + following genitive."
     },
     {
       "greek_nt": [
@@ -266,13 +287,15 @@
         18,
         19
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Ἰωάννου τοῦ βαπτιστοῦ / ܕܝܘܚܢܢ ܡܥܡܕܢܐ / Joannis Baptistæ — 'of John the Baptist.' Greek and Vulgate place the title in apposition with an article (τοῦ); the Syriac joins ܡܥܡܕܢܐ directly to ܕܝܘܚܢܢ without a repeated genitive marker."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.981655+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.529921+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -82,8 +82,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -98,34 +97,44 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect ἐζήτουν (simple past continuous); Peshitta employs periphrastic construction ܘܒܥܝܢ ܗܘܘ (participle + auxiliary 'were seeking'); Vulgate uses imperfect quærebant. All three express ongoing past action, but Syriac makes the durative aspect explicit through periphrasis."
+      "note": "Greek uses the imperfect ἐζήτουν ('they were seeking') as a single synthetic verb form, matched by Latin imperfect quærebant. Syriac ܘܒܥܝܢ ܗܘܘ employs the analytic periphrastic construction (active participle + enclitic ܗܘܘ) to express durative past, a standard Syriac equivalent for the Greek imperfect."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek object pronoun αὐτόν and Latin eum stand as separate accusative pronouns, whereas Syriac incorporates the object as the pronominal suffix on the infinitive ܠܡܐܚܕܗ ('to seize-him'). The pronominal reference is preserved but morphologically fused into the verb."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         4
       ],
-      "peshitta": [],
-      "vulgate": [
-        4
+      "peshitta": [
+        3
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek and Vulgate insert coordinating conjunction καὶ / et before the second clause; Peshitta omits the conjunction, proceeding directly to ܘܕܚܠܘ. The Vulgate additionally marks this juncture with a colon, creating a stronger pause than Greek's simple καί."
+      "vulgate": [
+        4,
+        5
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -135,11 +144,11 @@
         3
       ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐφοβήθησαν and Latin timuerunt govern a direct accusative object ('feared the crowd'), while Syriac ܘܕܚܠܘ ܡܢ uses the verb of fearing with the preposition ܡܢ ('feared from/of the people'), a typical Aramaic construction for the object of fear; the conjunction and verb are conflated in the single Syriac form ܘܕܚܠܘ."
     },
     {
       "greek_nt": [
@@ -151,51 +160,48 @@
         5
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses accusative with article τὸν ὄχλον ('the crowd'); Vulgate employs simple accusative turbam without article (Latin lacks definite articles); Peshitta uses prepositional phrase ܡܢ ܥܡܐ ('from the people'), expressing the object of fear with the preposition ܡܢ, a standard Syriac idiom for the source of fear."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a second colon after turbam, creating a three-part structure (seeking : fearing : knowing) that differs from the Greek's two-part coordination with γάρ introducing the causal explanation. This punctuation choice reflects Latin rhetorical preference for balanced cola."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek ὄχλον, Latin turbam, and Syriac ܥܡܐ all denote the crowd; the Syriac root e-m-m carries a slightly more ethnic-collective nuance ('the people') than the neutral Greek/Latin 'crowd', but the referent is identical."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         10
       ],
-      "peshitta": [
-        8
-      ],
+      "peshitta": [],
       "vulgate": [
         11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses ὅτι introducing indirect discourse ('that'); Vulgate employs quoniam (causal/declarative); Peshitta uses ܕ- prefix on ܕܥܠܝܗܘܢ, a relative particle construction meaning 'that concerning them.' All three introduce the content of knowledge, but Syriac embeds the prepositional phrase within the subordinate clause structure."
+      "note": "Greek ὅτι and Latin quoniam introduce the indirect statement as explicit complementizers. Syriac dispenses with a separate conjunction, instead prefixing the relative/complementizing particle ܕ directly onto ܕܥܠܝܗܘܢ, so the subordinating function is morphologically absorbed rather than lexically separate."
     },
     {
       "greek_nt": [
@@ -209,9 +215,21 @@
         12,
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places prepositional phrase πρὸς αὐτοὺς before the object τὴν παραβολήν; Vulgate mirrors this with ad eos before parabolam; Peshitta integrates the prepositional element ܥܠܝܗܘܢ ('concerning them') into the ܕ- clause, creating a more compact construction where word order differs but semantic content remains equivalent."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek πρὸς αὐτούς and Latin ad eos render the prepositional phrase with separate preposition and pronoun, whereas Syriac ܕܥܠܝܗܘܢ fuses the relative particle, preposition ܥܠ, and the 3mp suffix into one word; the meaning 'against/concerning them' is equivalent."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -228,20 +246,7 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek uses article + noun τὴν παραβολήν; Vulgate employs noun + demonstrative parabolam hanc ('this parable'); Peshitta uses noun + demonstrative ܡܬܠܐ ܗܢܐ, matching Vulgate's word order. The demonstrative hanc/ܗܢܐ adds deictic emphasis absent in the Greek article, making the reference more explicit."
-    },
-    {
-      "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek places the verb εἶπεν after the article+noun παραβολήν (with no demonstrative), Latin adds the demonstrative hanc following parabolam, and Syriac likewise supplies the demonstrative ܗܢܐ after ܡܬܠܐ. Both Syriac and Latin make the parable definite/deictic ('this parable') where the Greek uses only the article."
     },
     {
       "greek_nt": [
@@ -253,8 +258,7 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -270,7 +274,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses aorist participle ἀφέντες with separate pronoun αὐτόν ('having left him'); Vulgate employs ablative absolute relicto eo (perfect passive participle with ablative pronoun); Peshitta uses single verb form ܘܫܒܩܘܗܝ with pronominal suffix, integrating subject and object into one word. All express the same action, but through different participial/verbal strategies."
+      "note": "Greek uses the aorist participle ἀφέντες αὐτόν ('having left him') and Latin the ablative absolute relicto eo, both circumstantial constructions; Syriac employs a finite coordinate verb with object suffix ܘܫܒܩܘܗܝ ('and they left-him'), paratactic rather than participial."
     },
     {
       "greek_nt": [
@@ -282,14 +286,13 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.022570+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.541482+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

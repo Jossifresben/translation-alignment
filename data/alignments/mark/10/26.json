@@ -54,19 +54,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses article + δέ (οἱ δέ, 'but they'); Peshitta employs demonstrative pronoun + ܕܝܢ (ܗܢܘܢ ܕܝܢ, 'those however'); Vulgate uses relative pronoun Qui ('who'). All three function as resumptive subjects but differ in deixis and syntactic category."
+      "type": "construction",
+      "note": "Greek substantivises the demonstrative with the article οἱ ('they/the ones'); the Peshitta uses the free-standing pronoun ܗܢܘܢ; the Vulgate employs a relative pronoun Qui ('who'), recasting the clause relatively — three syntactically distinct strategies for the same anaphoric subject."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek postpositive connective δέ is matched by the Syriac ܕܝܢ (a Greek loan-particle), but the Vulgate omits any adversative/continuative particle here, folding the connection into the relative pronoun Qui."
     },
     {
       "greek_nt": [
@@ -78,7 +87,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "περισσῶς / ܝܬܝܪܐܝܬ / magis — adverb of intensification ('exceedingly/the more')."
     },
     {
       "greek_nt": [
@@ -93,7 +104,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect passive ἐξεπλήσσοντο ('were being astonished'); Peshitta employs periphrastic construction ܡܬܕܡܪܝܢ ܗܘܘ (participle + auxiliary 'were astonishing'); Vulgate uses simple imperfect admirabantur. All express durative past astonishment but through different aspectual strategies."
+      "note": "Greek uses a single synthetic imperfect ἐξεπλήσσοντο and Latin a single deponent imperfect admirabantur; the Peshitta forms a periphrastic past with the participle ܡܬܕܡܪܝܢ plus the auxiliary ܗܘܘ ('were'), the standard Syriac construction for durative past action."
     },
     {
       "greek_nt": [
@@ -105,37 +116,38 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek λέγοντες is masculine plural participle agreeing with οἱ; Peshitta ܘܐܡܪܝܢ prefixes conjunction waw ('and saying'); Vulgate dicentes lacks conjunction. The Peshitta's coordinating strategy reflects Semitic preference for parataxis over Greek participial subordination."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "λέγοντες / ܘܐܡܪܝܢ / dicentes — participle 'saying.'"
     },
     {
       "greek_nt": [
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
         4,
-        5
+        5,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses 'among themselves' analytically with preposition πρός plus reflexive ἑαυτούς, as does Latin with ad semet. The Peshitta condenses this into the single prepositional-pronominal form ܒܝܢܝܗܘܢ ('between/among them'); the parenthetical transliteration token (he'autous) is a scribal/editorial gloss with no semantic content."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "vulgate": [
+        7
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek πρὸς ἑαυτούς ('to themselves') and Vulgate ad semetipsos employ reflexive pronouns with directional prepositions; Peshitta ܒܝܢܝܗܘܢ ('among them') uses a prepositional phrase meaning 'between/among themselves,' a common Syriac idiom for reciprocal or internal discourse."
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "omitted",
-      "type": "punctuation",
-      "note": "Greek καὶ introduces the direct question as a coordinating conjunction; Vulgate uses colon punctuation; Peshitta omits both conjunction and punctuation marker, proceeding directly to the interrogative. This reflects differing conventions for marking direct discourse boundaries."
+      "note": "Greek καί and Latin Et introduce the direct question coordinatively ('And/Then'); the Peshitta supplies no corresponding conjunction, beginning the question directly with the interrogative — a permissible asyndeton in Syriac."
     },
     {
       "greek_nt": [
@@ -145,12 +157,11 @@
         7
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek τίς and Peshitta ܡܢܘ place the interrogative pronoun first; Vulgate inverts with Et quis ('And who'), prefixing the conjunction. The Vulgate's word order emphasizes the additive force of the question following the previous astonishment."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τίς / ܡܢܘ / quis — interrogative 'who.'"
     },
     {
       "greek_nt": [
@@ -162,7 +173,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "δύναται / ܡܫܟܚ / potest — 'is able.'"
     },
     {
       "greek_nt": [
@@ -176,22 +189,22 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek σωθῆναι is aorist passive infinitive ('to be saved'); Peshitta ܠܡܚܐ uses prefixed lamed + infinitive ('to live/be saved'); Vulgate employs salvus fieri (adjective + passive infinitive, 'to be made safe'). The Vulgate's periphrastic construction with salvus makes the resultant state more explicit than the Greek or Syriac verbal forms."
+      "type": "lexical",
+      "note": "Greek σωθῆναι ('to be saved,' aor. pass. inf.) and Latin salvus fieri ('to become safe') both carry soteriological force; the Peshitta ܠܡܚܐ derives from the root kh-y-a ('to live'), so it reads literally 'to live/be made alive,' a characteristically Syriac lexicalisation of salvation as vivification rather than rescue."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate marks the interrogative with an explicit terminal question mark as a separate token; the Greek and Syriac encode the question morphologically/syntactically without a discrete punctuation token in this edition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.011302+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.490232+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

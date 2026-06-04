@@ -46,13 +46,15 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        1
+      ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek Καί and Latin Et both function as coordinating conjunctions. Peshitta omits the conjunction entirely, beginning directly with the subject ܐܢܫܝܢ ('some men'), a common Syriac stylistic preference in narrative sequences."
+      "type": "word-order",
+      "note": "Greek and Latin open with the connective Καί / Et in initial position, whereas the Peshitta uses the postpositive particle ܕܝܢ ('but, now') in second position — a syntactic difference reflecting Syriac's preference for postpositive connectives over clause-initial coordination."
     },
     {
       "greek_nt": [
@@ -67,16 +69,6 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta inserts the postpositive particle ܕܝܢ ('but', 'now'), a characteristic Syriac discourse marker absent from both Greek and Latin witnesses. This particle provides narrative transition without altering the semantic content."
-    },
-    {
       "greek_nt": [
         2
       ],
@@ -90,25 +82,36 @@
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
         4,
-        5,
-        3
+        5
       ],
       "vulgate": [
         3,
         4,
-        5,
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek compresses the idea into a single denominative verb ἐψευδομαρτύρουν ('they were bearing false witness'); both the Vulgate (falsum testimonium ferebant) and the Peshitta (ܣܗܕܐ ܕܫܘܩܪܐ, 'witness of falsehood') unpack it analytically into a noun phrase plus verb, reflecting the absence of an equivalent compound verb in those languages."
+    },
+    {
+      "greek_nt": [
+        4,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
         6,
         7
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the compound verb ἐψευδομαρτύρουν with prepositional phrase κατ᾽ αὐτοῦ ('were bearing false witness against him'). Latin expands this into a three-word construction falsum testimonium ferebant adversus eum, analytically separating adjective, noun, and verb. Peshitta uses the construct phrase ܣܗܕܐ ܕܫܘܩܪܐ ܥܠܘܗܝ ('testimony of falsehood against him'), placing the prepositional phrase before the nominal construct—a distinct syntactic structure conveying identical meaning."
+      "note": "The Greek preposition κατά with the genitive αὐτοῦ ('against him') and the Latin adversus eum are both rendered in Syriac by the single prepositional pronoun ܥܠܘܗܝ ('upon/against him'), where the preposition fuses with the suffix pronoun — a normal Syriac economy."
     },
     {
       "greek_nt": [
@@ -120,23 +123,23 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a present participle (λέγοντες / dicentes, 'saying') subordinated to the main verb, whereas the Peshitta employs a finite coordinated verb ܘܐܡܪܘ ('and they said'), reflecting the Semitic preference for paratactic coordination over participial subordination."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         9
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate adds a colon to introduce direct discourse. This punctuation mark reflects Latin editorial convention and has no equivalent in the Greek or Syriac manuscript traditions, which lack systematic punctuation."
+      "note": "The Clementine Vulgate marks the boundary before direct speech with an explicit colon, a scribal punctuation feature with no lexical counterpart in the Greek or Syriac witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.043810+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.498998+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

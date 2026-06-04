@@ -69,7 +69,7 @@
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἕνεκεν τούτου / ܡܛܠ ܗܢܐ / Propter hoc — standard causal formula."
     },
     {
       "greek_nt": [
@@ -82,7 +82,7 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καταλείψει / ܢܫܒܘܩ / relinquet — future of 'leave/forsake'."
     },
     {
       "greek_nt": [
@@ -95,7 +95,7 @@
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἄνθρωπος / ܓܒܪܐ / homo. The Syriac ܓܒܪܐ (g-b-r) specifically denotes 'man, male,' more precise than the generic Greek ἄνθρωπος and Latin homo, though all function here as the marital subject."
     },
     {
       "greek_nt": [
@@ -112,7 +112,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs article + noun + possessive pronoun (τὸν πατέρα αὐτοῦ) in analytic construction; Syriac uses synthetic form with pronominal suffix (ܠܐܒܘܗܝ); Vulgate follows Greek structure with patrem suum but omits the article, as Latin lacks definite articles."
+      "note": "Greek expresses 'his father' analytically with article + noun + possessive pronoun (τὸν πατέρα αὐτοῦ); Latin uses patrem suum; Syriac ܠܐܒܘܗܝ fuses the object marker, noun, and pronominal suffix into a single morphological word — semantically equivalent but synthetically constructed."
     },
     {
       "greek_nt": [
@@ -122,9 +122,8 @@
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "type": "omission",
-      "note": "Syriac omits the conjunction before 'mother' (ܘܠܐܡܗ incorporates the conjunction within the single token), creating a more compact construction where Greek καὶ and Latin et explicitly coordinate the two objects."
+      "variant": "aligned",
+      "note": "καί / et — the conjunction; in Syriac it is prefixed proclitically to the following word rather than standing as a separate token."
     },
     {
       "greek_nt": [
@@ -139,20 +138,18 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + noun (τὴν μητέρα); Syriac employs synthetic form with conjunction and pronominal suffix (ܘܠܐܡܗ, 'and-to-his-mother'); Vulgate matrem with comma reflects Latin's articleless nominal system and marks the end of the coordinate object phrase."
+      "note": "Greek τὴν μητέρα and Latin matrem render 'the mother' as discrete article/noun units, whereas the Syriac ܘܠܐܡܗ packages conjunction, object marker, noun, and possessive suffix ('and his mother') into one synthetic form."
     },
     {
       "greek_nt": [
         10
       ],
-      "peshitta": [
-        6
-      ],
+      "peshitta": [],
       "vulgate": [
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / et — coordinating conjunction joining the two clauses; the Syriac conjunction is again proclitically attached to ܢܩܦ."
     },
     {
       "greek_nt": [
@@ -164,9 +161,8 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek προσκολληθήσεται (future passive, 'will be joined/glued to') and Latin adhærebit (future active, 'will adhere/cling to') both render the LXX's προσκολληθήσεται from Genesis 2:24; Syriac ܘܢܩܦ ('and-he-will-cleave') uses a semantically equivalent but distinct Semitic root, maintaining the future tense but with active voice morphology."
+      "variant": "aligned",
+      "note": "προσκολληθήσεται / ܢܩܦ / adhærebit — 'will cleave/be joined to,' echoing Gen 2:24."
     },
     {
       "greek_nt": [
@@ -185,7 +181,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses preposition + article + noun + possessive (πρὸς τὴν γυναῖκα αὐτοῦ); Syriac employs synthetic construction with preposition and pronominal suffix (ܠܐܢܬܬܗ, 'to-his-wife'); Vulgate ad uxorem suam mirrors Greek structure without article, reflecting Latin's articleless grammar and use of possessive adjective."
+      "note": "Greek uses the prepositional phrase πρὸς τὴν γυναῖκα αὐτοῦ and Latin the analytic ad uxorem suam, while Syriac ܠܐܢܬܬܗ compresses preposition, noun, and possessive suffix into a single word; the Syriac and Latin both lack the explicit preposition that Greek marks with πρός in periphrastic form."
     },
     {
       "greek_nt": [],
@@ -195,13 +191,13 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate adds colon punctuation to mark the end of the quotation from Genesis 2:24, a scribal convention not present in Greek or Syriac manuscripts of this verse."
+      "note": "The Clementine Vulgate closes the clause with a colon, anticipating the continuation in the following verse; neither the Greek (which ends with a comma) nor the unpunctuated Peshitta token stream marks this break identically."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.008386+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.431179+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

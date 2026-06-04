@@ -58,11 +58,9 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek καὶ ('and') is omitted in both Peshitta and Vulgate, which begin the Pharisees' speech without a coordinating conjunction. This reflects a stylistic preference in both traditions to avoid redundant connectives when narrative flow is clear from context."
+      "note": "The Greek opens with the paratactic conjunction καί ('and'), characteristic of Markan narrative style. The Vulgate renders this with the adversative-postpositive autem ('but/however'), while the Peshitta absorbs the connective into the prefixed waw of ܘܐܡܪܝܢ; thus the Greek standalone καί has no discrete counterpart in either version."
     },
     {
       "greek_nt": [
@@ -76,25 +74,35 @@
         0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses the article + noun construction (οἱ Φαρισαῖοι) with the article preceding the verb; Vulgate places Pharisæi in initial position without an article (Latin lacking definite articles); Peshitta places ܦܪܝܫܐ after the verb. These represent standard word-order conventions in each language rather than semantic divergence."
+      "type": "grammar",
+      "note": "Greek marks the subject with the definite article (οἱ Φαρισαῖοι); the anarthrous Vulgate Pharisæi and the Syriac ܦܪܝܫܐ omit any article, the Latin lacking one categorically and Syriac expressing definiteness through the emphatic state."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "All three attest the dative/preposition 'to him' (αὐτῷ / ܠܗ / ei); the Vulgate isolates the speech-introducing colon as a discrete token, whereas Greek fuses the raised dot into αὐτῷ· and Syriac leaves it unpunctuated."
     },
     {
       "greek_nt": [
@@ -106,9 +114,8 @@
       "vulgate": [
         5
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἴδε ('behold') is rendered by Peshitta ܚܙܝ ('see') and Vulgate Ecce ('behold'). While Greek and Latin use interjections, Syriac employs an imperative verb form of the root ḥzā ('to see'), a common Semitic idiom for drawing attention that is functionally equivalent to the Greek/Latin interjections."
+      "variant": "aligned",
+      "note": "ἴδε / ܚܙܝ / Ecce"
     },
     {
       "greek_nt": [
@@ -121,7 +128,7 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τί / ܡܢܐ / quid"
     },
     {
       "greek_nt": [
@@ -134,7 +141,7 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ποιοῦσιν / ܥܒܕܝܢ / faciunt"
     },
     {
       "greek_nt": [
@@ -149,8 +156,8 @@
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a prepositional phrase with article and dative plural (ἐν τοῖς σάββασιν, 'on the Sabbaths'); Vulgate employs dative plural without preposition or article (sabbatis); Peshitta uses preposition + singular noun (ܒܫܒܬܐ, 'on the Sabbath'). The Syriac singular is a collective idiom typical for recurring time periods, semantically equivalent to the Greek/Latin plurals."
+      "type": "grammar",
+      "note": "Greek uses the articular prepositional phrase ἐν τοῖς σάββασιν with the neuter plural σάββατον; the Vulgate renders the plural with the simple ablative sabbatis without a preposition, while the Peshitta uses the singular emphatic ܒܫܒܬܐ with prefixed beth, a typical Syriac singular-for-plural treatment of the Sabbath."
     },
     {
       "greek_nt": [
@@ -163,31 +170,42 @@
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the relative pronoun ὃ ('that which') to introduce the relative clause; Vulgate uses quod in parallel construction; Peshitta inserts ܡܕܡ ('something/anything'), an indefinite pronoun that functions as the object of the relative clause introduced by ܕ. This represents a Syriac syntactic preference for explicit objects in relative constructions."
+      "type": "lexical",
+      "note": "Greek and Latin employ the bare relative pronoun (ὃ / quod, 'that which'); the Peshitta prefaces the relative ܕ- with the indefinite substantive ܡܕܡ ('something which'), an idiomatic Syriac construction that supplies an explicit antecedent absent in the other two traditions."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "οὐκ / ܕܠܐ / non"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        10,
         11,
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "All attest the impersonal 'it is (not) lawful' (ἔξεστιν / ܫܠܝܛ / licet); the interrogative force is marked by the Greek question mark fused to ἔξεστιν;¶ and by the discrete Latin terminal '?', whereas the Syriac carries no graphic interrogation."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.955840+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.499295+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

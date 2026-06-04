@@ -48,8 +48,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -61,9 +60,7 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek δέ and Syriac ܕܝܢ are standard continuative particles, while Latin vero ('truly, indeed') carries slightly stronger adversative force, though all three function as discourse connectives here."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -78,8 +75,7 @@
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the negative μή immediately after the conjunction ἵνα (ἵνα μή), Syriac contracts them into ܕܠܐ, and Latin separates ut from non by the temporal adverb hieme, creating different surface word orders for the same negative purpose clause."
+      "note": "Greek expresses the negative purpose clause with ἵνα μή ('that ... not'); the Peshitta compresses this into the single negative particle ܕܠܐ ('that not'); the Vulgate splits the elements with ut ... non straddling the intervening hieme. All three convey the same final-negative construction with differing degrees of analyticity."
     },
     {
       "greek_nt": [
@@ -91,8 +87,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "All three use a verb of becoming/happening (γένηται aorist subjunctive, ܢܗܘܐ imperfect, fiant present subjunctive). The Vulgate fiant is plural, agreeing with an implied plural subject (cf. its omission of an explicit 'flight'), whereas Greek and Syriac are singular agreeing with the explicit noun 'flight'."
     },
     {
       "greek_nt": [
@@ -105,8 +101,7 @@
       ],
       "vulgate": [],
       "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the articular noun phrase ἡ φυγὴ ὑμῶν ('the flight of you', nominative subject) and Syriac employs the suffixed noun ܥܪܘܩܝܟܘܢ ('your-flight', also nominative). Latin omits any explicit subject noun, leaving the verb fiant ('they may happen') without a stated subject, relying on context to supply 'these things' from the preceding discourse."
+      "note": "Greek supplies the articular noun phrase ἡ φυγὴ ὑμῶν ('your flight') as the explicit subject; the Peshitta renders this with a single noun bearing the 2nd-plural possessive suffix ܥܪܘܩܝܟܘܢ ('your flight'). The Clementine Vulgate omits any noun for 'flight' entirely, leaving fiant subjectless and forcing the reader to supply 'these things' from context — a notable Latin abridgement of the verse."
     },
     {
       "greek_nt": [
@@ -119,14 +114,13 @@
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek χειμῶνος (genitive of time, 'in winter') appears clause-finally, Syriac ܒܣܬܘܐ (prepositional phrase, 'in winter') likewise stands at the end, but Latin hieme (ablative of time without preposition) is fronted immediately after ut, creating a chiastic word-order pattern relative to the Greek and Syriac."
+      "note": "Greek χειμῶνος is a genitive of time ('in winter'); the Peshitta ܒܣܬܘܐ uses the preposition beth ('in winter'); the Vulgate hieme is an ablative of time. The three idioms for temporal circumstance are functionally equivalent, but the Vulgate fronts the word before the verb, a word-order shift relative to the Greek's clause-final placement."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.031015+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.453538+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

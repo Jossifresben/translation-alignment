@@ -107,11 +107,18 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ (prefixed in ܘܥܕ) / Et."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek adverb εὐθὺς ('immediately'), a hallmark of Markan style, is absent in both the Peshitta and the Vulgate, which open directly with the temporal clause. Its omission here reflects the versions' tendency to smooth Mark's repetitive paratactic 'and immediately' transitions."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
@@ -120,9 +127,8 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek employs two adverbs (εὐθὺς ἔτι, 'immediately while yet') for dramatic immediacy; Peshitta conflates into ܘܥܕ ('and while'); Vulgate uses adhuc alone ('still'), omitting the immediacy marker—stylistic variation without semantic loss."
+      "variant": "aligned",
+      "note": "ἔτι / ܥܕ (in ܘܥܕ) / adhuc."
     },
     {
       "greek_nt": [
@@ -137,8 +143,9 @@
         2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a genitive absolute (αὐτοῦ λαλοῦντος) and Latin its ablative absolute equivalent (eo loquente); the Peshitta renders the same circumstantial idea with an independent pronoun plus a participle (ܗܘ ܡܡܠܠ), a paratactic construction idiomatic to Syriac which lacks a true absolute case."
     },
     {
       "greek_nt": [
@@ -150,8 +157,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek παραγίνεται ('arrives, comes up') is a present historic with a compound nuance of approach; both the Peshitta ܐܬܐ and the Vulgate venit render it with the simple verb 'comes/came', flattening the perfective force of the Greek prefix παρα-."
     },
     {
       "greek_nt": [
@@ -164,9 +172,8 @@
       "vulgate": [
         5
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses double article construction (ὁ Ἰούδας, ὁ Ἰσκαριώτης) for emphasis; Syriac and Latin lack articles, rendering the proper name directly—a morphological difference reflecting target-language norms."
+      "variant": "aligned",
+      "note": "ὁ Ἰούδας / ܝܗܘܕܐ / Judas."
     },
     {
       "greek_nt": [
@@ -179,47 +186,66 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek and Latin transliterate the epithet with the article-bearing 'the Iscariot' (ὁ Ἰσκαριώτης / Iscariotes); the Peshitta gives the anarthrous form ܣܟܪܝܘܛܐ, omitting the article that Syriac would not normally attach to a proper epithet of this kind."
     },
     {
       "greek_nt": [
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses 'one being of the Twelve' with the participle ὢν (εἷς ὢν τῶν δώδεκα); both the Peshitta (ܚܕ ܡܢ) and the Vulgate (unus de) drop the copular participle, using a simple partitive preposition, a more economical equivalent construction."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a participial phrase (εἷς ὢν τῶν δώδεκα, 'one being of the Twelve'); Syriac employs a prepositional phrase (ܚܕ ܡܢ ܬܪܥܣܪ, 'one from twelve'); Vulgate mirrors Greek structure (unus de duodecim)—syntactically distinct but semantically equivalent."
+      "variant": "aligned",
+      "note": "τῶν δώδεκα / ܡܢ ܬܪܥܣܪ / de duodecim."
     },
     {
       "greek_nt": [
-        14,
-        15,
-        16
+        14
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
-        10,
+        10
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ (in ܘܥܡܐ) / et."
+    },
+    {
+      "greek_nt": [
+        15,
+        16
+      ],
+      "vulgate": [
         11,
         12
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places conjunction and prepositional phrase before the noun (καὶ μετ᾽ αὐτοῦ ὄχλος); Syriac fronts the noun with enclitic conjunction (ܘܥܡܐ, 'and-crowd'); Vulgate follows Greek order (et cum eo turba)—word-order variation typical of Semitic vs. Greek syntax."
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek μετ᾽ αὐτοῦ and Latin cum eo ('with him') specify that the crowd accompanied Judas; the Peshitta omits this prepositional phrase entirely, presenting the crowd's arrival without the explicit accompaniment marker."
     },
     {
       "greek_nt": [
@@ -227,6 +253,7 @@
         18
       ],
       "peshitta": [
+        9,
         10
       ],
       "vulgate": [
@@ -234,23 +261,34 @@
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ὄχλος πολύς / ܥܡܐ ܣܓܝܐܐ / turba multa."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "μετά / ܥܡ / cum."
+    },
+    {
+      "greek_nt": [
         20
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        15,
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek μαχαιρῶν and Latin gladiis are plural ('swords'); the Syriac ܣܦܣܪܐ is a collective/loanword form that does not mark plurality morphologically, a typical Syriac idiom for collective weaponry."
     },
     {
       "greek_nt": [
@@ -263,7 +301,7 @@
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ (in ܘܚܘܛܪܐ) / et."
     },
     {
       "greek_nt": [
@@ -275,33 +313,56 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ξύλων and Latin lignis are plural ('clubs/staves'); the Syriac ܚܘܛܪܐ ('staff') again appears in an unmarked collective form, paralleling the treatment of 'swords' in the same clause."
     },
     {
       "greek_nt": [
-        23,
+        23
+      ],
+      "peshitta": [
+        14,
+        15
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek παρά and Latin a both express simple agency/origin ('from'); the Peshitta uses a compound preposition ܡܢ ܠܘܬ ('from beside/from the presence of'), a fuller idiomatic phrase emphasising that the crowd was dispatched by the named authorities."
+    },
+    {
+      "greek_nt": [
         24,
         25
       ],
       "peshitta": [
-        14,
-        15,
         16,
         17
       ],
       "vulgate": [
-        19,
         20,
         21
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek παρὰ τῶν ἀρχιερέων ('from the chief priests') uses a compound noun; Syriac employs a construct chain (ܡܢ ܠܘܬ ܪܒܝ ܟܗܢܐ, 'from toward chief-of priests'); Vulgate a summis sacerdotibus uses an adjective + noun—lexical variation reflecting each tradition's standard terminology for the priestly hierarchy."
+      "variant": "aligned",
+      "note": "τῶν ἀρχιερέων / ܪܒܝ ܟܗܢܐ / summis sacerdotibus."
     },
     {
       "greek_nt": [
-        26,
+        26
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ (in ܘܣܦܪܐ) / et."
+    },
+    {
+      "greek_nt": [
         27,
         28
       ],
@@ -309,15 +370,26 @@
         18
       ],
       "vulgate": [
-        22,
         23
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τῶν γραμματέων / ܣܦܪܐ / scribis."
     },
     {
       "greek_nt": [
-        29,
+        29
+      ],
+      "peshitta": [
+        19
+      ],
+      "vulgate": [
+        24
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ (in ܘܩܫܝܫܐ) / et."
+    },
+    {
+      "greek_nt": [
         30,
         31
       ],
@@ -325,17 +397,16 @@
         19
       ],
       "vulgate": [
-        24,
         25
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τῶν πρεσβυτέρων / ܩܫܝܫܐ / senioribus."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.041588+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.419022+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

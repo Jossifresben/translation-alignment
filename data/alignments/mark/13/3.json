@@ -75,32 +75,21 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        1,
-        2
-      ],
-      "peshitta": [
+        0,
         1
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a genitive absolute construction (καθημένου αὐτοῦ) with the participle and pronoun; Latin employs a cum-temporal clause (cum sederet) with finite verb; Peshitta uses a simple temporal participle (ܝܬܒ) without explicit subject pronoun, relying on context."
+      "note": "Greek employs a genitive absolute (καθημένου αὐτοῦ); both Latin (cum sederet) and Syriac (ܘܟܕ ܝܬܒ) render this with a temporal subordinate clause introduced by 'when', a syntactically distinct but semantically equivalent construction."
     },
     {
       "greek_nt": [
@@ -110,9 +99,9 @@
         2
       ],
       "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject, whereas Greek and Latin rely on the pronoun αὐτοῦ/implicit subject to maintain reference from the preceding narrative context."
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek and Vulgate express the subject pronominally (αὐτοῦ / -et of sederet), whereas the Peshitta makes the subject explicit by naming ܝܫܘܥ ('Jesus'), a common Syriac clarifying expansion that removes pronominal ambiguity."
     },
     {
       "greek_nt": [
@@ -127,8 +116,9 @@
         3,
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses εἰς τὸ ὄρος with the article and a preposition of motion; Latin in monte is locative; Syriac fuses preposition and noun into the single prefixed form ܒܛܘܪܐ ('on the mountain'), reflecting normal Syriac morphology."
     },
     {
       "greek_nt": [
@@ -142,60 +132,88 @@
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐλαιῶν / ܕܙܝܬܐ / Olivarum"
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        8
       ],
       "peshitta": [
-        5,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "κατέναντι / ܠܘܩܒܠ / contra"
+    },
+    {
+      "greek_nt": [
+        9,
+        10,
+        11
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek κατέναντι and Latin contra both mean 'opposite/facing,' while Peshitta ܠܘܩܒܠ carries the same spatial sense; Greek uses ἱερόν (temple precinct) whereas Peshitta ܗܝܟܠܐ and Latin templum can denote either the sanctuary proper or the broader complex, representing a minor lexical variation in temple terminology."
+      "variant": "aligned",
+      "note": "ἱεροῦ / ܗܝܟܠܐ / templum"
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "added",
+      "type": "agreement",
+      "note": "This token is a transliteration gloss (hi'erou) duplicating the preceding ἱεροῦ and carries no independent textual witness; it is grouped here as editorial apparatus rather than primary Greek text."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        8,
-        9
+        8
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the imperfect ἐπηρώτα (singular, 'was asking') with subsequent subject names, implying iterative or durative action; Latin interrogabant (imperfect plural) and Peshitta ܫܐܠܘܗܝ (perfect plural with pronominal suffix) both employ plural verb forms agreeing with the four disciples as collective subject."
+      "note": "Greek ἐπηρώτα is imperfect singular ('he was asking'), referring to the verbal action; the Vulgate interrogabant is plural ('they were asking'), agreeing with the named disciples as compound subject, while the Syriac ܫܐܠܘܗܝ is likewise plural with the suffixed object pronoun — Latin and Syriac thus agree against the Greek in number."
     },
     {
       "greek_nt": [
-        13,
-        14
+        13
       ],
       "peshitta": [
         12
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places κατ᾽ ἰδίαν ('privately') before the list of disciples; Latin separatim appears mid-sentence after the verb; Peshitta ܒܠܚܘܕܝܗܘܢ ('by themselves') follows the entire list of names, representing stylistic variation in adverbial placement without semantic difference."
+      "variant": "aligned",
+      "note": "αὐτὸν / eum"
     },
     {
       "greek_nt": [
+        14,
         15
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek κατ᾽ ἰδίαν ('privately') is rendered by Latin separatim and by Syriac ܒܠܚܘܕܝܗܘܢ ('by themselves'); the Syriac uses a third-plural suffixed reflexive form, idiomatically pluralising the privacy to the disciples rather than treating it adverbially."
+    },
+    {
+      "greek_nt": [
+        16
       ],
       "peshitta": [
         8
@@ -204,24 +222,22 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Πέτρος / ܟܐܦܐ / Petrus"
     },
     {
       "greek_nt": [
         17
+      ],
+      "peshitta": [],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "καί / et"
+    },
+    {
+      "greek_nt": [
+        18
       ],
       "peshitta": [
         9
@@ -230,24 +246,22 @@
         13
       ],
       "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Ἰάκωβος / ܘܝܥܩܘܒ / Jacobus"
     },
     {
       "greek_nt": [
         19
+      ],
+      "peshitta": [],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "καί / et"
+    },
+    {
+      "greek_nt": [
+        20
       ],
       "peshitta": [
         10
@@ -256,24 +270,23 @@
         15
       ],
       "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        20
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        16
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Ἰωάννης / ܘܝܘܚܢܢ / Joannes"
     },
     {
       "greek_nt": [
         21
+      ],
+      "peshitta": [],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "καί / et"
+    },
+    {
+      "greek_nt": [
+        22,
+        23
       ],
       "peshitta": [
         11
@@ -283,13 +296,13 @@
         18
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Ἀνδρέας / ܘܐܢܕܪܐܘܣ / Andreas"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.028625+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.517186+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

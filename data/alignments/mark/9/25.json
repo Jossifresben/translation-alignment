@@ -109,29 +109,39 @@
     {
       "greek_nt": [
         0,
-        1,
-        2,
-        3,
-        4
+        1
       ],
       "peshitta": [
         0,
         1,
-        2,
-        3
+        2
       ],
       "vulgate": [
         0,
         1,
-        2,
-        3
+        2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a participial construction (Ἰδὼν δὲ ὁ Ἰησοῦς ὅτι) with aorist participle plus ὅτι-clause; Peshitta employs a temporal clause with ܟܕ ('when') plus finite verb; Vulgate uses cum + subjunctive (cum videret). All three express the same temporal-causal relationship but through different syntactic strategies."
+      "note": "Greek uses an aorist participle (Ἰδὼν, 'having seen') with the postpositive δέ; the Peshitta employs a temporal subordinate clause ܟܕ ܚܙܐ ('when he saw') with ܕܝܢ, while the Vulgate likewise uses Et cum videret. The participial vs. temporal-clause realisation is a routine syntactic divergence in the versions."
     },
     {
       "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "ὁ Ἰησοῦς / ܝܫܘܥ / Jesus"
+    },
+    {
+      "greek_nt": [
+        4,
         5,
         6
       ],
@@ -147,7 +157,7 @@
       ],
       "variant": "minor",
       "type": "expansion",
-      "note": "Peshitta expands the Greek compound verb ἐπισυντρέχει ('was running together') into two finite verbs ܕܪܗܛ ܥܡܐ ܘܡܬܟܢܫ ܠܘܬܗ ('the crowd was running and gathering toward him'), making the convergent motion more explicit. Greek and Latin preserve the single compound verb (ἐπισυντρέχει / concurrentem)."
+      "note": "Greek ὅτι ἐπισυντρέχει ὄχλος ('that a crowd was running together') is rendered by the Peshitta with a coordinate doublet ܕܪܗܛ...ܘܡܬܟܢܫ ܠܘܬܗ ('that the people ran and gathered to him'), adding both the gathering verb and the directional 'to him.' The Vulgate compresses to a single participle, concurrentem turbam."
     },
     {
       "greek_nt": [
@@ -160,9 +170,8 @@
         6,
         7
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐπετίμησεν ('rebuked') and Syriac ܟܐܐ ('rebuked') are semantically aligned, while Vulgate uses comminatus est ('threatened'), a stronger term emphasizing the authoritative warning aspect of Jesus's action."
+      "variant": "aligned",
+      "note": "ἐπετίμησεν / ܟܐܐ / comminatus est"
     },
     {
       "greek_nt": [
@@ -181,8 +190,8 @@
         9
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adjective ἀκαθάρτῳ after the noun πνεύματι with double article (τῷ πνεύματι τῷ ἀκαθάρτῳ); Peshitta follows Semitic word order with adjective after noun (ܪܘܚܐ ܛܢܦܬܐ); Vulgate uses Latin attributive order with adjective before noun (spiritui immundo). All three denote the same referent."
+      "type": "grammar",
+      "note": "Greek and Vulgate name the object simply as 'the unclean spirit' (τῷ πνεύματι τῷ ἀκαθάρτῳ / spiritui immundo); the Peshitta inserts the demonstrative ܒܗܝ ('that') before ܪܘܚܐ ܛܢܦܬܐ, a typical Syriac anaphoric specification carrying no semantic addition."
     },
     {
       "greek_nt": [
@@ -198,9 +207,8 @@
         11,
         12
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi to mark the beginning of direct speech, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. The syntactic function (introducing direct discourse) remains identical across all three traditions."
+      "variant": "aligned",
+      "note": "λέγων αὐτῷ / ܘܐܡܪ ܠܗ / dicens illi"
     },
     {
       "greek_nt": [
@@ -224,8 +232,8 @@
         16
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses vocative article + adjective + conjunction + adjective + vocative article + noun (τὸ ἄλαλον καὶ κωφὸν τὸ πνεῦμα); Vulgate reverses to adjective + conjunction + adjective + noun (Surde et mute spiritus); Peshitta employs noun + adjective + relative clause construction (ܪܘܚܐ ܚܪܫܬܐ ܕܠܐ ܡܡܠܠܐ, 'spirit deaf that does not speak'). The Peshitta expands ἄλαλον ('mute') into a relative clause for clarity."
+      "type": "construction",
+      "note": "Greek attributes two adjectives in vocative articular construction (τὸ ἄλαλον καὶ κωφὸν τὸ πνεῦμα, 'mute and deaf spirit'); the Vulgate renders Surde et mute spiritus ('deaf and dumb spirit') reversing the order of the epithets. The Peshitta uses ܪܘܚܐ ܚܪܫܬܐ ܕܠܐ ܡܡܠܠܐ ('deaf spirit that does not speak'), recasting the second epithet as a relative clause rather than an adjective."
     },
     {
       "greek_nt": [
@@ -245,8 +253,8 @@
         19
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Peshitta doubles the first-person pronoun (ܐܢܐ ܦܩܕ ܐܢܐ ܠܟܝ, 'I command I to-you'), a Semitic emphatic construction, while Greek ἐγὼ ἐπιτάσσω σοι and Latin ego praecipio tibi use the pronoun once. The Peshitta's repetition intensifies the authoritative tone without altering the semantic content."
+      "type": "idiom",
+      "note": "Greek ἐγὼ ἐπιτάσσω σοι uses an emphatic pronoun + verb; the Peshitta renders this with the characteristic enclitic-pronoun construction ܐܢܐ ܦܩܕ ܐܢܐ (literally 'I command-I'), a normal Syriac participial-plus-pronoun present. Note ܠܟܝ is feminine ('to you' f.sg.), agreeing grammatically with the feminine noun ܪܘܚܐ."
     },
     {
       "greek_nt": [
@@ -264,9 +272,8 @@
         22,
         23
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist imperative ἔξελθε with prepositional phrase ἐξ αὐτοῦ ('come out from him'); Peshitta employs feminine imperative ܦܘܩܝ ܡܢܗ (addressing the spirit as grammatically feminine); Vulgate adds a second colon after eo for rhetorical emphasis. All three preserve the command structure with minor stylistic variation."
+      "variant": "aligned",
+      "note": "ἔξελθε ἐξ αὐτοῦ / ܦܘܩܝ ܡܢܗ / exi ab eo"
     },
     {
       "greek_nt": [
@@ -291,13 +298,13 @@
         29
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καὶ μηκέτι εἰσέλθῃς εἰς αὐτόν / ܘܬܘܒ ܠܐ ܬܥܠܝܢ ܠܗ / et amplius ne introëas in eum"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.233673+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.432715+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

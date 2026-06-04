@@ -68,50 +68,69 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ (prefixed to ܥܢܐ) / Et — coordinating conjunction."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses conjunction + aorist passive (Καὶ ἀπεκρίθη); Peshitta employs a single verb form (ܘܥܢܐ, waw-consecutive + active); Vulgate uses conjunction + participle (Et respondens). All three express the same narrative action but with different syntactic strategies typical of each language's discourse structure."
+      "type": "construction",
+      "note": "Greek uses the finite aorist ἀπεκρίθη ('answered'); the Vulgate renders it with the present participle respondens, a periphrastic Semitic-style construction common in the Gospels; the Peshitta's ܘܥܢܐ is finite, matching the Greek but absorbing the conjunction. Syriac index 0 is shared with the conjunction group above by morphological necessity."
     },
     {
       "greek_nt": [
         2
       ],
-      "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek includes the dative pronoun αὐτῷ ('to him'), specifying Jesus as the addressee. Both Peshitta and Vulgate omit this pronoun, leaving the addressee implicit from narrative context—a common Semitic and Latin stylistic preference when the referent is clear."
+      "note": "The Greek dative αὐτῷ ('to him', i.e. to Jesus) is present in NA28 but has no counterpart in either the Vulgate or the Peshitta, both of which leave the indirect object implicit; this is a frequent minor Western/Syriac economy with redundant pronouns."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "εἷς / ܚܕ / unus — 'one (of the crowd)'."
+    },
+    {
+      "greek_nt": [
         4,
         5,
         6
       ],
       "peshitta": [
-        1,
         2,
         3
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the partitive construction εἷς ἐκ τοῦ ὄχλου ('one out of the crowd') with article + genitive; Peshitta mirrors this with ܚܕ ܡܢ ܟܢܫܐ (ḥaḏ men kenšā); Vulgate employs unus de turba. All three are semantically equivalent partitive expressions, differing only in the presence/absence of the article (Greek has it, Syriac and Latin lack it per their respective norms)."
+      "variant": "aligned",
+      "note": "ἐκ τοῦ ὄχλου / ܡܢ ܟܢܫܐ / de turba — partitive prepositional phrase; Greek and Vulgate carry the article, Syriac uses the emphatic state."
     },
     {
       "greek_nt": [
@@ -124,9 +143,8 @@
         5,
         6
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses a raised dot (εἶπεν·) to mark direct speech; Peshitta continues with ܘܐܡܪ (wa-'mar, 'and he said') without punctuation; Vulgate inserts a colon (dixit :) before the quotation. These represent editorial punctuation conventions rather than textual variants, though the Vulgate's explicit colon is a later scribal addition."
+      "variant": "aligned",
+      "note": "εἶπεν / ܘܐܡܪ / dixit (with following colon) — verb of speaking introducing direct discourse."
     },
     {
       "greek_nt": [
@@ -138,32 +156,52 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "διδάσκαλε / ܡܠܦܢܐ / Magister — vocative address, 'Teacher'."
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
+        9
       ],
       "peshitta": [
-        6,
-        7,
-        8
+        6
       ],
       "vulgate": [
-        8,
-        9,
+        8
+      ],
+      "variant": "aligned",
+      "note": "ἤνεγκα / ܐܝܬܝܬ / attuli — first-person aorist/perfect, 'I brought'."
+    },
+    {
+      "greek_nt": [
         10,
         11,
         12
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb first (ἤνεγκα τὸν υἱόν μου πρὸς σὲ, 'I brought the son of mine to you'); Peshitta uses VSO order (ܐܝܬܝܬ ܒܪܝ ܠܘܬܟ, 'I brought my son to you'); Vulgate follows Latin VDO order (attuli filium meum ad te). All three convey identical propositional content but reflect the canonical word-order preferences of their respective languages."
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "aligned",
+      "note": "τὸν υἱόν μου / ܒܪܝ / filium meum — 'my son'; Syriac compresses the possessive into the suffixed ܒܪܝ, where Greek and Latin use separate pronouns."
+    },
+    {
+      "greek_nt": [
+        13,
+        14
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11,
+        12
+      ],
+      "variant": "aligned",
+      "note": "πρὸς σέ / ܠܘܬܟ / ad te — 'to you'; Syriac again suffixes the pronoun to the preposition."
     },
     {
       "greek_nt": [
@@ -181,27 +219,18 @@
       "vulgate": [
         13,
         14,
-        15
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an accusative participle construction (ἔχοντα πνεῦμα ἄλαλον, 'having a mute spirit'); Peshitta employs a relative clause with existential verb (ܕܐܝܬ ܠܗ ܪܘܚܐ ܕܠܐ ܡܡܠܠܐ, 'd-'īṯ leh rūḥā d-lā mamlelā, 'who has a spirit that does not speak'); Vulgate mirrors the Greek with a Latin participle (habentem spiritum mutum). The Peshitta's double-relative construction is a typical Syriac strategy for expressing attributive modification, semantically equivalent to the Greek and Latin participial phrases."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        15,
         16
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate adds a closing colon after mutum, marking the end of the direct speech quotation. This is an editorial punctuation convention absent in the Greek and Peshitta manuscripts, which rely on context or spacing to signal quotation boundaries."
+      "type": "construction",
+      "note": "Greek uses an attributive participle phrase ἔχοντα πνεῦμα ἄλαλον ('having a mute spirit'), and the Vulgate mirrors it with habentem spiritum mutum; the Peshitta restructures with the existential relative ܕܐܝܬ ܠܗ ('who has [lit. there-is to-him] a spirit') and renders 'mute' analytically as ܕܠܐ ܡܡܠܠܐ ('that does not speak'), a typical Syriac periphrasis for the single adjective ἄλαλος."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.232135+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.483985+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

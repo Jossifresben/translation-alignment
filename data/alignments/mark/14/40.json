@@ -70,104 +70,240 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
-        1,
-        2
+        0
       ],
       "vulgate": [
-        0,
-        1,
-        2
+        0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places πάλιν ('again') before the participle ἐλθών, while Peshitta reverses the order (ܘܗܦܟ ܐܬܐ ܬܘܒ, 'and he returned, came again') and Vulgate uses reversus denuo. All three traditions convey the same sense of Jesus returning a second time, but with different syntactic arrangements of the adverb and verb."
+      "type": "construction",
+      "note": "The Greek καί introduces the clause with the participle ἐλθών ('having come') carrying the motion; the Peshitta renders the verb of return as a finite verb ܘܗܦܟ ('and he returned'), and the Vulgate matches the Syriac with a perfect participle reversus. The Syriac thus splits a single Greek action into coordinated finite verbs."
     },
     {
       "greek_nt": [
-        3,
-        4,
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "πάλιν / ܬܘܒ / denuo — 'again'."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek expresses the coming as an aorist participle ἐλθών; the Peshitta places the finite verb ܐܬܐ ('he came') after the return verb, and the Vulgate's reversus collapses both notions. The sequencing of the motion verbs differs across all three witnesses."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "εὗρεν / ܐܫܟܚ / invenit — 'he found'."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "αὐτούς / ܐܢܘܢ / eos."
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        3,
-        4,
         5,
         6
       ],
       "vulgate": [
-        3,
-        4,
         5
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a present participle καθεύδοντας ('sleeping') as a complement to εὗρεν; Vulgate mirrors this with dormientes. Peshitta employs the temporal particle ܟܕ ('while/when') + active participle ܕܡܟܝܢ, creating an explicit circumstantial clause—a characteristic Syriac construction for expressing simultaneous action."
+      "note": "Greek and Latin use a participle (καθεύδοντας / dormientes, 'sleeping') as an accusative complement; Syriac employs the subordinating particle ܟܕ ('while') plus a participle ܕܡܟܝܢ, a circumstantial clause idiomatic in Syriac for rendering Greek supplementary participles."
     },
     {
       "greek_nt": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
+        6
       ],
       "peshitta": [
-        7,
-        8,
-        9,
         10
       ],
       "vulgate": [
-        6,
-        7,
-        8,
-        9,
-        10
+        6
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a periphrastic construction ἦσαν...καταβαρυνόμενοι ('were being weighed down') with the article οἱ before ὀφθαλμοί. Vulgate simplifies to erant...gravati (perfect passive participle). Peshitta uses ܝܩܝܪܢ ܗܘܝ ('were heavy'), a stative construction without the passive voice morphology, and incorporates the possessive pronoun directly into ܕܥܝܢܝܗܘܢ ('their eyes') rather than using a separate genitive phrase."
+      "variant": "aligned",
+      "note": "ἦσαν / ܗܘܝ / erant — copular 'were'; the Syriac enclitic perfect agrees feminine plural with 'eyes'."
     },
     {
       "greek_nt": [
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
+        7
       ],
       "peshitta": [
-        11,
-        12,
-        13,
-        14,
-        15,
-        16
+        7
       ],
       "vulgate": [
-        11,
-        12,
-        13,
-        14,
-        15
+        7
+      ],
+      "variant": "aligned",
+      "note": "γάρ / ܡܛܠ / enim — causal 'for'."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "αὐτῶν / -ܗܘܢ suffix / eorum — 'of them'; Syriac fuses the genitive pronoun to the noun in token 8."
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the pluperfect ᾔδεισαν ('they had [not] known') with an aorist subjunctive ἀποκριθῶσιν in indirect deliberation. Peshitta employs a periphrastic construction ܝܕܥܝܢ ܗܘܘ ('they were knowing') with the imperfect ܢܐܡܪܘܢ, while Vulgate uses the simple imperfect ignorabant with the imperfect subjunctive responderent. All three convey the disciples' inability to formulate a response, but with different aspectual and modal nuances."
+      "note": "Greek carries the article οἱ before ὀφθαλμοί, a feature absent in both Latin (oculi) and Syriac, where the noun ܥܝܢ- is articulated only by context and the attached pronominal suffix. The Syriac packs article-equivalence, noun, and genitive pronoun into a single morphological word."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καταβαρυνόμενοι ('being weighed down/wearied') is a passive participle; the Vulgate gravati ('made heavy') matches the metaphor, while the Syriac ܝܩܝܪܢ (root y-q-r, 'to be heavy/honoured') uses a stative form, a precise semantic cognate for physical heaviness of the eyes."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "οὐκ / ܠܐ / (in ignorabant) — negation; Syriac ܘܠܐ fuses conjunction and negative in token 11, shared with the preceding καί group."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        12,
+        13
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the pluperfect ᾔδεισαν ('they had known/knew') with stative force; the Vulgate renders an imperfect ignorabant; the Syriac employs the periphrastic participle plus enclitic ܝܕܥܝܢ ܗܘܘ ('they were knowing'), the standard Syriac construction for past durative or stative knowledge."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "τί / ܡܢܐ / quid — interrogative 'what'."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἀποκριθῶσιν is a deliberative aorist subjunctive of ἀποκρίνομαι ('they should answer'); the Vulgate responderent matches the verb of answering, but the Syriac ܢܐܡܪܘܢ (root a-m-r, 'they should say/speak') substitutes the general verb of speaking, a common Syriac flattening of the Greek 'answer/reply' lexeme."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / ei — dative 'to him'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.041127+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.523648+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

@@ -46,14 +46,14 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
+        0,
         1,
         2
       ],
@@ -61,20 +61,22 @@
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek κατηγόρουν (imperfect active) and Latin accusabant (imperfect active) use simple finite verbs. Peshitta employs a periphrastic construction ܐܟܠܝܢ ܗܘܘ (active participle + auxiliary 'were'), a standard Syriac idiom for expressing continuous past action."
+      "type": "idiom",
+      "note": "Greek κατηγόρουν and Latin accusabant both render the imperfect 'were accusing' with a single verb; the Peshitta employs the idiomatic compound ܐܟܠ ܩܪܨܐ (literally 'to eat the pieces/morsels of'), a fixed Syriac expression for slanderous accusation, periphrastically reinforced by the auxiliary ܗܘܘ to express durative past aspect."
     },
     {
       "greek_nt": [
         2
       ],
-      "peshitta": [],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
         2
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek αὐτοῦ (genitive 'of him') and Latin eum (accusative 'him') reflect different case governance: Greek κατηγορέω takes genitive of the accused, Latin accuso takes accusative. Peshitta incorporates the pronominal object as a suffix on the verb ܩܪܨܘܗܝ ('-him'), rendering a separate pronoun unnecessary—a typical Semitic construction."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek marks the object with the genitive αὐτοῦ governed by κατηγορέω, and Latin uses accusative eum; in the Peshitta the pronominal suffix -ܘܗܝ is fused directly onto the idiomatic noun ܩܪܨܘܗܝ ('his pieces'), so the object pronoun is morphologically incorporated rather than standing as a discrete word."
     },
     {
       "greek_nt": [
@@ -90,8 +92,8 @@
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek οἱ ἀρχιερεῖς (article + noun) and Peshitta ܪܒܝ ܟܗܢܐ (construct state 'chiefs-of priests') both place the subject after the verb. Latin summi sacerdotes (adjective + noun) follows the same post-verbal position but uses an adjectival construction rather than a compound noun or construct chain."
+      "type": "lexical",
+      "note": "Greek ἀρχιερεῖς ('chief priests') is rendered analytically in both versions as a construct phrase 'great/chief ones of the priests' (Syriac ܪܒܝ ܟܗܢܐ, Latin summi sacerdotes), reflecting the absence of a single composite lexeme in Syriac and Latin for the Greek compound noun."
     },
     {
       "greek_nt": [
@@ -106,13 +108,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek πολλά (neuter plural accusative 'many things') functions as a direct adverbial accusative of respect. Peshitta ܒܣܓܝܐܬܐ uses a prepositional phrase ('in/with many things'), while Latin in multis employs the same prepositional construction—both traditions make the adverbial relationship explicit through prepositions where Greek uses bare case."
+      "note": "Greek uses the bare adverbial accusative neuter plural πολλά ('of many things'); the Peshitta renders this with a prepositional phrase ܒܣܓܝܐܬܐ ('in/with many things'), and the Vulgate likewise expands to the prepositional in multis, both supplying an explicit preposition where Greek relies on the adverbial accusative alone."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.046812+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.469320+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

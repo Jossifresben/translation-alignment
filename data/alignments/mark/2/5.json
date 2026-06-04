@@ -77,8 +77,8 @@
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs καὶ ἰδὼν δέ with two conjunctions (καί + δέ) framing the participle, a Markan stylistic feature. Peshitta ܟܕ ܚܙܐ ܕܝܢ and Vulgate Cum autem vidisset both use single temporal conjunctions with postpositive particles, achieving equivalent subordination through different syntactic means."
+      "type": "construction",
+      "note": "Greek uses the aorist participle ἰδών with coordinating καὶ...δέ ('and seeing now'); the Peshitta employs a subordinating temporal construction with ܟܕ ('when [he] saw'), and the Vulgate likewise renders a temporal clause Cum...vidisset with pluperfect subjunctive. The three traditions thus express the same circumstantial action through different syntactic means."
     },
     {
       "greek_nt": [
@@ -93,7 +93,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek includes the definite article ὁ before Ἰησοῦς, standard in Koine for proper names in narrative. Syriac ܝܫܘܥ and Latin Jesus lack articles, as neither language requires them for definite proper nouns in this syntactic position."
+      "note": "Greek supplies the articular nominative ὁ Ἰησοῦς; both the Peshitta (ܝܫܘܥ) and the Vulgate (Jesus) render the name anarthrously, since neither Syriac nor Latin marks the proper noun with a definite article here."
     },
     {
       "greek_nt": [
@@ -110,7 +110,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses articular accusative τὴν πίστιν αὐτῶν (article + noun + genitive pronoun). Peshitta employs a single construct-state noun ܗܝܡܢܘܬܗܘܢ with pronominal suffix, a typical Semitic compression. Vulgate fidem illorum mirrors Greek structure with demonstrative pronoun, though Latin permits article-less construction."
+      "note": "Greek expresses 'their faith' analytically as article + noun + genitive pronoun (τὴν πίστιν αὐτῶν), matched by Latin fidem illorum; the Peshitta compresses this into a single inflected form ܗܝܡܢܘܬܗܘܢ bearing the 3rd-plural possessive suffix, a typical Syriac synthetic construction."
     },
     {
       "greek_nt": [
@@ -123,7 +123,8 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "λέγει / ܐܡܪ / ait"
     },
     {
       "greek_nt": [
@@ -138,8 +139,8 @@
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the dative article + substantive τῷ παραλυτικῷ before the vocative address. Peshitta ܠܗܘ ܡܫܪܝܐ maintains this order with preposition + demonstrative + participle. Vulgate paralytico appears after the colon, repositioning the addressee as a dative of reference post-verbally rather than pre-verbally."
+      "type": "construction",
+      "note": "Greek and Syriac both supply a demonstrative/article before 'paralytic' (τῷ παραλυτικῷ; ܠܗܘ ܡܫܪܝܐ, lit. 'to that paralytic'), whereas the Vulgate renders the dative paralytico without a determiner, Latin lacking a definite article."
     },
     {
       "greek_nt": [
@@ -151,7 +152,7 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after paralytico to mark the transition to direct speech. Greek uses a raised dot (·) after παραλυτικῷ, while Peshitta employs no explicit punctuation marker, relying on syntactic context to signal the vocative address."
+      "note": "The Greek marks the boundary before direct speech with a raised point appended to παραλυτικῷ·, and the Vulgate uses a discrete colon token; the Peshitta carries no punctuation token at this juncture, reflecting editorial rather than textual difference."
     },
     {
       "greek_nt": [
@@ -163,38 +164,72 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek τέκνον (neuter, 'child') and Syriac ܒܪܝ ('my son', with first-person possessive suffix) both function as affectionate vocatives. Vulgate Fili (masculine vocative, 'son') aligns semantically with Syriac but lacks the possessive nuance, reflecting Latin's preference for simple vocative forms in direct address."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τέκνον / ܒܪܝ / Fili"
     },
     {
       "greek_nt": [
-        12,
-        13,
-        14,
-        15,
-        16
+        12
       ],
       "peshitta": [
-        9,
-        10,
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀφίενταί / ܫܒܝܩܝܢ / dimittuntur"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "σου / ܠܟ / tibi"
+    },
+    {
+      "greek_nt": [
+        14,
+        15
+      ],
+      "peshitta": [
         11
       ],
       "vulgate": [
-        10,
-        11,
-        12,
+        12
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek supplies the plural article αἱ before ἁμαρτίαι; Syriac ܚܛܗܝܟ and Latin peccata stand without article, and the Syriac form additionally absorbs the possessive suffix that Greek expresses with a separate pronoun."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
         13
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἀφίενταί first, followed by dative σου, article αἱ, noun ἁμαρτίαι, and redundant genitive σου (a Semitism emphasizing possession). Peshitta ܫܒܝܩܝܢ ܠܟ ܚܛܗܝܟ uses verb + prepositional dative + noun with pronominal suffix, eliminating redundancy. Vulgate dimittuntur tibi peccata tua follows Latin verb-initial syntax with dative pronoun and possessive adjective, mirroring Greek's double-marking of the second person but in Latin idiom."
+      "type": "idiom",
+      "note": "Greek repeats the possessive pronoun σου after ἁμαρτίαι, attesting the redundant double-σου reading ('your sins of you'); the Peshitta encodes possession once via the suffix on ܚܛܗܝܟ, while the Vulgate renders a single tua, neither tradition reproducing the Greek pleonasm."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.951732+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.425738+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

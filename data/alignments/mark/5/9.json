@@ -73,44 +73,31 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek coordinates with καί + finite verb and a separate accusative pronoun, whereas the Syriac ܘܫܐܠܗ fuses conjunction, verb, and the 3ms object suffix into a single word, a typical Semitic morphological economy. The Vulgate Et interrogabat preserves the discrete coordination of the Greek."
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [
-        0
-      ],
       "vulgate": [
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐπηρώτα / interrogabat"
     },
     {
       "greek_nt": [
         2
       ],
-      "peshitta": [
-        0
-      ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        2,
         3
       ],
-      "variant": "added",
+      "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'eum' to mark the beginning of direct speech, a punctuation convention absent in the Greek and Peshitta manuscript traditions."
+      "note": "The Greek pronoun αὐτόν carries the raised dot (·) marking the introduction of direct speech; the Vulgate distributes the same function across the pronoun eum and the following colon, a difference of editorial punctuation rather than text."
     },
     {
       "greek_nt": [
@@ -129,34 +116,20 @@
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses interrogative τί with predicate nominative word order (τί ὄνομά σοι); Peshitta employs the interrogative adverb ܐܝܟܢܐ ('how/what') with possessive suffix construction (ܫܡܟ 'your-name'); Vulgate mirrors Greek syntax but adds the copula 'est' explicitly, yielding 'Quod tibi nomen est'—all three semantically equivalent but syntactically distinct."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate places a question mark after 'est' to close the interrogative clause, a punctuation feature not represented in Greek or Peshitta manuscripts."
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "minor",
       "type": "construction",
-      "note": "Greek and Vulgate employ the conjunction καί/Et to introduce the response clause; Peshitta omits any coordinating particle, proceeding directly from question to answer—a typical Semitic asyndetic construction."
+      "note": "Greek frames the question with the interrogative τί + ὄνομα + dative σοι ('what [is] name to you'); the Vulgate adds the explicit copula est (Quod tibi nomen est) and the Syriac compresses to ܐܝܟܢܐ ܫܡܟ, where the interrogative ܐܝܟܢܐ tends toward 'how/what' and the possessive is expressed by the suffix on ܫܡܟ rather than an independent pronoun."
     },
     {
       "greek_nt": [
-        7,
+        6,
+        7
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek doublet καὶ ἀπεκρίθη λέγει ('and he answered, he says') is a characteristically Markan pleonasm; both the Peshitta and the Vulgate omit the verb of answering and retain only the verb of speaking, smoothing the redundancy."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
@@ -165,9 +138,8 @@
       "vulgate": [
         10
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses a double-verb construction (ἀπεκρίθη λέγει, aorist passive + historical present) for narrative vividness; Peshitta employs the simple perfect ܐܡܪ ('he said'); Vulgate uses the present 'dicit'—all denoting speech introduction but with differing aspectual nuances."
+      "variant": "aligned",
+      "note": "λέγει / ܐܡܪ / dicit"
     },
     {
       "greek_nt": [
@@ -177,40 +149,42 @@
         4
       ],
       "vulgate": [
-        11
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        11,
         12
       ],
-      "variant": "added",
+      "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'ei' to mark the beginning of the demon's direct reply, a punctuation convention not present in Greek or Peshitta witnesses."
+      "note": "The dative pronoun αὐτῷ / ܠܗ / ei marks the addressee identically; the Vulgate appends a colon (index 12) to introduce the reported speech, an editorial division absent as a discrete token in Greek and Syriac."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "λεγιὼν / ܠܓܝܘܢ / Legio (Latin loanword in all three)"
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        13,
         14,
         15,
         16
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the name first (λεγιὼν ὄνομά μοι, 'Legion [is] name to-me'); Peshitta mirrors this order (ܠܓܝܘܢ ܫܡܢ, 'Legion our-name'); Vulgate inverts to 'Legio mihi nomen est' with explicit copula, reflecting Latin preference for verb-final predicate nominative constructions."
+      "type": "construction",
+      "note": "Greek expresses 'name to me' with noun ὄνομά plus the separate dative μοι; the Syriac collapses both into the single suffixed form ܫܡܢ (here a 1st-person possessive), while the Vulgate expands fully with mihi nomen est, supplying the copula. The constructions are semantically equivalent verbless/copular predications."
     },
     {
       "greek_nt": [
@@ -223,7 +197,7 @@
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ὅτι / ܡܛܠ / quia (causal)"
     },
     {
       "greek_nt": [
@@ -236,7 +210,7 @@
         18
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πολλοί / ܕܣܓܝܐܐ / multi"
     },
     {
       "greek_nt": [
@@ -249,13 +223,13 @@
         19
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐσμεν / ܚܢܢ / sumus"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.971805+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.501542+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

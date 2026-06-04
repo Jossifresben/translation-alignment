@@ -62,9 +62,12 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek begins with paratactic καί followed by the finite verb εἶπεν; the Vulgate splits this into et + dixit, while the Peshitta fuses conjunction and verb into the single inflected form ܘܐܡܪ. The difference is purely morphological, reflecting Syriac prefix-conjugation versus the analytic Latin and Greek constructions."
     },
     {
       "greek_nt": [
@@ -99,12 +102,22 @@
         2
       ],
       "vulgate": [
-        3,
-        4
+        3
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the definite article ὁ before Ἰησοῦς, a standard Greek construction absent in Syriac (which lacks articles) and Latin (where the proper name stands without article). The Vulgate's colon after Jesus represents editorial punctuation not present in the Greek manuscript tradition."
+      "note": "Greek supplies the nominative article ὁ before Ἰησοῦς (a normal Hellenistic feature for proper names), whereas neither Syriac ܝܫܘܥ nor Latin Jesus carries any article, since both languages lack the definite article in this nominal usage."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Greek mid-dot (·) and the Vulgate colon (:) mark the introduction of direct speech; the Peshitta as transmitted here supplies no equivalent punctuation token, a difference of editorial convention rather than text."
     },
     {
       "greek_nt": [
@@ -132,61 +145,83 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the preposition ὀπίσω with genitive pronoun μου ('after me'); Latin mirrors this with post + ablative me; Syriac employs the bound form ܒܬܪܝ (bāthar-y, 'after-me') as a single morphological unit, representing the same prepositional phrase through agglutination rather than separate words."
+      "note": "Greek expresses the idiom with adverb-preposition ὀπίσω plus genitive μου ('after me'), matched analytically by Latin post me; Syriac collapses both into the single prepositional form ܒܬܪܝ ('after-me'), the suffixed pronoun rendering the dependent genitive synthetically."
     },
     {
       "greek_nt": [
-        8
+        8,
+        9
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        8
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        9,
-        10,
-        11
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        9,
-        10,
-        11
+        8,
+        9
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a periphrastic future construction ποιήσω ὑμᾶς γενέσθαι ('I will make you to become'), employing both ποιέω and the infinitive γενέσθαι. Latin preserves this structure with faciam vos fieri. Syriac compresses the expression into the single causative verb ܘܐܥܒܕܟܘܢ (wa-ʿebedkōn, 'and-I-will-make-you'), incorporating the object pronoun as a suffix and omitting the separate infinitive, yielding a more compact but semantically equivalent construction."
+      "note": "Greek καὶ ποιήσω and Latin et faciam separate conjunction from the future verb, while Syriac ܘܐܥܒܕܟܘܢ fuses conjunction, verb (root ʿ-b-d, 'to make/do'), and the second-person plural object suffix into one form, anticipating the object that Greek and Latin express separately."
     },
     {
       "greek_nt": [
-        12,
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ὑμᾶς and Latin vos render the second-person plural object as an independent accusative pronoun, whereas the Peshitta encodes it as the verbal suffix -ܟܘܢ within ܘܐܥܒܕܟܘܢ, a synthetic strategy typical of Syriac."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek γενέσθαι and Latin fieri preserve the double-construction 'I will make you to become fishers'; the Peshitta omits this complementary infinitive, simplifying to 'I will make you fishers', a smoother rendering that drops the redundant verb of becoming."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἁλιεῖς ('fishers', plural) and Latin piscatores (plural) match the plural addressees, but the Peshitta uses the singular collective ܨܝܕܐ ('hunter/fisher', root ts-y-d), a noun whose semantic range covers both hunting and fishing; Syriac favours the collective singular here."
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Latin place the noun before the genitive (ἁλιεῖς ἀνθρώπων / piscatores hominum, 'fishers of-men'). Syriac reverses the order with ܨܝܕܐ ܕܒܢܝ ܐܢܫܐ (ṣaydē d-bnay nāšā, 'fishers of-sons-of man'), using the construct chain typical of Semitic languages and employing the idiomatic ܒܢܝ ܐܢܫܐ ('sons of man') for 'men/humanity' where Greek and Latin use the simple plural."
+      "type": "construction",
+      "note": "Greek ἀνθρώπων and Latin hominum express 'of men' with a simple genitive plural, whereas Syriac employs the periphrastic construct ܕܒܢܝ ܐܢܫܐ ('of the sons of men'), the idiomatic Semitic expression for humankind."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.945917+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.528233+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

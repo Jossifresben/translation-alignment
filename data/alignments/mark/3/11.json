@@ -69,61 +69,116 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts a periphrastic clause ܕܐܝܬ ܗܘܝ ܠܗܘܢ ܡܚܘܬܐ ('those who had afflictions/plagues of'), recasting the subject as the persons afflicted rather than the spirits themselves. Neither the Greek nor the Vulgate transmit this expansion, which softens the demonological force by foregrounding the human sufferers."
+    },
+    {
+      "greek_nt": [
         1,
         2,
         3,
         4
       ],
       "peshitta": [
-        0,
-        1,
-        2,
-        3,
-        4,
         5,
         6
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses articular nominative construction (τὰ πνεύματα τὰ ἀκάθαρτα, 'the unclean spirits') as subject. Peshitta employs a relative clause with existential predicate (ܘܐܝܠܝܢ ܕܐܝܬ ܗܘܝ ܠܗܘܢ ܡܚܘܬܐ ܕܪܘܚܐ ܛܢܦܬܐ, 'and those who had affliction of unclean spirits'), shifting focus from the spirits themselves to the possessed persons. Vulgate mirrors Greek with simple nominative (spiritus immundi)."
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin use the neuter plural (τὰ πνεύματα τὰ ἀκάθαρτα / spiritus immundi, 'the unclean spirits'); the Peshitta employs the singular collective ܪܘܚܐ ܛܢܦܬܐ ('an unclean spirit'), a typical Syriac construal of the demonic plural as a collective mass-noun governed by the preceding 'those who had'."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7
+        5
       ],
       "peshitta": [
-        7,
-        8
+        7
       ],
       "vulgate": [
-        3,
-        4,
-        5
+        3
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
-        9
+        6
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek uses a finite imperfect with separate pronoun (αὐτὸν ἐθεώρουν, 'they were seeing him'); the Peshitta fuses object and verb into a single inflected form ܕܚܙܐܘܗܝ ('when they saw him'), so the Syriac pronominal suffix here overlaps the slot of both Greek tokens 6 and 7."
+    },
+    {
+      "greek_nt": [
+        8
       ],
       "peshitta": [
         9,
         10
       ],
       "vulgate": [
-        6,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek προσέπιπτον and Latin procidebant are single imperfect verbs; the Peshitta renders the durative aspect periphrastically with ܢܦܠܝܢ ܗܘܘ (participle + enclitic 'were'), the standard Syriac means of expressing continuous past action."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "vulgate": [
         7
       ],
       "variant": "aligned"
+    },
+    {
+      "vulgate": [
+        8
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts editorial colon punctuation after 'ei', a feature of the printed Latin tradition absent from the unpointed Greek and Syriac witnesses."
     },
     {
       "greek_nt": [
@@ -133,76 +188,99 @@
         11
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after the conjunction (et clamabant :), creating a stronger pause before the direct speech. Greek and Peshitta use simple coordination without such punctuation break."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The single Peshitta token ܘܩܥܝܢ ('and crying out') carries both the conjunction (Greek καί, token 10) and the verb of crying (Greek ἔκραζον, token 11), the Syriac prefixed waw-conjunction overlapping the slot of the separate Greek connective."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
         12
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the participle λέγοντες ('saying') after the main verb ἔκραζον ('they were crying out'), creating a supplementary participial construction. Vulgate follows this order (clamabant, dicentes). Peshitta merges both verbs into a single coordinated construction (ܘܩܥܝܢ ܘܐܡܪܝܢ, 'and they cried and said'), treating them as sequential actions rather than simultaneous."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         13
       ],
-      "peshitta": [],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The Greek introduces direct speech with recitative ὅτι, an untranslatable quotation marker; both Vulgate and Peshitta omit any equivalent, signalling direct discourse by the following pronoun and colon respectively."
+    },
+    {
       "vulgate": [
         12
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek and Vulgate include the recitative ὅτι / colon to introduce direct discourse. Peshitta omits any introductory particle, moving directly from ܘܐܡܪܝܢ ('and they said') to the quoted speech ܐܢܬ ܗܘ ('You are'), a common Syriac idiom for direct quotation."
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate's terminal colon marks the boundary of the verse as printed in the Clementine edition; the Greek and Syriac continue without such pointing, and the quoted confession itself ('You are the Son of God') is absent from the Latin token stream here."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        13,
         14
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek and Peshitta preserve the emphatic pronoun-copula construction (σὺ εἶ / ܐܢܬ ܗܘ, 'You yourself are'), stressing the identity claim. Vulgate omits the entire clause, truncating the verse after the second colon and leaving the demons' confession unrecorded in this witness—a significant textual divergence requiring manuscript collation."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the finite copula εἶ ('you are'); the Peshitta expresses the predication with the independent third-person pronoun ܗܘ functioning as an enclitic copula (ܐܢܬ ܗܘ, 'you [are] he'), a characteristic Syriac nominal-sentence construction lacking an inflected verb."
     },
     {
       "greek_nt": [
         16,
-        17,
+        17
+      ],
+      "peshitta": [
+        15
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek articulates the predicate with article + noun (ὁ υἱὸς, 'the Son'); the Peshitta uses ܒܪܗ ('his Son') with a third-person possessive suffix anticipating the following genitive 'of God', producing a tighter construct chain than the Greek attributive phrase."
+    },
+    {
+      "greek_nt": [
         18,
         19
       ],
       "peshitta": [
-        15,
         16
       ],
-      "vulgate": [],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek transmits the full christological confession ὁ υἱὸς τοῦ θεοῦ ('the Son of God') with double article. Peshitta attests ܒܪܗ ܕܐܠܗܐ ('Son of God') in construct state. Vulgate omits this entire predicate nominative, ending the verse prematurely—either through homoioteleuton, liturgical abbreviation, or reliance on a defective Greek Vorlage."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.958688+00:00",
-    "confidence": 0.72,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.503070+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

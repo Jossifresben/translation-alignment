@@ -58,33 +58,37 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "The Greek particle μέν (G3303) establishes a contrastive framework with the following δέ, creating a formal μέν...δέ construction ('on the one hand...on the other hand'). Neither the Peshitta nor the Vulgate renders this particle, relying instead on the inherent contrast between the two clauses without explicit marking."
+      "note": "The Greek correlative particle μέν (paired with δέ in the apodosis) has no equivalent in either the Peshitta or the Vulgate. Both Syriac and Latin lack a precise lexical counterpart for the μέν...δέ antithetical construction and render only the contrastive δέ side, a routine simplification."
     },
     {
       "greek_nt": [
-        2,
-        3
+        2
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        1,
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "vulgate": [
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek ὑμᾶς and Latin vos are explicit accusative objects; the Syriac encodes the second-person plural object as a verbal suffix on ܐܥܡܕܬܟܘܢ, hence no separate token."
     },
     {
       "greek_nt": [
@@ -99,7 +103,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the preposition ἐν with dative ὕδατι ('in water'), which the Peshitta mirrors with ܒܡܝܐ (beth + noun). The Vulgate, however, uses the bare ablative aqua without preposition, a standard Latin instrumental construction semantically equivalent to the Greek prepositional phrase."
+      "note": "Greek and Latin express the means with a preposition phrase (ἐν ὕδατι) or bare instrumental ablative (aqua); Syriac fuses the proclitic preposition ܒ with ܡܝܐ into the single form ܒܡܝܐ ('in/with water'), a synthetic rendering of the same instrumental sense."
     },
     {
       "greek_nt": [
@@ -111,9 +115,7 @@
       "vulgate": [
         4
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek αὐτός (G0846, 'he himself') is rendered by Peshitta ܗܘ (simple third-person pronoun) and Vulgate ille (demonstrative pronoun). The Vulgate's choice of ille over is adds mild deictic emphasis, approximating the Greek intensive pronoun, while the Peshitta uses the unmarked form."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -125,47 +127,64 @@
       "vulgate": [
         5
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek δέ (G1161, adversative conjunction) pairs with the earlier μέν to complete the contrastive structure. Peshitta ܕܝܢ and Vulgate vero both function as adversative conjunctions ('but', 'however'), though vero carries slightly stronger emphatic force in Latin rhetoric than the neutral ܕܝܢ in Syriac."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
-        9
+        8
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        6,
+        6
+      ],
+      "variant": "aligned",
+      "note": "All three attest the future of 'to baptize' (βαπτίσει / ܢܥܡܕܟܘܢ / baptizabit); the Syriac again incorporates the second-person plural object suffix into the verb."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "vulgate": [
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "The explicit object ὑμᾶς / vos is present in Greek and Latin, whereas Syriac carries it as the pronominal suffix on the verb ܢܥܡܕܟܘܢ."
     },
     {
       "greek_nt": [
         10,
-        11,
-        12
+        11
       ],
       "peshitta": [
-        6,
-        7
+        6
       ],
       "vulgate": [
-        8,
-        9
+        8
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek ἐν πνεύματι ἁγίῳ uses preposition + dative for the instrument of baptism. Peshitta ܒܪܘܚܐ ܕܩܘܕܫܐ employs beth + construct state ('in-Spirit of-holiness'), a standard Semitic genitive construction. Vulgate Spiritu Sancto uses ablative of means without preposition, parallel to its treatment of aqua, maintaining syntactic consistency across both baptismal agents."
+      "note": "Greek uses ἐν + dative (ἐν πνεύματι), Latin a bare instrumental ablative (Spiritu), and Syriac the prefixed-preposition form ܒܪܘܚܐ; the threefold variation is purely syntactic, all conveying the instrumental 'with/in [the] Spirit'."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἁγίῳ is an attributive adjective agreeing with πνεύματι, and Latin Sancto likewise; the Syriac ܕܩܘܕܫܐ is a genitive construct ('Spirit of holiness'), a Semitic idiom expressing the qualitative attribute through annexation rather than concord. The Greek paragraph marker (¶) is editorial punctuation with no versional counterpart."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.943746+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.516391+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

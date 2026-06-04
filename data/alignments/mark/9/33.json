@@ -67,72 +67,96 @@
     {
       "greek_nt": [
         0,
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin separate the conjunction from the verb (Καὶ ἦλθον / Et venerunt), whereas Syriac fuses the conjunction and the third-person plural perfect into a single inflected form ܘܐܬܘ ('and they came'), a normal feature of Syriac morphology."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the preposition εἰς with the place-name (εἰς Καφαρναούμ), Syriac prefixes the directional lamadh (ܠܟܦܪܢܚܘܡ), and the Vulgate places the accusative of destination (Capharnaum) without a preposition — three equivalent ways of expressing motion toward."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The transition is handled differently: Greek repeats καί, Syriac employs the temporal subordinator ܘܟܕ ('and when'), while the Vulgate introduces a relative-temporal frame Qui cum ('who, when'), recasting the coordinated Greek clause into Latin hypotaxis."
+    },
+    {
+      "greek_nt": [
         5,
         6,
         7,
         8
       ],
       "peshitta": [
-        2,
         3,
         4
       ],
       "vulgate": [
-        3,
-        4,
         5,
         6
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a genitive absolute construction (ἐν τῇ οἰκίᾳ γενόμενος, 'having been in the house'); Peshitta employs a temporal clause with ܘܟܕ ܥܠܘ ܠܒܝܬܐ ('and when they entered the house'); Vulgate uses a relative clause with cum-subjunctive (cum domi essent, 'when they were at home'). All three express the same temporal-locative circumstance through different syntactic strategies."
+      "note": "Greek uses a prepositional phrase plus a circumstantial aorist participle (ἐν τῇ οἰκίᾳ γενόμενος, 'having come to be in the house'), Syriac renders a finite verb ܥܠܘ ܠܒܝܬܐ ('they entered the house'), and the Vulgate uses the locative adverb domi with the subjunctive essent ('when they were at home') — semantically equivalent but syntactically distinct constructions."
     },
     {
       "greek_nt": [
-        9,
-        10
+        9
       ],
       "peshitta": [
         5,
-        6,
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin express the imperfect with a single inflected form (ἐπηρώτα / interrogabat), while Syriac forms a periphrastic past with the participle plus the auxiliary ܡܫܐܠ ܗܘܐ ('was asking'), the standard Syriac means of marking durative past action."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
         7
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Peshitta uses a periphrastic construction ܡܫܐܠ ܗܘܐ ('was asking') with the participle plus auxiliary verb, mirroring the Greek imperfect ἐπηρώτα but making the progressive aspect more explicit. Vulgate interrogabat is a simple imperfect, semantically equivalent."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon to mark the transition to direct discourse, a punctuation convention absent in the Greek and Peshitta manuscripts."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτούς / ܠܗܘܢ / eos"
     },
     {
       "greek_nt": [
@@ -145,7 +169,16 @@
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "τί / ܕܡܢܐ / Quid"
+    },
+    {
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon before the direct discourse; neither the Greek nor Syriac transmit a corresponding punctuation token, the Greek instead marking the question only by the high point and final interrogative."
     },
     {
       "greek_nt": [
@@ -160,8 +193,9 @@
         11,
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three read 'on the way' (ἐν τῇ ὁδῷ / ܒܐܘܪܚܐ / in via), but Greek and Latin place the phrase before the verb whereas Syriac postpones it after the verb, reflecting differing default clause orders; Syriac also lacks the article supplied by the Greek τῇ."
     },
     {
       "greek_nt": [
@@ -170,33 +204,33 @@
         17
       ],
       "peshitta": [
-        12,
         9,
-        10
+        10,
+        12
       ],
       "vulgate": [
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the prepositional phrase πρὸς ἑαυτούς ('among yourselves') before the verb διελογίζεσθε; Peshitta places ܒܝܢܬܟܘܢ ('among you') after the verbal complex ܡܬܚܫܒܝܢ ܗܘܝܬܘܢ; Vulgate omits an explicit equivalent to 'among yourselves,' leaving tractabatis without a reflexive or reciprocal modifier. The Vulgate reading is more concise but semantically complete in context."
+      "variant": "major",
+      "type": "construction",
+      "note": "Greek combines a reflexive prepositional phrase (πρὸς ἑαυτοὺς, 'among yourselves') with the verb διελογίζεσθε ('were you discussing'); Syriac renders the verb periphrastically (ܡܬܚܫܒܝܢ ܗܘܝܬܘܢ, 'were you reasoning') and supplies the reciprocal ܒܝܢܬܟܘܢ ('among yourselves'), while the Vulgate compresses the whole to a single verb tractabatis ('you were debating') and omits the reflexive phrase entirely, a notable Latin abbreviation."
     },
     {
       "greek_nt": [
-        18
+        17
       ],
-      "peshitta": [],
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The interrogative is marked in Greek by the semicolon attached to διελογίζεσθε; and in the Vulgate by a separate question-mark token, an editorial difference of orthographic convention rather than text."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.234883+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.508133+00:00",
+    "confidence": 0.74,
     "schema_version": 1
   }
 }

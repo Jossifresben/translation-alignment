@@ -69,13 +69,11 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the adverb ܬܘܒ ('again'). This is a minor stylistic choice common in Syriac narrative transitions."
+      "variant": "aligned",
+      "note": "καί / Et."
     },
     {
       "greek_nt": [
@@ -88,7 +86,7 @@
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πάλιν / ܬܘܒ / iterum."
     },
     {
       "greek_nt": [
@@ -100,38 +98,73 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin render the action with an aorist/present participle (ἐξελθών, exiens, 'having gone out / going out'), subordinating it to the main verb; the Peshitta uses a finite perfect ܢܦܩ ('he went out'), reflecting the Syriac preference for parataxis (verb chains joined by waw) over Greek participial hypotaxis."
     },
     {
       "greek_nt": [],
       "peshitta": [
         2
       ],
-      "vulgate": [],
       "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta explicitly names the subject ܝܫܘܥ ('Jesus'), whereas both Greek and Latin rely on the implied subject from context. This is a typical Syriac clarifying gloss for narrative continuity."
+      "type": "expansion",
+      "note": "The Peshitta explicitly supplies the subject ܝܫܘܥ ('Jesus'), whereas the Greek and Latin leave it implicit in the third-person verb. This is a characteristic Syriac clarifying expansion of an unexpressed grammatical subject."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "ἐκ / ܡܢ / de."
+    },
+    {
+      "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the articular plural τῶν ὁρίων ('the borders/region'), matched by Latin plural finibus; the Peshitta employs the singular ܬܚܘܡܐ ('the territory'), a typical Syriac idiom rendering the Greek collective plural as a singular mass-noun."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        3,
-        4,
         5
       ],
       "vulgate": [
-        3,
-        4,
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Τύρου / ܕܨܘܪ / Tyri."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin place the main verb ἦλθεν / venit ('he came') before the prepositional phrase 'through Sidon'; the Peshitta postpones its finite verb ܘܐܬܐ until after naming Sidon, fitting its conjunctive (waw-coordinated) clause structure."
     },
     {
       "greek_nt": [
@@ -146,70 +179,77 @@
         8
       ],
       "variant": "major",
-      "type": "expansion",
-      "note": "Greek διὰ Σιδῶνος ('through Sidon') and Latin per Sidonem indicate a route passing through Sidon. The Peshitta reads ܘܕܨܝܕܢ ('and of Sidon'), coordinating Sidon with Tyre as a dual point of departure rather than a waypoint, reflecting a different geographic conception."
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "type": "substitution",
+      "note": "Greek διὰ Σιδῶνος ('through Sidon') and Latin per Sidonem preserve the route 'through Sidon'; the Peshitta reads ܘܕܨܝܕܢ ('and of Sidon'), coordinating Sidon with Tyre as a second source-territory rather than a transit point, thereby altering the geographical itinerary."
     },
     {
       "greek_nt": [
         10,
         11,
-        12,
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek εἰς τὴν θάλασσαν and Latin ad mare render 'to the sea' with article/preposition; the Peshitta ܠܝܡܐ uses the simple prefixed lamadh ('to the sea'), a normal Syriac construction lacking a separate article."
+    },
+    {
+      "greek_nt": [
         13,
         14
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        9,
-        10,
         11
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition εἰς with accusative article-noun phrase (εἰς τὴν θάλασσαν τῆς Γαλιλαίας); Latin mirrors this with ad mare Galilææ; Syriac employs the prefixed preposition ܠ directly on ܝܡܐ ܕܓܠܝܠܐ without an article, a standard Semitic construct-state construction."
+      "variant": "aligned",
+      "note": "τῆς Γαλιλαίας / ܕܓܠܝܠܐ / Galilææ."
     },
     {
       "greek_nt": [
         15,
         16,
         17,
-        18,
-        19
+        18
       ],
       "peshitta": [
-        10,
-        11
+        10
       ],
       "vulgate": [
         12,
         13,
-        14,
-        15
+        14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἀνὰ μέσον τῶν ὁρίων Δεκαπόλεως ('through the midst of the region of Decapolis') and Latin inter medios fines Decapoleos employ a prepositional phrase emphasizing passage through the interior. Syriac ܒܬܚܘܡܐ ܕܥܣܪܬ-ܡܕܝܢܬܐ uses the simple preposition ܒ ('in/within the region'), conveying location rather than traversal, a semantically equivalent but syntactically distinct idiom."
+      "type": "idiom",
+      "note": "Greek ἀνὰ μέσον τῶν ὁρίων and Latin inter medios fines render 'through the midst of the territories' with an explicit 'middle' word and plural 'borders'; the Peshitta compresses this to ܒܬܚܘܡܐ ('within the territory', singular), again collapsing the periphrastic Greek spatial phrase into a single prepositional Syriac noun."
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "Δεκαπόλεως / ܕܥܣܪܬ-ܡܕܝܢܬܐ / Decapoleos; the Syriac transparently calques the name as 'of the ten cities'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.992619+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.443276+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

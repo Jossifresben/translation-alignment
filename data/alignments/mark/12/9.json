@@ -70,8 +70,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -83,8 +82,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -96,28 +94,35 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin supply the definite article (ὁ κύριος / the implicit definiteness of dominus), while Syriac ܡܪܐ stands unmarked; the Peshitta lacks the article system here, but definiteness is contextually understood. No semantic divergence."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
-        4,
-        5
+        4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article with genitive construction (ὁ κύριος τοῦ ἀμπελῶνος, 'the lord of the vineyard'), which Vulgate mirrors with dominus vineæ including interrogative punctuation. Peshitta uses construct state (ܡܪܐ ܟܪܡܐ, 'lord-of vineyard') without article, a standard Semitic nominal construction expressing the same possessive relationship."
+      "note": "Greek and Latin express the genitive relationship with article + genitive (τοῦ ἀμπελῶνος / vineæ), whereas Syriac ܟܪܡܐ stands in simple juxtaposition with ܡܪܐ, relying on the construct-like apposition typical of Aramaic to convey 'lord of the vineyard'."
     },
     {
       "greek_nt": [
@@ -127,61 +132,104 @@
         5
       ],
       "vulgate": [
-        6,
-        7
+        6
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a comma after Veniet, creating a pause between the coming and the destruction, while Greek and Peshitta maintain continuous syntax with coordinating conjunction. This represents a stylistic punctuation choice rather than semantic divergence."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
-        9,
+        8
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "omitted",
+      "note": "Greek καί and Latin et coordinate 'he will come and destroy', but the Peshitta omits the conjunction before ܢܘܒܕ ('will destroy'), juxtaposing the two verbs asyndetically — a common Syriac narrative idiom expressing sequential action without an explicit connective."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        8,
         9
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Peshitta adds the demonstrative pronoun ܠܗܢܘܢ ('those') before ܦܠܚܐ ('farmers'), making explicit the reference to the previously mentioned tenants. Greek uses the article τοὺς γεωργοὺς and Latin simply colonos without demonstrative, both relying on context for definiteness."
+      "note": "Greek τοὺς γεωργούς and Latin colonos render 'the farmers/tenants' with article (Greek) or bare accusative (Latin); Syriac uses the demonstrative ܠܗܢܘܢ ('those') plus ܦܠܚܐ, an anaphoric construction emphasising the specific tenants previously mentioned. The Syriac root p-l-kh ('to till, labour') corresponds well to γεωργός."
     },
     {
       "greek_nt": [
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "note": "Greek καί and Latin et stand as independent conjunctions before the verb 'will give', whereas Syriac prefixes the conjunction w- directly to the verb form ܘܢܬܠܝܘܗܝ, which additionally incorporates an object suffix ('and he will give it'), making the conjunction morphologically bound rather than a separate token."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek δώσει and Latin dabit are simple future verbs lacking an object pronoun, whereas the Syriac ܘܢܬܠܝܘܗܝ carries a 3ms object suffix ('he will give it'), anticipating the resumptive reference to the vineyard — a typical Syriac pleonastic object construction."
+    },
+    {
+      "greek_nt": [
         14,
-        15,
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        9,
-        10,
         11
       ],
       "vulgate": [
-        10,
-        11,
-        12,
         13
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Peshitta employs a pronominal suffix on the verb ܘܢܬܠܝܘܗܝ ('and-he-will-give-it'), incorporating the direct object 'vineyard' pronominally before restating it explicitly as ܟܪܡܐ, a common Semitic resumptive construction. Greek and Latin use standard accusative direct objects (τὸν ἀμπελῶνα / vineam) without pronominal anticipation."
+      "note": "Greek ἄλλοις (dative plural) and Latin aliis (dative plural) render 'to others' without a preposition, relying on case; Syriac ܠܐܚܪܢܐ marks the indirect object with the prefixed preposition l-, the standard Aramaic dative substitute since Syriac lacks an inflected dative case."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.022097+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.519847+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

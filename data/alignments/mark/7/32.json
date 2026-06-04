@@ -65,8 +65,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -78,8 +77,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek φέρουσιν ('they bring/carry') and Latin adducunt ('they lead to') are present tenses; the Syriac ܘܐܝܬܝܘ (Aphel of y-th-y, 'they brought') is fused with the preceding conjunction into a single perfect form, a routine Syriac morphosyntactic feature rather than a semantic divergence."
     },
     {
       "greek_nt": [
@@ -91,8 +90,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -104,39 +102,49 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek κωφὸν (deaf) precedes μογιλάλον (speech-impaired), while Vulgate surdum precedes mutum, maintaining Greek order. Peshitta ܚܪܫܐ (deaf) is followed by the numeral ܚܕ (one), creating a different syntactic structure before the second adjective."
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        3
+      ],
+      "variant": "added",
+      "note": "The Peshitta inserts the numeral/indefinite marker ܚܕ ('one/a certain'), functioning as an indefinite article ('a certain deaf man'). Neither the Greek κωφόν nor the Latin surdum carries an explicit indefinite marker, this being a characteristic Syriac idiom for indefiniteness."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin coordinate the two adjectives with καί/et ('deaf and dumb'); the Peshitta juxtaposes ܚܪܫܐ and ܦܐܩܐ asyndetically with the inserted ܚܕ between them, omitting the connective and yielding 'a deaf, stammering man.'"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek μογιλάλον (G3424, 'speaking with difficulty') is rendered by Vulgate mutum ('mute') and Peshitta ܦܐܩܐ ('stammerer/mute'). The Vulgate simplifies the rare Greek term to a more common Latin equivalent, while Syriac preserves the nuance of impaired rather than absent speech."
+      "note": "Greek μογιλάλον is the rare and precise term 'speaking with difficulty / having an impediment of speech'; Latin mutum generalises to 'dumb/mute,' losing the nuance of partial impairment, while Syriac ܦܐܩܐ ('stammering, with halting speech') preserves the sense of impeded rather than absent speech closer to the Greek."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [
-        5
-      ],
+      "peshitta": [],
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -150,8 +158,7 @@
         7
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek παρακαλοῦσιν (present active indicative) and Vulgate deprecabantur (imperfect) differ in tense-aspect. Peshitta ܘܒܥܐ ܗܘܘ employs the periphrastic construction (participle + auxiliary) typical of Syriac to express past progressive action, functionally equivalent to the Latin imperfect."
+      "note": "Greek παρακαλοῦσιν ('they implore') is present, Latin deprecabantur is imperfect ('they were beseeching'); the Syriac renders this with a periphrastic past ܘܒܥܐ ܗܘܘ (perfect of b-e-a plus the auxiliary ܗܘܘ), an idiomatic construction for durative past action paralleling the Latin imperfect."
     },
     {
       "greek_nt": [
@@ -163,8 +170,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -176,8 +182,7 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -189,8 +194,7 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -202,8 +206,7 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -217,14 +220,13 @@
         12
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article τὴν with χεῖρα (accusative singular), while Vulgate manum and Peshitta ܐܝܕܐ lack articles, following the conventions of Latin and Syriac respectively, which do not require articles in this construction despite semantic equivalence."
+      "note": "Greek τὴν χεῖρα uses the article ('the hand'), and Latin manum is anarthrous as Latin lacks articles; the Syriac ܐܝܕܐ is likewise determined by context as 'his hand,' all three referring to the same gesture of laying on of hands with only morphological article differences."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.992791+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.485371+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

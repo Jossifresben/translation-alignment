@@ -68,13 +68,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καὶ / Et, beginning directly with the verb ܘܬܡܝܗܝܢ (which incorporates the conjunction within the verbal form). This represents a stylistic difference in how Syriac handles clause connection through verbal morphology rather than separate conjunctions."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -88,93 +88,169 @@
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the imperfect middle-passive ἐξεπλήσσοντο (third-person plural); Syriac employs a periphrastic construction ܘܬܡܝܗܝܢ ܗܘܘ (participle + auxiliary 'were'); Vulgate uses the simple imperfect stupebant. All three express ongoing astonishment in the past, but through different verbal strategies."
+      "note": "Greek ἐξεπλήσσοντο is a single imperfect passive verb ('they were astonished'); the Peshitta renders this periphrastically with predicate ܬܡܝܗܝܢ ('astonished/marvelling') plus the auxiliary ܗܘܘ ('were'), a standard Syriac construction for past durative states. The Vulgate stupebant matches the Greek single-verb imperfect."
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4,
-        5
+        2
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        2,
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the preposition ἐπὶ with dative article and noun (ἐπὶ τῇ διδαχῇ αὐτοῦ); Vulgate mirrors this with super + ablative (super doctrina ejus); Syriac uses a single bound form ܒܝܘܠܦܢܗ ('at-his-teaching') with the pronominal suffix, a typical Semitic compression of the prepositional phrase."
+      "note": "Greek uses article + dative noun (τῇ διδαχῇ); Latin uses the bare ablative doctrina without article (Latin lacking definite articles); Syriac fuses the preposition, noun, and possessive suffix into the single inflected form ܒܝܘܠܦܢܗ ('at his teaching'), incorporating the genitive pronoun that Greek and Latin express separately."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
       "vulgate": [
         5
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon to mark the clause boundary before the explanatory γὰρ clause, a punctuation convention absent in the Greek and Peshitta manuscript traditions."
+      "note": "The Greek punctuation (high point ·) and the Vulgate colon both mark a sense pause after 'his teaching'; the Peshitta carries no graphic punctuation here and the pronominal possessive is already absorbed into ܒܝܘܠܦܢܗ, so no separate Syriac token corresponds."
     },
     {
       "greek_nt": [
-        6,
-        7,
-        8,
-        9
+        6
       ],
       "peshitta": [
-        3,
-        4,
-        5,
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        6,
-        7,
-        8,
-        9
+        7
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the causal particle γὰρ in second position (ἦν γὰρ διδάσκων αὐτοὺς); Syriac fronts the participle before the auxiliary and particle (ܡܠܦ ܗܘܐ ܠܗܘܢ ܓܝܪ); Vulgate follows Greek word order (erat enim docens eos). The semantic content is identical, but Syriac exhibits typical VSO preference."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        10,
-        11,
-        12
+        8
       ],
       "peshitta": [
-        7,
+        3
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek ἦν...διδάσκων is a periphrastic imperfect (auxiliary + present participle); the Vulgate erat...docens mirrors this periphrasis exactly. The Peshitta ܡܠܦ ܗܘܐ likewise uses participle + auxiliary, though it places the participle ܡܠܦ before its auxiliary ܗܘܐ, reversing the Greek/Latin order — a difference of word-order within an equivalent construction."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
         8
       ],
       "vulgate": [
-        10,
-        11,
-        12
+        11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a comparative particle with accusative noun and present participle (ὡς ἐξουσίαν ἔχων, 'as having authority'); Vulgate mirrors this with quasi + accusative and present participle (quasi potestatem habens); Syriac employs a simpler construction with ܐܝܟ + adjective ܡܫܠܛܐ ('as one-having-authority'), using a single lexeme where Greek and Latin use a noun-verb phrase."
+      "note": "Greek ἐξουσίαν ἔχων ('having authority') is an abstract noun governed by a participle; the Vulgate potestatem habens replicates this exactly. The Peshitta condenses both into the single agent noun ܡܫܠܛܐ ('one having authority / an authoritative one'), substituting a substantival construction for the Greek noun-plus-participle phrase."
     },
     {
       "greek_nt": [
-        13,
-        14,
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek καὶ οὐχ ('and not') and Latin et non are two discrete tokens (conjunction + negator); the Peshitta fuses both into the single proclitic form ܘܠܐ ('and-not'), a normal Syriac orthographic conjunction of the connective waw with the negative particle ܠܐ."
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        13,
-        14,
         15
       ],
       "variant": "aligned"
@@ -190,15 +266,14 @@
       "vulgate": [
         16
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek and Vulgate use the simple plural noun with article (οἱ γραμματεῖς / scribæ, 'the scribes'); Peshitta reads ܣܦܪܝܗܘܢ ('their scribes') with a third-person plural possessive suffix, specifying the scribes as belonging to the audience's community. This addition clarifies the referent and may reflect a Syriac interpretive tradition emphasizing the scribes' relationship to the Jewish listeners."
+      "variant": "minor",
+      "note": "Greek οἱ γραμματεῖς uses article + noun ('the scribes'); the Vulgate scribæ drops the article per Latin usage. The Peshitta ܣܦܪܝܗܘܢ adds a 3rd-person plural possessive suffix ('their scribes'), an explicating expansion not present in the Greek or Latin, identifying the scribes as belonging to the hearers' community."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.946830+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.509432+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

@@ -93,8 +93,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
@@ -106,7 +105,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present tense γίνεται ('it happens') with καί; Vulgate employs the perfect passive factum est ('it came to pass') with a temporal clause structure; Peshitta uses the simple perfect ܘܗܘܐ. All three express the same narrative transition but with different aspectual nuances."
+      "note": "The Greek καί + present γίνεται ('and it comes to pass') is rendered by the Vulgate with the periphrastic et factum est, a Semitic-style narrative formula calqued from the LXX καὶ ἐγένετο. The Peshitta uses the single perfect ܘܗܘܐ ('and it was/came to pass'), economically conveying the same temporal-introductory sense."
     },
     {
       "greek_nt": [
@@ -125,7 +124,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs articular infinitive construction ἐν τῷ κατακεῖσθαι αὐτόν ('in the [act of] him reclining'); Vulgate uses cum with subjunctive (cum accumberet, 'when he was reclining'); Peshitta uses temporal particle ܕܟܕ with active participle ܣܡܝܟ. Syntactically distinct but semantically equivalent temporal clauses."
+      "note": "Greek uses an articular infinitive in the prepositional phrase ἐν τῷ κατακεῖσθαι αὐτόν ('while he was reclining'), with an explicit accusative subject αὐτόν. The Vulgate renders this with a temporal clause cum accumberet (subjunctive), and the Peshitta with the conjunction ܕܟܕ plus the passive participle ܣܡܝܟ; all three express the same circumstantial sense by distinct syntactic means."
     },
     {
       "greek_nt": [
@@ -143,38 +142,66 @@
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses prepositional phrase ἐν τῇ οἰκίᾳ αὐτοῦ with article and possessive pronoun; Vulgate mirrors this with in domo illius; Peshitta employs the bound form ܒܒܝܬܗ ('in-his-house') as a single lexical unit with pronominal suffix, typical of Semitic economy."
+      "type": "construction",
+      "note": "The Greek ἐν τῇ οἰκίᾳ αὐτοῦ ('in his house') is matched by the Vulgate three-word in domo illius. The Peshitta compresses preposition, noun, and possessive into a single inflected form ܒܒܝܬܗ ('in-his-house'), a normal feature of Syriac morphology."
     },
     {
       "greek_nt": [
         10
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
-      "type": "punctuation",
-      "note": "Greek καί marks the transition to the main clause after the temporal subordinate clause. Both Peshitta and Vulgate omit this conjunction, moving directly to the subject of the main clause, reflecting different punctuation conventions for complex sentence structure."
+      "type": "omission",
+      "note": "The Greek introduces the main clause with a second resumptive καί ('and many tax collectors...'), characteristic of paratactic Markan style. Neither the Peshitta nor the Vulgate represents this connective, since both have subordinated the preceding clause and thus require no coordinating conjunction here."
     },
     {
       "greek_nt": [
-        11,
-        12,
-        13,
-        14
+        11
       ],
       "peshitta": [
-        4,
-        5,
+        4
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        8,
-        9,
-        10,
-        11
+        10
       ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin attest separate tokens for 'and' (καί / et) and 'sinners' (ἁμαρτωλοί / peccatores). The Peshitta fuses the conjunction with the noun into ܘܚܛܝܐ ('and-sinners'), so the single Syriac token carries both the connective and the substantive."
     },
     {
       "greek_nt": [
@@ -189,82 +216,151 @@
         13
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the compound verb συνανέκειντο ('were reclining together with'); Vulgate employs simul discumbebant (adverb + verb, 'together were reclining'); Peshitta uses participial construction ܣܡܝܟܝܢ ܗܘܘ (active participle + auxiliary). All convey shared reclining but with different morphological strategies."
+      "type": "construction",
+      "note": "The Greek compound verb συνανέκειντο ('were reclining together with') is a single imperfect. The Vulgate analyses it into adverb + verb simul discumbebant, while the Peshitta uses the periphrastic participle + auxiliary ܣܡܝܟܝܢ ܗܘܘ ('were reclining'), the standard Syriac way of expressing durative past action."
     },
     {
       "greek_nt": [
         16,
-        17,
-        18,
-        19,
-        20,
-        21
+        17
       ],
       "peshitta": [
         9,
-        10,
+        10
+      ],
+      "vulgate": [
+        14,
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        18,
+        19,
+        20
+      ],
+      "peshitta": [
         11,
         12
       ],
       "vulgate": [
-        14,
-        15,
         16,
-        17,
-        18
+        17
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses dative case with article (τῷ Ἰησοῦ καὶ τοῖς μαθηταῖς αὐτοῦ) to express accompaniment; Vulgate employs cum + ablative (cum Jesu et discipulis ejus); Peshitta uses the preposition ܥܡ repeated before each object (ܥܡ ܝܫܘܥ ܘܥܡ ܬܠܡܝܕܘܗܝ), a characteristic Syriac distributive construction for emphasis."
+      "note": "Greek καὶ τοῖς μαθηταῖς αὐτοῦ uses the dative article plus noun governed by the earlier verb. The Peshitta repeats the preposition (ܘܥܡ ܬܠܡܝܕܘܗܝ, 'and with his disciples'), matching the construction ܥܡ ܝܫܘܥ; the Vulgate omits a repeated preposition (et discipulis ejus), continuing the government of cum from the previous phrase."
     },
     {
       "greek_nt": [
-        22,
-        23,
-        24
+        21
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned",
+      "note": "Possessive 'of him' (αὐτοῦ / ejus) is carried by the enclitic suffix in Syriac ܬܠܡܝܕܘܗܝ."
+    },
+    {
+      "vulgate": [
+        19
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts an explicit colon here, marking the boundary before the explanatory clause erant enim multi. The Greek punctuates with a high point (·) attached to αὐτοῦ· and the Peshitta marks no equivalent stop as a separate token."
+    },
+    {
+      "greek_nt": [
+        22
       ],
       "peshitta": [
         13,
-        14,
-        15,
-        16
+        14
       ],
       "vulgate": [
-        19,
-        20,
-        21,
-        22
+        20
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses simple imperfect ἦσαν γὰρ πολλοί ('for they were many'); Vulgate adds colon punctuation and mirrors the structure (erant enim multi); Peshitta employs existential particle ܐܝܬܝܗܘܢ with auxiliary ܗܘܘ and causal ܓܝܪ, creating a periphrastic construction typical of Syriac existential predication."
+      "note": "Greek ἦσαν and Latin erant are single imperfect forms of 'to be'. The Peshitta expresses the same with the existential particle plus auxiliary ܐܝܬܝܗܘܢ ܗܘܘ ('they were/existed'), a two-word periphrasis standard in Syriac for past-tense existential predication."
     },
     {
       "greek_nt": [
-        25,
-        26,
-        27
+        23
       ],
       "peshitta": [
-        17,
-        18
+        15
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "note": "Explanatory particle γάρ / ܓܝܪ / enim."
+    },
+    {
+      "greek_nt": [
+        24
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        25
+      ],
+      "peshitta": [
+        17
       ],
       "vulgate": [
         23,
-        24,
-        25,
-        26
+        24
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect ἠκολούθουν with dative αὐτῷ ('they were following him'); Vulgate employs relative pronoun qui with imperfect sequebantur and accusative eum ('who also were following him'), adding et for emphasis; Peshitta uses perfect ܘܐܬܘ with prepositional phrase ܒܬܪܗ ('and they came after him'), expressing completed action rather than ongoing process."
+      "note": "Greek continues paratactically with καὶ ἠκολούθουν ('and they were following'). The Vulgate subordinates this into a relative clause qui et sequebantur ('who also were following'), introducing the relative pronoun qui not present in the Greek or Syriac. The Peshitta retains coordination with ܘܐܬܘ."
+    },
+    {
+      "greek_nt": [
+        26
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        25
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἠκολούθουν ('they were following', from ἀκολουθέω) and Latin sequebantur both denote discipular following. The Peshitta reads ܘܐܬܘ ('and they came', root a-y-th) rather than a verb of following, a slight lexical shift emphasising arrival/accompaniment with the following ܒܬܪܗ ('after him') supplying the directional sense."
+    },
+    {
+      "greek_nt": [
+        27
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        26
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek αὐτῷ is a simple dative object of ἀκολουθέω ('were following him'); the Vulgate uses the accusative eum with sequor. The Peshitta renders the idea with the prepositional phrase ܒܬܪܗ ('after him'), pairing with ܘܐܬܘ to mean 'came after him', the conventional Syriac expression for following."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.953852+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.527281+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

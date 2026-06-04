@@ -49,19 +49,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs article + postpositive conjunction (οἱ δέ); Peshitta mirrors this with pronoun + postpositive particle (ܗܢܘܢ ܕܝܢ); Vulgate uses only the relative pronoun Qui, omitting an explicit adversative particle—stylistically equivalent but syntactically streamlined."
+      "type": "construction",
+      "note": "Greek and Syriac use a substantival demonstrative/article (οἱ / ܗܢܘܢ, 'they/those'), while the Vulgate renders the subject with the relative pronoun Qui, fronting it into a relative-clause construction typical of Latin narrative resumption."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The postpositive connective δέ is matched by Syriac ܕܝܢ (a Greek loan-particle), but the Vulgate has no corresponding adversative conjunction, dropping the discourse marker entirely as is common in Latin paratactic style."
     },
     {
       "greek_nt": [
@@ -75,66 +84,117 @@
         2
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate separates the verb dixerunt from the following quotation with a colon, making the punctuation mark a discrete token; Greek and Peshitta integrate punctuation into the verb token itself (εἶπαν· / ܐܡܪܝܢ)."
+      "type": "grammar",
+      "note": "Greek aorist εἶπαν and Latin perfect dixerunt both denote completed past speech, whereas Syriac ܐܡܪܝܢ is a participial present-tense form used as a narrative tense; the Vulgate additionally supplies the colon (idx 2) introducing direct discourse."
     },
     {
       "greek_nt": [
-        3,
         4
       ],
       "peshitta": [
-        3,
-        4,
-        5
+        3
       ],
       "vulgate": [
-        3,
-        4
+        3
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta inserts the dative pronoun ܠܢ ('to us') after the verb ܐܦܣ ('permitted'), making explicit the indirect object implied in Greek ἐπέτρεψεν and Latin permisit. This expansion clarifies the recipients of Moses' permission, a typical Syriac explicitation strategy."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
-        5,
-        6,
+        3
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin place the verb of permitting (ἐπέτρεψεν / permisit) before the subject Moses is mentioned in their respective clause orders, while Syriac ܐܦܣ follows the subject ܡܘܫܐ; the lexemes are semantically equivalent ('he permitted')."
+    },
+    {
+      "peshitta": [
+        5
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Syriac adds the dative pronoun ܠܢ ('to us'), making explicit the indirect object of the permission. Neither the Greek NA28 nor the Vulgate transmits this pronoun, which clarifies the addressees as the questioning Pharisees."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        6,
-        7,
-        8
+        6
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the infinitive γράψαι after the noun phrase βιβλίον ἀποστασίου ('to write a certificate of divorce'); Peshitta reverses this to ܕܢܟܬܘܒ ܟܬܒܐ ܕܫܘܒܩܢܐ ('that he write a document of release'), fronting the infinitive in a subordinate clause construction. Vulgate follows Greek word order (libellum repudii scribere) but uses a gerund rather than infinitive."
+      "type": "construction",
+      "note": "Greek and Latin use an infinitive of purpose/content (γράψαι / scribere, 'to write'), whereas Syriac employs a subordinate finite verb ܕܢܟܬܘܒ ('that he might write'); the Vulgate also separates libellum (idx 6) before scribere, reordering the object-infinitive sequence."
     },
     {
       "greek_nt": [
-        8,
+        5
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἀπολῦσαι and Latin dimittere literally mean 'to release/send away' (the wife), the standard divorce idiom; Syriac uses the verb ܘܢܫܪܐ (root sh-r-a, 'to loose/release'), a cognate-conceptual equivalent expressing the dissolution of the marriage bond."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.008064+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.491467+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

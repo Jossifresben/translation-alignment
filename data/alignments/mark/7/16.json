@@ -41,7 +41,8 @@
         1
       ],
       "peshitta": [
-        0
+        0,
+        1
       ],
       "vulgate": [
         0,
@@ -49,7 +50,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conditional particle εἰ with indefinite pronoun τις; Syriac employs the relative pronoun ܡܢ ('whoever') without explicit conditional marker; Latin mirrors Greek structure with Si quis. All three express the same conditional-indefinite semantics through different syntactic means."
+      "note": "Greek and Latin use a conditional protasis with an indefinite pronoun (Εἴ τις / Si quis, 'if anyone'); the Peshitta employs a substantival relative construction ܡܢ ܕܐܝܬ ('whoever has'), recasting the conditional clause as a headless relative — semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -63,8 +64,8 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Latin use simple finite verbs (ἔχει / habet, 'has'); Syriac employs the existential particle ܕܐܝܬ with pronominal suffix ܠܗ ('there is to him'), a standard Semitic possessive construction semantically equivalent to 'has'."
+      "type": "idiom",
+      "note": "Greek ἔχει and Latin habet express possession with a single transitive verb; Syriac uses the existential particle ܐܝܬ with the dative ܠܗ ('there is to him'), the standard Semitic idiom for predicative possession, hence the difference in token count."
     },
     {
       "greek_nt": [
@@ -78,7 +79,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek ὦτα is neuter plural accusative ('ears'); Latin aures is feminine plural accusative; Syriac ܐܕܢܐ appears singular (emphatic state), reflecting the Semitic idiom of using singular for body parts occurring in pairs, though semantically plural."
+      "note": "Greek ὦτα and Latin aures are plural ('ears'), whereas the Syriac ܐܕܢܐ is morphologically the singular/absolute form, a common Syriac idiom for paired body parts treated collectively."
     },
     {
       "greek_nt": [
@@ -90,8 +91,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the complementary present infinitive ἀκούειν and Latin the gerund of purpose audiendi ('for hearing'); the Peshitta renders this with a finite subordinate clause ܕܢܫܡܥ ('that he may hear'), preferring a verbal clause to the infinitive/gerund construction."
     },
     {
       "greek_nt": [
@@ -103,14 +105,15 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek third-person imperative ἀκουέτω and Latin present subjunctive audiat ('let him hear') are matched by the Syriac imperfect/jussive ܢܫܡܥ; all three convey the same hortatory force despite different morphological means of expressing the third-person command."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.989985+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.462455+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

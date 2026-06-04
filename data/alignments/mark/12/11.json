@@ -49,55 +49,84 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0,
-        1,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek παρά and Latin a render the agentive/source preposition with a single particle, whereas the Peshitta employs a compound prepositional phrase ܡܢ ܠܘܬ ('from beside/with'), a characteristic Syriac periphrasis intensifying the sense of origin from the Lord."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
         2
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple preposition παρὰ κυρίου ('from [the] Lord'); Peshitta employs compound prepositional phrase ܡܢ ܠܘܬ ܡܪܝܐ (min lewath maryā, 'from with the Lord'), a characteristic Syriac idiom for agency or source. Latin mirrors Greek structure with a Domino."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
         2,
         3
       ],
-      "peshitta": [
-        3,
-        4
-      ],
-      "vulgate": [
-        2,
-        3,
-        4
-      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Syriac place the verb before the demonstrative (ἐγένετο αὕτη / ܗܘܬ ܗܕܐ); Vulgate inverts to factum est istud, following Latin preference for participle-copula-demonstrative sequence. Semantically equivalent."
+      "type": "construction",
+      "note": "Greek ἐγένετο (aorist of γίνομαι) and Syriac ܗܘܬ are single finite verbs, while the Vulgate renders the idea analytically with the perfect periphrasis factum est, reflecting the Latin habit of expressing the passive 'was done/made' compositely."
     },
     {
       "greek_nt": [
-        4,
+        3
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- (prefixed to ܐܝܬܝܗ) / et"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Peshitta fuses conjunction and copula into single form ܘܐܝܬܝܗ (w-ītayh, 'and-it-is'), a morphological feature of Syriac; Greek and Latin maintain separate tokens (καὶ ἔστιν / et est)."
+      "type": "grammar",
+      "note": "Greek ἔστιν and Latin est are independent copulas, whereas the Syriac existential ܐܝܬܝܗ carries an enclitic pronominal element and is fused with the preceding conjunction in a single graphic token, a normal Syriac construction for the predicative 'it is'."
     },
     {
       "greek_nt": [
@@ -109,49 +138,43 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "θαυμαστή / ܬܕܡܘܪܬܐ / mirabile"
     },
     {
       "greek_nt": [
         7,
-        8
+        8,
+        9
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
         8,
-        9
+        9,
+        10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Latin use preposition + noun in dative/ablative (ἐν ὀφθαλμοῖς / in oculis); Syriac employs bare noun with pronominal suffix ܒܥܝܢܝܢ (b-ʿaynain, 'in-our-eyes'), incorporating the possessive morphologically rather than as separate token."
+      "note": "Greek and Latin express 'in our eyes' analytically with preposition + noun + genitive pronoun (ἐν ὀφθαλμοῖς ἡμῶν / in oculis nostris), while Syriac compresses the entire phrase into a single inflected form ܒܥܝܢܝܢ, prefixing the preposition ܒ- and suffixing the 1st-person plural possessive."
     },
     {
       "greek_nt": [
         9
       ],
-      "peshitta": [],
-      "vulgate": [
-        10
-      ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Peshitta omits the first-person plural possessive pronoun, having already incorporated it into the preceding noun ܒܥܝܢܝܢ ('in-our-eyes'). Greek ἡμῶν and Latin nostris are separate genitive tokens modifying 'eyes.'"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Greek and Vulgate close the citation of Ps 118:23 as an interrogative/exclamatory clause (the Greek ; functioning as a question mark, the Vulgate marking it with ?); the Peshitta carries no terminal interrogative punctuation, leaving the sentence type implicit as is typical of the Syriac tradition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.022443+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.534035+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

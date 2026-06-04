@@ -55,34 +55,44 @@
         1
       ],
       "peshitta": [
-        0
+        0,
+        2
       ],
       "vulgate": [
         0,
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek employs ὅταν δὲ (temporal conjunction + particle); Peshitta uses ܡܐ alone (temporal 'when'); Vulgate renders with Et cum ('and when'), adding a coordinating conjunction absent in the Greek particle δέ but reflecting narrative flow."
+      "type": "construction",
+      "note": "All three open with a temporal-conjunctive frame, but the discourse particles diverge in placement: Greek pairs ὅταν with postpositive δέ, Syriac splits ܡܐ ('when') from postpositive ܕܝܢ, and the Vulgate prefixes coordinating Et to the temporal cum. The semantic value is equivalent across traditions."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek παραδοῖ ('hands over/yields') and Latin produxerit ('brings forth') describe the fruit being produced or offered up, whereas the Peshitta ܕܫܡܢ (root d-sh-m, 'grows fat/ripens') foregrounds the ripeness of the produce. The Syriac thus reads the agronomic process rather than the act of yielding."
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        1,
-        2,
         3
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek παραδοῖ ὁ καρπός (subjunctive aorist, 'when the fruit yields/delivers itself') is rendered by Vulgate produxerit fructus (perfect subjunctive, 'has brought forth fruit') and Peshitta ܕܫܡܢ ܕܝܢ ܦܐܪܐ ('when it ripens, the fruit'), reflecting different aspectual nuances of the same agricultural metaphor."
+      "variant": "aligned",
+      "note": "ὁ καρπός / ܦܐܪܐ / fructus"
     },
     {
       "greek_nt": [
@@ -94,25 +104,36 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "εὐθύς / ܡܚܕܐ / statim"
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek ἀποστέλλει and Latin mittit both mean 'he sends (forth) [the sickle]', an active causative idiom for beginning the harvest. The Peshitta ܐܬܝܐ (root a-th-a, 'comes') instead has the sickle 'come', shifting from an external agent dispatching the tool to an impersonal or intransitive arrival, a recognisably Syriac reformulation of the harvest image."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἀποστέλλει τὸ δρέπανον ('he sends the sickle') uses article + accusative object; Vulgate mittit falcem mirrors this structure; Peshitta ܐܬܝܐ ܡܓܠܐ ('comes the sickle') employs an intransitive construction where the sickle itself is the subject, a stylistic shift preserving the immediacy of harvest action."
+      "variant": "aligned",
+      "note": "τὸ δρέπανον / ܡܓܠܐ / falcem"
     },
     {
       "greek_nt": [
@@ -124,11 +145,25 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ὅτι / ܕ (relative-causal prefix on ܕܡܛܝ) / quoniam"
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek παρέστηκεν (perfect of παρίστημι, 'has come/stands ready') and Latin adest ('is present') express the harvest standing at hand. The Syriac uses the prefixed verb ܕܡܛܝ (root m-T, 'has arrived/become due'), a cognate idiom for the season having reached its appointed time; the divergence is purely lexical, not semantic."
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
@@ -136,18 +171,16 @@
         8
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek παρέστηκεν ὁ θερισμός (perfect active indicative, 'the harvest has arrived/stands ready') is rendered by Vulgate adest messis (present indicative, 'the harvest is present') and Peshitta ܕܡܛܝ ܚܨܕܐ ('that has arrived the harvest'), with Peshitta using a relative clause construction rather than main verb, subtly subordinating the harvest's arrival to the causal conjunction."
+      "variant": "aligned",
+      "note": "ὁ θερισμός / ܚܨܕܐ / messis"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.967753+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.454144+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

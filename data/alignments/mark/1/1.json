@@ -47,8 +47,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -63,23 +62,31 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek marks the genitive analytically with the article + ending (τοῦ εὐαγγελίου); the Peshitta uses the proclitic ܕ- (dalath, genitive/relative particle) on ܐܘܢܓܠܝܘܢ; the Vulgate uses inflection alone (Evangelii). A standard divergence in how each language realises adnominal genitive. [Patched in corpus v1.0.0 — original output mis-classified the Syriac construction as 'construct state'.]"
+      "note": "Greek expresses the genitive with article plus noun (τοῦ εὐαγγελίου), whereas Syriac fuses the genitive proclitic ܕ- onto ܐܘܢܓܠܝܘܢ as a single orthographic token; both render the loan-word εὐαγγέλιον, which Latin likewise transliterates as Evangelii. The divergence is purely morphosyntactic in how the genitive is marked."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -92,8 +99,8 @@
         4
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek υἱοῦ and Latin Filii are bare nouns; the Peshitta ܒܪܗ carries the 3ms possessive suffix -ܗ (literally 'his son'), with the referent God resolved by the following ܕܐܠܗܐ. A minor expansion of pronominal explicitness characteristic of Syriac. [Patched in corpus v1.0.0 — original output verdict 'aligned' missed the Peshitta possessive suffix.]"
+      "type": "grammar",
+      "note": "Greek anarthrous υἱοῦ and Latin Filii leave the possessive unexpressed, while the Peshitta ܒܪܗ carries the pronominal suffix -eh ('his Son'), an explicit anaphoric marker referring back to God; this is a typical Syriac construct-state strategy rather than a substantive theological variant."
     },
     {
       "greek_nt": [
@@ -108,13 +115,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek marks the genitive with article τοῦ + θεοῦ (articular genitive typical of Koine); the Peshitta marks it with proclitic ܕ- on ܐܠܗܐ (the noun stands in the emphatic state, which itself supplies definiteness in Syriac); the Vulgate uses bare inflection (Dei). Three different grammatical realisations of the same divine title in genitive position. [Patched in corpus v1.0.0 — original output mis-described the Syriac as 'omitting the article' which conflates two distinct grammatical systems.]"
+      "note": "Greek marks the genitive of θεός with the article (τοῦ θεοῦ), a reading attested in NA28 though omitted by some witnesses (e.g. ℵ*, Θ); Syriac ܕܐܠܗܐ again prefixes the genitive proclitic ܕ-, and Latin Dei marks the genitive purely by inflection without an article. All three converge on 'of God.'"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.941809+00:00",
-    "confidence": 0.95,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.494078+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

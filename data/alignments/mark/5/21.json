@@ -81,29 +81,40 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek introduces a genitive absolute with the simple connective Καὶ; Syriac ܘܟܕ ('and when') fuses conjunction and temporal subordinator into a single particle, while the Vulgate splits the same notion into Et + cum ('and when'). All three express the same temporal-circumstantial clause."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the aorist participle διαπεράσαντος in a genitive absolute, whereas Syriac ܥܒܪ and Latin transcendisset employ finite verb forms (perfect/pluperfect) governed by the subordinator. The participial vs. finite construction is a routine syntactic accommodation."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a genitive absolute construction (διαπεράσαντος τοῦ Ἰησοῦ) with aorist participle; Vulgate uses a temporal cum-clause with pluperfect subjunctive (cum transcendisset Jesus); Peshitta uses a temporal ܟܕ-clause with perfect verb (ܟܕ ܥܒܪ ܝܫܘܥ). All three express the same temporal relationship but through distinct syntactic strategies characteristic of their respective languages."
+      "variant": "aligned",
+      "note": "Ἰησοῦ / ܝܫܘܥ / Jesus"
     },
     {
       "greek_nt": [
@@ -119,20 +130,7 @@
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐν τῷ πλοίῳ / ܒܣܦܝܢܬܐ / in navi"
     },
     {
       "greek_nt": [
@@ -149,8 +147,21 @@
         8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places πάλιν (again) before the prepositional phrase εἰς τὸ πέραν (to the other side), while Peshitta reverses this order with ܠܗܘ ܥܒܪܐ ܬܘܒ (to that side again), and Vulgate similarly places rursum after trans fretum. The word-order variation reflects stylistic preferences without altering the semantic content."
+      "type": "lexical",
+      "note": "Greek substantivises the adverb πέραν with the article (τὸ πέραν, 'the other side'); Syriac uses the noun ܥܒܪܐ (from the same root e-b-r as the verb 'to cross') preceded by the demonstrative ܠܗܘ; Latin renders fretum ('the strait/channel'), a more concrete geographic term. The underlying sense 'to the far shore' is preserved."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "πάλιν / ܬܘܒ / rursum"
     },
     {
       "greek_nt": [
@@ -164,7 +175,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the passive aorist συνήχθη (was gathered) with singular verb agreeing with ὄχλος; Peshitta employs the ethpeal (reflexive-passive) ܐܬܟܢܫܘ with plural verb; Vulgate uses active perfect convenit (assembled). The Peshitta plural reflects constructio ad sensum (agreement with the collective sense of 'crowd'), while Greek and Latin maintain grammatical singular."
+      "note": "Greek συνήχθη is a passive 'was gathered' (3rd singular); Syriac ܐܬܟܢܫܘ is reflexive/middle and plural ('they gathered themselves'), agreeing notionally with the collective crowd; Latin convenit is an active intransitive ('came together'). Diathesis differs across all three witnesses."
     },
     {
       "greek_nt": [
@@ -180,12 +191,13 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ὄχλος πολύς / ܟܢܫܐ ܣܓܝܐܐ / turba multa"
     },
     {
       "greek_nt": [
         14,
-        15
+        15,
+        16
       ],
       "peshitta": [
         8
@@ -194,12 +206,12 @@
         12,
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin place the prepositional phrase 'to him' (ἐπ᾽ αὐτόν / ad eum) after the noun phrase 'a great crowd', whereas Syriac fronts the clitic prepositional pronoun ܥܠܘܗܝ immediately after the verb ܐܬܟܢܫܘ. The conjunction καὶ (idx 16) bridges to the following clause and corresponds to Latin et (idx 14)."
     },
     {
       "greek_nt": [
-        16,
         17
       ],
       "peshitta": [
@@ -207,11 +219,11 @@
         12
       ],
       "vulgate": [
-        14,
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἦν and Latin erat use a simple imperfect copula 'he was'; Syriac renders the periphrastic ܟܕ ܐܝܬܘܗܝ ('while he was'), introducing a circumstantial clause with the subordinator ܟܕ plus the existential ܐܝܬܘܗܝ. The temporal nuance is slightly heightened in the Peshitta."
     },
     {
       "greek_nt": [
@@ -229,14 +241,14 @@
         17
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses παρὰ τὴν θάλασσαν (beside the sea); Vulgate employs circa mare (around/near the sea); Peshitta reads ܥܠ ܝܕ ܝܡܐ (literally 'upon the hand of the sea', an idiom meaning 'beside/along the shore'). All three convey spatial proximity to the sea through different prepositional choices and idiomatic expressions native to each language."
+      "type": "idiom",
+      "note": "Greek παρὰ τὴν θάλασσαν ('beside the sea') and Latin circa mare ('around/by the sea') employ a single preposition with the noun; Syriac uses the idiomatic compound ܥܠ ܝܕ ܝܡܐ, literally 'upon the hand of the sea', a Semitic locative expression meaning 'at the shore/edge of the sea'. The final pilcrow on the Greek θάλασσαν.¶ marks a pericope break."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.974063+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.459605+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

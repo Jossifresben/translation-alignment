@@ -58,36 +58,46 @@
       "peshitta": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        1,
-        2,
-        3
-      ],
-      "peshitta": [
-        0,
-        1,
-        2
-      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a cognate accusative construction (ἐφοβήθησαν φόβον μέγαν, 'they feared a great fear'), a Semitic idiom; Peshitta uses the same construction natively (ܕܚܠܘ ܕܚܠܬܐ ܪܒܬܐ), demonstrating structural equivalence across both Semitic traditions."
+      "note": "The Greek opens with the coordinating conjunction καί followed by a finite aorist verb; the Peshitta fuses the conjunction directly onto the verb in ܘܕܚܠܘ ('and they feared'), a normal Syriac prefixal-waw construction rather than a separate particle."
     },
     {
       "greek_nt": [
-        4
+        1
       ],
       "peshitta": [
-        3
+        0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "φοβέω / d-kh-l: both render the verb 'to fear.'"
     },
     {
       "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Cognate accusative φόβον / ܕܚܠܬܐ; both languages employ the figura etymologica (verb + cognate noun) to intensify the emotion, 'feared a fear.'"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μέγαν / ܪܒܬܐ ('great')."
+    },
+    {
+      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
@@ -95,8 +105,8 @@
         4
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγον alone; Peshitta employs periphrastic construction ܐܡܪܝܢ ܗܘܘ (participle + auxiliary 'were'), a common Syriac means of expressing continuous past action—semantically equivalent but syntactically distinct."
+      "type": "construction",
+      "note": "Greek uses καί + imperfect ἔλεγον to express the durative 'were saying'; the Peshitta achieves the same iterative aspect periphrastically with the participle ܐܡܪܝܢ plus the enclitic auxiliary ܗܘܘ, a standard Syriac past-continuous construction."
     },
     {
       "greek_nt": [
@@ -109,7 +119,7 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek πρὸς ἀλλήλους ('to one another') is rendered in Peshitta as ܚܕ ܠܚܕ ('one to one'), a distributive construction typical of Syriac reciprocal expressions—functionally identical but employing different idiomatic patterns."
+      "note": "Greek πρὸς ἀλλήλους ('to one another') uses the reciprocal pronoun governed by a preposition; the Peshitta renders the reciprocity idiomatically with the distributive pair ܚܕ ܠܚܕ ('one to one'), the customary Syriac equivalent."
     },
     {
       "greek_nt": [
@@ -119,7 +129,8 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "Interrogative τίς / ܡܢܘ ('who')."
     },
     {
       "greek_nt": [
@@ -128,68 +139,92 @@
       "peshitta": [
         8
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek inferential particle ἄρα ('then, therefore') corresponds to Peshitta ܟܝ, which functions similarly as an emphatic or inferential marker in interrogative contexts—cognate particles with overlapping semantic ranges."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Inferential particle ἄρα / ܟܝ, both marking a rhetorical 'then.'"
     },
     {
       "greek_nt": [
-        10,
-        11
+        10
       ],
       "peshitta": [
         9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses demonstrative + copula (οὗτός ἐστιν, 'this one is'); Peshitta employs demonstrative ܗܢܐ alone without explicit copula, as Syriac frequently omits the copula in nominal sentences—syntactically divergent but semantically equivalent."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Demonstrative οὗτος / ܗܢܐ ('this [man]')."
     },
     {
       "greek_nt": [
-        12
+        11
+      ],
+      "peshitta": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek copula ἐστιν is explicit ('who then is this'); the Peshitta omits any verb 'to be', relying on the nominal-clause juxtaposition ܡܢܘ ܟܝ ܗܢܐ, which is the normal Syriac way of forming a predicate-nominative question without a copula."
+    },
+    {
+      "greek_nt": [
+        12,
+        13
+      ],
+      "peshitta": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek introduces the explanatory clause with ὅτι καί ('that even'); the Peshitta drops both the conjunction and the emphatic 'even', subordinating the clause instead through the relative-prefix waw on ܕܪܘܚܐ."
+    },
+    {
+      "greek_nt": [
+        14,
+        15
       ],
       "peshitta": [
         10
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek ὅτι introduces the subordinate clause after the main question; Peshitta ܕ- (attached to ܕܪܘܚܐ) marks the clause boundary but appears integrated with the first noun of the dependent clause, reflecting typical Syriac syntax where the relative/subordinating particle attaches directly to the following word."
+      "type": "lexical",
+      "note": "Greek ὁ ἄνεμος unambiguously means 'the wind'; the Peshitta ܪܘܚܐ (root r-w-kh) carries the same semantic field but is the polyvalent term that can also denote 'spirit/breath', and here it is bound by the subordinating waw (ܕܪܘܚܐ) rendering 'that the wind.'"
     },
     {
       "greek_nt": [
-        13,
-        14,
-        15,
         16,
         17,
         18
       ],
       "peshitta": [
-        10,
         11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs emphatic καὶ...καὶ ('even...and') with definite articles (ὁ ἄνεμος καὶ ἡ θάλασσα); Peshitta uses simple conjunction ܘ between ܪܘܚܐ ܘܝܡܐ without articles (Syriac lacks the definite article as a separate morpheme), achieving the same semantic force through different grammatical means."
+      "note": "Greek repeats the article and conjunction (καὶ ἡ θάλασσα, 'and the sea'); the Peshitta compresses this to the single waw-prefixed noun ܘܝܡܐ, omitting the definite article since Syriac marks definiteness by the emphatic state ending."
     },
     {
       "greek_nt": [
-        19,
-        20
+        19
       ],
       "peshitta": [
-        12,
-        13
+        12
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek singular verb ὑπακούει with dative αὐτῷ ('it obeys him') contrasts with Peshitta plural ܡܫܬܡܥܝܢ ܠܗ ('they obey him'), where Syriac treats 'wind and sea' as a plural subject—a common Semitic grammatical convention for conjoined subjects."
+      "note": "Greek ὑπακούει is third-person singular, agreeing with the nearer subject 'sea' under a construction ad sensum; the Peshitta ܡܫܬܡܥܝܢ is plural, agreeing grammatically with the two coordinated subjects (wind and sea), a difference of concord rather than meaning."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        13
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek closes with the dative αὐτῷ followed by an interrogative mark and paragraph break (αὐτῷ;¶); the Peshitta ܠܗ carries the same dative pronominal sense ('him/it') but bears no orthographic interrogative marker, the question being signalled lexically by ܡܢܘ ܟܝ earlier in the verse."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T20:48:49.540855+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.504998+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

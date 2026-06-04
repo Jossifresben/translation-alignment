@@ -71,7 +71,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
@@ -85,8 +85,7 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the aorist middle ἐπελάθοντο (deponent, 'they forgot'); Vulgate employs the perfect passive participle obliti sunt ('having forgotten, they were'); Peshitta uses the active perfect ܛܥܘ. All three convey completed action but differ in voice and aspectual nuance."
+      "note": "The Syriac fuses the conjunction and verb into a single inflected form ܘܛܥܘ ('and they forgot'), while the Vulgate renders the Greek aorist deponent with a periphrastic perfect passive (obliti sunt); these are morphological packaging differences with no semantic divergence."
     },
     {
       "greek_nt": [
@@ -98,9 +97,8 @@
       "vulgate": [
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Peshitta place the infinitive immediately after the verb of forgetting (λαβεῖν / ܕܢܣܒܘܢ), while Vulgate postpones sumere to after the direct object panes, reflecting Latin stylistic preference for verb-final infinitive complements."
+      "variant": "aligned",
+      "note": "λαβεῖν / ܕܢܣܒܘܢ / sumere"
     },
     {
       "greek_nt": [
@@ -113,12 +111,30 @@
         3
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἄρτους (plural accusative 'loaves') and Latin panes (plural accusative) contrast with Peshitta ܠܚܡܐ (singular 'bread'), a typical Syriac collective usage for mass nouns denoting provisions."
+      "note": "Greek has the plural ἄρτους ('loaves'); both the Syriac ܠܚܡܐ (used as a collective/generic for bread) and the Latin panes attest, but the Syriac noun functions idiomatically as a mass-noun rather than a marked plural."
+    },
+    {
+      "vulgate": [
+        5
+      ],
+      "variant": "added",
+      "note": "The Clementine Vulgate inserts a colon after sumere to mark the syntactic break before the parenthetical clause; neither the Greek nor the Syriac transmit punctuation here, and the editorial mark slightly alters the rhetorical pacing."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
@@ -126,11 +142,10 @@
         3
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek expresses the exceptive clause with the two-word idiom εἰ μή ('except'); both the Syriac ܐܠܐ (embedded in ܘܐܠܐ) and the Latin nisi render this with a single lexeme, a routine syntactic compression of the Greek conditional-negative construction."
     },
     {
       "greek_nt": [
@@ -143,7 +158,7 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "εἷς / ܚܕܐ / unum"
     },
     {
       "greek_nt": [
@@ -155,9 +170,8 @@
       "vulgate": [
         9
       ],
-      "variant": "major",
-      "type": "lexical",
-      "note": "Greek ἄρτον and Latin panem both mean 'loaf (of bread)', whereas Peshitta ܓܪܝܨܬܐ specifically denotes a 'round cake' or 'biscuit', a more precise term for a particular bread form. This may reflect a cultural-linguistic specification in the Syriac tradition."
+      "variant": "minor",
+      "note": "Greek ἄρτον ('loaf') and Latin panem are generic; the Syriac ܓܪܝܨܬܐ specifies a single flat cake or round loaf of bread (root g-r-ts), a more concrete lexical choice reflecting the local realia of baking."
     },
     {
       "greek_nt": [
@@ -173,8 +187,7 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the imperfect οὐκ εἶχον ('they were not having'); Latin employs non habebant (imperfect indicative); Peshitta uses the negative existential ܠܝܬ ܗܘܐ (lit. 'there was not'), a periphrastic construction typical of Syriac negation with stative verbs."
+      "note": "Greek uses the imperfect οὐκ εἶχον ('they were not having'); the Syriac employs the existential particle ܠܝܬ with the auxiliary ܗܘܐ ('there was not [with them]'), an idiomatic possessive-existential construction, whereas the Vulgate non habebant mirrors the Greek verbal possession directly."
     },
     {
       "greek_nt": [
@@ -188,7 +201,7 @@
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "μεθ᾽ ἑαυτῶν / ܥܡܗܘܢ / secum"
     },
     {
       "greek_nt": [
@@ -203,24 +216,14 @@
         13,
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after sumere, marking a syntactic break between the main clause and the exceptive clause. Neither Greek nor Peshitta manuscripts transmit equivalent punctuation at this juncture, though the sense remains unchanged."
+      "note": "Greek uses preposition plus article plus dative ἐν τῷ πλοίῳ and Latin uses in navi; the Syriac compresses preposition and noun into the single prefixed form ܒܣܦܝܢܬܐ, and notably none of the versions require the definite article to be lexically separated as in Greek."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.995878+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.507936+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

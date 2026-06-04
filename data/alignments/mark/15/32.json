@@ -91,26 +91,37 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the definite article ὁ before Χριστός, a standard Greek construction for titles; Syriac and Latin lack articles, rendering the title in its bare form (ܡܫܝܚܐ / Christus), which is typical for both languages."
+      "note": "Greek prefixes the definite article (ὁ χριστός) marking the messianic title; both the Peshitta ܡܫܝܚܐ and the Vulgate Christus drop the article, which is morphologically unavailable in Latin and rendered determinate in Syriac by context alone."
     },
     {
       "greek_nt": [
         2,
-        3,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an articular noun phrase (ὁ βασιλεὺς) for 'the King'; the Peshitta employs a suffixed construct ܡܠܟܗ ('its/his King') anticipating the following genitive, while Latin rex is a bare nominative — three distinct ways of marking the determinative relationship."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a double-articulated construction (ὁ βασιλεὺς τοῦ Ἰσραήλ) with two definite articles; Syriac employs a pronominal suffix on ܡܠܟܗ ('his king') followed by the genitive ܕܐܝܣܪܝܠ, creating a construct chain; Latin mirrors the Greek genitive structure without articles (rex Israël). All three convey 'the King of Israel' with syntactically distinct but semantically equivalent constructions."
+      "type": "grammar",
+      "note": "Greek marks the genitive 'of Israel' with article + genitive case (τοῦ Ἰσραήλ); the Peshitta uses the proclitic relative/genitive particle ܕ- prefixed to the indeclinable name (ܕܐܝܣܪܝܠ); Latin leaves Israël uninflected, relying on word order — equivalent genitive relations expressed by differing morphosyntactic means."
     },
     {
       "greek_nt": [
@@ -122,7 +133,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καταβάτω / ܢܚܘܬ / descendat"
     },
     {
       "greek_nt": [
@@ -134,7 +147,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "νῦν / ܗܫܐ / nunc"
     },
     {
       "greek_nt": [
@@ -150,7 +165,9 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek expresses 'from the cross' with preposition + articular genitive (ἀπὸ τοῦ σταυροῦ); the Peshitta uses ܡܢ ܙܩܝܦܐ without an explicit article, and Latin de cruce likewise lacks one — a routine difference in determination across the traditions."
     },
     {
       "greek_nt": [
@@ -166,35 +183,36 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the conjunction ἵνα with the subjunctive ἴδωμεν to express purpose; Syriac employs the prefix ܕ- on the imperfect ܢܚܙܐ, a standard Syriac purpose construction; Latin uses ut with the subjunctive videamus. All three express identical purpose ('that we may see') through language-specific subordinating mechanisms."
+      "note": "Greek introduces the purpose clause with ἵνα + subjunctive ἴδωμεν; the Peshitta fuses purpose particle and verb into ܕܢܚܙܐ ('that we may see'); Latin separates ut from videamus — equivalent final clauses realised by different boundary segmentation."
     },
     {
       "greek_nt": [
-        13,
-        14
+        13
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        9,
-        10
+        9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek coordinates two subjunctive verbs with καί (ἴδωμεν καὶ πιστεύσωμεν); Syriac uses the simple conjunction ܘ- prefixed to ܢܗܝܡܢ; Latin employs et credamus. The Vulgate punctuates credamus with a period, potentially treating it as a separate clause, whereas Greek and Syriac maintain tighter syntactic coordination within the purpose clause."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
+        14,
         15
       ],
       "peshitta": [
         9
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the dative αὐτῷ ('in him') as the object of πιστεύω; Syriac employs the preposition ܒ- with the pronominal suffix ܒܗ ('in him'), the standard Syriac construction for belief; the Vulgate omits the prepositional object entirely, leaving credamus intransitive, a stylistic choice reflecting Latin's tolerance for absolute constructions where context supplies the object."
+      "vulgate": [
+        10
+      ],
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek and Syriac supply the dative object of belief (πιστεύσωμεν αὐτῷ / ܘܢܗܝܡܢ ܒܗ, 'believe in him'); the Clementine Vulgate reads credamus absolutely with no expressed object, following the shorter reading attested in part of the Latin tradition (cf. the omission of ei in some witnesses)."
     },
     {
       "greek_nt": [
@@ -209,55 +227,77 @@
       ],
       "variant": "minor",
       "type": "expansion",
-      "note": "Greek uses the simple conjunction καί; Syriac expands with ܘܐܦ ('and also') plus the postpositive particle ܕܝܢ, creating a more emphatic transition typical of Syriac narrative style; Latin uses the simple et. The Syriac double-particle construction emphasizes the shift to a new subject (the co-crucified) more forcefully than the Greek or Latin."
+      "note": "Greek and Latin mark the new clause with a single conjunction (καί / Et); the Peshitta intensifies with ܘܐܦ ('and also') plus the postpositive ܕܝܢ ('but/now'), a characteristic Syriac doubling of connective particles that adds mild emphasis absent from the other witnesses."
     },
     {
       "greek_nt": [
         17,
-        18,
-        19,
-        20
+        18
       ],
       "peshitta": [
         11,
         13,
-        14,
-        15
+        14
       ],
       "vulgate": [
         12,
-        13,
-        14,
         15,
         16
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the articular perfect passive participle οἱ συνεσταυρωμένοι σὺν αὐτῷ ('those having been crucified with him'); Syriac employs a relative clause with ܗܢܘܢ ܕܙܩܝܦܝܢ ܗܘܘ ܥܡܗ ('those who were crucified with him'), using the periphrastic perfect (participle + ܗܘܘ); Latin uses a relative clause qui cum eo crucifixi erant with the pluperfect passive. All three express the same referent through distinct participial or relative-clause strategies."
+      "note": "Greek uses an articular perfect participle (οἱ συνεσταυρωμένοι, 'those having been crucified together'); the Peshitta unfolds it into a relative + periphrastic perfect ܗܢܘܢ ܕܙܩܝܦܝܢ ܗܘܘ, and the Vulgate likewise into a relative clause with pluperfect qui ... crucifixi erant — the same idea rendered by participle versus finite relative constructions."
     },
     {
       "greek_nt": [
-        21,
-        22
+        19,
+        20
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "σὺν αὐτῷ / ܥܡܗ / cum eo"
+    },
+    {
+      "greek_nt": [
+        21
       ],
       "peshitta": [
         16,
-        17,
-        18
+        17
       ],
       "vulgate": [
-        17,
-        18
+        17
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the imperfect active ὠνείδιζον with the accusative αὐτόν; Syriac employs the active participle ܡܚܣܕܝܢ with the periphrastic construction ܗܘܘ ܠܗ, using the preposition ܠ- to mark the object; Latin uses the imperfect convitiabantur with the dative ei. The Syriac periphrastic construction (participle + auxiliary) is a standard means of expressing continuous past action, semantically equivalent to the Greek and Latin simple imperfects."
+      "note": "Greek uses the simple imperfect ὠνείδιζον ('were reviling'); the Peshitta forms a periphrastic past with active participle plus auxiliary ܡܚܣܕܝܢ ܗܘܘ to render the same durative aspect, while Latin convitiabantur is a single imperfect deponent — different morphological strategies for continuous past action."
+    },
+    {
+      "greek_nt": [
+        22
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek places the object in the accusative (αὐτόν, the case for the object of ὀνειδίζω); both the Peshitta ܠܗ (with proclitic ܠ-) and the Latin dative ei treat the reproached person as an indirect/marked object, reflecting each language's standard government of the verb 'to revile.' The Greek paragraph marker (¶) has no counterpart in the other witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.051043+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.457466+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

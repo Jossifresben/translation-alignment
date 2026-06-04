@@ -87,21 +87,16 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
+      "vulgate": [],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses the coordinating conjunction καὶ with article ὁ; Peshitta employs the contrastive particle ܕܝܢ (dēn, 'but/now'); Vulgate uses autem ('however/moreover'). Both Syriac and Latin introduce a mild adversative nuance absent in the Greek conjunction, though all three mark the narrative transition to Peter's perspective."
+      "type": "construction",
+      "note": "The Greek opens with the coordinating καί ('and'), a typical Markan paratactic connector. The Vulgate renders this with the postpositive autem and the Peshitta with ܕܝܢ, both adversative/transitional particles; the shift from coordinating to mildly contrastive connection reflects each tradition's stylistic preference for narrative transition."
     },
     {
       "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
@@ -111,8 +106,19 @@
         0
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses Πέτρος (the Greek form of the name); Peshitta uses ܫܡܥܘܢ (Šemʿōn, 'Simon', Peter's Semitic birth name); Vulgate uses Petrus. The Peshitta's preference for the Aramaic form reflects its Semitic milieu and may preserve an earlier naming tradition."
+      "type": "substitution",
+      "note": "Greek uses Πέτρος ('Peter', the Grecised cognomen) with the definite article; the Peshitta substitutes the original Semitic name ܫܡܥܘܢ ('Simon', root m-e-w), preserving the Aramaic onomastic background. The Vulgate follows the Greek with Petrus."
+    },
+    {
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Both the Peshitta ܕܝܢ and the Vulgate autem supply the transitional/adversative particle that corresponds functionally to the Greek opening καί, here grouped with the subject as the discourse marker tracking the shift to Peter's movement."
     },
     {
       "greek_nt": [
@@ -127,7 +133,8 @@
         2,
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἀπὸ μακρόθεν / ܡܢ ܪܘܚܩܐ / a longe — all three express 'from a distance.'"
     },
     {
       "greek_nt": [
@@ -142,8 +149,8 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the aorist indicative ἠκολούθησεν (simple past); Peshitta employs the periphrastic construction ܐܬܐ ܗܘܐ (ʾētā hwā, 'was coming', perfect with auxiliary); Vulgate uses the perfect secutus est. The Syriac periphrastic emphasizes durative or backgrounded action, while Greek and Latin present the action as punctiliar or completed."
+      "type": "grammar",
+      "note": "Greek uses the aorist ἠκολούθησεν ('followed', punctiliar). The Peshitta forms a periphrastic past with ܐܬܐ ܗܘܐ (literally 'was coming', root a-th-a plus the auxiliary h-w-a), and the Vulgate uses the perfect participle plus auxiliary secutus est; both versions render the durative/background sense of Peter's following more explicitly than the Greek aorist."
     },
     {
       "greek_nt": [
@@ -155,13 +162,14 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek αὐτῷ is the dative object of ἀκολουθέω ('followed him'). The Peshitta ܒܬܪܗ (root b-th-r, 'after him') renders the idea spatially ('came after him'), and the Vulgate eum is the accusative object; the constructions differ but converge on the same referential sense."
     },
     {
       "greek_nt": [
         7,
-        8,
-        9
+        8
       ],
       "peshitta": [
         7,
@@ -169,33 +177,44 @@
       ],
       "vulgate": [
         7,
-        8,
-        9
+        8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a three-word prepositional phrase ἕως ἔσω εἰς ('until within into'); Peshitta condenses to ܥܕܡܐ ܠܓܘ (ʿdammā lgaw, 'until inside'); Vulgate mirrors Greek structure with usque intro in. The Syriac simplification reflects its tendency toward economy in spatial expressions, while Greek and Latin preserve a more elaborate locative construction."
+      "variant": "aligned",
+      "note": "ἕως ἔσω / ܥܕܡܐ ܠܓܘ / usque intro — 'as far as inside.' The duplicate Greek gloss token (he'ōs) is subsumed here."
     },
     {
       "greek_nt": [
-        10,
-        11,
-        12,
-        13
-      ],
-      "peshitta": [
         9,
         10,
         11
       ],
+      "peshitta": [
+        9
+      ],
       "vulgate": [
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses εἰς + accusative with the article (εἰς τὴν αὐλήν, 'into the court') and the Vulgate matches with in atrium; the Peshitta ܕܪܬܐ (root d-r-th, 'the courtyard') is governed directly by the preceding ܠܓܘ ('inside') without a separate directional preposition, a more compact construction."
+    },
+    {
+      "greek_nt": [
+        12,
+        13
+      ],
+      "peshitta": [
         10,
+        11
+      ],
+      "vulgate": [
         11,
         12
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the articular genitive construction τὴν αὐλὴν τοῦ ἀρχιερέως ('the court of the high priest'); Peshitta employs the construct chain ܕܪܬܐ ܕܪܒ ܟܗܢܐ (dārtā d-rab kāhnā, 'court of-chief priest'); Vulgate uses atrium summi sacerdotis with an adjective. All three express the same genitive relationship through their respective syntactic norms."
+      "note": "Greek τοῦ ἀρχιερέως is a single compound noun ('of the high priest'). The Peshitta renders the title analytically as ܕܪܒ ܟܗܢܐ ('of the chief of the priests', d-r-b + k-h-n), and the Vulgate likewise uses two words summi sacerdotis ('of the high priest'); both versions periphrastically unpack the Greek compound."
     },
     {
       "greek_nt": [
@@ -209,8 +228,8 @@
         14
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek and Peshitta use coordinating conjunctions (καὶ / ܘ) to continue the narrative; Vulgate inserts a colon after sacerdotis, creating a stronger pause before the coordinate clause with et. The Latin punctuation divides the verse into two distinct actions more sharply than the Greek or Syriac."
+      "type": "construction",
+      "note": "Greek καί coordinates the next clause. The Peshitta prefixes the coordinating waw directly to the verb (ܘܝܬܒ, 'and-he-sat'), while the Vulgate adds a colon (token 13) plus et; the punctuation marks the clause boundary the Greek leaves unmarked."
     },
     {
       "greek_nt": [
@@ -225,7 +244,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the periphrastic imperfect ἦν συγκαθήμενος ('was sitting with'); Peshitta employs the simple perfect ܘܝܬܒ ܗܘܐ (w-yiteb hwā, 'and he sat/was sitting'); Vulgate uses the simple imperfect sedebat. Greek emphasizes the durative state through periphrasis with a compound participle (συν-), while Syriac and Latin use simpler verbal forms."
+      "note": "Greek uses the periphrastic imperfect ἦν συγκαθήμενος ('was sitting together', εἰμί + present participle of συγκάθημαι). The Vulgate collapses this into the simple imperfect sedebat, and the Peshitta uses ܝܬܒ ܗܘܐ (root y-th-b + auxiliary, 'was sitting'); the prefix of συγκάθημαι ('sat-with') is expressed by the following 'with' phrase in both versions rather than morphologically."
     },
     {
       "greek_nt": [
@@ -241,12 +260,12 @@
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "μετὰ τῶν ὑπηρετῶν / ܥܡ ܡܫܡܫܢܐ / cum ministris — 'with the attendants/officers.'"
     },
     {
       "greek_nt": [
-        20,
-        21
+        20
       ],
       "peshitta": [
         16
@@ -256,8 +275,20 @@
         21
       ],
       "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the second καί before the participle θερμαινόμενος ('and warming himself'). The Peshitta prefixes the waw to the verb ܘܫܚܢ (root w-sh-kh, 'and he warmed himself'), while the Vulgate's coordinating et (token 20) introduces calefaciebat; the conjunctions align but their positions relative to the verb differ slightly."
+    },
+    {
+      "greek_nt": [
+        21
+      ],
+      "vulgate": [
+        21,
+        22
+      ],
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses coordinating καὶ with the present middle participle θερμαινόμενος ('and warming himself'); Peshitta employs the simple perfect ܘܫܚܢ (w-šāḥen, 'and he warmed himself'); Vulgate uses et calefaciebat (imperfect). The Greek participle suggests simultaneous action with the sitting, while Syriac and Latin present sequential or coordinate actions."
+      "note": "Greek uses the present middle participle θερμαινόμενος ('warming himself'), the middle voice conveying the reflexive sense intrinsically. The Vulgate must express this analytically with the active verb plus reflexive pronoun calefaciebat se ('was warming himself'); the Peshitta verb ܘܫܚܢ likewise carries the reflexive sense inherently in its stem."
     },
     {
       "greek_nt": [
@@ -271,28 +302,17 @@
       ],
       "vulgate": [
         18,
-        19,
-        22
+        19
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses πρὸς τὸ φῶς ('at/toward the light/fire'); Peshitta uses ܠܘܩܒܠ ܢܘܪܐ (l-wuqbal nūrā, 'opposite/before the fire'); Vulgate uses ad ignem ('at the fire'). Greek φῶς can mean 'light' or 'fire' contextually; Syriac and Latin explicitly use 'fire' (nūrā/ignem), removing ambiguity. The Syriac preposition ܠܘܩܒܠ emphasizes facing or being opposite the fire."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        22
-      ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Vulgate adds the reflexive pronoun se ('himself') after calefaciebat, making explicit what is implicit in the Greek middle voice θερμαινόμενος. Neither Greek nor Peshitta requires an overt reflexive marker, as the middle voice and verbal semantics convey reflexivity inherently."
+      "type": "substitution",
+      "note": "Greek reads πρὸς τὸ φῶς ('at the light/firelight', φῶς literally meaning 'light'), whereas both the Peshitta ܠܘܩܒܠ ܢܘܪܐ (root n-w-r, 'fire') and the Vulgate ad ignem ('to the fire') render the source concretely as 'fire.' The versions interpret the Markan φῶς as the firelight by which Peter warmed himself."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.043295+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.433581+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

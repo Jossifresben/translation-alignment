@@ -68,93 +68,115 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
-      "peshitta": [],
+      "peshitta": [
+        1
+      ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek Ἀλλ᾽ ('But') and Vulgate Sed ('But') are adversative conjunctions marking transition; Peshitta omits an explicit adversative, relying on the discourse particle ܕܝܢ (dēn) in token [1] to signal the shift."
+      "type": "word-order",
+      "note": "Greek opens with the adversative ἀλλά in initial position, matched by Latin Sed; the Peshitta renders the adversative with the postpositive particle ܕܝܢ, which by Syriac syntax stands in second position rather than clause-initial. The note token (1) is a transliteration gloss of the Greek and carries no independent textual weight."
     },
     {
       "greek_nt": [
-        1,
-        2,
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐν / in; the preposition is absorbed into the prefixed ܒ of the Peshitta's ܒܗܢܘܢ rather than written separately."
+    },
+    {
+      "greek_nt": [
         3,
-        4
+        4,
+        5
       ],
       "peshitta": [
         0,
         2
       ],
       "vulgate": [
-        1,
         2,
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses prepositional phrase ἐν ἐκείναις ταῖς ἡμέραις ('in those days') with article and demonstrative; Vulgate mirrors this with in illis diebus; Peshitta fronts the demonstrative ܒܗܢܘܢ ܝܘܡܬܐ ('in-those days'), a typical Semitic construction placing the demonstrative before the noun without intervening article."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta inserts the discourse particle ܕܝܢ (dēn, 'now/then'), a common Syriac transitional marker absent from both Greek and Latin witnesses, serving to articulate the narrative flow."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐκείναις ταῖς ἡμέραις / in illis diebus / ܒܗܢܘܢ ܝܘܡܬܐ; the Syriac fuses the preposition, demonstrative pronoun (ܗܢܘܢ) and noun into two tokens but conveys the identical 'in those days.'"
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7,
-        8
+        6
       ],
       "peshitta": [
-        3,
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
         4
       ],
       "vulgate": [
-        4,
-        5,
-        6
+        5
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs μετὰ τὴν θλῖψιν ἐκείνην ('after the tribulation that') with article, noun, and demonstrative; Vulgate post tribulationem illam mirrors this structure; Peshitta uses ܒܬܪ ܐܘܠܨܢܐ ('after tribulation') without demonstrative or article, a more compact Semitic construction where context supplies definiteness."
+      "variant": "aligned"
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        8
+      ],
       "peshitta": [
         5
       ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta inserts the demonstrative pronoun ܗܘ (hū, 'that/it'), functioning as a resumptive element to mark the subject transition to 'the sun,' a stylistic feature absent from Greek and Latin."
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐκείνην and Latin illam both render the demonstrative 'that' agreeing with 'tribulation'; the Peshitta uses the deictic pronoun ܗܘ ('that/it') in postnominal position, a syntactically distinct but semantically equivalent demonstrative usage characteristic of Syriac."
     },
     {
       "greek_nt": [
         9,
-        10,
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὁ ἥλιος / sol / ܫܡܫܐ; Greek carries the article, while Latin omits it and Syriac marks definiteness via the emphatic state ending."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ὁ ἥλιος σκοτισθήσεται uses the article with future passive verb; Vulgate sol contenebrabitur omits the article (Latin lacks definite articles); Peshitta ܫܡܫܐ ܢܚܫܟ ('sun will-darken') uses the emphatic state (functionally definite) with active verb, a typical Semitic preference for active voice where Greek employs passive."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "σκοτισθήσεται / contenebrabitur / ܢܚܫܟ; all three render the future passive/intransitive 'will be darkened,' the Syriac using the cognate-Semitic root kh-sh-k (cf. Hebrew חָשַׁךְ)."
     },
     {
       "greek_nt": [
@@ -166,35 +188,69 @@
       "vulgate": [
         9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ and Vulgate et are coordinating conjunctions; Peshitta ܘܣܗܪܐ ('and-moon') uses the prefixed conjunction ܘ (w-), a bound morpheme typical of Semitic syntax, creating a tighter syntactic bond than the free-standing Greek and Latin particles."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / et; in the Peshitta the conjunction ܘ is prefixed to ܣܗܪܐ ('and the moon')."
     },
     {
       "greek_nt": [
         13,
-        14,
-        15,
-        16,
+        14
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek σελήνη and Latin luna are the ordinary words for 'moon'; the Peshitta uses ܣܗܪܐ from the root s-h-r ('to shine/be bright', cf. Hebrew סַהַר), a poetic-Semitic designation of the moon rather than a direct cognate of the Greek term."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "οὐ / non / ܠܐ; the negation precedes the verb in all three traditions."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "δώσει / dabit / ܢܬܠ; the Syriac imperfect ܢܬܠ derives from the suppletive verb of giving (root y-h-b), morphologically distinct but semantically identical."
+    },
+    {
+      "greek_nt": [
         17,
         18,
         19
       ],
       "peshitta": [
-        8,
-        9,
-        10,
         11
       ],
       "vulgate": [
-        10,
-        11,
-        12,
         13,
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "τὸ φέγγος αὐτῆς / splendorem suum / ܢܘܗܪܗ ('its light'); the Syriac collapses noun and possessive suffix into the single form ܢܘܗܪܗ from root n-h-r ('to shine')."
     },
     {
       "greek_nt": [],
@@ -204,13 +260,13 @@
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate adds a colon (:) to mark the end of this clause and signal the continuation of the apocalyptic discourse in the following verse, a punctuation convention absent from Greek and Peshitta manuscript traditions."
+      "note": "The Clementine Vulgate marks the clause-end with a colon to bind this verse to the continuing apocalyptic enumeration; the Greek closes with a comma and the Peshitta supplies no terminal punctuation, a purely editorial difference."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.031969+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.461083+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

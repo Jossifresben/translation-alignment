@@ -86,8 +86,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -99,24 +98,34 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Greek places the object pronoun αὐτόν before the verb εἶδον, and Latin follows the Greek order with the verb-first arrangement (viderunt eum). Syriac fuses the object pronominal suffix onto the verb (ܚܙܐܘܗܝ, 'they-saw-him'), a single morphological word reflecting standard Aramaic synthetic syntax."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the pronoun αὐτὸν before the verb εἶδον; Peshitta incorporates the pronominal suffix directly onto the verb ܚܙܐܘܗܝ; Vulgate follows Greek word order with viderunt eum, though the pronoun is postposed after the verb."
+      "variant": "aligned",
+      "note": "Syriac index 2 carries both verb and object suffix; the verbal stem aligns with εἶδον / viderunt."
     },
     {
       "greek_nt": [
@@ -128,8 +137,7 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -144,7 +152,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a single aorist passive verb ἐταράχθησαν; Peshitta employs the active verb ܘܕܚܠܘ ('and they feared'), conflating the reaction into the preceding conjunction; Vulgate uses a passive participle construction conturbati sunt, requiring two tokens for the periphrastic perfect."
+      "note": "Greek uses a single aorist passive ἐταράχθησαν ('they were troubled'); Latin renders it periphrastically with participle plus auxiliary (conturbati sunt); Syriac uses a simple peal perfect ܘܕܚܠܘ from d-kh-l ('they feared/were afraid'), which leans toward fear rather than agitation, a slight lexical shift in emotional nuance."
     },
     {
       "greek_nt": [
@@ -158,8 +166,8 @@
         7
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article ὁ with the postpositive conjunction δὲ to mark subject continuity; Peshitta uses the simple conjunction ܘܒܪ ('and immediately'); Vulgate uses Et alone, omitting the article (which Latin lacks) and the contrastive nuance of δέ."
+      "type": "construction",
+      "note": "Greek marks the subject change with the article + postpositive δέ (ὁ δέ, 'but he'); Latin uses the simple connective Et; Syriac has no separate equivalent here, beginning the clause with the temporal phrase. The contrastive force of δέ is flattened in both versions."
     },
     {
       "greek_nt": [
@@ -174,27 +182,36 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek εὐθὺς ('immediately') is rendered in Peshitta as the idiomatic phrase ܒܪ ܫܥܬܗ (literally 'son of his hour'), a Semitic temporal idiom; Vulgate uses the single adverb statim, semantically equivalent to the Greek."
+      "note": "Greek εὐθύς and Latin statim are single adverbs ('immediately'); Syriac employs the idiomatic temporal phrase ܒܪ ܫܥܬܗ ('son of its hour', i.e. 'at that very moment'), a characteristic Aramaic periphrasis for immediacy."
     },
     {
       "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
         9,
+        10
+      ],
+      "variant": "aligned",
+      "note": "Greek aorist ἐλάλησεν; Latin perfect periphrasis locutus est; Syriac peal perfect ܡܠܠ — all 'he spoke'."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        9,
-        10,
         11,
         12
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the aorist ἐλάλησεν with prepositional phrase μετ᾽ αὐτῶν; Peshitta employs the simple verb ܡܠܠ with pronominal suffix ܥܡܗܘܢ; Vulgate expands into a periphrastic perfect locutus est cum eis, requiring four tokens including the auxiliary verb est."
+      "variant": "aligned",
+      "note": "Greek preposition + genitive μετ' αὐτῶν and Latin cum eis correspond to the Syriac ܥܡܗܘܢ, which fuses preposition and pronominal suffix into one synthetic form."
     },
     {
       "greek_nt": [
@@ -206,37 +223,35 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        13,
-        14
+        13
       ],
       "peshitta": [
-        8,
-        9
+        8
       ],
       "vulgate": [
-        14,
-        15
+        14
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the historical present λέγει with dative αὐτοῖς; Peshitta uses the perfect ܘܐܡܪ with prepositional phrase ܠܗܘܢ; Vulgate employs the perfect dixit eis, aligning with Peshitta in tense but with Greek in case construction (dative vs. prepositional)."
+      "note": "Greek shifts to the historic present λέγει ('he says'), a Markan stylistic vividism; both Latin (dixit) and Syriac (the perfect prefixed within ܘܐܡܪ) normalise this to a past tense, smoothing the tense alternation typical of the secondary versions."
     },
     {
       "greek_nt": [
         14
       ],
-      "peshitta": [],
+      "peshitta": [
+        9
+      ],
       "vulgate": [
+        15,
         16
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after eis to mark the beginning of direct discourse, a punctuation convention absent in the Greek manuscript tradition and unnecessary in Syriac, which uses ܘܐܡܪ to introduce speech."
+      "variant": "aligned",
+      "note": "Greek dative αὐτοῖς, Latin dative eis with following colon, and Syriac ܠܗܘܢ (preposition + suffix) all express 'to them'."
     },
     {
       "greek_nt": [
@@ -249,7 +264,7 @@
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek imperative θαρσεῖτε, Latin Confidite, and Syriac ethpaal imperative ܐܬܠܒܒܘ (from l-b-b, 'take heart') all convey 'take courage'."
     },
     {
       "greek_nt": [
@@ -262,21 +277,11 @@
       ],
       "vulgate": [
         18,
-        19
-      ],
-      "variant": "major",
-      "type": "idiom",
-      "note": "Greek ἐγώ εἰμι is the theophanic formula ('I AM'); Peshitta doubles the pronoun ܐܢܐ ܐܢܐ for emphatic effect, a Semitic intensification strategy; Vulgate renders literally as ego sum, preserving the Greek structure but losing the Peshitta's rhetorical emphasis."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        19,
         20
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate again inserts a colon before the final prohibition, segmenting the discourse into two balanced cola (Confidite, ego sum : nolite timere), a stylistic choice not reflected in Greek or Peshitta manuscript punctuation."
+      "variant": "aligned",
+      "note": "The emphatic self-identification ἐγώ εἰμι ('I am [he]') is matched by Latin ego sum and the Syriac doubled ܐܢܐ ܐܢܐ, the regular Aramaic copular construction for the predicate 'I am'."
     },
     {
       "greek_nt": [
@@ -292,13 +297,13 @@
         22
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Prohibition μὴ φοβεῖσθε rendered by Latin nolite timere and Syriac ܠܐ ܬܕܚܠܘܢ ('do not fear'), all negated second-person plural commands."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.985680+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.484622+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

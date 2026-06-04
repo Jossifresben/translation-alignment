@@ -58,19 +58,27 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -82,8 +90,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -95,8 +102,7 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -108,8 +114,7 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -121,8 +126,7 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -134,8 +138,7 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -147,62 +150,77 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [
-        8
-      ],
+      "peshitta": [],
       "vulgate": [
         8
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        9,
-        10
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [
-        9,
-        10,
-        11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the adjective ἐγγύς with copula ἐστιν ('is near'); Peshitta incorporates the nearness concept into the adjective ܕܩܪܝܒܐ with copula ܗܝ; Vulgate employs the prepositional phrase in proximo sit ('may be in proximity'), a Latin idiom for temporal or spatial nearness that differs syntactically but conveys identical meaning."
+      "note": "Greek ὅτι and Latin quod introduce an explicit objective clause after the imperative 'know'; the Peshitta lacks a separate complementiser, instead folding the subordination into the proclitic ܕ- prefixed to ܩܪܝܒܐ ('that [it] is near'). The relation is thus expressed morphologically rather than by a discrete particle."
     },
     {
       "greek_nt": [
-        11,
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐγγύς ('near') is rendered adjectivally in Syriac ܩܪܝܒܐ (root q-r-b, 'to be near'), while the Vulgate paraphrases with the prepositional phrase in proximo ('at hand'), a more idiomatic Latin locution for nearness rather than a one-to-one adverbial equivalent."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the plural θύραις (dative plural, 'at doors') with preposition ἐπί; Peshitta uses the singular ܬܪܥܐ ('door/gate'), a typical Syriac idiom treating collective or distributive concepts as singular; Vulgate uses the plural ostiis (ablative plural, 'at doors') with preposition in, mirroring the Greek number but employing Latin prepositional syntax."
+      "note": "Greek θύραις and Latin ostiis are plural ('doors'), whereas Syriac ܬܪܥܐ is singular ('door, gate'). The Syriac collective singular for an architectural opening is idiomatic and does not alter the eschatological sense of imminence ('at the door[s]')."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.032817+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.426850+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

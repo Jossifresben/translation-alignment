@@ -82,8 +82,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -95,25 +94,33 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἔρχονται and Latin veniunt are independent finite verbs ('they come'); the Syriac ܘܐܬܘ combines the conjunction and verb into a single perfect form ('and they came'), shifting from the Greek/Latin historic present to a narrative perfect, a routine Syriac tense preference."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -121,9 +128,9 @@
       "vulgate": [
         4
       ],
-      "variant": "added",
+      "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'Jesum' to mark a syntactic break before the vision clause. Neither Greek nor Syriac tradition employs punctuation at this juncture, maintaining continuous narrative flow."
+      "note": "The Vulgate inserts a colon after Jesum to mark a syntactic pause before the second clause; neither the Greek nor the Syriac carries equivalent punctuation here, this being a Latin editorial feature of the Clementine text."
     },
     {
       "greek_nt": [
@@ -135,8 +142,7 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -148,24 +154,12 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek θεωροῦσιν ('they behold') and Latin vident render the act of seeing separately, while the Syriac ܘܚܙܐܘܗܝ fuses conjunction, verb, and a 3ms object suffix ('and they saw him'), incorporating the pronominal object that the Greek and Latin express through the following accusative article/pronoun."
     },
     {
       "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
@@ -173,6 +167,7 @@
         5
       ],
       "vulgate": [
+        7,
         8,
         9,
         10,
@@ -180,32 +175,52 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the present passive participle δαιμονιζόμενον ('being demonised'); Peshitta employs a relative clause with active verb ܕܫܐܕܘܗܝ ('who had demons'); Vulgate expands to a relative clause with passive perfect 'qui a dæmonio vexabatur' ('who was vexed by a demon'). All three convey demon possession but through distinct syntactic structures."
+      "note": "Greek uses an articular participle τὸν δαιμονιζόμενον ('the one being demon-possessed'); Syriac employs a relative construction ܠܗܘ ܕܫܐܕܘܗܝ ('that one whose demons [were in him]'); Latin expands into a full relative clause with finite verb qui a dæmonio vexabatur ('who was afflicted by a demon'), each rendering the participle by a different syntactic device."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        6,
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek lists the participles in the order seated–clothed–sound-minded (καθήμενον...ἱματισμένον...σωφρονοῦντα), matched by Latin sedentem, vestitum; the Syriac reorders to clothed–chastened–seated (ܠܒܝܫ ܘܡܢܟܦ ܘܝܬܒ), with ܟܕ introducing the circumstantial clause, a sequence variation without semantic loss."
+    },
+    {
+      "greek_nt": [
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        6,
-        7,
-        8,
-        9
+        8
       ],
       "vulgate": [
-        12,
-        13,
         14,
         15,
         16
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek presents three coordinated participles in the sequence: sitting (καθήμενον), clothed (ἱματισμένον), sound-minded (σωφρονοῦντα). Peshitta reorders to: clothed (ܠܒܝܫ), sound-minded (ܘܡܢܟܦ), sitting (ܘܝܬܒ), using a circumstantial construction with ܟܕ. Vulgate reorders to: sitting (sedentem), clothed (vestitum), sound-minded (sanæ mentis), converting the final element to a genitive phrase rather than participle."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek σωφρονοῦντα ('being of sound mind') is rendered by Latin sanæ mentis ('of healthy mind') as a genitive periphrasis, while the Syriac ܘܡܢܟܦ derives from the root n-k-p connoting modesty/sobriety ('and chastened/composed'), a culturally inflected lexical choice for mental restoration."
     },
     {
       "greek_nt": [
@@ -221,41 +236,28 @@
         13,
         14
       ],
-      "vulgate": [],
       "variant": "major",
-      "type": "construction",
-      "note": "Greek employs an articular perfect participle construction τὸν ἐσχηκότα τὸν λεγιῶνα ('the one having had the legion') to identify the formerly possessed man. Peshitta expands this into a full relative clause with existential verb: ܗܘ ܕܐܝܬ ܗܘܐ ܒܗ ܠܓܝܘܢ ('he who had in him the legion'). Vulgate omits this identifying clause entirely, relying on the preceding relative clause for identification."
+      "type": "omission",
+      "note": "Greek τὸν ἐσχηκότα τὸν λεγιῶνα and Syriac ܗܘ ܕܐܝܬ ܗܘܐ ܒܗ ܠܓܝܘܢ both identify the man as the former host of the Legion; the Clementine Vulgate omits this entire relative clause, a substantive shortening of the verse in the Latin tradition."
     },
     {
       "greek_nt": [
-        18
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        18,
         19
       ],
       "peshitta": [
         15
       ],
       "vulgate": [
+        17,
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.972820+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.440198+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

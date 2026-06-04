@@ -82,7 +82,21 @@
       ],
       "variant": "minor",
       "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb. This is a common Syriac stylistic preference, avoiding redundant conjunctions where context sufficiently links clauses."
+      "note": "The Greek opens with the connective Καὶ and the Vulgate with Et; the Peshitta omits the initial conjunction, preferring to begin the clause asyndetically with the verb ܐܡܪ, a common Syriac narrative pattern."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek uses the historic present λέγει ('says') while the Vulgate ait and the Peshitta perfect ܐܡܪ ('said') render it as a past; both versions normalise the Markan vivid present into a simple narrative past tense."
     },
     {
       "greek_nt": [
@@ -92,25 +106,21 @@
       "vulgate": [],
       "variant": "minor",
       "type": "omission",
-      "note": "Greek includes the emphatic pronoun αὐτός ('he himself') before the verb, which neither the Peshitta nor the Vulgate render explicitly. The emphasis is absorbed into the verbal conjugation in both target languages."
+      "note": "The emphatic Greek subject pronoun αὐτὸς ('he himself') is left untranslated in both the Peshitta and the Vulgate, which let the verbal inflection carry the subject; the Peshitta instead supplies the explicit name ܝܫܘܥ."
     },
     {
       "greek_nt": [
-        2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2,
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb λέγει before the indirect object αὐτοῖς; Syriac mirrors this (ܐܡܪ ܠܗܘܢ); Latin inverts to ait illis. The Vulgate's colon after illis marks the beginning of direct discourse, a punctuation convention absent in the Greek and Peshitta manuscripts."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis (the dative/preposition-marked indirect object 'to them'); the Vulgate adds the colon as discourse punctuation."
     },
     {
       "greek_nt": [],
@@ -120,89 +130,147 @@
       "vulgate": [],
       "variant": "added",
       "type": "expansion",
-      "note": "The Peshitta inserts the explicit subject ܝܫܘܥ ('Jesus'), clarifying the speaker. Neither the Greek nor the Vulgate name Jesus here, relying on narrative context from the preceding verse."
+      "note": "The Peshitta makes the subject explicit by inserting the proper name ܝܫܘܥ ('Jesus'), a frequent Syriac clarifying expansion where the Greek relies only on the pronoun αὐτὸς."
     },
     {
       "greek_nt": [
-        4,
-        5
+        4
       ],
       "peshitta": [
         3,
-        4,
-        5
+        4
       ],
       "vulgate": [
-        4,
-        5
+        4
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "οὐδέποτε / ܠܐ ܡܡܬܘܡ / Numquam ('never'); Syriac expresses the single Greek adverb with the negative particle ܠܐ plus ܡܡܬܘܡ."
     },
     {
       "greek_nt": [
-        6,
-        7,
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "ἀνέγνωτε / ܩܪܝܬܘܢ / legistis ('have you read')."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "τί / ܡܢܐ / quid ('what')."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐποίησεν and Peshitta ܥܒܕ are indicative aorist/perfect ('did'), whereas the Vulgate fecerit is subjunctive, reflecting Latin's preference for the subjunctive in indirect questions introduced by quid."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        6,
-        7,
         8
       ],
       "vulgate": [
-        6,
-        7,
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Δαυὶδ / ܕܘܝܕ / David."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "ὅτε / ܟܕ / quando ('when')."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        9,
         10,
-        11,
-        12
+        11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a temporal clause with ὅτε + aorist ἔσχεν ('when he had need'); Syriac employs the temporal particle ܟܕ with a single verb ܐܣܬܢܩ ('when he was in need'), collapsing the noun-verb construction into a verbal form. Latin mirrors the Greek structure with quando necessitatem habuit, maintaining the noun + verb phrase."
+      "note": "Greek and Latin use a noun-plus-verb periphrasis (χρείαν ἔσχεν / necessitatem habuit, 'had need'); the Peshitta condenses this into the single verb ܐܣܬܢܩ ('he was in need'), an Ethpaal denominative idiom."
     },
     {
       "greek_nt": [
-        12,
-        13,
+        12
+      ],
+      "peshitta": [],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "καί / et (the coordinating conjunction 'and'); the Peshitta prefixes this conjunction proclitically as the waw of ܘܟܦܢ rather than as a separate token."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "ἐπείνασεν / ܘܟܦܢ / esuriit ('and he hungered'); the Syriac waw of conjunction is fused to the verb."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek coordinates with καὶ ἐπείνασεν αὐτός ('and he himself hungered'), placing the emphatic pronoun after the verb. Syriac uses ܘܟܦܢ ܗܘ ('and hungered he'), mirroring the post-verbal pronoun. Latin employs et esuriit ipse, also post-verbal but with ipse for emphasis, though the Vulgate lacks the second conjunction before the final clause."
+      "variant": "aligned",
+      "note": "αὐτὸς / ܗܘ / ipse (the emphatic 'he himself')."
     },
     {
       "greek_nt": [
         15,
         16,
         17,
-        18,
-        19
+        18
       ],
       "peshitta": [
         13
@@ -212,18 +280,27 @@
         16,
         17,
         18,
-        19,
+        19
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an articular prepositional phrase (οἱ μετ᾽ αὐτοῦ, 'those with him') and the Vulgate a relative clause with explicit verb (qui cum eo erant); the Peshitta compresses the whole phrase into the prefixed relative-plus-preposition form ܘܕܥܡܗ ('and those who were with him'), semantically equivalent but markedly more economical."
+    },
+    {
+      "vulgate": [
         20
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses a full articular prepositional phrase καὶ οἱ μετ᾽ αὐτοῦ ('and those with him'), requiring five tokens including the article, preposition, and pronoun. Syriac compresses this into a single construct-state phrase ܘܕܥܡܗ ('and-those-with-him'), a typical Semitic economy. Latin expands with a relative clause et qui cum eo erant ('and those who were with him'), adding the verb erant for syntactic completeness and closing with a question mark absent in the Greek punctuation."
+      "greek_nt": [],
+      "peshitta": [],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate closes with an explicit question mark, matching the Greek interrogative αὐτοῦ;; the Peshitta carries no terminal punctuation token in this edition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.956037+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.453832+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

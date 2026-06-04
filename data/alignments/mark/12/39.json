@@ -56,8 +56,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Vulgate coordinate with καί/et; the Peshitta fuses the conjunction onto the head noun (ܘܪܝܫ, 'and-chief'), a normal feature of Syriac orthography where the proclitic waw is prefixed directly to the following word rather than standing as a separate token."
     },
     {
       "greek_nt": [
@@ -73,11 +74,30 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the compound noun πρωτοκαθεδρίας ('first seats') as a single lexeme. Syriac employs a construct chain ܘܪܝܫ ܡܘܬܒܐ ('and head of seats'), while Vulgate expands to primis cathedris ('in first seats'), both analytically expressing what Greek conveys synthetically."
+      "note": "The single Greek compound πρωτοκαθεδρία ('chief seat') is rendered analytically in both versions: the Vulgate splits it into adjective + noun (primis cathedris) and the Peshitta into a construct chain ܪܝܫ ܡܘܬܒܐ ('head of the seat'), reflecting that neither Latin nor Syriac possesses a single equivalent compound."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate inserts the infinitive sedere ('to sit'), making explicit the act of taking the seats that the Greek leaves implied in the noun πρωτοκαθεδρίας; this is an exegetical expansion with no counterpart in the Greek or Syriac."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "ἐν / in"
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
@@ -85,13 +105,11 @@
         2
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Vulgate inserts the infinitive sedere ('to sit') between the prepositional phrase and its object, creating an explicit verbal construction absent in both Greek (ἐν ταῖς συναγωγαῖς, simple locative) and Peshitta (ܒܟܢܘܫܬܐ, 'in synagogues'). This expansion clarifies the action implied by 'first seats.'"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin use the plural (συναγωγαῖς / synagogis, 'synagogues'); the Peshitta ܒܟܢܘܫܬܐ is morphologically singular (with prefixed preposition ܒ-), a common Syriac idiom employing the singular for a generalised class of locations."
     },
     {
       "greek_nt": [
@@ -103,8 +121,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "As in the first clause, the Peshitta prefixes the coordinating waw to the head noun (ܘܪܝܫ), whereas Greek καί and Latin et stand as discrete conjunctions linking the two parallel phrases."
     },
     {
       "greek_nt": [
@@ -120,11 +139,20 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek πρωτοκλισίας ('first reclinings') is another synthetic compound. Syriac again uses a construct chain ܘܪܝܫ ܣܡܟܐ ('and head of reclinings'), while Vulgate renders primos discubitus ('first reclinings'), maintaining the analytical structure parallel to the first clause."
+      "note": "The Greek compound πρωτοκλισία ('chief reclining-place at table') is again unpacked analytically: the Vulgate gives adjective + noun (primos discubitus) and the Peshitta a construct chain ܪܝܫ ܣܡܟܐ ('head of the couch/reclining'), neither language having a one-word equivalent."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "ἐν / in"
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
@@ -132,27 +160,25 @@
         5
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin attest the plural (δείπνοις / cœnis, 'banquets'); the Peshitta ܒܚܫܡܝܬܐ (with prefixed ܒ-) is singular, continuing the version's tendency toward the generalising singular for repeated social occasions."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         12
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate adds a colon to mark the end of this clause, a punctuation convention absent in Greek manuscripts and Syriac tradition. This reflects Latin scribal practice for organizing discourse units."
+      "note": "The Vulgate closes the verse with a colon anticipating the continuation in the following verse; the Greek closes its clause with a comma and the Peshitta carries no terminal punctuation token here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.027415+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.489851+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

@@ -87,8 +87,8 @@
         0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "The Peshitta prefixes the conjunction ܘ ('and') to ἀμήν, creating ܘܐܡܝܢ, whereas Greek ἀμὴν δὲ uses the postpositive particle δέ. Both traditions mark the transition, but Syriac employs its standard coordinating conjunction while Greek uses the contrastive/continuative particle."
+      "type": "construction",
+      "note": "The Peshitta ܘܐܡܝܢ prefixes the conjunction waw ('and/now amen'), absorbing the function of Greek δέ into the opening particle; Greek and Latin keep ἀμήν / Amen as a bare interjection. This reflects standard Syriac discourse style of clause-initial waw."
     },
     {
       "greek_nt": [
@@ -98,26 +98,35 @@
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek δέ ('now/but') is omitted in both Peshitta and Vulgate. The Peshitta absorbs the connective function into the prefixed ܘ on ܐܡܝܢ; Latin omits entirely, relying on context for the discourse transition."
+      "note": "The Greek postpositive δέ ('now/but') has no discrete equivalent in either the Vulgate (asyndetic Amen dico) or the Peshitta, which has instead absorbed the connective into the prefixed waw on ܘܐܡܝܢ."
     },
     {
       "greek_nt": [
-        2,
-        3
+        2
       ],
       "peshitta": [
         1,
-        2,
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek λέγω is a synthetic first-person present; the Peshitta renders it analytically with participle plus enclitic pronoun ܐܡܪ ܐܢܐ ('saying [am] I'), the normal Syriac means of expressing the present, whereas Latin dico matches the Greek synthetic form."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
         3
       ],
       "vulgate": [
-        1,
         2,
         3
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta explicitly supplies the first-person pronoun ܐܢܐ ('I'), whereas Greek λέγω ὑμῖν encodes the subject in verbal morphology alone. Vulgate dico vobis likewise omits an explicit subject pronoun, following Latin convention. This is a typical Syriac clarifying gloss."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -133,7 +142,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the compound conditional ὅπου ἐάν ('wherever'); Peshitta employs ܕܟܠ ܐܝܟܐ ('that all/every where'), a distributive construction; Vulgate compresses into the single adverb ubicumque. All three convey universal scope, but through distinct syntactic strategies."
+      "note": "Greek pairs ὅπου with the conditional particle ἐάν ('wherever'); Latin compresses this into the single indefinite relative adverb Ubicumque, while the Peshitta uses ܕܟܠ ܐܝܟܐ ('that everywhere/wheresoever'), an idiomatic Syriac universalising construction with prefixed d-."
     },
     {
       "greek_nt": [
@@ -147,26 +156,34 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek κηρυχθῇ is aorist passive subjunctive; Vulgate prædicatum fuerit uses a perfect passive subjunctive periphrasis (participle + fuerit). Both express future contingency in proclamation, but Latin employs a compound tense construction where Greek uses a simple form."
+      "type": "grammar",
+      "note": "Greek κηρυχθῇ is a single aorist passive subjunctive; the Latin renders the future-perfect periphrasis prædicatum fuerit ('shall have been preached'), and the Peshitta ܕܬܬܟܪܙ keeps a single inflected verb with the subordinating d-, all conveying the same conditional-future sense."
     },
     {
       "greek_nt": [
         7,
-        8,
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "τὸ εὐαγγέλιον / ܣܒܪܬܝ / Evangelium."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek τὸ εὐαγγέλιον τοῦτο uses article + noun + demonstrative; Peshitta ܣܒܪܬܝ ܗܕܐ ('my gospel this') employs a first-person possessive suffix on 'gospel', absent in Greek and Latin. This Syriac possessive may reflect interpretive emphasis on apostolic ownership or may be a stylistic variant for 'this gospel [I preach]'."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -184,9 +201,8 @@
         10,
         11
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek εἰς ὅλον τὸν κόσμον uses preposition + adjective + article + noun; Peshitta ܒܟܠܗ ܥܠܡܐ ('in-all-of-it world') employs a pronominal suffix on 'all' for totality; Vulgate in universo mundo uses the adjective universus. All convey 'the whole world', but Syriac's suffixal construction is more compact."
+      "variant": "aligned",
+      "note": "εἰς ὅλον τὸν κόσμον / ܒܟܠܗ ܥܠܡܐ / in universo mundo."
     },
     {
       "greek_nt": [
@@ -200,27 +216,46 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek καί ('and/also') is rendered by Peshitta ܘܐܦ ('and also/even'), which intensifies the additive force, and Vulgate et ('and'). The Syriac ܐܦ adds mild emphasis ('even what she did'), slightly stronger than the Greek conjunction alone."
+      "note": "Greek καί and Latin et are the simple connective 'and/also'; the Peshitta intensifies with ܘܐܦ ('and even/also'), a slightly emphatic adverbial pairing that heightens the contrast introduced in the apodosis."
     },
     {
       "greek_nt": [
-        15,
-        16,
-        17
+        15
       ],
       "peshitta": [
-        12,
-        13,
-        14
+        12
       ],
       "vulgate": [
-        13,
-        14,
-        15
+        13
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek ὃ ἐποίησεν αὕτη ('what this-woman did') uses a relative pronoun + verb + demonstrative subject; Peshitta ܡܕܡ ܕܥܒܕܬ ܗܕܐ ('thing that-did this-one') employs the indefinite ܡܕܡ ('thing/what') + relative clause; Vulgate quod fecit hæc mirrors Greek structure. Syriac's ܡܕܡ is a common idiom for relative 'what', semantically equivalent but syntactically distinct."
+      "note": "Greek uses the neuter relative pronoun ὅ ('what'); the Vulgate matches with quod, while the Peshitta employs the indefinite noun ܡܕܡ ('the thing/somewhat') followed by the relative clause, a typical Syriac periphrasis for a relative substantive."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "αὕτη / ܗܕܐ / hæc, the demonstrative 'this [woman]'."
     },
     {
       "greek_nt": [
@@ -232,9 +267,7 @@
       "vulgate": [
         16
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek λαληθήσεται ('will be spoken') is a future passive of λαλέω; Peshitta ܢܬܡܠܠ uses the ethpeal (passive) of ܡܠܠ, cognate to λαλέω; Vulgate narrabitur ('will be narrated') employs narrare, which emphasizes storytelling over mere speaking. Latin slightly shifts the semantic field toward narrative recounting."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -252,13 +285,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek εἰς μνημόσυνον αὐτῆς ('for a memorial of-her') uses preposition + noun + genitive pronoun; Peshitta ܠܕܘܟܪܢܗ ('for-memorial-of-her') employs a single word with pronominal suffix; Vulgate in memoriam ejus uses preposition + accusative + genitive. Syriac's suffixal economy compresses the phrase, while Greek and Latin use analytic constructions."
+      "note": "Greek and Latin express 'for a memorial of her' analytically with preposition plus noun plus genitive pronoun (εἰς μνημόσυνον αὐτῆς / in memoriam ejus); the Peshitta compresses the whole phrase into a single prefixed-and-suffixed form ܠܕܘܟܪܢܗ ('for-her-memorial'), characteristic of Syriac morphological synthesis."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.035476+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.537916+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

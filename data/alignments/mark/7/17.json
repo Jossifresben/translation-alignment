@@ -59,7 +59,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Vulgate open with the coordinating conjunction καί / Et, the characteristic paratactic Markan style. The Peshitta instead renders the connective with the postpositive particle ܕܝܢ (idx 1), a subordinating/adversative shift handled under the temporal clause below."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
@@ -67,27 +78,34 @@
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses καὶ ὅτε ('and when') with temporal conjunction; Peshitta employs ܟܕ ܕܝܢ (kad dēn, 'when then') with contrastive particle; Vulgate renders Et cum ('and when'). The Peshitta's ܕܝܢ adds mild adversative force absent in the other traditions."
+      "type": "construction",
+      "note": "The temporal conjunction ὅτε ('when') is matched by Latin cum and by Syriac ܟܕ; the Syriac couples ܟܕ with the postpositive ܕܝܢ, producing a 'but/now when' construction that absorbs the discourse connective rather than rendering it as a separate clause-initial conjunction."
     },
     {
       "greek_nt": [
         2
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
         2
       ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek εἰσῆλθεν is an aorist indicative ('he entered'); the Vulgate introisset is a pluperfect subjunctive governed by cum, while Syriac ܥܠ is a simple perfect. The Latin subjunctive reflects the standard cum-historicum construction and does not alter the sense."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        3
+      ],
       "variant": "added",
       "type": "expansion",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the verb ܥܠ ('entered'), whereas Greek εἰσῆλθεν and Latin introisset leave the subject implicit from context. This represents a typical Syriac clarifying expansion for narrative flow."
+      "note": "The Peshitta supplies the explicit subject ܝܫܘܥ ('Jesus') for the verb of entering, whereas both Greek and Vulgate leave the third-person subject implicit in the verb. This is a clarifying expansion typical of Syriac narrative style."
     },
     {
       "greek_nt": [
@@ -102,7 +120,7 @@
         4
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "εἰς οἶκον / in domum / ܠܒܝܬܐ"
     },
     {
       "greek_nt": [
@@ -120,39 +138,64 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses ἀπὸ τοῦ ὄχλου with the definite article modifying 'crowd'; Latin a turba and Syriac ܡܢ ܟܢܫܐ both lack the article. This reflects differing conventions for definiteness rather than semantic divergence."
+      "note": "The phrase 'from the crowd' is rendered by Greek ἀπὸ τοῦ ὄχλου with the article and Latin a turba without; Syriac ܡܢ ܟܢܫܐ likewise lacks an article. The presence or absence of the article carries no semantic weight here, the determination being inherent."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin place the verb (ἐπηρώτων / interrogabant) before its subject 'disciples', while Syriac ܫܐܠܘܗܝ already encliticises the object pronoun ('asked him') onto the verb, fusing the object that Greek and Latin express separately (αὐτόν / eum)."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The accusative object pronoun αὐτόν / eum is expressed as a free word in Greek and Latin, but the Peshitta incorporates it as the enclitic suffix -ܘܗܝ on the verb ܫܐܠܘܗܝ, a normal feature of Syriac verbal morphology."
     },
     {
       "greek_nt": [
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek marks the subject with the article οἱ μαθηταί, the Vulgate with bare discipuli; the Syriac ܬܠܡܝܕܘܗܝ fuses the noun with the possessive suffix ('his disciples'), thereby combining the subject and the following genitive pronoun into a single morphological unit."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        9,
         10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek articulates 'the disciples of him' with article + noun + possessive pronoun (οἱ μαθηταὶ αὐτοῦ); Latin uses noun + possessive (discipuli ejus); Peshitta employs a pronominal suffix on the noun itself (ܬܠܡܝܕܘܗܝ, 'his-disciples'), a standard Semitic bound construction."
+      "note": "The genitive pronoun αὐτοῦ / ejus ('of him', i.e. 'his') appears as a separate word in Greek and Latin but is realised as the possessive suffix on ܬܠܡܝܕܘܗܝ in Syriac, an instance of the language's standard nominal pronominal suffixation."
     },
     {
       "greek_nt": [
@@ -162,21 +205,28 @@
       ],
       "peshitta": [
         9,
-        10,
-        11
+        10
       ],
       "vulgate": [
         11
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the preposition περὶ with accusative article + noun (περὶ τὴν παραβολήν, 'concerning the parable'); Peshitta uses ܥܠ ܡܬܠܐ ܗܘ ('concerning that parable') with demonstrative pronoun ܗܘ adding deictic force; Vulgate employs direct accusative parabolam without preposition, treating the verb interrogare as governing a double accusative construction."
+      "note": "Greek introduces the topic with the preposition περὶ τὴν παραβολήν ('concerning the parable') and Syriac similarly with ܥܠ ܡܬܠܐ; the Vulgate, however, omits the preposition and renders parabolam as a bare accusative ('asked him the parable'), a more direct construction without semantic loss."
+    },
+    {
+      "peshitta": [
+        11
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta appends the demonstrative/copular ܗܘ after ܡܬܠܐ, yielding 'that parable' or 'this parable', a deictic specification absent from both the Greek and the Vulgate which leaves the parable referenced anaphorically by the article alone."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.990148+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.554146+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

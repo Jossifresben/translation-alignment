@@ -106,7 +106,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
@@ -114,11 +125,10 @@
         0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Greek protasis ὅπου ἂν with the modal particle expresses indefinite frequency ('wherever'); the Vulgate quocumque and the Syriac ܐܝܟܐ ('wherever') render the locative-indefinite force, but Syriac lacks a separate particle, the indefinite sense being absorbed into the relative adverb."
     },
     {
       "greek_nt": [
@@ -132,36 +142,52 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperfect indicative εἰσεπορεύετο alone; Peshitta employs periphrastic construction ܕܥܐܠ ܗܘܐ (participle + auxiliary 'was'); Vulgate uses simple imperfect introibat. All three express iterative past action with equivalent semantics."
+      "note": "Greek εἰσεπορεύετο is a single imperfect verb; Syriac employs the periphrastic ܥܐܠ ܗܘܐ (participle + enclitic ܗܘܐ), the standard Syriac construction for durative/iterative past, matching the Greek imperfect aspect."
     },
     {
       "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6,
         7,
-        8,
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5,
+        6,
+        7
+      ],
+      "variant": "major",
+      "note": "Greek lists three distinct locations linked by ἤ (villages, cities, fields); the Vulgate expands even further with vicos, villas, and civitates (an apparent doublet rendering of κώμας). The Peshitta compresses the series, retaining only ܡܕܝܢܬܐ ('cities') joined by waw to the preceding 'villages', omitting any equivalent for 'fields'."
+    },
+    {
+      "greek_nt": [
         9,
         10,
         11
       ],
-      "peshitta": [
-        3,
-        4
-      ],
+      "peshitta": [],
       "vulgate": [
-        3,
-        4,
-        5,
-        6,
-        7,
         8,
         9
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek lists three destination types with repeated preposition εἰς: villages (κώμας), cities (πόλεις), and fields (ἀγροὺς). Vulgate expands to three types with varied vocabulary: vicos, villas, civitates. Peshitta omits the third category entirely, listing only villages (ܠܩܘܪܝܐ) and cities (ܘܠܡܕܝܢܬܐ), possibly viewing 'fields' as redundant or subsumed under rural settlements."
+      "variant": "omitted",
+      "note": "The Greek third member of the series, εἰς ἀγρούς ('into fields'), is preserved by the Vulgate (aut civitates) only partially and is entirely absent from the Peshitta, which collapses the geographic triad into a single villages/cities pairing."
     },
     {
       "greek_nt": [
@@ -176,8 +202,8 @@
         10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek and Latin use the plural (ἀγοραῖς / plateis, 'in the marketplaces') with article; Syriac ܒܫܘܩܐ employs the singular 'in the market', a typical Syriac idiom treating the marketplace as a collective mass-noun."
     },
     {
       "greek_nt": [
@@ -191,8 +217,7 @@
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐτίθεσαν (simple imperfect) and Vulgate ponebant (simple imperfect) contrast with Peshitta's periphrastic ܣܝܡܝܢ ܗܘܘ (participle + auxiliary). This is a characteristic Syriac construction for expressing continuous past action, semantically equivalent to the Greek and Latin simple imperfects."
+      "note": "Greek ἐτίθεσαν is a finite imperfect 'they were laying'; Syriac renders with the periphrastic participle ܣܝܡܝܢ ܗܘܘ to convey the same durative-iterative past aspect, while the Vulgate ponebant matches with a simple imperfect."
     },
     {
       "greek_nt": [
@@ -205,8 +230,7 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -218,8 +242,7 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -233,8 +256,7 @@
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek παρεκάλουν (simple imperfect) and Vulgate deprecabantur (simple imperfect deponent) contrast with Peshitta's periphrastic ܘܒܥܝܢ ܗܘܘ (already counted with conjunction in token 9, auxiliary in 10). Again, Syriac employs its characteristic periphrastic construction for continuous past action."
+      "note": "Greek παρεκάλουν is a simple imperfect 'they were begging'; the Peshitta again uses periphrasis ܒܥܝܢ ܗܘܘ (participle + enclitic) for the iterative past, the conjunction waw on ܘܒܥܝܢ corresponding to the Greek καί already aligned."
     },
     {
       "greek_nt": [
@@ -246,21 +268,18 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         21
       ],
-      "peshitta": [
-        12
-      ],
+      "peshitta": [],
       "vulgate": [
         17
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἵνα introduces the purpose/content clause; the Vulgate renders it with ut. The Syriac has no discrete conjunction here, the subordination being carried by the following ܕܐܦܢ ('that even if'), so the ἵνα-function is absorbed into the conditional particle."
     },
     {
       "greek_nt": [
@@ -272,9 +291,7 @@
       "vulgate": [
         18
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek κἂν (crasis of καὶ ἐάν, 'even if/at least') is rendered by Vulgate vel ('or/even') and Peshitta ܕܐܦܢ ('if even/at least'). All three convey the concessional-conditional nuance, though Vulgate's vel is slightly weaker in force than the Greek and Syriac particles."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -287,8 +304,7 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -303,8 +319,8 @@
         20,
         21
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek τοῦ ἱματίου αὐτοῦ ('of his garment') is rendered by Vulgate vestimenti ejus with separate possessive pronoun; Syriac ܕܠܒܘܫܗ fuses the genitive linker and the possessive suffix into a single inflected form, a normal Syriac economy of expression."
     },
     {
       "greek_nt": [
@@ -316,8 +332,7 @@
       "vulgate": [
         22
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -329,8 +344,7 @@
       "vulgate": [
         23
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -339,14 +353,14 @@
       ],
       "peshitta": [
         16,
-        17
+        17,
+        18
       ],
       "vulgate": [
         24
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὅσοι ἂν ('as many as') is rendered by Vulgate quotquot (indefinite relative, 'however many') and Peshitta ܘܟܠܗܘܢ ܐܝܠܝܢ ('and all those who'). The Syriac uses a universal quantifier + relative pronoun construction, semantically equivalent but syntactically more explicit than the Greek and Latin indefinite relatives."
+      "note": "Greek ὅσοι ἂν ('as many as') with modal particle expresses indefiniteness; the Vulgate quotquot captures this distributive force, while Syriac uses the analytic ܟܠܗܘܢ ܐܝܠܝܢ ܕ ('all those who'), a double-headed quantifier-plus-relative construction semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -360,8 +374,7 @@
         25
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἥψαντο (aorist middle) and Vulgate tangebant (imperfect active) differ in aspect (punctiliar vs. iterative), while Peshitta employs periphrastic ܕܩܪܒܝܢ ܗܘܘ (participle + auxiliary). The Vulgate's imperfect aligns with the iterative sense of the context; Greek aorist may be constative, summarizing multiple touches."
+      "note": "Greek ἥψαντο is an aorist 'touched'; Syriac employs the periphrastic ܩܪܒܝܢ ܗܘܘ for habitual past action, whereas the Vulgate tangebant uses an imperfect, all three converging on iterative sense despite differing aspectual morphology."
     },
     {
       "greek_nt": [
@@ -373,8 +386,7 @@
       "vulgate": [
         26
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -389,14 +401,13 @@
         28
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐσῴζοντο (imperfect passive, 'were being saved/healed') is rendered by Vulgate salvi fiebant (imperfect of fio with predicate adjective, 'were becoming well') and Peshitta ܡܬܐܣܝܢ ܗܘܘ (periphrastic ethpael participle + auxiliary, 'were being healed'). All three express continuous past passive action; Vulgate uses a stative construction while Greek and Syriac employ true passives."
+      "note": "Greek ἐσῴζοντο (imperfect passive of σῴζω, 'were being saved/healed') is rendered by the Vulgate periphrastic salvi fiebant and the Syriac periphrastic ܡܬܐܣܝܢ ܗܘܘ ('were being healed'); the Syriac root th-a-s specifies 'heal' rather than the broader σῴζω semantic range of 'save/preserve/heal'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.880662+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.435547+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

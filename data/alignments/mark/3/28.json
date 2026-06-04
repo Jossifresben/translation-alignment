@@ -71,21 +71,21 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        1
+        1,
+        2
       ],
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek λέγω is a synthetic first-person verb; Syriac analytically renders the predicate with participle ܐܡܪ plus the independent pronoun ܐܢܐ ('I'), a standard Syriac periphrasis for the present, while the Vulgate dico matches the Greek synthetic form."
     },
     {
       "greek_nt": [
@@ -97,19 +97,7 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate attaches a comma to 'vobis,' marking a stronger pause before the ὅτι-clause, whereas Greek and Peshitta proceed without punctuation. This reflects Latin rhetorical convention rather than semantic divergence."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta inserts the explicit subject pronoun ܐܢܐ ('I'), a common Syriac clarification of the Greek first-person verb λέγω, which carries the subject implicitly. Neither Greek nor Latin requires an overt pronoun here."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -119,26 +107,19 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
-        10,
-        11
+        4
       ],
       "peshitta": [
-        4,
-        5
+        4
       ],
       "vulgate": [
-        4,
-        8
+        4
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek employs a hyperbaton, separating πάντα from τὰ ἁμαρτήματα by the verb and dative phrase, then resuming with the article-noun pair. Peshitta and Vulgate front the quantifier with its noun (ܕܟܠܗܘܢ ܚܛܗܐ / omnia peccata), yielding a more linear syntax. The Greek construction emphasizes totality through dislocation."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -150,9 +131,8 @@
       "vulgate": [
         5
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek places the passive verb ἀφεθήσεται early in the clause (future indicative), while Peshitta defers ܢܫܬܒܩܘܢ to the end, and Vulgate positions dimittentur medially. The Peshitta's verb-final order reflects typical Semitic SOV structure; Greek and Latin exhibit greater flexibility."
+      "variant": "minor",
+      "note": "All three attest the passive 'will be forgiven' (ἀφεθήσεται / ܢܫܬܒܩܘܢ / dimittentur); Syriac word order differs in that the verb is deferred to the clause end, reflecting its preference for placing the main verb after the subject-objects."
     },
     {
       "greek_nt": [
@@ -170,12 +150,36 @@
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular dative τοῖς υἱοῖς τῶν ἀνθρώπων ('to the sons of men') with double article; Latin mirrors this with filiis hominum (genitive construction); Peshitta employs the construct state ܒܢܝ ܐܢܫܐ, a bound phrase without articles. All three express the same Semitic idiom for 'humanity.'"
+      "note": "Greek and Latin render the Semitism 'sons of men' with explicit articles and genitive (τοῖς υἱοῖς τῶν ἀνθρώπων / filiis hominum); the Syriac construct chain ܒܢܝ ܐܢܫܐ preserves the original idiom without articulation. The Syriac also positions this phrase after the objects rather than after the verb."
     },
     {
       "greek_nt": [
-        12,
+        10,
+        11
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek uses the articulated plural neuter τὰ ἁμαρτήματα; both the Vulgate (peccata) and Syriac (ܚܛܗܐ) render the plural without an article, the Syriac employing the cognate root kh-T-a corresponding to Hebrew חָטָא."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13,
         14
       ],
@@ -183,12 +187,10 @@
         6
       ],
       "vulgate": [
-        9,
         10
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek coordinates with καὶ αἱ βλασφημίαι (article + plural noun); Vulgate uses et blasphemiæ (conjunction + plural); Peshitta employs ܘܓܘܕܦܐ, a singular collective noun prefixed with waw. The Syriac singular for plural is a standard idiom for abstract mass-nouns."
+      "note": "Greek and Latin attest the noun 'blasphemies' with the Greek bearing the article (αἱ βλασφημίαι / blasphemiæ); the Syriac fuses the conjunction and noun ܘܓܘܕܦܐ (root g-d-p, cf. Hebrew גִּדֵּף) into a single token, supplying the 'and' already counted with the previous group."
     },
     {
       "greek_nt": [
@@ -203,35 +205,33 @@
         11,
         12
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses a relative clause with conditional particle (ὅσα ἐὰν βλασφημήσωσιν, 'whatever they may blaspheme'), employing aorist subjunctive. Vulgate mirrors this with quibus blasphemaverint (relative + future perfect). Peshitta condenses to a single relative participle ܕܢܓܕܦܘܢ ('that they blaspheme'), omitting the quantifier ὅσα and the conditional nuance, yielding a simpler attributive construction."
+      "variant": "minor",
+      "note": "Greek expresses the conditional relative with three words (ὅσα ἐὰν βλασφημήσωσιν), and Latin with a relative pronoun plus subjunctive verb (quibus blasphemaverint); Syriac compresses the entire relative clause into the single inflected verb ܕܢܓܕܦܘܢ ('that they shall blaspheme') with the relative particle prefixed, a typical Syriac economy."
     },
     {
-      "greek_nt": [],
       "peshitta": [
         11
       ],
-      "vulgate": [],
       "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta appends the pronominal suffix ܠܗܘܢ ('to them') to clarify the indirect object of forgiveness, making explicit what Greek and Latin leave implicit in the dative τοῖς υἱοῖς / filiis. This is a typical Syriac clarification strategy."
+      "type": "expansion",
+      "note": "The Syriac supplies an explicit indirect-object pronoun ܠܗܘܢ ('to them') resuming the dative beneficiaries of forgiveness; neither the Greek nor the Vulgate repeats the pronoun, the dative being borne solely by τοῖς υἱοῖς / filiis."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        17
+      ],
       "vulgate": [
         13
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate closes the verse with a colon, signaling continuation into the following verse (the unforgivable sin). Greek uses a raised dot (·), and Peshitta has no explicit punctuation. The Vulgate's colon reflects medieval Latin scribal practice for heightened rhetorical linkage."
+      "note": "The Greek raised dot (·) and the Vulgate colon (:) both mark a major sense pause anticipating the exception clause of the following verse; the Syriac transmits no terminal punctuation token here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.961628+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.523435+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

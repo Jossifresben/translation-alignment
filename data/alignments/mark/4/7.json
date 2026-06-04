@@ -62,8 +62,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
@@ -72,8 +71,21 @@
         0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the conjunction καί followed by the substantival adjective ἄλλο ('and other'); the Peshitta fuses both into a single prefixed form ܘܐܚܪܢܐ, while the Vulgate splits them as Et aliud. Semantically all three are equivalent ('and another [seed]')."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -85,8 +97,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -103,43 +114,62 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition εἰς with the accusative article and noun (εἰς τὰς ἀκάνθας); Latin mirrors this with in + accusative (in spinas); Syriac employs the compound preposition ܒܝܬ (beth, 'among/between') without an article, reflecting typical Semitic prepositional usage where the definiteness is contextually implied."
+      "type": "idiom",
+      "note": "Greek εἰς τὰς ἀκάνθας and Latin in spinas use the accusative of motion 'into the thorns', whereas the Peshitta employs ܒܝܬ ܟܘܒܐ, literally 'in/amid the place of thorns', a Syriac locative idiom expressing the same spatial sense without a directional preposition."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'spinas' to mark a stronger pause before the consequence clause, creating a two-part structure absent in the Greek and Peshitta. This reflects Latin rhetorical convention rather than a textual variant in the underlying tradition."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the definite article with the subject noun (αἱ ἄκανθαι, 'the thorns') in nominative plural; Latin uses the bare noun 'spinæ' in the ablative absolute construction; Syriac uses ܟܘܒܐ without an article, as Syriac typically marks definiteness through context and the emphatic state rather than a separate article, resulting in functional equivalence despite morphological divergence."
+      "note": "Greek αἱ ἄκανθαι and Latin spinæ both carry the article/definiteness and explicit plural noun as subject; the Peshitta ܟܘܒܐ stands without an article and relies on context for definiteness, the verbal plural ܘܣܠܩܘ already encoding the plural subject."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
@@ -147,49 +177,76 @@
         6
       ],
       "vulgate": [
-        9,
         10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek συνέπνιξαν αὐτό and Latin suffocaverunt illud express verb plus separate accusative object pronoun, whereas the Peshitta synthesises both into the single inflected form ܘܚܢܩܘܗܝ ('and they choked it'), the object suffix -ܘܗܝ supplying the pronoun."
     },
     {
       "greek_nt": [
         13
       ],
-      "peshitta": [],
+      "peshitta": [
+        7
+      ],
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        14,
-        15,
+        14
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        7,
-        8,
         9
       ],
       "vulgate": [
-        13,
-        14,
         15
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the negative particle before the verb (καρπὸν οὐκ ἔδωκεν, 'fruit not it-gave'); Latin follows the same order (fructum non dedit); Syriac prefixes the conjunction to 'fruit' (ܘܦܐܪܐ ܠܐ ܝܗܒ, 'and-fruit not it-gave'), reflecting the Syriac preference for attaching conjunctions directly to the following word, but the semantic content and negation placement remain equivalent across all three traditions."
+      "type": "lexical",
+      "note": "Greek ἔδωκεν ('gave') and Syriac ܝܗܒ (root y-h-b, 'gave') both use the verb 'to give' for the seed yielding no fruit, whereas the Vulgate dedit likewise renders 'gave'; the agreement here is a calque on the Semitic idiom 'to give fruit' preserved across all three traditions."
+    },
+    {
+      "vulgate": [
+        5
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon after spinas to mark the clause boundary; this is editorial punctuation with no counterpart in the Greek or Syriac textual tradition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.963941+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.447929+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

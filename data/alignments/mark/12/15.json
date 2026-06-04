@@ -65,19 +65,27 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article + postpositive δέ (Ὁ δέ); Peshitta mirrors with pronoun + ܕܝܢ (ܗܘ ܕܝܢ); Vulgate employs relative pronoun Qui without conjunction, a stylistic preference in Latin narrative."
+      "note": "Greek uses the articular substantive Ὁ ('the [one]') as subject, the Peshitta the demonstrative pronoun ܗܘ, and the Vulgate the relative pronoun Qui ('who'), turning the construction into a relative clause. All three are functionally equivalent ways of resuming Jesus as subject, but the Latin recasts the syntax."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek postpositive δέ and its Syriac calque ܕܝܢ mark a mild adversative/continuative transition; the Vulgate omits any rendering of the connective particle, a common feature of Latin which often drops such Greek discourse markers."
     },
     {
       "greek_nt": [
@@ -89,13 +97,15 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek εἰδώς is a perfect active participle ('having known/knowing'), matched by the Latin present participle sciens. The Peshitta ܝܕܥ is a finite perfect verb, syntactically subordinated to the demonstrative rather than expressed participially."
     },
     {
       "greek_nt": [
-        3,
         4,
-        5
+        5,
+        3
       ],
       "peshitta": [
         3
@@ -104,91 +114,149 @@
         2,
         3
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "lexical",
-      "note": "Greek τὴν ὑπόκρισιν ('the hypocrisy') and Vulgate versutiam ('craftiness, cunning') denote moral duplicity, whereas Peshitta ܢܟܠܗܘܢ ('their deceit, trickery') emphasizes strategic deception. The semantic fields overlap but the Peshitta term carries stronger connotations of deliberate scheming."
+      "note": "Greek τὴν ὑπόκρισιν ('the hypocrisy', G5272) and Latin versutiam ('cunning, craftiness') diverge in nuance: the Latin emphasises deceitful shrewdness rather than dissimulation. The Peshitta ܢܟܠܗܘܢ (root k-w-l, 'their guile/deceit') aligns more closely with the Latin sense of treachery than with the Greek term for play-acting."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek aorist εἶπεν and Latin perfect ait both stand as independent finite verbs; the Peshitta prefixes the conjunction waw (ܘܐܡܪ, 'and he said'), coordinating the clause paratactically in characteristic Semitic style rather than subordinating the participle."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
-        5,
-        6
+        5
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts colon after illos to mark direct discourse, a Latin scribal convention absent in Greek and Peshitta manuscript traditions where speech is unmarked or indicated by context."
+      "type": "grammar",
+      "note": "Greek αὐτοῖς and Syriac ܠܗܘܢ are dative/prepositional indirect objects ('to them'); the Clementine Vulgate reads accusative illos rather than the expected dative illis, a known late-Latin / Vulgate solecism in the dicere + accusative construction."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        8
       ],
       "peshitta": [
-        6,
-        7,
-        8,
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "τί / ܡܢܐ / Quid"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
         9
       ],
       "vulgate": [
-        7,
-        8,
-        9,
-        10
+        8
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬܘܢ ('you [plural]') after the participle ܡܢܣܝܢ, making the second-person agency overt; Greek and Latin leave the subject implicit in the verb morphology (πειράζετε / tentatis)."
+      "variant": "aligned",
+      "note": "με / ܠܝ / me"
     },
     {
       "greek_nt": [
-        11,
-        12
+        10
       ],
       "peshitta": [
-        10,
+        7,
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek πειράζετε and Latin tentatis are single synthetic finite verbs carrying the 2nd-person plural subject inflectionally. The Peshitta uses the analytic participle-plus-enclitic-pronoun construction ܡܢܣܝܢ ܐܢܬܘܢ ('are you testing'), the normal Syriac means of expressing a present-tense verb with explicit subject pronoun."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "vulgate": [
-        11,
-        12
+        10
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Peshitta repeats the indirect object ܠܝ ('to me') twice for emphasis (ܐܝܬܘ ܠܝ 'bring to-me'), whereas Greek φέρετέ μοι and Latin afferte mihi each use a single dative pronoun, reflecting differing rhetorical strategies."
+      "variant": "aligned",
+      "note": "interrogative punctuation"
     },
     {
       "greek_nt": [
-        13,
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "note": "Note: the Greek interrogative mark is conflated with αὐτοῖς· above; here φέρετέ / ܐܝܬܘ / afferte all render the 2nd-person plural imperative 'bring'."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "μοι / ܠܝ / mihi"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "δηνάριον / ܕܝܢܪܐ / denarium"
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs ἵνα + subjunctive (ἵνα ἴδω) for purpose clause; Vulgate mirrors with ut + subjunctive (ut videam); Peshitta uses bare jussive ܐܚܙܐ ('let me see') without subordinating particle, a common Semitic asyndetic construction for volitive purpose."
+      "note": "Greek ἵνα ἴδω and Latin ut videam form an explicit final/purpose clause ('that I may see'). The Peshitta expresses the same purpose paratactically with a bare imperfect ܐܚܙܐ ('I shall see'), omitting any subordinating conjunction in typical Syriac fashion."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.023027+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.529593+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

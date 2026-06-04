@@ -63,8 +63,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "type": "omission",
-      "note": "The Greek article ὁ (nominative masculine singular) is rendered by the Syriac pronoun ܗܘ ('he'), while the Vulgate omits any corresponding element, proceeding directly to the proper name Pilatus. This reflects Latin's lack of a definite article and its preference for unmarked proper nouns in subject position."
+      "type": "construction",
+      "note": "Greek and Syriac open with a fronted demonstrative/article (Ὁ / ܗܘ) functioning as the subject anchor before the conjunction; the Vulgate has no separate element here, integrating the subject directly into the proper noun Pilatus. The construction is equivalent but the Latin lacks the resumptive pronoun."
     },
     {
       "greek_nt": [
@@ -76,7 +76,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "δέ / ܕܝܢ / autem"
     },
     {
       "greek_nt": [
@@ -88,9 +90,9 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "The Vulgate places Pilatus in initial position before the conjunction autem, whereas both Greek and Syriac position the proper name after the conjunction (δὲ / ܕܝܢ). This represents a stylistic preference in Latin for fronting the subject in narrative transitions."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Πιλᾶτος / ܦܝܠܛܘܣ / Pilatus"
     },
     {
       "greek_nt": [
@@ -102,7 +104,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπεκρίθη / ܥܢܐ / respondit"
     },
     {
       "greek_nt": [
@@ -113,8 +117,8 @@
         3
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek αὐτοῖς (dative plural 'to them') and Vulgate eis (dative plural) are explicitly present, while the Peshitta omits the pronominal object, relying on the verb ܥܢܐ ('answered') to imply the addressees contextually. This is a common Syriac ellipsis pattern with verbs of speaking."
+      "type": "omission",
+      "note": "The dative object αὐτοῖς ('to them') is rendered explicitly in the Vulgate (eis) but is absent in the Peshitta clause, which leaves the addressees implicit in the verb of answering. The omission is stylistic and does not alter the sense."
     },
     {
       "greek_nt": [
@@ -130,29 +134,22 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a participial construction λέγων (present active participle 'saying'), which the Peshitta renders with a finite verb ܘܐܡܪ (waw-consecutive + perfect 'and he said'). The Vulgate expands this into a coordinated finite clause et dixit with explicit punctuation (colon), making the speech introduction more emphatic and formally separated."
+      "note": "Greek uses a single participle λέγων ('saying') subordinated to the finite verb; both Syriac (ܘܐܡܪ, 'and said') and Latin (et dixit) convert this to a coordinated finite verb introduced by the conjunction, a typical Semitic and Latin parataxis replacing the Greek participial idiom. The Latin colon (:) is included here as discourse punctuation introducing direct speech."
     },
     {
       "greek_nt": [
         6
       ],
       "peshitta": [
-        5
+        5,
+        6
       ],
       "vulgate": [
         7
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta inserts the explicit subject pronoun ܐܢܬܘܢ ('you' plural), which is grammatically unnecessary since the verb ܨܒܝܢ already encodes second-person plural. Neither Greek θέλετε nor Latin Vultis requires an overt pronoun. This represents a Syriac stylistic preference for emphatic or clarifying subject pronouns in direct questions."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "θέλετε / ܨܒܝܢ ܐܢܬܘܢ / Vultis; the Syriac analytically expresses the 2nd-person plural with an enclitic pronoun (ܐܢܬܘܢ), whereas Greek and Latin inflect synthetically."
     },
     {
       "greek_nt": [
@@ -164,7 +161,9 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπολύσω / ܐܫܪܐ / dimittam"
     },
     {
       "greek_nt": [
@@ -176,20 +175,13 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὑμῖν / ܠܟܘܢ / vobis"
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "omission",
-      "note": "Greek includes the accusative article τὸν before βασιλέα, which both Syriac and Latin omit. Syriac lacks a definite article system and uses the emphatic state ܡܠܟܐ to convey definiteness; Latin similarly has no article and relies on context to establish the referent as definite."
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
@@ -198,7 +190,9 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek marks the noun with the accusative article τὸν βασιλέα ('the King'); Syriac ܡܠܟܐ and Latin regem render the noun anarthrously, Syriac having no definite article and Latin no article at all, so the determinacy carried by the Greek article is structurally unexpressed in the other two traditions."
     },
     {
       "greek_nt": [
@@ -212,15 +206,15 @@
         11,
         12
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the genitive article τῶν with the genitive plural Ἰουδαίων ('of the Jews'), and Latin mirrors this with the genitive Judæorum plus question mark. Syriac employs the construct state ܕܝܗܘܕܝܐ (d- + 'Jews'), a bound genitive construction without a separate article, which is the standard Semitic method for expressing possession or attribution."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τῶν Ἰουδαίων / ܕܝܗܘܕܝܐ / Judæorum; the interrogative force marked by the Greek and Latin question mark is carried by intonation/context in Syriac."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.047676+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.441033+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

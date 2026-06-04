@@ -83,8 +83,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -98,30 +97,48 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses perfect passive γέγραπται (single verb); Vulgate employs periphrastic scriptum est (participle + auxiliary); Peshitta uses passive participle ܕܟܬܝܒ with implied copula — all semantically equivalent expressions of 'it is written.'"
+      "note": "Greek γέγραπται is a single synthetic perfect passive ('it has been written'); the Vulgate renders it analytically with scriptum est (participle + copula), the standard Latin periphrasis for the Greek perfect passive, while the Syriac ܕܟܬܝܒ likewise compresses the idea into one passive participle."
     },
     {
       "greek_nt": [
         2,
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin both express 'in Isaiah' with a preposition + article + proper name (ἐν τῷ Ἠσαΐᾳ / in Isaia); Syriac fuses the preposition into a single prefixed form ܒܐܫܥܝܐ, omitting any article, as is normal in Syriac proper-name syntax."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
-        4,
-        5,
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek repeats the article before προφήτῃ (τῷ προφήτῃ, 'the prophet') yielding the appositional 'in Isaiah the prophet'; both the Vulgate (propheta) and the Peshitta (ܢܒܝܐ) render the apposition without any article, since neither Latin nor Syriac employs the Greek-style anaphoric article here."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [],
+      "vulgate": [
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs double article construction ἐν τῷ Ἠσαΐᾳ τῷ προφήτῃ ('in the Isaiah the prophet'); Vulgate mirrors this with in Isaia propheta; Peshitta uses prepositional phrase ܒܐܫܥܝܐ ܢܒܝܐ ('in Isaiah prophet') without articles, following typical Semitic syntax where definiteness is contextual."
+      "note": "The colon (·/:) after 'prophet' marks the introduction of the citation in both the Greek and Latin punctuation; the Peshitta text as transmitted carries no corresponding punctuation token, the citation boundary being left implicit."
     },
     {
       "greek_nt": [
@@ -133,25 +150,32 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
-        9
+        8
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        8,
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
         9
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places pronoun before verb (ἐγὼ ἀποστέλλω); Vulgate follows this order (ego mitto); Peshitta inverts to verb-subject (ܡܫܕܪ ܐܢܐ), reflecting standard Syriac VSO word order for emphasis on the action."
+      "note": "Greek and Latin use a finite present indicative (ἀποστέλλω / mitto, 'I send'); Syriac employs the participle ܡܫܕܪ with the independent pronoun ܐܢܐ following, the standard Syriac periphrastic present which yields a word-order divergence (verb-then-pronoun) relative to the Greek."
     },
     {
       "greek_nt": [
@@ -167,8 +191,7 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun + possessive pronoun (τὸν ἄγγελόν μου); Vulgate employs noun + possessive (angelum meum); Peshitta uses construct state ܡܠܐܟܝ ('my-messenger'), a single bound form typical of Semitic possessive constructions."
+      "note": "Greek and Latin express 'my messenger/angel' analytically with article and possessive (τὸν ἄγγελόν μου / angelum meum); Syriac uses the synthetic suffixed form ܡܠܐܟܝ ('my messenger'), absorbing the possessive into the noun and dispensing with any article."
     },
     {
       "greek_nt": [
@@ -185,8 +208,8 @@
         13,
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek πρὸ προσώπου σου and Latin ante faciem tuam both preserve the Semitic idiom 'before your face'; the Syriac ܩܕܡ ܦܪܨܘܦܟ likewise retains 'before your face' with the suffixed possessive, all three reflecting the Hebrew לְפָנֶיךָ of Mal 3:1/Exod 23:20."
     },
     {
       "greek_nt": [
@@ -201,8 +224,7 @@
         16
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs relative pronoun + future verb (ὃς κατασκευάσει); Vulgate mirrors with qui præparabit; Peshitta uses d-relative particle + imperfect verb ܕܢܬܩܢ, a standard Syriac relative construction expressing future purpose or result."
+      "note": "Greek and Latin use a relative clause with a finite future verb (ὃς κατασκευάσει / qui præparabit, 'who will prepare'); Syriac collapses this into the single subordinated verb ܕܢܬܩܢ ('that he may prepare/establish'), a relative-final construction without an explicit relative pronoun."
     },
     {
       "greek_nt": [
@@ -218,8 +240,7 @@
         18
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun + possessive (τὴν ὁδόν σου); Vulgate employs noun + possessive (viam tuam); Peshitta uses construct state with pronominal suffix ܐܘܪܚܟ ('your-way'), a single bound form eliminating the need for separate possessive pronoun."
+      "note": "Greek and Latin render 'your way' analytically (τὴν ὁδόν σου / viam tuam) with article and separate possessive; Syriac uses the synthetic suffixed noun ܐܘܪܚܟ ('your way'), again economizing the possessive into the noun form."
     },
     {
       "greek_nt": [
@@ -231,15 +252,14 @@
         19,
         20
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek and Vulgate include the redundant prepositional phrase ἔμπροσθέν σου / ante te ('before you'), creating emphasis through repetition after πρὸ προσώπου σου / ante faciem tuam. The Peshitta omits this pleonastic construction, ending with ܐܘܪܚܟ ('your way'), likely viewing the repetition as unnecessary in Syriac idiom."
+      "variant": "omitted",
+      "note": "Greek ἔμπροσθέν σου ('before you') is echoed by the Vulgate ante te, but the Peshitta lacks any corresponding phrase here; this final pleonastic clause is text-critically secondary in Mark (absent from key Greek witnesses) and the Syriac omission reflects the shorter, non-doubled form of the conflated Malachi/Exodus citation."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.942195+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.451700+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

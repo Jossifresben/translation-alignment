@@ -62,8 +62,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -77,20 +76,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an aorist participle (ἀποκριθεὶς) with a finite verb (λέγει), a Semitic pleonasm common in the Gospels. Peshitta employs two coordinate finite verbs (ܘܥܢܐ ܘܐܡܪ, 'and he answered and said'), mirroring the Greek construction idiomatically. Vulgate uses a single participle (respondens) with finite verb (ait), condensing the expression into classical Latin style."
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek uses a single aorist passive participle ἀποκριθεὶς ('answering'); the Vulgate mirrors this with the present participle respondens. The Peshitta employs the characteristic Semitic paratactic verb-chain ܘܥܢܐ ('and he answered'), a finite verb coordinated with the following ܘܐܡܪ, so the participle's index here maps onto the Syriac finite verb already counted in the preceding group."
     },
     {
       "greek_nt": [
@@ -104,31 +90,66 @@
         4
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek λέγει includes a raised dot (·) as punctuation within the token. Vulgate separates the verb (ait) from the colon (:) as distinct tokens, reflecting Latin manuscript punctuation conventions. Peshitta integrates the verb ܘܐܡܪ without separate punctuation marking."
+      "type": "construction",
+      "note": "The Greek uses the historic present λέγει ('he says'), whereas both the Peshitta ܘܐܡܪ and the Vulgate ait render it as a past/aorist 'said', smoothing the vivid Markan present tense; the Vulgate also adds an explicit colon as discourse punctuation."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / eis ('to them')."
     },
     {
       "greek_nt": [
         4,
-        5,
-        6,
-        7,
-        8
+        5
       ],
       "peshitta": [
         3,
-        4,
-        5
+        4
       ],
       "vulgate": [
         5,
-        6,
-        7,
-        8
+        6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the interrogative pronoun τίς with copula ἐστιν and definite article ἡ before μήτηρ ('Who is the mother'), following standard Greek word order. Peshitta uses ܡܢ ܗܝ ܐܡܝ ('Who [is] she, my mother'), placing the pronoun ܗܝ before the noun and omitting an explicit copula (typical Semitic nominal sentence structure). Vulgate Quæ est mater mea mirrors Greek syntax with interrogative-copula-noun order but uses the feminine interrogative Quæ."
+      "type": "grammar",
+      "note": "Greek τίς ἐστιν combines interrogative pronoun and copula; the Peshitta renders the question with interrogative ܡܢ plus the demonstrative/copular ܗܝ ('who [is] she'), supplying the feminine pronoun as copula, while the Vulgate Quæ est matches the Greek closely with feminine interrogative and verb."
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek marks the noun with the definite article ἡ μήτηρ; the Vulgate mater and the Peshitta ܐܡܝ (with the first-person suffix bound to the noun) lack an article, the Syriac fusing the possessive into a single inflected form."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "μου / -ܝ / mea ('my')."
     },
     {
       "greek_nt": [
@@ -140,18 +161,25 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a simple coordinating καί / et; the Peshitta repeats the interrogative within the conjunction ܘܡܢ ('and who [are]'), re-asking the question over the second subject in typical Syriac balanced construction."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        7
+      ],
+      "variant": "added",
+      "type": "gloss",
+      "note": "The Peshitta supplies the explicit third-person plural pronoun ܐܢܘܢ ('they [are]') as a copular element governing the second clause; neither the Greek nor the Vulgate expresses a separate copula here, the verb being gapped from the first clause."
     },
     {
       "greek_nt": [
         10,
-        11,
-        12
+        11
       ],
       "peshitta": [
-        6,
-        7,
         8
       ],
       "vulgate": [
@@ -159,8 +187,8 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek repeats the interrogative structure with article οἱ and noun ἀδελφοί μου ('the brothers of mine'), maintaining parallelism with the first clause. Peshitta uses ܘܡܢ ܐܢܘܢ ܐܚܝ ('and who [are] they, my brothers'), repeating the interrogative ܡܢ and employing the independent pronoun ܐܢܘܢ ('they') for emphasis, a typical Semitic construction. Vulgate condenses to fratres mei without repeating the interrogative or copula, relying on the coordinating conjunction to carry the question forward."
+      "type": "grammar",
+      "note": "Greek marks the plural noun with article οἱ ἀδελφοί; the Vulgate fratres and the Peshitta ܐܚܝ omit any article, the Syriac again fusing the first-person plural possessive suffix directly onto the noun."
     },
     {
       "greek_nt": [
@@ -173,13 +201,13 @@
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Interrogative punctuation; μου; / -ܝ / mei ?"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.962523+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.480128+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

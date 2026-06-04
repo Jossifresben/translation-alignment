@@ -89,8 +89,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -104,8 +103,7 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta employs a periphrastic construction (ܘܢܦܩܐ ܗܘܬ, 'was going out') using the participle with the auxiliary verb ܗܘܬ, whereas Greek uses the simple imperfect ἐξεπορεύετο and Latin the imperfect egrediebatur. All three convey continuous past action but through different grammatical strategies."
+      "note": "Greek uses a single imperfect ἐξεπορεύετο; the Peshitta renders the durative aspect periphrastically with the participle ܘܢܦܩܐ plus the auxiliary ܗܘܬ ('was going out'), a characteristic Syriac construction for past-continuous action. The Latin imperfect egrediebatur matches the Greek synthetic form directly."
     },
     {
       "greek_nt": [
@@ -119,29 +117,44 @@
         2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
-        5,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek definite article ἡ (feminine, agreeing with χώρα) has no formal equivalent in the Latin, which lacks an article, nor a separate token in the Syriac, where definiteness is carried by the emphatic state. This is a routine structural difference rather than a textual variant."
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adjective πᾶσα before the article and noun phrase (πᾶσα ἡ Ἰουδαία χώρα), while Vulgate follows with omnis Judææ regio. Syriac uses the construct state ܟܠܗ ܟܘܪ ܕܝܗܘܕ ('all the region of Judea'), employing a genitive construction typical of Semitic syntax rather than an adjectival modifier."
+      "note": "Greek ἡ Ἰουδαία χώρα ('the Judean region') and Latin Judææ regio render the territory with a noun-plus-adjective/genitive phrase; the Syriac ܟܘܪ ܕܝܗܘܕ uses the construct ܟܘܪ ('district/region') governing ܕܝܗܘܕ ('of Judah'), semantically equivalent but built on the native geographical term."
     },
     {
       "greek_nt": [
@@ -153,27 +166,34 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         9,
-        10,
-        11
+        10
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        8,
-        9
+        8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the substantival adjective οἱ Ἱεροσολυμῖται πάντες ('all the Jerusalemites'), Latin employs the adjective Jerosolymitæ universi, while Syriac uses a construct phrase ܘܟܠܗܘܢ ܒܢܝ ܐܘܪܫܠܡ ('and all the sons of Jerusalem'). The Syriac idiom ܒܢܝ ('sons of') is a standard Semitic construction for denoting inhabitants or members of a group."
+      "note": "Greek οἱ Ἱεροσολυμῖται and Latin Jerosolymitæ use a gentilic noun ('the Jerusalemites'); the Syriac employs the idiomatic periphrasis ܒܢܝ ܐܘܪܫܠܡ ('the sons of Jerusalem'), a typical Semitic construction for inhabitants of a city. The καί of token 6 is folded into the Syriac prefixed waw on ܘܟܠܗܘܢ."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -185,14 +205,11 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        13,
-        14,
-        15
+        13
       ],
       "peshitta": [
         9,
@@ -200,59 +217,89 @@
         11
       ],
       "vulgate": [
-        11,
+        11
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἐβαπτίζοντο and Latin baptizabantur are passive ('they were being baptized'); the Peshitta inverts the diathesis with an active periphrastic ܘܡܥܡܕ ܗܘܐ ܠܗܘܢ ('and he was baptizing them'), making John the explicit agent and supplying the object pronoun ܠܗܘܢ. This active recasting of the Greek/Latin passive is a substantive syntactic divergence."
+    },
+    {
+      "greek_nt": [
+        14,
+        15
+      ],
+      "peshitta": [
+        9,
+        11
+      ],
+      "vulgate": [
         12,
         13
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the passive imperfect ἐβαπτίζοντο ὑπ᾽ αὐτοῦ ('were being baptized by him'), Latin mirrors this with baptizabantur ab illo. Syriac employs an active construction ܘܡܥܡܕ ܗܘܐ ܠܗܘܢ ('and he was baptizing them'), using the active participle with auxiliary verb and dative pronominal suffix, a typical Syriac preference for active voice where Greek and Latin use passive."
+      "variant": "major",
+      "type": "omission",
+      "note": "Greek ὑπ᾽ αὐτοῦ and Latin ab illo express the agent ('by him') of the passive verb; the Peshitta has no separate agent phrase because its active construction (ܘܡܥܡܕ ܗܘܐ ܠܗܘܢ) already encodes John as subject, so the prepositional agent is structurally absent."
     },
     {
       "greek_nt": [
         16,
         17,
-        18,
-        19
+        18
       ],
       "peshitta": [
         12
       ],
       "vulgate": [
         14,
-        15,
-        16
+        15
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek specifies ἐν τῷ Ἰορδάνῃ ποταμῷ ('in the Jordan river'), with ποταμῷ as an appositional clarification. Latin similarly has in Jordanis flumine. Syriac uses only ܒܝܘܪܕܢܢ ('in the Jordan') without an additional word for 'river,' treating the proper name as sufficient identification of the geographical feature."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        20,
+        19
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek ἐν τῷ Ἰορδάνῃ ποταμῷ and Latin in Jordanis flumine both append the appositional noun ποταμῷ / flumine ('river'); the Syriac ܒܝܘܪܕܢܢ names the Jordan alone without the explanatory 'river', a slight contraction typical of the version's economy."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "note": "Greek ἐξομολογούμενοι and Latin confitentes are present participles ('confessing'); the Syriac expresses the same circumstantial sense with the temporal particle ܟܕ plus the participle ܡܘܕܝܢ ('while confessing'), a normal Syriac equivalent for the Greek circumstantial participle."
+    },
+    {
+      "greek_nt": [
         21,
         22,
         23
       ],
       "peshitta": [
-        13,
-        14,
         15
       ],
       "vulgate": [
-        17,
         18,
         19
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the present middle participle ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν ('confessing their sins'), Latin employs the present active participle confitentes peccata sua. Syriac uses the temporal particle ܟܕ with the active participle ܡܘܕܝܢ ܒܚܛܗܝܗܘܢ ('while confessing their sins'), making the temporal-circumstantial relationship more explicit through the conjunction ܟܕ, whereas Greek and Latin rely on participial syntax alone."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.942978+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.538583+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

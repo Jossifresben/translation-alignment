@@ -94,8 +94,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -109,8 +108,7 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta employs a periphrastic construction ܘܓܚܟܝܢ ܗܘܘ (wə-gaḥkīn hwaw, 'and they were laughing'), using the auxiliary verb ܗܘܘ to express the imperfect aspect, whereas Greek uses the simple imperfect κατεγέλων and Latin the imperfect irridebant without auxiliary."
+      "note": "Greek κατεγέλων is a simple imperfect ('they were laughing at'); the Peshitta renders it periphrastically with ܓܚܟܝܢ ܗܘܘ (active participle + enclitic ܗܘܘ), the standard Syriac construction for durative past, while the Latin imperfect irridebant matches the Greek directly."
     },
     {
       "greek_nt": [
@@ -122,24 +120,31 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -152,8 +157,7 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the aorist active participle ἐκβαλών (nominative masculine singular) in a circumstantial construction, while Latin employs the ablative absolute ejectis omnibus (perfect passive participle with its object), creating a syntactically distinct but semantically equivalent temporal clause."
+      "note": "Greek uses the aorist participle ἐκβαλὼν ('having put out') subordinate to the main verb; the Latin renders it as an ablative absolute ejectis omnibus; the Syriac employs a finite verb ܐܦܩ ('he put out'), a coordinate construction typical of Syriac narrative parataxis."
     },
     {
       "greek_nt": [
@@ -165,8 +169,7 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -178,26 +181,35 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek παραλαμβάνει and Latin assumit are present-tense compounds ('takes with [him]'); the Syriac ܘܕܒܪ adds the coordinating ܘ ('and') and uses the verb d-b-r ('led/took'), constructing the action paratactically rather than as the lead verb of the clause."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10,
-        11
-      ],
-      "peshitta": [
         8,
         9
+      ],
+      "peshitta": [
+        8
       ],
       "vulgate": [
         8
       ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10,
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the article-noun-article-genitive construction (τὸν πατέρα τοῦ παιδίου), Latin uses the bare accusative patrem with the genitive puellæ postponed to token 11, and Peshitta uses the pronominal suffix construction ܠܐܒܘܗ ܕܛܠܝܬܐ ('to-her-father of-the-girl'), reflecting typical Semitic possessive syntax."
+      "note": "Greek τοῦ παιδίου ('of the child') and Syriac ܕܛܠܝܬܐ ('of the girl') stand here next to 'father'; the Vulgate transfers puellæ to follow matrem, placing the genitive modifier after 'mother' rather than 'father', a minor word-order shift that nonetheless makes both parents the child's."
     },
     {
       "greek_nt": [
@@ -210,48 +222,53 @@
       ],
       "vulgate": [
         9,
-        10,
-        11
+        10
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "The Vulgate places et matrem puellæ together with the genitive puellæ modifying both patrem and matrem, creating structural ambiguity resolved by context. Greek and Peshitta maintain clearer syntactic boundaries with separate article phrases (Greek καὶ τὴν μητέρα) and conjunctive structures (Peshitta ܘܠܐܡܗ with pronominal suffix)."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         15,
-        16,
-        17,
-        18
+        16
       ],
       "peshitta": [
-        11,
-        12
+        11
       ],
       "vulgate": [
         12,
-        13,
-        14,
-        15
+        13
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular prepositional phrase τοὺς μετ᾽ αὐτοῦ ('those with him'), Latin employs a relative clause qui secum erant ('who were with him'), and Peshitta uses the demonstrative with prepositional phrase ܘܠܗܢܘܢ ܕܥܡܗ ('and to-those who-with-him'), each tradition expressing the same referent through its characteristic syntactic pattern."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        19,
+        17,
+        18,
+        19
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        14,
+        15,
+        16
+      ],
+      "variant": "minor",
+      "note": "Greek τοὺς μετ᾽ αὐτοῦ ('those with him') and Latin qui secum erant ('who were with him') use an explicit relative/copular construction; Syriac ܕܥܡܗ condenses this into a single relative-prepositional form ('those-with-him'), a more economical idiom lacking an overt copula."
+    },
+    {
+      "greek_nt": [
         20
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
-        16,
         17
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek εἰσπορεύεται and Latin ingreditur are present-tense ('enters'); the Syriac ܘܥܠ adds coordinating ܘ and uses the perfect ܥܠ ('and he went in'), again favouring paratactic finite narration over the Greek historic present."
     },
     {
       "greek_nt": [
@@ -263,14 +280,14 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         22,
         23,
-        24
+        24,
+        25
       ],
       "peshitta": [
         15,
@@ -279,31 +296,17 @@
       ],
       "vulgate": [
         19,
-        20
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἦν before the subject τὸ παιδίον, Latin inverts to puella erat, and Peshitta uses the participial construction ܕܪܡܝܐ ܗܘܬ ܛܠܝܬܐ ('who-lying was the-girl'), with the participle preceding the auxiliary and subject following, reflecting each tradition's preferred clause structure for relative-temporal clauses."
-    },
-    {
-      "greek_nt": [
-        25
-      ],
-      "peshitta": [
-        15
-      ],
-      "vulgate": [
+        20,
         21
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the present participle ἀνακείμενον ('reclining', from ἀνάκειμαι, typically denoting reclining at table), Latin employs the present participle jacens ('lying', from jaceo, a more general term for lying down), and Peshitta uses the passive participle ܪܡܝܐ (rəmyā, 'laid, lying'), each selecting a culturally appropriate term for the girl's posture in death."
+      "note": "Greek and Latin describe the child as 'lying/reclining' (ἀνακείμενον / jacens), an explicit posture participle; the Syriac ܕܪܡܝܐ ܗܘܬ ܛܠܝܬܐ uses the root r-m-y ('was cast/laid') with a periphrastic perfect, conveying the same recumbent state but framing it as 'where the girl had been laid'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.977062+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.483210+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

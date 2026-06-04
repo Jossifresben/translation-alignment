@@ -81,8 +81,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -94,8 +93,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -110,24 +108,32 @@
         3
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds a redundant subject pronoun ܐܢܬܘܢ ('you') after the verb ܐܡܪܝܢ ('say'), creating emphasis through repetition. The Vulgate colon marks direct discourse; Greek uses a raised dot (here transcribed as colon), both functioning as punctuation rather than lexical divergence."
+      "type": "construction",
+      "note": "Greek expresses the verb 'you say' with a single finite form λέγετε; the Peshitta employs the analytic participle-plus-enclitic-pronoun construction ܐܡܪܝܢ ܐܢܬܘܢ (participle + 'you'), the standard Syriac present-tense periphrasis. The Vulgate uses a single finite verb dicitis followed by a colon introducing direct speech."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -139,8 +145,7 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -155,7 +160,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the article τῷ with dative πατρί; Syriac uses the preposition ܠ with a pronominal suffix ܠܐܒܘܗܝ ('to his father'), making the possessive relationship explicit. Latin patri with comma implies dative without article, following Latin's articleless grammar."
+      "note": "Greek uses article + dative noun (τῷ πατρὶ); the Vulgate uses a bare dative patri; the Peshitta renders with a prefixed lamadh dative plus pronominal suffix ܠܐܒܘܗܝ ('to his father'), the suffix being a Syriac idiomatic specification absent from both Greek and Latin."
     },
     {
       "greek_nt": [
@@ -167,8 +172,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -183,7 +187,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article τῇ with dative μητρί; Syriac employs ܠܐܡܗ ('to his mother') with pronominal suffix, paralleling the construction for 'father'. Latin matri follows the same articleless dative pattern as patri, with comma marking the end of the recipient list."
+      "note": "As with 'father', Greek has article + dative (τῇ μητρί) and Latin a bare dative matri, while the Peshitta ܠܐܡܗ carries a possessive suffix ('to his mother'), a typical Syriac idiom that supplies the implied antecedent."
     },
     {
       "greek_nt": [
@@ -195,8 +199,7 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -210,39 +213,75 @@
         12,
         13
       ],
-      "variant": "major",
+      "variant": "omitted",
       "type": "omission",
-      "note": "The Peshitta omits the parenthetical gloss ὅ ἐστιν δῶρον ('which is a gift'), present in both Greek and Latin (quod est donum). This explanatory clause translates the Aramaic loanword κορβᾶν/Corban for Greek and Latin audiences unfamiliar with the technical term for temple offerings; the Syriac tradition, using the cognate ܩܘܪܒܢܝ, requires no such explanation."
+      "note": "The explanatory gloss ὅ ἐστιν δῶρον ('which is a gift'), preserved in the Vulgate as the parenthetical quod est donum, is absent from the Peshitta. Syriac readers required no translation of the Hebrew/Aramaic loanword ܩܘܪܒܢ, so the cognate gloss was unnecessary and is omitted."
     },
     {
       "greek_nt": [
         15,
-        16,
+        16
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the relative ὃ ἐάν ('whatever') and the Vulgate the indefinite relative quodcumque; the Peshitta condenses the indefinite relative clause into the single indefinite pronoun ܡܕܡ ('anything, something'), an idiomatic Syriac equivalent."
+    },
+    {
+      "greek_nt": [
         17,
-        18,
+        18
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐξ ἐμοῦ and Latin ex me render the prepositional phrase 'from me' with two words; the Peshitta fuses preposition and first-person suffix into the single form ܕܡܢܝ. The Vulgate additionally inserts tibi ('for you'), supplying the beneficiary explicit in the Greek middle/passive verb but lacking a separate token in Greek or Syriac."
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
-        11,
-        12,
         13
       ],
       "vulgate": [
-        14,
-        15,
-        16,
-        17,
-        18,
+        18
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὠφεληθῇς ('you might be profited/benefited', from ὠφελέω) and Latin profuerit ('it shall have profited') agree on the notion of benefit. The Peshitta ܬܐܬܪ derives from the root a-th-r meaning 'to gain, profit, have surplus', a close semantic match expressed through a distinct lexical stock."
+    },
+    {
+      "vulgate": [
+        17
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate supplies an explicit dative pronoun tibi ('to/for you') marking the beneficiary of the vow, which has no separate counterpart in either the Greek (where the sense is carried by the passive verb) or the Syriac."
+    },
+    {
+      "vulgate": [
         19
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek constructs a relative clause with ὃ ἐὰν ἐξ ἐμοῦ ὠφεληθῇς ('whatever from me you might be profited'), using the indefinite relative pronoun and aorist passive subjunctive. Latin mirrors this with quodcumque ex me tibi profuerit, adding the explicit dative pronoun tibi ('to you') and using future perfect indicative. Syriac radically simplifies to ܡܕܡ ܕܡܢܝ ܬܐܬܪ ('anything that from me you-profit'), employing the indefinite ܡܕܡ and a terse relative construction without the conditional particle, resulting in a more direct statement."
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate closes the protasis with a colon anticipating the apodosis in the following verse; neither the Greek nor Syriac tokenisation here includes a corresponding terminal punctuation mark."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.989009+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.419381+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

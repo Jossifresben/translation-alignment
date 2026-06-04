@@ -96,20 +96,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καί and Latin Et are simple coordinating conjunctions, whereas the Peshitta ܘܒܗ combines the conjunction with a resumptive pronoun ('and at it/that [moment]'), anticipating the temporal noun ܒܫܥܬܐ in the next token and producing a fuller adverbial phrase."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "The Peshitta expands εὐθύς ('immediately') with ܒܗ ܒܫܥܬܐ ('in that hour'), a characteristic Syriac temporal idiom providing greater specificity. Greek and Latin use simple adverbs (εὐθύς / statim)."
+      "type": "idiom",
+      "note": "Greek εὐθύς and Latin statim are adverbs meaning 'immediately'; the Peshitta renders the sense with the noun phrase ܒܫܥܬܐ ('in [that] hour/moment'), a typical Syriac periphrasis for instantaneity rather than a single adverb."
     },
     {
       "greek_nt": [
@@ -125,41 +136,61 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the prepositional phrase ἐκ δευτέρου ('for the second time'); Peshitta uses a cardinal numeral construction ܕܬܪܬܝܢ ܙܒܢܝܢ ('of two times'); Vulgate uses the adverb iterum ('again'). All convey the same temporal meaning through different syntactic strategies."
+      "note": "Greek ἐκ δευτέρου ('for the second time') and Latin iterum ('again') express recurrence compactly, while the Peshitta uses the explicit cardinal-plus-noun phrase ܕܬܪܬܝܢ ܙܒܢܝܢ ('of two times'), spelling out the count in line with Markan emphasis on the cock crowing twice."
     },
     {
       "greek_nt": [
-        4,
-        5
+        4
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        2,
+        2
+      ],
+      "variant": "aligned",
+      "note": "ἀλέκτωρ / ܬܪܢܓܠܐ / gallus"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
         4
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek and Vulgate place the subject before the verb (ἀλέκτωρ ἐφώνησεν / gallus cantavit); Peshitta inverts to verb-subject order (ܩܪܐ ܬܪܢܓܠܐ), following standard Semitic VSO syntax. The Vulgate punctuates with a period after cantavit, creating a sentence break absent in Greek and Peshitta."
+      "note": "All three attest the verb 'crowed/sounded' (φωνέω / q-r-a / cantavit), but the Peshitta places the verb ܩܪܐ before its subject ܬܪܢܓܠܐ (VS order), whereas Greek and Latin position the verb after the subject."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / Et"
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses aorist passive ἀνεμνήσθη ('was reminded'); Peshitta employs the ethpeal ܘܐܬܕܟܪ (reflexive-passive 'remembered'); Vulgate uses perfect active recordatus est ('has remembered'). The Vulgate's compound verb form with auxiliary est reflects Latin periphrastic construction."
+      "variant": "aligned",
+      "note": "ἀνεμνήσθη / ܐܬܕܟܪ / recordatus est"
     },
     {
       "greek_nt": [
@@ -174,7 +205,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek uses Πέτρος with article ὁ; Peshitta employs the Semitic form ܫܡܥܘܢ (Shim'on, Peter's original name); Vulgate uses Petrus. The Peshitta's preference for the Aramaic name reflects its cultural-linguistic context."
+      "note": "Greek (with article ὁ Πέτρος) and Latin name the apostle by his Greek surname Peter; the Peshitta retains the Semitic personal name ܫܡܥܘܢ (Simon), reflecting the Syriac tradition's preference for the original name over the Greek epithet."
     },
     {
       "greek_nt": [
@@ -187,42 +218,73 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "τὸ ῥῆμα / ܡܠܬܐ / verbi"
     },
     {
       "greek_nt": [
-        12,
-        13
+        12
       ],
       "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek comparative particle ὡς ('how/as') introducing the recalled saying has no counterpart in either the Peshitta or the Vulgate, both of which proceed directly with a relative pronoun; ὡς is text-critically unstable here and is absent from several Greek witnesses."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        10
+      ],
       "vulgate": [
         10
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek employs the comparative construction ὡς οὖ ('as which'), introducing the content of Jesus's saying. Peshitta omits this entirely, using direct genitive construction ܡܠܬܗ ܕܝܫܘܥ ('the word of Jesus'). Vulgate retains the relative pronoun quod, aligning with Greek syntax."
+      "variant": "aligned",
+      "note": "οὗ / ܕ- / quod"
     },
     {
       "greek_nt": [
-        14,
-        15,
+        14
+      ],
+      "peshitta": [
+        10,
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἶπεν (aorist) and Latin dixerat (pluperfect) render the verb of speaking with a single finite form; the Peshitta uses the periphrastic ܐܡܪ ܗܘܐ (perfect plus the auxiliary ܗܘܐ), the standard Syriac construction for past-anterior/durative reference matching the Latin pluperfect."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / ei"
+    },
+    {
+      "greek_nt": [
         16,
         17
       ],
       "peshitta": [
-        10,
-        11,
-        12,
         9
       ],
       "vulgate": [
-        11,
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses aorist εἶπεν with dative αὐτῷ and subject ὁ Ἰησοῦς; Peshitta expands with the periphrastic perfect ܕܐܡܪ ܗܘܐ ('who had said'), inserting the auxiliary ܗܘܐ to mark anteriority. Vulgate uses simple perfect dixerat, mirroring Greek tense semantics."
+      "variant": "aligned",
+      "note": "ὁ Ἰησοῦς / ܕܝܫܘܥ / Jesus"
     },
     {
       "greek_nt": [
@@ -234,7 +296,7 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek ὅτι introduces indirect discourse; Peshitta omits the conjunction, using asyndetic construction; Vulgate inserts a colon after Jesus, creating direct discourse where Greek has indirect. This represents a significant shift in narrative voice."
+      "note": "Greek introduces the quoted saying with the recitative conjunction ὅτι (functioning as quotation marks); the Vulgate marks the same boundary with a colon, while the Peshitta has no overt complementiser at this point and moves directly into the prophecy."
     },
     {
       "greek_nt": [
@@ -246,9 +308,8 @@
       "vulgate": [
         15
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πρίν ('before') and Peshitta ܕܩܕܡ ('before') are cognate temporal markers; Vulgate uses the compound conjunction Priusquam ('before that'), a more elaborate Latin construction conveying the same temporal priority."
+      "variant": "aligned",
+      "note": "πρίν / ܩܕܡ / Priusquam"
     },
     {
       "greek_nt": [
@@ -263,7 +324,9 @@
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an accusative-plus-infinitive (ἀλέκτορα φωνῆσαι) and Latin a subjunctive clause (gallus cantet), whereas the Peshitta employs a finite subordinate clause ܕܢܩܪܐ ܬܪܢܓܠܐ ('that the cock should crow'); the three represent equivalent renderings of the temporal 'before the cock crows' through differing syntactic strategies."
     },
     {
       "greek_nt": [
@@ -277,51 +340,94 @@
         18
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the adverb δίς ('twice') modifying the infinitive; Peshitta employs the numeral phrase ܬܪܬܝܢ ܙܒܢܝܢ ('two times') as a temporal accusative; Vulgate uses the adverb bis. The Peshitta's construction mirrors its earlier temporal expression (tokens 4-5)."
+      "type": "idiom",
+      "note": "Greek δίς and Latin bis express 'twice' with a single adverb, while the Peshitta again resolves the numeral into the analytic phrase ܬܪܬܝܢ ܙܒܢܝܢ ('two times'), consistent with its earlier handling of the count."
     },
     {
       "greek_nt": [
-        23,
-        24,
-        25
+        23
       ],
       "peshitta": [
-        18,
-        19,
+        18
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned",
+      "note": "τρίς / ܬܠܬ / ter"
+    },
+    {
+      "greek_nt": [
+        24
+      ],
+      "peshitta": [
         20
       ],
       "vulgate": [
-        19,
-        20,
-        21
+        20
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "με / ܒܝ / me"
     },
     {
       "greek_nt": [
-        26,
-        27,
-        28
+        25
       ],
       "peshitta": [
-        21,
-        22
+        19
       ],
       "vulgate": [
-        22,
-        23,
-        24
+        21
+      ],
+      "variant": "aligned",
+      "note": "ἀπαρνήσῃ / ܬܟܦܘܪ / negabis"
+    },
+    {
+      "greek_nt": [
+        26
+      ],
+      "peshitta": [
+        21
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / Et"
+    },
+    {
+      "greek_nt": [
+        27
+      ],
+      "peshitta": [
+        21
+      ],
+      "vulgate": [
+        23
       ],
       "variant": "major",
       "type": "substitution",
-      "note": "Greek employs the participle ἐπιβαλών (aorist of ἐπιβάλλω, 'having cast upon/broken down') with imperfect ἔκλαιεν ('he was weeping'), a construction whose precise meaning is disputed (possibly 'having broken down, he wept' or 'casting [his cloak over his head], he wept'). Peshitta uses the simple construction ܘܫܪܝ ܕܢܒܟܐ ('and he began to weep'), omitting the ambiguous participle entirely. Vulgate uses cœpit flere ('began to weep'), aligning with the Peshitta's inchoative interpretation and suggesting this reading may reflect early exegetical tradition."
+      "note": "The notoriously difficult Greek participle ἐπιβαλών ('having flung himself down' or 'having begun', a long-standing crux) is replaced in both the Peshitta (ܘܫܪܝ, 'and he began') and the Vulgate (cœpit, 'he began') with an unambiguous inceptive verb, indicating both versions read or interpreted the Greek as denoting the onset of weeping rather than a physical gesture."
+    },
+    {
+      "greek_nt": [
+        28
+      ],
+      "peshitta": [
+        22
+      ],
+      "vulgate": [
+        24
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἔκλαιεν is a finite imperfect ('he was weeping'); the Peshitta ܕܢܒܟܐ and Latin flere are subordinate/infinitival complements ('to weep') governed by the preceding inceptive verb, a syntactic consequence of the 'began' reading shared by both versions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.046299+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.455982+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

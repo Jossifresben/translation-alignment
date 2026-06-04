@@ -74,31 +74,19 @@
       "greek_nt": [
         0,
         1,
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Greek employs a double conjunction καὶ ὁ δέ ('and … but/now') for narrative transition; Peshitta uses simple waw-conjunction ܘ; Vulgate inserts adversative autem ('however'), a stylistic preference in Latin narrative prose."
-    },
-    {
-      "greek_nt": [
+        2,
         3
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places Ἰησοῦς after the conjunctions; Peshitta and Vulgate front the subject name (ܝܫܘܥ / Jesus) immediately after the conjunction, reflecting VSO vs. SVO word-order preferences."
+      "type": "construction",
+      "note": "Greek frames the subject with a pleonastic double connective καὶ ... δὲ plus article (καὶ ὁ δὲ Ἰησοῦς, a Markan stylistic redundancy); the Vulgate renders the postpositive δέ alone as Jesus autem, while the Peshitta collapses everything into a single waw-prefixed noun ܘܝܫܘܥ ('and Jesus'), dropping the article and second particle altogether."
     },
     {
       "greek_nt": [
@@ -110,7 +98,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἶπεν / ܐܡܪ / ait."
     },
     {
       "greek_nt": [
@@ -125,19 +115,21 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi to mark direct speech, a Latin scribal convention absent in Greek and Syriac manuscripts which rely on context or lectional marks."
+      "note": "All three attest the dative pronoun of address (αὐτῷ / ܠܗ / illi); the Vulgate additionally introduces an explicit colon to mark the onset of direct speech, a punctuation choice absent from the unpointed Greek and Syriac base texts."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
+      "peshitta": [
+        3
+      ],
       "vulgate": [
         5
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek ὕπαγε ('go') and Vulgate Vade are present; Peshitta omits this imperative entirely, proceeding directly to the faith-statement, possibly viewing the command as redundant after the healing declaration."
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ὕπαγε ('go!', from ὑπάγω) and Latin Vade preserve the verb of departure, but the Peshitta reads ܚܙܝ ('see!', root kh-z-y), substituting an imperative of seeing for one of going — most likely an inner-Syriac assimilation to the immediately following motif of recovered sight, or a variant Vorlage reading ἀνάβλεψον."
     },
     {
       "greek_nt": [
@@ -152,7 +144,9 @@
         6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin express 'your faith' analytically with article + noun + genitive pronoun (ἡ πίστις σου / fides tua); the Peshitta synthesises this into the single suffixed form ܗܝܡܢܘܬܟ, the possessive being carried by the pronominal suffix, with no separate article."
     },
     {
       "greek_nt": [
@@ -169,33 +163,23 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses perfect active σέσωκέν σε ('has saved/healed you'); Vulgate employs perfect active fecit with accusative + adjective (te salvum fecit, 'made you whole'); Peshitta uses simple perfect ܐܚܝܬܟ ('healed you'). All convey completed action but via different syntactic frames."
+      "note": "Greek σέσωκέν σε (perfect 'has saved/healed you' + accusative pronoun) is matched by the periphrastic Latin te salvum fecit ('has made you whole'), while the Peshitta uses the single suffixed verb ܐܚܝܬܟ ('has given you life', root kh-y-th), whose semantic field of 'making alive/well' renders the salvific σῴζω idiomatically."
     },
     {
       "greek_nt": [
-        12
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        12,
         13
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
+        11,
         12
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εὐθύς ('immediately') and Vulgate confestim ('at once') are close synonyms; Peshitta ܡܚܕܐ ('immediately') is cognate but the Syriac term can also mean 'suddenly', introducing slight semantic nuance."
+      "type": "construction",
+      "note": "Greek καὶ εὐθὺς and Latin Et confestim render the conjunction and adverb as two words; the Peshitta fuses them into the single waw-prefixed ܘܡܚܕܐ ('and immediately'), a standard Syriac univerbation of the Markan characteristic εὐθύς."
     },
     {
       "greek_nt": [
@@ -209,48 +193,28 @@
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἀνέβλεψεν ('he looked up / received sight') is a single aorist verb; Vulgate vidit mirrors this with simple perfect; Peshitta uses ethpeal ܐܬܚܙܝ ܠܗ ('it was seen to him'), a passive/reflexive construction typical of Syriac for sensory verbs, with dative pronoun ܠܗ marking the experiencer."
+      "type": "substitution",
+      "note": "Greek ἀνέβλεψεν ('he received sight') and Latin vidit ('he saw') describe the man's own recovered vision, whereas the Peshitta reads ܐܬܚܙܝ ܠܗ, an ethical-dative construction ('and it became visible to him' / 'sight came to him'), shifting the grammatical perspective from active recovery to perceptual experience."
     },
     {
       "greek_nt": [
-        15
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        14
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        16
+        15,
+        16,
+        17,
+        18
       ],
       "peshitta": [
         9,
         10
       ],
       "vulgate": [
-        15
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἠκολούθει is imperfect ('was following'), suggesting durative action; Vulgate sequebatur is also imperfect; Peshitta ܘܐܙܠ ܗܘܐ ('and he was going') uses periphrastic perfect with ܗܘܐ, which can denote either completed or ongoing past action depending on context—here likely durative but morphologically distinct."
-    },
-    {
-      "greek_nt": [
-        17,
-        18
-      ],
-      "peshitta": [],
-      "vulgate": [
+        14,
+        15,
         16
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "omission",
-      "note": "Greek includes both the pronoun αὐτῷ ('him') and the explicit name Ἰησοῦ in dative, creating a double reference (possibly a scribal gloss or emphasis); Vulgate retains only the pronoun eum; Peshitta omits both, leaving the object of 'following' implicit—a common Syriac ellipsis when the antecedent is clear from context."
+      "note": "Greek καὶ ἠκολούθει αὐτῷ Ἰησοῦ explicitly repeats the name 'Jesus' (dative, anarthrous) as the one followed, paralleled by Latin et sequebatur eum; the Peshitta uses the periphrastic imperfect ܘܐܙܠ ܗܘܐ ('and he was going') and omits both the object pronoun and the repeated divine name, lacking any equivalent to αὐτῷ Ἰησοῦ."
     },
     {
       "greek_nt": [
@@ -265,12 +229,14 @@
         17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐν τῇ ὁδῷ (preposition + article + noun) and Latin in via render 'on the way' analytically, while the Peshitta uses the single prefixed-preposition form ܒܐܘܪܚܐ; the Greek closes the pericope with a paragraph marker (¶) for which the other traditions have no graphic equivalent."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.015219+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.449489+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

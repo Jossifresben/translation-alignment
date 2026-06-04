@@ -51,8 +51,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -64,9 +63,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement",
-      "note": "ἀναπίπτω / ܐܣܬܡܟܘ / discubuerunt"
+      "variant": "minor",
+      "note": "Greek ἀνέπεσαν ('they reclined') is a finite aorist; the Peshitta ܘܐܣܬܡܟܘ (Ethpaal of s-m-k, 'they were made to recline') carries the conjunction within the verb itself, so the same single token serves both the 'and' and the verb. Latin discubuerunt matches the Greek deponent sense closely."
     },
     {
       "greek_nt": [
@@ -78,16 +76,24 @@
         2
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek employs a distributive reduplication (πρασιαὶ πρασιαί, 'groups [by] groups') to express arrangement in discrete clusters. Syriac mirrors this with ܣܡܟܝܢ ܣܡܟܝܢ (participial reduplication), while Latin renders idiomatically as in partes ('in sections'), avoiding the Semitic distributive construction but preserving the sense of organized groupings."
+      "note": "Greek doubles the noun πρασιαὶ πρασιαὶ ('garden-plot by garden-plot'), a Semitic distributive reduplication that the Peshitta faithfully reproduces with ܣܡܟܝܢ ܣܡܟܝܢ ('groups, groups'). The Vulgate flattens this distributive idiom to a single noun in partes, losing the reduplicative force."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "vulgate": [
+        2,
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek uses the distributive preposition κατά repeated before each numeral; Latin distributes this sense across in and per rather than a single recurring preposition, while the Peshitta expresses distribution through reduplication of the numerals rather than any preposition."
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
@@ -95,12 +101,10 @@
         4
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the distributive preposition κατά with the numeral ἑκατόν ('by hundreds'). Syriac employs a construct chain ܕܡܐܐ ܡܐܐ (d-mā'ā mā'ā, 'of hundred hundred'), replicating the distributive through noun reduplication. Latin uses per centenos (distributive numeral), a standard Latin construction for expressing distribution that differs syntactically from both the Greek prepositional and Syriac genitive patterns."
+      "note": "The Peshitta renders 'hundred' with a reduplicated pair ܕܡܐܐ ܡܐܐ ('by hundreds, hundreds'), continuing the Semitic distributive pattern, whereas Greek ἑκατόν and Latin centenos use a single distributive numeral form."
     },
     {
       "greek_nt": [
@@ -112,30 +116,33 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "variant": "omitted",
+      "note": "The second distributive κατά before 'fifty' has no separate counterpart: Latin uses no repeated preposition (et quinquagenos) and the Peshitta again signals distribution by numeral reduplication rather than a preposition."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek repeats the distributive preposition κατά before πεντήκοντα ('by fifties'), maintaining syntactic parallelism with the preceding clause. Syriac uses ܘܕܚܡܫܝܢ ܚܡܫܝܢ (w-d-ḥamšīn ḥamšīn), continuing the construct-chain reduplication pattern. Latin employs the simple distributive numeral quinquagenos without repeating per, a stylistic compression typical of Latin economy while preserving the distributive sense."
+      "note": "As with 'hundred', the Peshitta reduplicates ܘܕܚܡܫܝܢ ܚܡܫܝܢ ('and by fifties, fifties') to convey the distributive sense, while Greek πεντήκοντα and Latin quinquagenos employ a single numeral form."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.984090+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.545817+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

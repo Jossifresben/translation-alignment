@@ -73,11 +73,25 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek καί and Latin Et are independent coordinating conjunctions, while the Syriac ܘܠܐ fuses the conjunction with the following negation (ܘ + ܠܐ). The negative force is carried by the next group in Greek and Latin."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "οὐ / ܠܐ (fused in ܘܠܐ) / non"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
@@ -85,12 +99,25 @@
         2
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta employs a periphrastic construction with ܗܘܐ (hwā, 'was') + participle ܡܫܟܚ (mškaḥ, 'able'), a standard Syriac idiom for past imperfective aspect. Greek and Latin use simple imperfect forms (ἐδύνατο / poterat) without auxiliary verbs."
+      "type": "construction",
+      "note": "Greek ἐδύνατο is a single imperfect middle/passive ('he was able'); the Peshitta expresses this periphrastically with participle ܡܫܟܚ plus the auxiliary ܗܘܐ, a standard Syriac construction for past continuous ability. The Vulgate poterat matches the Greek single imperfect."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three transmit the infinitive 'to do' (ποιῆσαι / ܕܢܥܒܕ / facere), but its placement differs: Greek and Syriac front the verb before the object, whereas the Vulgate postpones facere to clause-final position after virtutem ullam."
     },
     {
       "greek_nt": [
@@ -102,29 +129,37 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἐκεῖ / ܬܡܢ / ibi"
     },
     {
       "greek_nt": [
-        4,
+        5
+      ],
+      "peshitta": [
         5,
+        6,
+        7
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek οὐδεμίαν is a single negative adjective ('not any'); the Syriac renders this emphatically with three tokens ܐܦ ܠܐ ܚܕ ('not even one'), intensifying the negation. The Latin ullam relies on the preceding non for its negative sense."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        3,
-        5,
-        6,
-        7,
         8
       ],
       "vulgate": [
-        4,
-        5,
-        6
+        4
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "The Peshitta inserts an emphatic double-negative construction ܐܦ ܠܐ ܚܕ ܚܝܠܐ ('not even one mighty work'), intensifying the negation beyond Greek οὐδεμίαν δύναμιν ('no work of power') and Latin virtutem ullam ('any work of power'). This represents a characteristic Syriac rhetorical amplification."
+      "variant": "aligned",
+      "note": "δύναμιν / ܚܝܠܐ / virtutem ('mighty work')"
     },
     {
       "greek_nt": [
@@ -138,43 +173,66 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek εἰ μή and Syriac ܐܠܐ ܐܢ are two-token exceptive idioms ('except, unless'), whereas the Vulgate condenses the construction into the single particle nisi."
     },
     {
       "greek_nt": [
-        9,
-        10
+        9
       ],
       "peshitta": [
-        11,
-        12,
         13
       ],
       "vulgate": [
-        8,
-        9
+        8
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the adjective ὀλίγοις ('few') before the noun ἀρρώστοις ('sick'), as does Latin (paucos infirmos). The Peshitta reverses this order with ܕܥܠ ܟܪܝܗܐ ܩܠܝܠ ('upon sick few'), following standard Syriac syntax where quantifiers typically follow their head nouns."
+      "note": "The quantifier 'few' (ὀλίγοις / ܩܠܝܠ / paucos) precedes the noun in Greek and Latin but follows it in the Syriac (ܟܪܝܗܐ ܩܠܝܠ), reflecting the normal Semitic adjective-after-noun order."
     },
     {
       "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "ἀρρώστοις / ܟܪܝܗܐ / infirmos ('the sick')"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
         11,
+        14
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle ἐπιθείς ('having laid'); the Syriac employs a relative-prepositional phrase ܕܥܠ plus the finite verb ܣܡ ('that he placed upon'), while the Vulgate uses an ablative absolute impositis. All three express the same gesture by distinct syntactic means."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        14,
         15
       ],
       "vulgate": [
-        10,
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an aorist participle ἐπιθεὶς τὰς χεῖρας ('having laid the hands') with the article, creating a circumstantial participial phrase. Latin employs an ablative absolute impositis manibus ('hands having been laid'). Syriac uses a simple finite verb ܣܡ ܐܝܕܗ ('he laid his hand'), with singular 'hand' rather than plural, a typical Syriac idiom for bodily members in collective action."
+      "type": "grammar",
+      "note": "Greek τὰς χεῖρας and Latin manibus are plural ('the hands'), whereas the Syriac ܐܝܕܗ is singular with a possessive suffix ('his hand'), a frequent Semitic idiom treating paired body parts collectively or representatively."
     },
     {
       "greek_nt": [
@@ -186,23 +244,23 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a finite verb (ἐθεράπευσεν / curavit, 'he healed') as the main clause, while the Syriac coordinates with ܘܐܣܝ ('and he healed'), continuing the relative construction begun with ܕܥܠ rather than forming an independent predicate."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         13
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate adds a colon to mark the end of the pericope, a scribal convention not present in Greek or Syriac manuscript traditions of this verse."
+      "note": "The Clementine Vulgate closes the verse with a colon, marking continuation into the following clause, a punctuation feature with no counterpart in the unpointed Greek or Syriac token streams here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.978453+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.551821+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

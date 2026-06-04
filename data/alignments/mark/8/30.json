@@ -51,27 +51,26 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- (prefixed waw) / Et."
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        1
+        0
       ],
       "vulgate": [
         1,
         2
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐπετίμησεν (aorist active indicative of ἐπιτιμάω, 'he rebuked/warned') corresponds to Vulgate comminatus est (perfect deponent of comminor, 'he threatened'), a stronger lexical choice. Syriac ܘܟܐܐ employs a cognate of the Greek root, maintaining the semantic range of stern warning or rebuke."
+      "type": "construction",
+      "note": "Greek uses a single finite aorist ἐπετίμησεν; the Vulgate renders it periphrastically with the perfect-passive participle plus copula (comminatus est). The Syriac verb ܟܐܐ is fused with the conjunction waw in ܘܟܐܐ, so the conjunction and verb share one token."
     },
     {
       "greek_nt": [
-        2,
-        3
+        2
       ],
       "peshitta": [
         1
@@ -79,25 +78,35 @@
       "vulgate": [
         3
       ],
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܒܗܘܢ / eis."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses dative pronoun αὐτοῖς followed by purpose clause ἵνα; Vulgate mirrors this with dative eis followed by ne-clause; Syriac incorporates the pronominal suffix directly on the verb ܒܗܘܢ ('in/against them'), a typical Semitic construction that conflates the indirect object with the verb, eliminating the need for a separate conjunction before the negative command."
+      "note": "Greek employs the conjunction ἵνα introducing a final/object clause with the subjunctive; the Vulgate uses the negative final conjunction ne, while Syriac expresses the prohibition through the negator ܠܐ preceding the imperfect, dispensing with a separate complementiser."
     },
     {
       "greek_nt": [
         4
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek μηδενὶ (dative singular 'to no one') is a single negative indefinite pronoun; Vulgate ne cui splits the negation (ne) from the indefinite (cui); Syriac ܕܠܐܢܫ ܠܐ employs double negation (ܕ- relative particle + ܠܐܢܫ 'to anyone' + ܠܐ negative particle), a Semitic idiom for emphatic prohibition that is semantically equivalent but syntactically distinct."
+      "variant": "aligned",
+      "note": "μηδενί / ܕܠܐܢܫ / cui (after ne)."
     },
     {
       "greek_nt": [
@@ -110,7 +119,7 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "λέγωσιν / ܢܐܡܪܘܢ / dicerent."
     },
     {
       "greek_nt": [
@@ -125,13 +134,13 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "περὶ αὐτοῦ / ܥܠܘܗܝ / de illo; the Syriac fuses preposition and pronominal suffix into a single token."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.998281+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.492646+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

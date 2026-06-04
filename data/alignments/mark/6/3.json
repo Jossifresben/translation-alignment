@@ -97,23 +97,41 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
         0,
-        1,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the single negative interrogative particle οὐχ expecting an affirmative answer; the Peshitta renders this with the two-word expression ܠܐ ܗܘܐ ('is not this'), employing the verb ܗܘܐ as a copular element. Latin Nonne is the standard rhetorical-question particle, semantically equivalent to all."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
         2
       ],
       "vulgate": [
-        0,
-        1,
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the negative particle first (οὐχ οὗτός ἐστιν), while Peshitta uses inverted word order (ܠܐ ܗܘܐ ܗܢܐ, 'not is this') and Vulgate employs the compound interrogative Nonne ('Is it not?'). All three express the same rhetorical question but with tradition-specific syntax."
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek ἐστιν and Latin est supply the explicit copula; the Syriac copular force is already carried by ܗܘܐ in the preceding group, so no separate token corresponds here."
     },
     {
       "greek_nt": [
@@ -127,27 +145,38 @@
         3
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the article ὁ with τέκτων ('the carpenter'), a standard Greek construction for definite nouns. Syriac ܢܓܪܐ and Latin faber lack articles, as neither language requires them for definiteness in this context."
+      "type": "lexical",
+      "note": "Greek ὁ τέκτων and Latin faber both denote a craftsman/carpenter with the definite article (Greek) or anarthrous noun (Latin); Syriac ܢܓܪܐ (root n-g-r) is the cognate term for carpenter, the article being implicit in the emphatic state."
     },
     {
       "greek_nt": [
         5,
-        6,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses 'the son' analytically with article plus noun (ὁ υἱός); Latin filius is anarthrous; Syriac compresses 'son of' into the single construct form ܒܪܗ with pronominal suffix, a synthetic construction equivalent in sense."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs double articulation (ὁ υἱὸς τῆς Μαρίας, 'the son of the Mary') with genitive article, a characteristic Greek construction. Syriac ܒܪܗ ܕܡܪܝܡ and Latin filius Mariæ use simple construct/genitive forms without articles, reflecting their respective grammatical norms."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Μαρίας / ܕܡܪܝܡ / Mariæ — the proper name of Mary in genitive; the Syriac form preserves the Semitic vocalisation ܡܪܝܡ (Maryam)."
     },
     {
       "greek_nt": [
@@ -163,7 +192,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses καὶ ἀδελφὸς δέ ('and brother now'), employing both καί and the postpositive δέ for emphasis. Syriac ܘܐܚܘܗܝ ('and his brother') uses a simple conjunction with pronominal suffix. Latin frater uses no conjunction, treating it as apposition to the preceding phrase."
+      "note": "Greek joins with καί … δέ (a doubled connective, 'and … moreover') before ἀδελφός; the Peshitta fuses conjunction and noun into ܘܐܚܘܗܝ ('and his brother', with suffix); Latin uses bare frater without conjunction. The connective particles differ but the relational sense is identical."
     },
     {
       "greek_nt": [
@@ -173,11 +202,11 @@
         7
       ],
       "vulgate": [
-        7,
-        8
+        7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "Ἰακώβου / ܕܝܥܩܘܒ / Jacobi — James in the genitive."
     },
     {
       "greek_nt": [
@@ -188,11 +217,12 @@
         8
       ],
       "vulgate": [
+        8,
         9
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "The name Ἰωσῆτος (Joses) appears in Greek, while Syriac has ܝܘܣܐ (Yose) and Vulgate has Joseph. These represent variant forms of the same Hebrew name Yosef, with Greek preserving a diminutive or Hellenized form, Syriac a shortened Aramaic form, and Latin the standard form."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καὶ Ἰωσῆτος / ܘܕܝܘܣܐ / et Joseph — 'and of Joses/Joseph'; the Syriac fuses conjunction and name into one token, Latin and Greek keep them separate."
     },
     {
       "greek_nt": [
@@ -207,7 +237,8 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "καὶ Ἰούδα / ܘܕܝܗܘܕܐ / et Judæ — 'and of Judas'; Syriac again contracts conjunction and name."
     },
     {
       "greek_nt": [
@@ -222,28 +253,33 @@
         13,
         14
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ends the first rhetorical question after Σίμωνος with a semicolon, treating the brothers' list as part of the initial question. Vulgate places a full stop (question mark) here, creating two distinct questions. Syriac continues without punctuation break, maintaining a single flowing question."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καὶ Σίμωνος / ܘܕܫܡܥܘܢ / et Simonis — 'and of Simon'; the Latin closes the first question with a question mark (idx 14), and the Greek marks it with the high point on Σίμωνος."
     },
     {
       "greek_nt": [
         19,
-        20,
-        21
+        20
       ],
       "peshitta": [
-        11,
-        12
+        11
       ],
       "vulgate": [
         15,
-        16,
-        21
+        16
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses καὶ οὐκ εἰσίν ('and are not'), continuing with simple negation. Vulgate employs nonne...sunt ('are they not?'), repeating the compound interrogative from the verse opening. Syriac uses ܘܠܐ ܗܐ ('and not behold'), adding the presentative particle ܗܐ for rhetorical emphasis."
+      "note": "Greek opens the second rhetorical question with καὶ οὐκ ('and not'); the Peshitta uses the fused ܘܠܐ ('and not'); Latin restates the full interrogative particle nonne plus et. All convey the negative question expecting affirmation."
+    },
+    {
+      "peshitta": [
+        12
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts the presentative particle ܗܐ ('behold/lo') introducing the sisters, a feature absent from both the Greek NA28 and the Vulgate. This is a characteristic Syriac discourse marker heightening the rhetorical force of the question."
     },
     {
       "greek_nt": [
@@ -259,55 +295,97 @@
         18
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the article αἱ with ἀδελφαὶ αὐτοῦ ('the sisters of him'), employing both article and possessive pronoun. Syriac ܐܚܘܬܗ uses only the pronominal suffix (his-sisters), while Latin sorores ejus mirrors the Greek structure with possessive pronoun but no article."
+      "type": "construction",
+      "note": "Greek has article + noun + genitive pronoun (αἱ ἀδελφαὶ αὐτοῦ, 'his sisters'); Latin sorores ejus is anarthrous; Syriac ܐܚܘܬܗ synthesises 'sisters' plus the third-person suffix into a single construct form. The possessive sense is uniform."
     },
     {
       "greek_nt": [
-        25,
+        25
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὧδε / ܬܢܢ / hic — 'here'."
+    },
+    {
+      "greek_nt": [
         26,
         27
       ],
       "peshitta": [
-        14,
         15
       ],
       "vulgate": [
-        19,
-        20,
-        22
+        20
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek uses ὧδε πρὸς ἡμᾶς ('here with us'), a prepositional phrase. Latin employs hic nobiscum ('here with-us'), using the compound preposition. Syriac ܬܢܢ ܠܘܬܢ ('here among-us') uses a different preposition (ܠܘܬ) that emphasizes proximity or presence among a group."
+      "type": "construction",
+      "note": "Greek uses preposition plus pronoun πρὸς ἡμᾶς ('with us'); Latin renders idiomatically with the enclitic ablative nobiscum; Syriac fuses preposition and suffix into ܠܘܬܢ. All express 'among/with us'."
     },
     {
       "greek_nt": [
-        28,
-        29,
+        21
+      ],
+      "vulgate": [
+        21,
+        22
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the copula εἰσὶν ('they are') early in the clause (idx 21) following οὐκ; Latin defers sunt to clause-final position and supplies a closing question mark. The Syriac second clause is verbless, relying on the ܗܐ + emphatic-state construction, so no copular token aligns there."
+    },
+    {
+      "greek_nt": [
+        28
+      ],
+      "vulgate": [
+        23
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / Et — the narrative connective 'and' introducing the consequence; the Syriac fuses this conjunction into the following verb form ܘܡܬܟܫܠܝܢ."
+    },
+    {
+      "greek_nt": [
+        29
+      ],
+      "peshitta": [
+        16,
+        17
+      ],
+      "vulgate": [
+        24
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a single imperfect ἐσκανδαλίζοντο ('they were taking offence'); Latin scandalizabantur is the direct Latinised cognate imperfect; Syriac employs a periphrastic construction ܘܡܬܟܫܠܝܢ ܗܘܘ (participle + auxiliary ܗܘܘ, root k-sh-l 'to stumble') to express the durative past, the normal Syriac equivalent of the Greek imperfect."
+    },
+    {
+      "greek_nt": [
         30,
         31
       ],
       "peshitta": [
-        16,
-        17,
         18
       ],
       "vulgate": [
-        23,
-        24,
         25,
         26
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the imperfect ἐσκανδαλίζοντο ('they were being offended'), emphasizing ongoing or iterative action. Syriac ܡܬܟܫܠܝܢ ܗܘܘ employs the participle with auxiliary verb (were stumbling), a periphrastic construction. Latin scandalizabantur uses the simple imperfect, semantically equivalent to the Greek but morphologically simpler."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐν αὐτῷ / ܒܗ / in illo — 'at/by him'; Syriac fuses preposition ܒ and suffix into ܒܗ. The Greek paragraph marker ¶ here functions only as editorial punctuation."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.978073+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.475636+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

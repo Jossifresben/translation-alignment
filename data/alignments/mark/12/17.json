@@ -74,8 +74,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "vulgate": [],
+      "peshitta": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek opens with introductory καί ('and'), reflecting Semitic paratactic narrative style. Neither the Vulgate (which begins Respondens autem) nor the Peshitta carries an equivalent coordinating conjunction at the head of the verse, both preferring an adversative or asyndetic opening."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀποκριθεὶς and Latin Respondens are aorist/present participles ('answering'), a typical Septuagintalism rendering the Hebrew narrative idiom. The Peshitta omits the redundant 'answering' verb entirely, collapsing the doubled verb of speaking into the single ܐܡܪ, a regular Syriac economising tendency."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
@@ -83,9 +103,9 @@
       "vulgate": [
         1
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek employs a redundant participial construction (Καὶ ἀποκριθεὶς ὁ δὲ) typical of Semitic narrative style, literally 'And answering, and [he].' The Peshitta omits this entirely, proceeding directly to the verb ܐܡܪ ('he said'). The Vulgate retains only the participle Respondens autem, collapsing the Greek's double conjunction into a single adversative particle."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek δέ (with the substantivising article ὁ) and Latin autem are mild adversative/transitional particles. The Peshitta supplies no corresponding particle, again reflecting its terser narrative connective style here."
     },
     {
       "greek_nt": [
@@ -110,9 +130,8 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "The Peshitta places the verb ܐܡܪ ('said') before the subject ܝܫܘܥ ('Jesus'), reflecting standard Syriac VSO word order, whereas Greek and Latin both follow SV order (Ἰησοῦς εἶπεν / Jesus dixit)."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -122,12 +141,20 @@
         1
       ],
       "vulgate": [
-        4,
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [],
+      "vulgate": [
         5
       ],
-      "variant": "minor",
+      "peshitta": [],
+      "variant": "added",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after illis, marking a formal pause before the dominical saying. Greek uses a raised dot (·) and Peshitta has no punctuation; all three traditions agree semantically on the indirect object 'to them.'"
+      "note": "The Clementine Vulgate inserts an explicit colon to introduce direct speech, a printed-edition convention absent from the unpointed Greek and Syriac textual base."
     },
     {
       "greek_nt": [
@@ -142,9 +169,9 @@
         9,
         10
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an articular genitive construction (τὰ Καίσαρος, 'the things of Caesar') without a copula. The Vulgate expands this into a full relative clause with explicit copula (quæ sunt Cæsaris, 'which are of Caesar'). The Peshitta employs a simple genitive particle ܕܩܣܪ ('of Caesar') without article or relative pronoun, the most economical rendering."
+      "note": "Greek uses the neuter plural article τὰ + genitive Καίσαρος ('the things of Caesar'); Latin expands this into a full relative clause quæ sunt Cæsaris ('the things which are Caesar's'), while Syriac compresses it to the single proclitic-marked ܕܩܣܪ ('that-of-Caesar'), each idiom rendering the same possessive substantive."
     },
     {
       "greek_nt": [
@@ -156,8 +183,19 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Syriac place the imperative 'give back' (ἀπόδοτε / ܗܒܘ) after the fronted object 'the things of Caesar', whereas the Vulgate front-loads the imperative Reddite before the objects, a reordering for Latin rhetorical clarity."
+    },
+    {
+      "greek_nt": [],
+      "vulgate": [
+        7
+      ],
+      "peshitta": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate adds the inferential particle igitur ('therefore'), drawing out a logical consequence not lexicalised in the Greek or Syriac, which present the saying without an explicit connective."
     },
     {
       "greek_nt": [
@@ -167,12 +205,10 @@
         5
       ],
       "vulgate": [
-        11,
-        12
+        11
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate again inserts a colon after Cæsari, creating a balanced bicolon structure absent in the Greek and Peshitta. All three traditions agree on the dative 'to Caesar.'"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -188,6 +224,16 @@
       "type": "agreement"
     },
     {
+      "greek_nt": [],
+      "vulgate": [
+        12
+      ],
+      "peshitta": [],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "A second editorial colon in the Clementine text marks the parallel clause structure ('Cæsari : et quæ...'), a printing convention with no counterpart in the source-language traditions."
+    },
+    {
       "greek_nt": [
         12,
         13,
@@ -201,9 +247,9 @@
         15,
         16
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek repeats the articular genitive structure (τὰ τοῦ θεοῦ, 'the things of God') with double article. The Vulgate again expands to a relative clause (quæ sunt Dei). The Peshitta conflates this with the preceding conjunction into a single bound form ܘܕܐܠܗܐ ('and of God'), omitting any article or relative structure."
+      "note": "Greek τὰ τοῦ θεοῦ ('the things of God') and Latin quæ sunt Dei mirror the earlier 'Caesar' clause with article+genitive and relative clause respectively; the Syriac ܘܕܐܠܗܐ again compacts the entire phrase into a single conjunction-plus-proclitic form, parallel to its rendering of the Caesar clause."
     },
     {
       "greek_nt": [
@@ -223,14 +269,13 @@
       "greek_nt": [
         17
       ],
-      "peshitta": [
-        8
-      ],
+      "peshitta": [],
       "vulgate": [
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καί and Latin Et coordinate the closing narrative clause; the Syriac fuses the conjunction proclitically onto the following verb (ܘܬܡܗܘ, 'and-they-marvelled'), so the conjunction is present but not a separate token."
     },
     {
       "greek_nt": [
@@ -245,7 +290,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the compound verb ἐξεθαύμαζον (imperfect, 'they were marveling greatly'). The Peshitta employs a periphrastic construction ܘܬܡܗܘ ܗܘܘ ('and they were marveling'), using the auxiliary ܗܘܘ to form the past continuous. The Vulgate uses the simple imperfect mirabantur. All three convey iterative or durative aspect."
+      "note": "Greek uses the compound imperfect ἐξεθαύμαζον ('they were marvelling greatly'), the intensive ἐκ- prefix heightening the wonder. Latin mirabantur and Syriac periphrastic ܬܡܗܘ ܗܘܘ (participle + auxiliary 'were') both express durative past wonder but lack the intensifying prefix of the Greek compound."
     },
     {
       "greek_nt": [
@@ -259,15 +304,15 @@
         20,
         21
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses ἐπ᾽ αὐτῷ ('at/upon him') with the preposition ἐπί governing the dative. Latin employs super eo with the ablative, a semantic equivalent. Syriac uses the preposition ܒܗ ('in/at him'), a common idiom for the object of wonder, slightly more locative than the Greek/Latin constructions."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek ἐπ᾽ αὐτῷ, Latin super eo, and Syriac ܒܗ all render 'at/over him'; the Syriac employs the proclitic preposition ܒ ('in/at') with pronominal suffix, while Greek and Latin use a separate preposition plus pronoun, but the locative-causal sense ('marvelled at him') is identical."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.023395+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.476442+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

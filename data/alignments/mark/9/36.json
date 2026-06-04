@@ -67,7 +67,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ / Et"
     },
     {
       "greek_nt": [
@@ -79,8 +79,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek and Latin use independent participial forms (λαβών / accipiens, 'having taken'), whereas the Peshitta folds the verb into a finite waw-prefixed perfect ܘܢܣܒ ('and he took'), preferring paratactic coordination over Greek participial subordination."
     },
     {
       "greek_nt": [
@@ -94,31 +94,54 @@
         2
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "The Peshitta adds the numeral ܚܕ ('one') to specify 'one child,' making explicit what is implicit in the Greek anarthrous παιδίον and Latin puerum. This is a characteristic Semitic clarification rather than a textual variant."
+      "note": "The Peshitta adds the numeral ܚܕ ('one') after ܛܠܝܐ ('child'), yielding 'a certain/one child', a typical Syriac indefinite marker; neither the Greek anarthrous παιδίον nor the Latin puerum carries an explicit numeral."
     },
     {
       "greek_nt": [
         3,
-        4,
-        5,
-        6,
-        7
+        4
       ],
       "peshitta": [
-        3,
-        4
+        3
       ],
       "vulgate": [
         3,
-        4,
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin express verb and object separately (ἔστησεν αὐτό / statuit eum, 'he set it/him'); Syriac compresses both into a single inflected verb ܘܐܩܝܡܗ bearing a 3ms object suffix, a synthetic construction equivalent in sense."
+    },
+    {
+      "greek_nt": [
         5,
-        6,
-        7,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek ἐν μέσῳ and Latin in medio render the spatial idiom analytically with preposition plus noun; the Peshitta uses the single lexicalised adverbial ܒܡܨܥܬܐ ('in the midst'), which already incorporates the prepositional sense."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "omitted",
+      "note": "Greek αὐτῶν and Latin eorum ('of them') specify whose midst; the Peshitta omits any genitive pronoun after ܒܡܨܥܬܐ, leaving the referent implicit, a common Syriac economy with the standalone 'midst' adverbial."
+    },
+    {
+      "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "added",
+      "note": "The Clementine Vulgate inserts a colon here, punctuating a pause before the relative clause quem cum complexus esset; no equivalent punctuation token is transmitted in the Greek or Syriac at this point."
     },
     {
       "greek_nt": [
@@ -127,13 +150,8 @@
       "peshitta": [
         5
       ],
-      "vulgate": [
-        9,
-        10
-      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a simple conjunction καί before the participle; Vulgate employs a relative pronoun quem with temporal cum to create a subordinate clause; Peshitta uses ܘ with a finite verb. All three express the same temporal sequence but with different syntactic strategies."
+      "note": "The Greek connective καί introducing the embracing clause is matched by the Syriac waw prefixed to ܘܫܩܠܗ; the Latin restructures this coordination as a subordinate relative clause (quem cum...) and so has no discrete conjunction token here."
     },
     {
       "greek_nt": [
@@ -146,35 +164,46 @@
         7
       ],
       "vulgate": [
+        9,
+        10,
         11,
         12
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐναγκαλισάμενος ('having embraced') and Latin complexus esset convey embracing; Peshitta ܘܫܩܠܗ ܥܠ ܕܪܥܘܗܝ literally 'and he took him upon his arms' uses a more concrete idiom. The Peshitta construction is semantically equivalent but employs a prepositional phrase rather than a single verb."
+      "note": "Greek uses the compact denominative verb ἐναγκαλισάμενος αὐτό ('having taken it in [his] arms'); the Peshitta paraphrases analytically with ܘܫܩܠܗ ܥܠ ܕܪܥܘܗܝ ('and he lifted him upon his arms'), and the Latin renders it as a temporal relative clause quem cum complexus esset ('when he had embraced him'). All three express the same gesture through different syntactic means."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "εἶπεν / ܘܐܡܪ / ait"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "αὐτοῖς / ܠܗܘܢ / illis"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.235359+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.507621+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

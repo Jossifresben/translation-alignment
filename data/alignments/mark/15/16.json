@@ -56,29 +56,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "grammar",
-      "note": "Greek employs the article Οἱ with the nominative plural subject στρατιῶται, a standard Greek construction. Both Peshitta and Vulgate omit the article, as neither Syriac nor Latin requires articles with definite subjects in this syntactic position."
-    },
-    {
-      "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        0,
         2
       ],
       "peshitta": [
@@ -88,7 +66,20 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "στρατιῶται / ܐܣܛܪܛܝܘܛܐ / Milites; the Greek and Syriac share the Latin-derived loanword for 'soldiers'."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "δέ / ܕܝܢ / autem."
     },
     {
       "greek_nt": [
@@ -101,38 +92,46 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἀπήγαγον / ܐܘܒܠܘܗܝ / duxerunt."
     },
     {
       "greek_nt": [
         4
       ],
-      "peshitta": [
-        2
-      ],
+      "peshitta": [],
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek αὐτόν and Latin eum render the explicit accusative object 'him'; the Peshitta encloses the pronominal object as a suffix on the verb ܐܘܒܠܘܗܝ ('they led-him'), so no separate token is emitted. The information is fully present in all three but morphologically bound in Syriac."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "ἔσω / ܠܓܘ / in; spatial 'into/within'."
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the adverb ἔσω ('inside') with the genitive article-noun phrase τῆς αὐλῆς to express motion into the courtyard. Latin employs the preposition in with the accusative atrium, while Syriac uses the preposition ܠܓܘ ('into') with the noun ܕܪܬܐ—all three express identical spatial semantics through language-specific prepositional constructions."
+      "variant": "aligned",
+      "note": "τῆς αὐλῆς / ܕܪܬܐ / atrium ('the courtyard/hall')."
     },
     {
       "greek_nt": [
@@ -149,7 +148,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek provides an explanatory relative clause ὅ ἐστιν πραιτώριον ('which is [the] Praetorium') to gloss the term αὐλῆς for a non-Palestinian audience. Syriac mirrors this with the relative particle ܕܐܝܬܝܗ ('which is') followed by ܦܪܛܘܪܝܢ. Latin simply appends the genitive prætorii directly to atrium without a relative clause, treating 'atrium of the praetorium' as a compound designation rather than an explanatory gloss."
+      "note": "Greek and Syriac employ an explanatory relative clause (ὅ ἐστιν πραιτώριον / ܕܐܝܬܝܗ ܦܪܛܘܪܝܢ, 'which is [the] praetorium'); the Vulgate collapses the gloss into a single genitive phrase atrium prætorii ('hall of the praetorium'), eliminating the copular relative construction altogether."
     },
     {
       "greek_nt": [
@@ -162,7 +161,7 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- (in ܘܩܪܘ) / et."
     },
     {
       "greek_nt": [
@@ -174,32 +173,42 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek συγκαλοῦσιν and Latin convocant carry the prefix συν-/con- ('call together'); the Syriac ܩܪܘ is the simple verb 'they called' without an overt comitative prefix, the collective sense being supplied contextually by the following 'whole cohort'."
     },
     {
       "greek_nt": [
         13,
-        14,
+        14
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "ὅλην τήν / ܠܟܠܗ / totam ('the whole')."
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the adjective ὅλην ('whole') with the article τὴν and noun σπεῖραν in the accusative feminine singular. Latin totam cohortem mirrors this structure exactly. Syriac ܠܟܠܗ ܐܣܦܝܪ employs the preposition ܠ ('to/for') with the adjective ܟܠܗ ('all of it') and the loanword ܐܣܦܝܪ (from Latin spira/cohors), reflecting Syriac's preference for prepositional marking of direct objects with definite or totality-marked nouns."
+      "variant": "aligned",
+      "note": "σπεῖραν / ܐܣܦܝܪ / cohortem; the Syriac transliterates the Greek military term σπεῖρα."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.048771+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.537466+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

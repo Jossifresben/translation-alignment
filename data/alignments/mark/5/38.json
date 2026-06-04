@@ -64,8 +64,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -77,12 +76,23 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἔρχονται and Latin veniunt are independent verbs ('they come'), whereas the Peshitta fuses conjunction and verb into ܘܐܬܘ ('and they came'); the Syriac perfect contrasts with the Greek/Latin present, a routine tense-levelling in narrative."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
@@ -90,12 +100,10 @@
         1
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase with article (εἰς τὸν οἶκον); Vulgate mirrors this structure (in domum); Peshitta employs direct object marker ܠ with construct state (ܠܒܝܬܐ), a typical Syriac construction for motion-toward expressions."
+      "note": "Greek has article plus noun (τὸν οἶκον) and Latin a bare accusative (domum), while Syriac ܠܒܝܬܐ prefixes the preposition ܠ directly to the noun, encoding goal-of-motion morphologically rather than with a separate particle as in εἰς/in."
     },
     {
       "greek_nt": [
@@ -110,9 +118,8 @@
       "vulgate": [
         4
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta expands the Greek genitive τοῦ ἀρχισυναγώγου with a three-word relative construction (ܕܗܘ ܪܒ ܟܢܘܫܬܐ, 'who [was] chief of the synagogue'), making the title explicit through apposition. Vulgate retains the simple genitive (archisynagogi) matching Greek structure."
+      "variant": "minor",
+      "note": "Greek and Latin render the title with a single compound noun (ἀρχισυναγώγου / archisynagogi, 'synagogue-ruler'); the Peshitta unpacks it into the demonstrative ܕܗܘ plus the analytic phrase ܪܒ ܟܢܘܫܬܐ ('that chief of the assembly'), a typical Syriac periphrasis for the Greek compound."
     },
     {
       "greek_nt": [
@@ -124,8 +131,7 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -137,8 +143,7 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -151,56 +156,73 @@
         7
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek θόρυβον ('commotion, uproar') is rendered by Peshitta ܕܪܗܝܒܝܢ (participial form, 'those being agitated/disturbed') and Vulgate tumultum ('tumult'). The Peshitta shifts from abstract noun to concrete participial description of the mourners themselves."
+      "note": "Greek θόρυβον and Latin tumultum are abstract nouns ('a commotion/uproar'); the Peshitta renders with a verbal clause ܕܪܗܝܒܝܢ ('that they were in tumult/agitated'), shifting from nominal to participial syntax while preserving the sense of disorder."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek κλαίοντας and Latin flentes are accusative participles dependent on the verb of perception; Syriac ܘܒܟܝܢ is a finite plural participle coordinated by waw, harmonising the construction with the surrounding clause-string rather than subordinating it."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἀλαλάζοντας and Latin ejulantes denote loud wailing/ululation; the Peshitta ܘܡܝܠܠܝܢ (root m-l-l) connotes lamenting cries, a near-equivalent rendering that captures the ritual mourning sound without exact lexical correspondence."
     },
     {
       "greek_nt": [
         14
       ],
-      "peshitta": [],
       "vulgate": [
         12
       ],
       "variant": "omitted",
-      "type": "omission",
-      "note": "Peshitta omits the adverbial intensifier πολλά / multum ('much, greatly'), which in Greek and Latin modifies the extent of the wailing. This may reflect stylistic preference or the perception that the triple description (agitated, weeping, wailing) already conveys intensity."
+      "note": "Greek πολλά ('much/greatly') is matched by Latin multum but has no corresponding adverbial element in the Peshitta, which leaves the intensity of the wailing unqualified; this is a minor omission of an adverbial modifier."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.976725+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.544159+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

@@ -84,13 +84,14 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Greek ὅτι and Latin Quia both introduce the clause causally ('because/that'), while Peshitta omits an explicit causal conjunction, beginning directly with the demonstrative particle ܕܗܐ ('behold')."
+      "variant": "aligned",
+      "note": "ὅτι / ܕ- (prefixed to ܗܐ) / Quia — recitative conjunction introducing direct speech."
     },
     {
       "greek_nt": [
@@ -103,7 +104,7 @@
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἰδού / ܗܐ / ecce — the Syriac fuses the conjunction and the deictic particle into the single proclitic form ܕܗܐ, hence the shared index."
     },
     {
       "greek_nt": [
@@ -117,8 +118,8 @@
         2
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds the explicit subject pronoun ܚܢܢ ('we') after the verb ܣܠܩܝܢ ('we go up'), whereas Greek ἀναβαίνομεν and Latin ascendimus encode the first-person plural subject morphologically without a separate pronoun."
+      "type": "construction",
+      "note": "Greek and Latin express the first-person plural verb synthetically (ἀναβαίνομεν / ascendimus); Syriac uses the participle ܣܠܩܝܢ followed by the enclitic pronoun ܚܢܢ ('we'), an analytic construction typical of Syriac present-tense narration."
     },
     {
       "greek_nt": [
@@ -130,11 +131,11 @@
         3
       ],
       "vulgate": [
-        3,
-        4
+        3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek requires the preposition εἰς plus the accusative toponym Ἱεροσόλυμα; Latin uses the bare accusative of place-to-which Jerosolymam without preposition; Syriac employs the proclitic directional ܠ- on ܐܘܪܫܠܡ — three distinct strategies for the same allative sense. The parenthetical transliteration token (5) is editorial and carries no semantic weight."
     },
     {
       "greek_nt": [
@@ -152,7 +153,7 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ὁ υἱὸς τοῦ ἀνθρώπου / ܘܒܪܗ ܕܐܢܫܐ / Filius hominis — the Syriac carries the conjunction ܘ- ('and') proclitically on ܒܪܗ, matching Greek καί (idx 5) which has been grouped with the preceding allative phrase per the Syriac word-division."
     },
     {
       "greek_nt": [
@@ -165,74 +166,146 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "παραδοθήσεται / ܡܫܬܠܡ / tradetur — future/present passive 'will be handed over,' Syriac Ethpaal participle of š-l-m."
     },
     {
       "greek_nt": [
         11,
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        7,
+        8
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "aligned",
+      "note": "τοῖς ἀρχιερεῦσιν / ܠܪܒܝ ܟܗܢܐ / principibus sacerdotum — 'to the chief priests,' rendered as a construct/genitive phrase ('chiefs of the priests') in both Syriac and Latin."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et — coordinating conjunction; the Syriac ܘ- is proclitic to ܠܣܦܪܐ."
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        7,
-        8,
         9
       ],
       "vulgate": [
-        8,
-        9,
-        10,
         11
       ],
-      "variant": "major",
+      "variant": "aligned",
+      "note": "τοῖς γραμματεῦσιν / ܠܣܦܪܐ / scribis — 'to the scribes'; Syriac fuses conjunction, dative ܠ-, and noun into ܘܠܣܦܪܐ."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "added",
       "type": "expansion",
-      "note": "Vulgate inserts et senioribus ('and to the elders') after scribis, expanding the list of recipients to include a third group not attested in either the Greek NA28 or the Peshitta. This represents a Western textual tradition harmonizing with parallel passion predictions or synoptic accounts."
+      "note": "The Clementine Vulgate adds 'et senioribus' ('and to the elders'), harmonising toward the parallel passion-prediction lists (cf. Mark 8:31; Matt 16:21), where chief priests, scribes, and elders appear together. Neither the Greek NA28 nor the Peshitta transmit 'elders' at this point."
     },
     {
       "greek_nt": [
-        16,
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- (proclitic on ܢܚܝܒܘܢܝܗܝ) / et — coordinating conjunction."
+    },
+    {
+      "greek_nt": [
         17,
-        18,
+        18
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek κατακρινοῦσιν αὐτόν and Latin damnabunt eum express verb plus separate accusative object pronoun; Syriac ܢܚܝܒܘܢܝܗܝ incorporates the third-person object suffix directly onto the Pael verb of d-kh-b/ḥ-y-b ('they will condemn him'), a synthetic pronominal-object construction."
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        12,
-        13,
-        14,
-        15,
-        16,
         17
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Peshitta place the object pronoun before the dative complement (αὐτὸν θανάτῳ / ܠܡܘܬܐ with pronominal suffix on verb), while Vulgate reverses the order (damnabunt eum morte), placing the accusative pronoun eum between verb and ablative of penalty."
+      "variant": "aligned",
+      "note": "θανάτῳ / ܠܡܘܬܐ / morte — dative/ablative of penalty 'to death,' Syriac using directional ܠ-."
     },
     {
       "greek_nt": [
-        20,
+        20
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- (proclitic) / et — coordinating conjunction."
+    },
+    {
+      "greek_nt": [
         21,
-        22,
+        22
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        19,
+        20
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "As with the previous verb, Greek παραδώσουσιν αὐτόν and Latin tradent eum use a separate object pronoun, whereas Syriac ܢܫܠܡܘܢܝܗܝ encloses the third-person masculine suffix on the verb of š-l-m ('and they will hand him over')."
+    },
+    {
+      "greek_nt": [
         23,
         24
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        18,
-        19,
-        20,
         21
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τοῖς ἔθνεσιν / ܠܥܡܡܐ / gentibus — 'to the Gentiles/nations,' Syriac plural of e-m-m with directional ܠ-."
     },
     {
       "greek_nt": [],
@@ -242,13 +315,13 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate concludes the verse with a colon (:), signaling continuation into the following verse, whereas Greek and Peshitta manuscripts typically employ a full stop or no explicit punctuation marker at this juncture."
+      "note": "The Clementine Vulgate closes the verse with a colon, marking the syntactic continuation into the following clause (v. 34). Greek and Syriac editions carry no equivalent terminal punctuation here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.012214+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.417163+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

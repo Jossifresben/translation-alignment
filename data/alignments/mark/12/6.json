@@ -81,9 +81,9 @@
       "vulgate": [
         0
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἔτι ('yet, still') and Vulgate Adhuc ('still, yet') denote temporal continuation, whereas Peshitta ܚܪܬܐ ('finally, at last') marks culmination. The Syriac reading emphasizes the climactic nature of sending the beloved son as the final act in the parable's sequence."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔτι ('still, yet') and Latin adhuc are temporal adverbs, whereas the Peshitta ܚܪܬܐ ('finally, at the last') is a noun-based adverbial of sequence built on the root kh-r-th. Syriac thus frontloads the climactic notion that Greek/Latin reserve for ἔσχατον/novissimum later in the verse."
     },
     {
       "greek_nt": [
@@ -95,9 +95,7 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek οὖν and Latin ergo both function as inferential conjunctions ('therefore'), while Peshitta ܕܝܢ is a weaker adversative/transitional particle ('but, now'), reflecting typical Syriac narrative style rather than strict logical inference."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -113,98 +111,192 @@
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5,
-        6
+        3
       ],
       "peshitta": [
-        3,
-        4,
         5,
         6,
         7
       ],
       "vulgate": [
-        3,
-        4,
-        5
+        3
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses finite verb εἶχεν with accusative object construction ('he had one beloved son of him'); Latin employs a participial construction habens filium carissimum ('having a most beloved son'); Peshitta uses the existential particle ܐܝܬ ܗܘܐ ܠܗ ('there was to him') with pronominal suffix, a characteristic Semitic possessive idiom."
+      "note": "Greek uses the simple imperfect εἶχεν ('he had') and Latin the participle habens; the Peshitta employs the periphrastic possessive construction ܐܝܬ ܗܘܐ ܠܗ (lit. 'there was to him'), the standard Syriac idiom for past possession, rendering one finite verb with three tokens."
     },
     {
       "greek_nt": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
+        4
       ],
       "peshitta": [
-        8,
-        9,
-        10
+        3
       ],
       "vulgate": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek possessive pronoun αὐτοῦ ('his [son]') has no separate counterpart in either the Peshitta or the Vulgate, both of which leave the relationship implicit; Latin filium carissimum and Syriac ܒܪܐ ܚܒܝܒܐ carry no explicit genitive of possession."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀπέστειλεν and Latin misit are finite verbs with the object expressed separately, while the Peshitta ܘܫܕܪܗ fuses the conjunction, verb, and 3ms object suffix ('and-he-sent-him') into a single token, a characteristically synthetic Syriac formation."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "vulgate": [
+        7
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the adverbial modifier ἔσχατον ('last') after the object pronoun αὐτόν in post-verbal position; Vulgate mirrors this with novissimum following illum; Peshitta integrates the temporal adverb ܐܚܪܝܬ ('finally, lastly') immediately after the verb ܘܫܕܪܗ, reflecting VSO word order typical of Semitic syntax."
+      "note": "Greek καὶ αὐτὸν and Latin et illum place the resumptive accusative object before the verb (emphatic 'him also'), whereas the Peshitta expresses this object only via the verbal suffix on ܘܫܕܪܗ, so no discrete pronoun token corresponds here."
     },
     {
       "greek_nt": [
-        13,
+        10
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The directional phrase 'to them' is rendered analytically in Greek (πρὸς αὐτούς) and Latin (ad eos), but synthetically in Syriac, where ܠܘܬܗܘܢ fuses the preposition l-w-th with the 3mp suffix into one token."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        11,
-        12,
-        13
+        12
       ],
       "vulgate": [
-        12,
         13,
         14
       ],
       "variant": "minor",
+      "type": "lexical",
+      "note": "Greek recitative ὅτι and Latin Quia (introducing direct speech) are functionally matched, but the Peshitta uses the causal/explanatory particle ܓܝܪ ('for'), giving the clause a slightly more inferential cast than the neutral discourse markers of the other traditions."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        13
+      ],
+      "variant": "added",
       "type": "expansion",
-      "note": "Greek uses participial λέγων with recitative ὅτι; Latin employs gerund dicens with colon punctuation and causal Quia; Peshitta expands with finite verb ܐܡܪ ('he said') plus emphatic particle ܓܝܪ ('for indeed') and adverb ܟܒܪ ('perhaps, surely'), intensifying the speaker's expectation in the direct discourse that follows."
+      "note": "The Peshitta inserts the modal particle ܟܒܪ ('perhaps, it may be'), softening the landlord's expectation to 'perhaps they will respect my son.' Neither the Greek nor the Vulgate transmits this note of contingency."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         16,
         17,
         18
       ],
       "peshitta": [
-        14,
         15,
         16
       ],
       "vulgate": [
-        15,
         16,
         17
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἐντραπήσονται τὸν υἱόν μου uses future passive deponent with accusative object ('they will respect my son'); Latin reverebuntur filium meum employs future active deponent with accusative; Peshitta ܢܒܗܬܘܢ ܡܢ ܒܪܝ uses imperfect with preposition ܡܢ ('they will be ashamed from/before my son'), where the prepositional construction conveys reverential fear rather than direct object syntax."
+      "type": "construction",
+      "note": "Greek τὸν υἱόν μου and Latin filium meum mark the direct object of ἐντραπήσονται/reverebuntur with the accusative; the Peshitta governs ܒܪܝ ('my son') with the preposition ܡܢ ('from'), since the verb ܢܒܗܬܘܢ ('they will be ashamed/show shame') idiomatically takes its object via mn rather than as a bare accusative."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.021638+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.521025+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

@@ -57,8 +57,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
@@ -68,28 +67,55 @@
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses καὶ ὅτε ('and when') with two conjunctions; Peshitta employs the single temporal particle ܟܕ (kad, 'when'); Vulgate mirrors Greek structure with et quando. The Peshitta's economy is typical of Syriac temporal constructions."
+      "type": "construction",
+      "note": "Greek opens with paratactic καὶ ὅτε ('and when'); the Vulgate splits this into et quando, mirroring the Greek temporal conjunction. The Peshitta renders only ܟܕ ('when'), deferring its connective particle to the postpositive ܕܝܢ in the next group."
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
       ],
       "peshitta": [
-        1,
+        1
+      ],
+      "vulgate": [
         2,
         3
       ],
-      "vulgate": [
-        2,
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek aorist ἀνέτειλεν is a single finite verb; the Vulgate employs a periphrastic perfect exortus est ('has risen'), splitting the predicate into participle and copula, while the Peshitta uses the simple perfect ܕܢܚ."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta inserts the postpositive particle ܕܝܢ ('but/now'), supplying the adversative-connective force that Greek and Latin carry only through the initial conjunction. This is a characteristic Syriac discourse marker without a direct equivalent in the other witnesses."
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article before the noun (ὁ ἥλιος); Vulgate follows with exortus est sol (verb-subject order); Peshitta inserts the discourse particle ܕܝܢ (dēn, 'but/now') between verb and subject (ܕܢܚ ܕܝܢ ܫܡܫܐ), a characteristic Syriac narrative marker absent from the Greek and Latin."
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "ὁ ἥλιος / ܫܡܫܐ / sol."
     },
     {
       "greek_nt": [
@@ -99,48 +125,61 @@
         4
       ],
       "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        5,
         6
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after exæstuavit, creating a stronger syntactic break between the scorching and the withering clauses. Neither Greek nor Peshitta manuscripts attest comparable punctuation at this juncture."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek passive ἐκαυματίσθη ('it was scorched') is mirrored by Latin exæstuavit; the Peshitta uses an active intransitive ܚܡܐ ('it became hot/scorched'), avoiding the Greek passive voice. The Vulgate further adds a colon (token 6) marking a syntactic pause absent in the Greek and Syriac."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "καὶ / ܘ- (prefixed to ܡܛܠ) / et."
+    },
+    {
+      "greek_nt": [
         7,
         8,
         9,
-        10,
-        11
+        10
       ],
       "peshitta": [
         5,
         6,
         7,
-        8,
-        9
+        8
       ],
       "vulgate": [
-        7,
         8,
         9,
         10,
-        11,
-        12
+        11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs an articular infinitive construction (διὰ τὸ μὴ ἔχειν ῥίζαν, 'because of not having root'); Vulgate renders this with a finite causal clause (eo quod non habebat radicem); Peshitta uses ܘܡܛܠ ܕܠܝܬ ܗܘܐ ܠܗ ܥܩܪܐ ('and because there was not to it root'), employing the existential negative ܠܝܬ with a pronominal suffix ܠܗ ('to it') as an explicit dative of possession, which is implicit in the Greek infinitive."
+      "note": "Greek uses an articular infinitival causal phrase διὰ τὸ μὴ ἔχειν ('because of the not-having'); the Vulgate renders this with a finite causal clause eo quod non habebat ('because it did not have'), and the Peshitta with ܡܛܠ ܕܠܝܬ ܗܘܐ ܠܗ ('because there was not to it'), an existential dative construction. All three express the same causal idea through divergent syntax."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "ῥίζαν / ܥܩܪܐ / radicem."
     },
     {
       "greek_nt": [
@@ -152,14 +191,15 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek passive ἐξηράνθη ('it was dried up/withered') parallels Latin exaruit; the Peshitta uses the active intransitive ܝܒܫ ('it withered'), again preferring an active stem where Greek deploys the passive."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.963807+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.486151+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

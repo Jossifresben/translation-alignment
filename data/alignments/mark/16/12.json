@@ -60,56 +60,78 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses μετὰ δὲ ταῦτα with postpositive δέ; Vulgate adds autem ('however') as a third element after Post hæc; Peshitta employs the simpler ܒܬܪ ܗܠܝܢ without a contrastive particle. All three convey 'after these things' with minor stylistic variation in the conjunction."
+      "note": "The Greek postpositive connective δέ is rendered by Latin autem (also postpositive). The Peshitta omits any equivalent conjunction here, beginning the clause asyndetically with the temporal phrase, a common Syriac stylistic simplification."
     },
     {
       "greek_nt": [
-        3,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "ταῦτα / ܗܠܝܢ / hæc."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek uses the prepositional partitive ἐξ αὐτῶν and Latin mirrors it with ex his; Syriac compresses this into the single suffixed form ܡܢܗܘܢ ('of them'), expressing the partitive synthetically rather than analytically."
     },
     {
       "greek_nt": [
         6
       ],
       "peshitta": [
-        7,
-        8,
-        9
+        8
       ],
       "vulgate": [
         6
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek uses a single participle περιπατοῦσιν ('walking'); Latin mirrors this with ambulantibus. Peshitta expands with a temporal clause ܟܕ ܡܗܠܟܝܢ ܘܐܙܠܝܢ ('while walking and going'), employing two synonymous participles in hendiadys to emphasize the action of traveling."
+      "variant": "minor",
+      "note": "Greek περιπατοῦσιν and Latin ambulantibus are participles agreeing with the dative/ablative 'two'; Syriac ܡܗܠܟܝܢ stands within a ܟܕ ('while') clause, a construction shift from circumstantial participle to a finite-style subordinate temporal clause."
     },
     {
       "greek_nt": [
@@ -123,70 +145,102 @@
         8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἐφανερώθη after the dative participle; Peshitta fronts the verb ܐܬܚܙܝ immediately after the temporal phrase for emphasis; Vulgate splits the passive construction ostensus est across two tokens. All convey 'he was revealed/appeared' with different syntactic positioning."
+      "note": "The Greek aorist passive ἐφανερώθη is rendered by the Latin periphrastic perfect passive ostensus est; Syriac ܐܬܚܙܝ ('he was seen/appeared', root kh-z-a) shifts from the lexeme of 'manifestation' (φανερόω) to that of 'seeing/being seen', a lexical and aspectual divergence. Note also the differing position of the verb across the three witnesses."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "ἐν / in."
+    },
+    {
+      "greek_nt": [
+        9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        9,
-        10,
-        11
+        10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἑτέρᾳ / ܐܚܪܬܐ / alia."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek μορφῇ ('form, outward shape') is matched by Syriac ܒܕܡܘܬܐ ('in the likeness/image'); Latin effigie ('figure, representation') leans toward visual semblance. The Syriac and Latin both nuance toward 'likeness' rather than the more ontological Greek 'form', and the prepositional ܒ- is fused to the noun."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "variant": "added",
+      "note": "The Syriac introduces the subordinating particle ܟܕ ('while/when') to head the circumstantial clause describing the disciples' walking; neither the Greek nor the Latin transmits a corresponding conjunction, instead using bare participles."
     },
     {
       "greek_nt": [
         11
       ],
-      "peshitta": [],
+      "peshitta": [
+        9
+      ],
       "vulgate": [
         12
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek employs a second participle πορευομένοις ('going') alongside περιπατοῦσιν to create a participial doublet; Vulgate mirrors this with euntibus. Peshitta omits this redundant element, having already expressed the motion through its expanded hendiadys ܡܗܠܟܝܢ ܘܐܙܠܝܢ earlier in the verse."
+      "variant": "minor",
+      "note": "Greek πορευομένοις and Latin euntibus are simple participles of going; the Syriac renders this with ܘܐܙܠܝܢ ('and were going', root a-z-l), coordinating it via the conjunction waw with the preceding 'walking' verb, thereby creating a paired verbal hendiadys absent in the other two traditions."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "εἰς / in."
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        13,
         14
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εἰς ἀγρόν ('into the field/countryside') and Vulgate in villam ('into the village/estate') represent different lexical choices for the destination; Peshitta ܠܩܪܝܬܐ ('to the village') aligns semantically with the Vulgate against the Greek's more general rural designation."
+      "note": "Greek ἀγρόν ('field, countryside') and Latin villam ('country estate, farmstead') denote rural land; Syriac ܠܩܪܝܬܐ (root q-r-y, 'to the village/town') shifts the referent toward an inhabited settlement, a lexical divergence later harmonised in the Emmaus tradition (cf. Luke 24:13, Emmaus as a village)."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         15
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate concludes with a colon, signaling continuation into the following narrative; Greek and Peshitta use standard sentence-final punctuation."
+      "variant": "added",
+      "note": "The Clementine Vulgate closes the verse with a colon, a punctuation feature with no counterpart in the unpointed Greek or Syriac source tokens, marking continuation into the following clause."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.056203+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.510575+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

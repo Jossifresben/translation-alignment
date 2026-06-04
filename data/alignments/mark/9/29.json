@@ -63,13 +63,12 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
       "variant": "minor",
       "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb ܐܡܪ ('he said'). This is a common Syriac stylistic preference to avoid redundant conjunctions in narrative transitions."
+      "note": "Both Greek and Vulgate open the sentence with the connective καί / Et, which the Peshitta omits, beginning instead directly with the verb ܐܡܪ; asyndeton is a common feature of Syriac narrative style."
     },
     {
       "greek_nt": [
@@ -94,54 +93,73 @@
         2,
         3
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after illis to mark direct discourse, a punctuation convention absent in the Greek and Peshitta manuscripts. This reflects Latin rhetorical practice rather than a textual variant."
+      "variant": "aligned",
+      "note": "εἶπεν αὐτοῖς / ܐܡܪ ܠܗܘܢ / dixit illis; the Vulgate adds an editorial colon (idx 3) introducing direct discourse, a punctuation feature absent in the source traditions."
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
-      ],
-      "peshitta": [
-        2,
         3
       ],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
-        4,
-        5
+        4
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
-        7
-      ],
-      "peshitta": [
         4,
         5
       ],
-      "vulgate": [
-        6,
-        7
+      "peshitta": [
+        3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses ἐν οὐδενὶ ('by nothing'); Peshitta employs ܒܡܕܡ ܠܐ ('by anything not'), placing the negation after the indefinite pronoun. Latin nullo mirrors the Greek construction. This represents standard Syriac negative syntax rather than a semantic divergence."
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "τὸ γένος / ܓܢܣܐ / genus; the Greek articular noun is matched by the emphatic-state Syriac form and the anarthrous Latin, all denoting 'this kind' of demon."
     },
     {
       "greek_nt": [
-        8,
-        9
-      ],
-      "peshitta": [
         6,
         7
       ],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
-        8,
+        6,
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἐν οὐδενί / in nullo render 'by nothing' with preposition plus indefinite; Syriac ܒܡܕܡ ('by anything') combined with the following negative ܠܐ achieves the same negative-instrumental sense by a different syntactic distribution."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        6,
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "δύναται / potest is a single positive verb; the Syriac expresses the negated modal as ܠܐ ܡܫܟܚ ('is not able'), splitting the negation across two tokens (idx 5–6) where Greek and Latin locate the negation earlier in οὐδενί / nullo."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
         9
       ],
       "variant": "aligned"
@@ -157,7 +175,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "The Greek conditional idiom εἰ μή ('except') is rendered by the single Syriac particle ܐܠܐ and the Latin nisi, all functioning as the exceptive marker."
     },
     {
       "greek_nt": [
@@ -176,15 +195,15 @@
         13,
         14
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "word-order",
-      "note": "Greek and Latin place 'prayer' before 'fasting' (προσευχῇ καὶ νηστείᾳ / oratione et jejunio), while the Peshitta reverses the order to ܒܨܘܡܐ ܘܒܨܠܘܬܐ ('by fasting and by prayer'). The Peshitta also repeats the preposition ܒ ('by') before each noun, creating a more emphatic parallelism, whereas Greek and Latin use a single preposition governing both nouns."
+      "note": "Greek and Latin list 'prayer and fasting' (προσευχῇ καὶ νηστείᾳ / oratione et jejunio), whereas the Peshitta inverts the pair to 'fasting and prayer' (ܒܨܘܡܐ ܘܒܨܠܘܬܐ); the reversed order is a recurrent Syriac liturgical convention. Note also that several Greek witnesses omit καὶ νηστείᾳ altogether, a variant not reflected here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.234320+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.492970+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

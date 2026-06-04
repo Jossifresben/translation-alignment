@@ -59,8 +59,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
@@ -71,24 +70,45 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction καὶ plus aorist participle ἀκούσαντες ('and having heard'); Peshitta employs simple perfect ܘܫܡܥܘ ('and they heard'); Vulgate uses ablative absolute Quo audito ('which having been heard'). All three express temporal anteriority but through different syntactic strategies."
+      "note": "Greek opens with paratactic Καὶ followed by the aorist participle ἀκούσαντες ('and having heard'); the Vulgate compresses this into an ablative absolute Quo audito ('which having been heard'), a more classical Latin construction, while Syriac ܘܫܡܥܘ ('and they heard') uses a finite paratactic verb. The three traditions are semantically equivalent but employ three distinct syntactic strategies for the temporal/circumstantial clause."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek aorist participle ἀκούσαντες is rendered by Syriac as a finite verb folded into the conjunction (ܘܫܡܥܘ), reflecting the Syriac preference for coordinated finite clauses over participial subordination."
     },
     {
       "greek_nt": [
         2,
-        3,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article and noun before the possessive pronoun (οἱ μαθηταὶ αὐτοῦ); Peshitta uses a bound form with pronominal suffix ܬܠܡܝܕܘܗܝ ('his-disciples'), a standard Semitic construction; Vulgate follows Greek word order (discipuli ejus). Semantically identical despite structural differences."
+      "type": "grammar",
+      "note": "Greek and Latin express the possessive pronoun 'his' as a separate word (αὐτοῦ / ejus); Syriac incorporates it as the enclitic suffix ـܘܗܝ on ܬܠܡܝܕܘܗܝ ('his disciples'), a normal feature of Semitic pronominal suffixation."
     },
     {
       "greek_nt": [
@@ -104,14 +124,26 @@
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek (καὶ) and Vulgate (et) coordinate 'they came and took'; the Peshitta omits the conjunction before ܫܩܠܘ ('they took'), juxtaposing the two verbs asyndetically, a common Syriac narrative idiom for sequential action."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "aligned"
@@ -131,33 +163,45 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek uses πτῶμα ('corpse, fallen body'), emphasizing the violent death; Peshitta employs ܫܠܕܗ ('his body/corpse'); Vulgate uses corpus ('body'). The Greek term is more specific to a body resulting from violent death, while the Syriac and Latin terms are more neutral, though all refer to John the Baptist's remains."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after corpus ejus, creating a stronger pause before the burial clause. Neither Greek nor Peshitta manuscripts indicate such punctuation at this juncture, maintaining continuous narrative flow with simple conjunction."
+      "note": "Greek uses πτῶμα ('corpse, fallen body'), a stark term for a cadaver; Vulgate corpus and Syriac ܫܠܕܗ ('his body/corpse') are slightly more neutral, though ܫܠܕܐ likewise denotes a dead body. Syriac again carries the possessive as the suffix ـܗ, collapsing the article+noun+pronoun of the Greek into a single word."
     },
     {
       "greek_nt": [
-        11,
-        12,
-        13
+        11
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        10,
-        11,
+        9,
+        10
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon before et posuerunt, marking a rhetorical pause absent in the Greek and Syriac; the conjunction is otherwise shared (καὶ / et / the ܘ- prefix of ܘܣܡܘ)."
+    },
+    {
+      "greek_nt": [
         12
       ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        11
+      ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek (αὐτὸ) and Vulgate (illud) supply an explicit neuter object pronoun 'it'; the Peshitta omits any object pronoun after ܘܣܡܘ ('and they laid'), leaving the object understood from context, a frequent Syriac economy."
     },
     {
       "greek_nt": [
@@ -174,14 +218,14 @@
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses preposition ἐν with dative article and noun (ἐν τῷ μνημείῳ, 'in the tomb'); Peshitta employs the compound preposition ܒܒܝܬ ܩܒܘܪܐ (literally 'in house-of burial'), a characteristic Semitic construct-state formation; Vulgate uses in monumento. The Peshitta's periphrastic construction is idiomatic but semantically equivalent to the Greek and Latin prepositional phrases."
+      "type": "idiom",
+      "note": "Greek ἐν τῷ μνημείῳ and Latin in monumento use a simple prepositional phrase ('in the tomb'); Syriac employs the periphrastic ܒܒܝܬ ܩܒܘܪܐ, literally 'in the house of burial', a characteristic Semitic construct-state idiom for designating a tomb."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.982333+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.522850+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

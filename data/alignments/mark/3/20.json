@@ -62,14 +62,15 @@
         0
       ],
       "vulgate": [
-        0
+        5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek opens with the connective καί followed by a finite verb; the Vulgate's coordinating et here (index 5) joins the second clause after an expanded narrative introduction (Et veniunt ad domum), while the Peshitta fuses the conjunction into the prefixed waw of ܘܐܬܟܢܫܘ. The opening Latin clause has no Greek or Syriac counterpart."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
+        0,
         1,
         2,
         3,
@@ -77,17 +78,7 @@
       ],
       "variant": "added",
       "type": "expansion",
-      "note": "The Vulgate inserts 'veniunt ad domum' ('they come to the house'), providing a locative setting absent from both the Greek and Peshitta. This expansion likely reflects Western textual tradition or editorial clarification of the narrative context."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "added",
-      "type": "construction",
-      "note": "The Vulgate employs a coordinating conjunction 'et' to link the house-arrival clause with the crowd-gathering clause, creating a compound sentence structure not present in the Greek or Peshitta."
+      "note": "The Vulgate prefixes an entire narrative clause Et veniunt ad domum ('And they come to a house/home') absent from both the Greek NA28 and the Peshitta; this reflects a Western expansion attested in some Latin and Greek witnesses (cf. D, Θ adding ἔρχονται εἰς οἶκον) supplying an explicit setting for the gathering crowd."
     },
     {
       "greek_nt": [
@@ -101,7 +92,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses singular συνέρχεται ('comes together', 3rd person singular) with collective noun ὄχλος; Peshitta uses plural ܐܬܟܢܫܘ ('they gathered'); Vulgate uses singular convenit, mirroring Greek syntax but with different aspectual nuance (present vs. perfect)."
+      "note": "Greek συνέρχεται is present indicative third singular agreeing with the singular collective ὄχλος, and the Vulgate matches with singular convenit; the Peshitta ܘܐܬܟܢܫܘ is a plural perfect ('they gathered'), construing the crowd as a plurality of persons — a typical Syriac ad sensum agreement with the collective noun."
     },
     {
       "greek_nt": [
@@ -126,16 +117,6 @@
       "vulgate": [
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs article + noun (ὁ ὄχλος); Peshitta uses bare noun ܟܢܫܐ (definiteness contextually determined); Vulgate uses bare turba. The semantic content is identical but syntactic marking of definiteness differs across traditions."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9
-      ],
       "variant": "aligned"
     },
     {
@@ -146,11 +127,10 @@
         3
       ],
       "vulgate": [
+        9,
         10
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὥστε ('so that', result clause marker) corresponds to Peshitta ܐܝܟܢܐ ('such that, how') and Vulgate ita ut ('so that'). All three introduce consecutive result clauses but employ tradition-specific conjunctive idioms."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -168,18 +148,6 @@
       "greek_nt": [
         7
       ],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses infinitive δύνασθαι ('to be able') with accusative subject αὐτούς; Peshitta employs imperfect ܢܫܟܚܘܢ ܗܘܘ ('they were able', periphrastic construction with auxiliary ܗܘܘ); Vulgate uses subjunctive possent. All express inability but through different modal constructions."
-    },
-    {
-      "greek_nt": [
-        8
-      ],
       "peshitta": [
         5,
         6
@@ -187,13 +155,25 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an articular-free infinitive δύνασθαι in a ὥστε result clause and Latin renders it with the subjunctive possent; the Peshitta employs a finite imperfect ܢܫܟܚܘܢ reinforced by the auxiliary ܗܘܘ, forming a periphrastic past-potential construction idiomatic to Syriac result clauses but semantically equivalent."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek explicit accusative subject of the infinitive αὐτούς ('them') is left unexpressed in both the Peshitta and the Vulgate, which carry the subject within their finite verb forms; its absence is therefore grammatically conditioned rather than a substantive textual divergence."
     },
     {
       "greek_nt": [
         9
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         13
       ],
@@ -225,9 +205,9 @@
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:33:31.027120+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.462856+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

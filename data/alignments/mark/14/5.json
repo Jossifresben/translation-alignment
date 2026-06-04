@@ -75,7 +75,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect ἠδύνατο (single verb); Peshitta employs periphrastic construction ܡܫܟܚ ܗܘܐ (participle + auxiliary 'was'); Vulgate uses simple imperfect poterat. All three express past potential identically in meaning but differ in verbal structure."
+      "note": "Greek expresses the imperfect potential with a single finite verb ἠδύνατο; the Peshitta renders it periphrastically with the participle ܡܫܟܚ plus the auxiliary ܗܘܐ ('was able'), a standard Syriac construction for past durative/modal sense. The Vulgate poterat matches the Greek single-verb form."
     },
     {
       "greek_nt": [
@@ -100,9 +100,9 @@
         2,
         3
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Peshitta omits explicit reference to 'this fragrant oil' (τοῦτο τὸ μύρον / unguentum istud), leaving the object of sale implicit from context. Greek and Latin both retain the demonstrative pronoun with article/adjective construction."
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek τοῦτο τὸ μύρον has both demonstrative and article ('this fragrant oil'); the Vulgate renders unguentum istud with the demonstrative postposed in classical fashion but omits any article (Latin lacks one); the Peshitta omits an explicit noun for the ointment entirely, leaving it implicit in the verb ܠܡܙܕܒܢܘ ('to be sold'), recoverable from the immediate context."
     },
     {
       "greek_nt": [
@@ -129,8 +129,8 @@
         6
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐπάνω ('above, more than') is rendered by Peshitta ܝܬܝܪ ܡܢ (literally 'more than') and Vulgate plus quam ('more than'). The Syriac and Latin use explicit comparative constructions where Greek employs the spatial preposition ἐπάνω in its extended comparative sense."
+      "type": "construction",
+      "note": "Greek uses the single adverb-preposition ἐπάνω ('above, more than') governing the genitive; both the Peshitta (ܝܬܝܪ ܡܢ, 'more than') and the Vulgate (plus quam) employ a two-word comparative construction, syntactically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
@@ -147,23 +147,31 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the numeral after the noun (δηναρίων τριακοσίων); Peshitta and Vulgate both place numeral before noun (ܬܠܬܡܐܐ ܕܝܢܪܝܢ / trecentis denariis), reflecting standard Semitic and Latin word order for numerical expressions."
+      "note": "Greek and Vulgate order the numeral after the noun (δηναρίων τριακοσίων / trecentis denariis with adjective preceding), whereas the Peshitta places the cardinal ܬܠܬܡܐܐ ('three hundred') before ܕܝܢܪܝܢ ('denarii'); the numeral-noun sequence differs but the sense is identical."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses conjunction καὶ with infinitive δοθῆναι; Peshitta employs single prefixed conjunction ܘ on the infinitive ܘܠܡܬܝܗܒܘ; Vulgate mirrors Greek structure with et dari. Semantically identical coordination of purpose clauses with minor morphological variation."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -176,7 +184,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek marks the recipients with the dative article plus substantival adjective τοῖς πτωχοῖς ('to the poor'); the Vulgate uses the bare dative pauperibus, and the Peshitta uses the prefixed lamadh-marked ܠܡܣܟܢܐ ('to the poor'), all expressing the indirect object equivalently despite the differing case/particle morphology."
     },
     {
       "greek_nt": [
@@ -186,9 +196,9 @@
       "vulgate": [
         12
       ],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "Peshitta omits the coordinating conjunction before the final clause (καὶ ἐνεβριμῶντο / Et fremebant), using asyndetic construction ܘܡܙܕܥܦܝܢ ܗܘܘ where Greek and Latin employ explicit καὶ / Et to introduce the new clause."
+      "note": "The connective καί / Et opening the final clause is rendered in Greek and Latin but is absorbed into the verbal complex in the Peshitta, where the next word ܘܡܙܕܥܦܝܢ already carries the prefixed waw; the conjunction is thus present in Syriac as a proclitic rather than a separate token."
     },
     {
       "greek_nt": [
@@ -203,7 +213,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses simple imperfect ἐνεβριμῶντο; Peshitta employs periphrastic imperfect ܡܙܕܥܦܝܢ ܗܘܘ (participle + 'were'); Vulgate uses simple imperfect fremebant. Identical aspectual meaning expressed through different verbal constructions typical of each language."
+      "note": "Greek ἐνεβριμῶντο is a single imperfect 3rd-plural ('they were murmuring/scolding'); the Peshitta again uses periphrasis with participle plus auxiliary ܡܙܕܥܦܝܢ ܗܘܘ to express the durative past; the Vulgate fremebant matches the Greek single imperfect."
     },
     {
       "greek_nt": [
@@ -217,14 +227,14 @@
         15
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses dative αὐτῇ ('at her'); Peshitta uses preposition ܒ with pronominal suffix ܒܗ ('against her'); Vulgate uses preposition in with accusative eam ('against her'). All three express the same indirect object relationship with language-specific case/prepositional systems."
+      "type": "construction",
+      "note": "Greek uses the bare dative αὐτῇ with the verb of rebuking ('at her'); the Vulgate makes the object explicit with a prepositional phrase in eam ('against her'), and the Peshitta uses the prefixed ܒܗ ('at/against her') — the same indirect-object relationship expressed by differing prepositional vs. plain-case strategies."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.034875+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.452440+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

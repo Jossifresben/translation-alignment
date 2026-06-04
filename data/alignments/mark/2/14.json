@@ -75,21 +75,32 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
         0,
-        1,
-        2
+        1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction + participle (Καὶ παράγων); Vulgate employs conjunction + temporal clause (Et cum præteriret); Peshitta uses conjunction + temporal particle + finite verb (ܘܟܕ ܥܒܪ). All three express the same temporal-circumstantial sense with different syntactic strategies."
+      "note": "Greek opens with the simple coordinating conjunction Καὶ followed by a participle; Syriac ܘܟܕ ('and when') and Latin Et cum both render the temporal nuance explicitly with a subordinating particle, converting the Greek paratactic participle into a temporal clause."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek παράγων is a present participle ('passing by'); Latin præteriret is an imperfect subjunctive governed by cum, and Syriac ܥܒܪ is a perfect verb within the ܟܕ-clause. The temporal subordination in the versions replaces the Greek participial construction with finite verbs."
     },
     {
       "greek_nt": [
@@ -105,110 +116,197 @@
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5,
-        6
+        3
       ],
       "peshitta": [
-        3,
-        4,
-        5
+        3
       ],
       "vulgate": [
-        4,
-        5
+        4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses double article construction (Λευὶν τὸν τοῦ Ἁλφαίου) with accusative article + genitive article; Peshitta employs construct state (ܠܠܘܝ ܒܪ ܚܠܦܝ, 'Levi son-of Alphaeus'); Vulgate uses simple genitive (Levi Alphæi) without articles. All three identify Levi as son of Alphaeus with tradition-specific syntax."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        7,
+        4,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses 'the son of Alphaeus' with a double article construction (τὸν τοῦ Ἁλφαίου), the noun 'son' being implied; Syriac supplies the explicit noun ܒܪ ('son'), while the Latin omits any word for 'son' and renders the filiation by the bare genitive Alphæi."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses participle + preposition + article + noun (καθήμενον ἐπὶ τὸ τελώνιον); Vulgate mirrors with participle + preposition + noun (sedentem ad telonium); Peshitta employs relative particle + finite verb + construct phrase (ܕܝܬܒ ܒܝܬ ܡܟܣܐ, 'who-sits house-of tax-collection'). The Syriac idiom ܒܝܬ ܡܟܣܐ ('house of tax') is a locative construct equivalent to Greek/Latin 'tax booth.'"
+      "type": "lexical",
+      "note": "Greek τὸ τελώνιον is a single noun for the 'tax-office/booth' governed by ἐπὶ; Syriac renders it as a construct phrase ܒܝܬ ܡܟܣܐ ('house of taxes/tolls'), an idiomatic Semitic compound, while Latin telonium is a direct loan from the same Greek noun governed by ad."
     },
     {
       "greek_nt": [
-        11,
-        12,
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "Greek historic present λέγει; Syriac ܘܐܡܪ carries the conjunction prefixed and shares the index with the preceding coordinate, Latin uses the perfect ait."
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        9,
-        10,
         11,
         12
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek uses conjunction + present tense verb + dative pronoun with punctuation mark (καὶ λέγει αὐτῷ·); Vulgate inserts colon after pronoun (et ait illi :) to mark direct speech; Peshitta omits explicit punctuation marker. All three introduce Jesus's command identically in sense but differ in discourse-marking conventions."
+      "note": "The dative pronoun 'to him' is attested in all three (αὐτῷ / ܠܗ / illi); the Vulgate additionally marks the speech opening with an explicit colon, which the Greek encodes by the raised dot attached to αὐτῷ·."
     },
     {
       "greek_nt": [
-        14,
-        15
+        14
       ],
       "peshitta": [
         11,
         12
       ],
       "vulgate": [
-        13,
-        14
+        13
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the verb ἀκολούθει ('follow') with dative μοι ('me'); Vulgate employs the synonym sequere ('follow') with accusative me. Peshitta substitutes entirely different lexemes: ܬܐ ܒܬܪܝ ('come after-me'), using the imperative of 'come' + prepositional phrase rather than a 'follow' verb, reflecting a common Syriac idiom for discipleship."
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἀκολούθει μοι is a single imperative verb with dative complement; Syriac renders it idiomatically with two words ܬܐ ܒܬܪܝ ('come after me'), and Latin Sequere likewise needs only one verb, the differing word counts reflecting each language's lexicalisation of 'follow'."
     },
     {
       "greek_nt": [
-        16,
+        15
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "The first-person pronoun complement 'me' (μοι / the suffix of ܒܬܪܝ / me) is shared across traditions."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a participle of rising (ἀναστὰς / surgens) subordinated to the main verb; Syriac coordinates two finite perfects ܘܩܡ ('and he rose') sharing the conjunction index, a typical Syriac preference for parataxis over the Greek aorist participle."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
         17,
-        18,
+        18
+      ],
+      "variant": "aligned",
+      "note": "Greek aorist ἠκολούθησεν; Syriac perfect ܐܙܠ ('went'); Latin perfect periphrastic secutus est, all expressing the completed act of following."
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
-        13,
-        14,
         15
       ],
       "vulgate": [
-        15,
-        16,
-        17,
-        18,
         19
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek uses conjunction + aorist participle + aorist verb + dative pronoun (καὶ ἀναστὰς ἠκολούθησεν αὐτῷ, 'and having-arisen he-followed him'); Vulgate mirrors this structure (Et surgens secutus est eum). Peshitta expands with two finite verbs: ܘܩܡ ܐܙܠ ܒܬܪܗ ('and he-arose, he-went after-him'), making the motion explicit with ܐܙܠ ('went') where Greek/Latin use only 'followed,' and employing the prepositional phrase ܒܬܪܗ ('after-him') to match the earlier ܒܬܪܝ idiom."
+      "variant": "aligned",
+      "note": "The dative/accusative pronoun 'him' closes the verse (αὐτῷ / the suffix of ܒܬܪܗ / eum); the Greek paragraph marker ¶ has no equivalent in the other witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.953474+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.522466+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

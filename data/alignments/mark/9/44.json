@@ -54,8 +54,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -71,35 +70,23 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs an article + noun + genitive pronoun construction (ὁ σκώληξ αὐτῶν); Syriac uses a bound-state construct with pronominal suffix (ܕܬܘܠܥܗܘܢ, 'their-worm'); Vulgate follows Greek word order but omits the article, as Latin lacks definite articles."
+      "note": "Greek expresses 'their worm' analytically with article + noun + genitive pronoun (ὁ σκώληξ αὐτῶν), and Latin similarly with vermis eorum; Syriac ܕܬܘܠܥܗܘܢ compresses the whole phrase into a single word bearing the 3mp pronominal suffix, a typical Semitic synthetic construction."
     },
     {
       "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        4,
         5
       ],
       "peshitta": [
+        2,
         3
       ],
       "vulgate": [
+        3,
         4
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek τελευτᾷ (G5053, 'comes to an end, dies') is rendered by Syriac ܡܝܬܐ (participle 'dying') and Latin moritur ('dies'); the Syriac employs a participial construction where Greek and Latin use finite verbs, though all three convey cessation of life."
+      "note": "All three negate the verb 'to die', but Greek uses τελευτάω ('comes to an end, dies') whereas Syriac employs the bare root m-w-th and Latin morior; the renderings are semantically equivalent though Greek's lexeme is slightly more euphemistic."
     },
     {
       "greek_nt": [
@@ -111,53 +98,43 @@
       "vulgate": [
         5
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ τὸ πῦρ ('and the fire') uses a coordinating conjunction with article; Syriac ܘܢܘܪܗܘܢ ('and their-fire') incorporates the possessive suffix directly onto the noun; Vulgate et ignis mirrors Greek structure but again omits the article, maintaining semantic equivalence through different morphosyntactic means."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         7,
         8
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek τὸ πῦρ and Latin ignis present 'the fire' without possessor, while Syriac ܘܢܘܪܗܘܢ ('and their fire') again synthesises conjunction, noun and a 3mp suffix into one form, supplying a possessive ('their') absent from the Greek and Latin witnesses."
     },
     {
       "greek_nt": [
-        9
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        7
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        9,
         10
       ],
       "peshitta": [
+        5,
         6
       ],
       "vulgate": [
+        7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The clause 'is not quenched' is rendered with the passive σβέννυται in Greek and the passive extinguitur in Latin, whereas the Syriac root d-e-k ('to be extinguished') in ܕܥܟܐ functions actively/intransitively; the meaning is identical but the diathesis differs."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.236746+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.517824+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -61,8 +61,7 @@
     {
       "greek_nt": [
         0,
-        1,
-        3
+        1
       ],
       "peshitta": [
         0
@@ -73,7 +72,15 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase with article (ἐν τῇ ἀναστάσει); Vulgate mirrors with prepositional phrase (In resurrectione); Syriac employs bare prepositional phrase without article (ܒܩܝܡܬܐ), reflecting typical Semitic lack of definite article in such constructions."
+      "note": "Greek and Latin express the locative with preposition + article + noun (ἐν τῇ ἀναστάσει / In resurrectione), whereas Syriac uses a single prefixed-preposition noun ܒܩܝܡܬܐ, the inseparable proclitic ܒ subsuming the function of both preposition and article in a typical Semitic synthetic form."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -85,8 +92,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -100,25 +106,34 @@
       ],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek includes temporal clause ὅταν ἀναστῶσιν ('when they rise'), mirrored by Vulgate cum resurrexerint; Peshitta omits this subordinate clause entirely, proceeding directly to the interrogative, creating a more compressed syntax."
+      "note": "The Greek temporal clause ὅταν ἀναστῶσιν ('when they shall rise') is matched by the Latin cum resurrexerint but is entirely absent from the Peshitta, which proceeds directly to the question; this constitutes a genuine Syriac omission of the resurrection sub-clause."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses genitive interrogative τίνος αὐτῶν ('of which of them'); Syriac mirrors with ܕܐܝܢܐ ܡܢܗܘܢ in same order; Vulgate expands to cujus de his ('of which from these'), inserting prepositional phrase de his for emphasis or clarity."
+      "type": "construction",
+      "note": "Greek expresses the partitive with a bare genitive plural αὐτῶν ('of them'); Latin renders it analytically with the preposition de his ('of these'); Syriac uses the suffixed partitive ܡܢܗܘܢ ('of them'), the prefixed ܡܢ governing the pronominal suffix — three idiomatically distinct partitive constructions."
     },
     {
       "greek_nt": [
@@ -130,8 +145,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -144,8 +158,9 @@
         9,
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The interrogative force is carried by the Greek high-point/question mark attached to γυνή and by the Latin's detached question mark token; the Syriac ܐܢܬܬܐ bears no graphic interrogative marker, the question being signalled lexically by the preceding ܕܐܝܢܐ alone."
     },
     {
       "greek_nt": [
@@ -160,7 +175,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + numeral (οἱ ἑπτά, 'the seven'); Vulgate uses bare numeral septem; Syriac employs pronominal suffix construction ܫܒܥܬܝܗܘܢ ('seven-of-them'), integrating the pronoun morphologically rather than as separate word."
+      "note": "Greek uses an articular cardinal οἱ ... ἑπτὰ ('the seven'), Latin a bare cardinal septem; Syriac employs the synthetic suffixed numeral ܫܒܥܬܝܗܘܢ ('the seven of them'), incorporating the pronominal reference within the numeral form rather than as a separate article."
     },
     {
       "greek_nt": [
@@ -172,8 +187,7 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -185,8 +199,9 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔσχον (aorist of ἔχω, 'had/possessed') and Latin habuerunt both denote possession, while Syriac ܢܣܒܘܗ (root s-b-w, 'took/took as wife') foregrounds the act of taking in marriage; the Syriac also incorporates the feminine object suffix ('took her'), absorbing the pronoun lexically."
     },
     {
       "greek_nt": [
@@ -198,15 +213,15 @@
         14,
         15
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses pronoun + noun in accusative (αὐτὴν γυναῖκα, 'her as wife'); Vulgate mirrors with eam uxorem; Syriac incorporates the object pronoun as verbal suffix on ܢܣܒܘܗ ('they-took-her'), omitting separate noun for 'wife' as semantically redundant given context."
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek αὐτὴν γυναῖκα ('her as wife') and the equivalent Latin eam uxorem are not separately represented in the Syriac, whose verb ܢܣܒܘܗ already bears the object suffix '-her' and leaves the predicate noun 'as wife' implicit, an idiomatic compression typical of the Peshitta."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.024510+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.516823+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

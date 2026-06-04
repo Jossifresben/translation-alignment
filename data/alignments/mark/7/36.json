@@ -72,7 +72,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
@@ -86,7 +86,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek διαστέλλω ('to charge strictly, command') is rendered by Syriac ܙܗܪ (zahar, 'to warn, admonish') and Latin praecipio ('to instruct, order'). The Syriac root emphasizes caution or warning, while Greek and Latin focus on authoritative command, though all convey Jesus's directive to silence."
+      "note": "Greek διεστείλατο ('he charged, strictly enjoined') and Latin præcepit ('he commanded') are rendered in Syriac by the root z-h-r ('to warn, admonish'), which is prefixed with the conjunction ܘ- and thus shares its index with the conjunction; the Syriac selects a verb of warning rather than of strict instruction, a subtle semantic shading."
     },
     {
       "greek_nt": [
@@ -99,43 +99,70 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "αὐτοῖς / ܐܢܘܢ / illis"
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek introduces the indirect command with the conjunction ἵνα ('that'); Latin uses the negative final conjunction ne directly with the subjunctive. The Syriac has no separate conjunctive particle here, folding the prohibition into the relative clause ܕܠܐܢܫ ('that to no man')."
+    },
+    {
+      "greek_nt": [
+        4
       ],
       "peshitta": [
         2,
-        3,
-        4
+        3
       ],
       "vulgate": [
-        3,
-        4,
-        5
+        4
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses ἵνα + subjunctive (ἵνα μηδενὶ λέγωσιν, 'that to no one they should speak'); Syriac employs ܕ + negative + imperfect (ܕܠܐܢܫ ܠܐ ܢܐܡܪܘܢ, 'that to anyone not they should speak'); Latin uses ne + dative + subjunctive (ne cui dicerent, 'that to anyone they should not speak'). All three express negative purpose, but with tradition-specific syntactic strategies."
+      "note": "Greek μηδενί and Latin cui (after ne) express the indefinite negative 'no one' as a single dative/term; Syriac decomposes this into ܕܠܐܢܫ ('that to a man') plus the negator ܠܐ ('not'), an analytic Syriac construction for 'to no man'."
     },
     {
       "greek_nt": [
-        6,
-        7
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "λέγωσιν / ܢܐܡܪܘܢ / dicerent"
+    },
+    {
+      "greek_nt": [
+        6
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        6,
+        6
+      ],
+      "variant": "aligned",
+      "note": "ὅσον / ܘܟܡܐ / Quanto"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "vulgate": [
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ὅσον δέ ('but as much as') and Latin Quanto autem ('but by how much') both employ correlative comparative constructions. Syriac ܘܟܡܐ ܕ ('and as much as') uses a simpler relative structure without the adversative particle, though the semantic force remains proportional comparison."
+      "type": "omission",
+      "note": "Greek and Latin carry the adversative particle δέ / autem marking the contrast between the prohibition and the heightened proclamation; the Syriac has no corresponding adversative word, the contrast being signalled only by the correlative ܘܟܡܐ ('and however much')."
     },
     {
       "greek_nt": [
@@ -144,28 +171,39 @@
       "peshitta": [
         6
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "omission",
-      "note": "Greek αὐτός ('he himself') and Syriac ܗܘ ('he') explicitly mark the subject pronoun for emphasis. The Vulgate omits the pronoun, relying on verbal inflection (præcipiebat) to convey the third-person subject, a standard Latin stylistic preference."
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "αὐτός / ܕܗܘ / (implicit in præcipiebat)"
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / eis"
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
         7,
-        8,
-        9
+        8
       ],
       "vulgate": [
-        8,
         9
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect διεστέλλετο (singular verb) with dative αὐτοῖς. Syriac employs the participle ܡܙܗܪ with the periphrastic construction ܗܘܐ ܠܗܘܢ ('was warning to them'), a characteristic Syriac way of expressing continuous past action. Latin præcipiebat illis mirrors the Greek imperfect structure."
+      "type": "construction",
+      "note": "Greek imperfect διεστέλλετο and Latin imperfect præcipiebat express durative past action with a single inflected verb; Syriac uses the analytic periphrasis ܡܙܗܪ ܗܘܐ (participle + auxiliary ܗܘܐ) to convey the same continuous past sense."
     },
     {
       "greek_nt": [
@@ -174,10 +212,9 @@
       "peshitta": [
         10
       ],
-      "vulgate": [],
       "variant": "minor",
       "type": "omission",
-      "note": "Greek αὐτοί ('they themselves') and Syriac ܗܢܘܢ ('they') provide emphatic subject pronouns to heighten the contrast between Jesus's command and the crowd's response. Latin omits the pronoun, encoding subject in the verb prædicabant, consistent with Latin's pro-drop syntax."
+      "note": "Greek emphatic nominative αὐτοί and Syriac ܗܢܘܢ ('they themselves') resume the subject for contrast; the Latin omits an explicit resumptive pronoun, the subject being carried by the verb prædicabant alone."
     },
     {
       "greek_nt": [
@@ -193,8 +230,8 @@
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses double comparative adverbs μᾶλλον περισσότερον ('more exceedingly') for rhetorical intensification. Syriac employs the single adverb ܝܬܝܪ ('more, exceedingly'). Latin expands with tanto magis plus ('by so much more, the more'), completing the correlative structure initiated by Quanto autem, creating a balanced Latin period absent in Greek and Syriac."
+      "type": "expansion",
+      "note": "Greek pairs two intensifiers μᾶλλον περισσότερον ('all the more abundantly'), a redundant double comparative; Latin renders this with the correlative tanto magis plus an additional plus ('so much the more, more'), preserving the emphatic pleonasm, whereas Syriac compresses it to the single ܝܬܝܪ ('more, exceedingly')."
     },
     {
       "greek_nt": [
@@ -207,25 +244,29 @@
       "vulgate": [
         13
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἐκήρυσσον (imperfect active, 'they were proclaiming') is matched by Latin prædicabant (imperfect active). Syriac uses the participle ܡܟܪܙܝܢ with auxiliary ܗܘܘ ('they were proclaiming'), the standard Syriac periphrastic construction for past continuous aspect."
+      "variant": "aligned",
+      "note": "Greek imperfect ἐκήρυσσον matched by Syriac periphrastic ܡܟܪܙܝܢ ܗܘܘ (participle + auxiliary) and Latin imperfect prædicabant."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        5
+      ],
       "vulgate": [
+        5,
         14
+      ],
+      "peshitta": [
+        4
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate concludes with a colon (:), signaling continuation into the following verse, whereas Greek uses a period and Syriac employs no explicit punctuation marker. This reflects Latin manuscript tradition's rhetorical linking of pericopes."
+      "note": "The Vulgate marks a full stop after dicerent and closes the verse with a colon, dividing the verse into two sentences; the Greek uses a raised dot (·) after λέγωσιν and a period at the close, while the Syriac carries no internal punctuation, presenting a continuous correlative clause."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.993412+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.543444+00:00",
+    "confidence": 0.74,
     "schema_version": 1
   }
 }

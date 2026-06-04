@@ -48,20 +48,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places πάντα before the demonstrative ταῦτα ('all these'), while Peshitta reverses the order (ܗܠܝܢ ܟܠܗܝܢ 'these all'), and Vulgate follows Greek word order (Omnia hæc). This represents a stylistic preference in Syriac for demonstrative-first constructions without semantic difference."
+      "note": "All three attest the totalising adjective πᾶς / ܟܠ / omnis, but the Peshitta reverses the demonstrative-quantifier order (placing ܗܠܝܢ 'these' before ܟܠܗܝܢ 'all'), whereas Greek and Latin lead with the quantifier. The Syriac feminine plural ܟܠܗܝܢ agrees with the feminine plural noun ܒܝܫܬܐ, a grammatical concord absent from the neuter Greek and Latin."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ταῦτα / ܗܠܝܢ / hæc."
     },
     {
       "greek_nt": [
@@ -74,8 +85,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek substantivises the adjective with the neuter article (τὰ πονηρά, 'the evil things'); Latin uses the bare neuter plural adjective mala; Syriac employs the feminine plural noun ܒܝܫܬܐ ('evils/wicked things') without an article, reflecting the determinate emphatic state. Semantically equivalent but morphologically distinct."
     },
     {
       "greek_nt": [
@@ -83,7 +95,8 @@
       ],
       "peshitta": [
         3,
-        4
+        4,
+        5
       ],
       "vulgate": [
         3,
@@ -91,14 +104,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the adverb ἔσωθεν ('from within') as a single lexeme, whereas both Peshitta (ܡܢ ܠܓܘ) and Vulgate (ab intus) employ prepositional phrases with two tokens. The constructions are semantically equivalent, reflecting the target languages' preference for analytic expression of source/origin."
+      "note": "The single Greek adverb ἔσωθεν ('from within') is analysed by both Latin (ab intus, preposition + adverb) and Syriac (ܡܢ ܠܓܘ ܗܘ, preposition + 'inside' + resumptive pronoun ܗܘ) into multi-word locative phrases. The Syriac resumptive ܗܘ functions as a clausal pivot and has no direct counterpart in Greek or Latin."
     },
     {
       "greek_nt": [
         5
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
@@ -106,7 +118,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek ἐκπορεύεται is third-person singular present middle/passive; Peshitta ܗܘ ܢܦܩܢ employs the participial pronoun ܗܘ with plural verb ܢܦܩܢ, creating a periphrastic construction that agrees with the plural subject 'evils'. Vulgate procedunt uses third-person plural, agreeing with mala. The Peshitta construction reflects Syriac's tendency toward analytic verbal forms."
+      "note": "Greek ἐκπορεύεται and Latin procedunt render 'go forth/proceed', but the Greek is third-person singular (agreeing with the neuter plural subject per the Attic τὰ πάντα... rule) while the Latin is plural; the Syriac ܢܦܩܢ is feminine plural, agreeing with the feminine plural subject ܒܝܫܬܐ. The number/gender of the verb thus tracks each language's distinct concord rules."
     },
     {
       "greek_nt": [
@@ -119,7 +131,8 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "καί / ܘ- / et."
     },
     {
       "greek_nt": [
@@ -131,8 +144,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The defiling verb (κοινοῖ 'defiles/makes common', communicant, ܡܣܝܒܢ) is here prefixed in the Peshitta to the same token bearing the conjunction (ܘܡܣܝܒܢ), again inflected feminine plural to agree with ܒܝܫܬܐ, against the singular Greek κοινοῖ. Latin communicant matches the plural number but, like Greek, lacks gender marking."
     },
     {
       "greek_nt": [
@@ -148,13 +162,13 @@
       ],
       "variant": "minor",
       "type": "gloss",
-      "note": "Peshitta inserts the pronominal suffix ܠܗ ('to him') before ܠܒܪܢܫܐ ('the man'), creating an emphatic dative construction absent in both Greek (τὸν ἄνθρωπον, simple accusative) and Vulgate (hominem, accusative). This represents a Syriac stylistic intensification clarifying the object of defilement without altering the core meaning."
+      "note": "The object 'the man' is expressed by Greek τὸν ἄνθρωπον and Latin hominem; the Peshitta adds a proleptic object pronoun ܠܗ ('him') anticipating the explicit ܠܒܪܢܫܐ, a characteristic Syriac double-object construction with no equivalent in the Greek or Latin. The Greek paragraph marker (¶) is editorial."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.991163+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.458244+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -89,29 +89,38 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb. This is a common Syriac stylistic preference, avoiding redundant conjunctions where narrative flow is clear from context."
+      "note": "Greek and Latin open with the connective καί / Et, paratactically linking the pericope; the Peshitta omits the conjunction entirely, beginning asyndetically with the verb ܐܡܪ, a typical Syriac narrative style that does not require an initial coordinating particle."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "εἶπεν / ܐܡܪ / ait"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "αὐτοῖς / ܠܗܘܢ / illis"
     },
     {
       "greek_nt": [
@@ -122,48 +131,78 @@
         2
       ],
       "vulgate": [
-        3,
-        4
+        3
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the article ὁ before Ἰησοῦς, which Latin mirrors with punctuation (colon after Jesus). The Peshitta lacks both article and punctuation marker, treating the proper name as definite by nature—a typical Semitic construction."
+      "note": "Greek prefixes the articular ὁ Ἰησοῦς, a Semitic-flavoured but grammatically Greek determiner; both the Peshitta (ܝܫܘܥ) and the Vulgate (Jesus) render the name anarthrously, as neither language carries the proper-noun article in this construction."
     },
     {
       "greek_nt": [
-        5,
-        6
-      ],
-      "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        5,
-        6
+        4
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the negative particle μή with δύνανται in a rhetorical question expecting a negative answer. Latin Numquid and Syriac ܠܡܐ both function as interrogative particles expecting negation, though the Syriac construction places the negative ܠܐ at the end of the clause rather than initially."
+      "type": "punctuation",
+      "note": "The Greek raised dot after Ἰησοῦς· and the Latin colon both mark the transition into direct discourse; the Peshitta supplies no orthographic punctuation here, so the index is absorbed into the name token."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "Interrogative negative μή / ܠܡܐ / Numquid expecting a negative answer."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "δύνανται / ܡܫܟܚܝܢ / possunt"
     },
     {
       "greek_nt": [
         7,
-        8,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun οἱ υἱοί and Latin the bare filii ('sons'); the Peshitta condenses to the single suffixed form ܒܢܘܗܝ ('his sons'), the pronominal suffix anticipating the genitive 'of the bridechamber' that follows."
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular genitive construction οἱ υἱοὶ τοῦ νυμφῶνος ('the sons of the bridechamber'), which Latin mirrors with filii nuptiarum (genitive plural). The Peshitta employs a construct state ܒܢܘܗܝ ܕܓܢܘܢܐ with pronominal suffix, a more compact Semitic idiom expressing the same possessive relationship."
+      "type": "lexical",
+      "note": "Greek νυμφῶνος ('bridechamber') and Vulgate nuptiarum ('of the wedding/nuptials') both render the genitive; the Peshitta ܕܓܢܘܢܐ derives from the root g-n-n ('canopy, bridal chamber'), preserving the concrete architectural image closer to the Greek than the abstract Latin."
     },
     {
       "greek_nt": [
@@ -190,7 +229,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a relative clause construction ἐν ᾧ ὁ νυμφίος μετ᾽ αὐτῶν ἐστιν ('in which the bridegroom is with them'), which Latin renders with quamdiu + present indicative. The Peshitta uses a temporal clause ܟܡܐ ܕܚܬܢܐ ܥܡܗܘܢ ܗܘ ('as long as the bridegroom is with them'), achieving semantic equivalence through different syntactic means."
+      "note": "Greek frames the temporal clause as ἐν ᾧ ὁ νυμφίος μετ' αὐτῶν ἐστιν ('during which the bridegroom is with them'); the Vulgate parallels it with quamdiu sponsus cum illis est, while the Peshitta compresses to ܟܡܐ ܕܚܬܢܐ ܥܡܗܘܢ ܗܘ, using the indeclinable relative ܕ plus enclitic ܗܘ in place of the explicit copula and locative pronoun — semantically equivalent but syntactically tighter."
     },
     {
       "greek_nt": [
@@ -200,76 +239,63 @@
         11
       ],
       "vulgate": [
-        14,
+        14
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek infinitive νηστεύειν and Latin infinitive jejunare express the complement of 'are able'; the Peshitta employs the finite imperfect ܕܢܨܘܡܘܢ ('that they should fast'), since Syriac normally renders a complementary infinitive by ܕ + imperfect rather than by a true infinitive."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "vulgate": [
         15
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Greek marks the rhetorical question with a semicolon after νηστεύειν, while Latin uses a full question mark. The Peshitta integrates this into the continuous clause structure without explicit punctuation, relying on the interrogative particle ܠܡܐ to signal the question."
+      "note": "The Greek question mark after νηστεύειν; and the freestanding Latin question mark both close the rhetorical question; the Peshitta marks the interrogative lexically with ܠܡܐ alone and provides no terminal punctuation token."
     },
     {
       "greek_nt": [
         19,
-        20
-      ],
-      "peshitta": [
-        7
-      ],
-      "vulgate": [
-        16,
-        17
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the temporal phrase ὅσον χρόνον ('as long as time') at the beginning of the second clause, while Latin uses Quanto tempore in the same position. The Peshitta front-loads this temporal marker ܟܡܐ earlier in the verse (aligned with the relative clause), demonstrating a preference for temporal information preceding the main verbal action."
-    },
-    {
-      "greek_nt": [
+        20,
         21,
         22,
         23,
         24,
-        25
-      ],
-      "peshitta": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "vulgate": [
-        18,
-        19,
-        20
-      ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses ἔχουσιν τὸν νυμφίον μετ᾽ αὐτῶν ('they have the bridegroom with them'), which Latin renders as habent secum sponsum. The Peshitta, however, does not repeat this clause, having already expressed the temporal condition with ܟܡܐ ܕܚܬܢܐ ܥܡܗܘܢ ܗܘ in the earlier part of the verse—a compression that avoids redundancy while maintaining semantic completeness."
-    },
-    {
-      "greek_nt": [
+        25,
         26,
         27,
         28
       ],
-      "peshitta": [
-        11,
-        12
-      ],
       "vulgate": [
+        16,
+        17,
+        18,
+        19,
+        20,
         21,
         22,
         23
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the negative οὐ before the verb δύνανται νηστεύειν, which Latin mirrors with non possunt jejunare. The Peshitta positions the infinitive ܕܢܨܘܡܘܢ before the negative ܠܐ, reflecting the Syriac preference for verb-final negative placement in subordinate constructions."
+      "variant": "major",
+      "type": "omission",
+      "note": "The entire second clause — ὅσον χρόνον ἔχουσιν τὸν νυμφίον μετ' αὐτῶν οὐ δύνανται νηστεύειν / Quanto tempore habent secum sponsum, non possunt jejunare — is preserved in the Greek and Latin but wholly absent from the Peshitta, which ends abruptly after the negation ܠܐ. This omission is attested in part of the Syriac tradition and likely reflects a shorter Vorlage or homoeoteleuton on the repeated 'bridegroom...fast' material; the Peshitta's stray final ܠܐ ('not') may be the vestigial trace of this lost clause."
+    },
+    {
+      "peshitta": [
+        12
+      ],
+      "variant": "added",
+      "type": "omission",
+      "note": "The dangling Peshitta ܠܐ ('not') has no syntactic completion within the transmitted text; it appears to be the surviving fragment of the truncated negative clause οὐ δύνανται νηστεύειν, the remainder of which has dropped out, leaving an isolated negator at the verse end."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.954744+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.560644+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

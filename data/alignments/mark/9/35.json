@@ -74,19 +74,36 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses conjunction + aorist participle (Καὶ καθίσας); Peshitta employs simple waw-consecutive perfect (ܘܝܬܒ); Vulgate mirrors Greek structure with conjunction + present participle (Et residens). All three convey the same temporal sequence but with different aspectual nuances."
+      "note": "Greek καθίσας and Latin residens are both aorist/present participles ('having sat down'); Syriac ܘܝܬܒ is a finite verb coordinated with the following clause, the participial nuance being expressed paratactically — a typical Semitic construction."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "variant": "added",
+      "note": "The Peshitta supplies the explicit subject ܝܫܘܥ ('Jesus'), absent from both the Greek and Latin where the subject is carried only by the third-person verb. Such nominal clarification of the agent is a regular Syriac translational tendency."
     },
     {
       "greek_nt": [
@@ -111,46 +128,84 @@
       "vulgate": [
         3
       ],
+      "variant": "minor",
+      "note": "Greek articular τοὺς δώδεκα and Latin duodecim render 'the Twelve'; Syriac ܠܬܪܥܣܪ carries the object marker ܠ prefixed to the numeral, the article being unexpressed since Syriac lacks a definite article and signals definiteness contextually."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7
+        6
       ],
       "peshitta": [
-        4,
-        5
+        4
       ],
       "vulgate": [
-        4,
-        5,
-        6,
-        7
+        5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs καὶ + present indicative λέγει with dative pronoun (καὶ λέγει αὐτοῖς); Peshitta uses simple waw + perfect ܘܐܡܪ ܠܗܘܢ; Vulgate adds conjunction + perfect ait illis with colon punctuation. The Vulgate's colon formally marks direct discourse, while Greek uses a raised dot and Peshitta has no explicit punctuation marker."
+      "note": "Greek uses the historic present λέγει ('he says'), preserved in the vivid narrative style; Latin ait and Syriac ܘܐܡܪ render it as a simple past, normalising the tense in keeping with their narrative conventions."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        7
       ],
       "peshitta": [
+        5
+      ],
+      "vulgate": [
         6,
         7
       ],
+      "variant": "minor",
+      "note": "The Greek high-point (·) and Latin colon mark the introduction of direct speech; the Vulgate represents this with a separate punctuation token, whereas Syriac ܠܗܘܢ ('to them') carries no orthographic equivalent to the speech marker."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
-        8,
-        9,
-        10
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses conditional particle εἴ + indefinite pronoun τις + present indicative θέλει; Peshitta employs relative pronoun ܡܢ + participle ܕܨܒܐ (literally 'whoever desires'); Vulgate mirrors Greek with Si quis vult. The Peshitta construction is a typical Semitic relative clause functioning as a conditional protasis."
+      "note": "Greek εἴ τις and Latin si quis form a conditional clause ('if anyone'); Syriac fuses the indefinite pronoun and conditional sense into ܡܢ ('whoever') introducing a relative-conditional construction, semantically equivalent but syntactically a headless relative."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -165,7 +220,8 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek πρῶτος εἶναι and Latin primus esse use an adjective plus infinitive ('to be first'); Syriac ܕܢܗܘܐ ܩܕܡܝܐ employs a subordinating ܕ + imperfect ('that he should be first'), a finite complement clause replacing the infinitival construction."
     },
     {
       "greek_nt": [
@@ -181,21 +237,30 @@
     },
     {
       "greek_nt": [
-        14,
-        15
+        14
       ],
       "peshitta": [
-        11,
         12,
         13
       ],
       "vulgate": [
-        14,
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek πάντων and Latin omnium use the substantival genitive plural ('of all'); Syriac renders this with ܕܟܠ ܐܢܫ ('of every man/person'), making the implicit human referent explicit through the addition of ܐܢܫ."
+    },
+    {
+      "greek_nt": [
         15
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek and Vulgate use genitive plural πάντων / omnium ('of all') with adjective ἔσχατος / novissimus ('last'). Peshitta expands with ܐܚܪܝܐ ܕܟܠ ܐܢܫ ('last of every person'), adding the explicit noun ܐܢܫ ('person/man') to clarify the referent—a characteristic Syriac explicitation for abstract genitives."
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "note": "All three attest 'last' (ἔσχατος / novissimus / ܐܚܪܝܐ); the Syriac places ܐܚܪܝܐ before its qualifying genitive ܕܟܠ ܐܢܫ, a word-order difference from the Greek and Latin where the genitive πάντων / omnium precedes the predicate."
     },
     {
       "greek_nt": [
@@ -211,27 +276,36 @@
     },
     {
       "greek_nt": [
-        17,
-        18
+        17
       ],
       "peshitta": [
-        14,
         15,
         16
       ],
       "vulgate": [
-        17,
+        17
+      ],
+      "variant": "minor",
+      "note": "As in the previous clause, Greek πάντων and Latin omnium ('of all') are expanded in Syriac to ܕܟܠ ܐܢܫ ('of every man'), supplying the explicit human noun absent in the other two traditions."
+    },
+    {
+      "greek_nt": [
         18
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek and Vulgate use genitive plural πάντων / omnium ('of all') with noun διάκονος / minister ('servant'). Peshitta again expands with ܡܫܡܫܢܐ ܕܟܠ ܐܢܫ ('servant of every person'), repeating the explicit noun ܐܢܫ for parallelism with the preceding clause—a stylistic doubling absent from Greek and Latin witnesses."
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "minor",
+      "note": "Greek διάκονος and Latin minister denote 'servant'; Syriac ܡܫܡܫܢܐ derives from the root of ministering/serving and later becomes the technical term for 'deacon', here carrying the proto-ecclesiastical sense of the Greek lexeme."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.235207+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.509768+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

@@ -66,20 +66,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὑπερπερισσῶς (compound adverb 'exceedingly beyond measure') is rendered by Peshitta ܘܝܬܝܪܐܝܬ ('and exceedingly') and Vulgate 'et eo amplius' ('and the more so'), both employing two-word constructions to convey the intensified adverbial force."
+      "note": "Greek ὑπερπερισσῶς ('beyond all measure') is a single intensive adverb; the Vulgate renders it analytically with eo amplius ('the more'), while the Syriac ܘܝܬܝܪܐܝܬ ('and exceedingly') fuses the preceding καί and the adverb into one prefixed word. The divergence is purely one of intensifier construction, not meaning."
     },
     {
       "greek_nt": [
@@ -93,8 +102,7 @@
         3
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect middle-passive ἐξεπλήσσοντο; Peshitta employs periphrastic construction ܡܬܕܡܪܝܢ ܗܘܘ (participle + auxiliary 'were being astonished'); Vulgate uses imperfect admirabantur — all three express ongoing past astonishment with tradition-specific verbal morphology."
+      "note": "Greek imperfect ἐξεπλήσσοντο ('they were astonished') is matched in Latin by admirabantur, but Syriac employs the periphrastic ܡܬܕܡܪܝܢ ܗܘܘ (participle plus enclitic ܗܘܘ), a typical Syriac construction expressing durative past action."
     },
     {
       "greek_nt": [
@@ -108,42 +116,58 @@
         5
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek λέγοντες has raised dot (·) marking direct discourse; Peshitta ܘܐܡܪܝܢ lacks punctuation; Vulgate dicentes is followed by a colon (:) — functionally equivalent introductions to quoted speech with tradition-specific punctuation conventions."
+      "note": "Greek λέγοντες and Syriac ܘܐܡܪܝܢ are participial; the Syriac additionally prefixes the conjunction (waw). The Vulgate dicentes is followed by an editorial colon token, reflecting Clementine punctuation introducing direct speech."
     },
     {
       "greek_nt": [
-        4,
-        5,
+        4
+      ],
+      "peshitta": [
         6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek καλῶς and Latin Bene stand at the head of the clause, whereas Syriac ܫܦܝܪ follows its object phrase; this reflects differing default placement of the manner-adverb relative to the verb across the traditions."
+    },
+    {
+      "greek_nt": [
+        5
       ],
       "peshitta": [
         4,
-        5,
-        6,
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek πάντα ('all things', neuter plural) and Latin omnia are single words, while Syriac expresses the same notion with the analytic phrase ܕܟܠ ܡܕܡ ('everything', literally 'of all thing'), the standard Syriac idiom for the universal neuter."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
         7
       ],
       "vulgate": [
-        6,
-        7,
-        8,
-        9
+        8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places adverb before object (καλῶς πάντα πεποίηκεν); Peshitta uses ܕܟܠ ܡܕܡ ܫܦܝܪ ܥܒܕ ('that everything well he-did') with object-adverb-verb order; Vulgate Bene omnia fecit mirrors Greek order — semantically identical with stylistic reordering in Syriac."
+      "note": "Greek uses the perfect πεποίηκεν ('he has done'), emphasising completed action with present result; both Latin fecit and Syriac ܥܒܕ are simple preterites, neither preserving the resultative force of the Greek perfect."
     },
     {
       "greek_nt": [
         7
       ],
-      "peshitta": [],
       "vulgate": [
+        9,
         10
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Vulgate use coordinating conjunction καί/et ('both...and') to introduce the first exemplum; Peshitta omits the conjunction, employing asyndetic construction with direct object ܠܚܪܫܐ ('the deaf') — a typical Syriac stylistic preference for parataxis without explicit coordination."
+      "note": "Greek correlative καί ('both') has no Syriac equivalent here, the Peshitta omitting it; the Vulgate marks the clause boundary with a colon and renders the conjunction as et, dividing the sentence differently."
     },
     {
       "greek_nt": [
@@ -156,24 +180,33 @@
       "vulgate": [
         11
       ],
+      "variant": "minor",
+      "note": "Greek uses article plus substantivised adjective τοὺς κωφούς ('the deaf'); both the Latin surdos and the Syriac ܠܚܪܫܐ render this anarthrously with the object marker, the Syriac prefixing the preposition lamadh to mark the direct object."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        10,
         11
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses present indicative ποιεῖ with infinitive ἀκούειν ('he makes to hear'); Peshitta employs ܥܒܕ ܕܢܫܡܥܘܢ (perfect + subjunctive 'he made that they should hear'); Vulgate fecit audire (perfect + infinitive) — all express causative action with tradition-specific complementation strategies."
+      "note": "Greek and Latin use the bare infinitive (ἀκούειν / audire) as complement of 'makes'; Syriac instead employs a finite subjunctive clause ܕܢܫܡܥܘܢ ('that they should hear'), the characteristic Syriac substitute for the Greek complementary infinitive."
     },
     {
       "greek_nt": [
@@ -185,9 +218,7 @@
       "vulgate": [
         14
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καί and Vulgate et are simple coordinating conjunctions; Peshitta ܘܕܠܐ ܡܡܠܠܝܢ ('and those-not speaking') employs a negative relative construction where Greek and Latin use the adjective ἀλάλους/mutos ('mute'), reflecting Syriac preference for verbal periphrasis over adjectival predication."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -195,14 +226,14 @@
         14
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek τοὺς ἀλάλους (article + adjective 'the mute ones') and Vulgate mutos (adjective) are substantivized adjectives; Peshitta ܕܠܐ ܡܡܠܠܝܢ ('who do not speak') uses a negative participial relative clause — semantically equivalent but syntactically distinct, typical of Syriac's preference for verbal over adjectival constructions."
+      "note": "Greek τοὺς ἀλάλους ('the mute') is rendered by Latin mutos and by the Syriac relative construction ܘܕܠܐ ܡܡܠܠܝܢ ('and those who do not speak'), the Peshitta paraphrasing the adjective with a negated participial clause."
     },
     {
       "greek_nt": [
@@ -214,13 +245,14 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek and Latin again use the infinitive (λαλεῖν / loqui), while Syriac repeats its finite-clause strategy with ܕܢܡܠܠܘܢ ('that they should speak'); the Greek paragraph marker (¶) is editorial and has no counterpart in the other witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.993596+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.444316+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

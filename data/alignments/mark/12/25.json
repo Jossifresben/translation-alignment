@@ -70,76 +70,118 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "ὅταν / ܡܐ / Cum"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "γάρ / ܓܝܪ / enim"
     },
     {
       "greek_nt": [
         2,
-        3,
-        4
+        3
       ],
       "peshitta": [
-        2,
         3,
         4
       ],
       "vulgate": [
         2,
-        3,
+        3
+      ],
+      "variant": "aligned",
+      "note": "ἐκ νεκρῶν / ܡܢ ܡܝܬܐ / a mortuis"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
         4
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek uses prepositional phrase ἐκ νεκρῶν before the verb ἀναστῶσιν; Peshitta and Vulgate place the verb first (ܕܩܡܘ / resurrexerint) followed by the prepositional phrase (ܡܢ ܡܝܬܐ / a mortuis), reflecting typical Semitic and Latin verb-initial syntax."
+      "note": "All three render the aorist/perfect 'they rise from the dead'; the Syriac places the verb ܕܩܡܘ before the prepositional phrase ܡܢ ܡܝܬܐ, inverting the Greek and Latin order in which the verb (ἀναστῶσιν / resurrexerint) follows 'from the dead'. The divergence is purely sequential."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "οὔτε / ܠܐ / neque"
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        5,
         6,
         7
       ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "The Peshitta explicitly supplies the direct object ܢܫܐ ('women') after the verb ܢܣܒܝܢ ('they take/marry'), making the gender dynamics of marriage explicit. Greek γαμοῦσιν and Latin nubent are intransitive or leave the object implicit, focusing on the act of marrying rather than specifying the gender of the spouse."
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek γαμοῦσιν and Latin nubent express 'they marry' with a single verb; the Peshitta uses the periphrastic idiom ܢܣܒܝܢ ܢܫܐ ('they take women/wives'), an explicit object construction characteristic of Syriac, which makes the male subject of the active clause overt."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
         8,
-        9,
+        9
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Where Greek and Latin repeat a single negative conjunction (οὔτε / neque), the Peshitta employs the compound ܐܦ ܠܐ ('and not, neither'), a normal Syriac coordinating negation rather than a substantive difference in sense."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
         10,
         11,
         12
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "The Peshitta renders the passive γαμίζονται with an active periphrastic construction: ܐܦ ܠܐ ܢܫܐ ܗܘܝܢ ܠܓܒܪܐ ('nor do women become [wives] to men'), explicitly naming both genders and using the copula ܗܘܝܢ. Greek and Latin employ passive voice (γαμίζονται / nubentur) without specifying the agent, a more compact idiom."
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek γαμίζονται and Latin nubentur use a single passive verb 'are given in marriage'; the Peshitta paraphrases with ܢܫܐ ܗܘܝܢ ܠܓܒܪܐ ('women become [given] to men'), shifting to a feminine subject and supplying explicit nouns, an idiomatic Syriac expansion that clarifies the implicit gender contrast of the Greek active/passive pair."
     },
     {
       "greek_nt": [
@@ -147,33 +189,55 @@
         10
       ],
       "peshitta": [
-        13,
+        13
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "ἀλλά / ܐܠܐ / sed; the duplicated Greek token (ἀλλ᾽ with transliteration) is a single conjunction."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
         14
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "εἰσὶν / ܐܝܬܝܗܘܢ / sunt"
     },
     {
       "greek_nt": [
-        11,
         12
       ],
       "peshitta": [
-        15,
-        16
+        15
       ],
       "vulgate": [
-        11,
-        12
+        11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ὡς / ܐܝܟ / sicut"
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "ἄγγελοι / ܡܠܐܟܐ / angeli"
+    },
+    {
+      "greek_nt": [
         14,
         15,
         16
@@ -187,13 +251,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an articular prepositional phrase οἱ ἐν τοῖς οὐρανοῖς ('the [ones] in the heavens') with article and plural dative; Latin mirrors this with in cælis; Peshitta employs a genitive construct ܕܒܫܡܝܐ ('of/in heaven'), a typical Semitic idiom that collapses the article and preposition into a single bound form."
+      "note": "Greek uses an articular attributive phrase οἱ ἐν τοῖς οὐρανοῖς ('the [ones] in the heavens') with the plural οὐρανοῖς; Latin renders a bare prepositional phrase in cælis, while the Peshitta compresses the whole into a single relative form ܕܒܫܡܝܐ ('who/that are in heaven'). The Greek article οἱ has no separate equivalent in Latin or Syriac, and the heaven-noun is plural in Greek/Latin but morphologically singular-collective in Syriac."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.024891+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.450137+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

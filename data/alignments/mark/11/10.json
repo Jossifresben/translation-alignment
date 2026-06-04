@@ -53,84 +53,147 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3
+        0
       ],
       "peshitta": [
-        0,
-        1,
-        2,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin open the acclamation asyndetically (εὐλογημένη / benedictum), but the Peshitta prefixes the conjunction waw (ܘ-) to ܒܪܝܟܐ, yielding 'And blessed,' linking this clause syntactically to the preceding Hosanna acclamation in typical Syriac coordinative style."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the feminine article ἡ as part of the substantival participial phrase; the Vulgate renders the relative pronoun quod (neuter, agreeing with regnum) and the Peshitta uses the demonstrative/copular ܗܝ ('it/she [is]'), each tradition resolving the participial attribution differently."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
         3
       ],
       "vulgate": [
-        0,
-        1,
-        2,
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs an attributive present participle ἐρχομένη ('coming'); both the Vulgate (venit) and the Peshitta (ܕܐܬܝܐ, with relative dalath) render this as a finite/relative clause ('which comes'), a standard versional resolution of the Greek attributive participle."
+    },
+    {
+      "greek_nt": [
         3
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "Greek preserves the phrase ἐν ὀνόματι κυρίου ('in the name of the Lord') from Psalm 118:26, which both Peshitta and Vulgate omit entirely. This omission removes the explicit invocation formula, leaving only the blessing upon the kingdom itself."
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "βασιλεία / ܡܠܟܘܬܐ / regnum."
     },
     {
       "greek_nt": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "The prepositional phrase ἐν ὀνόματι κυρίου is absent from both Peshitta and Vulgate witnesses, representing a significant textual divergence from the Greek tradition's fuller citation of the Psalm."
+      "note": "The Greek phrase ἐν ὀνόματι κυρίου ('in the name of the Lord') is entirely absent from both the Peshitta and the Vulgate at this point; these witnesses attach 'of our father David' directly to the kingdom, whereas the Greek qualifies the coming kingdom as that of David, who himself comes 'in the name of the Lord.' Many manuscripts and versions vary here, the shorter reading reflecting a different syntactic linkage."
     },
     {
       "greek_nt": [
-        7,
         8,
-        9,
-        10
+        9
       ],
       "peshitta": [
-        4,
-        5
+        4
       ],
       "vulgate": [
         4,
-        5,
-        6
+        5
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the genitive construction τοῦ πατρὸς ἡμῶν Δαυίδ with article and possessive pronoun; Vulgate mirrors this with patris nostri David; Peshitta uses the construct chain ܕܐܒܘܢ ܕܘܝܕ ('of-our-father David') with pronominal suffix, a typical Semitic compression of the Greek articulated phrase."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τοῦ πατρὸς ἡμῶν / patris nostri / ܕܐܒܘܢ; the Syriac compactly expresses 'of-our-father' with the relative dalath, possessive suffix, all in one form."
     },
     {
       "greek_nt": [
-        11,
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Δαυίδ / ܕܘܝܕ / David."
+    },
+    {
+      "vulgate": [
+        7
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon after David to mark the syntactic boundary between the kingdom-acclamation and the renewed Hosanna; the Greek marks this with a comma after Δαυίδ, and the Peshitta has no punctuation token here."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὡσαννά / ܐܘܫܥܢܐ / hosanna, the transliterated Hebrew/Aramaic acclamation."
+    },
+    {
+      "greek_nt": [
         12,
         13,
         14
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        7,
-        8,
         9,
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses a prepositional phrase with article and adjective ἐν τοῖς ὑψίστοις ('in the highest [places]', plural), mirrored by Latin in excelsis (plural); the Peshitta condenses this to a single noun ܒܡܪܘܡܐ ('in the height/heights'), the prefixed beth supplying the preposition and the noun functioning as a collective for the heavenly heights."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.016884+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.470565+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

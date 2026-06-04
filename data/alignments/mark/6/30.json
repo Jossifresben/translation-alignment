@@ -68,7 +68,8 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / prefixed ܘ / Et"
     },
     {
       "greek_nt": [
@@ -82,7 +83,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present middle-passive indicative συνάγονται ('are gathered together'), emphasizing ongoing or habitual action. Vulgate employs the present active participle convenientes ('gathering'), while Peshitta uses the Ethpael perfect ܘܐܬܟܢܫܘ ('and they gathered'), treating the action as completed — a typical Semitic aspectual preference."
+      "note": "Greek uses a finite present-tense verb συνάγονται ('they are gathered'); the Peshitta likewise employs a finite perfect ܘܐܬܟܢܫܘ ('and they gathered'), but the Vulgate recasts the action as a present participle convenientes ('assembling'), subordinating it to the main verb renuntiaverunt — a syntactic restructuring of the historic-present into a participial circumstance."
     },
     {
       "greek_nt": [
@@ -95,52 +96,71 @@
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article before the noun (οἱ ἀπόστολοι); Vulgate inverts to Apostoli (noun-first, capitalizing for emphasis); Peshitta ܫܠܝܚܐ lacks the article, as Syriac typically omits definite articles in contexts where Greek requires them."
+      "variant": "aligned",
+      "note": "οἱ ἀπόστολοι / ܫܠܝܚܐ / Apostoli"
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "πρός / ܠܘܬ / ad"
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "τὸν Ἰησοῦν / ܝܫܘܥ / Jesum"
     },
     {
       "greek_nt": [
         7
       ],
-      "peshitta": [
-        4
-      ],
+      "peshitta": [],
       "vulgate": [],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek and Peshitta use coordinating conjunctions (καὶ / ܘ) to introduce the reporting verb. Vulgate omits the conjunction, embedding renuntiaverunt asyndetically after the participial phrase convenientes Apostoli — a stylistic preference for subordination over parataxis."
+      "type": "omission",
+      "note": "The Greek coordinates the two clauses with an explicit καί ('and they related'); neither the Peshitta nor the Vulgate render this connective separately, since the Syriac perfect ܘܐܡܪܘ already carries its own prefixed conjunction and the Latin renuntiaverunt stands as the apodosis to the participle. The conjunction is functionally absorbed rather than substantively omitted."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "ἀπήγγειλαν / ܘܐܡܪܘ / renuntiaverunt"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / ei"
     },
     {
       "greek_nt": [
@@ -152,49 +172,70 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "πάντα / ܟܠ / omnia"
     },
     {
       "greek_nt": [
         11,
-        12,
-        13
+        12
       ],
       "peshitta": [
-        7,
-        8
+        7
       ],
       "vulgate": [
-        8,
-        9
+        8
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the conjunction καὶ plus the correlative pronoun ὅσα ('and how much / whatever') governing the verb ἐποίησαν. Peshitta uses the relative particle ܡܐ ܕ ('that which') without an overt conjunction, embedding the clause more tightly. Vulgate uses the relative pronoun quæ ('which things') with asyndeton, omitting the conjunction before the relative clause."
+      "note": "Greek doubles the relative with καὶ ὅσα ('both whatsoever'), an emphatic correlative construction; the Peshitta renders a simple relative ܡܐ ܕ ('what'), and the Vulgate uses the bare relative pronoun quæ. Both versions flatten the Greek's emphatic doubling into a plain relative clause."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "ἐποίησαν / ܕܥܒܕܘ / egerant"
     },
     {
       "greek_nt": [
         14,
-        15,
-        16
+        15
       ],
       "peshitta": [
         9,
-        10,
-        11
+        10
       ],
       "vulgate": [
-        10,
-        11
+        10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek repeats the full structure καὶ ὅσα ἐδίδαξαν ('and whatever they taught'), maintaining parallelism with the preceding clause. Peshitta mirrors this with ܘܟܠ ܡܐ ܕܐܠܦܘ. Vulgate, however, reduces the second clause to et docuerant, omitting the relative pronoun and treating the verb as a simple coordinate — a compression typical of Latin's preference for brevity over Semitic-style repetition."
+      "note": "The Greek again employs the emphatic correlative καὶ ὅσα; the Peshitta preserves the parallel structure with ܘܟܠ ܡܐ ('and all that'), whereas the Vulgate reduces the second member to the mere connective et, allowing docuerant to share the relative quæ of the first clause."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "note": "ἐδίδαξαν / ܕܐܠܦܘ / docuerant"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.982485+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.461765+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

@@ -65,8 +65,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -78,8 +77,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek uses a finite aorist verb (ἐξῆλθεν, 'he went out'); the Vulgate renders with a deponent perfect participle (egressus, 'having gone out') subordinating the departure to the main verb abiit; the Peshitta ܘܢܦܩ is a finite perfect like the Greek but conjoined with the prefixed waw, which it shares with the conjunction Καί. The participial construction in Latin is a stylistic Vulgate preference for sequencing motion verbs."
     },
     {
       "greek_nt": [
@@ -93,8 +92,7 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the adverb ἐκεῖθεν ('from there') as a single lexeme; Peshitta employs the prepositional phrase ܡܢ ܬܡܢ (min taman, 'from there') with explicit preposition; Vulgate uses the adverb inde — all semantically equivalent but syntactically distinct."
+      "note": "Greek ἐκεῖθεν is a single adverb ('from there'); the Peshitta unpacks it analytically as preposition plus locative adverb ܡܢ ܬܡܢ ('from there'), while the Vulgate inde is a single adverb matching the Greek. The Syriac periphrasis is idiomatic and semantically equivalent."
     },
     {
       "greek_nt": [
@@ -103,10 +101,11 @@
       "peshitta": [
         3
       ],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek and Peshitta both attest the coordinating conjunction καί / ܘ ('and') before the second verb; the Vulgate omits this conjunction, using asyndeton between egressus and abiit, a stylistic preference in classical Latin narrative."
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek joins the second clause with an explicit conjunction καί before the historic present ἔρχεται; the Peshitta encodes this conjunction in the prefixed waw of ܘܐܬܐ; the Vulgate, however, supplies no conjunction here, having absorbed the coordination into its participial syntax (egressus...abiit). The clause linkage thus differs structurally across the three witnesses."
     },
     {
       "greek_nt": [
@@ -118,27 +117,37 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek employs the historic present ἔρχεται ('he comes'), a vivid Markan stylistic feature; both the Peshitta ܘܐܬܐ and Vulgate abiit render it with a simple past, neutralising the dramatic present tense. The Latin abiit ('he went away') also shifts the directional nuance from arrival (ἔρχομαι) toward departure."
     },
     {
       "greek_nt": [
         5,
         6,
-        7,
-        8
+        7
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
         4,
-        5,
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek expresses the goal with preposition, article, and noun (εἰς τὴν πατρίδα, 'into the hometown'); the Vulgate mirrors this with in patriam; the Peshitta compresses preposition and noun into a single inflected form ܠܡܕܝܢܬܗ ('to his city'), with the possessive suffix already attached, eliminating the need for a separate pronoun."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
         6
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek and Vulgate use πατρίδα / patriam ('homeland, native region'), a term denoting one's ancestral territory; Peshitta substitutes ܠܡܕܝܢܬܗ (l-mdinteḥ, 'to his city'), specifying an urban locale rather than a broader geographic or ethnic homeland — a substantive lexical divergence with potential interpretive implications."
+      "variant": "aligned",
+      "note": "αὐτοῦ / ܗ (suffix) / suam"
     },
     {
       "greek_nt": [],
@@ -147,8 +156,7 @@
         7
       ],
       "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after suam, marking a rhetorical pause or clause boundary not indicated by Greek or Peshitta punctuation conventions."
+      "note": "The Vulgate inserts a colon here, a medial punctuation mark dividing the verse into two cola. Neither the Greek nor the Syriac transmits punctuation at this point in the underlying critical text, so this is an editorial feature of the Clementine edition."
     },
     {
       "greek_nt": [
@@ -160,8 +168,7 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -175,8 +182,7 @@
         9
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the present indicative ἀκολουθοῦσιν (third-person plural); Vulgate employs the imperfect sequebantur, emphasizing ongoing past action; Peshitta uses the participle ܕܒܝܩܝܢ with the auxiliary ܗܘܘ (periphrastic past progressive) — all convey continuous action but differ in aspectual nuance."
+      "note": "Greek uses the historic present ἀκολουθοῦσιν ('they follow'); the Vulgate renders an imperfect sequebantur ('they were following'). The Peshitta uses a periphrastic construction with active participle ܘܕܒܝܩܝܢ plus the auxiliary ܗܘܘ ('they were cleaving/following'), expressing durative past aspect closely matching the Latin imperfect rather than the Greek present."
     },
     {
       "greek_nt": [
@@ -188,25 +194,34 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         12,
-        13,
+        13
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek marks the subject with article plus noun (οἱ μαθηταί, 'the disciples'); the Vulgate discipuli omits any article per Latin usage; the Peshitta ܬܠܡܝܕܘܗܝ fuses noun and the third-person plural possessive suffix ('his disciples') into one word, supplying the possessive that Greek and Latin express separately."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        11,
         12
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article + noun + possessive pronoun construction (οἱ μαθηταὶ αὐτοῦ); Vulgate mirrors this with discipuli sui; Peshitta employs a bound-state construction ܬܠܡܝܕܘܗܝ (talmidawhy, 'his-disciples') with pronominal suffix — semantically identical but reflecting Semitic vs. Greek/Latin syntactic norms."
+      "variant": "aligned",
+      "note": "αὐτοῦ / ܘܗܝ (suffix) / sui"
     },
     {
       "greek_nt": [],
@@ -215,14 +230,13 @@
         13
       ],
       "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate appends a final colon, marking the verse boundary or preparing for the subsequent pericope; neither Greek nor Peshitta manuscripts typically employ such terminal punctuation in this context."
+      "note": "The Vulgate closes the verse with a colon rather than a full stop, signalling continuation into the following pericope. This punctuation is editorial to the Clementine tradition and has no counterpart in the unpointed Greek or Syriac source text."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.977814+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.467197+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

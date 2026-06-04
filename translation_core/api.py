@@ -303,7 +303,7 @@ def manifest():
             "lexical", "gloss",
         ],
         "alignment_generation": {
-            "model": "claude-sonnet-4-5",
+            "model": "claude-opus-4-8",
             "via": "Anthropic Messages Batch API",
             "benchmark": benchmark,
         },

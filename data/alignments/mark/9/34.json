@@ -60,18 +60,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "note": "Greek postpositive δέ and Syriac ܕܝܢ are adversative connectives; the Vulgate opens with the adversative At, fronting the conjunction to clause-initial position per Latin syntactic norms rather than the postpositive placement of the source."
     },
     {
       "greek_nt": [
@@ -85,16 +95,7 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple imperfect ἐσιώπων; Peshitta employs periphrastic construction ܫܬܝܩܝܢ ܗܘܘ (participle + auxiliary 'were'), a common Syriac idiom for progressive aspect. Latin tacebant mirrors the Greek synthetic form."
-    },
-    {
-      "vulgate": [
-        3
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts colon after tacebant to mark the explanatory clause, a stylistic feature absent in Greek and Peshitta manuscripts which use no punctuation or only a mid-point."
+      "note": "Greek uses the imperfect ἐσιώπων to express durative past silence; Syriac renders this periphrastically with the participle ܫܬܝܩܝܢ plus the auxiliary ܗܘܘ, a standard Syriac construction for continuous past action that the single Latin imperfect tacebant compresses."
     },
     {
       "greek_nt": [
@@ -106,42 +107,28 @@
       "vulgate": [
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek γὰρ appears post-positionally after πρὸς ἀλλήλους; Peshitta ܓܝܪ follows the verb ܐܬܚܪܝܘ; Vulgate siquidem ('seeing that indeed') fronts the causal clause, reflecting Latin preference for clause-initial conjunctions."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         3,
-        4
+        4,
+        6
       ],
       "peshitta": [
+        4,
+        5,
         8,
         9,
         10
       ],
       "vulgate": [
         7,
-        8
-      ],
-      "variant": "minor",
-      "type": "idiom",
-      "note": "Greek πρὸς ἀλλήλους (reciprocal pronoun) and Latin inter se both use standard reciprocal constructions. Peshitta employs the distributive idiom ܚܕ ܥܡ ܚܕ ('one with one'), a characteristic Semitic expression for mutual action."
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4,
-        5
-      ],
-      "vulgate": [
+        8,
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek διελέχθησαν (aorist passive deponent) and Latin disputaverunt (perfect active) use synthetic verb forms. Peshitta again employs periphrastic ܐܬܚܪܝܘ ܗܘܘ (perfect + auxiliary), maintaining aspectual distinction through analytic construction."
+      "note": "Greek expresses reciprocity with πρὸς ἀλλήλους + the aorist διελέχθησαν, and Latin with inter se disputaverunt; Syriac employs the distributive idiom ܚܕ ܥܡ ܚܕ ('one with one') alongside the verb ܐܬܚܪܝܘ ('they disputed') with periphrastic ܗܘܘ, the characteristic Semitic reciprocal construction."
     },
     {
       "greek_nt": [
@@ -159,14 +146,6 @@
       "variant": "aligned"
     },
     {
-      "vulgate": [
-        10
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts second colon before the indirect question quis eorum major esset, marking the shift to reported speech. Greek and Peshitta traditions lack this punctuation distinction."
-    },
-    {
       "greek_nt": [
         10
       ],
@@ -177,17 +156,6 @@
         11
       ],
       "variant": "aligned"
-    },
-    {
-      "peshitta": [
-        13
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta ܒܗܘܢ ('among them') and Vulgate eorum ('of them') make explicit the partitive relationship implicit in Greek τίς μείζων, where the comparative adjective alone implies comparison within the group of disciples."
     },
     {
       "greek_nt": [
@@ -201,14 +169,33 @@
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses comparative adjective μείζων with implied copula; Peshitta ܪܒ employs the positive adjective (Syriac lacks morphological comparative); Vulgate major esset uses comparative with explicit subjunctive copula in indirect question, reflecting Latin syntactic requirements."
+      "note": "Greek μείζων is a bare comparative adjective in the indirect question; Latin supplies the explicit subjunctive copula esset ('who might be greater') to mark the embedded question, whereas Syriac ܪܒ stands without an overt verb, leaving the predication implicit as in the Greek."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "added",
+      "note": "Both the Peshitta (ܒܗܘܢ, 'among them') and the Vulgate (eorum, 'of them') add a partitive pronoun specifying the group, an explicating expansion absent from the Greek NA28 text, which leaves τίς μείζων unqualified."
+    },
+    {
+      "greek_nt": [],
+      "vulgate": [
+        3,
+        10
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts colons as syntactic punctuation marking the clause boundaries; these have no counterpart in the unpointed Greek or Syriac transmission and reflect editorial verse structuring."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.235026+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.506965+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

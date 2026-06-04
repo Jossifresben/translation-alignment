@@ -69,8 +69,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -84,8 +83,8 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "The Peshitta employs a periphrastic construction ܘܒܥܝܢ ܗܘܘ (wəḇāʿēn hwaw, 'and they were beseeching') using the auxiliary verb ܗܘܘ with the active participle, whereas Greek uses the simple aorist παρεκάλεσαν and Latin the imperfect deprecabantur. This reflects a characteristic Syriac preference for analytic verbal forms over synthetic tenses."
+      "type": "construction",
+      "note": "Greek uses the aorist παρεκάλεσαν ('they begged'); Syriac ܘܒܥܝܢ ܗܘܘ employs a participle plus the auxiliary ܗܘܘ to form a periphrastic past durative ('they were beseeching'), while the Latin imperfect deprecabantur likewise renders an iterative/durative aspect — a stylistic divergence in aspect rather than meaning."
     },
     {
       "greek_nt": [
@@ -97,12 +96,19 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek attests πάντες ('all the demons'); both the Peshitta and the Vulgate omit any equivalent of 'all', reading simply 'the demons/spirits', a shorter text reflecting either a non-emphatic Vorlage or stylistic compression."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
@@ -113,9 +119,9 @@
       "vulgate": [
         3
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek specifies πάντες οἱ δαίμονες ('all the demons') with the quantifier πᾶς, while the Vulgate reads simply spiritus ('spirits'), substituting a different lexeme and omitting the quantifier entirely. The Peshitta uses ܗܢܘܢ ܫܐܕܐ ('those demons') with a demonstrative pronoun rather than a universal quantifier, representing a middle position between the Greek's emphasis on totality and the Vulgate's generic reference."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek δαίμονες and Syriac ܫܐܕܐ both denote 'demons', the latter cognate with Hebrew שֵׁד; the Vulgate substitutes the more euphemistic spiritus ('spirits'), a softening lexical choice common to the Latin tradition for unclean entities."
     },
     {
       "greek_nt": [
@@ -130,22 +136,31 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after dicentes to mark the transition to direct speech, a punctuation convention absent in the Greek manuscript tradition (which uses a raised dot or no mark) and in Syriac orthography. This represents Latin scribal practice rather than a textual variant."
+      "note": "The participle of speaking (λέγοντες / ܘܐܡܪܝܢ / dicentes) is identical across traditions; the Vulgate additionally tokenises the colon introducing direct discourse as a separate punctuation mark."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        6,
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἡμᾶς and Latin nos supply the explicit accusative object 'us'; the Syriac ܫܕܪܝܢ carries the object pronominally/implicitly within the imperative, a standard economy of Syriac that requires no separate accusative token."
     },
     {
       "greek_nt": [
@@ -164,45 +179,55 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the preposition εἰς with the accusative article and noun (εἰς τοὺς χοίρους, 'into the pigs'), Latin mirrors this with in + accusative (in porcos), but Syriac employs the preposition ܥܠ ('upon/to') governing a demonstrative + noun (ܥܠ ܗܢܘܢ ܚܙܝܪܐ). The Syriac ܥܠ can express motion-toward in this context, representing an idiomatic equivalent rather than a literal calque of εἰς."
+      "note": "Greek εἰς τοὺς χοίρους and Latin in porcos use the preposition 'into/unto' with the swine; Syriac ܥܠ ܗܢܘܢ ܚܙܝܪܐ employs ܥܠ ('upon/onto') with a demonstrative, a directional idiom semantically equivalent but governed by a different preposition."
     },
     {
       "greek_nt": [
         12
       ],
-      "peshitta": [
-        10
-      ],
+      "peshitta": [],
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἵνα and Latin ut introduce an explicit purpose clause; the Syriac collapses the purpose into the relative-locative ܕܒܗܘܢ ('that [are] in them') followed directly by the verb, so no standalone final conjunction is present."
     },
     {
       "greek_nt": [
         13,
-        14,
-        15
+        14
       ],
       "peshitta": [
-        10,
-        11
+        10
       ],
       "vulgate": [
         11,
-        12,
-        13
+        12
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek repeats the preposition εἰς before the pronoun αὐτούς in the purpose clause (ἵνα εἰς αὐτοὺς εἰσέλθωμεν), and Latin follows this pattern (ut in eos introëamus). The Peshitta, however, incorporates the pronominal object into a prepositional phrase attached to the conjunction ܕ (ܕܒܗܘܢ ܢܥܘܠ, 'that in-them we-may-enter'), using ܒ ('in') rather than repeating ܥܠ, which reflects Syriac's tendency toward tighter syntactic integration of subordinate clause elements."
+      "note": "Greek εἰς αὐτοὺς and Latin in eos render 'into them' with preposition plus pronoun; the Syriac fuses this into the single relative-prepositional form ܕܒܗܘܢ ('that-in-them'), a typical Syriac synthetic construction."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek εἰσέλθωμεν is first-person plural subjunctive ('let us enter'), matched by Latin introëamus; the Syriac ܢܥܘܠ is third-person/imperfect ('may [we/they] enter'), reflecting the morphological ambiguity of the Syriac imperfect where number marking differs from the Greek explicit plural."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.972272+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.495517+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

@@ -70,70 +70,101 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses καὶ ἔρχεται (conjunction + verb); Peshitta combines both in the prefixed waw-consecutive form ܘܐܬܐ; Vulgate mirrors Greek structure with Et venit. Semantically equivalent despite morphological differences."
+      "note": "Greek ἔρχεται and Latin venit render the verb of motion as an independent finite verb with its own conjunction; the Peshitta fuses conjunction and verb into a single form ܘܐܬܐ ('and he came'), so the first Greek/Latin καὶ/Et is absorbed into the Syriac prefixed waw rather than appearing as a separate token."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "The Greek and Latin coordinate the second clause with an explicit conjunction (καὶ / et) before the verb of finding; the Peshitta has no corresponding free conjunction here, instead juxtaposing ܐܫܟܚ asyndetically, a common Syriac narrative paratactic feature."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek repeats καὶ before εὑρίσκει (paratactic coordination); Peshitta uses asyndetic construction with ܐܫܟܚ (no conjunction); Vulgate follows Greek with et invenit. Stylistic variation in narrative sequencing."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        2,
         3,
         4
       ],
       "vulgate": [
-        4,
-        5,
-        6
+        5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses accusative participle construction (αὐτοὺς καθεύδοντας); Peshitta employs the temporal particle ܟܕ with active participle (ܟܕ ܕܡܟܝܢ, 'while sleeping'); Vulgate uses accusative + present participle (eos dormientes). All three express contemporaneous action but with different syntactic strategies."
+      "note": "Greek uses a present participle καθεύδοντας ('sleeping') and Latin a present participle dormientes, both functioning as object complements; the Peshitta renders the same idea with a subordinating particle ܟܕ ('while') plus a finite plural verb ܕܡܟܝܢ, a syntactic shift from participial to temporal-clause construction."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin mark the new clause with a separate conjunction (καὶ / Et) preceding the verb of speaking; the Peshitta again incorporates the conjunction into the verb as the prefixed waw of ܘܐܡܪ ('and he said'), eliminating a standalone token."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses καὶ λέγει (conjunction + verb); Peshitta combines in ܘܐܡܪ (waw-consecutive); Vulgate mirrors Greek with Et ait. Morphological variation without semantic divergence."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -146,9 +177,8 @@
       "vulgate": [
         8
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses τῷ Πέτρῳ ('to Peter') with the article; Peshitta substitutes ܠܟܐܦܐ ('to Cephas'), employing the Aramaic form of Peter's name; Vulgate uses simple Petro without article. The Peshitta's choice reflects Semitic naming conventions and may preserve an earlier Aramaic tradition."
+      "variant": "minor",
+      "note": "Greek employs the article plus dative τῷ Πέτρῳ and Latin the bare dative Petro, both using the Greek-derived name 'Peter'; the Peshitta uses ܠܟܐܦܐ, the Aramaic Kepha ('rock') with the dative-marking lamadh prefix, preserving the underlying Semitic name that Πέτρος translates."
     },
     {
       "greek_nt": [
@@ -158,10 +188,10 @@
         7
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "Σίμων / ܫܡܥܘܢ / Simon."
     },
     {
       "greek_nt": [
@@ -172,41 +202,56 @@
         9
       ],
       "vulgate": [
-        11,
-        12
+        11
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Greek uses simple καθεύδεις ('are you sleeping?'); Peshitta adds the ethical dative ܠܟ ('to you/for yourself') in ܕܡܟܬ ܠܟ, intensifying the personal reproach; Vulgate uses dormis with interrogative punctuation. The Peshitta gloss heightens the rhetorical force of Jesus' question."
+      "note": "Greek καθεύδεις and Latin dormis are simple second-person verbs ('are you asleep?'); the Peshitta expands with an ethical/reflexive dative ܕܡܟܬ ܠܟ ('are you sleeping, for yourself?'), a characteristic Syriac dativus ethicus that adds no propositional content but heightens the personal address."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        13,
         14
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses οὐκ ἴσχυσας ('were you not able?', from ἰσχύω, 'to have strength'); Peshitta uses ܠܐ ܐܫܟܚܬ ('did you not find/manage?', from ܫܟܚ); Vulgate uses non potuisti ('were you not able?', from possum). Peshitta employs a cognate verb with slightly broader semantic range (find/be able) versus Greek/Latin focus on capacity."
+      "note": "Greek ἴσχυσας ('were you strong/able') and Latin potuisti both employ a verb of capacity; the Peshitta uses ܐܫܟܚܬ from the root sh-k-kh ('to find/be able'), a Syriac idiom where 'finding' serves for 'being able', a lexical divergence from the Greek-Latin notion of strength."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        15,
         16
       ],
       "variant": "aligned"
@@ -219,18 +264,36 @@
         14
       ],
       "vulgate": [
-        17,
+        17
+      ],
+      "variant": "aligned"
+    },
+    {
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "The Clementine Vulgate inserts an explicit colon punctuation mark before direct speech, and a separate token, marking the transition to the quoted address; the Greek encodes this with the raised dot on Πέτρῳ· and the Peshitta has no discrete punctuation token, so the Latin colon has no lexical counterpart."
+    },
+    {
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "note": "The Vulgate marks the question 'dormis?' with an independent interrogative punctuation token; the Greek signals interrogation orthographically within καθεύδεις; and the Peshitta marks no separate question token, leaving the Latin question mark without a parallel in the other witnesses."
+    },
+    {
+      "vulgate": [
         18
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses aorist infinitive γρηγορῆσαι ('to watch'); Peshitta uses the Ethpael infinitive ܠܡܬܬܥܪܘ ('to be awakened/to keep watch'), which carries reflexive/passive nuance; Vulgate uses simple infinitive vigilare. The Peshitta's stem choice emphasizes the disciples' need for self-arousal to vigilance."
+      "note": "The Vulgate closes the second question 'una hora vigilare?' with a standalone interrogative mark; the Greek encodes the question within γρηγορῆσαι; and the Peshitta lacks a discrete punctuation token, so this final Latin question mark stands without counterpart."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.040633+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.507440+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -74,22 +74,38 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek opens with the connective καί and the Vulgate matches it with Et; the Peshitta omits any conjunction, beginning directly with the verb ܐܡܪ, a stylistic feature of Syriac narrative which frequently dispenses with the initial copulative."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the conjunction καὶ before the verb εἶπεν, while Peshitta omits an explicit conjunction (asyndeton). Vulgate retains the conjunction Et. All three traditions place the indirect object pronoun before the subject, though Greek uses the article ὁ with γραμματεύς where Syriac and Latin do not."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -104,34 +120,46 @@
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article ὁ with γραμματεύς (nominative subject); Peshitta uses the independent pronoun ܗܘ ('he') followed by ܣܦܪܐ ('scribe') in an appositive construction; Vulgate uses scriba without article. The Syriac construction emphasizes the subject through pronoun fronting, a common Semitic discourse strategy."
+      "type": "expansion",
+      "note": "Greek (ὁ γραμματεύς) and Syriac (ܗܘ ܣܦܪܐ) both supply a demonstrative/article before 'scribe', while the Vulgate scriba stands without article since Latin lacks one; the Syriac ܗܘ functions as an anaphoric pronoun marking definiteness."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        4
+      ],
       "peshitta": [],
       "vulgate": [
         4
       ],
-      "variant": "added",
+      "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after scriba to mark direct speech, a punctuation convention absent in the Greek and Peshitta manuscript traditions. This reflects Latin scribal practice rather than a textual variant."
+      "note": "The Vulgate inserts an explicit colon after scriba to introduce direct speech, whereas the Greek encodes the pause with the high-point (·) attached to γραμματεύς·; the Peshitta carries no equivalent punctuation token."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek διδάσκαλε and Latin Magister are direct vocatives for 'teacher', whereas the Syriac ܪܒܝ ('Rabbi/my master', root r-b-y) preserves the Semitic honorific form rather than translating it, reflecting the underlying Aramaic title."
     },
     {
       "greek_nt": [
@@ -145,9 +173,7 @@
         7,
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase ἐπ᾽ ἀληθείας ('according to truth') with genitive; Vulgate mirrors this with in veritate (ablative of manner); Peshitta employs the prepositional phrase ܒܫܪܪܐ ('in truth') with beth preposition. All three convey the same adverbial sense, but through different prepositional constructions typical of each language."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -159,8 +185,7 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -172,72 +197,121 @@
       "vulgate": [
         10
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ὅτι introduces indirect discourse; Peshitta ܕ serves the same function; Vulgate quia likewise. The Peshitta particle ܕ is cliticized to the following word ܕܚܕ, reflecting standard Syriac orthographic practice for the subordinating conjunction."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        11,
-        12,
-        13
-      ],
-      "peshitta": [
-        8,
-        9
-      ],
-      "vulgate": [
-        11,
-        12,
-        13
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the copula between the numeral and the noun (εἷς ἐστιν θεὸς / unus est Deus); Peshitta uses ܚܕ ܗܘ ('one he-is') with the copula pronoun ܗܘ following the predicate adjective, then implies 'God' from context or places it in the broader clause structure. This reflects standard Syriac predicate-copula word order."
-    },
-    {
-      "greek_nt": [
-        14,
-        15,
-        16,
-        17
-      ],
-      "peshitta": [
-        10,
         11
       ],
+      "peshitta": [
+        8
+      ],
       "vulgate": [
-        14,
-        15,
-        16,
-        17
+        11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the negative existential construction καὶ οὐκ ἔστιν ἄλλος ('and there is not another'); Vulgate mirrors this with et non est alius; Peshitta employs the negative existential particle ܘܠܝܬ ('and there is not') with ܐܚܪܝܢ ('another'), a more compact Semitic construction that omits the explicit copula verb."
+      "note": "Greek εἷς ('one', numeral adjective) and Latin unus correspond to the Syriac ܕܚܕ, where the prefixed ܕ (relative/complementiser) introduces the dependent clause begun by ܐܡܪܬ; the cardinal is fused with the conjunction in Syriac orthography."
     },
     {
       "greek_nt": [
-        18,
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek copula ἐστιν and Latin est are finite verbs of being; the Syriac ܗܘ is an enclitic pronoun-copula ('he is'), the standard Syriac means of expressing the predicative 'is' without a finite verb."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek θεός and Latin Deus name 'God' explicitly as the subject of the clause; the Peshitta does not supply a separate lexeme for God here, the divine subject being understood from the affirmation of oneness, a compression typical of Syriac monotheistic formulae."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καί and Latin et coordinate the clauses; the Syriac fuses the conjunction with the negator in ܘܠܝܬ ('and there is not'), the proclitic ܘ rendering the copulative while ܠܝܬ supplies the negated existential."
+    },
+    {
+      "greek_nt": [
+        15,
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15,
+        16
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses 'there is not' with separate negator and copula (οὐκ ἔστιν) as does the Latin (non est), whereas the Syriac ܠܝܬ is a single suppletive negative existential particle, the lexicalised contraction of ܠܐ ܐܝܬ."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek πλήν and Latin præter are single prepositions meaning 'besides/except'; the Syriac renders the notion with ܠܒܪ (root l-b-r, 'outside'), an adverbial/prepositional expression literally 'apart from', a characteristic Syriac periphrasis for exception."
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        18,
         19
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πλὴν αὐτοῦ ('besides him') uses the preposition πλήν with genitive; Vulgate præter eum employs præter with accusative; Peshitta uses ܠܒܪ ܡܢܗ ('outside from him'), a compound prepositional phrase (ܠܒܪ 'outside' + ܡܢ 'from'). All three express exception/exclusion, but through different prepositional lexemes characteristic of each language's idiom."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.026136+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.477112+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

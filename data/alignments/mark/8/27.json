@@ -104,7 +104,20 @@
     },
     {
       "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
         1,
+        2
+      ],
+      "variant": "minor",
+      "note": "The Greek aorist ἐξῆλθεν is rendered by the Syriac perfect ܘܢܦܩ (root n-p-q, conjunction prefixed), while the Vulgate employs a periphrastic perfect passive deponent egressus est; the Syriac fuses the conjunction Καί into the verb prefix, so index 0 covers both."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
@@ -112,13 +125,9 @@
         1
       ],
       "vulgate": [
-        1,
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the definite article ὁ Ἰησοῦς (nominative with article); Vulgate employs the perfect passive participle egressus est Jesus (compound tense); Peshitta uses the simple perfect ܢܦܩ ܝܫܘܥ. All three convey the same action but with different grammatical constructions typical of each language's verbal system."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -136,8 +145,7 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs καὶ + article + noun + possessive pronoun (καὶ οἱ μαθηταὶ αὐτοῦ); Vulgate mirrors this with et discipuli ejus; Peshitta uses a single compound form ܘܬܠܡܝܕܘܗܝ with the conjunction and pronominal suffix attached directly to the noun, reflecting typical Semitic economy of expression."
+      "note": "The Greek and Latin spell out the conjunction, article, noun, and possessive pronoun (καὶ οἱ μαθηταὶ αὐτοῦ / et discipuli ejus), whereas the Syriac compresses all four into the single inflected form ܘܬܠܡܝܕܘܗܝ, carrying conjunction, plural noun, and 3ms possessive suffix as agglutinated morphemes."
     },
     {
       "greek_nt": [
@@ -152,9 +160,7 @@
         7,
         8
       ],
-      "variant": "major",
-      "type": "lexical",
-      "note": "Greek specifies εἰς τὰς κώμας ('into the villages', plural); Vulgate uses in castella ('into the fortified towns'); Peshitta reads ܠܩܘܪܝܐ ('to the villages/towns', plural with Syriac plural marker). The Vulgate's castella suggests fortified settlements rather than simple villages, representing a distinct lexical choice that may reflect Roman administrative terminology."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -169,7 +175,8 @@
         9,
         10
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek inserts an intervening article (Καισαρείας τῆς Φιλίππου, 'Caesarea the [one] of Philip'), while Latin and Syriac present the toponym as a tight construct (Cæsareæ Philippi / ܕܩܣܪܝܐ-ܕܦܝܠܝܦܘܣ); the Syriac orthographically binds the two place-names with a hyphen as a single compound place-name."
     },
     {
       "greek_nt": [
@@ -182,13 +189,13 @@
         8
       ],
       "vulgate": [
+        11,
         12,
         13,
         14
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the temporal phrase καὶ ἐν τῇ ὁδῷ ('and on the way') before the main verb; Vulgate mirrors this with et in via; Peshitta postpones ܒܐܘܪܚܐ ('on the road') until after the verb ܡܫܐܠ ܗܘܐ, reflecting typical Syriac preference for verb-initial clauses followed by adverbial modifiers."
+      "note": "Greek and Latin position the prepositional phrase 'on the way' (ἐν τῇ ὁδῷ / in via) before the verb of asking, and the Vulgate adds a colon at index 11; the Syriac postpones ܒܐܘܪܚܐ until after the verb and its object, a word-order divergence typical of Syriac narrative syntax."
     },
     {
       "greek_nt": [
@@ -202,8 +209,7 @@
         15
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the imperfect ἐπηρώτα ('he was questioning', continuous past action); Vulgate employs the imperfect interrogabat (same aspectual value); Peshitta uses the periphrastic construction ܡܫܐܠ ܗܘܐ (participle + auxiliary), a standard Syriac method for expressing progressive or iterative past action."
+      "note": "The Greek imperfect ἐπηρώτα and the Latin imperfect interrogabat each express durative past action with a single form, whereas the Syriac builds the equivalent past-continuous periphrastically with the participle ܘܡܫܐܠ plus the auxiliary ܗܘܐ ('was asking'), a standard Syriac construction for imperfective aspect."
     },
     {
       "greek_nt": [
@@ -222,38 +228,29 @@
     },
     {
       "greek_nt": [
-        22,
-        23
+        22
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
       "vulgate": [
-        18,
-        19
+        18
       ],
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        11
+      "greek_nt": [
+        23
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after eis (token 19), marking a stronger discourse break before the direct question. Neither the Greek nor the Peshitta manuscripts employ equivalent punctuation at this juncture, though both traditions use different markers (Greek uses a raised dot; Peshitta typically unmarked)."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
+      "peshitta": [
+        10
+      ],
       "vulgate": [
+        19,
         20
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate places a second colon after Quem me dicunt esse homines, creating a two-part punctuation structure around the question. This reflects Latin rhetorical conventions for framing direct discourse and is absent from both Greek and Peshitta witnesses."
+      "variant": "minor",
+      "note": "The dative pronoun αὐτοῖς (Greek) and ܠܗܘܢ (Syriac, root l-h-w with dative prefix) correspond to Latin eis; the Vulgate additionally supplies a colon at index 20 to introduce the direct discourse, a punctuational gloss absent from the unpointed traditions."
     },
     {
       "greek_nt": [
@@ -278,8 +275,7 @@
         22
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places με immediately after τίνα ('Whom me'); Vulgate follows with Quem me; Peshitta inverts to ܡܢܘ ܐܡܪܝܢ ܥܠܝ ('Who do they say concerning me'), placing the prepositional phrase ܥܠܝ ('concerning me') after the verb rather than as a direct object, reflecting Semitic preference for prepositional constructions over accusative objects in this context."
+      "note": "Greek με and Latin me are accusative objects of the verb of speaking; the Syriac renders the same referent with the prepositional phrase ܥܠܝ ('concerning me', root e-l-y), shifting from a direct accusative to a prepositional construction—an idiomatic Syriac way of expressing 'what people say of someone.'"
     },
     {
       "greek_nt": [
@@ -304,7 +300,8 @@
       "vulgate": [
         25
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek uses the articular plural οἱ ἄνθρωποι and Latin the anarthrous homines for 'people'; the Syriac ܐܢܫܐ (root a-n-sh) is a collective noun for 'men/people', and notably the three traditions place this subject in differing positions relative to the verb."
     },
     {
       "greek_nt": [
@@ -314,27 +311,17 @@
         15
       ],
       "vulgate": [
-        24
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek concludes with the infinitive εἶναι ('to be'); Vulgate places esse before homines; Peshitta uses ܕܐܝܬܝ ('that I am'), a relative clause construction. The word order variation reflects each language's syntactic norms for indirect questions: Greek and Vulgate use accusative-infinitive constructions, while Syriac employs a ܕ-clause with pronominal suffix."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        24,
         26
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate concludes with a question mark, explicitly marking the interrogative nature of the sentence. Greek manuscripts use a semicolon (;) as the question marker, while Peshitta manuscripts typically leave questions unmarked or use contextual indicators."
+      "variant": "minor",
+      "note": "The Greek infinitive εἶναι and Latin esse function as the complement of the verb of saying; the Syriac substitutes a finite relative clause ܕܐܝܬܝ ('that I am', root a-y-th with relative prefix), a construction rather than an infinitive. The Vulgate's interrogative complement esse stands at index 24 while the closing question mark is at index 26."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.881431+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.479051+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

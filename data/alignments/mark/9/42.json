@@ -101,8 +101,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -110,14 +109,14 @@
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the indefinite relative construction ὃς ἂν (relative pronoun + modal particle); Latin uses the compound indefinite quisquis; Syriac uses the simple relative ܡܢ. All three express the same indefinite sense ('whoever'), but through different grammatical strategies."
+      "note": "Greek ὃς ἂν ('whoever') is an indefinite relative with the modal particle; Syriac fuses the universal quantifier ܘܟܠ ('and everyone') with the partitive ܡܢ to express the same generality, while the Vulgate quisquis is a single universal relative pronoun. The Syriac ܘܟܠ overlaps with the conjunction already aligned, reflecting a slightly different segmentation of the protasis."
     },
     {
       "greek_nt": [
@@ -129,8 +128,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -142,28 +140,46 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        5,
-        6,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek uses the genitive partitive article τῶν; the Peshitta renders the partitive with the preposition ܡܢ ('from among') and the Vulgate with ex, both periphrastic equivalents of the Greek genitive of the whole."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        4,
-        5,
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Word order: Greek places the demonstrative τούτων after μικρῶν, whereas Syriac ܗܠܝܢ and Latin his precede the substantive 'little ones', a routine adjustment to the demonstrative-noun sequence preferred in those languages."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses the partitive genitive construction τῶν μικρῶν τούτων ('of these little ones'); Latin mirrors this with ex his pusillis; Syriac employs ܡܢ ܗܠܝܢ ܙܥܘܪܐ with the demonstrative preceding the adjective, reflecting typical Semitic word order. The semantic content is identical."
+      "note": "Greek μικρῶν is plural ('little ones'); the Peshitta ܙܥܘܪܐ is morphologically the singular emphatic but here functions collectively after the partitive, while the Vulgate pusillis retains the plural. The number mismatch is idiomatic rather than substantive."
     },
     {
       "greek_nt": [
@@ -177,8 +193,7 @@
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular participle τῶν πιστευόντων ('the ones believing') as a substantival modifier; Latin uses the simple present participle credentibus without article; Syriac uses the relative particle ܕ with the participle ܡܗܝܡܢܝܢ. All three express the same participial modification, but through tradition-specific grammatical means."
+      "note": "Greek uses an articular present participle (τῶν πιστευόντων) as a substantival relative clause; Syriac employs the relative-marked participle ܕܡܗܝܡܢܝܢ and the Vulgate the bare participle credentibus, all conveying the attributive 'who believe'."
     },
     {
       "greek_nt": [
@@ -192,38 +207,53 @@
         8,
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek and Latin express 'in me' with preposition plus pronoun (εἰς ἐμέ / in me); the Peshitta contracts this to the single inflected form ܒܝ, a normal Syriac prepositional suffix."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         10
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'in me', creating a stronger syntactic break between the protasis and apodosis. Neither the Greek nor the Peshitta tradition marks this juncture with punctuation, maintaining a smoother syntactic flow."
+      "note": "The Clementine Vulgate inserts a colon to mark the close of the protasis before the apodosis 'bonum est ei'; no corresponding punctuation token exists in the Greek or Syriac witnesses."
     },
     {
       "greek_nt": [
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "note": "Greek ἐστιν is present indicative; the Vulgate est matches it, but the Peshitta adds the perfect enclitic ܗܘܐ giving a past-coloured copula ('it would have been better'), aligning the tense with the contrary-to-fact conditional that follows."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        9,
-        10,
         11
       ],
       "vulgate": [
-        11,
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the predicate adjective καλόν before the copula ἐστιν, with the dative αὐτῷ following; Latin mirrors this order (bonum est ei); Syriac uses the adjective ܦܩܚ with the enclitic copula ܗܘܐ and pronominal suffix ܠܗ, reflecting typical Syriac syntax. The semantic equivalence is maintained across all three."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -234,8 +264,8 @@
         14
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek μᾶλλον and Latin magis both mean 'rather/more', intensifying the comparative sense. The Peshitta omits an explicit equivalent, allowing the context to carry the comparative force implicitly through the conditional construction."
+      "type": "construction",
+      "note": "Greek μᾶλλον and Latin magis ('rather') intensify the comparison; the Syriac omits an explicit comparative adverb, leaving the contrast implicit in the ܦܩܚ ... ܐܠܘ ('it were better ... if') construction."
     },
     {
       "greek_nt": [
@@ -247,8 +277,7 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -262,8 +291,7 @@
         16
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the present middle-passive περίκειται ('is placed around'); Latin uses the imperfect passive subjunctive circumdaretur ('were placed around'); Syriac employs the passive participle ܪܡܝܐ with the perfect copula ܗܘܬ ('had been placed'). The tense-aspect differences reflect each tradition's preferred way of expressing the counterfactual condition."
+      "note": "Greek περίκειται is present-passive 'is laid around'; the Vulgate circumdaretur is imperfect subjunctive, reframing the clause as contrary-to-fact, and the Syriac uses the participle ܪܡܝܐ with the perfect auxiliary ܗܘܬ ('were placed'), likewise yielding a past unreal sense."
     },
     {
       "greek_nt": [
@@ -280,7 +308,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ὀνικός ('of a donkey') and Latin asinaria ('of a donkey') specify the type of millstone; Syriac ܕܚܡܪܐ likewise means 'of a donkey'. All three traditions agree on this detail, using cognate or equivalent terms for both 'millstone' and 'donkey'."
+      "note": "Greek μύλος ὀνικός literally denotes a 'donkey-driven millstone'; the Vulgate mola asinaria preserves the same image, and the Syriac ܪܚܝܐ ܕܚܡܪܐ ('mill of a donkey') likewise renders the genitive of the animal, all three faithfully transmitting the upper-millstone metaphor."
     },
     {
       "greek_nt": [
@@ -297,8 +325,7 @@
         20
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase περὶ τὸν τράχηλον αὐτοῦ ('around his neck') with article and possessive pronoun; Latin uses the simple dative collo ejus ('to/on his neck'); Syriac uses the prepositional phrase ܒܨܘܪܗ ('on his neck') with pronominal suffix. All three express the same locative sense through tradition-specific prepositional constructions."
+      "note": "Greek uses the prepositional phrase περὶ τὸν τράχηλον αὐτοῦ ('around his neck'); the Vulgate uses the dative collo ejus without a preposition, and the Syriac compresses everything into the single suffixed noun ܒܨܘܪܗ ('on his neck'), an economical Semitic construction."
     },
     {
       "greek_nt": [
@@ -310,8 +337,7 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -324,8 +350,7 @@
         24
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the perfect passive indicative βέβληται ('has been cast'); Latin uses the present passive subjunctive mitteretur ('were cast'); Syriac uses the simple perfect ܫܕܐ ('cast'). The tense-aspect variation reflects each tradition's handling of the counterfactual conditional, with Greek emphasizing the completed state, Latin the hypothetical action, and Syriac the simple perfective."
+      "note": "Greek βέβληται is perfect indicative passive ('has been cast'); the Vulgate mitteretur is imperfect subjunctive, continuing the contrary-to-fact conditional, and the Syriac ܫܕܐ (sharing the ܘ conjunction of the previous token) renders the verb without an explicit perfect auxiliary, leaving the modality to the governing ܐܠܘ clause."
     },
     {
       "greek_nt": [
@@ -340,14 +365,14 @@
         22,
         23
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek εἰς τὴν θάλασσαν and Latin in mare use preposition plus articular/anarthrous noun for 'into the sea'; the Peshitta condenses this to the single prepositional form ܒܝܡܐ ('in/into the sea'), a typical Syriac fusion of preposition and noun."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.236333+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.535662+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

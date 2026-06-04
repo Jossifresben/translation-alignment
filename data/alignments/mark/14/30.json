@@ -92,23 +92,33 @@
       ],
       "variant": "minor",
       "type": "omission",
-      "note": "The Peshitta omits the conjunction Καὶ / Et, beginning directly with the verb. This is a common Syriac stylistic preference, avoiding redundant connectives where narrative flow is clear from context."
+      "note": "Greek opens with the connective Καί, matched by Vulgate Et; the Peshitta omits the conjunction and begins asyndetically with the verb ܐܡܪ, a common Syriac narrative pattern that drops the introductory waw."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek λέγει is a vivid historic present ('says'), whereas both the Vulgate (ait) and the Peshitta (ܐܡܪ) render the action as a simple narrative past/aorist, a routine flattening of the Greek dramatic present in the versions."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -123,17 +133,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the article ὁ with Ἰησοῦς (nominative subject), which Latin and Syriac lack. The article is grammatically required in Greek but absent in both Latin and Syriac nominal systems, representing structural rather than semantic divergence."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after Jesus to mark the beginning of direct speech. Neither Greek nor Syriac manuscripts employ this punctuation convention, though the discourse boundary is implicit in all three traditions."
+      "note": "Greek supplies the articular subject ὁ Ἰησοῦς; both versions render the name anarthrously (ܝܫܘܥ / Jesus) since neither Syriac nor Latin possesses the definite article used here."
     },
     {
       "greek_nt": [
@@ -145,26 +145,34 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
-        7
+        6
       ],
       "peshitta": [
         4,
-        5,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek λέγω and Latin dico are synthetic first-person verbs; the Peshitta expresses the subject analytically with an enclitic pronoun (ܐܡܪ ܐܢܐ, 'say I'), the standard Syriac participle-plus-pronoun construction for the present tense."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta explicitly renders the first-person pronoun ܐܢܐ ('I') alongside the verb ܐܡܪ, whereas Greek λέγω and Latin dico encode person morphologically. This represents Syriac's preference for pronominal explicitness in solemn declarations."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -174,9 +182,7 @@
       "vulgate": [
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ὅτι and Vulgate quia introduce the content clause with an explicit complementizer. Syriac employs the prefix ܕ- (attached to ܕܐܢܬ) to mark subordination, achieving the same syntactic function through morphological rather than lexical means."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -188,8 +194,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek σύ and Latin tu stand as independent emphatic pronouns introduced by ὅτι/quia; the Peshitta fuses the recitative particle with the pronoun in ܕܐܢܬ ('that you'), so the Syriac single token covers both the Greek ὅτι and σύ."
     },
     {
       "greek_nt": [
@@ -201,8 +208,7 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -222,7 +228,7 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the demonstrative ταύτῃ before the prepositional phrase ἐν τῇ νυκτὶ ('in this night'), while Vulgate mirrors this order (in nocte hac). Syriac reverses the sequence, placing ܒܠܠܝܐ ܗܢܐ ('in-the-night this') with the demonstrative following the noun, conforming to standard Semitic attributive syntax."
+      "note": "All three attest 'in this night' but with differing internal order: Greek ταύτῃ ἐν τῇ νυκτί places the demonstrative first, Latin in nocte hac and Syriac ܒܠܠܝܐ ܗܢܐ both postpose the demonstrative; the Syriac additionally fuses the preposition prefix into ܒܠܠܝܐ."
     },
     {
       "greek_nt": [
@@ -237,22 +243,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the compound conjunction πρὶν ἢ ('before than') to introduce the temporal clause. Latin employs the single conjunction priusquam, while Syriac uses the simple preposition ܩܕܡ ('before'). All three convey identical temporal priority but through different morphological strategies."
-    },
-    {
-      "greek_nt": [
-        17
-      ],
-      "peshitta": [
-        14,
-        15
-      ],
-      "vulgate": [
-        17
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek δὶς and Latin bis express 'twice' as simple adverbs. Syriac employs the cardinal numeral ܬܪܬܝܢ ('two') with the noun ܙܒܢܝܢ ('times'), using a noun phrase construction typical of Semitic numerical expressions."
+      "note": "Greek uses the temporal compound πρὶν ἤ ('before than'); Latin contracts this into the single conjunction priusquam, and the Syriac renders it with the lone preposition ܩܕܡ ('before'), each language collapsing the two-word Greek idiom to its native equivalent."
     },
     {
       "greek_nt": [
@@ -269,8 +260,23 @@
         18
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Syriac place the numeral after the rooster-crowing phrase (ἀλέκτορα φωνῆσαι / ܕܢܩܪܐ ܬܪܢܓܠܐ), while Vulgate splits the verb phrase, inserting the numeral bis between gallus and vocem dederit. This reflects Latin's flexibility in verb-complement ordering for rhetorical emphasis."
+      "type": "construction",
+      "note": "Greek expresses the crowing with accusative-plus-infinitive (ἀλέκτορα φωνῆσαι); the Peshitta uses a finite subordinate clause ܕܢܩܪܐ ܬܪܢܓܠܐ ('that the cock crow'), while the Vulgate periphrasis gallus vocem dederit ('the cock should give voice') substitutes an idiomatic 'give voice' for the simple verb 'to crow'."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        14,
+        15
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek δίς and Latin bis are single adverbs ('twice'); the Peshitta expands to the two-word idiom ܬܪܬܝܢ ܙܒܢܝܢ ('two times'), the normal Syriac way of expressing multiplicative number."
     },
     {
       "greek_nt": [
@@ -282,8 +288,7 @@
       "vulgate": [
         19
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -295,8 +300,9 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek με and Latin me are accusative objects; the Peshitta governs the verb of denial with the preposition ܒ (ܒܝ, 'in/against me'), reflecting the regular Syriac idiom kᵉpar bᵊ- for denying or disowning someone."
     },
     {
       "greek_nt": [
@@ -310,14 +316,14 @@
         22
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἀπαρνήσῃ is a simple future indicative verb. Syriac ܬܟܦܘܪ employs the imperfect (expressing future action). Vulgate uses the periphrastic future es negaturus (second-person singular of esse + future active participle), a construction emphasizing the certainty of the predicted action. All three convey futurity but through distinct aspectual and syntactic means."
+      "type": "grammar",
+      "note": "Greek ἀπαρνήσῃ is a synthetic future middle ('you will deny'); the Vulgate periphrasis es negaturus uses the future participle with esse to express imminent future, and the Peshitta ܬܟܦܘܪ is a simple imperfect, with the object phrase preceding the verb per Syriac word order."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.039404+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.530991+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

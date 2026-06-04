@@ -79,115 +79,170 @@
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses article + postpositive conjunction (οἱ δέ, 'and they'); Peshitta omits both, beginning directly with the verb; Vulgate substitutes coordinating conjunction Et ('And'), a stylistic preference in Latin narrative."
+      "type": "construction",
+      "note": "Greek frames the subject with an articular substantive plus postpositive δέ (οἱ δέ, 'and they'); the Vulgate renders only the connective Et, leaving the verb to carry the third-person plural subject. The Peshitta supplies no separate conjunction here, embedding the connection in the asyndetic narrative flow."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἶπαν / ܐܡܪܝܢ / dixerunt"
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "Greek and Syriac attach the indirect object (αὐτῷ / ܠܗ, 'to him') to the verb of speaking, whereas the Vulgate omits the pronoun entirely and marks the introduction of direct discourse only with a colon, a stylistic feature of Latin oratio recta."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "δὸς / ܗܒ / Da"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἡμῖν / ܠܢ / nobis"
     },
     {
       "greek_nt": [
         6
       ],
+      "peshitta": [],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἵνα / ut"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        5
+        6
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek ἵνα introduces a purpose clause with subjunctive verb; Syriac ܕ (d-) functions identically as a subordinating particle; Vulgate ut mirrors Greek syntax, all three expressing identical purpose construction with different morphology."
+      "note": "Greek and Latin place the numeral εἷς / unus as a free-standing subject of the purpose clause, while the Peshitta prefixes the relative-marking dalath to the numeral (ܕܚܕ) so that the conjunction ܕ subordinates the whole clause, the Syriac equivalent of the Greek ἵνα construction expressed at idx 6."
     },
     {
       "greek_nt": [
-        7,
-        8,
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Greek here reads σου ('of you'), an apparently misplaced or intrusive genitive pronoun whose presence is grammatically awkward; neither the Peshitta nor the Vulgate witness a corresponding possessive at this point, the second-person reference being carried only by the later forms ܝܡܝܢܟ / dexteram tuam."
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        4,
-        5,
         6,
         7
       ],
       "vulgate": [
-        6,
         7,
         8,
         9
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek places the subject pronoun σου ('of you') before the prepositional phrase ἐκ δεξιῶν ('at right hand'), creating discontinuous syntax; Syriac integrates the pronominal suffix directly into ܝܡܝܢܟ ('your right') after the verb ܢܬܒ ('may sit'); Vulgate uses ad dexteram tuam with postposed possessive, following Latin word-order norms. All three convey identical semantics through language-specific syntactic patterns."
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the prepositional phrase ἐκ δεξιῶν ('from the right [parts]') with the plural substantive; the Vulgate renders ad dexteram tuam with the directional ad and an added possessive tuam; the Peshitta compresses preposition, noun, and possessive suffix into ܡܢ ܝܡܝܢܟ ('from your right'), a typical Semitic synthetic form."
     },
     {
       "greek_nt": [
-        11
+        11,
+        12
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        10
+        10,
+        11
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek καί and Syriac ܘ (waw) are cognate coordinating conjunctions; Vulgate substitutes et for καί in the second coordinate, then uses alius ('another') instead of repeating unus, a Latin stylistic variation to avoid repetition."
+      "note": "Greek and Latin coordinate with καὶ εἷς / et alius (Latin preferring the distributive alius, 'the other', over a repeated 'one'); the Peshitta fuses the conjunction and numeral into a single form ܘܚܕ ('and one'), matching the Greek idiom more closely than the Latin lexical choice."
     },
     {
       "greek_nt": [
-        12,
         13,
         14,
         15
       ],
       "peshitta": [
-        8,
         9,
         10
       ],
       "vulgate": [
-        11,
         12,
         13,
         14
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek repeats εἷς ἐξ ἀριστερῶν σου with identical discontinuous syntax (pronoun before prepositional phrase); Syriac again integrates the possessive suffix into ܣܡܠܟ ('your left'); Vulgate employs alius ad sinistram tuam, substituting alius for the second occurrence of unus to avoid redundancy, a characteristic Latin rhetorical preference."
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἐξ ἀριστερῶν σου with the trailing possessive parallels the right-hand phrase; the Vulgate again employs directional ad sinistram tuam, while the Peshitta synthesises preposition and suffixed possessive in ܡܢ ܣܡܠܟ ('from your left'), the root s-m-l cognate with Hebrew שְׂמֹאל."
     },
     {
       "greek_nt": [
-        16,
+        16
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin position the verb καθίσωμεν / sedeamus ('let us sit') at the end of the purpose clause after both spatial phrases; the Peshitta places ܢܬܒ ('he/we may sit') immediately after the first numeral (idx 5), a word-order divergence reflecting Syriac preference for early placement of the finite verb."
+    },
+    {
+      "greek_nt": [
         17,
         18,
         19,
@@ -197,20 +252,19 @@
         11
       ],
       "vulgate": [
-        15,
         16,
         17,
         18
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb καθίσωμεν ('let us sit') after both coordinate phrases, followed by ἐν τῇ δόξῃ σου ('in your glory'); Syriac fronts the verb ܢܬܒ earlier in the clause and uses the bound form ܒܫܘܒܚܟ ('in-your-glory') as a single lexical unit; Vulgate sedeamus in gloria tua follows Greek word order but omits the article (Latin lacks articles). All three express the same locative prepositional phrase with minor syntactic reordering."
+      "type": "construction",
+      "note": "Greek expresses the locative with preposition, article, noun, and possessive (ἐν τῇ δόξῃ σου); the Vulgate drops the article (in gloria tua), Latin lacking the definite article; the Peshitta synthesises preposition, noun, and possessive suffix into the single form ܒܫܘܒܚܟ ('in your glory'), from the root sh-b-kh cognate with Hebrew שָׁבַח."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.012866+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.418415+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

@@ -70,23 +70,52 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek ἐκεῖνοι ('those') and Syriac ܗܢܘܢ ('they/those') both supply an explicit demonstrative subject; the Vulgate omits any demonstrative, supplying only the noun Coloni, so the deictic emphasis present in Greek and Syriac is lost in the Latin."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
-        1,
         2
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs demonstrative ἐκεῖνοι with article οἱ γεωργοί ('those farmers'); Peshitta uses ܗܢܘܢ ܦܠܚܐ (demonstrative + noun without article, typical Syriac construction); Vulgate places Coloni first without demonstrative, relying on autem for continuity."
+      "note": "Greek uses the articular plural οἱ γεωργοί ('the farmers/vinedressers'); Syriac ܦܠܚܐ (from p-l-kh, 'to labour/till') and Latin Coloni ('tenant-farmers') render the same agricultural agent without the Greek article, a routine omission since neither Syriac nor Latin possesses a definite article of this type."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -95,29 +124,23 @@
         6
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase πρὸς ἑαυτούς ('to themselves') before the verb εἶπαν; Peshitta employs ܐܡܪܘ ܒܢܦܫܗܘܢ ('said in their souls/selves'), a Semitic idiom for internal deliberation; Vulgate inserts ad invicem ('to one another'), emphasizing mutual consultation rather than individual reflection."
+      "note": "The reflexive phrase 'to themselves' is rendered analytically in Greek (πρὸς ἑαυτούς) and Latin (ad invicem, a reciprocal 'to one another'), but synthetically in Syriac by the single prepositional form ܒܢܦܫܗܘܢ ('within/among themselves', lit. 'in their souls', from n-p-sh); the Latin invicem additionally shifts the nuance from purely reflexive to reciprocal."
     },
     {
       "greek_nt": [
         7
       ],
       "peshitta": [],
-      "vulgate": [
-        5
-      ],
+      "vulgate": [],
       "variant": "minor",
-      "type": "omission",
-      "note": "Greek ὅτι introduces indirect discourse; Vulgate uses colon punctuation for direct speech; Peshitta omits any introductory particle, moving directly to the quoted speech—a common Syriac narrative convention."
+      "note": "Greek introduces direct discourse with recitative ὅτι, a Hebraising/Septuagintal marker functionally equivalent to opening quotation marks; both Syriac and Latin (the latter using a colon) render the speech directly without an introductory conjunction."
     },
     {
       "greek_nt": [
@@ -131,13 +154,14 @@
         6
       ],
       "vulgate": [
+        5,
         6,
         7,
-        8
+        8,
+        9
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses demonstrative οὗτός with copula ἐστιν and article ὁ κληρονόμος ('this one is the heir'); Peshitta employs ܗܢܘ ܝܪܬܐ (demonstrative + noun without copula, standard Syriac nominal sentence); Vulgate mirrors Greek structure with Hic est hæres but adds colon punctuation for emphasis."
+      "note": "Greek and Latin express the predicate nominative analytically with explicit copula and article (οὗτός ἐστιν ὁ κληρονόμος / Hic est hæres); Syriac contracts the demonstrative and copula into the enclitic ܗܢܘ ('this-is') followed by ܝܪܬܐ (y-r-th, 'heir'), a characteristic Syriac economy of the nominal clause."
     },
     {
       "greek_nt": [
@@ -149,8 +173,7 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -165,48 +188,63 @@
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses first-person plural subjunctive ἀποκτείνωμεν with separate pronoun αὐτόν; Peshitta employs ܢܩܛܠܝܘܗܝ, a single verbal form with pronominal suffix (cohortative + object pronoun); Vulgate follows Greek with separate occidamus eum but adds colon punctuation."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        9,
-        13
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts colons after hæres and eum to mark rhetorical pauses in the tenants' deliberation; neither Greek nor Peshitta manuscripts employ equivalent punctuation at these junctures."
+      "note": "Greek and Latin express the hortatory subjunctive plus separate accusative pronoun (ἀποκτείνωμεν αὐτόν / occidamus eum); Syriac fuses verb and object suffix into the single form ܢܩܛܠܝܘܗܝ ('let us kill him'), the normal Semitic synthetic construction with pronominal object suffix."
     },
     {
       "greek_nt": [
-        15,
-        16,
-        17,
+        15
+      ],
+      "peshitta": [],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "The coordinating conjunction καί / et is attested in Greek and Latin; in Syriac the connective is carried prefixally by the waw of ܘܬܗܘܐ ('and it will be'), so no separate conjunction token appears, though the syntactic coordination is fully preserved."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "note": "Greek fronts the genitive ἡμῶν ('ours') for emphasis before the verb, matched by Latin nostra; Syriac uses the independent possessive ܕܝܠܢ ('ours'), placed after the verb, reflecting differing default word-order conventions while preserving the emphatic possessive sense."
+    },
+    {
+      "greek_nt": [
         18,
         19
       ],
       "peshitta": [
-        9,
-        10,
         11
       ],
       "vulgate": [
-        14,
-        15,
-        16,
         17
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places genitive pronoun ἡμῶν before future verb ἔσται ('ours will be the inheritance'); Peshitta uses ܘܬܗܘܐ ܕܝܠܢ ܝܪܬܘܬܐ (verb + possessive + noun), standard Semitic VSO order; Vulgate mirrors Greek with nostra erit hæreditas, emphasizing possessive adjective through fronting."
+      "note": "Greek marks the subject with article ἡ κληρονομία; Syriac ܝܪܬܘܬܐ (y-r-th) and Latin hæreditas render 'the inheritance' anarthrously, the article being unavailable/unneeded, with all three sharing the same inheritance root concept (cf. ܝܪܬܐ in this verse)."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.021801+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.556862+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

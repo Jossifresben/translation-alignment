@@ -66,35 +66,73 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "All three render an adversative/transitional particle (δέ / ܕܝܢ / autem), but each tradition positions it differently: Greek and Latin place it in second (Wackernagel) position after the negation, while Syriac ܕܝܢ likewise follows but precedes the demonstrative ܗܟܢܐ. The variation is positional rather than semantic."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek ἐστιν is present indicative ('is'), and Latin est matches it, whereas Syriac ܢܗܘܐ is an imperfect/jussive ('shall be / let it be'), giving the Peshitta a mildly volitive or future nuance absent from the present-tense Greek and Latin."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        0,
-        1,
-        2,
-        3,
         4
       ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3,
         4,
         5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adversative δέ third (οὐχ οὕτως δέ ἐστιν), while Peshitta places ܕܝܢ second (ܠܐ ܕܝܢ ܗܟܢܐ) and Vulgate places autem fourth (Non ita est autem). All three express the same contrastive negation, differing only in particle placement according to each language's syntactic conventions."
+      "note": "Greek and Latin express 'among you' analytically with preposition plus dative/ablative pronoun (ἐν ὑμῖν / in vobis), whereas Syriac compresses this into the single inflected form ܒܝܢܬܟܘܢ, a synthetic prepositional noun with possessive suffix — equivalent in sense but morphologically distinct."
     },
     {
       "greek_nt": [
-        6
+        6,
+        7
       ],
       "peshitta": [
         5
@@ -102,13 +140,12 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        7,
-        8
+        8,
+        9
       ],
       "peshitta": [
         6
@@ -117,8 +154,32 @@
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the indefinite relative construction ὃς ἂν (relative pronoun + modal particle) to express 'whoever'; Latin uses the compound relative quicumque; Peshitta uses the interrogative ܡܢ ('who') with the relative particle ܕ, a standard Syriac idiom for indefinite relatives. All three convey identical indefinite agency."
+      "note": "Greek uses the relative ὅς plus the modal particle ἄν (ὃς ἂν, 'whoever') to mark an indefinite generalising relative, matched by Latin quicumque; Syriac ܡܢ ('whoever') conveys the same indefinite sense lexically without a separate modal particle."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "Greek γενέσθαι is an aorist infinitive ('to become') governed by θέλῃ, and Latin fieri matches with an infinitive; Syriac ܕܢܗܘܐ employs instead a dependent finite clause (subordinating particle plus imperfect of h-w-a), rendering the complement as 'that he become' — a construction shift from infinitive to finite subordinate clause."
     },
     {
       "greek_nt": [
@@ -130,55 +191,75 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek θέλῃ ('shall desire', present subjunctive of θέλω) and Latin voluerit (future perfect of volo) are matched by Syriac ܕܨܒܐ (root ts-b-a, 'to will/desire'); the Syriac prefixes the relative/subordinating particle so the verb heads the conditional clause, a routine lexical and syntactic equivalence."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        8
+      ],
+      "variant": "added",
+      "note": "The Peshitta inserts ܒܟܘܢ ('among you') after the indefinite relative, anticipating the 'among you' already present in the protasis. Neither the Greek nor the Latin transmit a second prepositional phrase at this point; the Syriac thus doubles the locative reference for clarity."
     },
     {
       "greek_nt": [
-        10,
-        11,
         12,
         13
       ],
       "peshitta": [
-        8,
-        9,
-        10
+        12
       ],
       "vulgate": [
-        9,
-        10
+        12
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses the infinitive construction μέγας γενέσθαι ἐν ὑμῖν ('to become great among you'), repeating the prepositional phrase ἐν ὑμῖν from the protasis. Peshitta employs ܒܟܘܢ ܕܢܗܘܐ ܪܒܐ ('among you that he become great'), using a subordinate clause with ܕ and placing the locative phrase before the verb. Vulgate uses the simple infinitive fieri major without repeating the locative, assuming vobis from context. These represent three distinct syntactic strategies for expressing the same conditional result."
+      "variant": "minor",
+      "note": "In the apodosis Greek repeats ἐν ὑμῖν ('among you') and Latin uses the possessive vester ('your'), whereas Syriac uses the datival ܠܟܘܢ ('to/for you'); the three traditions diverge in expressing the relationship — locative in Greek, possessive in Latin, dative in Syriac — though all denote service rendered to the community."
     },
     {
       "greek_nt": [
-        14,
-        15,
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek explicitly attests the genitive ὑμῶν ('your') modifying διάκονος, which Latin renders with the possessive adjective vester (already grouped above) and Syriac with ܠܟܘܢ; here the Greek genitive pronoun is the distinct surface form aligning with those possessive/dative equivalents in the other traditions."
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        11,
-        12,
         13
       ],
       "vulgate": [
-        11,
-        12,
-        13,
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "vulgate": [
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses future indicative ἔσται with genitive ὑμῶν and predicate nominative διάκονος. Peshitta repeats the verb ܢܗܘܐ (imperfect, 'let him be') with dative ܠܟܘܢ ('to/for you') and predicate ܡܫܡܫܢܐ, creating stylistic parallelism with the previous clause. Vulgate employs future erit with possessive adjective vester, mirroring Greek syntax. The Peshitta's verbal repetition emphasizes the apodosis rhetorically, while Greek and Latin use standard future constructions."
+      "note": "The Clementine Vulgate closes the clause with a colon (:) anticipating the following antithetical statement, a punctuation choice corresponding to the Greek high point (·) at the end of διάκονος·; the Peshitta carries no equivalent graphic mark here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.013762+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.497775+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

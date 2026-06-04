@@ -84,20 +84,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek combines conjunction and verb (καὶ ἔλεγεν) with a single colon; Vulgate separates them with a colon after dixit, creating a more formal pause before the direct speech. Peshitta uses simple waw-consecutive without punctuation marker."
+      "note": "Greek ἔλεγεν is imperfect ('he was saying', durative), whereas the Vulgate dixit is perfect/aorist and the Peshitta ܘܐܡܪ is a simple perfect; the Syriac fuses the conjunction and verb into a single prefixed form, while the Vulgate adds a colon to introduce direct speech."
     },
     {
       "greek_nt": [
@@ -109,7 +118,8 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἀββά / ܐܒܐ / Abba — the transliterated Aramaic vocative is preserved in all three traditions."
     },
     {
       "greek_nt": [
@@ -123,108 +133,196 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the vocative article ὁ πατήρ (a Semitic-influenced construction); Syriac uses the possessive suffix ܐܒܝ ('my father'), making the relationship explicit; Latin uses simple vocative pater without article or possessive, following classical Latin norms."
+      "note": "Greek renders the explanatory apposition with article + nominative-for-vocative (ὁ πατήρ), and the Vulgate matches with the bare vocative pater; the Peshitta ܐܒܝ ('my Father') adds the first-person suffix, supplying a possessive nuance absent in the other two witnesses."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7
+        5
       ],
       "peshitta": [
         3,
-        4,
-        5,
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek substantival neuter plural πάντα and Latin omnia express 'all things' with a single word; Syriac uses the analytic pairing ܟܠ ܡܕܡ ('every thing'), a routine idiomatic expansion to render the universal."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek δυνατά (neuter plural adjective with elided copula) and Syriac ܡܫܟܚ ('is able/possible') express possibility; the Vulgate supplies the explicit copula sunt alongside possibilia, making the predication overt where Greek leaves the verb 'to be' understood."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        5,
-        6,
-        7,
-        8,
-        9
+        6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the dative pronoun σοι at the end (πάντα δυνατά σοι); Syriac inserts the indefinite ܡܕܡ ('anything') and places the subject pronoun ܐܢܬ ('you') after the participle ܡܫܟܚ ('able'); Vulgate front-loads the dative tibi and adds the copula sunt, yielding omnia tibi possibilia sunt—three syntactically distinct but semantically equivalent constructions."
+      "note": "All three attest the second-person referent ('to You'), but the Peshitta employs the independent pronoun ܐܢܬ rather than a dative form; word order also differs, the Vulgate placing tibi before the predicate adjective whereas Greek σοι follows it."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
+        8
       ],
       "peshitta": [
-        7,
-        8,
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "παρένεγκε / ܐܥܒܪ / transfer — the aorist imperative 'take away/remove' is rendered with comparable imperatives in each tradition."
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
-      "vulgate": [
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
+      "peshitta": [
+        9
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses aorist imperative παρένεγκε with article-noun-demonstrative-prepositional phrase (τὸ ποτήριον τοῦτο ἀπ᾽ ἐμοῦ); Syriac employs aphel imperative ܐܥܒܪ with preposition-suffix ܡܢܝ preceding the noun ܟܣܐ ܗܢܐ; Vulgate uses present imperative transfer with noun-demonstrative-preposition-pronoun (calicem hunc a me), adding a colon for rhetorical pause. All three convey identical petition with tradition-specific syntax."
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "note": "τὸ ποτήριον / ܟܣܐ / calicem — 'the cup'; Greek and Latin carry the definite article/case marking, Syriac the bare noun."
     },
     {
       "greek_nt": [
-        14,
-        15,
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "τοῦτο / ܗܢܐ / hunc — the demonstrative 'this' agreeing with 'cup'."
+    },
+    {
+      "greek_nt": [
+        12,
+        13,
+        14
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek ἀπ᾽ ἐμοῦ and Latin a me use a preposition plus pronoun ('from me'); Syriac compresses this into the single suffixed form ܡܢܝ ('from-me'), and the Peshitta places this phrase earlier in the clause, before the noun 'cup', yielding a word-order difference."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "ἀλλ᾽ / ܐܠܐ / sed — the adversative 'but' introducing the contrast of wills."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "note": "οὐ / ܠܐ / non — the negation governing the following clause."
+    },
+    {
+      "greek_nt": [
         16,
         17,
         18
       ],
       "peshitta": [
-        11,
-        12,
         13,
         14
       ],
       "vulgate": [
-        16,
-        17,
         18,
         19,
         20
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses ἀλλ᾽ οὐ τί ἐγὼ θέλω (adversative + negative + interrogative pronoun + emphatic pronoun + verb); Syriac employs ܐܠܐ ܠܐ ܨܒܝܢܝ ܕܝܠܝ (adversative + negative + noun 'my will' + possessive pronoun), nominalizing the clause; Vulgate uses sed non quod ego volo (adversative + negative + relative pronoun + pronoun + verb), mirroring Greek structure but with relative quod instead of interrogative τί."
+      "note": "Greek and Latin use the interrogative/relative construction 'what I will' (τί ἐγὼ θέλω / quod ego volo) with an explicit verb of willing; the Peshitta nominalises the idea as ܨܒܝܢܝ ('my will') reinforced by the emphatic possessive ܕܝܠܝ, replacing the verbal clause with a noun phrase — a construction difference, not a semantic one."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "note": "ἀλλὰ / ܐܠܐ / sed — the second adversative introducing the divine will."
+    },
+    {
+      "greek_nt": [
         20,
         21
       ],
       "peshitta": [
-        15,
         16
       ],
       "vulgate": [
-        21,
         22,
         23
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek repeats ἀλλὰ τί σύ (adversative + interrogative + pronoun); Syriac uses ܐܠܐ ܕܝܠܟ (adversative + possessive pronoun 'yours'), again nominalizing; Vulgate mirrors Greek with sed quod tu (adversative + relative + pronoun). The Peshitta's possessive construction (ܕܝܠܝ / ܕܝܠܟ) contrasts 'my [will]' vs. 'your [will]' without repeating the verb, a typical Syriac ellipsis."
+      "note": "Greek τί σύ and Latin quod tu repeat the interrogative/relative plus pronoun ('what you [will]') with the verb elided; the Peshitta again uses the single emphatic possessive ܕܝܠܟ ('that which is yours'), maintaining its nominal parallelism between the two wills."
+    },
+    {
+      "vulgate": [
+        9
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts a second colon to mark the transition into the petition (transfer calicem hunc...), a punctuation feature with no counterpart token in the Greek or Syriac, which mark clause boundaries lexically rather than orthographically."
+    },
+    {
+      "vulgate": [
+        15
+      ],
+      "variant": "added",
+      "note": "A further Vulgate colon separates the petition from the adversative clause; this editorial punctuation of the Clementine edition has no equivalent in the unpunctuated transmission underlying the Greek and Syriac witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.040462+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.513073+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

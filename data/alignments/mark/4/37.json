@@ -63,8 +63,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0
@@ -76,95 +75,182 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present tense γίνεται ('comes, arises'); Latin employs perfect passive facta est ('was made'); Syriac uses simple perfect ܗܘܬ ('was'). All three express the same inceptive event but with different aspectual nuances typical of each language's narrative conventions."
+      "note": "Greek καὶ γίνεται and Syriac ܘܗܘܬ both join the verb of becoming to the conjunction; Latin renders the same idea analytically as et facta est (perfect periphrastic). The verbal aspect differs (Greek historic present vs. Latin perfect) but the sense is equivalent."
     },
     {
       "greek_nt": [
-        2,
-        3,
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "γίνομαι absorbed into the becoming-verb grouping above."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        1,
-        2,
         3
       ],
       "vulgate": [
-        3,
-        4,
         5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the genitive ἀνέμου ('of wind') after the noun phrase λαῖλαψ μεγάλη ('great storm'); Syriac coordinates ܥܠܥܠܐ ܪܒܬܐ ܘܪܘܚܐ ('great whirlwind and wind') with waw; Latin mirrors Greek word order with procella magna venti. The Syriac construction treats 'wind' as a coordinate element rather than a genitive modifier, reflecting a stylistic preference for parataxis."
+      "type": "construction",
+      "note": "Greek ἀνέμου and Latin venti are genitives dependent on 'storm' ('a great storm of wind'); the Peshitta instead coordinates the noun ܘܪܘܚܐ ('and a wind') with a conjunction, making wind a parallel subject rather than a qualifier of the storm. This is a syntactic divergence yielding a near-identical meaning."
     },
     {
       "greek_nt": [
         5,
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens the second clause with καί … δέ plus the article τά before κύματα; Latin uses simple et fluctus and Syriac ܘܓܠܠܐ with a single conjunction. The Greek double connective (a mildly adversative continuation) is flattened in both versions, neither of which carries the δέ nuance."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek employs the coordinating conjunction καὶ plus the postpositive particle δέ with the article τὰ to introduce the subject κύματα ('the waves'); Latin uses simple et fluctus ('and the waves'); Syriac omits any conjunction and continues with ܘܓܠܠܐ ('and waves'), treating it as part of the storm description. The Greek article + δέ construction provides stronger discourse segmentation absent in the other traditions."
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek κύματα and Syriac ܓܠܠܐ are plural ('waves'); the Vulgate fluctus is here construed as singular collective ('the wave/surge'), matching its singular verb mittebat. A number difference of no semantic weight."
     },
     {
       "greek_nt": [
-        9,
-        10,
+        9
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐπέβαλλεν and Latin mittebat are single imperfect verbs ('were/was beating in'); the Peshitta employs the periphrastic ܢܦܠܝܢ ܗܘܘ (active participle + auxiliary ܗܘܘ) to express durative past action, a standard Syriac construction with the same iterative force."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
       "peshitta": [
-        5,
-        6,
         7
       ],
       "vulgate": [
-        8,
-        9,
         10
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐπέβαλλεν εἰς τὸ πλοῖον ('were breaking over the boat') uses the imperfect of ἐπιβάλλω with εἰς + accusative; Latin mittebat in navim ('was casting into the boat') employs mittō with in + accusative; Syriac ܢܦܠܝܢ ܗܘܘ ܒܣܦܝܢܬܐ ('were falling in the boat') uses the participle + auxiliary construction with ܒ. All three convey waves entering the vessel but with distinct verbal lexemes reflecting translation choices."
+      "type": "construction",
+      "note": "Greek εἰς τὸ πλοῖον and Latin in navim both use a preposition + accusative for motion into the boat; the Syriac ܒܣܦܝܢܬܐ fuses the locative preposition ܒ- to the noun, lacking a separate article but conveying the same directional sense."
     },
     {
       "greek_nt": [
-        13,
-        14,
-        15,
-        16,
-        17
+        13
       ],
       "peshitta": [
         8,
-        9,
-        10
+        9
       ],
       "vulgate": [
         11,
-        12,
-        13,
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὥστε introduces the result clause ('so that'); Latin matches with ita ut. The Peshitta restructures the result entirely, supplying a finite predicate ܘܩܪܝܒܐ ܗܘܬ ('and it was near [to being filled]'), an explanatory expansion that softens the consecutive force into a statement of imminent danger."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek adverb ἤδη ('already, now'), heightening the immediacy of the swamping, is rendered by neither the Vulgate nor the Peshitta. The Peshitta's ܩܪܝܒܐ ('near/about to') captures the same urgency lexically, so the omission is functional rather than substantive."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        16,
+        17
+      ],
+      "peshitta": [],
+      "vulgate": [
         14
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek ὥστε ἤδη γεμίζεσθαι τὸ πλοῖον ('so that already the boat was being filled') uses the consecutive ὥστε with the adverb ἤδη and present passive infinitive; Latin ita ut impleretur navis ('so that the boat was being filled') omits any equivalent to ἤδη; Syriac ܘܩܪܝܒܐ ܗܘܬ ܕܬܬܡܠܐ ('and it was near that it be filled') substitutes a proximity construction ('was near to') for the Greek temporal adverb, expressing imminence rather than actuality."
+      "type": "construction",
+      "note": "Greek redundantly repeats τὸ πλοῖον as the explicit subject of the passive infinitive; Latin retains the noun navis as subject of impleretur, but the Peshitta has no second mention of the boat, leaving ܕܬܬܡܠܐ ('that it be filled') with an implicit subject. A stylistic compression of the Greek's resumptive repetition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.969050+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.474107+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

@@ -91,29 +91,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek καὶ λέγει uses two words (conjunction + finite verb) while Syriac fuses both into the single prefixed form ܘܐܡܪ ('and-he-said'); the Vulgate matches the Greek with et dicit, retaining the present tense to mirror the vivid Greek narrative present."
     },
     {
       "greek_nt": [
@@ -123,12 +112,9 @@
         1
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after the indirect object 'ei', creating a stronger pause before the direct speech begins. Greek uses a raised dot (·) and Peshitta follows Greek punctuation conventions, both marking a lighter boundary than the Latin colon."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -140,8 +126,7 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -156,8 +141,7 @@
         5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs double negation with μηδενὶ μηδὲν (dative-accusative sequence: 'to no one nothing'), a Semitic-influenced construction. Peshitta mirrors this with ܠܡܐ ܠܐܢܫ ('lest to anyone'), while Vulgate collapses the double negative into a single dative 'nemini' ('to no one'), following classical Latin idiom."
+      "note": "Greek employs an emphatic double negation (μηδενὶ μηδὲν, 'to no one nothing'); Syriac renders with ܠܡܐ ('lest') + ܠܐܢܫ ('to anyone'), and the Vulgate compresses the whole to a single negative pronoun nemini ('to no one'), dropping the second negation as alien to Latin idiom."
     },
     {
       "greek_nt": [
@@ -168,16 +152,15 @@
         6
       ],
       "vulgate": [
-        6,
-        7
+        6
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds the explicit subject pronoun ܐܢܬ ('you') after the verb ܐܡܪ, a typical Syriac clarification where Greek and Latin rely on verbal inflection alone. The Vulgate colon after 'dixeris' marks the end of the prohibition clause."
+      "note": "Greek aorist subjunctive εἴπῃς and Latin perfect subjunctive dixeris both express the prohibition synthetically; Syriac uses an analytic construction with the participle ܐܡܪ plus the enclitic pronoun ܐܢܬ ('you'), a typical Syriac periphrastic verbal form."
     },
     {
       "greek_nt": [
-        7
+        7,
+        8
       ],
       "peshitta": [
         7
@@ -185,12 +168,11 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        8
+        9
       ],
       "peshitta": [
         8
@@ -198,30 +180,37 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        9,
         10
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
       "vulgate": [
-        10,
-        11
+        10
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the reflexive pronoun σεαυτὸν before the imperative δεῖξον ('yourself show'), while Vulgate inverts to 'ostende te' (verb-object order). Peshitta follows Greek word order with ܚܘܐ ܢܦܫܟ, preserving the object-before-verb emphasis typical of Semitic syntax."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         11,
         12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek σεαυτὸν δεῖξον ('show yourself') is matched by Latin ostende te and by Syriac ܚܘܐ ܢܦܫܟ, where ܢܦܫܟ literally renders 'your soul/self' as the reflexive object, a standard Semitic reflexive idiom."
+    },
+    {
+      "greek_nt": [
+        13
       ],
       "peshitta": [
         11
@@ -231,36 +220,21 @@
         13
       ],
       "variant": "major",
-      "type": "substitution",
-      "note": "Greek and Peshitta use the simple term for 'priest' (ἱερεῖ / ܠܟܗܢܐ), referring to any Levitical priest authorized to certify cleansing per Leviticus 14. Vulgate reads 'principi sacerdotum' ('to the chief priest'), a substantive alteration that could imply the high priest specifically, though this likely reflects Latin idiom for priestly authority rather than a textual variant."
+      "note": "Greek τῷ ἱερεῖ ('to the priest') is matched by Syriac ܠܟܗܢܐ, but the Vulgate expands to principi sacerdotum ('to the chief of the priests'), a non-trivial substitution introducing hierarchical specificity absent from both the Greek and Syriac witnesses here."
     },
     {
       "greek_nt": [
-        13
+        14
       ],
       "peshitta": [
         12
       ],
       "vulgate": [
-        14
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        14
-      ],
-      "peshitta": [
-        12,
-        13
-      ],
-      "vulgate": [
+        14,
         15
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek προσένεγκε ('bring/offer') and Latin 'offer' are semantically equivalent. Peshitta uses ܘܩܪܒ ܩܘܪܒܢܐ ('and bring near an offering'), making the sacrificial object explicit with the cognate noun ܩܘܪܒܢܐ (qurbānā, 'offering'), a typical Syriac expansion for liturgical clarity."
+      "note": "Greek καὶ προσένεγκε ('and offer') is rendered by Syriac ܘܩܪܒ; the Vulgate splits the conjunction and verb into et offer, an exact word-for-word correspondence."
     },
     {
       "greek_nt": [
@@ -270,6 +244,7 @@
         18
       ],
       "peshitta": [
+        13,
         14,
         15
       ],
@@ -278,28 +253,45 @@
         17,
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek περὶ τοῦ καθαρισμοῦ σου ('concerning your cleansing') is matched by Latin pro emundatione tua; Syriac adds an explicit object ܩܘܪܒܢܐ ('an offering/sacrifice', cognate with ܩܪܒ) before ܚܠܦ ܬܕܟܝܬܟ, making the implied sacrificial object overt where the Greek and Latin leave it understood."
     },
     {
       "greek_nt": [
-        19,
-        20,
+        19
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "note": "Greek uses the neuter plural relative pronoun ἃ ('the things which'); Syriac employs the adverbial relative ܐܝܟܢܐ ('according as/just as'), shifting from a relative-object construction to a comparative-manner clause, while the Vulgate quæ preserves the Greek relative."
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         21
       ],
       "peshitta": [
-        16,
-        17,
         18
       ],
       "vulgate": [
-        19,
-        20,
         21
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a relative pronoun ἃ ('what things') governing the verb προσέταξεν, creating a relative clause. Peshitta employs ܐܝܟܢܐ ܕܦܩܕ ('as commanded'), a comparative-relative construction typical of Syriac. Vulgate mirrors Greek with the relative 'quæ præcepit', though 'quæ' (neuter plural) agrees with an implied antecedent 'ea' (those things)."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -316,14 +308,22 @@
         24
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition εἰς with accusative μαρτύριον αὐτοῖς ('for a testimony to them'), where the dative pronoun indicates the recipients of the testimony. Peshitta compresses this into a single construct phrase ܠܣܗܕܘܬܗܘܢ ('for their testimony'), using a pronominal suffix. Vulgate follows Greek structure with 'in testimonium illis', though 'in' + accusative conveys purpose rather than pure dative of interest."
+      "note": "Greek εἰς μαρτύριον αὐτοῖς ('for a testimony to them') is rendered analytically in three words, matched by Latin in testimonium illis; Syriac compresses the entire phrase into the single suffixed noun ܠܣܗܕܘܬܗܘܢ ('for-their-testimony'), incorporating preposition, noun, and possessive pronoun in one form."
+    },
+    {
+      "vulgate": [
+        3,
+        7
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts editorial colons after ei and after dixeris to mark the direct discourse; neither the Greek nor the Syriac base text transmits these as lexical tokens, they are scribal/editorial punctuation."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.950581+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.415397+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

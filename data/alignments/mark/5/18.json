@@ -68,46 +68,67 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘܟܕ / Cumque — the temporal conjunction; Greek joins the genitive absolute with simple καί, while Syriac ܘܟܕ and Latin Cumque both fold the conjunction and 'when' together."
     },
     {
       "greek_nt": [
         1,
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a genitive absolute (ἐμβαίνοντος αὐτοῦ, 'as he was embarking'), whereas Syriac ܣܠܩ and Latin ascenderet use finite/subjunctive verbs governed by the temporal conjunction; the explicit pronoun αὐτοῦ is absorbed into the verb morphology in both versions."
+    },
+    {
+      "greek_nt": [
         3,
         4,
         5
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a genitive absolute construction (ἐμβαίνοντος αὐτοῦ εἰς τὸ πλοῖον) with present participle, article, and prepositional phrase. Syriac uses a finite verb (ܣܠܩ 'he ascended') with direct object, while Vulgate uses a temporal cum-clause with imperfect subjunctive (cumque ascenderet navim). All three express the same temporal circumstance but with distinct syntactic strategies."
+      "note": "Greek expresses the goal with preposition + article + noun (εἰς τὸ πλοῖον); Syriac ܠܣܦܝܢܬܐ marks the same directional sense with the prefixed lamadh, and Latin navim uses a bare accusative of motion without a preposition, each idiomatically equivalent."
     },
     {
       "greek_nt": [
-        6,
-        7
+        6
       ],
       "peshitta": [
         3,
-        4,
-        5
+        4
       ],
       "vulgate": [
         3,
-        4,
         5
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect indicative παρεκάλει with direct object pronoun αὐτόν. Syriac employs a periphrastic construction ܒܥܐ ܗܘܐ ܡܢܗ (literally 'was seeking from him'), using the preposition ܡܢ to mark the indirect object. Vulgate mirrors Greek structure with cœpit illum deprecari, though using an infinitive complement. The semantic content is identical but the syntactic encoding differs."
+      "type": "construction",
+      "note": "Greek uses the single imperfect παρεκάλει ('was begging'); Syriac renders this with periphrastic ܒܥܐ ܗܘܐ (perfect + auxiliary ܗܘܐ to convey durative past), while Latin splits the idea into inceptive cœpit ... deprecari ('began to beseech')."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "αὐτόν / ܡܢܗ / illum — the object of entreaty; Syriac ܡܢܗ uses the preposition 'from him' as the natural complement of ܒܥܐ."
     },
     {
       "greek_nt": [
@@ -125,36 +146,55 @@
         9,
         10
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses articular aorist passive participle ὁ δαιμονισθεὶς ('the one having been demon-possessed') as a substantive. Syriac employs a resumptive pronoun ܗܘ with relative clause ܕܫܐܕܘܗܝ ('he whom his demons [possessed]'). Vulgate expands significantly with a full relative clause qui a dæmonio vexatus fuerat ('who had been vexed by a demon'), using pluperfect passive and explicitly naming the singular dæmonio where Greek and Syriac imply plurality or collective force."
+      "note": "Greek substantivises the participle (ὁ δαιμονισθείς, 'the one who had been demon-possessed'); Syriac uses the relative ܗܘ ܕܫܐܕܘܗܝ ('he whose demons'); Latin expands into a full relative clause qui a dæmonio vexatus fuerat — semantically equivalent constructions differing in syntactic weight."
     },
     {
       "greek_nt": [
-        10,
-        11,
-        12,
-        13
+        10
       ],
-      "peshitta": [
-        8,
-        9
-      ],
+      "peshitta": [],
       "vulgate": [
-        11,
-        12,
-        13,
-        14
+        11
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses ἵνα with present subjunctive ᾖ and prepositional phrase μετ᾽ αὐτοῦ to express purpose. Syriac employs ܕ with imperfect ܢܗܘܐ and prepositional phrase ܕܥܡܗ, a standard Syriac purpose construction. Vulgate uses ut with imperfect subjunctive esset cum illo. All three traditions express identical purpose semantics through their respective complementation strategies."
+      "note": "Greek ἵνα and Latin ut introduce the purpose/content clause; Syriac lacks a separate conjunction here, the subordination being carried by the prefixed dalath on ܕܥܡܗ."
+    },
+    {
+      "greek_nt": [
+        11,
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "aligned",
+      "note": "μετ᾽ αὐτοῦ / ܕܥܡܗ / cum illo — 'with him'; Syriac compresses preposition, suffix-pronoun and subordinating dalath into the single form ܕܥܡܗ."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "ᾖ / ܢܗܘܐ / esset — the subjunctive of εἰμί ('that he might be'); all three render the volitive 'be with him.'"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.973297+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.442308+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

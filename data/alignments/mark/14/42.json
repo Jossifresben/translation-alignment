@@ -50,8 +50,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -63,18 +62,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        2
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'eamus' to mark a stronger pause before the announcement of the betrayer's approach. Neither Greek nor Peshitta employ punctuation at this juncture, maintaining continuous discourse flow."
+      "variant": "minor",
+      "note": "Greek ἄγωμεν is a first-person plural hortatory subjunctive ('let us go'), matched by the Latin subjunctive eamus; the Syriac ܢܐܙܠ is a third/first-person imperfect functioning cohortatively but morphologically distinct from the Greek volitive form. The sense ('let us go') is equivalent across all three."
     },
     {
       "greek_nt": [
@@ -86,38 +75,63 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
+    },
+    {
+      "vulgate": [
+        2
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon after eamus, dividing the verse into the exhortation and the announcement of the betrayer. Neither the Greek nor the Syriac transmit a corresponding mid-verse punctuation marker, though all reflect the same syntactic break (Greek uses a raised dot · after ἄγωμεν)."
     },
     {
       "greek_nt": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "peshitta": [
-        3,
         4,
-        5,
-        6
+        5
       ],
       "vulgate": [
         4,
-        5,
-        6,
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek expresses the betrayer with an articular present participle ὁ παραδιδούς ('the one betraying'), conveying ongoing/imminent action; the Vulgate renders this with a relative clause and a future tense, qui me tradet ('who will betray me'); the Syriac ܗܘ ܕܡܫܠܡ uses a demonstrative plus participial relative ('he who delivers up'). The constructions are syntactically distinct but functionally equivalent."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
         7,
         8
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek and Peshitta place the verb 'has drawn near' (ἤγγικεν / ܩܪܒ) in final position, creating a climactic structure: 'the one betraying me—has drawn near.' The Vulgate inverts this order, positioning 'prope est' at the end but fronting the relative clause 'qui me tradet' before the proximity verb, yielding 'who will betray me is near'—a syntactic reordering that shifts rhetorical emphasis from the approach to the identity of the betrayer."
+      "variant": "minor",
+      "note": "Greek uses the perfect ἤγγικεν ('has drawn near', G1448, root for 'to approach') stressing a completed nearing; the Syriac ܩܪܒ (root q-r-b) is likewise a verb of approach but placed earlier in the clause for emphasis (word-order divergence); the Vulgate paraphrases with the adverbial predicate prope est ('is near'), substituting an adjectival construction for the Greek finite verb."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.041473+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.484172+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

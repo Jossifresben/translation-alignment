@@ -114,32 +114,23 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Greek καὶ ('and') is rendered by Syriac ܘܟܕ ('and when'), which adds a temporal nuance, while Latin uses At ('but'), introducing a mild adversative contrast absent in the Greek."
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
+        0,
+        1,
+        2,
         3
       ],
       "vulgate": [
+        0,
         1,
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek ἐξελθοῦσαι (aorist participle 'having gone out') precedes the main verb; Syriac ܘܢܦܩ ('and they went out') follows the verb ܥܪܩ ('they fled'); Latin illæ exeuntes mirrors Greek word order with participle before main verb."
+      "type": "construction",
+      "note": "Greek opens with a simple coordinating καὶ plus an aorist participle (ἐξελθοῦσαι, 'having gone out'); the Vulgate renders this with the adversative At illæ exeuntes ('But they, going out'), supplying an explicit subject pronoun. The Peshitta restructures more freely with a temporal clause ܘܟܕ ܫܡܥ ('and when [she/they] heard') and adds a verb of hearing not present in either the Greek or Latin, anticipating the women's reaction."
     },
     {
       "greek_nt": [
@@ -149,7 +140,7 @@
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek adverb ταχὺ ('quickly') is omitted in both Peshitta and Vulgate, possibly deemed redundant given the urgency implied by 'fled.'"
+      "note": "The Greek adverb ταχύ ('quickly') qualifying the women's flight is not represented in either the Peshitta or the Vulgate, both of which compress the action of departing and fleeing without the temporal intensifier."
     },
     {
       "greek_nt": [
@@ -161,9 +152,9 @@
       "vulgate": [
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek ἔφυγον ('they fled') appears after the participle and adverb; Syriac ܥܪܩ ('they fled') precedes ܘܢܦܩ ('and they went out'), reversing the sequence; Latin fugerunt follows Greek order."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "φεύγω / ܥܪܩ / fugerunt — all three attest the verb of fleeing, though the Peshitta places ܥܪܩ before ܘܢܦܩ, reversing the order of fleeing and going out relative to the Greek participial sequence."
     },
     {
       "greek_nt": [
@@ -181,47 +172,48 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta inserts ܫܡܥ ('having heard'), absent in both Greek and Latin, possibly harmonising with a tradition that the women heard something (the angel's message) before fleeing."
+      "type": "agreement",
+      "note": "ἀπὸ τοῦ μνημείου / ܡܢ ܩܒܪܐ / de monumento — prepositional phrase 'from the tomb' attested in all three, with the Greek and Latin retaining a high stop / colon (μνημείου· : ) that the unpointed Peshitta does not mark."
     },
     {
       "greek_nt": [
         7,
         8,
-        9,
-        10,
-        11,
-        12
+        9
       ],
       "peshitta": [
         6,
         7,
         8,
-        9,
-        10,
-        11
+        9
       ],
       "vulgate": [
         7,
         8,
-        9,
-        10,
-        11,
-        12,
-        13
+        9
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses ἔκστασις ('amazement, ecstasy') alongside τρόμος ('trembling'); Syriac employs ܬܗܪܐ ('wonder') and ܪܬܝܬܐ ('trembling'); Latin uses tremor et pavor ('trembling and fear'), substituting pavor for ἔκστασις, emphasising terror over astonishment."
+      "type": "construction",
+      "note": "Greek εἶχεν γὰρ αὐτὰς ('for [it] held them') uses the simple imperfect of ἔχω; the Vulgate's invaserat enim eas ('for [it] had seized them') employs a pluperfect of invado with stronger semantic force. The Peshitta builds a periphrastic past with ܐܚܝܕ ܗܘܐ ('was holding/seizing') plus the enclitic dative ܠܗܝܢ, a typical Syriac compound-tense construction."
+    },
+    {
+      "greek_nt": [
+        10,
+        11,
+        12
+      ],
+      "peshitta": [
+        10,
+        11
+      ],
+      "vulgate": [
+        10,
+        11,
+        12
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek pairs τρόμος καὶ ἔκστασις ('trembling and amazement/ecstasy') and Latin tremor et pavor ('trembling and dread'); the Peshitta reverses the pair as ܬܗܪܐ ܘܪܬܝܬܐ ('astonishment and trembling'), placing the noun of amazement first. The Latin pavor ('dread') is a slightly stronger lexical choice than Greek ἔκστασις ('ecstasy, displacement of mind')."
     },
     {
       "greek_nt": [
@@ -232,29 +224,40 @@
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "καί / et — the coordinating conjunction introducing the second clause; the Peshitta subsumes this connective into the proclitic waw of ܘܠܐܢܫ rather than rendering it as a separate token."
     },
     {
       "greek_nt": [
         14,
-        15,
-        16
+        15
       ],
       "peshitta": [
         12,
-        13,
+        13
+      ],
+      "vulgate": [
+        15,
+        16
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Greek doubles the negative οὐδενὶ οὐδὲν ('to no one nothing'); the Vulgate mirrors this with nemini quidquam, and the Peshitta with ܘܠܐܢܫ ܡܕܡ ('and to anyone anything'), the negation being completed by the following ܠܐ — all three preserve the emphatic double-negative idiom."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
         14,
         15
       ],
       "vulgate": [
-        15,
-        16,
-        17,
-        18
+        17
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs double negative οὐδενὶ οὐδὲν ('to no one nothing'); Syriac uses ܘܠܐܢܫ ܡܕܡ ܠܐ ('and to anyone anything not'), placing the negation ܠܐ after the object; Latin nemini quidquam dixerunt mirrors Greek structure with negatives before the verb."
+      "type": "grammar",
+      "note": "Greek εἶπαν and Latin dixerunt are finite aorist/perfect indicatives ('they said'); the Peshitta uses the negative particle ܠܐ with the participle ܐܡܪܝܢ ('they were not saying / said nothing'), distributing the negation differently across the clause but yielding the same sense."
     },
     {
       "greek_nt": [
@@ -271,8 +274,8 @@
         20
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἐφοβοῦντο (imperfect middle-passive 'they were being afraid') conveys ongoing state; Syriac ܕܚܝܠܢ ܗܘܝ (perfect + auxiliary 'they had feared') uses a compound construction; Latin timebant (imperfect active) aligns with Greek tense-aspect."
+      "type": "construction",
+      "note": "Greek ἐφοβοῦντο γάρ and Latin timebant enim use a single imperfect verb plus the postpositive causal particle ('for they were afraid'). The Peshitta employs a periphrastic ܕܚܝܠܢ ܗܘܝ ('they were fearing', participle + enclitic perfect of h-w-y) with ܓܝܪ, again preferring the compound tense characteristic of Syriac narrative."
     },
     {
       "greek_nt": [
@@ -313,15 +316,15 @@
       ],
       "peshitta": [],
       "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The so-called 'Shorter Ending' (Mark 16:8b, tokens 19–52) is absent in both Peshitta and Vulgate witnesses here. This passage, attested in some Greek manuscripts (L Ψ 099 0112 etc.), reports that the women promptly told Peter's circle and that Jesus sent out the gospel from east to west; its omission reflects the textual tradition ending at 16:8a."
+      "variant": "added",
+      "type": "expansion",
+      "note": "This entire block, bracketed [[...]] in the Greek edition, is the so-called 'Shorter Ending' of Mark transmitted in a handful of witnesses after 16:8. It is absent from both this Peshitta verse and this Clementine Vulgate verse, reflecting its disputed and secondary status in the textual tradition (cf. the differing endings catalogued in the apparatus to Mark 16:9–20)."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.055574+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.549716+00:00",
+    "confidence": 0.78,
     "schema_version": 1
   }
 }

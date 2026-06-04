@@ -46,20 +46,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek Καί is a simple coordinating conjunction governing the participle ἀκούσαντες; the Peshitta renders ܘܟܕ ('and when'), making the temporal force explicit with a subordinating particle, while the Vulgate retains the bare paratactic Et. The Syriac thus grammaticalises the circumstantial nuance left implicit in the aorist participle."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction καὶ + aorist participle ἀκούσαντες (nominative plural masculine); Syriac employs the temporal particle ܘܟܕ + finite verb ܫܡܥܘ (perfect 3pl); Latin mirrors Greek with et + present participle audientes. All three express temporal anteriority ('when/having heard'), but through different syntactic strategies."
+      "note": "Greek aorist participle ἀκούσαντες and Latin present participle audientes both render the action attributively/circumstantially, whereas the Peshitta ܫܡܥܘ is a finite perfect verb ('they heard') coordinated by the preceding ܘܟܕ. The difference is one of participial versus finite subordination, semantically equivalent."
     },
     {
       "greek_nt": [
@@ -73,24 +84,36 @@
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the definite article οἱ with the numeral δέκα ('the ten'), a construction typical of Greek when referring to a previously mentioned group. Syriac ܥܣܪܐ and Latin decem lack the article, as neither language requires articles with definite numerals in this context—the definiteness is contextually understood."
+      "type": "idiom",
+      "note": "Greek substantivises the numeral with the article (οἱ δέκα, 'the ten'); both the Vulgate decem and the Peshitta ܥܣܪܐ render the cardinal without an article, Syriac and Latin lacking the Greek definite article and supplying the substantival sense contextually."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἤρξαντο / ܫܪܝܘ / cœperunt"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a complementary infinitive after the inceptive verb (ἀγανακτεῖν / indignari, 'to be indignant'); the Peshitta employs an asyndetic participle ܪܛܢܝܢ ('grumbling/murmuring') after ܫܪܝܘ, a typical Syriac auxiliary construction, and the root r-T-n carries a slightly more concrete sense of audible murmuring than abstract indignation."
     },
     {
       "greek_nt": [
@@ -102,33 +125,45 @@
       "vulgate": [
         5
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek περὶ governs the genitive and can mean 'about, concerning'; Latin de with ablative carries similar semantic range ('about, concerning'); Syriac ܥܠ ('upon, against, concerning') is the standard preposition for this context. All three are functional equivalents expressing the object of indignation, though ܥܠ has a slightly more adversarial connotation ('against') that fits the context of displeasure."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "περί / ܥܠ / de"
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Ἰακώβου / ܝܥܩܘܒ / Jacobo"
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin coordinate the two names with a separate conjunction plus the second name (καὶ Ἰωάννου / et Joanne); the Peshitta prefixes the conjunction proclitically to the name itself (ܘܝܘܚܢܢ, 'and-John'), a normal feature of Syriac orthography rather than a substantive variant."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.013467+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.491307+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

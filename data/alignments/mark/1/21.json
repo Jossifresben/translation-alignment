@@ -52,55 +52,77 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin open paratactically with a simple coordinating conjunction (Καὶ / Et), continuing Mark's characteristic narrative parataxis. The Peshitta ܘܟܕ ('and when') subordinates the entry into Capernaum, recasting the first clause as a temporal subordinate, a stylistic smoothing typical of Syriac narrative."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek εἰσπορεύονται and Latin ingrediuntur are present-tense (historic present) third-person plural; the Peshitta ܥܠܘ is a perfect (past) third-person plural. The shift from historic present to simple past is a normal Syriac narrative convention, semantically equivalent."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
-        1,
         2
       ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses historical present plural εἰσπορεύονται ('they go') where Peshitta employs perfect ܥܠܘ ('they went up/entered') and Vulgate uses historical present ingrediuntur. The Peshitta's 'went up' reflects typical Semitic idiom for approaching a town, while Greek and Latin use neutral 'enter/go into.'"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The high point following Καφαρναούμ in the Greek and the colon after Capharnaum in the Vulgate mark a clause boundary that the Peshitta encodes syntactically through its subordinating ܘܟܕ construction rather than orthographically."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        6,
-        7
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses dative plural τοῖς σάββασιν with article (literally 'on the Sabbaths'), a Hebraic plural of time. Both Peshitta ܒܫܒܐ and Vulgate sabbatis render the temporal dative without article, though Vulgate preserves the plural form while Peshitta uses singular—a typical Syriac idiom for recurring time periods."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -117,9 +139,24 @@
         8,
         9
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses aorist participle εἰσελθὼν εἰς τὴν συναγωγήν ('having entered into the synagogue') as a temporal subordinate clause. Vulgate mirrors this with ingressus in synagogam. Peshitta radically restructures with ܒܟܢܘܫܬܗܘܢ ('in their assembly/synagogue'), incorporating a pronominal suffix 'their' not present in Greek or Latin, and omitting the separate verb of entry—collapsing location and action into a single prepositional phrase."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle plus prepositional phrase (εἰσελθὼν εἰς τὴν συναγωγὴν), closely mirrored by the Latin participial ingressus in synagogam. The Peshitta condenses 'having entered into the synagogue' into the single locative noun ܒܟܢܘܫܬܗܘܢ ('in their synagogue'), omitting an explicit verb of entering and supplying a possessive suffix not present in the other witnesses."
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek τοῖς σάββασιν and Latin sabbatis are morphologically plural (a Semitic-influenced Greek plural for the single Sabbath day), whereas the Peshitta ܒܫܒܐ renders the underlying Aramaic singular directly, reflecting the native idiom rather than the Grecised plural form."
     },
     {
       "greek_nt": [
@@ -130,18 +167,25 @@
         5
       ],
       "vulgate": [
-        10,
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐδίδασκεν and Latin docebat are simple imperfects expressing durative past teaching. The Peshitta achieves the same continuous aspect periphrastically with the active participle ܡܠܦ plus the auxiliary ܗܘܐ ('was teaching'), a standard Syriac means of expressing past progressive action."
+    },
+    {
+      "vulgate": [
         11
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses imperfect ἐδίδασκεν ('he was teaching') as main verb. Peshitta employs periphrastic construction ܡܠܦ ܗܘܐ (participle + auxiliary 'was teaching'), semantically equivalent but syntactically distinct. Vulgate adds explicit object pronoun eos ('them'), making the audience explicit where Greek and Peshitta leave it implied, and repositions the verb after the locative phrase rather than as sentence-final."
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate supplies an explicit accusative object eos ('them'), making the audience overt. Neither the Greek ἐδίδασκεν nor the Peshitta ܡܠܦ ܗܘܐ expresses a direct object here; the addition is a Latin clarifying expansion."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.946690+00:00",
-    "confidence": 0.75,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.468811+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

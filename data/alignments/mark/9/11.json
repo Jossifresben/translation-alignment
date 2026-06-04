@@ -61,43 +61,76 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3
+        0
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
       ],
       "peshitta": [
         0,
-        1,
-        2,
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek uses the simple imperfect ἐπηρώτων ('they were asking'); the Peshitta renders the durative aspect periphrastically with ܡܫܐܠܝܢ ܗܘܘ (participle plus the auxiliary ܗܘܘ), the standard Syriac means of expressing past continuous action. The Vulgate interrogabant matches the Greek imperfect directly."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
         3
       ],
       "vulgate": [
-        0,
-        1,
-        2,
         3,
         4
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after dicentes to mark the transition to direct speech, while Greek uses a raised dot (·) and Peshitta employs no explicit punctuation marker. This reflects Latin scribal convention for introducing quoted speech."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         4
       ],
       "peshitta": [
-        4,
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "The Greek recitative ὅτι introducing direct discourse is rendered interrogatively in both Peshitta (ܡܢܐ 'what') and Vulgate (Quid 'why/what'), reflecting an interpretive reading in which the disciples' question is framed as a direct query rather than a mere quotation marker."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
         5
       ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ὅτι introduces indirect discourse ('that the scribes say that...'), whereas Peshitta ܡܢܐ ܗܟܝܠ ('What then...?') and Vulgate Quid ergo transform the statement into a direct question, fundamentally altering the syntactic structure from declarative to interrogative."
+      "variant": "added",
+      "note": "Both the Peshitta (ܗܟܝܠ) and the Vulgate (ergo, 'therefore') supply an inferential particle absent from the Greek text. This shared 'minor agreement' against the Greek likely reflects a common interpretive tradition reading the question as a logical inference from the foregoing discourse."
     },
     {
       "greek_nt": [
@@ -125,40 +158,77 @@
         10
       ],
       "variant": "major",
-      "type": "expansion",
-      "note": "The Vulgate expands οἱ γραμματεῖς ('the scribes') to pharisæi et scribæ ('Pharisees and scribes'), harmonising with the frequent synoptic pairing of these groups (cf. Matt 23:2, Mark 7:5). Neither the Greek NA28 nor the Peshitta attest this doublet here."
+      "note": "The Greek and Peshitta name only the scribes (οἱ γραμματεῖς / ܣܦܪܐ); the Vulgate expands to pharisæi et scribæ ('the Pharisees and scribes'), a harmonisation toward the frequent NT pairing of the two groups (cf. Matt 23). This expansion is not supported by the Greek or Syriac witnesses here."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10,
-        11,
+        8
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "The Greek subordinating ὅτι ('that') is absorbed in the Peshitta into the proclitic ܕ- prefixed to ܐܠܝܐ, while the Vulgate uses the conjunction quia; all three function to introduce the reported clause."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "note": "The Greek impersonal δεῖ ('it is necessary') and the Vulgate oportet both express objective necessity, whereas the Peshitta ܘܠܐ (from ܘܠܐ 'it is fitting/proper') connotes propriety or obligation, a subtly different modal nuance characteristic of Syriac rendering of Greek δεῖ."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "note": "Greek uses the bare aorist infinitive ἐλθεῖν dependent on δεῖ; the Peshitta employs a finite subjunctive-like construction ܕܢܐܬܐ ('that he should come') with the proclitic ܕ-, a construction-level difference, while the Vulgate venire mirrors the Greek infinitive."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        8,
-        9,
-        10,
         11
       ],
       "vulgate": [
-        11,
-        12,
-        13,
-        14,
         15,
         16
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses ὅτι to introduce the content clause ('that Elijah must come first'), while Peshitta employs ܕܐܠܝܐ ܘܠܐ ܕܢܐܬܐ ('that Elijah—is it not?—must come'), inserting the interrogative particle ܘܠܐ to reinforce the question structure initiated earlier. Vulgate quia mirrors Greek syntax but follows the interrogative framework with a terminal question mark."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.231081+00:00",
-    "confidence": 0.75,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.441418+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

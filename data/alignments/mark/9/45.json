@@ -101,10 +101,11 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί + ἐάν correspond to the single Syriac compound ܘܐܢ and to Latin Et si."
     },
     {
       "greek_nt": [
@@ -116,8 +117,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -133,65 +133,82 @@
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article with noun and possessive pronoun (ὁ πούς σου); Latin uses bare noun with possessive (pes tuus); Syriac uses the suffixed possessive form (ܪܓܠܟ, 'your-foot'), a typical Semitic construction without article."
+      "note": "Greek articulates the noun (ὁ πούς σου) and uses an enclitic genitive pronoun; Latin renders pes tuus without article (Latin lacks one); Syriac fuses noun and possessive into a single suffixed form ܪܓܠܟ ('your foot'), so three Greek tokens collapse to one Syriac token."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "All three convey 'causes to stumble' (σκανδαλίζῃ / ܡܟܫܠܐ / scandalizat); the Syriac participle ܡܟܫܠܐ derives from the Semitic root k-sh-l ('to stumble'), whereas Greek and Latin both employ the borrowed σκανδαλ- stem, reflecting the underlying Semitic idiom directly rather than via loanword."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        4,
-        5
+        4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        6,
-        7
+        6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἀπόκοψον and Latin amputa are bare imperatives; the Syriac ܦܣܘܩܝܗ ('cut it off') incorporates the object suffix into the verb, anticipating the pronoun that Greek and Latin express separately."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        8
+      ],
       "peshitta": [],
       "vulgate": [
+        7,
         8
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'illum' to mark the major syntactic break between the protasis and the comparative clause, a punctuation convention absent in Greek and Syriac manuscripts."
+      "note": "Greek αὐτόν is an independent accusative pronoun closed by a high point; Latin renders illum plus the colon; in Syriac the object is already incorporated as the suffix on ܦܣܘܩܝܗ, so no separate pronoun token exists."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "καλόν / ܦܩܚ / bonum — 'better/good (for you).'"
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -203,21 +220,7 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        16
-      ],
-      "peshitta": [
-        10
-      ],
-      "vulgate": [
-        12
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -230,8 +233,7 @@
         13
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the infinitive εἰσελθεῖν before the adjective χωλόν; Latin reverses this order (claudum introire); Syriac follows Greek word order with ܕܬܥܘܠ preceding ܚܓܝܣܐ, though all three convey identical meaning."
+      "note": "Greek uses the articular infinitive εἰσελθεῖν and Latin the bare infinitive introire, whereas Syriac employs a finite subordinate clause ܕܬܥܘܠ ('that you should enter'), a typical Syriac substitution of a d-relative finite construction for a Greek infinitive."
     },
     {
       "greek_nt": [
@@ -244,21 +246,24 @@
       ],
       "vulgate": [
         14,
-        15
-      ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "The Vulgate adds 'æternam' (eternal) to qualify 'vitam', making explicit what is implicit in the Greek τὴν ζωήν and Syriac ܠܚܝܐ. This expansion reflects Latin theological precision in distinguishing eschatological life from biological existence."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        15,
         16
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "The Vulgate employs 'quam' to introduce the comparative clause explicitly, whereas Greek uses the simple conjunction ἤ and Syriac uses ܐܘ; Latin syntax requires the comparative particle for clarity in this construction."
+      "note": "Greek εἰς τὴν ζωήν and Latin in vitam æternam ('into eternal life') both use a preposition; Syriac ܠܚܝܐ fuses the directional lamadh with the noun. Note the Vulgate's expansion æternam, which has no counterpart in the Greek or Syriac and likely harmonises toward the fuller 'eternal life' phrasing common elsewhere (cf. Matt 18:8)."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "χωλόν / ܚܓܝܣܐ / claudum — 'lame.'"
     },
     {
       "greek_nt": [
@@ -267,9 +272,10 @@
       "peshitta": [
         11
       ],
-      "vulgate": [],
-      "variant": "aligned",
-      "type": "agreement"
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -286,14 +292,12 @@
         16
       ],
       "vulgate": [
-        17,
         18,
         19,
         20
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses accusative participle construction (τοὺς δύο πόδας ἔχοντα); Latin mirrors this with accusative + present participle (duos pedes habentem); Syriac employs a temporal/circumstantial clause with ܟܕ ܐܝܬ ܠܟ ('while there-is to-you'), a characteristic Semitic periphrastic construction for possession."
+      "note": "Greek 'having (ἔχοντα) the two feet' and Latin duos pedes habentem both use a participle of possession; Syriac restructures with the existential idiom ܟܕ ܐܝܬ ܠܟ ('while there is to you') plus the numeral and dual noun, the standard Semitic periphrasis for possession rather than a verb 'to have.'"
     },
     {
       "greek_nt": [
@@ -305,8 +309,8 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek and Latin use passive infinitives (βληθῆναι / mitti, 'to be cast'); Syriac ܬܦܠ is an active/intransitive finite verb ('that you fall'), shifting the patient into an agent and matching the d-clause construction used earlier for 'enter.'"
     },
     {
       "greek_nt": [
@@ -322,7 +326,7 @@
         23
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "εἰς τὴν γέενναν / ܒܓܗܢܐ / in gehennam — the place-name γέεννα is a transcription of Hebrew gê-hinnōm, preserved identically across all three witnesses."
     },
     {
       "greek_nt": [
@@ -337,15 +341,14 @@
         24,
         25
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Peshitta omits the entire phrase εἰς τὸ πῦρ τὸ ἄσβεστον ('into the unquenchable fire'), which both Greek and Vulgate (ignis inextinguibilis) attest. This may reflect a shorter Syriac textual tradition or deliberate abbreviation, as the concept of Gehenna already implies eternal punishment in Jewish-Christian discourse."
+      "variant": "omitted",
+      "note": "The Greek further specifies εἰς τὸ πῦρ τὸ ἄσβεστον ('into the unquenchable fire'), partially mirrored by the Vulgate's compressed genitive ignis inextinguibilis ('of unquenchable fire'). The Peshitta omits this descriptive clause entirely after ܒܓܗܢܐ, a shorter reading characteristic of the Syriac in this triplet of sayings (cf. Mark 9:45)."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.236895+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.512025+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

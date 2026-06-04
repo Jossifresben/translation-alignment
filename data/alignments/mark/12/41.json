@@ -76,20 +76,31 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction καὶ with aorist participle καθίσας (having sat down); Peshitta employs temporal conjunction ܘܟܕ with perfect ܝܬܒ (when he sat); Vulgate mirrors Greek structure with Et + present participle sedens. All three convey simultaneous action but through different aspectual constructions."
+      "note": "Greek opens with simple coordinating καί followed by an aorist participle; the Peshitta fuses conjunction and temporal subordinator into ܘܟܕ ('and when'), while the Vulgate renders the participle (Et sedens). The Syriac thus makes explicit the temporal-circumstantial nuance only implicit in the Greek participial syntax."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek καθίσας is an aorist participle ('having sat down') and the Vulgate sedens a present participle; the Peshitta ܝܬܒ is a finite perfect verb governed by the preceding ܘܟܕ. The traditions agree lexically (root y-th-b, cf. Hebrew יָשַׁב) but differ in the formal verbal category."
     },
     {
       "greek_nt": [
@@ -104,26 +115,37 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek includes definite article ὁ before Ἰησοῦς, a standard Greek construction; Syriac and Latin lack articles (neither language having definite articles in this syntactic position), rendering the proper name without modification."
+      "note": "Greek and Latin both supply the definite article/nominal phrase ὁ Ἰησοῦς / Jesus, whereas Syriac ܝܫܘܥ stands anarthrously since Syriac lacks a definite article and marks proper-name definiteness inherently."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "κατέναντι / ܠܘܩܒܠ / contra ('opposite')."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses prepositional phrase κατέναντι τοῦ γαζοφυλακίου (opposite the treasury) with single compound noun; Peshitta employs ܠܘܩܒܠ ܒܝܬ ܓܙܐ (opposite the house of treasure), a two-word construct chain typical of Semitic idiom; Vulgate uses contra gazophylacium, borrowing the Greek loanword directly."
+      "type": "construction",
+      "note": "Greek γαζοφυλακίου (a single Persian loanword for 'treasury') and the Latin transliteration gazophylacium are unitary nouns, whereas the Syriac renders the concept with a construct chain ܒܝܬ ܓܙܐ ('house of treasure'), a periphrastic idiom typical of Aramaic nominal compounding."
     },
     {
       "greek_nt": [
@@ -137,8 +159,8 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs imperfect ἐθεώρει (he was watching) as simple finite verb; Peshitta uses periphrastic construction ܚܐܪ ܗܘܐ (active participle + auxiliary, 'he was watching'); Vulgate uses imperfect aspiciebat. The Peshitta's periphrastic form emphasizes durative aspect more explicitly than the Greek synthetic form."
+      "type": "grammar",
+      "note": "Greek ἐθεώρει and Latin aspiciebat are simple imperfects denoting durative observation; the Syriac expresses the same continuous aspect periphrastically with participle plus enclitic ܚܐܪ ܗܘܐ ('was watching'), the standard Syriac construction for the imperfect/durative past."
     },
     {
       "greek_nt": [
@@ -150,7 +172,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πῶς / ܐܝܟܢܐ / quomodo ('how')."
     },
     {
       "greek_nt": [
@@ -163,9 +187,9 @@
       "vulgate": [
         7
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek includes definite article ὁ with ὄχλος (the crowd); Syriac ܟܢܫܐ and Latin turba lack articles, both languages rendering the collective noun in its unmarked form."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὁ ὄχλος / ܟܢܫܐ / turba ('the crowd')."
     },
     {
       "greek_nt": [
@@ -179,7 +203,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses present indicative singular βάλλει (casts) with collective subject; Peshitta employs plural participle ܪܡܝܢ (casting), treating the collective as distributive plural; Vulgate uses imperfect subjunctive singular jactaret in indirect question. The Peshitta's plural reflects Semitic preference for notional agreement with collective nouns."
+      "note": "Greek βάλλει is present indicative within the indirect question, and the Vulgate uses the imperfect subjunctive jactaret; the Syriac ܪܡܝܢ is a participle (plural agreeing with the collective ܟܢܫܐ). The differences reflect each language's syntax for reported/durative action rather than any semantic divergence."
     },
     {
       "greek_nt": [
@@ -191,7 +215,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek χαλκόν ('copper/bronze coin') and Latin æs ('bronze, money') both denote base-metal currency by metonymy; the Syriac ܥܘܪܦܢܐ is a distinct term for small change/coinage, conveying the same sense without the metallurgical metonym."
     },
     {
       "greek_nt": [
@@ -208,8 +234,8 @@
         11
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses prepositional phrase εἰς τὸ γαζοφυλάκιον (into the treasury) with article and accusative; Peshitta repeats construct chain ܒܝܬ ܓܙܐ without preposition (direct object); Vulgate uses in gazophylacium with preposition. The Peshitta's repetition of the treasury designation (tokens 4-5 and 12-13) creates stylistic emphasis absent in Greek and Latin."
+      "type": "construction",
+      "note": "Greek εἰς τὸ γαζοφυλάκιον and Latin in gazophylacium employ a preposition plus the treasury noun; the Syriac repeats the construct chain ܒܝܬ ܓܙܐ without an overt preposition, the directional sense being carried by the bare construct as is common in Syriac."
     },
     {
       "greek_nt": [
@@ -221,26 +247,37 @@
       "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek καὶ introduces new clause; Peshitta ܘ is prefixed to ܣܓܝܐܐ (and many), creating different word order; Vulgate et stands independently. The Peshitta's conjunction is bound morphologically to the following adjective rather than standing as separate particle."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / et ('and')."
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek πολλοί and Latin multi are independent adjectives ('many'); in Syriac the quantifier is fused with the preceding conjunction in ܘܣܓܝܐܐ ('and many'), so the conjunction and adjective share a single orthographic token."
+    },
+    {
+      "greek_nt": [
         18
       ],
       "peshitta": [
-        14,
         15
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places πολλοὶ πλούσιοι (many rich [people]) in attributive order; Peshitta reverses to ܣܓܝܐܐ ܥܬܝܪܐ (many rich), with ܣܓܝܐܐ functioning as substantive; Vulgate follows Greek order with multi divites. The word-order variation reflects differing conventions for substantivized adjective phrases."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πλούσιοι / ܥܬܝܪܐ / divites ('rich')."
     },
     {
       "greek_nt": [
@@ -254,8 +291,8 @@
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperfect ἔβαλλον (were casting); Peshitta employs periphrastic ܪܡܝܢ ܗܘܘ (active participle + auxiliary); Vulgate uses imperfect jactabant. The Peshitta again uses periphrastic construction for imperfective aspect, paralleling its treatment of the main verb in token group 7."
+      "type": "grammar",
+      "note": "Greek ἔβαλλον and Latin jactabant are simple imperfects of repeated action; the Syriac again uses the periphrastic durative ܪܡܝܢ ܗܘܘ (participle plus enclitic perfect of 'to be'), its idiomatic equivalent of the iterative imperfect."
     },
     {
       "greek_nt": [
@@ -267,13 +304,15 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πολλά / ܣܓܝ / multa ('much/many things')."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.027693+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.559176+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

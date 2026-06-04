@@ -89,23 +89,31 @@
     {
       "greek_nt": [
         0,
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "aligned",
+      "note": "καὶ ἀπό / ܘܡܢ / et ab — the Syriac fuses conjunction and preposition into a single proclitic ܘܡܢ."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses καὶ ἀπὸ Ἱεροσολύμων καὶ (conjunction-preposition-place-conjunction); Peshitta contracts to ܘܡܢ ܐܘܪܫܠܡ (single conjunction-preposition-place), omitting the second καὶ before the next geographic term. Vulgate mirrors Greek structure with et ab Jerosolymis, et."
+      "variant": "aligned",
+      "note": "Ἱεροσολύμων / ܐܘܪܫܠܡ / Jerosolymis — the parenthetical transliteration in the Greek token is editorial gloss, not a separate witness."
     },
     {
       "greek_nt": [
@@ -119,20 +127,19 @@
         3
       ],
       "vulgate": [
+        3,
         4,
-        5,
-        6
+        5
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article τῆς before Ἰδουμαίας (genitive feminine singular); Syriac ܘܡܢ ܐܕܘܡ lacks an article (typical Semitic usage with proper nouns); Latin ab Idumæa similarly omits the article, following Latin conventions for place names."
+      "type": "construction",
+      "note": "Greek renders 'and from Idumea' with article + genitive (καὶ ἀπὸ τῆς Ἰδουμαίας) and Latin with et ab Idumæa; Syriac again contracts the phrase to ܘܡܢ ܐܕܘܡ without an article, a normal Aramaic anarthrous treatment of place names."
     },
     {
       "greek_nt": [
         8,
         9,
-        10,
-        11
+        10
       ],
       "peshitta": [
         4,
@@ -140,16 +147,17 @@
         6
       ],
       "vulgate": [
+        6,
         7,
-        8,
-        9
+        8
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek πέραν τοῦ Ἰορδάνου uses the preposition πέραν ('beyond') with the genitive article-noun construction. Syriac ܘܡܢ ܥܒܪܐ ܕܝܘܪܕܢܢ employs ܥܒܪܐ ('the region beyond') as a substantive with genitive ܕܝܘܪܕܢܢ. Vulgate trans Jordanem uses the accusative after trans, a syntactic difference reflecting Latin prepositional government."
+      "note": "πέραν τοῦ Ἰορδάνου ('beyond the Jordan') and Latin trans Jordanem express the trans-Jordan region directly; Syriac uses the noun phrase ܥܒܪܐ ܕܝܘܪܕܢܢ ('the crossing/far-side of the Jordan'), a substantival idiom from the root ʿ-b-r, equivalent in sense."
     },
     {
       "greek_nt": [
+        11,
         12,
         13,
         14,
@@ -170,9 +178,9 @@
         14,
         15
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek οἱ περὶ Τύρον καὶ Σιδῶνα uses the substantival article οἱ with the preposition περί ('those around Tyre and Sidon'), implying people from the region. Syriac ܘܡܢ ܨܘܪ ܘܡܢ ܨܝܕܢ repeats the preposition ܘܡܢ ('and from') for each city, treating them as parallel geographic sources. Vulgate inserts a colon after Jordanem and uses qui circa Tyrum et Sidonem ('who [were] around Tyre and Sidon'), introducing a relative clause construction absent in Greek and Syriac."
+      "note": "Greek and Latin frame Tyre and Sidon with a substantival participle/relative (οἱ περὶ Τύρον / qui circa Tyrum, 'those around Tyre'); the Syriac drops the periphrastic 'around' and simply lists ܘܡܢ ܨܘܪ ܘܡܢ ܨܝܕܢ ('and from Tyre and from Sidon'), assimilating these to the preceding string of geographic origins."
     },
     {
       "greek_nt": [
@@ -187,51 +195,81 @@
         16,
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "πλῆθος πολύ / ܟܢܫܐ ܣܓܝܐܐ / multitudo magna."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀκούοντες (present participle) and Latin audientes are simple participles; Syriac ܕܫܡܥܘ ܗܘܘ uses a relative perfect with the auxiliary ܗܘܘ, a periphrastic past-continuous ('who had been hearing') that adds aspectual nuance absent in the other witnesses."
+    },
+    {
+      "greek_nt": [
         20,
         21
       ],
       "peshitta": [
-        13,
-        14,
         15,
         16
       ],
       "vulgate": [
-        18,
         19,
         20
       ],
-      "variant": "minor",
-      "type": "expansion",
-      "note": "Greek ἀκούοντες ὅσα ἐποίει uses the present participle ἀκούοντες with the relative pronoun ὅσα ('hearing as much as he was doing'). Syriac ܕܫܡܥܘ ܗܘܘ ܟܠ ܕܥܒܕ employs a periphrastic perfect (ܫܡܥܘ ܗܘܘ 'they had heard') with the quantifier ܟܠ ('all'), making explicit what Greek implies with ὅσα. Vulgate audientes quæ faciebat mirrors Greek structure with a present participle and relative pronoun."
+      "variant": "aligned",
+      "note": "ὅσα ἐποίει / ܟܠ ܕܥܒܕ / quæ faciebat — 'all that he was doing.'"
     },
     {
       "greek_nt": [
-        22,
+        22
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "note": "ἦλθον / ܐܬܘ / venerunt."
+    },
+    {
+      "greek_nt": [
         23,
         24
       ],
       "peshitta": [
-        17,
         18
       ],
       "vulgate": [
-        21,
         22,
         23
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "πρὸς αὐτόν / ܠܘܬܗ / ad eum; Syriac expresses the prepositional phrase with a single inflected form ܠܘܬܗ."
+    },
+    {
+      "vulgate": [
+        9
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon after Jordanem, partitioning the catalogue of regions; neither the Greek nor the Syriac mark a corresponding pause at this point."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.958197+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.448166+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

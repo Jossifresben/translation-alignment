@@ -71,8 +71,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -84,8 +83,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Greek aorist ἤνεγκεν and Latin attulit both render 'he/she brought'; the Syriac ܘܐܝܬܝ is a single waw-prefixed verbal form that conflates the conjunction 'and' with the verb 'brought', hence its index is shared with the preceding conjunction group."
     },
     {
       "greek_nt": [
@@ -93,29 +92,44 @@
         3,
         4
       ],
-      "peshitta": [],
       "vulgate": [
         2,
         3
       ],
       "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the explicit mention of 'the head of him' (τὴν κεφαλὴν αὐτοῦ / caput ejus), incorporating this referent implicitly within the verb ܐܝܬܝ ('brought [it]'). This represents a typical Syriac economy of expression where the direct object is understood from narrative context."
+      "note": "Greek τὴν κεφαλὴν αὐτοῦ ('his head') and Latin caput ejus explicitly name the object brought; the Peshitta omits any word for 'head', leaving the object implicit and recoverable only from context, a typical Syriac economy where the previously mentioned object is not repeated."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "peshitta": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek πίνακι (dative, 'on a platter') and Latin disco both treat the vessel as a separate prepositional object, whereas the Syriac ܒܦܝܢܟܐ — itself a loanword from Greek πίναξ — incorporates the preposition ܒ ('on/in') proclitically into a single token."
+    },
+    {
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "note": "The Clementine Vulgate inserts a colon after disco to mark the syntactic boundary between the two clauses; neither the Greek nor the Syriac transmits a corresponding punctuation mark at this point."
     },
     {
       "greek_nt": [
@@ -125,32 +139,45 @@
         2
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'disco' to mark a major syntactic break before the second clause, while Greek and Peshitta use simple coordination (καὶ / ܘ). This reflects Latin rhetorical punctuation practice rather than a textual variant."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
-        9,
+        8
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek ἔδωκεν and Latin dedit are discrete finite verbs 'he gave'; the Syriac ܘܝܗܒ again fuses the conjunction and the verb into one waw-prefixed form, so its index coincides with the preceding 'and' group."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "omitted",
+      "note": "Greek αὐτὴν and Latin illud supply an explicit pronominal direct object ('it', referring to the head); the Syriac leaves the object unexpressed, consistent with its earlier omission of the noun 'head'."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        8,
-        9,
         10
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article with the dative noun (τῷ κορασίῳ) to specify the recipient; Latin uses the bare dative 'puellæ'; Peshitta uses the preposition ܠ with the definite noun ܠܛܠܝܬܐ. All three constructions are functionally equivalent dative-of-recipient expressions, differing only in morphosyntactic realization."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -162,8 +189,7 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -171,42 +197,53 @@
         14
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
         12
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek repeats the articular noun phrase (τὸ κοράσιον) as subject; Latin uses the bare noun 'puella'; Peshitta employs the independent pronoun ܘܗܝ ('and she') followed by the noun ܛܠܝܬܐ in apposition. The Syriac construction represents a characteristic Semitic resumptive-pronoun pattern for topic continuity."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        15,
-        16,
+        15
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "variant": "omitted",
+      "note": "Greek repeats the explicit object αὐτὴν ('it') in the second clause; both the Latin and the Syriac omit a resumptive pronoun here, the Latin relying on dedit alone and the Syriac on the feminine verb ܝܗܒܬ to carry the sense."
+    },
+    {
+      "greek_nt": [
         17,
         18,
         19
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article with both the verb's object (αὐτὴν) and the dative recipient (τῇ μητρὶ αὐτῆς); Latin omits the object pronoun entirely ('dedit matri suæ'), relying on verb transitivity; Peshitta uses the verb ܝܗܒܬ with the prepositional phrase ܠܐܡܗ ('to her mother'), incorporating the possessive suffix directly. These represent three typologically distinct strategies for encoding the same transfer event."
+      "note": "Greek τῇ μητρὶ αὐτῆς and Latin matri suæ render 'to her mother' with a separate possessive pronoun; the Syriac ܠܐܡܗ compactly expresses dative preposition, noun, and 3fs possessive suffix in a single inflected form."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.982171+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.469700+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

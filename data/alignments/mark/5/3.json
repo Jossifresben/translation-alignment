@@ -65,8 +65,8 @@
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses the relative pronoun ὅς ('who') while Peshitta employs the conjunction ܘ ('and') with a finite verb ܥܡܪ ('he dwelt'), converting the relative clause into an independent coordinate clause. Vulgate preserves the Greek relative construction with qui."
+      "type": "construction",
+      "note": "Greek and Latin open with a relative pronoun (ὃς / qui) heading the relative clause describing the demoniac; the Peshitta dispenses with the relative and renders paratactically with a finite verb plus enclitic ('and he dwelt'), a typical Syriac avoidance of the cumbersome subordinate construction."
     },
     {
       "greek_nt": [
@@ -84,7 +84,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the articular noun phrase τὴν κατοίκησιν εἶχεν ('had the dwelling'), a periphrastic construction. Syriac uses the simple verb ܥܡܪ ܗܘܐ ('was dwelling'), a participial construction with the auxiliary. Latin mirrors Greek structure with domicilium habebat, though without the article."
+      "note": "Greek and Latin employ a nominal-object idiom 'had (his) dwelling' (τὴν κατοίκησιν εἶχεν / domicilium habebat), while the Peshitta uses a simple verbal periphrasis ܘܥܡܪ ܗܘܐ ('and he was dwelling') with the auxiliary ܗܘܐ to express durative past; the sense is equivalent but the Syriac is verbal rather than nominal."
     },
     {
       "greek_nt": [
@@ -101,8 +101,8 @@
         4
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek uses the prepositional phrase ἐν τοῖς μνήμασιν ('in the tombs') with plural dative. Syriac employs the construct phrase ܒܝܬ ܩܒܘܪܐ ('house of tombs', i.e., 'cemetery'), a typical Semitic idiom. Vulgate in monumentis follows Greek plurality but uses ablative case."
+      "type": "lexical",
+      "note": "Greek τοῖς μνήμασιν and Latin in monumentis use the plural 'tombs'; the Peshitta renders ܒܝܬ ܩܒܘܪܐ ('in the house of burial / the tomb-place'), a Syriac compound idiom for the burial precinct treated as a single locale, and drops the explicit preposition since it is fused into the construct phrase."
     },
     {
       "greek_nt": [
@@ -113,24 +113,34 @@
         5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek καί and Vulgate et mark the coordinate clause boundary explicitly. Peshitta omits an explicit coordinator here, relying on the conjunction ܘ prefixed to ܒܫܫܠܬܐ ('and with chains') to signal the new clause, a common Syriac asyndetic pattern."
+      "type": "agreement",
+      "note": "Greek καί and Latin et coordinate the following clause; the Peshitta has folded the connective into the prefixed waw of ܘܥܡܪ at the verse opening and into ܘܒܫܫܠܬܐ, so no separate conjunction token answers here."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The emphatic negative οὐδέ ('not even') is matched by Latin neque, but the Peshitta expresses the negation solely through ܠܐ later in the clause and offers no separate intensifying particle, slightly flattening the rhetorical force."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the emphatic negative οὐδὲ ἁλύσει ('not even with a chain') before the temporal adverb οὐκέτι. Syriac ܘܒܫܫܠܬܐ ('and with chains') appears clause-initially without the emphatic negative particle, integrating negation into the verb phrase ܠܐ ܡܫܟܚ. Vulgate neque catenis mirrors Greek word order and emphatic negation."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἁλύσει / ܘܒܫܫܠܬܐ / catenis: 'with a chain'; the Syriac prefixes both the conjunction waw and the preposition beth to the noun."
     },
     {
       "greek_nt": [
@@ -140,9 +150,9 @@
       "vulgate": [
         8
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "omission",
-      "note": "Greek οὐκέτι ('no longer') and Vulgate jam ('already, now') indicate temporal progression—that binding was previously possible but is no longer. Peshitta omits this temporal nuance entirely, presenting the inability as a simple present fact without reference to prior attempts."
+      "note": "Greek οὐκέτι and Latin jam ('no longer') express that prior bindings had failed; the Peshitta lacks any temporal-adverbial equivalent, narrating only the present incapacity to bind him and omitting the iterative nuance."
     },
     {
       "greek_nt": [
@@ -154,7 +164,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "οὐδεὶς / ܐܢܫ ... ܠܐ / quisquam: 'no one'; the Syriac splits the indefinite ܐܢܫ from the negator ܠܐ across the clause to form the negative subject."
     },
     {
       "greek_nt": [
@@ -170,7 +182,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the simple imperfect ἐδύνατο ('was able'). Syriac employs the periphrastic construction ܠܐ ܡܫܟܚ ܗܘܐ ('was not able'), with the negative particle ܠܐ, the active participle ܡܫܟܚ, and the auxiliary ܗܘܐ—a standard Syriac way of forming past progressive negation. Vulgate poterat mirrors Greek simplicity."
+      "note": "Greek ἐδύνατο and Latin poterat are single imperfect verbs of ability; the Peshitta uses the negated participle ܠܐ ܡܫܟܚ with the auxiliary ܗܘܐ ('was not finding/able'), where the root š-k-ḥ ('to find') idiomatically carries the sense 'to be able' in Syriac."
     },
     {
       "greek_nt": [
@@ -184,7 +196,9 @@
         11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek αὐτὸν δῆσαι and Latin eum ligare use an explicit accusative pronoun plus infinitive; the Peshitta compresses both into the single infinitive ܠܡܐܣܪܗ ('to bind him') with the object suffixed pronominally, a more economical Syriac construction."
     },
     {
       "greek_nt": [],
@@ -194,13 +208,13 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate adds a colon (:) to signal continuation into the following verse, a scribal convention not present in Greek or Syriac manuscript traditions for this verse boundary."
+      "note": "The Clementine Vulgate closes the verse with a colon, signalling continuation into the following clause; neither the Greek (which ends with a period after μνήμασιν mid-verse) nor the Peshitta carries a corresponding terminal mark here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.970468+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.450630+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

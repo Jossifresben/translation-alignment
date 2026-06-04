@@ -73,6 +73,8 @@
       ],
       "peshitta": [
         0,
+        1,
+        2,
         3
       ],
       "vulgate": [
@@ -80,73 +82,91 @@
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the particle ἂν (modal 'ever') after γάρ ('for'), creating the indefinite relative construction ὃς γὰρ ἄν ('whoever'); Peshitta and Vulgate position their causal particles (ܓܝܪ / enim) after the relative pronoun, yielding a simpler definite relative with causal nuance."
+      "type": "construction",
+      "note": "Greek opens with a relative protasis with modal ἄν (ὃς γὰρ ἂν ἔχει, 'for whoever has'), placing the explanatory particle γάρ second; the Vulgate compresses this to qui enim habet without rendering ἄν. The Peshitta uses the analytic possessive ܡܢ ܕܐܝܬ ܠܗ ('the one to whom there is [something]'), deferring the conjunctive particle ܓܝܪ until after the verb phrase — semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
         3
       ],
-      "peshitta": [
-        1,
-        2
-      ],
+      "peshitta": [],
       "vulgate": [
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the verb ἔχω alone; Peshitta employs the existential particle ܕܐܝܬ ('who there-is') with pronominal suffix ܠܗ ('to-him'), a standard Syriac construction for possession; Vulgate mirrors Greek with habet."
+      "type": "idiom",
+      "note": "Greek and Latin express possession with the transitive verb ἔχει / habet; the Syriac substitutes the idiomatic existential-dative construction ܐܝܬ ܠܗ ('there is to him'), the standard Semitic means of predicating possession, which has no single corresponding verb."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi, creating a stronger syntactic break between the two clauses; Greek uses a raised dot (·) and Peshitta continues without marked punctuation, treating the coordinate clauses as a tighter unit."
+      "note": "All three witnesses render the dative beneficiary ('to him'); the Vulgate sets off the apodosis with an explicit colon (illi :), a punctuational rather than lexical feature absent from the unpointed Greek and Syriac base texts."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        7,
-        8,
-        9
-      ],
-      "peshitta": [
         6,
-        7,
-        8
+        7
+      ],
+      "peshitta": [
+        6
       ],
       "vulgate": [
-        7,
-        8,
-        9
+        6,
+        7
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek repeats the relative pronoun ὃς with negation οὐκ ἔχει; Peshitta uses the negative existential ܕܠܝܬ ܠܗ ('who there-is-not to-him'), mirroring the affirmative construction in the first clause; Vulgate follows Greek with qui non habet."
+      "note": "Greek and Latin coordinate with conjunction plus relative (καὶ ὃς / et qui); the Peshitta fuses the conjunction and relative pronoun into the single proclitic form ܘܡܢ ('and the one who'), a normal Syriac contraction with no separate token."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek negates the verb with the particle οὐκ before ἔχει and Latin with non before habet; the Syriac employs the negative existential ܕܠܝܬ ('to whom there is not'), incorporating the negation into the existential particle rather than negating a verb."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "As in the protasis, Greek ἔχει and Latin habet use a transitive verb of possession, while the Syriac continues the existential-dative idiom (here implicit in ܠܗ following ܕܠܝܬ), expressing 'has not' as 'there is not to him'."
     },
     {
       "greek_nt": [
@@ -158,50 +178,70 @@
       "vulgate": [
         10
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καί here functions as an intensive ('even'); Peshitta uses ܐܦ ('also, even'), a direct semantic equivalent; Vulgate employs etiam ('even, also'), all three traditions marking the paradoxical intensification identically in sense but with language-specific lexemes."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        11,
-        12
+        11
       ],
       "peshitta": [
         10,
-        11,
-        12
+        11
       ],
       "vulgate": [
-        11,
-        12
+        11
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta inserts the demonstrative pronoun ܗܘ ('that [which]') between ܐܦ and the relative clause ܕܐܝܬ ܠܗ, creating a double-headed relative construction for emphasis ('even that which he has'); Greek and Vulgate use a simple neuter relative pronoun (ὃ / quod) without additional demonstrative."
+      "type": "construction",
+      "note": "Greek uses the neuter relative ὃ ('that which') and Latin the neuter quod; the Peshitta renders the antecedent with the resumptive demonstrative plus relative ܗܘ ܕܐܝܬ ('that very thing which there is'), adding the independent pronoun ܗܘ for emphasis where Greek and Latin need only the bare relative."
     },
     {
       "greek_nt": [
-        13,
+        12
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἔχει and Latin habet again use the transitive possessive verb, whereas the Syriac retains its existential-dative idiom ܐܝܬ ܠܗ ('there is to him'), consistent with its rendering throughout the verse."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek (ἀπ᾽ αὐτοῦ) and Latin (ab eo) use a separate preposition plus pronoun; the Syriac fuses preposition and suffix into the single form ܡܢܗ ('from him'). The Greek paragraph marker (¶) is editorial and carries no translational weight."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.967118+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.551144+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

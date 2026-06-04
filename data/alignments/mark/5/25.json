@@ -55,25 +55,36 @@
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses simple conjunction Καὶ; Peshitta employs ܕܝܢ (dēn, 'but/now'), a typical Syriac discourse marker for narrative transition; Vulgate mirrors Greek with Et. The Peshitta particle adds mild adversative or continuative nuance absent in the Greek."
+      "type": "word-order",
+      "note": "Greek opens with the prepositive coordinating conjunction Καί, matched by Latin clause-initial Et; the Peshitta instead uses the postpositive particle ܕܝܢ (den, 'but/now'), which by Syriac syntax stands in second position. The connective force is comparable but the discourse nuance is mildly adversative in Syriac versus simply additive in Greek and Latin."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "γυνή / ܐܢܬܬܐ / mulier"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         2
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the indefinite pronoun τις after the noun γυνή; Peshitta places ܚܕܐ (ḥḏā, 'one/a certain') after ܐܢܬܬܐ ('woman'); Vulgate uses relative pronoun quæ, restructuring the clause. All three convey 'a certain woman' but with different syntactic strategies."
+      "type": "construction",
+      "note": "Greek τις is an indefinite pronoun ('a certain'); the Peshitta renders this with the numeral/indefinite ܚܕܐ ('one/a certain'), a normal Syriac means of marking indefiniteness. The Vulgate omits an explicit indefinite marker, the relative quæ ('who') here carrying the referential weight, so the three traditions express indefiniteness by differing devices."
     },
     {
       "greek_nt": [
@@ -84,52 +95,88 @@
         4
       ],
       "vulgate": [
+        2,
         3
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present participle οὖσα ('being'); Peshitta employs periphrastic construction ܕܐܝܬܝܗ ܗܘܬ (d-īṯayh hwāṯ, relative particle + existential verb + past tense auxiliary), yielding 'who was'; Vulgate uses simple imperfect erat. The Peshitta's compound verbal form is a characteristic Syriac periphrastic pattern."
+      "note": "Greek uses the attributive present participle οὖσα ('being'); both the Peshitta (ܕܐܝܬܝܗ ܗܘܬ, relative + enclitic + perfect of h-w-a) and the Vulgate (quæ erat) periphrastically unpack this into a finite relative clause. The Vulgate quæ does double duty, supplying the indefinite reference and the relative head."
     },
     {
       "greek_nt": [
-        4,
-        5,
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐν / prefixed ܒ / in"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ῥύσει αἵματος ('a flux of blood') is rendered in the Peshitta by ܡܪܕܝܬܐ (from root r-d-y, 'flowing/running'), conveying a 'running' or 'discharge' rather than the more clinical ῥύσις; the Vulgate profluvio ('outflow') matches the Greek closely. The Syriac noun is incorporated with the preposition ܒ within the single token ܒܡܪܕܝܬܐ."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "αἵματος / ܕܕܡܐ / sanguinis"
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places numeral δώδεκα before noun ἔτη ('twelve years'); Peshitta inverts to ܫܢܝܢ ܬܪܬܥܣܪܐ (šnīn treṭṭaʿsar, 'years twelve'); Vulgate follows Greek order (annis duodecim). Syriac typically places numerals after counted nouns, reflecting Semitic syntax."
+      "note": "Greek and Latin place the numeral before the noun (δώδεκα ἔτη / following annis the Latin actually places annis duodecim, numeral after), while the Peshitta places ܬܪܬܥܣܪܐ ('twelve') after ܫܢܝܢ ('years'). The variation is purely one of numeral-noun sequence with no semantic effect; note the Latin and Syriac agree against the Greek in postposing the numeral."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἔτη and Latin annis are accusative/ablative plural of duration; the Syriac ܫܢܝܢ ('years') is likewise plural but unmarked for the durative case, the temporal sense being inferred from context. All three express a twelve-year span, differing only in case-marking strategy."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.974753+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.459987+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -47,20 +47,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses article + postpositive conjunction (οἱ δέ); Vulgate employs adversative conjunction + pronoun (At illi); Peshitta uses demonstrative pronoun + conjunction (ܗܢܘܢ ܕܝܢ). All three convey the same adversative sense ('but they'), differing only in syntactic strategy."
+      "note": "All three render the adversative-resumptive connective: Greek postpositive δέ, Syriac postpositive ܕܝܢ (itself a loan of the Greek particle), and the Latin sentence-initial At. The Latin shifts the connective to clause-initial position per Latin syntactic norms, a minor word-order accommodation."
     },
     {
       "greek_nt": [
@@ -75,8 +83,7 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Latin use simple imperfect verbs (ἠγνόουν / ignorabant, 'they were not understanding'); Peshitta employs a periphrastic construction with negation + participle + auxiliary (ܠܐ ܝܕܥܝܢ ܗܘܘ, 'they were not knowing'). The Syriac construction is a standard idiom for progressive aspect."
+      "note": "Greek uses the single imperfect ἠγνόουν ('they kept failing to understand') and Latin matches with the imperfect ignorabant; the Syriac analytically renders the same durative sense with negation ܠܐ plus participle ܝܕܥܝܢ and the auxiliary ܗܘܘ, a periphrastic construction typical of Syriac for the imperfect/continuous past."
     },
     {
       "greek_nt": [
@@ -91,8 +98,16 @@
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article + noun (τὸ ῥῆμα); Vulgate omits the article (verbum), following Latin's lack of definite articles; Peshitta employs prepositional phrase with pronominal suffix (ܠܗ ܠܡܠܬܐ, 'to-it to-the-word'), a Syriac construction marking definiteness and emphasis through dative of reference."
+      "note": "Greek τὸ ῥῆμα ('the declaration/matter') is rendered by Syriac ܠܡܠܬܐ with an anticipatory proleptic object pronoun ܠܗ ('it'), a characteristic Syriac construction marking the definite object; Latin verbum supplies the bare accusative without the resumptive pronoun."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts a colon after verbum, dividing the clause for sense-pause; neither the Greek nor the Syriac transmit punctuation at this point, this being an editorial feature of the Clementine text."
     },
     {
       "greek_nt": [
@@ -102,48 +117,54 @@
         7
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek and Peshitta use simple conjunction (καὶ / ܘ); Vulgate inserts a colon before et, creating a stronger pause that separates the two clauses more distinctly. This reflects Latin rhetorical punctuation practice rather than a textual variant."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         6
       ],
       "peshitta": [
-        8,
-        9
+        7,
+        8
       ],
       "vulgate": [
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Latin use simple imperfect verbs (ἐφοβοῦντο / timebant, 'they were afraid'); Peshitta again employs periphrastic construction with participle + auxiliary (ܘܕܚܠܝܢ ܗܘܘ, 'and they-were fearing'), parallel to the earlier verbal construction and characteristic of Syriac durative aspect marking."
+      "note": "Greek imperfect ἐφοβοῦντο and Latin imperfect timebant correspond to the Syriac periphrastic ܕܚܠܝܢ ܗܘܘ (participle plus auxiliary ܗܘܘ), again expressing durative past action through analytic construction rather than a synthetic verb form; the conjunction prefix ܘ on ܘܕܚܠܝܢ also carries the coordinating 'and'."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "The pronominal object 'him' is expressed in Greek by the separate accusative αὐτόν and in Latin by the separate eum, whereas Syriac incorporates it as the enclitic object suffix -ܝܗܝ on the verb ܕܢܫܐܠܘܢܝܗܝ, a synthetic feature of the Semitic verb."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
-        7,
-        8
+        7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the object pronoun before the infinitive (αὐτὸν ἐπερωτῆσαι, 'Him to-ask'); Latin mirrors this order (interrogare eum); Peshitta incorporates the pronominal suffix directly onto the infinitive (ܕܢܫܐܠܘܢܝܗܝ, 'that-they-ask-him'), a standard Semitic morphological feature where object pronouns attach as suffixes rather than standing as separate words."
+      "note": "Greek aorist infinitive ἐπερωτῆσαι ('to ask') and Latin infinitive interrogare are matched by the Syriac subordinated finite verb ܕܢܫܐܠܘܢܝܗܝ ('that they should ask him'), introduced by the relative/complementiser ܕ; Syriac thus prefers a finite subjunctive complement clause where Greek and Latin employ a complementary infinitive."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.234746+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.437800+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

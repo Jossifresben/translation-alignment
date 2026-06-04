@@ -63,19 +63,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek opens with the resumptive article ὁ ('and he'), matched by the Syriac demonstrative pronoun ܗܘ; the Vulgate has no corresponding pronominal element, expressing the subject directly through the proper noun Jesus."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses article + καί (ὁ καί, 'and he'); Peshitta employs pronoun + contrastive particle (ܗܘ ܕܝܢ, 'but he'); Vulgate uses only the adversative autem. All three mark a narrative transition, but with different discourse particles reflecting each tradition's stylistic norms."
+      "type": "lexical",
+      "note": "Greek καί here functions as a loose connective; the Peshitta employs the adversative-resumptive particle ܕܝܢ and the Vulgate autem, both of which carry a mild contrastive/transitional nuance ('but/now') absent from the simple Greek conjunction."
     },
     {
       "greek_nt": [
@@ -87,7 +97,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Ἰησοῦς / ܝܫܘܥ / Jesus."
     },
     {
       "greek_nt": [
@@ -102,29 +114,51 @@
         3
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses the aorist passive participle σπλαγχνισθεὶς ('having compassion') without explicit object. Peshitta expands with ܐܬܪܚܡ ܥܠܘܗܝ ('he had compassion on him'), making the pronominal object explicit. Vulgate misertus ejus similarly includes the genitive pronoun ejus, both traditions clarifying the implicit Greek construction."
+      "type": "construction",
+      "note": "The Greek single participle σπλαγχνισθείς ('moved with compassion') is rendered analytically in both Syriac (ܐܬܪܚܡ ܥܠܘܗܝ, 'he had mercy on him') and Latin (misertus ejus), each supplying an explicit pronominal object/complement that the absolute Greek participle leaves implicit."
     },
     {
       "greek_nt": [
-        4,
-        5,
-        6,
-        7
+        4
       ],
       "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐκτείνας / ܘܦܫܛ / extendit."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
-        4,
-        5,
-        6,
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τὴν χεῖρα / ܐܝܕܗ / manum."
+    },
+    {
+      "greek_nt": [
         7
       ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs aorist participle + article + noun + possessive pronoun (ἐκτείνας τὴν χεῖρα αὐτοῦ, 'having stretched out the hand of him'). Peshitta uses finite verb + pronominal suffix on noun (ܘܦܫܛ ܐܝܕܗ, 'and he stretched out his hand'), a typical Semitic bound-state construction. Vulgate mirrors Greek syntax with extendit manum suam but follows with colon punctuation, creating a clause break absent in Greek."
+      "type": "grammar",
+      "note": "The Greek expresses possession with an independent genitive pronoun αὐτοῦ following the noun; Syriac encodes it as a pronominal suffix on ܐܝܕܗ ('his hand') already counted with the noun, while Latin uses the possessive adjective suam."
     },
     {
       "greek_nt": [
@@ -135,31 +169,53 @@
         8
       ],
       "vulgate": [
-        8,
+        7,
         9,
         10
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses finite aorist ἥψατο ('he touched [him]') with implicit object. Peshitta employs two verbs ܩܪܒ ܠܗ ('he drew near to him'), making the approach explicit before the touch. Vulgate uses conjunction et + participle tangens eum ('and touching him'), converting the Greek finite verb to a participial construction and adding explicit pronominal object."
+      "type": "lexical",
+      "note": "Greek ἥψατο ('he touched') from ἅπτω is rendered in the Peshitta by the root q-r-b (ܩܪܒ ܠܗ, lit. 'he drew near to him'), a recurrent Syriac equivalent for ritual touching; the Vulgate uses the participle tangens eum within a colon-bracketed clause, a different syntactic placement of the same act."
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11
+        9
+      ],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek paratactic καί ('and') coordinating the touching and speaking is matched by the Vulgate et; in the Peshitta the conjunction is prefixed to ܘܐܡܪ rather than standing as a separate token."
+    },
+    {
+      "greek_nt": [
+        10
       ],
       "peshitta": [
         9
       ],
       "vulgate": [
-        11,
-        12,
-        13
+        11
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the vivid historic present λέγει ('says'); the Peshitta ܘܐܡܪ and the Vulgate ait both render the verb as a simple past/aorist, normalising the Marcan dramatic present tense typical of these versions."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek uses conjunction + present verb + dative pronoun (καὶ λέγει αὐτῷ, 'and he says to him'). Peshitta contracts to single verb ܘܐܡܪ ('and he said'), with implicit object. Vulgate expands with ait illi flanked by colons, creating dramatic punctuation breaks that segment the speech act from the quoted words, a stylistic choice absent in Greek and Peshitta."
+      "note": "The dative indirect object 'to him' (αὐτῷ / illi) accompanies the verb of speaking in Greek and Latin; in the Peshitta the corresponding ܠܗ has been attached to the preceding verb of touching (q-r-b), reflecting a divergent clause boundary."
     },
     {
       "greek_nt": [
@@ -170,12 +226,11 @@
         11
       ],
       "vulgate": [
-        14,
-        15
+        14
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Greek θέλω ('I am willing') stands alone as first-person verb. Peshitta adds explicit subject pronoun ܨܒܐ ܐܢܐ ('I am willing, I'), a common Syriac emphasis pattern. Vulgate Volo is followed by a colon, again using punctuation to isolate the volitional statement, whereas Greek uses only a comma before the imperative."
+      "type": "grammar",
+      "note": "Greek θέλω is a synthetic first-person present ('I will'); the Peshitta makes the subject explicit with the enclitic pronoun ܐܢܐ following ܨܒܐ (ܨܒܐ ܐܢܐ), whereas Latin Volo remains synthetic like the Greek."
     },
     {
       "greek_nt": [
@@ -187,13 +242,24 @@
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καθαρίσθητι / ܐܬܕܟܐ / mundare."
+    },
+    {
+      "vulgate": [
+        13,
+        15
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts colons before and after Volo (illi : Volo : mundare), graphically isolating the direct speech and the two imperatival utterances; neither the Greek nor the Syriac transmits this punctuational segmentation."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.950135+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.495710+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

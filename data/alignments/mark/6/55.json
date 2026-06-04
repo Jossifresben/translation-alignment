@@ -79,11 +79,12 @@
         0
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "The Vulgate places the conjunction 'et' before the main verb 'percurrentes', whereas Greek and Peshitta begin directly with the verb. This reflects Latin stylistic preference for coordinating conjunctions at clause boundaries."
+      "type": "construction",
+      "note": "Greek uses a finite aorist verb (περιέδραμον, 'they ran around'); the Vulgate renders it with a present participle (et percurrentes, 'and running through'), subordinating the action to the following main verb cœperunt. The Peshitta with ܘܪܗܛܘ ('and they ran') agrees with the Greek finite construction, prefixed by the connective waw."
     },
     {
       "greek_nt": [
@@ -102,7 +103,8 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ὅλην τὴν χώραν ἐκείνην / ܒܟܠܗ ܐܪܥܐ ܗܝ / universam regionem illam"
     },
     {
       "greek_nt": [
@@ -112,7 +114,7 @@
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek καὶ ('and') coordinating the two main verbs is absent in both Peshitta and Vulgate. The Peshitta uses ܘܫܪܝܘ with prefixed waw, and the Vulgate asyndetically transitions to 'cœperunt', both achieving coordination without replicating the Greek conjunction."
+      "note": "The Greek connective καί ('and') linking the two main clauses is not separately represented; the Peshitta encodes the conjunction proclitically on the verb ܘܫܪܝܘ (waw-prefix), while the Vulgate, having already used the participle percurrentes, requires no further coordinator here."
     },
     {
       "greek_nt": [
@@ -124,7 +126,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἤρξαντο / ܘܫܪܝܘ / cœperunt ('they began')"
     },
     {
       "greek_nt": [
@@ -133,18 +136,15 @@
         9
       ],
       "peshitta": [
-        9,
-        10,
-        11,
         12
       ],
       "vulgate": [
         6,
         7
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses a prepositional phrase ἐπὶ τοῖς κραβάττοις ('on the mats') modifying the infinitive. Peshitta restructures with a temporal/circumstantial participle ܟܕ ܫܩܝܠܝܢ ܠܗܘܢ ܒܥܪܣܬܐ ('while carrying them on beds'), adding the pronominal object ܠܗܘܢ ('them'). Vulgate retains the prepositional structure 'in grabatis' but repositions it after the direct object."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Latin place the prepositional phrase 'on the mats/beds' (ἐπὶ τοῖς κραβάττοις / in grabatis) before the object and infinitive, whereas the Peshitta defers ܒܥܪܣܬܐ to a position after the circumstantial clause ܟܕ ܫܩܝܠܝܢ ܠܗܘܢ; the rearrangement reflects Syriac preference for the instrumental phrase following its governing predicate."
     },
     {
       "greek_nt": [
@@ -166,43 +166,64 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an articular participle construction τοὺς κακῶς ἔχοντας ('those being sick'). Peshitta employs a relative clause ܠܐܝܠܝܢ ܕܒܝܫܐܝܬ ܥܒܝܕܝܢ ('those who were sick/afflicted'). Vulgate uses a relative clause 'eos qui se male habebant' with reflexive pronoun 'se', making the construction more explicit than the Greek."
+      "note": "Greek substantivises the participial phrase with the article (τοὺς κακῶς ἔχοντας, 'those being ill'); the Vulgate expands this into a relative clause with a reflexive (eos qui se male habebant), while the Peshitta uses a relative ܠܐܝܠܝܢ ܕ followed by an adverb + passive participle (ܕܒܝܫܐܝܬ ܥܒܝܕܝܢ, 'who were badly affected'). All three are semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
         13
       ],
       "peshitta": [
-        5
+        9,
+        10,
+        11
       ],
       "vulgate": [
         13
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "The infinitive περιφέρειν ('to carry about') appears after the object phrase in Greek and Vulgate ('circumferre'), but Peshitta places the equivalent verb ܠܡܝܬܝܘ ('to bring') before the object and participial clause, reflecting typical Syriac verb-initial syntax."
+      "type": "construction",
+      "note": "Greek expresses 'to carry about' with a single present infinitive (περιφέρειν), matched by the Latin infinitive circumferre; the Peshitta renders the same notion with a circumstantial clause ܟܕ ܫܩܝܠܝܢ ܠܗܘܢ ('while carrying them'), employing the particle ܟܕ and an active participle with resumptive pronoun rather than an infinitive."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "ὅπου / ܠܐܝܟܐ / ubi ('to wherever')"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        13,
         14,
         15
       ],
       "vulgate": [
-        14,
         15
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek ἤκουον is imperfect indicative; Peshitta ܫܡܥܝܢ ܗܘܘ uses the periphrastic construction (participle + auxiliary) to express imperfect aspect; Vulgate 'audiebant' is simple imperfect. All three convey ongoing past action, but through different morphological strategies."
+      "note": "Greek uses the imperfect ἤκουον ('they were hearing'); the Vulgate matches with the imperfect audiebant, while the Peshitta forms the durative past periphrastically with the participle ܕܫܡܥܝܢ plus the auxiliary ܗܘܘ, a standard Syriac construction for continuous past action."
     },
     {
       "greek_nt": [
-        16,
+        16
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek complementiser ὅτι ('that') introducing the indirect statement is absent in both versions: the Peshitta subsumes the complementiser into the existential form ܕܐܝܬܘܗܝ (dālath-prefix), and the Vulgate employs an accusative-and-infinitive construction (eum esse) requiring no conjunction."
+    },
+    {
+      "greek_nt": [
         17,
         18
       ],
@@ -215,12 +236,12 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses ὅτι introducing indirect discourse with ἐκεῖ ἐστίν ('that he is there'). Peshitta compresses this into the single enclitic form ܕܐܝܬܘܗܝ ('that he is'), incorporating the pronominal subject and omitting the separate locative adverb. Vulgate retains both 'eum' (accusative subject of indirect discourse) and 'esse' but places the locative 'ubi' earlier in the clause."
+      "note": "Greek has the locative adverb plus finite verb ἐκεῖ ἐστίν ('He is there'); the Vulgate uses accusative-and-infinitive eum esse ('that he was [there]'), and the Peshitta the existential particle with enclitic pronoun ܕܐܝܬܘܗܝ ('that he was'). The Greek and Latin specify or imply locality, whereas the Syriac existential form leaves the locative implicit."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.986755+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.445334+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

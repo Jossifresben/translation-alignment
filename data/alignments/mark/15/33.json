@@ -70,7 +70,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ (in ܘܟܕ) / Et"
     },
     {
       "greek_nt": [
@@ -78,14 +78,15 @@
         2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs a genitive absolute construction (γενομένης δὲ ὥρας) with the postpositive particle δέ, while Peshitta uses a simple temporal clause (ܘܟܕ ܗܘܝ) and Vulgate uses an ablative absolute (facta hora) without a connective particle. All three express the same temporal subordination but through distinct grammatical strategies."
+      "type": "construction",
+      "note": "Greek combines the aorist participle γενομένης with the postpositive δέ (a connective particle giving 'now when it had become'); the Peshitta renders the temporal clause with ܘܟܕ ('and when') plus the verb ܗܘܝ, while the Vulgate uses only the participle facta without rendering δέ, since Latin lacks a true equivalent for the resumptive particle."
     },
     {
       "greek_nt": [
@@ -102,60 +103,80 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek and Vulgate place the ordinal adjective after the noun (ὥρας ἕκτης / hora sexta), whereas Peshitta places the numeral before the noun (ܫܬ ܫܥܝܢ, 'six hours'). The Peshitta also uses the plural form ܫܥܝܢ ('hours') where Greek and Latin use singular, a common Syriac idiom for temporal expressions."
+      "note": "Greek and Latin place the cardinal/ordinal after the noun (ὥρας ἕκτης, hora sexta, 'the sixth hour'); the Syriac inverts the order to ܫܬ ܫܥܝܢ ('six hours'), using a cardinal number plus plural noun rather than an ordinal, a normal Syriac idiom for clock-time expressions."
     },
     {
       "greek_nt": [
-        5,
-        6
+        5
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
+        4
+      ],
+      "variant": "aligned",
+      "note": "σκότος / ܚܫܘܟܐ / tenebræ"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
         5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a simple verb construction (σκότος ἐγένετο, 'darkness came'), Peshitta employs a copular construction (ܗܘܐ ܚܫܘܟܐ, 'there was darkness'), and Vulgate uses a passive periphrastic (tenebræ factæ sunt, 'darkness was made'). All three convey the same event through different syntactic frames."
+      "type": "grammar",
+      "note": "Greek uses the singular aorist ἐγένετο; the Peshitta likewise singular ܗܘܐ; the Vulgate renders with the plural periphrastic factæ sunt to agree with the plural-form noun tenebræ, a Latin morphological adjustment rather than a semantic divergence."
     },
     {
       "greek_nt": [
         7,
-        8,
+        8
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "aligned",
+      "note": "ἐφ' ὅλην / ܥܠ ܟܠܗ / per totam"
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        6,
-        7,
         8
       ],
       "vulgate": [
-        7,
-        8,
         9
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        11
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10,
-        11
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek uses the simple preposition ἕως ('until'), Peshitta uses ܥܕܡܐ (cognate temporal preposition), while Vulgate employs the compound usque in ('up to, until'). The Vulgate's compound form is stylistically more emphatic but semantically equivalent."
+      "note": "Greek τὴν γῆν and Latin terram and Syriac ܐܪܥܐ all denote 'the land/earth'; the Greek alone carries the explicit article, which Latin and Syriac do not require, though all three are semantically equivalent here in denoting the whole region."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned",
+      "note": "ἕως / ܥܕܡܐ / usque in"
     },
     {
       "greek_nt": [
@@ -170,14 +191,15 @@
         12,
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "As with the sixth hour, Greek and Latin use the ordinal following the noun (ὥρας ἐνάτης, horam nonam, 'the ninth hour'); the Syriac ܠܫܥܐ ܬܫܥ again employs the cardinal number 'nine' after the singular noun, consistent with Syriac time-reckoning idiom."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.051219+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:42:06.318234+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

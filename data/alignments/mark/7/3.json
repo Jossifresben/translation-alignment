@@ -72,7 +72,22 @@
       "greek_nt": [
         0,
         1,
-        2,
+        2
+      ],
+      "peshitta": [
+        1,
+        3
+      ],
+      "vulgate": [
+        0,
+        1
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three name the Pharisees with the postpositive explanatory particle (γάρ / ܓܝܪ / enim), but the Peshitta inverts the order, placing 'all the Jews' (ܟܠܗܘܢ ܝܗܘܕܝܐ) first and the Pharisees second (ܘܦܪܝܫܐ), whereas Greek and Latin lead with the Pharisees. The displacement is purely sequential and carries no semantic weight."
+    },
+    {
+      "greek_nt": [
         3,
         4,
         5,
@@ -80,20 +95,16 @@
       ],
       "peshitta": [
         0,
-        1,
-        2,
-        3
+        2
       ],
       "vulgate": [
-        0,
-        1,
         2,
         3,
         4
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places Pharisees before 'all the Jews' (οἱ Φαρισαῖοι καὶ πάντες οἱ Ἰουδαῖοι), while Peshitta reverses the order (ܟܠܗܘܢ ܝܗܘܕܝܐ ܘܦܪܝܫܐ, 'all the Jews and Pharisees'). Vulgate follows Greek word order (Pharisæi enim, et omnes Judæi), though both Syriac and Latin traditions preserve the semantic equivalence of the Greek construction."
+      "note": "Greek and Latin render the conjoined subject as 'and all the Jews' (καὶ πάντες οἱ Ἰουδαῖοι / et omnes Judæi), while the Peshitta integrates ܟܠܗܘܢ ('all of them') and ܝܗܘܕܝܐ into the fronted clause aligned above, lacking a distinct universal quantifier here. The same lexical material is present but distributed differently across the clause."
     },
     {
       "greek_nt": [
@@ -103,44 +114,56 @@
       "peshitta": [
         4,
         5,
-        6,
         7
       ],
       "vulgate": [
         5
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Peshitta expands the conditional construction with ܐܢ ܗܘ ܕܒܛܝܠܐܝܬ ('if it be that carelessly/idly'), adding an adverbial qualifier absent in both Greek ἐὰν μή and Latin nisi. This expansion clarifies the manner of non-washing, emphasizing negligence rather than mere omission."
+      "type": "construction",
+      "note": "Greek expresses the conditional with ἐὰν μὴ ('unless') and Latin with the single conjunction nisi, whereas the Peshitta uses the compound ܐܢ ܗܘ ('if it [be] that') plus the negative ܠܐ, an idiomatic Syriac periphrasis for the protasis. The constructions are functionally equivalent."
     },
     {
       "greek_nt": [
         9
       ],
-      "peshitta": [],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
         6
       ],
       "variant": "major",
       "type": "substitution",
-      "note": "Greek πυγμῇ ('with a fist', a hapax legomenon of uncertain meaning, possibly 'with the fist' or 'up to the wrist') is rendered by Vulgate crebro ('frequently/diligently'), reflecting a different interpretive tradition. Peshitta omits any equivalent, incorporating the sense into the preceding adverb ܕܒܛܝܠܐܝܬ, resulting in a substantive divergence in how the washing requirement is characterized."
+      "note": "The notoriously difficult Greek πυγμῇ ('with a fist,' a dative of manner whose precise sense is debated) is rendered by the Peshitta ܕܒܛܝܠܐܝܬ ('diligently, carefully') and by the Vulgate crebro ('frequently'). Both versions appear to interpret rather than literally translate the obscure Greek term, each resolving the crux toward a sense of thorough or repeated washing."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "χεῖρας / ܐܝܕܝܗܘܢ / manus; the Peshitta adds the pronominal suffix ('their hands'), a routine Syriac idiom for inalienable body parts."
     },
     {
       "greek_nt": [
@@ -156,31 +179,53 @@
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "οὐκ ἐσθίουσιν / ܠܐ ܠܥܣܝܢ / non manducant."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        12,
+        13
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a present participle (κρατοῦντες / tenentes, 'holding [to]') subordinated to the main verb, whereas the Peshitta employs a causal relative clause ܡܛܠ ܕܐܚܝܕܝܢ ('because they hold fast'). The Syriac makes explicit a causal nuance only implicit in the participial constructions."
+    },
+    {
+      "greek_nt": [
         16,
-        17,
+        17
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "παράδοσιν / ܡܫܠܡܢܘܬܐ / traditionem."
+    },
+    {
+      "greek_nt": [
         18,
         19
       ],
       "peshitta": [
-        12,
-        13,
-        14,
         15
       ],
       "vulgate": [
-        11,
-        12,
-        13,
-        14
+        13
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a participial construction (κρατοῦντες τὴν παράδοσιν, 'holding the tradition') to express causality, while Peshitta uses a prepositional phrase with ܡܛܠ ܕܐܚܝܕܝܢ ('because they hold'). Vulgate mirrors Greek syntax with the present participle tenentes, though all three traditions convey identical semantic content regarding adherence to ancestral tradition."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πρεσβυτέρων / ܕܩܫܝܫܐ / seniorum; the Syriac ܩܫܝܫܐ shares the Semitic root q-sh-sh cognate with Hebrew קָשִׁישׁ and Arabic قِسِّيس."
     },
     {
       "greek_nt": [],
@@ -188,14 +233,15 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate marks the clause boundary with a colon, paralleling the Greek high point (·) which is folded into the final word token πρεσβυτέρων· above. The Peshitta carries no separate punctuation token here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.987556+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.439792+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

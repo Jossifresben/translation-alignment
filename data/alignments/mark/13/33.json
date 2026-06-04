@@ -58,8 +58,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -71,8 +70,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -82,33 +80,19 @@
         2
       ],
       "vulgate": [
-        2
+        2,
+        3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek and Latin coordinate the imperatives with an independent conjunction (καί / et orate); Syriac fuses the conjunction with the verb in a single inflected form ܘܨܠܘ ('and-pray'), a normal feature of Syriac orthography rather than a substantive difference."
     },
     {
       "greek_nt": [
         3
       ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
       "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'orate' to mark a stronger syntactic break before the causal clause, whereas Greek uses a raised dot (·) and Peshitta employs no explicit punctuation marker at this juncture. This reflects Latin rhetorical convention rather than a textual variant."
+      "vulgate": [],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -116,49 +100,36 @@
       ],
       "peshitta": [
         3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places γάρ ('for') post-verbally after οἴδατε, following standard Koine syntax for causal particles. Peshitta and Vulgate both position the causal conjunction (ܓܝܪ / enim) pre-verbally, reflecting their respective languages' preference for clause-initial conjunctions in explanatory statements."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        6
       ],
       "vulgate": [],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta supplies the explicit subject pronoun ܐܢܬܘܢ ('you'), which is grammatically unnecessary but stylistically preferred in Syriac to clarify the second-person plural subject. Greek and Latin encode this information morphologically in the verb endings (οἴδατε / nescitis) and omit the pronoun."
+      "note": "The negative particle οὐκ / ܠܐ stands explicitly in Greek and Syriac, while the Vulgate incorporates the negation morphologically into the verb nescitis ('you-do-not-know'), so no separate Latin token corresponds to it."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek expresses the verb synthetically with the perfect οἴδατε (2nd plural embedded), as does the Latin nescitis; Syriac uses an analytic construction, the participle ܝܕܥܝܢ plus the enclitic pronoun ܐܢܬܘܢ ('knowing [are] you'), the standard Syriac periphrastic present."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -170,8 +141,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The interrogative 'when' is rendered πότε / quando / ܐܡܬܝ; the assigned Syriac root (m-w-th) in the enrichment is spurious, as ܐܡܬܝ is an interrogative adverb of time and not denominal from the root for 'die'."
     },
     {
       "greek_nt": [
@@ -179,15 +150,13 @@
         9
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
         8
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the definite article ὁ with καιρός ('the time'), a construction mirrored in Peshitta with the pronominal suffix ܗܘ ('it is') functioning as a copula plus demonstrative. Vulgate omits any article, as classical Latin lacks definite articles, rendering simply 'tempus sit' in subjunctive mood within the indirect question."
+      "note": "Greek supplies the definite article ὁ before καιρός and Syriac has the determined-by-context noun ܙܒܢܐ; the Vulgate uses anarthrous tempus, reflecting Latin's lack of a definite article rather than a textual omission."
     },
     {
       "greek_nt": [
@@ -200,14 +169,13 @@
         9
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the present indicative ἐστιν in the indirect question, a permissible construction in Koine. Vulgate employs the subjunctive 'sit', required by classical Latin syntax for indirect questions. Peshitta uses the enclitic copula ܗܘ, which functions as present indicative but is syntactically bound to the preceding noun."
+      "note": "Greek and Latin use a finite copula (ἐστιν / sit, the latter subjunctive after the indirect interrogative quando); Syriac employs the third-person enclitic pronoun ܗܘ functioning as copula, a typical Aramaic nominal-sentence construction."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.033406+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.434752+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

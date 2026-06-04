@@ -75,13 +75,13 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        0
+      ],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the scribes. This is a minor stylistic difference, as Syriac narrative frequently omits coordinating conjunctions where Greek and Latin retain them for continuity."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -94,14 +94,16 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek marks the subject with article + plural noun (οἱ γραμματεῖς); the Peshitta encodes the conjunction and noun in a single inflected form ܘܣܦܪܐ (from root s-p-r, cognate with Hebrew סֵפֶר); Latin scribæ stands alone. The article (idx 1) has no separate equivalent in the other traditions and is absorbed into the noun phrase."
     },
     {
       "greek_nt": [
         3,
         4,
-        5
+        5,
+        6
       ],
       "peshitta": [
         1,
@@ -111,30 +113,19 @@
       "vulgate": [
         2,
         3,
-        4
+        4,
+        5
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a double-article construction (οἱ ἀπὸ Ἱεροσολύμων) with prepositional phrase; Latin uses a relative pronoun (qui ab Jerosolymis); Peshitta uses the relative particle ܐܝܠܝܢ ܕܡܢ. All three express the same restrictive modification, but through distinct syntactic strategies typical of each language."
-    },
-    {
-      "greek_nt": [
-        6
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek uses an articular participial attributive (οἱ ἀπὸ Ἱεροσολύμων καταβάντες, 'those having come down from Jerusalem'); the Vulgate renders this with a relative clause plus pluperfect (qui ... descenderant); the Peshitta employs the relative pronoun ܐܝܠܝܢ with ܕܡܢ ܐܘܪܫܠܡ but defers the verb of descent to the next group — semantically equivalent constructions of attributive subordination."
     },
     {
       "greek_nt": [
         7
       ],
       "peshitta": [
+        4,
         5,
         6
       ],
@@ -143,60 +134,88 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "The Peshitta uses a periphrastic construction ܐܡܪܝܢ ܗܘܘ (participle + auxiliary 'were'), rendering the Greek imperfect ἔλεγον more analytically. Greek and Latin employ synthetic imperfect forms; Syriac's periphrastic strategy is a standard morphological feature for expressing past progressive aspect."
+      "note": "Greek imperfect ἔλεγον ('were saying') and Latin imperfect dicebant both convey durative past speech; the Peshitta uses the periphrastic construction ܐܡܪܝܢ ܗܘܘ (participle ܐܡܪܝܢ from root a-m-r + auxiliary ܗܘܘ from h-w-a), the standard Syriac means of expressing continuous past action. Note also that the Peshitta verb of descent ܢܚܬܘ (idx 4, root n-kh-th) falls within this span though it logically belongs with the prior 'came down from Jerusalem' clause."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
       "vulgate": [
         7,
         8
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after dicebant to mark the transition to direct discourse, a punctuation convention absent in Greek manuscripts and unnecessary in Syriac, which uses ܕ- to introduce reported speech. This is a scribal/editorial feature, not a textual variant."
+      "note": "Greek recitative ὅτι introduces the direct quotation without separate punctuation; the Vulgate makes the speech-boundary explicit with a colon (idx 7) followed by Quoniam (idx 8). The Peshitta marks the quotation purely by syntax with no equivalent particle, hence no aligned token here."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek and Latin transliterate the demon-name as Βεελζεβούλ / Beelzebub respectively (the Greek -οὺλ vs. Latin -ub reflecting differing Vorlagen for the final consonant), while the Syriac ܒܥܠܙܒܘܒ preserves the -b form matching the Vulgate and the Hebrew 'Baal-zebub' tradition of 2 Kings 1:2."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        7,
         8,
         9
       ],
       "vulgate": [
-        9,
         10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek ὅτι Βεελζεβοὺλ ἔχει and Latin Quoniam Beelzebub habet use transitive 'has' with the demon-name as direct object. Peshitta employs the existential particle ܐܝܬ with prepositional phrase ܒܗ ('in him'), a typical Syriac idiom for possession or indwelling, semantically equivalent but syntactically distinct."
+      "note": "Greek and Latin use a transitive 'have' (ἔχει / habet) with Beelzebul as object ('he has Beelzebul'); the Peshitta restructures with the existential particle ܐܝܬ plus the prepositional ܒܗ ('there is [Beelzebul] in him'), the idiomatic Syriac means of predicating possession or indwelling."
     },
     {
       "greek_nt": [
-        11,
-        12
-      ],
-      "peshitta": [
-        10
+        11
       ],
       "vulgate": [
-        11,
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "vulgate": [
         12
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek uses καὶ ὅτι ('and that') to coordinate the two accusations; Latin mirrors this with et quia; Peshitta uses ܘܒܪܫܐ ('and by the head/prince'), omitting a second ὅτι-equivalent and integrating the conjunction directly with the prepositional phrase. This reflects Syriac preference for tighter clause linkage."
+      "note": "The second recitative conjunction is rendered καί + ὅτι in Greek and et + quia in Latin (idx 11–12), distinguishing the two clauses of the accusation. The Peshitta supplies no separate conjunction here, simply coordinating the clauses with the prefixed waw on ܘܒܪܫܐ in the following group."
     },
     {
       "greek_nt": [
         13,
         14,
-        15,
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek instrumental ἐν τῷ ἄρχοντι ('by the prince') with preposition + article + noun is matched by Latin in principe; the Peshitta condenses the conjunction, preposition, and noun into the single form ܘܒܪܫܐ (root r-sh-a, 'head/chief', cognate with Hebrew רֹאשׁ), using the native term for 'chief' rather than a loan for ἄρχων."
+    },
+    {
+      "greek_nt": [
         16,
         17
       ],
@@ -204,37 +223,42 @@
         11
       ],
       "vulgate": [
-        13,
-        14,
         15
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἐν τῷ ἄρχοντι τῶν δαιμονίων uses a prepositional phrase with double article and genitive modifier. Latin in principe dæmoniorum mirrors this structure. Peshitta ܕܕܝܘܐ uses a construct-state genitive chain ('head-of demons'), a more compact Semitic construction, already introduced by ܘܒܪܫܐ in the previous token group."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        18,
+        18
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         19,
         20
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        16,
         17
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἐκβάλλει before the object τὰ δαιμόνια (verb-object order); Latin ejicit dæmonia follows the same pattern. Peshitta ܡܦܩ ܕܝܘܐ uses verb-object order but omits the article (Syriac lacks a definite article system), and the object is in construct with the preceding genitive, yielding a more compressed phrase."
+      "type": "grammar",
+      "note": "Greek and Latin use the articular/explicit plural object (τὰ δαιμόνια / dæmonia, 'the demons'); the Peshitta ܕܝܘܐ (root d-y-w) is morphologically unmarked for the plural here and lacks any article, a typical Syriac economy where number is inferred from context. The Greek article (idx 19) has no counterpart in the other versions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.960495+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.441221+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

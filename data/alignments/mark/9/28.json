@@ -72,55 +72,56 @@
         0
       ],
       "peshitta": [
-        0
+        0,
+        2
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses coordinating conjunction καί ('and'), while Peshitta employs temporal particle ܟܕ ('when'), and Vulgate uses temporal cum ('when'). The Peshitta and Vulgate both shift to temporal framing, whereas Greek maintains narrative coordination."
+      "type": "construction",
+      "note": "Greek opens with the simple coordinating καί followed by a genitive absolute; the Peshitta renders the temporal clause with ܟܕ ('when') plus the postpositive particle ܕܝܢ ('but/now'), while the Vulgate uses Et with the subordinating cum. The Syriac ܕܝܢ adds a mild adversative nuance absent from the Greek and Latin."
     },
     {
       "greek_nt": [
         1,
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the action with a genitive-absolute aorist participle plus pronoun (εἰσελθόντος αὐτοῦ); both Peshitta ܥܠ and Vulgate introisset render it with a finite verb governed by the temporal conjunction, a syntactic simplification of the Greek participial construction."
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        1,
         3
       ],
       "vulgate": [
-        1,
-        2,
         3,
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses genitive absolute construction (εἰσελθόντος αὐτοῦ εἰς οἶκον); Vulgate mirrors this with cum + pluperfect subjunctive (cum introisset in domum); Peshitta employs finite verb ܥܠ ܠܒܝܬܐ ('he entered into the house') with different word order but equivalent meaning."
+      "variant": "aligned",
+      "note": "εἰς οἶκον / ܠܒܝܬܐ / in domum"
     },
     {
       "greek_nt": [],
       "peshitta": [
-        2
+        4
       ],
       "vulgate": [],
       "variant": "added",
       "type": "expansion",
-      "note": "Peshitta inserts the particle ܕܝܢ ('now', 'then'), a typical Syriac narrative connector absent from both Greek and Latin witnesses. This is a stylistic addition for narrative flow."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta explicitly names the subject ܝܫܘܥ ('Jesus') where Greek and Latin rely on pronominal reference (αὐτοῦ / implicit subject). This is a clarifying expansion typical of Syriac narrative style."
+      "note": "The Peshitta makes the implicit subject explicit by inserting the proper name ܝܫܘܥ ('Jesus'), whereas the Greek and Latin leave the subject of the entering verb pronominal/embedded. This is a characteristic Syriac clarifying expansion."
     },
     {
       "greek_nt": [
@@ -136,7 +137,7 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "οἱ μαθηταὶ αὐτοῦ / ܬܠܡܝܕܘܗܝ / discipuli ejus"
     },
     {
       "greek_nt": [
@@ -149,34 +150,44 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the adverbial prepositional phrase κατ᾽ ἰδίαν ('privately'); the Vulgate renders it with the single adverb secreto and the Peshitta with ܒܠܚܘܕܝܗܘܢ ('by themselves'), each an idiomatic equivalent expressing the notion of privacy."
     },
     {
       "greek_nt": [
-        10,
-        11
+        10
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        8,
-        9
+        8
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places verb ἐπηρώτων after the adverbial phrase κατ᾽ ἰδίαν; Vulgate follows this order (secreto interrogabant eum); Peshitta fronts the verb ܫܐܠܘܗܝ before the adverb ܒܠܚܘܕܝܗܘܢ, reflecting typical Syriac VSO syntax."
+      "note": "All three witnesses use an imperfect 'were asking' (ἐπηρώτων / interrogabant), but the Peshitta ܫܐܠܘܗܝ already incorporates the object pronoun and stands earlier in the clause, reflecting Semitic verb-initial word order versus the Greek and Latin sequence."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        11
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "αὐτόν / eum"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
       "vulgate": [
         10
       ],
-      "variant": "added",
+      "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon to mark the transition to direct discourse, a punctuation convention absent from Greek and Peshitta manuscript traditions."
+      "note": "The Greek high point (·) after αὐτόν and the Vulgate colon both mark the transition to direct speech; the Peshitta carries no equivalent punctuation token and absorbs the object pronoun into the verb ܫܐܠܘܗܝ."
     },
     {
       "greek_nt": [
@@ -188,9 +199,8 @@
       "vulgate": [
         11
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὅτι functions as recitative marker introducing indirect question ('why'); Peshitta uses interrogative ܠܡܢܐ ('why'); Vulgate employs quare ('why'). All three introduce the disciples' question but with different grammatical strategies."
+      "variant": "aligned",
+      "note": "ὅτι (interrogative 'why') / ܠܡܢܐ / Quare"
     },
     {
       "greek_nt": [
@@ -203,23 +213,34 @@
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἡμεῖς / ܚܢܢ / nos"
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "οὐκ / ܠܐ / non"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        13,
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἠδυνήθημεν (from δύναμαι, 'to be able') and Latin potuimus express ability directly; the Peshitta ܐܫܟܚܢ derives from the root sh-k-kh ('to find/be able'), a Syriac idiom in which 'finding' the capacity stands for 'being able'."
     },
     {
       "greek_nt": [
@@ -235,22 +256,24 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses aorist infinitive ἐκβαλεῖν with neuter pronoun αὐτό ('to cast it out'); Vulgate mirrors with infinitive ejicere and masculine pronoun eum (agreeing with spiritus understood); Peshitta employs infinitive construct ܠܡܦܩܘܬܗ with pronominal suffix. Gender difference reflects Latin's grammatical agreement with 'spirit' versus Greek's neuter reference to 'demon'."
+      "note": "Greek separates the infinitive ἐκβαλεῖν from the neuter object αὐτό ('it', the spirit) and Latin likewise distinguishes ejicere eum; the Peshitta fuses the infinitive and the object suffix into a single form ܠܡܦܩܘܬܗ ('to cast it/him out'), and its pronominal suffix is grammatically masculine rather than the Greek neuter."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        17
+      ],
       "vulgate": [
         17
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Greek question mark on αὐτό; and the Vulgate's separate interrogative mark close the disciples' question; the Peshitta has no discrete punctuation token, leaving the interrogative force signalled solely by the opening ܠܡܢܐ."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.234147+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.560835+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

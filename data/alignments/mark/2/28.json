@@ -52,8 +52,8 @@
         0
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὥστε ('so then', result conjunction) is rendered by Peshitta ܗܟܝܠ (hākīl, 'therefore') and Vulgate Itaque ('therefore'); all three express logical consequence but with slightly different nuances of inferential force."
+      "type": "word-order",
+      "note": "All three render the inferential conjunction (ὥστε / ܗܟܝܠ / Itaque, 'so then, therefore'). The Greek places it clause-initially while Syriac ܗܟܝܠ stands enclitically in third position after the predicate, a normal Syriac syntactic placement for the postpositive particle."
     },
     {
       "greek_nt": [
@@ -65,7 +65,9 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek κύριός and Latin Dominus express 'Lord' as an independent predicate nominative; Syriac ܡܪܗ ('its Lord', root m-r-h) carries a pronominal suffix referring back to the Sabbath, yielding 'lord of it' — a construction anticipating the genitive that becomes explicit later in the Syriac clause."
     },
     {
       "greek_nt": [
@@ -77,7 +79,38 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The copula is expressed in Greek by the finite verb ἐστιν and in Latin by est, whereas Syriac uses the enclitic pronoun ܗܘ ('he/it is') as a nominal copula, the standard Aramaic device for predicating identity without a verb of being."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘܐܦ / etiam ('also, even')."
+    },
+    {
+      "greek_nt": [
+        8,
+        9
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τοῦ σαββάτου / ܕܫܒܬܐ / sabbati ('of the Sabbath')."
     },
     {
       "greek_nt": [
@@ -95,40 +128,13 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the definite article ὁ υἱὸς τοῦ ἀνθρώπου ('the Son of the Man') in standard Christological titular form; Vulgate Filius hominis omits the article (Latin lacks articles); Peshitta ܒܪܗ ܕܐܢܫܐ (brēh d-nāšā) uses the emphatic state functioning as the definite article, yielding semantic equivalence despite syntactic variation."
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek καὶ ('also, even') is rendered by Peshitta ܘܐܦ (w-āp, 'and also', emphatic additive) and Vulgate etiam ('even, also'); the Peshitta form intensifies the additive force slightly beyond the Greek, while the Vulgate mirrors the Greek semantic range closely."
-    },
-    {
-      "greek_nt": [
-        8,
-        9
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned"
+      "type": "word-order",
+      "note": "The phrase 'the Son of Man' (ὁ υἱὸς τοῦ ἀνθρώπου / ܒܪܗ ܕܐܢܫܐ / Filius hominis) is common to all three, but its position differs: Greek and Latin place it immediately after the copula, whereas Syriac defers ܒܪܗ ܕܐܢܫܐ to the very end of the clause, after the mention of the Sabbath, producing a markedly different surface word order while preserving the predication."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.956721+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.533559+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

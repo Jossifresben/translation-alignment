@@ -60,19 +60,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "εὐκοπώτερόν / ܦܫܝܩ / Facilius"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐστιν / ܗܘ / est"
     },
     {
       "greek_nt": [
@@ -84,8 +94,23 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use the bare accusative subject of the infinitive (κάμηλον / camelum); Syriac ܠܓܡܠܐ prefixes the object marker ܠ-, the regular Syriac way of marking the logical subject of the impersonal construction with ܦܫܝܩ, semantically equivalent."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three render 'to pass/enter' but with differing placement and lexis: Greek διελθεῖν ('pass through') and Latin transire stand at the clause end, whereas Syriac ܕܢܥܘܠ (root ʿ-w-l, 'enter') is fronted before the prepositional phrase, a typical Syriac reordering of the infinitive clause."
     },
     {
       "greek_nt": [
@@ -105,22 +130,8 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a double-articulated genitive construction (διὰ τῆς τρυμαλιᾶς τῆς ῥαφίδος, 'through the eye of the needle') with two definite articles. Latin mirrors this with per foramen acus using a genitive without articles. Syriac uses a bound-state construction (ܒܚܪܘܪܐ ܕܡܚܛܐ, 'in-the-hole of-needle'), semantically equivalent but syntactically more compact."
-    },
-    {
-      "greek_nt": [
-        8
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the infinitive διελθεῖν ('to pass') after the prepositional phrase, while Syriac fronts the verb ܕܢܥܘܠ ('that he enter') before the prepositional phrase as part of a relative construction. Latin transire follows the prepositional phrase, matching Greek word order but using a different infinitive form."
+      "type": "lexical",
+      "note": "Greek τῆς τρυμαλιᾶς τῆς ῥαφίδος ('the eye of the needle') is matched by Latin foramen acus ('hole of the needle') and Syriac ܒܚܪܘܪܐ ܕܡܚܛܐ ('in the opening of the needle'); Syriac and Latin both choose 'hole/opening' rather than the more anatomical Greek τρυμαλιά, and Syriac supplies the preposition ܒ where Greek uses διά."
     },
     {
       "greek_nt": [
@@ -133,7 +144,7 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἢ / ܐܘ / quam"
     },
     {
       "greek_nt": [
@@ -146,7 +157,7 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πλούσιον / ܥܬܝܪܐ / divitem"
     },
     {
       "greek_nt": [
@@ -167,7 +178,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the preposition εἰς with the accusative article and noun (εἰς τὴν βασιλείαν τοῦ θεοῦ). Latin mirrors this with in regnum Dei. Syriac employs a pronominal suffix construction (ܠܡܠܟܘܬܗ ܕܐܠܗܐ, 'to-his-kingdom of-God'), where the suffix -ܗ ('his') anticipates the following genitive, a typical Semitic resumptive structure not present in Greek or Latin."
+      "note": "Greek expresses 'into the kingdom of God' with εἰς + accusative and an analytic genitive (τὴν βασιλείαν τοῦ θεοῦ), and Latin likewise (in regnum Dei); Syriac compresses this into ܠܡܠܟܘܬܗ ܕܐܠܗܐ, using a proleptic pronominal suffix ('his-kingdom, of God'), an idiomatic Syriac possessive construction."
     },
     {
       "greek_nt": [
@@ -181,13 +192,13 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the second infinitive εἰσελθεῖν ('to enter') at the end of the sentence. Syriac ܠܡܥܠ ('to-enter') likewise appears finally. Latin intrare, however, precedes the prepositional phrase in regnum Dei, creating a different syntactic flow while preserving semantic equivalence."
+      "note": "The verb 'to enter' (Greek εἰσελθεῖν, final; Latin intrare, placed before the prepositional phrase; Syriac ܠܡܥܠ, final) differs in sequence across the three traditions, reflecting each language's preferred placement of the infinitive relative to its goal complement; the sense is identical."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.882717+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.465510+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

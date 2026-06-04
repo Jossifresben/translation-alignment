@@ -40,12 +40,11 @@
         1
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs article + present participle (ὁ σπείρων) as substantive; Peshitta uses active participle ܙܪܘܥܐ with relative clause ܕܙܪܥ ('the sower who sows'); Vulgate uses relative pronoun + finite verb (Qui seminat). All three express identical semantics through distinct syntactic strategies for substantivizing the agent."
+      "note": "Greek uses an articular present participle (ὁ σπείρων, 'the one sowing'); the Peshitta employs a double construction with the agent-noun ܙܪܘܥܐ ('the sower') followed by a relative ܕܙܪܥ ('who sows'), reinforcing the subject; the Vulgate reduces this to a bare relative pronoun (Qui), which then carries over into the following finite verb."
     },
     {
       "greek_nt": [
@@ -60,7 +59,7 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek retains the accusative article τὸν with λόγον, marking direct object explicitly. Syriac ܡܠܬܐ and Latin verbum both lack articles (Syriac has no article system; Latin drops it as stylistically unmarked). The semantic content remains identical across all three traditions."
+      "note": "Greek marks the direct object with the article + accusative (τὸν λόγον); both the Peshitta (ܡܠܬܐ) and the Vulgate (verbum) render the noun without an article, an expected feature since Latin lacks the definite article and Syriac here uses the emphatic state without further determination."
     },
     {
       "greek_nt": [
@@ -70,15 +69,18 @@
         3
       ],
       "vulgate": [
+        1,
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The Greek and Peshitta place the finite verb 'sows' (σπείρει / ܙܪܥ) at the end of the clause; the Vulgate transmits the verb twice (seminat... seminat), echoing the participle-as-relative within the first seminat and repeating it as the main verb, a stylistic doubling not present in the Greek or Syriac."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.965217+00:00",
-    "confidence": 0.9,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.528594+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -52,29 +52,28 @@
     {
       "greek_nt": [
         0,
-        1
+        1,
+        2
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        1
+        1,
+        2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + postpositive conjunction (ἡ δὲ); Syriac employs prefixed conjunction ܘ ('and') directly on the noun; Vulgate places the conjunction postpositively (autem) after the verb, reflecting Latin stylistic preference for delayed connectives."
+      "note": "Greek articulates the subject with article + δέ + noun (ἡ δὲ πενθερά); the Vulgate renders the connective with postpositive autem before socrus, matching the Greek word order; Syriac collapses article, possessive, and noun into the single suffixed form ܚܡܬܗ ('his/her mother-in-law') prefixed with the conjunction ܘ, omitting any adversative particle."
     },
     {
       "greek_nt": [
-        2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "aligned"
@@ -92,7 +91,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect κατέκειτο ('was lying [sick]'); Syriac employs participial construction ܪܡܝܐ ܗܘܬ (lit. 'cast/lying she-was'); Vulgate uses simple imperfect decumbebat ('was lying down'). All three express durative past state, but through different aspectual strategies."
+      "note": "Greek κατέκειτο is a single imperfect verb ('was lying down/sick'); Latin Decumbebat likewise renders it as one imperfect form fronted to the head of the clause; Syriac employs the periphrastic construction ܪܡܝܐ ܗܘܬ (passive participle plus the auxiliary 'was'), the normal Syriac means of expressing durative past action."
     },
     {
       "greek_nt": [
@@ -102,37 +101,58 @@
         4
       ],
       "vulgate": [
-        4
+        4,
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the present participle πυρέσσουσα ('fevering') agreeing attributively with the subject, mirrored by Latin febricitans; Syriac instead uses a prepositional phrase ܒܐܫܬܐ ('with/in fever'), shifting from a participial predicate to an adverbial complement. The Latin colon (token 5) is editorial punctuation with no counterpart in the other witnesses."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
         7
-      ],
-      "peshitta": [
-        5
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "minor",
+      "variant": "omitted",
       "type": "omission",
-      "note": "Greek καὶ εὐθὺς ('and immediately') and Vulgate et statim are fully attested; Syriac ܘܐܡܪܘ omits the temporal adverb, proceeding directly from conjunction to verb. This may reflect Syriac narrative economy or a Vorlage variant."
+      "note": "Greek εὐθύς ('immediately'), a hallmark of Markan style, is reproduced by Vulgate statim but has no equivalent in the Peshitta, which omits the temporal adverb entirely — a common Syriac tendency to drop Mark's pervasive εὐθύς."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The verb of speaking is shared (Greek λέγουσιν, Vulgate dicunt, Syriac ܘܐܡܪܘ), but in Syriac it carries the prefixed conjunction ܘ, fusing 'and' with the verb, whereas Greek and Latin keep καί/et as the separate connective already aligned above."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        8,
         9
       ],
       "variant": "aligned"
@@ -149,23 +169,15 @@
         10,
         11
       ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after febricitans, creating a stronger syntactic break between the descriptive clause and the report to Jesus. Greek and Syriac maintain continuous syntax without such punctuation."
+      "type": "construction",
+      "note": "Greek περὶ αὐτῆς ('concerning her') is a preposition plus genitive pronoun, matched analytically by Latin de illa; Syriac expresses the same relation synthetically with the single form ܥܠܝܗ (preposition ܥܠ plus 3fs suffix), a typical Semitic fusion of preposition and pronoun."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.948220+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.451527+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -47,67 +47,118 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
-        3
+        0
       ],
       "peshitta": [
         0,
-        1,
-        2,
-        3,
-        4
+        1
       ],
       "vulgate": [
-        0,
-        1,
-        2,
-        3
+        0
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta inserts ܐܢܫܐ ('men, people') as an explicit subject, whereas Greek uses the substantival participle οἱ φαγόντες ('the ones having eaten') and Latin employs the relative pronoun qui ('who'). This is a typical Syriac clarifying gloss making the subject explicit rather than relying on participial or relative constructions."
+      "type": "construction",
+      "note": "Greek expresses the imperfect with the single finite form ἦσαν; the Peshitta renders the verb 'to be' periphrastically with ܐܝܬܝܗܘܢ ܗܘܘ ('they were'), the characteristic Syriac compound past, while the Vulgate matches the Greek with a single imperfect Erant."
     },
     {
       "greek_nt": [
-        4,
-        5
+        1
       ],
       "peshitta": [
-        5,
-        6,
-        7
+        2
       ],
       "vulgate": [
-        4,
-        5,
-        6
+        1
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        6,
-        7,
-        8
+        2,
+        3
       ],
-      "peshitta": [],
+      "peshitta": [
+        3,
+        4
+      ],
       "vulgate": [
-        7,
-        8,
-        9,
-        10
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek and Latin use a substantivised participle alone (οἱ φαγόντες / qui manducaverunt, 'those who had eaten'); the Peshitta supplies an explicit head noun ܐܢܫܐ ('the people/men') before the relative ܕܐܟܠܘ, an idiomatic Syriac filler making the subject overt."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek encodes 'four thousand' in the single lexeme τετρακισχίλιοι, whereas both the Peshitta (ܐܪܒܥܐ ܐܠܦܝܢ) and the Vulgate (quatuor millia) analyse the numeral into 'four' + 'thousand(s)'; the difference is purely lexical-structural, not semantic."
+    },
+    {
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon here, marking the syntactic break before the following clause; the Greek uses a high point (·) within τετρακισχίλιοι· and the Peshitta has no overt punctuation token, so this stands as a Latin editorial pointing."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "vulgate": [
+        8
       ],
       "variant": "omitted",
       "type": "omission",
-      "note": "The Peshitta omits the entire dismissal clause καὶ ἀπέλυσεν αὐτούς ('and he sent them away'), which is present in both the Greek and the Vulgate (et dimisit eos). This represents a substantive textual divergence, possibly reflecting an earlier Vorlage or deliberate abbreviation in the Syriac transmission."
+      "note": "The closing clause 'and he dismissed them' (καὶ ἀπέλυσεν αὐτούς / et dimisit eos) is attested in both the Greek and the Vulgate but is wholly absent from the Peshitta witnesses supplied here, which end the verse at the numeral."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.995124+00:00",
-    "confidence": 0.9,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.513277+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

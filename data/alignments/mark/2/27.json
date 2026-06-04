@@ -68,8 +68,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -82,8 +81,7 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγεν (iterative or durative past action), while Peshitta ܘܐܡܪ employs the simple perfect (completed action) and Vulgate dicebat uses imperfect, mirroring the Greek aspectual nuance. The Peshitta's choice reflects Syriac preference for perfective aspect in narrative discourse."
+      "note": "Greek ἔλεγεν and Latin dicebat are both imperfect, conveying durative or repeated speech ('he was saying'); the Syriac ܘܐܡܪ is a simple perfect ('and he said') fused with the conjunction, lacking the iterative nuance of the Greek imperfect."
     },
     {
       "greek_nt": [
@@ -97,8 +95,7 @@
         3
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after eis to mark direct discourse explicitly, whereas Greek uses a raised dot (·) and Peshitta employs no punctuation. This reflects Latin scribal convention for introducing quoted speech."
+      "note": "The Vulgate separates the dative pronoun eis from the colon punctuation marking direct discourse; the Greek encodes the discourse boundary in the raised dot of αὐτοῖς·, while the Peshitta ܠܗܘܢ carries no such marker."
     },
     {
       "greek_nt": [
@@ -112,26 +109,33 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article τὸ with σάββατον (definite nominative neuter), Vulgate uses bare Sabbatum (no article in Latin), and Peshitta prefixes the relative particle ܕ ('that/which') to ܫܒܬܐ, creating a nominal clause construction typical of Syriac syntax where Greek uses article + noun."
+      "note": "Greek articulates the subject (τὸ σάββατον) with the neuter article, and Syriac prefixes the relative/quotative particle ܕ to ܫܒܬܐ; Latin Sabbatum is anarthrous, as Latin lacks the definite article entirely."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase διὰ τὸν ἄνθρωπον with article + accusative; Latin mirrors this with propter hominem (no article); Syriac employs ܡܛܠ ܒܪܢܫܐ without article, as Syriac lacks the Greek article system and determines definiteness contextually."
+      "note": "Greek marks the accusative object with article plus noun (τὸν ἄνθρωπον); Syriac uses the compound noun ܒܪܢܫܐ ('son of man' = mankind), the standard Syriac lexeme for the human race; Latin hominem stands anarthrous in the accusative."
     },
     {
       "greek_nt": [
@@ -145,8 +149,7 @@
         8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἐγένετο sentence-finally (verb-final word order), Peshitta uses ܐܬܒܪܝܬ ('was created') in the same position, while Vulgate employs factum est with the participle preceding the auxiliary, reflecting Latin preference for participle + esse constructions in passive voice."
+      "note": "Greek ἐγένετο ('came to be') from γίνομαι is a general verb of becoming, rendered by Latin periphrastic perfect passive factum est ('was made'); the Syriac ܐܬܒܪܝܬ employs the Ethpe'el of b-r-y ('was created'), a stronger and more theologically loaded creation verb echoing Genesis (cf. בָּרָא)."
     },
     {
       "greek_nt": [
@@ -158,22 +161,21 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         10
       ],
       "peshitta": [
-        6
+        6,
+        7
       ],
       "vulgate": [
         10
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek οὐχ (proclitic form of οὐ before rough breathing) and Latin non are simple negators, while Peshitta ܘܠܐ combines the conjunction waw with the negator, creating 'and not' as a single orthographic unit—a standard Syriac idiom for contrastive negation."
+      "note": "Greek negates with the single particle οὐχ and Latin with non; the Syriac splits the negation across ܘܠܐ ('and not') plus the copula ܗܘܐ, supplying an explicit verb of being that the elliptical Greek and Latin clauses leave unexpressed."
     },
     {
       "greek_nt": [
@@ -181,39 +183,45 @@
         12
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun (ὁ ἄνθρωπος, nominative with article for subject), Latin uses bare homo (no article), and Peshitta inserts the copula ܗܘܐ ('was') before ܒܪܢܫܐ to create an explicit nominal sentence, a syntactic requirement in Syriac for negated nominal predication."
+      "note": "Greek again articulates the subject (ὁ ἄνθρωπος); Syriac repeats ܒܪܢܫܐ, the collective term for humankind; Latin homo remains without an article per Latin morphology."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs διὰ τὸ σάββατον (preposition + article + accusative noun), Latin uses propter sabbatum (no article), and Peshitta uses ܡܛܠ ܫܒܬܐ (preposition + bare noun). The Vulgate's final period versus Greek's period reflects identical punctuation; all three traditions agree semantically despite article presence/absence."
+      "note": "Greek closes with article plus noun (τὸ σάββατον) in the accusative governed by διά; Syriac ܫܒܬܐ and Latin sabbatum are anarthrous, matching their earlier renderings of the term."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.956473+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.504102+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

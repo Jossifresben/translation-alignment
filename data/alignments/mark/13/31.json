@@ -58,22 +58,11 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the definite article ὁ οὐρανός (masculine singular with article), while Syriac ܫܡܝܐ and Latin Cælum lack articles, reflecting the absence of definite articles in both target languages. The Syriac form is plural ('heavens'), a common Semitic idiom for the celestial realm."
+      "note": "Greek articulates the subject (ὁ οὐρανός) with the definite article, as does Latin via its anarthrous noun Cælum and Syriac via the emphatic state ܫܡܝܐ; the absence of a separate article in Syriac and Latin is purely a feature of those languages and carries no semantic divergence."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
+        2,
         3,
         4
       ],
@@ -81,11 +70,12 @@
         1
       ],
       "vulgate": [
+        1,
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the feminine article ἡ γῆ, while Syriac ܘܐܪܥܐ (with prefixed conjunction) and Latin terra omit the article. The Syriac conjunction ܘ is prefixed to the noun, a standard Semitic construction, whereas Greek and Latin place the conjunction between the two nouns."
+      "type": "construction",
+      "note": "Greek and Latin coordinate two separate nouns (καὶ ἡ γῆ / et terra), whereas Syriac compresses the conjunction and noun into the single prefixed form ܘܐܪܥܐ ('and-earth'), a normal Syriac orthographic feature rather than a textual variant."
     },
     {
       "greek_nt": [
@@ -103,32 +93,20 @@
       "greek_nt": [
         6,
         7,
-        8
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        4,
-        5
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the article + adversative particle + noun construction (οἱ δὲ λόγοι), Latin uses noun + adversative particle (verba autem), while Syriac uses a simple conjunctive construction (ܘܡܠܝ, 'and my words') without an explicit adversative. All three convey the same contrastive sense through different syntactic strategies."
-    },
-    {
-      "greek_nt": [
+        8,
         9
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
+        4,
+        5,
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "The first-person possessive pronoun appears in different positions: Greek μου follows the noun λόγοι, Latin mea follows verba, while Syriac employs a pronominal suffix directly attached to ܡܠܝ ('my-words'). This reflects standard possessive constructions in each language."
+      "type": "construction",
+      "note": "Greek expresses 'but my words' with the postpositive δέ plus article and possessive (οἱ δὲ λόγοι μου), matched by Latin verba autem mea; Syriac condenses noun and first-person suffix into ܘܡܠܝ ('and-my-words') and omits any adversative particle, relying on the prefixed waw for the contrast."
     },
     {
       "greek_nt": [
@@ -142,8 +120,8 @@
         7
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the emphatic double negative οὐ μή with future indicative to express strong negation, a construction unique to Koine Greek. Latin non and Syriac ܠܐ employ simple negation, as neither language possesses an equivalent emphatic double-negative construction."
+      "type": "lexical",
+      "note": "Greek employs the emphatic double negative οὐ μή, the strongest form of future denial, to assert that the words will by no means pass away; both the Syriac simple negative ܠܐ and the Latin non render this with an ordinary negation, losing the intensifying force of the Greek construction."
     },
     {
       "greek_nt": [
@@ -155,12 +133,14 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The Greek verb παρελεύσονται is masculine-plural in agreement with λόγοι, while the Syriac ܢܥܒܪܢ carries a distinct feminine-plural inflection agreeing with ܡܠܝ ('words'), reflecting the grammatical gender of the Syriac noun; the Latin transibunt is gender-neutral. The Greek paragraph mark (¶) is editorial and signals the close of the discourse unit."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.033119+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.467393+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

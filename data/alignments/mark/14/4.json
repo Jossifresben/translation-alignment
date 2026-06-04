@@ -78,8 +78,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a single imperfect ἦσαν; Syriac renders the same periphrastic existential force with ܐܝܬ ('there is/are') plus the enclitic ܗܘܘ, a standard Syriac construction for past existence. Latin Erant matches the Greek single-verb form."
     },
     {
       "greek_nt": [
@@ -91,8 +92,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -104,8 +104,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -116,7 +115,7 @@
       "vulgate": [],
       "variant": "added",
       "type": "expansion",
-      "note": "The Peshitta adds ܡܢ ܬܠܡܝܕܐ ('from [among] the disciples'), explicitly identifying the indignant parties as disciples. Neither the Greek nor the Vulgate specifies the identity of τινες/quidam ('some'), leaving the referent deliberately vague."
+      "note": "The Peshitta inserts ܡܢ ܬܠܡܝܕܐ ('some of the disciples'), specifying the otherwise anonymous τινες of the Greek and quidam of the Latin. This is a harmonising clarification absent from both the Greek NA28 and the Vulgate, cf. the parallel naming of the disciples in John 12:4."
     },
     {
       "greek_nt": [
@@ -131,7 +130,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a present participle ἀγανακτοῦντες ('being indignant'); Vulgate employs an adverb + participle construction (indigne ferentes, 'bearing indignantly'); Syriac uses an ethpeel perfect ܕܐܬܒܐܫ ('who were displeased'). All three convey indignation but through different grammatical strategies."
+      "note": "Greek employs the single present participle ἀγανακτοῦντες ('being indignant'); the Vulgate expands this into the periphrasis indigne ferentes ('bearing it indignantly'), and the Syriac uses the verbal ܕܐܬܒܐܫ ('that it was evil/grievous'), each rendering the verb of displeasure with idioms native to its language."
     },
     {
       "greek_nt": [
@@ -149,7 +148,7 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek πρὸς ἑαυτούς ('among themselves') uses a prepositional phrase; Vulgate intra semetipsos mirrors this with Latin reflexive; Syriac ܠܗܘܢ ܒܢܦܫܗܘܢ ('to them in their souls') employs the idiomatic Semitic construction with ܢܦܫܐ ('soul/self') to express internal reaction."
+      "note": "Greek πρὸς ἑαυτούς ('toward/among themselves') and Latin intra semetipsos render the reflexive notion directly; the Syriac splits this across ܠܗܘܢ ('to them', the dative complement of the verb of grieving) and ܒܢܦܫܗܘܢ (lit. 'in their souls/selves'), a typical Semitic reflexive idiom using nepheš."
     },
     {
       "greek_nt": [
@@ -159,20 +158,19 @@
         9
       ],
       "vulgate": [
-        7,
-        8
+        7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        8
+      ],
       "peshitta": [],
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -186,26 +184,35 @@
         10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἰς τί and Latin Ut quid are two-word interrogative phrases ('to what end/why'); Syriac compresses this into the single interrogative ܕܠܡܢܐ ('why/wherefore'), a lexicalised compound expressing the same purpose-question."
     },
     {
       "greek_nt": [
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "ἡ ἀπώλεια / ܐܒܕܢܐ / perditio ('the waste/loss')."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article ἡ before ἀπώλεια αὕτη ('the waste this'); Vulgate and Peshitta both use demonstrative + noun order (ista perditio / ܐܒܕܢܐ ܕܗܢܐ) without a separate article, reflecting typical Latin and Syriac syntax where the demonstrative incorporates definiteness."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -219,7 +226,7 @@
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τοῦ μύρου / ܒܣܡܐ / unguenti ('of the ointment/fragrant oil')."
     },
     {
       "greek_nt": [
@@ -233,8 +240,18 @@
         16
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb γέγονεν at the end of the clause (standard Greek interrogative word order); Syriac ܗܘܐ appears mid-clause after the interrogative; Vulgate facta est follows the noun phrase. All three use perfect/resultative aspect but differ in syntactic positioning."
+      "type": "grammar",
+      "note": "Greek uses the perfect γέγονεν ('has been made/come about'); the Vulgate matches with the perfect periphrasis facta est; the Syriac ܗܘܐ is a simple perfect of h-w-a placed earlier in the clause, reflecting Syriac word order rather than any semantic difference."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate colon (:) introduces the direct discourse following dicentes, paralleling the high point in the Greek λέγοντες·; the Syriac and Greek mark the same break without a discrete punctuation token here."
     },
     {
       "greek_nt": [],
@@ -242,14 +259,15 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The closing Latin question mark (?) corresponds to the interrogative force already encoded in the Greek γέγονεν; with its raised stop and in the Syriac interrogative ܕܠܡܢܐ; it is a printing-tradition feature of the Clementine edition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.034687+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.491647+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

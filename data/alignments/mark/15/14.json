@@ -65,73 +65,118 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
-        1,
-        2
+        0
       ],
-      "vulgate": [
-        0,
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with the substantival article ὁ functioning as the subject pronoun ('the [one], i.e. he'), matched by Syriac independent pronoun ܗܘ; the Vulgate has no separate article/pronoun, folding the subject into the proper name Pilatus that follows."
+    },
+    {
+      "greek_nt": [
         1
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the article ὁ with postpositive δέ before the subject Πιλᾶτος, while Syriac uses the independent pronoun ܗܘ ('he') with ܕܝܢ and Latin places the subject Pilatus first with vero — all three convey the same adversative transition but with tradition-specific syntactic patterns."
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
-        4
+        2
       ],
       "peshitta": [
-        3,
-        4
+        2
       ],
       "vulgate": [
-        2,
-        3,
-        4
+        0
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after illis to mark direct speech, whereas Greek uses a raised dot (·) and Syriac employs no explicit punctuation marker — a scribal convention difference with no semantic impact."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        5,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek imperfect ἔλεγεν and Latin imperfect dicebat both convey durative/iterative force ('kept saying'); the Syriac perfect ܐܡܪ is aspectually neutral and does not preserve the imperfective nuance, a routine limitation of the Syriac verbal system rendered without the periphrastic ܗܘܐ here."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        7,
         8
       ],
       "peshitta": [
-        7,
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek substantivises the neuter adjective κακόν ('an evil thing') and Latin uses the partitive genitive mali ('of evil'); Syriac employs a relative clause ܕܒܝܫ ('that which is evil'), a typical Aramaic strategy for adjectival substantives, semantically equivalent across the three."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
         8
       ],
       "vulgate": [
-        7,
-        8,
-        9
+        8
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek and Syriac place the verb before the adjective (ἐποίησεν κακόν / ܥܒܕ ܕܒܝܫ), while Latin inverts to adjective-verb (mali fecit). The Vulgate also adds a question mark as punctuation, absent in the Greek and Syriac witnesses."
+      "note": "Greek and Latin place the verb (ἐποίησεν / fecit) before the object ('did he do'), whereas Syriac orders the object-clause ܕܒܝܫ before the verb ܥܒܕ; both sequences are idiomatic within their respective languages and do not affect the sense."
     },
     {
       "greek_nt": [
@@ -145,9 +190,8 @@
         10,
         11
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article οἱ with postpositive δέ to mark the subject shift; Syriac employs the compound conjunction ܘܗܢܘܢ ('and they'), merging the adversative and pronominal subject; Latin uses At illi, separating the adversative particle from the pronoun — functionally equivalent but syntactically distinct."
+      "variant": "aligned",
+      "note": "Greek article+δέ (οἱ δέ, 'but they') and Latin At illi together render the adversative subject phrase, matched by the single Syriac word ܘܗܢܘܢ which prefixes the conjunction waw to the demonstrative pronoun."
     },
     {
       "greek_nt": [
@@ -170,34 +214,66 @@
         12
       ],
       "vulgate": [
-        13,
-        14
+        13
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the aorist ἔκραξαν (simple past); Syriac employs the periphrastic construction ܩܥܝܢ ܗܘܘ (participle + auxiliary 'were shouting'), indicating imperfective aspect; Latin uses the imperfect clamabant, also conveying ongoing action. The Vulgate adds a colon to introduce the direct speech."
+      "note": "Greek aorist ἔκραξαν and Latin imperfect clamabant ('kept crying out') differ slightly in aspect, the Latin emphasising the repeated outcry; the Syriac periphrastic ܩܥܝܢ ܗܘܘ (participle + ܗܘܐ) explicitly encodes the durative/iterative sense, aligning with the Latin imperfect rather than the Greek aorist."
     },
     {
       "greek_nt": [
-        13,
-        14
+        13
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
-        15,
-        16
+        15
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the aorist imperative σταύρωσον with separate object pronoun αὐτόν; Syriac employs the imperative ܙܩܘܦܝܗܝ with the third-person masculine singular object suffix attached; Latin uses the imperative Crucifige with separate object pronoun eum — all semantically identical but morphologically divergent."
+      "note": "Greek σταύρωσον αὐτόν and Latin Crucifige eum keep the imperative and pronominal object as separate words; Syriac ܙܩܘܦܝܗܝ fuses the imperative with an enclitic 3ms object suffix ('crucify-him'), a synthetic construction lacking a discrete object token."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "The discrete accusative object pronoun is present in Greek (αὐτόν) and Latin (eum) but absent as a separate token in Syriac, where it is carried by the verbal suffix on ܙܩܘܦܝܗܝ; this is a structural difference, not an omission of meaning."
+    },
+    {
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate edition supplies a colon marking the introduction of direct speech after illis; neither the Greek nor Syriac source-tokens carry an independent punctuation mark at this point, the Greek colon being attached to αὐτοῖς·."
+    },
+    {
+      "vulgate": [
+        9
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Latin question mark after fecit explicitly marks the interrogative, paralleling the Greek question-mark embedded in κακόν;; the Syriac transmits no separate interrogative punctuation, the question being signalled by ܡܢܐ."
+    },
+    {
+      "vulgate": [
+        14
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "A second editorial colon precedes the crowd's cry Crucifige in the Clementine text; this is a modern punctuation feature with no counterpart token in the Greek or Syriac witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.048453+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.559374+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

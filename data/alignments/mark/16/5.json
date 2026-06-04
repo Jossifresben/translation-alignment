@@ -61,19 +61,30 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- (prefixed conjunction) / Et"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction καὶ plus aorist participle εἰσελθοῦσαι (feminine plural, 'having entered'); Vulgate mirrors this with Et plus present participle introëuntes; Syriac employs a single finite verb ܘܥܠܝܢ (w-ʿlayn, 'and they entered'), converting the Greek participial construction into a main verb."
+      "note": "Greek uses a feminine plural aorist participle (εἰσελθοῦσαι) marking the women as subject; the Vulgate matches with a present participle (introëuntes). The Peshitta fuses conjunction and finite verb in ܘܥܠܝܢ ('and they entered'), preferring a coordinated finite clause over the participial construction, a characteristic Syriac narrative idiom."
     },
     {
       "greek_nt": [
@@ -90,8 +101,8 @@
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses preposition εἰς plus article τὸ and noun μνημεῖον ('into the tomb'); Vulgate follows with in monumentum; Syriac employs the bound-state construction ܠܒܝܬ ܩܒܘܪܐ (l-bayt qḇūrā, 'to the house of burial'), a typical Semitic genitive phrase lacking the definite article."
+      "type": "idiom",
+      "note": "Greek τὸ μνημεῖον and Latin monumentum render 'the tomb' as a single noun; the Peshitta uses the compound ܠܒܝܬ ܩܒܘܪܐ ('to the house of burial'), a typical Semitic periphrasis employing ܒܝܬ ('house of') to form a place-noun."
     },
     {
       "greek_nt": [
@@ -103,7 +114,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "εἶδον / ܘܚܙܝ / viderunt"
     },
     {
       "greek_nt": [
@@ -115,7 +127,8 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "νεανίσκον / ܥܠܝܡܐ / juvenem"
     },
     {
       "greek_nt": [
@@ -127,7 +140,9 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καθήμενον and Latin sedentem are participles; the Peshitta renders ܕܝܬܒ with the relative particle ܕ- plus a finite verb ('who was seated'), a relative-clause construction equivalent in sense but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -143,9 +158,8 @@
         7,
         8
       ],
-      "note": "Greek uses ἐν τοῖς δεξιοῖς (literally 'in/among the right [parts]', neuter plural substantive); Vulgate renders in dextris (ablative plural, 'on the right'); Syriac uses ܡܢ ܝܡܝܢܐ (men yamīnā, 'from the right', singular), a prepositional phrase with singular noun—semantically equivalent but syntactically distinct from the Greek plural construction.",
-      "variant": "minor",
-      "type": "grammar"
+      "variant": "aligned",
+      "note": "ἐν τοῖς δεξιοῖς / ܡܢ ܝܡܝܢܐ / in dextris"
     },
     {
       "greek_nt": [
@@ -157,44 +171,68 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek περιβεβλημένον is a perfect middle participle ('having clothed himself'); the Vulgate coopertum is a perfect passive participle, and the Peshitta ܘܥܛܝܦ coordinates a finite/stative form with the conjunction, again favouring paratactic linkage over subordinate participles."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "στολήν / ܐܣܛܠܐ (loanword from Gk στολή) / stola"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "λευκήν / ܚܘܪܬܐ / candida"
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
         11
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἐξεθαμβήθησαν (exethambēthēsan, 'they were utterly astonished', intensive compound verb) and Vulgate obstupuerunt ('they were stunned') both convey strong amazement; Syriac ܘܬܡܗ (w-tamah, 'and they marveled') uses a simpler, less intensive verb, though the semantic range overlaps with wonder and astonishment."
+      "note": "Greek ἐξεθαμβήθησαν conveys intense astonishment/alarm; the Vulgate obstupuerunt and Peshitta ܘܬܡܗ (from root w-th-m 'to be amazed') both render the sense of stunned amazement, though the Greek intensive prefix ἐκ- has no direct morphological counterpart in either version."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.054953+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.461525+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

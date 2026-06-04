@@ -66,23 +66,44 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / Et"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin render the action with an aorist/present participle (στάς / stans, 'having stopped, standing still'); the Peshitta uses a finite verb ܘܩܡ ('and he stood/stopped') prefixed with the conjunction, collapsing the participial circumstantial clause into a coordinate finite construction. The Syriac ܩܡ also carries the nuance of 'stopping' on the road as well as merely standing."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses participial construction (καὶ στὰς ὁ Ἰησοῦς) with article and participle preceding the subject; Peshitta employs finite verb + subject (ܘܩܡ ܝܫܘܥ); Vulgate mirrors Greek structure with participial phrase (Et stans Jesus). All three convey identical meaning through different syntactic strategies."
+      "variant": "aligned",
+      "note": "ὁ Ἰησοῦς / ܝܫܘܥ / Jesus"
     },
     {
       "greek_nt": [
@@ -96,7 +117,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek εἶπεν ('said') is rendered by Peshitta ܘܦܩܕ ('commanded') and Vulgate præcepit ('commanded'). The Peshitta and Vulgate both interpret Jesus's speech-act as a directive rather than neutral speech, reflecting a common interpretive tradition that emphasizes the authoritative nature of the utterance."
+      "note": "Greek εἶπεν ('said') is a verb of speaking introducing direct discourse, whereas the Peshitta ܘܦܩܕ (root p-q-d, 'commanded, ordered') and the Vulgate præcepit ('ordered') both use a verb of commanding. The Syriac and Latin agree against the Greek in construing an indirect command rather than reported speech."
     },
     {
       "greek_nt": [
@@ -110,50 +131,77 @@
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the command as direct discourse with a 2nd-plural imperative plus object (φωνήσατε αὐτόν, 'call him!'); the Vulgate uses a passive infinitive complement (illum vocari, 'that he be called'); the Peshitta employs an imperfect with the subordinating particle ܕ- (ܕܢܩܪܘܢܝܗܝ, 'that they should call him'), an indirect-command construction agreeing in syntax with the Latin against the Greek's direct speech."
     },
     {
       "greek_nt": [
-        7,
-        8,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / Et"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek φωνοῦσιν and Latin vocant are independent present-tense finite verbs ('they call'); the Peshitta fuses the conjunction and verb with a pronominal object suffix into a single form ܘܩܪܐܘܗܝ ('and they called him'), supplying the object pronoun morphologically rather than syntactically."
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        6,
-        7,
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "τὸν τυφλόν / ܠܣܡܝܐ / cæcum"
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "λέγοντες / ܘܐܡܪܝܢ / dicentes"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        9,
-        10
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        10,
         11
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after ei to mark the beginning of direct speech. Neither Greek nor Peshitta manuscripts employ comparable punctuation at this juncture, though the semantic boundary is implicit in all three traditions."
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / ei (Vulgate adds the colon punctuation introducing direct speech)"
     },
     {
       "greek_nt": [
@@ -168,17 +216,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek θάρσει is a present imperative ('take courage'); Peshitta ܐܬܠܒܒ employs the ethpael imperative of the same semantic field; Vulgate expands to a two-word phrase Animæquior esto ('be of better spirit'), using comparative adjective + imperative of sum for stylistic amplification."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        14
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate again inserts a colon to separate the two imperatives (Animæquior esto : surge). This punctuation choice reflects Latin rhetorical convention for asyndetic command sequences, absent in Greek and Peshitta witnesses."
+      "note": "Greek θάρσει is a single present imperative ('take courage!'); the Peshitta ܐܬܠܒܒ is an Ethpaal reflexive of the root l-b-b ('be of good heart, embolden yourself'), an idiomatic Syriac formation built on 'heart'; the Vulgate renders the sense with a comparative adjective plus copula imperative (Animæquior esto, 'be more even-minded'). All three convey encouragement but through distinct morpho-syntactic strategies."
     },
     {
       "greek_nt": [
@@ -188,30 +226,43 @@
         9
       ],
       "vulgate": [
+        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἔγειρε / ܩܘܡ / surge (Vulgate prefixes a colon)"
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "φωνεῖ / ܩܪܐ / vocat"
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        16,
         17
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "σε / ܠܟ / te"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.014748+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.459190+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

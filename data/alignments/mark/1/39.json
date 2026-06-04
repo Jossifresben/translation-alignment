@@ -63,74 +63,102 @@
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek begins with conjunction Καὶ followed by finite verb ἦλθεν, while Peshitta and Vulgate place the conjunction before the participle (ܘܡܟܪܙ / Et...prædicans), reflecting different strategies for coordinating the participial construction with the preceding narrative."
+      "variant": "aligned",
+      "note": "καί / ܘ (prefixed conjunction) / Et."
     },
     {
       "greek_nt": [
-        1
+        1,
+        2
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
-        1
+        1,
+        2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses aorist ἦλθεν ('he came/went') with present participle κηρύσσων to express durative action; Peshitta employs periphrastic construction ܗܘܐ with active participle; Vulgate uses imperfect erat with gerund prædicans, all conveying ongoing action but through distinct aspectual systems."
+      "note": "Greek combines a finite verb of motion (ἦλθεν) with a present participle (κηρύσσων), 'he went preaching'. The Vulgate renders a periphrastic imperfect erat prædicans ('he was preaching'), dropping the verb of motion, and the Peshitta uses the periphrastic ܘܡܟܪܙ ܗܘܐ (participle + auxiliary 'was') likewise lacking the motion verb; both versions thus flatten the Greek 'came/went + preaching' into a single durative 'was preaching'."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
-        4,
-        5
+        3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the geographic qualifier εἰς ὅλην τὴν Γαλιλαίαν after εἰς τὰς συναγωγὰς αὐτῶν, creating two prepositional phrases; Peshitta reverses this order (ܒܟܠܗܝܢ ܟܢܘܫܬܗܘܢ ܒܟܠܗ ܓܠܝܠܐ 'in all their synagogues in all Galilee'); Vulgate follows Greek word order but restructures the syntax with in synagogis eorum, et in omni Galilæa."
+      "type": "construction",
+      "note": "Greek εἰς ('into') with the synagogues is matched by Vulgate in synagogis (locative ablative, 'in'); the Peshitta expresses the locative by the prefixed preposition ܒ on ܒܟܠܗܝܢ, so no separate token corresponds, while the directional force of εἰς is softened to a static locative in both versions."
     },
     {
       "greek_nt": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "peshitta": [
         4,
         5
       ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "συναγωγάς / ܟܢܘܫܬܗܘܢ / synagogis."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "Pronominal 'their' is suffixed on the Syriac noun ܟܢܘܫܬܗܘܢ rather than standing as a separate token."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
       "vulgate": [
         6,
-        7,
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The second εἰς ('into all Galilee') is rendered by Vulgate et in, with the Latin adding the connective et absent in Greek at this point; the Peshitta again encodes the preposition as the prefix ܒ on ܒܟܠܗ, leaving no discrete particle to align."
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
-      "variant": "aligned"
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "ὅλην τήν / ܒܟܠܗ ('in all') / omni."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "Γαλιλαίαν / ܓܠܝܠܐ / Galilæa."
     },
     {
       "greek_nt": [
@@ -142,7 +170,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "καί / ܘ (prefixed on ܘܡܦܩ) / et."
     },
     {
       "greek_nt": [
@@ -155,7 +184,8 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "τὰ δαιμόνια / ܫܐܕܐ / dæmonia; the Greek article has no counterpart in the anarthrous Syriac and Latin forms but the reference is identical."
     },
     {
       "greek_nt": [
@@ -167,13 +197,14 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἐκβάλλων / ܘܡܦܩ ('and casting out') / ejiciens; the Greek closing pilcrow ¶ marks a paragraph break with no versional equivalent."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.949748+00:00",
-    "confidence": 0.85,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.463286+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

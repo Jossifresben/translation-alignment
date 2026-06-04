@@ -52,8 +52,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -66,36 +65,43 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses third-person plural ἦλθον ('they came'), while Peshitta employs third-person singular ܘܐܬܐ ('and he came'), reflecting Syriac's tendency toward singular verbs with collective or implied subjects. Vulgate venerunt mirrors the Greek plural."
+      "note": "The Greek ἦλθον and Latin venerunt are third-person plural ('they came'), reflecting Jesus and the disciples; the Peshitta ܘܐܬܐ is singular ('and he came'), focusing on Jesus alone. The Syriac verb is fused with the conjunction, hence its index recurs in both the conjunction and verb groups."
     },
     {
       "greek_nt": [
         2,
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek uses the substantivised adverb τὸ πέραν ('the other side') as the object of εἰς; the Vulgate renders this with the preposition trans plus fretum ('across the strait'), making the crossing explicit; the Syriac ܠܥܒܪܐ (from root ʿ-b-r, 'to cross over') compactly expresses the same notion of the opposite shore in a single prepositional noun."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        2,
-        3,
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a prepositional phrase with article and noun (εἰς τὸ πέραν τῆς θαλάσσης, 'to the other side of the sea'); Vulgate uses trans fretum maris ('across the strait of the sea') with a different lexeme (fretum for θάλασσα); Peshitta uses a construct chain ܠܥܒܪܐ ܕܝܡܐ ('to-the-crossing of-the-sea'), a typical Syriac genitive construction expressing the same spatial relationship."
+      "note": "Greek θαλάσσης and Syriac ܕܝܡܐ denote 'sea' (i.e. the Sea of Galilee), while the Vulgate maris is governed by fretum, characterising the body of water as a strait; the difference is one of geographic register rather than reference."
     },
     {
       "greek_nt": [
         7,
         8,
-        9,
-        10
+        9
       ],
       "peshitta": [
         3
@@ -105,10 +111,11 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "χώραν / ܠܐܬܪܐ / regionem — all denote 'the region'."
     },
     {
       "greek_nt": [
+        10,
         11
       ],
       "peshitta": [
@@ -117,14 +124,13 @@
       "vulgate": [
         7
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek reads Γερασηνῶν ('Gerasenes'), while Peshitta reads ܕܓܕܪܝܐ ('Gadarenes'), reflecting the well-known textual variant between Gerasa and Gadara in the Synoptic demoniac pericope. Vulgate Gerasenorum follows the Greek tradition, whereas the Peshitta aligns with the Matthean parallel (Matt 8:28) and certain Greek witnesses that read Γαδαρηνῶν."
+      "variant": "minor",
+      "note": "The toponym shows the well-known textual variation: Greek transmits Γερασηνῶν (with the variant Γεργεσηνῶν noted in the lemma) and Latin Gerasenorum, while the Syriac ܕܓܕܪܝܐ reflects the 'Gadarenes' reading (cf. Matt 8:28), a divergence among the manuscript traditions over the precise locality east of the lake."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.969828+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.540798+00:00",
     "confidence": 0.85,
     "schema_version": 1
   }

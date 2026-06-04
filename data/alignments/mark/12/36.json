@@ -92,25 +92,51 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        0,
-        1,
-        2,
         3
       ],
       "vulgate": [
-        0,
-        1,
-        2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -127,11 +153,12 @@
       "vulgate": [
         4,
         5,
-        6
+        6,
+        7
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the articular construction ἐν τῷ πνεύματι τῷ ἁγίῳ with double article (attributive position), while Peshitta uses the construct state ܒܪܘܚܐ ܕܩܘܕܫܐ and Vulgate uses simple apposition in Spiritu Sancto. All three express identical meaning through language-specific syntactic patterns."
+      "note": "Greek expresses 'by the Holy Spirit' with article + adjective in attributive position (ἐν τῷ πνεύματι τῷ ἁγίῳ); Latin renders it anarthrously (in Spiritu Sancto), Syriac employs the genitive (dalath) construction ܒܪܘܚܐ ܕܩܘܕܫܐ ('in the Spirit of holiness'), a Semitic adjectival idiom. All three are semantically equivalent."
     },
     {
       "greek_nt": [
@@ -141,48 +168,54 @@
         6
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after Sancto to mark the transition from narrative frame to quotation, then repeats Dixit to introduce the Psalm citation. Greek and Peshitta use εἶπεν/ܕܐܡܪ without additional punctuation, maintaining smoother narrative flow."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         12,
         13,
         14
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        9,
         10,
         11
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the articular nominative ὁ κύριος followed by dative τῷ κυρίῳ μου with article and possessive pronoun. Peshitta employs the emphatic state ܡܪܝܐ ܠܡܪܝ without separate article. Vulgate uses Dominus Domino meo, mirroring Greek structure but without articles (Latin lacking them)."
+      "type": "construction",
+      "note": "Greek uses dative article + noun + possessive pronoun (τῷ κυρίῳ μου); Latin matches with dative noun + possessive (Domino meo); Syriac fuses these into the single inflected form ܠܡܪܝ ('to my Lord') with proclitic dative lamadh and the first-person suffix, a compact morphological rendering."
     },
     {
       "greek_nt": [
         15
       ],
       "peshitta": [
-        9
+        9,
+        10
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate again inserts a colon after meo to mark the beginning of the divine command within the quotation. Greek and Peshitta proceed directly from the vocative to the imperative without additional punctuation."
+      "type": "gloss",
+      "note": "Greek κάθου and Latin Sede render the imperative simply; the Peshitta adds the ethical dative ܠܟ ('for yourself') after ܬܒ, an idiomatic Syriac construction (cf. Hebrew dativus commodi) intensifying the imperative without altering the sense."
     },
     {
       "greek_nt": [
@@ -191,7 +224,6 @@
         18
       ],
       "peshitta": [
-        10,
         11,
         12
       ],
@@ -200,27 +232,34 @@
         15,
         16
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase ἐκ δεξιῶν μου (genitive plural of δεξιός, 'from/at right [hand]'). Peshitta employs ܬܒ ܠܟ ܡܢ ܝܡܝܢܝ with the ethical dative ܠܟ ('sit for yourself') and ܡܢ ('from'). Vulgate renders a dextris meis with ablative of separation, all expressing the same spatial relationship through language-specific idioms."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         19,
-        20,
-        21
+        20
       ],
       "peshitta": [
-        13,
-        14
+        13
       ],
       "vulgate": [
-        17,
-        18
+        17
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the temporal conjunction ἕως ἂν with subjunctive θῶ to express indefinite future time ('until whenever I place'). Peshitta uses ܥܕܡܐ ܕܐܣܝܡ with imperfect, and Vulgate uses donec with present subjunctive ponam. All three convey the same temporal contingency through tradition-specific modal constructions."
+      "note": "Greek combines the preposition ἕως with the modal particle ἄν plus subjunctive (a contingent temporal clause); Latin donec and Syriac ܥܕܡܐ ܕ render the temporal conjunction without an equivalent to the particle ἄν, which has no exact lexical counterpart in either version."
+    },
+    {
+      "greek_nt": [
+        21
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -235,9 +274,7 @@
         19,
         20
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses τοὺς ἐχθρούς σου ('the enemies of you') with article and accusative plural. Peshitta employs the compound noun ܒܥܠܕܒܒܝܟ ('your adversaries/enemies'), a single lexeme with pronominal suffix. Vulgate renders inimicos tuos, mirroring Greek structure. Semantically equivalent despite different lexical strategies."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -256,15 +293,15 @@
         22,
         23
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the prepositional phrase ὑποκάτω τῶν ποδῶν σου ('under the feet of you'), directly translating the Hebrew of Psalm 110:1. Vulgate substitutes the metaphor with scabellum pedum tuorum ('footstool of your feet'), harmonizing with the LXX rendering ὑποπόδιον. Peshitta uses ܟܘܒܫܐ ܬܚܝܬ ܪܓܠܝܟ ('a footstool under your feet'), combining both the footstool image and the spatial preposition, representing a conflated reading tradition."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ὑποκάτω τῶν ποδῶν σου ('underneath your feet') and Vulgate scabellum pedum tuorum ('footstool of your feet') diverge: the Vulgate harmonises toward the LXX/MT reading of Ps 110:1 (ὑποπόδιον), inserting the noun 'footstool'. The Peshitta similarly supplies ܟܘܒܫܐ ('footstool/subjugation') before ܬܚܝܬ ܪܓܠܝܟ, agreeing with the Vulgate against the shorter Greek text of Mark."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.026910+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.451321+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

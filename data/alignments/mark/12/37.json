@@ -70,19 +70,27 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -94,24 +102,31 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -123,33 +138,63 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek κύριον and Latin Dominum stand in the accusative as object complement ('calls him Lord'), whereas the Syriac ܡܪܝ carries the first-person possessive suffix ('my Lord'), reflecting the wording of the cited Psalm 110:1 (LXX 109:1) where the speaker addresses 'my Lord.' The Syriac thus preserves the more vocative, scripturally explicit form."
     },
     {
       "greek_nt": [
-        6,
-        7,
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek πόθεν and Latin unde are interrogative adverbs of origin ('whence/how'), while the Syriac ܘܐܝܟܢܐ ('and how') is fused with the preceding conjunction into a single token, conflating καί and πόθεν; the sense ('how then is he his son?') is preserved across all three."
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        6,
-        7,
         8,
         9,
-        10,
+        10
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin spell out the verb 'to be' (ἐστιν / est) with a separate noun for 'son' (υἱός / filius) and genitive pronoun (αὐτοῦ / ejus), whereas Syriac compresses the clause: ܒܪܗ ('his son', with possessive suffix) followed by the enclitic copula ܐܝܬܘܗܝ. This is a routine Syriac construction collapsing pronoun and copula and reordering son-before-verb."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [
         11
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the copula ἐστιν before υἱός (\"how is he son?\"), while Syriac uses the enclitic copula ܐܝܬܘܗܝ attached to ܒܪܗ (\"how is-he his-son\"), and Vulgate follows Greek word order with \"unde est filius ejus.\" All three express the same interrogative construction with minor syntactic variation."
+      "type": "punctuation",
+      "note": "The interrogative force carried in Greek by the semicolon on υἱός; and represented in the Vulgate by a discrete '?' token has no separate orthographic marker in the Syriac, which conveys the question lexically through ܘܐܝܟܢܐ; the punctuation difference is editorial rather than textual."
     },
     {
       "greek_nt": [
@@ -161,8 +206,7 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -179,8 +223,7 @@
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article with adjective ὁ πολὺς ὄχλος (\"the great crowd\"), Vulgate employs multa turba (\"much crowd\") without article, and Syriac prefixes ܘܟܠܗ (\"and all of it\") to ܟܢܫܐ, rendering \"and all the crowd.\" The Syriac construction emphasizes totality through ܟܠܗ rather than magnitude, though the semantic force remains equivalent."
+      "note": "Greek deploys the article + adjective ὁ πολὺς ὄχλος ('the great crowd'); Latin renders multa turba and Syriac ܘܟܠܗ ܟܢܫܐ ('and all the crowd'). The Syriac ܟܠܗ ('all/whole') intensifies πολύς into a totalizing 'all the crowd,' a slight semantic shift from 'great/many' toward universality, while the conjunction is absorbed into the prefixed ܘ-."
     },
     {
       "greek_nt": [
@@ -194,11 +237,11 @@
       ],
       "vulgate": [
         15,
-        16
+        17
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the imperfect ἤκουεν (\"was listening\") with genitive object αὐτοῦ, Vulgate mirrors this with audivit eum (perfect tense, accusative object), while Syriac employs the periphrastic construction ܫܡܥ ܗܘܐ ܠܗ (\"was hearing to-him\") with the participle plus auxiliary, expressing continuous past action. The tense difference between Greek imperfect and Latin perfect represents a minor aspectual shift."
+      "type": "construction",
+      "note": "Greek expresses the durative sense with a single imperfect ἤκουεν αὐτοῦ ('was listening to him'); Syriac analytically constructs the past continuous with the participle ܫܡܥ plus auxiliary ܗܘܐ and the object ܠܗ, a characteristic Syriac periphrasis for the imperfect aspect; Latin uses the simple perfect audivit eum without the iterative nuance."
     },
     {
       "greek_nt": [
@@ -208,16 +251,15 @@
         14
       ],
       "vulgate": [
-        17
+        16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.027081+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.463529+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

@@ -65,50 +65,80 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Peshitta encodes both the conjunction and the verb 'went out' in a single prefixed form ܘܢܦܩܘ (waw + nphaq, third plural), whereas Greek and Latin keep καί/Et and the aorist ἐξῆλθον/abierunt as discrete tokens; this reflects Syriac morphological synthesis rather than any semantic divergence."
     },
     {
       "greek_nt": [
         2,
-        3,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "Greek supplies the article οἱ before μαθηταί; Syriac and Latin lack a definite article here, but the reading is semantically identical."
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs article + noun + possessive pronoun (οἱ μαθηταὶ αὐτοῦ); Vulgate uses bare noun + possessive genitive (discipuli ejus); Peshitta attaches the pronominal suffix directly to the noun (ܬܠܡܝܕܘܗܝ), a standard Semitic construction semantically equivalent to both."
+      "note": "The possessive pronoun 'his' is rendered as the independent genitive αὐτοῦ in Greek and the enclitic ejus in Latin, but is suffixed directly onto the noun (ܬܠܡܝܕܘܗܝ, 'his disciples') in Syriac per its pronominal-suffix morphology."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἦλθον and Latin venerunt are finite verbs preceded by an independent conjunction, while Syriac fuses the connective and the verb into ܘܐܬܘ; the underlying aorist sense 'they came' is preserved across all three."
     },
     {
       "greek_nt": [
@@ -123,69 +153,98 @@
         6,
         7
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses preposition + article + noun (εἰς τὴν πόλιν); Latin mirrors this with preposition + noun (in civitatem); Syriac employs preposition + definite noun with emphatic state marker (ܠܡܕܝܢܬܐ), functionally equivalent but morphologically distinct."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'civitatem', creating a stronger pause before the discovery clause. Neither Greek nor Peshitta manuscripts transmit punctuation at this juncture, maintaining continuous narrative flow with simple conjunction."
+      "variant": "aligned",
+      "note": "Greek εἰς τὴν πόλιν and Latin in civitatem use a preposition plus accusative; Syriac ܠܡܕܝܢܬܐ marks the goal with the prefixed lamadh, an idiomatic allative without a separate preposition word."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        8,
+        9
+      ],
+      "variant": "minor",
+      "note": "The Clementine Vulgate inserts a colon after civitatem, treating the following clause as a fresh syntactic unit and adding the conjunction et separately; Greek and the synthetic Syriac ܘܐܫܟܚܘ carry only the simple connective, so the divergence is one of punctuation and editorial articulation."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "note": "καθώς / ܐܝܟܢܐ / sicut all introduce the comparative clause 'just as'."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "note": "Greek εἶπεν is a simple aorist 'he said,' while Latin dixerat is pluperfect 'he had said,' subtly signalling anteriority; the Syriac ܕܐܡܪ uses the relative-prefixed perfect, agreeing with the Greek aspect rather than the Latin pluperfect refinement."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        5,
-        6,
         7
       ],
       "vulgate": [
-        11,
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the comparative conjunction before the verb (καθὼς εἶπεν αὐτοῖς); Vulgate follows this order (sicut dixerat illis); Peshitta uses the typical Semitic pattern with ܐܝܟܢܐ ܕ- ('just as') + verb + indirect object, semantically identical but reflecting Syriac syntactic norms."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis all render the dative plural 'to them'."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        14,
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἡτοίμασαν and Latin paraverunt are aorist/perfect verbs of preparation preceded by a free conjunction, whereas Syriac fuses connective and verb in ܘܛܝܒܘ (root T-y-b); all three convey 'they prepared' without semantic difference."
     },
     {
       "greek_nt": [
@@ -198,15 +257,14 @@
       "vulgate": [
         16
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun (τὸ πάσχα); Latin employs bare noun (Pascha); Peshitta uses the emphatic state (ܦܨܚܐ) which functions as the definite article in Syriac, making all three semantically definite despite morphological differences."
+      "variant": "aligned",
+      "note": "Greek articular τὸ πάσχα against anarthrous ܦܨܚܐ and Pascha; the loanword for Passover (from Hebrew פֶּסַח) is constant, the article merely a Greek determiner."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.037221+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.502493+00:00",
+    "confidence": 0.92,
     "schema_version": 1
   }
 }

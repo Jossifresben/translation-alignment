@@ -64,32 +64,43 @@
   "alignment": [
     {
       "greek_nt": [
+        0
+      ],
+      "vulgate": [
         0,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with paratactic καί ('and'); the Vulgate restructures as a relative-temporal periphrasis Qui cum ('Who, when...'), a typical Latin subordinating idiom replacing Greek parataxis. The Peshitta retains the coordinating ܘ- prefixed to the verb."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses conjunction + aorist participle (καὶ ἀκούσας); Syriac employs a simple waw-consecutive perfect (ܘܫܡܥ); Vulgate expands with a relative pronoun + cum-temporal clause (Qui cum audisset), making the subject explicit and subordinating the hearing event."
+      "type": "grammar",
+      "note": "Greek uses the aorist participle ἀκούσας ('having heard'); the Peshitta prefixes ܘ- to the perfect ܫܡܥ ('and he heard'); the Vulgate employs the pluperfect subjunctive audisset within the cum-clause. All express the prior act of hearing but with differing aspectual constructions."
     },
     {
       "greek_nt": [
         2
       ],
-      "peshitta": [],
+      "peshitta": [
+        1
+      ],
       "vulgate": [
         3
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek ὅτι and Vulgate quia introduce indirect discourse ('that Jesus…'); Peshitta omits the complementizer, using direct juxtaposition of ܫܡܥ with the following clause, a common Syriac construction for reported speech."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὅτι / ܕ- / quia — the recitative/declarative complementiser."
     },
     {
       "greek_nt": [
@@ -101,7 +112,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -117,19 +129,18 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the article + adjective (ὁ Ναζαρηνός, 'the Nazarene'); Syriac employs a third-person pronoun + adjective (ܗܘ ܢܨܪܝܐ, 'he [is] the Nazarene'), making the copula implicit; Vulgate uses the bare adjective Nazarenus without article, following Latin's articleless syntax."
+      "note": "Greek uses an articular appositive ὁ Ναζαρηνός ('the Nazarene'); the Peshitta supplies the pronoun ܗܘ plus ܢܨܪܝܐ ('he is the Nazarene'), making the copula explicit; the Vulgate gives the bare adjective Nazarenus. The variation is purely syntactic, not semantic."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
       "vulgate": [
         6
       ],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "Greek ἐστιν and Vulgate est supply an explicit copula ('it is'); Peshitta omits the copula entirely, relying on the pronominal subject ܗܘ to carry the predication, a standard Syriac nominal-sentence pattern."
+      "note": "Greek ἐστιν and Latin est both render the explicit copula 'is'; Syriac expresses the predication enclitically via ܗܘ (grouped above), so no separate copula token is present in the Peshitta."
     },
     {
       "greek_nt": [
@@ -141,79 +152,115 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἤρξατο / ܫܪܝ / cœpit — inceptive 'he began'."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        8
       ],
       "peshitta": [
-        5,
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "κράζειν / ܠܡܩܥܐ / clamare — 'to cry out'."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
         6
       ],
       "vulgate": [
-        8,
-        9,
-        10
+        9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses two infinitives coordinated by καί (κράζειν καὶ λέγειν, 'to cry out and to say'); Syriac employs two prefixed infinitives with lamadh (ܠܡܩܥܐ ܘܠܡܐܡܪ), each marked for purpose; Vulgate mirrors Greek with two infinitives joined by et (clamare et dicere), but adds a colon after dicere to introduce direct speech."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / et."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
+        10,
         11
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon (:) to formally mark the transition to direct discourse; neither Greek nor Syriac manuscripts employ such punctuation, relying instead on syntactic cues (Greek uses a raised dot or no mark; Syriac uses spacing or context)."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "λέγειν / ܠܡܐܡܪ / dicere — 'to say'; the Vulgate's colon (idx 11) marks the onset of direct speech."
     },
     {
       "greek_nt": [
         11,
         12,
-        13,
-        14
+        13
       ],
       "peshitta": [
         7,
         8
       ],
       "vulgate": [
-        12,
         13,
         14
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the vocative Ἰησοῦ after the title (ὁ υἱὲ Δαυὶδ Ἰησοῦ, 'O Son of David, Jesus'); Syriac omits the name entirely in the vocative, using only ܒܪܗ ܕܕܘܝܕ ('Son of David'); Vulgate repositions the name before the title (Jesu fili David), following Latin rhetorical conventions for direct address."
+      "note": "Greek prefaces the vocative with the article ὁ υἱὲ Δαυίδ; the Peshitta uses the bound construct ܒܪܗ ܕܕܘܝܕ ('son of David') with the resumptive 3ms suffix typical of Syriac genitive periphrasis; the Vulgate gives the plain vocative fili David. The Greek and Latin place 'Son of David' before the name 'Jesus', whereas usage of the vocative ordering varies — see next group."
     },
     {
       "greek_nt": [
-        15,
+        14
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Both Greek and Vulgate include the vocative 'Jesus' (Ἰησοῦ / Jesu), but the Greek places it after 'Son of David' while the Vulgate places it before; the Peshitta omits the address 'Jesus' here, having already named him in the preceding clause."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐλέησόν / ܐܬܪܚܡ / miserere — imperative 'have mercy'."
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        15,
         16
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist imperative + accusative pronoun (ἐλέησόν με, 'have mercy on me'); Syriac employs the ethpael imperative + prepositional phrase (ܐܬܪܚܡ ܥܠܝ, 'be merciful upon me'), reflecting Semitic idiom; Vulgate mirrors Greek with imperative + accusative (miserere mei), though mei is genitive, governed by the deponent verb miserere."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "με / ܥܠܝ / mei — 'on me'; Greek uses the accusative object, Syriac and Latin a prepositional/genitive complement, but the sense is identical."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.014400+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.512570+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

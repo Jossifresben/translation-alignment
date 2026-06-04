@@ -65,8 +65,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -79,23 +78,30 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses present tense ἀποστέλλουσιν (historic present for vividness), while Peshitta and Vulgate employ past tense (ܘܫܕܪܘ / mittunt), normalizing the narrative temporality to simple past."
+      "note": "The Greek and Latin use a finite verb of sending (ἀποστέλλουσιν / mittunt) as a separate lexeme, whereas the Syriac fuses the conjunction and verb into a single inflected form ܘܫܕܪܘ ('and they sent'), so the Syriac index 0 carries both the conjunction and the verb. This is a morphological feature of Syriac rather than a substantive divergence."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek πρὸς αὐτόν and Latin ad eum render the prepositional phrase analytically, while the Syriac ܠܘܬܗ ('to him') is a single prepositional form incorporating the pronominal suffix, hence the Greek/Latin two-token span maps to one Syriac token."
     },
     {
       "greek_nt": [
@@ -107,8 +113,8 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek τινας ('some,' indefinite plural) and Latin quosdam are indefinite quantifiers, whereas the Syriac ܐܢܫܐ ('men/people') substitutes a concrete noun for the indefinite pronoun. The sense is equivalent but the lexical choice differs in specificity."
     },
     {
       "greek_nt": [
@@ -125,7 +131,7 @@
       ],
       "variant": "major",
       "type": "substitution",
-      "note": "Peshitta substitutes ܣܦܪܐ ('scribes') for Greek Φαρισαίων ('Pharisees'), a substantive lexical divergence that alters the identity of the delegation. Greek and Vulgate agree on 'Pharisees,' suggesting Peshitta reflects either a variant Vorlage or interpretive harmonization with synoptic parallels where scribes appear alongside Herodians."
+      "note": "Greek τῶν Φαρισαίων and Latin pharisæis both read 'Pharisees,' but the Peshitta substitutes ܣܦܪܐ ('scribes,' root s-p-r), naming a different group. This is a notable Syriac variant, likely a harmonisation toward the frequent Gospel pairing of scribes with the Herodians or an interpretive shift, and constitutes a substantive divergence from the Greek and Latin witnesses."
     },
     {
       "greek_nt": [
@@ -137,8 +143,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -153,8 +158,7 @@
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Vulgate use the gentilicized plural Ἡρῳδιανῶν / herodianis ('Herodians'), while Peshitta employs the periphrastic construction ܕܒܝܬ ܗܪܘܕܣ ('those of the house of Herod'), a Semitic idiom expressing party affiliation through household terminology rather than a derived ethnic adjective."
+      "note": "Greek τῶν Ἡρῳδιανῶν and Latin herodianis use the established sect-name 'Herodians,' while the Syriac employs the periphrastic ܕܒܝܬ ܗܪܘܕܣ ('those of the house of Herod'), a typical Aramaic idiom expressing partisan affiliation through the 'house of' construction rather than a single gentilic noun."
     },
     {
       "greek_nt": [
@@ -166,8 +170,7 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -179,8 +182,8 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The object pronoun (Greek αὐτὸν, Latin eum) is expressed as the suffixed object on the Syriac verb ܕܢܨܘܕܘܢܝܗܝ ('that they might catch him'), so the purpose conjunction, verb, and pronominal object are all fused into a single Syriac token, while Greek and Latin distribute them across separate words."
     },
     {
       "greek_nt": [
@@ -192,9 +195,7 @@
       "vulgate": [
         11
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀγρεύσωσιν ('ensnare, hunt') and Syriac ܕܢܨܘܕܘܢܝܗܝ ('trap, hunt') share the hunting metaphor, while Vulgate caperent ('seize, capture') uses a more general term for apprehension, slightly flattening the metaphorical register but preserving the hostile intent."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -208,14 +209,13 @@
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple dative λόγῳ ('by a word'), Peshitta mirrors this with ܒܡܠܬܐ (prepositional phrase 'in/by a word'), while Vulgate expands to the prepositional phrase in verbo ('in a word'), making the instrumental relationship syntactically explicit through the preposition."
+      "note": "Greek uses the bare dative λόγῳ ('by a word/in discourse'), whereas the Latin renders it analytically with a preposition in verbo and the Syriac with the prefixed preposition ܒܡܠܬܐ ('in/by a word'). All three are semantically equivalent; the divergence is purely one of grammatical construction for the instrumental/locative idea of entrapment 'in speech.'"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.022772+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.467731+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

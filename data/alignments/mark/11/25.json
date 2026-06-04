@@ -91,8 +91,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -105,8 +104,7 @@
         1
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ὅταν ('whenever') and Vulgate cum ('when') introduce temporal clauses with subjunctive/indicative respectively; Peshitta ܘܡܐ ܕ- ('and when') is a compound temporal particle, semantically equivalent but morphologically distinct."
+      "note": "Greek temporal ὅταν ('whenever') is rendered by the Syriac compound ܘܡܐ (waw + temporal particle, already counted with the preceding conjunction) and by the Latin cum; the Syriac fuses the conjunction and temporal marker into a single orthographic unit, a routine Aramaic feature."
     },
     {
       "greek_nt": [
@@ -120,8 +118,7 @@
         2
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta explicitly supplies the subject pronoun ܐܢܬܘܢ ('you [masc. pl.]') alongside the participle ܕܩܝܡܝܢ ('standing'), whereas Greek στήκετε and Latin stabitis encode the subject morphologically within the verb."
+      "note": "Greek στήκετε is a synthetic present indicative second-person plural; Syriac employs the periphrastic participle ܩܝܡܝܢ plus the enclitic pronoun ܐܢܬܘܢ ('you stand'), a typical Aramaic analytic construction, while the Vulgate shifts to a future stabitis ('you shall stand')."
     },
     {
       "greek_nt": [
@@ -135,8 +132,7 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a present participle προσευχόμενοι ('praying') in adverbial function; Peshitta employs an infinitive construct ܠܡܨܠܝܘ ('to pray'); Vulgate uses a gerund ad orandum ('for praying'), each tradition's standard way of expressing purpose or attendant circumstance."
+      "note": "Greek uses a present participle προσευχόμενοι ('praying'); Syriac uses the infinitive ܠܡܨܠܝܘ ('to pray'), and the Vulgate renders a gerund phrase ad orandum ('for praying'), each tradition employing its own idiomatic complement of purpose/manner."
     },
     {
       "greek_nt": [
@@ -148,61 +144,97 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        5,
-        6,
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek conditional εἴ ('if') corresponds to Latin si but is absorbed into the Syriac relative ܕ- prefixed on ܕܐܝܬ; the Syriac recasts the conditional clause 'if you have anything' as a relative 'whatever there is to you', a construction shift rather than a semantic divergence."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek indefinite τι and Syriac ܡܕܡ both denote 'anything/something'; the Vulgate quis ('anyone/something') functions similarly, though Latin word choice here is loosely indefinite, with all three conveying the same indefinite object."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        5,
         6,
         7
       ],
       "vulgate": [
-        6,
-        7,
         8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek εἴ τι ἔχετε ('if anything you have') places the verb last; Vulgate si quis habetis mirrors this; Peshitta ܡܕܡ ܕܐܝܬ ܠܟܘܢ ('anything that there-is to-you') uses an existential construction with dative of possession, a typical Semitic idiom."
+      "note": "Greek ἔχετε ('you have') is rendered in Syriac by the existential ܐܝܬ plus the dative ܠܟܘܢ ('there is to you'), the standard Aramaic idiom for possession lacking a verb 'to have'; the Vulgate retains the synthetic habetis."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "note": "Greek purpose conjunction ἵνα and Latin ut are discrete words, whereas Syriac fuses the purpose/result sense into ܕܐܦ (relative ܕ + ܐܦ 'also'); the Syriac thereby combines the conjunction with the following 'also' into one token."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
         10
       ],
       "vulgate": [
-        11,
-        12,
         13
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after aliquem, creating a stronger syntactic break before the purpose clause; Greek ἵνα καὶ and Peshitta ܕܐܦ ('that also') introduce the purpose clause without punctuation, maintaining tighter cohesion with the preceding imperative."
+      "note": "Greek καί ('also') and Latin et are emphatic adverbs paired with the purpose clause; the Syriac ܐܦ ('also') is incorporated within the ܕܐܦ unit aligned above, hence the shared index."
     },
     {
       "greek_nt": [
@@ -218,8 +250,7 @@
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses double article construction ὁ πατὴρ ὑμῶν ὁ ἐν τοῖς οὐρανοῖς ('the Father of-you, the [one] in the heavens'); Peshitta ܐܒܘܟܘܢ ('your-Father') uses a pronominal suffix; Vulgate Pater vester employs possessive adjective, all semantically equivalent."
+      "note": "Greek articulates the noun phrase ὁ πατὴρ ὑμῶν ('the Father of you'); Syriac compresses this into a single inflected form ܐܒܘܟܘܢ ('your Father') with the possessive suffix, while the Vulgate, lacking an article, uses Pater vester."
     },
     {
       "greek_nt": [
@@ -238,8 +269,7 @@
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs articular prepositional phrase ὁ ἐν τοῖς οὐρανοῖς ('the [one] in the heavens') as substantival modifier; Peshitta uses construct state ܕܒܫܡܝܐ ('who-in-heaven'); Vulgate qui in cælis est adds the copula est, making the relative clause explicit."
+      "note": "Greek uses an articular prepositional phrase ὁ ἐν τοῖς οὐρανοῖς ('who is in the heavens', plural), and Latin a relative clause qui in cælis est; Syriac compresses to the prefixed prepositional form ܕܒܫܡܝܐ ('who is in heaven'), the Semitic dual/plural ܫܡܝܐ being formally collective."
     },
     {
       "greek_nt": [
@@ -251,8 +281,7 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -264,8 +293,7 @@
       "vulgate": [
         21
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -281,14 +309,20 @@
         23
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek παραπτώματα ('trespasses, transgressions') and Vulgate peccata ('sins') are near-synonyms; Peshitta ܣܟܠܘܬܟܘܢ ('your foolishness/folly') employs a different semantic field, emphasizing moral failure as intellectual-spiritual error, a characteristic Syriac rendering of sin-terminology."
+      "note": "Greek τὰ παραπτώματα ὑμῶν ('your trespasses', articular plural) and Latin peccata vestra preserve the plural; Syriac uses the single suffixed noun ܣܟܠܘܬܟܘܢ ('your offence/folly'), a collective abstract built on a different lexical root denoting foolishness or error rather than 'falling beside'."
+    },
+    {
+      "vulgate": [
+        11
+      ],
+      "variant": "added",
+      "note": "The Vulgate inserts a colon after adversus aliquem to mark the syntactic break before the purpose clause ut...; this editorial punctuation has no counterpart in the unpointed Greek or Syriac textual traditions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.018959+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.497981+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

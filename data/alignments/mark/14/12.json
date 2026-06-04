@@ -90,7 +90,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / Et — the conjunction is fused as a prefix to the noun in Syriac (ܘܒܝܘܡܐ)."
     },
     {
       "greek_nt": [
@@ -108,7 +108,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the articular construction τῇ πρώτῃ ἡμέρᾳ (dative with article); Peshitta employs the prepositional phrase ܒܝܘܡܐ ܩܕܡܝܐ ('on-the-day first'), incorporating the preposition into the noun; Vulgate uses ablative primo die without article, reflecting Latin's lack of definite articles."
+      "note": "Greek uses an articular dative phrase (τῇ πρώτῃ ἡμέρᾳ); Latin renders with the ablative of time (primo die) and Syriac fuses preposition and noun (ܘܒܝܘܡܐ ܩܕܡܝܐ). The semantic content — 'on the first day' — is identical across all three."
     },
     {
       "greek_nt": [
@@ -122,117 +122,220 @@
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἀζύμων / ܕܦܛܝܪܐ / azymorum — 'of unleavened [bread]'; Greek marks the genitive plural with the article τῶν, while Syriac and Latin express the genitive relation without a separate article."
     },
     {
       "greek_nt": [
-        6,
-        7,
-        8,
-        9
-      ],
-      "peshitta": [
-        3,
-        4,
-        5,
         6
       ],
-      "vulgate": [
-        4,
-        5,
-        6
-      ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "The Peshitta inserts ܝܗܘܕܝܐ ('the Jews') as the explicit subject of the sacrificial verb ܕܒܚܝܢ, clarifying who performs the Passover sacrifice. Neither the Greek ἔθυον (impersonal third plural 'they sacrificed') nor the Vulgate immolabant (similarly impersonal) specifies the agent, making this a Peshitta expansion for interpretive clarity."
-    },
-    {
-      "greek_nt": [
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
       "peshitta": [
-        7,
-        8,
-        9
+        3
       ],
       "vulgate": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the subject after the verb (λέγουσιν αὐτῷ οἱ μαθηταὶ αὐτοῦ); Peshitta and Vulgate both front the verb but differ in pronoun placement. The Vulgate inserts a colon after discipuli, marking the transition to direct speech with punctuation absent in the Greek and Peshitta traditions."
-    },
-    {
-      "greek_nt": [
-        15,
-        16
-      ],
-      "peshitta": [
-        10,
-        11,
-        12
-      ],
-      "vulgate": [
-        11,
-        12
-      ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds the independent pronoun ܐܢܬ ('you') after the verb ܨܒܐ ('you desire'), making the subject explicit. Greek θέλεις and Vulgate vis encode the second-person subject morphologically without requiring an independent pronoun, making the Peshitta addition a stylistic gloss typical of Syriac syntax."
-    },
-    {
-      "greek_nt": [
-        17,
-        18
-      ],
-      "peshitta": [
-        13,
-        14,
-        15
-      ],
-      "vulgate": [
-        13,
-        14,
-        15
+        4
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an aorist participle ἀπελθόντες ('having gone') followed by subjunctive ἑτοιμάσωμεν ('we may prepare'); Vulgate mirrors this with subjunctive eamus ('we may go') and paremus ('we may prepare'). Peshitta employs two imperfect verbs ܕܢܐܙܠ ܢܛܝܒ ('that-we-go we-prepare') with the dative pronoun ܠܟ ('for you') added, making the beneficiary explicit where Greek and Latin leave it implicit."
+      "note": "Greek uses the temporal adverb ὅτε ('when'); Latin matches with quando; Syriac employs a relative construction ܕܒܗ ('on which'), an idiomatic resumptive relative that is syntactically distinct but semantically equivalent."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three attest the verb 'to sacrifice' (ἔθυον / ܕܒܚܝܢ / immolabant), but Syriac places it before its object ܦܨܚܐ whereas Greek and Latin place the object first, reflecting differing native clause order."
+    },
+    {
+      "greek_nt": [
+        7,
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "τὸ πάσχα / ܦܨܚܐ / Pascha — the Passover lamb; the Greek article has no Syriac or Latin equivalent here."
+    },
+    {
+      "peshitta": [
+        5
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta adds an explicit subject ܝܗܘܕܝܐ ('the Jews') as the agent who sacrifice the Passover, a clarifying expansion absent from both the Greek NA28 and the Vulgate, where the third-person plural verb is left without a stated subject."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "λέγουσιν / ܐܡܪܝܢ / dicunt — historic present 'they say'."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / ei — 'to him'."
+    },
+    {
+      "greek_nt": [
+        12,
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun (οἱ μαθηταὶ) with a following possessive genitive αὐτοῦ; Syriac fuses the possessive suffix into the noun (ܬܠܡܝܕܘܗܝ, 'his disciples'); Latin discipuli leaves the possessive unexpressed."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The Greek possessive pronoun αὐτοῦ ('of him') is expressed in Syriac as the pronominal suffix on ܬܠܡܝܕܘܗܝ but has no separate equivalent in the Latin, where discipuli stands alone without an explicit possessive."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "note": "ποῦ / ܐܝܟܐ / Quo — interrogative 'where'."
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        11,
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek θέλεις is a synthetic 2nd-singular verb; Syriac analytically separates the participle ܨܒܐ and the independent pronoun ܐܢܬ ('you will/desire'), an idiomatic Syriac periphrastic present, while Latin vis matches the synthetic Greek form."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an aorist participle ἀπελθόντες ('having gone'); Syriac renders it with a finite subordinate verb ܕܢܐܙܠ ('that we should go'); the Vulgate uses a coordinate finite clause eamus et ('let us go and'), each a distinct syntactic strategy for the same motion-plus-preparation idea."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "ἑτοιμάσωμεν / ܢܛܝܒ / paremus — 'we may prepare'."
+    },
+    {
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "Both Syriac (ܠܟ, 'for you') and Latin (tibi) add an explicit dative of advantage indicating for whom the preparation is made; the Greek NA28 has no corresponding pronoun, leaving the beneficiary implicit."
     },
     {
       "greek_nt": [
         19,
-        20,
+        20
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        17,
+        18
+      ],
+      "variant": "aligned",
+      "note": "ἵνα φάγῃς / ܕܬܐܟܘܠ / ut manduces — purpose clause 'that you may eat'; the Syriac prefixed ܕ- carries the same final force as Greek ἵνα and Latin ut."
+    },
+    {
+      "greek_nt": [
         21,
         22
       ],
       "peshitta": [
-        16,
         17
       ],
       "vulgate": [
-        16,
-        17,
-        18,
         19,
         20
       ],
+      "variant": "aligned",
+      "note": "τὸ πάσχα; / ܦܨܚܐ / Pascha ? — 'the Passover'; the interrogative is marked by punctuation in Greek and Latin and by clause structure in Syriac."
+    },
+    {
+      "vulgate": [
+        10
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the purpose clause ἵνα φάγῃς τὸ πάσχα ('that you may eat the Passover'); Vulgate employs ut manduces Pascha with identical structure. Peshitta restructures with the dative pronoun ܠܟ ('for you') governing the infinitive ܕܬܐܟܘܠ ('that-you-eat'), integrating the beneficiary pronoun already introduced in the previous clause, resulting in a more compact Syriac construction."
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon before direct speech (discipuli : Quo), a scribal/editorial punctuation marker introducing the disciples' question; Greek uses the raised dot after αὐτοῦ· while Syriac marks the discourse boundary without an analogous token."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.036448+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.501854+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

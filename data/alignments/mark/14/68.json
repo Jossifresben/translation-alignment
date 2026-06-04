@@ -73,19 +73,29 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek articular pronoun ὁ (substantivised with δέ) is rendered in Syriac by the demonstrative ܗܘ and in Latin by ille; all three function as a resumptive subject pronoun marking the contrastive turn to Peter."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "δέ / ܕܝܢ / At as adversative discourse marker; Latin fronts the conjunction At before the pronoun, an order difference of no semantic weight."
     },
     {
       "greek_nt": [
@@ -97,8 +107,7 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -112,8 +121,7 @@
         4
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'dicens' to mark direct speech, whereas Greek uses a raised dot (·) and Peshitta employs no explicit punctuation marker. This reflects Latin scribal convention for introducing quotations."
+      "note": "The participle λέγων ('saying') is matched by Syriac coordinated finite ܘܐܡܪ ('and said'), a typical Aramaic paratactic rendering of Greek participial syntax; the Vulgate dicens followed by the colon introduces direct speech."
     },
     {
       "greek_nt": [
@@ -124,7 +132,8 @@
       ],
       "peshitta": [
         4,
-        5
+        5,
+        6
       ],
       "vulgate": [
         5,
@@ -132,39 +141,42 @@
         7,
         8
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek employs a double-negative construction with two verbs (οὔτε οἶδα οὔτε ἐπίσταμαι, 'neither do I know nor understand'), emphasizing Peter's complete ignorance through synonymous parallelism. The Peshitta simplifies to a single negated verb (ܠܐ ܝܕܥ ܐܢܐ, 'I do not know'), omitting the second verb entirely. The Vulgate preserves the Greek doublet with 'neque scio, neque novi' but uses two forms of the same root (scio/novi) rather than distinct verbs, creating lexical variation within semantic equivalence."
+      "variant": "minor",
+      "note": "Greek and Latin both preserve the emphatic double negative correlative οὔτε...οὔτε / Neque...neque with two distinct verbs ('I neither know nor understand'); the Peshitta compresses this to a single negated clause ܠܐ ܝܕܥ ܐܢܐ ('I do not know'), omitting the second verb ἐπίσταμαι and simplifying the rhetorical pleonasm."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [
-        6
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds an explicit first-person pronoun ܐܢܐ ('I') after the verb, a common Syriac stylistic feature for emphasis or clarity, though the verb morphology already encodes person. Greek σὺ and Vulgate omit this, relying on verbal inflection alone."
+      "variant": "omitted",
+      "note": "The emphatic Greek pronoun σύ ('you yourself') has no separate counterpart in either version; the Syriac enclitic ܐܢܬܝ within the clause and the Latin second-person verb dicas carry the subject inflectionally, so the explicit pronoun is absorbed rather than independently rendered."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "Interrogative τί / ܡܢܐ / quid introducing the indirect/relative question."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        7,
         8,
         9
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the pronoun σὺ before the interrogative τί λέγεις ('you—what do you say'), creating emphasis on the addressee. Peshitta reverses this to ܡܢܐ ܐܡܪܐ ܐܢܬܝ ('what are you saying'), following standard Syriac VSO word order. Vulgate mirrors Greek order ('quid dicas') but uses subjunctive mood where Greek has indicative, a syntactic adjustment for indirect discourse."
+      "variant": "aligned",
+      "note": "Greek λέγεις and Latin dicas express the second-person verb; the Peshitta uses participle ܐܡܪܐ with the feminine enclitic pronoun ܐܢܬܝ, agreeing in person but adding gendered specification absent from Greek and Latin."
     },
     {
       "greek_nt": [
@@ -177,24 +189,33 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Coordinating καί / ܘ (prefixed to ܢܦܩ) / Et."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "Verb of departure ἐξῆλθεν / ܢܦܩ / exiit; the Syriac conjunction and verb are written as one orthographic token ܘܢܦܩ."
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a compound verb ἐξῆλθεν with adverb ἔξω ('he went out / outside'), creating redundancy for emphasis. Peshitta employs the simple verb ܢܦܩ with prepositional phrase ܠܒܪ ('he went out / to the outside'), semantically identical but syntactically distinct. Vulgate 'exiit foras' mirrors Greek structure with compound verb plus adverb."
+      "variant": "aligned",
+      "note": "Adverb ἔξω ('out') / ܠܒܪ / foras reinforcing the verb of egress."
     },
     {
       "greek_nt": [
@@ -209,33 +230,53 @@
         14,
         15
       ],
-      "variant": "major",
-      "type": "lexical",
-      "note": "Greek specifies εἰς τὸ προαύλιον ('into the forecourt/gateway'), using a rare architectural term (προαύλιον appears only here in the NT). Peshitta uses ܠܣܦܐ ('to the threshold/vestibule'), a different architectural feature. Vulgate reads 'ante atrium' ('before the courtyard'), employing a prepositional phrase that locates Peter outside rather than within a structure, creating a spatial divergence across all three traditions."
+      "variant": "minor",
+      "note": "Greek εἰς τὸ προαύλιον ('into the forecourt/porch') and Latin ante atrium ('before the courtyard') employ a preposition plus noun for the gateway area; the Syriac renders this with the single noun ܠܣܦܐ ('to the vestibule/threshold'), a lexical choice for the entryway that collapses the prepositional phrase."
     },
     {
       "greek_nt": [
-        17,
-        18,
+        17
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "Coordinating καί / ܘ (prefixed to ܩܪܐ) / et."
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
-        13,
-        14
+        13
       ],
       "vulgate": [
-        16,
-        17,
         18
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Verb of crowing ἐφώνησεν / ܩܪܐ / cantavit; the Syriac uses the root q-r-a ('to call/cry out') for the cock's crow, fused with the conjunction in ܘܩܪܐ."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "note": "ἀλέκτωρ / ܬܪܢܓܠܐ / gallus ('rooster')."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.045568+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.525326+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

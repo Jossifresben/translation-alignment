@@ -48,31 +48,41 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses simple conjunction καὶ ('and'); Peshitta employs temporal conjunction ܘܟܕ ('and when'); Vulgate uses cum ('when') with no coordinating conjunction. The Peshitta and Vulgate both emphasize the temporal sequence more explicitly than the Greek."
+      "type": "construction",
+      "note": "Greek coordinates with καί followed by an aorist participle (γνούς, 'having learned'); the Vulgate renders the temporal nuance explicitly with the conjunction cum plus pluperfect subjunctive (cum cognovisset). Syriac fuses the conjunction and subordinator into the single proclitic ܘܟܕ ('and when'), an equivalent temporal construction."
     },
     {
       "greek_nt": [
-        1,
-        2,
-        3,
-        4
+        1
       ],
       "peshitta": [
         1
       ],
       "vulgate": [
-        1,
+        2
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek γινώσκω and Latin cognoscere both denote 'to learn/ascertain' the fact of death; the Syriac root y-l-p (ܝܠܦ) more properly means 'to learn/be informed,' a slightly more explicit rendering of receiving information from the centurion."
+    },
+    {
+      "greek_nt": [
         2,
         3,
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist participle γνοὺς with prepositional phrase ἀπὸ τοῦ κεντυρίωνος ('having known from the centurion'); Vulgate mirrors this with perfect participle cognovisset a centurione. Peshitta uses finite verb ܝܠܦ ('he learned') without explicitly naming the centurion as source, creating a more compressed construction that assumes the centurion from context."
+      "peshitta": [],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The prepositional phrase ἀπὸ τοῦ κεντυρίωνος ('from the centurion') is faithfully rendered in the Vulgate (a centurione) but is entirely absent from the Peshitta, which leaves the source of Pilate's information unstated. This is a genuine Syriac omission rather than a versification artifact."
     },
     {
       "greek_nt": [
@@ -84,7 +94,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐδωρήσατο (δωρέομαι, 'he granted/gifted') and Latin donavit both connote a formal granting or bestowal; the Syriac uses the unmarked verb y-h-b (ܝܗܒ, 'he gave'), losing the nuance of a gracious or official gift implied by the Greek and Latin lexemes."
     },
     {
       "greek_nt": [
@@ -99,7 +111,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek πτῶμα (literally 'fallen thing, corpse') and Latin corpus ('body') are neutral terms; Syriac ܦܓܪܗ ('his body') adds a possessive suffix, making the reference to Jesus's body more explicit and personal, a characteristic Syriac stylistic feature in narrative."
+      "note": "Greek πτῶμα ('corpse, fallen body') and Latin corpus ('body') are anarthrous-vs-articular renderings of the dead body; the Syriac ܦܓܪܗ employs the noun ܦܓܪ (p-g-r, cognate with Hebrew פֶּגֶר 'carcass') bearing a possessive suffix ('his body'), making the referent explicit through the pronominal suffix rather than the definite article."
     },
     {
       "greek_nt": [
@@ -112,13 +124,15 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Ἰωσήφ / ܠܝܘܣܦ / Joseph — the indirect object, marked by the Greek dative article τῷ, the Syriac proclitic ܠ-, and Latin simple dative."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.053099+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.552511+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

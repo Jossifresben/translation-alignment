@@ -62,7 +62,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the crasis κἀκεῖνοι (καὶ + ἐκεῖνοι) combining conjunction and demonstrative pronoun in a single token; Vulgate separates these as Et illi, while Peshitta uses ܘܗܢܘܢ (w-hānōn), mirroring the Greek construction with prefixed conjunction."
+      "note": "Greek compresses conjunction and demonstrative into the crasis κἀκεῖνοι ('and those'); both Syriac ܘܗܢܘܢ and the Vulgate Et illi unpack this into discrete coordinating conjunction plus pronoun, a routine analytic expansion of the Greek synthetic form."
     },
     {
       "greek_nt": [
@@ -77,7 +77,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs an aorist participle ἀκούσαντες in genitive absolute construction; Vulgate mirrors this with audientes; Peshitta expands with temporal particle ܟܕ (kad, 'when') + finite verb ܫܡܥܘ (šmaʿ-w, 'they heard'), converting the participial phrase into a temporal clause."
+      "note": "Greek and Latin render the action with an aorist/present participle (ἀκούσαντες / audientes), whereas Syriac employs the temporal subordinator ܟܕ plus a finite verb ܫܡܥܘ ('when they heard'), a characteristic Syriac periphrasis for circumstantial participles."
     },
     {
       "greek_nt": [
@@ -89,9 +89,9 @@
       "vulgate": [
         3
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "expansion",
-      "note": "Peshitta inserts ܕܐܡܪܢ (d-ʾamrān, 'that she said/told') before the content clause, making explicit that the women reported the resurrection; Greek ὅτι and Vulgate quia introduce direct discourse without specifying the act of telling, which is implied from context (Mary Magdalene's report in v. 10)."
+      "note": "Greek ὅτι and Latin quia function as simple complementisers ('that'); the Peshitta ܕܐܡܪܢ embeds the complementiser within an added finite verb of speaking ('that they said'), introducing a reported-speech frame absent from both Greek and Latin."
     },
     {
       "greek_nt": [
@@ -103,29 +103,63 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ζῇ is present indicative ('he lives'); the Vulgate shifts to imperfect subjunctive viveret under the indirect-discourse rule after a past-tense matrix verb, while Syriac ܕܚܝ uses an unmarked stative form — the three reflect differing tense-mood conventions for embedded clauses."
     },
     {
       "greek_nt": [
-        4,
-        5,
-        6,
-        7
+        4
       ],
       "peshitta": [
-        5,
-        6
+        5
       ],
       "vulgate": [
         5,
         6,
-        7,
-        8,
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἐθεάθη is a single aorist passive form; Latin renders it analytically with periphrastic visus esset (perfect passive subjunctive), again triggered by the indirect-discourse construction, while Syriac ܘܐܬܚܙܝ uses the Ethpaal (reflexive-passive) stem of kh-z-y as a synthetic equivalent."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses passive aorist ἐθεάθη with ὑπό + genitive (ὑπ᾽ αὐτῆς, 'by her') for agent; Vulgate employs passive perfect subjunctive visus esset with ab + ablative (ab ea); Peshitta uses passive ethpeel ܘܐܬܚܙܝ (w-ʾetḥzī) with simple prepositional phrase ܠܗܝܢ (l-hayn, 'to them'), shifting from agent-marked passive to dative-of-interest construction typical of Syriac."
+      "type": "grammar",
+      "note": "Greek ὑπ᾽ αὐτῆς ('by her') and Latin ab ea express the agent with preposition plus genitive/ablative singular feminine; Syriac ܠܗܝܢ uses the prepositional ܠ- with a feminine plural suffix, a number discrepancy likely reflecting the collective/plural reference to the disciples or witnesses rather than to Mary alone."
     },
     {
       "greek_nt": [
@@ -140,15 +174,15 @@
         10,
         11
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta adds pronominal object ܐܢܝܢ (ʾenayn, 'them' feminine plural) after ܠܐ ܗܝܡܢܘ (lā haymen-w, 'they did not believe'), specifying that the disciples disbelieved the women (plural referent to Mary and companions); Greek ἠπίστησαν and Vulgate non crediderunt are intransitive, leaving the object of disbelief implicit (either 'her report' or 'the fact of resurrection')."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses disbelief with the single negative verb ἠπίστησαν; both Latin (non crediderunt) and Syriac (ܠܐ ܗܝܡܢܘ ܐܢܝܢ) employ a negated positive verb of believing, with Syriac additionally appending the enclitic object pronoun ܐܢܝܢ to resume the feminine antecedents."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.056066+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.422482+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

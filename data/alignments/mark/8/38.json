@@ -118,26 +118,35 @@
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses the indefinite relative pronoun ὃς ἐὰν ('whoever') with conditional particle, while Peshitta employs ܟܠ ܓܝܪ ('everyone for') and Vulgate uses the simple relative Qui ('who'), both achieving functional equivalence through different syntactic strategies."
+      "type": "construction",
+      "note": "Greek employs a conditional relative construction (ὃς γὰρ ἐὰν, 'for whoever if'); the Peshitta collapses this into the universalising substantive ܟܠ ܓܝܪ ('for everyone who'), while the Vulgate Qui enim renders a simple relative without explicit conditional particle. All three express the same protasis."
     },
     {
       "greek_nt": [
-        3,
-        4
-      ],
-      "peshitta": [
-        2,
         3
       ],
+      "peshitta": [
+        2
+      ],
       "vulgate": [
-        2,
         3,
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Peshitta place the verb before the object (ἐπαισχυνθῇ με / ܕܢܒܗܬ ܒܝ), while Vulgate inverts to object-verb order (me confusus fuerit), a characteristic Latin construction with the perfect passive participle."
+      "type": "construction",
+      "note": "Greek uses the aorist passive subjunctive ἐπαισχυνθῇ in a single word; the Vulgate renders it periphrastically with confusus fuerit (perfect subjunctive of the deponent periphrasis), and the Syriac ܕܢܒܗܬ uses an imperfect with relative prefix — equivalent in force but morphologically divergent."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -156,7 +165,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses coordinating conjunction καὶ with article-adjective-noun phrase (καὶ τοὺς ἐμοὺς λόγους), Vulgate mirrors this structure (et verba mea), while Peshitta employs a single prepositional phrase with pronominal suffix ܘܒܡܠܝ ('and-in-my-words'), a more compact Semitic construction."
+      "note": "Greek καὶ τοὺς ἐμοὺς λόγους ('and my words') uses article plus possessive adjective plus plural noun; the Syriac compresses the entire phrase into a single inflected form ܘܒܡܠܝ ('and in my words') with prepositional and pronominal affixes, while the Vulgate et verba mea preserves the analytic structure. The Syriac also continues the locative ܒ- from the prior verb."
     },
     {
       "greek_nt": [
@@ -176,7 +185,7 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the demonstrative after the noun (τῇ γενεᾷ ταύτῃ), following standard attributive position; Peshitta reverses to ܒܫܪܒܬܐ ܗܕܐ ('in-generation this'), while Vulgate uses in generatione ista, both reflecting their respective language norms for demonstrative placement."
+      "note": "Greek and Latin both place the descriptive adjectives after the demonstrative (γενεᾷ ταύτῃ / generatione ista), whereas the Syriac orders the demonstrative ܗܕܐ immediately after ܒܫܪܒܬܐ and then defers the qualifying adjectives. The locative preposition is incorporated prefixally in Syriac (ܒ-) but stands as a free word ἐν / in in Greek and Latin."
     },
     {
       "greek_nt": [
@@ -196,7 +205,7 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek employs double article construction with coordinated adjectives (τῇ μοιχαλίδι καὶ ἁμαρτωλῷ), emphasizing both qualities; Peshitta reverses the order to ܚܛܝܬܐ ܘܓܝܪܬܐ ('sinful and-adulterous'), while Vulgate follows Greek order (adultera et peccatrice), though all three convey identical semantic content."
+      "note": "The Greek pairs the adjectives in the order 'adulterous and sinful' (μοιχαλίδι καὶ ἁμαρτωλῷ), matching the Latin adultera et peccatrice; the Syriac inverts the sequence to ܚܛܝܬܐ ܘܓܝܪܬܐ ('sinful and adulterous'), a transposition of the two attributes without semantic change."
     },
     {
       "greek_nt": [
@@ -225,22 +234,37 @@
         15,
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses 'the Son of Man' with a doubly articular genitive construction (ὁ υἱὸς τοῦ ἀνθρώπου); the Vulgate Filius hominis omits articles per Latin usage, and the Syriac ܒܪܗ ܕܐܢܫܐ uses a proleptic pronominal suffix plus dalath ('his son, namely of man'), a typical Aramaic genitive idiom."
     },
     {
       "greek_nt": [
-        22,
+        22
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the future passive ἐπαισχυνθήσεται to express the apodosis; the Syriac ܢܒܗܬ employs an imperfect (future) without a distinct passive morphology, and the Vulgate confundetur is a future passive matching the Greek. The Syriac and Greek verbs derive from semantically parallel roots for 'shame.'"
+    },
+    {
+      "greek_nt": [
         23
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        17,
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek marks the object with the accusative pronoun αὐτὸν and the Vulgate likewise with eum, treating 'be ashamed of him' transitively; the Syriac ܒܗ uses the preposition ܒ- plus suffix ('in/of him'), reflecting the verb ܒܗܬ governing its complement prepositionally."
     },
     {
       "greek_nt": [
@@ -270,7 +294,9 @@
         21,
         22
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin use a free preposition plus article plus noun (ἐν τῇ δόξῃ / in gloria); the Syriac incorporates the preposition prefixally into ܒܫܘܒܚܐ, a single word, omitting any explicit article in keeping with the determined emphatic state."
     },
     {
       "greek_nt": [
@@ -285,7 +311,9 @@
         23,
         24
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τοῦ πατρὸς αὐτοῦ and Latin Patris sui both express 'of his Father' analytically; the Syriac ܕܐܒܘܗܝ combines the genitive marker dalath with a pronominal suffix into one word, a standard Aramaic compression of the possessive genitive."
     },
     {
       "greek_nt": [
@@ -303,7 +331,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Vulgate use preposition with article-noun (μετὰ τῶν ἀγγέλων / cum angelis), while Peshitta employs ܥܡ ܡܠܐܟܘܗܝ ('with his-angels'), incorporating the possessive suffix directly on the noun rather than using a separate genitive construction, a typical Semitic pattern."
+      "note": "Greek μετὰ τῶν ἀγγέλων uses preposition plus article plus genitive plural; the Vulgate cum angelis matches without article, while the Syriac ܥܡ ܡܠܐܟܘܗܝ attaches a pronominal suffix ('with his angels') not present in the Greek or Latin, a minor possessive expansion."
     },
     {
       "greek_nt": [
@@ -316,13 +344,15 @@
       "vulgate": [
         27
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an attributive repetition of the article τῶν ἁγίων ('the holy ones'); the Vulgate sanctis and Syriac ܩܕܝܫܐ both render the adjective 'holy' without the articular reduplication, the Syriac standing in the determined emphatic state."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.999681+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.559558+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

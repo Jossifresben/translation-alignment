@@ -64,8 +64,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -77,8 +76,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -93,71 +91,122 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "The Peshitta employs a periphrastic construction (ܡܐܣܐ ܗܘܐ, 'was healing') using the participle with the verb 'to be', whereas Greek uses the simple aorist ἐθεράπευσεν and Latin the imperfect sanabat. The Peshitta's periphrastic form emphasizes durative or iterative aspect, while Greek focuses on the summary action and Latin on the ongoing process."
+      "note": "Greek uses the simple aorist ἐθεράπευσεν ('he healed'); the Peshitta renders this with a periphrastic past ܡܐܣܐ ܗܘܐ (participle + auxiliary ܗܘܐ), the characteristic Syriac construction for durative or iterative past action, here capturing the ongoing nature of the healing. The Vulgate similarly chooses the imperfect sanabat, agreeing with the Syriac aspectual nuance against the Greek punctiliar aorist."
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
-        4,
-        5,
-        6,
-        7
+        4
       ],
       "vulgate": [
         3,
-        4,
-        5,
-        6,
-        7
+        4
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses ὥστε with infinitive ἐπιπίπτειν αὐτῷ ('so as to press upon him'); Latin mirrors this with ita ut plus subjunctive irruerent in eum ('so that they rushed upon him'); Peshitta employs ܥܕܡܐ ܕܢܗܘܘܢ ܢܦܠܝܢ ܥܠܘܗܝ ('until they were falling upon him'), a temporal-consecutive construction. All three express result, but through different syntactic strategies reflecting each language's idiom."
+      "note": "Greek ὥστε introduces a result clause with a single conjunction; Latin renders it analytically as ita ut, the standard two-word consecutive construction. The Syriac ܥܕܡܐ ('until, to the point that') frames the result with a more spatial/temporal idiom but is functionally equivalent."
     },
     {
       "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek present infinitive ἐπιπίπτειν and Latin imperfect subjunctive irruerent both express the consecutive verbal idea with a single form; the Syriac employs a finite imperfect with auxiliary ܕܢܗܘܘܢ ܢܦܠܝܢ ('that they should be falling upon'), an analytic finite construction since Syriac lacks an infinitive for such consecutive clauses."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
         6,
-        7,
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek purpose particle ἵνα is matched by Latin ut; the Syriac ܡܛܠ ('on account of, in order that') leans toward a causal-final sense but functions here as the purpose conjunction, a routine equivalence."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        8,
-        9,
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἅψωνται (from ἅπτω, 'to touch, lay hold of') and Latin tangerent agree on the sense of physical touch; the Syriac ܕܢܬܩܪܒܘܢ (from q-r-b, 'to draw near, approach') emphasises approaching/coming near rather than tactile contact, a slight semantic shift typical of the Peshitta's rendering of contact verbs."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
         10
       ],
       "vulgate": [
-        8,
-        9,
-        10
+        9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         9,
-        10,
-        11
+        10
       ],
       "peshitta": [],
       "vulgate": [
         11,
-        12,
+        12
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek relative clause ὅσοι εἶχον ('as many as had') and its Latin equivalent quotquot habebant specify the subset of those who pressed upon Jesus; the Peshitta omits this delimiting relative clause entirely, leaving the object of healing unspecified and thereby smoothing the syntax."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [],
+      "vulgate": [
         13
       ],
-      "variant": "major",
+      "variant": "omitted",
       "type": "omission",
-      "note": "The Peshitta omits the entire relative clause ὅσοι εἶχον μάστιγας ('as many as had diseases'), which is present in both Greek and Vulgate (quotquot habebant plagas). This omission removes the explicit identification of those pressing forward as the afflicted, leaving the motivation for touching Jesus implicit rather than stated."
+      "note": "Greek μάστιγας (literally 'scourges, lashes,' idiomatically 'diseases, afflictions') and Latin plagas preserve the vivid metaphor of illness as a divine scourge; the Peshitta drops the noun along with its governing relative clause, consistent with its broader abbreviation of the verse's closing description."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.958549+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.496514+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

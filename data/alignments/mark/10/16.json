@@ -56,26 +56,35 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        1,
-        2
+        1
       ],
       "peshitta": [
-        1,
+        0,
         2,
         3
       ],
       "vulgate": [
-        1,
-        2
+        1
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "The Peshitta expands the Greek participle ἐναγκαλισάμενος ('having embraced') into a finite verb plus prepositional phrase: ܘܫܩܠ ܐܢܘܢ ܥܠ ܕܪܥܘܗܝ ('and he took them upon his arms'). This explicates the physical gesture implicit in the Greek compound verb, while Greek and Latin preserve the more compact participial construction."
+      "type": "idiom",
+      "note": "Greek ἐναγκαλισάμενος ('having taken in [his] arms') is a single denominative participle, and the Vulgate renders it likewise with one participle (complexans). The Peshitta unpacks the same gesture analytically as ܘܫܩܠ ... ܥܠ ܕܪܥܘܗܝ ('and he took [them] upon his arms'), explicitly naming the arms — a typical Syriac periphrastic expansion of a compound Greek verb."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -89,39 +98,59 @@
         8,
         9
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the main verb κατευλόγει ('he was blessing') immediately after the embracing action, creating a participial-main verb sequence. Both Peshitta and Vulgate defer the blessing verb (ܘܒܪܟ ܐܢܘܢ / benedicebat eos) to the end of the clause, after the hand-laying action, resulting in a chronological narrative sequence rather than the Greek's syntactic subordination."
+      "note": "The benediction clause appears last in both the Peshitta (ܘܒܪܟ ܐܢܘܢ) and the Vulgate (benedicebat eos), whereas the Greek κατευλόγει precedes the participial laying-on-of-hands clause. Both versions reorder the verb of blessing to the end, and the Peshitta supplies an explicit pronominal object ('them') matching the Latin eos against the intransitive Greek imperfect."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the present participle τιθείς ('laying'); the Vulgate matches with the participle imponens preceded by the connective et, while the Peshitta employs a finite coordinated verb ܘܣܡ ('and he placed'). The Syriac thus prefers parataxis where Greek subordinates the action participially."
+    },
+    {
+      "greek_nt": [
         5,
-        6,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin use the plural (τὰς χεῖρας / manus, 'the hands'); the Peshitta has the singular ܐܝܕܗ ('his hand'), a common Syriac idiom in which the singular of paired body parts stands collectively for the action of both."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        4,
-        5,
         6
       ],
       "vulgate": [
-        3,
-        4,
-        5,
         6,
         7
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the plural τὰς χεῖρας ('the hands') with accusative plural pronoun αὐτά, while Peshitta employs the singular ܐܝܕܗ ('his hand'), a common Syriac idiom for collective or distributive action. Latin mirrors the Greek plural (manus) but inserts a coordinating et before imponens, making the hand-laying a co-equal finite action rather than a subordinate participle, and splits the prepositional phrase across the punctuation boundary (super illos)."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.009726+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.557208+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

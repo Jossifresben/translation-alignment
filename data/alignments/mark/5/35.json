@@ -72,22 +72,34 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἔτι and Latin Adhuc are bare adverbs ('still, yet'), while the Syriac ܘܥܕ prefixes the conjunction waw ('and-while'), binding the genitive-absolute clause more tightly into the narrative flow — a typical Syriac discourse marker."
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a genitive absolute (αὐτοῦ λαλοῦντος); Latin reproduces it with an ablative absolute (eo loquente); Syriac uses an independent pronoun plus participle (ܗܘ ܡܡܠܠ), an analytic circumstantial clause — three different grammatical strategies for the same temporal subordination."
     },
     {
       "greek_nt": [
@@ -99,45 +111,69 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἔρχονται and Latin veniunt are present tense (historic present); the Syriac ܐܬܘ is a perfect ('they came'), reflecting the Syriac tendency to render the Greek historic present as a simple past."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπό / ܡܢ / ab"
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        4,
         5,
         6,
         7
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + compound noun ἀρχισυναγώγου ('ruler of synagogue'); Vulgate mirrors with single compound archisynagogo; Peshitta employs a construct chain ܕܒܝܬ ܪܒ ܟܢܘܫܬܐ ('from the house of the chief of the assembly'), a typical Syriac periphrastic rendering of the Greek compound."
+      "type": "expansion",
+      "note": "Greek τοῦ ἀρχισυναγώγου and Latin archisynagogo render the compound 'ruler of the synagogue' as a single titular noun, whereas the Syriac unfolds it into ܕܒܝܬ ܪܒ ܟܢܘܫܬܐ, literally 'from the house of the chief of the assembly,' adding ܕܒܝܬ ('of the house of') and thereby specifying that the messengers came from Jairus' household."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
-        6,
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "λέγοντες / ܘܐܡܪܝܢ / dicentes"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "vulgate": [
         7,
         8
       ],
+      "peshitta": [
+        9
+      ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses participle λέγοντες with conjunction ὅτι introducing indirect discourse; Peshitta uses simple ܘܐܡܪܝܢ ܕ- construction; Vulgate inserts a colon after dicentes, marking the shift to direct speech more explicitly than the Greek or Syriac traditions."
+      "type": "construction",
+      "note": "Greek ὅτι introduces direct discourse (recitative ὅτι); Latin renders this with a colon plus Quia, and Syriac prefixes the dalath relative (ܕ-) onto ܒܪܬܟ — all three mark the boundary of reported speech but by distinct syntactic means."
     },
     {
       "greek_nt": [
@@ -154,7 +190,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs article + noun + possessive pronoun (ἡ θυγάτηρ σου) in three tokens; Syriac uses a single construct form ܕܒܪܬܟ with pronominal suffix; Vulgate uses two tokens (filia tua) without article, following Latin's articleless nominal system."
+      "note": "Greek uses article + noun + genitive pronoun (ἡ θυγάτηρ σου) and Latin the noun + possessive (filia tua); the Syriac compresses the whole phrase into a single inflected form ܕܒܪܬܟ ('that your daughter'), incorporating the relative particle and the 2ms possessive suffix."
     },
     {
       "greek_nt": [
@@ -165,29 +201,39 @@
       ],
       "vulgate": [
         11,
-        12,
-        13
+        12
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist indicative ἀπέθανεν (single token); Peshitta uses perfect ܡܝܬܬ (single token); Vulgate employs perfect passive mortua est (two tokens plus colon punctuation), reflecting Latin's analytic perfect construction versus the synthetic Greek and Syriac forms."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπέθανεν / ܡܝܬܬ / mortua est"
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τί / ܠܡܢܐ / quid"
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        14,
         15
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek τί ἔτι ('why still') uses the same adverb ἔτι as verse-initial position; Syriac ܠܡܢܐ ܡܟܝܠ employs ܡܟܝܠ (a different temporal particle, 'now/therefore'); Vulgate quid ultra uses ultra ('further/beyond') rather than adhuc, avoiding lexical repetition from verse opening."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἔτι / ܡܟܝܠ / ultra"
     },
     {
       "greek_nt": [
@@ -201,8 +247,8 @@
         16
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Greek σκύλλεις is second-person singular with implicit subject; Peshitta makes the subject explicit with ܡܥܡܠ ܐܢܬ ('you trouble'), adding the independent pronoun ܐܢܬ as a clarifying gloss typical of Syriac verbal syntax; Vulgate vexas remains implicit like Greek."
+      "type": "construction",
+      "note": "Greek σκύλλεις and Latin vexas are synthetic finite verbs ('you trouble/vex'); the Syriac uses an analytic construction ܡܥܡܠ ܐܢܬ (participle + enclitic pronoun 'you are wearying'), the standard Syriac present-tense periphrasis."
     },
     {
       "greek_nt": [
@@ -216,14 +262,15 @@
         17,
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τὸν διδάσκαλον and Latin magistrum use article/bare accusative; the Syriac ܠܡܠܦܢܐ prefixes the object marker lamadh to 'the teacher.' The Greek and Latin both mark interrogation explicitly (; / ?), preserved by the editorial punctuation absent in the unpointed Syriac."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.976223+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.440825+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

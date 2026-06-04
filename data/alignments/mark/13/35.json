@@ -82,8 +82,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -95,36 +94,44 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek negates with οὐκ + finite verb; Syriac fronts the negation with ܕܠܐ ('that not') introducing a subordinate causal clause, while the Vulgate opens a parenthesis (nescitis) without an explicit negative particle, the negation being lexicalised in the verb itself."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
         3,
         4
       ],
-      "peshitta": [
-        2,
-        3
-      ],
       "vulgate": [
-        2,
-        3
+        2
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you'), a common Semitic clarification where Greek and Latin rely on verbal inflection alone. Greek uses the explanatory particle γάρ ('for'), which the Vulgate renders as enim; Syriac omits this particle, integrating the clause more directly."
+      "note": "Greek οἴδατε is a synthetic 2nd-person plural perfect; Syriac analytically separates the participle ܝܕܥܝܢ from the enclitic pronoun ܐܢܬܘܢ ('you know'), a normal Aramaic periphrastic construction. Latin nescitis compresses both negation and verb into one form."
     },
     {
-      "greek_nt": [],
-      "peshitta": [
+      "greek_nt": [
         4
       ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta inserts the independent pronoun ܐܢܬܘܢ ('you') as an explicit subject, a typical Syriac stylistic feature for emphasis or clarity. Neither Greek nor Latin requires or transmits an independent pronoun here, relying instead on the second-person plural verb ending."
+      "peshitta": [],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -136,27 +143,35 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek uses article + noun (ὁ κύριος); Syriac employs the bound form ܡܪܗ with a 3rd-person suffix ('its lord/master'), making the possessive relation to 'house' explicit, whereas Latin dominus stands articleless per Latin custom."
+    },
+    {
+      "greek_nt": [
         8,
         9
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs the article ὁ before κύριος and τῆς before οἰκίας, yielding a four-token construction (ὁ κύριος τῆς οἰκίας). Latin omits articles (dominus domus), and Syriac uses the emphatic state (ܡܪܗ ܕܒܝܬܐ, 'the master of the house') with the genitive particle ܕ, producing a two-token phrase semantically equivalent to the Greek but syntactically more compact."
+      "note": "Greek expresses the genitive with article + noun (τῆς οἰκίας); Syriac uses the dalath-relative particle prefix ܕܒܝܬܐ ('of the house') governed by the preceding suffix, and Latin uses the bare genitive domus — three different morphosyntactic strategies for the same possessive idea."
     },
     {
       "greek_nt": [
@@ -169,39 +184,46 @@
         7
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἔρχεται after the subject phrase; Syriac ܐܬܐ and Latin veniat (subjunctive in an indirect question) appear before their respective subjects. The Vulgate uses the subjunctive mood (veniat) appropriate to Latin indirect discourse, whereas Greek retains the indicative ἔρχεται."
+      "note": "Greek ἔρχεται and Syriac ܐܬܐ are present/imperfective indicatives; the Vulgate veniat is present subjunctive, reflecting the indirect-question syntax after nescitis quando, a Latin grammatical refinement absent from the indicative idiom of Greek and Syriac."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        11
+      ],
       "peshitta": [],
       "vulgate": [
         8
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after veniat to mark the beginning of the temporal alternatives, a punctuation convention absent in Greek and Syriac manuscript traditions. This reflects Latin rhetorical structuring rather than a textual variant."
+      "variant": "minor",
+      "note": "The Vulgate inserts an explicit colon to open the enumeration of watches; Greek and Syriac mark the first temporal item directly with ἢ/asyndeton, so no punctuation token corresponds in those traditions."
     },
     {
       "greek_nt": [
-        11,
         12
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
       "vulgate": [
-        9,
-        10
+        9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the disjunctive particle ἤ followed by the adverb ὀψέ ('at evening'). Syriac employs the prepositional phrase ܒܪܡܫܐ ('in the evening') with the disjunctive ܐܘ. Latin renders this as the adverb sero with the interrogative particle an, shifting from Greek's simple disjunction to a Latin indirect-question construction (an... an... an... an)."
+      "note": "Greek ὀψέ is an adverb ('late, at evening'); Syriac ܒܪܡܫܐ ('in the evening') and Latin sero render the same watch but Syriac uses a prepositional noun phrase rather than a bare adverb, a regular Aramaic preference for substantival temporal expressions."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
@@ -213,49 +235,65 @@
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἢ μεσονύκτιον uses a single compound noun ('midnight'). Syriac expands this to a prepositional phrase ܒܦܠܓܗ ܕܠܠܝܐ ('at the half of the night'), a periphrastic idiom. Latin media nocte employs an adjective + noun construction, semantically equivalent but syntactically distinct from the Greek substantive."
+      "note": "Greek μεσονύκτιον is a single compound noun ('midnight'); both Syriac ܒܦܠܓܗ ܕܠܠܝܐ ('at the half of the night') and Latin media nocte analytically express the same watch as 'middle of the night', a periphrasis natural to both languages."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        13,
         14,
         15
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἀλεκτοροφωνίας is a single genitive noun ('cockcrow', functioning adverbially). Syriac renders this as a prepositional phrase ܒܡܩܪܐ ܬܪܢܓܠܐ ('at the call of the rooster'), a three-token analytic construction. Latin galli cantu uses a genitive + ablative phrase ('at the cock's crowing'), mirroring the Syriac periphrasis rather than the Greek synthetic form."
+      "note": "Greek ἀλεκτοροφωνίας is a single genitive compound ('cockcrow'); Syriac ܒܡܩܪܐ ܬܪܢܓܠܐ ('at the crowing of the cock') and Latin galli cantu both unpack the compound into a two-word phrase, an analytic rendering of the Greek synthetic noun."
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         18
       ],
       "peshitta": [
-        16,
         17
       ],
       "vulgate": [
-        16,
         17
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek πρωΐ is an adverb closing the list with a high stop; Syriac ܒܨܦܪܐ ('in the morning') again substantivises the time with a preposition, and the Vulgate mane closes the parenthesis opened at nescitis, the bracketing punctuation being unique to the Latin tradition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.033765+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.517646+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

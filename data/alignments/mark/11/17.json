@@ -83,7 +83,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
@@ -91,80 +102,74 @@
         1
       ],
       "vulgate": [
-        0,
-        1,
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek imperfect ἐδίδασκεν ('was teaching') is rendered in Syriac periphrastically with the auxiliary ܗܘܐ (ܘܡܠܦ ܗܘܐ), the standard Syriac means of expressing durative past aspect. The Vulgate imperfect docebat matches the Greek aspect directly."
+    },
+    {
+      "greek_nt": [
+        2,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses two finite verbs coordinated by καί (ἐδίδασκεν καὶ ἔλεγεν); Vulgate employs a finite verb plus participle (docebat, dicens), a typical Latin construction for simultaneous action; Peshitta mirrors the Greek structure with ܘܡܠܦ ܗܘܐ ܘܐܡܪ, using the periphrastic perfect with ܗܘܐ."
+      "note": "Greek coordinates two finite verbs (καὶ ἔλεγεν, 'and was saying'); the Vulgate subordinates the second verb as a present participle (dicens), while Syriac retains a coordinated finite verb (ܘܐܡܪ). The participial construction in Latin is a stylistic simplification of the Semitic-style verbal parataxis."
     },
     {
       "greek_nt": [
-        2,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
         3,
         4
       ],
-      "peshitta": [
-        2,
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek repeats the conjunction καί before the second verb and places the dative pronoun after (ἔλεγεν αὐτοῖς); Syriac follows this pattern (ܘܐܡܪ ܠܗܘܢ); Vulgate omits the conjunction and places the pronoun before the participle (dicens eis), reflecting Latin participial syntax."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after eis to mark the beginning of direct discourse, a punctuation convention absent in the Greek and Peshitta manuscript traditions."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek οὐ introduces a question expecting an affirmative answer ('is it not written?'); the Vulgate captures this nuance with the interrogative particle Nonne, whereas Syriac uses the plain negative ܠܐ, leaving the interrogative force to be inferred from context and intonation."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the negative particle οὐ with the perfect passive γέγραπται; Peshitta employs the simple negative ܠܐ with the passive participle ܟܬܝܒ; Vulgate renders this as an interrogative Nonne ('Is it not?') with scriptum est, transforming the rhetorical question into an explicit interrogative form."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         7
       ],
-      "peshitta": [],
       "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek introduces the quotation with the conjunction ὅτι; Peshitta omits any introductory particle, using the relative prefix ܕ attached to the first word of the quotation (ܕܒܝܬܝ); Vulgate inserts a colon before Quia, employing both punctuation and the causal conjunction to mark the scriptural citation."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        8,
         9
       ],
-      "variant": "added",
-      "type": "grammar",
-      "note": "Vulgate adds the conjunction Quia ('because/that') to introduce the quotation from Isaiah 56:7, making the causal relationship explicit; neither Greek nor Peshitta employ a separate conjunction here, as the quotation is integrated directly via ὅτι in Greek and the ܕ prefix in Syriac."
+      "variant": "minor",
+      "note": "Greek recitative ὅτι introduces the direct quotation and is matched by the Vulgate's Quia (with preceding colon). In Syriac the quotative force is absorbed into the proclitic ܕ- prefixed to ܕܒܝܬܝ, so no separate token corresponds; this is a normal feature of Syriac syntax rather than an omission of content."
     },
     {
       "greek_nt": [
@@ -179,25 +184,32 @@
         10,
         11
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article with the noun and possessive pronoun (ὁ οἶκός μου); Peshitta employs a construct state with pronominal suffix (ܕܒܝܬܝ, 'that my house'), incorporating the relative particle ܕ; Vulgate follows Greek word order (domus mea) but adds a comma after mea, creating a slight pause before the predicate nominative."
+      "variant": "aligned",
+      "note": "Greek article+noun+pronoun (ὁ οἶκός μου) and Latin domus mea are both rendered in Syriac by the single suffixed form ܕܒܝܬܝ ('my house'), the Semitic possessive suffix economising three Greek tokens into one."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        12,
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -209,8 +221,7 @@
       "vulgate": [
         14
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -224,37 +235,35 @@
       ],
       "vulgate": [
         15,
-        16
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the dative πᾶσιν τοῖς ἔθνεσιν ('for all the nations') with the article; Peshitta employs ܠܟܠܗܘܢ ܥܡܡܐ ('for all peoples') with the preposition ܠ and plural absolute state; Vulgate renders omnibus gentibus (dative plural without article), following Greek syntax but omitting the article as Latin lacks the definite article."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        16,
         17
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate closes the scriptural quotation with a question mark, reinforcing the interrogative force of Nonne; Greek uses a semicolon and Peshitta has no explicit punctuation marker, treating the quotation as a declarative statement within a rhetorical question."
+      "variant": "aligned",
+      "note": "The citation of Isa 56:7 ('for all the nations') is preserved in all three; Greek πᾶσιν τοῖς ἔθνεσιν and Latin omnibus gentibus are matched by Syriac ܠܟܠܗܘܢ ܥܡܡܐ, with the interrogative punctuation closing the quotation in Greek and Latin."
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         18
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        18,
         19
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -268,31 +277,39 @@
         20,
         21
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the perfect active πεποιήκατε with the accusative pronoun αὐτόν as a separate word; Peshitta employs ܥܒܕܬܘܢܝܗܝ, a single word combining the verb with the pronominal suffix -ܝܗܝ ('it'); Vulgate follows Greek with fecistis eam, using the feminine pronoun eam to agree with domum (understood from domus mea)."
+      "variant": "aligned",
+      "note": "Greek perfect πεποιήκατε with separate accusative pronoun αὐτόν and Latin fecistis eam are condensed in Syriac into the single inflected form ܥܒܕܬܘܢܝܗܝ, which incorporates both the 2nd plural subject and the 3rd masc. singular object suffix."
     },
     {
       "greek_nt": [
-        21,
+        21
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         22
       ],
       "peshitta": [
-        15,
         16
       ],
       "vulgate": [
-        22,
         23
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek λῃστῶν ('of robbers/bandits') is matched by Latin latronum and Syriac ܕܠܣܛܝܐ; the Syriac form is in fact a loanword from the Greek λῃστής, a common phenomenon in the Peshitta's rendering of technical or vivid Greek vocabulary."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.017828+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.440615+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

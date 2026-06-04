@@ -49,8 +49,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek and Latin transmit καί / et as a free-standing conjunction, whereas the Syriac prefixes the conjunctive waw directly onto ܘܡܕܝܢܬܐ ('and the city'), fusing the connective with the noun in standard Syriac orthography."
     },
     {
       "greek_nt": [
@@ -62,26 +63,38 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three render the imperfect copula (ἦν / ܗܘܬ / erat), but Syriac places the auxiliary ܗܘܬ after the participle ܟܢܝܫܐ, forming a periphrastic perfect-of-state, while Greek and Latin front the verb before the subject."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ὅλη / ܟܠܗ / omnis"
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adjective ὅλη before the noun πόλις with intervening article (ὅλη ἡ πόλις), following standard attributive position. Syriac reverses this to ܡܕܝܢܬܐ ܟܠܗ (city + all with pronominal suffix), reflecting typical Semitic noun-adjective order. Vulgate follows Greek word order (omnis civitas) but without article, as Latin lacks the definite article."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἡ πόλις / ܡܕܝܢܬܐ / civitas"
     },
     {
       "greek_nt": [
@@ -93,31 +106,43 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐπισυνηγμένη (perfect passive participle of ἐπισυνάγω, 'gathered together upon') carries the directional prefix ἐπι-; the Syriac ܟܢܝܫܐ (root k-n-š, the same root underlying ܟܢܘܫܬܐ 'synagogue') and the Latin congregata render the simple notion of assembling without reproducing the Greek preverb."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek πρός ('toward, at') governs the accusative of motion-to-rest at the door; Latin ad matches this directional sense, but Syriac ܥܠ ('upon, at') uses the more general locative preposition, a routine idiomatic substitution."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        5,
         6
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the preposition πρὸς with accusative article τὴν θύραν, emphasizing motion or orientation toward the door. Latin mirrors this with ad + accusative januam. Syriac employs the preposition ܥܠ (ʿal, 'upon/at') with ܬܪܥܐ in the emphatic state, a common Syriac idiom for spatial proximity that is semantically equivalent but syntactically distinct from the Greek directional construction."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τὴν θύραν / ܬܪ�ged ܥܐ / januam"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.948722+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.525512+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

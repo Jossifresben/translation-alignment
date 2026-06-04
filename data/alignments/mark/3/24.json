@@ -62,8 +62,8 @@
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek καὶ and Vulgate Et both introduce the conditional clause coordinatively. The Peshitta omits an initial conjunction, beginning directly with the conditional particle ܐܢ, a common Syriac stylistic preference in protasis constructions."
+      "type": "omission",
+      "note": "Greek καί and Latin Et open the conditional clause coordinatively; the Peshitta omits an initial conjunction here, instead deploying the postpositive explanatory particle ܓܝܪ ('for') after the subject (token 2), reorganising the discourse logic from simple coordination to causal explanation."
     },
     {
       "greek_nt": [
@@ -75,9 +75,8 @@
       "vulgate": [
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐὰν (conditional particle with subjunctive) corresponds to Vulgate si (simple conditional) and Peshitta ܐܢ. The Greek construction emphasizes contingency more strongly, while Latin and Syriac employ their standard conditional markers without modal nuance."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -100,7 +99,7 @@
       "vulgate": [],
       "variant": "added",
       "type": "expansion",
-      "note": "The Peshitta inserts the explanatory particle ܓܝܪ ('for, indeed') after ܡܠܟܘܬܐ, strengthening the logical connection to the preceding discourse. Neither the Greek NA28 nor the Vulgate attest this particle here, suggesting a Syriac rhetorical enhancement."
+      "note": "The Peshitta inserts the postpositive particle ܓܝܪ ('for, indeed'), a frequent Syriac rendering choice that supplies an explanatory/causal nuance absent from both the Greek and Latin, which present the clause as a bare conditional protasis."
     },
     {
       "greek_nt": [
@@ -115,9 +114,8 @@
         3,
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase ἐφ᾽ ἑαυτήν ('against itself') with the reflexive pronoun in accusative. Vulgate mirrors this with in se. Peshitta employs ܥܠ ܢܦܫܗ, literally 'upon its soul/self,' using the Semitic idiom of נֶפֶשׁ/ܢܦܫܐ for reflexive reference—semantically equivalent but idiomatically distinct."
+      "variant": "aligned",
+      "type": "agreement"
     },
     {
       "greek_nt": [
@@ -167,33 +165,44 @@
       ],
       "vulgate": [
         10
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        9,
-        10,
-        11
-      ],
-      "peshitta": [
-        9,
-        10
-      ],
-      "vulgate": [
-        8,
-        9
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the subject phrase ἡ βασιλεία ἐκείνη after the infinitive σταθῆναι, creating a postposed subject construction. Vulgate inverts to regnum illud stare, placing the subject before the infinitive. Peshitta uses ܡܠܟܘܬܐ ܗܝ, with the demonstrative pronoun ܗܝ functioning as a resumptive element—all three convey identical semantics through differing syntactic strategies."
+      "note": "All three attest the infinitive 'to stand' (σταθῆναι / ܠܡܩܡ / stare), but the Vulgate postpones it to clause-final position after the subject 'that kingdom' (regnum illud stare), whereas Greek and Syriac place the infinitive immediately after the modal verb, a purely stylistic Latin word-order preference."
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek marks 'the kingdom' with the definite article ἡ before βασιλεία; both Latin (regnum) and Syriac (ܡܠܟܘܬܐ, emphatic state) lack a separate article-word, expressing definiteness morphologically or by context rather than by a discrete particle."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "type": "agreement"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.960902+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.468986+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

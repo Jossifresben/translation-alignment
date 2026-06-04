@@ -90,7 +90,18 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
@@ -99,12 +110,11 @@
         1
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek ἀπ᾽ ἀγορᾶς, Syriac ܘܡܢ ܫܘܩܐ (the conjunction is prefixed to the preposition), and Latin a foro all render 'from the marketplace'; the Syriac compresses 'and from' into a single proclitic ܘܡܢ."
     },
     {
       "greek_nt": [
@@ -113,8 +123,7 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "type": "omission",
-      "note": "Greek δέ (postpositive conjunction) is omitted in both Peshitta and Vulgate. This particle functions as a discourse marker in Greek but lacks direct equivalents in Syriac and Latin syntax, where the clause transition is unmarked."
+      "note": "The postpositive Greek δέ ('now/and') is a discourse connective with no separate equivalent in either the Peshitta or the Vulgate, both of which lack a corresponding particle here."
     },
     {
       "greek_nt": [
@@ -124,62 +133,76 @@
       "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
-      "type": "omission",
-      "note": "Greek ὅταν ἔλθωσιν ('when they come') is absent in both Peshitta and Vulgate. The temporal clause is elided, with both traditions proceeding directly to the conditional washing requirement, creating a more compressed syntactic structure."
+      "note": "The Greek temporal clause ὅταν ἔλθωσιν ('whenever they come [back]') is wholly absent from both the Peshitta and the Vulgate, which proceed directly to the conditional clause; this is a substantive omission of the verbal action of returning from the market."
     },
     {
       "greek_nt": [
         6,
-        7,
-        8
+        7
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
-        3,
-        4
+        3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a double conditional construction (ἐὰν μὴ βαπτίσωνται, 'unless they wash'); Vulgate employs nisi + subjunctive (nisi baptizentur); Peshitta uses ܐܠܐ ܥܡܕܝܢ ('except they are baptized'), a functionally equivalent negative conditional idiom in Syriac."
+      "variant": "aligned",
+      "note": "Greek ἐὰν μή ('unless') is rendered by the single Syriac particle ܐܠܐ and by Latin nisi; all three express the same negative conditional, with Greek using a two-word construction against the single-lexeme idioms of the versions."
     },
     {
       "greek_nt": [
-        9,
+        8
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek βαπτίσωνται is aorist middle subjunctive ('they wash themselves'); the Peshitta ܥܡܕܝܢ is a present participle and the Vulgate baptizentur a present passive subjunctive, differing in voice and aspect but agreeing in sense of ritual washing."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        5,
-        6
+        6,
+        7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek ἐσθίουσιν and Syriac ܠܥܣܝܢ render 'they eat'; the Vulgate comedunt carries the same sense, and the following colon (idx 7) marks the major sense-break that the Greek expresses with its mid-stop punctuation."
     },
     {
       "greek_nt": [
         11
       ],
-      "peshitta": [
-        6
-      ],
+      "peshitta": [],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after comedunt, creating a stronger pause before the catalogue of traditions. Greek and Peshitta use simple conjunction (καί / ܘ) without marked punctuation, maintaining smoother syntactic flow."
+      "variant": "aligned",
+      "note": "The coordinating conjunction (Greek καί, Latin et) introduces the second clause; the Peshitta marks the same coordination by prefixing the proclitic ܘ to the following noun ܘܣܓܝܐܬܐ rather than with a separate word."
     },
     {
       "greek_nt": [
-        12,
-        13
+        13,
+        12
       ],
       "peshitta": [
         6,
@@ -190,8 +213,7 @@
         10
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adjective after the noun (ἄλλα πολλά); Peshitta reverses to ܣܓܝܐܬܐ ܐܚܪܢܝܬܐ ('many other'); Vulgate follows Greek order (alia multa). This reflects standard adjective-placement conventions in each language."
+      "note": "Greek ἄλλα πολλά ('many other things') places the substantive adjective before the quantifier; the Syriac ܘܣܓܝܐܬܐ ܐܚܪܢܝܬܐ and Latin alia multa preserve the pair but with internal word-order differences typical of each language's adjectival sequencing."
     },
     {
       "greek_nt": [
@@ -204,7 +226,7 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek ἐστιν (3rd sg.) and Latin sunt (3rd pl.) differ in number because Greek treats the neuter plural subject ἄλλα πολλά with a singular verb (Attic concord); the Syriac existential particle ܐܝܬ is number-neutral, so all three are semantically equivalent."
     },
     {
       "greek_nt": [
@@ -216,8 +238,7 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -231,8 +252,7 @@
         14
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek παρέλαβον ('they received') is rendered by Vulgate tradita sunt ('were handed down'), a passive construction emphasizing transmission. Peshitta ܕܩܒܠܘ uses active voice matching Greek semantics but with slightly different aspectual nuance."
+      "note": "Greek παρέλαβον is active ('which they received [as tradition]'); the Vulgate tradita sunt is passive ('which were handed down'), inverting the diathesis, while the Syriac ܕܩܒܠܘ retains the active 'which they received.'"
     },
     {
       "greek_nt": [],
@@ -241,8 +261,7 @@
         15
       ],
       "variant": "added",
-      "type": "expansion",
-      "note": "Vulgate adds illis ('to them'), making the indirect object explicit. Neither Greek nor Peshitta includes this pronoun, relying on context to identify the recipients of the tradition."
+      "note": "The Vulgate adds the dative pronoun illis ('to them'), making explicit the recipients of the tradition; neither the Greek nor the Syriac supplies an overt indirect object here."
     },
     {
       "greek_nt": [
@@ -255,7 +274,7 @@
         16
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek infinitive κρατεῖν ('to hold/keep') is matched by the Vulgate infinitive servare; the Syriac ܕܢܛܪܘܢ uses a finite imperfect with relative ܕ ('that they should keep'), a construction-level difference rendering the same purposive sense."
     },
     {
       "greek_nt": [
@@ -268,7 +287,7 @@
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek βαπτισμούς ('washings'), Syriac ܡܥܡܘܕܝܬܐ (from the root ʿ-m-d, the same root as 'baptize'), and Latin baptismata all denote ritual ablutions of vessels."
     },
     {
       "greek_nt": [
@@ -280,8 +299,7 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -292,7 +310,7 @@
         19
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "The conjunction (Greek καί, Latin et) is rendered in Syriac by the proclitic ܘ prefixed to the following noun ܘܕܩܣܛܐ rather than as an independent word."
     },
     {
       "greek_nt": [
@@ -304,8 +322,8 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ξεστῶν is a Latin loanword (sextarius, a liquid measure/pot); the Vulgate urceorum ('pitchers') and the Syriac ܕܩܣܛܐ (a loan from Latin sextus/Greek ξέστης) all denote small measuring vessels, with each tradition selecting its own culturally familiar term."
     },
     {
       "greek_nt": [
@@ -316,7 +334,7 @@
         21
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Coordination expressed by Greek καί and Latin et; the Syriac prefixes the proclitic ܘ to the following noun-phrase ܘܕܡܐܢܝ ܢܚܫܐ."
     },
     {
       "greek_nt": [
@@ -330,8 +348,7 @@
         22
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek χαλκίων ('bronze vessels') is a single genitive plural noun. Peshitta expands to ܘܕܡܐܢܝ ܢܚܫܐ ('and of vessels of bronze'), using a construct chain with explicit material specification. Vulgate æramentorum mirrors Greek compactness with a single compound noun."
+      "note": "Greek χαλκίων ('copper utensils') is rendered by the Syriac two-word genitive phrase ܕܡܐܢܝ ܢܚܫܐ ('vessels of bronze/copper') and the Latin æramentorum ('bronze wares'); the Syriac unpacks the single Greek noun into an explicit construct chain."
     },
     {
       "greek_nt": [
@@ -342,7 +359,7 @@
         23
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "The final coordinating conjunction (Greek καί, Latin et) is again represented in Syriac only by the proclitic ܘ attached to ܘܕܥܪܣܬܐ."
     },
     {
       "greek_nt": [
@@ -356,14 +373,13 @@
         25
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate concludes with a colon after lectorum, creating formal closure to the catalogue. Greek uses a paragraph marker (¶) and Peshitta has no special punctuation, reflecting differing manuscript conventions for section demarcation."
+      "note": "Greek κλινῶν denotes 'dining couches' (the gloss reflects Greco-Roman triclinium custom); the Syriac ܕܥܪܣܬܐ and Latin lectorum both mean 'beds/couches.' Many witnesses omit this final clause about couches; its presence here aligns the three traditions, with the Vulgate closing on a colon (idx 25)."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.880876+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.518724+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

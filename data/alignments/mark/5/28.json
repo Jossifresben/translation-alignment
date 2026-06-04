@@ -59,8 +59,8 @@
         0
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγεν (continuous past action); Peshitta employs perfect ܐܡܪܐ ܗܘܬ (completed state with auxiliary); Vulgate uses imperfect dicebat. All convey iterative or continuous past speech, but Syriac marks the perfective aspect explicitly with the auxiliary verb."
+      "type": "construction",
+      "note": "Greek ἔλεγεν is a synthetic imperfect (3rd sing.), as is Latin dicebat; the Peshitta renders the past durative periphrastically with the participle ܐܡܪܐ plus the auxiliary ܗܘܬ ('she was saying'), a standard Syriac construction for the imperfective past lacking a single inflected form."
     },
     {
       "greek_nt": [
@@ -78,13 +78,13 @@
       "greek_nt": [
         2
       ],
-      "peshitta": [],
       "vulgate": [
-        2
+        2,
+        3
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after enim to mark the transition to direct discourse, while Greek uses the conjunction ὅτι and Peshitta employs ܕ- prefix on the conditional particle. The punctuation reflects Latin rhetorical convention for introducing quoted speech."
+      "note": "Greek recitative ὅτι introduces direct speech; the Vulgate marks the same boundary with a colon plus Quia, the latter functioning as a calque of the recitative particle rather than a true causal conjunction. The Peshitta folds this function into the conditional particle below."
     },
     {
       "greek_nt": [
@@ -94,56 +94,52 @@
         3
       ],
       "vulgate": [
-        3,
         4
-      ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐάν and Syriac ܕܐܦܢ are single conditional particles; Vulgate splits into Quia si, where Quia introduces the clause and si marks the condition. This reflects Latin's preference for explicit causal-conditional layering."
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb ἅψωμαι before the object; Syriac inverts to object-verb (ܠܠܒܘܫܗ ܩܪܒܐ) with explicit subject pronoun ܐܢܐ; Vulgate follows Greek verb-object order (tetigero vestimentum). Syriac's VSO tendency and pronoun insertion are typical of its syntax."
-    },
-    {
-      "greek_nt": [
-        5,
-        6,
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5,
-        6
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the crasis κἂν (καὶ ἐάν) with genitive plural article τῶν ἱματίων ('even the garments'); Vulgate employs vel vestimentum with singular collective noun; Syriac uses singular ܠܠܒܘܫܗ with pronominal suffix. All three express 'even his clothing,' but Syriac and Latin prefer singular collective forms over Greek's distributive plural."
+      "note": "Greek ἐάν (with κἄν) and Latin si... vel correspond to the single Syriac concessive-conditional ܕܐܦܢ ('if even/although'), which fuses the recitative-relative ܕ, the concessive sense, and the conditional into one particle."
     },
     {
       "greek_nt": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6,
+        7,
         8
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek uses the articular plural τῶν ἱματίων αὐτοῦ ('his garments'), idiomatic for clothing collectively, whereas both the Vulgate vestimentum ejus and the Syriac ܠܠܒܘܫܗ employ the singular ('his garment'), a typical Semitic and Latin collective rendering of the Greek plural."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἅψωμαι (aorist middle subjunctive) and Latin tetigero (future perfect) express the conditional protasis verb; the Peshitta uses the participle ܩܪܒܐ with the enclitic pronoun ܐܢܐ ('I touch/draw near'), and notably employs the root q-r-b ('to draw near, approach') rather than a verb strictly meaning 'to touch'."
     },
     {
       "greek_nt": [
@@ -157,15 +153,15 @@
         9,
         10
       ],
-      "variant": "minor",
+      "variant": "major",
       "type": "lexical",
-      "note": "Greek σωθήσομαι ('I will be saved/healed') is rendered with Syriac ܚܝܐ ܐܢܐ ('I will live') and Latin salva ero ('I will be saved'). Syriac's choice of 'live' emphasizes physical restoration over the soteriological connotations preserved in Greek and Latin, reflecting a more concrete medical idiom."
+      "note": "Greek σωθήσομαι (future passive of σῴζω, 'I will be saved/healed') and Latin salva ero preserve the passive 'be saved'; the Peshitta ܚܝܐ ܐܢܐ uses the root kh-y-a ('to live, be made alive'), shifting the semantic field from rescue/healing toward life and vitality, a recurring Syriac lexical choice for salvation language."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.975158+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.449938+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

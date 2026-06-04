@@ -80,13 +80,12 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
       "variant": "minor",
       "type": "substitution",
-      "note": "Greek uses simple conjunction Καὶ ('And'); Peshitta employs contrastive particle ܕܝܢ (dēn, 'but/now'), which appears at token index 1 after the subject ܝܫܘܥ. Vulgate mirrors Greek with Et. The Peshitta's word order places the particle post-nominally, a typical Semitic construction."
+      "note": "Greek and Latin open with the connective καί / Et ('and'), a paratactic Markan opener. The Peshitta instead uses the postpositive particle ܕܝܢ (token 1, 'but/now'), which it places after the subject — a stylistic adjustment to Syriac discourse structure rather than a semantic change."
     },
     {
       "greek_nt": [
@@ -96,27 +95,43 @@
       "peshitta": [
         0
       ],
-      "vulgate": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "ὁ Ἰησοῦς / ܝܫܘܥ / Jesus"
+    },
+    {
+      "peshitta": [
+        1
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs article + noun (ὁ Ἰησοῦς); Peshitta uses bare proper noun ܝܫܘܥ without article (Syriac lacks the definite article for proper names). Vulgate omits both article and noun here, incorporating 'Jesus' into the participial phrase at tokens 1–2."
+      "type": "substitution",
+      "note": "The Peshitta's postpositive ܕܝܢ ('but/now') corresponds functionally to the initial conjunction attested by the Greek καί and Latin Et; it is grouped here as the Syriac equivalent of that connective, displaced after the subject per Syriac syntax."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek and Latin preserve the Semitic-flavoured pleonastic participle ἀποκριθεὶς / respondens ('answering'), reflecting the Hebraic 'answered and said' idiom. The Peshitta omits this participle entirely, rendering only the finite verb of speaking — a frequent Syriac simplification of the doubled verb construction."
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
-        2
+        3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist participle + finite verb (ἀποκριθεὶς εἶπεν, 'answering, he said'); Vulgate mirrors this with present participle + finite verb (respondens ait). Peshitta employs the contrastive particle ܕܝܢ + simple finite verb ܐܡܪ ('said'), omitting the redundant 'answering' participle—a common Syriac stylistic preference for economy."
+      "variant": "aligned",
+      "note": "εἶπεν / ܐܡܪ / ait"
     },
     {
       "greek_nt": [
@@ -126,13 +141,11 @@
         3
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses dative pronoun with punctuation αὐτῷ· (colon); Peshitta uses prepositional phrase ܠܗ ('to him') without punctuation. Vulgate expands to illi : (dative + colon), making the addressee explicit before the direct speech marker."
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / illi"
     },
     {
       "greek_nt": [
@@ -145,49 +158,84 @@
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Greek βλέπεις (2nd singular, 'you see') is mirrored by Vulgate Vides. Peshitta adds explicit subject pronoun ܐܢܬ ('you') after the verb ܚܙܐ, a typical Semitic emphasis strategy for foregrounding the addressee in rhetorical questions."
+      "variant": "aligned",
+      "note": "βλέπεις / ܚܙܐ ܐܢܬ / Vides — the Syriac uses the participle ܚܙܐ plus the explicit enclitic pronoun ܐܢܬ to express the second-person present, where Greek and Latin inflect a single finite verb."
     },
     {
       "greek_nt": [
-        7,
-        8,
-        9,
-        10
+        7
       ],
       "peshitta": [
-        6,
-        7,
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ταύτας / ܗܠܝܢ / has"
+    },
+    {
+      "vulgate": [
+        8
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Vulgate inserts omnes ('all'), with no counterpart in either the Greek (ταύτας τὰς μεγάλας οἰκοδομάς) or the Syriac. This is a Latin amplification heightening the totality of the temple buildings; cf. the synoptic parallel Matt 24:1–2 where the disciples display 'all' the buildings."
+    },
+    {
+      "greek_nt": [
+        8,
+        9
+      ],
+      "peshitta": [
         8
       ],
       "vulgate": [
-        7,
-        8,
-        9,
-        10,
-        11
+        9
       ],
-      "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses demonstrative + article + adjective + noun (ταύτας τὰς μεγάλας οἰκοδομάς, 'these great buildings'); Peshitta employs demonstrative + noun + adjective (ܗܠܝܢ ܒܢܝܢܐ ܪܘܪܒܐ), omitting the article. Vulgate inserts omnes ('all') between has and magnas, intensifying the scope of the rhetorical question, and adds interrogative punctuation (?)."
+      "variant": "aligned",
+      "note": "(τὰς) μεγάλας / ܪܘܪܒܐ / magnas"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "οἰκοδομάς / ܒܢܝܢܐ / ædificationes; the Syriac places its noun before the adjective per normal Syriac word order, hence the index inversion relative to Greek."
     },
     {
       "greek_nt": [
         11,
-        12,
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek employs the emphatic double negation οὐ μή ('by no means') governing the aorist subjunctive; Latin renders this with a simple Non plus future indicative (relinquetur), and Syriac with ܠܐ plus a participle (ܡܫܬܒܩܐ). All three convey emphatic prophetic denial, but only the Greek preserves the strong subjunctive negation construction."
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἀφεθῇ / ܡܫܬܒܩܐ / relinquetur"
     },
     {
       "greek_nt": [
@@ -196,56 +244,85 @@
       "peshitta": [
         11
       ],
-      "vulgate": [],
-      "variant": "minor",
+      "variant": "omitted",
       "type": "omission",
-      "note": "Greek ὧδε ('here') and Peshitta ܗܪܟܐ ('here') are present; Vulgate omits the locative adverb, likely for stylistic concision, as the context (destruction of visible buildings) renders the spatial marker redundant."
+      "note": "Greek ὧδε ('here') and its Syriac equivalent ܗܪܟܐ are both present, but the Vulgate omits any locative adverb, dropping the deictic 'here' from relinquetur lapis super lapidem. The Latin tradition thereby loses the emphasis on the immediate temple location."
     },
     {
       "greek_nt": [
-        15,
-        16,
+        15
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "λίθος / ܟܐܦ / lapis"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "note": "ἐπὶ / ܥܠ / super"
+    },
+    {
+      "greek_nt": [
         17
       ],
       "peshitta": [
-        12,
-        13,
         14
       ],
       "vulgate": [
-        14,
-        15,
         16
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places λίθος ἐπὶ λίθον (nominative + preposition + accusative); Peshitta mirrors this with ܟܐܦ ܥܠ ܟܐܦ. Vulgate inverts to lapis super lapidem (nominative + preposition + accusative with comma after lapidem), altering punctuation but preserving syntax."
+      "variant": "aligned",
+      "note": "λίθον / ܟܐܦ / lapidem"
     },
     {
       "greek_nt": [
         18,
         19,
-        20,
-        21
+        20
       ],
       "peshitta": [
-        15,
-        16
+        15
       ],
       "vulgate": [
         17,
-        18,
-        19
+        18
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs relative pronoun + double negative + aorist passive subjunctive (ὃς οὐ μὴ καταλυθῇ, 'which certainly will not be thrown down'). Peshitta uses compound negative particle ܕܠܐ + passive participle ܡܣܬܬܪܐ, a more compact construction. Vulgate uses relative pronoun qui + simple negative non + present passive subjunctive destruatur, lacking the emphatic double negative of the Greek."
+      "note": "Greek introduces the final clause with relative ὃς plus the double negative οὐ μή; Latin matches with relative qui non, while Syriac fuses the relative and negative into the single particle ܕܠܐ ('that not'). The Syriac construction is semantically equivalent but morphologically compresses the relative-plus-negation into one form."
+    },
+    {
+      "greek_nt": [
+        21
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καταλυθῇ ('be thrown/torn down', from καταλύω) and Latin destruatur ('be destroyed') denote demolition. The Syriac ܡܣܬܬܪܐ derives from a root of overturning/dismantling and renders the same idea, though its semantic field of 'undoing' is slightly broader than the strict architectural 'throw down' of the Greek."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.884214+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.424627+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

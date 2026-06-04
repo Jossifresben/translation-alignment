@@ -68,7 +68,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek begins with the coordinating καί before the object; the Peshitta fuses the conjunction with the verb in ܘܐܚܕܘܗ ('and they held it'), incorporating a resumptive object suffix, while the Vulgate Et stands as an independent conjunction. The Syriac thus encodes both the conjunction and the verb of the following Greek clause in a single inflected form."
     },
     {
       "greek_nt": [
@@ -81,24 +83,25 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "λόγον / ܠܡܠܬܐ / verbum"
     },
     {
       "greek_nt": [
         3
       ],
-      "peshitta": [
-        0
-      ],
+      "peshitta": [],
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἐκράτησαν / continuerunt; the Syriac verb is contained within the conjoined form ܘܐܚܕܘܗ grouped above."
     },
     {
       "greek_nt": [
         4,
-        5
+        5,
+        6
       ],
       "peshitta": [
         2
@@ -108,23 +111,12 @@
         4
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses πρὸς ἑαυτούς ('among themselves'), Latin apud se mirrors this construction, while Syriac employs ܒܢܦܫܗܘܢ (literally 'in their souls/selves'), a characteristic Semitic idiom for internal deliberation or private discussion."
+      "type": "idiom",
+      "note": "Greek expresses the reflexive with preposition plus pronoun (πρὸς ἑαυτούς) and the Vulgate mirrors this with apud se; Syriac renders the reflexive idiomatically with ܒܢܦܫܗܘܢ ('within themselves', literally 'in their soul'), employing the noun nephesh as the standard Semitic reflexive periphrasis. The bracketed transliteration token in the Greek input is a gloss artifact and is grouped here."
     },
     {
       "greek_nt": [
-        6
-      ],
-      "vulgate": [
-        5
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'apud se' to mark the transition from narrative to indirect discourse, a punctuation convention absent in the Greek and Peshitta manuscripts which use participial constructions without such demarcation."
-    },
-    {
-      "greek_nt": [
-        6
+        7
       ],
       "peshitta": [
         3,
@@ -134,12 +126,11 @@
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the present participle συζητοῦντες ('questioning'), Latin uses the present participle conquirentes, while Syriac renders with a finite periphrastic construction ܘܒܥܝܢ ܗܘܘ ('and they were seeking/asking'), a typical Syriac preference for finite verbal forms over participles."
+      "type": "grammar",
+      "note": "Greek and Latin use a present participle (συζητοῦντες / conquirentes) to subordinate the questioning to the main verb; the Peshitta employs a periphrastic past with auxiliary ܗܘܘ (ܘܒܥܝܢ ܗܘܘ, 'they were inquiring'), converting the participial construction into a finite durative clause."
     },
     {
       "greek_nt": [
-        7,
         8,
         9
       ],
@@ -150,40 +141,59 @@
         8
       ],
       "vulgate": [
-        7,
-        8
+        7
       ],
       "variant": "major",
       "type": "expansion",
-      "note": "The Peshitta expands the indirect question with ܕܡܢܐ ܗܝ ܗܕܐ ܡܠܬܐ ('what is this word/saying'), adding the demonstrative ܗܕܐ ('this') and repeating ܡܠܬܐ ('word') from verse-initial position, creating an emphatic construction absent in both Greek (τί ἐστιν τὸ) and Latin (quid esset)."
+      "note": "Where Greek has the concise indirect question τί ἐστιν τὸ ('what it is, namely the [rising]') and the Vulgate reduces to quid esset, the Peshitta expands into a fuller demonstrative clause ܕܡܢܐ ܗܝ ܗܕܐ ܡܠܬܐ ('what is this word/saying'), repeating ܡܠܬܐ from earlier and adding the demonstrative ܗܕܐ for emphasis and clarity."
     },
     {
       "greek_nt": [
-        10,
-        11,
-        12
+        10
       ],
       "peshitta": [
-        9,
-        10,
-        11,
+        11
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "ἐκ / ܡܢ / a"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
         12,
         13
       ],
       "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek νεκρῶν and Latin mortuis are bare substantival plurals ('the dead'); the Peshitta renders the phrase with the periphrasis ܒܝܬ ܡܝܬܐ ('the house/place of the dead'), a characteristic Syriac idiom (bēth mīthē) for the realm of the dead."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
         9,
-        10,
-        11,
+        10
+      ],
+      "vulgate": [
         12
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the articular infinitive τὸ ἐκ νεκρῶν ἀναστῆναι ('the rising from the dead'), Latin employs a temporal cum-clause (cum a mortuis resurrexerit, 'when he shall have risen'), while Syriac constructs a relative clause ܕܡܐ ܕܩܡ ܡܢ ܒܝܬ ܡܝܬܐ ('when he rises from the house of the dead'), using the idiomatic ܒܝܬ ܡܝܬܐ (literally 'house of the dead') for the realm of death."
+      "note": "Greek uses an articular infinitive (τὸ ἀναστῆναι, 'the rising') as the subject of the indirect question, while the Vulgate uses a finite subjunctive in a temporal clause (cum ... resurrexerit); the Peshitta employs a relative-temporal construction ܕܡܐ ܕܩܡ ('when he rose'), agreeing syntactically more closely with the Latin than the Greek."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.230926+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.506657+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

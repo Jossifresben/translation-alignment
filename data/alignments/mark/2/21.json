@@ -84,11 +84,9 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "Greek Καὶ is omitted in both Peshitta and Vulgate. The Peshitta begins directly with the negative ܠܐ ܐܢܫ ('no one'), while the Vulgate uses Nemo, both functioning as independent sentence openings without the coordinating conjunction."
+      "note": "The Greek opens with paratactic καί ('and'), characteristic of Markan style; both the Vulgate (Nemo) and Peshitta (ܠܐ ܐܢܫ) drop the introductory conjunction, beginning the sentence directly with the negated subject."
     },
     {
       "greek_nt": [
@@ -102,27 +100,46 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek οὐδείς is a single negative pronoun, matched by Latin Nemo; the Peshitta renders it analytically as ܠܐ ܐܢܫ ('not a man / no one'), a normal Syriac periphrasis for the universal negative."
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4
+        2
       ],
       "peshitta": [
-        2,
-        3,
-        4
-      ],
-      "vulgate": [
-        1,
-        2,
         3
       ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "ἐπίβλημα / ܐܘܪܩܥܬܐ / assumentum — 'a patch'."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses ἐπίβλημα ῥάκους ἀγνάφου (patch of-cloth unshrunk) with the adjective following the noun phrase. Peshitta employs ܪܡܐ ܐܘܪܩܥܬܐ ܚܕܬܐ (throws patch new) with the adjective in final position, while Vulgate has assumentum panni rudis (patch of-cloth raw/unshrunk) mirroring Greek word order but with lexical variation in the adjective."
+      "type": "omission",
+      "note": "Greek ῥάκους ('of cloth/rag') and Latin panni are explicit genitive nouns specifying the material of the patch; the Peshitta has no separate token for the cloth, collapsing the phrase into the single noun ܐܘܪܩܥܬܐ with its attributive adjective."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "major",
+      "type": "substitution",
+      "note": "Greek ἀγνάφου and Latin rudis both mean 'unshrunk/undressed' (technical of new fabric that will shrink); the Peshitta instead reads ܚܕܬܐ ('new'), a semantic generalisation that loses the specific point about shrinkage which drives the parable's logic."
     },
     {
       "greek_nt": [
@@ -135,26 +152,54 @@
         4
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐπιράπτει ('sews on') is rendered by Peshitta ܘܚܐܛ ('and sews'), which includes a coordinating conjunction, while Vulgate assuit ('sews on') matches the Greek semantic range without the conjunction."
+      "type": "construction",
+      "note": "Greek ἐπιράπτει and Latin assuit are single finite verbs ('sews on'); the Peshitta employs a coordinated construction ܘܚܐܛ ('and sews'), reflecting Syriac preference for paratactic verb chaining."
     },
     {
       "greek_nt": [
-        6,
-        7,
+        6
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐπί and Peshitta ܥܠ ('on/upon') are explicit prepositions governing the garment; the Vulgate omits the preposition, instead using the bare dative vestimento veteri to express the same relation."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "ἱμάτιον / ܡܐܢܐ / vestimento — 'garment'."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        6,
-        7,
         8
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "παλαιόν / ܒܠܝܐ / veteri — 'old'."
+    },
+    {
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon marking the protasis/apodosis boundary, corresponding to the Greek high point after παλαιόν·; the Peshitta has no punctuation token at this juncture."
     },
     {
       "greek_nt": [
@@ -162,85 +207,144 @@
         10,
         11
       ],
-      "peshitta": [
-        9
-      ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the conditional construction εἰ δὲ μή ('but if not, otherwise') as a three-word phrase. Peshitta condenses this to ܕܠܐ ('lest, that not'), a single negative purpose particle. Vulgate employs alioquin ('otherwise'), preceded by a colon punctuation mark, representing a different syntactic strategy for the same logical transition."
+      "type": "idiom",
+      "note": "Greek εἰ δὲ μή ('but if not') is an elliptical conditional formula rendered idiomatically by the single Latin adverb alioquin ('otherwise'); the Peshitta carries this notion within its relative clause (see ܕܠܐ below) rather than as a discrete phrase."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        9,
+        10
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek αἴρει and Latin aufert are simple present indicatives ('takes away'); the Peshitta restructures with a relative-negative clause ܕܠܐ ܢܣܒܐ ('lest it take/pull'), absorbing the conditional 'otherwise' force and using the verb ܢܣܒ ('take') in place of αἴρω."
+    },
+    {
+      "greek_nt": [
         13,
-        14,
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek τὸ πλήρωμα ('the fulness/filling-piece') and Latin supplementum denote the patch as 'that which fills'; the Peshitta ܡܠܝܘܬܗ (from root m-l-y, 'fulness') with the third-singular suffix ('its fulness') captures the same image while grammatically binding the patch to the garment."
+    },
+    {
+      "greek_nt": [
         15,
-        16,
+        16
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀπ᾽ αὐτοῦ ('from it') is a prepositional phrase with explicit pronoun, matched by Latin a [veteri]; the Peshitta does not render a separate 'from it', having already attached the possessive suffix to ܡܠܝܘܬܗ."
+    },
+    {
+      "greek_nt": [
         17,
-        18,
+        18
+      ],
+      "peshitta": [
+        12,
+        13
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek τὸ καινόν ('the new [piece]') is a substantivised neuter adjective; Latin novum agrees with supplementum; the Peshitta ܗܝ ܚܕܬܐ uses the feminine demonstrative plus feminine adjective agreeing with the feminine noun ܐܘܪܩܥܬܐ, a gender shift driven by the underlying Syriac lexeme."
+    },
+    {
+      "greek_nt": [
         19,
         20
       ],
       "peshitta": [
-        10,
-        11,
-        12,
-        13,
         14,
         15
       ],
       "vulgate": [
-        9,
-        10,
-        11,
-        12,
         13
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek αἴρει τὸ πλήρωμα ἀπ᾽ αὐτοῦ τὸ καινὸν τοῦ παλαιοῦ ('tears away the patch from it, the new from the old') uses a complex articular construction with τὸ καινόν as subject and partitive genitive τοῦ παλαιοῦ. Peshitta restructures as ܢܣܒܐ ܡܠܝܘܬܗ ܗܝ ܚܕܬܐ ܡܢ ܒܠܝܐ ('takes its fullness, that new [one], from the old'), employing a pronominal suffix on 'fullness' and a demonstrative ܗܝ. Vulgate aufert supplementum novum a veteri ('takes away the new patch from the old') simplifies by making 'new' an attributive adjective modifying supplementum, eliminating the Greek double article structure."
+      "note": "Greek τοῦ παλαιοῦ is an ablatival/separative genitive ('of/from the old'); Latin makes the separation explicit with a veteri, and the Peshitta likewise with ܡܢ ܒܠܝܐ ('from the old'), each tradition unpacking the bare Greek genitive differently."
     },
     {
       "greek_nt": [
         21
       ],
-      "peshitta": [
-        16
-      ],
+      "peshitta": [],
       "vulgate": [
         14
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / et — 'and'."
     },
     {
       "greek_nt": [
-        22,
-        23,
-        24
+        22
       ],
       "peshitta": [
-        17,
         18
       ],
       "vulgate": [
-        15,
-        16,
+        15
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek χεῖρον ('worse') is the comparative of κακός and is matched semantically by Latin major ('greater'); the Peshitta ܝܬܝܪܐ ('more/greater') likewise expresses degree rather than the negative qualitative 'worse', a mild softening shared with the Vulgate."
+    },
+    {
+      "greek_nt": [
+        23
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "σχίσμα / ܣܕܩܐ / scissura — 'a tear/rent'."
+    },
+    {
+      "greek_nt": [
+        24
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
         17
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek χεῖρον σχίσμα γίνεται ('worse tear becomes') places the comparative adjective before the noun. Peshitta ܣܕܩܐ ܝܬܝܪܐ ('tear greater') inverts to noun-adjective order, typical of Syriac syntax. Vulgate major scissura fit ('greater tear becomes') follows Latin adjective-noun order with the verb in final position, matching Greek semantic structure but with different surface arrangement."
+      "note": "Greek γίνεται and Latin fit ('becomes/comes to be') stand at the clause end; the Peshitta places its verb ܘܗܘܐ ('and there comes to be') before the noun ܣܕܩܐ, a word-order inversion typical of Syriac verb-initial clauses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.955176+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.447404+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

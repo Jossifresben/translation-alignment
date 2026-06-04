@@ -50,31 +50,49 @@
         0,
         1,
         2,
-        3,
-        4
+        3
       ],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts 'Tu es Filius Dei' ('You are the Son of God'), likely a harmonisation with the preceding verse (Mark 3:11) or parallel accounts, making explicit the content of the demons' confession. Neither the Greek nor the Peshitta attest this clause here."
+      "note": "The Clementine Vulgate carries over the demons' confession 'Tu es Filius Dei' ('You are the Son of God') into this verse, reflecting versification differences whereby the editions split Mark 3:11–12 differently. Neither the Greek NA28 nor the Peshitta transmit this clause at this point in the verse, having concluded it previously."
     },
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek πολλά ('many things', adverbial accusative neuter plural) functions intensively with the verb of rebuking; the Vulgate vehementer ('vehemently') renders this adverbial force directly, while the Peshitta ܣܓܝ ('much/greatly') likewise captures intensity rather than plurality — all three converge in sense though they differ in lexical category."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek πολλὰ ἐπετίμα ('much/sternly He was rebuking') uses an adverbial accusative with imperfect tense; Peshitta ܘܣܓܝ ܟܐܐ ܗܘܐ ('and much He was rebuking') employs a periphrastic construction with the participle; Vulgate vehementer comminabatur ('vehemently He was threatening') intensifies with an adverb and shifts the verb to 'threaten' rather than 'rebuke'—semantically equivalent but lexically distinct."
+      "note": "The Greek imperfect ἐπετίμα ('he was rebuking') expresses durative past action with a single verb; the Peshitta uses a periphrastic construction ܟܐܐ ܗܘܐ (participle/verb + auxiliary ܗܘܐ) to convey the same continuous aspect, a characteristic Syriac analytic strategy, while the Latin imperfect comminabatur matches the Greek synthetically."
     },
     {
       "greek_nt": [
@@ -99,7 +117,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek expresses the negative purpose with the conjunction ἵνα plus μή ('so that not'); the Peshitta compresses this into the single negative-purpose particle ܕܠܐ ('that...not'), and the Vulgate uses the single conjunction ne — both versions economise the two-word Greek construction into one."
     },
     {
       "greek_nt": [
@@ -115,14 +134,13 @@
         10
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a double accusative construction with ποιέω (αὐτὸν φανερὸν ποιήσωσιν, 'make Him manifest'); Peshitta employs a single causative verb ܢܓܠܘܢܝܗܝ ('reveal Him'); Vulgate uses manifestarent illum ('make manifest Him'), mirroring the Greek structure. All three express the same prohibition against revealing Jesus' identity, but through different syntactic strategies."
+      "note": "Greek employs a periphrastic idiom φανερὸν ποιήσωσιν ('make him known', adjective + verb 'to make') with a separate object pronoun αὐτόν; the Peshitta condenses the whole into the single inflected verb ܢܓܠܘܢܝܗܝ ('that they should reveal him', with suffixed object pronoun), while the Vulgate manifestarent illum uses a single verb plus object pronoun — three distinct expressions of the same idea of disclosure."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.958874+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.420335+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

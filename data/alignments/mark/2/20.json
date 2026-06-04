@@ -70,8 +70,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -83,8 +82,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -95,70 +93,68 @@
       ],
       "vulgate": [
         2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek and Syriac use the plural ἡμέραι / ܝܘܡܬܐ ('days'), while Vulgate uses the singular dies, a common Latin idiom for indefinite future time that does not alter the semantic force of the prophecy."
+      "type": "lexical",
+      "note": "Greek ἀπαρθῇ (aorist passive subjunctive of ἀπαίρω, 'be taken away') and Latin auferetur (future passive) match in sense; Syriac ܕܐܫܬܩܠ from the root š-q-l ('to take up/away') is a cognate-but-distinct lexeme, yet semantically equivalent in this idiom of the bridegroom being removed."
     },
     {
       "greek_nt": [
-        3
-      ],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [
-        3
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the prepositional phrase ἀπ᾽ αὐτῶν before the subject ὁ νυμφίος, while Syriac ܕܐܫܬܩܠ ܡܢܗܘܢ and Vulgate auferetur ab eis both position the preposition immediately after the verb, reflecting standard Semitic and Latin verb-complement ordering."
+      "type": "construction",
+      "note": "Greek expresses the prepositional phrase analytically (ἀπ᾽ αὐτῶν) and Latin likewise (ab eis); Syriac compresses preposition and pronominal object into a single inflected form ܡܢܗܘܢ ('from them'), a typical Semitic synthetic construction conveying identical meaning."
     },
     {
       "greek_nt": [
-        7,
-        8
+        8,
+        9
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the definite article ὁ νυμφίος ('the bridegroom'), which neither Syriac ܚܬܢܐ nor Latin sponsus replicates, as both languages lack or omit the article in this construction without semantic loss."
-    },
-    {
-      "greek_nt": [
-        9
-      ],
-      "peshitta": [],
-      "vulgate": [
+        7,
         8,
         9
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate inserts a colon after sponsus to mark the clause boundary, a punctuation convention absent in Greek and Syriac manuscripts; Greek καὶ functions as the coordinating conjunction without pause."
+      "note": "The Greek 'bridegroom' clause is joined to what follows by καί ('and'); the Vulgate inserts a colon and renders the conjunction as et, while the Peshitta omits any explicit copula here, beginning the apodosis directly with ܗܝܕܝܢ ('then'). The differences are stylistic and syntactic rather than substantive."
     },
     {
       "greek_nt": [
@@ -170,8 +166,7 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -183,8 +178,7 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -204,12 +198,12 @@
       ],
       "variant": "major",
       "type": "grammar",
-      "note": "Greek uses the singular dative ἐν ἐκείνῃ τῇ ἡμέρᾳ ('in that day'), Syriac mirrors this with ܒܗܘ ܝܘܡܐ (singular), but Vulgate reads in illis diebus ('in those days', plural dative), harmonising with the plural dies earlier in the verse and creating a minor theological nuance regarding the duration of fasting."
+      "note": "Greek (ἐν ἐκείνῃ τῇ ἡμέρᾳ) and Syriac (ܒܗܘ ܝܘܡܐ) both read the singular 'in that day,' whereas the Vulgate has the plural in illis diebus ('in those days'). This number divergence reflects a known Latin textual tradition harmonising with the temporal plurality implied by the parallel in Luke 5:35 and Matt 9:15."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.954970+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.504514+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

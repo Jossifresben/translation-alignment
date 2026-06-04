@@ -73,17 +73,16 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek ἀλλά ('but') is omitted in both Peshitta and Vulgate, which begin the sentence directly with the temporal adverb. This adversative conjunction in Greek contrasts with the preceding context (Jesus' desire for secrecy), but the Semitic and Latin traditions render the narrative transition without explicit adversative force."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "The Greek adversative ἀλλά ('but') opens the clause but has no counterpart in either the Peshitta or the Vulgate, both of which begin with the temporal adverb. The parenthetical transliteration (all᾽) is an editorial gloss and carries no semantic weight."
     },
     {
       "greek_nt": [
-        1
+        2
       ],
       "peshitta": [
         0
@@ -92,54 +91,60 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "εὐθὺς / ܡܚܕܐ / statim"
     },
     {
       "greek_nt": [
         3
       ],
       "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs an aorist participle ἀκούσασα ('having heard') agreeing with γυνή, whereas the Vulgate renders it as a finite verb in a temporal clause (ut audivit) and the Peshitta uses a finite perfect ܫܡܥܬ; all express the same anterior action through differing syntactic strategies."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "γάρ / ܓܝܪ / enim"
     },
     {
       "greek_nt": [
-        2
+        5
       ],
       "peshitta": [
-        2
-      ],
-      "vulgate": [
-        4
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the participle ἀκούσασα ('having heard') before γάρ, while Peshitta and Vulgate position the verb after the conjunction. The Vulgate further subordinates with ut ('when/as'), creating a temporal clause rather than a participial construction, though the semantic content remains equivalent."
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [
-        3,
-        4
+        3
       ],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "All three traditions attest 'woman' (γυνή / ܐܢܬܬܐ / Mulier), but word order differs: Vulgate places it sentence-initially for emphasis, Greek positions it after the temporal adverb and conjunction, and Peshitta adds the indefinite ܚܕܐ ('one, a certain') as a post-positive modifier, a typical Syriac construction for introducing new participants."
+      "variant": "aligned",
+      "note": "γυνή / ܐܢܬܬܐ / Mulier"
+    },
+    {
+      "peshitta": [
+        4
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta adds the indefinite numeral ܚܕܐ ('one, a certain'), functioning as an indefinite article to mark the woman as 'a certain woman.' Neither the Greek anarthrous γυνή nor the Latin Mulier requires this explicitation, which is characteristic Syriac idiom."
     },
     {
       "greek_nt": [
-        5,
-        6
+        6,
+        7
       ],
       "peshitta": [
         5
@@ -149,35 +154,65 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "περὶ αὐτοῦ / ܡܛܠܬܗ / de eo"
     },
     {
       "greek_nt": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἧς / cujus"
+    },
+    {
+      "greek_nt": [
+        8
       ],
       "peshitta": [
         6,
-        7,
-        8,
-        9,
-        10
+        7
       ],
       "vulgate": [
-        7,
-        8,
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a single imperfect εἶχεν ('had'), while the Peshitta employs a periphrastic construction ܕܐܝܬ ܗܘܬ ('there was, existed to her') expressing possession with the existential particle plus the auxiliary; the Vulgate's habebat matches the Greek finite verb directly."
+    },
+    {
+      "greek_nt": [
         9,
         10,
         11
       ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a relative clause (ἧς εἶχεν τὸ θυγάτριον αὐτῆς πνεῦμα ἀκάθαρτον) with the feminine relative pronoun ἧς governing the entire construction. Vulgate mirrors this with cujus filia habebat spiritum immundum. Peshitta uses an existential construction (ܕܐܝܬ ܗܘܬ ܠܒܪܬܗ 'that there was to her daughter'), typical Syriac syntax for possession, followed by the noun phrase 'an unclean spirit.' All three convey identical propositional content through tradition-specific syntactic strategies."
+      "type": "lexical",
+      "note": "Greek uses the diminutive θυγάτριον ('little daughter') with article and possessive pronoun, whereas the Vulgate filia and Peshitta ܠܒܪܬܗ render the plain noun 'daughter'; the affectionate diminutive nuance of the Markan original is lost in both versions."
+    },
+    {
+      "greek_nt": [
+        12,
+        13
+      ],
+      "peshitta": [
+        9,
+        10
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned",
+      "note": "πνεῦμα ἀκάθαρτον / ܪܘܚܐ ܛܢܦܬܐ / spiritum immundum"
     },
     {
       "greek_nt": [
@@ -187,49 +222,50 @@
         11
       ],
       "vulgate": [
-        12
-      ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐλθοῦσα ('having come') is an aorist participle; Peshitta ܘܐܬܬ uses a perfect with waw-consecutive; Vulgate intravit ('she entered') employs a finite perfect indicative. The Vulgate's choice of intrare rather than venire may emphasize entry into Jesus' presence or the house, though contextually all three express the woman's approach."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        12,
         13
       ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Vulgate inserts the conjunction et ('and') to coordinate the two verbs intravit and procidit, creating a smoother Latin periodic structure. Neither Greek nor Peshitta employs a coordinating conjunction here; Greek uses asyndetic participle + finite verb, Peshitta uses waw-consecutive perfect forms without additional coordination."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek renders 'having come' with the aorist participle ἐλθοῦσα; the Peshitta uses a coordinated finite verb ܘܐܬܬ ('and she came'), and the Vulgate likewise resolves it into a finite verb with conjunction (intravit, et), employing intravit ('entered') rather than a generic verb of coming."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "προσέπεσεν / ܢܦܠܬ / procidit"
+    },
+    {
+      "greek_nt": [
         16,
         17,
         18,
         19
       ],
       "peshitta": [
-        12,
         13,
         14
       ],
       "vulgate": [
-        14,
         15,
         16,
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πρὸς τοὺς πόδας αὐτοῦ / ܩܕܡ ܪܓܠܘܗܝ / ad pedes ejus"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.991556+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.493582+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

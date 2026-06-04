@@ -96,7 +96,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ / Et"
     },
     {
       "greek_nt": [
@@ -116,7 +116,7 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek uses μετὰ ἡμέρας ἓξ ('after days six') with postpositive numeral; Peshitta ܘܒܬܪ ܫܬܐ ܝܘܡܝܢ ('and after six days') and Vulgate post dies sex both place the numeral before the noun, reflecting standard Semitic and Latin word order respectively."
+      "note": "Greek and Latin order the temporal phrase as preposition + 'days' + numeral (μετὰ ἡμέρας ἕξ / post dies sex), whereas Syriac prefixes the conjunction-preposition ܘܒܬܪ to the verse opener and places the numeral before the noun (ܫܬܐ ܝܘܡܝܢ, 'six days'); the difference is purely idiomatic Semitic word order with no semantic change."
     },
     {
       "greek_nt": [
@@ -133,35 +133,55 @@
         5
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article ὁ with Ἰησοῦς, a standard Greek construction; Syriac ܕܒܪ ܝܫܘܥ and Latin assumit Jesus lack the article, as neither language requires it with proper names in this syntactic position."
+      "type": "lexical",
+      "note": "Greek παραλαμβάνει ('takes along') and Latin assumit closely match in sense, while Syriac ܕܒܪ (root d-b-r, 'led/took') employs a more general verb of leading; the Greek and Latin also articulate the subject (ὁ Ἰησοῦς / Jesus) which Syriac renders with the bare name ܝܫܘܥ following the verb in characteristic VSO order."
     },
     {
       "greek_nt": [
         7,
-        8,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek τὸν Πέτρον and Latin Petrum transliterate the Greek surname, but the Peshitta preserves the original Aramaic ܟܐܦܐ (Kepha, 'rock'), the underlying name behind Πέτρος; this is a consistent Syriac retention rather than a translation of the Greek form."
+    },
+    {
+      "greek_nt": [
         9,
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "aligned",
+      "note": "Ἰάκωβον / ܘܠܝܥܩܘܒ / Jacobum"
+    },
+    {
+      "greek_nt": [
         12,
         13,
         14
       ],
       "peshitta": [
-        5,
-        6,
         7
       ],
       "vulgate": [
-        6,
-        7,
-        8,
         9,
         10
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses repeated article-noun pairs (τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ τὸν Ἰωάννην) with polysyndeton; Vulgate mirrors this with Petrum, et Jacobum, et Joannem; Syriac employs a more compact construction ܠܟܐܦܐ ܘܠܝܥܩܘܒ ܘܠܝܘܚܢܢ with prefixed prepositions but without articles, reflecting typical Semitic asyndetic coordination."
+      "variant": "aligned",
+      "note": "Ἰωάννην / ܘܠܝܘܚܢܢ / Joannem"
     },
     {
       "greek_nt": [
@@ -180,7 +200,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἀναφέρει ('brings up') emphasizes upward motion; Syriac ܘܐܣܩ ('and he brought up') uses a cognate root; Vulgate ducit ('leads') is more general, lacking the explicit vertical directionality of the Greek and Syriac verbs."
+      "note": "Greek ἀναφέρει ('brings up') captures the ascent implied by the journey to a high mountain, the Syriac ܘܐܣܩ (root a-s-q, 'caused to go up') likewise carries the elative nuance, but the Latin ducit ('leads') is neutral and loses the upward sense; all three share the pronominal object (αὐτούς / ܐܢܘܢ / illos)."
     },
     {
       "greek_nt": [
@@ -197,8 +217,9 @@
         15,
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἰς ὄρος ὑψηλόν and Latin in montem excelsum use preposition + accusative noun + adjective; Syriac ܠܛܘܪܐ ܪܡܐ employs the prefixed lamadh and a postposed attributive adjective, an equivalent construction differing only in the Semitic adjectival syntax."
     },
     {
       "greek_nt": [
@@ -214,8 +235,8 @@
         18
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase κατ᾽ ἰδίαν μόνους ('apart, alone') with two terms for emphasis; Vulgate employs seorsum solos, mirroring the Greek doublet; Syriac condenses this to the single adverbial phrase ܒܠܚܘܕܝܗܘܢ ('by themselves alone'), achieving the same semantic force with greater economy."
+      "type": "idiom",
+      "note": "Greek glosses the privacy with two expressions, the adverbial phrase κατ᾽ ἰδίαν ('privately') plus μόνους ('alone'), and Latin matches with seorsum solos; the Syriac compresses both into the single reflexive ܒܠܚܘܕܝܗܘܢ ('by themselves'), an idiomatic contraction with no loss of meaning."
     },
     {
       "greek_nt": [
@@ -232,7 +253,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek καὶ μετεμορφώθη is a simple aorist passive construction; Syriac ܘܐܬܚܠܦ uses the ethpeel (passive-reflexive) stem; Vulgate expands to transfiguratus est with auxiliary verb, a periphrastic construction typical of later Latin prose style."
+      "note": "Greek expresses the transfiguration with conjunction + aorist passive μετεμορφώθη, Latin renders it periphrastically with transfiguratus est, and Syriac ܘܐܬܚܠܦ (Ethpaʿel of kh-l-p, 'was changed/transformed') uses a derived reflexive-passive stem; the Syriac root denotes 'change/exchange' rather than the morphological 'transformation' (μεταμορφόω) of the Greek, a lexically broader but functionally equivalent rendering."
     },
     {
       "greek_nt": [
@@ -246,14 +267,15 @@
         22,
         23
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔμπροσθεν αὐτῶν and Latin coram ipsis both mean 'before/in the presence of them'; the Syriac ܠܥܢܝܗܘܢ (root e-n-y) is an idiomatic phrase 'in their sight/before their eyes', conveying the same locative-visual sense through a distinct lexeme."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.229488+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.508473+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

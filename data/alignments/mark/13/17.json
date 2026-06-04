@@ -55,8 +55,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -68,8 +67,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -86,7 +84,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs an articular participial construction (ταῖς ἐν γαστρὶ ἐχούσαις, 'to those having [child] in womb') with dative article, preposition, and present participle. Latin uses a single dative participle (prægnantibus) and Syriac a single noun (ܠܒܛܢܬܐ, 'to pregnant-women'), both achieving semantic equivalence through more compact morphology."
+      "note": "Greek expresses 'pregnant women' with a full periphrastic idiom (ταῖς ἐν γαστρὶ ἐχούσαις, lit. 'those having in the womb'), a classical Greek expression for pregnancy. Both Peshitta ܠܒܛܢܬܐ (from root b-T-n, 'belly/womb') and Vulgate prægnantibus collapse this into a single substantival participle/noun, a more economical idiomatic rendering."
     },
     {
       "greek_nt": [
@@ -98,8 +96,7 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -107,7 +104,6 @@
         8
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
@@ -115,33 +111,51 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek repeats the dative article (ταῖς θηλαζούσαις, 'to the [ones] nursing') in parallel structure with the preceding phrase. Syriac employs a relative construction (ܘܠܐܝܠܝܢ ܕܡܝܢܩܢ, 'and to those who nurse'), while Latin uses a bare participle (nutrientibus). All three convey identical referents through tradition-specific syntactic preferences."
+      "note": "Greek uses an articular substantival participle (ταῖς θηλαζούσαις, 'the nursing ones') and the Peshitta a relative clause ܠܐܝܠܝܢ ܕܡܝܢܩܢ ('to those who nurse', root y-n-q), whereas the Vulgate employs a bare present participle nutrientibus; all three are semantically equivalent but differ in the syntactic packaging of the head and modifier."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "ἐκείναις / illis demonstrative; Syriac fuses preposition and demonstrative in ܒܗܢܘܢ."
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        5,
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the preposition ἐν before the demonstrative ἐκείναις and repeats the article before ἡμέραις (ἐν ἐκείναις ταῖς ἡμέραις), reflecting classical Greek article usage. Latin mirrors this order (in illis diebus) without article repetition. Syriac inverts to demonstrative-first (ܒܗܢܘܢ ܝܘܡܬܐ, 'in-those days'), a standard Semitic demonstrative-noun pattern, with no article since Syriac lacks the Greek article system."
+      "variant": "aligned"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.030905+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.479282+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

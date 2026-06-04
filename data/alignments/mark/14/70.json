@@ -87,20 +87,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὁ δέ uses the article with postpositive conjunction; Latin At ille employs a strong adversative with demonstrative pronoun; Syriac ܗܘ ܕܝܢ mirrors the Greek structure with pronoun plus postpositive particle—semantically equivalent but reflecting different stylistic conventions."
+      "note": "Greek postpositive δέ and Syriac ܕܝܢ are both adversative particles in second position; the Vulgate renders this with the fronted conjunction At, a typical Latin word-order adjustment that places the contrastive marker initially rather than enclitically."
     },
     {
       "greek_nt": [
@@ -124,26 +132,35 @@
       "vulgate": [
         3
       ],
+      "variant": "minor",
+      "note": "Greek ἠρνεῖτο is imperfect ('he kept denying'), expressing durative/iterative aspect, whereas both the Syriac perfect ܟܦܪ and the Latin perfect negavit render it as a completed act; the aspectual nuance of the Greek is lost in both versions."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        4,
         5,
         6
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ μετὰ μικρόν uses conjunction plus prepositional phrase with accusative adjective; Syriac ܘܒܬܪ ܩܠܝܠ employs a compound preposition with adjective; Latin Et post pusillum follows Greek structure closely—all three express 'and after a little while' with minor syntactic variation."
+      "note": "Greek μετὰ μικρὸν and Latin post pusillum are prepositional phrases ('after a little [while]'); the Syriac compresses the preposition into the prefixed ܘܒܬܪ with ܩܠܝܠ ('and after a little'), an equivalent temporal construction."
     },
     {
       "greek_nt": [
@@ -171,8 +188,7 @@
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek οἱ παρεστῶτες uses article plus perfect active participle; Latin qui astabant employs relative pronoun plus imperfect indicative; Syriac ܗܢܘܢ ܕܩܝܡܝܢ uses demonstrative plus relative particle with active participle—three distinct syntactic strategies for 'those standing by' with identical referential meaning."
+      "note": "Greek uses an articular perfect participle οἱ παρεστῶτες ('those standing by'); Latin renders it as a relative clause qui astabant and Syriac as a relative construction ܗܢܘܢ ܕܩܝܡܝܢ — semantically equivalent substantival expressions but syntactically distinct (participle vs. finite relative clause)."
     },
     {
       "greek_nt": [
@@ -200,16 +216,6 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        12
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon to mark direct speech, a punctuation convention absent from the Greek and Syriac manuscript traditions which rely on context alone to signal the quotation boundary."
-    },
-    {
       "greek_nt": [
         13
       ],
@@ -233,7 +239,8 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek ἐξ αὐτῶν and Latin ex illis are preposition + pronoun ('of them'); Syriac fuses this into the single inflected form ܡܢܗܘܢ with enclitic 3mp suffix, a normal Semitic synthetic construction conveying the same partitive sense."
     },
     {
       "greek_nt": [
@@ -248,16 +255,6 @@
       "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        17
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate again inserts a colon mid-sentence to separate clauses, reflecting Latin rhetorical punctuation practice not present in the Greek or Syriac textual witnesses."
-    },
-    {
       "greek_nt": [
         17,
         18
@@ -270,9 +267,7 @@
         18,
         19
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek καὶ γάρ places the conjunction before the causal particle; Syriac ܐܦ ܓܝܪ mirrors this order; Latin nam et inverts to 'for also'—a stylistic preference in Latin prose that does not alter the logical force of the clause."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -310,16 +305,14 @@
         18,
         19
       ],
-      "vulgate": [],
       "variant": "major",
-      "type": "omission",
-      "note": "Greek and Syriac attest the clause 'and your speech resembles [theirs]' (καὶ ἡ λαλιά σου ὁμοιάζει / ܘܡܡܠܠܟ ܕܡܐ), identifying Peter by his Galilean accent. The Vulgate omits this entire clause, possibly due to homoioteleuton (both clauses ending with 'es') or deliberate abbreviation in the Latin textual tradition."
+      "note": "The Greek clause καὶ ἡ λαλιά σου ὁμοιάζει ('and your speech is similar [to theirs]') is partially attested by the Syriac ܘܡܡܠܠܟ ܕܡܐ ('and your speech resembles'), which preserves the sense though more tersely; the Vulgate omits this entire clause, a known textual shortening also reflected in some Greek witnesses, ending the verse at Galilæus es."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.045936+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.554640+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

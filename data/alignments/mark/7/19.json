@@ -78,7 +78,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ὅτι / ܕ- (in ܕܠܐ) / quia — causal conjunction."
     },
     {
       "greek_nt": [
@@ -91,7 +91,7 @@
         1
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Negation οὐκ / ܠܐ / non; the Syriac fuses the conjunction and negator into the single proclitic form ܕܠܐ, so index 0 serves a double role here."
     },
     {
       "greek_nt": [
@@ -105,66 +105,43 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "The Peshitta places the verb ܥܐܠ ('enters') after the destination phrase ܠܠܒܗ ('to his heart'), whereas Greek and Latin position the verb before the destination (εἰσπορεύεται... εἰς τὴν καρδίαν / intrat in cor). This reflects typical Syriac VSO word order versus Greek/Latin SVO patterns."
+      "note": "Greek εἰσπορεύεται and Latin intrat front the verb after the negation, whereas the Peshitta ܥܐܠ ('enters') is postponed until after the prepositional phrase ܠܠܒܗ, reflecting standard Syriac clause order; the verbal sense is identical."
     },
     {
       "greek_nt": [
+        4,
+        5,
+        6,
         3
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
+        3,
+        4,
         5
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the genitive pronoun αὐτοῦ ('of him') as a possessive modifier, while Syriac employs a pronominal suffix on ܠܠܒܗ ('to-his-heart') and Latin uses the possessive ejus. All three express identical possessive semantics through different morphological strategies."
+      "type": "construction",
+      "note": "Greek expresses 'into his heart' analytically with preposition + article + noun + postposed genitive pronoun (εἰς τὴν καρδίαν ... αὐτοῦ), and Latin similarly with in cor ejus; the Peshitta compresses the whole phrase into the single inflected form ܠܠܒܗ (l- 'to' + lebbā 'heart' + -eh '3ms suffix'), a typically Semitic synthetic construction."
     },
     {
       "greek_nt": [
-        4,
-        5,
-        6
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        3,
-        4
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        6
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        8,
-        9,
-        10
-      ],
-      "peshitta": [
-        5
-      ],
-      "vulgate": [
         7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        6,
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Adversative ἀλλά / ܐܠܐ / sed introduces the contrast 'but into the belly'; Greek and Latin repeat the preposition εἰς/in, while Syriac again synthesises preposition and suffix into ܠܟܪܣܗ ('to his belly'). The duplicated token at Greek index 8 is the editorial transliteration gloss of index 7 and carries no independent text."
     },
     {
       "greek_nt": [
@@ -173,27 +150,28 @@
         13,
         14
       ],
-      "peshitta": [],
       "vulgate": [
         10,
         11,
         12
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Peshitta omits the entire phrase καὶ εἰς τὸν ἀφεδρῶνα ('and into the sewer/latrine'), which is present in both Greek and Latin (et in secessum). This omission may reflect scribal sensitivity to graphic physiological detail or represent a distinct Vorlage tradition."
+      "variant": "added",
+      "type": "expansion",
+      "note": "Greek 'καὶ εἰς τὸν ἀφεδρῶνα' ('and into the latrine/sewer') is paralleled by Latin et in secessum, but the Peshitta has no corresponding phrase, omitting the explicit mention of the privy and condensing the digestive imagery into the single verb ܘܡܫܬܕܐ ('and is cast out')."
     },
     {
       "greek_nt": [
         15
       ],
-      "peshitta": [],
+      "peshitta": [
+        6
+      ],
       "vulgate": [
         13
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἐκπορεύεται ('goes out') and Latin exit are replaced in the Peshitta by ܘܡܫܬܕܐ ('and is cast out/expelled'), which appears earlier in the clause structure. The Peshitta employs a passive construction where Greek/Latin use active voice, altering both syntax and theological nuance regarding agency in the digestive process."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐκπορεύεται and Latin exit denote intransitive 'goes/passes out', whereas the Peshitta ܘܡܫܬܕܐ (Ethpaʿal of sh-d-a, 'is thrown/cast out') is a passive of expulsion, a slightly different voice and image for the same evacuation."
     },
     {
       "greek_nt": [
@@ -206,9 +184,9 @@
       "vulgate": [
         14
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a present active participle καθαρίζων ('purifying') modifying the subject, while Latin mirrors this with the present participle purgans. The Peshitta employs a prepositional phrase ܒܬܕܟܝܬܐ ܕܡܕܟܝܐ ('in purity/cleansing that purifies'), transforming the participial construction into a nominal phrase with a relative clause, fundamentally restructuring the syntax while preserving the semantic content."
+      "note": "Greek καθαρίζων and Latin purgans render the cleansing idea with a single masculine participle, while the Peshitta employs a cognate-accusative-like double construction ܒܬܕܟܝܬܐ ܕܡܕܟܝܐ ('in/with the cleansing that cleanses', both from root d-k-y), an emphatic Syriac periphrasis stressing the purifying effect."
     },
     {
       "greek_nt": [
@@ -226,32 +204,20 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses the neuter plural πάντα τὰ βρώματα ('all the foods'), Latin employs omnes escas (feminine plural), while Syriac uses the singular ܟܠܗ ܡܐܟܘܠܬܐ ('all food/the whole food'). The Syriac singular represents a collective noun idiom typical of Semitic languages, semantically equivalent to the Greek/Latin plurals."
+      "note": "Greek πάντα τὰ βρώματα and Latin omnes escas use the plural ('all the foods'); the Peshitta ܟܠܗ ܡܐܟܘܠܬܐ uses the singular collective ܡܐܟܘܠܬܐ ('all the food/foodstuff'), a typical Syriac collective idiom for the mass-noun."
     },
     {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta inserts the copula ܗܘܐ ('it is/was') as an auxiliary verb, a common Syriac grammatical feature absent from the Greek and Latin, which rely on the main verb alone. This represents stylistic expansion rather than semantic divergence."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         17
       ],
-      "variant": "minor",
+      "variant": "added",
       "type": "punctuation",
-      "note": "The Vulgate uniquely terminates the verse with an interrogative mark (?), transforming the declarative statement in Greek and Peshitta into a rhetorical question. This punctuation choice reflects Latin interpretive tradition regarding Jesus's pedagogical method in this discourse."
+      "note": "The Clementine Vulgate terminates the clause with an interrogative mark, reading the verse as a rhetorical question ('...does it not enter...?'), an exegetical punctuation choice absent from the Greek (which ends with a full stop) and unmarked in the Peshitta."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.990546+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.486575+00:00",
     "confidence": 0.78,
     "schema_version": 1
   }

@@ -93,11 +93,12 @@
         2
       ],
       "vulgate": [
-        0,
-        1
+        1,
+        0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek and Syriac both open with the resumptive construction (ὁ δὲ Ἰησοῦς / ܗܘ ܕܝܢ ܝܫܘܥ, 'But Jesus'); the Vulgate reorders to Jesus autem, placing the proper noun first per Latin convention while preserving the adversative postpositive."
     },
     {
       "greek_nt": [
@@ -109,12 +110,20 @@
       ],
       "vulgate": [
         2,
-        3,
-        4
+        3
       ],
       "variant": "minor",
       "type": "expansion",
-      "note": "The Peshitta adds the indirect object pronoun ܠܗ ('to him'), making the addressee explicit, while Greek uses no dative pronoun. The Vulgate similarly adds 'illi' as dative indirect object, reflecting a common tendency in both traditions to clarify the recipient of speech."
+      "note": "Greek εἶπεν is intransitive here, whereas both the Peshitta (ܐܡܪ ܠܗ) and the Vulgate (dixit illi) supply an explicit dative indirect object 'to him'; this is a common Semitic and Latin tendency to render the addressee of speech overtly."
+    },
+    {
+      "greek_nt": [],
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts an explicit colon marking the onset of direct speech, a feature absent from the unpunctuated Greek and Syriac source streams."
     },
     {
       "greek_nt": [
@@ -127,27 +136,48 @@
       ],
       "vulgate": [
         5,
-        6,
-        7
+        6
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "The Peshitta employs the emphatic double ܐܢܐ ܐܢܐ ('I am, I am'), a Semitic intensification pattern mirroring the Greek ἐγώ εἰμι. The Vulgate inserts a colon after 'sum', creating a rhetorical pause absent in the Greek, likely reflecting Latin liturgical reading conventions."
+      "note": "Greek ἐγώ εἰμι and Latin Ego sum are the classic 'I am' self-declaration; the Peshitta renders this with the doubled independent pronoun ܐܢܐ ܐܢܐ, a Syriac idiom expressing emphatic predication ('I am [he]') where the second ܐܢܐ functions as enclitic copula."
+    },
+    {
+      "greek_nt": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "A second editorial colon in the Vulgate closes the 'Ego sum' declaration and segments the following clause; no equivalent punctuation exists in the Greek or Syriac witnesses."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / et coordinating conjunction."
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        8,
         9
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "Greek ὄψεσθε and the Syriac ܘܬܚܙܘܢ are fused with the conjunction in the Peshitta orthography; future-tense 'you will see'."
     },
     {
       "greek_nt": [
@@ -165,75 +195,133 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "τὸν υἱὸν τοῦ ἀνθρώπου / ܠܒܪܗ ܕܐܢܫܐ / Filium hominis, 'the Son of Man'."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an accusative participle καθήμενον in agreement with υἱόν, and Latin matches with the participle sedentem; the Peshitta instead employs a finite relative clause ܕܝܬܒ ('who sits'), a syntactically distinct but semantically equivalent Syriac construction."
     },
     {
       "greek_nt": [
         12,
+        13
+      ],
+      "peshitta": [
+        11,
+        12
+      ],
+      "vulgate": [
         13,
-        14,
+        14
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐκ δεξιῶν / ܡܢ ܝܡܝܢܐ / a dextris, 'at the right hand'."
+    },
+    {
+      "greek_nt": [
         15,
         16
       ],
       "peshitta": [
-        10,
-        11,
-        12,
         13
       ],
       "vulgate": [
-        12,
-        13,
-        14,
         15,
         16
       ],
       "variant": "major",
       "type": "expansion",
-      "note": "The Vulgate adds 'Dei' after 'virtutis', making explicit that 'Power' refers to God, whereas Greek τῆς δυνάμεως and Peshitta ܕܚܝܠܐ use 'Power' as a reverential circumlocution for the divine name without further specification. This represents a Western exegetical clarification of a Jewish periphrasis for the Tetragrammaton."
+      "note": "Greek reads τῆς δυνάμεως ('of the Power') as an absolute reverential circumlocution for God; the Syriac ܕܚܝܠܐ matches this bare 'of Power', whereas the Vulgate expands to virtutis Dei ('of the Power of God'), an interpretive gloss making the divine referent explicit."
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- / et coordinating the second participle."
+    },
+    {
+      "greek_nt": [
         18
       ],
       "peshitta": [
         14
       ],
       "vulgate": [
-        17,
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐρχόμενον and Latin venientem are accusative participles agreeing with the Son of Man; the Peshitta ܘܐܬܐ is a coordinated finite verb ('and comes'), continuing the relative-clause style adopted earlier rather than a participial chain."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek μετά (+ genitive, 'with') and Latin cum render accompaniment; the Syriac uses ܥܠ ('upon/on'), reflecting the Old Testament Danielic imagery of riding upon the clouds (cf. Dan 7:13) rather than mere accompaniment."
+    },
+    {
+      "greek_nt": [
         20,
-        21,
+        21
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τῶν νεφελῶν / ܥܢܢܝ / nubibus, 'the clouds'."
+    },
+    {
+      "greek_nt": [
         22,
         23
       ],
       "peshitta": [
-        15,
-        16,
         17
       ],
       "vulgate": [
-        19,
-        20,
         21
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses μετὰ τῶν νεφελῶν τοῦ οὐρανοῦ ('with the clouds of heaven') with genitive construction; Syriac employs ܥܠ ܥܢܢܝ ܫܡܝܐ ('upon the clouds of heaven') with the preposition ܥܠ suggesting motion or position 'upon/over'; Latin 'cum nubibus caeli' mirrors the Greek prepositional structure. The Syriac preposition reflects a slightly different spatial metaphor, though the eschatological imagery remains equivalent."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τοῦ οὐρανοῦ / ܫܡܝܐ / cæli, 'of heaven'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.044618+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.495918+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

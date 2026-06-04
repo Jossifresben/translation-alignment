@@ -58,29 +58,19 @@
     {
       "greek_nt": [
         0,
-        1
-      ],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "type": "omission",
-      "note": "The Peshitta omits the Greek article and postpositive conjunction (Ὁ δὲ), beginning directly with the verb. The Vulgate retains the adversative particle as 'autem', maintaining the Greek's contrastive function."
-    },
-    {
-      "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
         2
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "The Vulgate places 'Jesus' before 'autem' in first position, while Greek and Peshitta position the subject after the conjunction/verb respectively, reflecting Latin rhetorical preference for subject-initial clauses."
+      "note": "Greek opens with the articular subject and the postpositive connective δέ (Ὁ δὲ Ἰησοῦς), a construction matched by Vulgate Jesus autem; the Peshitta places the verb first (ܐܡܪ ܠܗ ܝܫܘܥ) with no connective particle, reflecting standard Syriac verb-initial clause order and the omission of the adversative δέ."
     },
     {
       "greek_nt": [
@@ -92,7 +82,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "εἶπεν / ܐܡܪ / ait."
     },
     {
       "greek_nt": [
@@ -105,9 +97,9 @@
         3,
         4
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate explicitly marks the direct discourse with a colon after 'illi', whereas Greek uses a raised dot (·) and Peshitta employs no punctuation, reflecting differing manuscript conventions for introducing speech."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Dative αὐτῷ / ܠܗ / illi, with the Vulgate's editorial colon (idx 4) folded in here."
     },
     {
       "greek_nt": [
@@ -120,41 +112,31 @@
       "vulgate": [
         5
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek employs the articular infinitive construction (τὸ εἰ δύνῃ) to nominalize the conditional clause, creating a substantival phrase meaning 'the [matter of] if you can'. Both Peshitta and Vulgate render this as a simple conditional protasis without nominalization, treating it as a straightforward 'if' clause."
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4,
-        5
-      ],
-      "vulgate": [
-        6
-      ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds the explicit subject pronoun ܐܢܬ ('you'), which is grammatically unnecessary in Syriac but provides emphasis. Greek and Latin encode the subject within the verbal morphology alone (δύνῃ, potes)."
+      "type": "construction",
+      "note": "The Greek attests the unusual articular conditional τὸ εἰ ('the [matter of] \"if\"'), a quasi-quotation of the father's prior words and the harder NA28 reading; both the Peshitta (ܐܢ) and the Vulgate (Si) simplify to a plain conditional particle, dropping the substantivising article τό."
     },
     {
       "greek_nt": [
+        7,
         8
       ],
       "peshitta": [
+        4,
+        5,
         6
       ],
       "vulgate": [
+        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek δύνῃ πιστεῦσαι ('you are able to believe') uses a finite modal verb plus complementary aorist infinitive, closely paralleled by Vulgate potes credere; the Peshitta expands to ܡܫܟܚ ܐܢܬ ܕܬܗܝܡܢ, supplying the explicit pronominal subject ܐܢܬ and a finite subordinate verb introduced by ܕ, an idiomatic Syriac periphrasis for the infinitival complement."
     },
     {
       "greek_nt": [
-        9,
-        10
+        9
       ],
       "peshitta": [
         7,
@@ -165,10 +147,12 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek uses the neuter plural adjective πάντα as a substantive ('all things'); Peshitta employs the distributive construction ܟܠ ܡܕܡ (literally 'every thing'); Vulgate uses the singular collective 'omnia'. All three express totality through different grammatical strategies typical of their respective languages."
+      "note": "Greek neuter plural πάντα ('all things') and Latin omnia render the totality with a single substantivised word, whereas the Peshitta uses the analytic phrase ܟܠ ܡܕܡ ('every thing'), the standard Syriac idiom for the abstract 'everything.'"
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        10
+      ],
       "peshitta": [
         9,
         10
@@ -177,9 +161,9 @@
         9,
         10
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek expresses possibility through the adjective δυνατά ('possible [things]') with an implied copula. Peshitta and Vulgate both use finite verbal constructions: Syriac ܡܫܟܚ ܕܢܗܘܐ ('is able to be') and Latin 'possibilia sunt' ('are possible'), making the existential predication explicit."
+      "note": "Greek predicate adjective δυνατά ('[are] possible') with implied copula is matched by Vulgate possibilia sunt; the Peshitta recasts this with the verb of possibility plus an infinitive of becoming, ܡܫܟܚ ܕܢܗܘܐ ('it is possible that it should come to be'), shifting from an adjectival predication to a verbal one."
     },
     {
       "greek_nt": [
@@ -195,13 +179,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the articular present participle τῷ πιστεύοντι (dative substantival participle, 'to the one believing'); Peshitta employs a prepositional phrase with relative particle ܠܡܢ ܕܡܗܝܡܢ ('to the one who believes'); Vulgate uses a simple present participle 'credenti'. All three express agency through participial constructions but with varying degrees of syntactic complexity."
+      "note": "Greek substantivises the participle with the dative article (τῷ πιστεύοντι, 'to the one believing'), as does the Latin participle credenti; the Peshitta employs a relative construction ܠܡܢ ܕܡܗܝܡܢ ('to whoever believes'), the customary Syriac equivalent of the Greek articular participle."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.233344+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.528074+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

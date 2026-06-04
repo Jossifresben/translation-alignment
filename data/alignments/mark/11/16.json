@@ -56,8 +56,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -69,8 +68,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The Greek negative particle οὐκ and Latin non are discrete words, whereas Syriac fuses the conjunction and negation into the single proclitic form ܘܠܐ ('and not'); the same Syriac token thus serves both the coordinating and negating function."
     },
     {
       "greek_nt": [
@@ -84,24 +83,32 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "The Peshitta employs a periphrastic construction ܫܒܩ ܗܘܐ (šbaq hwā, 'was permitting') using the verb 'to be' plus active participle, whereas Greek uses the simple imperfect ἤφιεν and Latin the simple imperfect sinebat. This is a characteristic Syriac idiom for expressing continuous past action, semantically equivalent to the Greek and Latin simple forms."
+      "note": "Greek ἤφιεν is a synthetic imperfect of ἀφίημι ('was permitting'); Latin sinebat matches it with a single imperfect. Syriac renders the durative past periphrastically with the perfect ܫܒܩ plus the auxiliary ܗܘܐ, a standard Aramaic construction for continuous past action."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses ἵνα τις ('that anyone') with the conjunction followed by the indefinite pronoun, and Latin mirrors this with ut quisquam. Syriac employs the compound relative-indefinite ܕܐܢܫ (d-'nāš, 'that-anyone'), a single lexeme performing the function of both Greek words—a typical Semitic compression of the Greek construction."
+      "note": "Greek ἵνα τις and Latin ut quisquam keep the conjunction and indefinite pronoun separate, whereas Syriac contracts the relative-conjunction and the noun ܐܢܫ ('a person/anyone') into the single token ܕܐܢܫ, so the indefinite subject and subordinator share one form."
     },
     {
       "greek_nt": [
@@ -113,9 +120,7 @@
       "vulgate": [
         5
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek διενέγκῃ (from διαφέρω, 'carry through/across') emphasizes movement through space, while Latin transferret (from transfero) and Syriac ܢܥܒܪ (ne'bar, 'pass/cross') both denote crossing or transferring. The Syriac and Latin verbs are semantically closer to each other than to the Greek compound, though all three convey the prohibition of transporting objects through the temple precincts."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -127,8 +132,7 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -142,8 +146,7 @@
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition διά with the genitive article τοῦ ('through the'), and Latin uses per without an article (as Latin lacks articles). Syriac employs ܒܓܘ (b-gaw, 'in-the-midst-of'), a compound preposition that conveys interior passage rather than simple traversal, reflecting a slightly different spatial conceptualization while maintaining the same prohibition."
+      "note": "Greek expresses motion 'through' with διά plus the genitive article τοῦ; Latin uses the simple preposition per without an article; Syriac employs the compound locative ܒܓܘ ('within/in the midst of'), which shifts the nuance from passage 'through' toward movement 'inside' the precinct."
     },
     {
       "greek_nt": [
@@ -155,24 +158,21 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         9
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate adds a colon at verse end, marking a stronger pause before the following verse. This punctuation choice reflects Latin rhetorical convention and does not represent a textual variant in the underlying Greek or Syriac witnesses."
+      "note": "The Clementine Vulgate closes the clause with a colon, marking continuation into the following teaching; neither the Greek (which ends with a full stop here) nor the Syriac carries an equivalent discourse-level punctuation mark at this point."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.017677+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.487412+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -57,20 +57,30 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses postpositive δέ ('now/and'); Vulgate employs the adversative At ('but'); Syriac uses ܕܝܢ (dēn), which functions as both continuative and adversative particle. All three mark narrative transition but with slightly different rhetorical force."
+      "type": "construction",
+      "note": "The Greek substantival article οἱ ('they/the ones') is rendered by the Syriac demonstrative pronoun ܗܢܘܢ and the Latin demonstrative illi; all three express the resumptive subject, but Greek achieves it with the bare article whereas Syriac and Latin require an explicit pronominal form."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "δέ / ܕܝܢ / At"
     },
     {
       "greek_nt": [
@@ -82,7 +92,8 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἤρξαντο / ܫܪܝܘ / cœperunt"
     },
     {
       "greek_nt": [
@@ -94,23 +105,34 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "λυπεῖσθαι / ܡܬܬܥܝܩܝܢ / contristari"
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et"
+    },
+    {
+      "greek_nt": [
         5
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs καὶ + infinitive (καὶ λέγειν) to coordinate two infinitival complements of ἤρξαντο; Vulgate mirrors this with et dicere; Syriac uses a single coordinating waw on the finite verb ܘܐܡܪܝܢ (wa-'marin), converting the second infinitive into a finite form—a typical Semitic preference for parataxis over subordination."
+      "variant": "aligned",
+      "note": "λέγειν / ܘܐܡܪܝܢ / dicere; the Syriac fuses the conjunction and verb into a single token ܘܐܡܪܝܢ, which also covers the preceding καί."
     },
     {
       "greek_nt": [
@@ -122,7 +144,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / ei"
     },
     {
       "greek_nt": [
@@ -139,23 +162,33 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek uses the distributive phrase εἷς κατὰ εἷς ('one by one'); Syriac employs the reduplicated ܚܕ ܚܕ (ḥaḏ ḥaḏ), a standard Semitic distributive construction; Vulgate renders with the adverb singulatim ('individually'). All three express the same distributive sense through language-specific idioms."
+      "note": "Greek uses the distributive periphrasis εἷς κατὰ εἷς ('one by one'), an idiomatic colloquialism with κατά governing the nominative; Syriac renders it by simple reduplication ܚܕ ܚܕ, the standard Semitic distributive; Latin compresses the whole expression into the single adverb singulatim, a more polished classical rendering."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "μήτι / ܠܡܐ / Numquid, the interrogative particle expecting a negative answer."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        9,
-        10,
-        11
+        10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἐγώ / ܐܢܐ / ego"
     },
     {
       "greek_nt": [
@@ -164,27 +197,26 @@
         14,
         15
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
-      "type": "expansion",
-      "note": "Greek NA28 includes a second iteration of the question (καὶ ἄλλος, μήτι ἐγώ; 'and another, surely not I?'), creating a double query structure. Neither the Peshitta nor the Vulgate attest this repetition, suggesting it may represent a Western non-interpolation or a later Greek expansion to emphasize the disciples' individual anxiety."
+      "type": "omission",
+      "note": "The Greek transmits a doubled, expansive form of the disciples' question — καὶ ἄλλος, μήτι ἐγώ; ('and another, Surely not I?'), reflecting the repeated individual questioning of εἷς κατὰ εἷς. Both the Peshitta and the Vulgate (ending after a single Numquid ego?) omit this second clause, presenting only one instance of the question, a common abridgement of the redundant Greek phrasing."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        8
+        8,
+        11
       ],
-      "variant": "added",
+      "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after singulatim to mark the transition from narrative description to direct speech. This punctuation convention is absent in Greek manuscripts (which use a raised dot or no mark) and irrelevant to Syriac, which lacks comparable punctuation in early witnesses."
+      "note": "The Vulgate's colon (introducing direct speech) and terminal question mark have no lexical counterpart in the Greek or Syriac token streams, which mark the interrogative purely by particle and editorial pointing; they are punctuation artefacts of the Clementine edition."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.037689+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.536957+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

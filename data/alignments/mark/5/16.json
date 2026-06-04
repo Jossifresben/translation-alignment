@@ -60,8 +60,7 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        2
+        0
       ],
       "peshitta": [
         0
@@ -70,8 +69,8 @@
         0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek employs two coordinating conjunctions (καὶ ... δὲ) for stylistic variation, while Peshitta and Vulgate each use a single conjunction (ܘ / Et). This represents a typical Greek literary doublet reduced to simpler coordination in translation."
+      "type": "construction",
+      "note": "The Greek prefixes the clause with καί and additionally carries a postpositive δέ (token 2), giving a doubled connective typical of Markan style; Syriac fuses the conjunction into the verb (ܘܐܫܬܥܝܘ) and Latin renders only Et, both dropping the second connective particle."
     },
     {
       "greek_nt": [
@@ -83,7 +82,17 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "διηγήσαντο / ܐܫܬܥܝܘ / narraverunt — 'they recounted', all three in finite plural narrative tense."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The postpositive δέ has no counterpart in either the Syriac or the Latin, which express the connective force solely through the initial conjunction; its omission is a routine stylistic simplification in the versions."
     },
     {
       "greek_nt": [
@@ -95,7 +104,9 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis — dative plural pronoun 'to them'."
     },
     {
       "greek_nt": [
@@ -111,8 +122,8 @@
         4
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article + participle construction (οἱ ἰδόντες) with the article preceding; Vulgate employs a relative pronoun + finite verb (qui viderant); Peshitta uses demonstrative + relative particle + verb (ܗܢܘܢ ܕܚܙܘ). All three express 'those who saw' but through language-specific syntactic patterns."
+      "type": "construction",
+      "note": "Greek uses an articular substantival participle (οἱ ἰδόντες, 'those who saw'); Latin recasts this as a relative clause with a pluperfect (qui viderant); Syriac employs the demonstrative ܗܢܘܢ plus the relative-marked verb ܕܚܙܘ, a double-headed relative construction — semantically equivalent but syntactically distinct."
     },
     {
       "greek_nt": [
@@ -124,7 +135,9 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πῶς / ܕܐܝܟܢܐ / qualiter — interrogative-manner adverb 'how / in what way'."
     },
     {
       "greek_nt": [
@@ -138,8 +151,8 @@
         7
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Peshitta use simple finite verbs (ἐγένετο / ܗܘܐ), while Vulgate employs a passive periphrastic construction (factum esset) with subjunctive mood in indirect discourse, reflecting Latin syntactic preference for subordinate clause mood."
+      "type": "grammar",
+      "note": "Greek ἐγένετο is aorist indicative ('it happened'); Latin renders it with the periphrastic pluperfect subjunctive factum esset, as required after qualiter in an indirect question; Syriac ܗܘܐ is a simple perfect, neutral as to mood."
     },
     {
       "greek_nt": [
@@ -156,9 +169,9 @@
         10,
         11
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the present participle δαιμονιζομένῳ ('to the one being demonized') with article; Peshitta employs a relative clause with noun ܕܫܐܕܘܗܝ ('who had demons'); Vulgate expands to a relative clause with perfect verb habuerat ('who had had a demon'), making the possession temporally explicit and using the singular dæmonium versus Greek's implied plurality."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an articular present passive participle (τῷ δαιμονιζομένῳ, 'to the one being demon-possessed'); Latin expands into a relative clause with a noun-plus-verb idiom (qui dæmonium habuerat, 'who had had a demon'); Syriac ܠܗܘ ܕܫܐܕܘܗܝ literally 'to him whose demons [were]', a possessive relative phrasing."
     },
     {
       "greek_nt": [
@@ -172,32 +185,43 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Peshitta uses the emphatic conjunction ܘܐܦ ('and also/even') where Greek and Latin employ simple coordination (καὶ / et), adding mild emphasis to the second element of the narrative."
+      "note": "Greek and Latin use the plain connective καί / et; Syriac strengthens it to ܘܐܦ ('and also'), an emphatic additive nuance not explicit in the other two witnesses."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "περί / ܥܠ / de — preposition 'concerning, about'."
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
       "peshitta": [
-        9,
         10,
         11
       ],
       "vulgate": [
-        13,
         14
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase περὶ τῶν χοίρων ('concerning the pigs') with article; Vulgate mirrors this with de porcis; Peshitta employs ܥܠ ܗܢܘܢ ܚܙܝܪܐ with demonstrative ܗܢܘܢ ('concerning those pigs'), making the reference slightly more deictic but semantically equivalent."
+      "note": "Greek marks the noun with the genitive article (τῶν χοίρων); Syriac supplies a demonstrative ܗܢܘܢ before ܚܙܝܪܐ ('those swine'), giving anaphoric definiteness; Latin porcis has no article, definiteness being carried by context alone."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.973010+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.535070+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

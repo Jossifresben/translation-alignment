@@ -97,7 +97,7 @@ benchmark statistics.
                        "word-order", "construction", "idiom", "punctuation",
                        "grammar", "lexical", "gloss"],
   "alignment_generation": {
-    "model": "claude-sonnet-4-5",
+    "model": "claude-opus-4-8",
     "via":   "Anthropic Messages Batch API",
     "benchmark": {
       "name": "Berean Interlinear Bible",
@@ -163,8 +163,8 @@ analysis on the variant graph itself.
     }
   ],
   "meta": {
-    "generated_by":   "claude-sonnet-4-5",
-    "generated_at":   "2026-04-23T...",
+    "generated_by":   "claude-opus-4-8",
+    "generated_at":   "2026-06-04T...",
     "confidence":     0.91,
     "schema_version": 1
   }

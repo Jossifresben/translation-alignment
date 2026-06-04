@@ -70,8 +70,9 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses καί followed by a genitive absolute participle (ἐξελθόντος αὐτοῦ), while the Peshitta renders the temporal clause analytically with ܘܟܕ ('and when') plus a finite verb. The Vulgate Et + dative participle (exeunti ei) follows the Greek participial syntax more closely."
     },
     {
       "greek_nt": [
@@ -87,25 +88,33 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a genitive absolute construction (ἐξελθόντος αὐτοῦ) with explicit subject pronoun; Peshitta uses a bare active participle (ܢܦܩ) without pronominal suffix; Vulgate uses a dative absolute (exeunti ei) with dative pronoun, mirroring Greek syntax but in Latin idiom."
+      "note": "The Greek genitive absolute ἐξελθόντος αὐτοῦ and the Latin dative absolute exeunti ei both retain an explicit subject pronoun, whereas the Syriac finite verb ܢܦܩ encodes the third-person subject morphologically and needs no separate pronoun."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the article with genitive noun (ἐκ τοῦ πλοίου); Peshitta omits the article, using bare ܡܢ ܣܦܝܢܬܐ (typical Syriac construction with definite state); Vulgate uses ablative without article (de navi), following Latin norms where articles are absent."
+      "variant": "aligned",
+      "note": "ἐκ τοῦ πλοίου / ܡܢ ܣܦܝܢܬܐ / de navi."
     },
     {
       "greek_nt": [
@@ -117,42 +126,60 @@
       ],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek εὐθὺς ('immediately') and Vulgate statim are present; Peshitta omits the temporal adverb entirely, a characteristic Peshitta tendency to streamline narrative markers when the immediacy is contextually implied."
+      "note": "The Greek εὐθύς and Latin statim ('immediately'), a Markan stylistic hallmark, have no equivalent in the Peshitta here, which omits the adverb entirely."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
-        4,
-        5
+        4
       ],
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὑπήντησεν αὐτῷ ('met him') uses compound verb with dative object; Peshitta ܦܓܥ ܒܗ employs the verb 'encounter' with prepositional phrase; Vulgate occurrit uses intransitive verb with dative understood from context (ei above), all semantically equivalent but syntactically distinct."
+      "variant": "aligned",
+      "note": "ὑπήντησεν / ܦܓܥ / occurrit."
     },
     {
       "greek_nt": [
-        9,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The Greek dative αὐτῷ and the Syriac prepositional ܒܗ ('him') express the object of the meeting verb, but the Vulgate occurrit leaves the indirect object implicit without a separate pronoun."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        6,
         7,
         8
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek uses plural τῶν μνημείων ('the tombs'); Vulgate uses plural monumentis; Peshitta employs the construct phrase ܒܝܬ ܩܒܘܪܐ ('house of burial', i.e., cemetery/tomb-place), a typical Syriac idiom using singular construct for burial sites."
+      "type": "lexical",
+      "note": "Greek ἐκ τῶν μνημείων and Latin de monumentis both use the plural 'tombs'; the Syriac ܒܝܬ ܩܒܘܪܐ literally 'house of burial' is an idiomatic compound for the burial-ground or cemetery, a typical Aramaic construct phrase."
     },
     {
       "greek_nt": [
@@ -165,7 +192,7 @@
         9
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἄνθρωπος / ܓܒܪܐ / homo."
     },
     {
       "greek_nt": [
@@ -186,12 +213,12 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν πνεύματι ἀκαθάρτῳ ('in/with an unclean spirit'); Vulgate mirrors this with in spiritu immundo; Peshitta employs a relative clause construction ܕܐܝܬ ܒܗ ܪܘܚܐ ܛܢܦܬܐ ('who has in him an unclean spirit'), making the possession explicit through verbal predication rather than prepositional modification."
+      "note": "Greek ἐν πνεύματι ἀκαθάρτῳ and Latin in spiritu immundo use a simple prepositional phrase ('with an unclean spirit'), whereas the Peshitta expands with a relative construction ܕܐܝܬ ܒܗ ('in whom there was') an unclean spirit, making the possession explicit and predicative."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.969944+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.443705+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

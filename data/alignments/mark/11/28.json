@@ -79,8 +79,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -93,8 +92,7 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγον ('they were saying'), indicating continuous or repeated action in past time. Latin dicunt employs historical present ('they say'), a vivid narrative device. Peshitta ܘܐܡܪܝܢ uses the perfect with waw-consecutive, functionally equivalent to Greek imperfect in narrative sequence."
+      "note": "Greek imperfect ἔλεγον ('they were saying') conveys durative/iterative aspect; the Vulgate present dicunt and the Syriac participle ܘܐܡܪܝܢ (prefixed with the conjunction ܘ-, so it also covers the 'and') both render the action as a vivid present, losing the imperfective nuance."
     },
     {
       "greek_nt": [
@@ -104,57 +102,74 @@
         1
       ],
       "vulgate": [
-        2
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after ei to mark the beginning of direct discourse. Neither Greek nor Peshitta manuscripts employ punctuation at this juncture, though Greek uses a raised dot (·) after αὐτῷ in some witnesses."
-    },
-    {
-      "greek_nt": [
-        3,
-        4,
-        5
-      ],
-      "peshitta": [
         2,
         3
       ],
-      "vulgate": [
-        4,
-        5,
-        6
-      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν ποίᾳ ἐξουσίᾳ ('by what authority'); Latin mirrors this with In qua potestate. Peshitta employs the interrogative ܒܐܝܢܐ ܫܘܠܛܢܐ ('by which authority'), a direct calque but without the article, as Syriac lacks the definite article in this construction."
+      "note": "The Vulgate represents the high colon of the Greek αὐτῷ· with an explicit punctuation token (the colon, idx 3), introducing direct speech; Greek and Syriac mark the dative/prepositional pronoun without separate punctuation."
     },
     {
       "greek_nt": [
-        6,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "The interrogative adjective ποίᾳ ('what kind of') is fused with the preposition in Syriac ܒܐܝܢܐ (ܒ- 'in' + the interrogative built on root a-y-n), so a single Syriac token covers both ἐν and ποίᾳ, whereas Greek and Vulgate (In qua) keep them as discrete words."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
-        4,
         5,
         6
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬ ('you') after the verb ܥܒܕ, a common Syriac clarification where Greek and Latin rely on verbal inflection alone. The demonstrative ܗܠܝܢ ('these things') corresponds to Greek ταῦτα and Latin hæc."
+      "note": "Greek ποιεῖς and Latin facis encode the 2nd-person subject morphologically; the Syriac uses an analytic construction, the participle ܥܒܕ followed by the independent pronoun ܐܢܬ ('you'), a normal Syriac periphrasis for the present tense."
     },
     {
       "greek_nt": [],
@@ -163,8 +178,7 @@
         9
       ],
       "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate places a question mark after facis, dividing the compound question into two separate interrogatives. Greek and Peshitta treat this as a single bipartite question connected by ἢ / ܘ ('or'), without internal punctuation."
+      "note": "The Vulgate inserts a question mark closing the first interrogative clause, dividing the double question typographically; neither the Greek nor the unpointed Syriac transmits such intermediate punctuation here."
     },
     {
       "greek_nt": [
@@ -174,11 +188,11 @@
         7
       ],
       "vulgate": [
-        10
+        10,
+        11
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἢ is a disjunctive particle ('or'); Peshitta ܘ is the standard conjunctive waw but functions disjunctively in interrogative contexts. Latin et ('and') appears conjunctive but in double-question constructions serves as a disjunctive equivalent, a classical Latin idiom."
+      "note": "Greek disjunctive ἤ ('or') links the two questions; the Vulgate renders this with the coordinating et ('and') plus the interrogative quis, while Syriac fuses conjunction and interrogative in ܘܡܢܘ (ܘ- 'and' + ܡܢܘ 'who is it?'), a subtle shift from disjunction to coordination."
     },
     {
       "greek_nt": [
@@ -190,8 +204,7 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -203,8 +216,7 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -216,45 +228,82 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        14,
-        15
+        14
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article τὴν before ἐξουσίαν ταύτην ('this authority'), standard Koine word order. Latin hanc potestatem reverses demonstrative and noun, classical Latin preference. Peshitta ܫܘܠܛܢܐ ܗܢܐ follows Semitic noun-demonstrative order, lacking the article as Syriac has no definite article."
+      "note": "Word-order divergence within the noun phrase: Greek places the demonstrative after the noun (τὴν ἐξουσίαν ταύτην), and Syriac likewise post-positions ܗܢܐ after ܫܘܠܛܢܐ, whereas the Vulgate pre-positions the demonstrative (hanc potestatem) per normal Latin syntax."
     },
     {
       "greek_nt": [
-        15,
-        16,
+        15
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "note": "The neuter plural object 'these things' is expressed by Greek ταῦτα and Vulgate ista as separate words, but in Syriac it is fused into ܕܗܠܝܢ (the relative/conjunctive particle ܕ- prefixed to the demonstrative ܗܠܝܢ), absorbing also the ἵνα clause-marker."
+    },
+    {
+      "greek_nt": [
         17
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        16,
-        17,
         18
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἵνα introduces a purpose/result clause with subjunctive ποιῇς ('that you may do'). Latin ut ista facias mirrors this construction exactly. Peshitta uses the relative particle ܕ with imperfect ܬܥܒܕ, a standard Syriac equivalent for Greek ἵνα-clauses, semantically identical but syntactically a relative construction."
+      "note": "Greek present subjunctive ποιῇς and Latin present subjunctive facias mark the purpose clause with mood; Syriac uses the imperfect ܬܥܒܕ, the standard way Syriac expresses a subordinate volitional/final clause, an aspectual rather than modal equivalence."
     },
     {
       "greek_nt": [],
@@ -263,14 +312,13 @@
         19
       ],
       "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate closes with a question mark after facias, marking the end of the entire interrogative sequence. Greek uses a semicolon (;) which functions as a question mark in Greek orthography. Peshitta manuscripts typically lack punctuation."
+      "note": "The Vulgate closes the second question with a terminal question mark; Greek encodes the interrogative within ποιῇς; (the high point) while the consonantal Syriac text carries no such terminal punctuation."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.019484+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.485134+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

@@ -59,19 +59,27 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -86,56 +94,79 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "The Peshitta employs a periphrastic construction ܫܪܝ ܗܘܐ (šrī hwā, 'began' + auxiliary 'was') to render Greek ἤρξατο, a common Syriac idiom for inceptive aspect. The Greek aorist and Latin perfect cœpit express the same inceptive meaning without auxiliary verbs."
+      "note": "Greek aorist ἤρξατο ('he began') is rendered in Syriac by the inceptive verb ܫܪܝ followed by the auxiliary ܗܘܐ (a periphrastic past construction); Latin cœpit matches the Greek with a single perfect. The Syriac periphrasis is idiomatic and semantically equivalent."
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
-        4,
-        5
+        4
       ],
       "vulgate": [
-        3,
-        4,
-        5
+        3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        6
+        4
       ],
       "peshitta": [
-        6
+        5
       ],
       "vulgate": [
-        6,
-        7
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after jurare to mark the transition to direct discourse, treating ὅτι recitativum as punctuation rather than translating it. Greek ὅτι and Syriac ܕ (d-) function as complementizers introducing the oath's content without punctuation breaks."
+      "type": "construction",
+      "note": "The Greek conjunction καί + infinitive ὀμνύναι is collapsed in Syriac into the single waw-prefixed verb ܘܝܡܐ ('and he swore'), so the connective and the verb of swearing share one token; Latin preserves the discrete et jurare. The difference is purely orthographic-morphological."
     },
     {
       "greek_nt": [
-        7,
-        8
+        6
       ],
       "peshitta": [
-        6,
+        6
+      ],
+      "vulgate": [
         7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "vulgate": [
+        6
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon to mark the transition into direct discourse before Quia, a punctuational feature absent from the unpointed Greek and Syriac witnesses. It functions as an editorial speech-marker rather than a textual variant."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        6
       ],
       "vulgate": [
         8
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the negative particle οὐκ with finite verb οἶδα; Syriac employs the compound negative particle ܕܠܐ (d-lā, 'that-not') with the participle ܝܕܥ, a standard Syriac construction for negated complements. Latin nescio lexicalizes the negation within the verb itself ('not-know')."
+      "note": "Greek separates the negation (οὐκ) from the verb (οἶδα), and Syriac fuses the negative with the conjunctive d- in ܕܠܐ ('that not'); Latin compresses negation and verb into the single lexeme nescio. All three express the same negated cognition."
     },
     {
       "greek_nt": [
@@ -145,31 +176,52 @@
         7,
         8
       ],
-      "vulgate": [],
+      "vulgate": [
+        8
+      ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds the explicit subject pronoun ܐܢܐ ('I'), which is implicit in the Greek first-person verb οἶδα and the Latin nescio. This represents typical Syriac preference for overt subject pronouns in emphatic or contrastive contexts."
+      "type": "grammar",
+      "note": "Greek uses the perfect οἶδα with implicit subject and Latin the synthetic nescio; Syriac makes the first-person subject explicit with the enclitic pronoun ܐܢܐ following the participle ܝܕܥ, a normal Syriac analytic construction for the present-stative verb."
     },
     {
       "greek_nt": [
         9,
-        10,
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        9,
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
@@ -177,18 +229,17 @@
         12
       ],
       "vulgate": [
-        11,
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a relative pronoun ὃν with second-person plural verb λέγετε ('whom you say'); Syriac uses the relative particle ܕ with verb ܐܡܪܝܢ plus explicit pronoun ܐܢܬܘܢ ('that you [pl.] say'); Latin uses quem with dicitis. All three express the same relative clause structure with minor morphosyntactic variation reflecting each language's typology."
+      "type": "grammar",
+      "note": "Greek λέγετε and Latin dicitis encode the second-person-plural subject within the finite verb; Syriac uses the participle ܕܐܡܪܝܢ with a separate independent pronoun ܐܢܬܘܢ ('you [pl.] say'), again reflecting the analytic Syriac present construction rather than any semantic divergence."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.046141+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.454594+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

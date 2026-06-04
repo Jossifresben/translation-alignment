@@ -50,20 +50,29 @@
     {
       "greek_nt": [
         0,
-        1,
-        2
+        1
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article ἡ with postpositive δέ, a standard Greek construction; Syriac and Latin lack the article (Syriac ܡܪܝܡ ܕܝܢ, Latin Maria autem), as neither language requires articles with proper names in this syntactic position."
+      "type": "word-order",
+      "note": "Greek opens with the article ἡ plus postpositive δέ before the proper name; the Vulgate (Maria autem) and Peshitta (ܕܝܢ following ܡܪܝܡ) both reproduce the adversative particle but, lacking a definite article, attach it to the name. The Greek feminine article ἡ has no equivalent in either version, a routine consequence of those languages' nominal systems."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -77,19 +86,31 @@
         2
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the article ἡ before the epithet Μαγδαληνή, a typical Greek attributive construction; Syriac ܡܓܕܠܝܬܐ and Latin Magdalene function as appositional epithets without articles, reflecting the morphosyntactic norms of their respective languages."
+      "type": "construction",
+      "note": "Greek uses an articular epithet (ἡ Μαγδαληνή, 'the Magdalene') whereas the Vulgate transliterates as a bare appellative (Magdalene) and the Peshitta renders ܡܓܕܠܝܬܐ without the Greek article; semantically identical, differing only in the article that neither version transmits."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek coordinating conjunction καί stands as a separate token, while the Peshitta prefixes the proclitic waw directly onto the name (ܘܡܪܝܡ); the Vulgate et matches the Greek as an independent word. The difference is purely morphological, reflecting Syriac's bound conjunction."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "aligned"
@@ -107,8 +128,8 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἡ Ἰωσῆτος uses the article with a genitive patronymic ('the [one] of Joses'); Syriac ܗܝ ܕܝܘܣܐ employs the independent pronoun ܗܝ ('she') with a genitive relative construction, making the relationship more explicit; Latin Joseph uses the genitive alone without article or pronoun, relying on apposition."
+      "type": "lexical",
+      "note": "Greek reads ἡ Ἰωσῆτος ('the [mother] of Joses') with the genitive form of the name, while the Vulgate has Joseph and the Peshitta ܕܝܘܣܐ; the variation between 'Joses' and 'Joseph' reflects a well-attested transmissional confusion of the two names in the manuscript tradition. The Peshitta supplies the demonstrative ܗܝ where Greek uses the article ἡ to express the implied genealogical relationship."
     },
     {
       "greek_nt": [
@@ -121,8 +142,8 @@
         6
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐθεώρουν (imperfect of θεωρέω, 'were watching/observing') emphasizes continuous observation; Syriac ܚܙܝ (perfect of ܚܙܐ, 'saw/beheld') and Latin aspiciebant (imperfect of aspicio, 'were looking at') are semantically equivalent, though the Syriac perfect may carry perfective nuance in context."
+      "type": "grammar",
+      "note": "Greek ἐθεώρουν and Latin aspiciebant are both third-person plural imperfects ('they were watching'), whereas the Peshitta ܚܙܝ is a feminine plural perfect/participial form; the versions agree in subject and sense but differ in aspect, the Syriac favouring a simpler completed-action form against the durative imperfect of Greek and Latin."
     },
     {
       "greek_nt": [
@@ -148,13 +169,13 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek τέθειται is perfect passive indicative ('has been laid'), emphasizing the completed state; Syriac ܕܐܬܬܣܝܡ uses the ethpeal (reflexive-passive) perfect with the relative particle ܕ, mirroring the Greek construction; Latin poneretur is imperfect passive subjunctive in indirect question, reflecting Latin's sequence-of-tenses rules rather than a semantic divergence."
+      "note": "Greek τέθειται is a perfect passive ('he has been laid'), the Vulgate poneretur an imperfect subjunctive in indirect question ('where he was being laid'), and the Peshitta ܕܐܬܬܣܝܡ an Ettaphal perfect passive ('where he was laid'); all express the burial location but diverge in mood and tense, the Latin alone shifting to the subjunctive as required by classical syntax of indirect interrogation. The paragraph marker ¶ in the Greek is editorial and has no versional counterpart."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.054025+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.525182+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

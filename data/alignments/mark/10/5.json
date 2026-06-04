@@ -62,71 +62,121 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "Greek καί (G2532) is omitted in both Peshitta and Vulgate, which begin directly with the participial construction. This reflects a stylistic preference in translation, as the conjunction is redundant in narrative flow when the participial phrase itself signals continuation."
+      "note": "The Greek opens with paratactic καί (and), which neither the Peshitta nor the Vulgate render here; the Syriac begins directly with the verb ܥܢܐ and the Vulgate with the relative Quibus, both absorbing the connective into syntax rather than translating it as a discrete particle."
     },
     {
       "greek_nt": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        1
       ],
       "peshitta": [
-        0,
-        1,
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a participial construction (ἀποκριθεὶς ὁ δὲ Ἰησοῦς εἶπεν) with postpositive δέ, while Peshitta uses finite verbs in sequence (ܥܢܐ ܝܫܘܥ ܘܐܡܪ, 'answered Jesus and said') and Vulgate uses a relative pronoun with participle (Quibus respondens Jesus, ait). All three convey identical semantics through different syntactic strategies typical of their respective languages."
+      "type": "omission",
+      "note": "The Greek articular subject marker ὁ together with the postpositive δέ (introducing slight adversative/continuative force) has no discrete counterpart in either the Peshitta or the Vulgate, both of which simply name Jesus as subject without the articular-particle apparatus."
     },
     {
       "greek_nt": [
-        7,
+        4
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek εἶπεν is a finite aorist coordinated asyndetically after the participle; the Peshitta renders ܘܐܡܪ with a prefixed waw, forming the idiomatic Semitic 'answered and said' construction, while the Vulgate ait stands alone, having already supplied respondens for the participle."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / the colon; the Vulgate marks the speech with punctuation rather than a dative pronoun, but the dative 'to them' is matched by Greek and Syriac."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10
       ],
       "peshitta": [
-        4,
         5,
         6
       ],
       "vulgate": [
-        5,
         6,
         7,
         8
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek σκληροκαρδία (G4641, 'hardness of heart') is a compound noun with article and prepositional phrase (πρὸς τὴν σκληροκαρδίαν ὑμῶν). Peshitta uses a construct chain (ܩܫܝܘܬ ܠܒܟܘܢ, 'hardness of-your-heart') with preposition ܠܘܩܒܠ ('because of'). Vulgate employs duritiam cordis ('hardness of-heart') with genitive vestri. All three traditions express the same causal relationship with morphologically distinct but semantically equivalent constructions."
+      "type": "construction",
+      "note": "Greek expresses the idea as a single compound noun σκληροκαρδίαν ('hard-heartedness') with the article and the genitive ὑμῶν; the Vulgate analytically separates it into duritiam cordis vestri ('hardness of your heart'), and the Peshitta likewise into ܩܫܝܘܬ ܠܒܟܘܢ ('hardness of your heart'), both unpacking the Greek compound into a construct/genitive chain."
     },
     {
       "greek_nt": [
-        11,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         12
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        9,
         10
       ],
       "variant": "aligned"
@@ -134,27 +184,35 @@
     {
       "greek_nt": [
         13,
-        14,
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        11,
         12,
         13
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek and Vulgate both conclude with punctuation (Greek raised dot, Vulgate colon), while Peshitta has no terminal punctuation mark. The demonstrative pronoun placement is identical across all three (ταύτην / ܗܢܐ / istud), but Vulgate's final colon suggests continuation into the following verse, whereas Greek uses a medial stop."
+      "variant": "aligned",
+      "note": "The demonstrative ταύτην / ܗܢܐ / istud agrees across all three; the Vulgate's trailing colon (index 13) marks the close of this clause and the introduction of the ensuing citation."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.008179+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.430890+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

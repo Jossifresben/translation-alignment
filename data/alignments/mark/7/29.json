@@ -62,13 +62,10 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the initial conjunction καί / Et, beginning directly with the verb. This is a common Syriac stylistic preference, avoiding redundant conjunctions where narrative flow is clear from context."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -80,8 +77,7 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -91,42 +87,64 @@
         1
       ],
       "vulgate": [
-        2,
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "peshitta": [
+        2
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta makes the implicit subject explicit by inserting ܝܫܘܥ ('Jesus'), whereas both the Greek and Vulgate leave the subject of the verb unexpressed and recoverable only from context. This is a typical Syriac clarifying expansion."
+    },
+    {
+      "vulgate": [
         3
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after the indirect object illi, creating a stronger pause before the causal clause. Greek and Peshitta employ no such punctuation break, maintaining continuous discourse."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta explicitly names the subject ܝܫܘܥ (Jesus), whereas both Greek and Latin rely on the implied third-person subject from context. This represents a typical Syriac clarification strategy for narrative continuity."
+      "note": "The Vulgate inserts a colon after illi marking the boundary of direct speech; the Greek uses a high point (·) after αὐτῇ for the same purpose, while the Peshitta supplies no punctuation token. A versional difference in editorial pointing rather than text."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek τοῦτον τὸν (masculine, agreeing with λόγον) employs the demonstrative with article; the Vulgate hunc matches in masculine gender, while Syriac ܗܕܐ is feminine, agreeing with the feminine noun ܡܠܬܐ ('word'). The gender shift simply reflects the grammatical gender of the respective nouns for 'word'."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        4,
-        5,
         6
       ],
       "vulgate": [
-        4,
-        5,
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -136,12 +154,11 @@
         3
       ],
       "vulgate": [
-        7,
-        8
+        7
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "The Peshitta places the imperative ܙܠܝ (go) before the causal clause, while Greek and Latin position ὕπαγε / vade after it. The Vulgate again adds a colon for rhetorical emphasis, separating the command from the declaration of exorcism."
+      "note": "All three witnesses attest the imperative 'go' (ὕπαγε / ܙܠܝ / vade), but the Peshitta positions it immediately after the verb of speaking and before the causal clause (ܙܠܝ ... ܡܛܠ), whereas Greek and Latin place it after the causal phrase ('because of this word, go'). The reordering is stylistic and does not alter sense."
     },
     {
       "greek_nt": [
@@ -155,31 +172,15 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek employs the perfect tense ἐξελήλυθεν (has gone out), emphasizing completed action with ongoing result. Latin exiit (simple perfect) and Peshitta ܢܦܩ (perfect) both convey completed action but without the Greek aspectual nuance."
+      "note": "Greek ἐξελήλυθεν is a perfect ('has gone forth'), stressing the completed and abiding result, and the Vulgate matches with the perfect exiit; Syriac ܢܦܩ is a simple perfect of 'go out' without the durative nuance of the Greek perfect. The aspectual force differs slightly though the basic temporal sense agrees."
     },
     {
-      "greek_nt": [
-        13,
-        14
-      ],
-      "peshitta": [
-        9
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
       "peshitta": [
         8
       ],
-      "vulgate": [],
       "variant": "added",
-      "type": "gloss",
-      "note": "The Peshitta inserts the pronominal suffix ܠܗ (to her/it) as an ethical dative or indirect object marker, clarifying the beneficiary of the exorcism. Neither Greek nor Latin transmit this element, relying instead on prepositional phrases to indicate source."
+      "type": "expansion",
+      "note": "The Peshitta adds the dative ܠܗ ('from her' / ethical dative) after the verb 'has gone out', an idiomatic Syriac construction with no counterpart in the Greek or Vulgate. It reinforces that the departure concerns the daughter."
     },
     {
       "greek_nt": [
@@ -198,14 +199,28 @@
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition ἐκ with genitive article and noun (ἐκ τῆς θυγατρός σου); Latin employs a with ablative (a filia tua); Peshitta uses ܡܢ with construct state (ܡܢ ܒܪܬܟܝ). All three express identical ablative semantics through language-specific prepositional systems."
+      "type": "word-order",
+      "note": "All three render 'out of your daughter' (ἐκ τῆς θυγατρός σου / ܡܢ ܒܪܬܟܝ / a filia tua), but Greek and Latin place this prepositional phrase before the subject 'the demon', whereas the Peshitta places the demon (ܫܐܕܐ) before the phrase ('the demon has gone out of your daughter'). The difference is one of clause order, not lexical content."
+    },
+    {
+      "greek_nt": [
+        13,
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "τὸ δαιμόνιον / ܫܐܕܐ / dæmonium — the demon as grammatical subject across all three."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.992313+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.452918+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

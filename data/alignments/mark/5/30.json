@@ -80,13 +80,10 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Greek Καὶ and Vulgate Et both function as simple conjunctions, while Peshitta omits an initial conjunction, beginning directly with the subject ܝܫܘܥ (Jesus). This is a stylistic difference reflecting Syriac narrative preference for asyndetic construction at clause boundaries."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -98,8 +95,14 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
+    },
+    {
+      "peshitta": [
+        1
+      ],
+      "variant": "added",
+      "note": "The Peshitta employs the postpositive particle ܕܝܢ ('but, then') as a discourse connective, placing it after the subject in a manner typical of Syriac narrative style, whereas Greek opens with the coordinating καί and Latin with Et; the Syriac construction shifts the connective's syntactic position without altering the sense."
     },
     {
       "greek_nt": [
@@ -113,71 +116,88 @@
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article and subject (ὁ Ἰησοῦς) after the adverb εὐθύς, while Peshitta and Vulgate position Jesus at the beginning of the clause. Peshitta further adds the contrastive particle ܕܝܢ (dēn, 'but/now') after the subject, a typical Syriac discourse marker absent from Greek and Latin."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta inserts the particle ܕܝܢ (dēn), a contrastive or continuative discourse marker ('but', 'now', 'then'), which has no equivalent in the Greek or Vulgate. This reflects Syriac stylistic preference for explicit narrative transitions."
+      "note": "Greek attaches the definite article ὁ to Ἰησοῦς (a normal feature of Greek proper nouns); neither the anarthrous Syriac ܝܫܘܥ nor the Latin Jesus marks definiteness, reflecting the absence of an article in those languages. The Peshitta also fronts the name to clause-initial position."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "Greek uses the aorist participle ἐπιγνοὺς ('having perceived/recognised', from the intensive compound ἐπιγινώσκω), and Latin matches with the present participle cognoscens; Syriac renders with a finite perfect ܝܕܥ ('he knew'), a construction shift from participle to finite verb characteristic of Syriac narrative aspect."
+    },
+    {
+      "greek_nt": [
         5,
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        3,
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek ἐν ἑαυτῷ and Latin in semetipso render the reflexive prepositional phrase analytically; Syriac compresses this into the single inflected form ܒܢܦܫܗ ('in his soul/self'), where the preposition, the noun ܢܦܫܐ ('soul, self') and the pronominal suffix are fused — a synthetic idiom semantically equivalent to the reflexive."
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10,
         11
       ],
       "peshitta": [
-        3,
-        4,
         5,
         6,
         7
       ],
       "vulgate": [
-        3,
-        4,
-        5,
         6,
         7,
         8,
         9,
         10
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek employs a complex participial construction: ἐπιγνοὺς ἐν ἑαυτῷ τὴν ἐξ αὐτοῦ δύναμιν ἐξελθοῦσαν (aorist participle + prepositional phrase + articular accusative + second aorist participle). Vulgate mirrors this with cognoscens virtutem quæ exierat de illo (present participle + relative clause). Peshitta simplifies to a finite verb sequence: ܝܕܥ ܒܢܦܫܗ ܕܚܝܠܐ ܢܦܩ ܡܢܗ ('he knew in himself that power went out from him'), using a ܕ-clause rather than participial modification. This represents a fundamental syntactic divergence in how the three traditions encode subordination."
+      "variant": "minor",
+      "note": "Greek casts 'the power going forth from him' as an articular noun + attributive aorist participle (τὴν...δύναμιν ἐξελθοῦσαν); Latin renders it with a relative clause (virtutem quæ exierat de illo), and Syriac uses a subordinate clause ܕܚܝܠܐ ܢܦܩ ܡܢܗ ('that power went out from him') with the relative particle prefixed — three distinct syntactic constructions expressing the same proposition."
     },
     {
       "greek_nt": [
-        12,
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek ἐπιστραφεὶς and Latin conversus are passive/middle participles ('having turned'); Syriac ܘܐܬܦܢܝ is a finite Ethpaʿel perfect coordinated with ܘ ('and he turned'), again preferring finite paratactic narration over the Greek and Latin participial subordination."
+    },
+    {
+      "greek_nt": [
         13,
         14,
         15
       ],
       "peshitta": [
-        8,
         9,
         10
       ],
       "vulgate": [
-        11,
         12,
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses ἐπιστραφεὶς ἐν τῷ ὄχλῳ (aorist passive participle + ἐν + dative, 'having turned in the crowd'). Vulgate renders conversus ad turbam (perfect passive participle + ad + accusative, 'turned toward the crowd'), shifting the preposition from locative ἐν to directional ad. Peshitta employs ܘܐܬܦܢܝ ܠܘܬ ܟܢܫܐ (finite verb + ܠܘܬ + noun, 'and he turned toward the crowd'), using a coordinate finite verb rather than a participle and the preposition ܠܘܬ (toward), semantically closer to Latin ad than Greek ἐν."
+      "note": "Greek uses ἐν + dative (ἐν τῷ ὄχλῳ, lit. 'in the crowd'); Latin and Syriac both render directionally with 'to the crowd' (ad turbam / ܠܘܬ ܟܢܫܐ), construing the turning as motion toward rather than the Greek locative within the throng. The Syriac noun ܟܢܫܐ derives from the root k-n-sh ('to gather')."
     },
     {
       "greek_nt": [
@@ -187,41 +207,67 @@
         11
       ],
       "vulgate": [
-        14,
-        15
+        14
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ἔλεγεν (imperfect, 'was saying') is followed by a raised dot in manuscripts, indicating direct speech. Vulgate aiebat : uses the imperfect of aio with a colon to mark the quotation. Peshitta ܘܐܡܪ (perfect, 'and he said') employs a simple waw-consecutive construction without explicit punctuation marker, relying on context to signal direct discourse."
+      "note": "Greek uses the imperfect ἔλεγεν ('he was saying', iterative/inceptive aspect) and Latin matches with the imperfect aiebat; Syriac ܘܐܡܪ is a coordinated perfect ('and he said'), losing the durative nuance of the Greek imperfect in favour of simple narrative sequence."
     },
     {
       "greek_nt": [
-        17,
-        18,
-        19,
+        17
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        19
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "note": "Greek ἥψατο (middle of ἅπτω, 'touched', governing the genitive) and Latin tetigit denote direct contact; Syriac ܩܪܒ (root q-r-b, 'to draw near, approach, touch') carries a slightly broader semantic range of approach/contact, a cognate-but-different lexical choice consistent with the Hebrew קָרַב."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "note": "Greek expresses 'my garments' with the proclitic genitive pronoun μου standing apart from the noun; Latin uses the possessive adjective mea following vestimenta; Syriac fuses the first-person suffix into ܠܡܐܢܝ ('my garments'), with the object marker ܠ prefixed — three different morphosyntactic strategies for the possessive."
+    },
+    {
+      "greek_nt": [
         20,
         21
       ],
       "peshitta": [
-        12,
-        13,
         14
       ],
       "vulgate": [
-        16,
-        17,
-        18,
-        19,
-        20
+        18
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek τίς μου ἥψατο τῶν ἱματίων ('Who touched my garments?') uses ἅπτω (G681, 'to touch') with genitive object τῶν ἱματίων. Vulgate Quis tetigit vestimenta mea mirrors this with tango + accusative. Peshitta ܡܢܘ ܩܪܒ ܠܡܐܢܝ ('Who approached/drew near to my garments?') substitutes ܩܪܒ (qreb, 'to approach, draw near') for the expected cognate of ἅπτω, representing a semantic shift from physical contact to spatial proximity, though the pragmatic meaning remains equivalent in context."
+      "variant": "minor",
+      "note": "Greek τῶν ἱματίων is plural ('the garments') and articular, governed in the genitive by ἅπτω; Latin vestimenta is likewise plural. The Syriac ܡܐܢܐ ('garment, vessel, instrument') is here singular in form within ܠܡܐܢܝ, a number difference reflecting Syriac preference; the noun is also conflated with the possessive treated in the previous group."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.975442+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.492776+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

@@ -63,9 +63,9 @@
       "vulgate": [
         0
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "The Peshitta opens with ܘܫܪܐ ܐܢܘܢ ('and he dismissed them'), an expansion not present in either the Greek or Vulgate, likely harmonizing with the preceding narrative context of the crowd's dismissal. This represents a substantive addition unique to the Syriac tradition."
+      "variant": "minor",
+      "type": "substitution",
+      "note": "Greek and Latin open with the simple coordinating conjunction (Καὶ / Et). The Peshitta instead begins with the finite verb ܘܫܪܐ ('and he dismissed/sent away'), restructuring the opening: the Syriac fronts an action (dismissing the crowd) implied but not explicitly stated in the Greek and Latin here."
     },
     {
       "greek_nt": [
@@ -79,46 +79,80 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek εὐθὺς ('immediately') appears before the participle ἐμβάς, while Peshitta ܡܚܕܐ and Vulgate statim follow their respective verbs (ܘܣܠܩ / ascendens). This represents a stylistic reordering without semantic change, reflecting each tradition's preferred adverbial placement."
+      "note": "All three attest the adverb 'immediately' (εὐθὺς / ܡܚܕܐ / statim), but the Peshitta places ܡܚܕܐ after the verb of embarking rather than at the head of the clause as in Greek and Latin, a stylistic Syriac reordering."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐμβὰς ('having embarked, climbed in') and Latin ascendens both denote boarding; the Peshitta ܘܣܠܩ (root s-l-q, 'and he went up/embarked') is cognate in sense but renders the participle as a coordinated finite verb, typical of Syriac narrative style."
+    },
+    {
+      "greek_nt": [
+        1,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta supplies an explicit object ܐܢܘܢ ('them') governed by the opening verb ܘܫܪܐ, making the dismissal of the crowd explicit. No corresponding pronoun-object stands in the Greek or Latin at this point."
+    },
+    {
+      "greek_nt": [
         3,
         4,
         5
       ],
       "peshitta": [
-        2,
         4
       ],
       "vulgate": [
-        2,
         3
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the aorist participle ἐμβὰς with prepositional phrase εἰς τὸ πλοῖον ('having embarked into the boat'); Vulgate employs the present participle ascendens with accusative navim (without article); Peshitta uses the perfect ܘܣܠܩ ܠܣܦܝܢܬܐ ('and he went up to the ship'). These represent equivalent constructions with different aspectual and syntactic strategies."
+      "note": "Greek expresses 'into the boat' with preposition + article + accusative (εἰς τὸ πλοῖον); the Peshitta uses the prefixed object marker ܠ on ܠܣܦܝܢܬܐ, and the Vulgate drops the preposition entirely, taking navim as a bare accusative of motion — three distinct syntactic strategies for the same goal."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μετά / ܥܡ / cum, 'with'."
+    },
+    {
+      "greek_nt": [
         7,
         8,
         9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek μετὰ τῶν μαθητῶν αὐτοῦ uses the genitive article τῶν with possessive pronoun αὐτοῦ; Vulgate cum discipulis suis employs the possessive adjective suis; Peshitta ܥܡ ܬܠܡܝܕܘܗܝ uses a pronominal suffix on the noun. All three express identical meaning through language-specific possessive constructions."
+      "type": "construction",
+      "note": "Greek marks 'his disciples' with article + noun + genitive pronoun (τῶν μαθητῶν αὐτοῦ) and Latin with noun + possessive (discipulis suis); the Peshitta fuses noun and pronominal suffix into a single word ܬܠܡܝܕܘܗܝ ('his disciples'), the normal Syriac possessive construction."
     },
     {
       "greek_nt": [
@@ -130,7 +164,9 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἦλθεν / ܘܐܬܐ / venit, 'he came'."
     },
     {
       "greek_nt": [
@@ -146,8 +182,8 @@
         9
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εἰς τὰ μέρη ('into the districts/regions', plural) and Vulgate in partes (plural) contrast with Peshitta ܠܐܬܪܐ ('to the place/region', singular). The Syriac employs a singular collective noun where Greek and Latin use the plural, a common Semitic idiom for geographic designations."
+      "type": "grammar",
+      "note": "Greek and Latin use the plural 'parts/districts' (τὰ μέρη / partes); the Peshitta renders the destination with the singular ܠܐܬܪܐ ('to the region/place'), a typical Syriac preference for a collective singular where the Greek prefers the plural μέρη."
     },
     {
       "greek_nt": [
@@ -159,13 +195,15 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Δαλμανουθά / ܕܠܡܢܘܬܐ / Dalmanutha, the toponym."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.995231+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.464791+00:00",
+    "confidence": 0.84,
     "schema_version": 1
   }
 }

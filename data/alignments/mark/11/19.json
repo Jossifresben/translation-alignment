@@ -51,28 +51,39 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / Et"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ὅταν ('whenever') introduces a temporal clause with iterative nuance, while Latin cum + subjunctive and the Syriac ܟܕ (suffixed within ܘܟܕ) render a plainer 'when'-clause; the Syriac conjunction is fused with the preceding waw, so a single token carries both the connective and temporal force."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        1,
         2,
         3,
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a temporal conjunction with adverb and finite verb (ὅταν ὀψὲ ἐγένετο); Peshitta uses a compound temporal particle with copula (ܘܟܕ ܗܘܐ ܪܡܫܐ); Vulgate renders with cum + ablative absolute construction (cum vespera facta esset). All three express the same temporal clause ('when evening came') through tradition-specific syntactic patterns."
+      "type": "word-order",
+      "note": "All three express 'when evening came': Greek places adverb ὀψέ before the verb ἐγένετο, Syriac inverts to verb-then-noun (ܗܘܐ ܪܡܫܐ), and Latin expands the copula into the periphrastic facta esset (perfect subjunctive of fio); the differing sequences and the Latin two-word verb phrase are stylistic rather than semantic."
     },
     {
       "greek_nt": [
@@ -86,32 +97,42 @@
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek uses imperfect plural ἐξεπορεύοντο indicating iterative or customary action ('they were going out'); Peshitta employs perfect plural ܢܦܩܘ ('they went out'); Vulgate uses imperfect singular egrediebatur, possibly reflecting a singular subject (Jesus alone) rather than the plural implied in Greek and Peshitta, though this may represent a scribal variant tradition."
+      "note": "Greek ἐξεπορεύοντο and Syriac ܢܦܩܘ are third-person plural ('they were going out'), whereas the Vulgate egrediebatur is singular ('he was going out'); the Latin reflects a variant reading focusing on Jesus alone rather than the disciples as a group."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        4,
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the single adverb ἔξω governing the genitive, while Syriac employs the adverb ܠܒܪ ('outside') followed by the preposition ܡܢ ('from'), and Latin renders only the simple preposition de; the Syriac doubled construction is idiomatic for motion 'out from'."
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        4,
-        5,
         6
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses preposition + article + genitive noun (ἔξω τῆς πόλεως); Peshitta employs a compound prepositional phrase (ܠܒܪ ܡܢ ܡܕܝܢܬܐ, 'to outside from the city'); Vulgate uses simple preposition + ablative (de civitate). The Syriac construction with double prepositions (ܠܒܪ ܡܢ) is a characteristic idiom for expressing motion away from a location."
+      "variant": "aligned",
+      "note": "πόλεως / ܡܕܝܢܬܐ / civitate"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.018204+00:00",
-    "confidence": 0.75,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.425396+00:00",
+    "confidence": 0.88,
     "schema_version": 1
   }
 }

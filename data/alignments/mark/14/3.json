@@ -99,23 +99,43 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
-        1,
-        2
+        0
       ],
       "vulgate": [
         0,
-        1,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek joins the temporal clause with a single coordinating καί + genitive absolute (ὄντος); the Peshitta fuses conjunction and temporal particle into ܘܟܕ ('and when'), while the Vulgate splits the notion across Et cum, introducing a subjunctive clause. The constructions are semantically equivalent but distributed differently across token boundaries."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses genitive absolute construction (ὄντος αὐτοῦ); Latin employs cum + subjunctive (cum esset); Syriac uses temporal particle ܟܕ with enclitic pronoun and existential verb — all three express contemporaneous action but with tradition-specific syntax."
+      "note": "Greek employs a genitive-absolute participle (ὄντος, 'being'); Syriac uses the existential predicate ܐܝܬܘܗܝ ('he is/was present'); Latin renders with the imperfect subjunctive esset. All three express the same circumstantial 'while he was', but via three distinct verbal strategies."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτοῦ / ܗܘ — the Greek genitive pronoun of the absolute is matched by the Syriac independent pronoun; Latin leaves the subject embedded in the verb form esset and supplies no explicit pronoun."
     },
     {
       "greek_nt": [
@@ -128,7 +148,9 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek marks the location with preposition + dative (ἐν Βηθανίᾳ); Syriac prefixes the locative beth directly to the compound place-name ܒܒܝܬ-ܥܢܝܐ; Latin uses a bare locative Bethaniæ without preposition. The differences are purely grammatical strategies for expressing place."
     },
     {
       "greek_nt": [
@@ -145,23 +167,36 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek repeats the preposition ἐν with article τῇ before οἰκίᾳ; Latin uses simple in domo; Syriac employs a possessive construction ܒܒܝܬܗ ('in his house') with pronominal suffix, making Simon's ownership more explicit."
+      "note": "Greek uses preposition + article + noun (ἐν τῇ οἰκίᾳ); Syriac collapses preposition, noun, and the following genitive into a single suffixed form ܒܒܝܬܗ ('in his house'); Latin renders in domo. The Syriac construct with pronominal suffix anticipates the genitive 'of Simon' more compactly."
     },
     {
       "greek_nt": [
         8,
-        9,
+        9
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Σίμωνος / ܕܫܡܥܘܢ / Simonis — the genitive of the personal name; Greek adds the article τοῦ governing the following adjective, absent in the other two."
+    },
+    {
+      "greek_nt": [
         10
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "λεπροῦ / ܓܪܒܐ / leprosi — 'the leper'; Greek and Latin use the substantivised adjective, Syriac the noun ܓܪܒܐ."
     },
     {
       "greek_nt": [
@@ -178,22 +213,35 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses second genitive absolute (κατακειμένου αὐτοῦ); Latin employs et recumberet (coordinate subjunctive); Syriac repeats temporal ܟܕ with participle ܣܡܝܟ — semantically equivalent expressions of Jesus reclining at table, each following its tradition's preferred participial or subordinate clause structure."
+      "note": "Greek continues the genitive-absolute (κατακειμένου αὐτοῦ, 'as he reclined'); Syriac re-introduces the temporal particle ܟܕ + the passive participle ܣܡܝܟ; Latin coordinates with et recumberet, retaining the subjunctive. Latin's added et has no Greek counterpart, being a stylistic linkage rather than a textual plus."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἦλθεν / ܐܬܬ / venit"
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "γυνὴ / ܐܢܬܬܐ / mulier"
     },
     {
       "greek_nt": [
@@ -208,7 +256,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present participle ἔχουσα ('having'); Latin mirrors with habens; Syriac employs relative clause ܕܐܝܬ ܥܠܝܗ ('who had upon her'), a characteristic Semitic construction using existential verb with prepositional phrase."
+      "note": "Greek and Latin use a single participle (ἔχουσα / habens, 'having'); Syriac expresses possession idiomatically with the existential ܕܐܝܬ ܥܠܝܗ ('which was upon/with her'), a normal Syriac periphrasis for 'having'."
     },
     {
       "greek_nt": [
@@ -220,22 +268,37 @@
       "vulgate": [
         13
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀλάβαστρον / ܫܛܝܦܬܐ / alabastrum — the alabaster vessel; the Syriac term derives from a root for the flask/jar rather than the stone material as in the Greek loanword."
     },
     {
       "greek_nt": [
-        17,
+        17
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μύρου / ܕܒܣܡܐ / unguenti — fragrant ointment."
+    },
+    {
+      "greek_nt": [
         18
       ],
       "peshitta": [
-        14,
         15
       ],
       "vulgate": [
-        14,
         15
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "νάρδου / ܕܢܪܕܝܢ / nardi — the aromatic nard."
     },
     {
       "greek_nt": [
@@ -249,7 +312,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek πιστικῆς (a rare term, possibly 'genuine/pure' or 'of pistachio'); Latin spicati ('spikenard'); Syriac ܪܫܝܐ ('genuine/pure') — the traditions diverge on whether to emphasize botanical specificity (Latin) or authenticity/purity (Greek and Syriac), reflecting ancient uncertainty about the Greek hapax legomenon."
+      "note": "The notorious Greek hapax πιστικῆς (variously 'pure', 'genuine', 'liquid') is rendered by Syriac ܪܫܝܐ ('chief/finest', from r-sh-a 'head') and by Latin spicati ('spiked', i.e. derived from the spike of the nard plant). Each tradition resolves the obscure adjective by a different interpretive strategy."
     },
     {
       "greek_nt": [
@@ -263,22 +326,25 @@
         17
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses single adjective πολυτελοῦς ('very costly'); Latin pretiosi mirrors this; Syriac expands with two-word phrase ܣܓܝ ܕܡܝܐ ('very expensive', literally 'much of price'), a characteristic Semitic analytic construction for emphasis."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        18
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts colon punctuation mark after pretiosi, creating a pause before the breaking of the alabaster; neither Greek nor Syriac manuscripts mark this syntactic boundary, maintaining continuous narrative flow."
+      "type": "construction",
+      "note": "Greek and Latin use a single adjective for costliness (πολυτελοῦς / pretiosi); Syriac employs a two-word phrase ܣܓܝ ܕܡܝܐ ('of much price/value'), an analytic construction equivalent to the synthetic single adjective."
     },
     {
       "greek_nt": [
-        21,
+        21
+      ],
+      "peshitta": [
+        19
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ- (prefixed to ܦܬܚܬܗ) / et — the coordinating conjunction."
+    },
+    {
+      "greek_nt": [
         22,
         23,
         24
@@ -287,13 +353,12 @@
         19
       ],
       "vulgate": [
-        19,
         20,
         21
       ],
       "variant": "major",
       "type": "substitution",
-      "note": "Greek and Latin describe 'breaking' the alabaster flask (συντρίψασα / fracto alabastro), emphasizing the vessel's destruction; Syriac uses ܘܦܬܚܬܗ ('and she opened it'), suggesting removal of a stopper rather than shattering — a substantive difference in the physical action described, possibly reflecting different understandings of ancient perfume containers."
+      "note": "Greek συντρίψασα τὴν ἀλάβαστρον and Latin fracto alabastro both specify that she 'broke/shattered' the flask; the Syriac ܘܦܬܚܬܗ means merely 'and she opened it', a substantive lexical difference softening the violent breaking of the vessel into a simple opening, and lacking a repeated noun for the alabaster."
     },
     {
       "greek_nt": [
@@ -305,7 +370,9 @@
       "vulgate": [
         22
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "κατέχεεν / ܘܐܫܦܥܬܗ / effudit — 'she poured out'; the Syriac prefixes the conjunction and a pronominal object suffix."
     },
     {
       "greek_nt": [
@@ -316,32 +383,22 @@
       ],
       "peshitta": [
         21,
-        22
-      ],
-      "vulgate": [
-        23,
-        24
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses genitive pronoun with prepositional phrase κατὰ τῆς κεφαλῆς αὐτοῦ ('upon his head'); Latin employs super caput ejus; Syriac uses simple ܥܠ ܪܫܗ ('upon his head') — all semantically equivalent but Greek is more elaborate with article and compound preposition."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
+        22,
         23
       ],
       "vulgate": [
+        23,
+        24,
         25
       ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta adds explicit subject ܕܝܫܘܥ ('of Jesus') after 'his head'; Vulgate adds possessive pronoun ejus ('his'); Greek leaves the referent implicit from context — Syriac's addition removes any potential ambiguity about whose head received the anointing, a characteristic clarifying expansion."
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek (αὐτοῦ κατὰ τῆς κεφαλῆς) and Latin (super caput ejus) read simply 'on his head'; the Peshitta adds the explicit name ܕܝܫܘܥ ('of Jesus') — ܥܠ ܪܫܗ ܕܝܫܘܥ, 'upon the head of Jesus' — an exegetical clarification of the antecedent not present in the Greek or Latin witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.034505+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.558744+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

@@ -82,52 +82,97 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article ὁ with postpositive δέ; Syriac and Latin lack the article (Syriac ܦܝܠܛܘܣ ܕܝܢ, Latin Pilatus autem), reflecting their respective grammatical norms for proper nouns and adversative conjunctions."
+      "type": "word-order",
+      "note": "Greek fronts the article + postpositive δέ before the name (ὁ δὲ Πιλᾶτος); Syriac and Latin omit the article (which neither language possesses for this proper noun) and place the adversative particle (ܕܝܢ / autem) in second position. The divergence is purely a matter of each language's syntactic conventions for the postpositive connective."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "βουλόμενος / ܨܒܐ / volens."
+    },
+    {
+      "greek_nt": [
         4,
-        5,
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τῷ ὄχλῳ / ܠܟܢܫܐ / populo."
+    },
+    {
+      "greek_nt": [
         6,
         7,
         8
       ],
       "peshitta": [
-        2,
-        3,
-        4,
-        5
-      ],
-      "vulgate": [
-        2,
         3,
         4
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses the participial phrase βουλόμενος τῷ ὄχλῳ τὸ ἱκανὸν ποιῆσαι ('desiring to do what was satisfactory to the crowd'), employing the adjective ἱκανόν with articular construction. Latin renders this idiomatically as volens populo satisfacere ('wishing to satisfy the people'), using the verb satisfacere. Syriac restructures entirely with ܨܒܐ ܕܢܥܒܕ ܨܒܝܢܐ ܠܟܢܫܐ ('he desired to do the will/desire of the crowd'), employing the cognate noun ܨܒܝܢܐ ('will, desire') rather than an adjectival or verbal equivalent of 'satisfactory.'"
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the idiom with an articular substantivised adjective plus infinitive (τὸ ἱκανὸν ποιῆσαι, 'to do the satisfactory thing'); the Vulgate compresses this into a single verb satisfacere; the Peshitta renders it with a finite-purpose clause ܕܢܥܒܕ ܨܒܝܢܐ ('that he might do the will/wish'), shifting from the Greek 'satisfaction' idiom to a 'do their will' construction. These are functionally equivalent renderings of a Latinism (satis facere) underlying the Greek."
     },
     {
       "greek_nt": [
-        9,
-        10,
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀπέλυσεν / ܘܫܪܐ / dimisit."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis."
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
       "peshitta": [
-        6,
-        7,
         8
       ],
       "vulgate": [
-        5,
-        6,
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "τὸν Βαραββᾶν / ܠܒܪ-ܐܒܐ / Barabbam."
     },
     {
       "greek_nt": [
@@ -140,31 +185,54 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "καί / ܘ- / et."
     },
     {
       "greek_nt": [
-        14,
-        15,
-        16,
-        17
+        14
       ],
       "peshitta": [
         9,
-        10,
-        11,
+        10
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "gloss",
+      "note": "The Greek παρέδωκεν and Latin tradidit have a single dative-of-advantage left implicit, whereas the Syriac ܘܐܫܠܡ ܠܗܘܢ explicitly supplies the indirect-object pronoun ܠܗܘܢ ('to them'), repeating the beneficiary from the previous clause. This is a typical Peshitta tendency to make pronominal references explicit."
+    },
+    {
+      "greek_nt": [
+        15,
+        16
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τὸν Ἰησοῦν / ܠܝܫܘܥ / Jesum."
+    },
+    {
+      "greek_nt": [
+        17
+      ],
+      "peshitta": [
         12,
         13
       ],
       "vulgate": [
-        9,
-        10,
         11,
         12
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the aorist participle φραγελλώσας ('having flogged') in attributive position modifying the main verb παρέδωκεν, creating a temporal sequence. Latin employs the ablative absolute construction flagellis cæsum ('having been beaten with whips'), a perfect passive participle with instrumental ablative. Syriac restructures with the temporal particle ܟܕ ܡܢܓܕ ('while/when scourged'), using a different syntactic frame but preserving the temporal relationship between scourging and handing over."
+      "note": "Greek uses an aorist participle (φραγελλώσας, 'having flogged'); the Vulgate renders it with an ablative noun + perfect passive participle phrase (flagellis cæsum, 'beaten with whips'); the Peshitta employs a temporal clause ܟܕ ܡܢܓܕ ('while/when he scourged'), reflecting the Syriac preference for finite or temporal constructions over circumstantial participles. All three express the same coincident flogging."
     },
     {
       "greek_nt": [
@@ -178,15 +246,15 @@
         13,
         14
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs ἵνα with aorist passive subjunctive σταυρωθῇ to express purpose ('that he might be crucified'). Latin mirrors this with ut + subjunctive crucifigeretur. Syriac uses the prefixed ܕ- on the imperfect ܕܢܙܕܩܦ, a standard Syriac purpose construction functionally equivalent to the Greek and Latin, though morphologically distinct."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἵνα σταυρωθῇ / ܕܢܙܕܩܦ / ut crucifigeretur; the Syriac collapses conjunction and verb into a single prefixed form."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.048621+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.514317+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

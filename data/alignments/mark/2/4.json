@@ -86,73 +86,107 @@
       "greek_nt": [
         0,
         1,
-        2,
-        3,
-        4
+        2
       ],
       "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [
         0,
         1,
         2,
         3
       ],
-      "vulgate": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses a participial construction (μὴ δυνάμενοι προσενέγκαι, 'not being able to bring'); Peshitta employs a finite verb with negation (ܘܕܠܐ ܐܫܟܚܘ ܠܡܬܩܪܒܘ, 'and they were not able to approach'); Vulgate uses a temporal clause (cum non possent offerre, 'when they could not offer'). All three convey inability but differ syntactically."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Vulgate adds the dative pronoun illi ('to him'), making the indirect object explicit, whereas Greek αὐτῷ and Peshitta ܠܘܬܗ already encode this meaning without requiring a separate pronoun for the crowd's agents."
+      "type": "construction",
+      "note": "Greek expresses the inability with a negated present participle (μὴ δυνάμενοι); the Vulgate renders it with a subordinate cum-clause plus subjunctive (cum non possent), and the Peshitta with a relative-conjunctive construction ܘܕܠܐ ܐܫܟܚܘ ('and because they were not able'). The three are semantically equivalent but employ distinct syntactic strategies for the circumstantial clause."
     },
     {
       "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "προσενέγκαι / ܠܡܬܩܪܒܘ / offerre — 'to bring/offer to.'"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
         5,
+        6
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Syriac use a single dative/prepositional pronoun (αὐτῷ / ܠܘܬܗ, 'to him'); the Vulgate doubles the reference with eum illi, treating eum as the patient brought and illi as the indirect object, a fuller analytic rendering of the single Greek dative."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "διά / ܡܛܠ / præ — causal 'because of.'"
+    },
+    {
+      "greek_nt": [
         6,
         7
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        7,
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τὸν ὄχλον / ܟܢܫܐ / turba — 'the crowd.'"
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        8
       ],
       "peshitta": [
         6,
         7,
-        8
+        8,
+        9
       ],
       "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek ἀπεστέγασαν and Vulgate nudaverunt compress the act into a single verb ('they unroofed/uncovered'); the Peshitta expands narratively with ܣܠܩܘ ܠܗܘܢ ܠܐܓܪܐ ܘܐܪܝܡܘ ('they went up onto the roof and lifted off'), supplying the ascent to the roof that the Greek leaves implicit."
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Greek ἀπεστέγασαν τὴν στέγην ('they unroofed the roof') is a single action; Peshitta expands with two verbs: ܣܠܩܘ ܠܗܘܢ ܠܐܓܪܐ ('they went up to the roof'), adding the ascent as a preliminary step not present in Greek or Vulgate. Vulgate nudaverunt tectum ('they stripped the roof') mirrors Greek semantically."
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "τὴν στέγην / ܬܛܠܝܠܐ / tectum — 'the roof.'"
     },
     {
       "greek_nt": [
@@ -162,35 +196,17 @@
       "peshitta": [
         11,
         12,
-        13
+        13,
+        14
       ],
       "vulgate": [
         11,
-        12
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ὅπου ἦν ('where he was') uses a simple relative adverb with imperfect verb; Peshitta employs a compound construction ܕܐܬܪ ܕܐܝܬܘܗܝ ܗܘܐ ('of the place where he was'), using a genitive relative phrase with existential particle. Vulgate ubi erat mirrors Greek structure."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        14
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of 'where he was,' clarifying the antecedent. Neither Greek nor Vulgate include the proper name here, relying on contextual reference to αὐτῷ/eum earlier in the verse."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
+        12,
         13
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after erat, creating a stronger syntactic break between the roof-removal and the lowering action. Greek and Peshitta use coordinating conjunctions (καὶ / ܘ) to maintain continuous narrative flow without punctuation pause."
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek ὅπου ἦν and Vulgate ubi erat leave the subject unexpressed ('where he was'); the Peshitta makes it explicit by naming ܝܫܘܥ ('Jesus') and adding the locative ܕܐܬܪ ('the place where'), a clarifying expansion typical of Syriac narrative style. The Vulgate also inserts a colon here, a punctuation choice marking the clause boundary."
     },
     {
       "greek_nt": [
@@ -198,72 +214,82 @@
         14
       ],
       "peshitta": [
-        9,
-        10
+        15
       ],
       "vulgate": [
         14,
         15
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek ἐξορύξαντες ('having dug through/broken up') describes breaking through the roof material; Peshitta ܘܐܪܝܡܘ ܬܛܠܝܠܐ ('and they lifted the covering') uses a different verb emphasizing removal rather than excavation. Vulgate patefacientes ('opening up') is semantically intermediate, suggesting exposure rather than violent digging."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek pairs καί with the aorist participle ἐξορύξαντες ('having dug through'), matched by the Vulgate's et patefacientes ('and laying open'); the Peshitta condenses to a single finite verb ܘܫܒܘܗ, fusing the digging-through and the conjunction into one act. The Latin patefacientes ('opening up') is a milder lexical choice than the Greek ἐξορύσσω ('to gouge/dig out')."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The finite verb of lowering is χαλῶσιν (Greek historic present) / submiserunt (Vulgate perfect); in the Peshitta the single verb ܘܫܒܘܗ carries both the breaking-through and the letting-down sense, so its index is shared with the preceding group. The Greek vivid present is normalised to a past tense in both Latin and Syriac."
+    },
+    {
+      "greek_nt": [
         16,
         17
       ],
       "peshitta": [
-        15,
         16
       ],
       "vulgate": [
-        16,
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τὸν κράβαττον / ܥܪܣܐ / grabatum — 'the pallet/mat.'"
     },
     {
       "greek_nt": [
-        18
+        18,
+        19,
+        20
       ],
       "peshitta": [
         17,
         18,
-        19
+        19,
+        20
       ],
       "vulgate": [
         18,
-        19
+        19,
+        20
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the relative adverb ὅπου ('where') to introduce the paralytic's location; Peshitta employs a participial construction ܕܪܡܐ ܗܘܐ ܒܗ ('who was lying in it'), using a passive participle with locative pronoun. Vulgate in quo ('in which') uses a prepositional relative clause, structurally closer to Peshitta."
+      "note": "Greek and Vulgate use a locative relative clause (ὅπου ὁ παραλυτικός / in quo paralyticus); the Peshitta restructures with ܕܪܡܐ ܗܘܐ ܒܗ ('on which he was lying'), placing the locative pronoun ܒܗ within a separate relative clause and deferring the subject ܡܫܪܝܐ to clause-final position."
     },
     {
       "greek_nt": [
-        19,
-        20,
         21
       ],
       "peshitta": [
         20
       ],
       "vulgate": [
-        20,
         21
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article and noun before the verb (ὁ παραλυτικὸς κατέκειτο, 'the paralytic was lying'); Peshitta uses only the noun ܡܫܪܝܐ ('paralytic') with the verb already expressed in the relative clause; Vulgate paralyticus jacebat mirrors Greek word order with subject-verb sequence."
+      "variant": "aligned",
+      "note": "κατέκειτο / ܡܫܪܝܐ / jacebat — 'was lying.'"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.951483+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.450984+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

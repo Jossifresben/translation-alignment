@@ -51,7 +51,19 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ / Et"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
@@ -59,76 +71,136 @@
         1
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses simple conjunction καὶ with imperfect εἶχον ('and they had'); Syriac employs existential construction ܘܐܝܬ ܗܘܘ ('and there were to them'); Vulgate uses Et habebant. All three express possession but through different syntactic strategies typical of each language."
+      "note": "Greek uses the simple imperfect εἶχον ('they had'); the Peshitta renders this periphrastically with ܐܝܬ + the auxiliary ܗܘܘ ('there was [to them]'), a characteristic Syriac existential construction expressing possession. The Vulgate habebant matches the Greek finite verb directly."
     },
     {
       "greek_nt": [
-        2,
-        3
+        2
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
-        2,
-        3,
-        4
+        2
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek marks clause boundary with raised dot (ὀλίγα·); Vulgate inserts full colon after paucos, creating stronger syntactic break before the blessing action. Peshitta has no explicit punctuation marker here, continuing the narrative flow without pause."
+      "type": "lexical",
+      "note": "Greek employs the diminutive ἰχθύδια ('little fish'), matched by Latin pisciculos ('small fish'); the Peshitta ܢܘܢܐ is the unmarked generic word for 'fish' without an explicit diminutive force, slightly flattening the nuance of the Greek."
     },
     {
       "greek_nt": [
-        4,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "ὀλίγα / ܩܠܝܠ / paucos"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek and Latin use the plain coordinating conjunction (καί / et); the Peshitta uses the emphatic compound ܘܐܦ ('and also'), adding a slight adverbial force of inclusion that the other two traditions lack here."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        4,
         5,
         6
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Syriac adds emphatic particle ܘܐܦ ('and also/even') and prepositional phrase ܥܠܝܗܘܢ ('upon them') before the verb ܒܪܟ, making the blessing's object explicit through preposition rather than direct accusative. Greek uses aorist participle εὐλογήσας with direct object αὐτὰ; Vulgate employs finite verb benedixit with direct object ipsos. The Syriac construction emphasizes the act of blessing 'over' the fish as a distinct liturgical gesture."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek has participle + object (εὐλογήσας αὐτά, 'having blessed them'); the Peshitta inverts to prepositional object + finite verb (ܥܠܝܗܘܢ ܒܪܟ, 'over them he blessed'), reflecting Syriac idiom for blessing 'over' an object. The Vulgate retains the object-then-verb order (ipsos benedixit) with a finite verb rather than a participle."
     },
     {
       "greek_nt": [
-        7,
-        8,
-        9,
-        10
+        7
       ],
       "peshitta": [
-        7,
-        8,
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek εἶπεν ('he said/ordered') is rendered in the Peshitta by ܘܐܡܪ ('and he said'), preserving the verb of speaking; the Vulgate substitutes jussit ('he commanded'), making the command explicit rather than leaving it implicit in a verb of saying."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin introduce the order with a coordinating καί / et ('and these [also]'); the Peshitta dispenses with the second conjunction, folding the command directly into a subordinate clause (ܕܢܣܝܡܘܢ) without a connective."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
         9
       ],
       "vulgate": [
-        8,
-        9,
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ταῦτα ('these things') functions as the demonstrative object of the infinitive; the Peshitta expresses it with the resumptive pronoun ܐܢܘܢ ('them'), and the Vulgate ipsos likewise uses a pronoun rather than a neuter demonstrative, a routine simplification across both versions."
+    },
+    {
+      "greek_nt": [
         10
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek uses εἶπεν ('he said') with infinitive παρατιθέναι and demonstrative ταῦτα, yielding 'he said also these to be set before [them].' Vulgate substitutes jussit ('he commanded/ordered') with infinitive apponi, a stronger directive verb. Syriac employs ܘܐܡܪ ܕܢܣܝܡܘܢ ܐܢܘܢ ('and he said that they should set them'), using subordinate clause with imperfect plural verb rather than infinitive, and pronominal suffix rather than demonstrative—semantically equivalent but syntactically restructured."
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses a present infinitive of indirect command (παρατιθέναι, 'to be set before [them]'); the Peshitta employs a finite subordinate clause with the imperfect ܕܢܣܝܡܘܢ ('that they should set'), while the Vulgate uses the passive infinitive apponi ('to be served'). All three express the same directive through differing syntactic means."
+    },
+    {
+      "vulgate": [
+        4
+      ],
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after paucos, segmenting the verse into two clauses; this editorial punctuation has no counterpart in the Greek (which has a high point ·) treated within ὀλίγα·, and the Peshitta carries no equivalent mark in this token stream."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.994844+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.482735+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

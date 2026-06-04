@@ -54,14 +54,15 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
+      "peshitta": [
+        3
+      ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek κατά ('at, during') is rendered by Vulgate as Per diem ('through/throughout the day'), making the temporal aspect more explicit. Peshitta omits any direct equivalent, incorporating the temporal sense into the verbal construction ܡܥܕ ܗܘܐ ('was accustomed')."
+      "type": "construction",
+      "note": "Greek κατά + accusative expresses distributive/temporal sense ('at [the time of]'); Latin renders Per diem ('throughout the day'); Syriac ܒܟܠ ('on every') makes the iterative force explicit, agreeing in distributive sense though using a different preposition base."
     },
     {
       "greek_nt": [
@@ -74,47 +75,32 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        0,
-        1
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta adds the periphrastic construction ܡܥܕ ܗܘܐ ('was accustomed') to render the Greek imperfect ἀπέλυεν, making the habitual aspect more explicit through an auxiliary verb construction typical of Syriac narrative style."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        3
-      ],
-      "vulgate": [],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Peshitta inserts ܒܟܠ ('in every/each'), intensifying the distributive sense of the custom. Neither Greek nor Latin includes this quantifier, though the iterative imperfect tense implies regularity."
+      "type": "agreement",
+      "note": "δέ / ܕܝܢ / autem — the postpositive adversative particle is attested identically in all three traditions."
     },
     {
       "greek_nt": [
-        2
+        2,
+        3
       ],
       "peshitta": [
         4
       ],
       "vulgate": [
+        1,
         3
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἑορτήν / ܥܐܕܐ / diem festum — 'feast'; the parenthetical transliteration (he'ortēn) is a gloss of the same lexeme and aligns with the single Syriac feast-noun and the Latin two-word phrase."
     },
     {
       "greek_nt": [
-        3
+        4
       ],
       "peshitta": [
+        0,
+        1,
         5
       ],
       "vulgate": [
@@ -123,11 +109,11 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the simple imperfect ἀπέλυεν ('he was releasing'); Vulgate employs the periphrastic solebat dimittere ('he was accustomed to release'), making the habitual aspect explicit through a modal construction. Peshitta uses the infinitive ܠܡܫܪܐ ('to release') governed by the earlier auxiliary ܡܥܕ ܗܘܐ."
+      "note": "Greek expresses customary action with a single imperfect ἀπέλυεν ('he was releasing'); Latin periphrasis solebat dimittere ('was accustomed to release') makes the habitual aspect explicit; Syriac achieves the same with the customary particle ܡܥܕ + auxiliary ܗܘܐ plus the infinitive ܠܡܫܪܐ, a triple-token customary periphrasis."
     },
     {
       "greek_nt": [
-        4
+        5
       ],
       "peshitta": [
         6
@@ -136,11 +122,12 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis — dative/oblique 'to them'."
     },
     {
       "greek_nt": [
-        5
+        6
       ],
       "peshitta": [
         8
@@ -148,13 +135,13 @@
       "vulgate": [
         7
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the numeral before the noun (ἕνα δέσμιον / unum ex vinctis); Peshitta inverts this to ܐܣܝܪܐ ܚܕ (noun-numeral), following standard Syriac attributive word order for numerals."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἕνα / ܚܕ / unum — the numeral 'one'."
     },
     {
       "greek_nt": [
-        6
+        7
       ],
       "peshitta": [
         7
@@ -165,29 +152,41 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the simple noun δέσμιον ('prisoner'); Vulgate employs the partitive construction ex vinctis ('from among the bound ones'), emphasizing selection from a group. Peshitta uses ܐܣܝܪܐ ('prisoner'), semantically equivalent to Greek but without the partitive nuance."
+      "note": "Greek uses the simple accusative noun δέσμιον ('a prisoner'); Latin recasts this as a partitive prepositional phrase ex vinctis ('from among the bound ones'); Syriac ܐܣܝܪܐ retains the simple participial noun 'prisoner', so Greek and Syriac agree against the Latin partitive construction."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The relative ὃν ('whom') in Greek is matched by Syriac ܐܝܢܐ ('whichever one') and Latin's intensifying quemcumque ('whomsoever'); Latin and Syriac both heighten the indefinite force of the simple Greek relative, reflecting the popular-choice nuance of the custom."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek παρῃτοῦντο (imperfect of παραιτέομαι, 'they kept requesting/begging off') is rendered in Syriac by ܫܐܠܝܢ (root sh-a-l, 'they ask'), the standard verb for petition; Latin petissent (pluperfect subjunctive 'they had asked') aligns lexically but shifts to subjunctive mood within the relative clause, a syntactic rather than lexical divergence."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.047202+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.450814+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

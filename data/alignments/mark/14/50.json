@@ -37,26 +37,42 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "substitution",
-      "note": "Greek καὶ ('and') is replaced by Peshitta ܗܝܕܝܢ ('then') and Vulgate Tunc ('then'), both marking temporal sequence rather than simple conjunction. This represents a minor stylistic shift from coordinative to temporal discourse marking."
-    },
-    {
-      "greek_nt": [],
       "peshitta": [
         0
       ],
       "vulgate": [
         0
       ],
-      "variant": "added",
-      "type": "substitution",
-      "note": "Peshitta ܗܝܕܝܢ and Vulgate Tunc substitute for Greek καὶ, elevating the narrative transition from simple coordination to explicit temporal sequence ('then' rather than 'and')."
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek opens with the simple coordinating conjunction καί ('and'), whereas both the Peshitta (ܗܝܕܝܢ) and the Vulgate (Tunc) render a temporal adverb 'then'. The versions interpret the parataxis sequentially, a common shift from Semitic-style καί-narrative to an explicit temporal marker."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀφέντες / ܫܒܩܘܗܝ / relinquentes ('having left/forsaken'). Note that the Peshitta verb already incorporates the pronominal object suffix ('-him'), so the Greek αὐτόν and Vulgate eum are absorbed here."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek and Latin express the direct object as a separate accusative pronoun (αὐτόν / eum), but the Peshitta encodes it as a verbal suffix on ܫܒܩܘܗܝ; hence there is no independent Syriac token to align here."
+    },
+    {
       "peshitta": [
         2
       ],
@@ -66,34 +82,7 @@
       ],
       "variant": "added",
       "type": "expansion",
-      "note": "Both Peshitta ܬܠܡܝܕܘܗܝ ('his disciples') and Vulgate discipuli ejus explicitly identify the subject as 'disciples,' whereas Greek uses only the implicit subject πάντες ('all [they]'). This expansion clarifies the referent, likely reflecting liturgical or catechetical concerns."
-    },
-    {
-      "greek_nt": [
-        1,
-        2
-      ],
-      "peshitta": [
-        1
-      ],
-      "vulgate": [
-        3,
-        4
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        4
-      ],
-      "peshitta": [],
-      "vulgate": [
-        5
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek πάντες appears in final position after the verb ἔφυγον, while Vulgate omnes precedes fugerunt. Peshitta lacks an explicit equivalent, incorporating the universal scope into the plural verb ܘܥܪܩܘ. All three convey totality but through different syntactic strategies."
+      "note": "The Peshitta (ܬܠܡܝܕܘܗܝ, 'his disciples') and the Vulgate (discipuli ejus) both supply an explicit subject for the verb, harmonising the bare Greek participial clause; cf. the implicit 'all' subject of the Greek. The Greek leaves the subject to be inferred from πάντες and the 3rd-person plural verb."
     },
     {
       "greek_nt": [
@@ -106,13 +95,25 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἔφυγον / ܘܥܪܩܘ / fugerunt ('they fled'). The Syriac and the conjoined waw on ܘܥܪܩܘ render the action as coordinate ('and they fled') rather than as the main clause following a participle, a Semitic stylistic preference."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek πάντες and Vulgate omnes ('all') emphasise the totality of the disciples' flight, but the Peshitta omits any equivalent of 'all', leaving the universality implicit in the plural verb and subject ܬܠܡܝܕܘܗܝ."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:26:01.884795+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.529237+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

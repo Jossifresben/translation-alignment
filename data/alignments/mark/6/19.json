@@ -54,41 +54,76 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
-        1,
-        2
-      ],
-      "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs article + δέ + proper name (ἡ δὲ Ἡρῳδιάς); Peshitta mirrors this with pronoun + particle + name (ܗܝ ܕܝܢ ܗܪܘܕܝܐ); Vulgate places the proper name first without article (Herodias autem), reflecting Latin's lack of definite articles and preference for name-initial constructions."
+      "type": "construction",
+      "note": "The Greek feminine article ἡ functions attributively with the proper name Ἡρῳδιάς; the Peshitta renders this with the independent demonstrative/pronoun ܗܝ ('she, that one'), a Syriac periphrasis for the articular subject. The Vulgate has no corresponding element, beginning directly with the proper noun."
     },
     {
       "greek_nt": [
-        3,
-        4
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "δέ / ܕܝܢ / autem"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "Ἡρῳδιάς / ܗܪܘܕܝܐ / Herodias"
+    },
+    {
+      "greek_nt": [
+        3
       ],
       "peshitta": [
         3,
-        4,
+        4
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐνεῖχεν (imperfect of ἐνέχω, 'held a grudge against') is rendered by the Peshitta with a compound periphrastic construction ܠܚܝܡܐ ܗܘܬ (predicate + auxiliary ܗܘܬ) expressing durative past, while the Vulgate insidiabatur ('was lying in wait, plotting against') shifts the sense slightly toward active scheming rather than internal enmity."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
         5
       ],
       "vulgate": [
-        2,
-        3,
+        3
+      ],
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / illi"
+    },
+    {
+      "vulgate": [
         4
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἐνεῖχεν (imperfect of ἐνέχω, 'to hold a grudge against') is rendered by Peshitta ܠܚܝܡܐ ܗܘܬ ܠܗ (periphrastic construction with participle 'hostile' + copula + prepositional phrase) and Vulgate insidiabatur illi ('was plotting against him'), each tradition selecting a distinct lexeme to convey sustained hostility."
+      "type": "punctuation",
+      "note": "The Vulgate inserts a colon after illi, a editorial punctuation marking the clause boundary that has no counterpart in the Greek or Syriac token stream and slightly alters the syntactic rhythm of the reading."
     },
     {
       "greek_nt": [
@@ -100,26 +135,38 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Greek connects clauses with καί and the finite imperfect ἤθελεν; the Peshitta ܘܨܒܝܢ ܗܘܬ likewise uses a conjoined periphrastic past, while the Vulgate et volebat mirrors the Greek coordination but with a simple imperfect."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "ἤθελεν / ܨܒܝܢ ܗܘܬ / volebat"
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses finite verb + accusative + infinitive (ἤθελεν αὐτὸν ἀποκτεῖναι); Peshitta employs periphrastic construction with copula ܗܘܬ + infinitive ܠܡܩܛܠܗ (with pronominal suffix); Vulgate uses finite verb + infinitive (volebat occidere eum), with the object pronoun following rather than preceding the infinitive as in Greek."
+      "note": "Greek expresses the object and complementary infinitive as two words (αὐτὸν ἀποκτεῖναι); the Peshitta synthesises both into the single infinitive ܠܡܩܛܠܗ with an enclitic 3ms object suffix ('to kill him'), a typical Syriac morphological economy, whereas the Vulgate occidere eum keeps them analytic, matching the Greek with reversed order."
     },
     {
       "greek_nt": [
@@ -131,11 +178,22 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek καὶ οὐκ uses coordinating καί plus the negative particle οὐ; the Peshitta ܘܠܐ fuses conjunction and negation into a single token, and the Vulgate condenses both into the single adversative-negative nec ('and not'), a stylistic compression."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "variant": "aligned",
+      "note": "οὐκ / ܠܐ (subsumed in ܘܠܐ)"
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
@@ -147,13 +205,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses negated imperfect οὐκ ἠδύνατο; Peshitta employs periphrastic negation with participle ܠܐ ܡܫܟܚܐ ܗܘܬ (negative + active participle + copula); Vulgate uses simple negated imperfect nec poterat, all expressing the same durative past inability but through different syntactic strategies."
+      "note": "Greek ἠδύνατο (imperfect of δύναμαι, 'was able') is matched by the Peshitta periphrastic ܡܫܟܚܐ ܗܘܬ (from š-k-ḥ, 'to find/be able') with auxiliary ܗܘܬ, while the Vulgate poterat renders it with a single imperfect; the Syriac choice of š-k-ḥ for ability is a characteristic Aramaic idiom distinct from the Greek and Latin verbs of power."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.980537+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.479923+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

@@ -67,8 +67,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -80,8 +79,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek λέγει is a vivid historic present ('he says'); the Vulgate ait and the Peshitta ܘܐܡܪ render the verb as a simple past/aorist. The Syriac additionally fuses the conjunction 'and' (ܘ-) with the verb, so a single token covers both the καί and the verb of the Greek."
     },
     {
       "greek_nt": [
@@ -95,8 +94,7 @@
         3
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'illis' to mark the beginning of direct discourse, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker. This reflects Latin scribal convention for introducing quoted speech."
+      "note": "All traditions attest the dative/indirect object 'to them'; the Vulgate inserts an explicit colon (token 3) marking the introduction of direct discourse, a punctuation feature absent from the unpointed Greek and Syriac."
     },
     {
       "greek_nt": [
@@ -111,31 +109,40 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the relative pronoun ὃς with the modal particle ἂν to express indefinite relative ('whoever'); Syriac uses the universal quantifier ܟܠ ('all') with the relative ܡܢ ('who'); Latin compresses both into the compound relative 'Quicumque'. All three constructions are semantically equivalent indefinite relative clauses."
+      "note": "Greek uses the indefinite relative ὅς ἄν (relative pronoun + modal particle, 'whoever'); the Vulgate compresses this into the single indefinite relative Quicumque, while Syriac employs the analytic construction ܟܠ ܡܢ ('everyone who'), a typical Aramaic periphrasis for the universal relative."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         6,
         7,
         8
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        5,
         6,
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek expresses 'his wife' analytically with article + noun + genitive pronoun (τὴν γυναῖκα αὐτοῦ), matched by the Vulgate uxorem suam; Syriac synthesises the whole phrase into a single inflected form ܐܢܬܬܗ with a pronominal suffix, eliminating the separate article and possessive."
     },
     {
       "greek_nt": [
-        9
+        9,
+        10
       ],
       "peshitta": [
         6
@@ -143,50 +150,65 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "The coordinating καί ('and') plus γαμήσῃ ('shall marry') is rendered by the prefixed-conjunction verb ܘܢܣܒ in Syriac (literally 'and shall take'), using the verb 'to take' as the idiom for marrying. The Vulgate's et here governs the later duxerit (token 10), reflecting Latin word order."
     },
     {
       "greek_nt": [
-        10,
         11
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        9,
-        10
+        9
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb γαμήσῃ before the object ἄλλην; Syriac mirrors this order (ܘܢܣܒ ܐܚܪܬܐ); Latin inverts to object-verb (aliam duxerit). The Latin construction reflects classical preference for object-before-verb in subordinate clauses, while Greek and Syriac follow verb-object order."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        12,
-        13,
-        14
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "note": "Latin renders 'shall marry' with duxerit (from ducere uxorem, 'to lead [a wife]'), an idiom paralleling the Greek γαμήσῃ and the Syriac 'take'; the verb is placed after the object aliam, reflecting standard Latin clause-final verb position."
+    },
+    {
+      "greek_nt": [
+        12
       ],
       "peshitta": [
         8
       ],
       "vulgate": [
         11,
-        12,
+        12
+      ],
+      "variant": "minor",
+      "note": "Greek μοιχᾶται is a single middle/passive present verb ('commits adultery'); the Vulgate analyses the action into noun + verb adulterium committit, while Syriac ܓܐܪ (root g-w-r) is again a single finite verb, agreeing structurally with the Greek economy."
+    },
+    {
+      "greek_nt": [
         13,
         14
       ],
-      "variant": "major",
-      "type": "omission",
-      "note": "The Peshitta omits the entire adultery clause, ending abruptly with the particle ܓܐܪ ('for/commits adultery'), which appears to function as a truncated verb. Greek preserves μοιχᾶται ἐπ᾽ αὐτήν ('commits adultery against her'), and Latin expands with the periphrastic construction 'adulterium committit super eam'. This Peshitta reading may reflect either textual corruption or an alternative Vorlage lacking the explicit adultery statement."
+      "vulgate": [
+        13,
+        14
+      ],
+      "variant": "omitted",
+      "note": "Greek ἐπ᾽ αὐτήν ('against her') is faithfully rendered by the Vulgate super eam, but the Peshitta omits the prepositional phrase entirely, leaving the adultery clause without an explicit object — a recurring Syriac tendency to drop the disputed ἐπ᾽ αὐτήν in this logion."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.008920+00:00",
-    "confidence": 0.72,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.561205+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

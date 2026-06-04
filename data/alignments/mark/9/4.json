@@ -50,52 +50,92 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "The Greek aorist passive ὤφθη and Latin perfect apparuit both render 'appeared (to them)'; the Peshitta fuses the conjunction and verb into a single inflected form ܘܐܬܚܙܝܘ (Ethpaal 'and they appeared'), so the conjunction and verb are realised together in one token while Greek and Latin separate them."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5
+        3
       ],
       "peshitta": [
-        2,
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
         3
       ],
       "vulgate": [
-        3,
-        4,
-        5
+        4
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek places Elijah before Moses (Ἠλίας σὺν Μωϋσεῖ), whereas both Peshitta (ܐܠܝܐ ܘܡܘܫܐ) and Vulgate (Elias cum Moyse) follow the same sequence. However, Peshitta uses the coordinating conjunction ܘ ('and') rather than the prepositional construction σὺν/cum ('with'), presenting the two figures as co-equal subjects rather than Moses as accompaniment to Elijah."
-    },
-    {
-      "vulgate": [
-        6
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after 'Moyse' to mark a major syntactic break before the second clause, a punctuation convention absent in Greek and Syriac manuscript traditions."
+      "variant": "minor",
+      "note": "Greek σύν and Latin cum are prepositions governing Moses ('Elijah with Moses'); the Peshitta instead coordinates the two names with the conjunction ܘ ('Elijah and Moses'), turning a comitative phrase into a simple coordination — a recurring Syriac stylistic preference."
     },
     {
       "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "note": "The proper noun Moses is shared, but the Peshitta token ܘܡܘܫܐ carries the prefixed coordinating conjunction (see prior group), whereas Greek Μωϋσεῖ and Latin Moyse stand as bare datives/ablatives governed by the preposition."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "vulgate": [
         6,
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek and Latin mark the second clause with the conjunction καί / et; the Vulgate additionally inserts a colon (token 6) before the conjunction, a Clementine editorial punctuation that segments the verse and has no counterpart in the Greek or Syriac."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
@@ -104,13 +144,11 @@
         5
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a periphrastic construction (ἦσαν συλλαλοῦντες, imperfect of εἰμί + present participle) to express durative past action. Peshitta uses the temporal particle ܟܕ with active participle ܡܡܠܠܝܢ, a standard Syriac circumstantial construction. Vulgate mirrors the Greek periphrasis with 'erant loquentes'. All three convey ongoing conversation, but through tradition-specific grammatical strategies."
+      "note": "Greek (ἦσαν συλλαλοῦντες) and Latin (erant loquentes) both use a periphrastic imperfect, 'were talking'; the Peshitta uses the subordinating particle ܟܕ ('while') plus the active participle ܡܡܠܠܝܢ, expressing simultaneous circumstantial action rather than a finite periphrastic — a construction-level divergence yielding the same durative sense."
     },
     {
       "greek_nt": [
@@ -125,14 +163,14 @@
         10,
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek encodes the addressee with a dative article + name (τῷ Ἰησοῦ), expressing 'talking with Jesus'; both the Peshitta (ܥܡ ܝܫܘܥ) and Latin (cum Jesu) make the comitative explicit with a preposition, a more analytic rendering of the Greek dative of association."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.229930+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.424171+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

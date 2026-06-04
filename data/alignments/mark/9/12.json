@@ -84,24 +84,41 @@
       "greek_nt": [
         0,
         1,
-        2,
-        3,
-        4
-      ],
-      "peshitta": [
-        0,
-        1
+        2
       ],
       "vulgate": [
         0,
-        1,
-        2,
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek has the articular subject ὁ δέ ('but he') plus the aoristic participle ἀποκριθείς ('answering'); the Vulgate renders this with the relative-pronoun subject Qui and respondens, while the Peshitta drops the participle of answering entirely (see following group). The Latin Qui ('who') reflects a typical Vulgate connective device replacing the Greek δέ."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek ἔφη (imperfect of φημί) and Latin ait both denote the act of speaking; the Peshitta ܐܡܪ likewise renders 'said', but in Syriac it stands as the sole verb of speaking, the answering-participle of the Greek having been suppressed as redundant."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
         3,
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a participial construction (ὁ δὲ ἀποκριθείς ἔφη, 'the one answering said') with article and postpositive δέ; Peshitta uses a simple finite verb (ܐܡܪ ܠܗܘܢ, 'he said to them'); Vulgate mirrors Greek with a relative pronoun and participle (Qui respondens ait illis). All three convey identical meaning through different syntactic strategies."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis ('to them')."
     },
     {
       "greek_nt": [
@@ -113,107 +130,142 @@
       "vulgate": [
         5
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "Ἠλίας / ܐܠܝܐ / Elias."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek μέν (a correlative particle anticipating a following contrast or continuation) is absent in both Peshitta and Vulgate. This particle is often untranslatable in translation languages and does not affect the semantic content of the clause."
+      "note": "The Greek correlative particle μέν (anticipating an implied δέ) has no formal equivalent in either the Peshitta or the Vulgate, both of which simplify the balanced Greek construction. Such untranslated particles are routine, as neither Syriac nor Latin possesses a precise correlative counterpart."
     },
     {
       "greek_nt": [
-        7,
-        8
+        7
       ],
       "peshitta": [
-        3,
-        4
+        3
       ],
       "vulgate": [
         6,
-        7,
-        8
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses aorist participle + adverb (ἐλθὼν πρῶτον, 'having come first'); Vulgate employs cum + perfect subjunctive + adverb (cum venerit primo, 'when he will have come first'); Peshitta places the verb before the temporal adverb (ܐܬܐ ܠܘܩܕܡ, 'comes first'). The temporal sequence is identical across all three traditions despite syntactic variation."
-    },
-    {
-      "greek_nt": [
-        9,
-        10
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        9,
-        10
+        7
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses present tense ἀποκαθιστάνει ('restores') with neuter plural πάντα; Peshitta employs a subordinate clause with ܕ ('that') + ܟܠܡܕܡ ('everything') + imperfect ܢܬܩܢ ('he will restore'); Vulgate uses future restituet omnia. The Peshitta's subordinate construction and the tense variations reflect translation choices rather than textual variants."
+      "note": "Greek uses the aorist participle ἐλθών ('having come'); the Peshitta employs a finite perfect ܐܬܐ ('came'), while the Vulgate renders a temporal clause cum venerit ('when he shall have come'), introducing a future-perfect nuance absent from the Greek participle."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "πρῶτον / ܠܘܩܕܡ / primo ('first')."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀποκαθιστάνει is a present indicative ('restores'); the Vulgate restituet is future ('will restore'), and the Peshitta ܢܬܩܢ is an imperfect/future ('will set in order'). The Greek gnomic present is thus rendered as a future in both versions, and the Syriac word order places the object before the verb."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek πάντα ('all things') follows its verb; the Peshitta ܕܟܠܡܕܡ ('everything') precedes the verb ܢܬܩܢ, a normal Syriac fronting. The Vulgate omnia matches the Greek order, and the Latin colon (idx 11) corresponds to the Greek raised stop after πάντα·."
     },
     {
       "greek_nt": [
         11
       ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "καί / et ('and')."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
       "peshitta": [
         7
       ],
       "vulgate": [
-        11,
-        12
+        13
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek καὶ connects the two clauses coordinately; Peshitta uses ܘ (waw) similarly; Vulgate inserts a colon after omnia, creating a stronger pause before et quomodo. This punctuation choice in the Vulgate tradition slightly elevates the rhetorical force of the following question."
+      "variant": "aligned",
+      "note": "πῶς / ܘܐܝܟܢܐ / quomodo ('how'); the Syriac prefixes the conjunction waw, merging the preceding 'and' into this word."
     },
     {
       "greek_nt": [
-        12,
         13
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        13,
         14,
         15
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses interrogative adverb + perfect passive (πῶς γέγραπται, 'how has it been written'); Peshitta employs ܐܝܟܢܐ ܟܬܝܒ ('how is it written') with passive participle; Vulgate expands to quomodo scriptum est ('how it has been written') with explicit copula. All three preserve the rhetorical question structure."
+      "variant": "aligned",
+      "note": "γέγραπται / ܟܬܝܒ / scriptum est ('it is written')."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "ἐπί / ܥܠ / in ('concerning/upon')."
+    },
+    {
+      "greek_nt": [
         15,
         16,
         17,
         18
       ],
       "peshitta": [
-        9,
         10,
         11
       ],
       "vulgate": [
-        16,
         17,
         18
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses preposition ἐπὶ + accusative article-noun phrase (ἐπὶ τὸν υἱὸν τοῦ ἀνθρώπου, 'concerning the Son of Man'); Peshitta uses ܥܠ + construct phrase (ܥܠ ܒܪܗ ܕܐܢܫܐ); Vulgate employs in + accusative (in Filium hominis). The prepositional choices (ἐπί vs. in vs. ܥܠ) reflect standard translation equivalents for expressing 'concerning' or 'about.'"
+      "type": "idiom",
+      "note": "The Greek articular phrase τὸν υἱὸν τοῦ ἀνθρώπου is rendered by the Latin anarthrous Filium hominis (Latin lacking the article) and by the Syriac construct chain ܒܪܗ ܕܐܢܫܐ ('the Son of man'), where the Semitic idiom underlying the Greek title surfaces most transparently."
     },
     {
       "greek_nt": [
@@ -225,46 +277,64 @@
       "vulgate": [
         19
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ἵνα introduces a purpose/result clause; Peshitta uses ܕ (d-) as a subordinating particle; Vulgate employs ut. All three introduce the content of what is written about the Son of Man, though Greek ἵνα can carry either purpose or epexegetical force here."
+      "variant": "aligned",
+      "note": "ἵνα / ut ('that'); the Syriac dalath prefix on ܕܣܓܝ carries the same subordinating force."
     },
     {
       "greek_nt": [
-        20,
+        20
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        20
+      ],
+      "variant": "aligned",
+      "note": "πολλά / ܣܓܝ / multa ('many things')."
+    },
+    {
+      "greek_nt": [
         21
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        20,
         21
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adverbial accusative before the verb (πολλὰ πάθῃ, 'many things he may suffer'); Peshitta integrates the adverb into the verb phrase with ܕܣܓܝ ܢܚܫ ('that greatly he will suffer'); Vulgate follows Greek word order (multa patiatur). The Peshitta's adverbial construction (ܣܓܝ, 'greatly/much') modifies the verb more directly than the Greek/Latin accusative of respect."
+      "variant": "aligned",
+      "note": "πάθῃ / ܢܚܫ / patiatur ('he may suffer')."
     },
     {
       "greek_nt": [
-        22,
+        22
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "aligned",
+      "note": "καί / et ('and'); the Syriac merges this conjunction into the following verb via prefixed waw."
+    },
+    {
+      "greek_nt": [
         23
       ],
       "peshitta": [
         14
       ],
       "vulgate": [
-        22,
         23
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἐξουδενηθῇ ('be set at naught, treated with contempt') is matched by the Vulgate contemnatur ('be despised'); the Peshitta ܘܢܣܬܠܐ derives from a root denoting rejection/abhorrence ('be rejected'), a near-synonymous but distinct lexical choice that includes the conjunction 'and' prefixed."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.231208+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.541668+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

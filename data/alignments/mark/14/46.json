@@ -44,66 +44,120 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses article + postpositive conjunction (οἱ δέ); Vulgate employs adversative conjunction 'At' with demonstrative pronoun 'illi'; Peshitta mirrors Greek structure with demonstrative ܗܢܘܢ + ܕܝܢ. All three convey the same adversative transition but through tradition-specific particles."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4,
-        5,
-        6
+        1
       ],
       "peshitta": [
-        2,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "note": "All three traditions employ an adversative/continuative connective in second position (Greek postpositive δέ, Syriac postpositive ܕܝܢ), but the Vulgate fronts the conjunction At, reflecting Latin syntax which does not permit a postpositive particle. The semantic force ('but/and they') is identical."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek ἐπέβαλον and Latin injecerunt are exact lexical equivalents ('threw/laid upon'); Syriac ܐܪܡܝܘ (root r-m-y, 'to cast/throw') renders the same act of casting hands, though it appears earlier in the clause than the Latin verb, which follows its object."
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
-        2,
-        3,
+        2
+      ],
+      "variant": "minor",
+      "note": "Greek articulates the noun with τὰς χεῖρας ('the hands') and the Vulgate omits the article (Latin lacking one) with bare manus; the Syriac ܐܝܕܝܐ likewise stands without the proleptic article force. The word-order also varies: Greek and Syriac place hands after the verb, Latin before it."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [],
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "The Greek includes the possessive genitive αὐτῶν ('their hands'), an idiomatic Semitism made explicit in the Greek text. Both the Peshitta and the Vulgate render the noun unmodified ('hands'), treating the possessor as self-evident and thus omitting an explicit pronoun."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
         4,
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the idiom ἐπιβάλλω + accusative object (τὰς χεῖρας αὐτῶν) + dative indirect object (αὐτῷ), literally 'cast their hands upon him.' Vulgate uses 'manus injecerunt in eum' with prepositional phrase. Peshitta compresses the construction: ܐܪܡܝܘ ܥܠܘܗܝ ܐܝܕܝܐ ('cast upon-him hands'), incorporating the pronominal suffix directly onto the preposition, omitting a separate possessive pronoun for 'their.'"
+      "note": "Greek uses the simple dative αὐτῷ ('on him') to express the indirect object; the Vulgate renders this with the prepositional phrase in eum (accusative governed by in), while the Syriac ܥܠܘܗܝ similarly employs the preposition ܥܠ ('upon') with pronominal suffix. The constructions are semantically equivalent renderings of the same dative relation."
     },
     {
       "greek_nt": [
-        7,
-        8,
+        7
+      ],
+      "peshitta": [],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek καί and Latin et coordinate the two finite verbs; the Syriac instead prefixes the conjunctive waw directly to the following verb (ܘܐܚܕܘܗܝ), incorporating the connective morphologically rather than as a separate word."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        6,
-        7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek αὐτόν and Latin eum render the direct object as a separate accusative pronoun; the Syriac expresses both the verb 'they seized' and its object 'him' synthetically in the single form ܘܐܚܕܘܗܝ (root a-kh-d with a 3ms object suffix), a typical compression of Syriac morphology."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.042120+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.531333+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

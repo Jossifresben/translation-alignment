@@ -56,36 +56,32 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
-        1
+        1,
+        2
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "The Peshitta employs a periphrastic construction ܘܒܥܐ ܗܘܐ (wəḇāʿā hwā, 'and he was beseeching') using the auxiliary verb ܗܘܐ to express imperfective aspect, whereas Greek uses the simple imperfect παρεκάλει and Latin the imperfect deprecabatur without auxiliary."
+      "note": "Greek παρεκάλει is a simple imperfect; the Peshitta renders the durative aspect periphrastically with ܒܥܐ ܗܘܐ (verb + auxiliary ܗܘܐ), a characteristic Syriac construction for continuous past action. The Latin deprecabatur conveys the same imperfect sense synthetically. Note that the Syriac ܡܢܗ ('from him') is here grouped with the verb as it supplies the prepositional object that Greek expresses with the bare accusative αὐτόν."
     },
     {
       "greek_nt": [
-        2
-      ],
-      "peshitta": [
         2
       ],
       "vulgate": [
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "αὐτόν / eum"
     },
     {
       "greek_nt": [
@@ -97,8 +93,7 @@
       "vulgate": [
         3
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -112,19 +107,18 @@
         4
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἵνα μή / ܕܠܐ / ne"
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
       "vulgate": [
         5
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek αὐτά (neuter plural 'them') and Vulgate se (reflexive 'himself/themselves') represent the demons speaking collectively, whereas the Peshitta omits an explicit object pronoun, incorporating it as a third-masculine-plural suffix -ܝܘܗܝ on the verb ܢܫܕܪܝܘܗܝ. The Vulgate's reflexive se emphasizes the demons' self-reference more explicitly than the Greek neuter plural."
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek αὐτά is the neuter plural pronoun ('them'), referring to the unclean spirits as a collective. The Latin reflexive se ('himself/itself') reflects a different referent, agreeing with the demoniac (or the singular spirit) rather than the plurality; the Syriac encodes its pronominal object within the verb (see following group)."
     },
     {
       "greek_nt": [
@@ -136,33 +130,43 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἀποστείλῃ ('send away') and Latin expelleret ('drive out') differ lexically in nuance, the latter being more forcible. The Syriac ܢܫܕܪܝܘܗܝ ('that he send him') carries an enclitic 3ms object suffix, so the pronominal object is fused into the verb rather than expressed as a separate token as in Greek and Latin."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἔξω / ܠܒܪ ܡܢ / extra"
+    },
+    {
+      "greek_nt": [
         9,
         10
       ],
       "peshitta": [
-        6,
-        7,
         8
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the preposition ἔξω with genitive article τῆς χώρας ('out of the country'); Vulgate employs extra with accusative regionem; Syriac uses the compound prepositional phrase ܠܒܪ ܡܢ ܐܬܪܐ (ləḇar men ʾaṯrā, literally 'to outside from the region'), a characteristic Semitic construction combining directional and ablative elements."
+      "variant": "aligned",
+      "note": "τῆς χώρας / ܐܬܪܐ / regionem"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.972010+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.465914+00:00",
+    "confidence": 0.85,
     "schema_version": 1
   }
 }

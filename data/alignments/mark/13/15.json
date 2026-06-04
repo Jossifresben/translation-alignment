@@ -77,7 +77,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + postpositive conjunction (ὁ δέ, 'but the one'); Vulgate employs conjunction + relative pronoun (et qui, 'and he who'); Peshitta uses conjunction + indefinite relative (ܘܡܢ, 'and whoever'). All three express the same substantival construction but with different syntactic strategies."
+      "note": "Greek opens with substantival article + postpositive δέ (ὁ δὲ, 'and the one [who]'); the Vulgate renders this as a coordinated relative clause (et qui); the Peshitta compresses the conjunction and relative into the single proclitic ܘܡܢ ('and whoever'), a typical Syriac fusion of waw + interrogative-relative."
     },
     {
       "greek_nt": [
@@ -94,7 +94,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs prepositional phrase with article (ἐπὶ τοῦ δώματος, 'upon the housetop'); Vulgate uses preposition without article (super tectum); Peshitta uses a prefixed preposition on the noun (ܕܒܐܓܪܐ, 'who-on-the-roof'). The Syriac construction integrates the relative marker and preposition morphologically."
+      "note": "Greek uses preposition + articular genitive (ἐπὶ τοῦ δώματος, 'upon the housetop') and Latin matches with super + accusative (super tectum); the Peshitta collapses this into a single prepositional-prefixed noun ܕܒܐܓܪܐ ('who is on the roof'), incorporating the relative marker, preposition, and noun into one orthographic word."
     },
     {
       "greek_nt": [],
@@ -103,24 +103,36 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta inserts the independent pronoun ܗܘ ('he') as an explicit subject marker, a common Syriac stylistic feature for emphasis or clarity. Neither Greek nor Latin requires this since the verb morphology encodes the subject."
+      "type": "expansion",
+      "note": "The Peshitta adds the enclitic pronoun ܗܘ ('he/that one') functioning as a copular/resumptive element to close off the relative clause ('and whoever is on the roof, he...'). Neither the Greek nor the Latin requires this resumptive pronoun, which is a syntactic feature of Syriac relative constructions."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Prohibitive negation: μή / ܠܐ / ne."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "καταβαίνω / ܢܚܘܬ / descendat ('let him come down')."
     },
     {
       "greek_nt": [
@@ -133,25 +145,37 @@
         6,
         7
       ],
-      "variant": "major",
+      "variant": "omitted",
       "type": "omission",
-      "note": "Greek and Vulgate specify 'into the house' (εἰς τὴν οἰκίαν / in domum) as the destination of descent. Peshitta omits this prepositional phrase entirely, proceeding directly to the prohibition against entering, thereby compressing the two-stage action (descending + entering) into a single conceptual unit."
+      "note": "Greek εἰς τὴν οἰκίαν ('into the house') and Latin in domum both specify the destination of the descent; the Peshitta omits this prepositional phrase entirely, leaving ܠܐ ܢܚܘܬ ('let him not come down') without an explicit goal, a compression aligned with the Western/Syriac tendency toward economy here."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Coordinating negative: μηδέ / ܘܠܐ / nec."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        8,
         9
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "εἰσέρχομαι / ܢܥܘܠ / introëat ('let him enter')."
     },
     {
       "greek_nt": [
@@ -166,7 +190,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses aorist infinitive (ἆραί, 'to take') as purpose clause complement; Vulgate employs ut + subjunctive (ut tollat, 'in order that he take'); Peshitta uses prefixed lamed + infinitive (ܠܡܫܩܠ, 'to take'). All three express purpose, but through tradition-specific infinitival or subjunctive constructions."
+      "note": "Greek expresses purpose with a bare aorist infinitive (ἆραί, 'to take'); the Peshitta uses the infinitival form prefixed with lamadh ܠܡܫܩܠ ('to carry/take away'); the Vulgate makes the purpose explicit with a final conjunction plus subjunctive (ut tollat), a construction-level divergence expressing identical purpose semantics."
     },
     {
       "greek_nt": [
@@ -179,43 +203,55 @@
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "Indefinite object: τι / ܡܕܡ / quid ('anything')."
     },
     {
       "greek_nt": [
         14,
-        15,
-        16
+        15
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
       "vulgate": [
-        13,
-        14
+        13
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the prepositional phrase before the possessive (ἐκ τῆς οἰκίας αὐτοῦ, 'out of the house of-him'); Vulgate mirrors this order (de domo sua); Peshitta reverses to possessive-then-source (ܡܢ ܒܝܬܗ, 'from his-house'), reflecting standard Semitic construct-state word order."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Ablatival source: ἐκ (+ article) / ܡܢ / de ('out of / from')."
     },
     {
       "greek_nt": [
+        16,
         17
       ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        14,
+        15
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses noun + possessive pronoun (τῆς οἰκίας αὐτοῦ, 'his house') and Latin matches analytically (domo sua); the Peshitta synthesises the noun and third-person possessive suffix into a single form ܒܝܬܗ ('his house'), a normal Semitic pronominal-suffix construction rather than a separate possessive word."
+    },
+    {
+      "greek_nt": [],
       "peshitta": [],
       "vulgate": [
-        15,
         16
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate marks the clause boundary with a colon as a discrete token; the Greek terminal punctuation is attached to αὐτοῦ· (token 17) and the Peshitta carries no separate punctuation token, so this colon is treated as a Latin-only orthographic element."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.030636+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.416932+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

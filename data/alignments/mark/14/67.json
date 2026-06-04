@@ -63,20 +63,30 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin open with the coordinating conjunction (καὶ / et); the Peshitta fronts the finite verb ܚܙܬܗ ('she saw him') without an initial conjunction, integrating the pronominal object into the verb form. The connective is absorbed into the verbal syntax rather than omitted in sense."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses coordinating conjunction καὶ with aorist participle ἰδοῦσα; Vulgate employs temporal cum with pluperfect subjunctive vidisset, a classical Latin construction for past circumstantial action; Peshitta uses simple perfect ܚܙܬܗ without explicit conjunction, typical of Syriac narrative style."
+      "note": "Greek uses an aorist feminine participle (ἰδοῦσα); the Vulgate renders this with a temporal clause (cum vidisset); the Syriac employs a finite verb with an enclitic 3ms object suffix (ܚܙܬܗ, 'she saw him'), so that what the Greek expresses with a participle plus separate accusative noun the Peshitta condenses into a single inflected form."
     },
     {
       "greek_nt": [
@@ -87,9 +97,9 @@
       "vulgate": [
         3
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits explicit mention of Peter's name, relying on pronominal suffix in ܚܙܬܗ ('she saw him') to carry the referent from context. Greek and Latin both name Πέτρον/Petrum explicitly as direct object."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek names the object explicitly with article plus proper noun (τὸν Πέτρον) and Latin matches with Petrum; the Peshitta supplies no separate noun here, the referent being carried only by the object suffix on the verb ܚܙܬܗ, an idiomatic Syriac economy of expression."
     },
     {
       "greek_nt": [
@@ -104,23 +114,35 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses middle participle θερμαινόμενον ('warming himself'); Vulgate adds reflexive pronoun se to calefacientem for clarity; Peshitta employs active participle ܕܫܚܢ without reflexive marker, as Syriac middle voice is often implicit in context."
+      "note": "Greek uses the middle present participle θερμαινόμενον ('warming himself'); Latin renders the reflexive sense periphrastically with calefacientem se; the Peshitta uses a relative-headed finite clause ܕܫܚܢ ('who was warming/who had grown warm'), distributing the same notion across differing syntactic frames."
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐμβλέψασα / ܘܚܪܬ / aspiciens — 'having looked intently'."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        6,
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "αὐτῷ / ܒܗ / illum."
     },
     {
       "greek_nt": [
@@ -135,8 +157,8 @@
         9
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts colon after ait to mark direct speech boundary, a Latin scribal convention. Greek uses raised dot (·) with historical present λέγει; Peshitta ܘܐܡܪܐ ܠܗ ('and she said to him') includes dative pronoun, making indirect object explicit."
+      "type": "expansion",
+      "note": "Greek λέγει is a single verb of speaking; the Vulgate adds explicit punctuation (ait :) introducing direct discourse, while the Peshitta supplies an indirect-object pronoun ܠܗ ('to him') after ܘܐܡܪܐ, making the addressee overt where the Greek leaves it implicit."
     },
     {
       "greek_nt": [
@@ -152,38 +174,72 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "καὶ σὺ / ܘܐܦ ܐܢܬ / Et tu — emphatic 'you also'."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μετὰ / ܥܡ / cum."
+    },
+    {
+      "greek_nt": [
         11,
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "Greek places the epithet 'the Nazarene' (τοῦ Ναζαρηνοῦ) before the name and Latin likewise keeps Nazareno adjacent to Jesu; the Peshitta postpones ܢܨܪܝܐ to the very end of the clause, after the verb, reflecting Syriac preference for trailing the qualifying epithet."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἦσθα / ܗܘܝܬ / eras — imperfect/perfect 'you were'."
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        8,
-        9,
-        10,
-        11
+        9
       ],
       "vulgate": [
-        12,
-        13,
-        14,
-        15
+        13
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "word-order",
-      "note": "Greek places verb ἦσθα after prepositional phrase μετὰ τοῦ Ναζαρηνοῦ τοῦ Ἰησοῦ, with Jesus in apposition to 'the Nazarene.' Vulgate and Peshitta both front the verb (eras/ܗܘܝܬ) and reverse the order to 'with Jesus the Nazarene' (cum Jesu Nazareno/ܥܡ ܝܫܘܥ ܢܨܪܝܐ), treating 'Nazarene' as adjectival modifier rather than substantive with article. This reflects differing syntactic preferences: Greek article + substantive + genitive apposition vs. Latin/Syriac noun + attributive adjective."
+      "note": "Greek and Latin position the proper name Ἰησοῦ / Jesu in the genitive after the preposition, with the Greek adding the article τοῦ; the Peshitta places ܝܫܘܥ immediately after ܥܡ ('with Jesus') and before the epithet, again displacing the order of name and qualifier relative to the other witnesses."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.045401+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.545179+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

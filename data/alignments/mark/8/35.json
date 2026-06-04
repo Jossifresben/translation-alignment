@@ -81,22 +81,40 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
         0,
-        1,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with the relative pronoun ὃς ('whoever'); the Peshitta renders this with the analytic construction ܟܠ ܡܢ ('everyone who'), a typical Syriac strategy for generalising relatives. Latin Qui matches the Greek single-word relative directly."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
         3
       ],
       "vulgate": [
-        0,
         1
       ],
+      "variant": "aligned",
+      "note": "γάρ / ܓܝܪ / enim — explanatory conjunction; note the Peshitta postpones the particle after the verb, reflecting Syriac second-position placement."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "vulgate": [],
       "variant": "minor",
-      "type": "word-order",
-      "note": "The Peshitta places the particle ܓܝܪ ('for') after the relative clause ܟܠ ܡܢ ܕܨܒܐ, whereas Greek positions γὰρ immediately after the relative pronoun ὃς. The Vulgate omits an explicit equivalent for ἐὰν, absorbing the conditional sense into the future-perfect voluerit."
+      "type": "construction",
+      "note": "The Greek conditional particle ἐάν ('if') governing the subjunctive forms a protasis; neither Latin nor Syriac employ a separate conditional particle, folding the condition into the relative+verb construction. Latin uses the future-perfect voluerit to carry the conditional force."
     },
     {
       "greek_nt": [
@@ -108,43 +126,73 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek θέλῃ (present subjunctive) and Latin voluerit (future perfect) both render the desire-verb in the protasis; the Peshitta ܕܨܒܐ uses the relative-marked perfect of ts-b-a ('to will/desire'), grammatically distinct but semantically equivalent."
     },
     {
       "greek_nt": [
         4,
         5,
-        6,
-        7
+        6
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
         3,
-        4,
-        5,
-        6
+        4
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the infinitive σῶσαι ('to save') with accusative object τὴν ψυχὴν αὐτοῦ. Latin employs a periphrastic construction animam suam salvam facere ('to make his life safe'), treating salvam as a predicate adjective. Syriac uses a simple Peal infinitive ܕܢܚܐ ܢܦܫܗ ('that he save his life'), omitting the article and employing a d- prefix for the infinitive clause."
+      "note": "Greek expresses 'his life/soul' with article + noun + possessive pronoun (τὴν ψυχὴν αὐτοῦ), matched by Latin animam suam; the Peshitta compresses this into the single suffixed form ܢܦܫܗ, the noun n-p-sh bearing the 3ms possessive enclitic."
     },
     {
       "greek_nt": [
-        8,
-        9
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses the simple aorist infinitive σῶσαι ('to save'); Latin renders periphrastically with salvam facere ('to make safe'); the Peshitta employs ܕܢܚܐ, the relative-marked imperfect of ḥ-y-a ('to make/keep alive'), construing salvation as preservation of life rather than rescue."
+    },
+    {
+      "greek_nt": [
+        8
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        7,
-        8,
+        7
+      ],
+      "variant": "aligned",
+      "note": "ἀπολέσει / ܢܘܒܕܝܗ / perdet — 'will lose/destroy'; the Syriac form ܢܘܒܕܝܗ carries the object suffix that the Greek and Latin express with a separate pronoun."
+    },
+    {
+      "greek_nt": [
         9
       ],
-      "variant": "aligned"
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek αὐτήν and Latin eam supply an explicit accusative object pronoun ('it'); the Peshitta has already incorporated this object as the enclitic on ܢܘܒܕܝܗ, so no separate token corresponds."
+    },
+    {
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Vulgate marks the apodosis/protasis boundary with an explicit colon, whereas the Greek uses a high point (·) attached to αὐτήν and the Peshitta relies on syntactic juncture alone; an editorial rather than textual divergence."
     },
     {
       "greek_nt": [
@@ -160,28 +208,39 @@
         11
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek employs the contrastive particle δ᾽ ἂν ('but whoever') with the modal particle ἄν. Latin uses autem ('however'). Syriac repeats the universal quantifier ܘܟܠ ('and everyone'), creating parallelism with the opening clause rather than explicit contrast."
+      "type": "construction",
+      "note": "Greek introduces the second clause with ὃς δ᾽ ἂν ('but whoever') — relative + adversative δέ + modal ἄν; Latin qui autem mirrors this with relative + adversative. The Peshitta condenses the whole into ܘܟܠ ('and everyone who'), substituting a coordinating ܘ for the adversative and again using the generalising ܟܠ idiom."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀπολέσει is future indicative and Latin perdiderit is future perfect, both inside the relative protasis; the Peshitta ܕܢܘܒܕ uses the relative-marked imperfect of the cognate root for 'lose/destroy', a tense difference without semantic consequence."
+    },
+    {
+      "greek_nt": [
         14,
         15,
         16
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        12,
         13,
         14
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the future indicative ἀπολέσει with article τὴν and pronoun αὐτοῦ. Latin employs the future-perfect perdiderit. Syriac uses the Aphel imperfect ܕܢܘܒܕ ܢܦܫܗ with pronominal suffix, lacking an independent article."
+      "type": "construction",
+      "note": "As in the first clause, Greek τὴν ψυχὴν αὐτοῦ and Latin animam suam spell out 'his life' analytically, while the Peshitta uses the suffixed ܢܦܫܗ."
     },
     {
       "greek_nt": [
@@ -195,60 +254,78 @@
         15,
         16
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἕνεκεν ἐμοῦ ('on account of me') and Latin propter me are prepositional phrases. Syriac ܡܛܠܬܝ employs a bound form with first-person pronominal suffix, a more compact construction typical of Semitic languages."
+      "variant": "aligned",
+      "note": "ἕνεκεν ἐμοῦ / ܡܛܠܬܝ / propter me — 'for my sake'; the Syriac fuses preposition and first-person suffix into the single form ܡܛܠܬܝ."
     },
     {
       "greek_nt": [
-        19,
+        19
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καί and Latin et are simple conjunctions, but the Peshitta repeats the preposition in ܘܡܛܠ ('and for the sake of'), distributing the causal phrase across both objects — a stylistic Syriac amplification."
+    },
+    {
+      "greek_nt": [
         20,
         21
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        17,
         18
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses καὶ τοῦ εὐαγγελίου with the genitive article. Latin mirrors this with et Evangelium (accusative after propter understood from the previous clause). Syriac employs a second prepositional phrase ܘܡܛܠ ܣܒܪܬܝ ('and on account of my gospel'), using a possessive suffix where Greek and Latin have the anarthrous noun."
+      "type": "lexical",
+      "note": "Greek τοῦ εὐαγγελίου and Latin Evangelium transliterate the Greek term 'gospel'; the Peshitta uses the native Syriac ܣܒܪܬܝ ('my good-news/proclamation', with first-person suffix), notably attaching the possessive 'my' to the gospel, which neither Greek nor Latin do here."
     },
     {
       "greek_nt": [
         22
       ],
-      "peshitta": [],
       "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek includes the demonstrative pronoun οὗτος ('this one') as the subject of σώσει, providing emphatic resumption of the relative clause. Both Peshitta and Vulgate omit this demonstrative, allowing the verb alone to carry the subject reference."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek resumes the apodosis with the demonstrative οὗτος ('this one'), a resumptive subject pronoun emphasising the antecedent; neither Latin nor Syriac supply a corresponding demonstrative, letting the verb carry the subject."
     },
     {
       "greek_nt": [
-        23,
-        24
+        23
       ],
       "peshitta": [
         13
       ],
       "vulgate": [
         19,
-        20,
+        20
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek σώσει ('will save') is matched by the Latin periphrasis salvam faciet and by the Peshitta ܢܚܝܗ ('will keep him/it alive', root ḥ-y-a with object suffix), the Syriac again construing salvation as preservation of life."
+    },
+    {
+      "greek_nt": [
+        24
+      ],
+      "vulgate": [
         21
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the future indicative σώσει with object pronoun αὐτήν. Latin again employs the periphrastic salvam faciet eam ('will make it safe'), parallel to the earlier salvam facere construction. Syriac uses the simple Aphel imperfect ܢܚܝܗ ('he will give it life'), with pronominal suffix, semantically equivalent but syntactically distinct from both Greek and Latin."
+      "note": "Greek αὐτήν and Latin eam furnish the explicit accusative object ('it'); the Peshitta has incorporated the object as the enclitic on ܢܚܝܗ, so no independent pronoun appears."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.999120+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.473260+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

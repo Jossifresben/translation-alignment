@@ -71,20 +71,14 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
-      "peshitta": [],
       "vulgate": [
         0
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits both the conjunction καὶ and the temporal adverb εὐθέως ('immediately'), beginning directly with the gathering. The Vulgate retains only the conjunction (et), omitting the temporal marker, likely for stylistic concision."
+      "variant": "aligned"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         1,
         2,
@@ -94,68 +88,105 @@
         6
       ],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts an entire introductory clause (et auditum est quod in domo esset, 'and it was heard that he was in the house') not present in either the Greek or Peshitta. This expansion provides narrative context for the subsequent gathering, possibly reflecting Western textual tradition or editorial clarification."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "added",
-      "type": "construction",
-      "note": "The Vulgate's second et coordinates the added introductory clause with the main gathering verb, a syntactic necessity absent from the Greek and Peshitta which lack the expansion."
+      "note": "The Vulgate transmits an introductory clause auditum est quod in domo esset ('it was heard that he was at home'), reflecting a Greek variant tradition reading ἠκούσθη ὅτι ἐν οἴκῳ ἐστίν. Neither the NA28 text printed here nor the Peshitta attest this clause, which softens the abruptness of the gathering."
     },
     {
       "greek_nt": [
-        2,
+        1
+      ],
+      "variant": "added",
+      "note": "The Greek εὐθέως ('immediately') has no counterpart in either the Peshitta or the Vulgate, both of which proceed directly to the gathering. This adverb is a hallmark of Markan style but is here unrepresented in the versions."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "συνήχθησαν / ܐܬܟܢܫܘ (root k-n-sh) / convenerunt all render the aorist/perfect passive 'were gathered together' with equivalent force."
+    },
+    {
+      "greek_nt": [
         3
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        8,
         9
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "πολλοί / ܣܓܝܐܐ / multi, 'many'."
     },
     {
       "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        10,
+        11
+      ],
+      "variant": "aligned",
+      "note": "ὥστε / ܐܝܟܢܐ / ita ut introduce the consecutive 'so that' clause; the Latin uses the standard two-word correlative construction."
+    },
+    {
+      "greek_nt": [
+        5,
+        6
+      ],
+      "peshitta": [
+        3,
         4,
         5,
-        6,
-        7,
+        6
+      ],
+      "vulgate": [
+        12,
+        13
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the result impersonally with the infinitive χωρεῖν ('there was no longer room'), as does the Latin caperet; the Peshitta recasts the clause personally and transitively, ܕܠܐ ܐܫܟܚ ܐܚܕ ܐܢܘܢ ('so that [the place] could not hold them'), supplying an explicit object pronoun ܐܢܘܢ. The constructions are semantically equivalent but syntactically divergent."
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "μηδέ / ܐܦܠܐ / neque, 'not even'."
+    },
+    {
+      "greek_nt": [
         8,
         9,
         10,
         11
       ],
       "peshitta": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
         8,
         9
       ],
       "vulgate": [
-        10,
-        11,
-        12,
-        13,
-        14,
         15,
         16
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses ὥστε μηκέτι χωρεῖν μηδὲ τὰ πρὸς τὴν θύραν (result clause with double negation: 'so that no longer to have space, not even [the areas] at the door'). Peshitta employs ܐܝܟܢܐ ܕܠܐ ܐܫܟܚ ܐܚܕ ܐܢܘܢ ܐܦܠܐ ܩܕܡ ܬܪܥܐ ('such that not one could hold them, not even before the door'), using a personal construction with 'hold/contain'. Vulgate renders ita ut non caperet neque ad januam ('so that it did not hold [them], not even at the door'), using impersonal caperet. All three convey spatial impossibility but through distinct syntactic strategies."
+      "note": "Greek substantivizes the prepositional phrase with the neuter article (τὰ πρὸς τὴν θύραν, 'the [spaces] about the door'); both Peshitta (ܩܕܡ ܬܪܥܐ) and Vulgate (ad januam) render only the bare prepositional phrase, omitting the articular substantivization characteristic of the Greek."
     },
     {
       "greek_nt": [
@@ -168,7 +199,7 @@
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- (prefixed to ܡܡܠܠ) / et, coordinating conjunction."
     },
     {
       "greek_nt": [
@@ -182,8 +213,8 @@
         18
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek ἐλάλει is imperfect active indicative ('he was speaking'). Peshitta ܘܡܡܠܠ ܗܘܐ uses periphrastic construction (participle + ܗܘܐ) to express continuous past action, a standard Syriac equivalent. Vulgate loquebatur is likewise imperfect, showing aspectual agreement across all three traditions despite morphological differences."
+      "type": "construction",
+      "note": "Greek ἐλάλει is a synthetic imperfect; Latin loquebatur matches it morphologically; the Peshitta forms the durative past periphrastically with participle plus the auxiliary ܡܡܠܠ ܗܘܐ, a standard Syriac means of expressing continuous past action."
     },
     {
       "greek_nt": [
@@ -195,9 +226,8 @@
       "vulgate": [
         19
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek αὐτοῖς (dative 'to them') and Vulgate eis (dative) use simple pronominal objects. Peshitta ܥܡܗܘܢ employs the preposition ܥܡ ('with') + pronominal suffix, reflecting Syriac preference for prepositional phrases over bare datives, though semantically equivalent in this context."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܥܡܗܘܢ / eis; the Syriac uses the comitative 'with them' where Greek and Latin use the dative 'to them'."
     },
     {
       "greek_nt": [
@@ -211,13 +241,13 @@
         20
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τὸν λόγον / ܡܠܬܐ / verbum, 'the word'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.951148+00:00",
-    "confidence": 0.8,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.426625+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

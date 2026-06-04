@@ -99,22 +99,21 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγεν (iterative or continuous past action), while Peshitta employs the periphrastic construction ܐܡܪ ܗܘܐ (perfect + auxiliary) and Vulgate uses imperfect dicebat; all convey ongoing or habitual past speech, but through different aspectual systems."
+      "note": "Greek uses a single imperfect ἔλεγεν ('he was saying'); the Peshitta renders the durative aspect periphrastically with ܐܡܪ ܗܘܐ (perfect + enclitic ܗܘܐ), a standard Syriac construction for the imperfect/customary past. The Vulgate dicebat captures the same imperfective force in one word."
     },
     {
       "greek_nt": [
@@ -128,8 +127,7 @@
         3
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate separates the colon as a distinct token after illis, marking the transition to direct discourse; Greek and Peshitta integrate the punctuation into the pronoun token itself."
+      "note": "The Vulgate separates the dative illis from the following oratio recta with an editorial colon (token 3); Greek marks the same boundary with a raised dot (·) attached to αὐτοῖς·, while Syriac leaves the juncture unpunctuated."
     },
     {
       "greek_nt": [
@@ -141,36 +139,33 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         4
       ],
       "peshitta": [
-        4
+        4,
+        5
       ],
       "vulgate": [
         5
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        5
-      ],
-      "peshitta": [
-        5,
-        6
-      ],
-      "vulgate": [
-        6
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta explicitly supplies the independent pronoun ܐܢܐ ('I') alongside ܠܟܘܢ ('to you'), making the subject overt; Greek ὑμῖν and Vulgate vobis rely on verbal inflection to convey the first-person subject, a typical Syriac clarification strategy."
+      "note": "Greek λέγω encodes the first-person subject inflectionally; the Peshitta makes it explicit with the independent pronoun ܐܢܐ ('I') after ܐܡܪ, a normal Syriac analytic construction. The Latin dico parallels the Greek synthetic form without an overt pronoun."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -182,57 +177,70 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ὅτι and Latin quia introduce the content clause as a conjunction; the Syriac fuses the complementiser with the existential particle as ܕܐܝܬ (relative/complementiser d- + ܐܝܬ 'there is'), so the boundary between 'that' and 'there are' is morphologically merged."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "Existential predicate εἰσίν / ܐܝܬ (within ܕܐܝܬ) / sunt; the Syriac form is shared with the preceding complementiser token."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        7,
         8
       ],
       "vulgate": [
-        8,
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek indefinite τινες ('some [persons]') and Latin quidam are pronominal; the Syriac makes the referent concrete with the noun ܐܢܫܐ ('people, men'), an idiomatic specification of the indefinite plural."
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11
+        9
       ],
       "peshitta": [
-        9,
         10
       ],
       "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
-        11,
+        11
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the adverb ὧδε ('here') with articular participle τῶν ἑστηκότων ('of those standing'); Vulgate mirrors this with de hic stantibus (prepositional phrase + participle); Peshitta employs the relative particle ܕ with active participle ܕܩܝܡܝܢ ܬܢܢ ('who are standing here'), placing the locative adverb after the verb—syntactically distinct but semantically equivalent."
+      "note": "Greek uses an articular perfect participle τῶν ἑστηκότων ('of those standing'); the Vulgate mirrors this with a substantival present participle (de hic stantibus), whereas the Peshitta employs a relative clause ܕܩܝܡܝܢ ('who are standing') — a construction-level rather than lexical difference."
     },
     {
       "greek_nt": [
         12
-      ],
-      "peshitta": [
-        11
       ],
       "vulgate": [
         13
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek uses the qualitative relative pronoun οἵτινες ('who [of such a kind]'), emphasizing the character of those standing; Peshitta and Vulgate use simple relative particles (ܕ / qui), a stylistic leveling common in translation."
+      "note": "Greek and Latin attest an explicit relative pronoun (οἵτινες / qui) heading the following clause; the Peshitta has no separate relative token here, since the relativising d- is prefixed to the negated verb in the next group (ܕܠܐ)."
     },
     {
       "greek_nt": [
@@ -246,24 +254,31 @@
         14
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the emphatic double negative οὐ μή with subjunctive γεύσωνται to express strong negation; Peshitta uses the single negative particle ܕܠܐ with imperfect ܢܛܥܡܘܢ; Vulgate uses non with future gustabunt—all convey categorical negation but through different modal and aspectual strategies."
+      "note": "Greek employs the emphatic double negation οὐ μή with the aorist subjunctive to express strong future denial ('shall by no means'); the Latin renders it with simple non + future gustabunt, and the Syriac with the relativised negative ܕܠܐ — all conveying emphatic prohibition but with differing negation strategies."
     },
     {
       "greek_nt": [
-        15,
+        15
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         16
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        15,
         16
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -277,8 +292,7 @@
         17
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the compound temporal conjunction ἕως ἂν ('until whenever') with subjunctive ἴδωσιν to mark indefinite future time; Peshitta uses ܥܕܡܐ ܕ ('until that') with imperfect; Vulgate uses donec with subjunctive videant—all express temporal contingency but through different syntactic mechanisms."
+      "note": "Greek combines the temporal conjunction ἕως with the modal particle ἂν before the subjunctive, marking contingency; both the Syriac ܥܕܡܐ and the Latin donec render the temporal force with a single particle and no separate modal marker."
     },
     {
       "greek_nt": [
@@ -290,27 +304,35 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         20,
-        21,
+        21
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "note": "Greek expresses 'the kingdom' with article + noun (τὴν βασιλείαν) and a following genitive τοῦ θεοῦ; the Syriac compresses the construct into a single suffixed form ܡܠܟܘܬܗ ('his kingdom', with the genitive realised by the pronominal suffix anticipating ܕܐܠܗܐ), a typical Semitic anticipatory-suffix construction."
+    },
+    {
+      "greek_nt": [
         22,
         23
       ],
       "peshitta": [
-        16,
         17
       ],
       "vulgate": [
-        19,
         20
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek and Vulgate read 'the kingdom of God' (τὴν βασιλείαν τοῦ θεοῦ / regnum Dei) with the article marking definiteness; Peshitta reads ܡܠܟܘܬܗ ܕܐܠܗܐ ('his kingdom of God'), adding a third-person possessive suffix that may refer anaphorically to God or possibly to the Son of Man from the preceding context (Mark 8:38), creating a subtle christological nuance absent from the Greek and Latin."
+      "variant": "aligned",
+      "note": "Genitive of God τοῦ θεοῦ / ܕܐܠܗܐ / Dei."
     },
     {
       "greek_nt": [
@@ -323,8 +345,7 @@
         21
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the perfect participle ἐληλυθυῖαν ('having come'), emphasizing completed action with ongoing results; Peshitta uses the perfect ܕܐܬܬ ('that has come'); Vulgate uses the present participle veniens ('coming'), which may suggest imminent or ongoing arrival rather than completed advent—a subtle aspectual difference."
+      "note": "Greek uses the perfect participle ἐληλυθυῖαν ('having come', stressing completed arrival); the Vulgate present participle veniens reads as 'coming', a slight aspectual shift, while the Syriac finite relative ܕܐܬܬ ('which has come') aligns with the Greek perfective sense."
     },
     {
       "greek_nt": [
@@ -339,13 +360,13 @@
         23
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Prepositional phrase ἐν δυνάμει / ܒܚܝܠܐ / in virtute, 'with/in power'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.229037+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.421841+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

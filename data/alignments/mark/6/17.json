@@ -82,43 +82,69 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        0,
-        1,
         2
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the intensive pronoun αὐτὸς with article ὁ before Ἡρῴδης, emphasizing 'Herod himself'; Syriac and Latin use simple intensive pronouns (ܗܘ / Ipse) without articles, achieving equivalent emphasis through different grammatical means."
+      "variant": "aligned",
+      "note": "ὁ Ἡρῴδης / ܗܪܘܕܣ / Herodes — the Greek article is unrepresented in Syriac and Latin, which lack a definite article in this proper-noun context."
     },
     {
       "greek_nt": [
-        4,
-        5
+        4
       ],
       "peshitta": [
         3,
-        4,
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek aorist participle ἀποστείλας ('having sent') is rendered in the Peshitta by a finite verb plus auxiliary ܫܕܪ ܗܘܐ (perfect with ܗܘܐ marking anterior/past action); the Vulgate uses a coordinate finite verb misit. Both versions resolve the Greek subordinating participle into a paratactic main clause, a typical translational shift."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
         5
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an aorist participle ἀποστείλας ('having sent') with finite verb ἐκράτησεν ('seized'); Syriac employs a periphrastic perfect ܫܕܪ ܗܘܐ ܐܚܕܗ (lit. 'he had sent [and] seized'); Vulgate uses two finite verbs with conjunction misit ac tenuit—all three express sequential action with slightly different aspectual nuances."
+      "note": "Greek ἐκράτησεν stands alone as the main verb after the participle; both Peshitta (ܐܚܕܗ, with enclitic 3ms object suffix) and Vulgate (ac tenuit, adding the connective particle) coordinate the seizing with the sending. The Latin ac and the Syriac suffixed object reflect each language's preferred clause-linking strategy."
     },
     {
       "greek_nt": [
@@ -131,11 +157,23 @@
       "vulgate": [
         6
       ],
+      "variant": "aligned",
+      "note": "τὸν Ἰωάννην / ܠܝܘܚܢܢ / Joannem — the Syriac prefixes the object marker ܠ to the proper name, functionally equivalent to the Greek accusative article."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        7
+      ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        8,
         9,
         10
       ],
@@ -143,13 +181,11 @@
         7
       ],
       "vulgate": [
-        7,
         8,
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek καὶ ἔδησεν αὐτὸν uses conjunction with finite verb and separate object pronoun; Syriac ܘܐܣܪܗ employs a single verb with pronominal suffix; Vulgate et vinxit eum mirrors Greek structure—semantically identical but syntactically distinct."
+      "note": "Greek expresses 'and bound him' with conjunction + verb + pronoun (καὶ ἔδησεν αὐτόν); the Peshitta compresses this into the single form ܘܐܣܪܗ (conjunctive waw + verb + 3ms object suffix), whereas the Vulgate retains the analytic et vinxit eum. The Syriac suffix-conjugation economy contrasts with the Greek and Latin pronominal periphrasis."
     },
     {
       "greek_nt": [
@@ -166,20 +202,28 @@
         11
       ],
       "variant": "minor",
-      "type": "idiom",
-      "note": "Greek ἐν τῇ φυλακῇ ('in the prison') uses prepositional phrase with article; Syriac ܒܝܬ ܐܣܝܪܐ (lit. 'house of prisoners') employs a construct-state compound noun, a typical Syriac idiom for 'prison'; Vulgate in carcere uses simple prepositional phrase without article."
+      "note": "Greek ἐν τῇ φυλακῇ ('in the prison') uses a prepositional phrase with the definite article; the Vulgate parallels with in carcere. The Peshitta employs the construct compound ܒܝܬ ܐܣܝܪܐ ('house of bound-ones,' i.e. prison-house), a lexically distinct idiom built on the root a-s-r ('to bind') that mirrors the verb ܐܣܪܗ just used."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        12,
         13
       ],
       "variant": "aligned"
@@ -187,20 +231,28 @@
     {
       "greek_nt": [
         16,
-        17,
+        17
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned",
+      "note": "τὴν γυναῖκα / ܐܢܬܬ / uxorem — the Syriac construct ܐܢܬܬ ('wife of') governs the following name directly, dispensing with the Greek article."
+    },
+    {
+      "greek_nt": [
         18
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        14,
         15
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses article τὴν with γυναῖκα Φιλίππου ('the wife of Philip') in accusative apposition to Ἡρῳδιάδα; Syriac ܐܢܬܬ ܦܝܠܝܦܘܣ employs construct-state without article; Vulgate uxorem Philippi mirrors Syriac structure—all three identify Herodias as Philip's wife but with different syntactic strategies."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -215,13 +267,24 @@
         16,
         17
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek τοῦ ἀδελφοῦ αὐτοῦ ('the brother of him') uses article with genitive pronoun; Syriac ܐܚܘܗܝ employs a single noun with pronominal suffix; Vulgate fratris sui uses genitive with possessive pronoun—equivalent possessive constructions reflecting each language's typical syntax."
+      "variant": "aligned",
+      "note": "τοῦ ἀδελφοῦ αὐτοῦ / ܐܚܘܗܝ / fratris sui — the Syriac collapses 'his brother' into a single noun with 3ms possessive suffix (ܐܚܘܗܝ), while Greek uses article + noun + genitive pronoun and Latin uses noun + reflexive possessive."
     },
     {
       "greek_nt": [
-        22,
+        22
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "minor",
+      "note": "Greek causal ὅτι and Latin quia introduce the clause 'because he had married her'; the Peshitta uses the relative particle ܕ prefixed to the verb (ܕܢܣܒ), construing the clause attributively ('whom he had married') rather than causally. This is a genuine syntactic divergence in the logical relation of the clause."
+    },
+    {
+      "greek_nt": [
         23,
         24
       ],
@@ -230,19 +293,17 @@
         16
       ],
       "vulgate": [
-        18,
         19,
         20
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek ὅτι αὐτὴν ἐγάμησεν places object pronoun before verb; Syriac ܗܝ ܕܢܣܒ uses pronoun with relative particle d- ('that he took her'); Vulgate quia duxerat eam employs pluperfect tense ('had married') with postposed object—all express the causal clause but with different word order and aspectual choices."
+      "note": "Greek ἐγάμησεν (from γαμέω, 'to marry') is matched by Latin duxerat (literally 'had led [in marriage],' the idiomatic uxorem ducere). The Peshitta uses ܢܣܒ (root n-s-b, 'to take'), the standard Semitic idiom for taking a wife; the resumptive pronoun ܗܝ ('her') precedes the verb, reversing the Greek/Latin verb-object order."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.980198+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.512742+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

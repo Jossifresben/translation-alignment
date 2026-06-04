@@ -71,61 +71,98 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καί + future ἔσεσθε ('and you will be') is rendered in Syriac as a single prefixed-conjugation verb ܘܬܗܘܘܢ (waw-conjunction fused to the imperfect of h-w-w), whereas Latin separates Et + eritis as in Greek. The Syriac collapses conjunction and copula into one morphological unit."
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
-        0,
         1
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses future indicative with passive participle (ἔσεσθε μισούμενοι, periphrastic future passive); Vulgate employs a simple future with dative of disadvantage (eritis odio, 'you will be for hatred'); Syriac uses future with passive participle (ܬܗܘܘܢ ܣܢܝܐܝܢ), mirroring Greek structure but with different morphological realization."
+      "type": "grammar",
+      "note": "Greek μισούμενοι is a present passive participle ('being hated') paired with the copula to form a periphrastic future; Syriac ܣܢܝܐܝܢ is a predicative passive participle of s-n-a; Latin uses the dative-of-agent idiom odio (esse) omnibus ('to be an object of hatred to all'), a substantival construction rather than a participle."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek marks agency explicitly with ὑπό + genitive and Syriac with the preposition ܡܢ; the Latin expresses agency through the bare dative omnibus without a preposition, a difference of syntactic strategy for the agent of passivity."
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs ὑπὸ πάντων (genitive plural with preposition, 'by all'); Vulgate uses simple dative omnibus without preposition; Syriac uses ܡܢ ܟܠܢܫ (preposition + collective singular 'from everyone'), a typical Semitic idiom for universal agency."
+      "type": "idiom",
+      "note": "Greek πάντων ('all [people]', masc. gen. pl.) and Latin omnibus are plural substantival adjectives, whereas Syriac ܟܠܢܫ is a fixed compound (kol-nāš, 'everyone') functioning as a collective singular — a typical Syriac idiom for universal personal reference."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7,
-        8
+        5
       ],
       "peshitta": [
-        4,
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6,
+        7
+      ],
+      "peshitta": [
         5
       ],
       "vulgate": [
-        4,
-        5,
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses article + noun (τὸ ὄνομά) and Latin the bare noun nomen; the Syriac ܫܡܝ fuses the noun ('name') with the first-person possessive suffix, while Greek and Latin both append a separate possessive pronoun in the following token."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [],
+      "vulgate": [
         6
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses prepositional phrase with article (διὰ τὸ ὄνομά μου, 'on account of the name of me'); Vulgate mirrors this with propter nomen meum; Syriac omits the article (ܡܛܠ ܫܡܝ), as Semitic languages typically lack the definite article before possessed nouns with pronominal suffixes."
+      "type": "construction",
+      "note": "The first-person genitive μου / meum stands as a separate enclitic/pronoun in Greek and Latin, but in Syriac the possession is borne by the pronominal suffix on ܫܡܝ in the preceding group; hence no standalone pronoun token exists here in the Peshitta."
     },
     {
       "greek_nt": [
@@ -140,8 +177,9 @@
         7,
         8
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three attest the adversative connective (Greek δέ, Syriac ܕܝܢ, Latin autem) in second position after a fronted element. Greek and Latin front the substantival article/relative (ὁ / Qui); Syriac fronts the agent-preposition ܡܢ, yielding a slightly different ordering of the same clausal constituents."
     },
     {
       "greek_nt": [
@@ -154,8 +192,8 @@
         9
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses aorist participle ὑπομείνας (substantival, 'the one having endured'); Vulgate employs future perfect sustinuerit (relative clause construction); Syriac uses imperfect with relative particle ܕܢܣܝܒܪ ('who will endure'), shifting from completed to durative aspect."
+      "type": "construction",
+      "note": "Greek substantivises an aorist participle ὁ ὑπομείνας ('the one having endured') and Latin uses a relative clause with future-perfect Qui...sustinuerit; Syriac employs a relative-marked imperfect ܕܢܣܝܒܪ (d- + imperfect of s-b-r), expressing the same future-conditional sense through a finite relative construction."
     },
     {
       "greek_nt": [
@@ -170,9 +208,7 @@
         10,
         11
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εἰς τέλος ('unto the end') and Vulgate in finem use directional prepositions; Syriac employs ܥܕܡܐ ܠܚܪܬܐ ('until the end'), using a temporal preposition with the noun for 'end/latter time', semantically equivalent but lexically distinct."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -184,8 +220,7 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -199,14 +234,14 @@
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses simple future passive σωθήσεται ('will be saved'); Vulgate employs future with predicate adjective salvus erit ('will be safe/saved'); Syriac uses imperfect ܢܚܐ ('will live'), a semantic equivalent focusing on the result of salvation as life rather than the passive act of being saved."
+      "type": "lexical",
+      "note": "Greek σωθήσεται and Latin salvus erit denote 'will be saved' (passive of σῴζω / periphrastic salvus + esse), implying deliverance; Syriac ܢܚܐ (imperfect of kh-y-a, 'to live') renders the idea as 'will live/be made alive', a cognate of Hebrew חַי, shifting the nuance from salvation toward life — a characteristic Syriac lexical preference."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.030293+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.524837+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

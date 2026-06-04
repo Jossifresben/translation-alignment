@@ -81,23 +81,16 @@
       "peshitta": [
         0
       ],
-      "vulgate": [],
-      "variant": "minor",
-      "type": "omission",
-      "note": "The Vulgate omits the initial conjunction καί / ܘ ('and'), beginning the sentence asyndetically with 'Jesus autem.' This stylistic choice reflects Latin preference for adversative particles over simple coordination at paragraph boundaries."
-    },
-    {
-      "greek_nt": [
+      "vulgate": [
         1
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the definite article ὁ before Ἰησοῦς, a standard Greek construction absent in both Syriac (which lacks articles) and Latin (where proper names typically appear without articles)."
+      "type": "construction",
+      "note": "Greek opens with paratactic Καὶ ('and'); the Vulgate uses the postpositive adversative-connective particle autem, while the Peshitta prefixes the proclitic conjunction ܘ- to the divine name (ܘܝܫܘܥ). The connective is rendered differently in each tradition though the discourse function is equivalent."
     },
     {
       "greek_nt": [
+        1,
         2
       ],
       "peshitta": [
@@ -105,39 +98,40 @@
       ],
       "vulgate": [
         0
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek supplies the article ὁ with Ἰησοῦς, a normal articular usage with personal names; neither Latin nor Syriac marks this article, the name standing bare in both, which is idiomatic for those languages."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
       ],
       "variant": "aligned",
       "type": "agreement"
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        1
-      ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate inserts the adversative particle 'autem' ('however,' 'moreover'), marking a discourse transition not explicitly present in the Greek or Peshitta. This reflects Latin stylistic convention for narrative segmentation."
-    },
-    {
       "greek_nt": [
-        3,
         4,
         5,
         6
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase μετὰ τῶν μαθητῶν αὐτοῦ with article and possessive pronoun; Peshitta employs preposition ܥܡ with pronominal suffix on the noun (ܬܠܡܝܕܘܗܝ); Vulgate uses 'cum discipulis suis' with possessive adjective. All three express identical semantics through language-specific possessive constructions."
+      "note": "Greek expresses 'his disciples' analytically with article + noun + genitive pronoun (τῶν μαθητῶν αὐτοῦ); Latin uses noun + possessive adjective (discipulis suis); Syriac fuses the possessive into a single inflected form ܬܠܡܝܕܘܗܝ with pronominal suffix. The three constructions are semantically identical but morphologically distinct."
     },
     {
       "greek_nt": [
@@ -151,8 +145,8 @@
         5
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἀνεχώρησεν ('withdrew') is rendered by Peshitta ܐܙܠ ܠܗ (literally 'went away,' with ethical dative ܠܗ intensifying the departure) and Vulgate 'secessit' ('withdrew'). The Peshitta construction uses a common Semitic idiom (verb + ethical dative) to convey the nuance of deliberate withdrawal."
+      "type": "idiom",
+      "note": "Greek ἀνεχώρησεν ('withdrew') and Latin secessit both denote departure/withdrawal; the Peshitta renders with ܐܙܠ ('went') plus the ethic dative ܠܗ ('for himself'), a typical Syriac idiom lacking the nuance of 'withdrawal' present in the other two."
     },
     {
       "greek_nt": [
@@ -168,18 +162,21 @@
         6,
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek marks the goal with πρός + accusative and the article (πρὸς τὴν θάλασσαν); the Vulgate uses ad mare without an article (Latin lacking one); the Peshitta employs the directional preposition ܠܘܬ with anarthrous ܝܡܐ. The article is preserved only in Greek."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        10
+      ],
       "peshitta": [],
       "vulgate": [
         8
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'mare,' creating a stronger syntactic break before the following clause. This punctuation choice reflects Latin rhetorical structure and is absent in Greek and Peshitta manuscript traditions."
+      "note": "The comma following θάλασσαν, in the Greek and the colon after mare in the Vulgate mark the clause boundary; the Peshitta carries no graphic punctuation here. The Latin colon reflects an editorial sense-pause introducing the crowd clause."
     },
     {
       "greek_nt": [
@@ -208,8 +205,8 @@
         11
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adjective before the noun (πολὺ πλῆθος); Peshitta reverses this order (ܥܡܐ ܣܓܝܐܐ, 'crowd great'); Vulgate follows Greek order ('multa turba'). The Peshitta word order reflects standard Semitic attributive adjective placement (noun-adjective), while Greek and Latin follow their respective conventions."
+      "type": "construction",
+      "note": "Greek πολὺ πλῆθος ('a great multitude') and Latin multa turba are adjective + neuter/feminine noun; the Peshitta combines the conjunction-prefixed noun ܘܥܡܐ ('and the people/crowd') with the attributive ܣܓܝܐܐ ('many'), placing the connective on the noun rather than before the clause. The sense is equivalent."
     },
     {
       "greek_nt": [
@@ -225,8 +222,9 @@
         12,
         13
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἀπὸ τῆς Γαλιλαίας has the preposition plus article plus place-name; Latin a Galilæa and Syriac ܡܢ ܓܠܝܠܐ both omit the article (none existing in Latin, none used in Syriac proper-name phrases here)."
     },
     {
       "greek_nt": [
@@ -238,14 +236,13 @@
         12
       ],
       "vulgate": [
-        14,
         16,
         17,
         18
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses aorist active ἠκολούθησεν with dative object αὐτῷ; Peshitta employs perfect ܢܩܦܗ ܗܘܐ (periphrastic construction with auxiliary ܗܘܐ); Vulgate uses perfect active 'secuta est' with accusative 'eum.' The Peshitta periphrastic perfect emphasizes the completed state of the action, while Greek aorist focuses on the punctiliar event."
+      "type": "word-order",
+      "note": "Greek places ἠκολούθησεν αὐτῷ ('followed him') immediately after Galilee, before the mention of Judea; the Vulgate (secuta est eum) postpones the verb to the very end after both regions are named, matching its periphrastic perfect. The Peshitta uses the periphrastic ܢܩܦܗ ܗܘܐ ('was following him') and likewise positions it before Judea, but the Latin word-order diverges by deferring the verb."
     },
     {
       "greek_nt": [
@@ -263,14 +260,14 @@
         15
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek coordinates the second geographic source with καὶ ἀπὸ τῆς Ἰουδαίας following the verb; Vulgate places both geographic sources ('a Galilæa et Judæa') before the verb 'secuta est,' creating a more compact Latin construction. Peshitta follows Greek word order with ܘܡܢ ܝܗܘܕ after the verb."
+      "type": "grammar",
+      "note": "Greek καὶ ἀπὸ τῆς Ἰουδαίας repeats the full preposition + article + name; the Vulgate compresses to et Judæa (sharing the earlier preposition a), and the Peshitta to ܘܡܢ ܝܗܘܕ with repeated ܡܢ but no article. The repeated article and second ἀπό in Greek are not matched in the daughter versions."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.957978+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.543031+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

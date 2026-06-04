@@ -72,11 +72,9 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
+      "variant": "minor",
       "type": "omission",
-      "note": "Greek ἀλλ᾽ ('but') is omitted in both Peshitta and Vulgate, which proceed directly to the conditional clause. The adversative force is contextually implied rather than explicitly marked in the Semitic and Latin traditions."
+      "note": "The Greek adversative ἀλλά ('but') opens the clause, marking a contrast with the previously rejected option ('from heaven'). Neither the Peshitta (which begins with the simple waw-prefixed verb ܘܕܢܐܡܪ) nor the Vulgate (Si) renders this strong adversative, treating the conditional as the discourse hinge instead."
     },
     {
       "greek_nt": [
@@ -88,63 +86,88 @@
       ],
       "vulgate": [
         0,
-        1,
-        2
+        1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conditional ἐὰν εἴπωμεν ('if we should say'); Vulgate employs Si dixerimus ('if we shall have said'), a future perfect construction; Peshitta integrates the conditional particle into the verbal form ܘܕܢܐܡܪ ('and if we say'), a typical Syriac synthetic construction."
+      "note": "Greek expresses the protasis analytically with conditional particle ἐάν plus aorist subjunctive εἴπωμεν; the Peshitta compresses both into the single prefixed verbal form ܘܕܢܐܡܪ ('and that we should say'), while the Vulgate uses Si with the future-perfect dixerimus — three distinct grammatical realisations of one conditional clause."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        1,
         2,
         3
       ],
       "vulgate": [
-        3,
         4
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek ἐξ ἀνθρώπων ('from men') and Latin Ex hominibus are prepositional phrases; Peshitta uses ܡܢ ܒܢܝ ܐܢܫܐ ('from sons of men'), a characteristic Semitic idiom employing 'sons of' as a construct for human origin."
+      "note": "Greek ἀνθρώπων ('of men') and Latin hominibus are simple genitive/ablative plurals; the Peshitta renders the same sense with the Semitic construct idiom ܒܢܝ ܐܢܫܐ ('sons of men'), the characteristic Aramaic periphrasis for human beings."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7
+        5
       ],
       "peshitta": [
         4,
-        5,
-        6,
-        7
+        5
       ],
       "vulgate": [
-        5,
-        6,
-        7
+        5
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek uses imperfect verb ἐφοβοῦντο τὸν ὄχλον ('they were fearing the crowd'); Vulgate employs present timemus populum ('we fear the people'), shifting to first-person plural and present tense; Peshitta uses nominal construction ܕܚܠܬܐ ܗܝ ܡܢ ܥܡܐ ('fear [is] from the people'), a substantival clause with copula, fundamentally restructuring the syntax while preserving the semantic content."
+      "note": "The Greek finite imperfect ἐφοβοῦντο ('they were fearing') is narrated in the third person past; the Peshitta recasts it as a nominal/predicative construction ܕܚܠܬܐ ܗܝ ('there is fear', lit. 'it is a fearing'), and the Vulgate uniquely reads the present tense timemus ('we fear'), shifting from indirect narration into the direct speech of the interlocutors."
     },
     {
       "greek_nt": [
-        8,
+        6,
+        7
+      ],
+      "peshitta": [
+        6,
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        8,
         9
       ],
       "vulgate": [
-        8,
         9
       ],
       "variant": "aligned"
@@ -152,50 +175,86 @@
     {
       "greek_nt": [
         10,
+        11
+      ],
+      "peshitta": [
+        10,
         11,
         12
       ],
-      "peshitta": [
-        10,
-        11,
-        12,
-        13
-      ],
       "vulgate": [
-        10,
-        11
-      ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek εἶχον τὸν Ἰωάννην ('were holding John') uses article + accusative; Vulgate habebant Joannem mirrors this structure; Peshitta employs ܐܚܝܕܝܢ ܗܘܘ ܠܗ ܠܝܘܚܢܢ ('were holding to-him to-John'), using a resumptive pronominal suffix ܠܗ before the proper name, a characteristic Syriac anticipatory pronoun construction."
-    },
-    {
-      "greek_nt": [
-        13,
-        14,
-        15,
-        16
-      ],
-      "peshitta": [
-        14,
-        15,
-        16
-      ],
-      "vulgate": [
-        12,
-        13,
-        14,
-        15
+        10
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses ὄντως ὅτι προφήτης ἦν ('truly that a prophet he was'), with adverb + ὅτι-clause + copula; Vulgate employs quia vere propheta esset ('that truly a prophet he might be'), using subjunctive esset in indirect discourse; Peshitta uses ܕܫܪܝܪܐܝܬ ܢܒܝܐ ܗܘ ('that truly a prophet he [is]'), with adverb modifying the nominal predicate directly, omitting the Greek ὅτι as a separate particle."
+      "note": "Greek uses the simple imperfect εἶχον ('they were holding/regarding') with the article τὸν; the Peshitta employs the periphrastic participle-plus-auxiliary ܐܚܝܕܝܢ ܗܘܘ with the resumptive object pronoun ܠܗ ('they were holding him'), a standard Syriac durative construction. The Vulgate habebant matches the Greek imperfect aspect without the resumptive pronoun."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The adverb ὄντως ('truly') stands before the conjunction ὅτι in Greek, modifying the clause from outside; the Peshitta merges adverb and complementiser into the prefixed form ܕܫܪܝܪܐܝܬ ('that truly'), and the Vulgate places vere after quia — the same modal emphasis distributed differently across the syntax."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        15
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
+      "peshitta": [
+        16
+      ],
+      "vulgate": [
+        15
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Peshitta employ the indicative copula (ἦν / ܗܘ, 'he was'), reporting the crowd's conviction as fact; the Vulgate uses the imperfect subjunctive esset, grammatically subordinating the assertion as the content of their belief within the quia-clause — a difference in mood rather than meaning."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.020398+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.435185+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

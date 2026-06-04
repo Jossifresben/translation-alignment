@@ -89,8 +89,8 @@
         0
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek φημί δέ ('was speaking now') is rendered by Peshitta ܐܡܪ ('said') and Vulgate Respondit ('answered'), both treating the verb as a simple response rather than an imperfect progressive. The Vulgate's choice of 'respondit' implies a more formal reply than the Greek imperfect suggests."
+      "type": "substitution",
+      "note": "Greek ἔφη δέ ('and he was saying') is rendered by the Vulgate as Respondit ('he answered'), introducing a notion of response absent from the Greek verb of speaking; the Peshitta ܐܡܪ ('said') tracks the Greek more closely. The Greek connective δέ has no overt equivalent in either version."
     },
     {
       "greek_nt": [
@@ -102,7 +102,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "αὐτῷ / ܠܗ / illi"
     },
     {
       "greek_nt": [
@@ -113,12 +114,10 @@
         2
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the article ὁ with Ἰωάννης (nominative subject), which Vulgate mirrors with punctuation (comma after 'Joannes'), while Peshitta ܝܘܚܢܢ lacks the article as typical in Syriac nominal syntax."
+      "variant": "aligned",
+      "note": "ὁ Ἰωάννης / ܝܘܚܢܢ / Joannes"
     },
     {
       "greek_nt": [
@@ -126,21 +125,12 @@
       ],
       "peshitta": [],
       "vulgate": [
-        3
+        3,
+        4
       ],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek λέγων ('saying') and Vulgate dicens are redundant participles following the main verb of speech; Peshitta omits this pleonastic construction, moving directly from subject to vocative."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after 'dicens' to mark the beginning of direct speech, a punctuation convention absent in Greek and Syriac manuscripts."
+      "note": "The participle λέγων ('saying'), retained by the Vulgate as dicens followed by a colon introducing direct speech, is omitted by the Peshitta, which proceeds directly to the vocative without a redundant verb of speaking — a characteristic Syriac economy."
     },
     {
       "greek_nt": [
@@ -154,7 +144,7 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek διδάσκαλε ('Teacher') is rendered by Peshitta ܪܒܝ (rabbi, 'my master') and Vulgate Magister ('Master/Teacher'), reflecting different honorific conventions: Syriac preserves the Semitic title, while Latin uses the standard pedagogical term."
+      "note": "Greek διδάσκαλε ('Teacher') is matched semantically by Vulgate Magister, but the Peshitta substitutes the transliterated Semitic honorific ܪܒܝ ('Rabbi'), preserving the underlying Aramaic address that the Greek itself glosses elsewhere (cf. John 1:38)."
     },
     {
       "greek_nt": [
@@ -166,7 +156,8 @@
       "vulgate": [
         6
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "εἴδομέν / ܚܙܝܢ / vidimus"
     },
     {
       "greek_nt": [
@@ -178,7 +169,8 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "τινα / ܐܢܫ / quemdam"
     },
     {
       "greek_nt": [
@@ -197,7 +189,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν τῷ ὀνόματί σου ('in the name of you') with article; Vulgate mirrors this structure (in nomine tuo); Peshitta employs the bound-state construction ܒܫܡܟ ('in-your-name'), a more compact Semitic idiom lacking the article."
+      "note": "The Greek prepositional phrase ἐν τῷ ὀνόματί σου and the Vulgate in nomine tuo are analytic constructions; the Peshitta condenses the whole into a single inflected form ܒܫܡܟ ('in your name') with proclitic preposition and pronominal suffix, a normal Syriac synthetic strategy."
     },
     {
       "greek_nt": [
@@ -214,33 +206,14 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek and Vulgate place the participle before the object (ἐκβάλλοντα δαιμόνια / ejicientem dæmonia, 'casting out demons'); Peshitta uses a relative clause with verb-object order ܕܡܦܩ ܫܐܕܐ ('who casts-out demons'), typical of Syriac relative constructions."
+      "note": "All three attest 'casting out demons', but the Peshitta inverts the Greek participle-object order to verb ܕܡܦܩ followed by object ܫܐܕܐ within a relative clause headed by the proclitic ܕ-, whereas Greek and Latin keep the participle ἐκβάλλοντα / ejicientem before δαιμόνια / dæmonia."
     },
     {
       "greek_nt": [
         15,
         16,
         17,
-        18
-      ],
-      "peshitta": [
-        10,
-        11,
-        12,
-        13
-      ],
-      "vulgate": [
-        13,
-        14,
-        15,
-        16
-      ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses relative pronoun ὃς with negated present tense οὐκ ἀκολουθεῖ ἡμῖν ('who does not follow us'); Vulgate mirrors this with qui non sequitur nos; Peshitta employs causal preposition ܥܠ ܕܠܐ ܢܩܦ ܠܢ ('because he does not follow us'), converting the relative clause into a causal construction."
-    },
-    {
-      "greek_nt": [
+        18,
         19,
         20,
         21
@@ -249,13 +222,17 @@
         9
       ],
       "vulgate": [
+        13,
+        14,
+        15,
+        16,
         17,
         18,
         19
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek καὶ ἐκωλύομεν αὐτόν ('and we were forbidding him') and Vulgate et prohibuimus eum maintain verb-object order; Peshitta ܘܟܠܝܢܝܗܝ ('and-we-forbade-him') uses a single word with pronominal suffix, reflecting Syriac's agglutinative morphology."
+      "variant": "major",
+      "type": "construction",
+      "note": "The Greek and Vulgate first give a full relative clause ('who does not follow us') and then the main clause ('and we forbade him'); the Peshitta radically compresses this, fronting the action with ܘܟܠܝܢܝܗܝ ('and we forbade him', verb with object suffix) and deferring the cause to the following clause, reorganising the syntactic sequence."
     },
     {
       "greek_nt": [
@@ -264,17 +241,22 @@
         24,
         25
       ],
-      "peshitta": [],
+      "peshitta": [
+        10,
+        11,
+        12,
+        13
+      ],
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek includes explanatory clause ὅτι οὐκ ἠκολούθει ἡμῖν ('because he was not following us'), repeating the reason for prohibition with imperfect tense. Both Peshitta and Vulgate omit this redundant clause, having already stated the reason in the previous relative/causal construction."
+      "note": "The causal clause ὅτι οὐκ ἠκολούθει ἡμῖν ('because he was not following us') is preserved by the Peshitta as ܥܠ ܕܠܐ ܢܩܦ ܠܢ but is entirely absent from the Clementine Vulgate at this point, which closes the verse after prohibuimus eum — a notable Western shortening of the doubled 'follow' motif."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.235709+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.490938+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

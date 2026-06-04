@@ -68,8 +68,8 @@
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article and postpositive conjunction δὲ before the subject Πέτρος, while Vulgate uses autem after Petrus and Peshitta omits any conjunction, placing ܟܐܦܐ (Kepha) at the end of the verbal clause. All three traditions identify Peter as the speaker but employ different syntactic strategies."
+      "type": "construction",
+      "note": "The Greek frames the subject with article + postpositive δέ (ὁ δὲ Πέτρος), and the Vulgate mirrors this with Petrus autem; the Peshitta lacks any adversative/connective particle, opening simply with the verb ܐܡܪ and naming ܟܐܦܐ ('Kepha') without a coordinating conjunction, a characteristic Syriac paratactic style."
     },
     {
       "greek_nt": [
@@ -82,10 +82,21 @@
       ],
       "vulgate": [
         2,
-        3,
+        3
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "All three attest 'said to him,' but the Syriac places the verb ܐܡܪ first followed by ܠܗ, whereas Greek ἔφη αὐτῷ and Latin ait illi retain the same verb+dative sequence after the named subject; the divergence is one of clause-initial word order rather than lexical content."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         4
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate inserts an explicit colon marking the onset of direct speech; the Greek encodes this with the high point (·) attached to αὐτῷ·, and the Syriac leaves the speech boundary unmarked."
     },
     {
       "greek_nt": [
@@ -100,59 +111,76 @@
         6
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek employs the conditional particle εἰ with the intensifying conjunction καὶ ('even if'), creating a concessive protasis. Vulgate mirrors this with 'Et si' (literally 'And if'), while Peshitta uses the simple conditional ܐܢ without an intensifying particle, yielding a semantically equivalent but syntactically simpler construction."
+      "type": "construction",
+      "note": "Greek εἰ καί and Latin Et si render a concessive 'even if,' incorporating the intensifying καί/Et; the Syriac ܐܢ conveys the conditional alone without an explicit concessive particle, a slight syntactic reduction."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πάντες / ܟܠܗܘܢ / omnes."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        7,
         8,
-        9
-      ],
-      "variant": "aligned"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        10,
-        11
-      ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Vulgate adds the prepositional phrase 'in te' ('in you' or 'because of you'), specifying Jesus as the cause of the disciples' stumbling. Neither the Greek NA28 nor the Peshitta transmit this phrase, which may reflect harmonisation with Matthew 26:31 or represent a Western textual tradition."
-    },
-    {
-      "greek_nt": [
         9,
         10,
         11
       ],
+      "variant": "major",
+      "type": "expansion",
+      "note": "Greek σκανδαλισθήσονται and Syriac ܢܬܟܫܠܘܢ stand absolute ('shall be made to stumble'), but the Vulgate expands with the prepositional object in te ('in you'), a harmonisation toward the Matthean parallel (cf. Matt 26:33, scandalizati fuerint in te), supplying the object of offence absent from the other two witnesses."
+    },
+    {
+      "greek_nt": [
+        9,
+        10
+      ],
       "peshitta": [
         6,
-        7,
-        8
+        7
       ],
       "vulgate": [
         12,
-        13,
+        13
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀλλ᾽ οὐκ / ܐܠܐ ܠܐ / sed non."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
         14
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐγώ / ܐܢܐ / ego."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.039292+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.491842+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

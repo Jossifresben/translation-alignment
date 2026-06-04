@@ -73,39 +73,67 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses postpositive δέ ('but/and'); Vulgate employs the adversative At ('but'); Peshitta uses ܕܝܢ (dēn), the standard Syriac adversative particle. All three mark discourse transition, but with slightly different rhetorical force."
+      "variant": "aligned",
+      "note": "ἡ / ܗܝ / illa — the feminine subject pronoun."
     },
     {
       "greek_nt": [
-        2,
-        3,
-        4
+        1
       ],
       "peshitta": [
-        2,
+        1
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned",
+      "note": "δέ / ܕܝܢ / At — adversative particle."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "ἀπεκρίθη / ܥܢܬ / respondit."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
         3
       ],
       "vulgate": [
-        2,
-        3,
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs a double-verb construction (ἀπεκρίθη καὶ λέγει, aorist + historic present); Vulgate mirrors this with respondit et dixit (both perfect); Peshitta uses a single verb with waw-consecutive (ܥܢܬ ܘܐܡܪܐ), a typical Semitic narrative pattern conflating 'answered and said' into one verbal idea."
+      "note": "Greek and Latin present a finite present 'says/dixit'; the Peshitta fuses 'and said' (ܘܐܡܪܐ) into a single waw-prefixed form, so the conjunction and verb share one token. The Greek historic present λέγει is levelled to a past in both Syriac and Latin."
     },
     {
       "greek_nt": [
@@ -119,8 +147,7 @@
         6
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi to mark direct speech, a Latin scribal convention absent in Greek and Peshitta manuscripts which rely on context alone."
+      "note": "αὐτῷ / ܠܗ / illi — indirect object 'to him'. The Vulgate's colon (idx 6) is editorial punctuation introducing direct speech and has no counterpart in the other traditions."
     },
     {
       "greek_nt": [
@@ -132,9 +159,8 @@
       "vulgate": [
         7
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ναί and Peshitta ܐܝܢ both mean 'yes'; Vulgate uses Utique ('certainly, indeed'), a more emphatic affirmative particle reflecting Latin rhetorical style."
+      "variant": "aligned",
+      "note": "ναί / ܐܝܢ / Utique — affirmative particle 'yes'."
     },
     {
       "greek_nt": [
@@ -146,7 +172,8 @@
       "vulgate": [
         8
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "κύριε / ܡܪܝ / Domine — vocative address."
     },
     {
       "greek_nt": [
@@ -161,8 +188,7 @@
         10
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek καὶ γὰρ ('for even/also') and Vulgate nam et ('for also') place the causal particle first; Peshitta ܐܦ ('also/even') omits an explicit causal marker, relying on discourse flow to convey the logical connection."
+      "note": "Greek pairs καὶ … γάρ ('for even'), and Latin renders this with nam et; the Peshitta compresses the emphatic correlative into the single adverb ܐܦ ('even, also'), losing the explanatory causal force of γάρ but preserving the 'even' nuance."
     },
     {
       "greek_nt": [
@@ -176,8 +202,7 @@
         11
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses the neuter plural article + noun (τὰ κυνάρια, 'the little dogs'); Vulgate employs the masculine plural catelli without article (Latin lacks definite articles); Peshitta ܟܠܒܐ is singular ('the dog'), a typical Syriac collective-noun idiom for generic reference."
+      "note": "Greek κυνάρια and Latin catelli are diminutives ('little dogs/puppies'), matching the domestic image; the Peshitta uses the unmarked plural ܟܠܒܐ ('dogs') without a diminutive morpheme, a typical Syriac flattening of the Greek hypocoristic."
     },
     {
       "greek_nt": [
@@ -195,8 +220,7 @@
         14
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the prepositional phrase ὑποκάτω τῆς τραπέζης before the verb; Peshitta mirrors this order (ܡܢ ܬܚܝܬ ܦܬܘܪܐ); Vulgate inverts to sub mensa after the verb comedunt, following Latin prose rhythm conventions."
+      "note": "Greek ὑποκάτω τῆς τραπέζης and Latin sub mensa use a single preposition + genitive/ablative; the Peshitta stacks two prepositions ܡܢ ܬܚܝܬ ('from under') before ܦܬܘܪܐ, an idiomatic Syriac compound locative expressing the same spatial relation."
     },
     {
       "greek_nt": [
@@ -208,7 +232,8 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἐσθίουσιν / ܐܟܠܝܢ / comedunt — 3rd plural 'they eat'."
     },
     {
       "greek_nt": [
@@ -224,8 +249,7 @@
         16
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a partitive genitive construction (ἀπὸ τῶν ψιχίων, 'from the crumbs'); Vulgate employs de micis ('from/of the crumbs'); Peshitta ܦܪܬܘܬܐ ('crumbs') stands in construct state without an explicit preposition, a standard Semitic genitive-equivalent structure."
+      "note": "Greek ἀπὸ τῶν ψιχίων and Latin de micis express 'from the crumbs' with a partitive preposition; the Peshitta uses the bare noun ܦܪܬܘܬܐ ('crumbs') as direct object of 'eat' without an explicit partitive preposition, a construction difference rather than a semantic one."
     },
     {
       "greek_nt": [
@@ -238,13 +262,14 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek τῶν παιδίων and Latin puerorum render 'of the children'; the Peshitta ܕܒܢܝܐ uses the genitive of ܒܢܝܐ ('sons/children'). The trailing pilcrow (¶) on the Greek token marks a paragraph break in NA28 and carries no textual weight."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.992124+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:44:21.934200+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -43,10 +43,12 @@
       "peshitta": [
         0
       ],
-      "vulgate": [],
+      "vulgate": [
+        1
+      ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek καὶ and Peshitta ܘܟܕ both introduce the temporal clause, but Syriac employs the compound conjunction ܟܕ ('when') fused with the copula, creating a tighter temporal nexus than Greek's simple coordinating conjunction. Vulgate omits any coordinating particle, beginning directly with the temporal ablative absolute."
+      "type": "construction",
+      "note": "Greek opens with the simple coordinating conjunction Καὶ ('and'), while the Vulgate uses the postpositive adversative-continuative particle autem; the Peshitta fuses the conjunction into the temporal subordinator ܘܟܕ ('and when'), recasting the paratactic Greek genitive-absolute opening as an explicit subordinate temporal clause."
     },
     {
       "greek_nt": [
@@ -59,12 +61,11 @@
       ],
       "vulgate": [
         0,
-        1,
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a genitive absolute construction (ὀψίας γενομένης, 'evening having arrived'); Syriac employs a temporal clause with finite verb ܗܘܐ ܪܡܫܐ ('it became evening'); Vulgate uses an ablative absolute (Vespere facto) with the adversative particle autem. All three express identical temporal semantics through tradition-specific syntactic patterns."
+      "note": "Greek expresses time with a genitive absolute (ὀψίας γενομένης, 'evening having come'); Latin renders this with the ablative absolute Vespere ... facto, a precise structural calque; Syriac dissolves the participial construction into a finite verbal clause ܗܘܐ ܪܡܫܐ ('it became evening') governed by the preceding ܘܟܕ."
     },
     {
       "greek_nt": [
@@ -80,27 +81,36 @@
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
         5
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the article τῶν with the substantivized numeral δώδεκα ('the Twelve'), a standard Greek construction for the apostolic group. Syriac ܬܪܥܣܪܬܗ attaches a third-person possessive suffix ('his twelve'), making the relationship to Jesus explicit. Latin cum duodecim omits both article and possessive, using the bare numeral in a prepositional phrase—semantically equivalent but syntactically distinct across all three traditions."
+      "type": "construction",
+      "note": "Greek and Latin express 'the Twelve' with an article/substantive plus the cardinal numeral (τῶν δώδεκα / duodecim); the Peshitta employs the single inflected substantive ܬܪܥܣܪܬܗ bearing a 3ms possessive suffix ('his twelve'), making the disciples' relationship to Jesus explicit, an idiomatic Syriac compression."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.037392+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.432295+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -51,45 +51,64 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1,
-        2,
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses temporal subordination with the preposition μετά + articular infinitive (τὸ ἐγερθῆναι); the Peshitta uses the temporal particle ܡܐ ('when'), while the Vulgate employs the subordinating conjunction postquam ('after'). All three render the same temporal clause through differing syntactic strategies."
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
         2
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a prepositional phrase with articular infinitive (μετὰ τὸ ἐγερθῆναί με, 'after the being-raised of me'), a classical construction. Both Peshitta (ܡܐ ܕܩܡܬ, 'when I rise') and Vulgate (postquam resurrexero, 'after I shall have risen') use finite temporal clauses with conjugated verbs, reflecting their respective syntactic preferences for expressing temporal succession."
+      "note": "Greek uses a passive infinitive (ἐγερθῆναι, 'to be raised') with the accusative subject με; the Peshitta ܕܩܡܬ and Vulgate resurrexero render this with a finite first-person active verb ('I have risen'/'I shall have risen'). The shift from passive 'be raised' to active 'rise' is a routine versional accommodation reflecting Aramaic and Latin verbal preference."
     },
     {
       "greek_nt": [
-        5,
-        6
+        5
       ],
       "peshitta": [
         3,
-        4,
+        4
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek προάξω is a single future verb; the Vulgate praecedam matches it compactly, but the Peshitta renders the idea analytically with ܩܕܡ plus the independent pronoun ܐܢܐ ('I go before'), an expected Syriac periphrasis for the future/emphatic first person."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
         5
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb before the object (προάξω ὑμᾶς, 'I-will-go-before you'), matching Vulgate word order (præcedam vos). Peshitta inverts to verb-subject-object sequence (ܩܕܡ ܐܢܐ ܠܟܘܢ, 'go-before I you'), with the independent pronoun ܐܢܐ explicitly stated for emphasis, whereas Greek and Latin encode the subject in verbal morphology alone."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -106,12 +125,12 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Vulgate use a prepositional phrase with article (εἰς τὴν Γαλιλαίαν / in Galilæam, 'into Galilee') to express direction. Peshitta employs the prefixed preposition ܠ directly attached to the place name (ܠܓܠܝܠܐ, 'to-Galilee'), a standard Semitic construction that omits the separate article, yielding identical semantics through morphologically distinct means."
+      "note": "Greek marks the goal with εἰς + article + accusative (εἰς τὴν Γαλιλαίαν) and Latin with in + accusative (in Galilæam); the Peshitta fuses the directional particle into the noun with the prefixed lamadh ܠܓܠܝܠܐ, a synthetic expression of the same allative sense."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.039189+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.517947+00:00",
     "confidence": 0.9,
     "schema_version": 1
   }

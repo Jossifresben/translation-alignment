@@ -67,7 +67,7 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ- / et"
     },
     {
       "greek_nt": [
@@ -79,8 +79,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ὤμοσεν ('he swore', aorist) is matched by Latin juravit; in the Peshitta the conjunction ܘ- and the verb ܝܡܐ are fused into the single token ܘܝܡܐ, so the verb shares its index with the preceding conjunction group — a feature of Syriac orthography rather than a textual divergence."
     },
     {
       "greek_nt": [
@@ -93,37 +93,16 @@
         2
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "αὐτῇ / ܠܗ / illi"
     },
     {
       "greek_nt": [
         3
       ],
-      "peshitta": [],
       "vulgate": [],
       "variant": "omitted",
       "type": "omission",
-      "note": "Greek πολλὰ ('greatly', adverbial accusative intensifying the oath) is absent from both Peshitta and Vulgate. This may reflect a Western text-type omission or stylistic streamlining in the translation traditions."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        3
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after illi to mark the beginning of direct discourse, a Latin stylistic convention not reflected in Greek or Syriac manuscript traditions."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        4
-      ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "Vulgate adds Quia ('because/that') as a subordinating conjunction introducing the oath content, making the syntactic structure more explicit than the Greek relative construction ὅ τι ἐάν."
+      "note": "Greek adds the adverbial accusative πολλά ('greatly, vehemently'), intensifying the oath. Neither the Peshitta nor the Vulgate render this intensifier, the Latin reading swearing simply as juravit and the Syriac as ܘܝܡܐ without modifier."
     },
     {
       "greek_nt": [
@@ -135,11 +114,12 @@
         2
       ],
       "vulgate": [
+        4,
         5
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses a three-word indefinite relative construction (ὅ τι ἐάν, 'whatever'); Peshitta employs the single indefinite pronoun ܕܡܕܡ (d-medem, 'whatever'); Vulgate uses quidquid ('whatever'). All express the same indefinite relative semantics through different morphological strategies."
+      "note": "The Greek conditional-relative cluster ὅ τι ἐάν ('whatever') is rendered by the Latin pleonastic Quia quidquid and by the single Syriac noun ܡܕܡ ('the thing/whatever') prefixed with the relative ܕ-; each tradition expresses the indefinite relative idiomatically with differing word counts."
     },
     {
       "greek_nt": [
@@ -153,8 +133,8 @@
         6
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the object pronoun με before the verb αἰτήσῃς ('me you-ask'); Peshitta and Vulgate integrate the pronominal object within the verbal form (ܕܬܫܐܠܝܢ / petieris), reflecting standard Semitic and Latin verb-object morphology versus Greek's freer word order."
+      "type": "omission",
+      "note": "Greek explicitly supplies the object pronoun με ('me') with the verb αἰτήσῃς; the Latin petieris and the Syriac ܕܬܫܐܠܝܢ (from root sh-a-l, 'to ask') embed the second-person subject in the verbal inflection and omit the separate object pronoun as redundant."
     },
     {
       "greek_nt": [
@@ -167,7 +147,7 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "δώσω / ܐܬܠ / dabo"
     },
     {
       "greek_nt": [
@@ -180,11 +160,12 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "σοι / ܠܟܝ / tibi"
     },
     {
       "greek_nt": [
-        11
+        11,
+        12
       ],
       "peshitta": [
         6
@@ -194,11 +175,10 @@
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἕως ('up to, as far as') is rendered by Peshitta ܥܕܡܐ (ʿdamā, 'up to') and Vulgate licet ('even if, although'), which here functions as a concessive intensifier ('even up to') rather than a strict spatial/temporal preposition, subtly shifting the rhetorical force."
+      "note": "Greek ἕως ('up to, until') governing the partitive genitive ἡμίσους is matched by the Syriac compound ܥܕܡܐ ('up to') in token 6; the Latin renders the clause concessively with licet ('even, although'), a softer construction implying willingness rather than strict spatial limit."
     },
     {
       "greek_nt": [
-        12,
         13,
         14,
         15
@@ -214,13 +194,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the genitive adjective ἡμίσους with articular genitive τῆς βασιλείας μου ('half of my kingdom'); Peshitta employs a construct chain ܠܦܠܓܗ ܕܡܠܟܘܬܝ (l-palgēh d-malkūtī, 'to-half-of of-my-kingdom'); Vulgate uses accusative dimidium with genitive regni mei. All three express identical semantics through tradition-specific genitive constructions."
+      "note": "The Greek τῆς βασιλείας μου ('of my kingdom') with article and possessive genitive is paralleled by the Latin regni mei and by the Syriac, which fuses the noun with the partitive into ܠܦܠܓܗ ('to its half') and the possessive suffix into ܕܡܠܟܘܬܝ; Syriac compresses the half + kingdom + first-person possessive into two suffixed tokens against three in Greek and Latin."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.981235+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.512374+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

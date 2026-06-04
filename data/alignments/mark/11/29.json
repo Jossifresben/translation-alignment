@@ -93,8 +93,8 @@
       ],
       "vulgate": [],
       "variant": "minor",
-      "type": "omission",
-      "note": "Greek employs the article ὁ with δέ (postpositive conjunction); Vulgate omits the article entirely, as Latin lacks a definite article system. Peshitta uses the demonstrative pronoun ܗܘ ('he') as a functional equivalent to the Greek article, a common Syriac strategy for definiteness."
+      "type": "construction",
+      "note": "Greek ὁ functions as the articular subject-marker preceding Ἰησοῦς; the Peshitta renders this with the independent pronoun ܗܘ ('he, that one'), a normal Syriac demonstrative-subject construction. The Vulgate has no corresponding element, beginning directly with the proper name."
     },
     {
       "greek_nt": [
@@ -106,7 +106,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "δέ / ܕܝܢ / autem"
     },
     {
       "greek_nt": [
@@ -118,23 +119,33 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "Ἰησοῦς / ܝܫܘܥ / Jesus"
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek aorist participle ἀποκριθεὶς ('answering') is matched by the Latin participle respondens, but the Peshitta omits the redundant verb of answering entirely, retaining only ܐܡܪ ('said'). This reflects the Syriac tendency to compress the Semitic-style pleonastic 'answered and said' formula."
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
         3
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a participial construction (ἀποκριθεὶς εἶπεν, 'answering, he said'), a Semitic pleonasm common in the Gospels. Vulgate mirrors this with respondens ait. Peshitta employs a single finite verb ܐܡܪ ('he said'), omitting the redundant participial element—a stylistic simplification typical of Syriac narrative economy."
+      "variant": "aligned",
+      "note": "εἶπεν / ܐܡܪ / ait"
     },
     {
       "greek_nt": [
@@ -147,23 +158,33 @@
         4,
         5
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after illis to mark the transition to direct speech, a punctuation convention absent in Greek and Peshitta manuscripts. The semantic content (dative pronoun 'to them') is identical across all three traditions."
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / illis (with colon)"
     },
     {
       "greek_nt": [
-        6,
-        7
+        6
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        6,
+        6
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek uses ἐπερωτήσω (compound of ἐρωτάω, 'I will question'); the Peshitta ܐܫܐܠܟܘܢ (root sh-a-l, 'to ask/inquire') incorporates the second-person object suffix into the verb, while Latin Interrogabo takes a separate accusative. The lexical choices are equivalent in sense though differing in morphological packaging."
+    },
+    {
+      "greek_nt": [
         7
       ],
-      "variant": "aligned"
+      "peshitta": [],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ὑμᾶς / (suffixed in ܐܫܐܠܟܘܢ) / vos"
     },
     {
       "greek_nt": [
@@ -178,8 +199,8 @@
         9
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses the crasis form κἀγώ (καὶ ἐγώ, 'and I'), a single token combining conjunction and pronoun. Peshitta separates these as ܐܦ ܐܢܐ ('also I'), placing the emphatic particle first. Vulgate similarly separates et ego, following Latin word-order norms. All three convey identical emphasis on the first-person subject."
+      "type": "construction",
+      "note": "Greek crases the conjunction and pronoun into a single form κἀγὼ ('I also'); both the Peshitta (ܐܦ ܐܢܐ) and the Vulgate (et ego) analytically unpack this into two words, preserving the emphatic first-person sense."
     },
     {
       "greek_nt": [
@@ -196,89 +217,141 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the numeral before the noun (ἕνα λόγον, 'one word/question'); Peshitta reverses this to ܡܠܬܐ ܚܕܐ (noun-numeral), conforming to standard Syriac syntax for indefinite constructions. Vulgate follows Greek order (unum verbum). The semantic content is identical."
+      "note": "Greek and Latin place the numeral before the noun (ἕνα λόγον / unum verbum); the Peshitta inverts to noun-then-numeral (ܡܠܬܐ ܚܕܐ), the standard Syriac attributive order. The lexeme ܡܠܬܐ (root m-l-l, 'word/matter') corresponds to λόγος and verbum."
     },
     {
       "greek_nt": [
         11,
+        12
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
         12,
         13
       ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin coordinate with an imperative (καὶ ἀποκρίθητέ / et respondete, 'and answer'); the Peshitta employs a subordinate clause ܕܬܐܡܪܘܢ ('that you say/answer'), recasting the paratactic imperative as a purpose/result clause typical of Syriac syntax."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        12,
-        13,
         14,
         15
+      ],
+      "variant": "aligned",
+      "note": "μοι / ܠܝ / mihi (with colon)"
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        16
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ (in ܘܐܢܐ) / et"
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        13,
+        14
+      ],
+      "vulgate": [
+        17
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses an imperative (ἀποκρίθητέ μοι, 'answer me') coordinated with καί. Peshitta employs a subjunctive construction with ܕ (ܕܬܐܡܪܘܢ ܠܝ, 'that you may say to me'), expressing purpose or result rather than direct command. Vulgate adds a second colon after mihi, then uses the imperative respondete, mirroring Greek syntax but with Latin punctuation conventions."
+      "note": "The Greek future ἐρῶ and Latin dicam are single verbs; the Peshitta renders the future with the participle ܐܡܪ plus the enclitic pronoun ܐܢܐ (ܐܡܪ ܐܢܐ, 'I am saying / I will say'), the characteristic Syriac periphrastic present-future construction. The pronoun ܘܐܢܐ already supplies the explicit subject."
     },
     {
       "greek_nt": [
-        14,
-        15,
         16
       ],
       "peshitta": [
-        12,
-        13,
-        14,
         15
       ],
       "vulgate": [
-        16,
+        18
+      ],
+      "variant": "aligned",
+      "note": "ὑμῖν / ܠܟܘܢ / vobis"
+    },
+    {
+      "greek_nt": [
         17,
         18
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta expands the future verb phrase with a triple repetition of ܐܢܐ ('I'): ܘܐܢܐ ܐܡܪ ܐܢܐ ܠܟܘܢ ('and I, I will say, I, to you'). This emphatic tripling is a Syriac stylistic device for emphasis, absent in both Greek (καὶ ἐρῶ ὑμῖν) and Vulgate (et dicam vobis), which use standard future constructions without pronominal repetition."
-    },
-    {
-      "greek_nt": [
-        17,
-        18,
-        19
-      ],
       "peshitta": [
-        16,
-        17
+        16
       ],
       "vulgate": [
         19,
-        20,
-        21
+        20
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses preposition + interrogative adjective ἐν ποίᾳ ('by what'), matched by Latin in qua; the Peshitta fuses the preposition ܒ with the interrogative ܐܝܢܐ into a single word ܒܐܝܢܐ, a normal Syriac orthographic and grammatical contraction."
     },
     {
       "greek_nt": [
-        20,
+        19
+      ],
+      "peshitta": [
+        17
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned",
+      "note": "ἐξουσίᾳ / ܫܘܠܛܢܐ / potestate"
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        22
+      ],
+      "variant": "aligned",
+      "note": "ταῦτα / ܗܠܝܢ / hæc"
+    },
+    {
+      "greek_nt": [
         21
       ],
       "peshitta": [
-        18,
         19,
         20
       ],
       "vulgate": [
-        22,
         23
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds a final ܐܢܐ ('I') after the verb ܥܒܕ ('I do'), creating ܗܠܝܢ ܥܒܕ ܐܢܐ ('these things I do, I'). This post-verbal pronoun is a Syriac emphasis marker, redundant in Greek (ταῦτα ποιῶ) and Vulgate (hæc faciam), both of which encode the first-person subject within the verb morphology alone."
+      "type": "construction",
+      "note": "Greek present ποιῶ and Latin faciam stand as single inflected verbs; the Peshitta again uses the periphrastic participle ܥܒܕ (root e-b-d, 'to do/make') plus the enclitic subject pronoun ܐܢܐ, mirroring the construction used earlier in the verse and supplying an explicit first-person subject."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.019669+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.437362+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

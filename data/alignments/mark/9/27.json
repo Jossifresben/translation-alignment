@@ -46,50 +46,49 @@
     {
       "greek_nt": [
         0,
-        1
+        1,
+        2
       ],
       "peshitta": [
         0,
-        1
+        1,
+        2
       ],
       "vulgate": [
+        0,
         1
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article and conjunction before the subject (ὁ δὲ Ἰησοῦς), while Peshitta mirrors this with pronoun + conjunction (ܗܘ ܕܝܢ ܝܫܘܥ). Vulgate omits the article (no Latin equivalent) and places the conjunction after the subject (Jesus autem), following standard Latin post-positive usage for autem."
+      "note": "Greek leads with the articular subject ὁ δὲ Ἰησοῦς (article + postpositive δέ + name); the Peshitta mirrors this with ܗܘ ܕܝܢ ܝܫܘܥ, employing the demonstrative ܗܘ as an analogue to the Greek article. The Vulgate Jesus autem omits any article-equivalent, as Latin lacks a definite article."
     },
     {
       "greek_nt": [
-        2
+        3
       ],
       "peshitta": [
-        2
+        3
       ],
       "vulgate": [
-        0
+        2
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek and Latin both render the action as a circumstantial participle (κρατήσας / tenens, 'having taken / taking hold'); the Syriac ܐܚܕܗ is a finite perfect verb with an enclitic 3ms object suffix, converting the participial subordination into a coordinate finite clause — a typical Syriac construction."
     },
     {
       "greek_nt": [
-        3,
         4,
         5,
         6
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        2,
         3,
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses an aorist participle with genitive article-noun phrase (κρατήσας τῆς χειρὸς αὐτοῦ, 'having taken hold of his hand'). Latin employs a present participle with accusative direct object (tenens manum ejus, 'holding his hand'). Peshitta uses a finite verb with prepositional phrase (ܐܚܕܗ ܒܐܝܕܗ, 'he took him by his hand'), integrating the pronominal suffix directly onto both verb and noun."
+      "note": "Greek expresses the object as an articular genitive phrase τῆς χειρὸς αὐτοῦ ('the hand of him'), and the Vulgate matches with manum ejus; the Syriac compresses the whole phrase into a single prepositional word ܒܐܝܕܗ ('by his hand'), incorporating the preposition ܒ and possessive suffix, with no separate object pronoun."
     },
     {
       "greek_nt": [
@@ -103,7 +102,8 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "note": "Greek ἤγειρεν αὐτόν and Latin elevavit eum both express the verb plus a discrete accusative object pronoun ('he raised him'); the Syriac ܘܐܩܝܡܗ from root q-y-m fuses the conjunction ܘ, the causative verb, and the 3ms object suffix into one form, again favouring synthetic morphology over analytic syntax."
     },
     {
       "greek_nt": [
@@ -116,13 +116,12 @@
         8
       ],
       "variant": "omitted",
-      "type": "omission",
-      "note": "Greek and Vulgate include the redundant clause 'and he arose' (καὶ ἀνέστη / et surrexit) after 'raised him up,' emphasizing the boy's response. The Peshitta omits this clause entirely, treating the raising as sufficient to convey the boy's restoration to standing position without the pleonastic addition."
+      "note": "Greek καὶ ἀνέστη and Latin et surrexit attest a final coordinate clause stating that the child arose; the Peshitta lacks any equivalent to this clause, ending the verse after 'and he raised him.' This omission may reflect the Syriac translator treating the rising as implicit in the causative ܐܩܝܡܗ, or a shorter Vorlage."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.234030+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.494546+00:00",
     "confidence": 0.88,
     "schema_version": 1
   }

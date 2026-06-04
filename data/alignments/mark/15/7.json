@@ -74,7 +74,9 @@
         0,
         1
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek frames the clause with ἦν δέ (imperfect 'to be' + postpositive δέ); the Peshitta employs the existential particle ܘܐܝܬ followed by the auxiliary ܗܘܐ, a periphrastic 'there was' construction; the Vulgate uses Erat autem, paralleling the Greek closely. The differences are stylistic auxiliary choices, semantically equivalent."
     },
     {
       "greek_nt": [
@@ -83,83 +85,150 @@
       "peshitta": [
         2
       ],
-      "vulgate": [
-        2
-      ],
+      "vulgate": [],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek uses the definite article ὁ ('the one') to substantivize the participle, while Peshitta employs the numeral ܚܕ ('one, a certain one') as an indefinite pronoun. Latin qui functions as a relative pronoun. All three convey indefinite reference to Barabbas, but through different grammatical strategies."
+      "note": "Greek and Syriac supply an explicit substantival head: the Greek article ὁ (substantivising the participle) and the Syriac numeral-pronoun ܚܕ ('a certain one'); the Vulgate lacks an overt head, the relative qui directly governing dicebatur."
     },
     {
       "greek_nt": [
-        3,
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the present passive participle λεγόμενος ('being called'); the Peshitta renders this with a relative-marked verb ܕܡܬܩܪܐ (d- + ethpeʿel imperfect); the Vulgate uses a relative clause qui dicebatur with finite imperfect, all three conveying the same naming formula through differing syntactic means."
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Βαραββᾶς / ܒܪ-ܐܒܐ / Barrabas."
     },
     {
       "greek_nt": [
+        9
+      ],
+      "peshitta": [
         5,
+        6
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Here the traditions reorder the relative pronoun and the binding predicate. Greek places the participle δεδεμένος ('bound') before the relative οἵτινες, whereas the Peshitta introduces ܕܐܣܝܪ ܗܘܐ ('who was bound') as a relative clause and the Vulgate uses qui... erat vinctus; the alignment reflects word-order and syntactic reshaping rather than semantic divergence."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μετά / ܥܡ / cum."
+    },
+    {
+      "greek_nt": [
         6,
-        7,
+        7
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses an articular plural noun τῶν στασιαστῶν ('the insurrectionists'); the Peshitta renders it analytically as ܥܒܕܝ ܐܣܛܣܝܢ ('makers/doers of sedition'), a construct chain built on ʿ-b-d ('to do') plus the Greek loanword for stasis; the Vulgate uses the single substantivised adjective seditiosis."
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        5,
-        6,
-        7,
-        8,
-        9
+        6
       ],
       "vulgate": [
-        5,
-        6,
-        7,
         8,
         9
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a single participial construction (δεδεμένος, 'bound') with prepositional phrase μετὰ τῶν στασιαστῶν ('with the rebels'). Peshitta uses a relative clause construction with repeated ܗܘܐ ('was') and ܕܐܣܝܪ ܗܘܐ ܥܡ ('who was bound with'), followed by a construct phrase ܥܒܕܝ ܐܣܛܣܝܢ ('makers-of sedition'). Latin mirrors Greek more closely with qui cum seditiosis erat vinctus but adds a second relative pronoun qui to introduce the murder clause, creating a more explicit syntactic break than Greek's simple relative οἵτινες."
+      "note": "The Greek perfect passive participle δεδεμένος ('having been bound') is matched by the Vulgate periphrastic erat vinctus and aligned with the Syriac ܐܣܝܪ ܗܘܐ noted above; the perfect/pluperfect-stative aspect is preserved across all three by different formal means."
     },
     {
       "greek_nt": [
-        9,
         10,
         11,
-        12,
-        13,
+        12
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        11,
+        12
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the full prepositional phrase ἐν τῇ στάσει ('in the insurrection') with article; the Vulgate parallels with in seditione; the Peshitta compresses this into a single prefixed noun ܒܐܣܛܣܝܢ (b- + the stasis loanword), omitting an explicit article per Syriac usage."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek φόνον and Latin homicidium denote the abstract act 'murder/homicide', while the Peshitta ܕܩܛܠܐ (root q-T-l, cognate with Hebrew קָטַל and Arabic قَتَلَ) likewise denotes killing; the Syriac fronts this object before the verb, reversing the Greek/Latin order."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
         10,
-        11,
-        12,
         13
       ],
       "vulgate": [
-        10,
-        11,
-        12,
-        13,
-        14
+        13
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the direct object φόνον ('murder') before the verb πεποιήκεισαν ('had committed'), emphasizing the crime. Peshitta reverses this to verb-object order ܥܒܕܘ ܕܩܛܠܐ ('committed murder'), following typical Semitic VSO patterns. Latin fecerat homicidium follows Latin verb-object preference. All three traditions attest the pluperfect/perfect tense, indicating completed action prior to the narrative present."
+      "type": "grammar",
+      "note": "Greek uses the pluperfect πεποιήκεισαν ('had committed', 3rd plural) and the Vulgate matches with the pluperfect fecerat (though singular, agreeing with the relative referent); the Peshitta uses the perfect ܥܒܕܘ ('they did/committed', 3rd plural) preceded by the resumptive pronoun ܗܢܘܢ ('they'), a typical Syriac relative-resumption that the Greek expresses synthetically through οἵτινες."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.047359+00:00",
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.436880+00:00",
     "confidence": 0.82,
     "schema_version": 1
   }

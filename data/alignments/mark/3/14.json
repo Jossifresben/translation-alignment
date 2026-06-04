@@ -64,8 +64,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -77,8 +76,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek ἐποίησεν ('he made/appointed') and Latin fecit literally render 'made,' while the Peshitta uses ܓܒܐ (g-b-a, 'he chose/selected'); the Syriac root corresponds to Hebrew בָּחַר ('to choose') and reflects an interpretive rendering emphasising election rather than the Greek idiom of 'making' the Twelve. The single Syriac verb ܘܓܒܐ also absorbs the connective."
     },
     {
       "greek_nt": [
@@ -90,8 +89,7 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -100,35 +98,33 @@
         5,
         6
       ],
-      "peshitta": [],
-      "vulgate": [],
       "variant": "omitted",
-      "type": "omission",
-      "note": "The Greek NA28 includes the relative clause οὓς καὶ ἀποστόλους ὠνόμασεν ('whom also He named apostles'), which is absent from both the Peshitta and Vulgate traditions. This clause is textually disputed in the Greek manuscript tradition and appears to be a later harmonization with Luke 6:13."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        2,
-        3
-      ],
-      "variant": "added",
-      "type": "construction",
-      "note": "The Vulgate inserts ut essent ('that they might be') as an explicit purpose clause governing duodecim, creating a parallel construction with the subsequent ut mitteret. The Greek uses ἵνα ὦσιν for the first purpose clause, while the Peshitta employs the simple prefix ܕ (d-) with the imperfect, yielding a more compact syntax."
+      "note": "The clause οὓς καὶ ἀποστόλους ὠνόμασεν ('whom also he named apostles') is attested in the Greek (a reading supported by א B and adopted in NA28) but absent from both the Peshitta and the Clementine Vulgate, which here follow the shorter text-type. Its omission likely reflects the Western/Byzantine tradition underlying both versions rather than independent abridgement."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
         2
       ],
-      "vulgate": [],
+      "vulgate": [
+        3
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the conjunction ἵνα with subjunctive ὦσιν ('that they may be'), while Syriac uses the prefix ܕ with imperfect ܢܗܘܘܢ (dnehwon), a standard Semitic purpose construction. Both express identical purpose semantics through language-specific grammatical means."
+      "note": "Greek employs the purpose conjunction ἵνα with the present subjunctive ὦσιν and Latin uses ut essent; the Peshitta compresses the conjunction and verb into the single prefixed form ܕܢܗܘܘܢ (d-nehwon, 'that they should be'), a normal Syriac syntactic economy."
     },
     {
       "greek_nt": [
@@ -142,8 +138,7 @@
         5,
         6
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -153,12 +148,9 @@
         4
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate places a colon after illo, creating a stronger syntactic break between the two purpose clauses, whereas Greek uses simple καί coordination. The Syriac ܘ (w-) mirrors the Greek coordinating function without the Vulgate's punctuational emphasis."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -173,8 +165,7 @@
         10
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek repeats ἵνα with subjunctive ἀποστέλλῃ for the second purpose clause; Latin mirrors this with ut mitteret (imperfect subjunctive in indirect discourse); Syriac continues the ܕ-prefix construction (ܘܕܢܫܕܪ, wdneshdar), maintaining syntactic parallelism through a single conjunction prefix rather than clause repetition."
+      "note": "Greek separates the conjunction καὶ ἵνα and the present subjunctive ἀποστέλλῃ, mirrored by Latin et ut mitteret; the Peshitta fuses connective, relative, and verb into the single form ܘܕܢܫܕܪ (w-d-neshdar), reflecting the agglutinative Syriac construction. Punctuation (Vulgate colon at idx 7) marks the clause break."
     },
     {
       "greek_nt": [
@@ -186,8 +177,7 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -199,14 +189,21 @@
       "vulgate": [
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
+    },
+    {
+      "vulgate": [
+        7
+      ],
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate inserts a colon dividing the two purpose clauses ('that they might be with him' / 'that he might send them'); neither the Greek nor the Syriac marks this break, and it reflects editorial Latin punctuation rather than a textual divergence."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.959193+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.468625+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

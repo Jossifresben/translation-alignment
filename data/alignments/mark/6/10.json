@@ -82,8 +82,7 @@
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses imperfect ἔλεγεν (iterative/continuous past action), while Vulgate employs imperfect dicebat with identical aspectual force. Peshitta ܘܐܡܪ uses the perfect conjugation, which in Syriac narrative typically functions as a simple past without the Greek's iterative nuance."
+      "note": "Greek ἔλεγεν and Latin dicebat are both imperfect (durative/iterative 'he was saying / kept saying'), preserving the Markan habitual sense; the Syriac ܘܐܡܪ is a simple perfect 'and he said', collapsing the imperfective aspect of the Greek into a punctual past, as Syriac lacks a morphologically distinct imperfect for past narration here."
     },
     {
       "greek_nt": [
@@ -93,12 +92,9 @@
         1
       ],
       "vulgate": [
-        2,
-        3
+        2
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after eis to mark direct discourse, a Latin scribal convention absent in Greek and Syriac manuscript traditions. The Peshitta ܠܗܘܢ and Greek αὐτοῖς are functionally identical dative pronouns."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -112,45 +108,61 @@
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the compound conjunction ὅπου ἐάν ('wherever' + conditional particle) to express indefinite location. Vulgate uses the single compound relative Quocumque, while Peshitta uses ܕܠܐܝܢܐ (d- + interrogative 'which'), a standard Syriac construction for indefinite relatives—all three semantically equivalent but syntactically distinct."
+      "note": "The Greek correlative-conditional ὅπου ἐάν ('wherever, if') and Latin generalizing relative Quocumque ('to whatever place') are matched by the single Syriac relative-prepositional form ܕܠܐܝܢܐ ('into whichever'), which fuses the locative goal and the relative pronoun into one word, a typical Syriac economy of construction."
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7
+        5
       ],
       "peshitta": [
-        3,
         4,
         5
       ],
       "vulgate": [
-        5,
-        6,
-        7
+        5
       ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta adds the explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܕܥܐܠܝܢ, a typical Syriac clarification where Greek and Latin rely on verbal inflection alone (εἰσέλθητε, introieritis). This represents Syriac preference for explicit subjects in subordinate clauses rather than a textual variant."
+      "variant": "minor",
+      "note": "Greek εἰσέλθητε (aorist subjunctive 2nd plural) and Latin introieritis (future perfect) both render the entering as a single completed condition; Syriac employs the participle ܕܥܐܠܝܢ plus the enclitic pronoun ܐܢܬܘܢ ('you are entering'), an analytic present-participial construction expressing the same conditional subject without a finite subjunctive."
     },
     {
       "greek_nt": [
-        8,
-        9
-      ],
-      "peshitta": [
         6,
         7
       ],
+      "peshitta": [
+        3
+      ],
       "vulgate": [
-        8,
+        6,
+        7
+      ],
+      "variant": "minor",
+      "note": "Greek εἰς οἰκίαν and Latin in domum render 'into a house' with explicit preposition + accusative; the Syriac ܒܝܬܐ ('house') is governed directly by the fused relative ܕܠܐܝܢܐ, so the goal-marking is carried by the earlier conjoined form rather than by a separate preposition."
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses adverb + imperative (ἐκεῖ μένετε); Vulgate mirrors this with illic manete. Peshitta employs ܬܡܢ ܗܘܘ (literally 'there be'), using the imperative of the verb 'to be' rather than a verb of remaining—a Syriac idiom for continuous presence that differs syntactically but not semantically."
+      "note": "Greek μένετε and Latin manete are present imperatives ('remain'); the Syriac ܗܘܘ is the imperative of h-w-a ('be/stay'), a lexically distinct verb of being rather than the verb 'to remain/abide', though contextually equivalent as a command to lodge there."
     },
     {
       "greek_nt": [
@@ -164,8 +176,7 @@
         10
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the compound temporal conjunction ἕως ἂν (preposition + modal particle) to express indefinite future time. Vulgate employs the single conjunction donec, while Peshitta uses ܥܕܡܐ (a simple temporal preposition)—all three convey 'until' with subjunctive/indefinite force, but through different morphological strategies."
+      "note": "The Greek ἕως ἄν ('until' with the contingent particle ἄν governing the subjunctive) is rendered by Latin donec and by the single Syriac ܥܕܡܐ; both target languages express the temporal limit without a separate modal particle, the contingency being absorbed into the following verb's mood."
     },
     {
       "greek_nt": [
@@ -178,9 +189,8 @@
       "vulgate": [
         11
       ],
-      "variant": "added",
-      "type": "gloss",
-      "note": "Peshitta again inserts the explicit subject pronoun ܐܢܬܘܢ ('you') after ܕܢܦܩܝܢ ('you go out'), paralleling its earlier addition. Greek ἐξέλθητε and Vulgate exeatis encode the subject in verbal morphology, while Syriac prefers redundant pronominal subjects in temporal clauses."
+      "variant": "minor",
+      "note": "Greek ἐξέλθητε (aorist subjunctive 2nd plural) and Latin exeatis (present subjunctive) render 'until you depart' finitely; Syriac again uses the participle ܕܢܦܩܝܢ plus enclitic ܐܢܬܘܢ ('you go out'), the analytic participial construction matching its earlier treatment of the entering verb."
     },
     {
       "greek_nt": [
@@ -194,24 +204,30 @@
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the simple adverb ἐκεῖθεν ('from there'), as does Vulgate with inde. Peshitta employs a prepositional phrase ܡܢ ܬܡܢ (literally 'from there'), making the ablative sense explicit through the preposition ܡܢ—a typical Syriac analytical construction where Greek and Latin use synthetic forms."
+      "note": "Greek ἐκεῖθεν and Latin inde are single adverbs meaning 'from there'; Syriac expresses this analytically with the preposition ܡܢ ('from') plus the locative adverb ܬܡܢ ('there'), spelling out what the inflected Greek/Latin adverbs encode in one form."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
+      "greek_nt": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "note": "The Vulgate marks direct discourse with an explicit colon after eis, whereas the Greek punctuation is carried by the high point on αὐτοῖς· itself; this is a scribal/editorial punctuation difference, not a textual variant."
+    },
+    {
       "vulgate": [
         13
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate closes the verse with a second colon, marking the end of direct discourse—a Latin scribal convention without equivalent in Greek or Syriac manuscript traditions."
+      "variant": "added",
+      "note": "The Clementine Vulgate closes the verse with a trailing colon anticipating the continuation into v.11, a purely editorial punctuation mark with no counterpart in the Greek full stop (ἐκεῖθεν.) or the unpointed Syriac."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.979254+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.544357+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

@@ -57,20 +57,31 @@
       "greek_nt": [
         0,
         1,
-        2,
-        3
+        2
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
-        1
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs double article construction (τὸ βάπτισμα τὸ Ἰωάννου) with attributive article before the genitive, a classical Greek idiom. Both Peshitta and Vulgate use simple construct-state/genitive constructions (ܡܥܡܘܕܝܬܗ ܕܝܘܚܢܢ / Baptismus Joannis) without article repetition, reflecting their respective linguistic norms."
+      "note": "Greek employs an articular construction with the noun preceded and followed by the article (τὸ βάπτισμα τὸ Ἰωάννου); both Syriac ܡܥܡܘܕܝܬܗ ('his baptism') and Latin Baptismus collapse this into a single noun, the Syriac anticipating the genitive with a proleptic possessive suffix resolved by the following ܕܝܘܚܢܢ."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "Ἰωάννου / ܕܝܘܚܢܢ / Joannis."
     },
     {
       "greek_nt": [
@@ -88,21 +99,23 @@
         2,
         3
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "Peshitta expands the Greek prepositional phrase ἐξ οὐρανοῦ ('from heaven') into an interrogative construction ܡܢ ܐܝܡܟܐ ܗܝ ܡܢ ܫܡܝܐ ('from where is it? from heaven'), making the question's structure more explicit with the added interrogative ܐܝܡܟܐ ('where') and copula ܗܝ ('is it'). The Vulgate follows the Greek tersely with de cælo erat."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin render simply 'from heaven' (ἐξ οὐρανοῦ / de cælo); the Syriac expands with an interrogative adverb ܡܢ ܐܝܡܟܐ ܗܝ ('from where is it?') as a rhetorical anticipation before answering ܡܢ ܫܡܝܐ ('from heaven'), a Syriac stylistic doubling that frames the disjunctive question."
     },
     {
       "greek_nt": [
         6
       ],
-      "peshitta": [],
+      "peshitta": [
+        4
+      ],
       "vulgate": [
         4
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Greek imperfect verb ἦν ('was') and Vulgate erat are omitted in the Peshitta, which incorporates the copula ܗܝ earlier in the interrogative expansion. This represents a structural redistribution rather than semantic loss."
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The copula ἦν ('was it') stands after the prepositional phrase in Greek and Latin (erat); in the Syriac the enclitic pronoun ܗܝ functions as the predicative copula and is fronted within the interrogative clause, reflecting differing placement of the verb 'to be'."
     },
     {
       "greek_nt": [
@@ -115,7 +128,8 @@
         5
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἢ / ܐܘ / an."
     },
     {
       "greek_nt": [
@@ -133,38 +147,53 @@
       ],
       "variant": "minor",
       "type": "idiom",
-      "note": "Greek ἐξ ἀνθρώπων ('from men') and Latin ex hominibus are straightforward prepositional phrases. Peshitta uses ܡܢ ܒܢܝ ܐܢܫܐ ('from sons of man'), a characteristic Semitic idiom employing the construct phrase 'sons of' to denote human origin or agency."
+      "note": "Greek ἐξ ἀνθρώπων and Latin ex hominibus use a simple plural noun ('from men'); the Syriac employs the Semitic construct idiom ܡܢ ܒܢܝ ܐܢܫܐ ('from the sons of men'), the characteristic periphrasis for humankind."
     },
     {
-      "greek_nt": [],
+      "greek_nt": [
+        9
+      ],
       "peshitta": [],
       "vulgate": [
         8
       ],
-      "variant": "aligned",
-      "type": "punctuation"
+      "variant": "minor",
+      "type": "punctuation",
+      "note": "The interrogative is marked by the question mark appended to ἀνθρώπων; in Greek and rendered as a separate punctuation token in the Vulgate (?); the Peshitta marks interrogation lexically rather than by punctuation, so no discrete sign is transmitted."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἀποκρίθητέ / ܐܡܪܘ / Respondete."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        11,
         12
       ],
       "vulgate": [
-        9,
         10
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "μοι / ܠܝ / mihi."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.019848+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.527589+00:00",
+    "confidence": 0.82,
     "schema_version": 1
   }
 }

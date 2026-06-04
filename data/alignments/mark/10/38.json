@@ -87,26 +87,46 @@
     {
       "greek_nt": [
         0,
-        1,
         2
       ],
       "peshitta": [
-        0,
-        1,
-        2
+        0
       ],
       "vulgate": [
-        0,
-        1,
-        2
+        0
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article + δέ + proper name (Ὁ δὲ Ἰησοῦς); Peshitta employs pronoun + particle + verb (ܗܘ ܕܝܢ ܐܡܪ, 'He then said'); Vulgate follows Greek word order with proper name first (Jesus autem ait). All three convey the same adversative transition, but Syriac prefers pronominal anaphora."
+      "type": "construction",
+      "note": "The Greek articular subject Ὁ ... Ἰησοῦς explicitly names Jesus; the Peshitta uses only the demonstrative/pronoun ܗܘ ('he'), leaving the referent implicit, while the Vulgate names Jesus without an article. The Syriac thus omits the proper noun present in both Greek and Latin."
     },
     {
       "greek_nt": [
-        3,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned",
+      "note": "δέ / ܕܝܢ / autem"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "εἶπεν / ܐܡܪ / ait"
+    },
+    {
+      "greek_nt": [
         4
       ],
       "peshitta": [
@@ -116,15 +136,27 @@
         3,
         4
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / eis (the Vulgate adds the colon as separate token)"
     },
     {
       "greek_nt": [
-        5,
+        5
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "οὐκ (with οἴδατε) / ܠܐ / Nescitis"
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        4,
         5,
         6
       ],
@@ -132,27 +164,37 @@
         5
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬܘܢ ('you') after the verb ܝܕܥܝܢ, a typical Syriac clarification where Greek οὐκ οἴδατε and Latin Nescitis encode the subject in verbal morphology alone."
+      "type": "grammar",
+      "note": "Greek οἴδατε is a synthetic second-person plural perfect; the Vulgate Nescitis likewise fuses negation and verb. The Peshitta employs the periphrastic ܝܕܥܝܢ ܐܢܬܘܢ (participle + enclitic pronoun), the normal Syriac construction for the present tense, hence two tokens for one verbal idea."
     },
     {
       "greek_nt": [
-        7,
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "τί / ܡܢܐ / quid"
+    },
+    {
+      "greek_nt": [
         8
       ],
       "peshitta": [
-        7,
         8,
         9
       ],
       "vulgate": [
-        6,
         7,
         8
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta again supplies explicit subject pronoun ܐܢܬܘܢ ('you') after ܫܐܠܝܢ ('ask'), mirroring the pattern in the previous clause. Greek τί αἰτεῖσθε and Latin quid petatis rely on verbal inflection for person-number marking."
+      "type": "grammar",
+      "note": "Greek αἰτεῖσθε is a single middle present form; the Peshitta again renders it periphrastically with ܫܐܠܝܢ ܐܢܬܘܢ, while the Vulgate petatis is followed by a punctuating colon counted here. The middle voice of the Greek (asking for oneself) is not morphologically reproduced in either version."
     },
     {
       "greek_nt": [
@@ -166,46 +208,77 @@
         9
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta inserts ܐܢܬܘܢ ('you') as explicit subject after ܡܫܟܚܝܢ ('are able'), continuing the Syriac preference for overt pronominal subjects. Greek δύνασθε and Latin potestis encode the subject morphologically."
+      "type": "grammar",
+      "note": "Greek δύνασθε and Latin potestis are synthetic; the Syriac ܡܫܟܚܝܢ ܐܢܬܘܢ is periphrastic (participle of š-k-ḥ 'to be able/find' + enclitic), a characteristic Aramaic construction for capacity."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek πιεῖν and Latin bibere are bare infinitives; the Syriac ܕܬܫܬܘܢ is a finite subordinate clause ('that you should drink') introduced by ܕ, a standard Aramaic substitution of a complement clause for an objective infinitive."
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
       "peshitta": [
-        12,
         13
       ],
       "vulgate": [
-        10,
         11
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses infinitive πιεῖν + article + noun (τὸ ποτήριον); Peshitta employs a d- subordinate clause ܕܬܫܬܘܢ ('that you drink') + noun ܟܣܐ; Vulgate uses infinitive bibere + noun calicem. Syriac prefers finite subordination where Greek and Latin use infinitival complementation."
+      "variant": "aligned",
+      "note": "τὸ ποτήριον / ܟܣܐ / calicem"
     },
     {
       "greek_nt": [
-        13,
-        14,
+        13
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "ὃ / ܕ- (in ܕܐܢܐ) / quem"
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "ἐγὼ / ܐܢܐ (fused in ܕܐܢܐ) / ego"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
-        14,
         15,
         16
       ],
       "vulgate": [
-        12,
-        13,
         14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs relative pronoun ὃ + pronoun ἐγὼ + verb πίνω; Peshitta uses d- relative ܕܐܢܐ + participle ܫܬܐ + resumptive pronoun ܐܢܐ; Vulgate uses quem + ego + bibo. Syriac's double pronominal structure (ܕܐܢܐ ... ܐܢܐ) is a characteristic Semitic relative-clause construction."
+      "type": "grammar",
+      "note": "Greek πίνω and Latin bibo are finite first-person forms; the Peshitta ܫܬܐ ܐܢܐ is periphrastic participle plus enclitic pronoun, the regular Syriac present, requiring two tokens for the single verbal idea."
     },
     {
       "greek_nt": [
@@ -218,41 +291,63 @@
         15
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἤ ('or') and Latin aut are simple disjunctive conjunctions; Peshitta ܘܡܥܡܘܕܝܬܐ prefixes waw ('and') to 'baptism', yielding 'and the baptism' rather than 'or the baptism'. This may reflect Syriac stylistic preference for coordinating conjunctions in parallel constructions."
+      "type": "construction",
+      "note": "Greek ἢ and Latin aut are simple disjunctives; the Syriac coordinates with the prefixed conjunction ܘ ('and') attached to ܡܥܡܘܕܝܬܐ, presenting the cup and baptism as paired rather than alternative — a subtle shift from disjunction to conjunction."
     },
     {
       "greek_nt": [
         17,
         18
       ],
-      "peshitta": [],
+      "peshitta": [
+        17
+      ],
       "vulgate": [
         16
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek τὸ βάπτισμα ('the baptism') includes the article; Vulgate baptismo is ablative without article (Latin lacks articles); Peshitta ܡܥܡܘܕܝܬܐ ('baptism') is definite by morphology (emphatic state). The article is structurally omitted in Syriac because definiteness is encoded in the noun form itself."
+      "variant": "aligned",
+      "note": "τὸ βάπτισμα / ܡܥܡܘܕܝܬܐ / baptismo"
     },
     {
       "greek_nt": [
-        19,
-        20,
+        19
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "note": "ὃ / ܕ- (in ܕܐܢܐ) / quo"
+    },
+    {
+      "greek_nt": [
+        20
+      ],
+      "peshitta": [
+        18
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "aligned",
+      "note": "ἐγὼ / ܐܢܐ (fused in ܕܐܢܐ) / ego"
+    },
+    {
+      "greek_nt": [
         21
       ],
       "peshitta": [
-        18,
         19,
         20
       ],
       "vulgate": [
-        17,
-        18,
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek relative ὃ + pronoun ἐγὼ + passive verb βαπτίζομαι; Peshitta d- relative ܕܐܢܐ + active verb ܥܡܕ + resumptive ܐܢܐ; Vulgate quo + ego + passive baptizor. Syriac uses active voice where Greek and Latin use passive, a common Semitic idiom for expressing the same theological reality."
+      "type": "grammar",
+      "note": "Greek βαπτίζομαι is a synthetic passive; the Vulgate baptizor matches. The Peshitta uses the periphrastic ܥܡܕ ܐܢܐ (root ʿ-m-d 'to immerse/stand') with enclitic pronoun. Note Syriac employs the same root for both 'baptize' instances without the Greek active/passive lexical distinction."
     },
     {
       "greek_nt": [
@@ -262,16 +357,27 @@
         21
       ],
       "vulgate": [
-        20,
+        20
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek βαπτισθῆναι is a passive aorist infinitive completing δύνασθε; the Vulgate baptizari is likewise a passive infinitive. The Peshitta ܬܥܡܕܘܢ is a finite second-person imperfect ('that you be baptized'), again replacing the Greek infinitive with a finite complement, consistent with Aramaic syntax."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [],
+      "vulgate": [
         21
       ],
-      "variant": "aligned"
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Vulgate marks the entire utterance as interrogative with a closing question mark, matching the interrogative force of the Greek (signalled by clause structure rather than orthography) and the Syriac. This punctuation token has no counterpart in the unpointed Greek or Syriac transmission."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.013023+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.445878+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

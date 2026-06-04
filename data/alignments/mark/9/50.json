@@ -81,132 +81,209 @@
   "alignment": [
     {
       "greek_nt": [
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
         0,
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "All three predicate goodness of salt, but Greek καλὸν is a bare predicate adjective with no copula, while Latin supplies the explicit copula est (Bonum est) and Syriac employs the enclitic pronoun ܗܝ as a copula-like predicator. The constructions are semantically equivalent but differ in their handling of the nominal sentence."
+    },
+    {
+      "greek_nt": [
         1,
         2
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        0,
-        1,
         2
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses predicate adjective construction (καλὸν τὸ ἅλας); Vulgate employs copula est between adjective and noun (Bonum est sal); Peshitta uses feminine copula ܗܝ agreeing with ܡܠܚܐ, reflecting typical Semitic word order with copula between predicate and subject."
+      "type": "grammar",
+      "note": "Greek marks the subject with the article τὸ ἅλας; Syriac places the enclitic ܗܝ before ܡܠܚܐ, functioning as the copula already noted; Latin sal stands articleless per Latin's lack of a definite article. The divergence is purely morphosyntactic."
     },
     {
       "greek_nt": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
+        3
       ],
       "peshitta": [
-        3,
-        4,
+        3
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "type": "word-order",
+      "note": "The adversative particle (Greek δέ, Syriac ܕܝܢ) is postpositive in both languages, whereas Latin renders the conditional connector as quod si with quod preceding si, a Vulgate stylistic expansion of the simple ἐάν δέ."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
+      "peshitta": [
+        5
+      ],
       "vulgate": [
-        4,
-        5,
-        6,
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek employs the rare adjective ἄναλον ('unsalty') with γένηται ('become'); Vulgate uses insulsum ('insipid, tasteless') with fuerit (perfect subjunctive); Peshitta substitutes an entirely different verb ܬܦܟܗ ('it becomes insipid/spoiled'), omitting any explicit adjective and using a denominative verbal form from the root for 'insipid.'"
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the predicate adjective ἄναλον with the verb γένηται ('become unsalty'), and Latin mirrors this with insulsum fuerit; the Peshitta condenses both into the single verb ܬܦܟܗ (from th-p-k, 'to become insipid/lose savour'), expressing the whole notion verbally rather than with adjective plus copula."
     },
     {
       "greek_nt": [
         9,
-        10,
-        11,
-        12
+        10
       ],
       "peshitta": [
-        7,
-        8
+        7
       ],
       "vulgate": [
         9,
-        10,
-        11,
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
         12,
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase ἐν τίνι with direct object αὐτὸ and future ἀρτύσετε; Vulgate mirrors this with in quo illud condietis and adds interrogative punctuation; Peshitta employs a more compact construction ܒܡܢܐ ܬܬܡܠܚ ('with what will it be salted'), using a passive/reflexive form and omitting an explicit object pronoun."
+      "type": "lexical",
+      "note": "Greek ἀρτύσετε ('will you season') and Latin condietis share the culinary sense of seasoning, but the Peshitta uses ܬܬܡܠܚ, an Ethpaal of the root m-l-ḥ ('to be salted'), so that Syriac repeats the salt-root cognately rather than employing a generic seasoning verb. The absence of an explicit object pronoun (Greek αὐτό, Latin illud) in the Syriac is also notable."
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        14
+      ],
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔχετε and Latin Habete both render the imperative 'have/keep', whereas the Peshitta uses ܬܗܘܐ ('let there be', from h-w-a), reframing the command as an existential exhortation ('let salt be in you') rather than a verb of possession."
+    },
+    {
+      "greek_nt": [
         14,
+        15
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
         15,
         16
       ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        16
+      ],
       "peshitta": [
-        9,
-        10,
         11
       ],
       "vulgate": [
-        14,
-        15,
-        16,
         17
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places verb first (ἔχετε ἐν ἑαυτοῖς ἅλα); Vulgate mirrors this order (Habete in vobis sal); Peshitta inverts to jussive ܬܗܘܐ ܒܟܘܢ ܡܠܚܐ ('let there be in you salt'), using a third-person jussive construction rather than second-person imperative, reflecting typical Syriac hortatory syntax."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         17,
+        18
+      ],
+      "peshitta": [
+        12,
+        13
+      ],
+      "vulgate": [
         18,
         19,
         20
       ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ εἰρηνεύετε ('and be at peace', verbal imperative) is matched by Latin et pacem habete, which reconstrues peace as a noun governed by habete ('have peace'). The Peshitta uses the prepositional noun phrase ܘܒܫܝܢܐ ('and in peace/tranquillity') governed by the imperative ܗܘܘ ('be'), yet another distinct construction for the same exhortation."
+    },
+    {
+      "greek_nt": [
+        19,
+        20
+      ],
       "peshitta": [
-        12,
-        13,
         14,
         15,
         16
       ],
       "vulgate": [
-        18,
-        19,
-        20,
         21,
         22
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperative εἰρηνεύετε with prepositional phrase ἐν ἀλλήλοις ('be at peace with one another'); Vulgate employs pacem habete inter vos, using noun + verb construction; Peshitta renders ܘܒܫܝܢܐ ܗܘܘ ܚܕ ܥܡ ܚܕ ('and in peace be one with one'), using the distributive ܚܕ ܥܡ ܚܕ construction typical of Syriac for reciprocal relationships."
-    },
-    {
-      "vulgate": [
-        3
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "Vulgate inserts colon after sal to mark the end of the opening statement, a punctuation convention absent in Greek and Peshitta manuscript traditions."
+      "type": "idiom",
+      "note": "Greek ἐν ἀλλήλοις and Latin inter vos use a single reciprocal expression ('with/among one another'), whereas the Peshitta employs the characteristic Semitic distributive idiom ܚܕ ܥܡ ܚܕ ('one with one'), the standard Syriac way of expressing reciprocity."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:03:35.041573+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.534897+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

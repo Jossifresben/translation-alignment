@@ -77,29 +77,17 @@
   "alignment": [
     {
       "greek_nt": [
-        0
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
+        0,
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
+        0,
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -113,8 +101,7 @@
         3
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after 'eis' to mark the beginning of direct discourse, while Greek uses a raised dot (·) and Peshitta has no explicit punctuation marker at this juncture."
+      "note": "The Greek and Syriac express the indirect object as a single dative/preposition + suffix form (αὐτοῖς / ܠܗܘܢ), whereas the Vulgate separates the pronoun eis from a following colon; the punctuation token here is a versional editorial mark rather than a semantic difference."
     },
     {
       "greek_nt": [],
@@ -123,8 +110,7 @@
       ],
       "vulgate": [],
       "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the speaker, an expansion absent from both the Greek and Latin traditions. This represents a typical Syriac tendency to clarify implicit subjects in narrative discourse."
+      "note": "The Peshitta supplies the explicit subject ܝܫܘܥ ('Jesus'), which is absent from both the Greek and the Latin, where the third-person verb leaves the subject implicit. This is a typical Syriac clarifying expansion to disambiguate the speaker."
     },
     {
       "greek_nt": [
@@ -136,8 +122,21 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        7
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "minor",
+      "note": "Greek δέδοται is a single perfect passive verb, the Syriac ܝܗܝܒ a passive participle, while the Latin renders it periphrastically with datum est; all three convey the completed passive 'has been given,' differing only in morphological construction."
     },
     {
       "greek_nt": [
@@ -149,8 +148,7 @@
       "vulgate": [
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -163,24 +161,7 @@
       "vulgate": [
         8
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek employs the definite article τὸ with μυστήριον (singular); Peshitta uses the emphatic state ܐܪܙܐ without article; Vulgate has no article. All three convey definiteness through different morphological strategies."
-    },
-    {
-      "greek_nt": [
-        7
-      ],
-      "peshitta": [
-        4
-      ],
-      "vulgate": [
-        5,
-        6
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the perfect passive δέδοται after the infinitive γνῶναι; Peshitta fronts the passive participle ܝܗܝܒ before the infinitive ܠܡܕܥ; Vulgate uses 'datum est' after 'nosse'. The word order reflects each language's preferred syntax for passive constructions with infinitival complements."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -198,40 +179,59 @@
         10
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a double-articulated genitive construction (τῆς βασιλείας τοῦ θεοῦ) with two articles; Peshitta employs a construct chain with pronominal suffix ܕܡܠܟܘܬܗ ܕܐܠܗܐ ('of his kingdom of God'); Vulgate mirrors Greek structure without articles (regni Dei). The Peshitta's possessive suffix creates a slightly different syntactic relationship."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        11
-      ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a second colon after 'Dei' to mark the transition to the contrasting clause about outsiders, a punctuation choice absent from Greek and Peshitta manuscripts."
+      "note": "Greek and Latin express 'kingdom of God' with an articular/anarthrous genitive noun phrase (τῆς βασιλείας τοῦ θεοῦ / regni Dei), whereas the Syriac compresses this into ܕܡܠܟܘܬܗ ('of his kingdom') with a pronominal suffix anticipating ܕܐܠܗܐ, a characteristic Syriac proleptic-suffix construction that is semantically equivalent."
     },
     {
       "greek_nt": [
-        12,
-        13,
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         14,
         15
       ],
       "peshitta": [
-        9,
-        10
+        9
       ],
       "vulgate": [
-        12,
-        13,
         14,
         15,
         16
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses the demonstrative ἐκείνοις with adversative δὲ and article τοῖς plus adverb ἔξω ('to those outside'); Peshitta employs the simple prepositional phrase ܠܒܪܝܐ ܕܝܢ ('but to outsiders'); Vulgate expands with a relative clause 'illis autem qui foris sunt' ('to those who are outside'). The Vulgate's relative construction makes the outsider status more explicit than the Greek adverbial phrase or Syriac prepositional construction."
+      "variant": "minor",
+      "note": "Greek τοῖς ἔξω ('those outside') uses an articular adverb; the Latin expands this into a full relative clause qui foris sunt; the Syriac renders it with the substantive ܠܒܪܝܐ ('to the outsiders'), already counted with ἐκείνοις above, so the 'outside' notion is lexicalised rather than expressed adverbially."
     },
     {
       "greek_nt": [
@@ -245,8 +245,7 @@
         17,
         18
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -261,8 +260,7 @@
         19
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the articular neuter plural τὰ πάντα ('all things'); Peshitta employs the distributive construction ܟܠ ܡܕܡ (literally 'every thing'); Vulgate has simple 'omnia'. The Peshitta's distributive idiom emphasizes individuation while Greek and Latin use collective expressions."
+      "note": "Greek τὰ πάντα ('the all things') and Latin omnia use a substantivised neuter plural, whereas the Syriac employs the idiomatic ܟܠ ܡܕܡ ('everything,' lit. 'all thing') with a singular indefinite noun, a standard Syriac periphrasis for totality."
     },
     {
       "greek_nt": [
@@ -274,8 +272,7 @@
       "vulgate": [
         20
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [],
@@ -283,15 +280,14 @@
       "vulgate": [
         21
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate concludes the verse with a final colon, marking the end of this discourse unit before the Isaiah quotation that follows in verse 12."
+      "variant": "minor",
+      "note": "The Vulgate closes the verse with a colon as an editorial punctuation marker anticipating the following clause; neither the Greek nor the Syriac transmits a corresponding lexical or punctuation token at this position."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.964604+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.434311+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

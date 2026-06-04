@@ -87,81 +87,140 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1
+        0
       ],
       "peshitta": [
         0,
         1
       ],
       "vulgate": [
-        0,
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek expresses the negation with a single negative pronoun οὐδέν ('nothing'), whereas the Peshitta splits the idea into a negative existential particle ܠܝܬ ('there is not') plus the indefinite noun ܡܕܡ ('a thing'), a standard Syriac construction for 'nothing'; the Vulgate Nihil mirrors the Greek single-word form."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
         1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the neuter singular οὐδέν ἐστιν ('nothing is'); Peshitta employs the negative existential ܠܝܬ ܡܕܡ ('there is not anything'), a standard Syriac idiom; Vulgate mirrors Greek with Nihil est. All three convey identical semantics through language-specific negation strategies."
+      "note": "The copula ἐστιν / est is overtly expressed in Greek and Latin; Syriac folds existence into the particle ܠܝܬ already counted above and supplies no separate verb 'to be' here."
     },
     {
       "greek_nt": [
-        2,
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "note": "ἔξωθεν / ܕܠܒܪ / extra"
+    },
+    {
+      "greek_nt": [
         3,
         4
       ],
       "peshitta": [
-        2,
         3,
         4
       ],
       "vulgate": [
-        2,
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek ἔξωθεν τοῦ ἀνθρώπου ('outside of the man') uses article + genitive; Peshitta ܕܠܒܪ ܡܢ ܒܪܢܫܐ ('that [is] outside from man') employs the preposition ܡܢ with ܕ-relative; Vulgate extra hominem omits the article. Word order and article usage differ, but the prepositional phrase structure is semantically equivalent."
+      "variant": "aligned",
+      "note": "τοῦ ἀνθρώπου / ܡܢ ܒܪܢܫܐ / hominem"
     },
     {
       "greek_nt": [
-        5,
-        6,
-        7
+        5
       ],
       "peshitta": [
-        5,
-        6,
-        7
-      ],
-      "vulgate": [
-        4,
         5,
         6
       ],
+      "vulgate": [
+        4
+      ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the present participle εἰσπορευόμενον εἰς αὐτόν ('entering into him'); Peshitta employs a relative clause with active participle ܗܘ ܘܥܐܠ ܠܗ ('it and entering to him'), adding the pronoun ܗܘ for emphasis; Vulgate uses the present participle introiens in eum. The Peshitta's addition of the independent pronoun is a typical Semitic construction for emphasis or clarity."
+      "note": "Greek and Latin use a single neuter participle (εἰσπορευόμενον / introiens, 'entering'); the Peshitta renders with the resumptive pronoun ܗܘ plus a finite verb ܘܥܐܠ ('and enters'), turning the attributive participle into a coordinated clause typical of Syriac syntax."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10,
+        6,
+        7
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        5,
+        6
+      ],
+      "variant": "aligned",
+      "note": "εἰς αὐτὸν / ܠܗ / in eum"
+    },
+    {
+      "greek_nt": [
+        8
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "ὃ / ܕ- (in ܕܡܫܟܚ) / quod"
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "δύναται / ܡܫܟܚ / possit"
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "note": "κοινῶσαι / ܡܣܝܒ / coinquinare"
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        8,
-        9,
         10
       ],
       "vulgate": [
-        7,
-        8,
-        9,
-        10
+        9
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek ὃ δύναται κοινῶσαι αὐτόν ('which is able to defile him') uses a relative pronoun with infinitive construction; Peshitta ܕܡܫܟܚ ܡܣܝܒ ܠܗ ('that is able to defile him') employs a ܕ-relative with active participle; Vulgate quod possit eum coinquinare uses subjunctive mood in the relative clause. All three express potential action, but through different grammatical strategies (infinitive vs. participle vs. subjunctive)."
+      "variant": "aligned",
+      "note": "αὐτόν / ܠܗ / eum"
     },
     {
       "greek_nt": [
@@ -173,77 +232,119 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned"
+      "variant": "aligned",
+      "note": "ἀλλὰ / ܐܠܐ / sed"
     },
     {
       "greek_nt": [
-        13,
+        13
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the neuter plural substantival article τὰ ('the things'); the Peshitta employs the singular indefinite ܡܕܡ ('a thing'), a collective singular for 'whatever,' while the Latin quæ matches the Greek plural. The number disagreement is idiomatic rather than substantive."
+    },
+    {
+      "greek_nt": [
         14,
         15,
         16,
-        17,
-        18,
-        19
+        17
       ],
       "peshitta": [
-        12,
-        13,
-        14
+        13
       ],
       "vulgate": [
-        12,
         13,
         14,
         15
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek τὰ ἐκ τοῦ ἀνθρώπου ἐκπορευόμενά ἀπ᾽ αὐτοῦ ('the things proceeding out of the man from him') uses double prepositional phrases (ἐκ + ἀπό) with article and participle; Peshitta ܡܕܡ ܕܢܦܩ ܡܢܗ ('anything that goes out from him') employs a simpler relative construction with single preposition; Vulgate quæ de homine procedunt ('which from man proceed') uses a single prepositional phrase. The Greek construction is more elaborate, possibly for rhetorical emphasis."
+      "note": "Greek piles up an articular prepositional phrase with participle (τὰ ἐκ τοῦ ἀνθρώπου ἐκπορευόμενά, 'the things proceeding out of the man'); Latin parallels this with quæ de homine procedunt; the Peshitta compresses the whole to a single relative clause ܕܢܦܩ ('which goes out'), deferring the explicit 'from him' to the next token."
     },
     {
       "greek_nt": [
-        20,
-        21
+        18,
+        19
+      ],
+      "peshitta": [
+        14
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek redundantly repeats the source with ἀπ᾽ αὐτοῦ ('from him') after the verb of proceeding; the Peshitta condenses this into the single suffixed form ܡܢܗ ('from it/him'), while the Vulgate omits any resumptive 'from him' altogether, regarding de homine as sufficient."
+    },
+    {
+      "greek_nt": [
+        20
       ],
       "peshitta": [
         15,
         16
       ],
       "vulgate": [
-        16,
-        17
+        16
       ],
       "variant": "minor",
       "type": "grammar",
-      "note": "Greek ἐκεῖνά ἐστιν ('those are') uses the demonstrative pronoun ἐκεῖνα in emphatic position; Peshitta ܗܘ ܗܘ ('it is it') employs a doubled pronoun construction for emphasis, a characteristic Syriac idiom; Vulgate illa sunt uses the demonstrative illa. The Peshitta's pronoun doubling intensifies the demonstrative force beyond the Greek and Latin."
+      "note": "Greek demonstrative ἐκεῖνά ('those') and Latin illa are single words; the Peshitta uses the doubled pronoun ܗܘ ܗܘ, a Syriac emphatic/resumptive construction marking the predicate, which functions demonstratively here."
+    },
+    {
+      "greek_nt": [
+        21
+      ],
+      "peshitta": [],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The copula ἐστιν / sunt is overt in Greek and Latin; Syriac supplies no separate verb, the predication being carried by the doubled pronoun ܗܘ ܗܘ already counted, a regular nominal-sentence pattern in Syriac."
     },
     {
       "greek_nt": [
         22,
-        23,
-        24,
-        25,
-        26
+        23
       ],
       "peshitta": [
-        17,
+        17
+      ],
+      "vulgate": [
+        18,
+        19
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses articular participle τὰ κοινοῦντα ('the things that defile') and Latin a relative clause quæ communicant; the Peshitta renders with the bare participle ܡܣܝܒ ('defiling'), lacking the explicit relative-article head present in the other two traditions."
+    },
+    {
+      "greek_nt": [
+        24,
+        25
+      ],
+      "peshitta": [
         18,
         19
       ],
       "vulgate": [
-        18,
-        19,
         20
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek τὰ κοινοῦντα τὸν ἄνθρωπον ('the things defiling the man') uses article + present participle + article + accusative object; Peshitta ܡܣܝܒ ܠܒܪ ܐܢܫܐ ('defiling to the son of man') uses active participle with ܠܒܪ ܐܢܫܐ (idiomatic for 'man'); Vulgate quæ communicant hominem ('which defile man') uses relative pronoun + finite verb. The Peshitta's ܠܒܪ ܐܢܫܐ is a Semitic idiom equivalent to Greek ἄνθρωπος."
+      "type": "lexical",
+      "note": "All three name the object 'the man,' but the Peshitta uses the two-word emphatic-state collocation ܠܒܪ ܐܢܫܐ (literally 'son of man'/'the human being'), the standard Syriac idiom for 'a person,' whereas Greek τὸν ἄνθρωπον and Latin hominem use a single noun. The trailing pilcrow (¶) in the Greek marks paragraph closure and carries no semantic weight."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.989809+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.549442+00:00",
+    "confidence": 0.84,
     "schema_version": 1
   }
 }

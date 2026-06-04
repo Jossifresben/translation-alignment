@@ -60,22 +60,18 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         1
       ],
-      "peshitta": [
-        1
-      ],
+      "peshitta": [],
       "vulgate": [
         1
       ],
-      "variant": "added",
-      "type": "expansion",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the participle 'having called,' whereas both Greek and Latin leave the subject implicit through participial construction. This represents a typical Syriac tendency toward explicit subject identification for clarity."
+      "variant": "aligned",
+      "note": "Greek aorist participle προσκαλεσάμενος and Latin present participle advocans render the act of summoning; the Syriac uses a finite verb ܘܩܪܐ instead (see following group)."
     },
     {
       "greek_nt": [
@@ -85,9 +81,21 @@
       "vulgate": [
         2
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "The Peshitta omits the adverb πάλιν / iterum ('again'), which in Greek and Latin signals that Jesus had previously addressed the crowd. This omission may reflect a streamlining of the narrative or a different understanding of the discourse structure."
+      "variant": "minor",
+      "note": "The Greek πάλιν ('again') and Latin iterum both signal a resumptive summons; the Peshitta omits any equivalent adverb, dropping the connection to the prior crowd-gathering scene."
+    },
+    {
+      "greek_nt": [
+        1
+      ],
+      "peshitta": [
+        0,
+        1
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Where Greek and Latin use a circumstantial participle ('having summoned'), the Peshitta employs a coordinated finite verb ܘܩܪܐ ('and he called') and explicitly supplies the subject ܝܫܘܥ ('Jesus'), an exegetical clarification absent from the Greek and Latin which leave the subject implicit."
     },
     {
       "greek_nt": [
@@ -95,15 +103,26 @@
         4
       ],
       "peshitta": [
-        2,
-        3
+        2
       ],
       "vulgate": [
         3
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "The Peshitta places the quantifier ܟܠܗ ('all of it,' modifying 'the crowd') after the noun ܠܟܢܫܐ, creating the phrase 'to the crowd, all of it,' whereas Greek uses the simple article + noun construction τὸν ὄχλον. This represents a Syriac emphatic construction semantically equivalent to the Greek but syntactically distinct."
+      "type": "lexical",
+      "note": "Greek ὄχλον and Latin turbam denote a 'crowd'; the Syriac ܟܢܫܐ derives from the root k-n-sh ('to gather'), so the term connotes the assembled multitude — a near-synonymous but etymologically distinct choice."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "construction",
+      "note": "The Peshitta attaches ܟܠܗ ('all of it') to the crowd noun, treating πάντες as a modifier of ὄχλον rather than of the audience-vocative; Greek and Latin place 'all' (πάντες / omnes) later, qualifying the addressees of the imperative."
     },
     {
       "greek_nt": [
@@ -115,8 +134,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek imperfect ἔλεγεν and Latin imperfect dicebat express durative or inceptive speaking; the Syriac perfect ܘܐܡܪ ('and he said') is aoristic, a routine Syriac levelling of the Greek imperfect aspect."
     },
     {
       "greek_nt": [
@@ -129,9 +149,7 @@
         5,
         6
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after illis to mark the transition to direct discourse, a punctuation convention absent in the Greek manuscript tradition and unnecessary in Syriac, which uses context to signal speech boundaries."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -145,9 +163,8 @@
         7,
         8
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "The Peshitta employs an enclitic first-person object suffix on the imperative ܫܘܡܥܘܢܝ ('hear-me'), creating a single-word construction, whereas Greek and Latin use separate words for the verb and pronoun (ἀκούσατέ μου / Audite me). This is a standard morphological difference between Semitic and Indo-European languages."
+      "variant": "aligned",
+      "note": "The Syriac contracts the imperative plus pronoun into a single inflected form ܫܘܡܥܘܢܝ ('hear-me-you[pl]'), corresponding to the Greek ἀκούσατέ μου and Latin Audite me."
     },
     {
       "greek_nt": [
@@ -159,22 +176,20 @@
       "vulgate": [
         9
       ],
+      "variant": "aligned",
+      "note": "Greek πάντες, Syriac ܟܠܟܘܢ, and Latin omnes all render the vocative 'all (of you)' addressed to the hearers."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [],
+      "vulgate": [
+        10
+      ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places πάντες ('all') after the verb and pronoun, while Syriac ܟܠܟܘܢ ('all of you') and Latin omnes follow their respective verbs but precede the conjunction. The Syriac form uses a pronominal suffix construction ('all-of-you') typical of Semitic languages."
-    },
-    {
-      "greek_nt": [
-        10
-      ],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [
-        10
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "type": "omission",
+      "note": "Greek καί and Latin et coordinate the two imperatives; the Syriac prefixes the conjunction directly to the verb ܘܐܣܬܟܠܘ, so no independent conjunction token appears."
     },
     {
       "greek_nt": [
@@ -187,13 +202,13 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek σύνετε, Syriac ܘܐܣܬܟܠܘ, and Latin intelligite all render the imperative 'understand', with the Syriac fusing the coordinating conjunction into the verbal form."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.989614+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.516987+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

@@ -56,8 +56,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -69,29 +68,37 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement",
-      "note": "ἔρχονται / ܐܬܘ / venerunt"
+      "variant": "minor",
+      "note": "The Greek ἔρχονται ('they come') is a single present-tense verb shared with the Peshitta perfect ܘܐܬܘ; the Vulgate venerunt likewise renders the motion verb. The Syriac fuses the conjunction and verb into one token (ܘܐܬܘ), so its index aligns with both the Greek καί-verb pair."
     },
     {
       "greek_nt": [
-        2,
         3,
         4
       ],
       "peshitta": [
-        1,
+        1
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "note": "The prepositional phrase πρὸς αὐτόν ('to him') is expressed in Latin by ad eum and in Syriac by the single inflected form ܠܘܬܗ ('to him'), which incorporates the pronominal suffix; the Syriac also relocates this phrase before the verb of bringing, reflecting a word-order divergence."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
         2,
         3
       ],
       "vulgate": [
-        2,
-        3,
         4
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a single participle φέροντες with prepositional phrase πρὸς αὐτόν; Peshitta employs two finite verbs ܐܬܘ ܠܘܬܗ ܘܐܝܬܝܘ ܠܗ ('they came to him and brought to him'), expanding the construction for clarity. Vulgate mirrors Greek syntax with ferentes ad eum, maintaining the participial structure."
+      "note": "The Greek participle φέροντες ('bringing') is rendered in the Peshitta as a finite coordinated verb ܘܐܝܬܝܘ ('and they brought') plus the resumptive object pronoun ܠܗ ('to/for him'), a construction shift from participial to paratactic finite clause; the Vulgate ferentes preserves the Greek participial syntax."
     },
     {
       "greek_nt": [
@@ -104,37 +111,45 @@
         5
       ],
       "variant": "aligned",
-      "type": "agreement",
-      "note": "παραλυτικόν / ܡܫܪܝܐ / paralyticum"
+      "note": "παραλυτικόν / ܡܫܪܝܐ / paralyticum."
     },
     {
       "greek_nt": [
-        6,
-        7,
-        8
+        6
       ],
       "peshitta": [
         5,
         6,
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "minor",
+      "note": "The Greek passive participle αἰρόμενον ('being carried') is reproduced by the Latin imperfect passive portabatur, while the Syriac employs the subordinating particle ܟܕ ('while') with the active participle ܫܩܝܠܝܢ ('they were carrying') and a resumptive object pronoun ܠܗ — a circumstantial-clause construction rather than a single passive participle."
+    },
+    {
+      "greek_nt": [
         7,
+        8
+      ],
+      "peshitta": [
         8,
         9
       ],
       "vulgate": [
         6,
         7,
-        8,
-        9
+        8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the passive participle αἰρόμενον before the agent phrase ὑπὸ τεσσάρων; Vulgate inverts this with relative clause qui a quatuor portabatur, placing the agent before the verb. Peshitta uses temporal particle ܟܕ with active participle ܫܩܝܠܝܢ ܠܗ ܒܝܬ ܐܪܒܥܐ ('while they were carrying him, [the] four'), treating the four as subject rather than agent, a characteristic Syriac construction."
+      "note": "The agent phrase ὑπὸ τεσσάρων ('by four') is rendered in the Vulgate with a relative clause (qui a quatuor) governing the verb portabatur, whereas the Syriac uses the idiomatic distributive expression ܒܝܬ ܐܪܒܥܐ ('by means of/among four'); all three convey the same numeral and agency but through differing prepositional and syntactic means."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.951345+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.447764+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }

@@ -81,8 +81,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -94,8 +93,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek and Latin both use a participle (ἀναστάς / exsurgens, 'having stood up'); the Peshitta renders this with a finite verb conjoined by waw (ܘܩܡ, 'and he rose'), reflecting the standard Syriac paratactic preference for coordinated finite clauses over Greek participial circumstantials. The Syriac verb ܩܡ is grouped with the conjunction already counted in the first group."
     },
     {
       "greek_nt": [
@@ -110,9 +109,8 @@
         2,
         3
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses article + noun (ὁ ἀρχιερεύς); Peshitta employs construct state (ܪܒ ܟܗܢܐ, 'chief of priests'); Vulgate uses adjective + noun (summus sacerdos). All three express 'high priest' with equivalent semantics but distinct syntactic structures."
+      "variant": "aligned",
+      "note": "ἀρχιερεύς / ܪܒ ܟܗܢܐ / summus sacerdos — the Syriac analytically renders the compound 'high priest' as construct 'chief of priests.'"
     },
     {
       "greek_nt": [
@@ -127,8 +125,8 @@
         4,
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek εἰς τὸ μέσον and Latin in medium employ preposition plus articular substantive, while the Peshitta condenses to a single prepositional noun ܒܡܨܥܬܐ ('in the midst'), the article and adjectival head being absorbed into the inflected Syriac form."
     },
     {
       "greek_nt": [
@@ -141,7 +139,7 @@
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἐπηρώτησεν / ܘܫܐܠܗ / interrogavit — the Syriac includes an enclitic 3ms object suffix ('asked him')."
     },
     {
       "greek_nt": [
@@ -155,7 +153,7 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "τὸν Ἰησοῦν / ܠܝܫܘܥ / Jesum — the Syriac marks the definite direct object with prefixed ܠ."
     },
     {
       "greek_nt": [
@@ -168,30 +166,47 @@
         8,
         9
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses participial form λέγων with punctuation mark (·); Peshitta employs finite verb ܘܐܡܪ ('and he said'); Vulgate uses present participle dicens followed by colon. The Vulgate's colon creates stronger discourse segmentation than the Greek raised dot."
+      "variant": "aligned",
+      "note": "λέγων / ܘܐܡܪ / dicens — the Latin appends the editorial colon (idx 9) introducing direct speech."
     },
     {
       "greek_nt": [
-        11,
-        12,
+        11
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        8,
+        9
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "minor",
+      "note": "The Greek synthetic middle ἀποκρίνῃ ('you answer') and the Latin respondes are both single finite forms; the Syriac expresses the present with the participle ܡܦܢܐ plus the explicit independent pronoun ܐܢܬ ('you'), a standard periphrastic construction that supplies the subject pronoun for emphasis or clarity."
+    },
+    {
+      "greek_nt": [
         13
       ],
       "peshitta": [
-        7,
-        8,
-        9,
         10
       ],
       "vulgate": [
-        10,
-        11,
         12
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds explicit subject pronoun ܐܢܬ ('you') and object noun ܦܬܓܡܐ ('word/matter'), making implicit Greek elements explicit. Greek οὐκ ἀποκρίνῃ οὐδέν uses double negative with neuter accusative; Vulgate Non respondes quidquam mirrors Greek structure; Syriac expands for clarity."
+      "note": "Greek οὐδέν ('nothing') is an indefinite pronoun; Latin quidquam matches this idiomatically. The Peshitta substitutes the concrete noun ܦܬܓܡܐ ('a word/matter'), so that the clause reads 'you do not return a word,' a slight lexical concretisation of the Greek indefinite."
     },
     {
       "greek_nt": [
@@ -213,18 +228,24 @@
         16,
         17,
         18,
-        19,
+        19
+      ],
+      "variant": "minor",
+      "note": "The Greek clause τί οὗτοί σου καταμαρτυροῦσιν ('what do these testify against you?') is an active interrogative with the verb καταμαρτυρέω. The Vulgate restructures it into a passive periphrasis with a relative clause and agentive phrase (ad ea quæ tibi objiciuntur ab his, 'concerning the things which are charged against you by these'), while the Syriac (ܡܢܐ ܡܣܗܕܝܢ ܥܠܝܟ ܗܠܝܢ) preserves the active interrogative 'what do these witness against you,' using the verbal root ܣܗܕ ('to testify'). The three traditions agree in sense but differ markedly in syntactic voice and construction."
+    },
+    {
+      "vulgate": [
         20
       ],
-      "variant": "major",
-      "type": "construction",
-      "note": "Greek uses interrogative τί with demonstrative οὗτοί and genitive σου with compound verb καταμαρτυροῦσιν ('what do these testify against you?'). Vulgate expands with prepositional phrase ad ea quae tibi objiciuntur ab his ('to those things which are cast against you by these'), transforming the direct construction into a relative clause with passive voice. Peshitta uses ܡܢܐ ('what') with ܡܣܗܕܝܢ ܥܠܝܟ ܗܠܝܢ ('these testify against you'), maintaining Greek word order but with Syriac prepositional syntax."
+      "variant": "added",
+      "type": "punctuation",
+      "note": "The Clementine Vulgate closes the question with an explicit interrogation mark, an editorial feature absent from the unpunctuated Greek and Syriac source traditions whose interrogative force is carried lexically by τί and ܡܢܐ respectively."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.044241+00:00",
-    "confidence": 0.85,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.553209+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

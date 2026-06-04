@@ -58,87 +58,177 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
-        1,
-        2
+        0
       ],
       "peshitta": [
-        0,
-        1
+        0
       ],
       "vulgate": [
-        0,
-        1,
-        2
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses finite verb σταυροῦσιν (present indicative) with conjunction καί; Vulgate employs participial construction crucifigentes with conjunction Et; Peshitta uses temporal clause ܘܟܕ ܙܩܦܘܗܝ ('and when they crucified him'), shifting the syntax to a subordinate temporal frame while preserving the semantic content."
+      "note": "Greek opens with simple coordinating καί followed by a finite present indicative; both Peshitta (ܘܟܕ, 'and when') and Vulgate (Et + present participle crucifigentes) subordinate the crucifixion temporally/circumstantially. The Greek paratactic καί is rendered as a temporal/participial frame in both versions."
     },
     {
       "greek_nt": [
-        3,
-        4,
+        1
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek σταυροῦσιν is a vivid historic present indicative ('they crucify'); the Peshitta ܙܩܦܘܗܝ is a perfect with attached object suffix ('they crucified him'), and the Vulgate uses a present participle crucifigentes ('crucifying'). The tense/aspect handling differs across all three witnesses."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "The accusative object αὐτὸν is expressed independently in Greek and Latin (eum) but is incorporated as a pronominal suffix on the verb in Syriac (-ܘܗܝ of ܙܩܦܘܗܝ), a normal Semitic synthetic construction; hence the Peshitta index recurs here."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "vulgate": [],
+      "variant": "omitted",
+      "type": "omission",
+      "note": "Greek has a second connective καί joining the two clauses ('and they divide'); neither the Peshitta nor the Vulgate render a coordinating conjunction at this point, the Peshitta moving directly to the asyndetic verb ܦܠܓܘ and the Vulgate to diviserunt."
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek διαμερίζονται is middle voice ('they divide among themselves'), conveying reflexive benefit; the Peshitta ܦܠܓܘ and Vulgate diviserunt are simple active/perfect forms lacking the reflexive middle nuance of the Greek."
+    },
+    {
+      "greek_nt": [
         5,
         6,
         7
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek τὰ ἱμάτια αὐτοῦ (article + noun + genitive pronoun) and Latin vestimenta ejus both use explicit possessive constructions; the Peshitta ܡܐܢܘܗܝ synthesises noun plus possessive suffix into a single word, and ܡܐܢܐ ('garments/vessels') is a broader lexeme than the specifically outer-garment ἱμάτιον."
     },
     {
       "greek_nt": [
-        8,
-        9,
+        8
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek βάλλοντες and Latin mittentes are present participles ('casting'), subordinate to the main verb; the Peshitta ܘܐܪܡܝܘ is a coordinated finite perfect with prefixed waw ('and they cast'), turning the participial phrase into a paratactic clause."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        4,
-        5,
-        6
+        5
       ],
       "vulgate": [
-        6,
-        7,
         8,
         9
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs participial phrase βάλλοντες κλῆρον ἐπ᾽ αὐτά ('casting lots upon them') with preposition ἐπί governing the pronoun; Vulgate mirrors this with mittentes sortem super eis; Peshitta inverts the prepositional phrase to precede the direct object (ܘܐܪܡܝܘ ܥܠܝܗܘܢ ܦܣܐ, 'and they cast upon them lots'), a typical Semitic word-order preference placing the locative before the object."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐπ᾽ αὐτά / ܥܠܝܗܘܢ / super eis — 'upon them', the prepositional phrase governing the casting of lots; functionally equivalent in all three, with Syriac again fusing preposition and pronoun."
     },
     {
       "greek_nt": [
-        12,
-        13,
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "κλῆρον / ܦܣܐ / sortem — 'lot(s)'; the object of the casting, equivalent across the three traditions."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τίς / ܡܢܘ / quis — interrogative 'who'."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τί / ܡܢܐ / quid — interrogative 'what'."
+    },
+    {
+      "greek_nt": [
         14
       ],
       "peshitta": [
-        7,
-        8,
         9
       ],
       "vulgate": [
-        10,
-        11,
         12
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ἄρῃ is an aorist subjunctive within the indirect deliberative question ('what each should take'); the Peshitta ܢܣܒ is an imperfect (modal future) and the Vulgate tolleret a past subjunctive, each idiomatically rendering the deliberative force of the Greek subjunctive."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.049956+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.473914+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

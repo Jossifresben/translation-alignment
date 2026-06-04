@@ -77,23 +77,32 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "note": "Greek ἀπέστειλεν and Latin misit are discrete finite verbs, whereas the Peshitta fuses verb and pronominal object into the single inflected form ܘܫܕܪܗ ('and-he-sent-him'), a typical Syriac synthetic construction encoding the 3ms object suffix."
+    },
+    {
+      "greek_nt": [
         2
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -111,8 +120,7 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase εἰς τὸν οἶκον αὐτοῦ with article and possessive pronoun; Peshitta employs bound construct ܠܒܝܬܗ (l-bayteh, 'to-his-house') with pronominal suffix; Vulgate in domum suam mirrors Greek structure with possessive adjective — all semantically equivalent but syntactically distinct."
+      "note": "Greek εἰς τὸν οἶκον αὐτοῦ and Latin in domum suam render the destination with preposition, article/noun, and possessive; the Peshitta again synthesises the whole phrase into ܠܒܝܬܗ ('to-his-house'), with the lamadh preposition and pronominal suffix bound to the noun."
     },
     {
       "greek_nt": [
@@ -126,8 +134,7 @@
         7
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek λέγων is a present participle ('saying'); Peshitta ܘܐܡܪ is a finite perfect verb ('and he said'); Vulgate dicens matches Greek with gerund but adds colon punctuation to introduce direct speech, creating a stronger discourse break than the Greek participle implies."
+      "note": "Greek uses the present participle λέγων ('saying'), matched by the Latin participle dicens, while the Peshitta employs a coordinated finite verb ܘܐܡܪ ('and he said'), a paratactic rendering idiomatic to Syriac narrative. The Vulgate's colon (idx 7) marks the onset of direct speech."
     },
     {
       "greek_nt": [],
@@ -140,62 +147,108 @@
         12
       ],
       "variant": "added",
-      "type": "expansion",
-      "note": "Vulgate inserts the imperative clause 'Vade in domum tuam' ('Go into your house') with colon punctuation, making explicit the command to return home that is implicit in the Greek and Peshitta sending-to-home construction. This expansion clarifies the directive before the prohibitions follow."
+      "note": "The Vulgate inserts an entire command absent from the Greek and Syriac witnesses: Vade in domum tuam ('Go into your house'), followed by a colon. This expansion, attested in part of the Latin tradition, doubles the dismissal motif and has no counterpart in NA28 or the Peshitta here."
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10,
-        11,
-        12
+        8
       ],
       "peshitta": [
         3,
-        4,
-        5,
-        6
+        4
       ],
       "vulgate": [
         13,
-        14,
-        15,
-        16,
-        17
+        14
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses μηδὲ εἰς τὴν κώμην εἰσέλθῃς (negative particle + prepositional phrase + subjunctive); Peshitta employs ܐܦ ܠܐ ܠܩܪܝܬܐ ܬܥܘܠ (emphatic particle 'even' + negative + prepositional phrase + imperfect); Vulgate renders with conditional si in vicum introieris ('if you enter the village'), transforming the prohibition into a conditional protasis governing the following apodosis."
+      "note": "Greek negates with the single compound adverb μηδέ ('not even'); the Peshitta expresses the same emphatic negation analytically with ܐܦ ܠܐ ('also not'), and the Vulgate reconfigures the clause with et si ('and if'), shifting from a flat prohibition to a conditional construction."
     },
     {
       "greek_nt": [
-        13,
-        14,
+        9,
+        10,
+        11
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
         15,
+        16
+      ],
+      "variant": "minor",
+      "note": "Greek εἰς τὴν κώμην and Latin in vicum render 'into the village' with preposition plus article/noun; the Peshitta uses the determined form ܠܩܪܝܬܐ with prefixed lamadh, the article being inherent in the emphatic state."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "minor",
+      "note": "Greek aorist subjunctive εἰσέλθῃς functions prohibitively, matched by the Peshitta jussive imperfect ܬܥܘܠ; the Latin perfect subjunctive introieris ('if you shall have entered') reflects the conditional reframing introduced by si rather than a prohibition."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "minor",
+      "note": "Greek μηδέ ('nor') continues the double prohibition; the Peshitta renders this with ܘܠܐ ('and not'). The Latin lacks a discrete coordinating negative here, the et having been displaced into the conditional structure."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        19
+      ],
+      "variant": "minor",
+      "note": "Greek aorist subjunctive εἴπῃς ('lest you tell') and Peshitta ܬܐܡܪ are jussive prohibitions, while the Latin perfect subjunctive dixeris coheres with the conditional/result framing established by si...introieris."
+    },
+    {
+      "greek_nt": [
+        15
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        18
+      ],
+      "variant": "minor",
+      "note": "Greek indefinite τινί ('to anyone') with dative is rendered by the Peshitta ܠܐܢܫ ('to a man/anyone'), using the noun for 'person' as an indefinite; the Latin contracts the negative and indirect object into the single dative nemini ('to no one')."
+    },
+    {
+      "greek_nt": [
         16,
         17,
         18
       ],
       "peshitta": [
-        7,
-        8,
-        9,
         10
       ],
-      "vulgate": [
-        18,
-        19
-      ],
-      "note": "Greek μηδὲ εἴπῃς τινὶ ἐν τῇ κώμῃ uses coordinated negative subjunctive with dative indirect object and locative prepositional phrase; Peshitta ܘܠܐ ܬܐܡܪ ܠܐܢܫ ܒܩܪܝܬܐ mirrors this structure with coordinated negative + imperfect; Vulgate nemini dixeris compresses into apodosis of the conditional ('tell no one'), omitting explicit village location as contextually understood from the protasis.",
       "variant": "minor",
-      "type": "construction"
+      "note": "Greek ἐν τῇ κώμῃ ('in the village'), with prepositional phrase and final paragraph marker, is matched by the Peshitta ܒܩܪܝܬܐ (prefixed beth plus emphatic noun). The Vulgate omits any repetition of 'in the village' here, having ended the clause at nemini dixeris."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.997783+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.490413+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

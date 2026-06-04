@@ -53,22 +53,30 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        0,
         1,
         2
       ],
       "vulgate": [
-        0,
         1,
         2
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "The Peshitta adds the explicit subject pronoun ܐܢܐ ('I') after the verb ܐܡܪ ('say'), a common Syriac stylistic feature for emphasis or clarity, whereas Greek λέγω and Latin dico leave the first-person subject implicit in the verbal inflection."
+      "note": "Greek λέγω is a synthetic first-person singular verb whose subject is implicit in the morphology; the Peshitta makes the pronoun explicit with the periphrastic ܐܡܪ ܐܢܐ ('I say'), while the Vulgate retains the synthetic dico but adds the colon (idx 2) marking direct speech."
     },
     {
       "greek_nt": [
@@ -86,54 +94,66 @@
       "greek_nt": [
         3
       ],
-      "peshitta": [],
-      "vulgate": [
-        7
-      ],
-      "variant": "minor",
-      "type": "omission",
-      "note": "The Peshitta omits the conjunction coordinating the second imperative (Greek καί, Latin et), employing asyndetic construction typical of Semitic narrative style, where successive imperatives are juxtaposed without explicit connectives."
+      "vulgate": [],
+      "variant": "omitted",
+      "note": "The Greek joins the two imperatives with καί ('arise and take up'); both the Peshitta and Vulgate render the commands asyndetically (ܩܘܡ ܫܩܘܠ / Surge, tolle) without the connective conjunction, a common stylistic compression in both versions."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5,
         6,
         7
       ],
       "peshitta": [
-        4,
         5
       ],
       "vulgate": [
-        4,
         5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun + possessive pronoun (τὸν κράβαττόν σου) and Latin mirrors this with accusative noun + possessive (grabatum tuum); Syriac employs a bound-state construction ܥܪܣܟ ('your-mat'), fusing noun and pronominal suffix into a single morphological unit, reflecting standard Semitic possessive syntax."
+      "note": "Greek expresses 'your mat' analytically with article + noun + genitive pronoun (τὸν κράβαττόν σου), matched by the Vulgate grabatum tuum; the Peshitta synthesises the possessive into the single suffixed form ܥܪܣܟ, an idiomatic Syriac construction. The loanword κράββατος itself is a colloquial term variously transliterated as grabatum in Latin."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
-      "vulgate": [],
+      "vulgate": [
+        7
+      ],
       "variant": "minor",
-      "type": "omission",
-      "note": "Greek includes a second coordinating conjunction καί before the final imperative ὕπαγε, creating a three-part asyndetic series (arise, take, and go); both Peshitta and Vulgate omit this conjunction, treating the final command as directly sequential to the preceding clause."
+      "note": "The Greek connective καί is rendered by the Vulgate et and by the Peshitta proclitic waw prefixed to the verb ܘܙܠ ('and go'); the conjunction is thus preserved across all three traditions here, unlike before the second imperative."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "The imperative ὕπαγε ('go') corresponds to Syriac ܘܙܠ (waw + ܙܠ) and Vulgate vade; the waw element is treated separately in the preceding group."
+    },
+    {
+      "greek_nt": [
         10,
         11,
         12,
         13
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
@@ -143,14 +163,13 @@
         11
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase with article (εἰς τὸν οἶκόν σου) and Latin follows with preposition + accusative noun + possessive (in domum tuam); Syriac employs the prefixed preposition ܠ directly attached to the bound-state noun ܠܒܝܬܟ ('to-your-house'), a morphologically compact construction standard in Semitic languages that eliminates the need for separate articles."
+      "note": "The prepositional phrase 'to your house' is rendered analytically in Greek (εἰς τὸν οἶκόν σου) and Vulgate (in domum tuam), but the Peshitta compresses preposition, noun, and possessive into the single suffixed form ܠܒܝܬܟ, the characteristic Syriac economy of expression."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.952754+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.558476+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

@@ -61,8 +61,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -74,8 +73,8 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "note": "Greek uses the historic present λέγει ('he says'), a vivid Markan stylistic feature; both Latin (ait, perfect) and Syriac (ܘܐܡܪ, a waw-conjoined perfect that also subsumes the conjunction) flatten this to a simple past narrative tense. The Syriac fuses the conjunction and verb into a single token, so the connective 'and' is not lexically separable here."
     },
     {
       "greek_nt": [
@@ -87,28 +86,41 @@
       "vulgate": [
         2
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        3,
-        4,
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
-        4,
         5
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs the demonstrative ἐκείνῃ with article τῇ modifying ἡμέρᾳ (dative singular feminine construction); Vulgate mirrors this with in illa die; Peshitta uses the simpler demonstrative construction ܒܗܘ ܝܘܡܐ without article, reflecting typical Syriac syntax where definiteness is inherent in the demonstrative."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -119,24 +131,22 @@
         4
       ],
       "vulgate": [
-        6,
         7,
         8,
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses a genitive absolute construction (ὀψίας γενομένης, 'evening having come'); Vulgate renders this with a temporal cum-clause (cum sero esset factum); Peshitta employs the prepositional phrase ܒܪܡܫܐ ('in the evening'), a more direct temporal marker without participial construction."
+      "note": "Greek employs a genitive absolute (ὀψίας γενομένης, 'evening having come') and Latin a temporal cum-clause (cum sero esset factum); the Syriac compresses the entire temporal construction into a single prepositional noun ܒܪܡܫܐ ('at evening'), eliminating any explicit verb of becoming. This reflects Syriac's preference for nominal temporal adjuncts over participial circumstantial clauses."
     },
     {
       "greek_nt": [],
       "peshitta": [],
       "vulgate": [
+        6,
         10
       ],
-      "variant": "added",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after the temporal clause to mark the transition to direct speech, a punctuation convention absent in the Greek and Peshitta manuscript traditions."
+      "variant": "minor",
+      "note": "The Vulgate supplies an explicit subordinating conjunction cum (token 6) introducing the temporal clause and a colon (token 10) marking the transition to direct speech, whereas the Greek punctuates with a high point and the Syriac uses no overt subordinator. These are syntactic and orthographic articulations of the same temporal-to-direct-speech boundary."
     },
     {
       "greek_nt": [
@@ -150,8 +160,7 @@
         11
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Greek uses the first-person plural hortatory subjunctive διέλθωμεν ('let us pass over'); Vulgate mirrors this with Transeamus; Peshitta adds the enclitic pronoun ܠܢ ('to us' / 'for us') after the verb ܢܥܒܪ, an explanatory gloss making the first-person plural subject explicit, typical of Syriac verbal syntax."
+      "note": "Greek διέλθωμεν and Latin Transeamus are bare first-person plural hortatory subjunctives ('let us cross over'); the Syriac ܢܥܒܪ ܠܢ adds an ethical dative ܠܢ ('for ourselves'), a common Aramaic idiom (dativus commodi) that heightens the cohortative nuance without altering the propositional content."
     },
     {
       "greek_nt": [
@@ -166,14 +175,13 @@
         12
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the prepositional phrase εἰς τὸ πέραν ('to the other side') with article and accusative; Vulgate renders with the single adverb contra ('across'); Peshitta uses ܠܥܒܪܐ ('to the crossing/other side'), a substantival form with preposition, semantically equivalent but syntactically distinct from the Greek articular construction."
+      "note": "Greek expresses the destination with a prepositional phrase εἰς τὸ πέραν ('to the other side') using a substantivised adverb; the Syriac ܠܥܒܪܐ (from root ʿ-b-r, 'to cross') is a cognate-derived noun with proclitic lamadh. The Latin contra ('to the opposite [shore]') is a freer adverbial rendering that omits an explicit article or noun for 'side', the most divergent of the three lexically."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.968702+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.438898+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

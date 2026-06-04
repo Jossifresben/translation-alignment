@@ -80,65 +80,115 @@
         0
       ],
       "vulgate": [
-        0
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "peshitta": [
-        1,
-        2,
-        3
-      ],
-      "vulgate": [
-        1,
-        2,
-        3,
-        4,
-        5
+        0,
+        1
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs a genitive absolute construction (ὥρας πολλῆς γενομένης) with aorist participle; Peshitta uses a temporal clause with perfect verb (ܗܘܐ ܥܕܢܐ ܣܓܝܐܐ); Vulgate renders with cum + subjunctive (cum hora multa fieret), all expressing the same temporal notion of 'when much time had passed.'"
+      "note": "Greek opens with paratactic Καὶ followed by a genitive absolute (ἤδη ὥρας... γενομένης); Syriac fuses the conjunction and the temporal subordinator into a single form ܘܟܕ ('and when'), while Latin splits the idea into coordinating Et plus subordinating cum, both restructuring the Greek participial clause into an explicit temporal clause."
     },
     {
       "greek_nt": [
-        5,
-        6
+        1
+      ],
+      "peshitta": [],
+      "vulgate": [
+        2
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The adverb ἤδη ('already') is rendered by Latin jam but has no discrete counterpart in the Peshitta, which compresses the temporal sense into the ܘܟܕ ... ܗܘܐ construction without an explicit 'already.'"
+    },
+    {
+      "greek_nt": [
+        4
       ],
       "peshitta": [
-        4,
+        1
+      ],
+      "vulgate": [
         5
+      ],
+      "variant": "aligned",
+      "note": "γίνομαι / ܗܘܐ / fieret"
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned",
+      "note": "ὥρα / ܥܕܢܐ / hora"
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "note": "πολύς / ܣܓܝܐܐ / multa"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        4
       ],
       "vulgate": [
         6
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "προσέρχομαι / ܩܪܒ / accedere"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "type": "omission",
+      "note": "Greek αὐτῷ and Syriac ܠܘܬܗ both supply the dative/prepositional object ('to him'); the Vulgate accesserunt leaves the object implicit, omitting any equivalent of the pronoun."
     },
     {
       "greek_nt": [
         7,
-        8,
+        8
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        7
+      ],
+      "variant": "aligned",
+      "note": "οἱ μαθηταί / ܬܠܡܝܕܘܗܝ / discipuli"
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
         6
       ],
       "vulgate": [
-        7,
         8
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the article and possessive pronoun separately (οἱ μαθηταὶ αὐτοῦ); Peshitta uses a single bound form with pronominal suffix (ܬܠܡܝܕܘܗܝ 'his-disciples'); Vulgate employs a possessive genitive (discipuli ejus), all semantically equivalent but syntactically distinct."
+      "variant": "aligned",
+      "note": "Possessive 'his': Greek αὐτοῦ and Latin ejus are discrete words, whereas Syriac encodes the possessive as the enclitic suffix on ܬܠܡܝܕܘܗܝ."
     },
     {
       "greek_nt": [
@@ -150,8 +200,9 @@
       "vulgate": [
         9
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek uses the imperfect ἔλεγον ('were saying'), the Syriac the active participle ܘܐܡܪܝܢ, and the Latin the present participle dicentes; all three express durative/circumstantial speaking but with different verbal aspects and subordination."
     },
     {
       "greek_nt": [
@@ -162,8 +213,18 @@
         10
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek uses ὅτι to introduce indirect discourse; Vulgate employs a colon for punctuation; Peshitta omits any explicit marker, using ܕ- prefix on the demonstrative to introduce the clause, a typical Syriac construction for reported speech."
+      "type": "construction",
+      "note": "Greek introduces direct discourse with recitative ὅτι; the Vulgate marks it with a colon, while the Peshitta uses the relative/demonstrative particle ܕ prefixed to ܕܗܢܐ, so no separate complementiser appears."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta supplies an explicit indirect object ܠܗ ('to him') after the verb of saying, a common Syriac idiom; neither the Greek nor the Latin transmits a corresponding pronoun here."
     },
     {
       "greek_nt": [
@@ -175,8 +236,9 @@
       "vulgate": [
         11
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "lexical",
+      "note": "Greek ἔρημος and Latin desertus denote a 'desolate, uninhabited' place; Syriac ܚܘܪܒܐ (root kh-r-b, 'ruin, waste') carries a stronger connotation of devastation, a near-synonymous but lexically distinct choice."
     },
     {
       "greek_nt": [
@@ -189,7 +251,7 @@
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "εἰμί / ܗܘ / est"
     },
     {
       "greek_nt": [
@@ -206,7 +268,7 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the article and noun after the predicate adjective (ἔρημός ἐστιν ὁ τόπος); Peshitta fronts the demonstrative-noun phrase (ܕܗܢܐ ܐܬܪܐ 'this place') before the predicate; Vulgate follows Greek word order (Desertus est locus hic), though all convey identical propositional content."
+      "note": "All three name 'this place,' but the word order and deixis differ: Greek ὁ τόπος has no demonstrative, Latin adds postposed hic ('locus hic'), and Syriac fronts the demonstrative as ܕܗܢܐ ܐܬܪܐ ('this place'), making explicit what Greek leaves to the article."
     },
     {
       "greek_nt": [
@@ -219,36 +281,46 @@
         15
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καί / ܘ / et"
     },
     {
       "greek_nt": [
-        17,
-        18,
+        17
+      ],
+      "peshitta": [],
+      "vulgate": [
+        16
+      ],
+      "variant": "minor",
+      "type": "omission",
+      "note": "The second occurrence of ἤδη ('already') is matched by Latin jam but again has no separate Syriac equivalent, the Peshitta merely repeating ܘܥܕܢܐ ܣܓܝ ('and the time is much')."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        13
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned",
+      "note": "ὥρα / ܥܕܢܐ / hora"
+    },
+    {
+      "greek_nt": [
         19
       ],
       "peshitta": [
-        13,
         14
       ],
       "vulgate": [
-        16,
-        17,
         18
       ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek and Peshitta state 'already the hour is late' (ἤδη ὥρα πολλή / ܘܥܕܢܐ ܣܓܝ), a nominal clause indicating lateness of the hour. Vulgate substitutes with 'and already the hour has passed' (et jam hora præteriit), using the verb praetereo to express temporal progression rather than mere lateness, a substantive semantic shift."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [
-        8
-      ],
-      "vulgate": [],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta adds the prepositional phrase ܠܗ ('to him') after the verb of saying, making the indirect object explicit; neither Greek nor Vulgate include this element, as it is understood from context."
+      "type": "substitution",
+      "note": "Greek and Syriac use the predicate adjective πολλή / ܣܓܝ ('much/late'), describing the hour as far advanced, whereas the Vulgate substitutes the finite verb præteriit ('has passed by'), converting the static description into a dynamic statement that the hour is already gone."
     },
     {
       "greek_nt": [],
@@ -258,13 +330,13 @@
       ],
       "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate closes the verse with a colon, a punctuation choice not reflected in Greek or Peshitta manuscripts, likely editorial rather than textual."
+      "note": "The Vulgate closes the verse with a colon anticipating the disciples' continued speech; this editorial punctuation has no counterpart in the unpointed Greek or Syriac token streams beyond the Greek's high stop on πολλή·."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.983271+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.423634+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

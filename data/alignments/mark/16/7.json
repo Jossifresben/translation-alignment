@@ -74,7 +74,8 @@
   "alignment": [
     {
       "greek_nt": [
-        0
+        0,
+        1
       ],
       "peshitta": [
         0
@@ -83,11 +84,11 @@
         0
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἀλλά / ܐܠܐ / Sed — adversative conjunction; the parenthetical transliteration (all᾽) is editorial."
     },
     {
       "greek_nt": [
-        1
+        2
       ],
       "peshitta": [
         1
@@ -95,25 +96,20 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek ὑπάγετε and Latin ite are present imperatives ('go!'), whereas the Syriac ܙܠܝܢ is a participial/predicative form functioning as an imperative; the verbal aspect is rendered idiomatically rather than morphologically matched."
     },
     {
       "greek_nt": [
-        2
+        3
       ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        2
-      ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "omitted",
+      "type": "omission",
+      "note": "The Greek dative article τοῖς governing μαθηταῖς has no separate token in Syriac (carried by the prefix ܠ- on ܠܬܠܡܝܕܘܗܝ) or in Latin (which renders an articleless dative discipulis); a routine structural difference rather than a textual variant."
     },
     {
       "greek_nt": [
-        3,
         4,
         5
       ],
@@ -124,13 +120,24 @@
         3,
         4
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses article + noun + possessive pronoun (τοῖς μαθηταῖς αὐτοῦ) in dative; Peshitta employs a bound form with pronominal suffix (ܠܬܠܡܝܕܘܗܝ); Vulgate uses noun + possessive genitive pronoun (discipulis ejus). All three express identical semantics through language-specific possessive constructions."
+      "variant": "aligned",
+      "note": "μαθηταῖς αὐτοῦ / ܠܬܠܡܝܕܘܗܝ / discipulis ejus — 'to his disciples'; Syriac fuses preposition, noun, and possessive suffix into a single word."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        5
+      ],
+      "variant": "aligned",
+      "note": "καί / ܘ- / et — coordinating conjunction; in Syriac the conjunction is prefixed to the following noun."
+    },
+    {
+      "greek_nt": [
         7,
         8
       ],
@@ -138,12 +145,11 @@
         4
       ],
       "vulgate": [
-        5,
         6
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek employs coordinating conjunction καὶ with article τῷ before the proper name Πέτρῳ (dative); Peshitta uses the conjunction ܘ prefixed directly to the name with preposition ܠ (ܘܠܟܐܦܐ); Vulgate mirrors Greek structure with et Petro. The Syriac construction is more compact but semantically equivalent."
+      "type": "lexical",
+      "note": "Greek and Latin transliterate the Greek name Πέτρῳ / Petro, whereas the Peshitta preserves the underlying Aramaic ܟܐܦܐ (Kepha, 'rock'), the original Semitic form that Πέτρος itself translates (cf. John 1:42); this is a lexical, not merely orthographic, witness."
     },
     {
       "greek_nt": [
@@ -156,24 +162,34 @@
         7
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ὅτι introduces indirect discourse; Peshitta uses ܕܗܐ (d-hā), a compound particle combining ܕ (relative/complementizer) with ܗܐ (presentative 'behold'); Vulgate uses quia. The Peshitta form adds mild emphasis ('behold that') while Greek and Latin are neutral complementizers."
+      "type": "expansion",
+      "note": "Greek ὅτι and Latin quia introduce indirect/direct discourse ('that'); the Syriac renders this with ܕܗܐ, combining the relative/complementiser ܕ- with the presentative particle ܗܐ ('behold'), adding a deictic emphasis absent from the Greek and Latin."
     },
     {
       "greek_nt": [
-        10,
+        10
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "note": "προάγει / ܩܕܡ / præcedit — 'he goes before'."
+    },
+    {
+      "greek_nt": [
         11
       ],
       "peshitta": [
-        6,
         7
       ],
       "vulgate": [
-        8,
         9
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ὑμᾶς / ܠܟܘܢ / vos — second person plural object."
     },
     {
       "greek_nt": [
@@ -188,9 +204,8 @@
         10,
         11
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses preposition εἰς with article and accusative noun (εἰς τὴν Γαλιλαίαν); Peshitta employs preposition ܠ with direct noun attachment (ܠܓܠܝܠܐ), lacking an overt article (Syriac has no definite article in this construction); Vulgate uses in with accusative Galilæam. All express motion toward Galilee with language-appropriate prepositional syntax."
+      "variant": "aligned",
+      "note": "εἰς τὴν Γαλιλαίαν / ܠܓܠܝܠܐ / in Galilæam — 'into Galilee'; the Greek punctuation (·) and the Latin colon are handled with the geographic clause."
     },
     {
       "greek_nt": [
@@ -200,12 +215,10 @@
         9
       ],
       "vulgate": [
-        12,
         13
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek ἐκεῖ and Peshitta ܬܡܢ are simple adverbs of place; Vulgate precedes ibi with a colon, creating a stronger syntactic break that emphasizes the locative clause. The punctuation difference reflects Latin rhetorical style rather than semantic divergence."
+      "variant": "aligned",
+      "note": "ἐκεῖ / ܬܡܢ / ibi — 'there'."
     },
     {
       "greek_nt": [
@@ -219,9 +232,8 @@
         14,
         15
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek separates pronoun and verb (αὐτὸν ὄψεσθε, 'Him you-will-see'); Peshitta fuses object pronoun as suffix on the verb (ܬܚܙܘܢܝܗܝ, 'you-will-see-him'); Vulgate separates them as eum videbitis. Greek and Latin use analytic constructions; Syriac employs synthetic morphology, but all convey identical meaning."
+      "variant": "aligned",
+      "note": "αὐτὸν ὄψεσθε / ܬܚܙܘܢܝܗܝ / eum videbitis — 'you will see him'; Syriac compresses verb and pronominal object into a single suffixed form."
     },
     {
       "greek_nt": [
@@ -234,7 +246,7 @@
         16
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "καθὼς / ܐܝܟܢܐ / sicut — comparative particle 'just as'."
     },
     {
       "greek_nt": [
@@ -247,7 +259,7 @@
         17
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "εἶπεν / ܕܐܡܪ / dixit — 'he said'; Syriac prefixes the relative ܕ- to the verb."
     },
     {
       "greek_nt": [
@@ -260,13 +272,13 @@
         18
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ὑμῖν / ܠܟܘܢ / vobis — second person plural dative 'to you'."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.055362+00:00",
-    "confidence": 0.92,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.469457+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

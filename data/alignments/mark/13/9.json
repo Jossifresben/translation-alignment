@@ -90,8 +90,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -103,42 +102,66 @@
       "vulgate": [
         1
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        2,
-        3
+        2
       ],
       "peshitta": [
-        2,
+        2
+      ],
+      "vulgate": [],
+      "variant": "minor",
+      "note": "Greek ὑμεῖς and Syriac ܐܢܬܘܢ supply the emphatic independent pronoun 'you (yourselves)'; the Vulgate folds this emphasis into the reflexive vosmetipsos and provides no separate subject pronoun, a function of Latin's pro-drop syntax."
+    },
+    {
+      "greek_nt": [
+        3,
+        4
+      ],
+      "peshitta": [
         3
       ],
       "vulgate": [
         2
       ],
-      "variant": "minor",
-      "type": "lexical",
-      "note": "Greek employs the emphatic construction ὑμεῖς ἑαυτούς (nominative pronoun + reflexive accusative) for 'yourselves'; Vulgate uses the compound intensive vosmetipsos; Peshitta uses ܐܢܬܘܢ ܢܦܫܟܘܢ (pronoun + 'your souls/selves'), all semantically equivalent but reflecting different intensification strategies."
+      "variant": "aligned",
+      "note": "ἑαυτούς / ܢܦܫܟܘܢ / vosmetipsos — the parenthetical transliteration (he'autous) is treated as part of the same reflexive lexeme."
     },
     {
       "greek_nt": [
-        5,
-        6,
         4
       ],
       "peshitta": [
-        5,
         4
       ],
       "vulgate": [
-        4,
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "vulgate": [
         5
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the conjunction γὰρ and object pronoun ὑμᾶς before the verb παραδώσουσιν; Vulgate follows verb-initial order (Tradent enim vos); Peshitta embeds the object pronoun as a suffix on the verb ܢܫܠܡܘܢܟܘܢ, typical of Semitic pro-drop morphology."
+      "note": "Greek ὑμᾶς and Vulgate vos render the accusative object 'you'; the Syriac encodes this object pronominally as the suffix on the verb ܢܫܠܡܘܢܟܘܢ ('they will hand you over'), so no discrete object token appears in the Peshitta."
     },
     {
       "greek_nt": [
@@ -153,56 +176,100 @@
         7
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek εἰς συνέδρια ('to councils/sanhedrins', plural) and Vulgate in consiliis mirror each other; Peshitta uses the singular ܠܕܝܢܐ ('to judgment/court'), a semantic compression treating the institution collectively rather than distributively."
+      "note": "Greek εἰς συνέδρια and Latin in consiliis ('into councils/sanhedrins', plural) use a preposition + plural noun; Syriac ܠܕܝܢܐ employs the lamadh-prefixed singular 'to the tribunal/judgement', a collective rendering that flattens the institutional plural of the Greek συνέδριον."
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11,
-        12
-      ],
-      "peshitta": [
-        7,
-        8
+        9
       ],
       "vulgate": [
-        8,
-        9,
+        8
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9,
+        10
+      ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek and Vulgate employ parallel prepositional phrases (καὶ εἰς συναγωγὰς δαρήσεσθε / et in synagogis vapulabitis) with explicit prepositions; Peshitta uses a single conjunctive phrase ܘܒܟܢܘܫܬܗܘܢ ܬܬܢܓܕܘܢ ('and in their assemblies you will be scourged'), incorporating a possessive suffix ('their') not present in Greek or Latin."
+      "note": "Greek καὶ εἰς συναγωγὰς and Latin et in synagogis coordinate with a conjunction plus preposition plus plural noun; Syriac compresses conjunction, preposition, plural noun, and a 3mp possessive suffix into the single form ܘܒܟܢܘܫܬܗܘܢ ('and in their synagogues'), adding the possessive 'their' not present in Greek or Latin."
     },
     {
       "greek_nt": [
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
-      ],
-      "peshitta": [
-        9,
-        10,
-        11,
         12
       ],
+      "peshitta": [
+        8
+      ],
       "vulgate": [
-        12,
-        13,
-        14,
+        11
+      ],
+      "variant": "minor",
+      "note": "Greek δαρήσεσθε ('you will be beaten/flogged', from δέρω) and Syriac ܬܬܢܓܕܘܢ ('you will be scourged/dragged') denote corporal punishment; the Vulgate vapulabitis uses the deponent vapulo 'to be thrashed', a colloquial Latin equivalent with the same passive sense."
+    },
+    {
+      "greek_nt": [
+        13
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        12
+      ],
+      "variant": "aligned",
+      "note": "καὶ / ܘ- (prefixed on ܘܩܕܡ) / et — coordinating conjunction."
+    },
+    {
+      "greek_nt": [
+        14
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "ἐπὶ / ܩܕܡ / ante — 'before, in the presence of'; the Syriac conjunction and preposition are fused in ܘܩܕܡ."
+    },
+    {
+      "greek_nt": [
         15,
         16,
         17
       ],
-      "variant": "major",
-      "type": "word-order",
-      "note": "Greek and Vulgate place 'governors' before 'kings' (ἐπὶ ἡγεμόνων καὶ βασιλέων / ante præsides et reges); Peshitta reverses the order to ܩܕܡ ܡܠܟܐ ܘܗܓܡܘܢܐ ('before kings and governors'), possibly reflecting a hierarchical emphasis or stylistic preference in Syriac rhetorical convention."
+      "peshitta": [
+        10,
+        11
+      ],
+      "vulgate": [
+        14,
+        15,
+        16
+      ],
+      "variant": "minor",
+      "note": "Greek (ἡγεμόνων καὶ βασιλέων, 'governors and kings') and Latin (præsides et reges) list governors first, then kings; the Peshitta inverts the order to ܡܠܟܐ ܘܗܓܡܘܢܐ ('kings and governors'), a word-order divergence placing the higher office first."
+    },
+    {
+      "greek_nt": [
+        18
+      ],
+      "peshitta": [
+        12
+      ],
+      "vulgate": [
+        17
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -217,7 +284,7 @@
         19
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἕνεκεν ἐμοῦ / ܡܛܠܬܝ / propter me — 'on account of me'; Syriac fuses preposition and 1cs suffix into a single form."
     },
     {
       "greek_nt": [
@@ -234,14 +301,13 @@
         22
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek εἰς μαρτύριον αὐτοῖς ('for a testimony to them') and Vulgate in testimonium illis use dative pronouns; Peshitta ܠܣܗܕܘܬܗܘܢ ('for their testimony') employs a possessive suffix construction, subtly shifting the grammatical relationship while preserving the sense of witness directed toward the authorities."
+      "note": "Greek εἰς μαρτύριον αὐτοῖς and Latin in testimonium illis use preposition + noun + separate dative pronoun ('for a testimony to them'); the Syriac ܠܣܗܕܘܬܗܘܢ collapses lamadh-preposition, noun, and 3mp suffix into one word, expressing 'their testimony / a testimony to them' synthetically."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.029615+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.427051+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

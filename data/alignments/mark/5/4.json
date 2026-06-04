@@ -87,52 +87,75 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses the articular infinitive construction διὰ τὸ + accusative-and-infinitive ('because of his having been bound'); the Vulgate renders the causal clause with quoniam + finite/participial syntax, and the Peshitta with ܡܛܠ ('because'). The three express the same causal relation through divergent syntactic means."
     },
     {
       "greek_nt": [
         2
-      ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek employs articular infinitive construction (διὰ τὸ αὐτὸν... δεδέσθαι) with explicit accusative subject αὐτόν; both Peshitta and Vulgate omit the pronoun, using finite verbal constructions that render the subject implicit in the verb morphology."
-    },
-    {
-      "greek_nt": [
-        3
       ],
       "peshitta": [
         1,
         2
       ],
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek αὐτόν supplies the accusative subject of the infinitive ('he/him'); the Peshitta lacks an explicit pronoun here and instead inserts ܕܟܠ ܐܡܬܝ ('every time that'), an idiomatic frequentative construction not paralleled in Greek or Latin which have a single adverb 'often'."
+    },
+    {
+      "greek_nt": [
+        3
+      ],
+      "peshitta": [],
       "vulgate": [
         1
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek πολλάκις ('often') and Vulgate sæpe are simple adverbs; Peshitta expands to ܕܟܠ ܐܡܬܝ ('whenever, every time'), a temporal clause construction that conveys iterative aspect more explicitly through syntax rather than lexical adverb alone."
+      "type": "idiom",
+      "note": "Greek πολλάκις and Vulgate sæpe both render 'often' adverbially; the Peshitta dissolves this into the durative-frequentative phrase ܕܟܠ ܐܡܬܝ ('whenever, every time'), grouped above, distributing the iterative sense across the verbal periphrasis rather than a discrete adverb."
     },
     {
       "greek_nt": [
-        4,
-        5,
-        6
+        4
       ],
       "peshitta": [
-        3,
+        3
+      ],
+      "vulgate": [
+        2
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "πέδαις / ܒܣܘܛܡܐ / compedibus, 'with fetters/shackles'."
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
         4
       ],
       "vulgate": [
-        2,
-        3,
+        3
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "καί / ܘ / et."
+    },
+    {
+      "greek_nt": [
+        6
+      ],
+      "peshitta": [
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek lists πέδαις καὶ ἁλύσεσιν ('shackles and chains'); Vulgate reverses to compedibus et catenis; Peshitta follows Greek order (ܒܣܘܛܡܐ ܘܒܫܫܠܬܐ) but repeats the preposition ܒ ('with') before each noun, a typical Semitic distributive construction."
+      "vulgate": [
+        4
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἁλύσεσιν / ܫܫܠܬܐ (prefixed in ܘܒܫܫܠܬܐ) / catenis, 'with chains'."
     },
     {
       "greek_nt": [
@@ -146,18 +169,17 @@
         5
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses perfect passive infinitive δεδέσθαι; Vulgate employs perfect passive participle vinctus in ablative absolute; Peshitta uses imperfect passive participle ܡܬܐܣܪ with auxiliary ܗܘܐ, forming a periphrastic past habitual construction semantically equivalent but syntactically distinct."
+      "type": "grammar",
+      "note": "Greek uses the perfect passive infinitive δεδέσθαι ('to have been bound'); the Vulgate renders the perfect-stative with the participle vinctus; the Peshitta employs the periphrastic imperfect ܡܬܐܣܪ ܗܘܐ (participle + ܗܘܐ), the standard Syriac construction for habitual/durative past action."
     },
     {
       "greek_nt": [
         8
       ],
-      "peshitta": [],
       "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek καί coordinates the two infinitives (δεδέσθαι... διεσπάσθαι); Peshitta and Vulgate restructure the syntax such that this coordinating conjunction is absorbed into their respective finite/participial constructions and does not surface as a discrete token."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek coordinates the two infinitival clauses with καί ('and'); the Vulgate has no conjunction at this juncture, beginning the new clause asyndetically with dirupisset, while the Peshitta reorders the clauses entirely (see below)."
     },
     {
       "greek_nt": [
@@ -176,9 +198,9 @@
         6,
         7
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "word-order",
-      "note": "Greek employs perfect passive infinitive διεσπάσθαι with agent phrase ὑπ᾽ αὐτοῦ ('by him') followed by direct object τὰς ἁλύσεις; Vulgate uses pluperfect active indicative dirupisset catenas (subject-verb-object, no agent phrase needed); Peshitta reverses to object-verb order (ܫܫܠܬܐ ܡܬܒܪ ܗܘܐ, 'the chains were being broken'), employing passive participle with auxiliary, and omits explicit agent as contextually recoverable."
+      "note": "Greek reads διεσπάσθαι ὑπ᾽ αὐτοῦ τὰς ἁλύσεις ('the chains had been torn apart by him'), a passive with explicit agent; the Vulgate renders actively dirupisset catenas ('he would have burst the chains'); the Peshitta has ܫܫܠܬܐ ܡܬܒܪ ܗܘܐ ('he would break the chains', periphrastic imperfect). All three convey the same event with differing voice and a reversed clause order relative to the fetters."
     },
     {
       "greek_nt": [
@@ -199,7 +221,7 @@
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek coordinates with καὶ τὰς πέδας συντετρῖφθαι (object-verb); Vulgate uses et compedes comminuisset (conjunction-object-verb); Peshitta employs ܘܣܘܛܡܐ ܡܦܣܩ ܗܘܐ (conjunction-object-participle-auxiliary), maintaining the Semitic preference for fronted objects in coordinate clauses describing sequential actions."
+      "note": "Greek καὶ τὰς πέδας συντετρῖφθαι ('and the fetters had been shattered') and Vulgate et compedes comminuisset ('and broke the fetters') keep chains-then-fetters; the Peshitta ܘܣܘܛܡܐ ܡܦܣܩ ܗܘܐ ('and would snap the fetters') agrees in content but uses the verb p-s-q ('cut/sever') with the periphrastic imperfect, again preferring active over the Greek perfect passive."
     },
     {
       "greek_nt": [
@@ -212,20 +234,23 @@
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "καί / ܘ (in ܘܠܐ) / et."
     },
     {
       "greek_nt": [
         19
       ],
       "peshitta": [
+        13,
         14
       ],
       "vulgate": [
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "οὐδείς / ܠܐ ܐܢܫ ('not a man') / nemo, 'no one'."
     },
     {
       "greek_nt": [
@@ -239,20 +264,19 @@
         13
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperfect ἴσχυεν ('was able'); Vulgate employs imperfect poterat; Peshitta uses active participle ܡܫܟܚ with auxiliary ܗܘܐ, forming a periphrastic imperfect construction that mirrors the Greek/Latin aspectual value through analytic rather than synthetic morphology."
+      "type": "grammar",
+      "note": "Greek ἴσχυεν is an imperfect indicative ('was able'); the Vulgate poterat matches this imperfect; the Peshitta uses the periphrastic ܡܫܟܚ ܗܘܐ (participle of sh-k-ḥ 'to find/be able' + ܗܘܐ), the customary Syriac analytical past for habitual incapacity."
     },
     {
       "greek_nt": [
         21
       ],
-      "peshitta": [],
       "vulgate": [
         14
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Greek and Vulgate retain explicit accusative pronoun αὐτόν/eum as object of the infinitive δαμάσαι/domare; Peshitta attaches the third masculine singular object suffix directly to the infinitive ܠܡܟܒܫܗ ('-him'), a standard Semitic pronominal suffixation pattern that renders a separate pronoun token unnecessary."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "αὐτόν / eum, 'him'; in the Peshitta the object is encoded as the pronominal suffix on the following infinitive (see next group)."
     },
     {
       "greek_nt": [
@@ -264,24 +288,23 @@
       "vulgate": [
         15
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek δαμάσαι ('to subdue') and Vulgate domare are bare infinitives with a separate accusative object; the Peshitta ܠܡܟܒܫܗ (root k-b-š 'to subdue/conquer') is an infinitive bearing the 3ms object suffix ('to subdue him'), fusing verb and object into a single inflected form."
     },
     {
-      "greek_nt": [],
-      "peshitta": [],
       "vulgate": [
         16
       ],
       "variant": "added",
       "type": "punctuation",
-      "note": "Vulgate adds colon (:) as verse-final punctuation; neither Greek nor Peshitta manuscripts transmit equivalent punctuation at this juncture, though this reflects Latin scribal convention rather than textual variance."
+      "note": "The Clementine Vulgate closes the verse with a colon (':'), marking the clause as syntactically subordinate to and anticipatory of the following narrative; the Greek and Syriac witnesses carry no equivalent editorial punctuation here."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.970736+00:00",
-    "confidence": 0.82,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.423143+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

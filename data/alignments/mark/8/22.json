@@ -56,19 +56,28 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
         0
       ],
       "vulgate": [
-        0,
         1
       ],
       "variant": "minor",
-      "type": "grammar",
-      "note": "Greek uses plural ἔρχονται ('they come') and Latin veniunt mirrors this; Peshitta employs singular ܘܐܬܐ ('and he came'), likely treating Jesus as the primary subject with the crowd implied, a common Syriac narrative convention."
+      "note": "The Greek verb ἔρχονται and Latin veniunt are 3rd-person plural ('they come'), whereas the Peshitta ܘܐܬܐ is here morphologically singular/collective and is fused with the preceding conjunction; the difference is one of number-idiom rather than meaning, the Syriac treating the arriving party as a unit."
     },
     {
       "greek_nt": [
@@ -82,22 +91,41 @@
         2
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses preposition + accusative (εἰς Βηθσαϊδάν); Latin employs accusative of place-to-which without preposition (Bethsaidam); Syriac uses prefixed lamed (ܠܒܝܬ-ܨܝܕܐ) — all three express identical locative semantics through tradition-specific constructions."
+      "note": "Greek supplies the preposition εἰς before Βηθσαϊδάν; the Vulgate uses the bare accusative Bethsaidam without a preposition (a Latinate accusative of motion-toward), and Syriac prefixes the directional lamadh in ܠܒܝܬ-ܨܝܕܐ. All three name the same place but encode direction differently."
     },
     {
       "greek_nt": [
-        4,
-        5,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        5
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        4
+      ],
+      "variant": "minor",
+      "note": "Greek φέρουσιν ('they bring') and Latin adducunt ('they lead up to') are 3rd-person plural; the Syriac ܘܐܝܬܝܘ ('and they brought', root y-th-y) is fused with the conjunction and is here treated together with that conjunction, but renders the same act of bringing."
+    },
+    {
+      "greek_nt": [
         6
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        3,
-        4,
         5
       ],
       "variant": "aligned"
@@ -116,27 +144,56 @@
     },
     {
       "greek_nt": [
-        8,
-        9,
-        10
+        8
       ],
       "peshitta": [
-        5,
-        6,
-        7
+        5
       ],
       "vulgate": [
-        7,
-        8,
-        9
+        7
       ],
-      "variant": "minor",
-      "type": "grammar",
-      "note": "Peshitta inserts the auxiliary verb ܗܘܘ (hwaw, 'they were') to form a periphrastic imperfect construction (ܘܒܥܝܢ ܗܘܘ, 'and they were beseeching'), emphasizing durative aspect; Greek παρακαλοῦσιν and Latin rogabant express the same imperfective semantics through simple tense forms."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        11,
+        9
+      ],
+      "peshitta": [
+        5,
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "note": "Greek παρακαλοῦσιν is a single present indicative; the Vulgate rogabant shifts to imperfect ('they kept asking'), and the Syriac employs a periphrastic past with the auxiliary ܗܘܘ (ܒܥܝܢ ܗܘܘ), matching the Latin durative aspect more closely than the Greek present."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
+      "vulgate": [
+        9
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        10
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         12,
         13
       ],
@@ -145,19 +202,17 @@
         9
       ],
       "vulgate": [
-        10,
         11,
         12
       ],
       "variant": "minor",
-      "type": "lexical",
-      "note": "Greek ἅψηται (G681, 'touch') and Latin tangeret are direct cognates; Peshitta uses ܕܢܩܪܘܒ (dnqrwb, 'that he draw near/approach'), a semantic near-synonym emphasizing proximity rather than physical contact, though both convey the healing gesture."
+      "note": "Greek expresses the object of touching with a genitive pronoun governed by ἅπτομαι (αὐτοῦ ἅψηται), the verb's normal case-government; both Latin (illum tangeret) and Syriac (ܕܢܩܪܘܒ ܠܗ, 'that he might draw near to him') use an accusative/dative object, the Syriac additionally rendering 'touch' with the verb q-r-b ('approach, come near') rather than a strict 'touch' lexeme."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.997174+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.454872+00:00",
+    "confidence": 0.86,
     "schema_version": 1
   }
 }

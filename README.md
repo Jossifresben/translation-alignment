@@ -58,7 +58,7 @@ Full reference + response schemas + error envelope conventions: [**docs/api.md**
 
 ## Methodology
 
-Every verse is aligned by Anthropic's **Claude Sonnet 4.5** via the Messages Batch API. For each verse, Claude receives:
+Every verse is aligned by Anthropic's **Claude Opus 4.8** (corpus v2.0.0; `effort=medium`) via the Messages Batch API. For each verse, Claude receives:
 
 - The Greek, Syriac, and Latin tokens (whitespace-split)
 - Per-Greek-token enrichment: Strong's number, lemma, morphology, English gloss (from STEP TAGNT)
@@ -71,11 +71,11 @@ Claude returns a strict JSON structure: a list of alignment groups where each gr
 - **Note** — one or two sentences of apparatus-style annotation for every non-aligned group (mean length ~296 chars)
 - **Confidence** — Claude's self-reported confidence `[0, 1]` — *not* calibrated against correctness; both Sonnet and Opus average ~0.88 regardless of inter-run agreement, so this should not be cited as a quality signal. Useful only as an internal heuristic for review prioritization.
 
-The current corpus is 678 verses × 6,432 alignment groups (4,065 non-aligned divergences), stored as committed JSON in `data/alignments/mark/`. The running viewer has zero runtime LLM dependency.
+The current corpus (v2.0.0) is 678 verses × 8,828 alignment groups (4,800 non-aligned divergences), stored as committed JSON in `data/alignments/mark/`. The running viewer has zero runtime LLM dependency. See [`data/alignments/CHANGELOG.md`](data/alignments/CHANGELOG.md) for version history (v1.0.0 was Claude Sonnet 4.5; v2.0.0 is the Opus 4.8 re-run).
 
-**This is one sample from a noisy generation process** — a re-run on the same prompt produces substantially different group partitions and apparatus prose. Two stability audits:
-- **Cross-model**, Mark 13: 48% group-membership overlap with Opus 4.5, 71% verdict agreement on shared groups, 0.17 prose-similarity. See [`docs/sonnet-vs-opus-mark13.md`](docs/sonnet-vs-opus-mark13.md).
-- **Same-model, two runs**, full Mark: 65% group-membership overlap, 86% verdict agreement on shared groups, 70% type agreement. The [consensus subset](docs/sonnet-consensus-mark.md) keeps 4,067 groups that appeared in both runs — the more defensible reproducible artifact.
+**This is one sample from a generation process that still varies between runs** — a re-run on the same prompt produces substantially different group partitions and apparatus prose. Stability is measured, and imperfect:
+- **Same-model, two runs** (Opus 4.8, Mark 13): ~76% group-membership overlap, 90% verdict agreement, 76% type agreement on shared groups — so ~a quarter of groups are unstable across runs.
+- **The Sonnet 4.5 → Opus 4.8 upgrade** measurably improved accuracy (4/4 hand-verified apparatus errors avoided, including one Sonnet repeated systematically) and self-consistency (+11 pp group membership). Full experiment: [`docs/opus48-upgrade-experiment.md`](docs/opus48-upgrade-experiment.md). The v1.0.0 (Sonnet) audits are archived in [`docs/sonnet-vs-opus-mark13.md`](docs/sonnet-vs-opus-mark13.md) and [`docs/sonnet-consensus-mark.md`](docs/sonnet-consensus-mark.md).
 
 ### Methodology validation (and its limits)
 
@@ -101,7 +101,7 @@ Reproduce it yourself: `python scripts/run_berean_benchmark.py --berean data/ben
 | English verse gloss | World English Bible (WEB) | public domain |
 | Spanish verse gloss | Reina-Valera 1909 (via [eBible.org](https://ebible.org/) USFX) | public domain |
 | Chinese verse glosses | Chinese Union Version 1919 — Simplified + Traditional editions (via eBible.org USFX) | public domain |
-| Alignment generation | Anthropic Claude Sonnet 4.5 | — |
+| Alignment generation | Anthropic Claude Opus 4.8 (corpus v2.0.0) | — |
 | Benchmark reference | [Berean Interlinear Bible](https://berean.bible/) | methodology check only |
 
 ## Tech stack

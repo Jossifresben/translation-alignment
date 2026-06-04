@@ -106,28 +106,38 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses conjunction καὶ with genitive absolute participle εἰσελθούσης; Latin employs cumque with perfect subjunctive introisset; Peshitta uses simple waw-consecutive perfect ܘܥܠܬ. All three express temporal subordination but through different syntactic mechanisms."
+      "note": "Greek uses a genitive absolute participle (καὶ εἰσελθούσης, 'and when she entered') and Latin a cum-clause (cumque introisset); the Peshitta renders with a finite verb ܘܥܠܬ ('and she entered'), preferring paratactic finite constructions over subordinate participial syntax, a hallmark of Syriac narrative style."
     },
     {
       "greek_nt": [
         2,
         3,
-        4,
+        4
+      ],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τῆς θυγατρὸς αὐτοῦ ('his daughter') and Latin filia ipsius use an analytic article-plus-possessive; the Peshitta compresses this into the single suffixed noun ܒܪܬܗ ('her/his daughter'), a synthetic Semitic possessive form that conveys identical meaning."
+    },
+    {
+      "greek_nt": [
         5,
         6
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        2,
-        3,
         4
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek employs double article construction (τῆς θυγατρὸς αὐτοῦ τῆς Ἡρῳδιάδος) with the possessive pronoun between noun and appositive; Latin follows Greek word order (filia ipsius Herodiadis); Peshitta uses construct chain ܒܪܬܗ ܕܗܪܘܕܝܐ with pronominal suffix on the noun, a typical Semitic genitive construction."
+      "variant": "aligned",
+      "note": "Ἡρῳδιάδος / ܕܗܪܘܕܝܐ / Herodiadis"
     },
     {
       "greek_nt": [
@@ -141,28 +151,41 @@
         5,
         6
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin coordinate a second participle (καὶ ὀρχησαμένης / et saltasset, 'and having danced'); the Peshitta again resolves the participle into the asyndetic finite verb ܪܩܕܬ ('she danced'), dropping the conjunction and maintaining the chain of finite clauses."
     },
     {
       "greek_nt": [
         9,
-        10,
+        10
+      ],
+      "peshitta": [
+        4
+      ],
+      "vulgate": [
+        7,
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek καὶ ἤρεσεν and Latin et placuisset render 'and she/it pleased'; the Peshitta ܘܫܦܪܬ (root sh-p-r, 'and she pleased/was beautiful to') is a cognate-functional equivalent, continuing the finite-verb sequence with the conjunctive waw."
+    },
+    {
+      "greek_nt": [
         11,
         12
       ],
       "peshitta": [
-        4,
         5,
         6
       ],
       "vulgate": [
-        7,
-        8,
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses conjunction καὶ with aorist ἤρεσεν governing dative τῷ Ἡρῴδῃ; Latin employs et placuisset with dative Herodi; Peshitta uses waw-consecutive ܘܫܦܪܬ with prepositional phrase ܠܗ ܠܗܪܘܕܣ (double lamed construction for emphasis). All convey the same meaning through tradition-specific syntax."
+      "type": "grammar",
+      "note": "Greek and Latin express the indirect object with a single dative (τῷ Ἡρῴδῃ / Herodi); the Peshitta uses the proleptic dative construction ܠܗ ܠܗܪܘܕܣ ('to him, to Herod'), an idiomatic Syriac anticipatory pronoun resumed by the named object — semantically equivalent but syntactically doubled."
     },
     {
       "greek_nt": [
@@ -180,27 +203,37 @@
         11
       ],
       "variant": "minor",
-      "type": "expansion",
-      "note": "Greek uses καὶ τοῖς συνανακειμένοις (dative plural participle); Latin employs simulque recumbentibus (adverb + dative plural participle); Peshitta expands with ܘܠܐܝܠܝܢ ܕܣܡܝܟܝܢ ܥܡܗ, adding the prepositional phrase 'with him' (ܥܡܗ) for clarification not present in Greek or Latin."
+      "type": "construction",
+      "note": "Greek καὶ τοῖς συνανακειμένοις ('and those reclining with [him]') and Latin simulque recumbentibus use a substantival participle; the Peshitta renders with a relative clause ܘܠܐܝܠܝܢ ܕܣܡܝܟܝܢ ܥܡܗ ('and to those who were reclining with him'), adding the explicit comitative pronoun ܥܡܗ that Latin leaves implicit."
     },
     {
       "greek_nt": [
-        16,
+        16
+      ],
+      "peshitta": [
+        10
+      ],
+      "vulgate": [
+        13
+      ],
+      "variant": "aligned",
+      "note": "εἶπεν / ܘܐܡܪ / ait"
+    },
+    {
+      "greek_nt": [
         17,
         18,
         19
       ],
       "peshitta": [
-        10,
         11
       ],
       "vulgate": [
-        12,
-        13
+        12
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the verb first (εἶπεν) followed by postpositive δὲ and subject ὁ βασιλεύς; Latin inverts to rex ait (subject-verb); Peshitta follows Semitic verb-subject order ܘܐܡܪ ܡܠܟܐ. The particle δὲ is omitted in both Peshitta and Vulgate as untranslatable discourse marker."
+      "type": "omission",
+      "note": "Greek marks the subject with article, the postpositive connective δέ, and noun (ὁ δὲ βασιλεὺς, 'but/now the king'); both the Peshitta ܡܠܟܐ and the Vulgate rex render only the bare noun 'king' without the adversative particle, a routine simplification in the versions."
     },
     {
       "greek_nt": [
@@ -214,7 +247,9 @@
         14,
         15
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek τῷ κορασίῳ and Latin puellæ are diminutive datives ('to the little girl'); the Peshitta ܠܛܠܝܬܐ (root T-l-y, 'to the young girl') is a functional equivalent. The Greek high point (·) and Latin colon mark the introduction of direct speech."
     },
     {
       "greek_nt": [
@@ -230,9 +265,8 @@
         17,
         18
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses imperative αἴτησόν with direct object με; Latin employs Pete a me (imperative with prepositional phrase); Peshitta uses imperative ܫܐܠܝ with prepositional object ܡܢܝ. Latin and Peshitta require prepositions where Greek uses accusative case alone."
+      "variant": "aligned",
+      "note": "αἴτησόν με / ܫܐܠܝ ܡܢܝ / Pete a me"
     },
     {
       "greek_nt": [
@@ -250,8 +284,8 @@
         20
       ],
       "variant": "minor",
-      "type": "gloss",
-      "note": "Greek uses relative pronoun ὃ with conditional particle ἐὰν and subjunctive θέλῃς; Latin employs quod vis (relative + indicative); Peshitta uses ܡܕܡ ܕܨܒܝܐ ܐܢܬܝ, adding the independent pronoun ܐܢܬܝ ('you') as subject for emphasis, a common Syriac clarification not required in Greek or Latin verb morphology."
+      "type": "construction",
+      "note": "Greek uses a conditional relative ὃ ἐὰν θέλῃς ('whatever you may wish'), Latin a simple relative quod vis ('what you wish'); the Peshitta ܡܕܡ ܕܨܒܝܐ ܐܢܬܝ ('the thing that you desire') employs the indefinite ܡܕܡ plus relative and the explicit feminine pronoun ܐܢܬܝ, making the addressee's gender overt where Greek and Latin leave it in the verb form."
     },
     {
       "greek_nt": [
@@ -269,15 +303,14 @@
         23,
         24
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Greek and Peshitta treat this as continuation of the same speech unit; Vulgate inserts a colon after tibi, creating a stronger pause. All three traditions use future tense (δώσω / dabo / ܘܐܬܠ) with dative/prepositional indirect object, semantically aligned despite punctuation variance."
+      "variant": "aligned",
+      "note": "καὶ δώσω σοι / ܘܐܬܠ ܠܟܝ / et dabo tibi"
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.981036+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.428589+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

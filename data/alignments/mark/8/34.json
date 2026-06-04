@@ -95,90 +95,138 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        1,
+        1
+      ],
+      "peshitta": [
+        0
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs an aorist middle participle (προσκαλεσάμενος, 'having summoned to himself'); the Vulgate matches with a passive participial ablative absolute (convocata turba). The Peshitta resolves the participle into a finite coordinated verb ܘܩܪܐ ('and he called'), a typical Syriac paratactic flattening of Greek subordination, and the Peshitta verb is already counted with the conjunction in this group."
+    },
+    {
+      "greek_nt": [],
+      "peshitta": [
+        1
+      ],
+      "vulgate": [],
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Peshitta explicitly supplies the subject ܝܫܘܥ ('Jesus'), which is only implicit in the Greek third-person verb and the Latin. This is a characteristic Syriac clarifying expansion naming the actor of the verb."
+    },
+    {
+      "greek_nt": [
         2,
         3
       ],
       "peshitta": [
-        1,
         2
       ],
       "vulgate": [
-        1,
         2
       ],
-      "variant": "major",
-      "type": "expansion",
-      "note": "The Peshitta explicitly names Jesus (ܝܫܘܥ) as the subject of the participle 'called,' whereas the Greek participle προσκαλεσάμενος and Latin convocata leave the subject implicit from narrative context. This represents a Syriac clarifying expansion typical of the Peshitta's tendency to make implicit subjects explicit."
+      "variant": "aligned",
+      "note": "ὄχλον / ܠܟܢܫܐ / turba."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        3
+      ],
+      "vulgate": [
+        3
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         5,
         6,
         7
       ],
       "peshitta": [
-        3,
         4
       ],
       "vulgate": [
-        3,
         4,
         5
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek uses the preposition σὺν with dative article-noun construction (σὺν τοῖς μαθηταῖς αὐτοῦ); Latin mirrors this with cum + ablative (cum discipulis suis); Syriac employs the preposition ܥܡ with a pronominal suffix on the noun (ܬܠܡܝܕܘܗܝ), a standard Semitic construction semantically equivalent but syntactically more compact."
+      "variant": "aligned",
+      "note": "μαθηταῖς αὐτοῦ / ܬܠܡܝܕܘܗܝ / discipulis suis; the Syriac fuses noun + possessive suffix into a single token."
     },
     {
       "greek_nt": [
-        8,
+        8
+      ],
+      "peshitta": [
+        5
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "note": "εἶπεν / ܘܐܡܪ / dixit; the Peshitta prefixes the coordinating conjunction, consistent with its paratactic style."
+    },
+    {
+      "greek_nt": [
         9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
-        6,
-        7
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        8
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate inserts a colon after eis to mark the beginning of direct discourse, a punctuation convention absent in the Greek and Peshitta manuscripts which rely on context alone."
-    },
-    {
-      "greek_nt": [
-        10,
-        11,
-        12
-      ],
-      "peshitta": [
         7,
         8
       ],
+      "variant": "aligned",
+      "note": "αὐτοῖς / ܠܗܘܢ / eis; the Vulgate colon (idx 8) renders the Greek high-point punctuation."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        7
+      ],
       "vulgate": [
-        9,
-        10,
+        9
+      ],
+      "variant": "aligned",
+      "note": "εἴ / ܡܢ / Si; the Syriac uses the relative-conditional ܡܢ ܕ ('whoever') rather than a true conditional particle."
+    },
+    {
+      "greek_nt": [
+        11
+      ],
+      "peshitta": [],
+      "vulgate": [
+        10
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek τις and Latin quis express the indefinite subject 'anyone'; the Peshitta encodes this notion within the relative construction ܡܢ ܕܨܒܐ ('whoever desires') and has no separate indefinite pronoun token."
+    },
+    {
+      "greek_nt": [
+        12
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
         11
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "θέλει / ܕܨܒܐ / vult."
     },
     {
       "greek_nt": [
@@ -195,48 +243,37 @@
         13
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the prepositional phrase ὀπίσω μου before the infinitive ἀκολουθεῖν; Latin inverts this to me sequi (accusative + infinitive); Syriac uses a compound construction ܕܢܐܬܐ ܒܬܪܝ ('that he come after me'), employing the verb 'come' with a prepositional phrase rather than a direct equivalent of 'follow,' though semantically aligned."
+      "type": "construction",
+      "note": "Greek reads ὀπίσω μου ἀκολουθεῖν ('to follow after me') with the verb ἀκολουθέω; the Peshitta renders ܕܢܐܬܐ ܒܬܪܝ ('to come after me') using the verb 'to come' (a-th-a) plus the adverb 'after', a Semitic idiom for discipleship. The Vulgate me sequi simplifies to the direct verb 'follow' without the spatial adverb."
     },
     {
       "greek_nt": [
-        16,
-        17
+        16
       ],
       "peshitta": [
-        11,
-        12
+        11
       ],
       "vulgate": [
-        14,
-        15
+        14
       ],
       "variant": "minor",
       "type": "lexical",
-      "note": "Greek ἀπαρνησάσθω ἑαυτὸν ('let him deny himself') uses the reflexive pronoun ἑαυτόν; Latin deneget semetipsum employs the intensive reflexive semetipsum; Syriac ܢܟܦܘܪ ܒܢܦܫܗ uses the prepositional phrase 'in his soul/self,' a characteristic Semitic idiom for self-denial that is semantically equivalent but syntactically distinct."
-    },
-    {
-      "greek_nt": [],
-      "peshitta": [],
-      "vulgate": [
-        16
-      ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "The Vulgate again inserts a colon to separate the first imperative from the following coordinate imperatives, a stylistic punctuation choice not reflected in Greek or Syriac manuscript traditions."
+      "note": "Greek ἀπαρνησάσθω ('let him utterly deny') and Latin deneget render self-renunciation; the Peshitta uses the root k-p-r (ܢܟܦܘܪ), which carries the sense 'to deny, repudiate, disown' and is cognate with Hebrew כָּפַר, a slightly stronger covenantal nuance of disavowal."
     },
     {
       "greek_nt": [
+        17,
         18
       ],
       "peshitta": [
-        13
+        12
       ],
       "vulgate": [
-        17
+        15,
+        16
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "ἑαυτὸν / ܒܢܦܫܗ / semetipsum; the Syriac literally reads 'in his soul/self' (n-p-sh), idiomatic for the reflexive. The Vulgate colon (idx 16) and the following Greek καί are clausal connectors."
     },
     {
       "greek_nt": [
@@ -250,13 +287,13 @@
         14
       ],
       "vulgate": [
+        17,
         18,
         19,
         20
       ],
-      "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses the article τὸν with the noun σταυρὸν αὐτοῦ ('his cross'); Latin tollat crucem suam mirrors this with possessive adjective; Syriac ܢܫܩܘܠ ܙܩܝܦܗ employs a pronominal suffix directly on the noun (ܙܩܝܦܗ, 'his cross'), the standard Semitic possessive construction, semantically identical but morphologically integrated."
+      "variant": "aligned",
+      "note": "ἀράτω τὸν σταυρὸν αὐτοῦ / ܘܢܫܩܘܠ ܙܩܝܦܗ / et tollat crucem suam; the Syriac ܙܩܝܦܗ derives from z-q-p ('to set upright, crucify') with possessive suffix, fusing 'cross' + 'his'."
     },
     {
       "greek_nt": [
@@ -275,13 +312,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses the present imperative ἀκολουθείτω μοι ('let him follow me'); Latin sequatur me employs the present subjunctive in a parallel construction; Syriac ܘܢܐܬܐ ܒܬܪܝ again uses the verb 'come' with the prepositional phrase 'after me' rather than a direct cognate of 'follow,' maintaining semantic equivalence through idiomatic Syriac expression."
+      "note": "Greek and Latin close with the verb 'follow' (ἀκολουθείτω μοι / sequatur me); the Peshitta again employs ܘܢܐܬܐ ܒܬܪܝ ('and let him come after me'), repeating the come-after-me discipleship idiom rather than a verb of following, maintaining internal Syriac stylistic consistency with the earlier clause."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.998934+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.427437+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

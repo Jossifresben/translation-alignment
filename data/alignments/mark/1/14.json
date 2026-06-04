@@ -67,54 +67,38 @@
       "greek_nt": [
         0
       ],
-      "peshitta": [],
-      "vulgate": [],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek Καὶ (G2532, 'and') is omitted in both Peshitta and Vulgate, which begin the pericope without an initial conjunction, treating this as a new narrative unit rather than a continuation."
+      "variant": "added",
+      "type": "expansion",
+      "note": "The Greek opens with a coordinating καί (G2532) reinforcing the connective δέ, a redundant Markan stylistic doubling. Neither the Peshitta nor the Vulgate render an initial conjunction here, beginning instead directly with the temporal clause."
     },
     {
       "greek_nt": [
-        1
-      ],
-      "peshitta": [
-        0
-      ],
-      "vulgate": [
-        0
-      ],
-      "variant": "aligned",
-      "type": "agreement"
-    },
-    {
-      "greek_nt": [
-        2
-      ],
-      "peshitta": [
-        2
-      ],
-      "vulgate": [
-        1
-      ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek δὲ (G1161, postpositive conjunction) appears after μετὰ; Peshitta ܕܝܢ and Vulgate autem both follow their respective temporal markers, reflecting standard postpositive positioning in each language tradition."
-    },
-    {
-      "greek_nt": [
+        1,
         3,
         4
       ],
       "peshitta": [
+        0,
         1
       ],
       "vulgate": [
-        2,
-        3
+        0
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses articular infinitive construction (τὸ παραδοθῆναι, aorist passive infinitive with article); Peshitta employs ܕܐܫܬܠܡ (relative particle + Ethpeal perfect); Vulgate uses passive perfect participle traditus est — three syntactically distinct but semantically equivalent passive constructions."
+      "note": "Greek expresses the temporal clause with the preposition μετά + articular aorist infinitive (τὸ παραδοθῆναι); the Peshitta uses the preposition ܒܬܪ ('after') governing a finite verb ܕܐܫܬܠܡ, while the Vulgate compresses both into the single subordinating conjunction Postquam ('after'). All three are semantically equivalent renderings of the temporal protasis."
+    },
+    {
+      "greek_nt": [
+        2
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        1
+      ],
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -125,23 +109,28 @@
         3
       ],
       "vulgate": [
+        2,
+        3,
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek substantivises the participle clause around τὸν Ἰωάννην as accusative subject of the passive infinitive; the Vulgate supplies a full periphrastic passive traditus est Joannes ('John was delivered up'), while the Peshitta renders the verb finitely with ܝܘܚܢܢ as subject. The differences are purely structural, reflecting each language's preferred passive syntax."
     },
     {
       "greek_nt": [
         7
       ],
       "peshitta": [
-        4
+        4,
+        5
       ],
       "vulgate": [
         5
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "idiom",
+      "note": "Greek ἦλθεν and Latin venit render the simple aorist/perfect 'came', whereas the Peshitta employs the characteristic Syriac ethic dative ܐܬܐ ܠܗ ('came for himself'), a reflexive intensifier that adds no propositional content but is idiomatic in Aramaic narrative."
     },
     {
       "greek_nt": [
@@ -149,15 +138,12 @@
         9
       ],
       "peshitta": [
-        5,
         6
       ],
       "vulgate": [
         6
       ],
-      "variant": "minor",
-      "type": "gloss",
-      "note": "Peshitta inserts ܠܗ ('to him' or dative pronoun) before ܝܫܘܥ, an explanatory addition clarifying the subject or providing stylistic emphasis; absent in both Greek (which uses article ὁ with Ἰησοῦς) and Vulgate (bare Jesus)."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -173,7 +159,7 @@
         8
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "note": "Greek and Latin use the preposition εἰς / in + accusative for motion toward; the Peshitta prefixes the directive ܠ- to ܓܠܝܠܐ, the standard Syriac allative construction conveying the same destination."
     },
     {
       "greek_nt": [
@@ -187,8 +173,8 @@
         9
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses present active participle κηρύσσων (G2784, adverbial/circumstantial); Peshitta employs periphrastic construction ܘܡܟܪܙ ܗܘܐ (active participle + auxiliary verb 'was'); Vulgate uses simple present active participle prædicans — functionally equivalent but syntactically distinct participial strategies."
+      "type": "grammar",
+      "note": "Greek κηρύσσων and Latin prædicans are present participles ('proclaiming'); the Peshitta renders the durative aspect with ܘܡܟܪܙ ܗܘܐ, a periphrastic participle plus the auxiliary ܗܘܐ, expressing the same continuous past action through Syriac compound verbal syntax."
     },
     {
       "greek_nt": [
@@ -201,43 +187,32 @@
       "vulgate": [
         10
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
         16,
-        17
-      ],
-      "peshitta": [
-        11
-      ],
-      "vulgate": [
-        11
-      ],
-      "variant": "major",
-      "type": "substitution",
-      "note": "Greek reads τῆς βασιλείας ('of the kingdom', genitive article + noun); Peshitta has ܕܡܠܟܘܬܗ ('of his kingdom', with third-person possessive suffix); Vulgate reads regni (bare genitive 'of kingdom'). The Peshitta's possessive suffix introduces an explicit Christological or divine referent absent in the Greek and Latin witnesses."
-    },
-    {
-      "greek_nt": [
+        17,
         18,
         19
       ],
       "peshitta": [
+        11,
         12
       ],
       "vulgate": [
+        11,
         12
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "grammar",
+      "note": "Greek and Latin read 'the kingdom of God' (τῆς βασιλείας τοῦ θεοῦ / regni Dei) as two distinct genitive nouns. The Peshitta ܕܡܠܟܘܬܗ ܕܐܠܗܐ employs an anticipatory pronominal suffix ('his kingdom, namely of God'), the proleptic possessive construction typical of Syriac genitive expressions, semantically identical but morphologically condensed."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:07.945099+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.522682+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

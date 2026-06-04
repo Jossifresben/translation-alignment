@@ -62,11 +62,12 @@
         0
       ],
       "vulgate": [
-        0
+        0,
+        1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek uses simple conjunction καί ('and'), while Vulgate employs cum ('when') with subjunctive esset, creating a temporal clause. Peshitta ܘܟܕ ('and when') combines both functions, closer to the Vulgate's temporal construction than to the Greek's paratactic style."
+      "type": "construction",
+      "note": "Greek opens with coordinating καί plus a genitive absolute (ὄντος); the Vulgate splits this into Et + cum (subordinating conjunction), while the Peshitta fuses both into the single proclitic ܘܟܕ ('and when'). All three express the same temporal-circumstantial clause through different syntactic means."
     },
     {
       "greek_nt": [
@@ -76,9 +77,9 @@
       "vulgate": [
         2
       ],
-      "variant": "omitted",
-      "type": "omission",
-      "note": "Greek genitive absolute ὄντος ('being') and Vulgate subjunctive esset ('was') both express the circumstantial temporal clause explicitly. The Peshitta omits any verbal copula, relying on the temporal particle ܟܕ alone to establish the circumstantial relationship—a typical Syriac ellipsis of the verb 'to be' in participial constructions."
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek employs a present participle (ὄντος) within a genitive absolute; the Vulgate renders it with the imperfect subjunctive esset governed by cum. The Peshitta carries no separate verb of being, the copular sense being absorbed into the ܘܟܕ construction, hence no Syriac token aligns here."
     },
     {
       "greek_nt": [
@@ -91,29 +92,40 @@
       "vulgate": [
         3
       ],
-      "variant": "major",
+      "variant": "minor",
       "type": "substitution",
-      "note": "Greek uses the article + proper name τοῦ Πέτρου ('Peter') in genitive absolute construction. Peshitta substitutes ܫܡܥܘܢ ('Simon'), employing Peter's Semitic birth name rather than his Greek epithet—a characteristic Peshitta preference for Semitic nomenclature. Vulgate retains the Greek form Petrus."
+      "note": "Greek and Latin transmit the apostolic name Πέτρου / Petrus ('Peter'), but the Peshitta retains the Semitic personal name ܫܡܥܘܢ ('Simon'), reflecting the Syriac tradition's preference for the original Aramaic name over the Greek epithet."
     },
     {
       "greek_nt": [
-        4,
+        4
+      ],
+      "peshitta": [
+        2
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "κάτω / ܠܬܚܬ / deorsum ('below, beneath')."
+    },
+    {
+      "greek_nt": [
         5,
         6,
         7
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
         4,
-        5,
-        6
+        5
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the adverb κάτω ('below') before the prepositional phrase ἐν τῇ αὐλῇ ('in the courtyard'), emphasizing vertical location. Vulgate inverts this to in atrio deorsum ('in the courtyard below'), placing location before direction. Peshitta ܠܬܚܬ ܒܕܪܬܐ ('below in the courtyard') follows Greek word order, though both traditions convey identical spatial semantics through different syntactic arrangements."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "ἐν τῇ αὐλῇ / ܒܕܪܬܐ / in atrio ('in the courtyard')."
     },
     {
       "greek_nt": [
@@ -126,26 +138,38 @@
         7
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "ἔρχεται / ܐܬܬ / venit ('comes')."
     },
     {
       "greek_nt": [
-        9,
+        9
+      ],
+      "peshitta": [
+        6
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "μία / ܚܕܐ / una ('one')."
+    },
+    {
+      "greek_nt": [
         10,
         11
       ],
       "peshitta": [
-        5,
-        6
+        5
       ],
       "vulgate": [
-        8,
         9,
         10
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek places the numeral before the noun (μία τῶν παιδισκῶν, 'one of the servant-girls'), matching Vulgate una ex ancillis. Peshitta inverts to ܥܠܝܡܬܐ ܚܕܐ ('servant-girl one'), placing the numeral in post-position—standard Semitic attributive syntax where numerals follow their head nouns."
+      "variant": "aligned",
+      "type": "agreement",
+      "note": "τῶν παιδισκῶν / ܥܠܝܡܬܐ / ex ancillis ('of the servant-girls')."
     },
     {
       "greek_nt": [
@@ -161,7 +185,8 @@
         12
       ],
       "variant": "aligned",
-      "type": "agreement"
+      "type": "agreement",
+      "note": "τοῦ ἀρχιερέως / ܕܪܒ ܟܗܢܐ / summi sacerdotis ('of the high priest')."
     },
     {
       "greek_nt": [],
@@ -169,15 +194,15 @@
       "vulgate": [
         13
       ],
-      "variant": "added",
+      "variant": "minor",
       "type": "punctuation",
-      "note": "Vulgate adds a colon (:) to mark the transition to direct discourse in the following verse. Neither Greek nor Peshitta manuscripts employ this punctuation convention at this juncture, though the semantic boundary remains implicit in all three traditions."
+      "note": "The Clementine Vulgate closes the clause with a colon, anticipating the direct discourse that follows; the Greek closes with a period and the Peshitta carries no terminal punctuation, a purely editorial difference with no bearing on the text."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.045241+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.537310+00:00",
+    "confidence": 0.9,
     "schema_version": 1
   }
 }

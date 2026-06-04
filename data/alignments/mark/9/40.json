@@ -53,8 +53,7 @@
       "vulgate": [
         0
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -67,44 +66,60 @@
         1
       ],
       "variant": "minor",
-      "type": "substitution",
-      "note": "Greek γὰρ and Latin enim are standard causal conjunctions, while Peshitta uses ܗܟܝܠ (hākīl, 'therefore'), an inferential particle that shifts the logical nuance from explanation to conclusion."
+      "note": "Greek γάρ and Latin enim are sentence-second postpositive connectives, while Syriac ܗܟܝܠ ('therefore/then') occupies a later slot in the clause; all three mark logical inference but the Syriac particle leans slightly more consecutive than causal."
     },
     {
       "greek_nt": [
         2,
-        3,
+        3
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        2,
+        3
+      ],
+      "variant": "minor",
+      "note": "Greek negates the copula directly (οὐκ ἔστιν) and Latin mirrors this (non est), whereas Syriac fronts the negation with relative ܕܠܐ ('who not') and supplies the perfect/copular ܗܘܐ; the Syriac construction is a periphrastic relative clause but semantically equivalent."
+    },
+    {
+      "greek_nt": [
         4,
         5
       ],
       "peshitta": [
-        1,
-        2,
         4
       ],
       "vulgate": [
-        2,
-        3,
-        4
+        4,
+        5
       ],
       "variant": "major",
-      "type": "grammar",
-      "note": "Greek uses first-person plural ἡμῶν ('us'), matching the disciples' perspective in the narrative context. Peshitta and Vulgate both shift to second-person plural (ܠܘܩܒܠܟܘܢ / vos, 'you'), directly addressing the audience and altering the rhetorical stance from reported speech to direct application."
+      "note": "Greek and Latin read the first-person plural ('against us': καθ᾽ ἡμῶν / adversum vos in the Vulgate already shifts to second person), but the Syriac ܠܘܩܒܠܟܘܢ is unambiguously second person plural ('against you'); this reflects the well-known textual variation in Luke 9:50 / Mark 9:40 between ἡμῶν and ὑμῶν, with the versions split."
     },
     {
       "greek_nt": [
-        6,
+        6
+      ],
+      "vulgate": [
+        6
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         7
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
-        6,
         7
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "major",
+      "note": "The Greek ὑπὲρ ἡμῶν ('for us', first person) again diverges from the Syriac ܚܠܦܝܟܘܢ ('for you', second person) and the Latin pro vobis ('for you'); the person-of-pronoun variant runs consistently through both halves of the antithesis, with Greek preserving first person against the versions' second person."
     },
     {
       "greek_nt": [
@@ -117,14 +132,13 @@
         8
       ],
       "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Latin place the copula clause-finally (ἐστιν / est), while Peshitta fronts the pronoun ܗܘ ('he is') for emphasis, a common Semitic topicalisation strategy."
+      "note": "Greek ἐστιν and Latin est are finite copulas, while the Syriac employs the enclitic pronoun-copula ܗܘ functioning predicatively; this is a routine construction difference rather than a semantic divergence."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T21:02:12.236068+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.500896+00:00",
+    "confidence": 0.8,
     "schema_version": 1
   }
 }

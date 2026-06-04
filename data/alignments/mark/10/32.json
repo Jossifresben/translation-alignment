@@ -107,20 +107,30 @@
   "alignment": [
     {
       "greek_nt": [
-        0,
+        0
+      ],
+      "peshitta": [
+        1,
+        2
+      ],
+      "vulgate": [
+        0
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek opens with the imperfect Ἦσαν ('they were') governing the participle ἀναβαίνοντες in a periphrastic construction; the Peshitta inverts the sequence, fronting the participle ܣܠܩܝܢ with the auxiliary ܗܘܘ following, and prefaces the whole with the temporal subordinator ܟܕ ('while'). Latin Erant matches the Greek finite verb directly."
+    },
+    {
+      "greek_nt": [
         1
       ],
       "peshitta": [
-        2,
         3
       ],
       "vulgate": [
-        0,
         1
       ],
-      "variant": "minor",
-      "type": "word-order",
-      "note": "Greek and Vulgate place the copula first (Ἦσαν δὲ / Erant autem), while Peshitta places the auxiliary ܗܘܘ after the participle ܣܠܩܝܢ, reflecting typical Syriac periphrastic construction with the participle preceding the auxiliary."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
@@ -136,77 +146,108 @@
         3
       ],
       "variant": "minor",
-      "type": "construction",
-      "note": "Greek uses prepositional phrase with article (ἐν τῇ ὁδῷ), Vulgate mirrors this (in via), while Peshitta employs the preposition ܒ with definite state noun ܒܐܘܪܚܐ without separate article, as Syriac marks definiteness morphologically rather than with a free-standing article."
+      "type": "grammar",
+      "note": "Greek ἐν τῇ ὁδῷ and Latin in via render the prepositional phrase analytically with the definite article; Syriac ܒܐܘܪܚܐ fuses preposition, noun, and inherent determination into a single inflected form, the emphatic state supplying the definiteness expressed by the Greek article."
     },
     {
       "greek_nt": [
         5
       ],
       "peshitta": [
-        0,
-        1
+        1,
+        2
       ],
       "vulgate": [
         4
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek and Vulgate use present participles (ἀναβαίνοντες / ascendentes) without temporal marker, while Peshitta employs the temporal particle ܟܕ ('while/when') with the participle ܣܠܩܝܢ, making the temporal relationship more explicit through a subordinate clause construction."
+      "note": "The Greek present participle ἀναβαίνοντες and Latin ascendentes function as predicate participles within the periphrastic 'they were going up'; the Syriac realises the same idea through the participle ܣܠܩܝܢ plus auxiliary ܗܘܘ already counted at the verse opening, so the alignment reflects shared lexical content with divergent clausal placement."
     },
     {
       "greek_nt": [
         6,
-        7
+        7,
+        8
       ],
       "peshitta": [
         5
       ],
       "vulgate": [
         5
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek uses εἰς + accusative Ἱεροσόλυμα ('to Jerusalem') and Latin the bare allative accusative Jerosolymam; Syriac ܠܐܘܪܫܠܡ prefixes the directional ܠ to the toponym, a single token absorbing the preposition. The parenthetical transliteration in the Greek input is editorial and carries no textual weight."
+    },
+    {
+      "greek_nt": [
+        9
+      ],
+      "peshitta": [
+        9
+      ],
+      "vulgate": [
+        8
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἦν προάγων is overtly periphrastic (imperfect of εἰμί + present participle); Latin collapses this into the single imperfect præcedebat, while Syriac employs ܩܕܝܡ ܗܘܐ, again periphrastic with the verb 'to be'. All express durative leading-on-before, differing only in analytic versus synthetic encoding."
+    },
+    {
+      "greek_nt": [
+        10
+      ],
+      "peshitta": [
+        8
+      ],
+      "vulgate": [
+        8
       ],
       "variant": "aligned"
     },
     {
       "greek_nt": [
-        8
+        11
       ],
-      "peshitta": [],
+      "peshitta": [
+        10
+      ],
       "vulgate": [
-        6,
-        7
+        9
       ],
-      "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate inserts a colon after Jerosolymam, creating a stronger pause than the Greek comma, while Peshitta continues without punctuation. This reflects Latin rhetorical preference for marking major clause boundaries more explicitly than either Greek or Syriac."
+      "variant": "aligned"
     },
     {
       "greek_nt": [
-        9,
-        10,
-        11,
         12,
         13
       ],
       "peshitta": [
         6,
-        7,
-        8,
-        9,
-        10
+        7
       ],
       "vulgate": [
-        8,
-        9,
         10
       ],
       "variant": "minor",
       "type": "word-order",
-      "note": "Greek places the subject ὁ Ἰησοῦς after the verb and participle (ἦν προάγων αὐτοὺς ὁ Ἰησοῦς), Vulgate follows similar order (præcedebat illos Jesus), while Peshitta fronts the subject pronoun and name (ܗܘ ܝܫܘܥ) before the verb ܩܕܝܡ ܗܘܐ, reflecting Syriac preference for subject-initial clauses in narrative."
+      "note": "Greek marks the subject with article + name (ὁ Ἰησοῦς) placed after the participle; Syriac fronts the independent pronoun ܗܘ before ܝܫܘܥ as an emphatic resumptive ('he, Jesus'); Latin gives the bare Jesus. The differences are stylistic markers of subject prominence, not semantic divergences."
     },
     {
       "greek_nt": [
-        14,
+        14
+      ],
+      "peshitta": [
+        11
+      ],
+      "vulgate": [
+        11
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
         15
       ],
       "peshitta": [
@@ -214,13 +255,11 @@
         12
       ],
       "vulgate": [
-        11,
-        12,
-        13
+        12
       ],
       "variant": "minor",
-      "type": "punctuation",
-      "note": "Vulgate again inserts a colon after stupebant, creating a tripartite structure with three major pauses, while Greek uses a semicolon and Peshitta continues with coordinating ܘ. The Vulgate's punctuation emphasizes the three distinct reactions (going up, being amazed, being afraid) as separate rhetorical units."
+      "type": "construction",
+      "note": "Greek ἐθαμβοῦντο and Latin stupebant are simple imperfect passives ('they were amazed'); Syriac renders this with the participle ܘܡܬܬܡܗܝܢ plus auxiliary ܗܘܘ, an Ethpaal periphrasis conveying the same durative astonishment by analytic means."
     },
     {
       "greek_nt": [
@@ -231,8 +270,7 @@
       "peshitta": [
         13,
         14,
-        15,
-        16
+        15
       ],
       "vulgate": [
         14,
@@ -240,19 +278,22 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + δὲ + participle (οἱ δὲ ἀκολουθοῦντες) to mark a new subject, Vulgate uses coordinating et + participle (et sequentes), while Peshitta employs a full periphrastic construction with temporal ܟܕ and auxiliary verbs (ܘܐܙܠܝܢ ܗܘܘ ܒܬܪܗ ܟܕ), making the continuous action more explicit."
+      "note": "Greek substantivises the participle with article and connective δέ (οἱ δὲ ἀκολουθοῦντες, 'and those following'); Latin gives the bare participle et sequentes; Syriac recasts the clause finitely as ܘܐܙܠܝܢ ܗܘܘ ܒܬܪܗ ('and they were going after him'), supplying an explicit verb of motion plus pronominal object where the Greek and Latin use a single participial substantive."
     },
     {
       "greek_nt": [
         19
       ],
       "peshitta": [
+        16,
         17
       ],
       "vulgate": [
         16
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek ἐφοβοῦντο and Latin timebant stand as a finite imperfect of fear; the Peshitta subordinates the same notion with ܟܕ ܕܚܝܠܝܢ ('while [they were] afraid'), turning the third coordinate clause into a temporal-circumstantial participial phrase headed by ܟܕ. The Greek paragraph marker ¶ is editorial."
     },
     {
       "greek_nt": [
@@ -264,7 +305,9 @@
       "vulgate": [
         17
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek and Latin open the new sentence with the coordinating conjunction Καὶ / Et governing a following aorist participle; Syriac fuses conjunction and verb into ܘܕܒܪ ('and he took'), expressing as a finite verb what the Greek παραλαβών renders participially."
     },
     {
       "greek_nt": [
@@ -276,19 +319,20 @@
       "vulgate": [
         18
       ],
-      "variant": "aligned"
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek aorist participle παραλαβών and Latin present participle assumens express the circumstantial 'having taken/taking'; Syriac ܘܕܒܪ (already counted with the conjunction) is a finite perfect, reflecting the Syriac preference for paratactic finite verbs over Greek participial subordination."
     },
     {
       "greek_nt": [
         22
       ],
-      "peshitta": [],
       "vulgate": [
         19
       ],
-      "variant": "minor",
+      "variant": "omitted",
       "type": "omission",
-      "note": "Greek and Vulgate include the adverb πάλιν / iterum ('again'), referencing earlier passion predictions (Mark 8:31, 9:31), while Peshitta omits this temporal marker. The omission may reflect a Syriac tendency to avoid redundancy when context makes the repetition clear."
+      "note": "Greek πάλιν ('again') and Latin iterum explicitly mark the repetition of the passion prediction; the Peshitta has no corresponding adverb, omitting the connection to the earlier predictions (cf. Mark 8:31; 9:31). This is a characteristic Syriac economising of redundant Greek particles."
     },
     {
       "greek_nt": [
@@ -303,25 +347,45 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses article + numeral (τοὺς δώδεκα) as a substantive, Vulgate uses bare numeral duodecim, while Peshitta employs a possessive suffix construction ܠܬܪܥܣܪܬܗ ('to his twelve'), making the relationship to Jesus more explicit through the pronominal suffix."
+      "note": "Greek τοὺς δώδεκα and Latin duodecim render 'the Twelve' analytically with a determiner; Syriac ܠܬܪܥܣܪܬܗ fuses the directional/object marker ܠ, the numeral, and a third-person pronominal suffix ('his twelve'), the suffix adding a possessive nuance absent from the Greek and Latin."
     },
     {
       "greek_nt": [
-        25,
-        26,
-        27
+        25
       ],
       "peshitta": [
-        20,
-        21,
+        20
+      ],
+      "vulgate": [
+        21
+      ],
+      "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        26
+      ],
+      "peshitta": [
         22
       ],
       "vulgate": [
-        21,
-        22,
-        23
+        22
       ],
       "variant": "aligned"
+    },
+    {
+      "greek_nt": [
+        27
+      ],
+      "peshitta": [
+        21
+      ],
+      "vulgate": [
+        23
+      ],
+      "variant": "minor",
+      "type": "construction",
+      "note": "Greek λέγειν and Latin dicere are bare complementary infinitives after the verb of beginning; Syriac ܕܢܐܡܪ employs an imperfect prefixed with the subordinator ܕ, the standard Syriac substitute for the Greek infinitive in complement position."
     },
     {
       "greek_nt": [
@@ -344,13 +408,13 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek uses articular participle construction (τὰ μέλλοντα αὐτῷ συμβαίνειν), Vulgate employs relative clause with subjunctive (quæ essent ei eventura), while Peshitta uses indefinite pronoun ܡܕܡ ('something') with relative particle ܕ and active participle (ܡܕܡ ܕܥܬܝܕ ܕܢܗܘܐ ܠܗ). All three express futurity but through different syntactic strategies: Greek through μέλλω + infinitive, Latin through periphrastic subjunctive, Syriac through ܥܬܝܕ + infinitive."
+      "note": "Greek substantivises with article + participle (τὰ μέλλοντα αὐτῷ συμβαίνειν, 'the things about to happen to him'); Latin uses a relative clause with subjunctive (quæ essent ei eventura); Syriac employs an indefinite head ܡܕܡ ('something/that which') followed by the relative ܕܥܬܝܕ ܕܢܗܘܐ ܠܗ ('which was destined to be to him'), a double-headed relative construction. All three convey the impending passion identically by syntactically distinct means."
     }
   ],
   "meta": {
-    "generated_by": "claude-sonnet-4-5",
-    "generated_at": "2026-04-22T12:17:08.012028+00:00",
-    "confidence": 0.88,
+    "generated_by": "claude-opus-4-8",
+    "generated_at": "2026-06-04T10:36:29.500211+00:00",
+    "confidence": 0.83,
     "schema_version": 1
   }
 }
