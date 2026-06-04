@@ -991,6 +991,8 @@ a.brand:hover .brand-mark {
 }
 a.notes-item:hover { color: var(--rubric); cursor: pointer; }
 a.notes-item:hover::after { transform: translateX(3px); color: var(--rubric); }
+.notes-item-seg { unicode-bidi: isolate; }
+.notes-item-sep { color: var(--ink-4); padding: 0 2px; }
 
 /* ─── Tweaks panel ────────────────────────────────────────── */
 

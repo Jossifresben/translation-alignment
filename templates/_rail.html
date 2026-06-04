@@ -32,7 +32,7 @@
     {% for v in verse.variants %}
       <a class="notes-item"
          href="{{ localized_url_for('verse', book=verse.book|lower, chapter=verse.chapter, verse=verse.verse, view='apparatus', variant=v.id) }}#variant-{{ v.id }}"
-         data-variant-link="{{ v.id }}">{{ v.title }}</a>
+         data-variant-link="{{ v.id }}">{% if v.title is string %}{{ v.title }}{% else %}{% for p in v.title %}<span class="notes-item-seg" dir="{{ p.dir }}">{{ p.text }}</span>{% if not loop.last %}<span class="notes-item-sep"> · </span>{% endif %}{% endfor %}{% endif %}</a>
     {% endfor %}
   </div>
   {% endif %}
