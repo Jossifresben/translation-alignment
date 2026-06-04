@@ -96,6 +96,18 @@ def _extract_json(text: str) -> dict:
         raise
 
 
+def _model_kwargs(effort: str | None) -> dict:
+    """Return the model-specific knob.
+
+    Newer models (e.g. Opus 4.8) take an `output_config.effort` level and
+    DEPRECATE `temperature`. Older models (Sonnet 4.5, Opus 4.5) take
+    `temperature`. The two are mutually exclusive, so we pick one here.
+    """
+    if effort:
+        return {"output_config": {"effort": effort}}
+    return {"temperature": 0.1}
+
+
 def call_claude_sync(
     client,
     model: str,
@@ -103,6 +115,7 @@ def call_claude_sync(
     few_shot: list[dict],
     user_msg: str,
     retry_on_bad_json: bool = True,
+    effort: str | None = None,
 ) -> dict:
     messages: list[dict] = []
     for ex in few_shot:
@@ -115,7 +128,6 @@ def call_claude_sync(
     response = client.messages.create(
         model=model,
         max_tokens=4000,
-        temperature=0.1,
         system=[
             {
                 "type": "text",
@@ -124,6 +136,7 @@ def call_claude_sync(
             }
         ],
         messages=messages,
+        **_model_kwargs(effort),
     )
     text = response.content[0].text
     try:
@@ -138,7 +151,6 @@ def call_claude_sync(
         response = client.messages.create(
             model=model,
             max_tokens=4000,
-            temperature=0.1,
             system=[
                 {
                     "type": "text",
@@ -147,6 +159,7 @@ def call_claude_sync(
                 }
             ],
             messages=messages,
+            **_model_kwargs(effort),
         )
         return _extract_json(response.content[0].text)
 
@@ -190,6 +203,7 @@ def generate_one_verse(
     model: str,
     system_prompt: str,
     few_shot: list[dict],
+    effort: str | None = None,
 ) -> dict:
     greek = corpora.get("greek_nt").get(book, chapter, verse) or ""
     peshitta = corpora.get("peshitta").get(book, chapter, verse) or ""
@@ -220,7 +234,7 @@ def generate_one_verse(
     }
     user_msg = build_user_message(greek_tokens, peshitta_tokens, vulgate_tokens, enrichment)
 
-    raw = call_claude_sync(client, model, system_prompt, few_shot, user_msg)
+    raw = call_claude_sync(client, model, system_prompt, few_shot, user_msg, effort=effort)
 
     traditions = {
         "greek_nt": {"tokens": greek_tokens} if greek_tokens else {"absent": True},
@@ -288,10 +302,13 @@ def build_batch_requests(
     few_shot: list[dict],
     force: bool = False,
     chapter_filter: int | None = None,
+    effort: str | None = None,
 ) -> list[dict]:
     """One request per Mark verse that lacks a valid JSON (unless force=True).
 
     If chapter_filter is given, restrict to that chapter only.
+    If effort is given (e.g. 'medium'), use output_config.effort instead of
+    temperature (required for models like Opus 4.8 where temperature is deprecated).
     """
     requests = []
     master = corpora.get("greek_nt")
@@ -347,7 +364,7 @@ def build_batch_requests(
                 "params": {
                     "model": model,
                     "max_tokens": 4000,
-                    "temperature": 0.1,
+                    **_model_kwargs(effort),
                     "system": [
                         {"type": "text", "text": system_prompt,
                          "cache_control": {"type": "ephemeral"}}
@@ -417,6 +434,11 @@ def main() -> None:
                          "overwriting prod when comparing models.")
     ap.add_argument("--chapter", type=int, default=None,
                     help="Restrict --full to one chapter only.")
+    ap.add_argument("--effort", default=None,
+                    choices=["low", "medium", "high", "xhigh", "max"],
+                    help="Use output_config.effort instead of temperature "
+                         "(required for models where temperature is deprecated, "
+                         "e.g. Opus 4.8).")
     args = ap.parse_args()
 
     client, corpora, greek_enrich, peshitta_enrich = _load_all(args.data_dir)
@@ -434,14 +456,16 @@ def main() -> None:
     elif args.verse:
         book, ch, v = args.verse[0], int(args.verse[1]), int(args.verse[2])
         data = generate_one_verse(client, corpora, greek_enrich, peshitta_enrich,
-                                   book, ch, v, args.model, system_prompt, few_shot)
+                                   book, ch, v, args.model, system_prompt, few_shot,
+                                   effort=args.effort)
         path = save_alignment(data, out_root)
         logger.info("Wrote %s", path)
     elif args.full:
         requests = build_batch_requests(corpora, greek_enrich, peshitta_enrich,
                                          out_root, args.model, system_prompt,
                                          few_shot, force=args.force,
-                                         chapter_filter=args.chapter)
+                                         chapter_filter=args.chapter,
+                                         effort=args.effort)
         if not requests:
             logger.info("No verses to generate. Use --force to regenerate existing.")
             return
