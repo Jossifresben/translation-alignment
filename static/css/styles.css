@@ -1783,3 +1783,34 @@ body.dark::before {
   margin: 0;
   cursor: pointer;
 }
+
+/* --- Verse-page AI-draft disclaimer banner --- */
+.verse-disclaimer {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0 0;
+  padding: 9px 14px;
+  background: var(--rubric-soft);
+  border-left: 3px solid var(--rubric);
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+.verse-disclaimer-mark {
+  color: var(--rubric);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+.verse-disclaimer-text { flex: 1; min-width: 0; }
+.verse-disclaimer-link {
+  color: var(--rubric);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rubric-soft);
+  transition: border-color 0.12s;
+  white-space: nowrap;
+}
+.verse-disclaimer-link:hover { border-bottom-color: var(--rubric); }

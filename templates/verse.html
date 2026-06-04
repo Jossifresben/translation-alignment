@@ -9,6 +9,12 @@
   {% set grid = build_grid(verse) %}
   {% set stats = verse_stats(verse, grid) %}
 
+  <aside class="verse-disclaimer" role="note">
+    <span class="verse-disclaimer-mark" aria-hidden="true">⚠</span>
+    <span class="verse-disclaimer-text">{{ t('verse.disclaimer_text') }}</span>
+    <a class="verse-disclaimer-link" href="{{ localized_url_for('about') }}#methodology-validation">{{ t('verse.disclaimer_link') }}</a>
+  </aside>
+
   <section class="verse-nav">
     <div class="verse-ref">
       <div class="verse-breadcrumb">

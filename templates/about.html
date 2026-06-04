@@ -32,7 +32,7 @@
   <p>{{ t('about.methodology_p2') }}</p>
 
   {% if benchmark %}
-    <h2>{{ t('about.h2_validation') }}</h2>
+    <h2 id="methodology-validation">{{ t('about.h2_validation') }}</h2>
     <p>{{ t('about.validation_p1',
             sample_size=benchmark.sample_size,
             total_tokens=benchmark.total_tokens,

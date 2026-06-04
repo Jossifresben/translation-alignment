@@ -63,7 +63,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek employs the article τοῦ with genitive εὐαγγελίου (neuter); Syriac and Latin use construct state and genitive respectively without article, a standard difference in definiteness marking across these languages."
+      "note": "Greek marks the genitive analytically with the article + ending (τοῦ εὐαγγελίου); the Peshitta uses the proclitic ܕ- (dalath, genitive/relative particle) on ܐܘܢܓܠܝܘܢ; the Vulgate uses inflection alone (Evangelii). A standard divergence in how each language realises adnominal genitive. [Patched in corpus v1.0.0 — original output mis-classified the Syriac construction as 'construct state'.]"
     },
     {
       "greek_nt": [
@@ -91,8 +91,9 @@
       "vulgate": [
         4
       ],
-      "variant": "aligned",
-      "type": "agreement"
+      "variant": "minor",
+      "type": "expansion",
+      "note": "Greek υἱοῦ and Latin Filii are bare nouns; the Peshitta ܒܪܗ carries the 3ms possessive suffix -ܗ (literally 'his son'), with the referent God resolved by the following ܕܐܠܗܐ. A minor expansion of pronominal explicitness characteristic of Syriac. [Patched in corpus v1.0.0 — original output verdict 'aligned' missed the Peshitta possessive suffix.]"
     },
     {
       "greek_nt": [
@@ -107,7 +108,7 @@
       ],
       "variant": "minor",
       "type": "construction",
-      "note": "Greek includes the second article τοῦ before θεοῦ, creating an articular genitive construction typical of Koine; Syriac and Latin omit the article (Syriac ܕܐܠܗܐ, Latin Dei), reflecting their respective grammatical norms for divine titles in genitive constructions."
+      "note": "Greek marks the genitive with article τοῦ + θεοῦ (articular genitive typical of Koine); the Peshitta marks it with proclitic ܕ- on ܐܠܗܐ (the noun stands in the emphatic state, which itself supplies definiteness in Syriac); the Vulgate uses bare inflection (Dei). Three different grammatical realisations of the same divine title in genitive position. [Patched in corpus v1.0.0 — original output mis-described the Syriac as 'omitting the article' which conflates two distinct grammatical systems.]"
     }
   ],
   "meta": {

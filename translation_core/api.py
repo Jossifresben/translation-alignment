@@ -228,7 +228,8 @@ def manifest():
 
     # Benchmark metadata, if present on disk
     benchmark = None
-    bench_path = Path(__file__).resolve().parent.parent / "data" / "benchmarks" / "berean_preflight.json"
+    data_root = Path(__file__).resolve().parent.parent / "data"
+    bench_path = data_root / "benchmarks" / "berean_preflight.json"
     if bench_path.exists():
         try:
             b = json.loads(bench_path.read_text(encoding="utf-8"))
@@ -240,6 +241,14 @@ def manifest():
             }
         except Exception:
             benchmark = None
+
+    # Corpus version is the single source of truth at data/alignments/CORPUS_VERSION
+    # (semver: MAJOR.MINOR.PATCH; see data/alignments/CHANGELOG.md).
+    corpus_version_path = data_root / "alignments" / "CORPUS_VERSION"
+    corpus_version = (
+        corpus_version_path.read_text(encoding="utf-8").strip()
+        if corpus_version_path.exists() else None
+    )
 
     return jsonify({
         "api_version": API_VERSION,
@@ -256,6 +265,8 @@ def manifest():
             "Code: open-source (intended). Derived alignment JSON: CC BY 4.0 "
             "+ public domain mix; redistribute with attribution."
         ),
+        "corpus_version": corpus_version,
+        "changelog_url": "https://github.com/Jossifresben/translation-alignment/blob/main/data/alignments/CHANGELOG.md",
         "schema_version": 1,
         "books": books_out,
         "witnesses": [
