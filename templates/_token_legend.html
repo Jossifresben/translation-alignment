@@ -1,0 +1,27 @@
+{# Token legend — rendered below the verse view (was previously in the right rail). #}
+<section class="token-legend-below" aria-label="{{ t('rail.token_legend') }}">
+  <div class="token-legend-head">
+    <span class="token-legend-title">{{ t('rail.token_legend') }}</span>
+    <span class="token-legend-sub">
+      {% if view == 'parallel' %}{{ t('rail.legend_intro_grid') }}{% else %}{{ t('rail.legend_intro_inter') }}{% endif %}
+    </span>
+  </div>
+  <div class="token-legend-grid">
+    <div class="legend-item">
+      <div class="legend-sample sample-aligned">{{ t('rail.legend_aligned_label') }}</div>
+      <p class="legend-desc">{{ t('rail.legend_aligned_desc') }}</p>
+    </div>
+    <div class="legend-item">
+      <div class="legend-sample sample-major">{{ t('rail.legend_major_label') }}</div>
+      <p class="legend-desc">{{ t('rail.legend_major_desc') }}</p>
+    </div>
+    <div class="legend-item">
+      <div class="legend-sample sample-minor">{{ t('rail.legend_minor_label') }}</div>
+      <p class="legend-desc">{{ t('rail.legend_minor_desc') }}</p>
+    </div>
+    <div class="legend-item">
+      <div class="legend-sample sample-unaligned"><em>{{ t('rail.legend_unaligned_label') }}</em></div>
+      <p class="legend-desc">{{ t('rail.legend_unaligned_desc') }}</p>
+    </div>
+  </div>
+</section>

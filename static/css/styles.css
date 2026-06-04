@@ -1784,6 +1784,50 @@ body.dark::before {
   cursor: pointer;
 }
 
+/* --- Token legend, rendered below the verse view (horizontal) --- */
+.token-legend-below {
+  margin: 40px 0 0;
+  padding: 24px 0 0;
+  border-top: 1px solid var(--rule);
+}
+.token-legend-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.token-legend-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-3);
+}
+.token-legend-sub {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+.token-legend-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+/* Reset the rail's vertical-list framing for the horizontal grid context */
+.token-legend-grid .legend-item {
+  padding: 0;
+  border-bottom: none;
+  gap: 10px;
+}
+@media (max-width: 880px) {
+  .token-legend-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .token-legend-grid { grid-template-columns: 1fr; }
+}
+
 /* --- Verse-page AI-draft disclaimer banner --- */
 .verse-disclaimer {
   display: flex;

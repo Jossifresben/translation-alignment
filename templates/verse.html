@@ -92,4 +92,8 @@
       {% include '_rail.html' %}
     {% endif %}
   </div>
+
+  {% if view != 'apparatus' %}
+    {% include '_token_legend.html' %}
+  {% endif %}
 {% endblock %}

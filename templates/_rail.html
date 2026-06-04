@@ -22,29 +22,6 @@
     </div>
   </div>
 
-  <div class="rail-section">
-    <div class="rail-title">{{ t('rail.token_legend') }}</div>
-    <p class="rail-sub">
-      {% if view == 'parallel' %}{{ t('rail.legend_intro_grid') }}{% else %}{{ t('rail.legend_intro_inter') }}{% endif %}
-    </p>
-    <div class="legend-item">
-      <div class="legend-sample sample-aligned">{{ t('rail.legend_aligned_label') }}</div>
-      <p class="legend-desc">{{ t('rail.legend_aligned_desc') }}</p>
-    </div>
-    <div class="legend-item">
-      <div class="legend-sample sample-major">{{ t('rail.legend_major_label') }}</div>
-      <p class="legend-desc">{{ t('rail.legend_major_desc') }}</p>
-    </div>
-    <div class="legend-item">
-      <div class="legend-sample sample-minor">{{ t('rail.legend_minor_label') }}</div>
-      <p class="legend-desc">{{ t('rail.legend_minor_desc') }}</p>
-    </div>
-    <div class="legend-item">
-      <div class="legend-sample sample-unaligned"><em>{{ t('rail.legend_unaligned_label') }}</em></div>
-      <p class="legend-desc">{{ t('rail.legend_unaligned_desc') }}</p>
-    </div>
-  </div>
-
   {% if verse.variants %}
   <div class="rail-section">
     <div class="rail-title">
